@@ -1,0 +1,9 @@
+export const API_LIMIT = 1000;
+export const DEFAULT_LANGUAGE = 'de';
+export const PDF_MIME_TYPE = 'application/pdf';
+export const XML_MIME_TYPE = 'application/atom+xml';
+export const FEED_GENERATOR = 'Custom TypeScript Atom Feed Generator';
+export const HTTP_OK = 200;
+export const HTTP_NOT_FOUND = 404;
+export const DEFAULT_RETRY_COUNT = 3;
+export const DEFAULT_RETRY_DELAY = 1000; // 1 second
