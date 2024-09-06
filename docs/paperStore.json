@@ -2805,7 +2805,7 @@
           }
         ],
         "created": "2024-06-18T09:34:41+02:00",
-        "modified": "2024-09-04T15:49:45+02:00"
+        "modified": "2024-09-05T17:20:52+02:00"
       }
     ],
     [
@@ -73727,7 +73727,7 @@
           }
         ],
         "created": "2024-09-03T16:07:49+02:00",
-        "modified": "2024-09-04T19:43:25+02:00"
+        "modified": "2024-09-05T18:57:08+02:00"
       }
     ],
     [
@@ -74552,6 +74552,113 @@
         ],
         "created": "2022-09-13T15:37:11+02:00",
         "modified": "2024-09-02T16:58:29+02:00"
+      }
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50888",
+      {
+        "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50888",
+        "type": "https://schema.oparl.org/1.1/Paper",
+        "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+        "name": "Straßenbeleuchtung zum Festplatz (Ponderosa)",
+        "reference": "2024/0558/1",
+        "date": "2024-08-22",
+        "paperType": "Beschlussvorlage",
+        "subordinatedPaper": [
+          "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50461"
+        ],
+        "auxiliaryFile": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660377",
+            "type": "https://schema.oparl.org/1.1/File",
+            "name": "Beschlussvorlage Wolfartsweier",
+            "fileName": "00660377.pdf",
+            "mimeType": "application/pdf",
+            "date": "2024-08-22",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660377.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660377.pdf",
+            "created": "2024-08-22T18:13:14+02:00",
+            "modified": "2024-09-05T18:12:52+02:00"
+          }
+        ],
+        "underDirectionOf": [
+          "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+        ],
+        "consultation": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32731",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50888",
+            "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/89815",
+            "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9807",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+            ],
+            "role": "Entscheidung",
+            "created": "2024-08-22T18:19:43+02:00",
+            "modified": "2024-08-22T18:19:43+02:00"
+          }
+        ],
+        "created": "2024-08-22T18:03:59+02:00",
+        "modified": "2024-09-05T18:12:52+02:00"
+      }
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50798",
+      {
+        "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50798",
+        "type": "https://schema.oparl.org/1.1/Paper",
+        "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+        "name": "Antrag auf Umgestaltung eines Rasenstücks in der Wettersteinstraße in ein Staudenbeet",
+        "reference": "2024/0870",
+        "date": "2024-07-31",
+        "paperType": "Antrag",
+        "auxiliaryFile": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659938",
+            "type": "https://schema.oparl.org/1.1/File",
+            "name": "Antrag Wolfartsweier",
+            "fileName": "00659938.pdf",
+            "mimeType": "application/pdf",
+            "date": "2024-07-31",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659938.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659938.pdf",
+            "created": "2024-07-31T16:48:38+02:00",
+            "modified": "2024-09-05T18:03:58+02:00"
+          },
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659939",
+            "type": "https://schema.oparl.org/1.1/File",
+            "name": "Stellungnahme Antrag Wolfartsweier",
+            "fileName": "00659939.pdf",
+            "mimeType": "application/pdf",
+            "date": "2024-07-31",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659939.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659939.pdf",
+            "created": "2024-07-31T16:51:45+02:00",
+            "modified": "2024-09-05T18:03:58+02:00"
+          }
+        ],
+        "underDirectionOf": [
+          "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+        ],
+        "consultation": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32598",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50798",
+            "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/88574",
+            "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9807",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+            ],
+            "role": "Entscheidung",
+            "created": "2024-08-08T14:22:47+02:00",
+            "modified": "2024-08-22T18:19:43+02:00"
+          }
+        ],
+        "created": "2024-07-31T16:48:13+02:00",
+        "modified": "2024-09-05T18:03:58+02:00"
       }
     ]
   ],
@@ -79355,6 +79462,14 @@
     [
       "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28073",
       "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47426"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32731",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50888"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32598",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50798"
     ]
   ]
 }
