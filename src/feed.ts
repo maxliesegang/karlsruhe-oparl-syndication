@@ -55,36 +55,55 @@ export async function createFeed(
 
 async function getAdditionalInfo(
   item: AgendaItem,
-): Promise<{ auxiliaryFileInfo: string; pdfContents: string }> {
+): Promise<{ auxiliaryFileInfo: string; pdfContents: string; paperLastUpdate: Date | null }> {
   let auxiliaryFileInfo = '';
   let pdfContents = '';
+  let paperLastUpdate: Date | null = null;
 
   if (item.consultation) {
     try {
       const paper = store.papers.getPaperByConsultationId(item.consultation);
-      if (paper && paper.auxiliaryFile && paper.auxiliaryFile.length > 0) {
-        const pdfPromises = paper.auxiliaryFile.map(async (file) => {
-          const correctedUrl = correctUrl(file.downloadUrl);
-          auxiliaryFileInfo += `<a href="${correctedUrl}">${file.name}</a><br>`;
+      if (paper) {
+        const lastUpdateDate = paper.modified || paper.created;
+        if (lastUpdateDate) {
+          paperLastUpdate = new Date(lastUpdateDate);
+        }
 
-          if (config.extractPdfText) {
-            const pdfData = await extractPdfText(correctedUrl);
-            if (pdfData) {
-              return `<br>Datei: ${file.name}<br>${pdfData.text}<br>`;
+        if (paper.auxiliaryFile && paper.auxiliaryFile.length > 0) {
+          const pdfPromises = paper.auxiliaryFile.map(async (file) => {
+            const correctedUrl = correctUrl(file.downloadUrl);
+            const createdDate = new Date(file.created).toLocaleDateString('de-DE', {
+              year: 'numeric',
+              month: '2-digit',
+              day: '2-digit',
+            });
+            const modifiedDate = new Date(file.modified).toLocaleDateString('de-DE', {
+              year: 'numeric',
+              month: '2-digit',
+              day: '2-digit',
+            });
+
+            auxiliaryFileInfo += `<a href="${correctedUrl}">${file.name} (Erstellt am: ${createdDate}, Aktualisiert am: ${modifiedDate})</a><br>`;
+
+            if (config.extractPdfText) {
+              const pdfData = await extractPdfText(correctedUrl);
+              if (pdfData) {
+                return `<br>Datei: ${file.name}<br>${pdfData.text}<br>`;
+              }
             }
-          }
-          return '';
-        });
+            return '';
+          });
 
-        const pdfResults = await Promise.all(pdfPromises);
-        pdfContents = pdfResults.join('');
+          const pdfResults = await Promise.all(pdfPromises);
+          pdfContents = pdfResults.join('');
+        }
       }
     } catch (error) {
       console.error('Error fetching additional data:', error);
     }
   }
 
-  return { auxiliaryFileInfo, pdfContents };
+  return { auxiliaryFileInfo, pdfContents, paperLastUpdate };
 }
 
 async function addItemToFeed(feed: Feed, meeting: Meeting, item: AgendaItem): Promise<void> {
@@ -94,13 +113,22 @@ async function addItemToFeed(feed: Feed, meeting: Meeting, item: AgendaItem): Pr
   const relativePath = item.number ? `#top${item.number}` : '';
   const itemLink = `https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-${meetingLastPath}${relativePath}`;
 
-  const { auxiliaryFileInfo, pdfContents } = await getAdditionalInfo(item);
+  const { auxiliaryFileInfo, pdfContents, paperLastUpdate } = await getAdditionalInfo(item);
 
   const meetingDay = new Date(meeting.start).toLocaleDateString('de-DE', {
     year: 'numeric',
     month: 'long',
     day: 'numeric',
   });
+
+  // Determine the most recent date
+  const itemModified = new Date(item.modified);
+  const itemCreated = new Date(item.created);
+  const dates = [itemModified, itemCreated];
+  if (paperLastUpdate) {
+    dates.push(paperLastUpdate);
+  }
+  const mostRecentDate = new Date(Math.max(...dates.map((d) => d.getTime())));
 
   feed.addItem({
     title: item.name,
@@ -117,7 +145,7 @@ async function addItemToFeed(feed: Feed, meeting: Meeting, item: AgendaItem): Pr
       <b>PDF Inhalte</b>:
       ${pdfContents}
       `,
-    date: new Date(item.modified),
+    date: mostRecentDate,
     published: new Date(item.created),
   });
 }
