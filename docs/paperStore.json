@@ -15770,7 +15770,7 @@
           }
         ],
         "created": "2024-04-16T16:28:24+02:00",
-        "modified": "2024-10-07T18:44:31+02:00"
+        "modified": "2024-10-10T19:29:37+02:00"
       }
     ],
     [
@@ -67833,7 +67833,7 @@
           }
         ],
         "created": "2023-10-11T15:32:53+02:00",
-        "modified": "2024-04-09T13:42:28+02:00"
+        "modified": "2024-10-10T16:53:53+02:00"
       }
     ],
     [
@@ -73861,7 +73861,7 @@
           }
         ],
         "created": "2024-07-23T16:32:49+02:00",
-        "modified": "2024-10-09T18:35:04+02:00"
+        "modified": "2024-10-10T15:33:47+02:00"
       }
     ],
     [
@@ -78386,19 +78386,19 @@
             "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660372.pdf",
             "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660372.pdf",
             "created": "2024-08-22T16:46:54+02:00",
-            "modified": "2024-09-25T12:34:19+02:00"
+            "modified": "2024-10-10T12:02:18+02:00"
           },
           {
-            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660373",
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661524",
             "type": "https://schema.oparl.org/1.1/File",
             "name": "Anlage",
-            "fileName": "00660373.pdf",
+            "fileName": "00661524.pdf",
             "mimeType": "application/pdf",
-            "date": "2024-08-22",
-            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660373.pdf",
-            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660373.pdf",
-            "created": "2024-08-22T16:47:31+02:00",
-            "modified": "2024-09-25T12:34:19+02:00"
+            "date": "2024-10-10",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661524.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661524.pdf",
+            "created": "2024-10-10T12:01:06+02:00",
+            "modified": "2024-10-10T12:02:18+02:00"
           }
         ],
         "underDirectionOf": [
@@ -78416,11 +78416,24 @@
             ],
             "role": "Vorberatung",
             "created": "2024-08-13T09:46:46+02:00",
-            "modified": "2024-08-26T11:50:30+02:00"
+            "modified": "2024-10-04T13:32:46+02:00"
+          },
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32663",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50840",
+            "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90278",
+            "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+            ],
+            "role": "Entscheidung",
+            "created": "2024-09-25T09:33:35+02:00",
+            "modified": "2024-10-07T13:49:21+02:00"
           }
         ],
         "created": "2024-08-13T09:27:38+02:00",
-        "modified": "2024-09-25T12:34:19+02:00"
+        "modified": "2024-10-10T12:02:18+02:00"
       }
     ],
     [
@@ -78870,7 +78883,7 @@
           }
         ],
         "created": "2024-08-26T14:37:45+02:00",
-        "modified": "2024-09-30T09:17:24+02:00"
+        "modified": "2024-10-10T18:56:20+02:00"
       }
     ],
     [
@@ -78916,7 +78929,7 @@
           }
         ],
         "created": "2024-08-26T13:58:47+02:00",
-        "modified": "2024-09-30T09:27:03+02:00"
+        "modified": "2024-10-10T18:14:55+02:00"
       }
     ],
     [
@@ -81140,7 +81153,7 @@
           }
         ],
         "created": "2024-10-07T13:41:38+02:00",
-        "modified": "2024-10-09T19:12:25+02:00"
+        "modified": "2024-10-10T09:12:10+02:00"
       }
     ],
     [
@@ -81340,6 +81353,1119 @@
         ],
         "created": "2024-08-02T14:23:17+02:00",
         "modified": "2024-10-09T10:53:56+02:00"
+      }
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51033",
+      {
+        "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51033",
+        "type": "https://schema.oparl.org/1.1/Paper",
+        "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+        "name": "Turnhallen-Dach der Südend-Grundschule instand setzen",
+        "reference": "2024/1093",
+        "date": "2024-09-26",
+        "paperType": "Antrag",
+        "auxiliaryFile": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661241",
+            "type": "https://schema.oparl.org/1.1/File",
+            "name": "Antrag",
+            "fileName": "00661241.pdf",
+            "mimeType": "application/pdf",
+            "date": "2024-09-26",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661241.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661241.pdf",
+            "created": "2024-09-26T14:04:01+02:00",
+            "modified": "2024-10-10T16:21:17+02:00"
+          }
+        ],
+        "underDirectionOf": [
+          "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+        ],
+        "consultation": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32937",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51033",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+            ],
+            "role": "Behandlung",
+            "created": "2024-09-30T11:50:28+02:00",
+            "modified": "2024-09-30T11:50:52+02:00"
+          },
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32936",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51033",
+            "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90545",
+            "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+            ],
+            "role": "Kenntnisnahme",
+            "created": "2024-10-07T13:57:20+02:00",
+            "modified": "2024-10-08T15:56:14+02:00"
+          }
+        ],
+        "created": "2024-09-26T14:03:09+02:00",
+        "modified": "2024-10-10T16:21:17+02:00"
+      }
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51025",
+      {
+        "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51025",
+        "type": "https://schema.oparl.org/1.1/Paper",
+        "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+        "name": "Auskömmliche Zuschüsse für Betreuungsvereine: Situation der Betreuungsvereine verbessern und als Pflichtaufgabe anerkennen",
+        "reference": "2024/1085",
+        "date": "2024-09-25",
+        "paperType": "Antrag",
+        "auxiliaryFile": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661118",
+            "type": "https://schema.oparl.org/1.1/File",
+            "name": "Antrag",
+            "fileName": "00661118.pdf",
+            "mimeType": "application/pdf",
+            "date": "2024-09-25",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661118.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661118.pdf",
+            "created": "2024-09-25T09:06:32+02:00",
+            "modified": "2024-10-10T16:21:10+02:00"
+          }
+        ],
+        "underDirectionOf": [
+          "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+        ],
+        "consultation": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32966",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51025",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33195"
+            ],
+            "role": "Behandlung",
+            "created": "2024-10-04T09:20:41+02:00",
+            "modified": "2024-10-04T09:20:41+02:00"
+          },
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32903",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51025",
+            "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90300",
+            "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+            ],
+            "role": "Kenntnisnahme",
+            "created": "2024-09-25T09:33:36+02:00",
+            "modified": "2024-10-08T15:56:14+02:00"
+          }
+        ],
+        "created": "2024-09-25T09:05:28+02:00",
+        "modified": "2024-10-10T16:21:09+02:00"
+      }
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51024",
+      {
+        "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51024",
+        "type": "https://schema.oparl.org/1.1/Paper",
+        "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+        "name": "Wettbewerb für Studierende: Aufwertung des ZKM-Vorplatzes und des \"Platz für Menschenrechte\" für die Allgemeinheit",
+        "reference": "2024/1084",
+        "date": "2024-09-25",
+        "paperType": "Antrag",
+        "auxiliaryFile": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661117",
+            "type": "https://schema.oparl.org/1.1/File",
+            "name": "Antrag",
+            "fileName": "00661117.pdf",
+            "mimeType": "application/pdf",
+            "date": "2024-09-25",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661117.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661117.pdf",
+            "created": "2024-09-25T09:01:09+02:00",
+            "modified": "2024-10-10T16:21:00+02:00"
+          }
+        ],
+        "underDirectionOf": [
+          "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+        ],
+        "consultation": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32902",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51024",
+            "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90616",
+            "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+            ],
+            "role": "Kenntnisnahme",
+            "created": "2024-10-08T15:34:18+02:00",
+            "modified": "2024-10-08T15:56:14+02:00"
+          }
+        ],
+        "created": "2024-09-25T08:58:52+02:00",
+        "modified": "2024-10-10T16:21:00+02:00"
+      }
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51020",
+      {
+        "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51020",
+        "type": "https://schema.oparl.org/1.1/Paper",
+        "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+        "name": "Abschaltung von Ampeln in der Nacht",
+        "reference": "2024/1080",
+        "date": "2024-09-24",
+        "paperType": "Anfrage",
+        "auxiliaryFile": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661103",
+            "type": "https://schema.oparl.org/1.1/File",
+            "name": "Anfrage",
+            "fileName": "00661103.pdf",
+            "mimeType": "application/pdf",
+            "date": "2024-09-24",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661103.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661103.pdf",
+            "created": "2024-09-24T14:58:58+02:00",
+            "modified": "2024-10-10T16:22:56+02:00"
+          }
+        ],
+        "underDirectionOf": [
+          "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+        ],
+        "consultation": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32899",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51020",
+            "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90309",
+            "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+            ],
+            "role": "Kenntnisnahme",
+            "created": "2024-09-25T09:33:36+02:00",
+            "modified": "2024-10-08T15:56:14+02:00"
+          }
+        ],
+        "created": "2024-09-24T14:58:36+02:00",
+        "modified": "2024-10-10T16:22:56+02:00"
+      }
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51019",
+      {
+        "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51019",
+        "type": "https://schema.oparl.org/1.1/Paper",
+        "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+        "name": "Zustand der Brücken in Karlsruhe",
+        "reference": "2024/1079",
+        "date": "2024-09-24",
+        "paperType": "Anfrage",
+        "auxiliaryFile": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661102",
+            "type": "https://schema.oparl.org/1.1/File",
+            "name": "Anfrage",
+            "fileName": "00661102.pdf",
+            "mimeType": "application/pdf",
+            "date": "2024-09-24",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661102.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661102.pdf",
+            "created": "2024-09-24T14:56:58+02:00",
+            "modified": "2024-10-10T16:22:47+02:00"
+          }
+        ],
+        "underDirectionOf": [
+          "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+        ],
+        "consultation": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32898",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51019",
+            "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90308",
+            "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+            ],
+            "role": "Kenntnisnahme",
+            "created": "2024-09-25T09:33:36+02:00",
+            "modified": "2024-10-08T15:56:14+02:00"
+          }
+        ],
+        "created": "2024-09-24T14:56:33+02:00",
+        "modified": "2024-10-10T21:45:29+02:00"
+      }
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51018",
+      {
+        "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51018",
+        "type": "https://schema.oparl.org/1.1/Paper",
+        "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+        "name": "Schaffung individueller Ladeinfrastrukturen",
+        "reference": "2024/1078",
+        "date": "2024-09-24",
+        "paperType": "Anfrage",
+        "auxiliaryFile": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661101",
+            "type": "https://schema.oparl.org/1.1/File",
+            "name": "Anfrage",
+            "fileName": "00661101.pdf",
+            "mimeType": "application/pdf",
+            "date": "2024-09-24",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661101.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661101.pdf",
+            "created": "2024-09-24T14:51:52+02:00",
+            "modified": "2024-10-10T16:22:31+02:00"
+          }
+        ],
+        "underDirectionOf": [
+          "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+        ],
+        "consultation": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32897",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51018",
+            "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90307",
+            "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+            ],
+            "role": "Kenntnisnahme",
+            "created": "2024-09-25T09:33:36+02:00",
+            "modified": "2024-10-08T15:56:14+02:00"
+          }
+        ],
+        "created": "2024-09-24T14:51:29+02:00",
+        "modified": "2024-10-10T18:18:55+02:00"
+      }
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51017",
+      {
+        "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51017",
+        "type": "https://schema.oparl.org/1.1/Paper",
+        "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+        "name": "Schnellstmögliche Umsetzung der Verkehrserschließungsmaßnahme Spitalhof: Dringlicher Ausbau des landwirtschaftlichen Zufahrtsweges",
+        "reference": "2024/1077",
+        "date": "2024-09-24",
+        "paperType": "Anfrage",
+        "auxiliaryFile": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661100",
+            "type": "https://schema.oparl.org/1.1/File",
+            "name": "Anfrage",
+            "fileName": "00661100.pdf",
+            "mimeType": "application/pdf",
+            "date": "2024-09-24",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661100.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661100.pdf",
+            "created": "2024-09-24T14:49:19+02:00",
+            "modified": "2024-10-10T16:21:59+02:00"
+          }
+        ],
+        "underDirectionOf": [
+          "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+        ],
+        "consultation": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32896",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51017",
+            "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90306",
+            "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+            ],
+            "role": "Kenntnisnahme",
+            "created": "2024-09-25T09:33:36+02:00",
+            "modified": "2024-10-08T15:56:14+02:00"
+          }
+        ],
+        "created": "2024-09-24T14:48:56+02:00",
+        "modified": "2024-10-10T16:21:59+02:00"
+      }
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51016",
+      {
+        "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51016",
+        "type": "https://schema.oparl.org/1.1/Paper",
+        "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+        "name": "Ausstiegsarbeit aus der Prostitution",
+        "reference": "2024/1076",
+        "date": "2024-09-24",
+        "paperType": "Anfrage",
+        "auxiliaryFile": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661099",
+            "type": "https://schema.oparl.org/1.1/File",
+            "name": "Anfrage",
+            "fileName": "00661099.pdf",
+            "mimeType": "application/pdf",
+            "date": "2024-09-24",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661099.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661099.pdf",
+            "created": "2024-09-24T14:44:57+02:00",
+            "modified": "2024-10-10T16:21:51+02:00"
+          }
+        ],
+        "underDirectionOf": [
+          "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+        ],
+        "consultation": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32895",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51016",
+            "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90305",
+            "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+            ],
+            "role": "Kenntnisnahme",
+            "created": "2024-09-25T09:33:36+02:00",
+            "modified": "2024-10-08T15:56:14+02:00"
+          }
+        ],
+        "created": "2024-09-24T14:44:33+02:00",
+        "modified": "2024-10-10T16:21:51+02:00"
+      }
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51015",
+      {
+        "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51015",
+        "type": "https://schema.oparl.org/1.1/Paper",
+        "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+        "name": "Wertschätzung für Wahlhelferinnen und Wahlhelfer: Maßnahmen zur Attraktivitätssteigerung - Erkenntnisse aus der Kommunalwahl ernst nehmen",
+        "reference": "2024/1075",
+        "date": "2024-09-24",
+        "paperType": "Antrag",
+        "auxiliaryFile": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661098",
+            "type": "https://schema.oparl.org/1.1/File",
+            "name": "Antrag",
+            "fileName": "00661098.pdf",
+            "mimeType": "application/pdf",
+            "date": "2024-09-24",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661098.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661098.pdf",
+            "created": "2024-09-24T14:42:26+02:00",
+            "modified": "2024-10-10T16:20:48+02:00"
+          }
+        ],
+        "underDirectionOf": [
+          "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882965"
+        ],
+        "consultation": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32894",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51015",
+            "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90550",
+            "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+            ],
+            "role": "Kenntnisnahme",
+            "created": "2024-10-07T15:28:14+02:00",
+            "modified": "2024-10-08T15:56:14+02:00"
+          }
+        ],
+        "created": "2024-09-24T14:41:53+02:00",
+        "modified": "2024-10-10T16:20:48+02:00"
+      }
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51014",
+      {
+        "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51014",
+        "type": "https://schema.oparl.org/1.1/Paper",
+        "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+        "name": "Beitritt zum Bündnis für Demokratie und Menschenrechte",
+        "reference": "2024/1074",
+        "date": "2024-09-24",
+        "paperType": "Antrag",
+        "auxiliaryFile": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661097",
+            "type": "https://schema.oparl.org/1.1/File",
+            "name": "Antrag",
+            "fileName": "00661097.pdf",
+            "mimeType": "application/pdf",
+            "date": "2024-09-24",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661097.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661097.pdf",
+            "created": "2024-09-24T14:38:28+02:00",
+            "modified": "2024-10-10T16:20:36+02:00"
+          }
+        ],
+        "underDirectionOf": [
+          "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882970"
+        ],
+        "consultation": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32893",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51014",
+            "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90295",
+            "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+            ],
+            "role": "Kenntnisnahme",
+            "created": "2024-09-25T09:33:36+02:00",
+            "modified": "2024-10-08T15:56:14+02:00"
+          }
+        ],
+        "created": "2024-09-24T14:37:47+02:00",
+        "modified": "2024-10-10T16:20:36+02:00"
+      }
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50995",
+      {
+        "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50995",
+        "type": "https://schema.oparl.org/1.1/Paper",
+        "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+        "name": "Erwerb des Areals C in der Karlsruhe Nordstadt zur schnellstmöglichen Wohnbauentwicklung",
+        "reference": "2024/1061",
+        "date": "2024-09-19",
+        "paperType": "Antrag",
+        "auxiliaryFile": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660984",
+            "type": "https://schema.oparl.org/1.1/File",
+            "name": "Antrag",
+            "fileName": "00660984.pdf",
+            "mimeType": "application/pdf",
+            "date": "2024-09-19",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660984.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660984.pdf",
+            "created": "2024-09-19T09:03:55+02:00",
+            "modified": "2024-10-10T16:20:17+02:00"
+          }
+        ],
+        "underDirectionOf": [
+          "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+        ],
+        "consultation": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32867",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50995",
+            "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90617",
+            "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+            ],
+            "role": "Kenntnisnahme",
+            "created": "2024-10-08T15:50:12+02:00",
+            "modified": "2024-10-08T15:56:14+02:00"
+          }
+        ],
+        "created": "2024-09-19T09:02:59+02:00",
+        "modified": "2024-10-10T16:20:17+02:00"
+      }
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50993",
+      {
+        "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50993",
+        "type": "https://schema.oparl.org/1.1/Paper",
+        "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+        "name": "Grüne Welle für Karlsruhe",
+        "reference": "2024/1059",
+        "date": "2024-09-18",
+        "paperType": "Antrag",
+        "auxiliaryFile": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660976",
+            "type": "https://schema.oparl.org/1.1/File",
+            "name": "Antrag",
+            "fileName": "00660976.pdf",
+            "mimeType": "application/pdf",
+            "date": "2024-09-18",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660976.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660976.pdf",
+            "created": "2024-09-18T16:57:38+02:00",
+            "modified": "2024-10-10T16:20:27+02:00"
+          }
+        ],
+        "underDirectionOf": [
+          "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+        ],
+        "consultation": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32865",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50993",
+            "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90294",
+            "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+            ],
+            "role": "Kenntnisnahme",
+            "created": "2024-09-25T09:33:36+02:00",
+            "modified": "2024-10-08T15:56:14+02:00"
+          }
+        ],
+        "created": "2024-09-18T16:56:53+02:00",
+        "modified": "2024-10-10T16:20:26+02:00"
+      }
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50989",
+      {
+        "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50989",
+        "type": "https://schema.oparl.org/1.1/Paper",
+        "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+        "name": "Abschluss von Rahmenverträgen für die Anmietung von Abfallsammelfahrzeugen",
+        "reference": "2024/1055",
+        "date": "2024-09-18",
+        "paperType": "Beschlussvorlage",
+        "auxiliaryFile": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661383",
+            "type": "https://schema.oparl.org/1.1/File",
+            "name": "Beschlussvorlage",
+            "fileName": "00661383.pdf",
+            "mimeType": "application/pdf",
+            "date": "2024-10-02",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661383.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661383.pdf",
+            "created": "2024-10-02T16:05:15+02:00",
+            "modified": "2024-10-10T17:36:35+02:00"
+          }
+        ],
+        "underDirectionOf": [
+          "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+        ],
+        "consultation": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32861",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50989",
+            "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90487",
+            "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9696",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54889"
+            ],
+            "role": "Entscheidung",
+            "created": "2024-10-02T11:05:18+02:00",
+            "modified": "2024-10-02T11:05:44+02:00"
+          }
+        ],
+        "created": "2024-09-18T11:32:54+02:00",
+        "modified": "2024-10-10T17:36:35+02:00"
+      }
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50988",
+      {
+        "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50988",
+        "type": "https://schema.oparl.org/1.1/Paper",
+        "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+        "name": "Auftragsvergabe für die Abholung, den Transport und die Verwertung/Entsorgung von Schadstoffen",
+        "reference": "2024/1054",
+        "date": "2024-09-18",
+        "paperType": "Beschlussvorlage",
+        "auxiliaryFile": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661045",
+            "type": "https://schema.oparl.org/1.1/File",
+            "name": "Beschlussvorlage",
+            "fileName": "00661045.pdf",
+            "mimeType": "application/pdf",
+            "date": "2024-09-23",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661045.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661045.pdf",
+            "created": "2024-09-23T15:13:46+02:00",
+            "modified": "2024-10-10T16:03:05+02:00"
+          }
+        ],
+        "underDirectionOf": [
+          "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+        ],
+        "consultation": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32860",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50988",
+            "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90486",
+            "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9696",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54889"
+            ],
+            "role": "Entscheidung",
+            "created": "2024-10-02T11:05:18+02:00",
+            "modified": "2024-10-02T11:05:44+02:00"
+          }
+        ],
+        "created": "2024-09-18T11:27:07+02:00",
+        "modified": "2024-10-10T16:03:05+02:00"
+      }
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50987",
+      {
+        "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50987",
+        "type": "https://schema.oparl.org/1.1/Paper",
+        "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+        "name": "Änderung in der Besetzung des Ausschusses für Umwelt und Gesundheit auf Wunsch der Volt-Gemeinderatsfraktion",
+        "reference": "2024/1053",
+        "date": "2024-09-18",
+        "paperType": "Beschlussvorlage",
+        "auxiliaryFile": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660954",
+            "type": "https://schema.oparl.org/1.1/File",
+            "name": "Beschlussvorlage",
+            "fileName": "00660954.pdf",
+            "mimeType": "application/pdf",
+            "date": "2024-09-18",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660954.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660954.pdf",
+            "created": "2024-09-18T11:04:09+02:00",
+            "modified": "2024-10-10T16:26:27+02:00"
+          }
+        ],
+        "underDirectionOf": [
+          "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882850"
+        ],
+        "consultation": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32859",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50987",
+            "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90288",
+            "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+            ],
+            "role": "Entscheidung",
+            "created": "2024-09-25T09:33:35+02:00",
+            "modified": "2024-09-25T09:34:38+02:00"
+          }
+        ],
+        "created": "2024-09-18T11:01:33+02:00",
+        "modified": "2024-10-10T16:26:44+02:00"
+      }
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50986",
+      {
+        "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50986",
+        "type": "https://schema.oparl.org/1.1/Paper",
+        "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+        "name": "Umbesetzung von Ausschüssen und sonstigen Gremien nach dem Ausscheiden von Stadtrat Marco Gottmann aus dem Gemeinderat",
+        "reference": "2024/1052",
+        "date": "2024-09-18",
+        "paperType": "Beschlussvorlage",
+        "auxiliaryFile": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660950",
+            "type": "https://schema.oparl.org/1.1/File",
+            "name": "Beschlussvorlage",
+            "fileName": "00660950.pdf",
+            "mimeType": "application/pdf",
+            "date": "2024-09-18",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660950.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660950.pdf",
+            "created": "2024-09-18T10:16:41+02:00",
+            "modified": "2024-10-10T16:11:36+02:00"
+          },
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660951",
+            "type": "https://schema.oparl.org/1.1/File",
+            "name": "Anlage, Umbesetzung von Ausschüssen",
+            "fileName": "00660951.pdf",
+            "mimeType": "application/pdf",
+            "date": "2024-09-18",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660951.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660951.pdf",
+            "created": "2024-09-18T10:39:05+02:00",
+            "modified": "2024-10-10T16:11:36+02:00"
+          }
+        ],
+        "underDirectionOf": [
+          "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882850"
+        ],
+        "consultation": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32858",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50986",
+            "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90287",
+            "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+            ],
+            "role": "Entscheidung",
+            "created": "2024-09-25T09:33:35+02:00",
+            "modified": "2024-09-25T09:34:21+02:00"
+          }
+        ],
+        "created": "2024-09-18T10:15:01+02:00",
+        "modified": "2024-10-10T16:11:36+02:00"
+      }
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50983",
+      {
+        "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50983",
+        "type": "https://schema.oparl.org/1.1/Paper",
+        "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+        "name": "Kooperatives Krankenhausmodell für Karlsruhe",
+        "reference": "2024/1049",
+        "date": "2024-09-17",
+        "paperType": "Antrag",
+        "auxiliaryFile": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660916",
+            "type": "https://schema.oparl.org/1.1/File",
+            "name": "Antrag",
+            "fileName": "00660916.pdf",
+            "mimeType": "application/pdf",
+            "date": "2024-09-17",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660916.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660916.pdf",
+            "created": "2024-09-17T13:14:39+02:00",
+            "modified": "2024-10-10T16:20:07+02:00"
+          }
+        ],
+        "underDirectionOf": [
+          "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882994"
+        ],
+        "consultation": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32872",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50983",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+            ],
+            "role": "Behandlung",
+            "created": "2024-09-20T09:04:38+02:00",
+            "modified": "2024-09-20T09:04:38+02:00"
+          },
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32854",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50983",
+            "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90293",
+            "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+            ],
+            "role": "Kenntnisnahme",
+            "created": "2024-09-25T09:33:36+02:00",
+            "modified": "2024-10-08T15:56:14+02:00"
+          }
+        ],
+        "created": "2024-09-17T13:14:16+02:00",
+        "modified": "2024-10-10T16:20:07+02:00"
+      }
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50976",
+      {
+        "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50976",
+        "type": "https://schema.oparl.org/1.1/Paper",
+        "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+        "name": "Abstellflächen für E-Scooter",
+        "reference": "2024/1043",
+        "date": "2024-09-13",
+        "paperType": "Antrag",
+        "auxiliaryFile": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660864",
+            "type": "https://schema.oparl.org/1.1/File",
+            "name": "Antrag",
+            "fileName": "00660864.pdf",
+            "mimeType": "application/pdf",
+            "date": "2024-09-13",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660864.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660864.pdf",
+            "created": "2024-09-13T13:42:18+02:00",
+            "modified": "2024-10-10T16:19:56+02:00"
+          }
+        ],
+        "underDirectionOf": [
+          "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+        ],
+        "consultation": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32842",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50976",
+            "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90618",
+            "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+            ],
+            "role": "Kenntnisnahme",
+            "created": "2024-10-08T15:55:25+02:00",
+            "modified": "2024-10-08T15:56:14+02:00"
+          }
+        ],
+        "created": "2024-09-13T13:41:42+02:00",
+        "modified": "2024-10-10T16:19:56+02:00"
+      }
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50973",
+      {
+        "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50973",
+        "type": "https://schema.oparl.org/1.1/Paper",
+        "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+        "name": "Posthume Ehrung des Karlsruher Komponisten Wolfgang Rihm",
+        "reference": "2024/1040",
+        "date": "2024-09-13",
+        "paperType": "Anfrage",
+        "auxiliaryFile": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660853",
+            "type": "https://schema.oparl.org/1.1/File",
+            "name": "Anfrage",
+            "fileName": "00660853.pdf",
+            "mimeType": "application/pdf",
+            "date": "2024-09-13",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660853.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660853.pdf",
+            "created": "2024-09-13T09:41:22+02:00",
+            "modified": "2024-10-10T16:21:40+02:00"
+          }
+        ],
+        "underDirectionOf": [
+          "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+        ],
+        "consultation": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32839",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50973",
+            "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90303",
+            "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+            ],
+            "role": "Kenntnisnahme",
+            "created": "2024-09-25T09:33:36+02:00",
+            "modified": "2024-10-08T15:56:14+02:00"
+          }
+        ],
+        "created": "2024-09-13T09:40:36+02:00",
+        "modified": "2024-10-10T16:21:40+02:00"
+      }
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50955",
+      {
+        "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50955",
+        "type": "https://schema.oparl.org/1.1/Paper",
+        "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+        "name": "Bildung des Sanierungsbeirates Durlach Stadteingang mit Berufung der Mitglieder",
+        "reference": "2024/1026",
+        "date": "2024-09-23",
+        "paperType": "Beschlussvorlage",
+        "auxiliaryFile": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660740",
+            "type": "https://schema.oparl.org/1.1/File",
+            "name": "Beschlussvorlage",
+            "fileName": "00660740.pdf",
+            "mimeType": "application/pdf",
+            "date": "2024-09-09",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660740.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660740.pdf",
+            "created": "2024-09-09T12:23:25+02:00",
+            "modified": "2024-10-10T16:42:50+02:00"
+          }
+        ],
+        "underDirectionOf": [
+          "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+        ],
+        "consultation": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32817",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50955",
+            "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90284",
+            "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+            ],
+            "role": "Entscheidung",
+            "created": "2024-09-25T09:33:35+02:00",
+            "modified": "2024-10-07T13:49:21+02:00"
+          }
+        ],
+        "created": "2024-09-09T12:05:04+02:00",
+        "modified": "2024-10-10T16:43:01+02:00"
+      }
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50861",
+      {
+        "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50861",
+        "type": "https://schema.oparl.org/1.1/Paper",
+        "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+        "name": "Teilweise Abkopplung Frankreichs vom deutschen Strom-Großhandel/ Auswirkun-gen des Iran-Israel-Konflikts und der Ausweitung des Russland-Ukraine-Kriegs auf den Preis für Gas und Strom",
+        "reference": "2024/0933",
+        "date": "2024-08-20",
+        "paperType": "Anfrage",
+        "auxiliaryFile": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660300",
+            "type": "https://schema.oparl.org/1.1/File",
+            "name": "Anfrage",
+            "fileName": "00660300.pdf",
+            "mimeType": "application/pdf",
+            "date": "2024-08-20",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660300.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660300.pdf",
+            "created": "2024-08-20T16:22:05+02:00",
+            "modified": "2024-10-10T16:25:45+02:00"
+          },
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660407",
+            "type": "https://schema.oparl.org/1.1/File",
+            "name": "Stellungnahme Anfrage",
+            "fileName": "00660407.pdf",
+            "mimeType": "application/pdf",
+            "date": "2024-08-23",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660407.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660407.pdf",
+            "created": "2024-08-23T15:50:33+02:00",
+            "modified": "2024-10-10T16:25:45+02:00"
+          }
+        ],
+        "underDirectionOf": [
+          "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882988"
+        ],
+        "consultation": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32702",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50861",
+            "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90304",
+            "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+            ],
+            "role": "Kenntnisnahme",
+            "created": "2024-09-25T09:33:36+02:00",
+            "modified": "2024-10-08T15:56:14+02:00"
+          }
+        ],
+        "created": "2024-08-20T16:21:39+02:00",
+        "modified": "2024-10-10T16:25:55+02:00"
+      }
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50835",
+      {
+        "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50835",
+        "type": "https://schema.oparl.org/1.1/Paper",
+        "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+        "name": "Dauerhafte Aufstellung von sogenannten \"Zonta-Bänken\"",
+        "reference": "2024/0907",
+        "date": "2024-08-09",
+        "paperType": "Beschlussvorlage",
+        "underDirectionOf": [
+          "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882984"
+        ],
+        "consultation": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32656",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50835",
+            "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90277",
+            "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+            ],
+            "role": "Entscheidung",
+            "created": "2024-09-25T09:33:35+02:00",
+            "modified": "2024-10-07T13:49:21+02:00"
+          }
+        ],
+        "created": "2024-08-09T14:33:38+02:00",
+        "modified": "2024-10-10T17:53:17+02:00"
+      }
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50818",
+      {
+        "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50818",
+        "type": "https://schema.oparl.org/1.1/Paper",
+        "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+        "name": "Ergebnisse des Ergänzungsauftrags zum Energieleitplan der Stadt Karlsruhe",
+        "reference": "2024/0890",
+        "date": "2024-08-06",
+        "paperType": "Informationsvorlage",
+        "auxiliaryFile": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660930",
+            "type": "https://schema.oparl.org/1.1/File",
+            "name": "Anlage Bericht Ergebnisse des Ergänzungsauftrags zum ELP",
+            "fileName": "00660930.pdf",
+            "mimeType": "application/pdf",
+            "date": "2024-09-17",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660930.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660930.pdf",
+            "created": "2024-09-17T16:43:12+02:00",
+            "modified": "2024-10-10T19:47:28+02:00"
+          },
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660931",
+            "type": "https://schema.oparl.org/1.1/File",
+            "name": "Informationsvorlage - Ergebnisse des Ergänzungsauftrags zum ELP",
+            "fileName": "00660931.pdf",
+            "mimeType": "application/pdf",
+            "date": "2024-09-17",
+            "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660931.pdf",
+            "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660931.pdf",
+            "created": "2024-09-17T16:44:10+02:00",
+            "modified": "2024-10-10T19:47:28+02:00"
+          }
+        ],
+        "underDirectionOf": [
+          "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882975"
+        ],
+        "consultation": [
+          {
+            "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32631",
+            "type": "https://schema.oparl.org/1.1/Consultation",
+            "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50818",
+            "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/89888",
+            "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9693",
+            "organization": [
+              "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+            ],
+            "role": "Kenntnisnahme",
+            "created": "2024-08-28T16:21:59+02:00",
+            "modified": "2024-09-13T14:26:00+02:00"
+          }
+        ],
+        "created": "2024-08-06T12:26:24+02:00",
+        "modified": "2024-10-10T19:47:28+02:00"
       }
     ]
   ],
@@ -86723,6 +87849,114 @@
     [
       "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32607",
       "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50806"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32937",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51033"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32936",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51033"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32966",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51025"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32903",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51025"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32902",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51024"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32899",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51020"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32898",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51019"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32897",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51018"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32896",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51017"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32895",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51016"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32894",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51015"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32893",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51014"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32867",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50995"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32865",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50993"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32861",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50989"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32860",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50988"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32859",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50987"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32858",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50986"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32872",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50983"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32854",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50983"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32842",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50976"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32839",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50973"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32817",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50955"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32702",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50861"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32663",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50840"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32656",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50835"
+    ],
+    [
+      "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32631",
+      "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50818"
     ]
   ]
 }
