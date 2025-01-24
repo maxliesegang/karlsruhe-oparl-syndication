@@ -11,14 +11,12 @@ import { paperStore } from './store/paper-store';
 import { organizationStore } from './store/organization-store';
 
 async function clearCache() {
-  if (config.useCache) {
-    try {
-      store.clearAllFromCache();
-      await fs.rm(config.cacheDir, { recursive: true, force: true });
-      console.log('Cache cleared.');
-    } catch (error) {
-      console.error('Error clearing cache:', error);
-    }
+  try {
+    store.clearAllFromCache();
+    await fs.rm(config.cacheDir, { recursive: true, force: true });
+    console.log('Cache cleared.');
+  } catch (error) {
+    console.error('Error clearing cache:', error);
   }
 }
 

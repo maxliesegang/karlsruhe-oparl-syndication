@@ -1,8 +1,9 @@
-name: Daily Generation
+name: Feed Generation
 
 on:
   schedule:
     - cron: '0 2 * * *'  # Runs at 02:00 UTC every day
+    - cron: '0 14 * * *'  # Runs at 14:00 UTC every day
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
