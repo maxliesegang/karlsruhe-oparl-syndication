@@ -23,10 +23,8 @@ export const config = {
   authorEmail: process.env.AUTHOR_EMAIL || 'feeds@liesegang.io',
   authorLink: process.env.AUTHOR_LINK || 'github.com/maxliesegang',
   extractPdfText: process.env.EXTRACT_PDF_TEXT !== 'true',
-  pdfStoragePath: process.env.PDF_STORAGE_PATH || path.join(__dirname, '..', 'public', 'pdfs'),
   feedFilename: process.env.FEED_FILENAME || 'tagesordnungspunkte.xml',
   fetchAllPages: process.env.FETCH_ALL_PAGES === 'true',
   requestDelay: parseInt(process.env.REQUEST_DELAY || '1000', 10),
-  useCache: process.env.USE_CACHE === 'true',
   cacheDir: process.env.CACHE_DIR || path.join(__dirname, '..', 'cache'),
 };
