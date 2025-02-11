@@ -22,9 +22,9 @@ export const config = {
   authorName: process.env.AUTHOR_NAME || 'Maximilian Liesegang',
   authorEmail: process.env.AUTHOR_EMAIL || 'feeds@liesegang.io',
   authorLink: process.env.AUTHOR_LINK || 'github.com/maxliesegang',
-  extractPdfText: process.env.EXTRACT_PDF_TEXT === 'true',
+  extractPdfText: process.env.EXTRACT_PDF_TEXT ? process.env.EXTRACT_PDF_TEXT === 'true' : true,
   feedFilename: process.env.FEED_FILENAME || 'tagesordnungspunkte.xml',
-  fetchAllPages: process.env.FETCH_ALL_PAGES  ? process.env.FETCH_ALL_PAGES === 'true' : true,
+  fetchAllPages: process.env.FETCH_ALL_PAGES ? process.env.FETCH_ALL_PAGES === 'true' : true,
   requestDelay: parseInt(process.env.REQUEST_DELAY || '1000', 10),
   cacheDir: process.env.CACHE_DIR || path.join(__dirname, '..', 'cache'),
 };

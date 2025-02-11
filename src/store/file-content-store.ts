@@ -8,6 +8,7 @@ import pdf from 'pdf-parse';
 
 class FileContentStore extends BaseStore<FileContentType> {
   private pendingExtractions: Set<Promise<void>> = new Set();
+  private initialSizeWithoutText = 0;
 
   getFileName(): string {
     return 'file-contents.json';
@@ -75,7 +76,15 @@ class FileContentStore extends BaseStore<FileContentType> {
     const filesWithoutText = Array.from(this.itemStore.values()).filter(
       (file) => !file.lastModifiedExtractedDate,
     );
+    console.log(`Initial ${this.initialSizeWithoutText} files without text`);
     console.log(`${filesWithoutText.length}/${this.itemStore.size} files without text`);
+  }
+
+  async loadItemsFromFile(): Promise<void> {
+    await super.loadItemsFromFile();
+    this.initialSizeWithoutText = Array.from(this.itemStore.values()).filter(
+      (file) => !file.lastModifiedExtractedDate,
+    ).length;
   }
 }
 
