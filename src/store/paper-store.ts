@@ -14,9 +14,13 @@ class PaperStore extends BaseStore<Paper> {
     const allDates = Array.from(this.itemStore.values()).map((item) =>
       item.modified ? new Date(item.modified) : new Date(item.created),
     );
-    return allDates.length
-      ? new Date(Math.max(...allDates.map((date) => date.getTime())))
-      : undefined;
+
+    if (!allDates.length) return undefined;
+
+    const latestDate = new Date(Math.max(...allDates.map((date) => date.getTime())));
+    latestDate.setDate(latestDate.getDate() - 1); // Subtract 1 day
+
+    return latestDate;
   }
 
   getPaperByConsultationId(consultationId: string): Paper | undefined {
