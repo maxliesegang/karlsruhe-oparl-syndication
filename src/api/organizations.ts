@@ -10,7 +10,7 @@ export async function fetchAllOrganizations(modified_since?: Date): Promise<void
   let nextUrl: string | null = `${config.allOrganizationsApiUrl}?limit=${API_LIMIT}`;
   if (modified_since) {
     const formattedDate = formatDateForUrl(modified_since);
-    nextUrl += `&modified_since=${encodeURIComponent(formattedDate)}`;
+    // nextUrl += `&modified_since=${encodeURIComponent(formattedDate)}`;
   }
 
   console.log('Starting to fetch organizations...');

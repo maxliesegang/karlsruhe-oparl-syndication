@@ -10,7 +10,7 @@ export const config = {
     process.env.PAPERS_API_URL || 'https://web1.karlsruhe.de/ris/oparl/bodies/0001/papers',
   allOrganizationsApiUrl:
     process.env.ORGANIZATIONS_API_URL ||
-    '  https://web1.karlsruhe.de/ris/oparl/bodies/0001/organizations',
+    'https://web1.karlsruhe.de/ris/oparl/bodies/0001/organizations',
   feedTitle: process.env.FEED_TITLE || 'Alle Tagesordnungspunkte',
   feedDescription:
     process.env.FEED_DESCRIPTION ||
@@ -22,7 +22,7 @@ export const config = {
   authorName: process.env.AUTHOR_NAME || 'Maximilian Liesegang',
   authorEmail: process.env.AUTHOR_EMAIL || 'feeds@liesegang.io',
   authorLink: process.env.AUTHOR_LINK || 'github.com/maxliesegang',
-  extractPdfText: process.env.EXTRACT_PDF_TEXT ? process.env.EXTRACT_PDF_TEXT === 'true' : false,
+  extractPdfText: process.env.EXTRACT_PDF_TEXT ? process.env.EXTRACT_PDF_TEXT === 'true' : true,
   feedFilename: process.env.FEED_FILENAME || 'tagesordnungspunkte.xml',
   fetchAllPages: process.env.FETCH_ALL_PAGES ? process.env.FETCH_ALL_PAGES === 'true' : true,
   requestDelay: parseInt(process.env.REQUEST_DELAY || '1000', 10),
