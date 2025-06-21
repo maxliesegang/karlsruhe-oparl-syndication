@@ -7,7 +7,7 @@ import { dateService } from '../services/date-service';
 class FileContentStore extends BaseStore<FileContentType> {
   private pendingExtractions: Set<Promise<void>> = new Set();
   private initialSizeWithoutText = 0;
-  private extractionQueue: { file: FileContentType, url: string }[] = [];
+  private extractionQueue: { file: FileContentType; url: string }[] = [];
   private isProcessingQueue = false;
   private readonly MAX_CONCURRENT_EXTRACTIONS = 5; // Maximum number of concurrent extractions
   private readonly MAX_EXTRACTION_QUEUE_SIZE = 1000; // Maximum number of concurrent extractions
@@ -33,7 +33,14 @@ class FileContentStore extends BaseStore<FileContentType> {
       return;
     }
 
-    if (config.extractPdfText && file.fileModified !== file.lastModifiedExtractedDate) {
+    // Extract text if:
+    // 1. The file has changed since the last extraction (file.fileModified !== file.lastModifiedExtractedDate)
+    // 2. OR the last extraction failed (file.lastModifiedExtractedDate exists but file.extractedText is undefined)
+    if (
+      config.extractPdfText &&
+      (file.fileModified !== file.lastModifiedExtractedDate ||
+        (file.lastModifiedExtractedDate && !file.extractedText))
+    ) {
       await this.extractAndSavePdfText(file, file.downloadUrl);
     }
   }
@@ -64,7 +71,9 @@ class FileContentStore extends BaseStore<FileContentType> {
 
     // Process up to MAX_CONCURRENT_EXTRACTIONS items at once
     const currentBatch = this.extractionQueue.splice(0, this.MAX_CONCURRENT_EXTRACTIONS);
-    console.log(`Processing batch of ${currentBatch.length} items. Remaining in queue: ${this.extractionQueue.length}`);
+    console.log(
+      `Processing batch of ${currentBatch.length} items. Remaining in queue: ${this.extractionQueue.length}`,
+    );
 
     const batchPromises = currentBatch.map(async ({ file, url }) => {
       const extractionPromise = (async () => {
@@ -90,10 +99,12 @@ class FileContentStore extends BaseStore<FileContentType> {
     });
 
     await Promise.all(batchPromises);
-    console.log(`Batch processing completed. Adding delay of ${this.DELAY_BETWEEN_EXTRACTIONS}ms before next batch`);
+    console.log(
+      `Batch processing completed. Adding delay of ${this.DELAY_BETWEEN_EXTRACTIONS}ms before next batch`,
+    );
 
     // Add a delay before processing the next batch
-    await new Promise(resolve => setTimeout(resolve, this.DELAY_BETWEEN_EXTRACTIONS));
+    await new Promise((resolve) => setTimeout(resolve, this.DELAY_BETWEEN_EXTRACTIONS));
 
     // Continue processing the queue
     await this.processExtractionQueue();
@@ -102,10 +113,12 @@ class FileContentStore extends BaseStore<FileContentType> {
   async persistItemsToFile(): Promise<void> {
     // Wait for the queue to be fully processed
     if (this.isProcessingQueue || this.extractionQueue.length > 0) {
-      console.log(`Waiting for extraction queue to complete. Queue size: ${this.extractionQueue.length}, Processing: ${this.isProcessingQueue}`);
+      console.log(
+        `Waiting for extraction queue to complete. Queue size: ${this.extractionQueue.length}, Processing: ${this.isProcessingQueue}`,
+      );
 
       while (this.isProcessingQueue || this.extractionQueue.length > 0) {
-        await new Promise(resolve => setTimeout(resolve, 500));
+        await new Promise((resolve) => setTimeout(resolve, 500));
       }
 
       console.log('Extraction queue has been fully processed');
