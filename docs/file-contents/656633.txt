@@ -1,0 +1,885 @@
+
+
+Die Autobahn GmbH des Bundes
+Schalltechnische Untersuchung zur
+Lärmsanierung an der A 8 in der
+Ortslage Karlsruhe-Wolfartsweier
+Schalltechnische Untersuchung
+Karlsruhe
+Juni 2023
+
+Die Autobahn GmbH des Bundes
+Schalltechnische Untersuchung zur
+Lärmsanierung an der A 8 in der
+Ortslage Karlsruhe-Wolfartsweier
+Schalltechnische Untersuchung
+Bearbeiter
+Dr. Ing. Frank Gericke (Projektleiter)
+Dipl.-Ing. Martin Reichert (Bauingenieur)
+B.Sc. Akos Lengyiel
+Verfasser
+MODUS CONSULT Gericke GmbH & Co. KG
+Pforzheimer Straße 15b
+76227 Karlsruhe
+0721/ 94006-0
+Erstellt im Auftrag der ‘Die Autobahn GmbH des Bundes’, NL Stuttgart
+im Juni 2023
+A 8
+Lärmsanierung Wolfartsweier
+Karlsruhe 12.06.23   A8 Lärmsanierung Wolfartsweier.wpd
+
+Erläuterungsbericht 3
+Inhalt
+1. Aufgabenstellung................................................. 6
+2. Daten- und Plangrundlagen....................................... 6
+3. Örtliche Gegebenheiten........................................... 7
+4. Beurteilungs- und Berechnungsgrundlagen........................ 9
+5. Schalltechnische Berechnungen.................................. 12
+5.1 Verkehrsmengen und weitere schalltechnische Parameter............12
+5.2 Schalltechnisches Geländemodell..................................13
+5.3 Ausbreitungsberechnungen und Darstellung der Ergebnisse..........13
+6. Berechnungsergebnisse und Beurteilung der Ist-Situation......... 14
+7. Abwägung von Schallschutzmaßnahmen .......................... 16
+7.1 Grundsätzliche Überlegungen.....................................  16
+7.2 Untersuchte Lärmschutzvarianten.................................. 17
+7.3 Ergebnisse der Variantenuntersuchung (Schutzfallbetrachtung).......19
+7.4 Ergebnisse der Variantenuntersuchung (Lästigkeit nach VLärmSchR 97)
+..................................................................  23
+8. Variantendiskussion............................................. 25
+9. Zusätzliche passive Schallschutzmaßnahmen ..................... 25
+10. Zusammenfassung............................................. 26
+A 8
+Lärmsanierung Wolfartsweier
+Karlsruhe 12.06.23   A8 Lärmsanierung Wolfartsweier.wpd
+
+Erläuterungsbericht 4
+Abbildungsverzeichnis
+Abb. 1:Übersichtsplan des Untersuchungsbereiches Wolfartsweier (Quelle: Openstreetmap.org)
+8
+Abb. 2:Darstellung der Ergebnisse im Plan14
+Abb. 3:Schutzfallbetrachtung der Varianten 22
+Abb. 4:Ermittlung der Effizient und Effektivität24
+Pläne
+Blatt1Übersichtsplan mit Bebauungsplänen
+Blatt2Gebäudelärmkarte und Isophonen, Bestand, Beurteilungszeitraum Tag (06:00 -
+22:00 Uhr), 2,0 m ü. Gelände
+Blatt3Gebäudelärmkarte und Isophonen, Bestand, Beurteilungszeitraum Nacht (22:00 -
+06:00 Uhr), 6,0m ü. Gelände
+Blatt4Gebäudelärmkarte und Isophonen, Prognose, Beurteilungszeitraum Tag (06:00 -
+22:00 Uhr), 2,0m ü. Gelände
+Blatt5Gebäudelärmkarte und Isophonen, Prognose, Beurteilungszeitraum Nacht (22:00
+- 06:00 Uhr), 6,0m ü. Gelände
+Blatt6Gebäudelärmkarte und Isophonen, Prognose-Vollschutz (Lärmsanierung), Beur-
+teilungszeitraum Tag (06:00 - 22:00 Uhr), 2,0m ü. Gelände
+Blatt7Gebäudelärmkarte und Isophonen, Prognose-Vollschutz (Lärmsanierung), Beur-
+teilungszeitraum Nacht (22:00 - 06:00 Uhr), 6,0m ü. Gelände
+Blatt8Gebäudelärmkarte und Isophonen, Prognose-Vollschutz (Lärmvorsorge), Beur-
+teilungszeitraum Tag (06:00 - 22:00 Uhr), 2,0m ü. Gelände
+Blatt9Gebäudelärmkarte und Isophonen, Prognose-Vollschutz (Lärmvorsorge),
+Beurteilungszeitraum Nacht (22:00 - 06:00 Uhr), 6,0m ü. Gelände
+Blatt10Gebäudelärmkarte und Isophonen, Prognose mit LSW h=6,0 m, Beurteilungszeit-
+raum Tag (06:00 - 22:00 Uhr), 2,0m ü. Gelände
+Blatt11Gebäudelärmkarte und Isophonen, Prognose mit LSW h=6,0 m, Beurteilungszeit-
+raum Nacht (22:00 - 06:00 Uhr), 6,0m ü. Gelände
+Blatt12Gebäudelärmkarte und Isophonen, Prognose mit LSW h=6,0 m und Mittelwand,
+Beurteilungszeitraum Tag (06:00 - 22:00 Uhr), 2,0m ü. Gelände
+Blatt13Gebäudelärmkarte und Isophonen, Prognose  mit LSW h=6,0 m und Mittelwand,
+Beurteilungszeitraum Nacht (22:00 - 06:00 Uhr), 6,0m ü. Gelände
+Blatt14Gebäudelärmkarte und Isophonen, Prognose  mit LSW h=6,0 m und Torsions-
+balken mit LSW h=5,0 m im Bereich der Brücken, Beurteilungszeitraum Tag (06:00
+- 22:00 Uhr), 2,0m ü. Gelände
+Blatt15Gebäudelärmkarte und Isophonen, Prognose mit LSW h=6,0 m und Torsionsbal-
+ken mit LSW h=5,0 m im Bereich der Brücken, Beurteilungszeitraum Nacht (22:00 -
+06:00 Uhr), 6,0m ü. Gelände
+A 8
+Lärmsanierung Wolfartsweier
+Karlsruhe 12.06.23   A8 Lärmsanierung Wolfartsweier.wpd
+
+Erläuterungsbericht 5
+Tabellen im Anhang
+Tab.1Verkehrsmengen und Emissionspegel
+Tab.2Ergebnisse schalltechnischer Berechnungen: Bestand und Prognose
+Tab.3Ergebnisse schalltechnischer Berechnungen: Prognose / Prognose Vollschutz
+(Lärmsanierung)
+Tab.4Ergebnisse schalltechnischer Berechnungen: Prognose / Prognose Vollschutz
+(Lärmvorsorge)
+Tab.5Ergebnisse schalltechnischer Berechnungen: Prognose / Prognose LSW h = 6,0 m
+Tab.6Ergebnisse schalltechnischer Berechnungen: Prognose / Prognose LSW h = 6,0 m
+und Mittelwand
+Tab.7Ergebnisse schalltechnischer Berechnungen: Prognose / Prognose LSW h = 6,0 m
+und Torsionsbalken mit LSW h=5,0 m im Bereich der Brücken
+A 8
+Lärmsanierung Wolfartsweier
+Karlsruhe 12.06.23   A8 Lärmsanierung Wolfartsweier.wpd
+
+Erläuterungsbericht 6
+1. Aufgabenstellung
+Die Autobahn GmbH des Bundes beabsichtigt die Lärmsituation der Ortslage von
+Karlsruhe-Wolfartsweier  zu  bewerten,  um  die  Voraussetzungen  für  eine  Bezu-
+schussung passiver Schallschutzmaßnahmen an betroffenen Gebäuden zu über-
+prüfen sowie Potentiale zur Verbesserung der Lärmsituation durch aktive Maß-
+nahmen zu identifizieren. Zur Feststellung der Betroffenheit ist eine schalltech-
+nische  Untersuchung  aller  Flächen  des  Karlsruher  Stadtteils  Wolfartsweier  er-
+forderlich, auf welchen eine Überschreitung der Auslösewerte der Lärmsanierung
+durch nahe gelegene Autobahnabschnitte nicht ausgeschlossen werden kann.
+Der  maßgebende  Abschnitt  der  in  Ost-West-Richtung  verlaufenden  BAB  A  8
+Karlsruhe - Stuttgart tangiert den Karlsruher Stadtteil Wolfartsweier im Süden,
+der in Nord-Süd-Richtung verlaufenden A 5 Frankfurt - Basel tangiert den Stadt-
+teil im Westen. Untersucht werden sollen die Emissionen der BAB A 8 und der A 5
+einschließlich der Rampenfahrbahnen im Bereich des Autobahndreiecks Karls-
+ruhe.
+Ziel  der  schalltechnischen  Untersuchung  zur  Lärmsanierung  soll  es  sein,  die
+maßgebenden Beurteilungspegel aus dem Straßenverkehr der BAB A 8 und der A 
+im Karlsruher Stadtteil Wolfartsweier nach dem aktuellen Rechenverfahren der
+RLS-19 rechnerisch für alle schutzwürdigen Nutzungen fassaden- und stockwerks-
+scharf zu ermitteln und den Auslöswerten der Lärmsanierung gegenüberzustel-
+len.
+Es  sind  aktive  Schallschutzmaßnahmen  vorzuschlagen,  zu  dimensionieren  und
+hinsichtlich Ihrer Schutzwirkung zu bewerten. Gebäude mit verbleibenden Über-
+schreitungen der Auslöswerte der Lärmsanierung sind in Lageplänen zu kenn-
+zeichnen sowie in Ergebnistabellen mit Angabe der Höhe der Überschreitungen
+unter Angabe von Stockwerk und Fassadenseite zu dokumentieren.
+2. Daten- und Plangrundlagen
+Der schalltechnischen Untersuchung liegen zugrunde:
+<Digitale  Katasterdaten,  digitale  Ortophotos,  digitales  Geländemodell  sowie
+LoD2-Gebäudedaten des Untersuchungsgebiets und Umfelds, zur Verfügung
+gestellt von Die Autobahn des Bundes, Stand 04/2022.
+<Querschnittsbelastungen BAB A 8 und A 5, Die Autobahn GmbH, Außenstelle
+Stuttgart, Stand 03/2022, ergänzt und fortgeschrieben in 09/2022.
+A 8
+Lärmsanierung Wolfartsweier
+Karlsruhe 12.06.23   A8 Lärmsanierung Wolfartsweier.wpd
+
+Erläuterungsbericht 7
+<Angaben   zu   Straßendeckschichttypen,   vorhandenen   Schallschutzanlagen
+sowie zulässige Höchstgeschwindigkeiten, Die Autobahn GmbH, Niederlassung
+Stuttgart, Stand 03/2022.
+<online-Bebauungspläne der Stadt Karlsruhe für den Stadtteil Wolfartsweier:
+https://geoportal.karlsruhe.de/bplan/
+<Richtlinien für den Lärmschutz an Straßen – Ausgabe 2019 – RLS-19 (VkBl. 2019,
+Heft 20, lfd. Nr. 139, S. 698), Forschungsgesellschaft für Straßen- und Verkehrs-
+wesen (FGSV), einschließlich Korrekturen der FGSV vom Februar 2020 .
+<VLärmSchR 97, Richtlinien für den Verkehrslärmschutz an Bundesfernstraßen
+in der Baulast des Bundes, Allg. Rundschreiben Straßenbau Nr. 26/1997 vom
+02.06.1997 (VkBl. S. 434), zuletzt geändert am 25.06.2010 (Rundschreiben des
+Bundesministeriums  für  Verkehr,  Bau  und  Stadtentwicklung  (Az.  StB
+13/7144.2/01 / 11206434).
+<Schreiben  des  BMVI,  Referat  StB  13/7144.2/01/3277650  vom  27.07.2020  zur
+Absenkung der Auslösewerte der Lärmsanierung.
+<Vierundzwanzigste  Verordnung  zur  Durchführung  des  Bundes-Immissions-
+schutzgesetzes  (Verkehrswege-Schallschutzmaßnahmenverordnung  -
+24. BImSchV) vom 4. Februar 1997, geändert durch Art. 3 V v. 23.9.1997.
+3. Örtliche Gegebenheiten
+Das  Untersuchungsgebiet  der  Ortslage  von  Wolfartsweier,  einem  Stadtteil  im
+Südosten der Stadt Karlsruhe, liegt östlich der in Nord-Süd-Richtung verlaufen-
+den BAB A 5 und nördlich der in Ost-West-Richtung verlaufenden A 8 im Nord-
+osten des Autobahndreiecks Karlsruhe.
+Die Ortslage von Wolfartsweier ist im Wesentlichen geprägt von Wohnbebauung.
+Im  Südwesten  von  Wolfartsweier,  westlich  der  Steinkreuzstraße  finden  sich
+nördlich  der  A  5  Gärtnerei-  und  Gemüsebaubetriebe,  im  Südosten  östlich  der
+Steinkreuzstraße das Freibad Wolfartsweier. Nach Norden schließt sich beider-
+seits der den Karlsruher Stadtteil durchquerenden Steinkreuzstraße überwiegend
+Wohnbebauung an. In der Ortsmitte von Wolfartsweier entlang Steinkreuzstraße
+finden sich einzelne Einzelhandelsgeschäfte.
+Der Flächennutzungsplan sowie die rechtskräftigen Bebauungspläne weisen die
+überwiegende Ortslage als Wohngebiet aus, lediglich im Süden im Bereich der
+Ortsmitte  sowie  in  Richtung  Nordwesten  entlang  der  Wettersteinstraße  finden
+sich einzelne Mischgebietsflächen. Im Süden der Ortsmitte liegt die Grundschule.
+A 8
+Lärmsanierung Wolfartsweier
+Karlsruhe 12.06.23   A8 Lärmsanierung Wolfartsweier.wpd
+
+Erläuterungsbericht 8
+Abb. 1:Übersichtsplan des Untersuchungsbereiches Wolfartsweier (Quelle: Openstreetmap.org)
+ 
+Das Plangebiet ist im Wesentlichen eben, steigt aber bedingt durch die Talrandla-
+ge im Rheintal nach Osten steil an. Die Trasse der nach Osten führenden A 5 liegt
+daher bedingt durch den Aufstieg aus dem Rheintal in Dammlage. Im Bereich des
+Autobahndreiecks Karlsruhe liegen außerdem die Rampen- und Überführungs-
+bauwerke der A 5 / A8 über dem umliegenden Geländeniveau.
+Die Autobahnen weisen in jede Fahrtrichtung je drei von einander baulich ge-
+trennte  Fahrbahnen  auf,  die  sich  im  weiteren  Umfeld  des  Autobahndreiecks
+Karlsruhe im Bereich der Ein- und Ausfädelstreifen entsprechend aufweiten. Die
+zulässige Höchstgeschwindigkeit auf den Autobahnen sowie den jeweils 2-bahni-
+gen  Rampen  ist  auf  Geschwindigkeiten  zwischen  100  und  120  km/h  für  Pkw.
+beschränkt. Für Lkw wird trotz Geschwindigkeitsbeschränkung, die mit 100 / 120
+km/h jedoch nur für Pkw wirksam ist, nach den Regelungen der RLS-19 auf den
+mehrbahnigen Abschnitten zu Gunsten der Lärmbetroffenen eine Geschwindig-
+keit von 90 km/h angesetzt. 
+Im Bestand finden sich nördlich der A 8 bereits umgesetzte aktive Schallschutz-
+maßnahmen:
+<A 5 (Nordseite) Richtung Ortslage Wolfartsweier: LSW bei Wolfartsweier Fahrt-
+richtung  Karlsruhe,  Bauwerksbuch-Nr.  7016749,  Lärmschutzbauwerk  mit  Ge-
+samtlänge 518 m, mittlere Höhe 2,94 m. Im Bereich der Straßenüberführung
+über die Schloßbergstraße bis Höhe Freibad beträgt die Lärmschutzwandhöhe
+A 8
+Lärmsanierung Wolfartsweier
+Karlsruhe 12.06.23   A8 Lärmsanierung Wolfartsweier.wpd
+
+Erläuterungsbericht 9
+ca. 4,0 m, im Bereich zwischen Freibad und der Notabfahrt ca. 2,50 m ü. FOK.
+Die Lärmschutzwand ist transparent/reflektierend ausgeführt. 
+<A 5 (Nordseite) Richtung Ortslage Wolfartsweier, Lärmschutzwall-Wand-Kombi-
+nation entlang Rampe in Fahrtrichtung Karlsruhe, Gesamtlänge ca. 680 m. Im
+Bereich der Straßenüberführung über die B 3 Ausführung als Alu-Lärmschutz-
+wand. Mittlere Höhe der Gesamtmaßnahme ca. 3,0 m.
+          
+Plan 1Die genauen örtlichen Gegebenheiten, die Geltungsbereich der rechtkräftigen
+Bebauungspläne, deren Inkrafttreten sowie die bestehenden Lärmschutzwände
+können dem Übersichtsplan (Plan 1) entnommen werden.
+4. Beurteilungs- und Berechnungsgrundlagen
+Die Beurteilungskriterien hinsichtlich der Erforderlichkeit von Lärmsanierungs-
+maßnahmen gelten für die betroffene Bebauung und ergeben sich aus den Richt-
+linien für den Verkehrslärmschutz an Fernstraßen in der Baulast des Bundes -
+Verkehrslärmschutzrichtlinien  (VLärmSchR  97),  die  derzeit  sowohl  nach  den
+Vorgaben des Nationalen Lärmschutzpakets II des BMVBS sowie nach Einführung
+der RLS-19 durch das BMVI überarbeitet werden und deren zwischenzeitlich zum
+zweiten  Mal  abgesenkte  Lärmsanierungsgrenzwerte  (jetzt:  Auslösewerte)  mit
+Rundschreiben StB 13/7144.2/01/3277650 des BMVI vom 27.07.2020 in Kraft gesetzt
+sind.
+In Abschnitt D der VLärmSchR97 heißt es:
+XIII.      Rechtsgrundlagen
+35         Haushaltsrechtliche         Regelung
+Lärmschutz an bestehenden Straßen (Lärmsanierung) wird als freiwillige Leistung
+auf der Grundlage haushaltsrechtlicher Regelungen gewährt. Er kann im Rahmen
+der vorhandenen Mittel durchgeführt werden.
+XIV. Lärmschutz durch bauliche Maßnahmen
+36         Grundsatz
+Lärmsanierung  besteht  in  Maßnahmen  an  der  baulichen  Anlage  oder  in  Maß-
+nahmen an der Straße, wenn diese keine unverhältnismäßig hohen Aufwendungen
+gegenüber passiven Maßnahmen an den baulichen Anlagen erfordern oder ihnen
+sonstige überwiegende öffentliche oder private Belange nicht entgegenstehen.
+A 8
+Lärmsanierung Wolfartsweier
+Karlsruhe 12.06.23   A8 Lärmsanierung Wolfartsweier.wpd
+
+Erläuterungsbericht 10
+Gebietsnutzung
+Auslösewerte in dB(A)
+tags (6 - 22 Uhr)nachts (22 - 6 Uhr)
+1an Krankenhäusern, Schulen, Kurheimen,
+Altenheimen, in reinen und allgemeinen
+Wohngebieten sowie Kleinsiedlungsgebieten
+6454
+2
+in Kerngebieten, Dorfgebieten, Mischgebieten6656
+3
+in Gewerbegebieten7262
+4Rastanlage (für Lkw-Fahrer)65
+Tab. 1:Abgesenkte Auslösewerte Lärmsanierung für Verkehrslärm nach VLärmSchR 97
+37         Voraussetzungen
+37.1      Auslösewerte
+(Anmerkung: Texte abschnittsweise ergänzt oder übernommen aus den zugehöri-
+gen Rundschreiben des zum jeweiligen Veröffentlichungstermins für den Straßen-
+bau jeweils zuständigen Ministeriums)
+Lärmschutzmaßnahmen  setzen  voraus,  dass  der  Beurteilungspegel  einen  der
+folgenden, im Bundeshaushalt festgelegten Auslösewerte übersteigt.
+ 
+Die Art der zu schützenden Gebiete und Anlagen ergibt sich aus den Festsetzungen
+in  den  Bebauungsplänen.  Lassen  sich  sonstige  in  Bebauungspläne  festgesetzte
+Flächen  für  Anlagen  und  Gebiete  keiner  der  im  Bundeshaushalt  angeführten
+Schutzkategorien zuordnen oder handelt es sich um Gebiete oder Anlagen, für die
+keine Festsetzungen in Bebauungsplänen bestehen (z.B. unbeplanter Innenbereich,
+§ 34 BauGB), so ist die Schutzbedürftigkeit aus einem Vergleich mit diesen vor-
+genannten  Anlagen  und  Gebieten  zu  ermitteln;  entsprechend  der  ermittelten
+Schutzbedürftigkeit sind die Auslösewerte einzuhalten.
+Andere als die festgelegten Auslösewerte dürfen nicht herangezogen werden. Bei
+der Prüfung der Schutzwürdigkeit baulicher Anlagen im Außenbereich ist Nr. 10
+Abs. 5 entsprechend anzuwenden.
+Nicht geschützt werden Gebiete, die der Erholung dienen, z. B. Wochenendhaus-
+gebiete, Ferienhausgebiete, Dauer- und Reisecampingplatzgebiete sowie Kleingar-
+tengebiete im Sinne des BundeskleingartenG (vgl. § 9 Abs. 1 Nr. 15 BauGB).
+ 
+37.2 Schutz baulicher Nutzung
+(1) In baulichen Anlagen werden Räume geschützt, die ganz oder überwiegend zum
+Wohnen, Unterrichten, zur Kranken- oder Altenpflege oder zu ähnlichen, in glei-
+A 8
+Lärmsanierung Wolfartsweier
+Karlsruhe 12.06.23   A8 Lärmsanierung Wolfartsweier.wpd
+
+Erläuterungsbericht 11
+chem  Maße  schutzbedürftigen  Nutzungen  (z.  B.  von  Räumen  in  Kur-  oder  Kin-
+derheimen, Krankenhäusern) bestimmt sind. Nr. 13 Abs. 4 findet Anwendung.
+(2) Nicht zu den schutzbedürftigen Räumen zählen gewerblich genutzte Räume, z.B.
+Büro-, Praxis- und Laborräume, Aufenthalts- oder Schlafräume in Übernachtungs-
+und Beherbergungsbetrieben (vgl. Bericht des Bundestagsausschusses für Verkehr
+und für das Post- und Fernmeldewesen zum Entwurf eines Verkehrslärmschutzge-
+setzes  vom  28.  Februar  1980,  BT-Drucksache  8/3730,  S.  23/28).  Außer  Betracht
+bleiben auch Bäder, Toiletten, Treppenhäuser, Flure und Lagerräume.
+Die in der Tabelle 1 bezeichneten Gebiete ergeben sich aus den Festsetzungen in
+den Bebauungsplänen. Liegen keine rechtskräftigen B-Pläne vor, so erfolgt die
+Einstufung in Absprache mit der Gemeinde bzw. entsprechend der tatsächlichen
+Nutzung. Entscheidend ist zusätzlich das Alter der Gebäude. Gebäude mit Bau-
+alter nach dem 01.04.1974 (Inkrafttreten des BImSchG), sind i. d. R. nicht förder-
+fähig,  es  sei  denn,  sie  stehen  in  Gebieten,  deren  Bebauungsplan  vor  dem
+01.04.1974  rechtskräftig  wurde.  Gebäude  außerhalb  der  Geltungsbereiche  von
+Bebauungsplänen  oder  in  Geltungsbereichen  von  Bebauungsplänen,  die  nach
+dem 01.04.1974 rechtskräftig wurden, sind dann förderfähig, wenn sie vor dem
+01.04.1974 errichtet wurden.
+Plan 1Die  Geltungsbereiche  der  Bebauungspläne  und  deren  Datumsangaben  des  In-
+krafttretens  sind  im  Plan  1  eingetragen.  Es  zeigt  sich,  dass  nur  im  Südwesten
+sowie im Nordosten von Wolfartsweier größere Wohngebietsflächen vorhanden
+sind, deren Bebauungspläne nach dem 01.04.1974 inkraftgetreten sind. Es handelt
+sich hierbei um die überwiegend Wohngebiete ausweisenden Bebauungspläne:
+<“Zündhütle”, inkraftgetreten am 18.04.1980 und
+<“Mergeläcker”, inkraftgetreten am 23.09.1988.
+Die Berechnung der Beurteilungspegel (Lärmeinwirkung an den Wohngebäuden)
+erfolgte  nach  den  Vorgaben  der  “Richtlinien  für  den  Lärmschutz  an  Straßen,
+Ausgabe 2019 (RLS - 19)”. Die Richtlinien wurden im Verkehrsblatt 20/2019, lfd. Nr.
+139, S. 698, bekannt gemacht und sind am 01.03.2021 in Kraft getreten und gemäß
+§ 3 der 16. BImSchV vom 04. November 2020 im Rahmen der gesetzlich vorge-
+schriebenen Lärmvorsorge beim Bau oder der wesentlichen Änderung von öffent-
+lichen Straßen anzuwenden.
+Laut  Allgemeinem  Rundschreiben  Straßenbau  Nr.  19/2020  (Az.  StB13/7144.2/
+02-20/3411587)  des  Bundesministeriums  für  Verkehr  und  digitale  Infrastruktur
+vom 24.11.2020, sind die RLS-19 auch für die Lärmsanierung an Bundesfernstra-
+ßen in der Baulast des Bundes anzuwenden.
+A 8
+Lärmsanierung Wolfartsweier
+Karlsruhe 12.06.23   A8 Lärmsanierung Wolfartsweier.wpd
+
+Erläuterungsbericht 12
+Die Berechnungen werden mit dem Programm “SoundPLAN” (derzeit Version 8.2)
+der SoundPLAN GmbH in einem 3-dimensionalen Geländemodell durchgeführt. 
+5. Schalltechnische Berechnungen
+5.1 Verkehrsmengen und weitere schalltechnische Parameter
+Als Eingangsdaten für die Berechnungen werden die seitens der Autobahn GmbH
+zur Verfügung gestellten Verkehrsmengenangaben herangezogen. Dabei gelten
+als Pkw alle Fahrzeuge bis zu einem Gesamtgewicht von 3,5 t und es wird zusätz-
+lich nach den Gruppen Lkw 1 (Lkw + Bus), Lkw 2 (Lkw mit Anhänger sowie Sattelzü-
+ge) und Motorrädern unterschieden.
+Die für das Rechenverfahren der RLS-19 erforderlichen Angaben zur Aufteilungen
+der  Pkw,  Lkw-  und  Motorrad-Verkehre  wurden  von  der  Autobahn  GmbH  zur
+Verfügung gestellt.
+  Anh-Tab. 1a,bDie angesetzten DTV-Werte sowie die Lkw-Anteile p1 und p2 tags / nachts sowie
+die Emissionen der Straßenabschnitte für die A 8 / A 5 sowie die Auf- und Ab-
+fahrtsrampen im Bereich des Autobahndreiecks können den Tabellen 1a (Über-
+sicht) und 1b (Emissionen) im Anhang entnommen werden.
+Zusammenfassend verkehren im Umfeld der Gemeinde Wolfartsweier:
+<BAB A 5: AS Karlsbad bis AD Karlsruhe (Q1) ca. 104.950 Kfz/24h mit Lkw-Anteil
+p1  =  4,1  /  9,2  %  tags  /  nachts,  p2  =  11,2  /  25,1  %  tags  /  nachts,  Motorrad  =
+0,3/0,3% tags / nachts,
+<BAB A 5: AS Karlsruhe Mitte bis AD Karlsruhe (Q2) ca. 144.600 Kfz/24h mit Lkw-
+Anteil p1 = 3,4 / 3,0 % tags / nachts, p2 = 11,1 / 25,0 % tags / nachts, Motorrad
+= 0,4/0,4 % tags / nachts,
+<BAB A 5: innerhalb des AD Karlsruhe (Q7) ca. 73.000 Kfz/24h mit Lkw-Anteil p1
+= 3,3 / 8,0 % tags / nachts, p2 = 12,4 / 30,3 % tags / nachts, Motorrad = 0,4/0,4
+% tags / nachts,
+<BAB A8/A5: AS Karlsbad bis AS Karlsruhe Mitte (Q3+Q5) ca. 76.800 Kfz/24h mit
+Lkw-Anteil  p1  =  4,3  /  10,6  %  tags  /  nachts,  p2  =  11,8  /  28,8  %  tags  /  nachts,
+Motorrad = 0,3/0,3 % tags / nachts,
+<BAB A8/A5: AS Karlsbad bis AS Ettlingen (Q4+Q6) ca. 27.400 Kfz/24h mit Lkw-
+Anteil p1 = 4,1 / 12,2 % tags / nachts, p2 = 11,2 / 33,3 % tags / nachts, Motorrad
+= 0,3/0,3 % tags / nachts.
+A 8
+Lärmsanierung Wolfartsweier
+Karlsruhe 12.06.23   A8 Lärmsanierung Wolfartsweier.wpd
+
+Erläuterungsbericht 13
+Als  Straßendeckschicht  wird  für  alle  Abschnitte  der  BAB  A  8  und  der  A  5  ein
+Splittmastixasphalt  nach  ZTV  Asphalt-StB  07/13  mit  einer  Straßendeckschicht-
+korrektur von D
+SD,SMA,Pkw
+ = -1,8 dB(A) und von D
+SD,SMA,Lkw
+ = -2,0 dB(A) nach Tabelle 4a
+der RLS-19 in Ansatz gebracht. Nachdem erst in den letzten Jahren umfangreiche
+Fahrbahnsanierungen  sowie  Deckschichterneuerungen  auf  der  A  8  (Aufstieg)
+sowie  der  A  5  stattgefunden  haben  bzw.  für  den  Bereich  zwischen  dem  AD
+Karlsruhe  und  der  AS  Ettlingen  noch  anstehen,  ist  für  die  nächsten  Jahre  der
+Einbau lärmmindernder Fahrbahnoberflächen ausgeschlossen.
+Im Bereich von Steigungsstrecken mit mehr als 2 % sowie im Bereich von Gefälle-
+strecken mit mehr als 6% bei Pkw bzw. mehr als 4 % bei Lkw ist die Längsnei-
+gungskorrektur D
+L,N,FzG
+ in Abhängigkeit der Geschwindigkeit der jeweiligen Fahr-
+zeuggruppe in Ansatz zu bringen. Die trifft insbesondere auf den Abschnitt der
+A  8  östlich  von  Wolfartsweier  zu.  Die  Ermittlung  der  Steigung  /  des  Gefälles
+erfolgt softwareseitig situationsbezogen im digitalen Geländemodell.
+5.2 Schalltechnisches Geländemodell
+Vor  der  Durchführung  der  Ausbreitungsrechnungen  für  die  Lärmsanierung
+müssen alle für die Schallausbreitung bedeutsamen baulichen und topographi-
+schen  Gegebenheiten  in  dreidimensionale  Koordinaten  überführt  werden.  So
+entsteht  ein  Schalltechnisches  Geländemodell  (SGM).  Dieses  enthält  das  3-di-
+mensionale Höhenmodell, die vorhandene Bebauung, deren Gebäudehöhen und
+Geschosszahlen,  die  im  Rahmen  der  Ortsbegehung  erfasst  wurden.  Weiterhin
+werden die vorhandenen Bodenhöhen, Stützwände und Bruchkanten sowie die
+vorhandenen  Lärmschutzwände  und  -wälle  sowie  deren  Kombination  berück-
+sichtigt.
+Das Modell beinhaltet weiterhin die maßgeblichen Verkehrswege, d.h. die BAB A 8
+und A 5 einschließlich der Auf- und Abfahrtsrampen im Bereich des Autobahn-
+dreiecks entsprechend ihrer Lage und Höhe sowie der für sie ermittelten Emis-
+sionsbelastung sowie fassaden- und stockwerksscharfe Immissionsorte an den
+schutzwürdigen Gebäuden im Untersuchungsraum.
+5.3 Ausbreitungsberechnungen und Darstellung der Ergebnisse
+Die  Berechnung  der  Schallimmissionen  erfolgt  unter  Berücksichtigung  von
+schallpegelmindernden  Hindernissen  (Bebauung,  Gelände,  etc.)  auf  dem  Aus-
+breitungsweg sowie unter Berücksichtigung von 2 Reflexionen gemäß den Vorga-
+ben der RLS-19. Die Berechnungen erfolgen neben den Einzelpunktberechnungen
+A 8
+Lärmsanierung Wolfartsweier
+Karlsruhe 12.06.23   A8 Lärmsanierung Wolfartsweier.wpd
+
+Erläuterungsbericht 14
+Abb. 2:Darstellung der Ergebnisse im Plan
+zusätzlich im Beurteilungszeitraum Tag (Plan 2, 4, 6, ff.) flächenhaft in 2 m Höhe
+über Gelände-Oberkante (d.h. in der maßgeblichen Höhe für die Beurteilung von
+Geräuschen bei ebenerdigen Aufenthaltsbereichen im Freien, d.h. für Terrassen,
+Gärten,  etc.  zur  Festlegung  gegebenenfalls  erforderlicher  aktiver  Schallschutz-
+maßnahmen) sowie in der Nacht (Plan 3, 5, 7, ff.) in 6 m Höhe (entspricht ungefähr
+dem 1. Geschoss) als repräsentative Höhe für die Bebauung zur Festlegung gege-
+benenfalls  erforderlicher  passiver  Schallschutzmaßnahmen  zum  Schutz  der
+Schlafruhe innerhalb des Plangebietes. 
+Die  Ergebnisse  der  Berechnungen  werden  in  Rasterlärmkarte  mit  Isophonen
+entsprechend der maßgebenden Auslösewerte der Lärmsanierung in den Plänen
+visualisiert.
+Rot markierte Fassadenseiten zeigen an, dass der maßgebende Auslösewert der
+Lärmsanierung  in  mindestens  einem  Geschoss  überschritten  wird.  Der  darin
+enthaltene Buchstabe steht für die Fassadenbezeichnung und findet sich in den
+Ergebnistabellen im Anhang wieder. So ist über die Adresse und die Fassaden-
+kennzeichnung eine eindeutige Zuordnung der Pegel zur Fassade gegeben.
+Die  Berechnungsergebnisse  für  die  betrachteten  Planfälle  sind,  alphabetisch
+nach den Adressen Gebäude geordnet, tabellarisch im Anhang wiedergegeben.
+ 
+6. Berechnungsergebnisse und Beurteilung der Ist-Situation
+      Anh-Tab. 2Die Ergebnisse der schalltechnischen Berechnungen im Bestands- und Prognose-
+fall mit den bestehenden Lärmschutzwänden, sowie Wall-Wand-Kombinationen,
+sind der Tabelle 2 im Anhang in der Spalte ‘Bestand mit best. Lärmschutz’ bzw.
+‘Prognose mit best. Lärmschutz’ zu entnehmen. Der Prognosefall stellt dabei die
+zukünftige  Situation  im  Untersuchungsgebiet  (ohne  zusätzliche  aktive  Lärm-
+schutzanlagen)  und  unter  der  Annahme,  dass  durch  zukünftige  Verkehrsver-
+änderungen der Emissionspegel der Straße um 2 dB(A) zunimmt, dar. Eine Pegel-
+A 8
+Lärmsanierung Wolfartsweier
+Karlsruhe 12.06.23   A8 Lärmsanierung Wolfartsweier.wpd
+
+Erläuterungsbericht 15
+zunahme  von  2  dB(A)  entspricht  einer  Verkehrszunahme  von  mehr  als  50  %.
+Hierbei handelt es sich um einen stark konservativen Ansatz im Sinne der Betrof-
+fenen.
+In der Tabelle 2 sind die Berechnungsergebnisse alphabetisch nach Adressen der
+untersuchten Gebäude geordnet, wiedergegeben. Zudem können die auftreten-
+den Überschreitungen der maßgebenden Auslösewerte im Bestands- sowie im
+Prognosefall entnommen werden.
+       
+Plan 2,3Die  Lage der berücksichtigten Gebäude / Immissionsorte, die Ergebnisse der
+flächenhaften Ausbreitungsberechnungen für den Tag in 2,0 m Höhe über Gelän-
+de  sowie  für  die  Nacht  in  6,0  m  Höhe  über  Gelände  sowie  die  Fassaden  mit
+Überschreitung der maßgebenden Auslösewerte der Lärmsanierung im Bestand
+können den Plänen 2 und 3 entnommen werden. 
+Wie insbesondere dem Plan im Beurteilungszeitraum Nacht sowie den Berech-
+nungsergebnissen der Tabelle 2 im Anhang entnommen werden kann, werden die
+maßgebenden  Auslösewerte  der  Lärmsanierung  bezogen  auf  den  Bestand
+ausschließlich nachts an 157 Gebäuden in der förderfähigen Ortslage von Wol-
+fartsweier überschritten. 
+Gebäude mit Überschreitung der Auslösewerte der Lärmsanierung, welche zudem
+voraussichtlich die in Kapitel 4 genannten Beurteilungskriterien erfüllen, können
+im Rahmen der Wirtschaftlichkeitsbetrachtung aktiver Lärmschutzmaßnahmen
+herangezogen werden. Zudem besteht für diese Gebäude dem Grunde nach die
+Möglichkeit der Förderung passiver Lärmschutzmaßnahmen. Sollten an diesen
+Gebäuden nach der Umsetzung aktiver Maßnahmen Restüberschreitungen vorlie-
+gen, bzw. sollten keine aktiven Maßnahmen umgesetzt werden, kann nach Antrag-
+stellung  der  Betroffenen  eine  Überprüfung  nach  der  ‘Vierundzwanzigste  Ver-
+ordnung  zur  Durchführung  des  Bundes-Immissionsschutzgesetzes  –  Verkehrs-
+wege- Schallschutzmaßnahmenverordnung (24. BImSchV)’ erfolgen. Hierbei wird
+festgestellt,  ob  eine  Verbesserung  vorhandener  Außenbauteile  erforderlich  ist
+(z.B.  der  Einbau  von  Lärmschutzfenstern),  um  den  nach  der  24.  BImSchV  maß-
+geblichen Innenpegel in schutzbedürftigen Räumen einzuhalten.
+Die  hohen  Betroffenheiten  rechtfertigen  grundsätzlich  die  Überprüfung  der
+Wirtschaftlichkeit aktiver Schallschutzmaßnahmen. Dies erfolgt unter Bezugnah-
+me auf die Berechnungsergebnisse des Prognosefalls.
+A 8
+Lärmsanierung Wolfartsweier
+Karlsruhe 12.06.23   A8 Lärmsanierung Wolfartsweier.wpd
+
+Erläuterungsbericht 16
+7. Abwägung von Schallschutzmaßnahmen 
+Wie den Berechnungsergebnissen für den Bestandsfall entnommen werden kann,
+sind  aktuell  unter  Berücksichtigung  der  vorhandenen  Lärmschutzmaßnahmen
+entlang der A 8 großflächige Überschreitungen der Auslösewerte der Lärmsanie-
+rung nachts festzustellen. Im Folgenden werden Varianten zusätzlicher aktiver
+Maßnahmen auf Basis der Prognosewerte, d.h. einer Erhöhung gegenüber dem
+Bestand um + 2 dB(A) untersucht und hinsichtlich ihres schalltechnischen Nut-
+zens und ihrer Wirtschaftlichkeit bewertet.
+7.1 Grundsätzliche Überlegungen
+Nach den Vorschriften der §§ 41, 43 Absatz 1 Satz 1 Nr. 1 BImSchG ist im Bereich
+der Lärmvorsorge in Verbindung mit §2 Absatz 1 der 16. BImSchV beim Bau oder
+bei der wesentlichen Änderung von Verkehrswegen grundsätzlich sicherzustellen,
+dass  die  Beurteilungspegel  die  dort  genannten  Immissionsgrenzwerte  nicht
+überschreiten. Dies  gilt  jedoch  nicht,  wenn  die  Kosten  der  Schutzmaßnahme
+außer Verhältnis zu dem angestrebten Schutzzweck stehen.
+Die gilt in gleichem Maße auch für die Abwägung von Schallschutzmaßnahmen 
+im Rahmen der Lärmsanierung. Eine gesetzliche Regelung, unter welchen Voraus-
+setzungen eine Schutzmaßnahme nicht mehr verhältnismäßig ist, existiert jedoch
+nicht.
+Betroffene  haben  im  Bereich  der  Lärmvorsorge einen  Anspruch  auf  die  Ein-
+haltung  der  Grenzwerte  nach  §  2  Absatz  1  der  16.  BImSchV  durch  aktive  Lärm-
+schutzmaßnahmen  (sog.  “Vollschutz”),  von  dem  aber  nach  Maßgabe  des  §  41
+Absatz  2  BImSchG  Abstriche  möglich  sind.  Es  erfolgt  somit  ausschließlich  die
+wirtschaftliche  Bewertung  der  aktiven  Lärmschutzmaßnahmen.  In  der  Folge
+bedeutet  dies,  dass  Kostenschätzungen  für  passive  Schallschutzmaßnahmen
+nicht in die Abwägung mit einzubeziehen sind.
+Im Rahmen der durchzuführenden planerischen Abwägung ist die Auswahl zwi-
+schen verschiedenen in Betracht kommenden Schallschutzmaßnahmen zu tref-
+fen. 
+Grundsätzlich besteht auch im Rahmen der Lärmsanierung ein Vorrang aktiver
+Lärmschutzmaßnahmen.  Nach  VLärmSchR  97,  Nr.  12  sind  dabei  aktive  Schall-
+schutzmaßnahmen von vornherein ausgeschlossen, deren Kosten den Verkehrs-
+wert der schutzbedürftigen Objekte überschreiten. Bei der Lärmsanierung han-
+delt  es  sich  um  eine  freiwillige  Maßnahme  des  Straßenbaulastträgers,  d.h.  es
+besteht kein “Anspruch”, sondern dem Grunde nach eine “Förderfähigkeit” von
+A 8
+Lärmsanierung Wolfartsweier
+Karlsruhe 12.06.23   A8 Lärmsanierung Wolfartsweier.wpd
+
+Erläuterungsbericht 17
+Lärmschutzmaßnahmen. Aufwendungen für aktive Maßnahmen trägt der Straßen-
+baulastträger.  Aufwendungen  für  passive  Lärmschutzmaßnahmen  können  in
+Höhe von 75 % bezuschusst werden.
+Ein wesentliches Element der Verhältnismäßigkeitsprüfung ist der Schutzfall. Als
+Schutzfall wird ein Immissionsort definiert. Ein Schutzfall liegt dann vor, wenn an
+einer Fassade (Immissionsort) eine Überschreitung des Auslösewertes der Lärm-
+sanierung  auftritt.  Hierbei  wird  zwischen  den  Beurteilungszeiträumen  Tag  und
+Nacht differenziert gewertet, so dass ein Immissionsort, an der sowohl der Tag-
+als auch der Nachtauslösewert überschritten wird, 2 Schutzfälle darstellt. Hierzu
+werden Berechnungspunkte pro Gebäude, Fassade und Geschoss festgelegt. In
+der  Regel  gibt  es  an  einem  Wohnhaus  mind.  acht  Immissionsorte  (einer  pro
+Fassade,  EG+DG,  bei  Mehrgeschossigkeit  entsprechend  mehr).  Ein  Schutzfall
+repräsentiert also in der Regel eine Stockwerksfassade. Bei größeren Fassaden
+den Teil einer Stockwerksfassade.
+Im  Rahmen  der  EDV-technischen  Bearbeitung  wird  auf  Basis  der  digitalen  Ka-
+tasterdaten  für  jeden  Fassadenabschnitt  eines  Gebäudes  ein  Immissionsort
+gesetzt. Die einzelnen Fassadenabschnitte werden in den Ergebnistabellen mit
+einem fortlaufenden Buchstaben versehen (vgl. auch Abbildung 2).
+Um  Maßnahmen  im  Rahmen  der  Lärmsanierung  zu  ermöglichen,  müssen  die
+Auslösewerte  im  Bestand  überschritten  werden.  Immissionsorte,  auf  die  dies
+zutrifft  gelten  als  ungelöste  Schutzfälle.  Im  Bestandsfall  ergeben  sich  am  Tag
+keine, in der Nacht 736 ungelöste Schutzfälle für die ermittelten 157 Gebäude. Die
+maximalen  Überschreitungen  des  Auslösewertes  der  Lärmsanierung  betragen
+dabei bis zu 5,7 dB(A) in der Nacht.
+Unter  der  Annahme,  dass  durch  zukünftige  Verkehrsveränderungen  der  Emis-
+sionspegel der Straße um 2 dB(A) zunimmt, ergeben sich maximale Überschrei-
+tungen des Auslösewertes der Lärmsanierung von bis zu 1,2 dB(A) am Tag und bis
+zu 7,7 dB(A) in der Nacht.
+7.2 Untersuchte Lärmschutzvarianten
+Als Ausgangspunkt für alle weiteren Variantenuntersuchungen zur Reduzierung
+der Lärmbetroffenheiten ist eine Vollschutzvariante zu ermitteln. Diese Variante
+hat für alle Immissionsorte als Zielvorgabe:
+<die Einhaltung der Auslösewerte der Lärmsanierung (Variante 1) sowie
+<zusätzlich  die  erweiterten  Vorgabe  der  Einhaltung  der  Lärmvorsorgegrenz-
+werte der 16. BImSchV (Variante 2).
+A 8
+Lärmsanierung Wolfartsweier
+Karlsruhe 12.06.23   A8 Lärmsanierung Wolfartsweier.wpd
+
+Erläuterungsbericht 18
+Dabei ist nicht ausschlaggebend, wie aufwendig und realistisch diese Maßnah-
+men sind.
+Ausgehend  von  einem  Schallschutzkonzept  aktiver  Maßnahmen,  das  alle  im
+jeweiligen  Schutzabschnitt  auftretenden  Schutzfälle  löst  (Vollschutz),  sind  im
+Rahmen  von  Variantenrechnungen  schrittweise  geeignete  Abstufungen  vor-
+zunehmen  (z.B.  Reduzierungen  der  Höhe  von  Schallschutzwänden).  Als  aktive
+Schallschutzmaßnahmen  sind  Schallschutzwände,  ggf.  Schallschutzwälle  bzw.
+deren  Kombination  zu  betrachten.  Die  Wirkung  lärmmindernder  Straßendeck-
+schichten wird in Folge der weiträumig bereits umgesetzten Fahrbahndeckensa-
+nierungen nicht weiter betrachtet.
+Durch die aktiven Schallschutzmaßnahmen kann eine Verringerung der Geräusch-
+immissionen  im  Umfeld  der  schutzwürdigen  Nutzungen,  d.h.  auch  schon  im
+Außenwohnbereich erreicht werden. Die Wirksamkeit der aktiven Schallschutz-
+maßnahmen im Hinblick auf die Einhaltung der Auslöse- bzw. Immissionsgrenz-
+werte nimmt jedoch von der Erdgeschosszone an mit zunehmender Gebäudehöhe
+ab.  Zudem  wird  die  realisierbare  Höhe  aktiver  Schallschutzmaßnahmen  (z.B.
+Schallschutzwände,  Erdwälle  oder  deren  Kombination)  durch  bautechnische,
+planungsrechtliche,  eigentumsrechtliche  und  städtebauliche  Gesichtspunkte
+begrenzt.
+Die  Ermittlung  der  Kosten  für  die  aktiven  Schallschutzmaßnahmen  wurde  auf
+Grundlage folgender, mit der Autobahn des Bundes abgestimmter Kostenansätze
+ermittelt:
+<Lärmschutzwand bis 6,0 m Höhe:    550,00 €/m²,
+<Lärmschutzwand bis 7,5 m Höhe:    650,00 €/m²,
+<Lärmschutzwand bis 9,0 m Höhe:    750,00 €/m²,
+<Lärmschutzwand bis 12 m Höhe:     900,00 €/m²,
+<Lärmschutzwand ab 12 m Höhe:   1.200,00 €/m².
+In  den  Varianten  3  bis  5  werden  die  Auswirkungen  einer  Erhöhung  der  Lärm-
+schutzwände  außerhalb  der  Brückenbauwerke,  die  Wirkung  einer  zusätzlichen
+Mittelwand sowie im Bereich der Brückenbauwerken der Vorsatz eines Torsions-
+balkens mit höherer Lärmschutzwand untersucht:
+<Variante  3:  Erhöhung  der  bestehenden  Lärmschutzwände  auf  h  =  6,0  m  au-
+ßerhalb der Brückenbauwerke, 
+A 8
+Lärmsanierung Wolfartsweier
+Karlsruhe 12.06.23   A8 Lärmsanierung Wolfartsweier.wpd
+
+Erläuterungsbericht 19
+<Variante  4:  Erhöhung  der  bestehenden  Lärmschutzwände  auf  h  =  6,0  m  au-
+ßerhalb  der  Brückenbauwerke  und  zusätzlich  Neubau  einer  Mittelwand  mit
+einer Höhe von 6,0 m,
+<Variante  5:  Erhöhung  der  bestehenden  Lärmschutzwände  auf  h  =  6,0  m.  Im
+Bereich  der  Brückenbauwerke  wird  dazu  ein  Torsionsbalken  zur  Aufnahme
+einer 5,0 m hohen Lärmschutzwand errichtet.
+7.3 Ergebnisse der Variantenuntersuchung (Schutzfallbetrachtung)
+Die  einzelnen  Maßnahmen  werden  im  schalltechnischen  Berechnungsmodell
+abgebildet und deren Wirkung berechnet.
+ 
+7.3.1 Varianten 1 und 2 (Vollschutzvarianten)
+       
+Plan 6-9Die  Ergebnisse  der  Variante 1 (Vollschutz zum Einhalten der Auslösewerte der
+Lärmsanierung) können den Plänen 6 für den Tag und 7 für die Nacht entnommen
+werden. Die Ergebnisse für die Variante 2 (Vollschutz zum Einhalten der Lärmvor-
+sorgegrenzwerte der 16. BImschV) können den Plänen 8 für den Tag und 9 für die
+Nacht entnommen werden.
+   Anh-Tab. 3,4Die Ergebnisse der Einzelpunktberechnungen zum Nachweis Wirkung der aktiven
+Maßnahmen können zudem für jeden einzelnen Immissionsort der Tabelle 3 für
+die  Variante  1  und  der  Tabelle  4  für  die  Variante  2  im  Anhang  in  den  Spalten
+‘Prognose mit LS’ und den daran anschließenden Spalten entnommen werden.
+Die mittlere Pegelminderung der Variante 1 beträgt über alle Schutzfälle / Im-
+missionsorte 3,3 dB(A), die maximale Pegelminderung 7,3 dB(A) bei erforderlichen
+Lärmschutzwandhöhen zum Einhalten der Auslösewerte der Lärmsanierung von
+mindestens 10 bis hier maximal betrachtete 60 m Höhe außerhalb der Brücken-
+bauwerke.  Die  Lärmschutzwände  auf  den  Brückenbauwerken  lassen  sich  nicht
+erhöhen, wodurch das Ziel des Erreichens des Vollschutzes nicht möglich ist. Es
+verbleiben an 51 Gebäuden weiterhin Überschreitungen des Auslösewertes der
+Lärmsanierung. Erst bei einer Erhöhung der Lärmschutzwände auf den Brücken-
+bauwerken  auf  mindestens  60  m  Höhe  wäre  ein  (theoretischer)  Vollschutz  er-
+reichbar.
+Die  mittlere  Pegelminderung  der  Variante  2  mit  hier  maximal  betrachteten
+Lärmschutzwandhöhen  außerhalb  der  Brückenbauwerke  beträgt  über  alle
+Schutzfälle / Immissionsorte 3,1 dB(A), die maximale Pegelminderung 7,3 dB(A).
+Auch hier ist das Ziel des Erreichens eines Vollschutzes nicht möglich. Die Zahl
+der  Gebäude  mit  Überschreitung  des  Lärmvorsorgegrenzwertes  reduziert  sich
+A 8
+Lärmsanierung Wolfartsweier
+Karlsruhe 12.06.23   A8 Lärmsanierung Wolfartsweier.wpd
+
+Erläuterungsbericht 20
+gerade mal um 70 von insgesamt 157 im Bestand förderberechtigten Gebäuden.
+Auch hier wäre erst mit einer Erhöhung der Lärmschutzwände auf den Brücken-
+bauwerken auf über 60 m Höhe ein (theoretischer) Vollschutz erreichbar. 
+Beide Vollschutzvarianten sind bautechnisch und wirtschaftlich nicht realisierbar
+und dienen ausschließlich als Grundlage für die weitere Variantenfindung.
+7.3.2 Variante 3 (LSW h=6,0 m außerhalb der Brückenbauwerke)
+    
+Plan 10, 11Die Ergebnisse der Variante 3 mit der Erhöhung der Lärmschutzwand auf h=6,0 m
+können den Plänen 10 für den Tag und 11 für die Nacht entnommen werden.
+     Anh-Tab. 5Die  Ergebnisse  der  Einzelpunktberechnungen zum Nachweis der Wirkung der
+Lärmschutzwanderhöhung  sowie  die  verbleibenden  Betroffenheiten  mit  Über-
+schreitungen der Auslösewerte der Lärmsanierung können für jeden einzelnen
+Immissionort der Tabelle 5 im Anhang in den Spalten ‘Prognose mit LS’ und den
+dran anschließenden Spalten entnommen werden.
+Die mittlere Pegelminderung der Variante 3 beträgt über alle Schutzfälle / Im-
+missionsorte 0,9 dB(A), die maximale Pegelminderung 2,4 dB(A) bei der betrach-
+teten Lärmschutzwanderhöhung auf 6,0 m. Die maßgebenden Auslösewerte der
+Lärmsanierung werden weiterhin um bis zu 0,1 dB(A) am Tag sowie 6,6 dB(A) in
+der Nacht überschritten. An 3 Schutzfällen treten nachts gesundheitsgefährdende
+Pegel von über 60 dB(A) nachts auf.
+Die Zahl der Schutzfälle geht am Tag von 14 auf 1, in der Nacht von 2.277 auf 1.333
+Schutzfälle zurück. Am Tag können somit 92,9 %, in der Nacht 41,5 % der Schutz-
+fälle gelöst werden. Ausgehend von Herstellungskosten der Lärmschutzwand von
+ca. 3.453.000 € berechnen sich daraus Kosten je gelösten Schutzfall von 3.608 €.
+7.3.3 Variante 4 (LSW h=6,0 m und Mittelwand mit h = 6,0 m))
+    
+Plan 12, 13Die Ergebnisse der Variante 4 mit der Erhöhung auf h= 6,0 m und Neubau einer 
+6,0 m hohen Mittelwand können den Plänen 12 für den Tag und 13 für die Nacht
+entnommen werden.
+     Anh-Tab. 6Die  Ergebnisse  der  Einzelpunktberechnungen zum Nachweis der Wirkung der
+Lärmschutzwanderhöhung und der zusätzlichen Mittelwand sowie die verbleiben-
+den Betroffenheiten mit Überschreitungen der Auslösewerte der Lärmsanierung
+können für jeden einzelnen Immissionsort der Tabelle 6 im Anhang in den Spal-
+ten ‘Prognose mit LS’ und den dran anschließenden Spalten entnommen werden.
+A 8
+Lärmsanierung Wolfartsweier
+Karlsruhe 12.06.23   A8 Lärmsanierung Wolfartsweier.wpd
+
+Erläuterungsbericht 21
+Die mittlere Pegelminderung der Variante 4 beträgt über alle Schutzfälle / Im-
+missionsorte 1,6 dB(A), die maximale Pegelminderung 5,5 dB(A) bei der betrachte-
+ten Lärmschutzwanderhöhung auf 6,0 m und der zusätzlichen 6,0 m hohen Mittel-
+wand.  Die  maßgebenden  Auslösewerte  der  Lärmsanierung  werden  am  Tag
+eingehalten, nachts weiterhin um bis zu 5,9 dB(A) überschritten. An 800 Schutzfäl-
+len treten nachts gesundheitsgefährdende Pegel von über 60 dB(A) nachts auf.
+Die Zahl der Schutzfälle geht am Tag von 14 auf 0, in der Nacht von 2.227 auf 800
+Schutzfälle  zurück.  Am  Tag  können  somit  100  %,  in  der  Nacht  64,9  %  der
+Schutzfälle gelöst werden. Ausgehend von Herstellungskosten der Lärmschutz-
+wand von ca. 5.350.000 € berechnen sich daraus Kosten je gelösten Schutzfall von
+3.588 €.
+7.3.4 Variante 5 (LSW h=6,0 und Torsionsbalken mit LSW h = 5,0 m vor Brücken)
+    
+Plan 14, 15Die Ergebnisse der Variante 5 mit der Erhöhung der Lärmschutzwand auf h= 6,0 m
+und  zusätzlichen  Torsionsbalken  mit  einer  aufgesetzten  Lärmschutzwand  mit
+einer Höhe von 5,0 m im Bereich der Brückenbauwerke können den Plänen 14 für
+den Tag und 15 für die Nacht entnommen werden.
+     Anh-Tab. 7Die  Ergebnisse  der  Einzelpunktberechnungen zum Nachweis der Wirkung der
+Lärmschutzwanderhöhungen  auch  im  Brückenbereich  mittelsTorsionsbalken
+sowie die verbleibenden Betroffenheiten mit Überschreitungen der Auslösewerte
+der Lärmsanierung können für jeden einzelnen Immissionsort der Tabelle 7 im
+Anhang in den Spalten ‘Prognose mit LS’ und den dran anschließenden Spalten
+entnommen werden.
+Die mittlere Pegelminderung der Variante 5 beträgt über alle Schutzfälle / Im-
+missionsorte 0,9 dB(A), die maximale Pegelminderung 2,8 dB(A) bei der betrach-
+teten Lärmschutzwanderhöhung auf 6,0 m und den Erhöhungen auf 5,0 m durch
+eine LSW auf Torsionsbalken. Die maßgebenden Auslösewerte der Lärmsanierung
+werden weiterhin um bis zu 0,2 dB(A) am Tag sowie 6,6 dB(A) in der Nacht über-
+schritten.  An  7  Schutzfällen  treten  nachts  gesundheitsgefährdende  Pegel  von
+über 60 dB(A) nachts auf.
+Die Zahl der Schutzfälle geht am Tag von 14 auf 1, in der Nacht von 2.277 auf 1.343
+Schutzfälle  zurück.  Am  Tag  können  somit  92,9  %,  in  der  Nacht  41,1  %  der
+Schutzfälle gelöst werden. Ausgehend von Herstellungskosten der Lärmschutz-
+wand von ca. 4.405.000 € berechnen sich daraus Kosten je gelösten Schutzfall von
+4.647 €.
+A 8
+Lärmsanierung Wolfartsweier
+Karlsruhe 12.06.23   A8 Lärmsanierung Wolfartsweier.wpd
+
+Erläuterungsbericht 22
+Abb. 3:Schutzfallbetrachtung der Varianten 
+Nachstehende Abb. 3 fasst die Ergebnisse der Variantenbetrachtung zusammen.
+A 8
+Lärmsanierung Wolfartsweier
+Karlsruhe 12.06.23   A8 Lärmsanierung Wolfartsweier.wpd
+
+Erläuterungsbericht 23
+7.4 Ergebnisse der Variantenuntersuchung (Lästigkeit nach VLärmSchR 97)
+Die oben durchgeführte Variantenuntersuchung nach dem Prinzip der Schutzfall-
+methode betrachtet ausschließlich monetäre Faktoren. Akustische Faktoren, wie
+z.B. die Höhe der Lärmbelastung sowie deren Lästigkeit bleiben unberücksichtigt.
+Für  die  Abwägung  unterschiedlicher  Ausführungsvarianten  des  aktiven  Lärm-
+schutzes  sind  daher  zusätzlich  auch  Grenz-  (Lärmvorsorge)  bzw.  Auslösewert-
+überschreitungen (Lärmsanierung) entsprechend der Höhe der jeweiligen Über-
+schreitungen zu gewichten.
+Hierzu dient die Erfassung der Lärm-Belastung der Wohneinheiten als Differenz
+zwischen prognostiziertem Beurteilungspegel L
+r
+ und maßgeblichem Auslösewert
+der  Lärmsanierung.  Diese  Größe  wird  für  die  Ermittlung  des  Lästigkeitsmaßes
+(LKM)  benötigt.  In  Anlehnung  an  die  VLärmSchR  97  wird  das  LKM  wie  folgt  er-
+mittelt:
+LKM = 2 
+0,1*Lr  
+- 2 
+0,1*IGW
+mit:
+L
+r
+: Beurteilungspegel
+IGW: Immissionsgrenzwert der 16. BImSchV / Auslösewert der Lärmsanierung
+Ausgehend von den ermittelten Lästigkeitsmaßen werden in weiteren Schritten
+die Effektivität und die Effizienz der Maßnahmen ermittelt und gegenübergestellt.
+So lässt sich die Effektivität [Effektivität = (LKM 
+oLS
+ – LKM 
+mLS
+) / LKM 
+oLS
+] der Lärm-
+minderung (bzgl. der Auslösewerte der Lärmsanierung bzw. der Grenzwerte der
+16. BImSchV) im Vergleich zum Nullfall darstellen.
+Zusätzlich wird auch die Effizienz (LKM 
+oLS
+ – LKM 
+mLS
+) / Kosten), d.h. das Verhältnis
+von Zielerreichung (Einhalten der Auslösewerte der Lärmsanierung bzw. Grenz-
+werte  der  16.  BImSchV)  sowie  der  Mitteleinsatz (Kosten  aktiver  Schallschutz)
+dargestellt und als weiteres Kriterium für ein abgewogenes Schallschutzkonzept
+herangezogen.
+Nachstehende Abbildung 4 zeigt die Ergebnisse der zusätzlichen Betrachtungen.
+A 8
+Lärmsanierung Wolfartsweier
+Karlsruhe 12.06.23   A8 Lärmsanierung Wolfartsweier.wpd
+
+Erläuterungsbericht 24
+Abb. 4:Ermittlung der Effizient und Effektivität
+A 8
+Lärmsanierung Wolfartsweier
+Karlsruhe 12.06.23   A8 Lärmsanierung Wolfartsweier.wpd
+
+Erläuterungsbericht 25
+8. Variantendiskussion
+Wie die obigen Ergebnisse zeigen, stellen rein bauliche Maßnahme in Form der
+Erhöhung der bestehenden Lärmschutzwand, dem Bau einer Mittelwand oder die
+Erhöhung der bestehenden Lärmschutzwände im Bereich der Brückenbauwerke
+durch  vorgesetzte  Torsionsbalken  mit  aufgesetzter  Lärmschutzwand  (entspre-
+chend den Varianten 3 bis 5) keine befriedigenden Lösungen für eine wirksame
+Lärmsanierung in Wolfartsweier dar. Die erzielbaren Pegelminderungen liegen im
+Mittel  bei  weniger  als  2  dB(A),  d.h.  die  baulichen  Maßnahmen  werden  in  der
+Ortslage akustisch nicht wahrnehmbar sein. 
+Die Entscheidung über bauliche Maßnahmen zum Ersatz der bestehenden Wand
+bedarf einer zusätzlichen Betrachtung der bautechnischen und planungsrelevan-
+ten Gegebenheiten. Die Kostenansätze, die der Wirtschaftlichkeitsbetrachtung zu
+Grunde  liegen,  stellen  nur  eine  grobe  Schätzung  dar.  Die  Festlegung  der  kon-
+kreten Umsetzung kann zu einem späteren Zeitpunkt erfolgen, sobald entspre-
+chende Kenntnisse vorliegen. 
+Eine Festlegung auf eine dezidierte Vorzugsvariante ist daher derzeitig noch nicht
+möglich.
+9. Zusätzliche passive Schallschutzmaßnahmen 
+In den Bereichen, in denen sich aktive Schallschutzmaßnahmen  nicht oder nicht
+umfänglich  umsetzen  lassen,  bzw.  die  durch  aktive  Schallschutzmaßnahmen  
+nicht  ausreichend  geschützt  werden  können,  besteht  die  Möglichkeit  der  För-
+derung passiver Schallschutzmaßnahmen  an den Gebäuden selbst. Ob passive
+Lärmschutzmaßnahmen erforderlich sind, sowie ggfs. Art und Umfang der Maß-
+nahmen,  regelt  die  Vierundzwanzigste  Verordnung  zur  Durchführung  des  Bun-
+des-Immissionsschutzgesetzes  (Verkehrswege-Schallschutzmaßnahmenver-
+ordnung – 24. BImSchV).
+Der passive Schallschutz sieht eine entsprechende Ausgestaltung der Außenbau-
+teile von Aufenthaltsräumen vor, die von Überschreitungen des Immissionsgrenz-
+werts  betroffen  sind,  mit  einem  Gesamt-Bauschalldämm-Maß  (R’
+w,res
+),  dass  die
+Einhaltung der Schutzwürdigkeit des Raumes entsprechenden Innenraumpegels
+sicherstellt. Dazu kommt insbesondere der Einbau von Schallschutzfenstern und
+zusätzlich in den in der Nacht genutzten Aufenthaltsräumen (z.B. Kinder-, Schlaf-
+und Gästezimmer) und in schutzbedürftigen Räumen mit Sauerstoff verbrauchen-
+den Energiequellen der Einbau schallgedämmter Lüfter in Frage. 
+A 8
+Lärmsanierung Wolfartsweier
+Karlsruhe 12.06.23   A8 Lärmsanierung Wolfartsweier.wpd
+
+Erläuterungsbericht 26
+Passive Maßnahmen können nur gefördert werden, wenn alle Voraussetzungen
+der Lärmsanierung erfüllt sind. So liegt u.a. keine Förderfähigkeit für Gebäude
+vor,  die  nach  dem  01.04.1974  errichtet  wurden  bzw.  im  Geltungsbereich  eines
+Bebauungsplans liegen, der nach der 01.04.1974 rechtskräftig geworden ist.
+10. Zusammenfassung
+Ziel der schalltechnischen Untersuchung ist es, die maßgebenden Beurteilungs-
+pegel aus dem Straßenverkehr der BAB A 8 und der A 5 im Karlsruher Stadtteil
+Wolfartsweier nach dem aktuellen Rechenverfahren der RLS-19 rechnerisch für
+alle schutzwürdigen Nutzungen fassaden- und stockwerksscharf zu ermitteln und
+den Auslösewerten der Lärmsanierung gegenüberzustellen. 
+Es  werden  unterschiedliche  Varianten  aktiver  Schallschutzmaßnahmen  unter-
+sucht und bewertet.
+Die schalltechnische Untersuchung kommt zu folgenden Ergebnissen:
+Rein bauliche Maßnahmen in Form der Erhöhung der bestehenden Lärmschutz-
+wand,  dem  Bau  einer  Mittelwand  oder  die  Erhöhung  der  bestehenden  Lärm-
+schutzwände im Bereich der Brückenbauwerke durch vorgesetzte Torsionsbalken
+mit aufgesetzter Lärmschutzwand (entsprechend den Varianten 3 bis 5) stellen
+keine  befriedigenden  Lösungen  für  eine  wirksame  Lärmsanierung  in  Wolfarts-
+weier dar.
+Die erzielbaren Pegelminderungen liegen im Mittel bei weniger als 2 dB(A), d.h.
+die baulichen Maßnahmen werden in der Ortslage akustisch nicht wahrnehmbar
+sein. 
+Die Entscheidung über bauliche Maßnahmen zum Ersatz der bestehenden Wand
+bedarf einer zusätzlichen Betrachtung der bautechnischen und planungsrelevan-
+ten Gegebenheiten. Die Kostenansätze, die der Wirtschaftlichkeitsbetrachtung zu
+Grunde  liegen,  stellen  nur  eine  grobe  Schätzung  dar.  Die  Festlegung  der  kon-
+kreten Umsetzung kann zu einem späteren Zeitpunkt erfolgen, sobald entspre-
+chende Kenntnisse vorliegen. 
+In den Bereichen, in denen sich aktive Lärmschutzmaßnahmen nicht oder nicht
+umfänglich umsetzen lassen, bzw. die durch aktive Lärmschutzmaßnahmen nicht
+ausreichend geschützt werden können, besteht grundsätzlich die Möglichkeit der
+Förderung passiver Lärmschutzmaßnahmen an den Gebäuden selbst. 
+Ob passive Lärmschutzmaßnahmen erforderlich sind, sowie ggfs. Art und Umfang
+der Maßnahmen, regelt die Vierundzwanzigste Verordnung zur Durchführung des
+A 8
+Lärmsanierung Wolfartsweier
+Karlsruhe 12.06.23   A8 Lärmsanierung Wolfartsweier.wpd
+
+Erläuterungsbericht 27
+Bundes-Immissionsschutzgesetzes (Verkehrswege-Schallschutzmaßnahmenver-
+ordnung – 24. BImSchV).
+Passive Maßnahmen können nur gefördert werden, wenn alle Voraussetzungen
+der Lärmsanierung erfüllt sind. So liegt u.a. keine Förderfähigkeit für Gebäude
+vor,  die  nach  dem  01.04.1974  errichtet  wurden  bzw.  im  Geltungsbereich  eines
+Bebauungsplans liegen, der nach der 01.04.1974 rechtskräftig geworden ist.
+A 8
+Lärmsanierung Wolfartsweier
+Karlsruhe 12.06.23   A8 Lärmsanierung Wolfartsweier.wpd
