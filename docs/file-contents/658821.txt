@@ -1,0 +1,1199 @@
+
+
+ 
+ 
+  
+IT –  
+Support 
+und 
+Betrieb 
+EMPFEHLUNG 
+ERSTELLT FÜR: 
+Stadt Karlsruhe 
+- Schul- und Sportamt 
+Blumenstraße 2 a 
+76133 Karlsruhe 
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 2 von 38 
+Dokumenthistorie 
+ 
+Name Version Änderung Datum 
+Patrik Horn 1.00 Erster Entwurf 24.08.2023 
+Patrik Horn 1.01 Ergänzung 14.11.2023 
+Patrik Horn 1.02 Ergänzung „IT-Amt“ 
+Ergänzung „Feedback“ 
+20.11.2023 
+Patrik Horn 1.03 Ergänzung „Feedback“ 07.12.2023 
+Patrik Horn 1.04 Ergänzung „Feedback“ und Meeting vom 
+30.01.2024 
+02.02.2024 
+Patrik Horn 1.05 Ergänzung „Feedback“ und Meeting vom 
+08.02.2024 
+12.03.2024 
+Patrik Horn 1.06 Ergänzung aus dem Meeting vom 
+14.03.2024 
+14.03.2024 
+Patrik Horn 1.07 Ergänzung aus dem Meeting vom 
+21.03.2024 
+21.03.2024 
+Patrik Horn 1.08 Ergänzung aus dem Meeting vom 
+27.03.2024 
+03.04.2024 
+Patrik Horn 1.09 Ergänzung „Feedback“ und Meeting vom 
+10.04.2024 
+10.04.2024 
+    
+    
+    
+    
+    
+    
+ 
+ 
+  
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 3 von 38 
+Inhalt 
+Dokumenthistorie.............................................................................................................. 2 
+Einleitung ........................................................................................................................... 4 
+Management Summary .................................................................................................... 5 
+Empfehlung für die Optimierung der IT ......................................................................... 7 
+Optimierung des IT-Supports und -Betriebs in den Karlsruher Schulen ..................... 8 
+Lösungsansätze................................................................................................................ 10 
+Integration in das IT-Amt ....................................................................................................... 11 
+Voraussetzungen .............................................................................................................................................................. 12 
+Vorteile ................................................................................................................................................................................. 12 
+Nachteile .............................................................................................................................................................................. 13 
+Schnittstellen ...................................................................................................................................................................... 14 
+Kostenaspekt ...................................................................................................................................................................... 15 
+Personalaspekt ................................................................................................................................................................... 17 
+Umsetzungsstrategie ....................................................................................................................................................... 19 
+Outsourcing an einen externen Dienstleister ....................................................................... 21 
+Voraussetzungen .............................................................................................................................................................. 21 
+Vorteile ................................................................................................................................................................................. 22 
+Nachteile .............................................................................................................................................................................. 23 
+Schnittstellen ...................................................................................................................................................................... 25 
+Kostenaspekt ...................................................................................................................................................................... 27 
+Personalaspekt ................................................................................................................................................................... 28 
+Umsetzungsstrategie ....................................................................................................................................................... 30 
+Entwicklungspfade für IT-Innovationen im Schulwesen ............................................. 32 
+Phasenplan ...................................................................................................................... 34 
+Fazit .................................................................................................................................. 35 
+Anhang ............................................................................................................................. 38 
+Abkürzungsverzeichnis ........................................................................................................... 38 
+ 
+  
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 4 von 38 
+Einleitung 
+Im Jahr 2018 identifizierte die Stadt Karlsruhe innerhalb des Projekts "IT-moderne Schule - 
+Digitalisierung der Karlsruher Schulen" einen spezifischen Unterstützungsbedarf für das 
+"Konzept zu Handlungsfeld 5: Supportsystem". Dieses Konzept zielte auf den Ausbau des 
+technischen Supports für die pädagogische IT-Umgebung in den Karlsruher Schulen ab. Trotz 
+der klaren Zielsetzung konnten die geplanten Maßnahmen aus verschiedenen Gründen bislang 
+nicht umgesetzt werden. 
+ 
+Im Mai 2023 fand ein initialer Termin des Dezernat 3, dem Schul- und Sportamt (SuS) und 
+modernX statt. In enger Zusammenarbeit wurde ein begrenztes Dienstleistungskontingent 
+investiert, um strategische Empfehlungen für die erfolgreiche Implementierung des 
+Handlungsfeldes 5 zu entwickeln. Unser Ansatz konzentrierte sich darauf, die bestehende 
+Situation detailliert zu analysieren und konkrete Ansatzpunkte für den gezielten Ausbau des IT-
+Supports und des Betriebs zu identifizieren. 
+ 
+Im Verlauf der Diskussionen wurde auch die Machbarkeit einer Integration des IT-Supports in 
+das städtische IT-Amt erörtert und für sinnvoll betrachtet. 
+Diese Gespräche, die gegen Ende des Jahres 2023 intensiviert wurden, mündeten in ein 
+gemeinsames Meeting zwischen dem IT-Amt und dem Schul- und Sportamt (SuS), um die 
+potenzielle Machbarkeit einer solchen Integration zu prüfen. 
+ 
+Diese strategische Ausrichtung und die daraus resultierenden Gespräche bilden die Grundlage 
+für unsere weiteren Planungen und die zukünftige Ausgestaltung der IT-Unterstützung in den 
+Karlsruher Schulen. 
+ 
+  
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 5 von 38 
+ 
+Management Summary 
+Bei der Evaluierung der IT-Strategieoptionen für die Stadt Karlsruhe – die Integration in das Amt 
+für Informationstechnik und Digitalisierung gegenüber dem Outsourcing – werden beide 
+Ansätze gegenübergestellt, um einen ersten Überblick zu bieten. Ziel ist es, die Lehrkräfte im IT-
+Bereich zu entlasten und gleichzeitig die Qualität der IT-Unterstützung insgesamt zu verbessern, 
+mit einem besonderen Fokus auf die Optimierung der Supportprozesse und die Modernisierung 
+der IT-Landschaft. 
+Aktuell zeigt sich die Ausgangslage als verbesserungswürdig: Viele essenzielle IT-
+Managementprozesse wie Patch-Management, Asset-Management, Security-Management und 
+Change-Management wurden bisher nicht oder nur unzureichend adressiert. Diese Lücken in 
+der Prozesslandschaft haben dazu geführt, dass die Stadt Karlsruhe kurzfristig auf externe 
+Dienstleister zurückgreifen musste. Diese bieten zwar Unterstützung für die Schulen, tragen 
+jedoch nicht zur Weiterentwicklung der IT-Infrastruktur bei. Die Kosten für diesen temporären 
+IT-Support belaufen sich auf rund 118.000 € monatlich, wobei diese Summe ausschließlich die 
+Grund- und weiterführenden Schulen umfasst, die beruflichen Schulen sind dabei noch nicht 
+berücksichtigt. 
+Die Integration der IT-Supportfunktionen in das Amt für Informationstechnik und 
+Digitalisierung (IT) setzt die umfassende Schaffung erforderlicher Stellen voraus, um 
+langfristige Effizienz und Kosteneinsparungen im Vergleich zum Outsourcing zu realisieren. In 
+diesem Zusammenhang haben das Schul- und Sportamt (SuS) und das Amt für 
+Informationstechnik und Digitalisierung gemeinsam einen ersten Entwurf für eine mögliche 
+Organisationsstruktur erarbeitet und den Bedarf an zusätzlichem Personal identifiziert. 
+ 
+ 
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 6 von 38 
+Outsourcing ermöglicht den Zugriff auf spezialisiertes Fachwissen und bietet die Möglichkeit 
+einer schnellen Implementierung. Allerdings sind damit langfristige Risiken verbunden, darunter 
+potenziell steigende Servicekosten, eine zunehmende Abhängigkeit von Dienstleistern sowie 
+Herausforderungen in Bezug auf Datensicherheit und -souveränität. Zudem ist zu 
+berücksichtigen, dass Ausschreibungen aufgrund gesetzlicher Vorgaben eine maximale Laufzeit 
+von vier Jahren haben, was regelmäßige Anbieterwechsel zur Folge haben kann. Um die 
+Auswirkungen auf die Servicequalität abzufedern, ist auch beim Outsourcing der Einsatz 
+internen Personals erforderlich, um die Steuerung und Überwachung des externen Dienstleisters 
+zu gewährleisten. Eine sorgfältige Vertragsgestaltung und ein effektives Management sind 
+entscheidend, um eine Kostenkontrolle zu sichern und die Qualität der Dienstleistung zu 
+garantieren. 
+ 
+Das Amt für Hochbau und Gebäudewirtschaft (HGW) konzentriert sich weiterhin auf das 
+passive Datennetz und die Gebäudetechnik in Schulen, während Aufgaben des Netzwerk- und 
+WLAN-Betriebs an externe Dienstleister oder das IT-Amt übergehen.  
+ 
+Empfehlung: Die Integration in das Amt für Informationstechnik und Digitalisierung wird 
+empfohlen, unter der Bedingung, dass die erforderlichen Stellen vollständig gewährt werden. 
+Diese Strategie unterstützt eine bessere Kontrolle der IT-Kosten, fördert die interne 
+Kompetenzentwicklung und sichert die Ausrichtung der IT-Dienste auf die städtischen Ziele. Die 
+vollständige Bereitstellung der Stellen ist entscheidend, um die geplanten Vorteile zu realisieren 
+und eine nachhaltige IT-Infrastruktur für die Stadt Karlsruhe zu schaffen. 
+ 
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 7 von 38 
+4 
+Empfehlung für die Optimierung der IT 
+Mit dem Fokus auf die Erreichung mehrerer primärer Ziele, empfehlen wir eine gezielte 
+Neuausrichtung der IT-Unterstützung in den Schulen. Unsere Empfehlungen zielen darauf ab, 
+die Belastung der Lehrkräfte vor Ort im IT-Bereich zu reduzieren und gleichzeitig die Qualität 
+des Supportprozesses zu steigern. Durch die Verbesserung der Durchlaufzeiten und anderer 
+relevanter Kriterien möchten wir eine effizientere Supporterfahrung gewährleisten. 
+ 
+Ein wesentlicher Aspekt unserer Empfehlung betrifft den Übergang von reaktivem zu proaktivem 
+Handeln innerhalb der IT. Wir sind überzeugt davon, dass durch eine vorausschauende 
+Herangehensweise, potenzielle Probleme frühzeitig erkannt und behoben werden können, 
+bevor sie Auswirkungen auf den Schulbetrieb haben. 
+ 
+Des Weiteren schlagen wir eine umfassende Vereinheitlichung der IT-Strukturen in den Schulen 
+vor. Indem wir die IT-Systeme und -Prozesse standardisieren, streben wir eine Verringerung der 
+Supportanfragen und eine Reduktion der Komplexität an. Dies sollte letztendlich zu einer 
+effektiveren Nutzung der Ressourcen führen und die Gesamtleistung der IT-Unterstützung 
+verbessern. 
+ 
+In Anbetracht dieser Ziele und Überlegungen empfehlen wir nachdrücklich die Umsetzung 
+dieser Maßnahmen, um die IT-Unterstützung in den Schulen von Karlsruhe nachhaltig zu 
+optimieren. 
+ 
+Die Personalherausforderungen in Bezug auf den Ausbau des IT-Supports und -Betriebs stehen 
+deutlich im Fokus. Gemäß den Erkenntnissen des „Konzepts zu Handlungsfeld 5: Supportsystem“ 
+ist ein Bedarf von insgesamt 28 Mitarbeitern für diese Aufgaben identifiziert worden. Es ist 
+wichtig zu betonen, dass sich diese 28 Mitarbeiter ausschließlich auf den Bereich des IT-
+Supports beziehen und nicht für Aufgaben wie Beschaffung, Asset Management oder 
+Koordination vorgesehen sind. Zudem wurde dieser Bedarf unter Berücksichtigung aller 88 
+Schulen der Stadt, einschließlich der beruflichen Schulen, ermittelt, was die Notwendigkeit einer 
+umfassenden und gut koordinierten Personalplanung unterstreicht. 
+ 
+Diese Situation stellt die Stadt vor diverse Herausforderungen. Einerseits müsste sie die 
+Bewilligung und Finanzierung aller 28 Stellen sicherstellen, was langfristige Planung und 
+Budgetierung erfordert. Andererseits besteht die Schwierigkeit, qualifiziertes Personal mit den 
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 8 von 38 
+erforderlichen Fachkenntnissen in ausreichender Anzahl zu finden und langfristig zu binden. Der 
+sich verschärfende Wettbewerb um Fachkräfte im IT-Bereich erhöht die Komplexität der 
+Rekrutierung zusätzlich. 
+ 
+Die Notwendigkeit, das bestehende Personal langfristig zu halten und gleichzeitig neue 
+Fachkräfte zu gewinnen, um den umfangreichen IT-Support zu bewältigen, erfordert 
+strategische Planung und gezielte Maßnahmen. 
+ 
+ 
+Optimierung des IT-Supports und -Betriebs in den Karlsruher Schulen 
+ 
+In unserem Bestreben, den IT-Support und -Betrieb in den Karlsruher Schulen zu optimieren und 
+die Qualität der Unterstützung zu steigern, haben wir eine Reihe von Maßnahmen identifiziert, 
+die sich auf die Schaffung effizienter Strukturen und Prozesse konzentrieren. 
+ 
+Ein wesentlicher Schritt in diesem Prozess ist die Schaffung eines Kernteams, das für die 
+Koordination und Bearbeitung von Supportanfragen zuständig ist. Dieses Team wird eine 
+zentrale Rolle in der Gewährleistung einer reibungslosen Kommunikation zwischen den Schulen 
+und dem IT-Team spielen. Es wird nicht nur aus einem First-Level-Support und Koordinator 
+bestehen, sondern auch aus technisch versierten Experten, die über tiefgehendes Fachwissen 
+verfügen. Diese Experten werden in der Lage sein, technische Herausforderungen proaktiv zu 
+erkennen und entsprechende Lösungen zu entwickeln. Zusätzlich wird die Rolle eines IT-
+Architekten mit umfassendem technischem Hintergrundwissen entscheidend sein, um die IT-
+Infrastruktur effektiv zu planen und zu optimieren sowie wichtige technische Entscheidungen zu 
+treffen. 
+ 
+Ein weiterer wichtiger Aspekt ist die Schaffung einer zentralen Plattform, die alle Partner 
+integriert und die Effizienz der Kommunikation und Zusammenarbeit steigert. Diese Plattform 
+wird eine umfassende Dokumentation und Projektplanung beinhalten, die sowohl technische 
+Aspekte als auch organisatorische Details wie Ansprechpartner und Zuständigkeiten umfasst. 
+Die Abbildung von Prozessen, wie beispielsweise dem Austausch von Netzwerkswitchen, wird 
+ebenfalls ein wichtiger Bestandteil sein, um klare Handlungsanweisungen zu haben. 
+ 
+Die Entwicklung einer zentralen IT-Struktur ist ein weiterer entscheidender Schritt. Ein zentrales 
+Monitoringsystem für Netzwerkkomponenten, Hypervisoren, virtuelle Maschinen und Services 
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 9 von 38 
+wird eingerichtet, um potenzielle Probleme frühzeitig zu erkennen und proaktiv anzugehen. Die 
+schrittweise Vereinheitlichung und Zentralisierung der IT-Strukturen, einschließlich der 
+Überführung aller Systeme in den Schulen in das neue Rechenzentrum, wird eine vereinfachte 
+Verwaltung und effiziente Betreuung über alle Schultypen hinweg ermöglichen. 
+ 
+Ein besonderes Augenmerk liegt dabei auf den Grundschulen. Diese stellen aufgrund ihrer 
+geringeren IT-Anforderungen einen Quick-Win dar und bieten sich ideal als Pilotprojekt an, um 
+die Mandantenfähigkeit der paedML und möglicher Nachfolgesysteme zu prüfen. Die 
+Erfahrungen, die wir hier sammeln, sind von unschätzbarem Wert für die anschließende 
+Implementierung in weiterführenden Schulen und Berufsfachschulen, die aufgrund ihrer 
+höheren Komplexität und spezifischen Anforderungen eine detailliertere Planung und 
+individuelle Lösungsansätze erfordern. 
+ 
+Zusätzlich wird der Wissenstransfer an Schulen und Dienstleister durch regelmäßige Round-
+Table-Treffen gefördert, um ein konsistentes Verständnis der IT zu gewährleisten und den 
+Austausch von Erfahrungen zu verbessern. Die Erweiterung der Anforderungen an Dienstleister, 
+einschließlich des Nachweises von Kernwissen in Bereichen wie paedML, deren möglichen 
+Nachfolgern und wichtigen eingesetzten Technologien, wird ebenfalls eine wichtige Rolle 
+spielen. Die Bereitstellung eines zentralen Ansprechpartners, der als Bindeglied zwischen 
+Partnern und IT-Team fungiert, ist dabei unerlässlich. 
+ 
+Abschließend empfehlen wir die Erarbeitung einer langfristigen IT-Strategie für die nächsten 
+fünf Jahre, um klare Ziele und Entwicklungsschritte festzulegen. Der schrittweise Ausbau des IT-
+Personals, um ein umfassendes und kompetentes Team zu bilden, wird ebenfalls angestrebt. 
+ 
+Durch diese Maßnahmen wird eine effiziente und nachhaltige IT-Infrastruktur in den Karlsruher 
+Schulen geschaffen, die den unterschiedlichen Bedürfnissen und Anforderungen der 
+verschiedenen Schultypen gerecht wird. 
+  
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 10 von 38 
+ 
+Lösungsansätze 
+In der Stadt Karlsruhe steht man vor einer signifikanten Herausforderung: die Gewährleistung 
+eines effizienten und zukunftsfähigen IT-Supports für die Schulen. Diese Herausforderung 
+wurzelt in einer zunehmend digitalisierten Bildungsumgebung, in der die Anforderungen an 
+technische Unterstützung und Infrastruktur stetig steigen. Vor diesem Hintergrund werden zwei 
+strategische Lösungsansätze in Betracht gezogen: das Outsourcing an externe Dienstleister und 
+die Integration der IT-Supportfunktionen in das Amt für Informationstechnik und Digitalisierung. 
+ 
+Jeder dieser Ansätze adressiert die Kernproblematik auf unterschiedliche Weise. Das 
+Outsourcing verspricht Flexibilität und Kosteneffizienz, ermöglicht es, schnell auf technologische 
+Entwicklungen zu reagieren und entlastet die internen Ressourcen. Die Integration in das Amt 
+für Informationstechnik und Digitalisierung könnte eine verbesserte Koordination und Nutzung 
+bestehender städtischer IT-Strukturen bieten. 
+ 
+Diese Analyse zielt darauf ab, die Eignung jedes Ansatzes im Kontext der spezifischen 
+Bedürfnisse und Herausforderungen der Karlsruher Schulen zu bewerten. Es geht darum, eine 
+Lösung zu finden, die nicht nur die aktuellen Anforderungen erfüllt, sondern auch eine robuste 
+Grundlage für die zukünftige Entwicklung des IT-Supports in einem sich schnell wandelnden 
+Bildungsumfeld schafft. 
+  
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 11 von 38 
+ 
+Integration in das IT-Amt 
+Das Amt für Informationstechnik und Digitalisierung (IT) könnte ebenfalls unter bestimmten 
+Bedingungen den Support und Betrieb der Schulen übernehmen. Zum heutigen Stand teilen 
+sich sowohl das Amt für Informationstechnik und Digitalisierung als auch die Schulen 
+Systemkomponenten und die Leitung, welche für das Verwaltungsnetz benötigt wird. Eine 
+Übergabe in das Amt für Informationstechnik und Digitalisierung hätte natürlich auch 
+Synergieeffekte; man könnte auf bestehende Prozesse zurückgreifen bzw. muss diese nicht von 
+neu auf planen. Beispiele hierfür sind Beschaffung und die IT-Sicherheit. Das Amt für 
+Informationstechnik und Digitalisierung hat in den letzten Jahren bereits eine Zentralisierung 
+der einzelnen Standorte vorgenommen, dies kann man gleichsetzen mit der Herausforderung, 
+eine zentrale IT für die Schulen zu schaffen. 
+ 
+ 
+ 
+Das Amt für Hochbau und Gebäudewirtschaft (HGW) behält seine zentrale Rolle bei der 
+Bereitstellung und Verwaltung der grundlegenden passiven Netzwerkinfrastruktur, einschließlich 
+Verkabelungssystemen und den damit verbundenen physischen Komponenten, innerhalb der 
+Schulen. Während diese Basisinfrastruktur, bestehend aus Netzwerkkabeln, Verteilerschränken 
+und anderen passiven Elementen, weiterhin in der Zuständigkeit des HGW verbleibt, ist 
+vorgesehen, die Zuständigkeiten für den Betrieb des aktiven Netzwerks und des WLANs an die 
+Abteilung 'Zentrale System- und Netzmanagement (ZSN)' des Amtes für Informationstechnik 
+und Digitalisierung zu übertragen. Diese strategische Neuausrichtung erlaubt es dem HGW, sich 
+auf die Aufrechterhaltung und Optimierung der physischen Netzwerkinfrastruktur zu 
+konzentrieren, während die ZSN-Abteilung den aktiven Netzwerkbetrieb übernimmt, um eine 
+leistungsfähige und zentral gesteuerte IT-Unterstützung für die Schulen zu gewährleisten.  
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 12 von 38 
+ 
+Voraussetzungen 
+• Definition von IT-Sicherheitslinien: Festlegung klarer Richtlinien für die Integration von 
+Anwendungen und die Beschaffung von Hardware. 
+• Zentraler Architekturansatz: Konzentration der IT-Infrastruktur in Rechenzentren (RZ) 
+der Stadt. 
+• Zuweisung der bemessenen Stellen: Sicherstellung, dass die erforderlichen 
+Personalressourcen dem IT-Amt zugewiesen werden. 
+ 
+Vorteile 
+• Vorhandene Organisationsstruktur: Nutzung der bereits etablierten Strukturen im IT-
+Amt. 
+• Vorhandenes technisches Fachwissen: Nutzung und Ausbau des bestehenden 
+Fachwissens, insbesondere in Bezug auf Linux und paedML und möglicher 
+Nachfolgesysteme. 
+• Anpassung bestehender IT-Sicherheitslinien: Möglichkeit, vorhandene 
+Sicherheitsrichtlinien für die Schulen anzupassen, ohne sie von Grund auf neu erstellen 
+zu müssen. 
+• Erfahrung mit Sicherheitsvorfällen: Nutzen der Erfahrungen des IT-Amtes, wie z.B. 
+beim Sicherheitsvorfall Anfang 2023, um zukünftige Vorfälle effektiv zu managen. 
+• Kosteneffizienz: Potenzielle Einsparungen durch die Nutzung interner Ressourcen und 
+Infrastrukturen im Vergleich zu externen Dienstleistern. 
+• Bessere Kontrolle und Übersicht: Direkte Steuerung und Überwachung der IT-Services, 
+was zu einer verbesserten Qualität und Reaktionsfähigkeit führen kann. 
+• Schnellere Kommunikationswege: Kürzere und direktere Kommunikationswege 
+innerhalb der Stadtverwaltung können die Effizienz steigern. 
+• Einheitliche IT-Standards: Möglichkeit, stadtweite IT-Standards zu implementieren, was 
+zu einer homogeneren IT-Landschaft führt. 
+• Förderung des lokalen Arbeitsmarktes: Schaffung von Arbeitsplätzen innerhalb der 
+Stadtverwaltung kann die lokale Wirtschaft stärken. 
+  
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 13 von 38 
+ 
+Nachteile 
+• Zeitaufwand für die Überführung: Der Prozess der Integration des IT-Supports in das 
+IT-Amt wird Zeit in Anspruch nehmen, einschließlich der Definition von Prozessen und 
+Schnittstellen. 
+• Personalbedarf: Klärung der Frage, wie schnell und effizient das erforderliche Personal 
+aufgestockt werden kann, um den neuen Anforderungen gerecht zu werden. 
+• Ressourcenkonflikte: Mögliche Konflikte bei der Ressourcenzuweisung zwischen Schul-
+IT und anderen städtischen IT-Aufgaben. 
+• Skalierungsprobleme: Herausforderungen bei der Skalierung des Personals und der 
+Infrastruktur, um den wachsenden Anforderungen gerecht zu werden. 
+• Fachwissen in spezifischen Bereichen: Möglicher Mangel an spezialisiertem Wissen, 
+insbesondere in Bezug auf pädagogische IT-Anforderungen und spezifische 
+Softwarelösungen wie paedML und möglicher Nachfolgesysteme. 
+• Innovationsdruck: Die Notwendigkeit, mit den neuesten technologischen 
+Entwicklungen Schritt zu halten, kann für eine interne Abteilung herausfordernd sein. 
+• Langfristige Bindung: Die Entscheidung für eine interne Lösung bedeutet eine 
+langfristige Bindung an diese Struktur, was zukünftige Flexibilität einschränken könnte. 
+ 
+  
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 14 von 38 
+ 
+Schnittstellen 
+Die erfolgreiche Integration des IT-Supports für Schulen in das Amt für Informationstechnik und 
+Digitalisierung von Karlsruhe erfordert eine sorgfältige Berücksichtigung und Gestaltung 
+verschiedener Schnittstellen. Diese Schnittstellen spielen eine zentrale Rolle in der 
+Kommunikation, der technischen Integration und der Zusammenarbeit zwischen dem Amt für 
+Informationstechnik und Digitalisierung, den Schulen, externen Dienstleistern und anderen 
+städtischen Abteilungen. Im Folgenden werden die wichtigsten Schnittstellen und ihre 
+Bedeutung für eine effektive und effiziente IT-Unterstützung der Schulen dargestellt. 
+ 
+Interne Schnittstellen innerhalb der Stadtverwaltung 
+• Kommunikation zwischen IT-Amt und SuS: Es muss eine klare und effiziente 
+Kommunikationslinie zwischen dem IT-Amt und dem SuS etabliert werden, um 
+Anforderungen, Probleme und Lösungen effektiv zu koordinieren. 
+• Zusammenarbeit mit anderen städtischen Abteilungen: Die IT-Abteilung muss mit 
+anderen städtischen Abteilungen zusammenarbeiten, um Ressourcen zu teilen und 
+Synergien zu nutzen. 
+ 
+Technische Schnittstellen 
+• Netzwerkinfrastruktur und Datenzugriff: Sicherstellung, dass die Schulen einen 
+angemessenen und sicheren Zugang zu städtischen Netzwerken und Daten haben. 
+• Integration von Schulsystemen in die städtische IT-Infrastruktur: Anpassung und 
+Integration von schulspezifischen Systemen und Anwendungen in die bestehende IT-
+Infrastruktur der Stadt. 
+ 
+Schnittstellen zu externen Dienstleistern 
+• Management von Drittanbietern: Koordination mit externen Dienstleistern, die 
+möglicherweise spezielle Dienste oder Software für Schulen bereitstellen. 
+• Vertragsmanagement und Compliance: Überwachung der Einhaltung von Verträgen 
+und gesetzlichen Vorgaben durch externe Partner. 
+ 
+Schnittstellen zu den Schulen 
+• Direkter Support und Feedback: Einrichtung von Kanälen für Schulen, um IT-Support 
+anzufordern und Feedback zu geben. 
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 15 von 38 
+• Schulung und Wissensmanagement: Bereitstellung von Schulungen und Ressourcen 
+für Lehrkräfte und Schulpersonal, um die Nutzung der IT-Infrastruktur zu optimieren. 
+ 
+Organisatorische und prozessuale Schnittstellen 
+• Prozessintegration: Entwicklung und Implementierung von IT-Prozessen, die sowohl 
+den Bedürfnissen der Schulen als auch den Anforderungen der Stadtverwaltung gerecht 
+werden. 
+• Change-Management: Verwaltung von Änderungen in der IT-Landschaft, sowohl 
+technisch als auch organisatorisch, unter Einbeziehung aller relevanten Stakeholder. 
+ 
+Kostenaspekt 
+Die Berücksichtigung des Kostenaspekts ist ein wesentlicher Faktor bei der Integration des IT-
+Supports für Schulen in das Amt für Informationstechnik und Digitalisierung von Karlsruhe. Hier 
+sind einige Schlüsselbereiche, in denen Kosten entstehen und effizient verwaltet werden 
+müssen: 
+ 
+Personal- und Betriebskosten 
+• Einstellung und Schulung: Kosten für die Rekrutierung zusätzlicher IT-Fachkräfte, 
+einschließlich IT-Architekten, Administratoren und Supportmitarbeiter. Dazu gehören 
+Gehälter, Sozialleistungen und Kosten für Fortbildungen. 
+• Laufende Betriebskosten: Gehälter für das bestehende und neue Personal, Kosten für 
+Wartung und Aktualisierung der IT-Infrastruktur, und eventuelle Lizenzgebühren für 
+Software. 
+ 
+Infrastruktur- und Technologiekosten 
+• Upgrade bestehender Systeme: Investitionen in die Aktualisierung der IT-Infrastruktur, 
+um die Anforderungen der Schulen zu erfüllen. 
+• Anschaffung neuer Technologien: Kosten für neue Hardware und Software, die speziell 
+für die Bedürfnisse der Schulen erforderlich sind. 
+ 
+Kosten für externe Dienstleistungen 
+• Verträge mit Drittanbietern: Kosten für externe Dienstleister, die spezialisierte 
+Dienstleistungen oder Software bereitstellen, die intern nicht verfügbar sind. 
+• Beratung und Unterstützung: Kosten für externe Berater, die bei der Integration und 
+Optimierung der IT-Systeme helfen. 
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 16 von 38 
+ 
+Verwaltungs- und Overheadkosten 
+• Projektmanagement: Kosten für die Planung, Überwachung und Steuerung des 
+Integrationsprojekts. 
+• Compliance und Sicherheit: Ausgaben für die Einhaltung von Datenschutz- und 
+Sicherheitsstandards. 
+ 
+Langfristige Kosten 
+• Nachhaltige Entwicklung: Investitionen in langfristige Lösungen, die zukünftige Kosten 
+reduzieren, wie z.B. die Automatisierung von Prozessen oder die Implementierung 
+effizienterer Systeme. 
+• Vorbeugende Wartung: Kosten für regelmäßige Überprüfungen und Wartung, um 
+teure Notfallreparaturen zu vermeiden. 
+ 
+Die effektive Verwaltung dieser Kosten erfordert eine sorgfältige Planung und Budgetierung. Es 
+ist wichtig, dass die Stadt Karlsruhe eine klare Kosten-Nutzen-Analyse durchführt, um 
+sicherzustellen, dass die Integration des IT-Supports in das Amt für Informationstechnik und 
+Digitalisierung sowohl finanziell tragbar als auch langfristig nachhaltig ist. 
+ 
+  
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 17 von 38 
+ 
+Personalaspekt 
+Die Integration der IT-Unterstützung für die Schulen in das IT-Amt der Stadt Karlsruhe stellt eine 
+umfassende strategische Maßnahme dar, die eine signifikante Erweiterung des Personals in 
+verschiedenen Abteilungen erfordert. Während eine präzise Ableitung des benötigten Personals 
+zu diesem Zeitpunkt herausfordernd ist und eine detaillierte Evaluation in den nachfolgenden 
+Phasen unerlässlich wird, lässt sich basierend auf der aktuellen Planung bereits ein vorläufiger 
+Bedarf in spezifischen Abteilungen identifizieren. Diese Abteilungen spielen eine zentrale Rolle 
+in der Gewährleistung eines effizienten, sicheren und zukunftsfähigen IT-Supports für die 
+Schulen. 
+ 
+Vorläufig identifizierte Abteilungen mit Personalbedarf: 
+1. IT-Sicherheit und Compliance: Diese Abteilung wird eine Schlüsselrolle spielen, um 
+sicherzustellen, dass alle IT-Systeme und -Prozesse den höchsten Sicherheitsstandards 
+entsprechen und gesetzliche sowie interne Compliance-Richtlinien eingehalten werden. 
+Angesichts der zunehmenden Cyber-Bedrohungen und der Sensibilität von Schülerdaten 
+ist eine Verstärkung des Teams unerlässlich. 
+2. Zentrale Beschaffung: Die zentrale Beschaffung wird für die effiziente Akquisition von 
+IT-Hardware, Software und Dienstleistungen verantwortlich sein. Eine Erweiterung dieses 
+Bereichs ist notwendig, um den gestiegenen Anforderungen und der Komplexität der 
+Beschaffungsprozesse gerecht zu werden. 
+3. Service Desk: Der Service Desk bildet die erste Anlaufstelle für alle IT-bezogenen 
+Anfragen und Probleme. Eine personelle Aufstockung ist hier erforderlich, um eine 
+schnelle und effektive Unterstützung für Lehrkräfte und Verwaltungspersonal 
+sicherzustellen. 
+4. RZ Betrieb: Der Betrieb des Rechenzentrums (RZ) ist entscheidend für die 
+Aufrechterhaltung der IT-Infrastruktur. Zusätzliches Personal in diesem Bereich wird 
+benötigt, um den reibungslosen Betrieb der Server, Netzwerke und Datenbanken zu 
+gewährleisten. 
+5. SGL-Support: Der Support für spezifische Schulverwaltungs- und Lernplattformen (SGL) 
+erfordert Fachkenntnisse in pädagogischer Software. Eine Erweiterung des Teams ist 
+notwendig, um eine adäquate technische Unterstützung und Weiterentwicklung dieser 
+Systeme zu ermöglichen. 
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 18 von 38 
+6. Schulsoftware: Die Betreuung und Weiterentwicklung von Schulsoftware, einschließlich 
+Lernmanagementsystemen und administrativen Tools, verlangt nach spezialisiertem 
+Personal, das eng mit Lehrkräften und Schulleitungen zusammenarbeitet. 
+7. PMO (Projektmanagementbüro): Das PMO wird eine zentrale Rolle in der Planung, 
+Steuerung und Überwachung aller IT-Projekte spielen. Eine personelle Verstärkung ist 
+erforderlich, um die zahlreichen anstehenden Projekte effektiv zu managen und die 
+strategischen Ziele der Digitalisierung zu erreichen. 
+ 
+Die erfolgreiche Integration der IT-Unterstützung für Schulen in das IT-Amt erfordert eine 
+sorgfältige Planung und Evaluation des Personalbedarfs. Die oben genannten Abteilungen 
+bilden das Rückgrat der zukünftigen IT-Unterstützungsstruktur und benötigen eine gezielte 
+Verstärkung, um den Anforderungen einer modernen und sicheren IT-Umgebung für die 
+Schulen der Stadt Karlsruhe gerecht zu werden. Die detaillierte Analyse und Planung in den 
+kommenden Phasen wird entscheidend sein, um den genauen Personalbedarf zu ermitteln, 
+einschließlich der Überprüfung, ob bestehende Stellen aus dem SuS in das IT-Amt überführt 
+werden können. Diese strategische Personalplanung ist entscheidend, um eine effiziente sowie 
+effektive IT-Unterstützung zu gewährleisten. 
+ 
+ 
+  
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 19 von 38 
+ 
+Umsetzungsstrategie 
+Die Umsetzungsstrategie für die Integration des IT-Supports in das Amt für Informationstechnik 
+und Digitalisierung von Karlsruhe sollte schrittweise erfolgen, um eine reibungslose Transition zu 
+gewährleisten. Ein schleichender Ansatz, der die Einbindung eines externen Dienstleisters in der 
+Anfangsphase vorsieht, kann effektiv sein. Hier sind die Schlüsselschritte: 
+ 
+1. Kurzfristige Einbindung eines externen Dienstleisters (bis 2027/2028): Dies 
+ermöglicht der Stadt Karlsruhe, sofortigen Support zu gewährleisten, während interne 
+Kapazitäten und Strukturen aufgebaut werden. 
+2. Parallel dazu Aufbau interner Kapazitäten: Während der externen Unterstützung 
+sollte das Amt für Informationstechnik und Digitalisierung seine Kapazitäten schrittweise 
+ausbauen. Dies umfasst Personalrekrutierung, Schulungen und Infrastruktur-Upgrades. 
+3. Schrittweise Übernahme der IT-Supportaufgaben: Beginnend mit weniger kritischen 
+Aufgaben, sollte das Amt für Informationstechnik und Digitalisierung schrittweise mehr 
+Verantwortung übernehmen, während der externe Dienstleister seine Rolle reduziert. 
+4. Regelmäßige Bewertung und Anpassung: Die Fortschritte sollten regelmäßig bewertet 
+werden, um sicherzustellen, dass das Amt für Informationstechnik und Digitalisierung auf 
+dem richtigen Weg ist und um gegebenenfalls Anpassungen vorzunehmen. 
+5. Vollständige Übernahme bis 2027/2028: Ziel ist es, dass das Amt für 
+Informationstechnik und Digitalisierung bis spätestens 2027/2028 vollständig für den IT-
+Support der Schulen, ausgenommen Berufsfachschulen, verantwortlich ist. 
+ 
+Zusätzlich zu diesen Schritten wird die Ausschreibung für den externen IT-Support in Losen 
+geplant. Dies ermöglicht es der Stadt Karlsruhe, je nach Fortschritt in den nächsten Jahren und 
+den Entwicklungen innerhalb des Amtes für Informationstechnik und Digitalisierung, einzelne 
+Lose nicht mehr zu verlängern und die entsprechenden Aufgaben schrittweise in das Amt zu 
+überführen. 
+ 
+  
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 20 von 38 
+ 
+Es ist entscheidend, eine zentrale Strategie im Vorfeld festzulegen und diese an den externen 
+Dienstleister bzw. an die Ausschreibung zu knüpfen. Aufgrund der zeitlichen Problematik sollte 
+die Flexibilität in der Ausschreibung besonders berücksichtigt werden, um auf Veränderungen 
+und Entwicklungen angemessen reagieren zu können. Diese flexible Vorgehensweise erlaubt es, 
+die externen Dienstleistungen an den tatsächlichen Bedarf und die internen Fortschritte 
+anzupassen, wodurch eine effiziente und zielgerichtete Integration des IT-Supports in das Amt 
+für Informationstechnik und Digitalisierung ermöglicht wird. 
+ 
+Diese Strategie ermöglicht es der Stadt Karlsruhe, Risiken zu minimieren, die Servicequalität 
+aufrechtzuerhalten und gleichzeitig die internen Kapazitäten schrittweise aufzubauen. 
+ 
+  
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 21 von 38 
+ 
+Outsourcing an einen externen Dienstleister 
+In der heutigen schnelllebigen und technologiegetriebenen Bildungslandschaft stehen Schulen 
+vor der Herausforderung, einen effizienten und effektiven IT-Support zu gewährleisten. Eine 
+Option, die zunehmend an Bedeutung gewinnt, ist das Outsourcing dieser Dienste an externe 
+Dienstleister. Dieser Ansatz bietet sowohl Chancen als auch Herausforderungen, die es zu 
+bewerten gilt. 
+ 
+ 
+ 
+Das Amt für Hochbau und Gebäudewirtschaft (HGW) behält seine zentrale Rolle bei der 
+Bereitstellung und Verwaltung der grundlegenden passiven Netzwerkinfrastruktur, zu der die 
+Verkabelung und zugehörige physische Netzwerkkomponenten innerhalb der Schulen gehören. 
+Obwohl die Wartung dieser passiven Infrastrukturkomponenten, wie Netzwerkkabel und 
+Verteilerschränke, weiterhin in der Obhut des HGW verbleibt, ist geplant, die 
+Verantwortungsbereiche des aktiven Netzwerk- und WLAN-Betriebs an spezialisierte externe 
+Dienstleister zu übertragen. Mit dieser strategischen Neuausrichtung kann sich das HGW auf die 
+Pflege und Verbesserung der fundamentalen Netzwerkstrukturen konzentrieren, während 
+externe Fachfirmen den lebendigen und fordernden Betrieb der aktiven Netzwerktechnologie 
+übernehmen. 
+ 
+Voraussetzungen 
+• Definieren von Anforderungen 
+• Budget Bereitstellung 
+• Erweiterung interne Struktur (PMO / SuS)  
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 22 von 38 
+ 
+Vorteile 
+1. Zugang zu Expertenwissen und Spezialkenntnissen: Externe Dienstleister verfügen oft 
+über ein Team von Spezialisten mit umfassender Erfahrung und Kenntnissen in 
+verschiedenen IT-Bereichen. Dies ermöglicht Schulen den Zugang zu Expertise, die intern 
+möglicherweise nicht verfügbar ist. 
+2. Flexibilität und Skalierbarkeit: Outsourcing ermöglicht es Schulen, ihre IT-
+Supportanforderungen schnell anzupassen. Sie können Dienstleistungen nach Bedarf 
+skalieren, was besonders nützlich ist, um auf kurzfristige Änderungen oder 
+unvorhergesehene Herausforderungen zu reagieren. 
+3. Kosteneffizienz: Langfristig kann Outsourcing kosteneffizienter sein als der Aufbau und die 
+Aufrechterhaltung eines internen Teams, insbesondere wenn es um spezialisierte Aufgaben 
+geht, die nicht kontinuierlich benötigt werden. 
+4. Kurzfristige Umsetzbarkeit: Die Implementierung von Outsourcing-Lösungen kann oft 
+schneller erfolgen als der Aufbau interner Kapazitäten, was besonders wichtig ist, wenn 
+zeitnah Unterstützung benötigt wird. 
+ 
+  
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 23 von 38 
+ 
+Nachteile 
+1. Abhängigkeit von externen Anbietern: Schulen können abhängig von den Zeitplänen, 
+Prioritäten und Prozessen des Dienstleisters werden, was zu potenziellen Verzögerungen 
+oder Konflikten führen kann. 
+2. Sicherheits- und Datenschutzbedenken: Die Übergabe von IT-Operationen an Dritte birgt 
+Risiken in Bezug auf Datenschutz und Datensicherheit, insbesondere in einer Umgebung, in 
+der sensible Schülerdaten verarbeitet werden. 
+3. Potenzielle Kommunikationsprobleme: Die Zusammenarbeit mit externen Teams kann zu 
+Kommunikationsherausforderungen führen, insbesondere wenn es um die Abstimmung von 
+Erwartungen und die Überwachung der Leistung geht. 
+4. Verlust von internem Wissen und Kontrolle: Durch das Outsourcing kann wertvolles 
+internes Wissen verloren gehen, und Schulen können die direkte Kontrolle über bestimmte 
+IT-Prozesse verlieren. 
+5. Langfristige Kosten: Obwohl Outsourcing kurzfristig kosteneffizient sein kann, können die 
+langfristigen Kosten, insbesondere bei langfristigen Verträgen, höher sein als die interne 
+Bereitstellung. 
+6. Risiko häufiger Dienstleisterwechsel: Aufgrund der Gegebenheiten, dass Ausschreibungen 
+für Outsourcing-Dienstleistungen maximal vier Jahre gültig sein können, besteht das Risiko, 
+dass es alle vier Jahre zu einem Wechsel des Outsourcing-Partners kommt, was potenziell 
+weitreichende Auswirkungen auf die Qualität der IT-Supportleistungen haben kann. 
+  
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 24 von 38 
+7. Notwendigkeit zusätzlicher interner Ressourcen: Zur effektiven Steuerung externer 
+Dienstleister ist die Aufstockung interner Ressourcen unerlässlich, was zusätzliche Kosten 
+und Koordinationsaufwand mit sich bringt. Besonders betroffen sind Bereiche wie das 
+Projektmanagementbüro (PMO) für die Überwachung von IT-Projekten, Asset Management 
+zur Verwaltung von IT-Ressourcen und die Beschaffungsabteilung, die für den Einkauf von 
+IT-Ausrüstung und -Dienstleistungen zuständig ist. Diese internen Kapazitäten sind 
+entscheidend, um die Qualität und Effizienz des IT-Supports durch externe Anbieter 
+sicherzustellen. 
+8. Neuerstellung von IT-Richtlinien und Standards: Outsourcing erfordert im Gegensatz zur 
+Integration ins IT-Amt die Neuerstellung von IT-Sicherheitslinien, SLAs, 
+Notfallmanagementplänen und anderen Prozessen, die umfassend in das System der Stadt 
+Karlsruhe integriert und mit verschiedenen Abteilungen abgestimmt werden müssen. Dieser 
+Prozess ist zeitintensiv und koordinationsaufwendig. Ein Scheitern an dieser Anpassung oder 
+die Nichtbefolgung dieser neu erstellten Richtlinien könnte die 88 Schulen der Stadt 
+Karlsruhe in einer anhaltenden Heterogenität der IT-Landschaft belassen, was die Effizienz 
+und Sicherheit des IT-Supports erheblich beeinträchtigen würde. 
+  
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 25 von 38 
+ 
+Schnittstellen 
+Eine effektive Partnerschaft mit einem externen IT-Dienstleister in den Karlsruher Schulen setzt 
+klar definierte Schnittstellen voraus. Diese sind essenziell für eine reibungslose Kommunikation 
+und Prozessabwicklung zwischen Schulen, Schulamt und Dienstleister. Im Folgenden werden 
+wichtige Schnittstellen wie die Koordination mit dem IT-Verantwortlichen, die Zusammenarbeit 
+mit Partnern, der Zugang zu Systemen, regelmäßige Meetings, Dokumentation, 
+Notfallmanagement und Feedbackmechanismen vorgestellt. Jede Schnittstelle trägt dazu bei, 
+den IT-Support effizient und bedarfsgerecht zu gestalten. 
+ 
+1. IT-Verantwortlicher des Schulamtes: 
+• Rolle: Dient als primärer Ansprechpartner für den externen Dienstleister. 
+• Aufgaben: Koordination der IT-Anforderungen der Schulen, Übermittlung von 
+Supportanfragen, Überwachung der Servicequalität. 
+2. Prozesskoordination mit anderen Partnern: 
+• Beispiel: Koordination bei Hardwarewechseln wie Switch- oder Access Point (AP)-
+Wechsel. 
+• Aufgaben: Sicherstellung, dass alle relevanten Partner (z.B. Netzwerkanbieter, 
+Hardwarelieferanten) in den Prozess einbezogen sind und die Zeitpläne eingehalten 
+werden. 
+3. Zugang zu Schulsystemen: 
+• Notwendigkeit: Gewährleistung des Zugangs zu internen Netzwerken und Systemen 
+für den externen Dienstleister. 
+• Sicherheitsaspekte: Einrichtung sicherer und kontrollierter Zugangsmethoden, um 
+Datenschutz und Sicherheit zu gewährleisten. 
+4. Regelmäßige Abstimmungstreffen: 
+• Ziel: Sicherstellung einer effektiven Kommunikation und Koordination zwischen 
+Schulen, Schulamt und externem Dienstleister. 
+• Format: Regelmäßige Meetings (z.B. monatlich oder quartalsweise), um aktuelle 
+Themen, Herausforderungen und Fortschritte zu besprechen. 
+ 
+  
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 26 von 38 
+ 
+5. Dokumentation und Reporting: 
+• Wichtigkeit: Bereitstellung von detaillierten Dokumentationen über die IT-
+Infrastruktur und laufende Projekte. 
+• Reporting: Regelmäßige Berichte über den Status von Supportanfragen und 
+Projekten. 
+6. Schnittstelle für Notfallmanagement: 
+• Einrichtung: Klare Prozesse und Kontaktpunkte für Notfälle, wie z.B. Cyberangriffe 
+oder Systemausfälle. 
+• Rolle des Schulamtes: Koordination der Sofortmaßnahmen und Kommunikation mit 
+dem externen Dienstleister. 
+7. Feedback- und Bewertungssystem: 
+• Ziel: Sammeln von Rückmeldungen von Schulen über die Qualität des IT-Supports. 
+• Einsatz: Regelmäßige Umfragen oder Feedback-Mechanismen, um die Servicequalität 
+zu bewerten und Verbesserungspotenziale zu identifizieren. 
+8. PMO und Fachkoordinator für die Schulen: 
+• Aufgabe des SuS: Gewährleistung eines gesamtheitlichen Überblicks über die IT-
+Architektur und zukünftige Entwicklungen, wie z.B. die Anpassungen der IT-
+Umgebung an neue Technologien oder pädagogische Anforderungen. 
+• Zusammenarbeit mit PMO: Die SuS gibt neue Anforderungen an das neu zu 
+schaffendem Projektmanagementbüro (PMO), innerhalb der SuS, weiter, welches 
+diese regelmäßig abgleicht, um die Anforderungen für neue Ausschreibungen aktuell 
+zu halten. Ziel ist es, den Einfluss eines Wechsels von Dienstleistern auf den Betrieb 
+so gering wie möglich zu halten. 
+• Evaluationsbedarf: Der genaue Bedarf und die Struktur der PMO und der SuS 
+müssen detailliert evaluiert werden, um eine effektive Unterstützung und nahtlose 
+Integration neuer Technologien und Dienstleister zu gewährleisten. 
+  
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 27 von 38 
+ 
+Kostenaspekt 
+Die finanzielle Betrachtung der Auslagerung des IT-Supports an einen externen Dienstleister ist 
+ein wesentlicher Bestandteil des Gesamtkonzepts. Bei der Kalkulation der Kosten müssen die 
+Tagessätze der verschiedenen IT-Experten berücksichtigt werden. Aktuelle Marktdaten zeigen, 
+dass ein IT-Architekt etwa 1.380 Euro pro Tag kostet, ein Systemadministrator liegt bei rund 
+1.200 Euro und ein Supportmitarbeiter bei etwa 960 Euro. Diese Zahlen spiegeln die 
+durchschnittlichen Kosten für qualifizierte Fachkräfte wider, die in der Lage sind, die komplexen 
+Anforderungen eines modernen IT-Supports zu erfüllen. 
+ 
+Ein wichtiger Faktor bei der Budgetplanung sind mögliche Rabatte, die sich aus der 
+Vertragslaufzeit ergeben. Längere Vertragslaufzeiten mit einem Dienstleister können zu 
+signifikanten Einsparungen führen, da viele Dienstleister bereit sind, für die Sicherheit eines 
+langfristigen Vertrags Rabatte auf ihre Tagessätze zu gewähren. Diese Rabatte können die 
+Gesamtkosten erheblich reduzieren und machen die Auslagerung aus finanzieller Sicht 
+attraktiver. 
+ 
+Bei der Berechnung des Gesamtbudgets für den IT-Support muss die Stadt Karlsruhe die Anzahl 
+der benötigten Arbeitstage für jeden Typ von IT-Experten berücksichtigen. Dies beinhaltet eine 
+sorgfältige Planung, um sicherzustellen, dass die Ressourcen effizient genutzt werden und die 
+Kosten im Rahmen des Budgets bleiben. 
+ 
+Insgesamt bietet die Auslagerung des IT-Supports an einen externen Dienstleister die 
+Möglichkeit, von einer flexiblen und skalierbaren Supportstruktur zu profitieren, während 
+gleichzeitig die Kosten kontrolliert und optimiert werden können. Die Stadt Karlsruhe sollte 
+diese finanziellen Überlegungen sorgfältig abwägen, um eine fundierte Entscheidung zu treffen, 
+die sowohl den Bedürfnissen der Schulen als auch den finanziellen Rahmenbedingungen 
+gerecht wird 
+ 
+  
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 28 von 38 
+ 
+Personalaspekt 
+Beim Outsourcing des IT-Supports für die Karlsruher Schulen spielt die Zusammensetzung des 
+externen Teams eine entscheidende Rolle, um eine effiziente und effektive Dienstleistung zu 
+gewährleisten. Die genaue Personalstruktur hängt von den spezifischen Anforderungen und der 
+Komplexität der IT-Infrastruktur ab. Ein ideal zusammengestelltes Team würde Fachkräfte in 
+Schlüsselrollen umfassen, darunter IT-Architekten, Systemadministratoren, 
+Netzwerkadministratoren und Supportmitarbeiter. 
+ 
+IT-Architekten sind verantwortlich für die strategische Planung und Entwicklung der IT-
+Infrastruktur. Ihre Aufgabe ist es, die IT-Landschaft so zu gestalten, dass sie den pädagogischen 
+und administrativen Anforderungen der Schulen gerecht wird, indem sie innovative und 
+skalierbare Lösungen entwickeln. 
+ 
+System- und Netzwerkadministratoren bilden das Rückgrat des täglichen IT-Betriebs. Sie sind 
+zuständig für die Wartung, Konfiguration und den zuverlässigen Betrieb der IT-Systeme, 
+einschließlich Server, Netzwerke und anderer kritischer Infrastrukturelemente, um einen sicheren 
+und störungsfreien Lauf zu gewährleisten. 
+ 
+Supportmitarbeiter dienen als erste Anlaufstelle für alle IT-bezogenen Anfragen und Probleme, 
+bieten direkte Unterstützung für Lehrkräfte und tragen entscheidend zur schnellen und 
+effektiven Lösung technischer Probleme bei. Ihre Rolle ist wesentlich, um die 
+Benutzerzufriedenheit zu steigern und Ausfallzeiten zu minimieren. 
+ 
+Die Anzahl und Spezialisierung der benötigten Fachkräfte wird letztendlich vom Dienstleister 
+bestimmt, basierend auf einer detaillierten Analyse der spezifischen Anforderungen und der 
+Größe der IT-Infrastruktur der Karlsruher Schulen. Es ist entscheidend, dass der Dienstleister eine 
+Personalstruktur entwickelt, die flexibel genug ist, um sich an die dynamischen Bedürfnisse der 
+Schulen anzupassen, während gleichzeitig eine hohe Qualität des IT-Supports sichergestellt 
+wird. Die genaue Zusammensetzung des Teams und die Anzahl der Mitarbeiter liegen in der 
+Verantwortung des Dienstleisters, der die erforderlichen Ressourcen basierend auf den 
+vorliegenden Anforderungen und dem Umfang der zu unterstützenden Schulinfrastruktur 
+festlegt. 
+ 
+  
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 29 von 38 
+ 
+Ergänzung zur internen Personalstruktur: 
+ 
+Neben dem externen Team wird auf der internen Seite zusätzliches Personal benötigt, 
+überwiegend innerhalb des Projektmanagementbüros (PMO) und des SuS. Diese internen Teams 
+sind primär für die Steuerung der Anforderungen und die gesamtheitliche Architekturplanung 
+zuständig. Das SuS übernimmt die Aufgabe, einen gesamtheitlichen Überblick über die IT-
+Architektur zu haben und den Ausblick auf die zukünftige Gestaltung der IT-Umgebung zu 
+gewährleisten (z.B. wie die Umgebung in einigen Jahren aussehen muss, um neue Technologien 
+wie Muses zu integrieren). Diese Anforderungen werden regelmäßig an das PMO 
+weitergegeben, welches die Anforderungen abgleicht, um sie für neue Ausschreibungen aktuell 
+zu halten. Ziel ist es, den Einfluss eines Wechsels von einem Outsourcing-Partner auf den Betrieb 
+so gering wie möglich zu halten. Der genaue Bedarf dieser PMO und des SuS muss im Detail 
+evaluiert werden, um eine effektive Steuerung und Anpassung an neue Technologien und 
+pädagogische Anforderungen zu gewährleisten. 
+ 
+  
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 30 von 38 
+ 
+Umsetzungsstrategie 
+Die erfolgreiche Auslagerung des IT-Supports an einen externen Dienstleister erfordert eine 
+sorgfältig konzipierte Umsetzungsstrategie, die in mehreren Schlüsselphasen umgesetzt wird. 
+Diese Phasen gewährleisten einen reibungslosen Übergang und stellen sicher, dass die 
+Dienstleistungen den spezifischen Anforderungen der Schulen entsprechen. 
+ 
+1. Ausschreibungsprozess: 
+• Definition der Anforderungen: Der erste Schritt beinhaltet eine detaillierte 
+Definition der Anforderungen an den IT-Support, um sicherzustellen, dass die 
+Ausschreibung die spezifischen Bedürfnisse der Schulen widerspiegelt. 
+• Erstellung eines Leistungsverzeichnisses: Ein detailliertes Leistungsverzeichnis wird 
+erstellt, das die zu erbringenden Dienstleistungen genau beschreibt und die 
+Grundlage für die Angebote der Dienstleister bildet. 
+• Festlegung der Zuschlagskriterien: Die Kriterien für die Auswahl des Dienstleisters 
+werden festgelegt, wobei Erfahrung, Referenzen, Kostenstruktur und Compliance-
+Standards berücksichtigt werden. 
+2. Übergangsphase: 
+• Detaillierter Übergabeplan: Die Erstellung eines detaillierten Plans für die Übergabe 
+der Supportaufgaben an den neuen Dienstleister ist entscheidend, um 
+Unterbrechungen zu minimieren. 
+• Einarbeitung und Schulung: Der ausgewählte Dienstleister wird in die bestehenden 
+Systeme und Prozesse eingearbeitet. Gleichzeitig wird das interne Personal geschult, 
+um eine effektive Zusammenarbeit zu gewährleisten. 
+  
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 31 von 38 
+ 
+3. Monitoring und Bewertung: 
+• Einrichtung eines Überwachungsprozesses: Ein kontinuierlicher 
+Überwachungsprozess wird eingerichtet, um die Leistung des Dienstleisters zu 
+bewerten und sicherzustellen, dass die Dienstleistungen den Anforderungen 
+entsprechen. 
+• Regelmäßige Bewertungen: Durch regelmäßige Bewertungen wird sichergestellt, 
+dass der IT-Support den sich ändernden Anforderungen der Schulen gerecht wird 
+und kontinuierlich verbessert wird. 
+ 
+4. Vorbereitung auf einen möglichen Dienstleisterwechsel: 
+• Dokumentation und Standardisierung: Eine umfassende Dokumentation der IT-
+Infrastruktur und der Supportprozesse wird angelegt, um einen reibungslosen 
+Übergang zu einem neuen Dienstleister zu ermöglichen. 
+• Flexibilitäts- und Anpassungsstrategien: Strategien werden entwickelt, um 
+Flexibilität im Dienstleistungsvertrag zu gewährleisten, sodass Anpassungen an den 
+Serviceleistungen vorgenommen werden können, ohne den Vertrag neu 
+ausschreiben zu müssen. 
+• Planung für den Übergang: Ein detaillierter Plan für den potenziellen Übergang zu 
+einem neuen Dienstleister wird erstellt, einschließlich Zeitplänen, 
+Verantwortlichkeiten und Kommunikationsstrategien. 
+• Überlappende Ausschreibungen: Es kann sinnvoll sein, überlappende 
+Ausschreibungen zu planen, bei denen der alte Dienstleister den neuen Dienstleister 
+onboarded. Dies ermöglicht eine nahtlose Übergabe und minimiert Unterbrechungen 
+im IT-Support. Durch diese Maßnahme wird sichergestellt, dass der neue 
+Dienstleister vollständig mit den spezifischen Anforderungen und Systemen der 
+Schulen vertraut gemacht wird, bevor der alte Dienstleister seine Dienste vollständig 
+einstellt. 
+ 
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 32 von 38 
+ 
+Durch die Einbeziehung dieser zusätzlichen Phase in die Umsetzungsstrategie wird 
+sichergestellt, dass die Stadt Karlsruhe auf einen möglichen Wechsel des IT-Dienstleisters 
+vorbereitet ist, wodurch die Kontinuität und Qualität des IT-Supports für die Schulen auch in 
+Übergangsphasen gewährleistet bleibt. 
+ 
+ 
+Entwicklungspfade für IT-Innovationen im Schulwesen 
+ 
+Die Innovation und Weiterentwicklung in den Karlsruher Schulen sind essenzielle Säulen, um 
+den Anforderungen einer sich stetig wandelnden Bildungslandschaft gerecht zu werden. 
+Entscheidend hierfür ist die zielgerichtete Zentralisierung und Standardisierung, die eine 
+effiziente und qualitativ hochwertige IT-Umgebung ermöglichen. Sowohl bei der Integration in 
+das IT-Amt als auch beim Outsourcing an einen Dienstleister ist die Rolle der Steuerungsgruppe 
+Unterricht und Support (SuS) zentral, um Innovationsstrategien zu definieren und 
+voranzutreiben. 
+ 
+Integration in das IT-Amt: 
+In diesem Modell fungiert die SuS als alleinige Schnittstelle zwischen den Schulen und dem IT-
+Amt. Die SuS sammelt und koordiniert Innovationsimpulse, die von den Schulen, dem 
+Landesmedienzentrum (LMZ) und Netzwerkberatern eingebracht werden. Das IT-Amt 
+übernimmt diese Vorgaben und setzt sie in die Praxis um. Es ist demnach für die technische 
+Realisierung verantwortlich, während die inhaltliche Ausrichtung der Innovationen aus der 
+Zusammenarbeit zwischen der SuS und den pädagogischen Akteuren resultiert. 
+ 
+Wesentliche Maßnahmen umfassen: 
+ 
+• Die Einrichtung eines effizienten Kommunikationskanals zwischen der SuS und dem IT-
+Amt zur Sicherstellung, dass Innovationsideen effektiv erfasst und umgesetzt werden. 
+• Die regelmäßige Durchführung von Workshops und Feedbackrunden mit der SuS, um 
+die Strategie kontinuierlich an die Bedürfnisse der Schulen anzupassen. 
+• Die fortlaufende Entwicklung von technischen Lösungen im IT-Amt, die auf die 
+pädagogischen Konzepte der SuS abgestimmt sind und in die zukünftige Ausrichtung 
+der Schul-IT einfließen. 
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 33 von 38 
+ 
+Outsourcing an einen Dienstleister: 
+Hier verantwortet die SuS nicht nur die Erarbeitung der Innovationsstrategie, sondern gibt diese 
+direkt an den externen Dienstleister weiter, mit dem sie eng zusammenarbeitet. Die SuS hat die 
+Aufgabe, die Strategie kontinuierlich mit den Dienstleistern abzustimmen und zu verfeinern, um 
+sicherzustellen, dass die Dienstleistung stets den Anforderungen der Schulen entspricht. Die 
+Innovationen kommen ebenfalls aus der Kooperation der SuS mit LMZ und den 
+Netzwerkberatern der Schulen. 
+ 
+Essenzielle Aktionen beinhalten: 
+ 
+• Die Entwicklung einer klaren Innovationsroadmap durch die SuS, die regelmäßig mit 
+dem Dienstleister abgeglichen und aktualisiert wird. 
+• Die Einrichtung strukturierter Prozesse für das Einbringen und die Bewertung von 
+Innovationen durch die SuS, um die kontinuierliche Verbesserung der IT-
+Dienstleistungen zu gewährleisten. 
+• Die Koordination der Implementierung neuer Technologien und pädagogischer Tools 
+durch den Dienstleister, basierend auf den Vorgaben der SuS. 
+ 
+In beiden Modellen ist die SuS der Dreh- und Angelpunkt für Innovationen und gewährleistet, 
+dass die IT-Supportstrukturen dynamisch bleiben und den pädagogischen Institutionen dienen. 
+Das Ziel ist eine agile, reaktive und zukunftsfähige IT-Umgebung, die eine ständige 
+Verbesserung der IT-Services in den Schulen ermöglicht und dabei die Pädagogik in den 
+Mittelpunkt stellt. 
+  
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 34 von 38 
+ 
+Phasenplan 
+Nach dem kürzlichen Ende des IT-Supportvertrags mit TeSKA hat die Stadt Karlsruhe einen 
+Phasenplan entwickelt, um die Kontinuität und Qualität der IT-Unterstützung für ihre Schulen zu 
+sichern. Dieser Plan legt sowohl kurzfristige Übergangslösungen als auch langfristige 
+strategische Entscheidungen fest, um eine effiziente und dauerhafte IT-Betreuung zu 
+gewährleisten. 
+ 
+1. Ende des Supports durch TeSKA (August 2023): Im August 2023 beendet TeSKA den 
+Support aufgrund fehlender Vertragsgrundlage. In Reaktion darauf bereitet sich die Stadt 
+Karlsruhe auf eine kurzfristige Lösung vor, um die entstehende Lücke im IT-Support zu 
+schließen. 
+2. Kurzfristige Übernahme des Supports durch Bechtle (September 2023): Im September 
+2023 übernimmt Bechtle als Notlösung den IT-Support. Diese Übernahme ist jedoch nur bis 
+zum Ende des Jahres 2023 befristet, was die Stadt Karlsruhe dazu veranlasst, nachhaltigere 
+Lösungen zu suchen. 
+3. Verlängerung des Supports durch Bechtle (Januar bis Juli 2024): Bechtle setzt den IT-
+Support von Januar bis Juli 2024 fort. Während dieser Zeit wird die Leistung von Bechtle 
+bewertet, und parallel dazu beginnt die Stadt Karlsruhe mit der Ausschreibung für einen 
+neuen IT-Support-Dienstleister. Dieser Prozess umfasst die Auswahl und 
+Vertragsverhandlungen für einen Zeitraum von zwei bis drei Jahren. 
+4. Mittelfristige Supportübernahme (ab Juli 2024 bis 2028): Ab Juli 2024 erfolgt die 
+Übernahme des Supports durch einen neuen Dienstleister, der im Rahmen der 
+Ausschreibung ausgewählt wurde. Diese Phase beinhaltet die Übernahme des Supports und 
+die Weiterentwicklung der IT-Umgebung in den Schulen. 
+5. Strategische Planung und Entscheidungsfindung durch die Stadt Karlsruhe: Während 
+der mittelfristigen Supportübernahme muss die Stadt Karlsruhe eine Entscheidung zwischen 
+verschiedenen strategischen Optionen treffen.  
+  
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 35 von 38 
+ 
+Dieser Phasenplan bildet die Grundlage für die strategische Planung und Umsetzung des IT-
+Supports in den Karlsruher Schulen. Er soll sicherstellen, dass der Übergang zwischen 
+verschiedenen Dienstleistern und Modellen effektiv und reibungslos verläuft, um eine 
+kontinuierliche und qualitativ hochwertige IT-Unterstützung für die Schulen zu gewährleisten. 
+ 
+ 
+Fazit 
+ 
+Als externe Berater empfehlen wir der Stadt Karlsruhe dringend, kurzfristig das Outsourcing des 
+IT-Supports für Schulen an einen qualifizierten externen Dienstleister zu verfolgen. Diese 
+Maßnahme ist aus unserer Sicht unerlässlich, um den kontinuierlichen Betrieb und Support zu 
+gewährleisten, während die Stadt die notwendigen internen Kapazitäten und Strukturen im Amt 
+für Informationstechnik und Digitalisierung aufbaut. Diese Vorgehensweise bietet die Flexibilität 
+und Kosteneffizienz, die erforderlich sind, um schnell auf die aktuellen technologischen 
+Entwicklungen reagieren zu können und entlastet zugleich die internen Ressourcen. 
+ 
+Langfristige Perspektive: 
+Für die langfristige Strategie, innerhalb eines Zeitraums von 3 bis 4 Jahren, empfehlen wir die 
+vollständige Integration des IT-Supports und Betriebs in das Amt für Informationstechnik und 
+Digitalisierung. Diese Integration verspricht eine verbesserte Koordination, die Nutzung 
+bestehender städtischer IT-Strukturen und die Möglichkeit, innovative und nachhaltige IT-
+Lösungen zu entwickeln. Die Vorteile dieser Integration umfassen eine erhöhte Kosteneffizienz, 
+eine bessere Kontrolle über die IT-Services, die Förderung des lokalen Arbeitsmarktes und die 
+Schaffung einer einheitlichen IT-Landschaft für die Schulen in Karlsruhe. 
+ 
+Wichtige Überlegungen: 
+Wir weisen darauf hin, dass die derzeitige Schätzung des benötigten Personals auf vorläufigen 
+Informationen basiert und einer detaillierten Prüfung bedarf. Es ist möglich, dass ein höherer 
+Personalbedarf besteht, als zunächst angenommen. Weiterhin muss sorgfältig geprüft werden, 
+ob die Beschaffungsfunktion in das Amt für Informationstechnik und Digitalisierung überführt 
+wird oder bei SuS verbleibt. Die Rekrutierung des benötigten Personals auf dem aktuellen Markt 
+stellt eine signifikante Herausforderung dar, die innovative Ansätze zur Personalgewinnung 
+erfordert. 
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 36 von 38 
+ 
+Empfehlung: 
+Zusammenfassend empfehlen wir der Stadt Karlsruhe, kurzfristig das Outsourcing als 
+pragmatische Lösung zu nutzen, um den IT-Support für Schulen sicherzustellen. Parallel dazu 
+sollte die Stadt eine langfristige Strategie zur Integration des IT-Supports in das Amt für 
+Informationstechnik und Digitalisierung entwickeln und umsetzen. Diese strategische 
+Entscheidung wird nicht nur eine zukunftsfähige und effiziente IT-Unterstützung für die Schulen 
+gewährleisten, sondern auch die Grundlage für kontinuierliche Verbesserungen und 
+Anpassungen an die dynamischen Anforderungen des digitalen Bildungsumfelds legen. 
+ 
+  
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 37 von 38 
+ 
+  
+
+ 
+ 
+IT – 
+Empfehlung 
+Seite 38 von 38 
+ 
+Anhang 
+ 
+Abkürzungsverzeichnis 
+ 
+Abkürzung Beschreibung 
+TeSKA Technische Supporteinheit für Karlsruher Schulen 
+IT-Amt Amt für Informationstechnik und Digitalisierung 
+SuS Schul- und Sportamt 
+PMO Project Management Office 
+paedML paedML ist eine vorkonfigurierte Netzwerklösung, die speziell für 
+die Anforderungen in Schulen des Landes Baden-Württemberg 
+entwickelt wurde. Die Musterlösung wird in den pädagogischen 
+Rechnernetzen der einzelnen Schulen eingesetzt. 
+Muses Das Projekt MUSES zielt darauf ab, eine zukunftsweisende Lösung 
+für die schulische IT-Infrastruktur zu entwickeln und damit die 
+Digitalisierung der Schulen voranzutreiben. Nachfolger von 
+paedML 
+HGW Amt für Hochbau und Gebäudewirtschaft (HGW) 
+SGL Schulverwaltungs- und Lernplattformen (SGL), Dieser Begriff 
+steht für spezialisierte Software, die in Bildungseinrichtungen zur 
+Verwaltung und zum Lernen verwendet wird. Kompetenzen in SGL 
+sind essentiell für den Support und die Weiterentwicklung dieser 
+pädagogischen Systeme. Teamerweiterungen können notwendig 
+sein, um angemessenen technischen Support sicherzustellen. 
+ 
+ 

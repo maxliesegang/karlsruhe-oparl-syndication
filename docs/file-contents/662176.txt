@@ -1,0 +1,1622 @@
+
+
+ 
+Kern Ausweisterminal 
+Dokumentation 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Teil 1 
+Technische Spezifikationen des Ausweisterminals 
+Teil 2 
+Bauliche Anforderungen für die Installation 
+Teil 3 
+Technische Anforderungen für die Installation 
+Teil 4 
+Allgemeine Fragen und Ablauf des Prozesses 
+ 
+[Stand: Januar 2022]  
+
+ 
+ 
+ 
+Seite 2 
+ 
+  
+Inhalt  
+ 
+Teil 1: Technische Spezifikationen des Ausweisterminals 
+1. Einführung ...................................................................................................................... 5 
+2. Technische Daten zum Ausweisterminal ........................................................................ 5 
+2.1 Aufbau und Farbgestaltung ...................................................................................... 5 
+2.2 Lieferumfang ............................................................................................................ 6 
+3. Mechanische Daten: ....................................................................................................... 7 
+4. Elektrische Daten: .......................................................................................................... 8 
+5. Komponentenabmessungen in mm (ca.): ....................................................................... 9 
+6. Hinweise zum Thema Brandschutz und Unfallvorschriften: ............................................ 9 
+7. Sicherheitsmerkmale des Ausweisterminals ..................................................................10 
+ 
+Teil 2: Bauliche Anforderungen für die Installation des Kern Ausweisterminals 
+1. Einführung .....................................................................................................................11 
+2. Bauliche Voraussetzungen ............................................................................................11 
+2.1 Lage ........................................................................................................................ 11 
+2.2 Untergrund .............................................................................................................. 12 
+2.3 Fundament .............................................................................................................. 12 
+2.3.1 Fundament Beispiele ............................................................................................ 13 
+3. Bitte beachten! ..............................................................................................................14 
+4. Transportanforderungen ................................................................................................14 
+ 
+Teil 3: Technische Anforderungen für die Installation des Kern Ausweisterminals 
+1. Einführung .....................................................................................................................15 
+2. Fragen zu den Hardware-Voraussetzungen ..................................................................15 
+2.1 Die Minimalausstattung des Servers ....................................................................... 15 
+2.2 Der Fingerprint Scanner .......................................................................................... 15 
+2.3 LAN-Anschlüsse ...................................................................................................... 16 
+2.4 Unterbrechungsfreie Stromversorgung (USV) ......................................................... 16 
+3. Fragen zu den Software-Voraussetzungen ...................................................................17 
+3.1 Software-Komponenten / Software-Implementierung ............................................... 17 
+
+ 
+ 
+ 
+Seite 3 
+ 
+  
+3.2 Client, Browser, Port, & Co ...................................................................................... 17 
+3.3 MSSQL-Datenbank / MSSQL-Server ...................................................................... 18 
+3.4 Anbindung per W-LAN oder LTE ............................................................................. 19 
+3.5 E-Mail-Gateway - Emailbenachrichtigungen ............................................................ 19 
+3.6 Internet Information System (IIS) ............................................................................. 19 
+3.7 Fernzugriff / Fernwartung ........................................................................................ 19 
+3.8 Protokollierung von Vorgängen ............................................................................... 20 
+3.9 Software-Updates .................................................................................................... 20 
+4. Fragen zum Datenschutz ..............................................................................................21 
+5. Fragen zur integrierten Kamera .....................................................................................21 
+6. Schritte bei der Installation der Software .......................................................................23 
+7. Workflow zwischen den verschiedenen Komponenten ..................................................24 
+8. Benötigte Informationen ................................................................................................25 
+ 
+Teil 4: Allgemeine Fragen und Ablauf des Einlieferungs- und Abholprozesses 
+1. Einführung .....................................................................................................................27 
+2. Übersicht über den Ablauf eines Einliefer-/Abholprozesses am Ausweisterminal ..........27 
+2.1 Die Reservierung .......................................................................................................28 
+2.1.1 Erfassen der Bürgerdaten ..................................................................................... 28 
+2.1.2 Erfassen des Fingerabdrucks ............................................................................... 29 
+2.1.3 Ausdrucken der Reservierung .............................................................................. 30 
+2.1.4 E-Mail-Benachrichtigung an den Bürger ............................................................... 31 
+2.2 Die Einlieferung der Dokumente in das Ausweisterminal ...........................................32 
+2.2.1 Die Legitimierung am Terminal mit der RFID-Karte .............................................. 32 
+2.2.2 Das Einlegen der Dokumente in das Ausweisterminal .......................................... 33 
+2.3 Die Abholung der Dokumente durch den Bürger ........................................................34 
+2.3.1 Die Legitimierung am Terminal ........................................................................ 34 
+2.3.2 Die Dokumentenentnahme aus dem Terminal................................................. 35 
+3. Prozessbeschreibung (FAQ) .........................................................................................36 
+3.1 Fragen zur Antragstellung ....................................................................................... 36 
+3.2 Fragen zur Befüllung ............................................................................................... 37 
+3.3 Fragen zur Abholung ............................................................................................... 38 
+3.4 Weitere Fragen ........................................................................................................ 39 
+
+ 
+ 
+ 
+Seite 4 
+ 
+  
+Anlagen 
+1. Beispiele für die E-Mail-Benachrichtigungen an den Bürger ......................................40 
+2. Einsatz von Benutzerkarten ...........................................................................................44 
+3. Wichtige Tipps ...............................................................................................................45 
+4. Auftrag für die Befüllung bzw. Abholung des Personalausweises/Reisepasses über das 
+Ausgabeterminal (Beispiel) ............................................................................................46 
+5. Rückantwort PIN-Brief (§13 PAauswG) (Beispiel) .........................................................48 
+ 
+ 
+  
+
+ 
+ 
+ 
+Seite 5 
+ 
+  
+Teil 1 
+Technische Spezifikationen des Ausweisterminals 
+ 
+1. Einführung 
+ 
+In  diesem Teil  des  Dokuments möchten  wir Ihnen  die  technischen  Daten  und 
+Spezifikationen des Ausweisterminals vorstellen. 
+2. Technische Daten zum Ausweisterminal 
+ 
+2.1 Aufbau und Farbgestaltung 
+Das Kern Ausweisterminal ist modular aufgebaut und besteht aus einer Steuereinheit 
+und mindestens einem Modul mit 22 Fächern. Eine Erweiterung ist jederzeit möglich. 
+Insgesamt kann die Steuereinheit bis zu 300 Fächer ansteuern.  
+Das Ausweisterminal ist standardmäßig in nachfolgender Lackierung erhältlich: 
+ 
+Rahmen und Sockel in RAL 7039 (Quarzgrau)  
+ 
+und die Türen in RAL 7035 (Lichtgrau). 
+ 
+Selbstverständlich können Sie dieses auch in Ihrer Wunsch Classic RAL Farbe gegen 
+Aufpreis erhalten. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+-Steuereinheit und ein Modul mit 22 Fächer- 
+
+ 
+ 
+ 
+Seite 6 
+ 
+  
+2.2 Lieferumfang 
+Das Ausweisterminal wird in Komponenten (Steuereinheit + Module) geliefert.  
+Zum Lieferumfang gehören zudem RFID-Karten, Schlüssel und ein Drei-Punkt-
+Spezialwerkzeug. 
+Bitte beachten Sie, dass die Dermalog Fingerprint Reader und PCs für den 
+Arbeitsplatz im Bürgerbüro nicht im Lieferumfang enthalten sind und separat 
+beschafft werden müssen. 
+Für eine Außeninstallation ist ein Dach erforderlich, welches optional bestellt werden 
+kann. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+ 
+ 
+ 
+Seite 7 
+ 
+  
+3. Mechanische Daten:  
+ 
+Maße: Siehe entsprechenden Abschnitt 
+Gewicht leer: zw. 120-183 kg pro Modul 
+Max. Belastung: 45 kg. pro Modulfach 
+Betriebstemperaturbereich: -20°C bis +60°C 
+Temperaturabweichung: Max. 0.5°C/min. 
+Sonneneinstrahlung: Max. 1120 W/m
+2
+ 
+Atmosphärischer Druck: 84 bis 106 kPa 
+Kondensation, Niederschlag: Möglich im Betrieb 
+Max. Windlast 0.85 kN/m
+2 
+bei maximaler 
+Windgeschwindigkeit von 133 
+m/min (nicht zyklonisch) 
+Geräuschentwicklung während des 
+Betriebes: 
+<45 dB 
+Zulässige relative Luftfeuchtigkeit für die 
+Lagerung: 
+5% bis 95% nicht kondensierend 
+Absolut: 0.9 bis 22 g/m
+3
+ 
+Zulässige relative Luftfeuchtigkeit für die 
+Lagerung: 
+5% bis 95% nicht kondensierend 
+Lagertemperatur: -15°C bis +60°C 
+ 
+ 
+ 
+  
+
+ 
+ 
+ 
+Seite 8 
+ 
+  
+4. Elektrische Daten:  
+ 
+ 
+Geeignete elektrische Netze: TN o TT 
+Ausgeschlossene Netzwerke: IT Netzwerk 
+Kabelzuführung (Daten, Telefon usw.): Von unten in die Steuereinheit 
+Zuleitung: 
+mindestens 3x1.5mm
+2
+, max. 3x2.5mm
+2
+ 
+Kommunikationsverbindung (LAN): 
+RJ45 Buchse oder Stecker für das interne 
+Netzwerk  
+Netzspannung: 
+230 V
+AC 
+±10% andere Spannungen auf Anfrage 
+Netzfrequenz: 50 ± 0.5 Hz 
+Nennstrom: < 4 A 
+Interne Sicherung: 
+2 x Fi-LS 10 A (“C”) 30 mA, Steuerung, USV, PC. 
+1 x Service Steckdose. 
+IP-Schutzart: 
+Einrichtung der Schutzklasse 1 nach UNE-EN 
+60950-1: 2007  
+Überspannungsschutz: 
+Anschluss an ein 230 V-Netz mit 
+Überspannungskategorie III nach EN60950-1 
+möglich (Überspannung bis 4 kV) 
+ 
+ 
+ 
+Fehlerstrom: < 30 mA 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+ 
+ 
+ 
+Seite 9 
+ 
+  
+5. Komponentenabmessungen in mm (ca.):  
+ 
+ 
+ 
+Komponenten 
+ 
+Breite 
+ 
+Höhe 
+ 
+Tiefe 
+ 
+Steuereinheit 
+ 
+515 
+ 
+2000 
+ 
+640 
+ 
+22 Fach-Modul 
+ 
+533 
+ 
+2000 
+ 
+640 
+ 
+6. Hinweise zum Thema Brandschutz und Unfallvorschriften:  
+ 
+Die Steuereinheit ist getrennt von den restlichen Modulen, somit ist die Ausbreitung 
+eines eventuell dort entstehenden Feuers auf die Fächer nicht zu erwarten. 
+Das Terminal besteht hauptsächlich aus pulverbeschichtetem Stahl und 
+Polyesterlack.  
+Der Betreiber des Terminals ist dafür verantwortlich, geeignete 
+Brandschutzmaßnahmen entsprechend den örtlichen Gegebenheiten vorzunehmen. 
+ 
+Hinweis:  
+Die örtlichen Brandschutz- und Unfallvorschriften sowie die Rettungswege müssen bei 
+jeder  Installation  beachtet  werden.  Die  Terminals  dürfen  an  folgenden  Orten  nicht 
+installiert werden: 
+ 
+a) Fluchtwege 
+b) Enge Gänge bzw. Bereiche, in denen Passanten durch geöffnete Türen 
+behindert werden könnten. 
+c) Unübersichtliche bzw. nicht einsehbare Orte, an denen Passanten sich an 
+geöffneten Türen verletzen könnten. 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+ 
+ 
+ 
+Seite 10 
+ 
+  
+7. Sicherheitsmerkmale des Ausweisterminals:  
+ 
+Das Ausweisterminal verfügt über folgende Sicherheitsmerkmale: 
+▪ Vorinstallierte Überwachungskamera in der Steuereinheit 
+▪ Weitere Überwachungskameras können optional angebracht werden 
+▪ Möglichkeit einen Alarm beim Bürgerbüro, einem Wachdienst oder der Polizei 
+aufzuschalten [optional] 
+▪ Sensoren in jedem Fach verhindern unbefugtes Befüllen und Schließen nach 
+Synchronisation 
+▪ Elektronisch gesicherte Schlösser 
+▪ Fächerübergreifende Scharnierstangen 
+▪ Keine sichtbaren Schrauben (alle Komponenten sind vernietet) 
+▪ Boden- bzw. Wandverankerungen  
+ 
+ 
+ 
+ 
+ 
+  
+
+ 
+ 
+ 
+Seite 11 
+ 
+  
+Teil 2 
+Bauliche Anforderungen für die Installation des Kern Ausweisterminals 
+ 
+1. Einführung 
+In   diesem 2. Teil des   Dokuments möchten   wir   auf   die   wichtigsten baulichen 
+Voraussetzungen im Zusammenhang mit einer Installation des Kern Ausweisterminals 
+eingehen. Sollte Ihre Frage dennoch nicht dabei sein, sprechen Sie uns gerne an. 
+ 
+2. Bauliche Voraussetzungen:  
+ 
+2.1 Lage: 
+ 
+• Bei  einer  Außeninstallation  empfehlen  wir  das  Terminal  so  zu installieren, 
+dass es zu keiner direkten Sonneneinstrahlung auf den Bildschirm kommt. 
+ 
+• Bei  der  Auswahl  des  Installationsorts  ist  auf  eine  ausreichende  Möglichkeit 
+einer Wärmeableitung zu achten. 
+ 
+• Der Betreiber hat dafür Sorge zu tragen, dass der Kundenbereich sicher und 
+gefahrlos  zugänglich  ist.  Kern  ist  nicht  verantwortlich  für  die  Sicherheit  der 
+Kunden in diesem Bereich. 
+ 
+• Das  Terminal  muss  frei  zugänglich  sein.  Für  die  Montage  müssen  jeweils 
+mindestens  3  Meter  von  vorne  und  mindestens  0,30  Meter oberhalb  der 
+Module als Freiraum vorhanden sein. 
+ 
+ 
+ 
+  
+
+ 
+ 
+ 
+Seite 12 
+ 
+  
+2.2 Untergrund: 
+ 
+• Ein ebener Untergrund wird benötigt. 
+ 
+• Der  Installationsort  muss  eine  bautechnische  Ausführung  aufweisen,  die 
+einen    sicheren    Stand    des    Ausweisterminals    und    eine    direkte 
+Lastübertragung gewährleistet. 
+ 
+• Ist  der  Untergrund  nicht  tragfähig  und/oder  wird  eine  Verankerung  des 
+Terminals  auf  dem  Boden  notwendig,  muss  ein  geeignetes  Fundament 
+errichtet werden. 
+ 
+2.3 Fundament: 
+ 
+• Das   Fundament   muss auf   einem   tragfähigen Untergrund,   eben   und 
+horizontal errichtet werden. Wir empfehlen, dass es ca. 5 cm aus dem Boden 
+herausragen sollte. 
+ 
+• Welches Fundament geeignet ist, hängt auch von der Bodenbeschaffenheit 
+ab. Ziehen Sie hier bitte immer einen Fachmann für Fundamente zu Rate. 
+Dieser prüft die örtlichen Gegebenheiten, erstellt den Bewehrungsplan und 
+legt die benötigte Betonqualität fest. Auch hinsichtlich der benötigten Tiefe 
+für das Fundament hilft der Fachmann weiter. 
+ 
+• Alle anwendbaren gültigen Normen, Gesetze und Betriebsverfahren müssen 
+eingehalten werden. Eine Abweichung von den Vorgaben zur Erstellung des 
+ebenerdigen    Betonfundaments    darf    nicht    zur    Beeinträchtigung    der 
+Funktionsfähigkeit   des   Terminals   führen.   Abweichungen   können   zu 
+Funktionsstörungen, Folgeschäden oder Beeinträchtigungen der Sicherheit 
+der Nutzer führen. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+ 
+ 
+ 
+Seite 13 
+ 
+  
+2.3.1 Fundament Beispiele: 
+ 
+Beispiel 1: Fundament bei einem Zwei-Module-Terminal 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Beispiel 2: Fundament bei einem Drei-Module-Terminal 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+ 
+ 
+ 
+Seite 14 
+ 
+  
+3. Bitte beachten!  
+ 
+• Die Kabel für Strom (3x1,5 mm2), 230V, 16A und LAN-Anschluss sollten etwa 
+mittig im Fundament mit einer jeweiligen Kabellänge von mind. 2m im Schutzrohr 
+herausragen, damit wir diese am Terminal anschließen können. 
+ 
+• Die Kabel bitte vorerst ohne Stecker belassen. Diese sollen bauseits nach der 
+Installation der Steuereinheit befestigt werden. 
+ 
+• Wir empfehlen für nachträgliche Anwendungsmöglichkeiten, wie beispielsweise 
+eine Kameraüberwachung, ein zweites LAN Kabel vorsorglich zu legen. 
+ 
+• Wegen des Lüfters in der Steuereinheit muss der Abstand des Terminals zur 
+Wand mind. 10 cm betragen. 
+ 
+• Ob bei der Aufstellung des Ausweisterminals gewisse Anforderungen gemäß 
+Barrierefreie-Vorschriften zu beachten sind. 
+ 
+• Ob besondere Genehmigungen bei der Anlieferung beantragt werden müssen 
+(Zufahrten in verkehrsberuhigte Straßen, Einkaufsstraßen etc). 
+ 
+ 
+4. Transportanforderungen:  
+ 
+Das Terminal wird in separaten Komponenten geliefert, die vor Ort montiert werden. Der 
+Aufstellungsort muss mit geeigneten Transportmitteln erreichbar sein. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+ 
+ 
+ 
+Seite 15 
+ 
+  
+ 
+Teil 3 
+Technische Anforderungen für die Installation des Kern Ausweisterminals 
+ 
+ 
+1. Einführung 
+In dem 3. Teil dieses Dokuments, möchten wir auf die wichtigsten IT seitigen Fragen 
+und    Voraussetzungen im    Zusammenhang    mit    einer    Installation    des    Kern 
+Ausweisterminals eingehen. Sollte Ihre Frage dennoch nicht dabei sein, sprechen Sie 
+uns gerne an. 
+2. Fragen zu den Hardware-Voraussetzungen 
+2.1 Die Minimalausstattung des Servers 
+• Was sind die Anforderungen an den Server, auf dem die Software installiert 
+wird?  
+Die Minimalausstattung des Servers sollte wie folgt sein: 
+ 
+- Prozessor: mind. 3,4 GHz (in einem oder mehreren Cores) 
+- RAM: mind. 4 Gigabyte DDR4-SDRAM 
+- HDD: mind. 128 Gigabyte, wenn möglich SSD 
+- Netzwerkschnittstellen: mind. 2 LAN RJ45 (1 Gigabyte) 
+ 
+Der Server kann auch virtuell betrieben werden, wenn ähnliche Ressourcen 
+zugeordnet werden. 
+ 
+2.2 Der Fingerprint Scanner 
+• Welcher Fingerprint Scanner wird im Ausweisterminal verwendet?  
+Wir verwenden den Dermalog Fingerprint Scanner F1, 3rd Gen. 
+ 
+• Welcher Fingerprint Scanner muss bei der Abgabe des Fingerabdrucks am 
+Arbeitsplatz des Sachbearbeiters verwendet werden?  
+Hier muss ebenfalls der Dermalog Fingerprint Scanner F1, 3rd Gen. verwendet 
+werden. 
+  
+
+ 
+ 
+ 
+Seite 16 
+ 
+  
+• Kann am Arbeitsplatz auch der bereits für das Fachverfahren im Einsatz 
+befindliche Dermalog Fingerprint Scanner F1, 3rd Gen. für die Nutzung des 
+Abholprozesses verwendet werden?  
+Wir empfehlen die Arbeitsplätze, an denen die Nutzung der 24/7 Abholung von 
+Dokumenten angeboten wird, mit einem weiteren Fingerprint Scanner 
+auszustatten. Der Vorteil ist, dass nicht zwischen dem Fach- und dem 
+Abholverfahren gewechselt werden muss.  
+• Liefert Kern neben dem Ausweisterminal auch die Fingerprint Reader und PCs 
+bzw. Drucker für die Arbeitsplätze? 
+Im Lieferumfang sind das Ausweisterminal und die entsprechende Software für 
+das Terminal und die Arbeitsplätze enthalten. Die PCs und Arbeitsplatz-Fingerprint 
+Reader sowie Drucker muss der Kunde selbst stellen. 
+ 
+2.3 LAN-Anschlüsse 
+• Weshalb werden zwei LAN-Anschlüsse benötigt? 
+Das System verfügt im Lieferumfang über ein Videoaufzeichnungssystem. Wenn 
+der Kunde die Aufzeichnungen in einem Netzlaufwerk speichern möchte, wird hier 
+ein zweiter LAN-Anschluss benötigt. 
+ 
+2.4 Unterbrechungsfreie Stromversorgung (USV) 
+• Wozu dient die optional bestellbare unterbrechungsfreie Stromversorgung 
+(USV) im Terminal? 
+Die USV (optional erhältlich) übernimmt nach einem Spannungsausfall die 
+Spannungsversorgung für ca. 20 Minuten, um den Computer des 
+Ausweisterminals ordnungsgemäß herunterzufahren.  
+• Wird eine USV mit bestellt, wer ist dann für die Überwachung und 
+Überprüfung zuständig? 
+Wird eine USV ohne Service-Vertrag mitbestellt, liegt die Wartung in der 
+Eigenverantwortung des Kunden. 
+ 
+ 
+  
+
+ 
+ 
+ 
+Seite 17 
+ 
+  
+3. Fragen zu den Software-Voraussetzungen 
+3.1 Software-Komponenten / Software-Implementierung 
+• Aus welchen Komponenten besteht die Software?  
+ 
+Die Software besteht aus den folgenden Komponenten:  
+• Die Terminal Software am Ausweisterminal  
+• Die Reservation Manager Software am Arbeitsplatz des Mitarbeiters  
+• Die Software für den Web-Server und einer Datenbank für den MSSQL-Server 
+• Was gilt es bei der Implementierung der Kern Software in Bezug auf das im 
+Einsatz befindliche Fachverfahren zu berücksichtigen?  
+Es sind keine besonderen Maßnahmen erforderlich. Die Kern Software arbeitet 
+unabhängig vom Fachverfahren. 
+• Wie erfolgt der Zugriff auf das Softwaresystem durch die Mitarbeiter? 
+Der Login in das System läuft über den Domänencontroller. Der 
+Reservierungsmanager und auch das Booking Portal verwenden die Zugangsdaten 
+zur Domäne, um den Arbeitsbereich freizuschalten. Damit ist auch nachvollziehbar, 
+welcher Mitarbeiter, welche Reservierung durchgeführt hat. Die Benutzerverwaltung 
+findet demnach im Active Directory statt. Falls der Login über das Active Directory 
+nicht funktionieren sollte, behalten wir uns vor, einen lokalen Login für die Clients 
+und das Portal einzurichten. 
+ 
+3.2 Client, Browser, Port, & Co 
+• Welches Client – Betriebssystem wird benötigt?  
+Mindestens Windows 10 Pro, 64 bit 
+• Welche Browser werden unterstützt?  
+Google Chrome, Mozilla Firefox  
+• Welche Web – Server sind einsetzbar?  
+ 
+MS – IIS (Internet Information System)  
+• HTTPS-Verbindung: Wird hier ein Client-Zertifikat genutzt?  
+ 
+Ja, ein Client-Zertifikat wird genutzt.  
+  
+
+ 
+ 
+ 
+Seite 18 
+ 
+  
+3.3 MSSQL-Datenbank / MSSQL-Server 
+• Via welchem Port kommuniziert das Terminal mit der MSSQL-Datenbank?  
+ 
+Bitte schauen Sie sich bezüglich der Kommunikation der einzelnen Komponenten 
+den Workflow unter Punkt 6 „Workflow zwischen den verschiedenen Komponenten“ 
+an.  
+• Ist die MSSQL-Datenbankverbindung verschlüsselt? Wenn ja, wird mit Client-
+Zertifikat authentifiziert? 
+ 
+Die Verbindung ist standardmäßig via SSL und Token verschlüsselt. 
+• Welches Datenbanksystem muss die Stadt zur Verfügung stellen?  
+MSSQL Server mindesten MSSQL 2012. Der Zugriff erfolgt über die ODBC-
+Schnittstelle. 
+• Ist ein eigener MSSQL-Server zwingend notwendig?  
+Nein, die Datenbank kann auch auf einem vorhandenen MSSQL-Server installiert 
+werden. 
+• Wer administriert die MSSQL-Datenbank?   
+ 
+Die Systemkomponenten werden von der IT des Kunden administriert.  
+• Können der HTTPS-Server und die MSSQL-Datenbank in ein eigenes Netz 
+gestellt werden? 
+Ein eigenes Subnetz ist möglich, der Server muss aber Mitglied in der Domäne sein.  
+• Welches Lizenzierungsmodell empfehlen Sie beim MSSQL-Server?  
+ 
+Microsoft SQL kann über zwei verschiedene Modelle lizenziert werden: 
+ 
+1. Je CORE: Für komplexe und High Performance Anwendungen. Jeder Core 
+des Servers muss lizenziert werden. 
+2. Je CAL: Nutzerbasierter Zugang für geringere Leistungsanforderungen 
+(unterstützt nur die Standardeditionen). 
+ 
+Hier besteht die Wahl zwischen den Editionen  
+Standard und Enterprise. 
+ 
+Der Hauptunterschied besteht darin, dass die Enterprise Edition bei großen 
+Datenbanken verwendet wird. Dies ist beim Ausweisterminal jedoch nicht der Fall.  
+Daher empfehlen wir bei weniger als 50 Terminal-Installationen Microsoft SQL 2019 
+Standard mit 2 CALs. Da Microsoft ein weltweites Vertriebsnetz hat, ist es sinnvoll 
+den lokalen Vertriebspartner zu kontaktieren.   
+
+ 
+ 
+ 
+Seite 19 
+ 
+  
+3.4 Anbindung per W-LAN oder LTE 
+• Was müsste getan werden, um eine Anbindung per W-LAN oder LTE zu 
+realisieren?  
+ 
+Das aktuelle System ist für eine Anbindung im Netz der Bürgerbüros konzipiert. Daher 
+bevorzugen  wir  eine  direkte  LAN-Anbindung.  Das  System  verfügt  im  Lieferumfang 
+über  einen  4G-Router.  Dieser  kann auch  für  die  Anbindung  verwendet  werden. 
+Voraussetzung ist eine stabile Verbindung. 
+ 
+3.5 E-Mail-Gateway - Emailbenachrichtigungen 
+• Welches E-Mail Gateway wird genutzt?  
+Zum Versand von Nachrichten an die Bürgerinnen und Bürger wird der 
+kundeneigene SMTP E-Mailserver genutzt. 
+ 
+ 
+3.6 Internet Information System (IIS) 
+• Wer administriert das IIS? 
+Die Systemkomponenten werden von der IT des Kunden administriert.  
+ 
+• Wie muss der Zugriff auf den HTTPS-Server (IIS) geschützt werden? 
+Der Kunde muss ein selbstsigniertes Zertifikat bereitstellen.  
+ 
+• Läuft das IIS auf demselben Server wie die MSSQL-Datenbank oder werden 
+zwei Server benötigt? 
+ 
+Wir bevorzugen, dass alles auf einem Server läuft. 
+ 
+3.7 Fernzugriff / Fernwartung 
+• Was bedeutet bei der Installation das „Einrichten des Remote-Zugriffs“? 
+Kommt dabei eine Fernwartungs-Software zum Einsatz? 
+Für die Erstinstallation benötigen wir zwingend Remotezugriff, möglichst über 
+TeamViewer. Benötigte Treiber und Installationsdateien können vorab zur 
+Verfügung gestellt werden. Zur Endabnahme ist ein Zugriff auf den MSSQLServer, 
+WebServer und das Terminal notwendig.   
+
+ 
+ 
+ 
+Seite 20 
+ 
+  
+• Wie führt die Firma Kern Fernwartungen durch?  
+ 
+Für die Fernwartung setzen wir TeamViewer ein und benötigen von Ihnen den 
+Zugang zu den WebServices und der MSSQL-Datenbank. 
+• Gibt es Zugriffe für Fernwartungen und wenn ja welche??  
+ 
+Zur Fernwartung benutzen wir standardmäßig TeamViewer.  
+ 
+3.8 Protokollierung von Vorgängen 
+• Werden alle Vorgänge protokolliert?  
+ 
+ 
+Ja, alle Vorgänge werden protokolliert. 
+ 
+3.9 Software-Updates 
+• Wie erfolgen Software-Updates?  
+ 
+Updates für die Arbeitsplatz-Software werden über manuelle Set-Ups pro 
+Arbeitsplatz durchgeführt. Dies kann der Kunde selbst durchführen. 
+System-Updates bezüglich IIS und MSSQL-Server erfolgen durch den Kunden. 
+Datenbank-Updates und IIS-Updates erfolgen durch Kern im Rahmen einer durch 
+den Kunden genehmigten Team Viewer-Sitzung. 
+  
+
+ 
+ 
+ 
+Seite 21 
+ 
+  
+4. Fragen zum Datenschutz 
+ 
+• Werden die biometrischen Daten des Kunden gemäß Art. 9 DSGVO als 
+besonders schützenswert gespeichert? Wenn ja, wo und wie lange? 
+ 
+Die Daten und die Fingerabdrücke werden auf dem MSSQL-Server der Stadt 
+standardmäßig für 7 Tage gespeichert und nicht auf dem Terminal. Diese Dauer ist 
+variabel und kann durch den Kunden bestimmt werden.  
+ 
+• Welche Kundendaten genau werden gespeichert? 
+ 
+Vom Kunden werden Name, Emailadresse, Ausweisnummer im Klartext 
+gespeichert. Der Fingerabdruck für die Abholung wird verschlüsselt mit dem 
+Verschlüsselungsalgorithmus der Dermalog API im MSSQL-Server abgelegt. 
+ 
+• Werden Passwörter gespeichert? 
+Nein, weder in der „WinForm“ Anwendung noch im „BookingPortal“ werden 
+Passwörter gespeichert.  
+Es besteht aber die Möglichkeit Login-Rechte selbst zu verwalten. Dies muss dann 
+aber gesondert eingestellt werden. Standardmäßig erfolgt das Login über das Active 
+Directory, hier werden keine Passwörter gespeichert. 
+ 
+5. Fragen zur integrierten Kamera 
+ 
+• Zeichnet die Kamera im Terminal durchgehend auf? 
+Die Lochkamera in der Steuereinheit zeichnet standardmäßig durchgehend auf (14 
+Tage in Schleife). Dies kann aber durch eine Konfiguration in der HikVision-Software 
+zeitlich oder auf den Bewegungssensor beschränkt werden. 
+• Wo werden die Aufnahmen der Kamera gespeichert? 
+Die Aufzeichnungen der Frontkamera in der Steuereinheit werden standardmäßig auf 
+dem internen DVR-Rekorder gespeichert. 
+Alternativ können die Aufzeichnungen mit einer optionalen IP Kamera im Netzwerk 
+gespeichert werden. Dies ist mit einer Windows-Server-Freigabe mit SMB1.0/CIFS oder auf 
+einem NVR-Rekorder (Network Video-Rekorder) möglich.   
+
+ 
+ 
+ 
+Seite 22 
+ 
+  
+• Wird auch TON aufgezeichnet, wenn die Kamera läuft? 
+Da es sich um eine analoge Lochkamera handelt, welche an einen DVR 
+angeschlossen ist, wird kein Ton aufgenommen. 
+• Ist ein Schwenken und Zoomen der Kamera möglich? 
+Ein Schwenken der Kamera ist nicht möglich, digitales Zoomen hingegen schon. 
+• Wie weit greift der Radius der überwachten Fläche? 
+Die Kamera zeichnet in folgendem Winkel auf:  
+Horizontal FOV: 78°, Vertical FOV: 43°, Diagonal FOV: 90° 
+• Ist die Kamera vom Internet aus erreichbar? 
+Nein, standardmäßig sind die Cloud-Dienste deaktiviert. Diese können jedoch in der 
+Überwachungssoftware aktiviert werden. 
+  
+
+ 
+ 
+ 
+Seite 23 
+ 
+  
+6. Schritte bei der Installation der Software 
+• Welche Schritte sind bei der Installation der Software notwendig und wie 
+gestaltet sich die Arbeitsaufteilung zwischen der IT Fachabteilung der Stadt 
+und Kern?  
+Die Details hierzu können dem nachfolgenden Schaubild entnommen werden. 
+ 
+  
+
+ 
+ 
+ 
+Seite 24 
+ 
+  
+7. Workflow zwischen den verschiedenen Komponenten  
+ 
+• Wie ist der Workflow zwischen den verschiedenen Komponenten gestaltet? Wie 
+erfolgt die Kommunikation zwischen den verschiedenen Komponenten?  
+Die Details hierzu können dem nachfolgenden Schaubild entnommen werden. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+ 
+ 
+ 
+Seite 25 
+ 
+  
+8. Benötigte Informationen 
+Für das Einrichten und die Installation des Ausweisterminals benötigen wir 
+Folgendes von Ihnen:  
+ 
+• Für den Sperrbildschirm: 
+ 
+Für den Sperrbildschirm werden 2 Seiten wechselweise auf der Bedienfläche am 
+Terminal abgebildet. 
+ 
+Für Bild 1 haben Sie die Option ein eigenes Logo anzeigen zu lassen oder einen 
+Schriftzug mit Ihrem Stadtnamen (hierfür teilen Sie uns bitte die „Schriftart“ mit).  
+ 
+ 
+ 
+Bild 1        Bild 2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Sollten Sie neue Bilder wünschen (Bsp. Logo der Stadt), so benötigen wir von Ihnen 
+bis spätestens 4 Wochen vor Installationstermin die jeweilige Vorlage als Vektor 
+Dateiformat (Bsp. Svg oder png), sodass wir diese in der Größe für unsere Software 
+anpassen können.  
+ 
+Innerhalb des Bedienprozesses am Terminal kann auch noch Ihr Logo auf dem 
+Bildschirm dargestellt werden.  
+ 
+ 
+• Für die E-Mail-Benachrichtigungen an den Bürger: 
+ 
+Sie können entscheiden, ob und welche E-Mail-Benachrichtigungen zu welchem 
+Zeitpunkt des Prozesses an den Bürger versendet werden sollen.  
+ 
+Die E-Mail-Texte finden Sie unter Anlagen am Ende des Dokumentes. Bitte nehmen 
+Sie Ihre Änderungen vor und senden uns diese bis spätestens 4 Wochen vor 
+Installationstermin zurück. 
+ 
+ 
+  
+
+ 
+ 
+ 
+Seite 26 
+ 
+  
+• Anzahl RFID Karten zum Verwalten der Schließfächer: 
+ 
+Sie erhalten bei der Installation zwei RFID-Kartensätze (2x2), damit Sie als 
+Benutzer die Ausweise am Terminal hinterlegen können. 
+ 
+Weiterhin erhalten Sie zwei Admin RFID-Karten. 
+ 
+Sollten Sie mehr Karten benötigen, teilen Sie uns die Anzahl bitte rechtzeitig mit, 
+damit wir diese erstellen können. 
+ 
+Bitte beachten Sie unbedingt das Merkblatt zu den RFID-Karten, welches wir Ihnen 
+aushändigen (siehe Anlagen). 
+ 
+ 
+• Konfiguration der Module: 
+ 
+Bitte teilen Sie uns mit, wie die Module und die Steuereinheit bei der Installation 
+angeordnet werden. 
+ 
+• Ansprechpartner für die Softwareinstallation:  
+ 
+Bitte nennen Sie uns einen Ansprechpartner, mit dem wir die Softwareinstallation 
+besprechen können. 
+ 
+• Frontkamera in Steuereinheit: 
+ 
+Bitte teilen Sie uns mit, ob Sie die Kamera in der Steuereinheit nutzen wollen. 
+• Internet über LAN/W-LAN oder SIM-Karte: 
+ 
+Bitte geben Sie uns Bescheid, auf welchem Weg Sie den Internetzugang zur 
+Verfügung stellen werden. Für den Fall der SIM-Karten-Nutzung benötigen wir 
+Informationen zum Provider. Eine ausreichende Signalstärke muss gegeben sein. 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+ 
+ 
+ 
+Seite 27 
+ 
+  
+Teil 4 
+Allgemeine Fragen und Ablauf des Einliefer- und Abholprozesses 
+ 
+ 
+ 
+1. Einführung 
+ 
+Im 4.  Teil  dieses Dokuments  möchten  wir  Ihnen den  Ablauf  des  Einliefer- und 
+Abholprozesses  bildlich  erläutern  und  auf  die  häufigsten  Fragen  der  Bürgerbüros 
+eingehen. Sollte Ihre Frage nicht dabei sein, sprechen Sie uns gerne an. 
+ 
+2. Übersicht über den Ablauf eines Einliefer-/Abholprozesses am 
+Ausweisterminal 
+ 
+Im Folgenden zeigen wir Ihnen, anhand einer Dokumentation, wie eine Reservierung, 
+Einlieferung und Abholung am Terminal abläuft. 
+ 
+• Gerne stellen wir Ihnen hierzu unseren Anwendungsfilm zur Verfügung. 
+• Eine Bedienungsanleitung als PDF können Sie ebenfalls erhalten. 
+ 
+ 
+  
+
+ 
+ 
+ 
+Seite 28 
+ 
+  
+2.1 Die Reservierung 
+ 
+2.1.1 Erfassen der Bürgerdaten 
+ 
+ 
+  
+
+ 
+ 
+ 
+Seite 29 
+ 
+  
+2.1.2 Erfassen des Fingerabdrucks 
+ 
+ 
+ 
+ 
+  
+
+ 
+ 
+ 
+Seite 30 
+ 
+  
+2.1.3 Ausdrucken der Reservierung  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+ 
+ 
+ 
+Seite 31 
+ 
+  
+2.1.4 E-Mail-Benachrichtigung an den Bürger 
+ 
+ 
+ 
+  
+
+ 
+ 
+ 
+Seite 32 
+ 
+  
+2.2 Die Einlieferung der Dokumente in das Ausweisterminal 
+ 
+2.2.1 Die Legitimierung am Terminal mit der RFID-Karte 
+ 
+ 
+ 
+  
+
+ 
+ 
+ 
+Seite 33 
+ 
+  
+2.2.2 Das Einlegen der Dokumente in das Ausweisterminal 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+ 
+ 
+ 
+Seite 34 
+ 
+  
+2.3 Die Abholung der Dokumente durch den Bürger 
+ 
+2.3.1 Die Legitimierung am Terminal 
+ 
+ 
+ 
+  
+
+ 
+ 
+ 
+Seite 35 
+ 
+  
+2.3.2 Die Dokumentenentnahme aus dem Terminal 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+ 
+ 
+ 
+Seite 36 
+ 
+  
+3. Prozessbeschreibung (FAQ) 
+ 
+3.1 Fragen zur Antragstellung 
+• Weshalb muss der Bürger für den Abholprozess noch einmal einen 
+Fingerabdruck abgeben? Wieso nutzt man nicht den Fingerabdruck aus dem 
+Fachverfahren? 
+Der Fingerabdruck, der für den Ausweis genommen wird, wird im Rahmen eines 
+hoheitlichen Prozesses hinterlegt. Der Fingerabdruck für die Abholung am 
+Ausweisterminal dient einem Logistikprozess. Durch die getrennte Abgabe des 
+Fingerabdrucks hat man beide Prozesse klar voneinander getrennt. Auch gibt der 
+Bürger ausdrücklich sein Einverständnis, dass er seinen Fingerabdruck ein zweites 
+Mal abgibt, um die 24/7 Abholung in Anspruch nehmen zu können. 
+ 
+• Muss der Sachbearbeiter zu jedem Ausweis eine Zuordnung eines Faches am 
+Ausweisterminal vornehmen? 
+ 
+Nein. Die Zuordnung läuft vollkommen automatisiert ab und wird von der Software 
+vorgenommen. 
+• Kann der Sachbearbeiter für Menschen mit Behinderung ein Fach im unteren 
+Bereich des Ausweisterminals bereits bei der Antragstellung auswählen? 
+Ja. In einem solchen Fall kann der Sachbearbeiter über das Auswahlkriterium 
+„Eingeschränkte Mobilität“ ein geeignetes Fach reservieren. 
+• Beim Abschluss des Reservierungsvorgangs wird eine „Buchungsnummer“ 
+erzeugt. Wo wird diese später noch verwendet? 
+Die Buchungsnummer bzw. der damit verbundene und erzeugte Barcode dient dem 
+Mitarbeiter dazu, den Ausweis im Terminal zu hinterlegen (siehe auch beiliegende 
+Dokumentation 'Ausweisterminal Ablauf'). Darüber hinaus ist die Buchungsnummer 
+die eindeutige Kennung für den gesamten Prozessablauf. 
+• Ist generell die Ausstellung einer Vollmacht zur Abholung durch Dritte am 
+Ausweisterminal möglich? 
+ 
+Da der Abholprozess aus Sicherheitsgründen zwingend den Fingerabdruck des 
+Antragstellers als zweite Legitimationsstufe am Terminal vorsieht, ist eine Abholung 
+durch Dritte nicht möglich.  
+• Können die Dokumente im Nachhinein durch einen Bevollmächtigten abgeholt 
+werden (z.B. bei Verhinderung des Antragstellers)? 
+ 
+Nein. Hat der Bürger seinen Fingerabdruck bei Antragstellung hinterlegt, ist eine 
+Abholung durch Dritte nicht möglich. Grundsätzlich hat der Antragsteller jedoch die 
+Möglichkeit, die Abholfrist (z. Zt. 7 Tage) verstreichen zu lassen und sich den 
+Ausweis im Anschluss im Bürgerbüro persönlich abzuholen oder dann einen 
+Bevollmächtigten zu schicken.   
+
+ 
+ 
+ 
+Seite 37 
+ 
+  
+3.2 Fragen zur Befüllung 
+• Wie legitimieren sich die Mitarbeiter am Terminal?  
+ 
+Die Mitarbeiter legitimieren sich mit einer individuellen Transponderkarte. Bei der 
+Befüllung gilt das Vieraugenprinzip. Falls es gewünscht wird, kann aber die 
+Einstellung so angepasst werden, dass nur ein Mitarbeiter das Terminal befüllen 
+kann. 
+• Wie wird verhindert, dass Ausweise beim Befüllen verwechselt werden, d.h. in 
+das falsche Fach ein falscher Ausweis eingelegt wird?  
+ 
+Beim Scannen des Barcodes, der eineindeutig einem Ausweis zugeordnet ist, öffnet 
+sich das zugehörige Fach. Erst wenn der Ausweis im Fach hinterlegt und die Tür 
+ordnungsgemäß geschlossen wurde, ermöglicht das System eine weitere 
+Hinterlegung im Ausweisterminal. Eine Verwechslung ist somit nahezu 
+ausgeschlossen. 
+ 
+• Es befinden sich überlagerte Ausweise im Terminal. Muss der Mitarbeiter 
+vorher Listen ausdrucken oder sonstige Vorbereitungen treffen, um diese 
+Ausweise zu entnehmen?  
+ 
+Nein, es sind keine speziellen Vorbereitungen nötig. Der Mitarbeiter wird am 
+Terminal darauf hingewiesen, dass sich überlagerte Dokumente in den Fächern 
+befinden und kann diese, nachdem er sich legitimiert hat, entnehmen. 
+ 
+  
+
+ 
+ 
+ 
+Seite 38 
+ 
+  
+3.3 Fragen zur Abholung 
+• Wann und wie wird der Bürger darüber informiert, dass sein Ausweis zur 
+Abholung im Ausweisterminal hinterlegt wurde?  
+ 
+Sobald nach dem Einlegen des Ausweises die Fachtür wieder geschlossen wird, 
+sendet das Ausweisterminal eine Nachricht an den Bürger, dass sein Ausweis zur 
+Abholung bereit liegt. Ebenfalls übermittelt wird der Barcode bzw. Nummerncode 
+(erste Legitimationsstufe) zum Öffnen der Tür. 
+• Wird der Bürger auch daran erinnert seinen Ausweis abzuholen?  
+ 
+Ja. Der Bürger erhält Erinnerungsnachrichten.  
+• Was geschieht, wenn der Bürger seinen Ausweis nicht abholt?  
+ 
+Sobald der Mitarbeiter den Ausweis aus dem Ausweisterminal entnimmt, erhält der 
+Bürger eine automatisierte Nachricht mit der Information, dass sein Ausweis nicht 
+mehr im Terminal zur Abholung bereit liegt sowie eine Information über die 
+Öffnungszeiten des Bürgerbüros. 
+• Ist die Anzahl von Versuchen sich seinen Ausweis am Terminal abzuholen 
+begrenzt?  
+ 
+Nein. Die Anzahl an Versuchen ist nicht begrenzt. 
+• Ist es möglich, dass der Bürger versehentlich die Fachtür schließt, ohne vorher 
+seinen Ausweis entnommen zu haben?  
+ 
+Nein, in jedem Fach sind Sensoren verbaut, die registrieren ob sich noch etwas im 
+Fach befindet. Sollte dies der Fall sein, lässt sich die Tür im Abholprozess nicht 
+schließen. Der Bürger kann weiterhin seinen Ausweis entnehmen. 
+ 
+• Wie wird sichergestellt, dass niemand Unrat oder ähnliches in ein Fach legt und 
+dieses schließt.  
+ 
+Durch die in jedem Fach verbauten Sensoren kann kein Fach geschlossen werden, 
+in das durch unberechtigte Dritte etwas eingelegt wurde. 
+ 
+• Was passiert, wenn der Bürger das Fach nach Entnahme nicht wieder 
+verschließt?  
+ 
+Es ertönt ein Signalton und eine optische Anzeige 'Bitte Tür schließen' erscheint im 
+Display. Wird die Tür dennoch nicht geschlossen, so wird die Tür nach 60 Sekunden 
+deaktiviert und lässt sich nicht mehr schließen (Sicherheitskonzept). 
+  
+
+ 
+ 
+ 
+Seite 39 
+ 
+  
+• Werden die Mitarbeiter darüber informiert, wann ein Ausweis abgeholt wurde?  
+ 
+Sobald ein Ausweis abgeholt wurde, erhält das Bürgerbüro eine E-Mail. Darüber 
+hinaus werden alle Vorgänge im System protokolliert und können durch die 
+Mitarbeiter ausgewertet werden. 
+ 
+3.4 Weitere Fragen 
+• Woher weiß der Sachbearbeiter, wenn er vor dem Ausweisterminal steht, 
+welche Ausweise überlagert sind?  
+ 
+Bei der Anmeldung am Terminal und bevor neue Ausweise eingelegt werden, erfolgt 
+ein Hinweis am Bildschirm, dass noch überlagerte Ausweise im Terminal liegen. Der 
+Sachbearbeiter hat die Möglichkeit diese zu entnehmen, bevor er neue Ausweise 
+einlegt. Zudem kann er überlagerte Ausweise im Portal nachvollziehen. 
+• Der Bürger hat 7 Tage lang die Möglichkeit, sich seinen Ausweis abzuholen. 
+Kann die Stadt auch einen anderen Zeitraum bestimmen?  
+ 
+Dies ist möglich. Bei der Einrichtung der Software durch die Kern Mitarbeiter kann 
+dieser Zeitraum frei definiert werden. 
+• Welcher E-Mailverkehr findet zwischen dem Bürgerbüro und dem Bürger statt?  
+ 
+Während des gesamten Zeitraums ab Beantragung bis zur Abholung wird der Bürger 
+automatisiert über den aktuellen Stand informiert. Genaueres dazu siehe Teil 2. 
+ 
+ 
+ 
+  
+
+ 
+ 
+ 
+Seite 40 
+ 
+  
+ 
+-Anlagen- 
+ 
+ 
+1. Beispiele für die E-Mail-Benachrichtigungen an den Bürger 
+2. Einsatz von Benutzerkarten – Bitte beachten - 
+3. Tipps zum Fingerabdruck 
+4. Auftrag für die Befüllung bzw. Abholung des 
+Personalausweises/Reisepasses über das Ausgabeterminal (Beispiel) 
+5. Rückantwort PIN-Brief (§13 PAauswG) (Beispiel) 
+6. Reinigungs- und Pflegehinweise für das Ausweisterminal 
+7. Hotline für Störungsfälle 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+ 
+ 
+ 
+Seite 41 
+ 
+  
+1. Beispiele für die E-Mail-Benachrichtigungen an den Bürger 
+ 
+ 
+1.1 Registrierung 
+ 
+Logo Ihrer Stadt 
+Guten Tag, 
+vielen Dank, dass Sie sich für die Abholung Ihrer Dokumente an unserem 
+Ausweisterminal entschieden haben. 
+Ein Fach ist für Sie reserviert -Sie werden erneut benachrichtigt, sobald Ihre 
+Dokumente zur Abholung bereitliegen. 
+Mit freundlichen Grüßen 
+Ihr/Ihre Einwohnermeldeamt/Bürgerbüro/Ausländerbehörde (bitte auswählen) der 
+Stadt ... 
+ 
+1.2 Dokument eingelegt 
+ 
+Logo Ihrer Stadt 
+Guten Tag, 
+Ihre Dokumente liegen ab sofort in unserem Ausgabeterminal, in [TerminalName], 
+bereit. 
+Zur Abholung geben Sie am Terminal bitte Ihren persönlichen PIN-Code [Pin1] ein 
+und identifizieren sie sich durch das Scannen Ihres Fingerabdrucks. 
+Bitte beachten Sie, dass Ihre Dokumente maximal [7] Tage, also bis [Datum] zur 
+Abholung bereitliegen und danach nur noch während der Öffnungszeiten im 
+Einwohnermeldeamt abgeholt werden können. 
+Mit freundlichen Grüßen 
+Ihr/Ihre Einwohnermeldeamt/Bürgerbüro/Ausländerbehörde (bitte auswählen). der 
+Stadt ... 
+  
+
+ 
+ 
+ 
+Seite 42 
+ 
+  
+1.3 Abholung erfolgreich 
+ 
+Logo Ihrer Stadt 
+Guten Tag, 
+Sie haben Ihre Dokumente abgeholt – der Vorgang wurde erfolgreich abgeschlossen. 
+Vielen Dank für die Nutzung unseres Ausgabeterminals. 
+Mit freundlichen Grüßen 
+Ihr/Ihre Einwohnermeldeamt/Bürgerbüro/Ausländerbehörde (bitte auswählen). der 
+Stadt ... 
+1.4 Erinnerung 
+ 
+Logo Ihrer Stadt 
+Guten Tag, 
+Ihre Dokumente liegen noch immer in unserem Ausgabeterminal bereit. 
+Zur Abholung geben Sie am Terminal bitte Ihren persönlichen PIN-Code [Pin1] ein 
+und identifizieren Sie sich durch das Scannen Ihres Fingerabdrucks. 
+Die Abholung am Ausgabeterminal ist noch bis zum [Datum] möglich, danach nur 
+noch während der Öffnungszeiten im Einwohnermeldeamt. 
+Mit freundlichen Grüßen 
+Ihr/Ihre Einwohnermeldeamt/Bürgerbüro/Ausländerbehörde (bitte auswählen). der 
+Stadt ... 
+1.5 Abholfrist ist abgelaufen 
+ 
+Logo Ihrer Stadt 
+Guten Tag, 
+leider ist die Frist für die Abholung Ihrer Dokumente am Ausgabeterminal abgelaufen. 
+Sie können diese nun während der Öffnungszeiten im 
+[Einwohnermeldeamt/Bürgerbüro..] in der ...... Straße abholen. 
+Bei Rückfragen melden Sie sich bitte unter [Emailadresse] oder unter [Tel.-Nr.]. 
+Mit freundlichen Grüßen 
+Ihr/Ihre Einwohnermeldeamt/Bürgerbüro/Ausländerbehörde (bitte auswählen). der 
+Stadt ... 
+
+ 
+ 
+ 
+Seite 43 
+ 
+  
+1.6 Abholfrist verlängert 
+ 
+Logo Ihrer Stadt 
+Guten Tag, 
+die Abholfrist Ihrer Dokumente wurde verlängert. Sie liegen weiterhin in unserem 
+Ausgabeterminal für Sie bereit. 
+Zur Abholung geben Sie am Terminal bitte Ihren persönlichen PIN-Code [Pin1] ein 
+und identifizieren Sie sich durch das Scannen Ihres Fingerabdrucks. 
+Die Abholung am Ausgabeterminal ist noch bis zum [ExpiredDate] möglich, danach 
+nur noch während der Öffnungszeiten im Bürgerbüro. 
+Mit freundlichen Grüßen 
+Ihr/Ihre Einwohnermeldeamt/Bürgerbüro/Ausländerbehörde (bitte auswählen). der 
+Stadt ... 
+ 
+1.7 Vorgang storniert 
+ 
+ 
+Logo Ihrer Stadt 
+Guten Tag, 
+die Reservierung zur Abholung Ihrer Dokumente an unserem Ausgabeterminal wurde 
+storniert. 
+Bei Rückfragen oder falls die Stornierung nicht von Ihnen beauftragt wurde, melden 
+Sie sich bitte unter [Emailadresse] oder unter [Tel.-Nr.]. 
+Mit freundlichen Grüßen 
+Ihr/Ihre Einwohnermeldeamt/Bürgerbüro/Ausländerbehörde (bitte auswählen). der 
+Stadt ... 
+ 
+  
+  
+
+ 
+ 
+ 
+Seite 44 
+ 
+  
+2. Einsatz von Benutzerkarten  
+ 
+Kern Ausweisterminal |  
+Einsatz von Benutzer- und Admin-Karten 
+ 
+BITTE UNBEDINGT BEACHTEN! 
+ 
+BENUTZERKARTEN 
+▪ Die Benutzerkarten sind für die Mitarbeiter, die für das Befüllen bzw. Leeren des 
+Ausweisterminals verantwortlich sind. 
+ 
+▪ Die Vorgänge „Zurückholen“ und „Sperren“ müssen vorab entsprechend im Booking-
+Portal ausgeführt werden. Siehe hierzu Punkt 2.2.2 in der Bedienungsanleitung. 
+ 
+▪ Alle Vorgänge werden über den Server und die Software des Terminals abgebildet und 
+sind systemseitig somit immer nachvollziehbar (Historie). 
+ 
+▪ Die Karten dürfen nicht an Dritte weitergegeben werden und sind ausschließlich für die 
+definierte Nutzung des Terminals einzusetzen. 
+ 
+ADMIN-KARTE 
+ 
+▪ Ist nicht für die Nutzung im regulären Betrieb vorgesehen.  
+ 
+▪ Dient der Öffnung von Fächern in Sonderfällen oder zum Schließen von „offen 
+gelassenen Türen durch den Bürger bei der Abholung“. 
+ 
+▪ Dient dem Öffnen und Schließen von Türen bei Service-Einsätzen. 
+ 
+▪ Unbedingt beachten! Bei Sonderöffnungen darf auf keinen Fall ein befülltes Fach 
+entleert werden oder ein leeres Fach befüllt. 
+ 
+▪ Eine Entnahme von Dokumenten unter Einsatz der Admin-Karte erfordert zwingend eine 
+manuelle Änderung in der Datenbank. 
+ 
+ 
+  
+
+ 
+ 
+ 
+Seite 45 
+ 
+  
+ 
+3. Wichtige Tipps  
+ 
+3.1 Tipps zum Fingerabdruck 
+ 
+Bitte beachten Sie folgende Hinweise beim Scannen des Fingerabdrucks 
+• Bitte achten Sie auf saubere, trockene, nicht zu kalte Finger bevor Sie diesen auf den 
+Fingerprint Reader legen. 
+• Bitte legen Sie den Finger mit leichtem Druck flach und gerade auf den Reader. Wird 
+der Finger zu steil oder schräg gehalten, kann dies die Lesbarkeit beeinträchtigen, da 
+nicht der ganze Bereich vollständig gescannt werden kann 
+ 
+3.2 Tipps zu Dokumenten im Terminal 
+Bei einer Außeninstallation kann es durch die zwangsläufig auftretenden 
+Temperaturunterschiede zu einer Feuchtigkeitsbildung in den Fächern kommen Wir 
+empfehlen daher papierhafte Dokumente (z.B. Reisepässe) mit einer Klarsichtfolie o.ä. zu 
+schützen. 
+  
+
+ 
+ 
+ 
+Seite 46 
+ 
+  
+4. Auftrag für die Befüllung bzw. Abholung des 
+Personalausweises/Reisepasses über das Ausgabeterminal 
+(Beispiel) 
+ 
+Seite 1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+ 
+ 
+ 
+Seite 47 
+ 
+  
+Seite 2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+ 
+ 
+ 
+Seite 48 
+ 
+  
+5. Rückantwort PIN-Brief (§13 PAauswG) (Beispiel) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Einsatz von Benutzerkarten  
+ 
+ 
+ 
+ 
+ 

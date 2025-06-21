@@ -1,0 +1,1347 @@
+
+
+BIOMONITORING MIT
+Honigbienen und KI
+MODELLSTADT KARLSRUHE - BERICHT 19/20
+KARLSRUHE, 15.06.2021 
+Bild: Google
+
+INHALTS-
+VERZEICHNIS
+Projektvorstellung
+03
+04 Motivation und Ablauf
+07 Visuelles Monitoring
+11 Algorithmenentwicklung
+13 Veröffentlichungen
+Bienen in Karlsruhe
+15
+16 Honigbienenvorkommen nach Stadtteilen 
+18 Aktuelle Situation der Karlsruher Imkerei
+20 Analyse des Polleneintrags in der Oststadt
+22 Klimawandel, Bienen und Stadtbäume
+Ergebnisse des Monitoring
+23
+24 Datenbasis
+26 Grundlegende Muster
+28 Einflussfaktoren des Pollenangebots
+36 Regionale Entwicklungen
+SEITE | 02
+Anhang
+41
+41 Danksagungen
+42 Quellen
+
+Bienen in
+Karlsruhe
+PROJEKT-
+VORSTELLUNG
+Bild: Google
+
+Das Bienensterben und Insektensterben
+geht uns alle an! Was uns aber bisher
+gefehlt hat, ist eine belastbare Datenbasis
+über die Art und das Ausmaß in Karlsruhe,
+sodass wir in der Lage sind, passgenaue
+Gegenmaßnahmen zu ergreifen.
+In den vergangenen Jahrzehnten sind die
+Insektenvorkommen massiv zurückgegangen.
+Deutschlandweit sank ihre Anzahl gebietsweise
+um bis zu 75% [1]. Dass die bisherigen
+nationalen und internationalen Bemühungen
+am Rückgang der Artenvielfalt nichts ändern
+konnten, liegt insbesondere an erheblichen
+Wissenslücken. Bislang gab es noch keine
+Möglichkeit, systematisch und großflächig
+Daten darüber zu sammeln, wie sich
+Maßnahmen der Gestaltung von Flächen im
+Innen- und Außenbereich auf Insekten
+auswirken [2].
+Mit apic.ai möchten wir das durch den Einsatz
+neuer Technologien wie künstlicher Intelligenz
+(KI) und Edge Computing ändern. Mithilfe
+unserer Monitoringsysteme, KI-Algorithmen
+und der Honigbiene als Biosensor wollen wir
+eine belastbare Datengrundlage schaffen. Auf
+ihrer Basis sollen Probleme identifiziert und
+Verbesserungen umgesetzt werden können.
+Mit Unterstützung der Stadt Karlsruhe machen
+wir das Stadtgebiet in den Jahren 2019 und
+2020 zu einem Testfeld für die Erhebung und
+Auswertung dieser Daten. 
+Auf den folgenden Seiten stellen wir das
+Modellprojekt und die daraus hervorgegangen
+Daten und Erkenntnisse vor. 
+Ablauf
+Motivation und
+David Hermanns,
+SPD-Stadtrat 2019
+Bild: Google
+SEITE | 04
+
+Ohne eine Reihe von Unterstützer*innen wäre es nicht möglich, dem
+ambitionierte Ziel, die Gründe für das Insektensterben zu erforschen,
+nachzugehen. Das Vorhaben wurde neben der Stadt Karlsruhe durch
+die Unternehmen AUNOVIS, Baugenossenschaft Ardensia, Bee360,
+Stadtwerke Ettlingen, Cereda, Gebrüder Mende und IDS ermöglicht. 
+ Viele legten im Rahmen der Zusammenarbeit Wildblumenwiesen mit
+meist einheimischen Pflanzen auf ihren Geländen an und verstärkten
+ihr Engangement zum Schutz der lokalen Biodiversität. Daneben
+leistete die Hoepfner Stiftung einen bedeutenden Beitrag. Durch ihr
+Stipendium Latitude49 erhielt apic.ai ein Büro, eine Werkstatt,
+Mentoring, ein einjähriges bedingungsloses Grundeinkommen und
+Fördergelder für den Bau von Prototypen.
+ 
+Im öffentlichen Raum konnten zudem Daten am Karlsruher
+Bienenzüchterverein, im Zoologischen Stadtgarten und bei der
+katholischen Kirchengemeinde St. Cyriakus gesammelt werden.
+Bei der Gemeinschaft der Karlsruher Imker und auch in Öffentlichkeit
+und Politik stieß das Vorhaben auf großes Interesse.
+Bild: Christoph Müller
+Bild: Florian Kraft
+Bild: Philipp Hansert
+SEITE | 05
+Vielfältige Partnerschaften
+
+Produktion der 1.Generation witterungs-
+beständiger und energieautarker Prototypen
+Veröffentlichung der Ergebnisse einer Studie
+auf dem 14. Internationalen Symposium
+"Hazards of Pesticides to Bees" in Bern
+Januar - April '19
+Ausbringung von jeweils zwei Prototypen an
+knapp 20 Standorten und Beginn der
+flächendeckenden Datenaufzeichnung 2019
+März - Mai '19
+Mai - September '19
+Test der Technologie im Rahmen einer
+ökotoxikologischen Studie zur Erfassung der
+Effekte eines Neonicotinoids
+Juli - Oktober '20
+Auswertung der gesammelten Daten aus dem
+Jahr 2020 und Aufbereitung der Ergebnisse
+der Untersuchungen beider Jahre
+Oktober '19
+Entwicklung und Validierung von Algorithmen
+zur Pollenerkennung, Publikation auf der
+ökotoxikologischen Konferenz SETAC SciCon
+Januar - Juli '20
+Produktion und Installation der überarbeiteten,
+leistungsfähigeren 2. Prototypengeneration
+März - Mai '20
+November '20 - Juni '21
+Aufzeichnung von Foto- und Videodaten an
+Bienenstöcken im gesamten Stadtgebiet und
+Weiterentwicklung der Analyse-Algorithmen
+SEITE | 06
+Projektablauf 2019 und 2020
+
+VISUELLES
+MONITORING 
+Je Standort wurden zwei Bienenstöcke mit einem
+Prototyp des kamerabasierten Monitoringsystems
+ausgestattet. Sie befanden sich bei Privatimkern
+und öffentlichen Einrichtungen, aber auch
+teilweise auf den Betriebsgeländen lokaler
+Unternehmen, die sich aktiv für das Vorhaben
+einsetzten.
+Unter Berücksichtigung der verschiedenen
+Naturräume im Stadtgebiet wurden Standorte in
+der Rheinaue (Jüngere und Ältere Rheinaue), in der
+Hardtebene (Niederterrasse, Kinzig-Murg-Rinne,
+Albniederung) und in den Bergdörfern gewählt.
+Im Jahr 2020 wurde die Anzahl der Standorte zur
+Reduktion des Abstimmungs- und
+Wartungsaufwands auf zwölf reduziert. Durch die
+Unterstützung von Unternehmen kamen
+Messpunkte in Lindau und im Schwarzwald hinzu.
+Im Jahr 2019 wurde die Infrastruktur zur
+Erhebung der Lebensbedingungen von
+Honigbienen und weiteren Bestäuberinsekten
+in verschiedenen Bereichen der Stadt
+Karlsruhe aufgesetzt. Dank zahlreicher
+engagierter Inker*innen konnte ein Netzwerk
+von 17 über die Region verteilten Standorten
+und einem Standort für Feldversuche in
+Bretten aufgebaut werden.
+Bild: Florian Kraft
+SEITE | 07
+Hardware Infrastruktur
+Ablauf
+
+Die visuellen Monitoringsysteme werden am
+Eingang von Bienenstöcken installiert. Alle
+Bienen, die den Stock betreten oder verlassen,
+passieren das Sichtfeld der Kamera. Diese
+macht in regelmäßigen Zeitabschnitten Bilder.
+Ein integrierter Mikrocomputer, der über das
+Mobilfunknetz Verbindung zum Internet hat,
+sendet die Bilder an einen Server. Dort werden
+sie zunächst gespeichert und anschließend mit
+Algorithmen analysiert.
+Durch die Internetverbindung ist es außerdem
+möglich, aus der Ferne auf die Systeme
+zuzugreifen, um zum Beispiel die Software
+darauf zu aktualisieren. Zudem können auf
+einem Dashboard Bilder aus den
+Bienenstöcken und Standortdaten zu
+Temperatur, Windgeschwindigkeit und
+Witterung angezeigt werden. An Standorten
+ohne Anschluss ans Stromnetz werden die
+Systeme durch Solarpanele betrieben.
+Damit die Algorithmen lernen die Bienen
+selbstständig zu erkennen, müssen sie
+zunächst trainiert werden. Dies geschieht
+durch die manuelle Annotation auf vielen
+Beispielbildern. Zum Training werden
+Neuronalen Netzen sehr viele annotierte Bilder
+von Bienen und Pollen gezeigt, bis sie lernen
+sie selbstständig zu erkennen. Gut instruierte,
+engagierte Karlsruherinnen und Karlsruher
+unterstützten bei der Annotation.  
+Bild: Google
+SEITE | 08
+Erhebung der Bienenbilder
+
+Bei der Auswertung wird analysiert, wie viele Bienen
+sich auf den Bildern befinden. Die Anzahl der
+Bienen im Bild im Tagesverlauf wird als Maß für die
+Aktivität der Völker genutzt. 
+Die auf den Bildern erkannten Bienen können in
+einem weiteren Verarbeitungsschritt auf bestimmte
+Merkmale hin untersucht werden, z.B.  auf sog.
+Pollenhöschen an ihren Hinterbeinen. Der auf
+diesem Wege messbare quantitative Eintrag von
+Blütenpollen dient als Maß für die
+Bestäubungsaktivität und als Indikator für die
+Futterverfügbarkeit. Bei einem temporären Engpass
+spricht man von einer Trachtlücke. Die Feststellung
+von Trachtlücken könnte als Basis für gezielte
+Pflanzungen oder Bewässerungen dienen, um das
+Nahrungsangebot für Bestäuber während der
+gesamten Saison zu sichern. Trachtlücken sind
+insbesondere für Wildbienen und andere nicht
+ganzjährig aktive Bestäuber ein Risiko, da diese
+nicht wie Honigbienen große Futtervorräte anlegen
+und als Spezialisten teilweise vom Vorkommen
+bestimmter Trachtpflanzen abhängig sind. 
+Ab 2021 werden durch apic.ai wissenschaftliche
+Versuche dazu durchgeführt, anhand der Vielfalt
+der Pollenhöschen-Farben auf die Diversität der
+lokalen Flora zu schließen. Als Teststand dient
+auch an mindestens einem der Karlsruher
+Messpunkte. Gefördert wird das
+Forschungsvorhaben im Rahmen eines vom
+Bundesministerium für Ernährung und
+Landwirtschaft geförderten Projektes u.a. mit
+den Karlsruher Partnern FZI Forschungszentrum
+Informatik und Disy Informationssysteme.
+SEITE | 09
+Auswertung der Bienenbilder
+
+Eines der großen Ziele von apic.ai ist die Erfassung von Bienenverlusten, also der Bestimmung des Anteils
+der Bienen, die nach dem Verlassen des Stocks nicht zurückkehren. Dies erfordert eine kontinuierliche
+Erfassung aller Tiere. Die dafür erforderliche Menge an Bildmaterial ist zu groß, um über das Mobilfunknetz
+übertragen zu werden. Eine lokale Auswertung der Bilder auf den Systemen selbst wäre eine Lösung. Im Jahr
+2020 wurde ein Hardwarebeschleuniger der neuesten Generation in die Systeme eingebaut, um die
+Realisierbarkeit der Zielsetzung zu testen. Die Leistung reichte jedoch nicht aus. Darum wurde an drei
+Standorten Videomaterial zur Auswertung im Rahmen von zukünftigen Forschungsprojekten mit
+Cloudressourcen aufgezeichnet.
+SEITE | 10
+Erfahrungen und Anpassungen
+Auf Basis der Erfahrungen der Imker im  Jahr 2019
+wurden die Prototypen für das Jahr 2020
+hardwareseitig weiterentwickelt. Um "Stau" zu
+vermeiden und die visuelle Auswertung der Bilder
+zu erleichtern, wurde der Eingangsbereich
+vergrößert. Weiterhin wurde aufgrund der
+Bedenken einzelner Imker hinsichtlich einer
+Beeinträchtigung der Bienen durch Mobilfunkwellen
+die zuvor integrierte Mobilfunkeinheit außerhalb
+des Systems verlegt. 
+Eine Herausforderung stellte die zum Teil schlechte
+Internetverfügbarkeit dar. Sie hatte zur Folge, dass
+Updates der Systeme nur vor Ort, statt wie geplant
+aus der Ferne durchgeführt werden konnten.
+Bild: Google
+Bild: Google
+
+Die im Jahr 2019 für die Bienenerkennung entwickelten Algorithmen wurden im Rahmen einer
+ökotoxikologischen Feldstudie in der Nähe von Bretten validiert. Durch die Gestaltung des Studienaufbaus
+war es zudem möglich zu testen, ob das bienenbasierte Monitoring geeignet ist den Einfluss von
+Pflanzenschutzmitteln zu messen. Dafür wurden in einer sog. Oomen Fütterungsstudie acht Honigbienen-
+völker zu gleichen Teilen in eine Testgruppe und eine Kontrollgruppe aufgeteilt. Die Testgruppe wurde über
+den Zeitraum von zehn Tagen einer nicht tödlichen Dosis des in der EU bereits verbotenen Neonicotinoids
+Imidacloprid ausgesetzt, die Kontrollgruppe nicht. Anschließend wurden die Auswirkungen auf Aktivität und
+der Polleneintrag verglichen. Ziel des Versuchs war herauszufinden, ob die apic.ai Technologie schädliche
+Effekte messbar machen kann, die mit bestehenden Methoden nicht sichtbar sind. Bei Neonicotinoiden
+handelt es sich um die Wirkstoffgruppe, welche schon seit Mitte der 2000er Jahre in Verdacht steht am
+Insektensterben mit verantwortlich zu sein und aus welcher in den letzten Jahren bereits mehrere
+Wirkstoffe EU-weit auf Grund des Nachweises der Bienentoxizität verboten wurden.
+In Summe wurden bei dem Pilotversuch 14,4 Terrabyte Videomaterial aufgezeichnet und ausgewertet. Es
+konnte gemessen werden, dass die Aktivität der Testgruppe im Vergleich zur Kontrollgruppe im
+Kontaktzeitraum (grau hinterlegt) deutlich zurückging. [3] Die Ergebnisse wurden auf dem 14.
+Internationalen Symposium: Hazards of Pesticides to Bees der International Commission of Plant Pollinator
+Relationships in Bern vorgestellt. 
+Algorithmenentwicklung
+SEITE | 11
+Durchschnittliche Aktivität der Testgruppe, bestehend aus vier Völkern. [4]
+Durchschnittliche Aktivität der Kontrollgruppe, bestehend aus vier Völkern. [4]
+Bienen pro Stunde
+Einflüge
+Ausflüge
+Bienen pro Stunde
+Einflüge
+Ausflüge
+Zeitraum
+Zeitraum
+Bienenaktivität
+
+Die gleichen Daten, die zuvor für die Bestimmung von Aktivitätsänderungen genutzt worden waren, wurden
+auch ausgewertet, um die Algorithmen zur Pollendetektion zu validieren. Der Polleneintrag ist ein Indikator
+für die Intensität der Bestäubungsaktivität und für die Volksentwicklung (Nahrungsquelle für Bienenlarven).
+Es konnte festgestellt werden, dass durch den Einfluss des Neonicotinoids Imidacloprid sowohl der
+Polleneintrag in Summe zurückging (links) als auch der relative Anteil der Pollensammlerinnen unter allen
+Bienen, die die Stöcke betraten. Der Effekt trat nur während des Expositionszeitraumes auf, eine
+Langzeitwirkung war nicht erkennbar. [3]
+Testgruppe
+Legende
+Kontrollgruppe
+Schattiert: 95. Perzentil
+Täglich eingetragener Pollen (Summe)
+Polleintrag während und nach
+der Exposition in Summe. [3]
+Anteil der Pollensammlerinnen
+während und nach der Exposition. [3]
+Eingetragener Pollen (Summe)
+Polleintrag während der
+Expositions in Summe. [3]
+Anteil der Pollensammlerinnen
+während der Exposition. [3]
+Anteil Pollensammlerinnen
+Anteil Pollensammlerinnen
+ZeitraumKontrollgr.Testgr.
+ZeitraumKontrollgr.Testgr.
+SEITE | 12
+Polleneintrag
+
+Veröffentlichungen
+Veröffentlichungen im Bereich Ökotoxikologie
+Tausch, F.; Diehl, M.; Schmidt, K. (2020). Current achievement and future developments of a novel AI based
+visual monitoring of beehives in ecotoxicology and for a monitoring of landscape structures. Proceedings of
+the 14th International Symposium Hazards of Pesticides to Bees. 2019.
+Gonsior, G.; Tausch, F.J. et. al. (2020). Impact of imidacloprid on honey bee activity during feeding in an
+Oomen study. Proceedings of the 14th International Symposium Hazards of Pesticides to Bees. 2019.
+Knaebe, S; Tausch, F.; Schmidt, K.; Gonsior, G. (2020). A feeding experiment with a sublethal neonicotinoid
+dosage: Effects observed with traditional assessment methods and a novel AI supported bee counter. 
+ SETAC Europe 30th Annual Meeting Open Science for Enhanced Environmental Protection. .
+Tausch, F.; Schmidt, K.; Diehl, M. (2020). Quantification of pollen intake as a behavioral endpoint for foraging
+activity in ecotoxicological risk assessment. SETAC Europe 30th Annual Meeting Open Science for Enhanced
+Environmental Protection.
+Veröffentlichungen im Bereich Maschinelles Lernen
+Marstaller, J.; Tausch, F.; Stock, S. (2019). DeepBees – Building and Scaling Convolutional Neuronal Nets For
+Fast and Large-scale Visual Monitoring of Bee Hives. Proceedings of the IEEE International Conference on
+Computer Vision Workshops. 
+Tausch, F.; Stock, S; Fricke, J.; Klein, O. (2020). Bumblebee Re-Identification Dataset. The IEEE Winter
+Conference on Applications of Computer Vision (WACV) Workshops, 2020, pp. 35-37.
+Auf Konferenzen in Bern (Schweiz) und Seoul
+(Südkorea) sowie coronabedingt im virtuellen Raum
+konnten Forschungsergebnisse präsentiert werden. Es
+folgt eine kurze Übersicht über alle Publikationen aus
+den Jahren 2019 und 2020. Die u.a. durch die
+Erfahrungen mit dem Monitoring der Stadt Karlsruhe
+eruierten Ergebnisse werden auf den beiden folgenden
+Seiten vorgestellt.
+SEITE | 13
+Wissenschaftliche Publikationen
+
+Ekart Kinkel, techtag.de
+     Bienen sollen Daten zum Kampf gegen das Bienensterben liefern.
+Klingt verrückt, ist aber die Geschäftsidee des Karlsruher Startups apic.ai.
+Mehr als 1,5 Millionen Aufrufe eines Videobeitrags über apic.ai von Google
+Auszeichnung beim Gründerwettbewerb Digitale Innovationen des Bundesministeriums für Wirtschaft
+und Energie.
+Zahlreiche Fachgespräche bei Messen und Konferenzen sowohl im Bereich der Entomologie als auch des
+Maschinellen Lernens.
+Besuche verschiedener Parteien, Unternehmen, Forschungseinrichtungen und der EU-Kommission.
+Zahlreiche Zeitungsartikel, TV-Beiträge, Radiosendungen und weitere Beiträge in Online-Blogs etc.
+Erfolgreiche Förderanträge für teils konsortiale Forschungsprojekte von BMEL und BMBF.
+Highlights der Jahre 2019 und 2020, die das regionale, nationale und internationale Interesse an apic.ai und
+dem Forschungsansatz zeigen, sind:
+https://www.youtube.com/watch?v=sgCGHBek1To.
+Bild: Google
+Bild: Cyberforum
+SEITE | 14
+Öffentliche Berichterstattung
+
+BIENEN
+IN KARLSRUHE
+Im folgenden Abschnitt wird einen Überblick über die Zahlen, Daten und Fakten zu Honigbienen und
+Imkerei in Karlsruhe geschaffen. Die Daten basieren auf einer Mitgliedererhebung des Bienenzüchter-
+vereins Karlsruhe e.V. und Daten des Veterinäramts Karlsruhe, welche apic.ai zur Verfügung gestellt
+wurden, sowie auf einer von apic.ai durchgeführten Umfrage unter den Karlsruher Imker*innen. Diese
+manuell erhobenen Daten dienen als Realitätsabgleich der bisher einzigartigen Methode.
+Bild: Google
+
+Honigbienenvorkommen nach 
+STADTTEILEN
+In vom Veterinäramt bereitgestellten Daten [5] wird sichtbar, dass die Dichte der insgesamt 1.939 im Jahr
+2020 im Stadtgebiet Karlsruhe angesiedelten Bienenvölker variiert. Die Karte bildet die Anzahl der
+Bienenstöcke pro km² in den verschiedenen Postleitzahlengebieten innerhalb Karlsruhe ab. Dabei fällt auf,
+dass in Grötzingen, Daxlanden und Knielingen in Relation zur Fläche weniger Bienenstöcke bewirtschaftet
+werden. In der Waldstadt, Bulach und Beiertheim werden die meisten Bienenvölker gehalten.
+SEITE | 16
+INSGESAMT
+1 . 9 3 9
+BIENENSTÖCKE
+IN 2020
+DURCHSCHNITTLICH 
+3 4
+AKTIVE IMKER PRO
+KARLSRUHER
+POSTLEITZAHL
+CIRCA
+7 0
+HONIGBIENEN
+PRO
+EINWOHNER
+Anzahl gemeldeter Bienenstöcke pro km² in den verschiednenen Postleitzahlgebieten.
+5,11
+10,76
+21,67
+9,34
+17,2
+23,02
+14,12
+25,83
+10,44
+7,41
+8,11
+17,16
+7,58
+
+ geeigneten Nistmöglichkeiten. 
+Das Thema einer möglichen Nahrungskonkurrenz von Honig- und 
+Wildbienen wurde im Rahmen der vorliegenden Studie nicht 
+untersucht. Da speziell im Jahr 2019 jedoch sehr geringe Honigerträge
+gemessen wurden und dies auf temporäre Nahrungsengpässe 
+schließen lässt, wird das Thema dennoch adressiert. Leider gibt es 
+nur eine übersichtliche Zahl wissenschaftlicher Veröffentlichungen, es 
+liegen jedoch je eine Stellungnahme von der Deutschen Wildtierstiftung 
+und der Arbeitsgemeinschaft der Institute für Bienenforschung vor. Im Folgenden wird eine kurze
+Zusammenfassung gegeben. Für genauere Einblicke empfiehlt es sich jedoch die Papiere direkt zu
+studieren.
+Die Deutsche Wildtierstiftung stellt die Befürchtungen wie folgt dar: Honigbienenvölker umfassen bis zu
+50.000 Tiere und haben einen hohen Bedarf an Nektar und Pollen. Der Name der Honigbiene begründet
+sich auf ihrer Eigenschaft, Nektar in Form von Honig als Nahrungsvorrat anzulegen. Das macht sie weniger
+anfällig gegenüber temporären Nahrungsengpässen. Zudem ist sie polylektisch, das bedeutet, sie kann sich
+von einer Vielzahl von Pflanzen ernähren. Sie fliegt bei der Nahrungssuche mehrere Kilometer weit. Bei den
+meisten Wildbienen verhält es sich anders. Da sie keine Vorräte anlegen, können sie in Folge temporärer
+Nahrungsengpässe in Not geraten, hungern oder weniger Nachkommen hervorbringen. Zudem sind viele
+Wildbienen auf wenige bis einzelne Futterpflanzen spezialisiert und sammeln nur im Umkreis von ca. 1 km
+Nahrung. Wenn nicht ausreichend viel Nahrung zur Verfügung steht, könnte folglich eine
+Konkurrenzsituation entstehen. [6]
+Die AG der Institute für Bienenforschung kommt zu dem Schluss, dass die Gegenwart von Honigbienen,
+zumindest in ihrem angestammten Verbreitungsgebiet, keine Gefahr für das Vorkommen von Honigbienen
+darstellt. Nachgewiesenermaßen bedrohlich für Wildbienen seien jedoch der Verlust von Lebensraum durch
+Habitatzerstörung und -fragmentierung, die Überdüngung von Magerstandorten, der Klimawandel und
+diverse Pflanzenschutzmittel. Überdies wird die Befürchtung geäußert, dass durch einen Diskurs zwischen
+Bienenhaltern und Naturschützern die besagten eigentlichen Gefahren aus dem Fokus geraten. [7] 
+Darüber, inwiefern die auf der vorherigen Seite beschriebene
+ Dichte von Honigbienenvölkern in Karlsruhe eine 
+Konkurrenzsituation provozieren könnte, lässt sich hier
+ keine Aussage treffen. Beide Stellungnahmen sind sich
+ jedoch darüber einig, dass die beste Gegenmaßnahme eine 
+Verbesserung der lokalen Bestäuberfauna ist, z.B. durch die 
+Erhöhung des Blütenangebotes und die Schaffung von
+SEITE | 17
+Konkurrenz zwischen Honig- und Wildbienen?
+
+Aktuelle Situation der Karlsruher
+IMKEREI 
+Von den 365 Mitglieder des Bienenzüchtervereins
+Karlsruhe e.V. sind 68 % erst in den vergangenen
+sechs Jahren beigetreten. Dies zeigt das steigende
+Interesse der Bevölkerung am Insektenschutz. [8]
+Bei einer Umfrage von apic.ai beteiligten sich 24
+Imker aller Stadtteile, die im Jahr 2020 insgesamt
+110 Völker betreuten.  
+Bezogen auf die Honigernte war 2019 ein sehr
+schlechtes und 2020 ein sehr gutes Jahr. Die
+Umfrage unter den Imkern des
+Bienenzüchtervereins Karlsruhe (siehe oberes Bild)
+ergab dabei eine ähnliche Tendenz wie eine
+Befragung des Fachzentrums Bienen und Imkerei in
+Mayen (siehe nächste Seite). Die schlechten Erträge
+2019 waren nicht auf Karlsruhe beschränkt, sondern
+in ganz Baden-Württemberg zu beobachten [9] [10].
+Eine Übersicht über die möglicherweise
+verantwortlichen Witterungs- faktoren findet sich
+auf der folgenden Seite.
+Wie das Veterinäramt mitteilte, wurde im Jahr 2019
+kein Fall Amerikanischer Faulbrut gemeldet. Aus der
+Befragung der Karlsruher Imkerinnen und Imker 
+ gingen einzelne Fälle von Schwarzsucht und
+mutmaßlich Bienenparalysevirus hervor, was jedoch
+nicht ungewöhnlich ist [5].
+ Umfrageergebnis: Honigertrag pro Bienenstock in kg
+von 2016 bis 2020. Quelle: Eigene Umfrage.
+2
+1
+2
+1
+3
+2
+2
+1
+2
+1
+1
+1
+1
+1
+1
+1
+1
+ Umfrageergebnis: Verteilung der Beantwortungen auf die
+einzelnen Postleitzahlengebiete
+IM JAHR 2020
+3 6 5 
+MITGLIEDER IM
+VEREIN
+CIRCA
+4 0   %
+SIND JÜNGER
+ALS 50 JAHRE
+KNAPP
+3 0   %
+DER MITGLIEGER
+SIND WEIBLICH
+SEITE | 18
+
+Hohe Honigerträge lassen auf ein großes Nektarangebot schließen, geringe könnten ein Zeichen für
+temporäre Nahrungsengpässe sein. Um solche Zeiträume im Projektverlauf zu identifizieren, wurden die
+Ertragszahlen untersucht. Grob lassen sich die Monate April und Mai der Frühtracht und die Monate Juni
+und Juli der Sommertracht zuordnen. Laut einer Befragung von Karlsruher Imkern durch das Fachzentrum
+Bienen und Imkerei in Mayen lag die Frühtrachternte im Jahr 2020 in Karlsruhe mit 16,7 kg im Vergleich zu
+3,8 kg im Vorjahr deutlich höher. Auch die Sommertracht war mit 24,3 kg höher als die 12,1 kg im Jahr 2019.
+Die abgefragten Werte umfassen auch potenzielle Honigerträge von Imkern, die keinen Honig ernten. Eine
+vergleichende Gegenüberstellung der Witterungsbedingungen lässt folgende Vermutungen zu, die jedoch
+mit Daten von mehr Jahren bestätigt werden müssten:
+SEITE | 19
+FRÜHTRACHT
+2017
+AprilMai
+Mittlere Temperatur (°C)
+Min. Temperatur (°C)
+Max. Temperatur (°C)
+Sonnenstunden (h)
+Niederschlag (l/m²)
+201820192020
+9,616,2
+AprilAprilAprilMaiMaiMai
+Honigertrag (kg)
+14,016,910,812,512,614,4
+-3,4
+25,3
+208,8
+19,864,0
+245,8
+1,1
+33,2
+-0,72,6
+28,729,6
+-0,6-0,5
+26,625,525,127,0
+-0,3-4,2
+241,0256,2172,4215,8309,4273,2
+46,15,6106,038,571,929,5
+19,111,53,816,7
+ Übersicht Frühtrachterträge und Witterungsfaktoren [14], [15], [16], [9], [11].
+SOMMERTRACHT
+2017
+JuniJuli
+Mittlere Temperatur (°C)
+Min. Temperatur (°C)
+Max. Temperatur (°C)
+Sonnenstunden (h)
+Niederschlag (l/m²)
+201820192020
+20,420,9
+JuniJuniJuniJuliJuliJuli
+Honigertrag (kg)
+20,022,520,921,318,421,0
+6,4
+34,7
+281,9
+71,5102,8
+220,5
+10,4
+34,7
+6,110,7
+31,836,0
+7,06,9
+37,339,230,336,7
+7,78,7
+257,6322,3307,1301,9203,3313,1
+17,473,050,851,453,648,0
+15,816,110,023,3
+Übersicht Sommertrachterträge und Witterungsfaktoren [14], [18], [19], [13], [12].
+Ein kaltes und nasses Frühjahr mit wenig Sonnenstunden scheint sich negativ auszuwirken. Viele
+Sonnenstunden mit Niederschlägen zwischen 40 und 70 l/m² im Mai scheinen sich günstig auszuwirken. 
+Große Hitze über 37 °C scheint sich negativ auf den Nektareintrag auszuwirken. In Jahren mit
+Niederschlägen über 70 l/m² im Juni  wurden höhere Sommertrachternten erreicht. Niederschlagsmengen
+im Juli scheinen schienen in den betrachteten Jahren keinen Einfluss zu haben.
+Einflussfaktoren des Nektarangebots
+
+Analyse des Polleneintrags in der
+OSTSTADT
+5% Ahorn
+33% Rosskastanie
+22% Steinobst
+5% Mahonie
+03.03 - 01.04.2019
+11% Bingelkraut
+40% Rosskastanie
+22% Eiche
+6% Ahorn
+19.04 - 30.04.2019
+12% Mohn
+30% Edelkastanie
+Himbeer
+14% Brombeer/
+5% Fingerkraut
+9% Rose
+      gewächse
+8% Nachtschatten-
+10.06 - 19.06.2019
+Von welchen Pflanzen die Bienen am meisten Pollen sammelten, kann der Grafik entnommen werden.
+Neben diesen Haupttrachtquellen gab es in jedem Zeitraum noch 17-20 Pflanzen bzw. Pflanzengattungen,
+die weniger als fünf Prozent des Polleneintrags ausmachten, sowie einen Teil, der nicht eindeutig
+zugeordnet werden konnte. Die Vielfalt des Pflanzenangebotes in der Oststadt ist entsprechend als sehr
+hoch einzuschätzen. Dies ist möglicherweise auch durch die Nähe zum botanischen Garten des Karlsruher
+Instituts für Technologie bedingt. [23]
+Für die Oststadt wurde noch eine genauere Betrachtung des Nahrungsangebotes der Bienen
+vorgenommen. Im Jahr 2019 beteiligte sich apic.ai am Forschungsprojekt Pollensammeln in Baden-
+Württemberg der Landesanstalt für Bienenkunde an der Universität Hohenheim (finanziert durch das
+Ministerium für Ländlichen Raum und Verbraucherschutz Baden-Württemberg). In diesem Rahmen wurde in
+drei Zeiträumen von je sieben bis 14 Tagen auf dem Hoepfner Gelände in der Karlsruher Oststadt der von
+einem Honigbienenvolk eingetragene Pollen gesammelt und zur Untersuchung in ein Labor geschickt. Bei
+der mikroskopischen Pollenanalyse wurde die Zusammensetzung des Pollens in Bezug auf die Pflanzen
+analysiert, von denen er gesammelt wurde und auf Rückstände untersucht. 
+Die große Bedeutung der Rosskastanie könnte zukünftig zumindest in der Oststadt ein Problem darstellen,
+da diese besonders stark unter der Trockenkeit leidet [24]. Um die Entwicklung der Tracht einzelner
+Pflanzenarten besser verstehen zu können und die Vielfalt der lokalen Flora ganzjährig zu untersuchen, ist
+weitere Forschung notwendig. Ziel von apic.ai ist es, die Pflanzenvielfalt zukünftig durch eine KI-gestützte
+Bildanalyse der Farben der Pollen automatisiert zu erfassen, mit denen die Bienen den Stock betreten. 
+SEITE | 2O
+Ergebnisse der Pollenanalyse eines Bienenvolkes in der Oststadt zu drei Zeiträumen [23].
+
+Borretsch und der gewöhnliche Wasserdost dafür bekannt PA zu produzieren. PA können durch beständige
+Aufnahme im Körper Leberschädigungen auslösen und stehen im Verdacht krebserregend zu sein. Somit
+stellen sie ein potenzielles Gesundheitsrisiko für den Menschen dar. Basierend auf der von der
+Europäischen Lebensmittelsicherheitsbehörde angegebenen Tagesdosis für Pyrrolizidinalkaloide (0.024 μg
+pro kg Körpergewicht) wäre der ab Juli im Jahr 2019 in der Oststadt gesammelte Pollen nicht zum Verzehr
+geeignet gewesen [26]. Vor dem Verzehr größerer Mengen von gesammeltem Pollen oder bei
+Verkaufsvorhaben sollte dies im Vorfeld abgeklärt werden. 
+Weiterhin wurden die Pollenproben auf Rückstände von zwölf Insektiziden, 31 Fungiziden, 9 Herbiziden und
+einem Pflanzenregulator getestet. Fast alle Proben wiesen keine messbaren Rückstände auf. Lediglich im
+dritten Testzeitraum (10.-19. Juni 2019) wurden Rückstände des Fungizids Bitertanol gefunden, welches im
+Obst- und Gemüsebau Anwendung findet. Die Konzentration der Rückstände lag jedoch unter < 10 μg/kg,
+was für Bienenprodukte als unkritisch betrachtet wird [23].
+Bei einer vierten analysierten Pollenprobe aus dem Juli wurde eine sehr hohe Belastung mit
+Pyrrolizidinalkaloiden von > 1.000 μg/kg festgestellt. Pyrrolizidinalkaloide (PA) sind eine Gruppe sekundärer
+Pflanzenstoffe, die von ca. 3% der blühenden Pflanzen weltweit zum Schutz vor Fraßfeinden gebildet
+werden. Zu den Hauptquellen der PA gehören Pflanzen der Korbblütler, Raubblattgewächse und
+Hülsenfrüchtler. In Deutschland sind hauptsächlich Pflanzen wie das Jakobskreuzkraut, der Natternkopf, der
+Um die Machbarkeit dieses Unterfangens zu prüfen, wurde die Pollenprobe aus dem Juni, vor der
+Laboranalyse händisch nach Farben sortiert (linkes Bild). Die farbliche Zusammensetzung (mittleres Bild)
+entsprach in etwa der Zusammensetzung der Ergebnisse der Laboranalyse. Heraus sticht auch hier der
+große Anteil von Kastanienpollen mit dunkelroter Färbung. Eine maschinelle Bildanalyse einer unsortierten
+Pollenprobe (rechtes Bild) wies vielversprechende Ergebnisse auf. Diese sollen im Rahmen eines vom BMEL
+geförderten Forschungsprojektes ab Juni 2021 fortgeführt werden.
+Bienen sind blütenstet, das bedeutet, sie fliegen bei jedem Sammelflug von Blüte zu Blüte nur Pflanzen einer
+Art an. Da sich die Pollen dieser Pflanzen farblich unterscheiden kann die Vielfalt der Farben als Indikator
+der lokalen, saisonalen Diversität genutzt werden. 
+SEITE | 21
+
+Bäume stellen einen Großteil des Nahrungsangebotes der Bestäuberinsekten im urbanen Bereich zur
+Verfügung. 150.000 der Bäume der Stadt sind vom Gartenbauamt erfasst, hinzu kommen 6.000
+Streuobstbäume des Liegenschaftsamtes. Diese kartierten Pflanzen wurden nachfolgend untersucht. Die
+Abbildung zeigt einige der laut Kartierung häufigsten Trachtpflanzen in Karlsruhe. Die Blühzeiträume [20]
+sind angegeben, um aufzuzeigen in welchen Monaten sie den Bestäubern Nahrung anbieten. Die Angaben
+zum Nektar- und Pollenindex, der die Bedeutung für Bestäuber angibt, stammen von der Bayerischen
+Landesanstalt für Weinbau und Gartenbau [21]. Die Trockentoleranz basiert auf den Angaben des Bunds
+deutscher Baumschulen e.V. [22]. Wie der Grafik entnommen werden kann, könnten durch zunehmende
+Trockenheit im Rahmen des Klimawandels die Bestände einiger der wichtigsten Stadt- und Obstbäume
+gefährdet werden. Zudem zeigt sich, dass ein Großteil der Stadtbäume im Frühjahr blüht und ab Juni kaum
+noch Tracht anbieten. Am stärksten bedroht sind die über 2.500 Berg-Ahornbäume aber auch für Apfel- und
+Birnbäume und Winter-Linden ist die Trockenheit problematisch. Die Investition in die Pflege und
+Bewässerung der Stadtbäume trägt damit direkt zur Förderung der Bestäuberinsekten bei. 
+KLIMAWANDEL, BIENEN UND
+STADTBÄUME
+SEITE | 22
+Übersicht über die häufigsten Trachtbäume der Stadt Karlsruhe, ihren Bedeutung für die Bienen, ihre
+Blütezeiträume und ihre Trockenheitstolenanz. [20], [21], [22].
+
+ERGEBNISSE DES
+MONITORING
+Auf den folgenden Seiten werden die im Jahr 2019 und 2020 mithilfe der Monitoringsysteme
+aufgezeichneten Daten vorgestellt und Hypothesen zu ihrer Interpretation aufgestellt. Die Auswertung
+der Videoaufnahmen an drei Standtorten im Jahr 2020, wird aufgrund der hohen Kosten der
+Datenauswertung mittels Cloudressourcen erst im Rahmen künftiger Forschungsprojekte möglich sein.
+Bild: Google
+
+Insgesamt wurde in den Jahren 2019 und 2020 eine halbe Million Bilder gesammelt. Für die Auswertung
+wurden diese gefiltert. Die Daten einzelner Völker gingen nur in die Betrachtung mit ein, wenn pro Tag
+zwischen Sonnenaufgang und Sonnenuntergang deutscher Zeit mindestens 28 Bilder gesendet wurden. So
+soll eine Verfälschung der Aussagekraft vermieden werden. Wenn z.B. ein System nur ein einziges Bild pro
+Tag sendet und auf diesem gerade viel oder kein Pollen zu sehen ist, so ist dies eher dem Zufall geschuldet
+und lässt keine Aussage über den tatsächlichen Polleneintrag zu. Weiterhin wurden die Nachtwerte
+ausgeschlossen, da zu diesen Zeiten tendenziell kein Pollen eingetragen wird und bezogen auf die Aktivität
+eher nur Bienen zu sehen sind, die im Kamerabild ruhen. In den Auswertungen einzelner Naturräume
+werden zudem, sofern nicht anders angegeben, nur dann Interpretationen vorgenommen, wenn parallel von
+mindestens zwei Völkern Daten vorhanden sind, die den vorgenannten Kriterien entsprechen. So soll
+verhindert werden, dass von ungewöhnlichen Verhaltensweisen einzelner Völker auf ein gesamtes Gebiet
+geschlossen wird. 
+DATENBASIS
+SEITE | 24
+TÄGLICH ERFASSTE BILDER IM JAHRESVERLAUF VON 2019
+TÄGLICH ERFASSTE BILDER IM JAHRESVERLAUF VON 2020
+
+AprilMaiJuniJuliAug.Sep.Okt.Nov.Dez.
+40 
+30 
+20 
+10 
+0 
+2019 sendeten die Monitoringsysteme im Abstand von 15 Minuten Bilder aus ihrem Kamerasichtfeld am
+Eingang der Bienenstöcke. Diese Frequenz wurde aufgrund der verfügbaren Mobilfunkbandbreite gewählt.
+Verwertbare Daten konnten an zwölf von 16 Standorten mit jeweils ein bis zwei Systemen gesammelt
+werden. Die Güte der Daten variierte an den einzelnen Standorten teils stark, was unter anderem mit der
+schlechten Netzabdeckung zusammenhing. Dies zeigt sich in der Breite des schattierten Bereichs in den
+Grafiken der vorherigen Seite, welche die Minima und Maxima aller Stöcke veranschaulicht. 
+2020 sendeten die Monitoringsysteme im Abstand von 5 Minuten Bilder aus ihrem Kamerasichtfeld am
+Eingang der Bienenstöcke. Diese gesteigerte Frequenz wurde durch ein Hardware-Upgrade und neue
+Mobilfunkverträge möglich. Verwertbare Daten konnten in diesem Jahr an allen zwölf Standorten erhoben
+werden. Die Güte der Daten an den einzelnen Standorten variierte erneut stark. Für weiterführende
+Untersuchungen wurde zudem an je einem Standort der Karlsruher Naturräume Videomaterial
+aufgezeichnet. Dieses wird jedoch aus Kostengründen erst im Rahmen zukünftiger Forschungsprojekte
+ausgewertet werden.
+AprilMaiJuniJuliAug.Sep.Okt.Nov.
+100 
+75 
+50 
+25 
+0 
+Ausgewertete Bilder pro Monat in 1.000
+Anzahl Systeme in Betrieb
+Mit den Monitoringsystemen erfasste Bilder im Jahr 2019
+2019 INSGESAMT
+178.016
+GESAMMELTE BILDER
+Ausgewertete Bilder pro Monat in 1.000
+Anzahl Systeme in Betrieb
+Mit den Monitoringsystemen erfasste Bilder im Jahr 2020
+2020 INSGESAMT
+317.798
+GESAMMELTE BILDER
+SEITE | 25
+2019
+2020
+
+Grundlegende
+MUSTER
+In den Daten zur Bienenaktivität sind einige deutliche, teils wiederkehrende Muster erkennbar. Diese
+werden hier kurz vorgestellt und unter Zuhilfenahme verschiedener Quellen und wissenschaftlicher
+Veröffentlichungen erläutert. Die Funktionalität der neu entwickelten Methode von apic.ai wird hiermit
+bestätigt.
+Vergleich von Aktivität und mittlerer Wochentemperatur im gesamten
+Stadtgebiet in einem Beispielzeitraum. Wetterdaten: DWD.
+             In den Aktivitätsdaten ist deutlich der
+Tag-Nacht-Rhythmus der Honigbienen zu
+erkennen. Am Tag sind sie sehr viel aktiver als
+Nachts. Hier sitzen die Bienen oft für Stunden
+unbewegt im Bild. 
+Die Aktivität korreliert mit der Tagestemperatur
+bzw. den Sonnenstunden und der
+Futterverfügbarkeit. Die Futterpflanzen der
+Bienen bieten den Bestäubern in der Regel nur
+tagsüber Nektar und Pollen [27].
+1.
+SEITE | 26
+Aktivitätsverlauf an Regentagen am Beispiel eines Volkes in der
+Siemensallee am 12.07 und 13.07 2019. Wetterdaten: DWD.
+Um sich vor den Regentropfen zu schützen,
+bleiben die Bienen im Stock oder suchen
+sich draußen einen Unterschlupf bis der
+Regen vorbei ist [28].
+             Während und im Anschluss an
+Regenfälle sind deutliche Einbrüche bei der
+Aktivität der Bienen zu beobachten. Diese
+werden auf Seite 33 näher betrachtet.
+2.
+
+Vergleich der Aktivität (oben) und des Polleneintrags (unten) der Bienenvölker im gesamten Stadtgebiet im
+Tagesverlauf in den Jahren 2019 und 2020.
+             Das Verhalten der Bienen ist an die Natur angepasst, also an den Bestäubungsbedarf der Pflanzen
+und die damit verbundene Verfügbarkeit von Nektar und Pollen [29]. Es ist deutlich ein Tagesverlauf und ein
+Jahresverlauf erkennbar. In den kälteren Monaten ist die Aktivität geringer und es wird sehr viel weniger
+Pollen eingetragen. 
+3.
+4.
+             In Daten von unterschiedlich warmen Nächten wird sichtbar, dass die Bienen im Stockeingang in
+heißen Nächten deutlich aktiver sind als in kühlen. Das ist auffällig, da Bienen nachts normalerweise nicht
+mehr auf Sammelflügen unterwegs sind [30]. In besonders heißen Nächten ist die Aktivität höher, da Bienen
+aus dem Stock gehen, um diesen kühler zu halten und sich im Eingangsbereich aufhalten, um frische Luft in
+den Stock zu fächeln [31].
+Bild einer heißen Nacht am 21.07.2019. Die
+Durchschnittstemperatur zwischen 0 und sechs Uhr lag bei 19,7°C.
+Bild einer kühlen Nacht am 21.09.2019. Die
+Durchschnittstemperatur zwischen 0 und sechs Uhr lag bei 9,6°C.
+SEITE | 27
+
+Bodenfeuchte
+Atmosphärisches CO2
+Wetter
+Bienen und andere Bestäuber sammeln als Energienahrung den Nektar von Pflanzen. Für die Aufzucht der
+Larven und Jungtiere wird überdies Pollen benötigt. Dieser wird in Form von Blütenstaub gesammelt und im
+Flug zu kleinen Päckchen - den Pollenhöschen - komprimiert. Sie sind etwas gößer als Stecknadelköpfe und
+werden an den Beinen in den Stock getragen (siehe Bild). Eine Vielzahl von Faktoren können über den Anteil
+von Pollen-Sammelbienen entscheiden. In diesem Kapitel wird ein Versuch unternommen, Zusammenhänge
+zwischen einigen dieser Faktoren zu erkennen. Es handelt sich dabei lediglich um Beobachtungen aufgrund
+der vorliegenden Daten, die noch um Domänenwissen ergänzt werden sollten.
+Der Einfluss folgender Faktoren auf die Polleneffizienz wurde untersucht:
+Im weiteren Verlauf dieses Kapitels werden die Faktoren zunächst einzeln betrachtet. Anschließend werden
+mittels der t-SNE Methode Wirkzusammenhänge untersucht. Ziel ist es, zu erkennen, ob die Faktoren
+temporäre Engpässe des Futterangebotes an Pollen verursacht haben könnten. Solche sog. Trachtlücken
+können insbesondere für Wildbienen problematisch sein, die kaum Vorräte anlegen, deren
+Volksentwicklung jedoch ebenfalls von der Nektar- und Pollenverfügbarkeit abhängt [37]. Als Indikator für
+die Verfügbarkeit von Pollen wird die Polleneffizienz genutzt. Sie bezeichnet den Anteil der Bienen, die mit
+Pollen von einem Ausflug zurückkehren. Bei ähnlichen Umgebungsbedingungen ist sie ein guter Indikator
+für den Vergleich des Sammelverhaltens verschiedener Völker. Ein Abfall der Polleneffizienz um 20%
+bedeutet folglich, dass bei gleicher Aktivität 20% weniger Pollen in einen Stock eingetragen wurde. Da es
+sich um einen relativen Wert handelt, können unterschiedlich starke Völker verglichen werden.
+Einflussfaktoren des
+POLLENANGEBOTS
+SEITE | 28
+Bodenfeuchte
+Forschungsarbeiten zeigen, dass die Produktion von Pollen und Nektar durch Pflanzen wie Scarlet Gilia [32]
+und Ambrosia [33] empfindlich gegenüber Temperatur und Wasserverfügbarkeit ist und mit sinkender
+Bodenfeuchte zurückgeht [32]. Zur Messung der Trockenheit wird zum Zweck der folgenden
+Untersuchungen das vom Zentrum für Agrarmeteorologische Forschung Braunschweig entwickelte
+Agrarmeteorologische Modell zur Berechnung der aktuellen Verdunstung verwendet. Die Menge des Wassers,
+das den Pflanzen zur Verfügung steht, wird in % nutzbarer Feldkapazität (nFK) angegeben. Im Folgenden
+werden Daten aus Bodenfeuchtemessungen in 25cm Tiefe verwendet [35]. Durch das Modell können für
+einzelne Standorte nFK Werte simuliert werden. 
+
+Die Pflanze steht unter Trockenstress, mit Ertragseinbußen ist zu rechnen
+Noch ausreichende Wasserversorgung der Pflanzen
+Optimales Wasserangebot
+% nFKPflanzenentwicklung
+< 30
+30 - 50
+50 - 80
+Klassen der Bodenfeuchte in Prozent nutzbarer Feldkapazität. Quelle: DWD [30]
+In dem Modell gilt ein nFK Wert unter 30 als kritisch, da aufgrund von Trockenstress der Pflanzen mit
+Ertragseinbußen zu rechnen ist. [36]
+SEITE | 29
+In den beiden untersuchen Jahren 2019 und 2020 zeigte sich für letzteres eine deutlich geringere
+Wasserverfügbarkeit in 25 cm Bodentiefe. Je nach Stadtgebiet lagen 2019 zwischen 60 und 110 Tage mit
+einem nFK < 30 vor. Im Jahr 2020 waren es zwischen 110 und 150 Tage (siehe nächste Seite). Die
+Nektarverfügbarkeit fiel jedoch, wie auf Seite 19 dargestellt, im Jahr 2020 signifikant höher aus als im
+weniger trockenen Jahr 2019. Im Frühjahr wurde hier viermal Mal mehr Honig gemeldet, im Sommer die
+doppelte Menge. Eine schlechte Wasserverfügbarkeit scheint folglich nicht zwangsläufig zu einer
+Verringerung des Nahrungsangebots für Bienen zu führen.
+Anzahl Tage mit kritischer Trockenheit nFK > 30 % im Jahr 2019.
+Datenquelle: UFZ-Dürremonitor/Deutscher Wetterdienst.
+
+Anzahl Tage mit kritischer Trockenheit nFK > 30 % im Jahr 2020
+Datenquelle: UFZ-Dürremonitor/Deutscher Wetterdienst.
+Um einen möglichen Einfluss auf die Pollenproduktion der Pflanzen und damit auch auf die
+Nahrungsverfügbarkeit der Karlsruher Bestäuber zu messen, werden die beiden Jahre miteinander
+verglichen. Mithilfe von Boxplots wurde der Zusammenhang zwischen nFK und Polleneffizienz untersucht,
+um zu erkennen, ob der Anteil der Pollensammlerinnen bei Trockenheit zurückging. Da die Sammelaktivität
+auch durch geringe Temperaturen zurückgeht, wurden nur Tage im Zeitraum von Anfang Mai bis Ende
+Oktober berücksichtigt. Ein negativer Einfluss von Trockenheit auf die Polleneffizienz ist nicht erkennbar.  
+SEITE | 30
+2019
+Polleneffizienz bei unterschiedlicher Bodenfeuchte
+zwischen Anfang Mai und Ende Oktober 2019.
+2020
+Polleneffizienz bei unterschiedlicher Bodenfeuchte
+zwischen Anfang Mai und Ende Oktober 2020.
+
+Der geringere Anteil der Pollensammlerinnen könnte auf einen höheren Anteil von Nektarsammlerinnen
+zurückzuführen sein. Wie auf Seite 19 dargestellt, war das Nektarangebot im Jahr 2020 deutlich höher als
+im Vorjahr. Darüber, inwieweit Nektar- und Pollenangebot miteinander korrelieren liegen jedoch kaum
+Informationen vor. Bei den Konkurrenzstrategien verschiedener Pflanzen liegen Unterschiede vor. Jene
+die nur 1-2 Jahre leben investieren relativ viel Energie in die Fortpflanzung und setzen deshalb auf
+maximale Samenproduktion. Mehrjährige Pflanzen wie die Stadtbäume streben eher ein möglichst langes
+Leben an und stecken verhältnismäßig weniger Energie in die Samenproduktion. Fühlen sie sich in ihrer
+Existenz bedroht, können jedoch auch sie die Produktion von Pollen erhöhen und mehr Energie in die
+Reproduktion investieren [38]. 
+ Für ein geringeres Pollenangebot im Jahr 2020 spricht, dass der April des Jahres in Karlsruhe der
+trockenste seit 1950 war. Die Niederschlagsmenge im Vorjahr entsprach dem Durchschnitt der letzten
+Jahrzehnte [39]. Die Trockenheit 2020 könnte zu einer niedrigeren Pollenproduktion geführt haben, denn
+die Anzahl der Pollen-Mutterzellen entscheidet sich früh im Entwicklungsprozess der Pflanzen. Abhängig
+von der Menge dieser Zellen gibt es ein höheres oder geringeres Maximum der Anzahl von Pollen, die
+eine Pflanze bei optimaler Wasserversorgung hervorbringen kann. Bis dieses Optimum erreicht wird
+steigt die Pollenproduktion der einzelnen Zellen der Pflanze mit der vorhandenen Feuchtigkeit. [32]
+Trockenheit während des Frühjahrs kann zudem zu einer Deformation der männlichen Blüten und so zu
+einer negativen Beeinflussung der Pollenbildung führen [40]. 
+Vergleicht man die Polleneffizienz beider Jahre, zeigt sich, dass der Wert im Jahr 2020 insgesamt auf einem
+niedrigeren Niveau lag. Ob dies tatsächlich auf ein geringeres Angebot zurückzuführen ist, lässt sich allein
+anhand der vorliegenden Daten nicht beurteilen. Die genauere Untersuchung des Zusammenhangs
+erfordert die Erhebung von Langzeitwerten. Zudem müssen auch Daten über das pflanzenverfügbare
+Wasser in tieferliegenden Bodenschichten betrachtet werden. Bislang existieren folgende Hypothesen:
+1.
+2.
+Mögliche Unterschiede beim Einfluss der Bodenfeuchte in 25 cm Tiefe auf die Polleneffizienz werden im
+Kapitel "Detailbetrachtungen nach Ort" basierend auf den Ergebnissen der Bildauswertung von apic.ai
+vorgenommen. Da im Zuge des Klimawandels mit zunehmender Trockenheit zu rechnen ist, könnte
+vermehrte Trockenheit, insbesondere im Frühjahr, ein Problem für die Nahrungssicherheit der
+Bestäuberinsekten in der Region Karlsruhe darstellen. Dabei sind neben den unterschiedlichen
+Pflanzenstrategien auch andere interaktive Effekte zu berücksichtigen, wie der folgende Abschnitt zeigt.
+SEITE | 31
+Wie bereits beschrieben, führt Trockenstress bei manchen Pflanzen zu einer Verringerung der
+Pollenproduktion. Eine erhöhte CO2-Konzentration kann jedoch zu einer Erhöhung der Pollenproduktion
+führen. Da beide Effekte im Rahmen des Klimawandels gemeinsam auftreten, kann es sein, dass sie nur
+bedingt sichtbar werden [32].
+Da jedoch zwischen den beiden betrachteten Jahren kein hoher Unterschied bezüglich des CO2 Gehalts der
+Luft bestand, wird der Effekt bei dieser Analyse nicht weiter beachtet. Seine potenzielle Langzeitwirkung
+sollte jedoch nicht unterschätzt werden, denn die CO2-Konzentration der Luft in Karlsruhe ist seit 2016, wie
+in der folgenden Abbildung dargestellt, gestiegen [34].
+Atmosphärisches CO2
+
+Dass das Wetter einen Einfluss auf das Nektarangebot der Bäume hat, wurde bereits auf Seite 19
+dargestellt. Ob es auch einen Einfluss auf das Pollenangebot hat wurde auf Basis der Daten aus der
+Bildauswertung untersucht. Als relevante Parameter einbezogen wurden Temperatur, Niederschlag, Wind
+und Luftfeuchtigkeit. Da davon auszugehen ist, dass Wind und Luftfeuchtigkeit allein auf Tagesebene keine
+starken Effekte haben, sondern eher bestehende Tendenzen verstärken, werden sie erst auf Seite 34 in
+Kombination mit anderen Faktoren näher betrachtet. 
+Als Indikator für das Pollenangebot bzw. das Pollen-Sammelverhalten wurden tägliche Mittelwerte der 
+ stündlichen Maxima von Pollen im Bild der einzelnen Standorte betrachtet. Dieser Parameter wird durch die
+Anzahl der Bienen, die sich gerade bei hohen Temperaturen häufig nur zur Stockbelüftung im Kamerabild
+aufhalten nicht beeinflusst. In den folgenden Grafiken wird der tägliche Durchschnitt dieses Maximums und
+die mittlere Tagestemperatur beider Jahre visualisiert. Als blaue Balken zu erkennen sind Tage mit
+Niederschlägen von mehr als 4 l/m².
+Die höchsten Pollenwerte im Jahr 2019 wurden bis Ende Juni gemessen. Während der Sommermonate sind
+die Werte etwas geringer. Ab Ende Juni scheint der Polleneintrag grob dem Temperaturverlauf zu folgen. Im
+niederschlagsarmen Zeitraum zwischen dem 20. Juni und dem 19. Juli, geht der Polleneintrag zurück, nach
+einigen Niederschläge steigt er wieder an.
+Atmosphärische Treibhausgas Konzentration in Karlsruhe (tägliche Mittelwerte) [25].
+Wetter
+SEITE | 32
+Täglicher Durchschnitt der maximalen Anzahl Pollen im Bild pro Stunde im Zusammenhang mit der
+durchschnittlichen Tagestemperatur und Tagen mit Niederschlägen über 4 l/m² im Jahr 2019.
+Durchschnitt der maximalen
+Anzahl Pollen im Bild pro Stunde
+
+Im Jahr 2020 war das Kamerabild der Monitoringsysteme fast doppelt so groß wie im Jahr 2019. Dass
+dennoch weniger Pollen erfasst wurden, legt nahe, dass der absolute Polleneintrag deutlich geringer war.
+Ein erhöhter Polleneintrag im Frühjahr lässt sich während des trockenen Frühjahrs nicht erkennen. Die
+Ausschläge im Mai nach vermehrten Niederschlägen deuten hierfür einen Zusammenhang mit der
+Trockenheit an. Die Pflanzen scheinen mit einer Erhöhung des Pollenangebotes auf den Regen zu reagieren.
+Ab Ende Juni folgt der Polleneintrag in diesem Jahr grob dem Temperaturverlauf.
+Täglicher Durchschnitt der maximalen Anzahl Pollen im Bild pro Stunde im Zusammenhang mit der
+durchschnittlichen Tagestemperatur und Tagen mit Niederschlägen über 4 l/m² im Jahr 2020.
+Durchschnitt der maximalen
+Anzahl Pollen im Bild pro Stunde
+Ein besseres Verständnis für die Wirkzusammenhänge verschafft die Betrachtung der täglichen Werte im
+Zeitraum vom 31 Mai - 13. Juni beider Jahre. Hier zeigt sich, dass der Polleintrag bei hohen Temperaturen
+tendenziell geringer ist. An den mit Temperaturrückgängen verbundenen Regentagen selbst geht der
+Polleneintrag zurück. An den Tagen, die auf hohe Niederschläge folgen, scheint der Polleneintrag jedoch zu
+steigen. Eine weitere Beobachtung ist, dass die Pollen-Sammelaktivität an sehr heißen Tagen über den
+gesamten Tag konstant ist, während sie an weniger heißen Tagen Spitzen aufweist.
+SEITE | 33
+Maximale Anzahl Pollen im Bild pro Stunde im Zusammenhang mit der stündlichen Temperatur und den stündlichen
+Niederschlägen vom 31.05. - 13.06.2019 (oben) und vom 31.05. - 13.06.2020 (unten).
+
+t-SNE Visualisierung mit Einfärbung der
+Luftfeuchtigkeitsbereiche.
+Da die verschiedenen vorgenannten Beobachtungsgrößen zueinander in Abhängigkeit stehen, ist es hilfreich
+multivariate Verfahren für die Analyse von Zusammenhängen zu nutzen. Um generelle und wechselseitige
+Beziehung mit der Polleneffizienz sichtbar zu machen, wurde die t-SNE Methode genutzt. Sie ermöglicht es,
+mehrdimensionale Datensätze zweidimensional darzustellen und Cluster bei der Projektion zu erhalten.
+Jeder der bunten Punkte der folgenden Darstellungen stellt den Wert der entsprechenden Messgröße an
+einen Tag im Auswertungszeitraum 2019 und 2020 dar. Je größer der Punkt, desto höher die Polleneffizienz.
+Die Achsen der Abbildung wie auch die Form der Cluster haben bei der Auswertungsmethode keine
+anschauliche Bedeutung. Die Grafiken auf Seite 35 zeigen, in welchen Clustern die höchste Polleneffizienz
+vorlag. In den folgenden vier Darstellungen lassen sich die Ausprägungen von Bodenfeuchte, mittlerer
+Temperatur, Windgeschwindigkeit und Luftfeuchtigkeit in den Clustern erkennen.
+t-SNE Visualisierung mit Einfärbung der
+Temperaturbereiche.
+t-SNE Visualisierung mit Einfärbung der
+Windgeschwindigkeitsbereiche.
+t-SNE Visualisierung mit Einfärbung der
+Bodenfeuchtebereiche.
+Wirkzusammenhänge der Faktoren
+SEITE | 34
+
+Die höchste Polleneffizienz von >3,5% liegt in den Clustern roter Punkte vor (linke Grafik). Wie den Analysen
+auf der vorherigen Seite zu entnehmen ist, tritt sie sowohl an Tagen mit einem nFK<30% auf, der für
+Pflanzen als kritisch gilt, als auch bei einem nFK von 30-50%. Dabei können Temperaturen zwischen 10°C
+und 30°C vorkommen. Auch hohe Windgeschwindigkeiten scheinen dabei keinen negativen Einfluss zu
+haben. Alle Luftfeuchtigkeits-Kategorien kommen in diesem Cluster vor.
+Eine etwas geringere Polleneffizienz von 2,5% - 3,5% liegt in den Clustern grüner Punkte vor. Sie tritt
+ebenfalls primär bei nFK Werten unter 50 % auf. Die Temperaturen sind dabei tendenziell etwas geringer
+und liegen zwischen 10°C und 25°C. Die Windstärke liegt dabei eher im mittleren bis unteren Bereich.
+Zusammenhänge mit der Luftfeuchtigkeit sind erneut auf der untersuchten Tagesebene nicht erkennbar. 
+Besonders gering ist die Polleneffizienz an Tagen über 25°C mit geringer Bodenfeuchtigkeit und geringer bis
+mittlerer Luftfeuchtigkeit. An heißen Tage, denen eine lange niederschlagsarme Zeit vorangegangen ist, zeigt
+sich entsprechend ein geringerer Anteil von Pollensammlerinnen.
+Die Analyse des quantitativen Polleneintrags mittels der maximalen stündlichen Anzahl von Pollen
+unterstützt diese Thesen. Die vielen grünen Punkte in der rechten Grafik liegen im gleichen Cluster wie die
+roten in der rechten, d.h. an den Tagen mit der höchsten Polleneffizienz war auch die Anzahl der
+eingetragenen Pollen am größten. Der geringste mengenmäßige Polleneintrag scheint im rechten Cluster
+vorzuliegen, das Temperaturen von 10-20 °C mit hoher Luftfeuchtigkeit und nFK Werten >30% verbindet. 
+Die folgende Darstellung zeigt das Ergebnis der t-SNE Analyse der Ausprägungen der vorgenannten
+Einflussfaktoren auf die Polleneffizienz.
+t-SNE Visualisierung mit Einfärbung der Polleneffizienzkategorien
+SEITE | 35
+
+Zur Feststellung möglicher Trachtlücken einzelner
+Naturräume der Stadt wurden die Daten der Messstationen
+entsprechend ihrem Standort ausgewertet. Hierbei muss
+jedoch beachtet werden, dass die Bienen mobil sind und
+allgemein im Radius von 2-3 km um ihren Stock sammeln.
+Entsprechend kann es sein, dass sie die Grenzen der
+Naturräume bei ihren Sammelflügen übertreten. Die
+Angaben zur Polleneffizienz stellen jeweils den Mittelwert
+von drei Tagen dar, zum Zweck der besseren Lesbarkeit und
+zum Ausgleich von witterungsbedingten Schwankungen. 
+Rheinaue
+Bergdörfer
+Hardtebene
+Bild: LUBW
+Dreitägig gemittelte Polleneffizienz und pflanzenverfügbares Wasser in den Bergdörfern 2020. Rot schattiert sind Tage mit
+Temperaturmaximum über 30 °C in Karlsruhe, grau schattiert sind mehrwöchige niederschlagsarme Zeiträume mit nFK
+<30 %. Bis 13. Juli waren nur Daten von einem Volk verfügbar.
+In den Bergdörfern gab es aufgrund der schlechten Internetverfügbarkeit die geringste Datenmenge aller
+Gebiete. Für 2019 konnten die Qualitätskriterien, die für die Interpretierbarkeit der Daten gesetzt wurden,
+nicht erfüllt werden. Aus dem Jahr 2020 sind bis zum 13. Juli nur die Daten von einem Volk nutzbar gewesen,
+erst danach wurden die zuvor beschriebenen Kriterien erfüllt. Bis zu diesem Datum sind die Werte deshalb
+nur eingeschränkt interpretierbar. 
+SEITE | 36
+Regionale Entwicklungen
+Dabei wird das pflanzenverfügbare Wasser entsprechend 
+der Modellierung an jedem einzelnen Standort verwendet, 
+von dem Daten genutzt wurden und jeweils ein Mittelwert 
+gebildet. Das pflanzenverfügbare Wasser wird wie bereits beschrieben in 25 cm Tiefe dargestellt, tiefere
+Bodenschichten werden hier nicht betrachtet. Für alle Gebiete werden die gleichen Temperaturwerte
+verwendet. Sie stammen von einer Wetterstation in Rheinstetten nahe Karlsruhe.
+Bergdörfer
+
+Die Polleneffizienzwerte in der Hardtebene unterscheiden sich in den Jahren 2019 und 2020 in ihrem
+Verlauf. 2019 lagen sie verhältnismäßig konstant zwischen 2% und 4%. Im darauffolgenden Jahr waren sie
+insgesamt niedriger, sanken temporär auf unter 1% und erreichten kaum Werte von 3%. Es traten deutlich
+mehr Schwankungen auf. Die Polleneffizienz schien in beiden Jahren nicht unmittelbar mit dem
+pflanzenverfügbaren Wasser zusammenzuhängen. 2019 schien der Anteil der Pollensammlerinnen zwar
+nach Regenfällen zu steigen, es zeigten sich jedoch auch in Phasen sehr geringen nFKs und großer Hitze
+keine Einbrüche. Im Mai 2020 lag die Polleneffizienz in Perioden mit kritischer Bodenfeuchte unter 1,5%.
+Nach vermehrten Regenfällen im Juni stieg sie deutlich an, mit rückläufiger Bodenfeuchte Ende Juni fiel sie
+wieder ab. Die Polleneffizienzwerte in der Hardtebene unterscheiden sich in den Jahren 2019 und 2020 in
+ihrem Verlauf. 2019 lagen sie verhältnismäßig konstant zwischen 2% und 4%. Im darauffolgenden Jahr
+Dreitägig gemittelte Polleneffizienz und pflanzenverfügbares Wasser in der Hardtebene 2020. Rot schattiert sind Tage mit
+Temperaturmaximum über 30 °C in Karlsruhe, grau schattiert sind mehrwöchige niederschlagsarme Zeiträume mit nFk <30 %.
+Dreitägig gemittelte Polleneffizienz und pflanzenverfügbares Wasser in der Hardtebene 2019. Rot schattiert sind Tage mit
+Temperaturmaximum über 30 °C in Karlsruhe, grau schattiert sind mehrwöchige niederschlagsarme Zeiträume mit nFk <30 %.
+SEITE | 37
+Auch unter dieser Einschränkung lässt die Betrachtung von pflanzenverfügbarem Wasser und Polleneffizienz
+einen Zusammenhang vermuten. Bei relativ guter Wasserverfügbarkeit im Juni lag die Polleneffizienz sehr
+hoch. Ab Mitte Juli, mit etwas Zeitversatz, sank die Polleneffizienz bei zurückgehender Bodenfeuchte deutlich.
+Während der Hitzeperiode im Juli sank sie auf bis zu 0,5%. Nachdem Anfang September wieder Niederschläge
+verzeichnet wurden, stieg sie deutlich an. Als der nFK Wert wieder über 30% stieg, lag die Polleneffizienz bis
+in den Oktober zwischen 2% und 3%.
+Die Auswertung von Videomaterial zweier Völker im Jahr 2020 in dem Naturraum steht noch aus. 
+Hardtebene
+
+Polleneffizienz und pflanzenverfügbares Wasser in den drei Naturräumen von Karlsruhe 2019. Rot schattiert sind Tage mit
+Temperaturmaximum über 30 °C, grau schattiert sind mehrwöchige niederschlagsfreie Zeiträume mit nFk <30 %.
+Dreitägig gemittelte Polleneffizienz und pflanzenverfügbares Wasser in der Rheinaue 2019. Rot schattiert sind Tage mit
+Temperaturmaximum über 30 °C in Karlsruhe, grau schattiert sind mehrwöchige niederschlagsarme Zeiträume mit nFk <30 %.
+Dreitägig gemittelte Polleneffizienz und pflanzenverfügbares Wasser in der Rheinaue 2020. Rot schattiert sind Tage mit
+Temperaturmaximum über 30 °C in Karlsruhe, grau schattiert sind mehrwöchige niederschlagsarme Zeiträume mit nFk <30 %.
+SEITE | 38
+waren sie insgesamt niedriger, sanken temporär auf unter 1% und erreichten kaum Werte von 3%. Es
+traten deutlich mehr Schwankungen auf. Die Polleneffizienz schien in beiden Jahren nicht unmittelbar mit
+dem pflanzenverfügbaren Wasser zusammenzuhängen. 2019 schien der Anteil der Pollensammlerinnen
+zwar nach Regenfällen zu steigen, es zeigten sich jedoch auch in Phasen sehr geringen nFKs und großer
+Hitze keine Einbrüche. Im Mai 2020 lag die Polleneffizienz in Perioden mit kritischer Bodenfeuchte unter
+1,5%. Nach vermehrten Regenfällen im Juni stieg sie deutlich an, mit rückläufiger Bodenfeuchte Ende Juni
+fiel sie wieder ab. Anders als zu erwarten gewesen wäre, gab es im Verlauf von Juli und August jedoch trotz
+konstant kritischer Bodenfeuchte zwei Zeiträume mit deutlich erhöhter Polleneffizienz. Diese beiden
+"Spitzen" trennt eine Phase großer Hitze mit Temperaturen über 30°C. Ende September tritt mit der
+Rückkehr der Bodenfeuchte aus dem kritischen Bereich heraus keine Veränderung der Polleneffizienz ein.
+Diese bleibt weiterhin auf einem Wert um 2%. Darüber, warum sich ab Juli 2020 Bodenfeuchte und
+Polleneffizienz nicht mehr zu beeinflussen scheinen, kann ohne weitere Daten nur gemutmaßt werden. Es
+könnte z.B. einen Zusammenhang mit der Bewässerung durch die Stadt und ihre Bürger geben. Darüber
+hinaus ist zu bedenken, dass hier lediglich das pflanzenverfügbare Wasser in 25 cm Bodentiefe betrachtet
+wird. Tiefere Bodenschichten könnten den Pflanzen, die mit ihrem Wurzelwerk Zugang zu ihnen haben,
+länger Wasser zur Verfügung stellen.
+Im Jahr 2019 scheint die Polleneffizienz in der Rheinaue parallel zur zurückgehenden Bodenfeuchte
+abgenommen und nach Niederschlägen temporär wieder zugenommen zu haben. Von Ende Mai bis Anfang
+Juli lag sie recht konstant bei 2,5%. Eine ausreichende Wasserversorgung der Pflanzen war gegeben.  
+Rheinaue
+
+In Ettlingen stehen ab August 2019 Daten mit den erforderlichen Qualitätskriterien zur Interpretation zur
+Verfügung. Gleich zu Beginn des Augustes stieg die Polleneffizienz nach einer Hitzeperiode gefolgt von
+Niederschlägen von 2% auf 4% an. Sie blieb bis Mitte September auf diesem hohen Niveau und brach nur
+zwischenzeitig während einer sehr heißen Woche Ende August ein. 
+Dreitägig gemittelte Polleneffizienz und pflanzenverfügbares Wasser in Ettlingen 2020. Rot schattiert sind Tage mit
+Temperaturmaximum über 30 °C in Karlsruhe, grau schattiert sind mehrwöchige niederschlagsfreie Zeiträume mit nFk <30 %.
+Dreitägig gemittelte Polleneffizienz und pflanzenverfügbares Wasser in Ettlingen 2019. Rot schattiert sind Tage mit
+Temperaturmaximum über 30 °C in Karlsruhe, grau schattiert sind mehrwöchige niederschlagsfreie Zeiträume mit nFk <30 %.
+SEITE | 39
+In den Monaten von Juli bis Mitte August ging sie zurück und lag auf einem niedrigeren Niveau als in der
+Hardtebene. In der zweiten Augusthälfte stieg sie nach einigen Regenfällen wieder deutlich an. Ende August
+ging sie an einigen Tagen mit Temperaturen über 30°C und Bodenfeuchte <20% wieder zurück. Bevor sie
+Mitte September nach erneuten Regenfällen wieder stieg, gab es zuvor trotz großer Trockenheit einen
+temporären Anstieg der Polleneffizienz. Möglicherweise geben hier die Pflanzen nach der Hitzeperiode
+kurzzeitig wieder mehr Pollen ab. Im weiteren Verlauf des Septembers blieb der Polleneintrag relativ
+konstant. Das pflanzenverfügbare Wasser stieg im Oktober nach vermehrten Regenfällen binnen vier
+Wochen wieder auf optimale 80%. Bis die Systeme abgebaut wurden sank die Polleneffizienz kontinuierlich.
+In der Rheinaue liegen aufgrund von Schwierigkeiten mit den dortigen Bienenvölkern 2020 keine durch-
+gehenden Daten vor. Während der heißen, andauernden Trockenperiode von Mitte Juli bis Mitte August
+scheint die Polleneffizienz jedoch nicht geringer ausgefallen zu sein als im weniger trockenen Vorjahr.
+Ettlingen
+
+Dreitägig gemittelte Polleneffizienz zum Vergleich von Stadtgebiet und Land.
+Es wird gemeinhin angenommen, das Städte gegenüber ländlichen Regionen für viele Bestäuber inzwischen
+bessere Lebensbedingungen aufweisen. Für ländliche Regionen wird bedingt durch die große,
+zusammenhängende Agrarflächen von einer geringeren Vielfalt an Pflanzen ausgegangen. Um einen
+Vergleich zu erhalten, wurden für das Jahr 2019 Daten der Kontrollvölker einer ökotoxikologischen
+Feldstudie im ländlichen Gebiet nahe Bretten ausgewertet. Die Polleneffizienz lag hierbei in einem ähnlichen
+Bereich wie die im Stadtgebiet.
+SEITE | 40
+Mittlere Polleneffizienz in %
+Mitte September erreicht sie mit über 5% im Anschluss an Regenfälle ihr absolutes Maximum. Bis Anfang
+Oktober sank sie danach langsam und kontinuierlich auf einen Wert von 1,5%. Anders als in der Rheinaue,
+wo am Anfang Oktober die Polleneffizienz zurückging, gab es in Ettlingen immer wieder deutliche
+Anstiege. Insgesamt war die Polleneffizienz in Ettlingen 2019 die höchste unter den vier betrachteten
+Regionen.  
+Im Jahr 2020 war die Polleneffizienz deutlich geringer als im Vorjahr. Vermutete Zusammenhänge, wie ein
+negativer Einfluss von Trockenheit und Hitze sowie ein positiver Einfluss von Niederschlägen schienen
+sich hier nicht zu zeigen. Nachdem sie mutmaßlich in Folge von Niederschlägen angestiegen war, sank die
+Polleneffizienz in einer Phase kritischer Bodenfeuchte Ende Mai auf unter 1,5 %. Nach vermehrten
+Niederschlägen im Juni stieg sie jedoch nicht wieder an. Auch von Juni bis Mitte August gab es kaum
+Schwankungen der Polleneffizienz. Während und im Anschluss an die wenigen Niederschläge gibt es nur
+leichte, temporäre Steigerungen. Ende August stieg der Wert wieder auf bis zu 2,5 %, obwohl das
+pflanzenverfügbare Wasser weiterhin in einem kritischen Bereich lag. Ein weiterer Anstieg der
+Polleneffizienz Mitte September zeigte sich an einigen sehr heißen Tagen. Vermehrte Niederschläge Ende
+September zeigen keine Wirkung auf die Polleneffizienz.
+Exkurs: Stadt-Land Vergleich
+
+Bienen in
+Karlsruhe
+ANHANG
+Bild: Google
+
+SEITE | 41
+DANKSAGUNGEN
+Nur durch die Unterstützung vieler engagierter Menschen aus der Fächerstadt, der Region und ganz
+Deutschland ist dieses Projekt möglich geworden. Sie leisteten einen Beitrag durch die Betreuung der
+Völker, die Bereitstellung von Standorten, das Labeln zum Trainieren der Neuronalen Netze, die Produktion
+von Prototypen und auf viele andere Weisen. Wir möchten euch und Ihnen von ganzem Herzen danken.
+Andreas Fitting
+Christoph Kretschmer
+Daniel Schmid
+David Hermanns
+Eberhard Oehler
+Elias Ochs
+Elisabeth Eismann-Schmidt
+Florian Andrä
+Florian Kraft
+Florian Martini
+Friedrich G. Hoepfner
+Gernot Jöger
+Gordian Elsinger
+Harald Weiss
+Henning Naumann
+Jennifer Zeilfelder
+Joachim Hilgenfeldt
+Joachim Schemel
+Jonas Fuchs
+Jürgen Hartmann
+Kai Dierenbach
+Katrin Sonnleitner
+Klaus Steinhilber
+Larissa Bühn
+Lenhard Schmidt
+Maike Thorenz
+Markus Lücking
+Matthias Dörrer
+Matthias Maier
+Matthias Vetterer
+Michael Veiga
+Nele Kemper
+Peter Allinger
+Peter Klima
+Peter Vogelpoel
+Philipp Hansert
+Rainer Romer
+Ralph Suikat
+Rebecca Rutschmann
+Sigrid Rögner
+Silvia Kappler-Aumann
+Silvio Knaebe
+Simon Böhm
+Simon Fritz
+Simon Stock
+Sönke Claussen
+Stefan Essig
+Thomas Ehret
+Till Bergmann
+Till Meister
+Tim Rädsch
+Timm Czarnecki
+Timo Schneider
+Ulrich Steiert
+Vincent Ott
+Wolfgang Mende
+Yella Hoepfner
+Darüber hinaus gilt unser Dank einigen Institutionen und Unternehmen sowie deren Mitarbeitern, die uns
+während der Projektlaufzeit begleitet und auf vielfältige Weise unterstützt haben.
+AUNOVIS
+Amazon Web Services
+Balena
+Baugenossenschaft Ardensia
+Bee360
+Bienenzüchterverein Karlsr.
+CDU Fraktion Karlsruhe
+Cereda
+Cyberforum
+FDP Fraktion Karlsruhe
+FÜR Karlsruhe Fraktion
+Gebrüder Mende
+Google 
+Helmholtz Zentrum UFZ
+Hoepfner Stiftung
+IDS
+Liegenschaftsamt Karlsruhe
+NVIDIA
+SPD Fraktion Karlsruhe
+Stadtwerke Ettlingen
+Start-up BW
+
+[1] Hallmann C.A., Sorg M., Jongejans E., Siepel H., Hofland N., Schwan H., et al. (2017). More than 75 percent
+decline over 27 years in total flying insect biomass in protected areas. Plos one. Jahrgang 12, Heft 10.
+[2] Bundesministerium für Bildung und Forschung. (2019). Artenvielfalt schützen – globale Herausforderung
+angehen. Abgerufen am 26.05.2020 von https://www.fona.de/de/aktuelles/nachrichten/2019/leitinitiative-
+biodiversitaet.php.
+[3] Tausch, F.; Diehl, M.; Schmidt, K. (2020). Current achievement and future developments of a novel AI based visual
+monitoring of beehives in ecotoxicology and for a monitoring of landscape structures. Proceedings of the 14th
+International Symposium Hazards of Pesticides to Bees. 2019.
+[4] Knaebe, S.; Tausch, F.; Schmidt, K.; Gonsior, G. (2020). A feeding experiment with a sublethal neonicotinoid
+dosage: Effects observed with traditional assessment methods and a novel AI supported bee counter. Proceedings of
+the SETAC Europe 30th Annual Meeting Open Science for Enhanced Environmental Protection (noch nicht
+veröffentlicht).
+[5] Amt für Lebensmittelüberwachung und Veterinärwesen Karlsruhe. (2020). E-mail-Konversation zum Thema
+Aktuell gemeldete Imker und Völker im Stadtgebiet Karlsruhe.
+[6] Deutsche Wildtier Stiftung. (n/a). Wildbienen und die Honigbiene - Konkurrenz um knappe Ressourcen. Position der
+Deutschen Wildtier Stiftung. Abgerufen am 09.06.2021 von https://www.google.com/url?
+sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiworLa-
+YrxAhVG14UKHeC5CPoQFjACegQIBBAD&url=https%3A%2F%2Fwww.deutschewildtierstiftung.de%2Fcontent%2F
+3-naturschutz%2F1-wilde-bienen-hoch-
+bedroht%2F171204_nahrungskonkurrenz_honigbiene_wildbiene.pdf&usg=AOvVaw2SY0MCb627Zq9JghCa77Hn
+[7] Arbeitsgemeinschaft der Institute für Bienenforschung e.V. (2018). Stellungnahme zur Konkurrenz zwischen
+Wildbienen und Honigbienen. Abgerufen am 30.07.2021 von https://www.bienenjournal.de/wp-
+content/uploads/2019/08/2018_07_Stellungnahme_AGLogo.pdf.
+[8] Bienenzüchterverein Karlsruhe e.V. (2020). E-Mail-Konversation zum Thema Mitgliederzahlen BZV.
+[9] Fachzentrum Bienen und Imkerei Mayen. (2019). Bienen@Imkerei Infobrief 2019_20. Abgerufen am 30.09.2020
+von
+https://www.bienenkunde.rlp.de/Internet/global/themen.nsf/0/D24F905832C652B3C125844A0034E25E/$FILE/In
+fobrief_2019_20.pdf.
+[10] Deutscher Imkerbund e.V. (2019). Sommertrachternte 2019 regional ebenso unterschiedlich wie Frühtracht.
+Abgerufen am 04.10.2020 von https://deutscherimkerbund.de/download/0-557.
+[11] Fachzentrum Bienen und Imkerei Mayen. (2020). Bienen@Imkerei Infobrief 2020. Abgerufen am 08.10.2020
+von https://www.bienenkunde.rlp.de/Internet/global/themen.nsf/Web_P_Aktuelles_XP/
+1FF4812C4E87CAF8C12585BD003556E1/$FILE/Infobrief%202020_22%20Varroakontrolle_Fr%C3%BChtrachterg
+ebnisse.pdf.
+QUELLEN
+SEITE | 42
+
+[12] Fachzentrum Bienen und Imkerei Mayen. (2020). Bienen@Imkerei Infobrief 2020. Abgerufen am 31.07.2021
+von 
+ https://www.bienenkunde.rlp.de/Internet/global/Themen.nsf/(Web_P_Bienen_Infobrief_XP)/3B85606C3482468E
+C12585EE003828FB/$FILE/Infobrief%202020_25%20Vermarktung%20und%20Sommertrachternte.pdf.
+[13] Fachzentrum Bienen und Imkerei Mayen. (2019). Bienen@Imkerei Infobrief 2019. Abgerufen am 31.07.2021
+von 
+ https://www.bienenkunde.rlp.de/Internet/global/Themen.nsf/(Web_P_Bienen_Infobrief_XP)/03218991B2F2BC51
+C125847E002BEB94/$FILE/Infobrief_2019_24.pdf.
+[14] WetterKontor GmbH. (2021). Monats- und Jahreswerte für Rheinstetten bei Karlsruhe (2019 und 2020).
+Abgerufen am 31.07.2021 von https://www.wetterkontor.de/wetter-rueckblick/monats-und-jahreswerte.asp?
+id=97&jr0=2019&jr1=2020&mo0=3&mo1=10.
+[15] Fachzentrum Bienen und Imkerei Mayen. (2017). Bienen@Imkerei Infobrief 2017. Abgerufen am 31.07.2021
+von 
+ https://www.bienenkunde.rlp.de/Internet/global/themen.nsf/0/60C89042AB688759C12581640034795B/$FILE/I
+nfobrief_2017_19.pdf.
+[16] Fachzentrum Bienen und Imkerei Mayen. (2018). Bienen@Imkerei Infobrief 2018. Abgerufen am 31.07.2021
+von 
+ https://www.bienenkunde.rlp.de/Internet/global/themen.nsf/0/E0A30B2E3D4E50E4C12582D3001F1881/$FILE/I
+nfobrief_2018_17.pdf.
+[18] Fachzentrum Bienen und Imkerei Mayen. (2017). Bienen@Imkerei Infobrief 2017. Abgerufen am 31.07.2021
+von 
+ https://www.bienenkunde.rlp.de/Internet/global/themen.nsf/0/67D63C86A2C4A833C12581DB003C487B/$FILE/I
+nfobrief_2017_27.pdf.
+[19] Fachzentrum Bienen und Imkerei Mayen. (2018). Bienen@Imkerei Infobrief 2018. Abgerufen am 31.07.2021
+von 
+ https://www.bienenkunde.rlp.de/Internet/global/themen.nsf/0/FF03EBA5F7FE7189C125830F00470A18/$FILE/In
+fobrief%202018%2022.pdf.
+[20] Baumkunde.de (2004-2021) Blütezeiten - Übersicht. Abgerufen am 31.07.2021 von
+https://www.baumkunde.de/baumlisten/bluetezeit.php.
+[21] Bayerische Landesanstalt für Weinbau und Gartenbau (2019). Bienenbäume. Abgerufen am 31.07.2021 von
+https://www.lwg.bayern.de/mam/cms06/gartenbau/dateien/2019_ief_4-01_bienenbaeume.pdf.
+ [22] Bund deutscher Baumschulen e.V. (2019). KLimaArtenMatrix für Stadtbaumarten. Abgerufen am 31.07.2021
+von https://www.die-gruene-stadt.de/klimaartenmatrix-stadtbaeume.pdfx.
+[23] Landesanstalt für Bienenkunde, Universität Hohenheim. (2020). E-Mail-Konversation zu den Themen
+Pestizidergebnis Befunde Pollenprojekt und Befund Pollenanalyse (Projekt Pollensammeln in Baden-
+Württemberg finanziert durch das Ministerium für Ländlichen Raum und Verbraucherschutz Baden-
+Württemberg).
+[24] Bayrische Landesanstalt für Wald und Forstwirtschaft. (2018). Kastanien-Sterben im städtischen Grün.
+Abgerufen am 13.10.2020 von
+https://www.waldwissen.net/de/waldwirtschaft/schadensmanagement/komplexkrankheiten/rosskastanien-
+sterben.
+[25] Deutscher Wetterdienst. (2021). Climate gases (CO2, CH4, N2O). Abgerufen am am 09.06.2021 von
+https://www.dwd.de/EN/research/observing_atmosphere/composition_atmosphere/trace_gases/cont_nav/climat
+SEITE | 43
+
+[26] Landesanstalt für Bienenkunde, Universität Hohenheim. (2020). E-Mail-Konversation zum Thema
+Pyrrolizidinalkaloide in Pollen (Projekt Pollensammeln in Baden-Württemberg finanziert durch das Ministerium
+für Ländlichen Raum und Verbraucherschutz Baden-Württemberg).
+[27] Engelmann, W., & Antkowiak, B. (2016). Blumenuhren, Zeit-Gedächtnis und Zeit-Vergessen. Abgerufen am
+22.09.2020 von https://publikationen.uni-tuebingen.de/xmlui/bitstream/handle/10900/67797/Blumenuhr2016-
+UB.pdf.
+[28] Naturschutzbund Baden-Württemberg. (n/a). Bienen im Regen. Wie wirken sich langanhaltende Regenfälle auf
+Bienen aus?. Abgerufen am 29.09.2020 von https://baden-wuerttemberg.nabu.de/tiere-und-pflanzen/insekten-
+und-spinnen/hautfluegler/wissenswertes/22475.html.
+[29] Stadtbienen.org. (n/a). Das Bienenjahr. Abgerufen am 21.09.2020 von
+https://www.stadtbienen.org/wissen/bienenwissen/bienenjahr/.
+[30] Bee-careful.de. (n/a). Das Schlafverhalten der Bienen. Abgerufen am 28.09.2020 von http://www.bee-
+careful.com/de/initiative/schlafen-bienen-nachts/.
+[31] Hamdan, K. (2010). The Phenomenon of Bees Bearding. Bee World, Jahrgang 87, Heft 2, Seiten 22-23.
+[32] Waser, N. M.; Price, M. V. (2016). Drought, pollen and nectar availability, and pollination success. Ecology, 97(6),
+1400-1409.
+[33] Amr El Kelish, J. Barbro Winkler, Hans Lang, Andreas Holzinger, Heidrun Behrendt, Jörg Durner, Ulrike Kanter
+und Dieter Ernst. (2014). Einfluss von Ozon, CO² und Trockenstress auf das Wachstum und die Pollenproduktion der
+Beifuß-Ambrosie (Ambrosia artemisiifolia). Abgerufen am 31.07.2021 von http://docplayer.org/40693604-Und-
+trockenstress-auf-das-wachstum-und-die-pollenproduktion-der-beifuss-ambrosie-ambrosia-artemisiifolia.html.
+[34] Deutscher Wetterdienst. (2021). Klimagase (CO2, CH4, N2O). Abgerufen am 24.07.2021 von 
+ https://www.dwd.de/DE/forschung/atmosphaerenbeob/zusammensetzung_atmosphaere/spurengase/inh_nav/kl
+imagase_node.html.
+[35] Helmholtz-Zentrum Umweltforschung. (2020). UFZ-Dürremonitor. E-Mail-Konversation zum Thema Daten
+über pflanzenverfügbares Wasser in Karlsruhe im Jahr 2019.
+36] Deutscher Wetterdienst. (2020). Dokumentation Bodenfeuchte. Abgerufen am 24.07.2021 von
+https://www.dwd.de/DE/fachnutzer/landwirtschaft/dokumentationen/isabel/bodenfeuchte_dokumentation.pdf?
+__blob=publicationFile&v=7.
+[37] Niedersächsisches Ministerium für Ernährung, Landwirtschaft,Verbraucherschutz und
+Landesentwicklung. (2012). Bienen brauchen Blütenvielfalt - mach mit! Abgerufen am 08.10.2020 unter
+https://www.ml.niedersachsen.de/service/startseite_aus_ministerium/bienen-brauchen-bluetenvielfalt--mach-
+mit-103001.html.
+[38] Nicolas Schoof,  Professur für Waldbau an der Universität Freiburg. (2021). Mündliche Auskunft und E-Mail-
+Konversation zum Thema Trockenstress und Pollenproduktion: Eine Frage für Bestäuberinsekten.
+[39] WetterKontor GmbH. (2021). Monats- und Jahreswerte für Rheinstetten bei Karlsruhe (1950 bis 2021).
+Abgerufen am 31.07.2021 von https://www.wetterkontor.de/wetter-rueckblick/monats-und-jahreswerte.asp?
+id=97&jr0=1950&jr1=2021&mo0=4&mo1=4.
+SEITE | 44

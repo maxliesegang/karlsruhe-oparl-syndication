@@ -1,0 +1,198 @@
+
+
+Mindestkriterien erfüllt/ nicht erfüllt
+GesamtauswertungUntergruppeKriterium-Nr.Kriterium-Art
+Beschreibung des Kriteriums
+Gewichtungdes Kriteriumerreichte Punktegewichtete Punkte
+1Blade Chassis
+12Stromversorgung
+126B
+Erweiterbarkeit: Maximal mögliche Leistung eines Netzteils
+10
+3000 Watt550,00
+0,00
+14Erweiterbarkeit
+0,00
+141B
+Maximale Anzahl an verfügbaren Erweiterungsschächten für Switche und weitere Module; 
+bitte Anzahl angeben.
+9
+6545,00
+142B
+Maximal mögliche Datenübertragungsrate zwischen den Blade Chassis; bitte 
+Geschwindigkeit angeben.
+9
+400 GigaBit545,00
+143B
+Beschreiben Sie den Product-Lifecycle für das anzubietende Chassis und fügen es den 
+Anlagen bei; lfd. Nummer angeben
+2
+Anlage Product Lifecycle510,00
+144B
+Chassis wird ohne Midplane betrieben
+10
+ja550,00
+0,00
+15Management
+0,00
+151B
+Chassis ist in deutscher Sprache über Web-Oberfläche verwaltbar; bitte Screenshots im 
+Anhang beifügen und lfd. Numemr angeben
+1
+Screenshot siehe Anlage55,00
+152B
+mehrere Chassis des angebotenen Herstellers sind unter einer Web-Oberfläche ohne 
+Zusatzsoftware/-lizenzen verwaltbar; bitte Screenshots im Anhang beifügen und lfd. 
+Nummer angeben
+1
+Screenshot siehe Anlage55,00
+153B
+Stromaufnahme und Temperatur können überwacht werden
+1
+ja55,00
+154B
+Display am Chassis vorhanden, über welches die wichtigsten Status abrufbar sind; bitte 
+Screenshots im Anhang beifügen und lfd. Nummer angeben
+1
+Screenshot siehe Anlage55,00
+155B
+Tastatur, Maus und Monitor sind direkt am Blade Chassis anschließbar und Zugriff 
+darüber auf Blades möglich
+1
+ja55,00
+156B
+die Ausstattung der Blades ist über die Web-Oberfläche einsehbar
+1
+ja55,00
+157B
+der Status der einzelnen Blades ist über die Web-Oberfläche einsehbar
+1
+ja55,00
+158B
+der Status des Chassis ist über die Web-Oberfläche einsehbar
+1
+ja55,00
+1510B
+die Bios-Einstellungen der Blades können über die Web-Oberfläche des Blade Chassis auf 
+alle Blades durch eine Konfigurations-Datei gesetzt werden
+1
+ja55,00
+1511B
+die Firmware der Blades kann über die Web-Oberfläche des Blade-Chassis gleichzeitig 
+aktualisiert werden
+1
+ja55,00
+1512B
+Bei einem Firmwareupdate erkennt das System automatisch eventuell benötigte 
+vorherige Firmwareupdates und kann diese in der korrekten Reihenfolge einspielen
+5
+ja525,00
+1513B
+Unterstützung mehrerer Benutzerrollen zur Verwaltung möglich
+1
+ja55,00
+1514B
+Integration zur Benutzerwaltung ins Active Directory möglich
+1
+ja55,00
+1515B
+die Servernamen des Betriebssystems sind bei jedem Blade in der Web-Oberfläche 
+sichtbar
+1
+ja55,00
+1516B
+Monitoring des Chassis und der Blades ist über SNMP möglich
+1
+ja55,00
+1517B
+E-Mail-Benachrichtigung bei Fehlern ist möglich
+1
+ja55,00
+2Blade Switch
+22Anbindung
+225B
+Erweiterbarkeit: Maximal mögliche Datenübertragungsrate pro Switch zwischen Switch und 
+Cisco Nexus 3232c; bitte Geschwindigkeit angeben.
+10
+200 Gb/s (2x 100Gb/s) pro 
+Switch. Somit 400 Gb/s für 
+das angebotene System. 
+Weitere Switche sind möglich 
+und würden die 
+Übertragunsrate nochmal 
+vervielfachen 
+550,00
+23Management
+231B
+der Switch ist über die Web-Oberfläche des Chassis konfigurierbar; bitte Screenshots im 
+Anhang beifügen und Nummerierung in Kommentarfeld hinterlegen. 
+10
+ja, siehe Anlage550,00
+3Blade Server
+31Allgemeine Anforderungen
+317B
+Erweiterbarkeit: Booten (z.B. ESXi-Server) von redundanten SD-Karten (SD-, miniSD 
+oder microSD-Karten) möglich.
+10
+ja550,00
+318B
+Erweiterbarkeit: Booten (z.B. ESXi-Server) von redundanten Blade-Erweiterungskarten 
+(z.b. PCIe Flash Karte) möglich.
+10
+ja550,00
+34Festplatten
+349B
+Erweiterbarkeit: maximal mögliche Anzahl an HotPlug SSD's pro Blade; bitte Anzahl 
+angeben
+20
+bei 2 Socket 6 Stück, bei 4 
+Socket 8 Stück
+5100,00
+35Netzwerk
+356B
+maximal mögliche Datenübertragungsrate pro Port nach IEEE 802.3 Standard; bitte max. 
+Geschwindigkeit angeben.
+4
+25 GigaBit520,00
+357B
+Erweiterbarkeit: maximal mögliche Datenübertragungsrate pro Blade nach IEEE 802.3 
+Standard; bitte max. Geschwindigkeit angeben.
+4
+100 GigaBit520,00
+36weitere Schnittstellen
+362B
+Anzahl an Slots für SD-Karten (SD-, miniSD und microSD-Karten); bitte max. Anzahl 
+angeben.
+4
+3520,00
+38Management
+385B
+Meldungen während eines Bootvorgangs können zu einem späteren Zeitpunkt 
+nachvollzogen werden (z.B. automatisiert aufgezeichnet werden)
+1
+ja55,00
+386B
+Das Bladesystem kann proaktiv und automatisiert Fehlermeldungen incl. notwendiger 
+Logfiles an den Hersteller übertragen, um Ersatzteillieferungen auszulösen.
+1
+ja55,00
+388B
+Automatisch erzeugte Videos des letzten Bootvorgangs abspielbar
+6
+ja530,00
+4Dienstleistungen, Service und Support
+44Service & Support
+446B
+Erweiterbarkeit: Firmwareupdates für alle Komponenten auch ohne Supportvertrag 
+erhältlich
+20
+ja5100,00
+447B
+Erweiterbarkeit: Kosten für weitere 4 Jahre Support gemäß Pos. 4.4.1, bitte den Betrag 
+angeben.
+40
+Listenpreis netto 130.000,00 € 
+(Stand 27.01.2023)
+5200,00
+ 
+ 
