@@ -9,8 +9,8 @@ class FileContentStore extends BaseStore<FileContentType> {
   private initialSizeWithoutText = 0;
   private extractionQueue: { file: FileContentType; url: string }[] = [];
   private isProcessingQueue = false;
-  private readonly MAX_CONCURRENT_EXTRACTIONS = 5; // Maximum number of concurrent extractions
-  private readonly MAX_EXTRACTION_QUEUE_SIZE = 1000; // Maximum number of concurrent extractions
+  private readonly MAX_CONCURRENT_EXTRACTIONS = 10; // Maximum number of concurrent extractions
+  private readonly MAX_EXTRACTION_QUEUE_SIZE = 5000; // Maximum number of concurrent extractions
   private readonly DELAY_BETWEEN_EXTRACTIONS = 1000; // Delay in milliseconds between extractions
 
   getFileName(): string {
