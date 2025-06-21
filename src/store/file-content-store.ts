@@ -3,18 +3,30 @@ import { config } from '../config';
 import { FileContentType } from '../types/file-content-type';
 import { pdfService } from '../services/pdf-service';
 import { dateService } from '../services/date-service';
+import { readJsonFromFile, writeJsonToFile } from '../file-utils';
+import path from 'path';
+
+const MAX_CONCURRENT_EXTRACTIONS = 10; // Maximum number of concurrent extractions
+const MAX_EXTRACTION_QUEUE_SIZE = 10000; // Maximum number of concurrent extractions
+const DELAY_BETWEEN_EXTRACTIONS = 1000; // Delay in milliseconds between extractions
+const CHUNK_SIZE = 10000;
 
 class FileContentStore extends BaseStore<FileContentType> {
   private pendingExtractions: Set<Promise<void>> = new Set();
   private initialSizeWithoutText = 0;
   private extractionQueue: { file: FileContentType; url: string }[] = [];
   private isProcessingQueue = false;
-  private readonly MAX_CONCURRENT_EXTRACTIONS = 10; // Maximum number of concurrent extractions
-  private readonly MAX_EXTRACTION_QUEUE_SIZE = 5000; // Maximum number of concurrent extractions
-  private readonly DELAY_BETWEEN_EXTRACTIONS = 1000; // Delay in milliseconds between extractions
 
   getFileName(): string {
     return 'file-contents.json';
+  }
+
+  private getChunkFileName(chunkIndex: number): string {
+    return `file-contents-chunk-${chunkIndex}.json`;
+  }
+
+  private getChunkDirectoryPath(): string {
+    return path.join(__dirname, '..', '..', 'docs', 'file-contents-chunks');
   }
 
   protected async onItemLoad(file: FileContentType): Promise<void> {
@@ -47,7 +59,7 @@ class FileContentStore extends BaseStore<FileContentType> {
 
   private async extractAndSavePdfText(file: FileContentType, url: string): Promise<void> {
     // Add to queue instead of processing immediately
-    if (this.extractionQueue.length < this.MAX_EXTRACTION_QUEUE_SIZE) {
+    if (this.extractionQueue.length < MAX_EXTRACTION_QUEUE_SIZE) {
       this.extractionQueue.push({ file, url });
     }
 
@@ -70,7 +82,7 @@ class FileContentStore extends BaseStore<FileContentType> {
     this.isProcessingQueue = true;
 
     // Process up to MAX_CONCURRENT_EXTRACTIONS items at once
-    const currentBatch = this.extractionQueue.splice(0, this.MAX_CONCURRENT_EXTRACTIONS);
+    const currentBatch = this.extractionQueue.splice(0, MAX_CONCURRENT_EXTRACTIONS);
     console.log(
       `Processing batch of ${currentBatch.length} items. Remaining in queue: ${this.extractionQueue.length}`,
     );
@@ -100,11 +112,11 @@ class FileContentStore extends BaseStore<FileContentType> {
 
     await Promise.all(batchPromises);
     console.log(
-      `Batch processing completed. Adding delay of ${this.DELAY_BETWEEN_EXTRACTIONS}ms before next batch`,
+      `Batch processing completed. Adding delay of ${DELAY_BETWEEN_EXTRACTIONS}ms before next batch`,
     );
 
     // Add a delay before processing the next batch
-    await new Promise((resolve) => setTimeout(resolve, this.DELAY_BETWEEN_EXTRACTIONS));
+    await new Promise((resolve) => setTimeout(resolve, DELAY_BETWEEN_EXTRACTIONS));
 
     // Continue processing the queue
     await this.processExtractionQueue();
@@ -132,19 +144,127 @@ class FileContentStore extends BaseStore<FileContentType> {
     }
 
     console.log('Persisting items to file');
-    await super.persistItemsToFile();
-    const filesWithoutText = Array.from(this.itemStore.values()).filter(
-      (file) => !file.lastModifiedExtractedDate,
+
+    // Create chunks directory if it doesn't exist
+    const chunkDirPath = this.getChunkDirectoryPath();
+    const fs = require('fs').promises;
+    await fs.mkdir(chunkDirPath, { recursive: true });
+
+    // Get all items
+    const allItems = Array.from(this.itemStore.values());
+    const newSize = allItems.length;
+    const added = newSize - this.initialSizeWithoutText;
+    console.log(
+      `${added} added to ${this.getFileName()}  \t Initial size:${this.initialSizeWithoutText} \t New size: ${newSize}`,
     );
+
+    // Create a small index file with metadata only (no extracted text)
+    const indexItems = allItems.map((item) => ({
+      id: item.id,
+      downloadUrl: item.downloadUrl,
+      fileModified: item.fileModified,
+      lastModifiedExtractedDate: item.lastModifiedExtractedDate,
+      hasExtractedText: !!item.extractedText,
+    }));
+
+    // Write the index file
+    await writeJsonToFile(indexItems, this.getFileName());
+
+    // Split items into chunks
+    const chunks = [];
+
+    for (let i = 0; i < allItems.length; i += CHUNK_SIZE) {
+      chunks.push(allItems.slice(i, i + CHUNK_SIZE));
+    }
+
+    // Write each chunk to a separate file
+    for (let i = 0; i < chunks.length; i++) {
+      const chunkFileName = this.getChunkFileName(i);
+      const chunkFilePath = path.join(chunkDirPath, chunkFileName);
+      await fs.writeFile(chunkFilePath, JSON.stringify(chunks[i], null, 2), 'utf8');
+      console.log(`Wrote chunk ${i} with ${chunks[i].length} items to ${chunkFileName}`);
+    }
+
+    const filesWithoutText = allItems.filter((file) => !file.lastModifiedExtractedDate);
     console.log(`Initial ${this.initialSizeWithoutText} files without text`);
     console.log(`${filesWithoutText.length}/${this.itemStore.size} files without text`);
   }
 
   async loadItemsFromFile(): Promise<void> {
-    await super.loadItemsFromFile();
+    // First, try to load the index file
+    const indexData = await readJsonFromFile(this.getFileName());
+
+    if (!indexData || !Array.isArray(indexData)) {
+      console.log('No index file found or invalid format. Starting with empty store.');
+      this.initialSizeWithoutText = 0;
+      return;
+    }
+
+    // Create a map to store the items
+    const itemMap = new Map<string, FileContentType>();
+
+    // Try to load chunks from the chunks directory
+    const chunkDirPath = this.getChunkDirectoryPath();
+    const fs = require('fs').promises;
+
+    try {
+      // Check if chunks directory exists
+      await fs.access(chunkDirPath);
+
+      // Get all chunk files
+      const files = await fs.readdir(chunkDirPath);
+      const chunkFiles = files.filter(
+        (file: string) => file.startsWith('file-contents-chunk-') && file.endsWith('.json'),
+      );
+
+      console.log(`Found ${chunkFiles.length} chunk files`);
+
+      // Load each chunk
+      for (const chunkFile of chunkFiles) {
+        const chunkFilePath = path.join(chunkDirPath, chunkFile);
+        try {
+          const chunkData = JSON.parse(await fs.readFile(chunkFilePath, 'utf8'));
+
+          if (Array.isArray(chunkData)) {
+            // Add each item to the map
+            for (const item of chunkData) {
+              if (item && item.id) {
+                itemMap.set(item.id, item);
+                this.onItemLoad(item);
+              }
+            }
+          }
+        } catch (error) {
+          console.error(`Error loading chunk file ${chunkFile}:`, error);
+        }
+      }
+    } catch (error) {
+      console.log('No chunks directory found or error accessing it. Using index file only.');
+
+      // If chunks directory doesn't exist, use the index file to create placeholder items
+      for (const indexItem of indexData) {
+        const item: FileContentType = {
+          id: indexItem.id,
+          downloadUrl: indexItem.downloadUrl,
+          fileModified: indexItem.fileModified,
+          lastModifiedExtractedDate: indexItem.lastModifiedExtractedDate,
+          extractedText: undefined,
+        };
+
+        itemMap.set(item.id, item);
+        this.onItemLoad(item);
+      }
+    }
+
+    // Set the item store
+    this.itemStore = itemMap;
+
+    // Calculate initial size without text
     this.initialSizeWithoutText = Array.from(this.itemStore.values()).filter(
       (file) => !file.lastModifiedExtractedDate,
     ).length;
+
+    console.log(`Loaded ${this.itemStore.size} items from disk`);
   }
 }
 
