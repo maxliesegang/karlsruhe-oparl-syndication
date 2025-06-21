@@ -21,7 +21,6 @@ class MeetingStore extends BaseStore<Meeting> {
     return latestDate;
   }
 
-
   protected async onItemAdd(meeting: Meeting) {
     meeting.organization.forEach((orgId) => {
       if (!this.organizationMeetings.has(orgId)) {

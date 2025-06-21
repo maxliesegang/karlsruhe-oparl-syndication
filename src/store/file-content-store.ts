@@ -1,10 +1,8 @@
 import { BaseStore } from './base-store';
-import { correctUrl } from '../utils';
 import { config } from '../config';
 import { FileContentType } from '../types/file-content-type';
-import axios from 'axios';
-import { PDF_MIME_TYPE } from '../constants';
-import pdf from 'pdf-parse';
+import { pdfService } from '../services/pdf-service';
+import { dateService } from '../services/date-service';
 
 class FileContentStore extends BaseStore<FileContentType> {
   private pendingExtractions: Set<Promise<void>> = new Set();
@@ -23,10 +21,7 @@ class FileContentStore extends BaseStore<FileContentType> {
   }
 
   private async handleFileExtraction(file: FileContentType): Promise<void> {
-    const isCurrentFile =
-      file.fileModified.includes('2025') ||
-      file.fileModified.includes('2024') ||
-      file.fileModified.includes('2023');
+    const isCurrentFile = dateService.isCurrentFile(file.fileModified);
     if (!isCurrentFile) {
       file.lastModifiedExtractedDate = undefined;
       file.extractedText = undefined;
@@ -40,24 +35,11 @@ class FileContentStore extends BaseStore<FileContentType> {
 
   private async extractAndSavePdfText(file: FileContentType, url: string): Promise<void> {
     const extractionPromise = (async () => {
-      try {
-        const correctedUrl = correctUrl(url);
+      const extractedText = await pdfService.extractTextFromPdf(url);
 
-        const response = await axios.get(correctedUrl, {
-          responseType: 'arraybuffer',
-          headers: { Accept: PDF_MIME_TYPE },
-        });
-
-        const data = await pdf(response.data);
-
-        file.extractedText = data.text;
+      if (extractedText) {
+        file.extractedText = extractedText;
         file.lastModifiedExtractedDate = file.fileModified;
-      } catch (error) {
-        if (!axios.isAxiosError(error)) {
-          console.error('Error downloading PDF:', error);
-        } else {
-          console.log('Error parsing PDF:', error);
-        }
       }
     })();
 
