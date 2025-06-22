@@ -30,15 +30,29 @@ Contributions to improve this project are welcome. Please feel free to submit is
 
 ### File Content Storage
 
-This project extracts and stores text content from PDF files. To avoid exceeding GitHub's file size limits (100MB), the extracted text is stored in a simple and standard format that's easily accessible via HTTP requests:
+This project extracts and stores text content from PDF files. To avoid exceeding GitHub's file size limits (100MB) and provide efficient access options, the extracted text is stored in two complementary formats:
 
+#### Individual Files (for Direct Access)
 1. `docs/file-contents.json` - Contains metadata about all files (without the extracted text)
 2. `docs/file-contents/` - Directory containing individual plain text files for each extracted file, using the last part of the file ID as the filename with a .txt extension
 
-All files, including the individual text files, are included in Git. When you clone this repository and run the application, it will:
+The plain text format makes it easy for other applications to access specific content directly via HTTP requests.
+
+#### Chunk Files (for Bulk Loading)
+1. `docs/file-contents-chunks/` - Directory containing JSON chunk files, each with multiple file contents bundled together
+
+The chunk files provide a more efficient way to download multiple file contents at once, reducing the number of HTTP requests needed for bulk operations.
+
+#### How It Works
+
+All files, including both individual text files and chunk files, are included in Git. When you clone this repository and run the application, it will:
 
 1. Load the metadata from the index file
-2. Load the full content from the individual text files
-3. Create or update individual text files as needed when new content is processed
+2. Try to load content from chunk files first (faster for bulk loading)
+3. Fall back to loading from individual text files if needed
+4. Create or update both individual text files and chunk files when new content is processed
 
-This approach ensures that all data is available immediately after cloning the repository, while still keeping individual file sizes under GitHub's 100MB limit. The plain text format makes it easy for other applications to access the content directly via HTTP requests.
+This dual approach ensures that all data is available immediately after cloning the repository, while still keeping individual file sizes under GitHub's 100MB limit. It also provides flexibility in how the data is accessed:
+
+- For single file access: Use the individual text files
+- For bulk operations: Use the chunk files to reduce download time

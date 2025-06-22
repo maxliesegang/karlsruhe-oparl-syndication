@@ -8,8 +8,9 @@ import path from 'path';
 import fs from 'fs/promises';
 
 const MAX_CONCURRENT_EXTRACTIONS = 10; // Maximum number of concurrent extractions
-const MAX_EXTRACTION_QUEUE_SIZE = 10000; // Maximum number of concurrent extractions
+const MAX_EXTRACTION_QUEUE_SIZE = 1000; // Maximum number of concurrent extractions
 const DELAY_BETWEEN_EXTRACTIONS = 1000; // Delay in milliseconds between extractions
+const CHUNK_SIZE = 1000; // Number of files per chunk
 
 class FileContentStore extends BaseStore<FileContentType> {
   private pendingExtractions: Set<Promise<void>> = new Set();
@@ -23,6 +24,18 @@ class FileContentStore extends BaseStore<FileContentType> {
 
   private getFileContentDirectoryPath(): string {
     return path.join(__dirname, '..', '..', 'docs', 'file-contents');
+  }
+
+  private getChunksDirectoryPath(): string {
+    return path.join(__dirname, '..', '..', 'docs', 'file-contents-chunks');
+  }
+
+  private getChunkFileName(chunkIndex: number): string {
+    return `chunk-${chunkIndex}.json`;
+  }
+
+  private getChunkFilePath(chunkIndex: number): string {
+    return path.join(this.getChunksDirectoryPath(), this.getChunkFileName(chunkIndex));
   }
 
   private getFileIdFromUrl(id: string): string {
@@ -156,6 +169,10 @@ class FileContentStore extends BaseStore<FileContentType> {
     const contentDirPath = this.getFileContentDirectoryPath();
     await fs.mkdir(contentDirPath, { recursive: true });
 
+    // Create chunks directory if it doesn't exist
+    const chunksDirPath = this.getChunksDirectoryPath();
+    await fs.mkdir(chunksDirPath, { recursive: true });
+
     // Get all items
     const allItems = Array.from(this.itemStore.values());
     const newSize = allItems.length;
@@ -188,6 +205,29 @@ class FileContentStore extends BaseStore<FileContentType> {
     }
     console.log(`Wrote ${filesWritten} individual files to ${contentDirPath}`);
 
+    // Create chunks for faster bulk loading
+    // Filter items that have extracted text
+    const itemsWithText = allItems.filter((item) => item.extractedText);
+
+    // Create chunks
+    const chunks = [];
+    for (let i = 0; i < itemsWithText.length; i += CHUNK_SIZE) {
+      chunks.push(itemsWithText.slice(i, i + CHUNK_SIZE));
+    }
+
+    // Write each chunk to a file
+    for (let i = 0; i < chunks.length; i++) {
+      const chunkData = chunks[i].map((item) => ({
+        id: item.id,
+        fileId: this.getFileIdFromUrl(item.id),
+        extractedText: item.extractedText,
+      }));
+
+      const chunkFilePath = this.getChunkFilePath(i);
+      await fs.writeFile(chunkFilePath, JSON.stringify(chunkData), 'utf8');
+    }
+    console.log(`Wrote ${chunks.length} chunk files to ${chunksDirPath}`);
+
     const filesWithoutText = allItems.filter((file) => !file.lastModifiedExtractedDate);
     console.log(`Initial ${this.initialSizeWithoutText} files without text`);
     console.log(`${filesWithoutText.length}/${this.itemStore.size} files without text`);
@@ -206,69 +246,113 @@ class FileContentStore extends BaseStore<FileContentType> {
     // Create a map to store the items
     const itemMap = new Map<string, FileContentType>();
 
-    // Try to load individual files from the file content directory
-    const contentDirPath = this.getFileContentDirectoryPath();
+    // Create placeholder items from the index file
+    for (const indexItem of indexData) {
+      const item: FileContentType = {
+        id: indexItem.id,
+        downloadUrl: indexItem.downloadUrl,
+        fileModified: indexItem.fileModified,
+        lastModifiedExtractedDate: indexItem.lastModifiedExtractedDate,
+        extractedText: undefined,
+      };
+
+      itemMap.set(item.id, item);
+    }
+
+    // Try to load from chunk files first (faster for bulk loading)
+    let loadedFromChunks = false;
+    const chunksDirPath = this.getChunksDirectoryPath();
 
     try {
-      // Check if file content directory exists
-      await fs.access(contentDirPath);
+      // Check if chunks directory exists
+      await fs.access(chunksDirPath);
 
-      // Create placeholder items from the index file
-      for (const indexItem of indexData) {
-        const item: FileContentType = {
-          id: indexItem.id,
-          downloadUrl: indexItem.downloadUrl,
-          fileModified: indexItem.fileModified,
-          lastModifiedExtractedDate: indexItem.lastModifiedExtractedDate,
-          extractedText: undefined,
-        };
+      // Get all chunk files
+      const files = await fs.readdir(chunksDirPath);
+      const chunkFiles = files.filter(
+        (file) => file.startsWith('chunk-') && file.endsWith('.json'),
+      );
 
-        itemMap.set(item.id, item);
-      }
+      if (chunkFiles.length > 0) {
+        console.log(`Found ${chunkFiles.length} chunk files. Loading from chunks...`);
 
-      // Load content for items that have extracted text
-      let filesLoaded = 0;
-      for (const indexItem of indexData) {
-        if (indexItem.hasExtractedText) {
+        // Sort chunk files by index
+        chunkFiles.sort((a, b) => {
+          const indexA = parseInt(a.replace('chunk-', '').replace('.json', ''));
+          const indexB = parseInt(b.replace('chunk-', '').replace('.json', ''));
+          return indexA - indexB;
+        });
+
+        // Load content from each chunk file
+        let totalItemsLoaded = 0;
+
+        for (const chunkFile of chunkFiles) {
           try {
-            const filePath = this.getFilePathForId(indexItem.id);
-            const extractedText = await fs.readFile(filePath, 'utf8');
+            const chunkFilePath = path.join(chunksDirPath, chunkFile);
+            const chunkData = JSON.parse(await fs.readFile(chunkFilePath, 'utf8'));
 
-            if (extractedText) {
-              const item = itemMap.get(indexItem.id);
-              if (item) {
-                item.extractedText = extractedText;
-                filesLoaded++;
+            if (Array.isArray(chunkData)) {
+              for (const chunkItem of chunkData) {
+                const item = itemMap.get(chunkItem.id);
+                if (item && chunkItem.extractedText) {
+                  item.extractedText = chunkItem.extractedText;
+                  totalItemsLoaded++;
+                }
               }
             }
           } catch (error) {
-            console.error(`Error loading file for ID ${indexItem.id}:`, error);
+            console.error(`Error loading chunk file ${chunkFile}:`, error);
           }
         }
-      }
 
-      console.log(`Loaded ${filesLoaded} individual content files`);
-
-      // Call onItemLoad for each item
-      for (const item of itemMap.values()) {
-        this.onItemLoad(item);
+        console.log(`Loaded ${totalItemsLoaded} items from chunk files`);
+        loadedFromChunks = totalItemsLoaded > 0;
       }
     } catch (error) {
-      console.log('No file content directory found or error accessing it. Using index file only.');
+      console.log('No chunks directory found or error accessing it. Will try individual files.');
+    }
 
-      // If file content directory doesn't exist, use the index file to create placeholder items
-      for (const indexItem of indexData) {
-        const item: FileContentType = {
-          id: indexItem.id,
-          downloadUrl: indexItem.downloadUrl,
-          fileModified: indexItem.fileModified,
-          lastModifiedExtractedDate: indexItem.lastModifiedExtractedDate,
-          extractedText: undefined,
-        };
+    // If we couldn't load from chunks, try to load from individual files
+    if (!loadedFromChunks) {
+      // Try to load individual files from the file content directory
+      const contentDirPath = this.getFileContentDirectoryPath();
 
-        itemMap.set(item.id, item);
-        this.onItemLoad(item);
+      try {
+        // Check if file content directory exists
+        await fs.access(contentDirPath);
+
+        // Load content for items that have extracted text
+        let filesLoaded = 0;
+        for (const indexItem of indexData) {
+          if (indexItem.hasExtractedText) {
+            try {
+              const filePath = this.getFilePathForId(indexItem.id);
+              const extractedText = await fs.readFile(filePath, 'utf8');
+
+              if (extractedText) {
+                const item = itemMap.get(indexItem.id);
+                if (item) {
+                  item.extractedText = extractedText;
+                  filesLoaded++;
+                }
+              }
+            } catch (error) {
+              console.error(`Error loading file for ID ${indexItem.id}:`, error);
+            }
+          }
+        }
+
+        console.log(`Loaded ${filesLoaded} individual content files`);
+      } catch (error) {
+        console.log(
+          'No file content directory found or error accessing it. Using index file only.',
+        );
       }
+    }
+
+    // Call onItemLoad for each item
+    for (const item of itemMap.values()) {
+      this.onItemLoad(item);
     }
 
     // Set the item store
