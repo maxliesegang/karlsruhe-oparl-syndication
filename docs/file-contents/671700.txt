@@ -1,0 +1,222 @@
+
+
+ 
+ 
+Vereinbarung über die Einführung, Beschaffung, Installation und den Betrieb eines regionalen 
+AFZS-Hintergrundsystems 
+ 
+ 
+zwischen der 
+ 
+ 
+Verkehrsverbund Rhein-Neckar GmbH 
+B 1, 3-5 
+68159 Mannheim 
+(diese im Folgenden auch als VRN bezeichnet) 
+ 
+ 
+und 
+ 
+ 
+der Stadt Baden-Baden, der Stadt Karlsruhe, dem Landkreis Karlsruhe  
+sowie dem Landkreis Rastatt 
+ 
+ 
+(diese zusammen im Folgenden auch als übrige Vertragspartner bezeichnet) 
+  
+
+ 
+ 
+Präambel 
+Das Land Baden-Württemberg stellt jährliche Verbundfördermittel für die baden-württembergischen 
+Verkehrsverbünde bereit. Voraussetzung hierfür ist unter anderem die Bereitstellung der 
+Nachfragedaten gemäß §§ 9 und 15 des ÖPNVG an das Land. Die Vertragsparteien haben sich darauf 
+verständigt, dass die Daten grundsätzlich über eine automatisierte Fahrgastzählung (AFZS) ermittelt 
+werden sollen. 
+Um die Errichtung regionaler Hintergrundsysteme für die Erhebung dieser AFZS-Daten zu 
+unterstützen, plant das Land eine Förderung der Investitions- und Betriebskosten. Darüber hinaus 
+besteht bereits die vom Land etablierte Vorabförderung.  
+Die Aufgabenträger des VRN, des KVV und des VPE haben sich entschlossen, den VRN mit der 
+Einrichtung und dem Betrieb eines regionalen-AFZS-Hintergrundsystems (RHGS) zu beauftragen. 
+Entsprechend der Anforderungen des Landes soll dieser Entschluss nun im Rahmen einer 
+Vereinbarung verbindlich fixiert werden. Bei der Beschaffung, der Einrichtung, der Installation und 
+dem Betrieb des RHGS handelt es sich um eine allen Vertragsparteien obliegende Aufgabe, die von 
+den Parteien zur Sicherstellung einer optimalen Zielerreichung in Kooperation ausgeführt werden soll. 
+Die als Gesellschafter des KVV organisierten baden-württembergischen Aufgabenträger haben die 
+Karlsruher Verkehrsverbund GmbH (KVV) mit der operativen Umsetzung aller erforderlichen 
+Aufgaben zum Betrieb von AFZS in den Fahrzeugen der von den Aufgabenträgern beauftragten ÖPNV-
+Verkehre, der Weiterleitung der geprüften Fahrgastzähldaten an das Hintergrundsystem des VRN und 
+der Betreuung dessen, der Verrechnung der anfallenden Kosten zwischen VRN und den 
+Aufgabenträgern sowie der Sicherstellung der Übermittlung der gesetzlich geforderten 
+Fahrgastnachfragedaten an das Land Baden-Württemberg in einer separaten Vereinbarung 
+beauftragt. 
+In einer weiteren Vereinbarung zwischen dem KVV und dem VRN werden die Leistungen des VRN 
+sowie die hierfür von den Aufgabenträgern über den KVV zu zahlende Vergütung geregelt. Zu den 
+Leistungen des VRN zählen insbesondere die Bereitstellung der Software maBinso Studio, der 
+jährliche Betrieb des Systems sowie die Bereitstellung und der Betrieb der Serverinfrastruktur, 
+einschließlich Netzwerk, Server Zudem übernimmt der VRN die Wartung der genannten 
+Komponenten. Für den KVV wird der Betrieb auf einem eigenen Server mit einer eigenen Datenbank 
+durchgeführt, die vom VRN bereitgestellt und betrieben wird. Darüber hinaus umfasst die Leistung 
+des VRN einen First-Level-Support, die Unterstützung des KVV bei der Analyse unplausibler Zähldaten 
+sowie die Funktion als erster Ansprechpartner für die Klärung von Rückfragen und die Behebung von 
+Störungen. 
+  
+
+ 
+ 
+§ 1 Einführung 
+Die Vertragspartner sind sich einig, dass gemeinsam ein mandantenfähiges RHGS zur Erhebung von 
+AFZS-Daten eingeführt und betrieben werden soll. Alle Vertragspartner tragen die hierzu 
+notwendigen, im Einzelnen vereinbarten, Leistungen bei. 
+ 
+§ 2 Beschaffung 
+(1) Das RHGS besteht aus den folgenden Bestandteilen:  
+• Der Software maBinso Studio 
+• Der notwendigen Serverinfrastruktur für den Betrieb von maBinso Studio 
+• Dem Modul Datenaufbereitung zur Aufbereitung der Zähldaten i.S. der §§ 9 und 15 des 
+ÖPNVG  
+Der VRN stellt sicher, dass das RHGS dem Anforderungskatalog „Automatische Fahrgastzählung“ des 
+Landes in der jeweils gültigen Fassung gemäß der Anlage 1 zur Richtlinie zur VWV-LGVFG über die 
+Förderung von automatischen Fahrgastzählsystemen (RL AFZS) entspricht. 
+(2) Die Software maBinso Studio sowie die Serverinfrastruktur sind bereits beim VRN vorhanden. Es 
+ist jedoch eine Anpassung der Funktionalität der Software maBinso Studio, eine Erweiterung der 
+bestehenden Lizenzen sowie der Infrastruktur notwendig. Diese nimmt der VRN im eigenen Namen 
+im Auftrag der Vertragspartner vor. Der VRN stellt die vorstehenden Bestandteile für die Einrichtung, 
+Installation und den Betrieb des Hintergrundsystems bereit. 
+(3) Das Modul Datenaufbereitung wird vom VRN entwickelt und implementiert, so dass die 
+Datenlieferung an das Land gewährleistet ist. 
+(4) Der VRN stellt keine Software oder technische Infrastruktur für Vorgänge zur Verfügung, die die 
+Datenlieferung der übrigen Vertragspartner an den VRN bis zum Zugang der Daten beim VRN betrifft. 
+Die hierfür notwendigen Voraussetzungen sind durch jeden Vertragspartner beziehungsweise durch 
+die Personen, derer er sich bedient, eigenverantwortlich zu beschaffen und vorzuhalten. 
+ 
+§ 3 Installation 
+Die Einrichtung der maBinso Studio Software sowie der übrigen Bestandteile nach § 2 Abs. 1 erfolgt 
+durch den VRN. Bei maBinso Studio handelt es sich um eine Webanwendung. Eine Installation bei 
+den übrigen Vertragspartnern ist nicht notwendig. Software und technische Infrastruktur im Sinne 
+von § 2 Abs. 4 sind von jedem Vertragspartner oder den Personen derer er sich bedient 
+eigenverantwortlich zu installieren.  
+  
+
+ 
+ 
+§ 4 Betrieb 
+(1) Nach der Beschaffung und Installation des Systems werden die Vertragspartner das RHGS 
+betreiben.  
+(2) Auf Seiten des VRN umfasst der Betrieb die in den Abs. 3, 6 und 7 ausgeführten Pflichten. Auf 
+Seiten der übrigen Vertragspartner umfasst der Betrieb die in den Abs. 4 und 5 ausgeführten 
+Pflichten.  
+(3) Der VRN stellt den übrigen Partnern kontinuierlich die Software maBinso Studio sowie die übrigen 
+unter § 2 Abs. 1 genannten Bestandeile zur Verfügung. Er stellt hierfür einen First-Level-Support 
+bereit.  
+(4) Die übrigen Vertragspartner verpflichten sich, Fahrgastzähldaten (AFZS-Daten und ggf. Zähldaten 
+aus weiteren Quellen) aus ihren jeweiligen Zuständigkeitsbereichen umfassend und vollständig 
+entsprechend des jeweils vom Land Baden-Württemberg bestimmten Umfangs fristgerecht an den 
+VRN zu übermitteln. Soweit möglich, bedienen sie sich hierzu des Verkehrsverbundes, dessen 
+Gesellschafter sie sind. Die übermittelten Daten müssen den Anforderungen des Landes Baden-
+Württemberg entsprechen. Sofern Daten aus anderen Hintergrundsystemen, das heißt bereits 
+aufbereitet, zur Verfügung gestellt werden, stellt der jeweilige Vertragspartner sicher, dass diese 
+Daten ebenfalls den Anforderungen des Landes Baden-Württemberg entsprechen.  
+(5) Die übrigen Vertragspartner verpflichten sich ferner zur Erfassung, Pflege und Bereitstellung von 
+Fahrplandaten, geografischen Informationen zu Haltestellen und Fahrtverläufen sowie 
+Fahrzeugstammdaten und Informationen zu Durchbindungen (Metadaten). Soweit möglich, bedienen 
+sie sich hierzu des Verkehrsverbundes, dessen Gesellschafter sie sind. 
+(6) Der VRN führt die ihm gelieferten Daten zusammen und bereitet diese entsprechend den 
+Vorgaben des Landes Baden-Württemberg auf. 
+(7) Der VRN leitet die aufbereiteten Daten fristgerecht an das Land Baden-Württemberg weiter. Der 
+Anspruch auf fristgerechte Weiterleitung besteht nur, wenn die Fahrgastzähldaten dem VRN jeweils 
+bis zum 31. Januar des Folgejahres vorliegen. 
+ 
+§ 5 Vergütung/Finanzierung 
+(1) Soweit für die Beschaffung nach § 2 Abs. 1 oder die Installation nach § 3 S. 1 Kosten anfallen, sind 
+diese durch die übrigen Vertragspartner zu tragen. Die Kosten sind dem VRN zu erstatten. Soweit die 
+Kosten einzelnen Aufgabenträgern oder einzelnen Gruppen von Aufgabenträgern zuzuordnen sind, 
+haben diese die Kosten insoweit zu tragen. Das Nähere regelt die nach § 5 Abs. 1 UAbs. 3 
+abzuschließende gesonderte Vereinbarung Soweit Zuschüsse des Landes zu einer Reduktion der 
+Kosten beim VRN führen, ermäßigen sich die von den Vertragspartnern zu erstattenden Kosten in 
+diesem Umfang.  
+Die Kosten für Beschaffungen nach § 2 Abs. 2, das heißt für die Beschaffung der notwendigen 
+Lizenzen und zusätzlichen Serverkapazitäten, sowie Installationen im Sinne von § 3 S. 1 trägt jeder 
+Vertragspartner selbst. Das Nähere regelt die nach § 5 Abs. 1 UAbs. 3 abzuschließende gesonderte 
+Vereinbarung.  
+Der VRN erhält für den Betrieb des Hintergrundsystems eine finanzielle Vergütung. Die Höhe dieser 
+zu leistenden Vergütung ergibt sich für jeden Vertragspartner aus einer gesonderten Vereinbarung. 
+Die gesonderte Vereinbarung konkretisiert darüber hinaus die sich aus dieser Vereinbarung 
+
+ 
+ 
+ergebenden Leistungspflichten des VRN, insbesondere die Konditionen des First-Level-Supports. Die 
+Vertragspartner verpflichten sich, dabei für eine insgesamt auskömmliche Finanzierung des Systems 
+zu sorgen. Bis zum Abschluss der jeweiligen Vergütungsvereinbarung steht dem VRN ein 
+Zurückbehaltungsrecht hinsichtlich der in dieser Vereinbarung vereinbarten Leistungen gegen den 
+jeweiligen Vertragspartner zu.  
+(2) Die Vereinbarung nach Abs. 1, UAbs. 3 kann für einen oder mehrere übrige Vertragspartner auch 
+mit einem Unternehmen dessen Gesellschafter die betroffenen übrigen Vertragspartner sind 
+geschlossen werden. Die Aufgabenträger haben insoweit für eine hinreichende Berechtigung und 
+Ermächtigung der Aufgabenträgerorganisation bzw. der Gesellschaft Sorge zu tragen. 
+ 
+§ 6 Laufzeit und Kündigung 
+(1) Diese Vereinbarung wird für unbestimmte Dauer geschlossen. Beginn der Vereinbarung ist der 
+01.01.2026 Jede Vertragspartei kann diese Vereinbarung mit einer Frist von 1 Jahr zum Ende eines 
+jeden Jahrs durch schriftliche Erklärung gegenüber allen Vertragsparteien kündigen. Außer im Falle 
+der eigenen Kündigung ist der VRN dabei Empfangsbevollmächtigter der übrigen Vertragspartner für 
+Kündigungserklärungen betreffend dieser Vereinbarung. Die Kündigung aus wichtigem Grund bleibt 
+unberührt.  
+(2) Die Kündigung eines übrigen Vertragspartners führt zu dessen Ausscheiden aus der Vereinbarung. 
+Die Vereinbarung bleibt jedoch zwischen den verbleibenden Vertragspartnern unverändert bestehen. 
+Wird durch das Ausscheiden eines übrigen Vertragspartners die Auskömmlichkeit der 
+Gesamtvergütung nach § 5 Abs. 1 für den VRN beeinträchtigt, so sind die Vergütungsvereinbarungen 
+der anderen Vertragspartner anteilig anzupassen. Für den Fall des Ausscheidens eines übrigen 
+Vertragspartners aus der Vereinbarung steht den verbleibenden übrigen Vertragspartner ein 
+Sonderkündigungsrecht zu. Dieses ist binnen von acht Wochen ab Zugang der Kündigungserklärung 
+oder, sofern das Ausscheiden nicht auf einer Kündigung beruht, ab Zugang der Information über das 
+Ausscheiden auszuüben. Die auf dem Sonderkündigungsrecht beruhende Kündigung wird wirksam 
+zum Zeitpunkt des Ausscheidens desjenigen Vertragspartners dessen Ausscheiden das 
+Sonderkündigungsrecht einräumt sofern nicht bei Ausübung des Sonderkündigungsrechts ein 
+späterer Zeitpunkt bestimmt wird. Das Sonderkündigungsrecht ist schriftlich auszuüben. Sofern der 
+VRN als Empfangsbevollmächtigter im Sinne von Abs. 1 agiert, informiert er die anderen 
+Vertragsparteien binnen zwei Wochen über die Kündigungserklärung. Dieser Informationspflicht 
+genügt der VRN auch dadurch, dass er die Information an das Unternehmen weitergibt, mit dem die 
+gesonderte Vereinbarung nach § 5 Abs. 1 UAbs. 3 in Verbindung mit § 5 Abs. 2 geschlossen wurde.  
+  
+
+ 
+ 
+§ 7 Schlussbestimmungen 
+(1) Gerichtsstand für Streitigkeiten aus dieser Vereinbarung ist Mannheim.  
+(2) Änderungen dieser Vereinbarung bedürfen zu ihrer Wirksamkeit der Schriftform. Dies gilt auch für 
+eine Änderung dieses § 7 Abs. 2.  
+(3) Sollte ein Teil dieser Vereinbarung nichtig sein oder werden, wird die Wirksamkeit der übrigen 
+Bestandteile der Vereinbarung nicht berührt. Die Vertragsparteien verpflichten sich in diesem Fall 
+anstelle des nichtigen Vereinbarungsteils eine wirksame Vereinbarung zu verhandeln, welche der 
+ursprünglich beabsichtigten rechtlichen und wirtschaftlichen Wirkung am nächsten kommt.  
+(4) Jede Vertragspartei erhält eine Ausfertigung dieser Vereinbarung. 
+ 
+ 
+Mannheim, den ______________________ 
+ 
+ 
+ 
+ 
+____________________________________ 
+Verkehrsverbund Rhein-Neckar GmbH 
+ 
+ 
+ 
+ 
+Für die Stadt Baden-Baden   Für die Stadt Karlsruhe 
+ 
+ 
+ 
+ 
+__________________________________ _________________________________ 
+ 
+ 
+ 
+Für den Landkreis Karlsruhe   Für den Landkreis Rastatt 
+ 
+ 
+ 
+ 
+__________________________________ _________________________________ 
+ 
