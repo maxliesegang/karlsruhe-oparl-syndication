@@ -1,17 +1,19 @@
 import fs from 'fs/promises';
 import path from 'path';
 
-export async function writeJsonToFile(data: any, filename: string): Promise<void> {
-  const filePath = path.join(__dirname, '..', 'docs', filename);
+const DOCS_DIR = path.join(__dirname, '..', 'docs');
+
+export async function writeJsonToFile<T>(data: T, filename: string): Promise<void> {
+  const filePath = path.join(DOCS_DIR, filename);
   await fs.mkdir(path.dirname(filePath), { recursive: true });
   await fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf8');
 }
 
-export async function readJsonFromFile(filename: string): Promise<any> {
-  const filePath = path.join(__dirname, '..', 'docs', filename);
+export async function readJsonFromFile<T>(filename: string): Promise<T | null> {
+  const filePath = path.join(DOCS_DIR, filename);
   try {
     const data = await fs.readFile(filePath, 'utf8');
-    return JSON.parse(data);
+    return JSON.parse(data) as T;
   } catch (error) {
     if ((error as NodeJS.ErrnoException).code === 'ENOENT') {
       return null;
