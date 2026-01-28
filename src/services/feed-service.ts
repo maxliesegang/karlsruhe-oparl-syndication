@@ -5,27 +5,28 @@ import { meetingStore } from '../store/meeting-store';
 import { paperStore } from '../store/paper-store';
 import { config } from '../config';
 import { loadFromDisk, saveToDisk } from './cache-service';
+import { logger } from '../logger';
 
 /** Fetches all data from the OParl API */
 async function fetchAllData(): Promise<void> {
-  console.log('Fetching data from OParl API...');
+  logger.info('Fetching data from OParl API...');
 
   await fetchAllOrganizations();
-  await fetchAllMeetings(meetingStore.getLastModified());
-  await fetchAllPapers(paperStore.getLastModified());
+  await fetchAllMeetings(meetingStore.getLastModifiedWithSafetyMargin());
+  await fetchAllPapers(paperStore.getLastModifiedWithSafetyMargin());
 
-  console.log('Finished fetching data.');
+  logger.info('Finished fetching data.');
 }
 
 /** Generates and saves the Atom feed */
 async function generateFeed(): Promise<void> {
-  console.log('Generating feed...');
+  logger.info('Generating feed...');
 
   const meetings = store.meetings.getAllItems();
   const feed = await createFeed(meetings, new Date());
   await writeFeedToFile(feed);
 
-  console.log(`Feed saved as ${config.feedFilename}`);
+  logger.info(`Feed saved as ${config.feedFilename}`);
 }
 
 /**

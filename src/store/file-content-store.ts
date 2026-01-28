@@ -1,9 +1,10 @@
 import { BaseStore } from './base-store';
 import { config } from '../config';
 import { FileContentType } from '../types/file-content-type';
-import { isRecentFile } from '../services/date-service';
+import { isRecentFile } from '../utils';
 import { pdfExtractionQueue } from '../services/pdf-extraction-queue';
 import { readJsonFromFile, writeJsonToFile } from '../file-utils';
+import { logger } from '../logger';
 import path from 'path';
 import fs from 'fs/promises';
 
@@ -28,11 +29,11 @@ class FileContentStore extends BaseStore<FileContentType> {
     return 'file-contents.json';
   }
 
-  protected async onItemLoad(file: FileContentType): Promise<void> {
+  protected onItemLoad(file: FileContentType): void {
     this.scheduleExtractionIfNeeded(file);
   }
 
-  protected async onItemAdd(file: FileContentType): Promise<void> {
+  protected onItemAdd(file: FileContentType): void {
     this.scheduleExtractionIfNeeded(file);
   }
 
@@ -58,13 +59,13 @@ class FileContentStore extends BaseStore<FileContentType> {
 
   async persistItemsToFile(): Promise<void> {
     await pdfExtractionQueue.waitForCompletion();
-    console.log('Persisting file contents to disk');
+    logger.info('Persisting file contents to disk');
 
     await fs.mkdir(CONTENT_DIR, { recursive: true });
     await fs.mkdir(CHUNKS_DIR, { recursive: true });
 
     const allItems = this.getAllItems();
-    console.log(`${allItems.length - this.initialCount} new items. Total: ${allItems.length}`);
+    logger.info(`${allItems.length - this.initialCount} new items. Total: ${allItems.length}`);
 
     // Write index file (metadata only)
     const indexItems: FileContentIndex[] = allItems.map((item) => ({
@@ -82,7 +83,7 @@ class FileContentStore extends BaseStore<FileContentType> {
     await this.writeChunkFiles(itemsWithText);
 
     const withoutText = allItems.filter((f) => !f.lastModifiedExtractedDate).length;
-    console.log(`${withoutText}/${allItems.length} files without extracted text`);
+    logger.info(`${withoutText}/${allItems.length} files without extracted text`);
   }
 
   private async writeIndividualFiles(items: FileContentType[]): Promise<void> {
@@ -94,7 +95,7 @@ class FileContentStore extends BaseStore<FileContentType> {
         count++;
       }
     }
-    console.log(`Wrote ${count} individual text files`);
+    logger.info(`Wrote ${count} individual text files`);
   }
 
   private async writeChunkFiles(items: FileContentType[]): Promise<void> {
@@ -111,14 +112,14 @@ class FileContentStore extends BaseStore<FileContentType> {
       }));
       await fs.writeFile(path.join(CHUNKS_DIR, `chunk-${i}.json`), JSON.stringify(chunkData));
     }
-    console.log(`Wrote ${chunks.length} chunk files`);
+    logger.info(`Wrote ${chunks.length} chunk files`);
   }
 
   async loadItemsFromFile(): Promise<void> {
     const indexData = await readJsonFromFile<FileContentIndex[]>(this.getFileName());
 
     if (!indexData) {
-      console.log('No file contents index found. Starting fresh.');
+      logger.info('No file contents index found. Starting fresh.');
       return;
     }
 
@@ -147,7 +148,7 @@ class FileContentStore extends BaseStore<FileContentType> {
 
     this.itemStore = itemMap;
     this.initialCount = itemMap.size;
-    console.log(`Loaded ${itemMap.size} file content entries`);
+    logger.info(`Loaded ${itemMap.size} file content entries`);
   }
 
   private async loadFromChunks(itemMap: Map<string, FileContentType>): Promise<boolean> {
@@ -159,7 +160,7 @@ class FileContentStore extends BaseStore<FileContentType> {
 
       if (chunkFiles.length === 0) return false;
 
-      console.log(`Loading from ${chunkFiles.length} chunk files`);
+      logger.info(`Loading from ${chunkFiles.length} chunk files`);
       let loaded = 0;
 
       for (const file of chunkFiles) {
@@ -173,7 +174,7 @@ class FileContentStore extends BaseStore<FileContentType> {
         }
       }
 
-      console.log(`Loaded ${loaded} items from chunks`);
+      logger.info(`Loaded ${loaded} items from chunks`);
       return loaded > 0;
     } catch {
       return false;
@@ -204,9 +205,9 @@ class FileContentStore extends BaseStore<FileContentType> {
         }
       }
 
-      console.log(`Loaded ${loaded} individual files`);
+      logger.info(`Loaded ${loaded} individual files`);
     } catch {
-      console.log('No content directory found');
+      logger.info('No content directory found');
     }
   }
 }

@@ -1,4 +1,11 @@
 import { readJsonFromFile, writeJsonToFile } from '../file-utils';
+import { logger } from '../logger';
+
+interface Timestamped {
+  id: string;
+  created: string;
+  modified?: string;
+}
 
 export abstract class BaseStore<T extends { id: string }> {
   protected itemStore: Map<string, T> = new Map();
@@ -6,15 +13,15 @@ export abstract class BaseStore<T extends { id: string }> {
 
   abstract getFileName(): string;
 
-  protected async onItemLoad(_: T): Promise<void> {
-    // No action by default
+  protected onItemLoad(_item: T): void {
+    // Override in subclass if needed
   }
 
-  protected async onItemAdd(_: T): Promise<void> {
-    // No action by default
+  protected onItemAdd(_item: T): void {
+    // Override in subclass if needed
   }
 
-  add(item: T) {
+  add(item: T): void {
     this.itemStore.set(item.id, item);
     this.onItemAdd(item);
   }
@@ -27,16 +34,35 @@ export abstract class BaseStore<T extends { id: string }> {
     return Array.from(this.itemStore.values());
   }
 
-  clearAllItems() {
+  clearAllItems(): void {
     this.itemStore.clear();
   }
 
+  /**
+   * Gets the most recent modification date from all items.
+   * Optionally subtracts days for safety margin in incremental sync.
+   */
+  getLastModified(subtractDays = 0): Date | undefined {
+    const items = this.getAllItems() as unknown as Timestamped[];
+    const allDates = items.map((item) =>
+      item.modified ? new Date(item.modified) : new Date(item.created),
+    );
+
+    if (!allDates.length) return undefined;
+
+    const latestDate = new Date(Math.max(...allDates.map((date) => date.getTime())));
+    if (subtractDays > 0) {
+      latestDate.setDate(latestDate.getDate() - subtractDays);
+    }
+    return latestDate;
+  }
+
   async persistItemsToFile(): Promise<void> {
-    const data: Array<T> = Array.from(this.itemStore.values());
+    const data = Array.from(this.itemStore.values());
     const newSize = data.length;
     const added = newSize - this.initialLoadSize;
-    console.log(
-      `${added} added to ${this.getFileName()}  \t Initial size:${this.initialLoadSize} \t New size: ${newSize}`,
+    logger.info(
+      `${this.getFileName()}: ${added} added (${this.initialLoadSize} -> ${newSize})`,
     );
     await writeJsonToFile(data, this.getFileName());
   }

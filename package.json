@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "format": "prettier --write \"src/**/*.ts\"",
+    "build": "tsc",
+    "start": "node dist/index.js",
     "generate": "npx ts-node src/index.ts",
-    "serve": "http-server ./docs -p 8080",
-    "merge-files": "find src -type f \\( -name '*.ts' -o -name '*.tsx' \\) -print0 | xargs -0 -I {} sh -c 'echo \"// File: {}\"; cat \"{}\"; echo \"\"' > merged_output.txt"
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "typecheck": "tsc --noEmit",
+    "serve": "http-server ./docs -p 8080"
   },
   "keywords": [],
   "author": "",
@@ -15,20 +19,17 @@
   "devDependencies": {
     "@types/node": "^24.0.3",
     "@types/pdf-parse": "^1.1.5",
-    "@types/xml2js": "^0.4.14",
-    "@typescript-eslint/eslint-plugin": "^8.34.1",
-    "@typescript-eslint/parser": "^8.34.1",
     "http-server": "^14.1.1",
     "prettier": "^3.5.3",
     "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.54.0"
   },
   "dependencies": {
     "axios": "^1.10.0",
     "axios-retry": "^4.5.0",
     "dotenv": "^16.5.0",
     "feed": "^5.1.0",
-    "pdf-parse": "^1.1.1",
-    "xml2js": "^0.6.2"
+    "pdf-parse": "^1.1.1"
   }
 }

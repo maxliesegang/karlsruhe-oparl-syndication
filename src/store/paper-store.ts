@@ -10,17 +10,8 @@ class PaperStore extends BaseStore<Paper> {
     return 'papers.json';
   }
 
-  getLastModified(): Date | undefined {
-    const allDates = Array.from(this.itemStore.values()).map((item) =>
-      item.modified ? new Date(item.modified) : new Date(item.created),
-    );
-
-    if (!allDates.length) return undefined;
-
-    const latestDate = new Date(Math.max(...allDates.map((date) => date.getTime())));
-    latestDate.setDate(latestDate.getDate() - 1); // Subtract 1 day
-
-    return latestDate;
+  getLastModifiedWithSafetyMargin(): Date | undefined {
+    return this.getLastModified(1); // Subtract 1 day for safety
   }
 
   getPaperByConsultationId(consultationId: string): Paper | undefined {
@@ -28,11 +19,11 @@ class PaperStore extends BaseStore<Paper> {
     return paperId ? this.getById(paperId) : undefined;
   }
 
-  protected async onItemLoad(paper: Paper): Promise<void> {
+  protected onItemLoad(paper: Paper): void {
     this.updateConsultationMap(paper);
   }
 
-  protected async onItemAdd(paper: Paper) {
+  protected onItemAdd(paper: Paper): void {
     this.updateConsultationMap(paper);
     this.handleFileUpdates(paper);
   }
@@ -42,7 +33,7 @@ class PaperStore extends BaseStore<Paper> {
 
     const fileContentsStore = store.fileContentStore;
 
-    paper.auxiliaryFile.forEach((file) => {
+    for (const file of paper.auxiliaryFile) {
       const existingFile = fileContentsStore.getById(file.id);
       if (existingFile) {
         existingFile.downloadUrl = file.downloadUrl;
@@ -55,14 +46,14 @@ class PaperStore extends BaseStore<Paper> {
         };
         fileContentsStore.add(newFile);
       }
-    });
+    }
   }
 
   private updateConsultationMap(paper: Paper): void {
     if (paper.consultation) {
-      paper.consultation.forEach((consultation) => {
+      for (const consultation of paper.consultation) {
         this.consultationPapers.set(consultation.id, paper.id);
-      });
+      }
     }
   }
 }

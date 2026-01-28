@@ -1,4 +1,5 @@
 import { pdfService } from './pdf-service';
+import { logger } from '../logger';
 
 const MAX_CONCURRENT = 10;
 const MAX_QUEUE_SIZE = 1000;
@@ -21,12 +22,12 @@ class PdfExtractionQueue {
   /** Adds an extraction task to the queue */
   add(url: string, onSuccess: (text: string) => void): void {
     if (this.queue.length >= MAX_QUEUE_SIZE) {
-      console.log(`Extraction queue full, skipping: ${url}`);
+      logger.warn(`Extraction queue full, skipping: ${url}`);
       return;
     }
 
     this.queue.push({ url, onSuccess });
-    console.log(`Added PDF extraction to queue. Queue size: ${this.queue.length}`);
+    logger.debug(`Added PDF extraction to queue. Queue size: ${this.queue.length}`);
 
     if (!this.isProcessing) {
       this.processQueue();
@@ -40,7 +41,7 @@ class PdfExtractionQueue {
     }
 
     if (this.pendingExtractions.size > 0) {
-      console.log(`Waiting for ${this.pendingExtractions.size} pending extractions`);
+      logger.info(`Waiting for ${this.pendingExtractions.size} pending extractions`);
       await Promise.all(this.pendingExtractions);
     }
   }
@@ -48,13 +49,13 @@ class PdfExtractionQueue {
   private async processQueue(): Promise<void> {
     if (this.queue.length === 0) {
       this.isProcessing = false;
-      console.log('Extraction queue processing completed');
+      logger.info('Extraction queue processing completed');
       return;
     }
 
     this.isProcessing = true;
     const batch = this.queue.splice(0, MAX_CONCURRENT);
-    console.log(`Processing ${batch.length} extractions. Remaining: ${this.queue.length}`);
+    logger.debug(`Processing ${batch.length} extractions. Remaining: ${this.queue.length}`);
 
     const batchPromises = batch.map(({ url, onSuccess }) => this.extractOne(url, onSuccess));
     await Promise.all(batchPromises);
@@ -65,14 +66,14 @@ class PdfExtractionQueue {
 
   private async extractOne(url: string, onSuccess: (text: string) => void): Promise<void> {
     const extraction = (async () => {
-      console.log(`Extracting text from PDF: ${url}`);
+      logger.debug(`Extracting text from PDF: ${url}`);
       const text = await pdfService.extractTextFromPdf(url);
 
       if (text) {
         onSuccess(text);
-        console.log(`Successfully extracted text from: ${url}`);
+        logger.debug(`Successfully extracted text from: ${url}`);
       } else {
-        console.log(`Failed to extract text from: ${url}`);
+        logger.debug(`Failed to extract text from: ${url}`);
       }
     })();
 
