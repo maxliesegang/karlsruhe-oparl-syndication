@@ -1,58 +1,53 @@
 # Karlsruhe OParl Syndication
 
-This project provides syndication for Karlsruhe's OParl data, making it easier to access and monitor city council agenda items.
+Generates and publishes an Atom feed of Karlsruhe city council agenda items from the official OParl API. The published feed is hosted via GitHub Pages.
 
-## Atom Feed
+## Live Feed
+- Atom URL: `https://maxliesegang.github.io/karlsruhe-oparl-syndication/tagesordnungspunkte.xml`
+- Add the URL to any RSS/Atom reader to stay updated on new agenda items.
 
-The latest agenda items are available as an Atom feed at the following URL:
+## How It Works (Pipeline)
+1. Load cached data from `docs/*.json` and `docs/file-contents*` into in-memory stores.
+2. Fetch organizations (full crawl) plus meetings and papers with pagination (`limit=1000`). Meetings and papers use `modified_since = lastModified - 1 day` for incremental updates unless `FETCH_ALL_PAGES=false`.
+3. Enrich agenda items with consultation/paper info and auxiliary files; fix URLs via `correctUrl`.
+4. Generate Atom feed and persist artifacts into `docs/` for GitHub Pages: `tagesordnungspunkte.xml`, `meetings.json`, `papers.json`, `consultations.json`, `organizations.json`, and extracted PDF text.
 
-[https://maxliesegang.github.io/karlsruhe-oparl-syndication/tagesordnungspunkte.xml](https://maxliesegang.github.io/karlsruhe-oparl-syndication/tagesordnungspunkte.xml)
+## Requirements
+- Node.js >= 20 and npm (use `npm ci`).
+- Network access to Karlsruhe OParl endpoints.
 
-You can use this feed URL in any feed reader to stay updated on the latest agenda items from Karlsruhe's city council meetings.
+## Local Development
+- Install: `npm ci`
+- Run pipeline (TypeScript): `npm run generate`
+- Build JS: `npm run build`
+- Run compiled build: `npm start`
+- Serve generated feed locally: `npm run serve` (serves `docs/` on http://localhost:8080)
+- Quality: `npm run typecheck`, `npm run lint`, `npm run lint:fix`, `npm run format`
+- Verbose logs: `LOG_LEVEL=debug npm run generate`
 
-## About the Project
+### Configuration (env or `.env`)
+- API: `MEETINGS_API_URL`, `PAPERS_API_URL`, `ORGANIZATIONS_API_URL`
+- Feed: `FEED_TITLE`, `FEED_DESCRIPTION`, `FEED_ID`, `FEED_LINK`, `FEED_FILENAME`, `FEED_LANGUAGE`, `FEED_COPYRIGHT`
+- Author: `AUTHOR_NAME`, `AUTHOR_EMAIL`, `AUTHOR_LINK`
+- Flags: `EXTRACT_PDF_TEXT` (default true), `FETCH_ALL_PAGES` (default true)
+- Rate limit: `REQUEST_DELAY` (ms, default 1000)
 
-This project fetches data from Karlsruhe's OParl API, processes it, and generates an Atom feed. It's designed to make it easier for citizens, journalists, and other interested parties to keep track of city council activities.
+### PDF Text Extraction
+- PDFs referenced by papers are fetched and parsed when their `fileModified` is within the last 3 years.
+- Extraction queue: up to 10 concurrent, ~1s batch delay, max 1000 queued items.
+- Outputs are stored as:
+  - `docs/file-contents.json` (index without text)
+  - `docs/file-contents/<fileId>.txt` (one file per PDF)
+  - `docs/file-contents-chunks/chunk-*.json` (batch downloads)
+- Disable extraction by setting `EXTRACT_PDF_TEXT=false`.
 
-## Usage
+### Caching and Refresh
+- Data is cached in `docs/*.json`. Running `npm run generate` reuses caches and fetches only recent changes.
+- Use `npm run generate -- --clear-cache` to discard in-memory caches for a run; to force a full refetch/re-extract, delete the `docs/*.json` and `docs/file-contents*` artifacts first.
 
-To use this feed:
-
-1. Copy the feed URL: `https://maxliesegang.github.io/karlsruhe-oparl-syndication/tagesordnungspunkte.xml`
-2. Paste this URL into your preferred feed reader or RSS aggregator.
-3. Your feed reader will now periodically check for updates and display new agenda items as they become available.
+## Deployment
+- GitHub Pages can serve the feed directly from `docs/`. After running `npm run generate`, commit the updated `docs/` artifacts and push to the branch configured for Pages.
 
 ## Contributing
-
-Contributions to improve this project are welcome. Please feel free to submit issues or pull requests on the GitHub repository.
-
-## Development Notes
-
-### File Content Storage
-
-This project extracts and stores text content from PDF files. To avoid exceeding GitHub's file size limits (100MB) and provide efficient access options, the extracted text is stored in two complementary formats:
-
-#### Individual Files (for Direct Access)
-1. `docs/file-contents.json` - Contains metadata about all files (without the extracted text)
-2. `docs/file-contents/` - Directory containing individual plain text files for each extracted file, using the last part of the file ID as the filename with a .txt extension
-
-The plain text format makes it easy for other applications to access specific content directly via HTTP requests.
-
-#### Chunk Files (for Bulk Loading)
-1. `docs/file-contents-chunks/` - Directory containing JSON chunk files, each with multiple file contents bundled together
-
-The chunk files provide a more efficient way to download multiple file contents at once, reducing the number of HTTP requests needed for bulk operations.
-
-#### How It Works
-
-All files, including both individual text files and chunk files, are included in Git. When you clone this repository and run the application, it will:
-
-1. Load the metadata from the index file
-2. Try to load content from chunk files first (faster for bulk loading)
-3. Fall back to loading from individual text files if needed
-4. Create or update both individual text files and chunk files when new content is processed
-
-This dual approach ensures that all data is available immediately after cloning the repository, while still keeping individual file sizes under GitHub's 100MB limit. It also provides flexibility in how the data is accessed:
-
-- For single file access: Use the individual text files
-- For bulk operations: Use the chunk files to reduce download time
+- Open issues or PRs are welcome. Please run `npm run typecheck && npm run lint` before submitting.
+- If your changes affect generated output, include updated `docs/` artifacts (or document why not). 
