@@ -61,9 +61,7 @@ export abstract class BaseStore<T extends { id: string }> {
     const data = Array.from(this.itemStore.values());
     const newSize = data.length;
     const added = newSize - this.initialLoadSize;
-    logger.info(
-      `${this.getFileName()}: ${added} added (${this.initialLoadSize} -> ${newSize})`,
-    );
+    logger.info(`${this.getFileName()}: ${added} added (${this.initialLoadSize} -> ${newSize})`);
     await writeJsonToFile(data, this.getFileName());
   }
 
