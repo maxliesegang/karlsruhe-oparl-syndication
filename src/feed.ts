@@ -6,6 +6,7 @@ import { config } from './config';
 import { correctUrl } from './utils';
 import { store } from './store';
 import { DEFAULT_LANGUAGE, FEED_GENERATOR } from './constants';
+import { logger } from './logger';
 
 /** Initialize a new feed with given metadata */
 async function initializeFeed(newUpdated: Date): Promise<Feed> {
@@ -31,16 +32,12 @@ async function initializeFeed(newUpdated: Date): Promise<Feed> {
 
 /** Process all meetings and their agenda items, adding them to the feed */
 async function addMeetingsToFeed(feed: Feed, meetings: Meeting[]): Promise<void> {
-  let processedItems = 0;
-  const totalItems = meetings.reduce((sum, meeting) => sum + (meeting.agendaItem?.length || 0), 0);
-
   for (const meeting of meetings) {
     if (!meeting.agendaItem) continue;
 
     await Promise.all(
       meeting.agendaItem.map(async (item) => {
         await addItemToFeed(feed, meeting, item);
-        processedItems++;
       }),
     );
   }
@@ -49,9 +46,8 @@ async function addMeetingsToFeed(feed: Feed, meetings: Meeting[]): Promise<void>
 /** Fetch additional info for a given agenda item related to its consultation */
 async function fetchAgendaItemDetails(
   item: AgendaItem,
-): Promise<{ auxiliaryFileInfo: string; pdfContents: string; paperLastUpdate: Date | null }> {
+): Promise<{ auxiliaryFileInfo: string; paperLastUpdate: Date | null }> {
   let auxiliaryFileInfo = '';
-  let pdfContents = '';
   let paperLastUpdate: Date | null = null;
 
   if (item.consultation) {
@@ -69,7 +65,7 @@ async function fetchAgendaItemDetails(
     }
   }
 
-  return { auxiliaryFileInfo, pdfContents, paperLastUpdate };
+  return { auxiliaryFileInfo, paperLastUpdate };
 }
 
 /** Fetch paper data by consultation ID, with error handling */
@@ -77,7 +73,7 @@ async function fetchPaperByConsultationId(consultationId: string) {
   try {
     return store.papers.getPaperByConsultationId(consultationId);
   } catch (error) {
-    console.error(`Error fetching paper for consultation ID ${consultationId}:`, error);
+    logger.error(`Error fetching paper for consultation ID ${consultationId}:`, error);
     return null;
   }
 }
@@ -128,7 +124,7 @@ async function addItemToFeed(feed: Feed, meeting: Meeting, item: AgendaItem): Pr
   const meetingLastPath = meeting.id.split('/').pop();
   const itemLink = `https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-${meetingLastPath}#top${item.number}`;
 
-  const { auxiliaryFileInfo, pdfContents, paperLastUpdate } = await fetchAgendaItemDetails(item);
+  const { auxiliaryFileInfo, paperLastUpdate } = await fetchAgendaItemDetails(item);
 
   const meetingDay = formatMeetingDayForLocale(new Date(meeting.start));
   const mostRecentDate = getMostRecentDate(
@@ -146,10 +142,8 @@ async function addItemToFeed(feed: Feed, meeting: Meeting, item: AgendaItem): Pr
     content: `
       <b>Sitzung:</b> ${meeting.name}<br>
       <b>Datum:</b> ${meetingDay}<br>
-      <b>TOP ${item.number}:</b> ${item.name}<br><br><br>
+      <b>TOP ${item.number}:</b> ${item.name}<br><br>
       <b>Anhänge:</b><br> ${auxiliaryFileInfo}
-      <br><br><br>
-      <b>PDF Inhalte:</b><br> ${pdfContents}
     `,
     date: mostRecentDate,
     published: new Date(item.created),
@@ -158,10 +152,10 @@ async function addItemToFeed(feed: Feed, meeting: Meeting, item: AgendaItem): Pr
 
 /** Create the feed with metadata and meetings */
 export async function createFeed(meetings: Meeting[], newUpdated: Date): Promise<Feed> {
-  console.log('Starting to create feed...');
+  logger.info('Starting to create feed...');
   const feed = await initializeFeed(newUpdated);
   await addMeetingsToFeed(feed, meetings);
-  console.log('Finished creating feed.');
+  logger.info('Finished creating feed.');
   return feed;
 }
 
@@ -172,5 +166,5 @@ export async function writeFeedToFile(feed: Feed): Promise<void> {
   await fs.mkdir(publicDir, { recursive: true });
   const outputPath = path.join(publicDir, config.feedFilename);
   await fs.writeFile(outputPath, atomFeed, { encoding: 'utf8', flag: 'w' });
-  console.log(`Feed has been saved to ${outputPath}`);
+  logger.info(`Feed has been saved to ${outputPath}`);
 }

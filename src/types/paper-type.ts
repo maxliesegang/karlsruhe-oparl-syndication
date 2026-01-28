@@ -1,5 +1,7 @@
-import { AuxiliaryFile } from './auxiliary-file-type';
+import { File } from './file-type';
 import { Consultation } from './consultation-type';
+
+export type AuxiliaryFile = File;
 
 export interface Paper {
   id: string;

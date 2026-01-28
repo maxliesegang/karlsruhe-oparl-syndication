@@ -2,6 +2,7 @@ import axios, { AxiosInstance, AxiosResponse } from 'axios';
 import axiosRetry from 'axios-retry';
 import { config } from '../config';
 import { correctUrl } from '../utils';
+import { logger } from '../logger';
 
 /** Configured axios instance with retry logic */
 const httpClient: AxiosInstance = axios.create({
@@ -82,7 +83,7 @@ class RequestQueue {
 
   private logProgress(): void {
     const percentage = ((this.completedCount / this.totalCount) * 100).toFixed(1);
-    console.log(`Progress: ${this.completedCount}/${this.totalCount} (${percentage}%)`);
+    logger.debug(`Progress: ${this.completedCount}/${this.totalCount} (${percentage}%)`);
   }
 
   /** Resets the queue statistics (useful between different fetch operations) */
@@ -121,7 +122,7 @@ export async function fetchAllPages<T>(
   if (options?.modifiedSince) {
     const formatted = formatDateForUrl(options.modifiedSince);
     nextUrl += `&modified_since=${encodeURIComponent(formatted)}`;
-    console.log(`Using modified_since: ${formatted}`);
+    logger.info(`Using modified_since: ${formatted}`);
   }
 
   let pageCount = 0;
@@ -129,7 +130,7 @@ export async function fetchAllPages<T>(
 
   while (nextUrl) {
     const url = correctUrl(nextUrl);
-    console.log(`Fetching: ${url}`);
+    logger.debug(`Fetching: ${url}`);
 
     const response = await requestQueue.add<AxiosResponse<PaginatedResponse<T>>>(() =>
       httpClient.get<PaginatedResponse<T>>(url),
@@ -140,7 +141,7 @@ export async function fetchAllPages<T>(
 
     pageCount++;
     totalItems += items.length;
-    console.log(`Fetched page ${pageCount} with ${items.length} items. Total: ${totalItems}`);
+    logger.debug(`Fetched page ${pageCount} with ${items.length} items. Total: ${totalItems}`);
 
     const shouldContinue = options?.fetchAllPages !== false && response.data.links.next;
     nextUrl = shouldContinue ? response.data.links.next! : null;
@@ -163,7 +164,7 @@ export async function fetchOne<T>(url: string): Promise<T | null> {
     return response.data;
   } catch (error) {
     if (axios.isAxiosError(error) && error.response?.status === 404) {
-      console.log(`Resource not found: ${url}`);
+      logger.warn(`Resource not found: ${url}`);
       return null;
     }
     throw error;

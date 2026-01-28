@@ -2,6 +2,7 @@ import axios from 'axios';
 import pdf from 'pdf-parse';
 import { correctUrl } from '../utils';
 import { PDF_MIME_TYPE } from '../constants';
+import { logger } from '../logger';
 
 export class PdfService {
   /**
@@ -28,9 +29,9 @@ export class PdfService {
 
   private handleExtractionError(error: unknown): void {
     if (!axios.isAxiosError(error)) {
-      console.error('Error downloading PDF:', error);
+      logger.error('Error downloading PDF:', error);
     } else {
-      console.log('Error parsing PDF:', error);
+      logger.warn('Error parsing PDF:', error);
     }
   }
 }

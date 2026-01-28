@@ -3,12 +3,13 @@ import { store } from '../store';
 import { config } from '../config';
 import { fetchAllPages } from './http';
 import { API_LIMIT } from '../constants';
+import { logger } from '../logger';
 
 // Note: Organizations API does not support modified_since parameter
 export async function fetchAllOrganizations(): Promise<void> {
   const initialUrl = `${config.allOrganizationsApiUrl}?limit=${API_LIMIT}`;
 
-  console.log('Starting to fetch organizations...');
+  logger.info('Starting to fetch organizations...');
 
   const { pageCount, totalItems } = await fetchAllPages<Organization>(
     initialUrl,
@@ -16,5 +17,5 @@ export async function fetchAllOrganizations(): Promise<void> {
     { fetchAllPages: true },
   );
 
-  console.log(`Finished fetching ${pageCount} page(s) with ${totalItems} organizations.`);
+  logger.info(`Finished fetching ${pageCount} page(s) with ${totalItems} organizations.`);
 }

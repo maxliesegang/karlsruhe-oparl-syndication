@@ -8,29 +8,19 @@ class MeetingStore extends BaseStore<Meeting> {
     return 'meetings.json';
   }
 
-  getLastModified(): Date | undefined {
-    const allDates = Array.from(this.itemStore.values()).map((item) =>
-      item.modified ? new Date(item.modified) : new Date(item.created),
-    );
-
-    if (!allDates.length) return undefined;
-
-    const latestDate = new Date(Math.max(...allDates.map((date) => date.getTime())));
-    latestDate.setDate(latestDate.getDate() - 1); // Subtract 1 day
-
-    return latestDate;
+  getLastModifiedWithSafetyMargin(): Date | undefined {
+    return this.getLastModified(1); // Subtract 1 day for safety
   }
 
-  protected async onItemAdd(meeting: Meeting) {
-    meeting.organization.forEach((orgId) => {
-      if (!this.organizationMeetings.has(orgId)) {
-        this.organizationMeetings.set(orgId, new Set());
+  protected onItemAdd(meeting: Meeting): void {
+    for (const orgId of meeting.organization) {
+      let orgMeetings = this.organizationMeetings.get(orgId);
+      if (!orgMeetings) {
+        orgMeetings = new Set();
+        this.organizationMeetings.set(orgId, orgMeetings);
       }
-      const orgMeetings = this.organizationMeetings.get(orgId);
-      if (orgMeetings) {
-        orgMeetings.add(meeting.id);
-      }
-    });
+      orgMeetings.add(meeting.id);
+    }
   }
 
   getMeetingsByOrganizationId(organizationId: string): Meeting[] {
@@ -39,8 +29,8 @@ class MeetingStore extends BaseStore<Meeting> {
       return [];
     }
     return Array.from(meetingIds)
-      .map((id) => this.getById(id)!)
-      .filter(Boolean);
+      .map((id) => this.getById(id))
+      .filter((m): m is Meeting => m !== undefined);
   }
 }
 
