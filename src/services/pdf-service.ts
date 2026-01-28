@@ -22,17 +22,39 @@ export class PdfService {
       const data = await pdf(response.data);
       return data.text;
     } catch (error) {
-      this.handleExtractionError(error);
+      this.handleExtractionError(error, url);
       return undefined;
     }
   }
 
-  private handleExtractionError(error: unknown): void {
+  private handleExtractionError(error: unknown, originalUrl: string): void {
     if (!axios.isAxiosError(error)) {
-      logger.error('Error downloading PDF:', error);
-    } else {
-      logger.warn('Error parsing PDF:', error);
+      const simplified =
+        error instanceof Error
+          ? { message: error.message, details: (error as { details?: unknown }).details }
+          : error;
+      logger.error('PDF download failed', { url: originalUrl, error: simplified });
+      return;
     }
+
+    const status = error.response?.status;
+    const statusText = error.response?.statusText;
+    const url = error.config?.url ?? originalUrl;
+
+    if (status && status >= 400 && status < 500) {
+      // 4xx are common for protected or removed files; keep them at debug by default
+      logger.debug(`PDF unavailable (${status}${statusText ? ` ${statusText}` : ''})`, {
+        url,
+      });
+      return;
+    }
+
+    const simplifiedError =
+      error instanceof Error
+        ? { message: error.message, details: (error as { details?: unknown }).details }
+        : error;
+
+    logger.warn('Error parsing PDF', { url, status, error: simplifiedError });
   }
 }
 
