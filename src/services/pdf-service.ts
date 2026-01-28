@@ -1,5 +1,5 @@
 import axios from 'axios';
-import pdf from 'pdf-parse';
+import { PDFParse } from 'pdf-parse';
 import { correctUrl } from '../utils';
 import { PDF_MIME_TYPE } from '../constants';
 import { logger } from '../logger';
@@ -11,6 +11,7 @@ export class PdfService {
    * @returns The extracted text or undefined if extraction failed
    */
   public async extractTextFromPdf(url: string): Promise<string | undefined> {
+    let parser: PDFParse | undefined;
     try {
       const correctedUrl = correctUrl(url);
 
@@ -19,11 +20,14 @@ export class PdfService {
         headers: { Accept: PDF_MIME_TYPE },
       });
 
-      const data = await pdf(response.data);
-      return data.text;
+      parser = new PDFParse({ data: response.data });
+      const textResult = await parser.getText();
+      return textResult.text;
     } catch (error) {
       this.handleExtractionError(error, url);
       return undefined;
+    } finally {
+      await parser?.destroy();
     }
   }
 
