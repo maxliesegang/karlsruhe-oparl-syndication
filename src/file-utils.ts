@@ -1,7 +1,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 
-const DOCS_DIR = path.join(__dirname, '..', 'docs');
+const DOCS_DIR = path.join(import.meta.dirname, '..', 'docs');
 
 export async function writeJsonToFile<T>(data: T, filename: string): Promise<void> {
   const filePath = path.join(DOCS_DIR, filename);

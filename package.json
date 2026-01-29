@@ -1,11 +1,12 @@
 {
   "name": "karlsruhe-oparl-syndication",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "generate": "npx ts-node src/index.ts",
+    "generate": "tsx src/index.ts",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "eslint src/",
     "lint:fix": "eslint src/ --fix",
@@ -20,7 +21,7 @@
     "@types/node": "^25.1.0",
     "http-server": "^14.1.1",
     "prettier": "^3.8.1",
-    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.54.0"
   },
