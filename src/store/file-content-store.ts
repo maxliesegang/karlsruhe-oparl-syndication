@@ -9,7 +9,7 @@ import path from 'path';
 import fs from 'fs/promises';
 
 const CHUNK_SIZE = 1000;
-const DOCS_DIR = path.join(__dirname, '..', '..', 'docs');
+const DOCS_DIR = path.join(import.meta.dirname, '..', '..', 'docs');
 const CONTENT_DIR = path.join(DOCS_DIR, 'file-contents');
 const CHUNKS_DIR = path.join(DOCS_DIR, 'file-contents-chunks');
 

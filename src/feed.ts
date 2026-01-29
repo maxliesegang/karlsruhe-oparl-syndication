@@ -162,7 +162,7 @@ export async function createFeed(meetings: Meeting[], newUpdated: Date): Promise
 /** Write the feed to the file system */
 export async function writeFeedToFile(feed: Feed): Promise<void> {
   const atomFeed = feed.atom1();
-  const publicDir = path.join(__dirname, '..', 'docs');
+  const publicDir = path.join(import.meta.dirname, '..', 'docs');
   await fs.mkdir(publicDir, { recursive: true });
   const outputPath = path.join(publicDir, config.feedFilename);
   await fs.writeFile(outputPath, atomFeed, { encoding: 'utf8', flag: 'w' });
