@@ -5,6 +5,7 @@ import { meetingStore } from '../store/meeting-store';
 import { paperStore } from '../store/paper-store';
 import { config } from '../config';
 import { loadFromDisk, saveToDisk } from './cache-service';
+import { analyzeStadtteile } from './stadtteil-service';
 import { logger } from '../logger';
 
 /** Fetches all data from the OParl API */
@@ -41,6 +42,7 @@ export async function fetchDataAndGenerateFeed(): Promise<void> {
   await fetchAllData();
   await generateFeed();
   await saveToDisk();
+  await analyzeStadtteile();
 }
 
 // For backwards compatibility with existing imports

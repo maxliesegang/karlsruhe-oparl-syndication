@@ -24,9 +24,43 @@ interface FileContentIndex {
 
 class FileContentStore extends BaseStore<FileContentType> {
   private initialCount = 0;
+  private changedFileIds: Set<string> = new Set();
 
   getFileName(): string {
     return 'file-contents.json';
+  }
+
+  consumeChangedFileIds(): string[] {
+    const ids = Array.from(this.changedFileIds);
+    this.changedFileIds.clear();
+    return ids;
+  }
+
+  upsertFromPaperFile(nextFile: FileContentType): void {
+    const existing = this.getById(nextFile.id);
+    if (!existing) {
+      this.add(nextFile);
+      return;
+    }
+
+    const fileModifiedChanged = existing.fileModified !== nextFile.fileModified;
+    const metadataChanged = existing.downloadUrl !== nextFile.downloadUrl || fileModifiedChanged;
+
+    if (!metadataChanged) return;
+
+    existing.downloadUrl = nextFile.downloadUrl;
+    existing.fileModified = nextFile.fileModified;
+
+    if (fileModifiedChanged) {
+      // File version changed: old extraction is stale even if a new extraction fails.
+      this.clearExtractedText(existing);
+    }
+
+    if (!config.extractPdfText) {
+      return;
+    }
+
+    this.scheduleExtractionIfNeeded(existing);
   }
 
   protected onItemLoad(file: FileContentType): void {
@@ -37,10 +71,32 @@ class FileContentStore extends BaseStore<FileContentType> {
     this.scheduleExtractionIfNeeded(file);
   }
 
+  private clearExtractedText(file: FileContentType): void {
+    const hadExtractedText = !!file.extractedText || !!file.lastModifiedExtractedDate;
+    file.lastModifiedExtractedDate = undefined;
+    file.extractedText = undefined;
+    if (hadExtractedText) {
+      this.changedFileIds.add(file.id);
+    }
+  }
+
+  private applyExtractedText(
+    file: FileContentType,
+    text: string,
+    extractedForModified: string,
+  ): void {
+    const changed =
+      file.extractedText !== text || file.lastModifiedExtractedDate !== extractedForModified;
+    file.extractedText = text;
+    file.lastModifiedExtractedDate = extractedForModified;
+    if (changed) {
+      this.changedFileIds.add(file.id);
+    }
+  }
+
   private scheduleExtractionIfNeeded(file: FileContentType): void {
     if (!isRecentFile(file.fileModified)) {
-      file.lastModifiedExtractedDate = undefined;
-      file.extractedText = undefined;
+      this.clearExtractedText(file);
       return;
     }
 
@@ -50,9 +106,12 @@ class FileContentStore extends BaseStore<FileContentType> {
         (file.lastModifiedExtractedDate && !file.extractedText));
 
     if (needsExtraction) {
+      const fileModifiedAtSchedule = file.fileModified;
       pdfExtractionQueue.add(file.downloadUrl, (text) => {
-        file.extractedText = text;
-        file.lastModifiedExtractedDate = file.fileModified;
+        if (file.fileModified !== fileModifiedAtSchedule) {
+          return;
+        }
+        this.applyExtractedText(file, text, fileModifiedAtSchedule);
       });
     }
   }
@@ -209,6 +268,11 @@ class FileContentStore extends BaseStore<FileContentType> {
     } catch {
       logger.info('No content directory found');
     }
+  }
+
+  clearAllItems(): void {
+    super.clearAllItems();
+    this.changedFileIds.clear();
   }
 }
 
