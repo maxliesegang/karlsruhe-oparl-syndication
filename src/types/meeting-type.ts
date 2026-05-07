@@ -1,6 +1,6 @@
 import { Location } from './location-type';
 import { File } from './file-type';
-import { AgendaItem } from './agendaItem-type';
+import { AgendaItem } from './agenda-item-type';
 
 export interface Meeting {
   id: string;

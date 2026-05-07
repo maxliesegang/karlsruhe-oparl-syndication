@@ -1,3 +1,8 @@
-import { fetchAndBuildFeed } from './app';
+import { store } from './store';
+import { fetchDataAndGenerateFeed } from './services/feed-service';
 
-fetchAndBuildFeed();
+if (process.argv.includes('--clear-cache')) {
+  store.clearAllFromCache();
+}
+
+await fetchDataAndGenerateFeed();

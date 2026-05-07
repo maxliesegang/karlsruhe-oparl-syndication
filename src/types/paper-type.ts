@@ -1,8 +1,6 @@
 import { File } from './file-type';
 import { Consultation } from './consultation-type';
 
-export type AuxiliaryFile = File;
-
 export interface Paper {
   id: string;
   type: string;
@@ -11,7 +9,7 @@ export interface Paper {
   reference: string;
   date: string;
   paperType: string;
-  auxiliaryFile: AuxiliaryFile[];
+  auxiliaryFile: File[];
   underDirectionOf: string[];
   consultation: Consultation[];
   created: string;
