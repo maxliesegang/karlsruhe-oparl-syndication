@@ -1,53 +1,91 @@
 # Karlsruhe OParl Syndication
 
-Generates and publishes an Atom feed of Karlsruhe city council agenda items from the official OParl API. The published feed is hosted via GitHub Pages.
+Generates and publishes Atom feeds of Karlsruhe city council agenda items from the official [OParl](https://oparl.org) API. Feeds are hosted via GitHub Pages.
 
-## Live Feed
-- Atom URL: `https://maxliesegang.github.io/karlsruhe-oparl-syndication/tagesordnungspunkte.xml`
-- Add the URL to any RSS/Atom reader to stay updated on new agenda items.
+## Live Feeds
 
-## How It Works (Pipeline)
-1. Load cached data from `docs/*.json` and `docs/file-contents*` into in-memory stores.
-2. Fetch organizations (full crawl) plus meetings and papers with pagination (`limit=1000`). Meetings and papers use `modified_since = lastModified - 1 day` for incremental updates unless `FETCH_ALL_PAGES=false`.
-3. Enrich agenda items with consultation/paper info and auxiliary files; fix URLs via `correctUrl`.
-4. Generate Atom feed and persist artifacts into `docs/` for GitHub Pages: `tagesordnungspunkte.xml`, `meetings.json`, `papers.json`, `consultations.json`, `organizations.json`, and extracted PDF text.
+| Feed | URL |
+|------|-----|
+| All agenda items | [`tagesordnungspunkte.xml`](https://maxliesegang.github.io/karlsruhe-oparl-syndication/tagesordnungspunkte.xml) |
+| Latest 50 items | [`tagesordnungspunkte-recent.xml`](https://maxliesegang.github.io/karlsruhe-oparl-syndication/tagesordnungspunkte-recent.xml) |
 
-## Requirements
-- Node.js >= 20 and npm (use `npm ci`).
-- Network access to Karlsruhe OParl endpoints.
+Add either URL to any RSS/Atom reader. Use the recent feed if your reader struggles with large feeds.
+
+## How It Works
+
+1. **Load cache** — deserialize `docs/*.json` into in-memory stores.
+2. **Fetch updates** — organizations (full crawl) + meetings and papers via paginated OParl API (`limit=1000`, `modified_since = lastModified − 1 day`).
+3. **Enrich** — resolve agenda items → consultations → papers → auxiliary files; fix OParl URLs.
+4. **Generate** — build Atom feed, write `tagesordnungspunkte.xml` (all items) and `tagesordnungspunkte-recent.xml` (latest 50 by date).
+5. **Persist** — save stores back to `docs/` for the next incremental run.
 
 ## Local Development
-- Install: `npm ci`
-- Run pipeline (TypeScript): `npm run generate`
-- Build JS: `npm run build`
-- Run compiled build: `npm start`
-- Serve generated feed locally: `npm run serve` (serves `docs/` on http://localhost:8080)
-- Quality: `npm run typecheck`, `npm run lint`, `npm run lint:fix`, `npm run format`
-- Verbose logs: `LOG_LEVEL=debug npm run generate`
 
-### Configuration (env or `.env`)
-- API: `MEETINGS_API_URL`, `PAPERS_API_URL`, `ORGANIZATIONS_API_URL`
-- Feed: `FEED_TITLE`, `FEED_DESCRIPTION`, `FEED_ID`, `FEED_LINK`, `FEED_FILENAME`, `FEED_LANGUAGE`, `FEED_COPYRIGHT`
-- Author: `AUTHOR_NAME`, `AUTHOR_EMAIL`, `AUTHOR_LINK`
-- Flags: `EXTRACT_PDF_TEXT` (default true), `FETCH_ALL_PAGES` (default true)
-- Rate limit: `REQUEST_DELAY` (ms, default 1000)
+**Requirements:** Node.js ≥ 20, npm
+
+```sh
+npm ci                          # install dependencies
+npm run generate                # run the full pipeline (TypeScript via tsx)
+npm run serve                   # serve docs/ at http://localhost:8080
+```
+
+Other scripts:
+
+```sh
+npm run build        # compile TypeScript → dist/
+npm start            # run compiled build
+npm run typecheck    # type-check only
+npm run lint         # ESLint
+npm run format       # Prettier
+```
+
+Verbose logging: `LOG_LEVEL=debug npm run generate`
+
+### Configuration
+
+All options can be set via environment variables or a `.env` file at the repo root.
+
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `MEETINGS_API_URL` | Karlsruhe endpoint | OParl meetings list URL |
+| `PAPERS_API_URL` | Karlsruhe endpoint | OParl papers list URL |
+| `ORGANIZATIONS_API_URL` | Karlsruhe endpoint | OParl organizations list URL |
+| `FEED_TITLE` | `Alle Tagesordnungspunkte` | Feed title |
+| `FEED_DESCRIPTION` | — | Feed description |
+| `FEED_ID` / `FEED_LINK` | `http://localhost:8080/` | Feed identity and link |
+| `FEED_FILENAME` | `tagesordnungspunkte.xml` | Full feed output filename |
+| `FEED_FILENAME_RECENT` | `tagesordnungspunkte-recent.xml` | Recent feed output filename |
+| `AUTHOR_NAME` / `AUTHOR_EMAIL` / `AUTHOR_LINK` | — | Feed author |
+| `EXTRACT_PDF_TEXT` | `true` | Extract text from referenced PDFs |
+| `FETCH_ALL_PAGES` | `true` | Paginate through all API pages |
+| `REQUEST_DELAY` | `1000` | Delay between API requests (ms) |
 
 ### PDF Text Extraction
-- PDFs referenced by papers are fetched and parsed when their `fileModified` is within the last 3 years.
-- Extraction queue: up to 10 concurrent, ~1s batch delay, max 1000 queued items.
-- Outputs are stored as:
-  - `docs/file-contents.json` (index without text)
-  - `docs/file-contents/<fileId>.txt` (one file per PDF)
-  - `docs/file-contents-chunks/chunk-*.json` (batch downloads)
-- Disable extraction by setting `EXTRACT_PDF_TEXT=false`.
 
-### Caching and Refresh
-- Data is cached in `docs/*.json`. Running `npm run generate` reuses caches and fetches only recent changes.
-- Use `npm run generate -- --clear-cache` to discard in-memory caches for a run; to force a full refetch/re-extract, delete the `docs/*.json` and `docs/file-contents*` artifacts first.
+Papers reference auxiliary PDF files. When `EXTRACT_PDF_TEXT=true`, recent files (modified within the last 3 years) are fetched and parsed. Extracted text is used for Stadtteil (neighbourhood) detection.
+
+- Queue: up to 10 concurrent extractions, ~1 s batch delay, capped at 1000 items.
+- Output: `docs/file-contents.json` (index), `docs/file-contents/<id>.txt` (per-file), `docs/file-contents-chunks/chunk-*.json` (chunked for bulk use).
+- Disable: `EXTRACT_PDF_TEXT=false`.
+
+### Caching
+
+Stores serialize to `docs/*.json`. Each run is incremental — only changed records are re-fetched.
+
+```sh
+# Force a full re-fetch without clearing persisted files:
+npm run generate -- --clear-cache
+
+# Full reset (re-fetches and re-extracts everything):
+rm -rf docs/*.json docs/file-contents* && npm run generate -- --clear-cache
+```
 
 ## Deployment
-- GitHub Pages can serve the feed directly from `docs/`. After running `npm run generate`, commit the updated `docs/` artifacts and push to the branch configured for Pages.
+
+GitHub Actions runs `npm run generate` on a schedule and commits updated `docs/` artifacts. GitHub Pages serves `docs/` directly.
+
+To deploy manually: run `npm run generate`, commit the updated `docs/` files, and push.
 
 ## Contributing
-- Open issues or PRs are welcome. Please run `npm run typecheck && npm run lint` before submitting.
-- If your changes affect generated output, include updated `docs/` artifacts (or document why not). 
+
+Please run `npm run typecheck && npm run lint` before opening a PR. If your changes affect generated output, include updated `docs/` artifacts.
