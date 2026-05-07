@@ -168,3 +168,34 @@ export async function writeFeedToFile(feed: Feed): Promise<void> {
   await fs.writeFile(outputPath, atomFeed, { encoding: 'utf8', flag: 'w' });
   logger.info(`Feed has been saved to ${outputPath}`);
 }
+
+/** Write a trimmed feed containing only the most recent items to the file system */
+export async function writeTrimmedFeedToFile(feed: Feed, limit = 50): Promise<void> {
+  const trimmedFeed = new Feed({
+    title: feed.options.title,
+    description: feed.options.description ?? '',
+    id: feed.options.id,
+    link: feed.options.link ?? '',
+    language: feed.options.language,
+    updated: feed.options.updated,
+    generator: feed.options.generator,
+    copyright: feed.options.copyright ?? '',
+    feedLinks: feed.options.feedLinks,
+    author: feed.options.author,
+  });
+
+  const recentItems = [...feed.items]
+    .sort((a, b) => b.date.getTime() - a.date.getTime())
+    .slice(0, limit);
+
+  for (const item of recentItems) {
+    trimmedFeed.addItem(item);
+  }
+
+  const atomFeed = trimmedFeed.atom1();
+  const publicDir = path.join(import.meta.dirname, '..', 'docs');
+  await fs.mkdir(publicDir, { recursive: true });
+  const outputPath = path.join(publicDir, config.feedFilenameRecent);
+  await fs.writeFile(outputPath, atomFeed, { encoding: 'utf8', flag: 'w' });
+  logger.info(`Trimmed feed (last ${limit} items) has been saved to ${outputPath}`);
+}

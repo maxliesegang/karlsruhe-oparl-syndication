@@ -1,5 +1,5 @@
 import { store } from '../store';
-import { createFeed, writeFeedToFile } from '../feed';
+import { createFeed, writeFeedToFile, writeTrimmedFeedToFile } from '../feed';
 import { fetchAllMeetings, fetchAllOrganizations, fetchAllPapers } from '../api';
 import { meetingStore } from '../store/meeting-store';
 import { paperStore } from '../store/paper-store';
@@ -26,8 +26,9 @@ async function generateFeed(): Promise<void> {
   const meetings = store.meetings.getAllItems();
   const feed = await createFeed(meetings, new Date());
   await writeFeedToFile(feed);
+  await writeTrimmedFeedToFile(feed);
 
-  logger.info(`Feed saved as ${config.feedFilename}`);
+  logger.info(`Feed saved as ${config.feedFilename} and ${config.feedFilenameRecent}`);
 }
 
 /**
