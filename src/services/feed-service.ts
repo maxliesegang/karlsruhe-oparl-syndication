@@ -1,33 +1,24 @@
 import { store } from '../store';
 import { createFeed, writeFeedToFile, writeTrimmedFeedToFile } from '../feed';
 import { fetchAllMeetings, fetchAllOrganizations, fetchAllPapers } from '../api';
-import { meetingStore } from '../store/meeting-store';
-import { paperStore } from '../store/paper-store';
 import { config } from '../config';
-import { loadFromDisk, saveToDisk } from './cache-service';
 import { analyzeStadtteile } from './stadtteil-service';
 import { logger } from '../logger';
 
-/** Fetches all data from the OParl API */
 async function fetchAllData(): Promise<void> {
   logger.info('Fetching data from OParl API...');
-
   await fetchAllOrganizations();
-  await fetchAllMeetings(meetingStore.getLastModifiedWithSafetyMargin());
-  await fetchAllPapers(paperStore.getLastModifiedWithSafetyMargin());
-
+  await fetchAllMeetings(store.meetings.getLastModifiedWithSafetyMargin());
+  await fetchAllPapers(store.papers.getLastModifiedWithSafetyMargin());
   logger.info('Finished fetching data.');
 }
 
-/** Generates and saves the Atom feed */
 async function generateFeed(): Promise<void> {
   logger.info('Generating feed...');
-
   const meetings = store.meetings.getAllItems();
   const feed = await createFeed(meetings, new Date());
   await writeFeedToFile(feed);
   await writeTrimmedFeedToFile(feed);
-
   logger.info(`Feed saved as ${config.feedFilename} and ${config.feedFilenameRecent}`);
 }
 
@@ -39,12 +30,11 @@ async function generateFeed(): Promise<void> {
  * 4. Persist updated data to disk
  */
 export async function fetchDataAndGenerateFeed(): Promise<void> {
-  await loadFromDisk();
+  await store.loadAllFromDisk();
+  logger.info('Loaded store data from disk');
   await fetchAllData();
   await generateFeed();
-  await saveToDisk();
+  await store.saveAllToDisk();
+  logger.info('Saved store data to disk');
   await analyzeStadtteile();
 }
-
-// For backwards compatibility with existing imports
-export const feedService = { fetchDataAndGenerateFeed };

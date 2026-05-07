@@ -43,7 +43,7 @@ export abstract class BaseStore<T extends { id: string }> {
    * Optionally subtracts days for safety margin in incremental sync.
    */
   getLastModified(subtractDays = 0): Date | undefined {
-    const items = this.getAllItems() as unknown as Timestamped[];
+    const items = this.getAllItems() as (T & Timestamped)[];
     const allDates = items.map((item) =>
       item.modified ? new Date(item.modified) : new Date(item.created),
     );

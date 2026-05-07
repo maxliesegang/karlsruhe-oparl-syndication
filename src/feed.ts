@@ -5,7 +5,7 @@ import { AgendaItem, AuxiliaryFile, Meeting } from './types';
 import { config } from './config';
 import { correctUrl } from './utils';
 import { store } from './store';
-import { DEFAULT_LANGUAGE, FEED_GENERATOR } from './constants';
+import { FEED_GENERATOR } from './constants';
 import { logger } from './logger';
 
 /** Initialize a new feed with given metadata */
@@ -15,7 +15,7 @@ async function initializeFeed(newUpdated: Date): Promise<Feed> {
     description: config.feedDescription,
     id: config.feedId,
     link: config.feedLink,
-    language: DEFAULT_LANGUAGE,
+    language: config.feedLanguage,
     updated: newUpdated,
     generator: FEED_GENERATOR,
     copyright: config.feedCopyright,
@@ -172,16 +172,10 @@ export async function writeFeedToFile(feed: Feed): Promise<void> {
 /** Write a trimmed feed containing only the most recent items to the file system */
 export async function writeTrimmedFeedToFile(feed: Feed, limit = 50): Promise<void> {
   const trimmedFeed = new Feed({
-    title: feed.options.title,
+    ...feed.options,
     description: feed.options.description ?? '',
-    id: feed.options.id,
     link: feed.options.link ?? '',
-    language: feed.options.language,
-    updated: feed.options.updated,
-    generator: feed.options.generator,
     copyright: feed.options.copyright ?? '',
-    feedLinks: feed.options.feedLinks,
-    author: feed.options.author,
   });
 
   const recentItems = [...feed.items]
