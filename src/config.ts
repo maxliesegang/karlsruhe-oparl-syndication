@@ -22,6 +22,7 @@ export const config = {
   feedLanguage: process.env.FEED_LANGUAGE || 'de',
   feedCopyright: process.env.FEED_COPYRIGHT || 'Kein Copyright',
   feedFilename: process.env.FEED_FILENAME || 'tagesordnungspunkte.xml',
+  feedFilenameRecent: process.env.FEED_FILENAME_RECENT || 'tagesordnungspunkte-recent.xml',
 
   // Author info
   authorName: process.env.AUTHOR_NAME || 'Maximilian Liesegang',
