@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://localhost:8080/</id>
     <title>Alle Tagesordnungspunkte</title>
-    <updated>2026-05-17T14:58:36.864Z</updated>
+    <updated>2026-05-18T06:08:56.333Z</updated>
     <generator>Custom TypeScript Atom Feed Generator</generator>
     <author>
         <name>Maximilian Liesegang</name>
@@ -13,6 +13,40 @@
     <link rel="self" href="http://localhost:8080/tagesordnungspunkte.xml"/>
     <subtitle>Feed der Tagesordnungspunkte aus den Sitzungen aller Karlsruher Gremien</subtitle>
     <rights>Kein Copyright</rights>
+    <entry>
+        <title type="html"><![CDATA[Mittagsverpflegung in Kitas und Schulen ganzheitlich gestalten]]></title>
+        <id>https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101138</id>
+        <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-10512#top27"/>
+        <updated>2026-05-18T05:24:15.000Z</updated>
+        <summary type="html"><![CDATA[Mittagsverpflegung in Kitas und Schulen ganzheitlich gestalten]]></summary>
+        <content type="html"><![CDATA[
+      <b>Sitzung:</b> Gemeinderat (öffentlich/nicht öffentlich)<br>
+      <b>Datum:</b> 28. April 2026<br>
+      <b>TOP 27:</b> Mittagsverpflegung in Kitas und Schulen ganzheitlich gestalten<br><br>
+      <b>Anhänge:</b><br> <a href="https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00677264.pdf">Antrag (Erstellt am: 24.03.2026, Aktualisiert am: 15.05.2026)</a><br><a href="https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00678413.pdf">Protokoll GR 28.04.2026 TOP 27 (Erstellt am: 15.05.2026, Aktualisiert am: 15.05.2026)</a><br>
+    ]]></content>
+        <author>
+            <name>Gemeinderat (öffentlich/nicht öffentlich)</name>
+        </author>
+        <published>2026-04-01T07:53:17.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Potenzialanalyse für mehr Wohnungsbau durch Aufstockung eingschossiger Immobilien bis 2035]]></title>
+        <id>https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101549</id>
+        <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-10526#top11"/>
+        <updated>2026-05-18T04:24:58.000Z</updated>
+        <summary type="html"><![CDATA[Potenzialanalyse für mehr Wohnungsbau durch Aufstockung eingschossiger Immobilien bis 2035]]></summary>
+        <content type="html"><![CDATA[
+      <b>Sitzung:</b> Gemeinderat (öffentlich/nicht öffentlich)<br>
+      <b>Datum:</b> 19. Mai 2026<br>
+      <b>TOP 11:</b> Potenzialanalyse für mehr Wohnungsbau durch Aufstockung eingschossiger Immobilien bis 2035<br><br>
+      <b>Anhänge:</b><br> <a href="https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00677689.pdf">Antrag (Erstellt am: 16.04.2026, Aktualisiert am: 18.05.2026)</a><br>
+    ]]></content>
+        <author>
+            <name>Gemeinderat (öffentlich/nicht öffentlich)</name>
+        </author>
+        <published>2026-05-05T14:14:51.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Zuwendungen des Bundes im Programmbereich „Partnerschaften für Demokratie“]]></title>
         <id>https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101373</id>
@@ -31,23 +65,6 @@
         <published>2026-04-21T10:49:28.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Potenzialanalyse für mehr Wohnungsbau durch Aufstockung eingschossiger Immobilien bis 2035]]></title>
-        <id>https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101549</id>
-        <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-10526#top11"/>
-        <updated>2026-05-15T13:33:24.000Z</updated>
-        <summary type="html"><![CDATA[Potenzialanalyse für mehr Wohnungsbau durch Aufstockung eingschossiger Immobilien bis 2035]]></summary>
-        <content type="html"><![CDATA[
-      <b>Sitzung:</b> Gemeinderat (öffentlich/nicht öffentlich)<br>
-      <b>Datum:</b> 19. Mai 2026<br>
-      <b>TOP 11:</b> Potenzialanalyse für mehr Wohnungsbau durch Aufstockung eingschossiger Immobilien bis 2035<br><br>
-      <b>Anhänge:</b><br> <a href="https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00677689.pdf">Antrag (Erstellt am: 16.04.2026, Aktualisiert am: 11.05.2026)</a><br>
-    ]]></content>
-        <author>
-            <name>Gemeinderat (öffentlich/nicht öffentlich)</name>
-        </author>
-        <published>2026-05-05T14:14:51.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Bereitstellung kostenfreier Hygieneprodukte an Schulen]]></title>
         <id>https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100689</id>
         <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-10497#top22"/>
@@ -63,23 +80,6 @@
             <name>Gemeinderat (öffentlich/nicht öffentlich)</name>
         </author>
         <published>2026-03-02T07:32:12.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mittagsverpflegung in Kitas und Schulen ganzheitlich gestalten]]></title>
-        <id>https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101138</id>
-        <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-10512#top27"/>
-        <updated>2026-05-15T12:01:53.000Z</updated>
-        <summary type="html"><![CDATA[Mittagsverpflegung in Kitas und Schulen ganzheitlich gestalten]]></summary>
-        <content type="html"><![CDATA[
-      <b>Sitzung:</b> Gemeinderat (öffentlich/nicht öffentlich)<br>
-      <b>Datum:</b> 28. April 2026<br>
-      <b>TOP 27:</b> Mittagsverpflegung in Kitas und Schulen ganzheitlich gestalten<br><br>
-      <b>Anhänge:</b><br> <a href="https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00677264.pdf">Antrag (Erstellt am: 24.03.2026, Aktualisiert am: 15.05.2026)</a><br><a href="https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00678413.pdf">Protokoll GR 28.04.2026 TOP 27 (Erstellt am: 15.05.2026, Aktualisiert am: 15.05.2026)</a><br>
-    ]]></content>
-        <author>
-            <name>Gemeinderat (öffentlich/nicht öffentlich)</name>
-        </author>
-        <published>2026-04-01T07:53:17.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Knielinger Garnisonskirche als Landmarke erhalten]]></title>
