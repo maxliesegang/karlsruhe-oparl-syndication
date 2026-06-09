@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://localhost:8080/</id>
     <title>Alle Tagesordnungspunkte</title>
-    <updated>2026-06-08T17:24:31.414Z</updated>
+    <updated>2026-06-09T06:05:32.215Z</updated>
     <generator>Custom TypeScript Atom Feed Generator</generator>
     <author>
         <name>Maximilian Liesegang</name>
@@ -13,6 +13,23 @@
     <link rel="self" href="http://localhost:8080/tagesordnungspunkte.xml"/>
     <subtitle>Feed der Tagesordnungspunkte aus den Sitzungen aller Karlsruher Gremien</subtitle>
     <rights>Kein Copyright</rights>
+    <entry>
+        <title type="html"><![CDATA[Abschluss einer Rahmenvereinbarung über Gerüstarbeiten für verschiedene Liegenschaften der Stadt Karlsruhe]]></title>
+        <id>https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101714</id>
+        <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-10529#top8"/>
+        <updated>2026-06-09T05:36:36.000Z</updated>
+        <summary type="html"><![CDATA[Abschluss einer Rahmenvereinbarung über Gerüstarbeiten für verschiedene Liegenschaften der Stadt Karlsruhe]]></summary>
+        <content type="html"><![CDATA[
+      <b>Sitzung:</b> Haupt- und Finanzausschuss (öffentlich/nicht öffentlich)<br>
+      <b>Datum:</b> 9. Juni 2026<br>
+      <b>TOP 8:</b> Abschluss einer Rahmenvereinbarung über Gerüstarbeiten für verschiedene Liegenschaften der Stadt Karlsruhe<br><br>
+      <b>Anhänge:</b><br> <a href="https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00678145.pdf">Beschlussvorlage (Erstellt am: 05.05.2026, Aktualisiert am: 09.06.2026)</a><br>
+    ]]></content>
+        <author>
+            <name>Haupt- und Finanzausschuss (öffentlich/nicht öffentlich)</name>
+        </author>
+        <published>2026-05-12T09:55:23.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Stationäre Jugendverkehrsschule für die Höhenstadtteile]]></title>
         <id>https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101496</id>
@@ -845,22 +862,5 @@
             <name>Ortschaftsrat Stupferich (öffentlich/nicht öffentlich)</name>
         </author>
         <published>2026-06-01T09:31:24.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anfrage der FWV-Fraktion vom 20.05.2026; hier: Sachstandsberichte wichtiger Themen (u. a. Glasfaser, Bebauungspläne...)]]></title>
-        <id>https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101951</id>
-        <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-10786#top3"/>
-        <updated>2026-06-01T09:32:02.000Z</updated>
-        <summary type="html"><![CDATA[Anfrage der FWV-Fraktion vom 20.05.2026; hier: Sachstandsberichte wichtiger Themen (u. a. Glasfaser, Bebauungspläne...)]]></summary>
-        <content type="html"><![CDATA[
-      <b>Sitzung:</b> Ortschaftsrat Stupferich (öffentlich/nicht öffentlich)<br>
-      <b>Datum:</b> 17. Juni 2026<br>
-      <b>TOP 3:</b> Anfrage der FWV-Fraktion vom 20.05.2026; hier: Sachstandsberichte wichtiger Themen (u. a. Glasfaser, Bebauungspläne...)<br><br>
-      <b>Anhänge:</b><br> 
-    ]]></content>
-        <author>
-            <name>Ortschaftsrat Stupferich (öffentlich/nicht öffentlich)</name>
-        </author>
-        <published>2026-05-28T13:36:44.000Z</published>
     </entry>
 </feed>
