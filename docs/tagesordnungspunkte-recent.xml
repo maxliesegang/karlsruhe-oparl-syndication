@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://localhost:8080/</id>
     <title>Alle Tagesordnungspunkte</title>
-    <updated>2026-06-12T16:46:47.417Z</updated>
+    <updated>2026-06-14T15:50:12.298Z</updated>
     <generator>Custom TypeScript Atom Feed Generator</generator>
     <author>
         <name>Maximilian Liesegang</name>
@@ -13,6 +13,23 @@
     <link rel="self" href="http://localhost:8080/tagesordnungspunkte.xml"/>
     <subtitle>Feed der Tagesordnungspunkte aus den Sitzungen aller Karlsruher Gremien</subtitle>
     <rights>Kein Copyright</rights>
+    <entry>
+        <title type="html"><![CDATA[Überprüfung der städtischen Mitgliedschaften]]></title>
+        <id>https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102012</id>
+        <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-10540#top30"/>
+        <updated>2026-06-13T15:19:30.000Z</updated>
+        <summary type="html"><![CDATA[Überprüfung der städtischen Mitgliedschaften]]></summary>
+        <content type="html"><![CDATA[
+      <b>Sitzung:</b> Gemeinderat (öffentlich/nicht öffentlich)<br>
+      <b>Datum:</b> 23. Juni 2026<br>
+      <b>TOP 30:</b> Überprüfung der städtischen Mitgliedschaften<br><br>
+      <b>Anhänge:</b><br> <a href="https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00678629.pdf">Antrag (Erstellt am: 22.05.2026, Aktualisiert am: 11.06.2026)</a><br>
+    ]]></content>
+        <author>
+            <name>Gemeinderat (öffentlich/nicht öffentlich)</name>
+        </author>
+        <published>2026-06-08T07:09:35.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mobile Taubenschläge in Karlsruhe]]></title>
         <id>https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102094</id>
@@ -46,23 +63,6 @@
             <name>Gemeinderat (öffentlich/nicht öffentlich)</name>
         </author>
         <published>2026-05-26T12:29:29.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Überprüfung der städtischen Mitgliedschaften]]></title>
-        <id>https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102012</id>
-        <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-10540#top30"/>
-        <updated>2026-06-12T10:58:16.000Z</updated>
-        <summary type="html"><![CDATA[Überprüfung der städtischen Mitgliedschaften]]></summary>
-        <content type="html"><![CDATA[
-      <b>Sitzung:</b> Gemeinderat (öffentlich/nicht öffentlich)<br>
-      <b>Datum:</b> 23. Juni 2026<br>
-      <b>TOP 30:</b> Überprüfung der städtischen Mitgliedschaften<br><br>
-      <b>Anhänge:</b><br> <a href="https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00678629.pdf">Antrag (Erstellt am: 22.05.2026, Aktualisiert am: 11.06.2026)</a><br>
-    ]]></content>
-        <author>
-            <name>Gemeinderat (öffentlich/nicht öffentlich)</name>
-        </author>
-        <published>2026-06-08T07:09:35.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Welche genauen Vorhaben und Konzepte liegen für die Entwicklung des ehemaligen Pfizer-Geländes vor?]]></title>
