@@ -1,0 +1,913 @@
+Verkehrsuntersuchung
+Leistungsfähigkeitsbetrachtung
+der Knotenpunkte
+• K323 – Kriegsstr. / Brauerstr. / Reinhold-Frank-Str.
+• K324 – Brauerstraße / Gartenstraße
+mit Hilfe einer Verkehrsflusssimulation
+
+-- 1 of 35 --
+
+09.06.2026 Seite 1 von 35
+Inhalt
+Aufgabenstellung ............................................................................................................................ 3
+Untersuchungsraum........................................................................................................................ 4
+Verkehrsmengen ............................................................................................................................. 5
+Mikroskopische Verkehrsflusssimulation ...................................................................................... 6
+Varianten und Steuerung ................................................................................................................ 7
+Varianten ....................................................................................................................................... 7
+Koordinierung und Steuerungsablauf ............................................................................................. 9
+Auswertungsmethodik .................................................................................................................. 10
+Ergebnisse ..................................................................................................................................... 11
+Kraftfahrzeugverkehr ................................................................................................................... 11
+Ausbauvariante V0 ................................................................................................................................. 11
+Ausbauvariante V1 ................................................................................................................................. 13
+Ausbauvariante V2 ................................................................................................................................. 15
+Rad- und Fußgängerverkehr ........................................................................................................ 17
+Einordnung der Ergebnisse .......................................................................................................... 18
+Zusammenfassung ........................................................................................................................ 19
+Literaturverzeichnis....................................................................................................................... 21
+Anhang........................................................................................................................................... 22
+A1.1 Zähldaten K323 – Abendspitze (Kfz) ............................................................................................... 22
+A1.2 Zähldaten K323 (Radfahrende) ....................................................................................................... 23
+A2.1 Ausbauvariante V0 – Signallageplan ............................................................................................... 24
+A2.2 Ausbauvariante V0 – Zwischenzeitenmatrix für die verkehrsabhängige Steuerung............................ 25
+A2.3 Ausbauvariante V0 - Tabelle für das Erlaubnisbereichsverfahren ..................................................... 26
+A3.1 Ausbauvariante V1 - Signallageplan................................................................................................ 27
+A3.2 Ausbauvariante V1 - Zwischenzeitenmatrix für die verkehrsabhängige Steuerung ............................ 28
+A3.3 Ausbauvariante V1 - Tabelle für das Erlaubnisbereichsverfahren ..................................................... 29
+A4.1 Ausbauvariante V2 - Signallageplan................................................................................................ 30
+A4.2 Ausbauvariante V2 - Zwischenzeitenmatrix für die verkehrsabhängige Steuerung ............................ 31
+A4.3 Ausbauvariante V2 - Tabelle für das Erlaubnisbereichsverfahren ..................................................... 32
+A5.1 K324 - Zwischenzeitenmatrix für die verkehrsabhängige Steuerung ................................................. 33
+A5.2 K324 - Tabelle für das Erlaubnisbereichsverfahren .......................................................................... 34
+Stand des Dokuments Bearbeiter
+09.06.2026 Lars Badde
+Ingenieurbüro für Verkehrstechnik
+Hurrle-Kusterer
+06202 – 61529
+badde@hurrle-kusterer.de
+
+-- 2 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 2 von 35
+Abkürzungsverzeichnis
+HBS Handbuch für die Bemessung von Straßenverkehrsanlagen
+Kfz Kraftfahrzeug(e)
+LSA Lichtsignalanlage
+ÖPNV Öffentlicher Personennahverkehr
+QSV Qualitätsstufe des Verkehrs
+RVFx Radverkehrsführung nach Variante x
+SG Signalgruppe
+Vx Ausbauvariante x
+Begriffsdefinition im verkehrstechnischen Kontext
+Fahrstreifen Durch Markierung gekennzeichneter Teil der Fahrbahn, der für die Fortbewegung einer
+Fahrzeugreihe bestimmt ist
+Kapazität Größte Verkehrsstärke, die ein Verkehrsstrom unter den gegebenen baulichen,
+verkehrlichen und betrieblichen Bedingungen erreichen kann
+Kapazitätsdefizit Differenz zwischen der sich aus der Verkehrsnachfrage ergebenden Verkehrsstärke und
+der Kapazität
+Rückstau Verkehrszustand an Knotenpunkten [..] mit einem durch die Verkehrsregelung
+erzwungenen mehrfachen oder längeren Stillstand von Fahrzeugen
+stromabwärts bezeichnet alle Objekte die im richtungsbezogenen Verkehrsfluss hinter einem
+Bezugsobjekt (z.B. einer LSA) liegt
+stromaufwärts bezeichnet alle Objekte die im richtungsbezogenen Verkehrsfluss vor einem
+Bezugsobjekt (z.B. einer LSA) liegt
+Umlauf Einmaliger Ablauf eines Signalprogramms (im Normalfall: Jede Fahrbeziehung bekommt
+einmalig Freigabe). Die Dauer des Umlaufs wird bestimmt durch die Umlaufzeit (in der
+in dieser Untersuchung betrachteten Steuerung bzw. Signalprogramm sind dies 100 s).
+
+-- 3 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 3 von 35
+Aufgabenstellung
+Die Kreuzungen Kriegsstraße / Brauerstraße / Reinhold-Frank-Straße (K 323) und Brauerstraße /
+Gartenstraße (K 324) werden in den Jahren 2026 und 2027 umgebaut, um für den Fuß- und Radverkehr
+ein verbessertes Angebot mit einem möglichst hohen Maß an Verkehrssicherheit zu schaffen und zugleich
+für den Kraftfahrzeugverkehr sowie für den ÖPNV verkehrssichere Verhältnisse mit akzeptablen Rückstau-
+und Wartezeitsituationen zu bieten. Um dies zu erreichen, ist beim erstgenannten Knotenpunkt vorgesehen,
+auf drei Dreiecksinseln zu verzichten (alle bis auf den Nord-West-Quadranten) und so alle
+Verkehrsbeziehungen in die Signalisierung zu integrieren. Der Querschnitt der Kriegsstraße wird für den
+Kfz-Verkehr reduziert, indem jeweils ein Fahrstreifen entfällt. Beim zweitgenannten Knotenpunkt wird
+ebenfalls eine Dreiecksinsel zurückgebaut (Nord-Ost-Quadrant) und der rechtseinbiegende Verkehr in die
+Knotenpunktsignalisierung aufgenommen. Die Lichtsignalanlage am Knoten K 323 ist von Grund auf zu
+erneuern und barrierefrei zu signalisieren. Die Lichtsignalanlage am Knoten K 324 wird an die geänderten
+Verkehrsbeziehungen und aufgerichtete Führung der westlichen Fußgängerquerung der Gartenstraße
+angepasst und entsprechend ergänzt. Das Ziel der Gesamtmaßnahme ist somit insbesondere, die
+Verkehrssicherheit für den Fuß- und Radverkehr zu erhöhen, zugleich aber auch eine möglichst gute
+Verkehrsqualität für den ÖPNV zu bieten und eine ausreichende Leistungsfähigkeit für den Kfz-Verkehr zu
+gewährleisten.
+Im Zuge der Konzeption des Knotenpunktes K 323 wurden durch die Stadtverwaltung Karlsruhe
+Vorüberlegungen angestellt, ob eine Führung des Radverkehrs auf Radfahrstreifen zwischen den
+Rechtsabbiege- und Geradeausfahrstreifen des Kfz-Verkehrs anzuordnen ist (Mittellage; in der
+Untersuchung Ausbauvariante V0) oder zwischen Gehweg und Rechtsab- bzw. -einbiegefahrstreifen
+(Seitenlage; in der Untersuchung Ausbauvariante V1). Die Varianten sind nur umsetzbar, wenn
+ausreichende Kapazitäten für den Kfz-Verkehr zur Verfügung stehen, um mögliche
+Verkehrssicherheitsdefizite nicht auf das vorgelagerte Straßennetz – insbesondere in Richtung Karoline-
+Luise-Tunnel (Osten der Kriegsstraße) und Brauerstraße (Süden), aber auch Reinhold-Frank-Straße
+(Norden bis Sophienstraße und Mühlburger Tor) – zu verlagern. Überschlägige Leistungsfähigkeits- und
+Rückstauberechnungen des Stadtplanungsamts der Stadt Karlsruhe wiesen eine ausreichende Kapazität
+mit einer Anordnung der Radfahrstreifen in Mittellage aus. Die vorliegende Untersuchung hat das Ziel, die
+Leistungsfähigkeit des Knotenpunktes K 323 für die Ausbauvarianten V0 und V1 sowie eine Untervariante
+für den Kfz-Verkehr (V2) zu ermitteln, um eine Entscheidungshilfe bezüglich der Lage der Radfahrstreifen
+zu bieten. Aufgrund der räumlichen Nähe des Knotenpunktes K 324 zum Knoten K 323 (ca. 140 Meter) ist
+der Knoten K 324 in die Untersuchung komplett einzubinden, da die beiden Kreuzungen wegen der kaum
+vorhandenen Aufstellflächen als Gesamtsystem zu betrachten sind.
+Für die vorliegende Fragestellung ist eine detaillierte Abbildung der Verkehrsabläufe erforderlich, die über
+die Möglichkeiten einer klassischen Leistungsfähigkeitsbetrachtung hinausgeht. Die hier zu
+untersuchenden Verkehrsprozesse sind geprägt durch komplexe Wechselwirkungen zwischen einzelnen
+Verkehrsteilnehmern, zeitlich-dynamische Effekte sowie eine sehr diffizile verkehrsabhängige Steuerung.
+All dies führt zu instationären Steuerungs - und Verkehrsabläufen, die in Ihrer Komplexität nicht durch eine
+vereinfachte statische Berechnung abgebildet werden können. Stattdessen wird eine mikroskopische
+Verkehrsflusssimulation eingesetzt, die eine detaillierte Abbildung des individuellen Fahrverhaltens, der
+Wechselwirkungen der Verkehrsteilnehmenden sowie die realitätsgetreue Detektion und Signalsteuerung
+der verkehrsabhängigen Lichtsignalsteuerungen ermöglicht. Im Rahmen der Simulation werden die
+verkehrlichen Auswirkungen der drei Ausbauvarianten unter identischen Randbedingungen betrachtet und
+verglichen.
+
+-- 4 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 4 von 35
+Untersuchungsraum
+Die untersuchten Knotenpunkte befinden sich im südwestlichen Zentrum Karlsruhes. Der Knotenpunkt
+K323 verbindet, mit Kriegs- und Brauer- bzw. Reinhold-Frank-Straße eine der wichtigsten Ost-West-Achsen
+der Stadt mit einer der wichtigsten Nord-Süd-Achsen der Stadt.
+Abbildung 1 - Lage des Untersuchungsgebiets im Innenstadtgebiet Karlsruhe
+Abbildung 2 - Übersicht über die Lage der Knotenpunkte mit ursprünglicher Verkehrsführung (Dreiecksinseln)
+In Richtung Norden, entlang der Reinhold-Frank-Straße liegt etwa 240 m entfernt der Knotenpunkt K322 –
+Reinhold-Frank-Straße / Sophienstraße und etwa 560 m entfernt der Knotenpunkt K122 - Mühlburger Tor.
+In Richtung Osten liegt etwa 310 m entfernt der Knotenpunkt K813 – Kriegsstraße / Hirschstraße und in
+etwa 500 m entfernt liegt die Ausfahrt aus dem Karoline-Luise-Tunnels. In südlicher Richtung liegen
+
+-- 5 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 5 von 35
+zwischen den Knotenpunkten K323 und K324 etwa 110 m Aufstellfläche, südlich der K324, entlang der
+Brauerstraße folgt nach etwa 220 m Entfernung der Knotenpunkt K311 – Brauerstraße / Roonstraße.
+Westlich der K323 entlang der Kriegsstraße liegt etwa 660 m entfernt der Knotenpunkt K329 –
+Weinbrennerplatz.
+Zwischen den beiden Knotenpunkten K323 und K324 befinden sich in beiden Richtungen bei etwa 2/3 der
+Länge der Aufstellfläche Staudetektoren. Bei Staudetektion reagieren die jeweils zufließenden
+Lichtsignalanlagen durch eine Reduzierung des Zuflusses, um eine Überstauung der stromaufwärts
+gelegenen Konfliktfläche zu vermeiden. Das zu diesem Zeitpunkt vorliegende Kapazitätsdefizit und der
+damit einhergehende Rückstau der stromabwärtigen Lichtsignalanlage wird dadurch vor die stromaufwärts
+gelegene Lichtsignalanlage verlagert.
+Verkehrsmengen
+Wesentlich für die Aussagekraft der Ergebnisse einer mikroskopischen Verkehrsflusssimulation sind die,
+als Eingangsparameter zugrunde gelegten, Verkehrsbelastungen. Die hier verwendete Verkehrsbelastung
+basiert auf Zählergebnissen der Firma Schuh & Co GmbH aus dem November 2022 für den Knotenpunkt
+K323 - Kriegsstraße / Brauerstraße / Reinhold-Frank-Straße (siehe Anhang A1.1 und A1.2). Diese enthält
+für jede einzelne Fahrbeziehung Verkehrsstärken getrennt nach Leicht- und Schwerverkehr sowie der
+Radfahrenden für einen gesamten repräsentativen Werktag.
+Als Betrachtungszeitraum für diese Untersuchung wird die verkehrsstärkste Stunde des Tages ausgewählt.
+In dieser treten Kapazitätsengpässe am deutlichsten auf und somit sind Vergleiche der Ausbauvarianten
+basierend auf Rückstaulängen und Wartezeiten besonders aussagekräftig. Die bereitgestellten Zählwerte
+weisen die Abendspitzenstunde von 16:00 Uhr bis 17:00 Uhr mit 8,4 % des Tagesgesamtverkehrs als
+Spitzenstunde aus. Die Morgenspitzenstunde (von 07:15 Uhr bis 08:15 Uhr) kommt im Vergleich auf 6,1 %
+des Tagesgesamtverkehrs. Die Morgenspitzenstunde hat in der rückstaukritischen Süd-Nord-
+Fahrbeziehung eine um etwa 25 % höhere Verkehrsbelastung als die Abendspitzenstunde. Die geringeren
+Verkehrsbelastungen der anderen Fahrbeziehungen führen jedoch dazu, dass die Freigabezeitreserven
+der verkehrsabhängigen Steuerung auch der Süd-Nord-Fahrbeziehung einen besseren Abfluss im
+Vergleich zur Abendspitzenstunde ermöglichen. In Folge hat die Süd-Nord-Fahrbeziehung in der
+Morgenspitze trotz einer höheren Belastung eine größere Kapazitätsreserve und dadurch bedingt ein
+vermindertes Überstauungsrisiko. Dies wurde anhand der mikroskopischen Verkehrsflusssimulation
+betrachtet und dabei bestätigt, dass in der Abendspitzenstunde in allen Zufahrten größere Rückstaulängen
+und höhere Wartezeiten auftreten. Daher wird die Abendspitzenstunde in allen weiteren Betrachtungen
+dieser Untersuchung als Grundlage dienen.
+Aufgrund dessen, dass zum Zeitpunkt der Erhebung der Verkehrszahlen, in der Reinhold-Frank-Straße
+nördlich der Kaiserallee die Fahrtrichtung Süden gesperrt war, werden die Verkehrsmengen aus Norden
+kommend um 20 % erhöht. Dieser prozentuale Wert leitet sich aus vormaligen Verkehrszählungen ab.
+Die Zählwerte enthalten keine dedizierten Fußgängerdaten. Im vorliegenden Betrachtungsfall spielen die
+Fußgänger aufgrund Ihrer Abwicklung eine geringe Rolle im Bezug auf die Leistungsfähigkeit des
+Knotenpunktes. Eine sehr hohe Auslastung spezieller Furten kann sich jedoch durchaus
+kapazitätsreduzierend auf die, zu diesen Furten bedingt verträglich geführten, Abbiegeströme auswirken.
+Davon potenziell betroffen sind, je nach Ausbauvariante keine (V1), eine (V2) oder drei (V0) bedingt
+verträglich geführte Rechtsabbieger der K323 und drei bedingt verträglich geführte Rechtsabbieger in der
+geplanten Ausbauvariante der K324. Bedingt verträglich geführte Linksabbieger sind an beiden
+Knotenpunkten nicht vorhanden. Für die Anzahl der angesetzten Fußgänger in der Simulation wird eine
+Detektorauswertung der Fußgängeranforderungstaster aus dem laufenden Betrieb herangezogen. Daraus
+lässt sich zuverlässig auslesen, in wie vielen Umläufen Fußgänger an den, nur auf Anforderung
+freigeschalteten Fußgängerfurten, anwesend waren. Bei vorausgesetzter gleichverteilter Ankunftszeit der
+Fußgänger am Knotenpunkt und 50 % Aufschlag für Fußgänger die im Schatten anderer Fußgänger ohne
+Tasterdruck queren, lässt sich die Anzahl der Fußgänger in der Spitzenstunde näherungsweise bestimmen.
+
+-- 6 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 6 von 35
+Die vorliegenden Fußgängerzahlen in Kombination mit der verkehrstechnischen Abwicklung lassen keinen
+wesentlichen Einfluss der Fußgänger auf den Kraftfahrzeugverkehr erwarten.
+Für den Knotenpunkt K324 – Brauerstraße / Gartenstraße liegen keine Zählwerte vor, stattdessen die
+Resultate eines makroskopischen Verkehrsmodells aus dem Jahr 2021. Unter dem Gesichtspunkt dieser
+Betrachtung sind fast ausschließlich die Zu- und Abflüsse der K324 in Richtung K323 erheblich. Diese
+Werte lassen sich direkt aus den Zahlen der K323 ermitteln. Alle weiteren Verkehrsströme werden aus den
+Ergebnissen des Verkehrsmodells und den relativen Verkehrsstärken der Abbiegebeziehungen abgeleitet.
+Mikroskopische Verkehrsflusssimulation
+Die zugrunde liegende mikroskopische Verkehrsflusssimulation wird mit der Software Aimsun Next erstellt
+und umfasst für jede der drei Ausbauvarianten eine realitätsnahe Abbildung der beiden Knotenpunkte K323
+- Kriegsstraße / Brauerstraße / Reinhold-Frank-Straße und K324 – Brauerstraße / Gartenstraße. Das
+beinhaltet die Abbildung der geplanten Topologie inklusive Fahrstreifenaufteilung und -länge sowie die
+exakte verkehrstechnische Abwicklung inklusive der Lage aller Detektionseinrichtungen und der
+verkehrsabhängigen Lichtsignalsteuerung mit ÖPNV-Priorisierung.
+Abbildung 3 - 3D-Simulationsausschnitte mit Blick aus Richtung Südwest auf die K324 (links) und die K323 (rechts)
+Der Untersuchungsraum ist in der räumlichen Ausdehnung so ausgelegt, dass in allen
+Knotenpunktzufahrten die gesamten Rückstaulängen betrachtet werden können. Dies betrifft insbesondere
+die Überstauung in Richtung Norden bis zum Mühlburger Tor, im Osten bis über die Ausfahrt des Karoline-
+Luise-Tunnels hinweg und im Westen bis zum Weinbrennerplatz. In Richtung Süden ist weniger der
+Rückstau südlich der K324 kritisch zu betrachten, als die Überstauung des Zwischenraumes der
+Knotenpunkte K323 und K324.
+Die zuvor beschriebenen, für die Untersuchung relevanten, Verkehrsmengen werden als Quell-Ziel-
+Matrizen in der Simulation abgebildet [1]. Die Straßenbahnen werden fahrplangetreu integriert.
+Im Rahmen dieser Untersuchung kann keine Kalibrierung der Fahrverhaltensparameter durchgeführt
+werden. Für eine Kalibrierung der Modelle wäre eine spezielle Erhebung von Zeitbedarfswerten nötig, die
+aus Zeitgründen nicht möglich ist. Die zugrunde liegenden Verhaltensmodelle der Simulation sind daher
+nicht explizit auf das Fahrverhalten im Karlsruher Berufsverkehr angepasst, sondern basieren auf
+etablierten Best-Practice-Ansätzen beziehungsweise empirisch fundierten Mittelwerten aus vergleichbaren
+Szenarien. Gleichwohl gelten diese Modellansätze als belastbare Grundlage für mikroskopische
+Verkehrsflusssimulationen und liefern auch ohne projektspezifische Kalibrierung realistische und
+konsistente Ergebnisse [2], [3]. Insbesondere für vergleichende Analysen und die Bewertung relativer
+Unterschiede zwischen Szenarien sind die Simulationsergebnisse daher als aussagekräftig einzustufen.
+
+-- 7 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 7 von 35
+Varianten und Steuerung
+Varianten
+In allen drei Ausbauvarianten unterscheidet sich die Topologie des Knotenpunktes K323 hinsichtlich der
+Lage der Radfahrstreifen in den Knotenzufahrten. An der Topologie der K324 und an der generellen
+Fahrstreifenaufteilung der Kraftfahrzeugverkehre an Knotenpunkt K323 ändert sich zwischen den drei
+Ausbauvarianten nichts.
+Alle drei Ausbauvarianten haben gemeinsam, dass die beiden Geradausbeziehungen der Kriegsstraße/B10
+von zwei Fahrstreifen im Bestand auf jeweils einen Fahrstreifen reduziert werden sowie, dass der von
+Süden kommende Rechtseinbieger auf die Kriegsstraße nicht mehr unsignalisiert entlang einer
+Dreiecksinsel geführt wird, sondern vollsignalisiert ist.
+Die Lage der Radfahrstreifen an der K323 hat, aufgrund der sich dadurch ändernden Zwischenzeiten, einen
+erheblichen Einfluss auf den Steuerungsablauf. Explizit unterscheiden sich die Ausbauvarianten darin, dass
+unterschiedliche Radfahrstreifen links (RVF1) oder rechts (RVF2) der Rechtsabbiegefahrstreifens geführt
+werden (siehe Abbildung 4).
+RVF1 - Gemeinsame Freigabe des Geradeausverkehrs mit
+dem Rechtsabbieger möglich
+RVF2 - Keine gemeinsame Freigabe des Geradeausverkehrs
+mit dem Rechtsabbieger möglich aufgrund Feindlichkeit
+Abbildung 4 - Vergleich der beiden Radverkehrsführungsvarianten
+Liegt der Radfahrstreifen rechts neben dem Rechtsabbiegefahrstreifen, ist der Rechtsabbieger feindlich
+zum Radfahrer. Aufgrund dessen, dass der geradeausfahrende Kraftfahrzeugverkehr immer gemeinsam
+mit dem parallelen Radfahrenden Freigabe erhalten soll, kann der Geradeausverkehr nicht mehr
+gemeinsam mit dem Rechtsabbieger freigegeben werden. In Folge ändern sich die, dem
+steuerungstechnischen Ablauf zugrundeliegenden Zwischenzeiten und es reduzieren sich Kapazität und
+Flexibilität des Verkehrsablaufs.
+Im Folgenden werden die drei betrachteten Ausbauvarianten mit V0, V1 und V2 bezeichnet. Bei
+Ausbauvariante V0 kommt, gemäß Bestand, nur in der nördlichen Zufahrt Reinhold-Frank-Straße die RFV2
+zum Einsatz (siehe Anhang A2.1). In Ausbauvariante V1 kommt RVF2 in allen vier Zufahrten zum Einsatz
+(siehe Anhang A3.1). In Ausbauvariante V2 kommt RVF2 zusätzlich nur in den beiden Zufahrten der
+Kriegsstraße/B10 zum Einsatz (siehe Anhang A4.1). Abbildung 5 zeigt eine Übersicht der drei
+Ausbauvarianten mit den unterschiedlichen Radverkehrsführungsvarianten an der K323.
+
+-- 8 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 8 von 35
+Abbildung 5 - Simplifizierte grafische Darstellung der Radverkehrsführung in den drei Ausbauvarianten
+Aus den daraus berechneten Zwischenzeitmatrizen der drei Ausbauvarianten (siehe Anhang A2.2, A3.2
+und A4.3) ergeben sich nach Überplanung die nachfolgenden Freigabezeitverteilungen an LSA K323:
+Abbildung 6 - Freigabezeitverteilung nach Fahrbeziehung und Ausbauvariante
+Aufgrund der erhöhten Zwischenzeiten und des dadurch verzögerten Signalablaufs kann in den
+Ausbauvarianten V1 und V2 die Freigabe der Süd-Nord-Fahrbeziehung erst später im Umlauf beginnen.
+Die Koordinierung der Süd-Nord-Fahrbeziehung ist daher verschlechtert und es kommt zu einem engeren
+zeitlichen Korridor der störungsfreien Durchfahrt (siehe Abschnitt Koordinierung und Steuerungsablauf).
+Bei den hohen Verkehrsmengen der betrachteten Abendspitze bedeutet dies, dass es mit einer wesentlich
+höheren Wahrscheinlichkeit zu einem, durch die Rückstaudetektion induzierten, vorzeitigen
+V0 27 s 13 s
+V1 21 s 14 s
+V2 21 s 14 s
+V0 V1 V2
+* 12 s 12 s
+K323 	32 s 30 s 30 s
+20 s 19 s 19 s
+V0 V1 V2
+12 s 11 s 11 s
+24 s 24 s 24 s
+* 6 s 6 s
+V0 18 s 17 s 16 s+
+V1 13 s 16 s 15 s
+V2 13 s 18 s 15 s+
+* bedingt verträglich
++ zusätzliche bedingt verträgliche Freigabe mit parallelem Geradeausstrom
+
+-- 9 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 9 von 35
+Freigabezeitabbruch des Zuflusses von LSA K324 kommen kann. Das wiederum bedingt, dass auch an
+LSA K323 potenziell nicht die gesamte Freigabezeit ausgenutzt werden kann.
+In einem Volllastumlauf (Dauerbelegung aller Detektoren außer der Stauschleifen) ergeben sich in Folge
+eine um 16 s in Ausbauvariante V1 und eine um 14 s geringere Freigabezeit je Umlauf in Ausbauvariante
+V2 im Vergleich zu Ausbauvariante V01. Das bedeutet, bei theoretischer Vollauslastung und ohne
+Berücksichtigung möglicher zusätzlicher kapazitätsmindernder Einflüsse auf den Verkehrsablauf oder die
+Steuerung, eine um etwa 450 Kfz/h verringerte Kapazität des Knotenpunktes K323 in V1 im Vergleich zu
+V0. Dies entspricht einer Reduzierung um etwa 9% des stündlichen Spitzenstundenverkehrs und in etwa
+der Verkehrsmenge, die innerhalb von 5 Minuten über den Knotenpunkt abgewickelt wird.
+Abbildung 7 – Theoretische Kapazitäten (Volllastumlauf) der drei Ausbauvarianten (ohne die in V1 bedingt verträglichen Ströme)
+bei angenommenem Zeitbedarfswert von 1,8s
+Koordinierung und Steuerungsablauf
+In allen drei Ausbauvarianten ist die verkehrsabhängige Steuerung, gemäß Bestand, primär auf eine gute
+Koordinierung der Abflüsse der K323 zur K324 ausgelegt. Alle aus Richtung Osten und Norden
+zufließenden Fahrzeuge von der LSA K323 zur K324 können koordiniert, ohne Halt abfließen. Außerdem
+ist die Priorisierung der Straßenbahnen an der K324 insofern eingeschränkt, dass zur Hauptrichtung
+feindliche Straßenbahnen nur in gewissen Zeitbereichen eingreifen können. Somit wird auch bei
+Bahneingriff die Koordinierung nicht gebrochen.
+Umlaufsekunde
+K323
+K324
+Möglicher Bahneingriff	Möglicher Bahneingriff
+Abbildung 8 - Vereinfachtes, übergreifendes Lichtsignalsteuerungsablaufschema
+1 Bei dieser vereinfachten Berechnung der Freigabezeiten wurden die Rechtsabbieger von der Kriegsstraße nicht
+berücksichtigt, da diese aufgrund der teilweise bedingt verträglichen Führung nicht quantitativ vergleichbar sind.
+Außerdem ist die zusätzliche, bedingt verträgliche Freigabe des Rechtseinbiegers aus Süden in den Ausbauvarianten
+V0 und V2 ebenfalls nicht berücksichtigt, da auch diese nicht quantitativ vergleichbar zwischen den Ausbauvarianten
+ist.
+0 500 1000 1500 2000 2500 3000 3500 4000 4500 5000
+V2
+V1
+V0
+Theoretische Kapazität gesichert geführter Signalgruppen je Ausbauvariante [Kfz/h]
+Ost (gerade) Ost (links) Süd (rechts) Süd (gerade) Süd (links)
+West (gerade) West (links) Nord (gerade) Nord (links)
+
+-- 10 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 10 von 35
+Dies bedingt indirekt, dass in der entgegengesetzten Süd-Nord-Fahrtrichtung Kraftfahrzeuge die aus
+Richtung Süden über die K324 zur K323 fahren, zunächst an der K323 auffahren. Je nachdem wie stark
+die Belastung des von Osten kommenden Linksabbiegers von der Kriegsstraße ist, kommt es zu einem
+Grünbeginnversatz von 17 s bis 44 s in V0, 24 s bis 49 s in V1 und 23 s bis 49 s in V2. Dadurch ist eine
+Überstauung des Zwischenraumes zwischen K323 und K324 mit wesentlich höherer Wahrscheinlichkeit in
+der Süd-Nord-Richtung als entgegengesetzt zu erwarten.
+Auswertungsmethodik
+Als Bewertungskriterium der Verkehrsqualität werden neben den maximalen und mittleren Rückstaulängen
+je Fahrstreifen auch die mittlere Wartezeit je Kraftfahrzeug betrachtet. Nach dem Handbuch für die
+Bemessung von Straßenverkehrsanlagen – Teil Stadtstraßen [4] wird die Qualitätsstufe (QSV) einer
+Fahrbeziehung wie folgt, anhand der mittleren Wartezeit definiert:
+Tabelle 1 - Die Qualitätsstufen des Verkehrsablaufs mit Grenzwerten für den Kfz-Verkehr
+QSV
+Kfz-Verkehr
+Fußgänger-
+und
+Radverkehr Erläuterung
+mittlere Wartezeit maximale Wartezeit
+A ≤ 20 s ≤ 30 s Die Wartezeiten sind für die jeweils betroffenen Verkehrsteilnehmenden sehr kurz
+B ≤ 35 s ≤ 40 s
+Die Wartezeiten sind für die jeweils betroffenen Verkehrsteilnehmenden kurz. Alle
+während der Sperrzeit auf dem betrachteten Fahrstreifen ankommenden
+Kraftfahrzeuge können in der nachfolgenden Freigabezeit weiterfahren.
+C ≤ 50 s ≤ 55 s
+Die Wartezeiten sind für die jeweils betroffenen Verkehrsteilnehmenden spürbar.
+Nahezu alle während der Sperrzeit auf dem betrachteten Fahrstreifen ankommenden
+Kraftfahrzeuge können in der nachfolgenden Freigabezeit weiterfahren. Auf dem
+betrachteten Fahrstreifen tritt im Kfz-Verkehr am Ende der Freigabezeit nur
+gelegentlich ein Rückstau auf.
+D ≤ 70 s ≤ 70 s
+Die Wartezeiten sind für die jeweils betroffenen Verkehrsteilnehmenden beträchtlich.
+Auf dem betrachteten Fahrstreifen tritt im Kfz-Verkehr am Ende der Freigabezeit häufig
+ein Rückstau auf.
+E >70 s ≤ 85 s
+Die Wartezeiten sind für die jeweils betroffenen Verkehrsteilnehmenden lang. Auf dem
+betrachteten Fahrstreifen tritt im Kfz-Verkehr am Ende der Freigabezeit in den meisten
+Umläufen ein Rückstau auf.
+F q > C
+(„Überlastung“) > 85 s
+Die Wartezeit sind für die jeweils betroffenen Verkehrsteilnehmenden sehr lang Auf
+dem betrachteten Fahrstreifen wird die Kapazität (C) im Kfz-Verkehr überschritten. Der
+Rückstau wächst stetig. Die Kraftfahrzeuge müssen bis zur Weiterfahrt mehrfach
+vorrücken.
+Die Qualitätsstufe F für Kraftfahrzeuge ist nicht direkt aus den Ergebnissen der
+mikroskopischen Verkehrsflusssimulation ableitbar.
+Je Ausbauvariante werden zehn Durchläufe mit unterschiedlichen Startzufallszahlen simuliert [5]. Die
+Ergebnisse sind je Ausbauvariante und Knotenpunkt in Tabellenform mit einer Spalte je Zufahrtsfahrstreifen
+und den Werten maximaler und mittlerer Rückstaulänge, mittlerer Wartezeit je Kfz und der daraus
+abgeleiteten Qualitätsstufe nach HBS aufgeführt. Aus den Resultaten der Simulation kann nicht direkt
+abgeleitet werden, ob QSV E oder F für den Kraftfahrzeugverkehr vorliegt, daher wird im Folgenden bei
+mittleren Wartezeiten > 70 s die QSV E/F ausgewiesen2. Die aufgeführte maximale Rückstaulänge ist dabei
+die längste Rückstaulänge, die innerhalb aller zehn Simulationsläufe auftrat. Zusätzlich dazu wird noch das
+95 %-Quantil der Rückstaulänge über alle zehn Simulationsläufe aufgeführt. Je Ausbauvariante werden die
+Werte noch einmal anhand einer vereinfachten, maßstäblichen Übersichtsgrafik dargestellt.
+2 Bei stetig steigenden Rückstaulängen liegt tendenziell QSV F vor, ansonsten QSV E.
+
+-- 11 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 11 von 35
+Ergebnisse
+Kraftfahrzeugverkehr
+Ausbauvariante V0
+In Ausbauvariante V0 kommt es in Nord-Süd-Fahrtrichtung vereinzelt zu Überstauungen des
+Knotenzwischenraumes zwischen den Knoten K323 und K324. In zwei von zehn Simulationsdurchläufen
+trat jeweils einmalig eine Überstauung bis in die Konfliktfläche des Knotens K324 auf. Die Gegenrichtung
+wurde in einem von zehn Simulationsdurchläufen einmalig temporär überstaut. Längerfristig andauernde
+Rückstauzustände nach Freigabeende traten nicht auf. Kurzfristige, aufgrund schwankender
+Verkehrsmengen hervorgerufene, Kapazitätsdefizite wurden stets in den nachfolgenden Umläufen
+vollständig kompensiert.
+Tabelle 2 - Ergebnistabelle für Kraftfahrzeugverkehr an Knotenpunkt K323 in Ausbauvariante V0
+K323
+maximale
+Rückstaulänge [m] 66,7 139,4 115,2 97,0 66,7 103,0 97,0 66,7 42,4 169,7 90,9 157,6 157,6 84,9
+95% Quantil 48,5 127,3 90,9 90,9 54,6 84,9 90,6 42,1 36,4 139,4 72,4 90,9 102,7 78,8
+mittlere
+Rückstaulänge [m] 7,9 34,5 25,7 23,1 9,4 18,5 17,0 5,2 4,1 38,9 15,5 23,5 21,2 22,7
+mittl. Wartezeit [s] 29,6 39,8 47,0 41,4 46,0 46,6 46,3 14,9 50,1 58,5 51,7 42,6 41,3 64,7
+QSV B C C C C C C A D D D C C D
+Tabelle 3 - Ergebnistabelle für Kraftfahrzeugverkehr an Knotenpunkt K324 in Ausbauvariante V0
+K324
+maximale
+Rückstaulänge [m] 42,4 48,5 109,1 109,1 30,3 12,1 84,9 97,0
+95% Quantil 36,4 30,3 78,8 78,8 30,3 11,8 60,3 60,6
+mittlere
+Rückstaulänge [m] 6,0 6,4 11,8 11,8 5,2 0,8 4,7 4,4
+mittl. Wartezeit [s] 42,8 63,9 18,5 18,5 47,6 29,1 6,1 5,7
+QSV C D A A C B A A
+Abbildung 9 - Maßstäbliche maximale Rückstaulängen (links) und mittlere Rückstaulängen (rechts) in Ausbauvariante V0
+
+-- 12 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 12 von 35
+Es kommt zu Qualitätsstufen für den motorisierten Kraftfahrzeugverkehr von QSV A bis QSV D. Die
+schlechteste Qualitätsstufe tritt in den Fahrbeziehungen der Signalgruppen 7/7a, 8 und 11 der LSA K323
+auf, sowie der Signalgruppe 4 der LSA K324. Die maximale, mittlere Wartezeit hat Signalgruppe 11 der
+LSA K323 mit 65 s pro Fahrzeug.
+Abbildung 10 - Simulationsausschnitt um etwa 16:30 Uhr (V0)
+Abbildung 11 zeigt die Rückstaulängen an den Haltlinien beider Knotenpunkte in Süd-Nord-Richtung. Es
+kommt nicht zu einer Überstauung des Knotenzwischenraumes, die eine staudetektionsinduzierte
+Rückstauverlagerung stromaufwärts der LSA K324 bedingen. So erkennt man auch im
+Simulationsausschnitt in Abbildung 10 keinen wesentlichen Rückstau südlich des Knotenpunktes K324.
+Abbildung 11 - Balkendiagramm der Rückstaulängen der Süd-Nord-Achse an beiden LSA in 10 s-Intervallen (V0)
+0
+50
+100
+150
+200
+250
+16:00 16:05 16:10 16:15 16:20 16:25 16:30 16:35 16:40 16:45 16:50 16:55
+Rückstaulänge Süd-Nord-Achse in Variante V0
+Rückstau Süd-Nord-Achse vor LSA K323 Rückstau Süd-Nord-Achse vor LSA K324 Ausfahrt LSA K324
+K323
+• temporäre Rückstaubildung an K323
+• selten Rückstau bei Freigabeende
+K324
+Fahrtrichtung Süd
+-Nord
+
+-- 13 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 13 von 35
+Ausbauvariante V1
+In Ausbauvariante V1 ist es nicht möglich, alle rechnerisch benötigten Freigabezeiten zu gewähren. Es
+kommt in Folge zu theoretischen Kapazitätsdefiziten. In einem durchschnittlichen Umlauf werden nicht alle
+Fahrzeuge während der Freigabezeit den Knotenpunkt passieren können. Die verkehrsabhängige
+Steuerung kann lokale Kapazitätsdefizite ausgleichen, sofern an anderen Fahrbeziehungen
+Kapazitätsreserven auftreten. Fehlen diese Kapazitätsreserven, kommt es potenziell zu stetig steigenden
+Rückstaulängen (QSV F).
+Abbildung 12 - Simulationsausschnitt um etwa 16:30 Uhr (V1)
+Das Ergebnis der Simulation zeigt, dass im Vergleich zu Ausbauvariante V0 deutlich höhere
+Rückstaulängen, insbesondere in der westlichen Zufahrt der K323 und der südlichen Zufahrt der K324,
+auftreten. Mit 370 m hat die Geradeausfahrbeziehung der Kriegsstraße aus Westen die höchste maximale
+Rückstaulänge in dieser Ausbauvariante3. In Süd-Nord-Richtung kommt es regelmäßig zu einer
+Überstauung des Knotenzwischenraumes und einem Rückstau vor LSA K324 von bis zu 300 m (siehe auch
+Abbildung 14). Die kurzen Aufstellstreifen der Signalgruppen 3/3a, 6, 9 und 12 sind mehrfach temporär
+überstaut.
+Abbildung 14 zeigt das Rückstauverhalten bei vorliegendem Kapazitätsdefizit der Süd-Nord-Achse an LSA
+K323. Der Rückstau steigt stetig an und kann bereits nach wenigen Umläufen nicht mehr innerhalb der
+Freigabezeit abgebaut werden. Dies wiederrum sorgt für ein immer früher im Umlauf auftretendes
+Ansprechen der Rückstaudetektion an LSA K323 und einer dadurch induzierten Freigabedrosselung an
+LSA K324. Die Abbildung zeigt, dass im Simulationsmodell ab etwa 16:30 Uhr der maximale Rückstau an
+der K323 nicht weiter ansteigt, sondern stromaufwärts vor LSA K324 verlagert wird und dort stetig ansteigt.
+Im Vergleich dazu zeigt Abbildung 11 dieselbe Grafik für Ausbauvariante V0, in der keine ansteigenden
+Rückstaumengen südlich der LSA K324 auftreten.
+3 Eine Überstauung des Knotenpunktes Weinbrennerplatz tritt bei Rückstaulängen von über 600 m ein.
+Überstauung
+und Rückstaudetektion
+Verlagerung des
+Rückstaus südlich
+der K324
+K323
+K324
+
+-- 14 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 14 von 35
+Tabelle 4 - Ergebnistabelle für Kraftfahrzeugverkehr an Knotenpunkt K323 in Ausbauvariante V1
+K323
+maximale
+Rückstaulänge [m] 109,1 145,5 133,4 103,0 60,6 103,0 103,0 97,0 84,9 369,7 157,6 163,7 157,6 84,9
+95% Quantil 84,9 145,5 133,4 103,0 54,6 103,0 103,0 90,6 60,3 206,1 121,2 114,6 120,3 78,8
+mittlere
+Rückstaulänge [m] 21,8 60,5 30,0 27,2 8,7 34,4 33,5 24,1 17,2 61,9 39,8 26,2 23,9 19,9
+mittl. Wartezeit [s] 74,4 66,3 55,2 47,3 46,5 89,9 90,8 64,6 142,8 87,5 130,9 49,5 47,2 61,4
+QSV E/F D D C C E/F E/F D E/F E/F E/F C C D
+Tabelle 5 - Ergebnistabelle für Kraftfahrzeugverkehr an Knotenpunkt K324 in Ausbauvariante V1
+K324
+maximale
+Rückstaulänge [m] 54,6 54,6 297,0 297,0 48,5 18,2 78,8 78,8
+95% Quantil 42,4 36,4 206,1 206,1 36,4 12,1 66,7 66,7
+mittlere
+Rückstaulänge [m] 6,9 6,7 31,2 31,2 5,5 0,8 8,4 8,1
+mittl. Wartezeit [s] 51,7 79,5 49,1 49,1 50,9 24,0 8,9 8,3
+QSV D E/F C C D B A A
+Abbildung 13 - Maßstäbliche maximale Rückstaulängen (links) und mittlere Rückstaulängen (rechts) in Ausbauvariante V1
+
+-- 15 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 15 von 35
+Abbildung 14 - Balkendiagramm der Rückstaulängen der Süd-Nord-Achse an beiden LSA in 10 s-Intervallen (V1)
+Durch iteratives Reduzieren der Verkehrsmengen in der mikroskopischen Verkehrsflusssimulation von
+Ausbauvariante V1 konnte festgestellt werden, dass ein „stabiler“ Verkehrsablauf bei einer Reduzierung der
+Verkehrsmengen um etwa 7-10% eintritt. Dann können alle temporären Kapazitätsdefizite innerhalb
+weniger Umläufe kompensiert werden und es kommt zu keiner kontinuierlich steigenden Rückstaubildung.
+Ausbauvariante V2
+Im Vergleich zu Ausbauvariante V1 ist in Ausbauvariante V2 die Radverkehrsführung in der südlichen
+Zufahrt analog zu V0 ausgebaut. Dadurch kann im Vergleich zu V1 die Signalgruppe 5 zwei Sekunden
+länger frei bekommen. Des Weiteren kann der südliche Rechtseinbieger zusätzlich bedingt verträglich über
+die Vollscheibe des parallelen Geradeausverkehr einbiegen.
+Durch die angepassten Zwischenzeiten sind bei hohen Auslastungen jedoch nur geringfügige
+Kapazitätsgewinne im Vergleich zu V1 erwartbar. Bei schwachen Auslastungen können höhere
+Kapazitätsgewinne, aufgrund einer höheren Flexibilität im Vergleich zu V1 gewonnen werden.
+Tabelle 6 - Ergebnistabelle für Kraftfahrzeugverkehr an Knotenpunkt K323 in Ausbauvariante V2
+K323
+maximale
+Rückstaulänge [m] 109,1 133,4 133,4 103,0 72,7 84,9 90,9 66,7 90,9 315,2 157,6 151,5 157,6 72,7
+95% Quantil 66,7 133,4 96,4 90,9 54,6 72,7 66,7 54,6 60,6 205,8 108,8 96,7 96,7 66,7
+mittlere
+Rückstaulänge [m] 22,3 61,3 31,3 28,2 10,0 20,9 21,8 16,3 18,4 65,8 40,2 27,4 23,9 15,5
+mittl. Wartezeit [s] 73,6 66,0 55,4 47,4 49,7 63,6 65,4 47,5 141,5 88,7 128,0 49,5 46,4 60,0
+QSV E/F D D C C D D C E/F E/F E/F C C D
+0
+50
+100
+150
+200
+250
+300
+350
+400
+16:00 16:05 16:10 16:15 16:20 16:25 16:30 16:35 16:40 16:45 16:50 16:55
+Rückstaulänge Süd-Nord-Achse in Variante V1
+Rückstau Süd-Nord-Achse vor LSA K323 Rückstau Süd-Nord-Achse vor LSA K324 Ausfahrt LSA K324
+Fahrtrichtung Süd
+-Nord
+
+-- 16 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 16 von 35
+Tabelle 7 - Ergebnistabelle für Kraftfahrzeugverkehr an Knotenpunkt K324 in Ausbauvariante V2
+K324
+maximale
+Rückstaulänge [m] 48,5 54,6 200,0 200,0 36,4 18,2 78,8 78,8
+95% Quantil 42,4 36,4 181,8 181,8 30,3 12,1 66,4 60,6
+mittlere
+Rückstaulänge [m] 8,2 6,5 20,2 20,2 4,9 0,9 9,1 7,7
+mittl. Wartezeit [s] 52,0 78,8 33,8 33,8 49,4 24,4 8,7 8,1
+QSV D E/F B B C B A A
+Abbildung 15 - Maßstäbliche maximale Rückstaulängen (links) und mittlere Rückstaulängen (rechts) in Ausbauvariante V2
+Abbildung 16 - Balkendiagramm der Rückstaulängen der Süd-Nord-Achse an beiden LSA in 10 s-Intervallen (V2)
+0
+50
+100
+150
+200
+250
+300
+16:00 16:05 16:10 16:15 16:20 16:25 16:30 16:35 16:40 16:45 16:50 16:55
+Rückstaulänge Süd-Nord-Achse in Variante V2
+Rückstau Süd-Nord-Achse vor LSA K323 Rückstau Süd-Nord-Achse vor LSA K324 Ausfahrt LSA K324
+
+-- 17 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 17 von 35
+Die Ergebnisse der mikroskopischen Verkehrsflusssimulation zeigen im Vergleich zu Ausbauvariante V1
+eine Verbesserung der Verkehrsqualität und eine geringe Reduzierung des Rückstaus in der Süd-Nord-
+Achse, die sich durch die Kapazitätssteigerung dieser Fahrbeziehung an LSA K323 von etwa zwei
+Fahrzeugen pro Umlauf erklären lässt. Aufgrund der dadurch seltener und später im Umlauf auftretenden
+Überstauung der Rückstauschleifen, ergibt sich auch an LSA K324 eine höhere Freigabezeit und somit eine
+gesteigerte Verkehrsqualität und verminderte Rückstaubildung der Süd-Nord-Achse. Zudem zeigt sich eine
+verbesserte Verkehrsqualität des südlichen Rechtseinbiegers auf die Kriegsstraße. Alle weiteren Wartezeit-
+und Rückstauwerte haben nur geringe Varianz im Vergleich zur Ausbauvariante V1.
+Rad- und Fußgängerverkehr
+Für die Bestimmung der Qualitätsstufen des Rad- und Fußgängerverkehrs sind nach HBS, im Gegensatz
+zum Kraftfahrzeugverkehr die maximalen anstatt der mittleren Wartezeiten maßgeblich. Im Folgenden sind
+diese je Knotenpunktarm aufgeführt.
+Tabelle 8 – Maximale Wartezeiten für den Fußgängerverkehr an Knotenpunkt K323
+K323
+V0 maximale Wartezeit [s] 86,1 87,7 89,6 86,5
+QSV F F F F
+V1 maximale Wartezeit [s] 85,4 85,0 88,5 86,5
+QSV E E F F
+V2 maximale Wartezeit [s] 91,1 85,2 82,7 86,1
+QSV F E E F
+Tabelle 9 - Maximale Wartezeiten für den Fußgängerverkehr an Knotenpunkt K324
+K324
+V0, V1,
+V2
+maximale Wartezeit [s] 46,1 84,8 80,4 60,0 92,1
+QSV C E E D F
+Die maximalen Wartezeiten der Fußgänger und derjenigen Radfahrenden die über die Furten fahren sind
+zwischen den jeweiligen Ausbauvarianten im Prinzip identisch. Dies ist bedingt dadurch, dass in den
+koordinierten Steuerungen immer dieselben Umlaufzeit von 100 s umgesetzt ist, nahezu Volllast vorliegt
+und alle an Lichtsignalanlage K323 zur Mittelinsel einlaufenden Fußgängersignale nach 10 s Freigabe
+gesperrt werden. Die räumendenden Fußgänger von der Mittelinsel haben im Anschluss weiterhin mehrere
+Sekunden über Grün. In der Theorie ist für die maximale Wartezeit ist derjenige Fußgänger maßgeblich der
+1 s nach Freigabeende an der Furt eintrifft und dann 89 s warten muss.
+Eine spürbare Reduzierung der Fußgängerwartezeiten wäre lediglich durch Umlaufzeitreduzierung möglich.
+Diese findet außerhalb der Spitzenstunden an den beiden Lichtsignalanlagen bereits statt. Innerhalb der
+hier betrachteten Spitzenstunde jedoch, ist eine Umlaufzeitreduzierung, ohne Billigung massiver
+Rückstaulängen des Kraftfahrzeugverkehrs, nur in Ausbauvariante V0 realistisch. Hier wäre eine
+Reduzierung auf 90 s Umlaufzeit denkbar. Diese würde sich direkt auf die Wartezeiten der Fußgänger
+auswirken und bei dann theoretisch 79 s maximaler Wartezeit eine Qualitätsstufe von QSV E statt QSV F
+für alle Furten ergeben.
+
+-- 18 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 18 von 35
+Diejenigen Radfahrenden, die nicht über die Furten fahren, werden je nach Zufahrt und Ausbauvariante
+über eigene Radsignale oder parallel zur Kraftfahrzeugfreigabe geführt. Im Folgenden sind für alle
+Fahrbeziehungen die nicht im Mischverkehr sondern auf eigenem Radfahrstreifen geführt sind, die
+maximalen Wartezeiten aufgeführt. Bei abbiegenden Radfahrenden die im Mischverkehr über die
+Fahrstreifen der Kraftfahrzeuge fahren, wird auf die mittleren Wartezeiten aus den jeweiligen Tabellen der
+Kraftfahrzeuge verwiesen4.
+Für die indirekten Linksabbieger aus Richtung Osten an beiden Lichtsignalanlagen ist die maximale
+Wartezeit für den gesamten Vorgang, also das konsekutive Überfahren von zwei getrennten Signalgruppen
+berücksichtigt.
+Tabelle 10 - Maximale Wartezeiten für die Radfahrstreifen an Knotenpunkt K323
+K323
+V0 maximale Wartezeit [s] 64,5 102,8 81,8 72,0 72,3
+QSV D F E E E
+V1 maximale Wartezeit [s] 71,3 62,4 99,8 80,0 74,5 52,0 73,4 74,2
+QSV E D F E E C E E
+V2 maximale Wartezeit [s] 67,4 64,4 111,4 81,7 69,2 69,7 78,0
+QSV D D F E D D E
+Tabelle 11 - Maximale Wartezeiten für die Radfahrstreifen an Knotenpunkt K324
+K324
+V0,
+V1,
+V2
+maximale Wartezeit [s] 91,1 85,4 34,1 29,5 88,2 49,6 42,1
+QSV F F B B F C C
+Wesentliche Unterschiede zwischen den Ausbauvarianten sind weder für den Fuß- noch den Radverkehr
+vorhanden. Die auftretenden Unterschiede sind eher mit zufälliger Abweichung des Eintreffenszeitpunktes
+am Knotenpunkt zu erklären, also durch die geringfügige Steuerungsanpassung hinsichtlich des Rad- und
+Fußverkehr.
+Einordnung der Ergebnisse
+Ziel der Untersuchung ist der verkehrstechnische Vergleich der beiden lichtsignalgeregelten Knotenpunkte
+in den drei vordefinierten Ausbauvarianten. Diese Untersuchung verfolgt nicht den Zweck, eine
+gesamtheitliche Betrachtung der Ausbauvarianten anzustellen. Insbesondere Sicherheitsaspekte, aber
+auch die Belange der nicht motorisierten Verkehrsteilnehmenden sowie städtebauliche Aspekte und
+mögliche verkehrsregulierende Ansätze sind nicht Teil dieser Betrachtung. Sie dient lediglich als
+Entscheidungshilfe in Bezug auf Verkehrsqualität und -ablauf.
+Im Hinblick auf die Aussagekraft der mikroskopischen Verkehrsflusssimulation sei außerdem erwähnt, dass
+alle nördlich des Knotenpunktes K323 gelegenen kapazitätsmindernden Elemente, insbesondere die
+Lichtsignalanlagen K322 und K122, nicht in der Simulation abgebildet sind. Eine in der Realität potenziell
+auftretende Überstauung der nördlichen Knotenausfahrt der K323 würde die Kapazität spürbar reduzieren.
+Ein Rückstau an dieser Stelle wird über Staudetektion erkannt und infolgedessen die Freigabezeiten der
+4 Die maximalen Wartezeiten im Mischverkehr auszuweisen, würde für alle Fahrbeziehungen QSV F ausweisen, da
+diejenigen Radfahrer die nicht am Rückstau vorbei zur Haltelinie vorrücken eine sehr hohe maximale Wartezeit haben
+und maßgeblich werden. Eine direkte Vergleichbarkeit wäre daher nicht gegeben.
+
+-- 19 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 19 von 35
+zufließenden Signalgruppen reduziert. Der Rückstau wird dann zunächst südlich der K323 und konsekutiv
+südlich der K324 verlagert.
+Darüber hinaus stellen mikroskopische Modelle stets eine Abstraktion der Wirklichkeit dar. Individuelle
+Entscheidungen von Verkehrsteilnehmenden, spontane Ereignisse (z. B. Unfälle oder ungewöhnliche
+Fahrmanöver) oder langfristige Anpassungsprozesse im Verkehrsverhalten lassen sich nur eingeschränkt
+modellieren. Auch sind solche Modelle stark von den implementierten Fahrverhaltensmodellen abhängig,
+deren Annahmen nicht in jeder Verkehrssituation gleichermaßen zutreffen. Ein zentraler Punkt ist die starke
+Abhängigkeit von Eingabedaten und Modellparametern. Fahrverhalten und Zuflusssteuerung werden durch
+Modellannahmen beschrieben, die reale Verhaltensvariationen nur begrenzt abbilden können und im
+Rahmen dieser Untersuchung nicht in vollem Umfang kalibriert und evaluiert werden konnten. Dennoch
+bieten mikroskopische Verkehrsflusssimulationen eine fundierte Abschätzung der zu erwartenden
+Verkehrsabläufe und sind eine bewährte Methode der Beurteilung und Quantifizierung der Verkehrsqualität
+[6], [7].
+Die Steuerungen für die drei Ausbauvarianten wurde in der Form angepasst, dass die
+Freigabezeitverteilung und Koordinierung ideal zu den zugrunde gelegten Verkehrsmengen passen. Bei
+jedoch größeren Abweichungen der Verkehrsverteilung oder einer Erhöhung der Verkehrsmengen um etwa
+10-15 % kommt es auch in Ausbauvariante V0 zu Kapazitätsdefiziten und infolgedessen zu starker
+Rückstaubildung, die in den Ausbauvarianten V1 und V2 in höherem Ausmaß zu beobachten wären.
+Die Simulationsergebnisse gelten daher in erster Linie für das konkret modellierte Szenario und die
+zugrunde liegenden Annahmen. Sie sind nicht als exakte Vorhersagen zukünftiger Verkehrszustände zu
+verstehen, sondern als indikative Prognosen oder Vergleichswerte zwischen den verschiedenen
+Ausbauvarianten.
+Zusammenfassung
+Die drei Ausbauvarianten V0, V1 und V2 wurden anhand einer mikroskopischen Verkehrsflusssimulation
+hinsichtlich der Verkehrsqualität an den Knotenpunkten K323 und K324 verglichen. Wesentliche
+Unterscheide zwischen den Ausbauvarianten ergeben sich durch die, in Folge der geänderten Topologie
+angepassten Zwischenzeiten.
+Für die Wartezeiten des Fußgängerverkehrs ist zwischen den Ausbauvarianten kein wesentlicher
+Unterschied auszumachen. Jedoch ließe sich in Ausbauvariante V0 eine Optimierung hinsichtlich der
+Fußgängerwartezeiten umsetzen, die in den beiden Ausbauvarianten V1 und V2 aufgrund kaum
+hinnehmbarer Rückstaubildung beim Kraftfahrzeugverkehr nicht umsetzbar sind.
+Tabelle 12 - Überblick ausgewählter Kenngrößen des Kraftfahrzeugverkehrs für die K323
+K323
+V0 Rückstaulänge
+(95%-Quantil) 48,5 127,3 90,9 90,9 54,6 84,9 90,6 42,1 36,4 139,4 72,4 90,9 102,7 78,8
+QSV B C C C C C C A D D D C C D
+V1 Rückstaulänge
+(95%-Quantil) 84,9 145,5 133,4 103,0 54,6 103,0 103,0 90,6 60,3 206,1 121,2 114,6 120,3 78,8
+QSV E/F D D C C E/F E/F D E/F E/F E/F C C D
+V2 Rückstaulänge
+(95%-Quantil) 66,7 133,4 96,4 90,9 54,6 72,7 66,7 54,6 60,6 205,8 108,8 96,7 96,7 66,7
+QSV E/F D D C C D D C E/F E/F E/F C C D
+
+-- 20 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 20 von 35
+Tabelle 13 - Überblick ausgewählter Kenngrößen des Kraftfahrzeugverkehrs für die K324
+K324
+V0 Rückstaulänge
+(95%-Quantil) 36,4 30,3 78,8 78,8 30,3 11,8 60,3 60,6
+QSV C D A A C B A A
+V1 Rückstaulänge
+(95%-Quantil) 42,4 36,4 206,1 206,1 36,4 12,1 66,7 66,7
+QSV D E/F C C D B A A
+V2 Rückstaulänge
+(95%-Quantil) 42,4 36,4 181,8 181,8 30,3 12,1 66,4 60,6
+QSV D E/F B B C B A A
+Bei den Wartezeiten und Rückstaulängen im Kraftfahrzeugverkehr zeigen sich zwischen den
+Ausbauvarianten, speziell zwischen V0 und V1/2 hingegen deutliche Unterschiede. Wesentlich für einen
+guten Ablauf des Untersuchungsgebietes ist die Koordinierung der Signalsteuerung zwischen den beiden
+betrachteten Knotenpunkten K323 und K324. Bei hohen Verkehrsmengen kann nur durch eine fein
+abgestimmte Koordinierung die Überstauung der kurzen Aufstellfläche und des nachfolgenden
+Knotenpunktes vermieden werden.
+Der Knotenpunkt K323 ist in der Abendspitze nah an der Kapazitätsgrenze. Durch eine bereits im Bestand
+sehr elaborierte Verkehrssteuerung, die insbesondere auf die Überstauung der Knotenzwischenräume
+zwischen K323 und K324 proaktiv reagiert, bleiben Rückstaulängen und Verkehrsqualität in der
+Ausbauvariante V0 auch in der hoch belasteten Abendspitzenstunde in einem akzeptablen Maß. Es kommt
+zu mittleren Wartezeiten von bis zu über 60 s (QSV D). Eine Überstauung anliegender Knotenpunkte oder
+des Karoline-Luise-Tunnels ist nicht zu erwarten.
+In den Ausbauvarianten V1 und V2 kommt es zu Kapazitätsdefiziten und stetig ansteigenden
+Rückstaulängen. Dies ist bedingt durch einerseits sinkende Freigabezeiten, aber auch durch eine
+schlechtere Vereinbarkeit der Nord-Süd-Koordinierung mit der Süd-Nord-Koordinierung zwischen den
+beiden Lichtsignalanlagen K323 und K324.In drei der Zufahrten der LSA K323 und dem südlichen
+Rechtsabbieger der K324 kommt es zu QSV E/F. Im Vergleich zu Ausbauvariante V1 sind die negativen
+Auswirkungen in Ausbauvariante V2 teilweise etwas abgeschwächt. Die Süd-Nord-Fahrbeziehung ist in
+Ausbauvariante V2 etwas weniger überstaut und jeweils eine Qualitätsstufe besser (QSV B an K324 und
+QSV D an K323). In V1 und V2 kann es zu Überstauung anliegender Knotenpunkte (insbesondere von
+K324) kommen. Eine sporadische Überstauung des Karoline-Luise-Tunnels kann nicht ausgeschlossen
+werden.
+
+-- 21 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 21 von 35
+Literaturverzeichnis
+[1] Aimsun SLU, „Aimsun Next User Manual,“ [Online]. Available: https://docs.aimsun.com/next/24.0.2/.
+[Zugriff am 24 04 2026].
+[2] Aimsun SLE, „Modeling Vehicle Movement,“ [Online]. Available:
+https://docs.aimsun.com/next/24.0.0/UsersManual/MicrosimulationModellingVehicleMovement.html.
+[Zugriff am 24 04 2026].
+[3] C. B., P. V. und M. M., „The Calibration of Traffic Simulation Models,“ European Commission - Joint
+Research Centre, Bd. JRC Scientific and Technical Reports, 2012.
+[4] Forschungsgesellschaft für Straßen- und Verkehrswesen e.V. (FGSV) - Kommission Bemessung von
+Straßenverkehrsanlagen, „Teil S Stadtstraßen,“ in Handbuch für die Bemessung von
+Straßenverkehrsanlagen (HBS), Köln, FGSV Verlag GmbH, 2015.
+[5] U.S. Department of Transportation - Federal Highway Administrations, „Guidelines for Applying Traffic
+Microsimulation Modeling Software,“ Traffic Analysis Toolbox, Bd. Volume III, 2004.
+[6] Forschungsgesellschaft für Straßen- und Verkehrswesen e.V. (FGSV) - Arbeitsgruppe Verkehrsführung
+und Verkehrssicherheit, Hinweise zur mikroskopischen Verkehrsflussimulation - Grundlagen und
+Anwendung, Köln: FGSV Verlag GmbH, 2006.
+[7] B. Jaume, Fundamentals of Traffic Simulation, New York, USA: Springer Science + Business Media
+LLC, 2010.
+[8] Forschungsgesellschaft für Straßen- und Verkehrswesen e.V. (FGSV) - Arbeitsgruppe
+Verkehrsmanagement, Richtlinien für Lichtsignalanlagen (RiLSA), Köln: FGSV Verlag GmbH, 2015.
+
+-- 22 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 22 von 35
+Anhang
+A1.1 Zähldaten K323 – Abendspitze (Kfz)
+vom Donnerstag 17.11.2022 16:00-17:00 Uhr
+
+-- 23 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 23 von 35
+A1.2 Zähldaten K323 (Radfahrende)
+vom Donnerstag 17.11.2022
+
+-- 24 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 24 von 35
+A2.1 Ausbauvariante V0 – Signallageplan
+(Achtung: nicht maßstäblich)
+
+-- 25 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 25 von 35
+A2.2 Ausbauvariante V0 – Zwischenzeitenmatrix für die verkehrsabhängige Steuerung
+
+-- 26 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 26 von 35
+A2.3 Ausbauvariante V0 - Tabelle für das Erlaubnisbereichsverfahren
+
+-- 27 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 27 von 35
+A3.1 Ausbauvariante V1 - Signallageplan
+(Achtung: nicht maßstäblich)
+
+-- 28 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 28 von 35
+A3.2 Ausbauvariante V1 - Zwischenzeitenmatrix für die verkehrsabhängige Steuerung
+
+-- 29 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 29 von 35
+A3.3 Ausbauvariante V1 - Tabelle für das Erlaubnisbereichsverfahren
+
+-- 30 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 30 von 35
+A4.1 Ausbauvariante V2 - Signallageplan
+(Achtung: nicht maßstäblich)
+
+-- 31 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 31 von 35
+A4.2 Ausbauvariante V2 - Zwischenzeitenmatrix für die verkehrsabhängige Steuerung
+
+-- 32 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 32 von 35
+A4.3 Ausbauvariante V2 - Tabelle für das Erlaubnisbereichsverfahren
+
+-- 33 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 33 von 35
+A5.1 K324 - Zwischenzeitenmatrix für die verkehrsabhängige Steuerung
+
+-- 34 of 35 --
+
+Leistungsfähigkeitsbetrachtung
+Karlsruhe K323 & K324
+09.06.2026 Seite 34 von 35
+A5.2 K324 - Tabelle für das Erlaubnisbereichsverfahren
+
+-- 35 of 35 --
+
