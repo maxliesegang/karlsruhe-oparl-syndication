@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://localhost:8080/</id>
     <title>Alle Tagesordnungspunkte</title>
-    <updated>2026-07-01T16:28:55.012Z</updated>
+    <updated>2026-07-02T05:54:59.008Z</updated>
     <generator>Custom TypeScript Atom Feed Generator</generator>
     <author>
         <name>Maximilian Liesegang</name>
@@ -13,6 +13,23 @@
     <link rel="self" href="http://localhost:8080/tagesordnungspunkte.xml"/>
     <subtitle>Feed der Tagesordnungspunkte aus den Sitzungen aller Karlsruher Gremien</subtitle>
     <rights>Kein Copyright</rights>
+    <entry>
+        <title type="html"><![CDATA[Überprüfung der städtischen Mitgliedschaften]]></title>
+        <id>https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102012</id>
+        <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-10540#top30"/>
+        <updated>2026-07-02T05:51:38.000Z</updated>
+        <summary type="html"><![CDATA[Überprüfung der städtischen Mitgliedschaften]]></summary>
+        <content type="html"><![CDATA[
+      <b>Sitzung:</b> Gemeinderat (öffentlich/nicht öffentlich)<br>
+      <b>Datum:</b> 23. Juni 2026<br>
+      <b>TOP 30:</b> Überprüfung der städtischen Mitgliedschaften<br><br>
+      <b>Anhänge:</b><br> <a href="https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00678629.pdf">Antrag (Erstellt am: 22.05.2026, Aktualisiert am: 02.07.2026)</a><br><a href="https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00678737.pdf">Stellungnahme Antrag (Erstellt am: 28.05.2026, Aktualisiert am: 02.07.2026)</a><br>
+    ]]></content>
+        <author>
+            <name>Gemeinderat (öffentlich/nicht öffentlich)</name>
+        </author>
+        <published>2026-06-08T07:09:35.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Einführung einer Bewertungsmatrix für ein Mehr an Transparenz, Nachvollziehbarkeit und Akzeptanz kommunaler Entscheidungen]]></title>
         <id>https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101937</id>
@@ -840,23 +857,6 @@
       <b>Datum:</b> 19. Juni 2026<br>
       <b>TOP 3:</b> Frühe Hilfen in Karlsruhe – Wirkung und Konzeption<br><br>
       <b>Anhänge:</b><br> <a href="https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00678112.pdf">Informationsvorlage (Erstellt am: 04.05.2026, Aktualisiert am: 12.06.2026)</a><br><a href="https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00678643.pdf">Anlage 1 (Erstellt am: 26.05.2026, Aktualisiert am: 12.06.2026)</a><br>
-    ]]></content>
-        <author>
-            <name>Jugendhilfeausschuss (öffentlich/nicht öffentlich)</name>
-        </author>
-        <published>2026-06-18T08:12:19.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Übergang Schule - Beruf: Bericht zur aktuellen Situation]]></title>
-        <id>https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102240</id>
-        <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-10537#top4"/>
-        <updated>2026-06-25T08:18:28.000Z</updated>
-        <summary type="html"><![CDATA[Übergang Schule - Beruf: Bericht zur aktuellen Situation]]></summary>
-        <content type="html"><![CDATA[
-      <b>Sitzung:</b> Jugendhilfeausschuss (öffentlich/nicht öffentlich)<br>
-      <b>Datum:</b> 19. Juni 2026<br>
-      <b>TOP 4:</b> Übergang Schule - Beruf: Bericht zur aktuellen Situation<br><br>
-      <b>Anhänge:</b><br> <a href="https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00678671.pdf">Informationsvorlage (Erstellt am: 27.05.2026, Aktualisiert am: 12.06.2026)</a><br><a href="https://web1.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00678744.pdf">Anlage (Erstellt am: 29.05.2026, Aktualisiert am: 12.06.2026)</a><br>
     ]]></content>
         <author>
             <name>Jugendhilfeausschuss (öffentlich/nicht öffentlich)</name>
