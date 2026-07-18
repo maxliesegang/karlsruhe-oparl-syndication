@@ -11,6 +11,14 @@ import { atomicWriteFile } from './file-utils.js';
 
 const PUBLIC_DIR = path.join(import.meta.dirname, '..', 'docs');
 
+/**
+ * Deterministic fallback for entries (and an empty feed) that have no usable
+ * date. Using a fixed epoch instead of the run clock keeps the XML byte-stable
+ * across runs — a date-less entry no longer churns every run, and it cannot push
+ * the feed-level <updated> to "now" and defeat conditional-GET/304 for readers.
+ */
+const FALLBACK_DATE = new Date(0);
+
 /** Initialize a new feed with given metadata. */
 function createFeedContainer(updatedAt: Date): Feed {
   return new Feed({
@@ -112,8 +120,12 @@ function appendAgendaItem(
 
   const meetingDay = formatGermanLongDate(parseValidDate(meeting.start));
   // `date` (Atom <updated>) and `published` must be valid Dates or the Atom serializer throws.
+  // Prefer the meeting's own date over the generic fallback so a date-less agenda item still
+  // sorts near its meeting rather than at the epoch floor.
   const mostRecentDate =
-    latestValidDate(itemModified, itemCreated, paperLastUpdate) ?? fallbackDate;
+    latestValidDate(itemModified, itemCreated, paperLastUpdate) ??
+    parseValidDate(meeting.start) ??
+    fallbackDate;
   const publishedDate = itemCreated ?? itemModified ?? mostRecentDate;
 
   feed.addItem({
@@ -145,14 +157,23 @@ function findLatestFeedEntryDate(feed: Feed): Date | undefined {
 }
 
 /** Create the feed with metadata and meetings */
-export async function buildAgendaFeed(meetings: Meeting[], fallbackUpdatedAt: Date): Promise<Feed> {
+export async function buildAgendaFeed(
+  meetings: Meeting[],
+  fallbackUpdatedAt: Date = FALLBACK_DATE,
+): Promise<Feed> {
   logger.info('Starting to create feed...');
   const feed = createFeedContainer(fallbackUpdatedAt);
   appendMeetingAgendaItems(feed, meetings, fallbackUpdatedAt);
+  // Sort newest-first with a stable id tiebreaker so the serialized order is fully
+  // deterministic (independent of readdir/Map insertion order). Without this the full
+  // feed's byte output — and its git diff — depended on filesystem enumeration order.
+  feed.items.sort(
+    (a, b) => b.date.getTime() - a.date.getTime() || String(a.id).localeCompare(String(b.id)),
+  );
   // Anchor the feed-level <updated> to the newest entry rather than the run clock, so an
   // unchanged run produces a byte-identical feed. That lets git dedupe the blob and lets
   // subscribers' readers get a 304 instead of re-downloading the whole feed every poll.
-  // Falls back to the run time only when the feed is empty.
+  // Falls back to the deterministic fallback only when the feed is empty.
   feed.options.updated = findLatestFeedEntryDate(feed) ?? fallbackUpdatedAt;
   logger.info('Finished creating feed.');
   return feed;
@@ -165,7 +186,7 @@ export async function writeFullFeed(feed: Feed): Promise<void> {
 }
 
 /** Write a trimmed feed containing only the most recent items to the file system */
-export async function writeRecentFeed(feed: Feed, maximumItemCount = 50): Promise<void> {
+export async function writeRecentFeed(feed: Feed, maximumItemCount = 100): Promise<void> {
   const recentFeedUrl = new URL(config.recentFeedFileName, config.feedBaseUrl).href;
   const recentFeed = new Feed({
     ...feed.options,

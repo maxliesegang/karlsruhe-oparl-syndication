@@ -63,4 +63,52 @@ describe('HTTP pagination', () => {
     );
     expect(formatOParlDateQueryValue(modifiedSince)).toBe('2026-07-18T10:15:30+00:00');
   });
+
+  it('treats a response with no links object as the terminal page', async () => {
+    config.requestIntervalMs = 0;
+    vi.spyOn(httpClient, 'get').mockResolvedValueOnce({
+      data: { data: [{ id: 'one' }] }, // no `links` at all, e.g. a final page
+    });
+
+    const result = await fetchPaginatedCollection<{ id: string }>(
+      'https://example.test/ris/oparl/items?limit=1000',
+      () => undefined,
+    );
+
+    expect(result).toEqual({ pageCount: 1, totalItems: 1 });
+  });
+
+  it('treats a non-collection body (no data array) as an empty terminal page', async () => {
+    config.requestIntervalMs = 0;
+    vi.spyOn(httpClient, 'get').mockResolvedValueOnce({ data: {} }); // e.g. an HTML/error body
+
+    const pages: string[][] = [];
+    const result = await fetchPaginatedCollection<{ id: string }>(
+      'https://example.test/ris/oparl/items?limit=1000',
+      (items) => pages.push(items.map(({ id }) => id)),
+    );
+
+    expect(result).toEqual({ pageCount: 1, totalItems: 0 });
+    expect(pages).toEqual([[]]);
+  });
+
+  it('stops instead of looping forever when next points back to a visited page', async () => {
+    config.requestIntervalMs = 0;
+    // Every page points back to page two: a cycle the crawl must break out of.
+    const get = vi.spyOn(httpClient, 'get').mockResolvedValue({
+      data: {
+        data: [{ id: 'loop' }],
+        links: { next: 'https://example.test/ris/oparl/items?page=2' },
+      },
+    });
+
+    const result = await fetchPaginatedCollection<{ id: string }>(
+      'https://example.test/ris/oparl/items?page=2',
+      () => undefined,
+    );
+
+    // First page consumed, then the repeated next URL is detected and the loop ends.
+    expect(result.pageCount).toBe(1);
+    expect(get).toHaveBeenCalledTimes(1);
+  });
 });

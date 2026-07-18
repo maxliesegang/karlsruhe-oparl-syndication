@@ -261,4 +261,42 @@ describe('PerRecordStore legacy migration', () => {
         .sort(),
     ).toEqual(['https://ris/records/1', 'https://ris/records/2']);
   });
+
+  it('migrates from the legacy file when the per-record directory exists but is empty', async () => {
+    // Regression: an existing-but-empty directory must not be treated as an
+    // authoritative empty store, which would then delete the legacy file and
+    // wipe the archive. It must fall through to legacy migration instead.
+    await fs.mkdir(path.join(tmpDir, 'recs'), { recursive: true });
+    const legacyPath = path.join(tmpDir, 'recs.json');
+    await fs.writeFile(legacyPath, JSON.stringify([rec('1', 'a'), rec('2', 'b')], null, 2));
+
+    const store = new TestPerRecordStore(tmpDir);
+    await store.loadFromDisk();
+    expect(store.getAll()).toHaveLength(2);
+
+    await store.saveToDisk();
+
+    expect(await readRecordsDir()).toEqual(['1.json', '2.json']);
+    await expect(fs.access(legacyPath)).rejects.toThrow();
+  });
+});
+
+describe('PerRecordStore orphan-sweep guard', () => {
+  it('aborts persistence instead of deleting an implausibly large share of records', async () => {
+    // Seed a directory with many records, all persisted.
+    const writer = new TestPerRecordStore(tmpDir);
+    for (let i = 0; i < 200; i++) writer.add(rec(String(i)));
+    await writer.saveToDisk();
+
+    // Reload (so priorRecordCount reflects the 200 on disk), then drop almost all
+    // of them from memory — as a truncated crawl or a bug would. The sweep would
+    // otherwise delete ~all files; the guard must throw and leave them intact.
+    const store = new TestPerRecordStore(tmpDir);
+    await store.loadFromDisk();
+    store.clear();
+    store.add(rec('0'));
+
+    await expect(store.saveToDisk()).rejects.toThrow(/refusing to remove/);
+    expect((await readRecordsDir()).length).toBe(200);
+  });
 });

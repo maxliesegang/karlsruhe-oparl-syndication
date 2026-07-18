@@ -6,6 +6,12 @@ on:
     - cron: '0 14 * * *'  # Runs at 14:00 UTC every day
   workflow_dispatch:  # Allows manual triggering
 
+# Never let a manual run and a scheduled run push concurrently; the loser would
+# fail on a non-fast-forward. Queue them instead of cancelling so no run is lost.
+concurrency:
+  group: feed-generation
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -32,6 +38,31 @@ jobs:
     - name: Run generate script
       run: npm run generate
 
+    - name: Validate generated feed
+      run: |
+        set -euo pipefail
+        FEED="docs/${FEED_FILENAME:-tagesordnungspunkte.xml}"
+        if [ ! -f "$FEED" ]; then
+          echo "::error::Generated feed $FEED is missing"; exit 1
+        fi
+        # Reject a malformed feed before it can be committed.
+        if ! xmllint --noout "$FEED"; then
+          echo "::error::$FEED is not well-formed XML"; exit 1
+        fi
+        NEW=$(grep -c '<entry>' "$FEED" || true)
+        OLD=$(git show "HEAD:$FEED" 2>/dev/null | grep -c '<entry>' || echo 0)
+        echo "Feed entries: previous=$OLD new=$NEW"
+        if [ "$NEW" -eq 0 ]; then
+          echo "::error::Generated feed has zero entries"; exit 1
+        fi
+        # The archive is add-only, so a large drop means a broken run, not real data loss.
+        if [ "$OLD" -gt 0 ]; then
+          FLOOR=$(( OLD * 90 / 100 ))
+          if [ "$NEW" -lt "$FLOOR" ]; then
+            echo "::error::Entry count dropped from $OLD to $NEW (below 90% floor of $FLOOR); refusing to commit"; exit 1
+          fi
+        fi
+
     - name: Commit and push if changes
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
@@ -42,6 +73,8 @@ jobs:
           echo "No changes to commit"
         else
           git commit -m "Auto-generate feed - $dateFormatted"
+          # Reconcile with any push that landed while this run was working.
+          git pull --rebase --autostash origin "$(git rev-parse --abbrev-ref HEAD)"
           git push
         fi
       env:

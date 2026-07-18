@@ -10,17 +10,15 @@ export async function synchronizePapers(modifiedSince?: Date): Promise<void> {
 
   logger.info('Starting to fetch papers...');
 
-  const receivedPapers: Paper[] = [];
-  const { pageCount, totalItems } = await fetchPaginatedCollection<Paper>(
-    collectionUrl,
-    (papers) => receivedPapers.push(...papers),
-    { modifiedSince, followPagination: config.followPagination },
-  );
-
   // An absent paper is not necessarily deleted: Karlsruhe may stop exposing
   // member-only papers in the collection and return 401 for their resource.
   // Preserve last-known metadata and remove only explicit OParl tombstones.
-  receivedPapers.forEach((paper) => stores.papers.add(paper));
+  // Store each page as it arrives so a failure mid-crawl still persists progress.
+  const { pageCount, totalItems } = await fetchPaginatedCollection<Paper>(
+    collectionUrl,
+    (papers) => papers.forEach((paper) => stores.papers.add(paper)),
+    { modifiedSince, followPagination: config.followPagination },
+  );
 
   logger.info(`Finished fetching ${pageCount} page(s) with ${totalItems} papers.`);
 }

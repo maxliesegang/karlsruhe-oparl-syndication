@@ -106,7 +106,10 @@ export abstract class PerRecordStore<T extends { id: string }> extends BaseStore
     // write never triggers destructive deletion. Under normal add-only runs
     // this is a no-op; it only removes files after tombstones or a
     // --clear-cache full rebuild.
-    const removed = await removeOrphanJsonFiles(dir, currentFiles);
+    const removed = await removeOrphanJsonFiles(dir, currentFiles, {
+      storeName: this.recordDirectoryName,
+      priorRecordCount: this.persistedRecordCount,
+    });
 
     // One-time migration cutover: once per-record files exist, the legacy
     // monolithic file is obsolete. force:true makes this a no-op when absent.
@@ -127,7 +130,12 @@ export abstract class PerRecordStore<T extends { id: string }> extends BaseStore
     const dir = this.recordsDirectory();
     const files = await readJsonFileNames(dir);
 
-    if (files !== null) {
+    // Only treat the per-record directory as authoritative when it actually holds
+    // records. An existing-but-empty directory (readJsonFileNames returns []) must
+    // still fall through to legacy migration; otherwise we would load zero records
+    // and the next persist would delete the legacy file, wiping the archive. This
+    // mirrors FileContentStore.loadFromDisk.
+    if (files !== null && files.length > 0) {
       const records = await mapInBatches(files, async (filename) => {
         const raw = await fs.readFile(path.join(dir, filename), 'utf8');
         return JSON.parse(raw) as T;

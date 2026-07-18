@@ -76,4 +76,27 @@ describe('generation service cache handling', () => {
     expect(mocks.clear).not.toHaveBeenCalled();
     expect(mocks.loadFromDisk).toHaveBeenCalledOnce();
   });
+
+  it('still builds and persists when a fetch step fails', async () => {
+    mocks.synchronizeMeetings.mockRejectedValueOnce(new Error('boom'));
+
+    await expect(runFeedGeneration()).resolves.toBeUndefined();
+
+    // Remaining steps and persistence still run rather than the whole run aborting.
+    expect(mocks.synchronizePapers).toHaveBeenCalledOnce();
+    expect(mocks.buildAgendaFeed).toHaveBeenCalledOnce();
+    expect(mocks.saveToDisk).toHaveBeenCalledOnce();
+  });
+
+  it('does not mark reconciliation complete when a forced reconciliation had failures', async () => {
+    mocks.synchronizePapers.mockRejectedValueOnce(new Error('boom'));
+
+    await runFeedGeneration({ clearCache: true }); // clearCache forces full reconciliation
+
+    const manifest = mocks.writeJsonToFile.mock.calls[0]?.[0] as {
+      fullReconciliationAt?: string;
+    };
+    // A failed full reconciliation must not advance the checkpoint, so the next run retries.
+    expect(manifest.fullReconciliationAt).toBeUndefined();
+  });
 });

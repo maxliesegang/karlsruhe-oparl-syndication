@@ -253,7 +253,10 @@ class FileContentStore extends BaseStore<FileContent> {
     // Remove orphan metadata files only after every write has succeeded, so an
     // interrupted write never triggers destructive deletion. Scoped to *.json so
     // the sibling .txt files are never touched.
-    const removed = await removeOrphanJsonFiles(dir, currentJsonFiles);
+    const removed = await removeOrphanJsonFiles(dir, currentJsonFiles, {
+      storeName: CONTENT_DIR_NAME,
+      priorRecordCount: this.persistedFileCount,
+    });
 
     // One-time migration cutover: once per-record metadata exists, the legacy
     // monolithic index is obsolete. force:true makes this a no-op when absent.

@@ -7,6 +7,9 @@ import { logger } from '../logger.js';
 /** Configured axios instance with retry logic */
 const httpClient: AxiosInstance = axios.create({
   timeout: 30000,
+  // Ask for JSON explicitly so a misconfigured endpoint is less likely to answer
+  // with an HTML error page that would parse into a non-collection body.
+  headers: { Accept: 'application/json' },
 });
 
 /** HTTP statuses that are safe and worth retrying (rate limiting / transient unavailability). */
@@ -146,24 +149,41 @@ export async function fetchPaginatedCollection<T>(
 
   let pageCount = 0;
   let totalItems = 0;
+  // Guard against a self-referential or cyclic `next` looping forever and
+  // hammering the API; a repeated URL terminates the crawl.
+  const visitedUrls = new Set<string>();
 
   while (nextUrl) {
     const url = normalizeOParlUrl(nextUrl);
+    if (visitedUrls.has(url)) {
+      logger.warn(`Pagination cycle detected at ${url}; stopping after ${pageCount} page(s).`);
+      break;
+    }
+    visitedUrls.add(url);
     logger.debug(`Fetching: ${url}`);
 
     const response = await requestQueue.add<AxiosResponse<OParlCollectionResponse<T>>>(() =>
       httpClient.get<OParlCollectionResponse<T>>(url),
     );
 
-    const items = response.data.data;
+    // Real OParl servers occasionally return a non-collection body (HTML error
+    // page, `{}`) with HTTP 200, or omit `links` on the final page. Treat a
+    // missing/invalid `data` array as a terminal empty page instead of crashing.
+    const body = response.data as Partial<OParlCollectionResponse<T>> | undefined;
+    const items = Array.isArray(body?.data) ? body.data : [];
+    if (!Array.isArray(body?.data)) {
+      logger.warn(`Response from ${url} had no data array; treating as a terminal page.`);
+    }
     onPage(items);
 
     pageCount++;
     totalItems += items.length;
     logger.debug(`Fetched page ${pageCount} with ${items.length} items. Total: ${totalItems}`);
 
-    const shouldContinue = options?.followPagination !== false && response.data.links.next;
-    nextUrl = shouldContinue ? response.data.links.next! : null;
+    const next = body?.links?.next;
+    const shouldContinue =
+      options?.followPagination !== false && typeof next === 'string' && next.length > 0;
+    nextUrl = shouldContinue ? next : null;
   }
 
   return { pageCount, totalItems };

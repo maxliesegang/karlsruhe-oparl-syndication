@@ -107,6 +107,39 @@ describe('feed identity', () => {
     expect(header).toContain('<updated>2026-07-18T12:00:00.000Z</updated>');
   });
 
+  it('orders entries newest-first regardless of input order', async () => {
+    const older = meetingWithDates(
+      '2024-01-01T00:00:00Z',
+      '2024-01-01T00:00:00Z',
+      '2024-01-05T00:00:00Z',
+    );
+    const newer = meetingWithDates(
+      '2025-06-01T00:00:00Z',
+      '2025-06-01T00:00:00Z',
+      '2025-06-05T00:00:00Z',
+    );
+    // Distinct ids so both entries survive (the feed keys by id).
+    newer.id = 'https://example.test/meetings/2';
+    newer.agendaItem![0].id = 'https://example.test/agendaItems/2';
+
+    const feed = await buildAgendaFeed([older, newer]);
+    expect(feed.items.map((i) => i.id)).toEqual([
+      'https://example.test/agendaItems/2',
+      'https://example.test/agendaItems/1',
+    ]);
+  });
+
+  it('produces byte-identical output across runs with no run-clock argument', async () => {
+    const meeting = meetingWithDates(
+      '2025-01-02T00:00:00Z',
+      '2025-03-04T00:00:00Z',
+      '2025-03-10T00:00:00Z',
+    );
+    const first = (await buildAgendaFeed([meeting])).atom1();
+    const second = (await buildAgendaFeed([meeting])).atom1();
+    expect(first).toBe(second);
+  });
+
   it('uses the item created date as published when valid', async () => {
     const feed = await buildAgendaFeed(
       [meetingWithDates('2025-01-02T00:00:00Z', '2026-07-18T00:00:00Z', '2026-07-20T00:00:00Z')],
