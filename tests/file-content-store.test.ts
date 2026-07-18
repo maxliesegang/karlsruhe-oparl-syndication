@@ -22,7 +22,7 @@ vi.mock('../src/config.js', () => ({
 
 import { FileContentStore } from '../src/store/file-content-store.js';
 import { config } from '../src/config.js';
-import { FileContentType } from '../src/types/file-content-type.js';
+import { FileContent } from '../src/types/file-content.js';
 
 let tmpDir: string;
 
@@ -39,7 +39,7 @@ afterEach(async () => {
 const CONTENT_DIR = () => path.join(tmpDir, 'file-contents');
 const LEGACY = () => path.join(tmpDir, 'file-contents.json');
 
-function file(id: string, overrides: Partial<FileContentType> = {}): FileContentType {
+function file(id: string, overrides: Partial<FileContent> = {}): FileContent {
   return {
     id: `https://ris/files/${id}`,
     downloadUrl: `https://ris/files/${id}/download`,
@@ -67,7 +67,7 @@ describe('FileContentStore canonical metadata serialization', () => {
   it('writes canonical metadata that is byte-identical and key-order independent', async () => {
     const store = new FileContentStore(tmpDir);
     store.add(file('100'));
-    await store.persistItemsToFile();
+    await store.saveToDisk();
 
     const raw = await fs.readFile(path.join(CONTENT_DIR(), '100.json'), 'utf8');
     // Keys sorted, 2-space indent, trailing newline, and independent of the
@@ -85,8 +85,13 @@ describe('FileContentStore canonical metadata serialization', () => {
 
   it('excludes extracted text from the metadata json (text lives in the .txt)', async () => {
     const store = new FileContentStore(tmpDir);
-    store.add(file('100', { extractedText: 'hello world', lastModifiedExtractedDate: '2026-01-01T00:00:00Z' }));
-    await store.persistItemsToFile();
+    store.add(
+      file('100', {
+        extractedText: 'hello world',
+        lastModifiedExtractedDate: '2026-01-01T00:00:00Z',
+      }),
+    );
+    await store.saveToDisk();
 
     const raw = await fs.readFile(path.join(CONTENT_DIR(), '100.json'), 'utf8');
     expect(raw).not.toContain('hello world');
@@ -99,7 +104,7 @@ describe('FileContentStore dirty tracking', () => {
   it('writes only changed metadata records; unchanged ones are not rewritten', async () => {
     const store = new FileContentStore(tmpDir);
     store.add(file('100'));
-    await store.persistItemsToFile();
+    await store.saveToDisk();
 
     // Tamper with the on-disk file: a no-op persist must leave it untouched.
     const file100 = path.join(CONTENT_DIR(), '100.json');
@@ -107,7 +112,7 @@ describe('FileContentStore dirty tracking', () => {
 
     store.add(file('100')); // identical: not dirty
     store.add(file('200')); // new: dirty
-    await store.persistItemsToFile();
+    await store.saveToDisk();
 
     expect(await fs.readFile(file100, 'utf8')).toBe('TAMPERED');
     expect(await readJsonFiles()).toEqual(['100.json', '200.json']);
@@ -116,35 +121,56 @@ describe('FileContentStore dirty tracking', () => {
   it('rewrites a record whose metadata changed', async () => {
     const store = new FileContentStore(tmpDir);
     store.add(file('100', { fileModified: '2026-01-01T00:00:00Z' }));
-    await store.persistItemsToFile();
+    await store.saveToDisk();
 
-    store.upsertFromPaperFile(file('100', { fileModified: '2026-02-02T00:00:00Z' }));
-    await store.persistItemsToFile();
+    store.upsertFileMetadata(file('100', { fileModified: '2026-02-02T00:00:00Z' }));
+    await store.saveToDisk();
 
     const raw = await fs.readFile(path.join(CONTENT_DIR(), '100.json'), 'utf8');
     expect(JSON.parse(raw).fileModified).toBe('2026-02-02T00:00:00Z');
+  });
+
+  it('does not rewrite identical extracted text when a record is re-added', async () => {
+    const store = new FileContentStore(tmpDir);
+    const item = file('100', {
+      extractedText: 'body',
+      lastModifiedExtractedDate: '2026-01-01T00:00:00Z',
+    });
+    store.add(item);
+    await store.saveToDisk();
+
+    const textFile = path.join(CONTENT_DIR(), '100.txt');
+    await fs.writeFile(textFile, 'TAMPERED');
+    store.add({ ...item });
+    await store.saveToDisk();
+
+    expect(await fs.readFile(textFile, 'utf8')).toBe('TAMPERED');
   });
 
   it('fails loudly on a metadata filename collision instead of overwriting', async () => {
     const store = new FileContentStore(tmpDir);
     store.add(file('1 0')); // sanitizes to 1_0.json
     store.add(file('1_0'));
-    await expect(store.persistItemsToFile()).rejects.toThrow(/collision/);
+    await expect(store.saveToDisk()).rejects.toThrow(/collision/);
   });
 });
 
 describe('FileContentStore orphan cleanup', () => {
   it('removes orphan metadata files but never the sibling .txt files', async () => {
     const store = new FileContentStore(tmpDir);
-    store.add(file('100', { extractedText: 'text 100', lastModifiedExtractedDate: '2026-01-01T00:00:00Z' }));
-    await store.persistItemsToFile();
+    store.add(
+      file('100', { extractedText: 'text 100', lastModifiedExtractedDate: '2026-01-01T00:00:00Z' }),
+    );
+    await store.saveToDisk();
 
     // A stray metadata orphan plus a text file that must survive the sweep.
     await fs.writeFile(path.join(CONTENT_DIR(), 'orphan.json'), '{}');
     await fs.writeFile(path.join(CONTENT_DIR(), 'keep.txt'), 'unrelated text');
 
-    store.add(file('100', { extractedText: 'text 100', lastModifiedExtractedDate: '2026-01-01T00:00:00Z' }));
-    await store.persistItemsToFile();
+    store.add(
+      file('100', { extractedText: 'text 100', lastModifiedExtractedDate: '2026-01-01T00:00:00Z' }),
+    );
+    await store.saveToDisk();
 
     const all = (await fs.readdir(CONTENT_DIR())).sort();
     expect(all).toEqual(['100.json', '100.txt', 'keep.txt']);
@@ -154,11 +180,11 @@ describe('FileContentStore orphan cleanup', () => {
     const store = new FileContentStore(tmpDir);
     store.add(file('100'));
     store.add(file('200'));
-    await store.persistItemsToFile();
+    await store.saveToDisk();
     expect(await readJsonFiles()).toEqual(['100.json', '200.json']);
 
     store.removeById('https://ris/files/200');
-    await store.persistItemsToFile();
+    await store.saveToDisk();
     expect(await readJsonFiles()).toEqual(['100.json']);
   });
 
@@ -171,7 +197,7 @@ describe('FileContentStore orphan cleanup', () => {
     await fs.mkdir(path.join(CONTENT_DIR(), '500.json'));
 
     store.add(file('500'));
-    await expect(store.persistItemsToFile()).rejects.toThrow();
+    await expect(store.saveToDisk()).rejects.toThrow();
 
     expect(await fs.readdir(CONTENT_DIR())).toContain('orphan.json');
   });
@@ -181,40 +207,67 @@ describe('FileContentStore directory loader round-trip', () => {
   it('reloads metadata, resolves text from .txt, and reschedules extraction', async () => {
     const writer = new FileContentStore(tmpDir);
     writer.add(
-      file('100', { extractedText: 'extracted body', lastModifiedExtractedDate: '2026-01-01T00:00:00Z' }),
+      file('100', {
+        extractedText: 'extracted body',
+        lastModifiedExtractedDate: '2026-01-01T00:00:00Z',
+      }),
     );
     writer.add(file('200'));
-    await writer.persistItemsToFile();
+    await writer.saveToDisk();
 
     // Enable extraction so the loader schedules re-extraction where needed.
     (config as { extractPdfText: boolean }).extractPdfText = true;
     queueAdd.mockClear();
 
     const reader = new FileContentStore(tmpDir);
-    await reader.loadItemsFromFile();
+    await reader.loadFromDisk();
 
-    expect(reader.getAllItems().map((f) => f.id).sort()).toEqual([
-      'https://ris/files/100',
-      'https://ris/files/200',
-    ]);
+    expect(
+      reader
+        .getAll()
+        .map((f) => f.id)
+        .sort(),
+    ).toEqual(['https://ris/files/100', 'https://ris/files/200']);
     expect(reader.getById('https://ris/files/100')?.extractedText).toBe('extracted body');
-    // File 200 has no extracted text yet, so extraction is scheduled for it.
+    // OParlFile 200 has no extracted text yet, so extraction is scheduled for it.
     expect(queueAdd).toHaveBeenCalledWith('https://ris/files/200/download', expect.any(Function));
   });
 
   it('does not rewrite unchanged metadata after a reload', async () => {
     const writer = new FileContentStore(tmpDir);
-    writer.add(file('100', { extractedText: 'body', lastModifiedExtractedDate: '2026-01-01T00:00:00Z' }));
-    await writer.persistItemsToFile();
+    writer.add(
+      file('100', { extractedText: 'body', lastModifiedExtractedDate: '2026-01-01T00:00:00Z' }),
+    );
+    await writer.saveToDisk();
 
     const reader = new FileContentStore(tmpDir);
-    await reader.loadItemsFromFile();
+    await reader.loadFromDisk();
 
     const file100 = path.join(CONTENT_DIR(), '100.json');
     await fs.writeFile(file100, 'TAMPERED');
-    await reader.persistItemsToFile();
+    await reader.saveToDisk();
 
     expect(await fs.readFile(file100, 'utf8')).toBe('TAMPERED');
+  });
+
+  it('does not rewrite unchanged extracted text after a reload', async () => {
+    const writer = new FileContentStore(tmpDir);
+    writer.add(
+      file('100', {
+        extractedText: 'body',
+        lastModifiedExtractedDate: '2026-01-01T00:00:00Z',
+      }),
+    );
+    await writer.saveToDisk();
+
+    const reader = new FileContentStore(tmpDir);
+    await reader.loadFromDisk();
+
+    const textFile = path.join(CONTENT_DIR(), '100.txt');
+    await fs.writeFile(textFile, 'TAMPERED');
+    await reader.saveToDisk();
+
+    expect(await fs.readFile(textFile, 'utf8')).toBe('TAMPERED');
   });
 });
 
@@ -224,34 +277,39 @@ describe('FileContentStore legacy migration', () => {
     await fs.mkdir(CONTENT_DIR(), { recursive: true });
     await fs.writeFile(path.join(CONTENT_DIR(), '1.txt'), 'legacy text 1');
     const legacy = [
-      indexEntry('1', { hasExtractedText: true, lastModifiedExtractedDate: '2026-01-01T00:00:00Z' }),
+      indexEntry('1', {
+        hasExtractedText: true,
+        lastModifiedExtractedDate: '2026-01-01T00:00:00Z',
+      }),
       indexEntry('2'),
     ];
     await fs.writeFile(LEGACY(), JSON.stringify(legacy, null, 2));
 
     const store = new FileContentStore(tmpDir);
-    await store.loadItemsFromFile();
-    expect(store.getAllItems()).toHaveLength(2);
+    await store.loadFromDisk();
+    expect(store.getAll()).toHaveLength(2);
     expect(store.getById('https://ris/files/1')?.extractedText).toBe('legacy text 1');
 
-    await store.persistItemsToFile();
+    await store.saveToDisk();
 
     expect(await readJsonFiles()).toEqual(['1.json', '2.json']);
     await expect(fs.access(LEGACY())).rejects.toThrow();
 
     // A fresh store now loads from the directory, not the deleted legacy file.
     const reader = new FileContentStore(tmpDir);
-    await reader.loadItemsFromFile();
-    expect(reader.getAllItems().map((f) => f.id).sort()).toEqual([
-      'https://ris/files/1',
-      'https://ris/files/2',
-    ]);
+    await reader.loadFromDisk();
+    expect(
+      reader
+        .getAll()
+        .map((f) => f.id)
+        .sort(),
+    ).toEqual(['https://ris/files/1', 'https://ris/files/2']);
     expect(reader.getById('https://ris/files/1')?.extractedText).toBe('legacy text 1');
   });
 
   it('starts fresh when neither per-record files nor a legacy index exist', async () => {
     const store = new FileContentStore(tmpDir);
-    await store.loadItemsFromFile();
-    expect(store.getAllItems()).toHaveLength(0);
+    await store.loadFromDisk();
+    expect(store.getAll()).toHaveLength(0);
   });
 });

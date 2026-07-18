@@ -1,6 +1,6 @@
-import { Location } from './location-type.js';
-import { File } from './file-type.js';
-import { AgendaItem } from './agenda-item-type.js';
+import { Location } from './location.js';
+import { OParlFile } from './oparl-file.js';
+import { AgendaItem } from './agenda-item.js';
 
 export interface Meeting {
   id: string;
@@ -12,8 +12,8 @@ export interface Meeting {
   organization: string[];
   created: string;
   modified: string;
-  invitation?: File;
-  resultsProtocol?: File;
-  auxiliaryFile?: File[];
+  invitation?: OParlFile;
+  resultsProtocol?: OParlFile;
+  auxiliaryFile?: OParlFile[];
   agendaItem: AgendaItem[];
 }

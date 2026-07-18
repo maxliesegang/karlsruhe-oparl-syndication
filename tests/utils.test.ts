@@ -1,16 +1,16 @@
 import { describe, expect, it } from 'vitest';
-import { correctUrl, isRecentFile, latestValidDate, parseValidDate } from '../src/utils.js';
+import { normalizeOParlUrl, isRecentFile, latestValidDate, parseValidDate } from '../src/utils.js';
 
-describe('correctUrl', () => {
+describe('normalizeOParlUrl', () => {
   it('adds the RIS path to legacy OParl URLs', () => {
-    expect(correctUrl('https://example.test/oparl/bodies/1')).toBe(
+    expect(normalizeOParlUrl('https://example.test/oparl/bodies/1')).toBe(
       'https://example.test/ris/oparl/bodies/1',
     );
   });
 
   it('leaves corrected URLs unchanged', () => {
     const url = 'https://example.test/ris/oparl/bodies/1';
-    expect(correctUrl(url)).toBe(url);
+    expect(normalizeOParlUrl(url)).toBe(url);
   });
 });
 

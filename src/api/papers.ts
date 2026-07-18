@@ -1,37 +1,37 @@
 import { Paper } from '../types/index.js';
-import { store } from '../store/index.js';
+import { stores } from '../store/index.js';
 import { config } from '../config.js';
-import { fetchAllPages, fetchOne } from './http.js';
-import { API_LIMIT } from '../constants.js';
+import { fetchOParlResource, fetchPaginatedCollection } from './http.js';
+import { OPARL_PAGE_SIZE } from '../constants.js';
 import { logger } from '../logger.js';
 
-export async function fetchAllPapers(modifiedSince?: Date): Promise<void> {
-  const initialUrl = `${config.allPapersApiUrl}?limit=${API_LIMIT}`;
+export async function synchronizePapers(modifiedSince?: Date): Promise<void> {
+  const collectionUrl = `${config.papersApiUrl}?limit=${OPARL_PAGE_SIZE}`;
 
   logger.info('Starting to fetch papers...');
 
-  const fetchedPapers: Paper[] = [];
-  const { pageCount, totalItems } = await fetchAllPages<Paper>(
-    initialUrl,
-    (papers) => fetchedPapers.push(...papers),
-    { modifiedSince, fetchAllPages: config.fetchAllPages },
+  const receivedPapers: Paper[] = [];
+  const { pageCount, totalItems } = await fetchPaginatedCollection<Paper>(
+    collectionUrl,
+    (papers) => receivedPapers.push(...papers),
+    { modifiedSince, followPagination: config.followPagination },
   );
 
   // An absent paper is not necessarily deleted: Karlsruhe may stop exposing
   // member-only papers in the collection and return 401 for their resource.
   // Preserve last-known metadata and remove only explicit OParl tombstones.
-  fetchedPapers.forEach((paper) => store.papers.add(paper));
+  receivedPapers.forEach((paper) => stores.papers.add(paper));
 
   logger.info(`Finished fetching ${pageCount} page(s) with ${totalItems} papers.`);
 }
 
-export async function fetchPaper(url: string): Promise<Paper | null> {
+export async function fetchAndStorePaper(url: string): Promise<Paper | null> {
   logger.debug(`Fetching paper from: ${url}`);
 
-  const paper = await fetchOne<Paper>(url);
+  const paper = await fetchOParlResource<Paper>(url);
 
   if (paper) {
-    store.papers.add(paper);
+    stores.papers.add(paper);
     logger.debug(`Successfully fetched paper: ${paper.id}`);
   }
 

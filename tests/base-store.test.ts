@@ -9,9 +9,7 @@ interface TestItem {
 }
 
 class TestStore extends BaseStore<TestItem> {
-  getFileName(): string {
-    return 'test-items.json';
-  }
+  readonly storageFileName = 'test-items.json';
 }
 
 describe('BaseStore reconciliation', () => {
@@ -27,9 +25,7 @@ describe('BaseStore reconciliation', () => {
     } as TestItem);
 
     expect(store.getById('removed')).toBeUndefined();
-    expect(store.getAllItems()).toEqual([
-      { id: 'kept', created: '2026-01-01T00:00:00Z' },
-    ]);
+    expect(store.getAll()).toEqual([{ id: 'kept', created: '2026-01-01T00:00:00Z' }]);
   });
 
   it('replaces the cache during an authoritative full crawl', () => {
@@ -45,8 +41,6 @@ describe('BaseStore reconciliation', () => {
       } as TestItem,
     ]);
 
-    expect(store.getAllItems()).toEqual([
-      { id: 'current', created: '2026-01-01T00:00:00Z' },
-    ]);
+    expect(store.getAll()).toEqual([{ id: 'current', created: '2026-01-01T00:00:00Z' }]);
   });
 });

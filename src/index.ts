@@ -1,3 +1,3 @@
-import { fetchDataAndGenerateFeed } from './services/feed-service.js';
+import { runFeedGeneration } from './services/generation-service.js';
 
-await fetchDataAndGenerateFeed({ clearCache: process.argv.includes('--clear-cache') });
+await runFeedGeneration({ clearCache: process.argv.includes('--clear-cache') });

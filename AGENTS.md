@@ -16,7 +16,7 @@ This repository builds and publishes an Atom feed for Karlsruhe city council age
 2) Fetch data:
    - Organizations: full crawl (no `modified_since` support).
    - Meetings & Papers: paginated fetch (`limit=1000`) with `modified_since = lastModified - 1 day`; toggle full pagination via `FETCH_ALL_PAGES` (default true). Requests run sequentially through `RequestQueue` with `REQUEST_DELAY` ms between items (default 1000) and axios-retry (3 tries).
-3) Build feed: iterate meetings → agenda items; resolve consultations → papers → auxiliary files, fix URLs with `correctUrl`, compute freshest date (item/paper), and add Atom entries.
+3) Build feed: iterate meetings → agenda items; resolve consultations → papers → auxiliary files, normalize URLs with `normalizeOParlUrl`, compute freshest date (item/paper), and add Atom entries.
 4) Persist artifacts to `docs/`:
    - `tagesordnungspunkte.xml` (or `FEED_FILENAME` override).
    - `meetings/<meetingId>.json` and `papers/<paperId>.json` — **one JSON object per record** (see below). These are the two largest, most git-churning stores.
@@ -67,8 +67,8 @@ This repository builds and publishes an Atom feed for Karlsruhe city council age
 
 ## Operational Notes
 
-- `correctUrl` rewrites `/oparl/` to `/ris/oparl/`; rely on it when storing URLs.
-- `API_LIMIT` is fixed at 1000; `FETCH_ALL_PAGES=false` will truncate after first page.
+- `normalizeOParlUrl` rewrites `/oparl/` to `/ris/oparl/`; rely on it when storing URLs.
+- `OPARL_PAGE_SIZE` is fixed at 1000; `FETCH_ALL_PAGES=false` will truncate after first page.
 - Logging lives in `src/logger.ts` with ANSI color; respects `LOG_LEVEL` env.
 - Tests live in `tests/`; add regression coverage before refactoring the pipeline or store persistence logic.
 - Avoid hand-editing generated `docs/` artifacts unless debugging; regenerate instead.

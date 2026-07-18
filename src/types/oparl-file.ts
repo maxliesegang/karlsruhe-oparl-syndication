@@ -1,4 +1,4 @@
-export interface File {
+export interface OParlFile {
   id: string;
   type: string;
   name: string;

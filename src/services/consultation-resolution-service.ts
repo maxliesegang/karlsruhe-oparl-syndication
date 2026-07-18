@@ -1,8 +1,8 @@
-import { fetchConsultation, fetchPaper } from '../api/index.js';
+import { fetchAndStoreConsultation, fetchAndStorePaper } from '../api/index.js';
 import axios from 'axios';
 import { readJsonFromFile, writeJsonToFile } from '../file-utils.js';
 import { logger } from '../logger.js';
-import { store } from '../store/index.js';
+import { stores } from '../store/index.js';
 import { Meeting } from '../types/index.js';
 
 export interface ConsultationResolutionResult {
@@ -94,16 +94,16 @@ export async function resolveMissingConsultationPapers(
   const referencedPaperIds = new Set<string>();
 
   for (const consultationId of uniqueConsultationIds) {
-    if (store.papers.getPaperByConsultationId(consultationId)) {
+    if (stores.papers.getPaperByConsultationId(consultationId)) {
       result.alreadyResolved++;
       continue;
     }
 
-    let consultation = store.consultations.getById(consultationId);
+    let consultation = stores.consultations.getById(consultationId);
     const consultationWasCached = !!consultation;
     if (!consultation) {
       try {
-        consultation = (await fetchConsultation(consultationId)) ?? undefined;
+        consultation = (await fetchAndStoreConsultation(consultationId)) ?? undefined;
         if (consultation) result.consultationsFetched++;
       } catch (error) {
         result.failedConsultations++;
@@ -149,7 +149,7 @@ export async function resolveMissingConsultationPapers(
     attemptedPaperIds.add(consultation.paper);
 
     try {
-      const paper = await fetchPaper(consultation.paper);
+      const paper = await fetchAndStorePaper(consultation.paper);
       if (paper) {
         result.papersFetched++;
         delete retryLedger[consultation.paper];
@@ -177,7 +177,7 @@ export async function resolveMissingConsultationPapers(
 
   result.unresolved = uniqueConsultationIds.reduce(
     (count, consultationId) =>
-      count + (store.papers.getPaperByConsultationId(consultationId) ? 0 : 1),
+      count + (stores.papers.getPaperByConsultationId(consultationId) ? 0 : 1),
     0,
   );
 
@@ -216,10 +216,10 @@ function createRetryEntry(
     reason === 'bootstrap'
       ? BOOTSTRAP_RETRY_MS
       : status === 401 || status === 403
-      ? AUTHORIZATION_RETRY_MS
-      : status === 404
-        ? NOT_FOUND_RETRY_MS
-        : Math.min(2 ** Math.max(0, attempts - 1) * DAY_MS, MAX_TRANSIENT_RETRY_MS);
+        ? AUTHORIZATION_RETRY_MS
+        : status === 404
+          ? NOT_FOUND_RETRY_MS
+          : Math.min(2 ** Math.max(0, attempts - 1) * DAY_MS, MAX_TRANSIENT_RETRY_MS);
 
   return {
     attempts,

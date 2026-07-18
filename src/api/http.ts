@@ -1,7 +1,7 @@
 import axios, { AxiosInstance, AxiosResponse } from 'axios';
 import axiosRetry from 'axios-retry';
 import { config } from '../config.js';
-import { correctUrl } from '../utils.js';
+import { normalizeOParlUrl } from '../utils.js';
 import { logger } from '../logger.js';
 
 /** Configured axios instance with retry logic */
@@ -10,7 +10,7 @@ const httpClient: AxiosInstance = axios.create({
 });
 
 /** HTTP statuses that are safe and worth retrying (rate limiting / transient unavailability). */
-const RETRYABLE_STATUS = new Set([429, 503]);
+const RETRYABLE_STATUS_CODES = new Set([429, 503]);
 
 axiosRetry(httpClient, {
   retries: 3,
@@ -25,10 +25,10 @@ axiosRetry(httpClient, {
   retryCondition: (error) =>
     axiosRetry.isNetworkOrIdempotentRequestError(error) ||
     error.code === 'ECONNABORTED' ||
-    (error.response?.status !== undefined && RETRYABLE_STATUS.has(error.response.status)),
+    (error.response?.status !== undefined && RETRYABLE_STATUS_CODES.has(error.response.status)),
 });
 
-export { httpClient, correctUrl };
+export { httpClient, normalizeOParlUrl };
 
 /** Delay helper */
 const delay = (ms: number): Promise<void> => new Promise((resolve) => setTimeout(resolve, ms));
@@ -37,7 +37,7 @@ const delay = (ms: number): Promise<void> => new Promise((resolve) => setTimeout
  * A queue that processes HTTP requests sequentially with configurable delay.
  * Prevents overwhelming the API with concurrent requests.
  */
-class RequestQueue {
+class RateLimitedRequestQueue {
   private queue: Array<{
     execute: () => Promise<unknown>;
     resolve: (value: unknown) => void;
@@ -81,8 +81,8 @@ class RequestQueue {
       // each request before enqueuing the next, so the queue drains to empty between requests;
       // gating on queue length (the old behavior) therefore never delayed anything.
       const elapsed = Date.now() - this.lastRequestTime;
-      if (elapsed < config.requestDelay) {
-        await delay(config.requestDelay - elapsed);
+      if (elapsed < config.requestIntervalMs) {
+        await delay(config.requestIntervalMs - elapsed);
       }
       this.lastRequestTime = Date.now();
 
@@ -112,15 +112,15 @@ class RequestQueue {
   }
 }
 
-export const requestQueue = new RequestQueue();
+export const requestQueue = new RateLimitedRequestQueue();
 
 /** Formats a Date for use in API URL parameters */
-export function formatDateForUrl(date: Date): string {
+export function formatOParlDateQueryValue(date: Date): string {
   return date.toISOString().replace(/\.\d{3}Z$/, '+00:00');
 }
 
 /** Response type for paginated API endpoints */
-export interface PaginatedResponse<T> {
+export interface OParlCollectionResponse<T> {
   data: T[];
   links: {
     next?: string;
@@ -131,15 +131,15 @@ export interface PaginatedResponse<T> {
  * Fetches all pages from a paginated API endpoint.
  * Uses the request queue to respect rate limits.
  */
-export async function fetchAllPages<T>(
+export async function fetchPaginatedCollection<T>(
   initialUrl: string,
   onPage: (items: T[]) => void,
-  options?: { modifiedSince?: Date; fetchAllPages?: boolean },
+  options?: { modifiedSince?: Date; followPagination?: boolean },
 ): Promise<{ pageCount: number; totalItems: number }> {
   let nextUrl: string | null = initialUrl;
 
   if (options?.modifiedSince) {
-    const formatted = formatDateForUrl(options.modifiedSince);
+    const formatted = formatOParlDateQueryValue(options.modifiedSince);
     nextUrl += `&modified_since=${encodeURIComponent(formatted)}`;
     logger.info(`Using modified_since: ${formatted}`);
   }
@@ -148,11 +148,11 @@ export async function fetchAllPages<T>(
   let totalItems = 0;
 
   while (nextUrl) {
-    const url = correctUrl(nextUrl);
+    const url = normalizeOParlUrl(nextUrl);
     logger.debug(`Fetching: ${url}`);
 
-    const response = await requestQueue.add<AxiosResponse<PaginatedResponse<T>>>(() =>
-      httpClient.get<PaginatedResponse<T>>(url),
+    const response = await requestQueue.add<AxiosResponse<OParlCollectionResponse<T>>>(() =>
+      httpClient.get<OParlCollectionResponse<T>>(url),
     );
 
     const items = response.data.data;
@@ -162,7 +162,7 @@ export async function fetchAllPages<T>(
     totalItems += items.length;
     logger.debug(`Fetched page ${pageCount} with ${items.length} items. Total: ${totalItems}`);
 
-    const shouldContinue = options?.fetchAllPages !== false && response.data.links.next;
+    const shouldContinue = options?.followPagination !== false && response.data.links.next;
     nextUrl = shouldContinue ? response.data.links.next! : null;
   }
 
@@ -173,8 +173,8 @@ export async function fetchAllPages<T>(
  * Fetches a single resource by URL with error handling.
  * Returns null if the resource is not found (404).
  */
-export async function fetchOne<T>(url: string): Promise<T | null> {
-  const correctedUrl = correctUrl(url);
+export async function fetchOParlResource<T>(url: string): Promise<T | null> {
+  const correctedUrl = normalizeOParlUrl(url);
 
   try {
     const response = await requestQueue.add<AxiosResponse<T>>(() =>

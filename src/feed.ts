@@ -1,79 +1,67 @@
 import { Feed } from 'feed';
 import fs from 'fs/promises';
 import path from 'path';
-import { AgendaItem, AuxiliaryFile, Meeting } from './types/index.js';
+import { AgendaItem, OParlFile, Meeting } from './types/index.js';
 import { config } from './config.js';
-import { correctUrl, latestValidDate, parseValidDate } from './utils.js';
-import { store } from './store/index.js';
+import { normalizeOParlUrl, latestValidDate, parseValidDate } from './utils.js';
+import { stores } from './store/index.js';
 import { FEED_GENERATOR } from './constants.js';
 import { logger } from './logger.js';
 import { atomicWriteFile } from './file-utils.js';
 
-/** Initialize a new feed with given metadata */
-async function initializeFeed(newUpdated: Date): Promise<Feed> {
+const PUBLIC_DIR = path.join(import.meta.dirname, '..', 'docs');
+
+/** Initialize a new feed with given metadata. */
+function createFeedContainer(updatedAt: Date): Feed {
   return new Feed({
     title: config.feedTitle,
     description: config.feedDescription,
     id: config.feedId,
-    link: config.feedLink,
+    link: config.feedBaseUrl,
     language: config.feedLanguage,
-    updated: newUpdated,
+    updated: updatedAt,
     generator: FEED_GENERATOR,
     copyright: config.feedCopyright,
     feedLinks: {
-      atom: new URL(config.feedFilename, config.feedLink).href,
+      atom: new URL(config.feedFileName, config.feedBaseUrl).href,
     },
     author: {
       name: config.authorName,
       email: config.authorEmail,
-      link: config.authorLink,
+      link: config.authorUrl,
     },
   });
 }
 
-/** Process all meetings and their agenda items, adding them to the feed */
-async function addMeetingsToFeed(feed: Feed, meetings: Meeting[]): Promise<void> {
+/** Process all meetings and their agenda items, adding them to the feed. */
+function appendMeetingAgendaItems(feed: Feed, meetings: Meeting[], fallbackDate: Date): void {
   for (const meeting of meetings) {
-    if (!meeting.agendaItem) continue;
-
-    await Promise.all(
-      meeting.agendaItem.map(async (item) => {
-        await addItemToFeed(feed, meeting, item);
-      }),
-    );
+    for (const item of meeting.agendaItem ?? []) {
+      appendAgendaItem(feed, meeting, item, fallbackDate);
+    }
   }
 }
 
-/** Fetch additional info for a given agenda item related to its consultation */
-async function fetchAgendaItemDetails(
-  item: AgendaItem,
-): Promise<{ auxiliaryFileInfo: string; paperLastUpdate: Date | null }> {
-  let auxiliaryFileInfo = '';
-  let paperLastUpdate: Date | null = null;
+/** Resolve additional info for an agenda item's consultation from the local stores. */
+function resolveAgendaItemPaperDetails(item: AgendaItem): {
+  attachmentHtml: string;
+  paperLastUpdate?: Date;
+} {
+  let attachmentHtml = '';
+  let paperLastUpdate: Date | undefined;
 
   if (item.consultation) {
-    const paper = await fetchPaperByConsultationId(item.consultation);
+    const paper = stores.papers.getPaperByConsultationId(item.consultation);
     if (paper) {
-      paperLastUpdate = latestValidDate(paper.modified, paper.created) ?? null;
+      paperLastUpdate = latestValidDate(paper.modified, paper.created);
 
       if (paper.auxiliaryFile?.length) {
-        const pdfPromises = paper.auxiliaryFile.map(async (file) => formatFileDates(file));
-        auxiliaryFileInfo = (await Promise.all(pdfPromises)).join('');
+        attachmentHtml = paper.auxiliaryFile.map(formatAttachmentLink).join('');
       }
     }
   }
 
-  return { auxiliaryFileInfo, paperLastUpdate };
-}
-
-/** Fetch paper data by consultation ID, with error handling */
-async function fetchPaperByConsultationId(consultationId: string) {
-  try {
-    return store.papers.getPaperByConsultationId(consultationId);
-  } catch (error) {
-    logger.error(`Error fetching paper for consultation ID ${consultationId}:`, error);
-    return null;
-  }
+  return { attachmentHtml, paperLastUpdate };
 }
 
 /** Format a short numeric 'de-DE' date, or a placeholder when the date is missing/invalid */
@@ -87,8 +75,8 @@ function formatGermanDate(date: Date | undefined): string {
 }
 
 /** Format auxiliary file metadata for display */
-function formatFileDates(file: AuxiliaryFile): string {
-  const correctedUrl = correctUrl(file.downloadUrl);
+function formatAttachmentLink(file: OParlFile): string {
+  const correctedUrl = normalizeOParlUrl(file.downloadUrl);
   const createdDate = formatGermanDate(parseValidDate(file.created));
   const modifiedDate = formatGermanDate(parseValidDate(file.modified));
 
@@ -96,7 +84,7 @@ function formatFileDates(file: AuxiliaryFile): string {
 }
 
 /** Format a meeting date to 'de-DE' locale, or a placeholder when the date is missing/invalid */
-function formatMeetingDayForLocale(date: Date | undefined): string {
+function formatGermanLongDate(date: Date | undefined): string {
   if (!date) return 'unbekannt';
   return date.toLocaleDateString('de-DE', {
     year: 'numeric',
@@ -105,34 +93,40 @@ function formatMeetingDayForLocale(date: Date | undefined): string {
   });
 }
 
-/** Add an agenda item to the feed */
-async function addItemToFeed(feed: Feed, meeting: Meeting, item: AgendaItem): Promise<void> {
-  if (!item.number) return;
+/** Add an agenda item to the feed. */
+function appendAgendaItem(
+  feed: Feed,
+  meeting: Meeting,
+  agendaItem: AgendaItem,
+  fallbackDate: Date,
+): void {
+  if (!agendaItem.number) return;
 
-  const meetingLastPath = meeting.id.split('/').pop();
-  const itemLink = `https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-${meetingLastPath}#top${item.number}`;
+  const meetingId = meeting.id.split('/').pop();
+  const agendaItemUrl = `https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-${meetingId}#top${agendaItem.number}`;
 
-  const { auxiliaryFileInfo, paperLastUpdate } = await fetchAgendaItemDetails(item);
+  const { attachmentHtml, paperLastUpdate } = resolveAgendaItemPaperDetails(agendaItem);
 
-  const itemCreated = parseValidDate(item.created);
-  const itemModified = parseValidDate(item.modified);
+  const itemCreated = parseValidDate(agendaItem.created);
+  const itemModified = parseValidDate(agendaItem.modified);
 
-  const meetingDay = formatMeetingDayForLocale(parseValidDate(meeting.start));
+  const meetingDay = formatGermanLongDate(parseValidDate(meeting.start));
   // `date` (Atom <updated>) and `published` must be valid Dates or the Atom serializer throws.
-  const mostRecentDate = latestValidDate(itemModified, itemCreated, paperLastUpdate) ?? new Date();
+  const mostRecentDate =
+    latestValidDate(itemModified, itemCreated, paperLastUpdate) ?? fallbackDate;
   const publishedDate = itemCreated ?? itemModified ?? mostRecentDate;
 
   feed.addItem({
-    title: item.name,
-    id: item.id,
-    link: itemLink,
+    title: agendaItem.name,
+    id: agendaItem.id,
+    link: agendaItemUrl,
     author: [{ name: meeting.name }],
-    description: item.name,
+    description: agendaItem.name,
     content: `
       <b>Sitzung:</b> ${meeting.name}<br>
       <b>Datum:</b> ${meetingDay}<br>
-      <b>TOP ${item.number}:</b> ${item.name}<br><br>
-      <b>Anhänge:</b><br> ${auxiliaryFileInfo}
+      <b>TOP ${agendaItem.number}:</b> ${agendaItem.name}<br><br>
+      <b>Anhänge:</b><br> ${attachmentHtml}
     `,
     date: mostRecentDate,
     published: publishedDate,
@@ -140,7 +134,7 @@ async function addItemToFeed(feed: Feed, meeting: Meeting, item: AgendaItem): Pr
 }
 
 /** The most recent entry date in the feed, or undefined when the feed has no entries. */
-function latestEntryDate(feed: Feed): Date | undefined {
+function findLatestFeedEntryDate(feed: Feed): Date | undefined {
   let latest: Date | undefined;
   for (const item of feed.items) {
     if (item.date && (!latest || item.date.getTime() > latest.getTime())) {
@@ -151,33 +145,29 @@ function latestEntryDate(feed: Feed): Date | undefined {
 }
 
 /** Create the feed with metadata and meetings */
-export async function createFeed(meetings: Meeting[], fallbackUpdated: Date): Promise<Feed> {
+export async function buildAgendaFeed(meetings: Meeting[], fallbackUpdatedAt: Date): Promise<Feed> {
   logger.info('Starting to create feed...');
-  const feed = await initializeFeed(fallbackUpdated);
-  await addMeetingsToFeed(feed, meetings);
+  const feed = createFeedContainer(fallbackUpdatedAt);
+  appendMeetingAgendaItems(feed, meetings, fallbackUpdatedAt);
   // Anchor the feed-level <updated> to the newest entry rather than the run clock, so an
   // unchanged run produces a byte-identical feed. That lets git dedupe the blob and lets
   // subscribers' readers get a 304 instead of re-downloading the whole feed every poll.
   // Falls back to the run time only when the feed is empty.
-  feed.options.updated = latestEntryDate(feed) ?? fallbackUpdated;
+  feed.options.updated = findLatestFeedEntryDate(feed) ?? fallbackUpdatedAt;
   logger.info('Finished creating feed.');
   return feed;
 }
 
 /** Write the feed to the file system */
-export async function writeFeedToFile(feed: Feed): Promise<void> {
-  const atomFeed = feed.atom1();
-  const publicDir = path.join(import.meta.dirname, '..', 'docs');
-  await fs.mkdir(publicDir, { recursive: true });
-  const outputPath = path.join(publicDir, config.feedFilename);
-  await atomicWriteFile(outputPath, atomFeed);
+export async function writeFullFeed(feed: Feed): Promise<void> {
+  const outputPath = await writeSerializedFeed(feed, config.feedFileName);
   logger.info(`Feed has been saved to ${outputPath}`);
 }
 
 /** Write a trimmed feed containing only the most recent items to the file system */
-export async function writeTrimmedFeedToFile(feed: Feed, limit = 50): Promise<void> {
-  const recentFeedUrl = new URL(config.feedFilenameRecent, config.feedLink).href;
-  const trimmedFeed = new Feed({
+export async function writeRecentFeed(feed: Feed, maximumItemCount = 50): Promise<void> {
+  const recentFeedUrl = new URL(config.recentFeedFileName, config.feedBaseUrl).href;
+  const recentFeed = new Feed({
     ...feed.options,
     id: recentFeedUrl,
     feedLinks: { atom: recentFeedUrl },
@@ -188,16 +178,19 @@ export async function writeTrimmedFeedToFile(feed: Feed, limit = 50): Promise<vo
 
   const recentItems = [...feed.items]
     .sort((a, b) => b.date.getTime() - a.date.getTime())
-    .slice(0, limit);
+    .slice(0, maximumItemCount);
 
   for (const item of recentItems) {
-    trimmedFeed.addItem(item);
+    recentFeed.addItem(item);
   }
 
-  const atomFeed = trimmedFeed.atom1();
-  const publicDir = path.join(import.meta.dirname, '..', 'docs');
-  await fs.mkdir(publicDir, { recursive: true });
-  const outputPath = path.join(publicDir, config.feedFilenameRecent);
-  await atomicWriteFile(outputPath, atomFeed);
-  logger.info(`Trimmed feed (last ${limit} items) has been saved to ${outputPath}`);
+  const outputPath = await writeSerializedFeed(recentFeed, config.recentFeedFileName);
+  logger.info(`Recent feed (last ${maximumItemCount} items) has been saved to ${outputPath}`);
+}
+
+async function writeSerializedFeed(feed: Feed, fileName: string): Promise<string> {
+  await fs.mkdir(PUBLIC_DIR, { recursive: true });
+  const outputPath = path.join(PUBLIC_DIR, fileName);
+  await atomicWriteFile(outputPath, feed.atom1());
+  return outputPath;
 }

@@ -1,4 +1,4 @@
-import { File } from './file-type.js';
+import { OParlFile } from './oparl-file.js';
 
 export interface AgendaItem {
   id: string;
@@ -12,5 +12,5 @@ export interface AgendaItem {
   result?: string;
   created: string;
   modified: string;
-  auxiliaryFile?: File[];
+  auxiliaryFile?: OParlFile[];
 }

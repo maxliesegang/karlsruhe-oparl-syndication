@@ -9,10 +9,10 @@ interface Timestamped {
 }
 
 export abstract class BaseStore<T extends { id: string }> {
-  protected itemStore: Map<string, T> = new Map();
-  private initialLoadSize: number = 0;
+  protected itemsById: Map<string, T> = new Map();
+  private persistedItemCount: number = 0;
 
-  abstract getFileName(): string;
+  abstract readonly storageFileName: string;
 
   protected onItemLoad(_item: T): void {
     // Override in subclass if needed
@@ -31,42 +31,42 @@ export abstract class BaseStore<T extends { id: string }> {
       this.removeById(item.id);
       return;
     }
-    this.itemStore.set(item.id, item);
+    this.itemsById.set(item.id, item);
     this.onItemAdd(item);
   }
 
   removeById(id: string): boolean {
-    const item = this.itemStore.get(id);
+    const item = this.itemsById.get(id);
     if (!item) return false;
     this.onItemRemove(item);
-    return this.itemStore.delete(id);
+    return this.itemsById.delete(id);
   }
 
   replaceAll(items: T[]): void {
-    this.clearAllItems();
+    this.clear();
     for (const item of items) {
       this.add(item);
     }
   }
 
   getById(id: string): T | undefined {
-    return this.itemStore.get(id);
+    return this.itemsById.get(id);
   }
 
-  getAllItems(): T[] {
-    return Array.from(this.itemStore.values());
+  getAll(): T[] {
+    return Array.from(this.itemsById.values());
   }
 
-  clearAllItems(): void {
-    this.itemStore.clear();
+  clear(): void {
+    this.itemsById.clear();
   }
 
   /**
    * Gets the most recent modification date from all items.
    * Optionally subtracts days for safety margin in incremental sync.
    */
-  getLastModified(subtractDays = 0): Date | undefined {
-    const items = this.getAllItems() as (T & Timestamped)[];
+  findLatestTimestamp(lookbackDays = 0): Date | undefined {
+    const items = this.getAll() as (T & Timestamped)[];
 
     let latest: Date | undefined;
     for (const item of items) {
@@ -79,25 +79,27 @@ export abstract class BaseStore<T extends { id: string }> {
     if (!latest) return undefined;
 
     const latestDate = new Date(latest.getTime());
-    if (subtractDays > 0) {
-      latestDate.setDate(latestDate.getDate() - subtractDays);
+    if (lookbackDays > 0) {
+      latestDate.setDate(latestDate.getDate() - lookbackDays);
     }
     return latestDate;
   }
 
-  async persistItemsToFile(): Promise<void> {
-    const data = Array.from(this.itemStore.values());
+  async saveToDisk(): Promise<void> {
+    const data = Array.from(this.itemsById.values());
     const newSize = data.length;
-    const added = newSize - this.initialLoadSize;
-    logger.info(`${this.getFileName()}: ${added} added (${this.initialLoadSize} -> ${newSize})`);
-    await writeJsonToFile(data, this.getFileName());
+    const added = newSize - this.persistedItemCount;
+    logger.info(
+      `${this.storageFileName}: ${added} added (${this.persistedItemCount} -> ${newSize})`,
+    );
+    await writeJsonToFile(data, this.storageFileName);
   }
 
-  async loadItemsFromFile(): Promise<void> {
-    const data = await readJsonFromFile(this.getFileName());
+  async loadFromDisk(): Promise<void> {
+    const data = await readJsonFromFile(this.storageFileName);
     if (data && Array.isArray(data)) {
-      this.initialLoadSize = data.length;
-      this.itemStore = new Map(
+      this.persistedItemCount = data.length;
+      this.itemsById = new Map(
         data.map((item: T) => {
           this.onItemLoad(item);
           return [item.id, item];

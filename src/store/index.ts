@@ -4,34 +4,34 @@ import { consultationStore } from './consultation-store.js';
 import { organizationStore } from './organization-store.js';
 import { fileContentStore } from './file-content-store.js';
 
-export const store = {
+export const stores = {
   meetings: meetingStore,
   papers: paperStore,
   consultations: consultationStore,
   organizations: organizationStore,
-  fileContentStore: fileContentStore,
+  fileContents: fileContentStore,
 
-  async saveAllToDisk() {
-    await this.meetings.persistItemsToFile();
-    await this.papers.persistItemsToFile();
-    await this.consultations.persistItemsToFile();
-    await this.organizations.persistItemsToFile();
-    await this.fileContentStore.persistItemsToFile();
+  async saveToDisk() {
+    await this.meetings.saveToDisk();
+    await this.papers.saveToDisk();
+    await this.consultations.saveToDisk();
+    await this.organizations.saveToDisk();
+    await this.fileContents.saveToDisk();
   },
 
-  async loadAllFromDisk() {
-    await this.meetings.loadItemsFromFile();
-    await this.papers.loadItemsFromFile();
-    await this.consultations.loadItemsFromFile();
-    await this.organizations.loadItemsFromFile();
-    await this.fileContentStore.loadItemsFromFile();
+  async loadFromDisk() {
+    await this.meetings.loadFromDisk();
+    await this.papers.loadFromDisk();
+    await this.consultations.loadFromDisk();
+    await this.organizations.loadFromDisk();
+    await this.fileContents.loadFromDisk();
   },
 
-  clearAllFromCache(): void {
-    this.meetings.clearAllItems();
-    this.papers.clearAllItems();
-    this.consultations.clearAllItems();
-    this.organizations.clearAllItems();
-    this.fileContentStore.clearAllItems();
+  clear(): void {
+    this.meetings.clear();
+    this.papers.clear();
+    this.consultations.clear();
+    this.organizations.clear();
+    this.fileContents.clear();
   },
 };

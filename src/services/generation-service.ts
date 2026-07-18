@@ -1,8 +1,8 @@
-import { store } from '../store/index.js';
-import { createFeed, writeFeedToFile, writeTrimmedFeedToFile } from '../feed.js';
-import { fetchAllMeetings, fetchAllOrganizations, fetchAllPapers } from '../api/index.js';
+import { stores } from '../store/index.js';
+import { buildAgendaFeed, writeFullFeed, writeRecentFeed } from '../feed.js';
+import { synchronizeMeetings, synchronizeOrganizations, synchronizePapers } from '../api/index.js';
 import { config } from '../config.js';
-import { analyzeStadtteile } from './stadtteil-service.js';
+import { updatePaperDistrictIndex } from './district-index-service.js';
 import { logger } from '../logger.js';
 import { resolveMissingConsultationPapers } from './consultation-resolution-service.js';
 import { readJsonFromFile, writeJsonToFile } from '../file-utils.js';
@@ -14,26 +14,26 @@ interface GenerationManifest {
   artifacts: string[];
 }
 
-async function fetchAllData(forceFullReconciliation: boolean): Promise<void> {
+async function refreshOParlData(forceFullReconciliation: boolean): Promise<void> {
   logger.info('Fetching data from OParl API...');
-  await fetchAllOrganizations();
-  await fetchAllMeetings(
-    forceFullReconciliation ? undefined : store.meetings.getLastModifiedWithSafetyMargin(),
+  await synchronizeOrganizations();
+  await synchronizeMeetings(
+    forceFullReconciliation ? undefined : stores.meetings.getIncrementalSyncStart(),
   );
-  await fetchAllPapers(
-    forceFullReconciliation ? undefined : store.papers.getLastModifiedWithSafetyMargin(),
+  await synchronizePapers(
+    forceFullReconciliation ? undefined : stores.papers.getIncrementalSyncStart(),
   );
-  await resolveMissingConsultationPapers(store.meetings.getAllItems());
+  await resolveMissingConsultationPapers(stores.meetings.getAll());
   logger.info('Finished fetching data.');
 }
 
-async function generateFeed(): Promise<void> {
+async function buildAndWriteFeeds(): Promise<void> {
   logger.info('Generating feed...');
-  const meetings = store.meetings.getAllItems();
-  const feed = await createFeed(meetings, new Date());
-  await writeFeedToFile(feed);
-  await writeTrimmedFeedToFile(feed);
-  logger.info(`Feed saved as ${config.feedFilename} and ${config.feedFilenameRecent}`);
+  const meetings = stores.meetings.getAll();
+  const feed = await buildAgendaFeed(meetings, new Date());
+  await writeFullFeed(feed);
+  await writeRecentFeed(feed);
+  logger.info(`Feed saved as ${config.feedFileName} and ${config.recentFeedFileName}`);
 }
 
 /**
@@ -43,9 +43,7 @@ async function generateFeed(): Promise<void> {
  * 3. Generate and save the feed
  * 4. Persist updated data to disk
  */
-export async function fetchDataAndGenerateFeed(
-  options: { clearCache?: boolean } = {},
-): Promise<void> {
+export async function runFeedGeneration(options: { clearCache?: boolean } = {}): Promise<void> {
   const previousManifest = await readJsonFromFile<GenerationManifest>('generation-manifest.json');
   const reconciliationIntervalMs = config.fullReconciliationIntervalDays * 24 * 60 * 60 * 1000;
   const lastFullReconciliation = previousManifest?.fullReconciliationAt
@@ -57,20 +55,20 @@ export async function fetchDataAndGenerateFeed(
   const forceFullReconciliation = options.clearCache === true || reconciliationDue;
 
   if (options.clearCache) {
-    store.clearAllFromCache();
+    stores.clear();
     logger.info('Cache loading skipped; performing a full refresh');
   } else {
-    await store.loadAllFromDisk();
+    await stores.loadFromDisk();
     logger.info('Loaded store data from disk');
   }
   if (forceFullReconciliation) {
     logger.info('Performing authoritative meeting and paper reconciliation');
   }
-  await fetchAllData(forceFullReconciliation);
-  await generateFeed();
-  await store.saveAllToDisk();
+  await refreshOParlData(forceFullReconciliation);
+  await buildAndWriteFeeds();
+  await stores.saveToDisk();
   logger.info('Saved store data to disk');
-  await analyzeStadtteile();
+  await updatePaperDistrictIndex();
   await writeJsonToFile(
     {
       version: 1,
@@ -79,8 +77,8 @@ export async function fetchDataAndGenerateFeed(
         ? new Date().toISOString()
         : previousManifest!.fullReconciliationAt,
       artifacts: [
-        config.feedFilename,
-        config.feedFilenameRecent,
+        config.feedFileName,
+        config.recentFeedFileName,
         'meetings/',
         'papers/',
         'consultations.json',

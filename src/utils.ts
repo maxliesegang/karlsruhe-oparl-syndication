@@ -1,5 +1,5 @@
 /** Corrects OParl URLs to use the /ris/oparl/ path */
-export function correctUrl(url: string): string {
+export function normalizeOParlUrl(url: string): string {
   if (url.includes('/ris/')) {
     return url;
   }
@@ -18,9 +18,7 @@ export function parseValidDate(value: string | Date | null | undefined): Date | 
  * Uses a reduce loop (no argument spread) so it stays safe for large inputs and ignores
  * missing or malformed dates instead of poisoning the result with NaN.
  */
-export function latestValidDate(
-  ...values: (string | Date | null | undefined)[]
-): Date | undefined {
+export function latestValidDate(...values: (string | Date | null | undefined)[]): Date | undefined {
   let latest: Date | undefined;
   for (const value of values) {
     const date = parseValidDate(value);

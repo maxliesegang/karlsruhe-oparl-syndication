@@ -1,17 +1,21 @@
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import { config } from '../src/config.js';
-import { fetchAllPages, formatDateForUrl, httpClient } from '../src/api/http.js';
+import {
+  fetchPaginatedCollection,
+  formatOParlDateQueryValue,
+  httpClient,
+} from '../src/api/http.js';
 
 describe('HTTP pagination', () => {
-  const originalDelay = config.requestDelay;
+  const originalInterval = config.requestIntervalMs;
 
   afterEach(() => {
-    config.requestDelay = originalDelay;
+    config.requestIntervalMs = originalInterval;
     vi.restoreAllMocks();
   });
 
   it('follows corrected next links and accumulates page totals', async () => {
-    config.requestDelay = 0;
+    config.requestIntervalMs = 0;
     const get = vi
       .spyOn(httpClient, 'get')
       .mockResolvedValueOnce({
@@ -28,7 +32,7 @@ describe('HTTP pagination', () => {
       });
     const pages: string[][] = [];
 
-    const result = await fetchAllPages<{ id: string }>(
+    const result = await fetchPaginatedCollection<{ id: string }>(
       'https://example.test/ris/oparl/items?limit=1000',
       (items) => pages.push(items.map(({ id }) => id)),
     );
@@ -47,16 +51,16 @@ describe('HTTP pagination', () => {
     });
     const modifiedSince = new Date('2026-07-18T10:15:30.123Z');
 
-    const result = await fetchAllPages<{ id: string }>(
+    const result = await fetchPaginatedCollection<{ id: string }>(
       'https://example.test/ris/oparl/items?limit=1000',
       () => undefined,
-      { modifiedSince, fetchAllPages: false },
+      { modifiedSince, followPagination: false },
     );
 
     expect(result).toEqual({ pageCount: 1, totalItems: 1 });
     expect(get).toHaveBeenCalledWith(
       'https://example.test/ris/oparl/items?limit=1000&modified_since=2026-07-18T10%3A15%3A30%2B00%3A00',
     );
-    expect(formatDateForUrl(modifiedSince)).toBe('2026-07-18T10:15:30+00:00');
+    expect(formatOParlDateQueryValue(modifiedSince)).toBe('2026-07-18T10:15:30+00:00');
   });
 });

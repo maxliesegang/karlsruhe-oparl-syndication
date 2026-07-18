@@ -1,5 +1,5 @@
-import { File } from './file-type.js';
-import { Consultation } from './consultation-type.js';
+import { OParlFile } from './oparl-file.js';
+import { Consultation } from './consultation.js';
 
 export interface Paper {
   id: string;
@@ -9,7 +9,7 @@ export interface Paper {
   reference: string;
   date: string;
   paperType: string;
-  auxiliaryFile: File[];
+  auxiliaryFile: OParlFile[];
   underDirectionOf: string[];
   consultation: Consultation[];
   created: string;

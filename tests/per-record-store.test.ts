@@ -16,12 +16,8 @@ interface Rec {
 }
 
 class TestPerRecordStore extends PerRecordStore<Rec> {
-  getFileName(): string {
-    return 'recs.json';
-  }
-  getDirName(): string {
-    return 'recs';
-  }
+  readonly storageFileName = 'recs.json';
+  readonly recordDirectoryName = 'recs';
 }
 
 let tmpDir: string;
@@ -70,7 +66,7 @@ describe('PerRecordStore persistence', () => {
     const store = new TestPerRecordStore(tmpDir);
     store.add(rec('100'));
     store.add(rec('200'));
-    await store.persistItemsToFile();
+    await store.saveToDisk();
 
     expect(await readRecordsDir()).toEqual(['100.json', '200.json']);
     const raw = await fs.readFile(path.join(tmpDir, 'recs', '100.json'), 'utf8');
@@ -80,7 +76,7 @@ describe('PerRecordStore persistence', () => {
   it('writes only records marked dirty; unchanged records are not rewritten', async () => {
     const store = new TestPerRecordStore(tmpDir);
     store.add(rec('100'));
-    await store.persistItemsToFile();
+    await store.saveToDisk();
 
     // Tamper with the on-disk file: a subsequent no-op persist must leave it be.
     const file100 = path.join(tmpDir, 'recs', '100.json');
@@ -89,7 +85,7 @@ describe('PerRecordStore persistence', () => {
     // Re-adding an identical record must not mark it dirty.
     store.add(rec('100'));
     store.add(rec('200')); // new record: dirty
-    await store.persistItemsToFile();
+    await store.saveToDisk();
 
     expect(await fs.readFile(file100, 'utf8')).toBe('TAMPERED');
     expect(await readRecordsDir()).toEqual(['100.json', '200.json']);
@@ -98,10 +94,10 @@ describe('PerRecordStore persistence', () => {
   it('rewrites a record whose serialization changed', async () => {
     const store = new TestPerRecordStore(tmpDir);
     store.add(rec('100', 'old'));
-    await store.persistItemsToFile();
+    await store.saveToDisk();
 
     store.add(rec('100', 'new'));
-    await store.persistItemsToFile();
+    await store.saveToDisk();
 
     const raw = await fs.readFile(path.join(tmpDir, 'recs', '100.json'), 'utf8');
     expect(JSON.parse(raw).value).toBe('new');
@@ -112,7 +108,7 @@ describe('PerRecordStore persistence', () => {
     // Different ids whose last segment sanitizes to the same filename.
     store.add({ id: 'https://ris/a/1 0', created: '2026-01-01T00:00:00Z' });
     store.add({ id: 'https://ris/b/1_0', created: '2026-01-01T00:00:00Z' });
-    await expect(store.persistItemsToFile()).rejects.toThrow(/collision/);
+    await expect(store.saveToDisk()).rejects.toThrow(/collision/);
   });
 });
 
@@ -121,11 +117,11 @@ describe('PerRecordStore deletion and orphan cleanup', () => {
     const store = new TestPerRecordStore(tmpDir);
     store.add(rec('100'));
     store.add(rec('200'));
-    await store.persistItemsToFile();
+    await store.saveToDisk();
     expect(await readRecordsDir()).toEqual(['100.json', '200.json']);
 
     store.add({ ...rec('200'), deleted: true } as Rec);
-    await store.persistItemsToFile();
+    await store.saveToDisk();
 
     expect(await readRecordsDir()).toEqual(['100.json']);
     expect(store.getById('https://ris/records/200')).toBeUndefined();
@@ -134,14 +130,14 @@ describe('PerRecordStore deletion and orphan cleanup', () => {
   it('removes orphan *.json files with no in-store record, leaving other files alone', async () => {
     const store = new TestPerRecordStore(tmpDir);
     store.add(rec('100'));
-    await store.persistItemsToFile();
+    await store.saveToDisk();
 
     const dir = path.join(tmpDir, 'recs');
     await fs.writeFile(path.join(dir, 'orphan.json'), '{}');
     await fs.writeFile(path.join(dir, 'keep.txt'), 'not a record');
 
     store.add(rec('100'));
-    await store.persistItemsToFile();
+    await store.saveToDisk();
 
     const all = (await fs.readdir(dir)).sort();
     expect(all).toEqual(['100.json', 'keep.txt']);
@@ -157,7 +153,7 @@ describe('PerRecordStore deletion and orphan cleanup', () => {
     await fs.mkdir(path.join(dir, '500.json'));
 
     store.add(rec('500'));
-    await expect(store.persistItemsToFile()).rejects.toThrow();
+    await expect(store.saveToDisk()).rejects.toThrow();
 
     // Cleanup never ran: the orphan is still present.
     expect(await fs.readdir(dir)).toContain('orphan.json');
@@ -194,12 +190,12 @@ describe('PerRecordStore directory loader round-trip', () => {
 
     const writer = new PaperStore(tmpDir);
     writer.add(paper);
-    await writer.persistItemsToFile();
+    await writer.saveToDisk();
 
     const reader = new PaperStore(tmpDir);
-    await reader.loadItemsFromFile();
+    await reader.loadFromDisk();
 
-    expect(reader.getAllItems()).toHaveLength(1);
+    expect(reader.getAll()).toHaveLength(1);
     expect(reader.getById(paper.id)).toEqual(paper);
     expect(reader.getPaperByConsultationId('https://ris/consultations/c9')?.id).toBe(paper.id);
   });
@@ -226,12 +222,12 @@ describe('PerRecordStore directory loader round-trip', () => {
 
     const writer = new MeetingStore(tmpDir);
     writer.add(meeting);
-    await writer.persistItemsToFile();
+    await writer.saveToDisk();
 
     const reader = new MeetingStore(tmpDir);
-    await reader.loadItemsFromFile();
+    await reader.loadFromDisk();
 
-    expect(reader.getAllItems()).toHaveLength(1);
+    expect(reader.getAll()).toHaveLength(1);
     expect(reader.getById(meeting.id)).toEqual(meeting);
     expect(
       reader.getMeetingsByOrganizationId('https://ris/organizations/o7').map((m) => m.id),
@@ -246,10 +242,10 @@ describe('PerRecordStore legacy migration', () => {
     await fs.writeFile(legacyPath, JSON.stringify(legacy, null, 2));
 
     const store = new TestPerRecordStore(tmpDir);
-    await store.loadItemsFromFile();
-    expect(store.getAllItems()).toHaveLength(2);
+    await store.loadFromDisk();
+    expect(store.getAll()).toHaveLength(2);
 
-    await store.persistItemsToFile();
+    await store.saveToDisk();
 
     // Per-record files exist and the legacy monolithic file is gone.
     expect(await readRecordsDir()).toEqual(['1.json', '2.json']);
@@ -257,10 +253,12 @@ describe('PerRecordStore legacy migration', () => {
 
     // A fresh store now loads from the directory, not the (deleted) legacy file.
     const reader = new TestPerRecordStore(tmpDir);
-    await reader.loadItemsFromFile();
-    expect(reader.getAllItems().map((r) => r.id).sort()).toEqual([
-      'https://ris/records/1',
-      'https://ris/records/2',
-    ]);
+    await reader.loadFromDisk();
+    expect(
+      reader
+        .getAll()
+        .map((r) => r.id)
+        .sort(),
+    ).toEqual(['https://ris/records/1', 'https://ris/records/2']);
   });
 });

@@ -1,15 +1,15 @@
 import { Consultation } from '../types/index.js';
-import { store } from '../store/index.js';
-import { fetchOne } from './http.js';
+import { stores } from '../store/index.js';
+import { fetchOParlResource } from './http.js';
 import { logger } from '../logger.js';
 
-export async function fetchConsultation(url: string): Promise<Consultation | null> {
+export async function fetchAndStoreConsultation(url: string): Promise<Consultation | null> {
   logger.debug(`Fetching consultation from: ${url}`);
 
-  const consultation = await fetchOne<Consultation>(url);
+  const consultation = await fetchOParlResource<Consultation>(url);
 
   if (consultation) {
-    store.consultations.add(consultation);
+    stores.consultations.add(consultation);
     logger.debug(`Successfully fetched consultation: ${consultation.id}`);
   }
 

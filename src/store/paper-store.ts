@@ -1,33 +1,28 @@
 import { PerRecordStore } from './per-record-store.js';
 import { Paper } from '../types/index.js';
-import { store } from './index.js';
-import { FileContentType } from '../types/file-content-type.js';
+import { stores } from './index.js';
+import { FileContent } from '../types/file-content.js';
 
 export class PaperStore extends PerRecordStore<Paper> {
-  private consultationPapers: Map<string, string> = new Map();
-  private paperConsultations: Map<string, Set<string>> = new Map();
-  private filePapers: Map<string, Set<string>> = new Map();
-  private paperFiles: Map<string, Set<string>> = new Map();
+  private paperIdByConsultationId: Map<string, string> = new Map();
+  private consultationIdsByPaperId: Map<string, Set<string>> = new Map();
+  private paperIdsByFileId: Map<string, Set<string>> = new Map();
+  private fileIdsByPaperId: Map<string, Set<string>> = new Map();
   private updatedPaperIds: Set<string> = new Set();
 
-  getFileName(): string {
-    return 'papers.json';
-  }
+  readonly storageFileName = 'papers.json';
+  readonly recordDirectoryName = 'papers';
 
-  getDirName(): string {
-    return 'papers';
-  }
-
-  getLastModifiedWithSafetyMargin(): Date | undefined {
-    return this.getLastModified(1); // Subtract 1 day for safety
+  getIncrementalSyncStart(): Date | undefined {
+    return this.findLatestTimestamp(1); // Include one overlapping day for safety.
   }
 
   getPaperByConsultationId(consultationId: string): Paper | undefined {
-    const paperId = this.consultationPapers.get(consultationId);
+    const paperId = this.paperIdByConsultationId.get(consultationId);
     return paperId ? this.getById(paperId) : undefined;
   }
 
-  consumeUpdatedPaperIds(): string[] {
+  drainUpdatedPaperIds(): string[] {
     const ids = Array.from(this.updatedPaperIds);
     this.updatedPaperIds.clear();
     return ids;
@@ -36,7 +31,7 @@ export class PaperStore extends PerRecordStore<Paper> {
   getPaperIdsByFileIds(fileIds: Iterable<string>): string[] {
     const paperIds = new Set<string>();
     for (const fileId of fileIds) {
-      const mappedPaperIds = this.filePapers.get(fileId);
+      const mappedPaperIds = this.paperIdsByFileId.get(fileId);
       if (!mappedPaperIds) continue;
       for (const paperId of mappedPaperIds) {
         paperIds.add(paperId);
@@ -46,14 +41,14 @@ export class PaperStore extends PerRecordStore<Paper> {
   }
 
   protected onItemLoad(paper: Paper): void {
-    this.syncConsultationMap(paper);
-    this.syncFileMap(paper);
+    this.synchronizeConsultationMappings(paper);
+    this.synchronizeFileMappings(paper);
   }
 
   protected onItemAdd(paper: Paper): void {
-    this.syncConsultationMap(paper);
-    this.syncFileMap(paper);
-    this.handleFileUpdates(paper);
+    this.synchronizeConsultationMappings(paper);
+    this.synchronizeFileMappings(paper);
+    this.synchronizeFileContentMetadata(paper);
     this.updatedPaperIds.add(paper.id);
   }
 
@@ -63,38 +58,38 @@ export class PaperStore extends PerRecordStore<Paper> {
   }
 
   private removePaperMappings(paperId: string): void {
-    for (const consultationId of this.paperConsultations.get(paperId) ?? []) {
-      if (this.consultationPapers.get(consultationId) === paperId) {
-        this.consultationPapers.delete(consultationId);
+    for (const consultationId of this.consultationIdsByPaperId.get(paperId) ?? []) {
+      if (this.paperIdByConsultationId.get(consultationId) === paperId) {
+        this.paperIdByConsultationId.delete(consultationId);
       }
     }
-    this.paperConsultations.delete(paperId);
+    this.consultationIdsByPaperId.delete(paperId);
 
-    for (const fileId of this.paperFiles.get(paperId) ?? []) {
-      const paperIds = this.filePapers.get(fileId);
+    for (const fileId of this.fileIdsByPaperId.get(paperId) ?? []) {
+      const paperIds = this.paperIdsByFileId.get(fileId);
       paperIds?.delete(paperId);
-      if (paperIds?.size === 0) this.filePapers.delete(fileId);
+      if (paperIds?.size === 0) this.paperIdsByFileId.delete(fileId);
     }
-    this.paperFiles.delete(paperId);
+    this.fileIdsByPaperId.delete(paperId);
   }
 
-  private handleFileUpdates(paper: Paper): void {
+  private synchronizeFileContentMetadata(paper: Paper): void {
     if (!paper.auxiliaryFile) return;
 
-    const fileContentsStore = store.fileContentStore;
+    const fileContentStore = stores.fileContents;
 
     for (const file of paper.auxiliaryFile) {
-      const nextFile: FileContentType = {
+      const fileContent: FileContent = {
         id: file.id,
         downloadUrl: file.downloadUrl,
         fileModified: file.modified,
       };
-      fileContentsStore.upsertFromPaperFile(nextFile);
+      fileContentStore.upsertFileMetadata(fileContent);
     }
   }
 
-  private syncConsultationMap(paper: Paper): void {
-    const previousConsultations = this.paperConsultations.get(paper.id) ?? new Set<string>();
+  private synchronizeConsultationMappings(paper: Paper): void {
+    const previousConsultations = this.consultationIdsByPaperId.get(paper.id) ?? new Set<string>();
     const nextConsultations = new Set(
       (paper.consultation ?? []).map((consultation) => consultation.id),
     );
@@ -102,61 +97,61 @@ export class PaperStore extends PerRecordStore<Paper> {
     for (const consultationId of previousConsultations) {
       if (
         !nextConsultations.has(consultationId) &&
-        this.consultationPapers.get(consultationId) === paper.id
+        this.paperIdByConsultationId.get(consultationId) === paper.id
       ) {
-        this.consultationPapers.delete(consultationId);
+        this.paperIdByConsultationId.delete(consultationId);
       }
     }
 
     for (const consultationId of nextConsultations) {
-      this.consultationPapers.set(consultationId, paper.id);
+      this.paperIdByConsultationId.set(consultationId, paper.id);
     }
 
     if (nextConsultations.size > 0) {
-      this.paperConsultations.set(paper.id, nextConsultations);
+      this.consultationIdsByPaperId.set(paper.id, nextConsultations);
     } else {
-      this.paperConsultations.delete(paper.id);
+      this.consultationIdsByPaperId.delete(paper.id);
     }
   }
 
-  private syncFileMap(paper: Paper): void {
-    const previousFileIds = this.paperFiles.get(paper.id) ?? new Set<string>();
+  private synchronizeFileMappings(paper: Paper): void {
+    const previousFileIds = this.fileIdsByPaperId.get(paper.id) ?? new Set<string>();
     const nextFileIds = new Set((paper.auxiliaryFile ?? []).map((file) => file.id));
 
     for (const fileId of previousFileIds) {
       if (nextFileIds.has(fileId)) continue;
 
-      const mappedPaperIds = this.filePapers.get(fileId);
+      const mappedPaperIds = this.paperIdsByFileId.get(fileId);
       if (!mappedPaperIds) continue;
 
       mappedPaperIds.delete(paper.id);
       if (mappedPaperIds.size === 0) {
-        this.filePapers.delete(fileId);
+        this.paperIdsByFileId.delete(fileId);
       }
     }
 
     for (const fileId of nextFileIds) {
-      let mappedPaperIds = this.filePapers.get(fileId);
+      let mappedPaperIds = this.paperIdsByFileId.get(fileId);
       if (!mappedPaperIds) {
         mappedPaperIds = new Set<string>();
-        this.filePapers.set(fileId, mappedPaperIds);
+        this.paperIdsByFileId.set(fileId, mappedPaperIds);
       }
       mappedPaperIds.add(paper.id);
     }
 
     if (nextFileIds.size > 0) {
-      this.paperFiles.set(paper.id, nextFileIds);
+      this.fileIdsByPaperId.set(paper.id, nextFileIds);
     } else {
-      this.paperFiles.delete(paper.id);
+      this.fileIdsByPaperId.delete(paper.id);
     }
   }
 
-  clearAllItems(): void {
-    super.clearAllItems();
-    this.consultationPapers.clear();
-    this.paperConsultations.clear();
-    this.filePapers.clear();
-    this.paperFiles.clear();
+  clear(): void {
+    super.clear();
+    this.paperIdByConsultationId.clear();
+    this.consultationIdsByPaperId.clear();
+    this.paperIdsByFileId.clear();
+    this.fileIdsByPaperId.clear();
     this.updatedPaperIds.clear();
   }
 }

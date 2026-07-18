@@ -1,4 +1,4 @@
-export interface FileContentType {
+export interface FileContent {
   id: string;
   downloadUrl: string;
   fileModified: string;

@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { PDFParse } from 'pdf-parse';
-import { correctUrl } from '../utils.js';
+import { normalizeOParlUrl } from '../utils.js';
 import { PDF_MIME_TYPE } from '../constants.js';
 import { config } from '../config.js';
 import { logger } from '../logger.js';
@@ -14,7 +14,7 @@ export class PdfService {
   public async extractTextFromPdf(url: string): Promise<string | undefined> {
     let parser: PDFParse | undefined;
     try {
-      const correctedUrl = correctUrl(url);
+      const correctedUrl = normalizeOParlUrl(url);
 
       const response = await axios.get(correctedUrl, {
         responseType: 'arraybuffer',

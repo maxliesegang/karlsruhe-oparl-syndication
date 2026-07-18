@@ -1,29 +1,29 @@
-import { store } from '../store/index.js';
+import { stores } from '../store/index.js';
 import { Paper } from '../types/index.js';
-import { findStadtteile, Stadtteil } from '../stadtteile.js';
+import { findKarlsruheDistricts, KarlsruheDistrict } from '../karlsruhe-districts.js';
 import { readJsonFromFile, writeJsonToFile } from '../file-utils.js';
 import { logger } from '../logger.js';
 
-const OUTPUT_FILE = 'paper-stadtteile.json';
-const META_FILE = 'paper-stadtteile-meta.json';
+const DISTRICT_INDEX_FILE_NAME = 'paper-stadtteile.json';
+const PAPER_REFERENCE_INDEX_FILE_NAME = 'paper-stadtteile-meta.json';
 
-export type PaperStadtteile = Record<string, Stadtteil[]>;
+export type PaperDistrictIndex = Record<string, KarlsruheDistrict[]>;
 type PaperReferenceIndex = Record<string, string>;
 
 /** Updates Stadtteil matches incrementally for changed papers and extracted files. */
-export async function analyzeStadtteile(): Promise<void> {
+export async function updatePaperDistrictIndex(): Promise<void> {
   logger.info('Analyzing papers for Stadtteil mentions...');
 
-  const { result, referenceIndex, requiresFullRebuild } = await loadState();
+  const { districtIndex, referenceIndex, requiresFullRebuild } = await loadIndexState();
   const affectedPaperIds = collectAffectedPaperIds();
   const papersToAnalyze = requiresFullRebuild
-    ? store.papers.getAllItems()
+    ? stores.papers.getAll()
     : getPapersToAnalyze(affectedPaperIds);
-  const cleanedRemovedPapers = cleanupRemovedPapers(result, referenceIndex);
+  const removedStaleEntries = removeStalePaperEntries(districtIndex, referenceIndex);
 
   if (papersToAnalyze.length === 0) {
-    if (cleanedRemovedPapers || requiresFullRebuild) {
-      await persistState(result, referenceIndex);
+    if (removedStaleEntries || requiresFullRebuild) {
+      await writeIndexState(districtIndex, referenceIndex);
       logger.info('Stadtteil index synchronized without paper updates.');
       return;
     }
@@ -34,7 +34,7 @@ export async function analyzeStadtteile(): Promise<void> {
 
   let matchCount = 0;
   for (const paper of papersToAnalyze) {
-    if (updatePaperResult(paper, result, referenceIndex)) {
+    if (updatePaperDistricts(paper, districtIndex, referenceIndex)) {
       matchCount++;
     }
   }
@@ -42,16 +42,16 @@ export async function analyzeStadtteile(): Promise<void> {
   logger.info(
     `Updated Stadtteil mentions for ${papersToAnalyze.length} paper(s). Matches: ${matchCount}`,
   );
-  await persistState(result, referenceIndex);
+  await writeIndexState(districtIndex, referenceIndex);
 }
 
 /** Collects all searchable text for a paper: its name + all extracted file contents. */
-function gatherPaperText(paper: Paper): string {
+function collectSearchablePaperText(paper: Paper): string {
   const parts: string[] = [paper.name];
 
   if (paper.auxiliaryFile) {
     for (const file of paper.auxiliaryFile) {
-      const content = store.fileContentStore.getById(file.id);
+      const content = stores.fileContents.getById(file.id);
       if (content?.extractedText) {
         parts.push(content.extractedText);
       }
@@ -61,21 +61,23 @@ function gatherPaperText(paper: Paper): string {
   return parts.join(' ');
 }
 
-async function loadState(): Promise<{
-  result: PaperStadtteile;
+async function loadIndexState(): Promise<{
+  districtIndex: PaperDistrictIndex;
   referenceIndex: PaperReferenceIndex;
   requiresFullRebuild: boolean;
 }> {
-  const storedResult = await readJsonFromFile<PaperStadtteile>(OUTPUT_FILE);
-  const storedReferenceIndex = await readJsonFromFile<PaperReferenceIndex>(META_FILE);
-  const requiresFullRebuild = !storedResult || !storedReferenceIndex;
+  const storedDistrictIndex = await readJsonFromFile<PaperDistrictIndex>(DISTRICT_INDEX_FILE_NAME);
+  const storedReferenceIndex = await readJsonFromFile<PaperReferenceIndex>(
+    PAPER_REFERENCE_INDEX_FILE_NAME,
+  );
+  const requiresFullRebuild = !storedDistrictIndex || !storedReferenceIndex;
 
   if (requiresFullRebuild) {
     logger.info('Stadtteil snapshot incomplete. Rebuilding all paper matches.');
   }
 
   return {
-    result: requiresFullRebuild ? {} : storedResult,
+    districtIndex: requiresFullRebuild ? {} : storedDistrictIndex,
     referenceIndex: requiresFullRebuild ? {} : storedReferenceIndex,
     requiresFullRebuild,
   };
@@ -85,7 +87,7 @@ function getPapersToAnalyze(affectedPaperIds: Set<string>): Paper[] {
   const papers: Paper[] = [];
 
   for (const paperId of affectedPaperIds) {
-    const paper = store.papers.getById(paperId);
+    const paper = stores.papers.getById(paperId);
     if (!paper) continue;
     papers.push(paper);
   }
@@ -94,53 +96,53 @@ function getPapersToAnalyze(affectedPaperIds: Set<string>): Paper[] {
 }
 
 function collectAffectedPaperIds(): Set<string> {
-  const affectedPaperIds = new Set(store.papers.consumeUpdatedPaperIds());
-  const changedFileIds = store.fileContentStore.consumeChangedFileIds();
+  const affectedPaperIds = new Set(stores.papers.drainUpdatedPaperIds());
+  const changedFileIds = stores.fileContents.drainChangedFileIds();
 
-  for (const paperId of store.papers.getPaperIdsByFileIds(changedFileIds)) {
+  for (const paperId of stores.papers.getPaperIdsByFileIds(changedFileIds)) {
     affectedPaperIds.add(paperId);
   }
 
   return affectedPaperIds;
 }
 
-function updatePaperResult(
+function updatePaperDistricts(
   paper: Paper,
-  result: PaperStadtteile,
+  districtIndex: PaperDistrictIndex,
   referenceIndex: PaperReferenceIndex,
 ): boolean {
   const previousReference = referenceIndex[paper.id];
   if (previousReference && previousReference !== paper.reference) {
-    delete result[previousReference];
+    delete districtIndex[previousReference];
   }
 
   if (!paper.reference) {
     if (previousReference) {
-      delete result[previousReference];
+      delete districtIndex[previousReference];
     }
     delete referenceIndex[paper.id];
     return false;
   }
 
-  const stadtteile = findStadtteile(gatherPaperText(paper));
-  if (stadtteile.length > 0) {
-    result[paper.reference] = stadtteile;
+  const districts = findKarlsruheDistricts(collectSearchablePaperText(paper));
+  if (districts.length > 0) {
+    districtIndex[paper.reference] = districts;
   } else {
-    delete result[paper.reference];
+    delete districtIndex[paper.reference];
   }
 
   referenceIndex[paper.id] = paper.reference;
-  return stadtteile.length > 0;
+  return districts.length > 0;
 }
 
-function cleanupRemovedPapers(
-  result: PaperStadtteile,
+function removeStalePaperEntries(
+  districtIndex: PaperDistrictIndex,
   referenceIndex: PaperReferenceIndex,
 ): boolean {
   let removedAny = false;
   for (const [paperId, reference] of Object.entries(referenceIndex)) {
-    if (store.papers.getById(paperId)) continue;
-    delete result[reference];
+    if (stores.papers.getById(paperId)) continue;
+    delete districtIndex[reference];
     delete referenceIndex[paperId];
     removedAny = true;
   }
@@ -148,10 +150,10 @@ function cleanupRemovedPapers(
   return removedAny;
 }
 
-async function persistState(
-  result: PaperStadtteile,
+async function writeIndexState(
+  districtIndex: PaperDistrictIndex,
   referenceIndex: PaperReferenceIndex,
 ): Promise<void> {
-  await writeJsonToFile(result, OUTPUT_FILE);
-  await writeJsonToFile(referenceIndex, META_FILE);
+  await writeJsonToFile(districtIndex, DISTRICT_INDEX_FILE_NAME);
+  await writeJsonToFile(referenceIndex, PAPER_REFERENCE_INDEX_FILE_NAME);
 }
