@@ -106,9 +106,9 @@ export abstract class PerRecordStore<T extends { id: string }> extends BaseStore
     }
 
     // Remove orphans only after every write has succeeded, so an interrupted
-    // write never triggers destructive deletion (mirrors the chunk cleanup in
-    // file-content-store). Under normal add-only runs this is a no-op; it only
-    // removes files after tombstones or a --clear-cache full rebuild.
+    // write never triggers destructive deletion. Under normal add-only runs
+    // this is a no-op; it only removes files after tombstones or a
+    // --clear-cache full rebuild.
     const stored = await fs.readdir(dir);
     const orphans = stored.filter((f) => f.endsWith('.json') && !currentFiles.has(f));
     await Promise.all(orphans.map((f) => fs.unlink(path.join(dir, f))));

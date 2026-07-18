@@ -8,10 +8,12 @@ import { logger } from '../logger.js';
 import path from 'path';
 import fs from 'fs/promises';
 
-const CHUNK_SIZE = 1000;
 const DOCS_DIR = path.join(import.meta.dirname, '..', '..', 'docs');
 const CONTENT_DIR = path.join(DOCS_DIR, 'file-contents');
-const CHUNKS_DIR = path.join(DOCS_DIR, 'file-contents-chunks');
+// Obsolete: extracted text used to be duplicated into bulk-load chunk files.
+// Individual per-record files (CONTENT_DIR) are now the single source of truth;
+// this directory is removed on the next persist. See AGENTS.md.
+const OBSOLETE_CHUNKS_DIR = path.join(DOCS_DIR, 'file-contents-chunks');
 
 /** Index entry stored in file-contents.json (without extracted text) */
 interface FileContentIndex {
@@ -123,7 +125,6 @@ class FileContentStore extends BaseStore<FileContentType> {
     logger.info('Persisting file contents to disk');
 
     await fs.mkdir(CONTENT_DIR, { recursive: true });
-    await fs.mkdir(CHUNKS_DIR, { recursive: true });
 
     const allItems = this.getAllItems();
     logger.info(`${allItems.length - this.initialCount} new items. Total: ${allItems.length}`);
@@ -138,10 +139,14 @@ class FileContentStore extends BaseStore<FileContentType> {
     }));
     await writeJsonToFile(indexItems, this.getFileName());
 
-    // Write individual text files and chunks
+    // Write individual per-record text files (the single source of truth).
     const itemsWithText = allItems.filter((item) => item.extractedText);
     await this.writeIndividualFiles(itemsWithText);
-    await this.writeChunkFiles(itemsWithText);
+
+    // One-time cleanup: drop the now-obsolete bulk-load chunk directory. Runs
+    // after the individual files are written, so text is never removed before
+    // its per-record copy exists. No-op once the directory is gone.
+    await fs.rm(OBSOLETE_CHUNKS_DIR, { recursive: true, force: true });
 
     const withoutText = allItems.filter((f) => !f.lastModifiedExtractedDate).length;
     logger.info(`${withoutText}/${allItems.length} files without extracted text`);
@@ -157,40 +162,6 @@ class FileContentStore extends BaseStore<FileContentType> {
       }
     }
     logger.info(`Wrote ${count} individual text files`);
-  }
-
-  private async writeChunkFiles(items: FileContentType[]): Promise<void> {
-    const chunks: FileContentType[][] = [];
-    for (let i = 0; i < items.length; i += CHUNK_SIZE) {
-      chunks.push(items.slice(i, i + CHUNK_SIZE));
-    }
-
-    const currentChunkFiles = new Set<string>();
-    for (let i = 0; i < chunks.length; i++) {
-      const filename = `chunk-${i}.json`;
-      currentChunkFiles.add(filename);
-      const chunkData = chunks[i].map((item) => ({
-        id: item.id,
-        fileId: extractFileId(item.id),
-        extractedText: item.extractedText,
-      }));
-      await atomicWriteFile(path.join(CHUNKS_DIR, filename), JSON.stringify(chunkData));
-    }
-
-    // Only remove surplus chunks after every current chunk has been written,
-    // so a failed write never triggers destructive cleanup.
-    const storedFiles = await fs.readdir(CHUNKS_DIR);
-    const obsoleteChunkFiles = storedFiles.filter(
-      (filename) => /^chunk-\d+\.json$/.test(filename) && !currentChunkFiles.has(filename),
-    );
-    await Promise.all(
-      obsoleteChunkFiles.map((filename) => fs.unlink(path.join(CHUNKS_DIR, filename))),
-    );
-
-    if (obsoleteChunkFiles.length > 0) {
-      logger.info(`Removed ${obsoleteChunkFiles.length} obsolete chunk files`);
-    }
-    logger.info(`Wrote ${chunks.length} chunk files`);
   }
 
   async loadItemsFromFile(): Promise<void> {
@@ -213,10 +184,7 @@ class FileContentStore extends BaseStore<FileContentType> {
       });
     }
 
-    // Load extracted text from chunks (preferred) or individual files
-    await this.loadFromChunks(itemMap);
-    // Fill gaps per item. This preserves older transcripts when a chunk set is
-    // incomplete instead of treating chunk loading as all-or-nothing.
+    // Load extracted text from the individual per-record files.
     await this.loadFromIndividualFiles(indexData, itemMap);
 
     // Trigger extraction for items that need it
@@ -229,36 +197,6 @@ class FileContentStore extends BaseStore<FileContentType> {
     logger.info(`Loaded ${itemMap.size} file content entries`);
   }
 
-  private async loadFromChunks(itemMap: Map<string, FileContentType>): Promise<boolean> {
-    try {
-      const files = await fs.readdir(CHUNKS_DIR);
-      const chunkFiles = files
-        .filter((f) => f.startsWith('chunk-') && f.endsWith('.json'))
-        .sort((a, b) => extractChunkIndex(a) - extractChunkIndex(b));
-
-      if (chunkFiles.length === 0) return false;
-
-      logger.info(`Loading from ${chunkFiles.length} chunk files`);
-      let loaded = 0;
-
-      for (const file of chunkFiles) {
-        const data = JSON.parse(await fs.readFile(path.join(CHUNKS_DIR, file), 'utf8'));
-        for (const chunk of data) {
-          const item = itemMap.get(chunk.id);
-          if (item && chunk.extractedText) {
-            item.extractedText = chunk.extractedText;
-            loaded++;
-          }
-        }
-      }
-
-      logger.info(`Loaded ${loaded} items from chunks`);
-      return loaded > 0;
-    } catch {
-      return false;
-    }
-  }
-
   private async loadFromIndividualFiles(
     indexData: FileContentIndex[],
     itemMap: Map<string, FileContentType>,
@@ -268,7 +206,7 @@ class FileContentStore extends BaseStore<FileContentType> {
       let loaded = 0;
 
       for (const entry of indexData) {
-        if (entry.hasExtractedText && !itemMap.get(entry.id)?.extractedText) {
+        if (entry.hasExtractedText) {
           try {
             const filePath = path.join(CONTENT_DIR, `${extractFileId(entry.id)}.txt`);
             const text = await fs.readFile(filePath, 'utf8');
@@ -298,11 +236,6 @@ class FileContentStore extends BaseStore<FileContentType> {
 /** Extracts the file ID from a URL (last path segment) */
 function extractFileId(url: string): string {
   return url.split('/').pop() || url;
-}
-
-/** Extracts the chunk index from a filename like "chunk-0.json" */
-function extractChunkIndex(filename: string): number {
-  return parseInt(filename.replace('chunk-', '').replace('.json', ''));
 }
 
 export const fileContentStore = new FileContentStore();

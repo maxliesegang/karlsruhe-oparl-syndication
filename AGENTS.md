@@ -21,7 +21,7 @@ This repository builds and publishes an Atom feed for Karlsruhe city council age
    - `tagesordnungspunkte.xml` (or `FEED_FILENAME` override).
    - `meetings/<meetingId>.json` and `papers/<paperId>.json` — **one JSON object per record** (see below). These are the two largest, most git-churning stores.
    - `consultations.json`, `organizations.json` — kept as single monolithic files (small, low churn).
-   - `file-contents.json` (index) plus `file-contents/<fileId>.txt` and chunked JSON in `file-contents-chunks/` for bulk loading.
+   - `file-contents.json` (index) plus one per-record `file-contents/<fileId>.txt` file per extracted document (the single source of truth for extracted text).
 
 ### Per-record store layout (`meetings/`, `papers/`)
 
@@ -49,7 +49,7 @@ This repository builds and publishes an Atom feed for Karlsruhe city council age
 - This repo is a **complete archive**: meetings, papers, and organizations are stored **add-only**. Fetches upsert by `id` and never wipe records that drop out of the collection (e.g. meetings/papers that become member-only and 401, or a truncated crawl that omits the tail). Records are removed **only** on an explicit OParl `deleted: true` tombstone (handled in `BaseStore.add`). A full reconciliation (`modified_since` undefined) therefore refreshes every currently-exposed object without deleting the rest.
 - Stores serialize to `docs/`; reruns are incremental thanks to `modified_since`. Meetings and papers are **per-record files** (`docs/meetings/`, `docs/papers/`) so a run only rewrites the records that actually changed — this is what keeps git history small and removes the 100 MB-per-file ceiling. Consultations and organizations stay as single files. The `--clear-cache` flag only clears in-memory maps; it does not delete files.
 - To force a full refetch/re-extract: delete the relevant per-record directory (`docs/meetings/`, `docs/papers/`) or monolithic file (`docs/*.json`) plus the `docs/file-contents*` directories, then run `npm run generate -- --clear-cache`. On the next run the per-record stores rebuild the whole directory.
-- No single `docs/` file may exceed GitHub's 100 MB limit. Per-record files keep meetings/papers well under it; `file-contents` chunking helps the rest — avoid reintroducing large single-file artifacts.
+- No single `docs/` file may exceed GitHub's 100 MB limit. Per-record files keep meetings/papers well under it, and extracted text lives in per-record `file-contents/<fileId>.txt` files — avoid reintroducing large single-file artifacts.
 
 ## Repo Scripts
 
