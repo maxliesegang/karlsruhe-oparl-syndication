@@ -1,0 +1,95 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676749.pdf",
+      "created": "2026-02-20T13:03:52+01:00",
+      "date": "2026-02-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676749.pdf",
+      "fileName": "00676749.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676749",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:20:27+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677021.pdf",
+      "created": "2026-03-12T08:02:16+01:00",
+      "date": "2026-03-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677021.pdf",
+      "fileName": "00677021.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677021",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:20:27+02:00",
+      "name": "Anlage 1 Satzung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677022.pdf",
+      "created": "2026-03-12T08:13:26+01:00",
+      "date": "2026-03-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677022.pdf",
+      "fileName": "00677022.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677022",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:20:27+02:00",
+      "name": "Anlage 2 Synopse",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677318.pdf",
+      "created": "2026-03-26T14:07:34+01:00",
+      "date": "2026-03-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677318.pdf",
+      "fileName": "00677318.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677318",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:20:27+02:00",
+      "name": "Abstimmungsergebnis Top 16",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677573.pdf",
+      "created": "2026-04-09T10:20:25+02:00",
+      "date": "2026-04-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677573.pdf",
+      "fileName": "00677573.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677573",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:20:27+02:00",
+      "name": "Protokoll GR 24.03.2026 TOP 16",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100599",
+      "authoritative": true,
+      "created": "2026-02-24T10:29:54+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36925",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10497",
+      "modified": "2026-03-24T19:31:16+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54207",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-01-27T14:35:54+01:00",
+  "date": "2026-01-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54207",
+  "modified": "2026-04-09T10:20:27+02:00",
+  "name": "Satzung zur Änderung der Satzung der Stadt Karlsruhe über Parkgebühren (Parkgebührensatzung)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0072",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54373"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

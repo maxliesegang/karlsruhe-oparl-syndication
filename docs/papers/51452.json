@@ -1,0 +1,49 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664193.pdf",
+      "created": "2025-01-14T15:20:51+01:00",
+      "date": "2024-12-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664193.pdf",
+      "fileName": "00664193.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664193",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-31T11:47:13+02:00",
+      "name": "Informationsvorlage Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91918",
+      "created": "2025-01-14T15:50:45+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33530",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9894",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51452",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-01-14T15:20:51+01:00",
+  "date": "2025-01-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51452",
+  "modified": "2025-03-31T11:47:13+02:00",
+  "name": "Vergabe zum Thema \"Erstellung, Druck und Verteilung des Mitteilungsblattes der Ortsverwaltung Grötzingen\"",
+  "paperType": "Informationsvorlage",
+  "reference": "2024/1386/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51351"
+  ],
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51807"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

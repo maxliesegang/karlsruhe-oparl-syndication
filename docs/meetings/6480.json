@@ -1,0 +1,92 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21375",
+      "created": "2021-05-31T11:26:37+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/58385",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6480",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Therme Vierordtbad: Anpassung der Eintrittspreise zum 1. September 2021",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2021-05-28T11:07:04+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/58276",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6480",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Bericht zu den Hallen- und Freibädern",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2021-05-28T11:07:55+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/58277",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6480",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Schwimmen lernen - Schwimmkurse",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2021-05-28T11:08:25+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/58278",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6480",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen des Bürgermeisteramtes",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625738.pdf",
+      "created": "2021-05-28T11:10:41+02:00",
+      "date": "2021-05-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625738.pdf",
+      "fileName": "00625738.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625738",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Tagesordnung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00628396.pdf",
+      "created": "2021-09-30T10:58:09+02:00",
+      "date": "2021-09-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00628396.pdf",
+      "fileName": "00628396.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/628396",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Niederschrift",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2021-01-21T15:16:23+01:00",
+  "end": "2021-06-11T18:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6480",
+  "location": {
+    "created": "2021-01-21T15:16:23+01:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6480",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Bäderausschuss (öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54833"
+  ],
+  "start": "2021-06-11T16:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636797.pdf",
+      "created": "2022-03-29T10:16:23+02:00",
+      "date": "2022-03-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636797.pdf",
+      "fileName": "00636797.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636797",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636852.pdf",
+      "created": "2022-03-29T15:47:20+02:00",
+      "date": "2022-03-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636852.pdf",
+      "fileName": "00636852.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636852",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/69391",
+      "authoritative": true,
+      "created": "2022-03-29T10:44:10+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27105",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6610",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46659",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-03-29T10:15:47+02:00",
+  "date": "2022-03-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46659",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Verlängerung der Erweiterung der Nutzung von Außenbestuhlungsflächen (u. a. Heizstrahler) bis zum 31. März 2023",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2022/0162/3",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46434"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

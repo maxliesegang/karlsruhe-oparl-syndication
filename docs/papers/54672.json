@@ -1,0 +1,71 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679235.pdf",
+      "created": "2026-06-19T14:51:19+02:00",
+      "date": "2026-06-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679235.pdf",
+      "fileName": "00679235.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679235",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-30T20:53:13+02:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679243.pdf",
+      "created": "2026-06-22T10:57:51+02:00",
+      "date": "2026-06-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679243.pdf",
+      "fileName": "00679243.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679243",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-30T20:53:13+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679465.pdf",
+      "created": "2026-06-30T20:53:09+02:00",
+      "date": "2026-06-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679465.pdf",
+      "fileName": "00679465.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679465",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-30T20:53:13+02:00",
+      "name": "Abstimmungsergebnis TOP 12.2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102251",
+      "authoritative": true,
+      "created": "2026-06-19T15:26:37+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37596",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10540",
+      "modified": "2026-06-24T09:50:57+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54672",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-06-19T14:50:41+02:00",
+  "date": "2026-06-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54672",
+  "modified": "2026-06-30T20:53:13+02:00",
+  "name": "Verwendung der Fördermittel aus dem Länder-und-Kommunal-Infrastrukturfinanzierungsgesetz (LuKIFG)",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2026/0400/2",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54566"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

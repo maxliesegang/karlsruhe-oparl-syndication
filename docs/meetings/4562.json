@@ -1,0 +1,59 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14206",
+      "created": "2017-03-23T08:55:08+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/40381",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4562",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Planungswettbewerb Schloss-Schule Durlach - Vorstellung der Ergebnisse",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00596726.pdf",
+      "created": "2017-03-23T09:04:03+01:00",
+      "date": "2017-03-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00596726.pdf",
+      "fileName": "00596726.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/596726",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Tagesordnung öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00597395.pdf",
+      "created": "2017-05-09T08:27:40+02:00",
+      "date": "2017-05-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00597395.pdf",
+      "fileName": "00597395.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/597395",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2016-10-12T09:08:39+02:00",
+  "end": "2017-04-06T19:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4562",
+  "location": {
+    "created": "2016-10-12T09:08:39+02:00",
+    "description": "Großer Sitzungssaal, Rathaus Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/4562",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Planungsausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+  ],
+  "start": "2017-04-06T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

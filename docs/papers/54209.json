@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676190.pdf",
+      "created": "2026-01-28T07:10:08+01:00",
+      "date": "2026-01-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676190.pdf",
+      "fileName": "00676190.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676190",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-13T09:37:30+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676461.pdf",
+      "created": "2026-02-09T09:21:52+01:00",
+      "date": "2026-02-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676461.pdf",
+      "fileName": "00676461.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676461",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-13T09:37:30+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677065.pdf",
+      "created": "2026-03-13T09:37:27+01:00",
+      "date": "2026-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677065.pdf",
+      "fileName": "00677065.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677065",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-13T09:37:30+01:00",
+      "name": "Protokoll GR 24.02.2026 TOP 18",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100201",
+      "authoritative": true,
+      "created": "2026-01-28T07:43:23+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36927",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10476",
+      "modified": "2026-02-24T17:10:49+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54209",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-01-27T18:52:37+01:00",
+  "date": "2026-01-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54209",
+  "modified": "2026-03-13T09:37:30+01:00",
+  "name": "Dunkelflaute und Brown Outs – auch in Karlsruhe?",
+  "paperType": "Anfrage",
+  "reference": "2026/0074",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/447562"
+  ]
+}

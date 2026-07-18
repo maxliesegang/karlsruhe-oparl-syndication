@@ -1,0 +1,70 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675245.pdf",
+      "created": "2025-12-16T13:50:01+01:00",
+      "date": "2025-12-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675245.pdf",
+      "fileName": "00675245.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675245",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-26T10:55:55+01:00",
+      "name": "Beschlussvorlage_251216",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676024.pdf",
+      "created": "2026-01-26T10:55:50+01:00",
+      "date": "2026-01-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676024.pdf",
+      "fileName": "00676024.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676024",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-26T10:55:55+01:00",
+      "name": "Abstimmungsergebnis TOP  1 Ö 115",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99895",
+      "authoritative": true,
+      "created": "2025-12-17T06:45:49+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36767",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-17T10:20:49+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54105",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100232",
+      "authoritative": true,
+      "created": "2026-01-28T17:40:18+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36782",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10487",
+      "modified": "2026-03-12T11:50:27+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54105",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-12-16T13:48:20+01:00",
+  "date": "2025-12-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54105",
+  "modified": "2026-01-26T10:55:55+01:00",
+  "name": "HHS4_GR31 - Streichung Ergänzende Betreuung (bis 14 Uhr) an Ganztagsgrundschulen - Personal für steigende Bedarfe durch Rechtsanspruch",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1131/1",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

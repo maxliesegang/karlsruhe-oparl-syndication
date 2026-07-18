@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618741.pdf",
+      "created": "2020-07-10T07:29:50+02:00",
+      "date": "2020-07-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618741.pdf",
+      "fileName": "00618741.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618741",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Rahmenplan Neureut",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618742.pdf",
+      "created": "2020-07-10T07:31:18+02:00",
+      "date": "2020-07-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618742.pdf",
+      "fileName": "00618742.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618742",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Rahmenplan Neureut",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619211.pdf",
+      "created": "2020-08-19T07:38:05+02:00",
+      "date": "2020-08-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619211.pdf",
+      "fileName": "00619211.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619211",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 14",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53231",
+      "authoritative": true,
+      "created": "2020-06-23T13:06:58+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19387",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5667",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39784",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-05-18T13:00:35+02:00",
+  "date": "2020-05-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39784",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Städtebaulicher Rahmenplan Neureut-Zentrum III",
+  "paperType": "Beschlussvorlage",
+  "reference": "2020/0576",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

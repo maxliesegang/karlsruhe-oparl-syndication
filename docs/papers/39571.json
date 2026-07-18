@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617178.pdf",
+      "created": "2020-04-16T15:07:36+02:00",
+      "date": "2020-04-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617178.pdf",
+      "fileName": "00617178.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617178",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Förderung Vereinssport",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617553.pdf",
+      "created": "2020-05-08T08:09:57+02:00",
+      "date": "2020-05-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617553.pdf",
+      "fileName": "00617553.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617553",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2020-04-16T09:41:15+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19203",
+      "modified": "2020-04-16T09:41:15+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33575"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39571",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/51833",
+      "authoritative": true,
+      "created": "2020-04-16T14:59:21+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19204",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5664",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39571",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-03-26T14:24:57+01:00",
+  "date": "2020-03-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39571",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Förderung von Leistungssport-Vereinsmannschaften der 1. und 2. Bundesliga",
+  "paperType": "Beschlussvorlage",
+  "reference": "2020/0363",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

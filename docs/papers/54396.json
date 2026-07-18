@@ -1,0 +1,111 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677264.pdf",
+      "created": "2026-03-24T13:20:01+01:00",
+      "date": "2026-03-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677264.pdf",
+      "fileName": "00677264.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677264",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-15T13:35:32+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678108.pdf",
+      "created": "2026-05-04T07:06:22+02:00",
+      "date": "2026-05-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678108.pdf",
+      "fileName": "00678108.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678108",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-15T13:35:32+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678413.pdf",
+      "created": "2026-05-15T10:48:59+02:00",
+      "date": "2026-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678413.pdf",
+      "fileName": "00678413.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678413",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-15T13:35:32+02:00",
+      "name": "Protokoll GR 28.04.2026 TOP 27",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101138",
+      "authoritative": true,
+      "created": "2026-04-01T09:53:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37173",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10512",
+      "modified": "2026-05-26T12:02:49+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54396",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101785",
+      "created": "2026-05-19T10:36:36+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37203",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10541",
+      "modified": "2026-06-25T11:48:32+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54396",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102237",
+      "authoritative": true,
+      "created": "2026-06-18T10:12:19+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37202",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10537",
+      "modified": "2026-06-25T10:18:28+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54396",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102445",
+      "created": "2026-06-30T08:44:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37642",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10566",
+      "modified": "2026-07-17T09:22:28+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54396",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-03-24T13:19:22+01:00",
+  "date": "2026-03-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54396",
+  "modified": "2026-07-15T13:35:32+02:00",
+  "name": "Mittagsverpflegung in Kitas und Schulen ganzheitlich gestalten",
+  "paperType": "Antrag",
+  "reference": "2026/0241",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54704"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

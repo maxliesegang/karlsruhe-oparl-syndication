@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676394.pdf",
+      "created": "2026-02-04T15:43:49+01:00",
+      "date": "2026-02-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676394.pdf",
+      "fileName": "00676394.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676394",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-11T07:40:00+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100532",
+      "authoritative": true,
+      "created": "2026-02-19T12:53:57+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36968",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10492",
+      "modified": "2026-03-19T16:57:59+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54240",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-02-04T15:41:18+01:00",
+  "date": "2026-02-04",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54240",
+  "modified": "2026-03-11T07:40:00+01:00",
+  "name": "Anpassung zweier Projekte aus der Kita-Bedarfsplanung",
+  "paperType": "Informationsvorlage",
+  "reference": "2026/0105",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

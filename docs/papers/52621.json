@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671879.pdf",
+      "created": "2025-11-14T11:14:32+01:00",
+      "date": "2025-11-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671879.pdf",
+      "fileName": "00671879.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671879",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-14T07:39:02+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674311.pdf",
+      "created": "2025-12-02T11:04:52+01:00",
+      "date": "2025-12-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674311.pdf",
+      "fileName": "00674311.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674311",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-14T07:39:02+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675751.pdf",
+      "created": "2026-01-14T07:38:59+01:00",
+      "date": "2026-01-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675751.pdf",
+      "fileName": "00675751.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675751",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-14T07:39:02+01:00",
+      "name": "Protokoll GR 22.12.2025 TOP 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99153",
+      "authoritative": true,
+      "created": "2025-11-18T13:46:51+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35241",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10425",
+      "modified": "2025-12-22T20:22:54+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52621",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-14T11:13:52+01:00",
+  "date": "2025-11-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52621",
+  "modified": "2026-01-14T07:39:02+01:00",
+  "name": "Gewalt und Verstöße gegen die sexuelle Selbstbestimmung an Karlsruher Schulen gegen Schüler und Lehrer",
+  "paperType": "Anfrage",
+  "reference": "2025/1087",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

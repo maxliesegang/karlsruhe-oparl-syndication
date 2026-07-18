@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644063.pdf",
+      "created": "2023-01-13T12:02:55+01:00",
+      "date": "2023-01-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644063.pdf",
+      "fileName": "00644063.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644063",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644409.pdf",
+      "created": "2023-01-26T15:54:38+01:00",
+      "date": "2023-01-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644409.pdf",
+      "fileName": "00644409.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644409",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP12",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644720.pdf",
+      "created": "2023-02-07T10:33:31+01:00",
+      "date": "2023-02-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644720.pdf",
+      "fileName": "00644720.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644720",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/74867",
+      "authoritative": true,
+      "created": "2022-12-28T09:47:39+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28834",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9041",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47976",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-12-27T11:10:47+01:00",
+  "date": "2022-12-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47976",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Anmietung von Räumen im Gebäude „Rüppurrer Str. 1“ in 76137 Karlsruhe zur Unterbringung des IT-Amtes",
+  "paperType": "Beschlussvorlage",
+  "reference": "2022/2486",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

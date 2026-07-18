@@ -1,0 +1,79 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612743.pdf",
+      "created": "2019-11-29T15:22:09+01:00",
+      "date": "2019-11-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612743.pdf",
+      "fileName": "00612743.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612743",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Weiteres Vorgehen bei der Innenentwicklung von Gewerbeflächen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612942.pdf",
+      "created": "2019-12-12T10:16:55+01:00",
+      "date": "2019-12-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612942.pdf",
+      "fileName": "00612942.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612942",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis_Top13",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614555.pdf",
+      "created": "2020-01-28T15:02:17+01:00",
+      "date": "2020-01-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614555.pdf",
+      "fileName": "00614555.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614555",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 13",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2019-10-31T15:35:54+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17300",
+      "modified": "2019-10-31T15:35:54+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/50069"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37953",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47710",
+      "authoritative": true,
+      "created": "2019-11-13T08:54:16+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17301",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5444",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37953",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-10-31T15:33:46+01:00",
+  "date": "2019-10-31",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37953",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Weiteres Vorgehen bei der Innenentwicklung von Gewerbeflächen und im Gewerbegebiet Grünwinkel im Anschluss an das Projekt REGEKO",
+  "paperType": "Beschlussvorlage",
+  "reference": "2019/1090",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882973"
+  ]
+}

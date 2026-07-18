@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655687.pdf",
+      "created": "2024-01-30T15:55:50+01:00",
+      "date": "2024-01-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655687.pdf",
+      "fileName": "00655687.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655687",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage Südreal-Ostring-Erweiterung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656565.pdf",
+      "created": "2024-03-06T17:53:45+01:00",
+      "date": "2024-03-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656565.pdf",
+      "fileName": "00656565.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656565",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Ausschuss",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84245",
+      "created": "2024-01-15T13:26:35+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31343",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9857",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54847"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49920",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-01-15T13:25:03+01:00",
+  "date": "2024-01-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49920",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Südreal Ostring - Erweiterung",
+  "paperType": "Informationsvorlage",
+  "reference": "2024/0063",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

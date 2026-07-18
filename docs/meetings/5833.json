@@ -1,0 +1,86 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19677",
+      "created": "2020-06-29T13:57:03+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53307",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5833",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Badisches Konservatorium, Umbau Dragonerkaserne Vergabe von Trockenbauarbeiten",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "genehmigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19678",
+      "created": "2020-06-29T13:57:03+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53308",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5833",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Schulzentrum Neureut, Umbau und Modernisierung NWT Räume, Verwaltung mit Brandschutz und WC-Anlagen Vergabe von Raumlufttechnischen Anlagen",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "genehmigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19679",
+      "created": "2020-06-29T13:57:03+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53309",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5833",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Schulzentrum Neureut, Umbau und Modernisierung NWT Räume, Verwaltung mit Brandschutz und WC-Anlagen Vergabe von Gas-, Wasser, und Entwässerungsanlagen innerhalb von Gebäuden",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "genehmigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618509.pdf",
+      "created": "2020-06-29T15:59:50+02:00",
+      "date": "2020-06-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618509.pdf",
+      "fileName": "00618509.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618509",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Tagesordnung_öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619293.pdf",
+      "created": "2020-09-03T09:09:36+02:00",
+      "date": "2020-09-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619293.pdf",
+      "fileName": "00619293.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619293",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_öffentlich BA 20200709",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2019-10-07T11:37:51+02:00",
+  "end": "2020-07-09T16:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5833",
+  "location": {
+    "created": "2019-10-07T11:37:51+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5833",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Bauausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+  ],
+  "start": "2020-07-09T16:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

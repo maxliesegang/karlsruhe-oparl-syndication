@@ -1,0 +1,84 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618522.pdf",
+      "created": "2020-06-30T12:03:09+02:00",
+      "date": "2020-06-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618522.pdf",
+      "fileName": "00618522.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618522",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618529.pdf",
+      "created": "2020-06-30T13:23:51+02:00",
+      "date": "2020-06-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618529.pdf",
+      "fileName": "00618529.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618529",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme E-Antrag Lern- und Freizeitangebote",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53339",
+      "authoritative": true,
+      "created": "2020-06-30T12:16:20+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19692",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5666",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40028",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53598",
+      "authoritative": true,
+      "created": "2020-07-03T14:14:54+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19692",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5667",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40028",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53775",
+      "authoritative": true,
+      "created": "2020-07-22T09:23:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19692",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5668",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40028",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-06-30T12:02:43+02:00",
+  "date": "2020-06-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40028",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Lern- und Freizeitangebote für benachteiligte Schüler*innen in den Ferien",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2020/0819",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

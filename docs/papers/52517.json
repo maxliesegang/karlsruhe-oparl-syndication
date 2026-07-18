@@ -1,0 +1,83 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671040.pdf",
+      "created": "2025-10-20T15:11:24+02:00",
+      "date": "2025-10-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671040.pdf",
+      "fileName": "00671040.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671040",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-22T13:43:04+02:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671100.pdf",
+      "created": "2025-10-21T10:13:06+02:00",
+      "date": "2025-10-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671100.pdf",
+      "fileName": "00671100.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671100",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-22T13:43:04+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671179.pdf",
+      "created": "2025-10-22T13:42:47+02:00",
+      "date": "2025-10-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671179.pdf",
+      "fileName": "00671179.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671179",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-22T13:43:04+02:00",
+      "name": "Abstimmungsergebnis TOP 6.1 Ziffer 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671180.pdf",
+      "created": "2025-10-22T13:43:00+02:00",
+      "date": "2025-10-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671180.pdf",
+      "fileName": "00671180.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671180",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-22T13:43:04+02:00",
+      "name": "Abstimmungsergebnis TOP 6.1 Ziffer 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96988",
+      "authoritative": true,
+      "created": "2025-10-20T15:27:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35084",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10054",
+      "modified": "2025-10-22T09:29:58+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52517",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-10-20T15:11:08+02:00",
+  "date": "2025-10-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52517",
+  "modified": "2025-10-22T13:43:04+02:00",
+  "name": "Satzung zur Änderung der Satzung über die Erhebung einer Zweitwohnungsteuer in der Stadt Karlsruhe (Zweitwohnungsteuersatzung)",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2025/0891/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52387"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

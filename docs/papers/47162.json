@@ -1,0 +1,78 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00641006.pdf",
+      "created": "2022-09-27T15:43:38+02:00",
+      "date": "2022-09-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00641006.pdf",
+      "fileName": "00641006.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/641006",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage Aufstellungsbeschluss",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00641113.pdf",
+      "created": "2022-09-30T12:01:36+02:00",
+      "date": "2022-09-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00641113.pdf",
+      "fileName": "00641113.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/641113",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Aufstellungsbeschluss Seniorenwohnen am Gänsberg",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00641396.pdf",
+      "created": "2022-10-11T19:31:58+02:00",
+      "date": "2022-10-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00641396.pdf",
+      "fileName": "00641396.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/641396",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Aufstellungsbeschluss_Übersicht_Seniorenwohnen am Gänsberg",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2022-10-27T11:20:33+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28479",
+      "modified": "2022-10-27T11:20:33+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34764"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47162",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/73406",
+      "created": "2022-10-20T12:51:35+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27769",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6649",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47162",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-07-21T13:15:59+02:00",
+  "date": "2022-10-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47162",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Vorhabenbezogener Bebauungsplan \"Seniorenwohnen am Gänsberg\", Karlsruhe-Stupferich hier: Aufstellungsbeschluss gem. § 2 Abs. 1 BauGB",
+  "paperType": "Beschlussvorlage",
+  "reference": "2022/0840",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

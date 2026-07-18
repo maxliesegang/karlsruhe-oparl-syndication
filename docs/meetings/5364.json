@@ -1,0 +1,47 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16833",
+      "created": "2019-07-01T09:11:27+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46365",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5364",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Philipp-Reis-Straße, Elisabeth-Großwendt-Straße, Wielandstraße, Rüppurrer Straße in Karlsruhe-Südstadt Hier: Aufstellungsbeschluss gem. § 2 Abs. 1 BauGB",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614591.pdf",
+      "created": "2020-01-30T10:43:14+01:00",
+      "date": "2020-01-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614591.pdf",
+      "fileName": "00614591.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614591",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll 11.07.19 ö",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2018-09-20T13:43:36+02:00",
+  "end": "2019-07-11T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5364",
+  "location": {
+    "created": "2018-09-20T13:43:36+02:00",
+    "description": "Stephanssaal, Ständehausstr. 4",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5364",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Planungsausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+  ],
+  "start": "2019-07-11T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

@@ -1,0 +1,84 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/11569",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/34791",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3544",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Annahme des Angebots von Zuwendungen",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/11558",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/34861",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3544",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Die Attraktivität der Durlacher Innenstadt",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/11597",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/34854",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3544",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verlegung von Veranstaltungen während der Bauphase Kombilösung: \"Stadtwerke Eiszeit\" - Konzept Kostenreduzierung",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "mehrheitlich beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2016-10-12T09:08:39+02:00",
+  "end": "2014-07-15T00:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3544",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00147641.pdf",
+    "created": "2016-10-12T09:08:36+02:00",
+    "date": "2014-07-07",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00147641.pdf",
+    "fileName": "00147641.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/147641",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2016-10-12T09:08:39+02:00",
+    "description": "Großer Sitzungssaal",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/3544",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Hauptausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+  ],
+  "resultsProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00148181.pdf",
+    "created": "2016-10-12T09:08:36+02:00",
+    "date": "2014-08-27",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00148181.pdf",
+    "fileName": "00148181.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/148181",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Anwesenheit (Protokoll)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "start": "2014-07-15T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

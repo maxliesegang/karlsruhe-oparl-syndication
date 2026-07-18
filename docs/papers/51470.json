@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664251.pdf",
+      "created": "2025-01-16T10:20:26+01:00",
+      "date": "2025-01-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664251.pdf",
+      "fileName": "00664251.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664251",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-11T08:18:42+01:00",
+      "name": "Entwurf Nachtragsvereinbarung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664618.pdf",
+      "created": "2025-01-30T13:58:18+01:00",
+      "date": "2025-01-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664618.pdf",
+      "fileName": "00664618.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664618",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-11T08:18:42+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665029.pdf",
+      "created": "2025-02-18T19:34:52+01:00",
+      "date": "2025-02-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665029.pdf",
+      "fileName": "00665029.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665029",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-11T08:18:42+01:00",
+      "name": "Abstimmungsergebnis TOP 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665500.pdf",
+      "created": "2025-03-11T08:18:38+01:00",
+      "date": "2025-03-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665500.pdf",
+      "fileName": "00665500.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665500",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-11T08:18:42+01:00",
+      "name": "Protokoll GR 18.02.2025 TOP 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92223",
+      "authoritative": true,
+      "created": "2025-02-04T09:29:01+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33620",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10045",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51470",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-01-15T16:26:44+01:00",
+  "date": "2025-01-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51470",
+  "modified": "2025-03-11T08:18:42+01:00",
+  "name": "Nachtragsvereinbarung Fahrradverleihsystem um Lastenfahrräder",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0053",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

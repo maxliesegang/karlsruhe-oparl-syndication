@@ -1,0 +1,58 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671831.pdf",
+      "created": "2025-11-13T12:13:41+01:00",
+      "date": "2025-11-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671831.pdf",
+      "fileName": "00671831.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671831",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-28T10:38:41+01:00",
+      "name": "Informationsvorlage_RDK9",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675205.pdf",
+      "created": "2025-12-15T12:12:55+01:00",
+      "date": "2025-12-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675205.pdf",
+      "fileName": "00675205.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675205",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-18T11:39:18+01:00",
+      "name": "Empfehlung_Ö_RKD9",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/98425",
+      "created": "2025-11-13T13:07:04+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35226",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10168",
+      "modified": "2025-11-13T13:07:04+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54847"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52608",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-13T12:08:06+01:00",
+  "date": "2025-11-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52608",
+  "modified": "2025-12-16T09:42:49+01:00",
+  "name": "Rheinhafen-Dampfkraftwerk, Block 9 (RDK9)",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/1079",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52236"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654376.pdf",
+      "created": "2023-12-07T09:51:55+01:00",
+      "date": "2023-12-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654376.pdf",
+      "fileName": "00654376.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654376",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654377.pdf",
+      "created": "2023-12-07T09:56:29+01:00",
+      "date": "2023-12-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654377.pdf",
+      "fileName": "00654377.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654377",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Skizze_Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655503.pdf",
+      "created": "2024-01-23T17:42:21+01:00",
+      "date": "2024-01-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655503.pdf",
+      "fileName": "00655503.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655503",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655915.pdf",
+      "created": "2024-02-08T13:18:09+01:00",
+      "date": "2024-02-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655915.pdf",
+      "fileName": "00655915.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655915",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83798",
+      "authoritative": true,
+      "created": "2023-12-11T11:15:27+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31191",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9522",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49802",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-12-07T09:40:14+01:00",
+  "date": "2023-12-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49802",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bauvorhaben auf dem Grundstück Nr. 19924/4 mit 4.275 m², Schwarzwaldstraße 81, 81 a, Gebäude- und Freifläche, Stadtteil Südweststadt",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/1385",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

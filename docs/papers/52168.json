@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668854.pdf",
+      "created": "2025-07-16T14:40:38+02:00",
+      "date": "2025-07-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668854.pdf",
+      "fileName": "00668854.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668854",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:21:23+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669192.pdf",
+      "created": "2025-08-01T07:25:01+02:00",
+      "date": "2025-08-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669192.pdf",
+      "fileName": "00669192.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669192",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:21:23+02:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670954.pdf",
+      "created": "2025-10-17T10:21:20+02:00",
+      "date": "2025-10-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670954.pdf",
+      "fileName": "00670954.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670954",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:21:23+02:00",
+      "name": "Protokoll GR 30.09.2025 TOP 11",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95060",
+      "created": "2025-07-21T09:08:51+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34574",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10108",
+      "modified": "2025-09-25T15:17:12+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33195"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52168",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95986",
+      "authoritative": true,
+      "created": "2025-08-29T08:53:33+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34575",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10052",
+      "modified": "2025-09-30T16:21:34+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52168",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-07-16T14:37:29+02:00",
+  "date": "2025-07-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52168",
+  "modified": "2025-10-17T10:21:23+02:00",
+  "name": "Jahresbericht 2024 des Beirates für Menschen mit Behinderungen und der Beauftragten für die Belange von Menschen mit Behinderungen in der Stadt Karlsruhe",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/0691",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

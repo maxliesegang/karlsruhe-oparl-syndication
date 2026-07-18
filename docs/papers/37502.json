@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610450.pdf",
+      "created": "2019-07-05T12:36:03+02:00",
+      "date": "2019-07-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610450.pdf",
+      "fileName": "00610450.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610450",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abwasserreinigung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610531.pdf",
+      "created": "2019-07-18T14:07:59+02:00",
+      "date": "2019-07-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610531.pdf",
+      "fileName": "00610531.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610531",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis Top7",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610678.pdf",
+      "created": "2019-08-05T09:52:44+02:00",
+      "date": "2019-08-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610678.pdf",
+      "fileName": "00610678.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610678",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46226",
+      "authoritative": true,
+      "created": "2019-06-17T08:52:11+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16761",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5370",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37502",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-06-17T08:49:01+02:00",
+  "date": "2019-06-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37502",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Weitergehende Abwasserreinigung im Klärwerk Karlsruhe, Teilprojekt Neubau der Adsorptionsstufe: Vergabe der Elektro-, Mess-, Steuer- und Regelungstechnik",
+  "paperType": "Beschlussvorlage",
+  "reference": "2019/0602",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

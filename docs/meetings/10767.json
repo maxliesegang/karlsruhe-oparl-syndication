@@ -1,0 +1,104 @@
+{
+  "agendaItem": [
+    {
+      "created": "2026-04-08T13:46:27+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101226",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10767",
+      "modified": "2026-04-08T13:46:27+02:00",
+      "name": "Blutspenderehrung",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37117",
+      "created": "2026-03-12T14:51:57+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100775",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10767",
+      "modified": "2026-04-08T13:46:27+02:00",
+      "name": "Mobilität mit geteilten Verkehrsmitteln in Hohenwettersbach",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37118",
+      "created": "2026-03-12T14:51:57+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100776",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10767",
+      "modified": "2026-04-08T13:46:27+02:00",
+      "name": "Schulbusverkehr von Hohenwettersbach",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-03-27T10:29:48+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100937",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10767",
+      "modified": "2026-04-08T13:46:27+02:00",
+      "name": "Mitteilungen der Ortsverwaltung",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-03-27T10:30:44+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100938",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10767",
+      "modified": "2026-04-08T13:46:27+02:00",
+      "name": "Anregungen aus dem Ortschaftsrat",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678680.pdf",
+      "created": "2026-05-27T14:26:28+02:00",
+      "date": "2026-05-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678680.pdf",
+      "fileName": "00678680.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678680",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-27T14:26:35+02:00",
+      "name": "OR. Ho. Protokoll Öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2025-11-27T16:31:15+01:00",
+  "end": "2026-04-22T00:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10767",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677520.pdf",
+    "created": "2026-04-08T13:57:12+02:00",
+    "date": "2026-04-08",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677520.pdf",
+    "fileName": "00677520.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677520",
+    "mimeType": "application/pdf",
+    "modified": "2026-04-13T13:30:10+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2025-11-27T16:31:15+01:00",
+    "description": "Bürgersaal im Rathaus Hohenwettersbach",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10767",
+    "modified": "2026-05-27T14:26:35+02:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-05-27T14:26:35+02:00",
+  "name": "Ortschaftsrat Hohenwettersbach (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34322"
+  ],
+  "start": "2026-04-22T19:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

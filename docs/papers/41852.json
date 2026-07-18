@@ -1,0 +1,93 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00628257.pdf",
+      "created": "2021-09-22T14:37:08+02:00",
+      "date": "2021-09-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00628257.pdf",
+      "fileName": "00628257.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/628257",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Bericht DKR 2021",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00628580.pdf",
+      "created": "2021-10-07T07:54:19+02:00",
+      "date": "2021-10-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00628580.pdf",
+      "fileName": "00628580.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/628580",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Drogenkonsumraum",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00629815.pdf",
+      "created": "2021-10-19T19:31:57+02:00",
+      "date": "2021-10-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00629815.pdf",
+      "fileName": "00629815.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/629815",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstsimmungergebnis TOP 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634366.pdf",
+      "created": "2021-12-10T15:12:26+01:00",
+      "date": "2021-12-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634366.pdf",
+      "fileName": "00634366.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634366",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/60909",
+      "created": "2021-09-22T15:00:34+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/22082",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6287",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33195"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41852",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/60950",
+      "authoritative": true,
+      "created": "2021-09-29T11:42:36+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/22083",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6301",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41852",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-09-22T14:32:40+02:00",
+  "date": "2021-09-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41852",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Drogenkonsumraum K 76: Evaluation",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/1144",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

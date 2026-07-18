@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660740.pdf",
+      "created": "2024-09-09T12:23:25+02:00",
+      "date": "2024-09-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660740.pdf",
+      "fileName": "00660740.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660740",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661980.pdf",
+      "created": "2024-10-23T15:19:54+02:00",
+      "date": "2024-10-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661980.pdf",
+      "fileName": "00661980.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661980",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662255.pdf",
+      "created": "2024-10-31T14:05:33+01:00",
+      "date": "2024-10-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662255.pdf",
+      "fileName": "00662255.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662255",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 22.10.2024 TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90284",
+      "authoritative": true,
+      "created": "2024-09-25T09:33:35+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32817",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50955",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-09-09T12:05:04+02:00",
+  "date": "2024-09-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50955",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bildung des Sanierungsbeirates Durlach Stadteingang mit Berufung der Mitglieder",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/1026",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676872.pdf",
+      "created": "2026-03-02T14:35:08+01:00",
+      "date": "2026-03-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676872.pdf",
+      "fileName": "00676872.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676872",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-17T16:15:26+01:00",
+      "name": "Informationsvorlage Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100461",
+      "created": "2026-02-12T14:03:12+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37074",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10435",
+      "modified": "2026-03-24T13:23:39+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54318",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-03-02T09:42:18+01:00",
+  "date": "2026-03-04",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54318",
+  "modified": "2026-03-17T16:15:26+01:00",
+  "name": "Bauvoranfrage - Im Gässle 1",
+  "paperType": "Informationsvorlage",
+  "reference": "2026/0179",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

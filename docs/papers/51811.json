@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666497.pdf",
+      "created": "2025-04-17T08:40:57+02:00",
+      "date": "2025-04-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666497.pdf",
+      "fileName": "00666497.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666497",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T07:22:49+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666516.pdf",
+      "created": "2025-04-17T12:50:46+02:00",
+      "date": "2025-04-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666516.pdf",
+      "fileName": "00666516.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666516",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T07:22:49+02:00",
+      "name": "Anlage H - GBR-Geschäftsordnung 2023",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667606.pdf",
+      "created": "2025-06-02T14:36:27+02:00",
+      "date": "2025-06-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667606.pdf",
+      "fileName": "00667606.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667606",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T07:22:49+02:00",
+      "name": "Abstimmungsergebnis TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668028.pdf",
+      "created": "2025-06-17T07:22:43+02:00",
+      "date": "2025-06-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668028.pdf",
+      "fileName": "00668028.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668028",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T07:22:49+02:00",
+      "name": "Protokoll GR 27.05.2025 TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93768",
+      "authoritative": true,
+      "created": "2025-05-07T08:24:15+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34075",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10048",
+      "modified": "2025-05-27T15:50:21+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51811",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-04-17T08:39:58+02:00",
+  "date": "2025-04-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51811",
+  "modified": "2025-06-17T07:22:49+02:00",
+  "name": "Neubesetzung Gestaltungsbeirat",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0365",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

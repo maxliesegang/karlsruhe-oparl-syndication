@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00606285.pdf",
+      "created": "2018-11-14T08:49:50+01:00",
+      "date": "2018-11-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00606285.pdf",
+      "fileName": "00606285.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/606285",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00606372.pdf",
+      "created": "2018-11-16T11:42:23+01:00",
+      "date": "2018-11-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00606372.pdf",
+      "fileName": "00606372.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/606372",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 19",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607092.pdf",
+      "created": "2019-01-08T08:25:49+01:00",
+      "date": "2019-01-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607092.pdf",
+      "fileName": "00607092.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607092",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 19",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44399",
+      "authoritative": true,
+      "created": "2018-10-30T16:36:48+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15786",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4973",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36709",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-10-16T09:08:36+02:00",
+  "date": "2018-10-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36709",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Konzept für Willkommensfeiern in Stadtteilen",
+  "paperType": "Antrag",
+  "reference": "2018/0692",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

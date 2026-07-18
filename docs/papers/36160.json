@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00602549.pdf",
+      "created": "2018-04-12T14:14:03+02:00",
+      "date": "2018-04-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00602549.pdf",
+      "fileName": "00602549.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/602549",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 40.1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00602550.pdf",
+      "created": "2018-04-12T14:14:17+02:00",
+      "date": "2018-04-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00602550.pdf",
+      "fileName": "00602550.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/602550",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "FDP Poser-Szene",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00603301.pdf",
+      "created": "2018-05-24T10:14:05+02:00",
+      "date": "2018-05-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00603301.pdf",
+      "fileName": "00603301.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/603301",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 40",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/42676",
+      "authoritative": true,
+      "created": "2018-04-10T11:20:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15075",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4992",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36160",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-03-05T08:08:53+01:00",
+  "date": "2018-03-05",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36160",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Poser-Szene in Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2018/0108",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

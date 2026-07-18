@@ -1,0 +1,82 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664855.pdf",
+      "created": "2025-02-11T13:34:47+01:00",
+      "date": "2025-02-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664855.pdf",
+      "fileName": "00664855.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664855",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-07T12:56:31+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666017.pdf",
+      "created": "2025-03-27T09:16:59+01:00",
+      "date": "2025-03-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666017.pdf",
+      "fileName": "00666017.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666017",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-07T12:56:31+02:00",
+      "name": "2025-03-27_Stellungnahme zum Antrag_neu",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666157.pdf",
+      "created": "2025-04-03T11:10:30+02:00",
+      "date": "2025-04-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666157.pdf",
+      "fileName": "00666157.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666157",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-07T12:56:31+02:00",
+      "name": "Protokoll GR 25.03.2025 TOP 26",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92398",
+      "authoritative": true,
+      "created": "2025-02-13T09:05:43+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33708",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10069",
+      "modified": "2025-04-11T13:26:14+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51565",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92621",
+      "authoritative": true,
+      "created": "2025-02-25T11:44:59+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33687",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10046",
+      "modified": "2025-03-25T19:21:25+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51565",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-02-11T13:33:31+01:00",
+  "date": "2025-02-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51565",
+  "modified": "2025-04-25T12:23:50+02:00",
+  "name": "Bebauungsplan \"Grünordnung und Klimaanpassung in der Innenstadt\" - Ausweitung auf das gesamte Stadtgebiet",
+  "paperType": "Antrag",
+  "reference": "2025/0143",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

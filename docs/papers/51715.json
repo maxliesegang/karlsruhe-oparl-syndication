@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665822.pdf",
+      "created": "2025-03-21T10:09:59+01:00",
+      "date": "2025-01-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665822.pdf",
+      "fileName": "00665822.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665822",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-07T09:36:43+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92928",
+      "authoritative": true,
+      "created": "2025-03-21T10:19:47+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33910",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10025",
+      "modified": "2025-04-23T19:15:25+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51715",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-03-21T10:09:59+01:00",
+  "date": "2025-03-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51715",
+  "modified": "2025-04-07T09:36:43+02:00",
+  "name": "Umbesetzung des Ausschusses für Planung, Bauwesen und Umwelt (Ausschuss II)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0287",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

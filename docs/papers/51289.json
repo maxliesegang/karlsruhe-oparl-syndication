@@ -1,0 +1,74 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662942.pdf",
+      "created": "2024-11-19T11:56:21+01:00",
+      "date": "2024-11-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662942.pdf",
+      "fileName": "00662942.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662942",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662995.pdf",
+      "created": "2024-11-19T15:25:41+01:00",
+      "date": "2024-11-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662995.pdf",
+      "fileName": "00662995.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662995",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Verwaltung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663036.pdf",
+      "created": "2024-11-20T14:27:23+01:00",
+      "date": "2024-11-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663036.pdf",
+      "fileName": "00663036.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663036",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 6.1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91230",
+      "authoritative": true,
+      "created": "2024-11-19T12:01:18+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33289",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9533",
+      "modified": "2025-05-14T08:57:31+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51289",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-11-19T11:56:11+01:00",
+  "date": "2024-11-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51289",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Änderung der Gebühren für den Christkindlesmarkt",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2024/0883/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50811"
+  ],
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51362"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882979"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626909.pdf",
+      "created": "2021-07-09T11:00:08+02:00",
+      "date": "2021-07-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626909.pdf",
+      "fileName": "00626909.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626909",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00627052.pdf",
+      "created": "2021-07-16T14:55:16+02:00",
+      "date": "2021-07-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00627052.pdf",
+      "fileName": "00627052.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/627052",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "STN DIE LINKE_Filteranlagen in Karlsruher Schulen einsetzen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00627619.pdf",
+      "created": "2021-08-20T07:43:24+02:00",
+      "date": "2021-08-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00627619.pdf",
+      "fileName": "00627619.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/627619",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 20.1 und 33",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/59712",
+      "authoritative": true,
+      "created": "2021-07-12T09:16:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21704",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6263",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41564",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-07-09T10:59:06+02:00",
+  "date": "2021-07-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41564",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Karlsruher Schulen mit Filteranlagen ausstatten",
+  "paperType": "Antrag",
+  "reference": "2021/0894",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/546903"
+  ]
+}

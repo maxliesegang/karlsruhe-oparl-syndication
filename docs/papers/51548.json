@@ -1,0 +1,82 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664788.pdf",
+      "created": "2025-02-06T11:33:47+01:00",
+      "date": "2025-02-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664788.pdf",
+      "fileName": "00664788.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664788",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-16T06:20:37+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666159.pdf",
+      "created": "2025-04-03T11:11:13+02:00",
+      "date": "2025-04-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666159.pdf",
+      "fileName": "00666159.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666159",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-16T06:20:37+02:00",
+      "name": "Protokoll GR 25.03.2025 TOP 24",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666917.pdf",
+      "created": "2025-05-06T10:08:37+02:00",
+      "date": "2025-05-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666917.pdf",
+      "fileName": "00666917.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666917",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-16T06:20:37+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92625",
+      "authoritative": true,
+      "created": "2025-02-25T11:44:59+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33667",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10046",
+      "modified": "2025-03-25T19:21:11+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51548",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93806",
+      "authoritative": true,
+      "created": "2025-05-07T09:30:38+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33674",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10106",
+      "modified": "2025-07-16T16:20:21+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51548",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-02-06T11:33:15+01:00",
+  "date": "2025-02-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51548",
+  "modified": "2025-06-16T06:20:37+02:00",
+  "name": "Schaffung eines Naturkindergartens als Außenstelle des städtischen Naturparkkindergartens Wettersbach",
+  "paperType": "Antrag",
+  "reference": "2025/0127",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650046.pdf",
+      "created": "2023-08-23T09:28:39+02:00",
+      "date": "2023-08-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650046.pdf",
+      "fileName": "00650046.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650046",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650528.pdf",
+      "created": "2023-09-11T11:57:23+02:00",
+      "date": "2023-09-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650528.pdf",
+      "fileName": "00650528.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650528",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme  zur Anfrage Ampelschaltung Adenauerring",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651379.pdf",
+      "created": "2023-10-09T14:17:44+02:00",
+      "date": "2023-10-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651379.pdf",
+      "fileName": "00651379.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651379",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 43",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/80002",
+      "authoritative": true,
+      "created": "2023-08-23T11:10:57+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30327",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9049",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49071",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-08-23T09:27:44+02:00",
+  "date": "2023-08-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49071",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Ampelschaltung am Adenauerring",
+  "paperType": "Anfrage",
+  "reference": "2023/0965",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

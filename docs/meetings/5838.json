@@ -1,0 +1,71 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20115",
+      "created": "2020-10-02T12:49:04+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54728",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5838",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Bebauungsplan \"BGH-Areal - Herrenstraße/Kriegsstraße\", Karlsruhe-Innenstadt-West Hier: Aufstellungsbeschluss gem. § 2 Abs. 1 BauGB",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20116",
+      "created": "2020-10-02T12:49:04+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54730",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5838",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Neuordnung der Situation am Karlstor",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20117",
+      "created": "2020-10-02T12:49:04+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54731",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5838",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Sitzen für alle! Entwicklung eines Sitzbankkonzepts für die Stadt",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619918.pdf",
+      "created": "2020-10-02T13:53:58+02:00",
+      "date": "2020-10-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619918.pdf",
+      "fileName": "00619918.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619918",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Tagesordnung ö",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2019-10-07T11:46:40+02:00",
+  "end": "2020-10-14T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5838",
+  "location": {
+    "created": "2019-10-07T11:46:40+02:00",
+    "description": "Lichthof BGV, Durlacher Allee 56",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5838",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Planungsausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+  ],
+  "start": "2020-10-14T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

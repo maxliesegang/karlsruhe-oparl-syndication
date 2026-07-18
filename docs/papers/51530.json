@@ -1,0 +1,71 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664661.pdf",
+      "created": "2025-02-03T13:10:00+01:00",
+      "date": "2024-04-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664661.pdf",
+      "fileName": "00664661.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664661",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-11T13:30:53+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664668.pdf",
+      "created": "2025-02-03T13:54:36+01:00",
+      "date": "2025-02-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664668.pdf",
+      "fileName": "00664668.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664668",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-11T13:30:53+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664670.pdf",
+      "created": "2025-02-03T14:20:07+01:00",
+      "date": "2025-02-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664670.pdf",
+      "fileName": "00664670.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664670",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-11T13:30:53+01:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92839",
+      "authoritative": true,
+      "created": "2025-03-11T13:04:08+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33643",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10104",
+      "modified": "2025-03-21T11:20:16+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51530",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-02-03T13:10:00+01:00",
+  "date": "2025-02-03",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51530",
+  "modified": "2025-03-11T13:30:53+01:00",
+  "name": "Mehr Förderung von Sport und Bewegung durch allgemeine Öffnungen der Sportflächen von Karlsruher Schulen",
+  "paperType": "Antrag",
+  "reference": "2024/0394/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50275"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

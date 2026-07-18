@@ -1,0 +1,82 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617331.pdf",
+      "created": "2020-04-24T07:57:00+02:00",
+      "date": "2020-04-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617331.pdf",
+      "fileName": "00617331.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617331",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618409.pdf",
+      "created": "2020-06-23T14:04:39+02:00",
+      "date": "2020-06-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618409.pdf",
+      "fileName": "00618409.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618409",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Live-Übertragungen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619045.pdf",
+      "created": "2020-07-29T14:14:53+02:00",
+      "date": "2020-07-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619045.pdf",
+      "fileName": "00619045.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619045",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/52690",
+      "authoritative": true,
+      "created": "2020-06-03T09:17:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19254",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5666",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39691",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53448",
+      "authoritative": true,
+      "created": "2020-07-02T16:36:50+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19753",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5656",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39691",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-04-24T07:56:31+02:00",
+  "date": "2020-04-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39691",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Demokratie stärken - Live-Übertragung von Gemeinderatssitzungen im Internet und in den öffentlichen Raum",
+  "paperType": "Antrag",
+  "reference": "2020/0483",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882850"
+  ]
+}

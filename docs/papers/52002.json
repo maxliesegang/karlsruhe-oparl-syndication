@@ -1,0 +1,69 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668521.pdf",
+      "created": "2025-06-30T17:11:21+02:00",
+      "date": "2025-06-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668521.pdf",
+      "fileName": "00668521.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668521",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-29T15:15:39+01:00",
+      "name": "Vorlage Empfehlungsliste",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668522.pdf",
+      "created": "2025-06-30T17:11:41+02:00",
+      "date": "2025-06-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668522.pdf",
+      "fileName": "00668522.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668522",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-29T15:15:39+01:00",
+      "name": "Anlage Empfehlungsliste",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93955",
+      "created": "2025-05-19T15:39:01+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34348",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10118",
+      "modified": "2025-07-07T09:27:15+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/39759"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52002",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99599",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:29+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35145",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-17T06:45:49+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52002",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-06-02T10:33:33+02:00",
+  "date": "2025-06-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52002",
+  "modified": "2025-10-29T15:15:39+01:00",
+  "name": "Empfehlungsliste Bereich Integration für Doppelhaushalt 26/27",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0540",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883012"
+  ]
+}

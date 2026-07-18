@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665234.pdf",
+      "created": "2025-02-27T12:51:07+01:00",
+      "date": "2025-02-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665234.pdf",
+      "fileName": "00665234.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665234",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-07T12:34:37+01:00",
+      "name": "Anfrage Wettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665253.pdf",
+      "created": "2025-02-27T13:29:09+01:00",
+      "date": "2025-02-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665253.pdf",
+      "fileName": "00665253.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665253",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-07T12:34:37+01:00",
+      "name": "Stellungnahme Anfrage Wettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92682",
+      "authoritative": true,
+      "created": "2025-02-27T13:29:55+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33797",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10205",
+      "modified": "2025-03-19T13:04:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51628",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-02-27T12:50:50+01:00",
+  "date": "2025-02-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51628",
+  "modified": "2025-03-07T12:34:37+01:00",
+  "name": "E-Lastenräder (KVV Nextbike) in Wettersbach Anfrage der Bündnis90/Die Grünen-Ortschaftsratsfraktion Wettersbach",
+  "paperType": "Anfrage",
+  "reference": "2025/0201",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882961"
+  ]
+}

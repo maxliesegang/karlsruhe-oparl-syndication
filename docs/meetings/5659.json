@@ -1,0 +1,71 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20250",
+      "created": "2020-10-29T12:20:25+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/55079",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5659",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Absage Offerta 2020; Gesellschafterweisung",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "mehrheitlich zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20150",
+      "created": "2020-10-13T08:51:18+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54865",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5659",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Beschaffung einer Drehleiter mit Korb 23/12 (DLAK 23/12) für die Berufsfeuerwehr Karlsruhe",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2019-09-27T09:59:55+02:00",
+  "end": "2020-11-10T18:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5659",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620478.pdf",
+    "created": "2020-10-29T16:35:27+01:00",
+    "date": "2020-10-29",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620478.pdf",
+    "fileName": "00620478.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620478",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2019-09-27T09:59:55+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5659",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Hauptausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+  ],
+  "resultsProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620998.pdf",
+    "created": "2020-11-19T15:03:17+01:00",
+    "date": "2020-11-19",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620998.pdf",
+    "fileName": "00620998.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620998",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Anwesenheit (Protokoll)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "start": "2020-11-10T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

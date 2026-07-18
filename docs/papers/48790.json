@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648317.pdf",
+      "created": "2023-06-21T09:11:51+02:00",
+      "date": "2023-06-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648317.pdf",
+      "fileName": "00648317.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648317",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648763.pdf",
+      "created": "2023-07-05T16:17:59+02:00",
+      "date": "2023-07-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648763.pdf",
+      "fileName": "00648763.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648763",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme zum Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649520.pdf",
+      "created": "2023-08-03T12:22:20+02:00",
+      "date": "2023-08-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649520.pdf",
+      "fileName": "00649520.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649520",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 31",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78418",
+      "authoritative": true,
+      "created": "2023-06-21T14:11:05+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29889",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9047",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48790",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-06-21T09:11:31+02:00",
+  "date": "2023-06-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48790",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Cannabis-Modellprojekt in Karlsruhe",
+  "paperType": "Antrag",
+  "reference": "2023/0708",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

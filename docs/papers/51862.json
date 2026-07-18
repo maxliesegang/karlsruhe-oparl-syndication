@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666763.pdf",
+      "created": "2025-04-29T20:08:41+02:00",
+      "date": "2025-04-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666763.pdf",
+      "fileName": "00666763.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666763",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T08:05:15+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667059.pdf",
+      "created": "2025-05-09T14:46:53+02:00",
+      "date": "2025-05-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667059.pdf",
+      "fileName": "00667059.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667059",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T08:05:15+02:00",
+      "name": "Stellungnahme zur Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668057.pdf",
+      "created": "2025-06-17T08:05:00+02:00",
+      "date": "2025-06-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668057.pdf",
+      "fileName": "00668057.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668057",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T08:05:15+02:00",
+      "name": "Protokoll GR 27.05.2025 TOP 34",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93790",
+      "authoritative": true,
+      "created": "2025-05-07T08:24:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34147",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10048",
+      "modified": "2025-05-27T18:11:50+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51862",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-04-29T20:08:05+02:00",
+  "date": "2025-04-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51862",
+  "modified": "2025-06-17T08:05:15+02:00",
+  "name": "Zukunft der offenen Kinder- und Jugendarbeit in den Höhenstadtteilen",
+  "paperType": "Anfrage",
+  "reference": "2025/0410",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

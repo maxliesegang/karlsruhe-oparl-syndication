@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672031.pdf",
+      "created": "2025-11-18T13:40:07+01:00",
+      "date": "2025-11-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672031.pdf",
+      "fileName": "00672031.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672031",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-08T16:31:00+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99261",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:27+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35292",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-16T17:30:02+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52665",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-18T13:39:20+01:00",
+  "date": "2025-11-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52665",
+  "modified": "2025-12-08T16:31:00+01:00",
+  "name": "HHS4_GR27 - Reduzierung Mittel Tierschutzfond (kleine Wildtiere und Wildvögel)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1127",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

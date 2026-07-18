@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619190.pdf",
+      "created": "2020-08-17T07:53:56+02:00",
+      "date": "2020-08-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619190.pdf",
+      "fileName": "00619190.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619190",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619752.pdf",
+      "created": "2020-09-25T11:41:05+02:00",
+      "date": "2020-09-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619752.pdf",
+      "fileName": "00619752.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619752",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme SPD Inklusives Wohnen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620532.pdf",
+      "created": "2020-11-02T09:16:32+01:00",
+      "date": "2020-11-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620532.pdf",
+      "fileName": "00620532.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620532",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 22",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54152",
+      "authoritative": true,
+      "created": "2020-09-01T11:04:41+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19889",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5670",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40175",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-08-17T07:53:22+02:00",
+  "date": "2020-08-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40175",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Inklusives Wohnen",
+  "paperType": "Antrag",
+  "reference": "2020/0965",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

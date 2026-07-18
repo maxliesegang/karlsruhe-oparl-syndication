@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656193.pdf",
+      "created": "2024-02-22T15:41:59+01:00",
+      "date": "2024-02-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656193.pdf",
+      "fileName": "00656193.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656193",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656914.pdf",
+      "created": "2024-03-19T16:52:43+01:00",
+      "date": "2024-03-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656914.pdf",
+      "fileName": "00656914.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656914",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 1.3",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00657281.pdf",
+      "created": "2024-04-03T15:27:10+02:00",
+      "date": "2024-04-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00657281.pdf",
+      "fileName": "00657281.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/657281",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 19.03.2024 TOP 1.3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84960",
+      "authoritative": true,
+      "created": "2024-02-26T08:43:56+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31557",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9524",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50058",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-02-22T15:38:16+01:00",
+  "date": "2024-02-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50058",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Berufung sachkundiger Einwohnerinnen und Einwohner in gemeinderätliche Gremien: Änderung in der Zusammensetzung des Schulbeirats",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0188",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

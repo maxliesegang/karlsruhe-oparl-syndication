@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675805.pdf",
+      "created": "2026-01-16T14:42:27+01:00",
+      "date": "2026-01-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675805.pdf",
+      "fileName": "00675805.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675805",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-05T10:30:08+01:00",
+      "name": "Antrag Wettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675806.pdf",
+      "created": "2026-01-16T14:43:49+01:00",
+      "date": "2026-01-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675806.pdf",
+      "fileName": "00675806.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675806",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-05T10:30:08+01:00",
+      "name": "Stellungnahme Antrag Wettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100092",
+      "authoritative": true,
+      "created": "2026-01-16T14:45:40+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36851",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10454",
+      "modified": "2026-03-18T07:30:56+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54152",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-01-16T14:40:48+01:00",
+  "date": "2026-01-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54152",
+  "modified": "2026-03-11T10:18:44+01:00",
+  "name": "Einrichten eines KVV.nextbike Standortes in Wettersbach Antrag der SPD/FDP-Ortschaftsratsfraktion Wettersbach",
+  "paperType": "Antrag",
+  "reference": "2026/0025",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882961"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643884.pdf",
+      "created": "2023-01-10T13:01:19+01:00",
+      "date": "2023-01-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643884.pdf",
+      "fileName": "00643884.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643884",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Vorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644399.pdf",
+      "created": "2023-01-26T15:46:32+01:00",
+      "date": "2023-01-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644399.pdf",
+      "fileName": "00644399.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644399",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP3",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644711.pdf",
+      "created": "2023-02-07T10:29:56+01:00",
+      "date": "2023-02-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644711.pdf",
+      "fileName": "00644711.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644711",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75022",
+      "authoritative": true,
+      "created": "2023-01-10T12:40:01+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28863",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9041",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48002",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-01-09T14:37:26+01:00",
+  "date": "2023-01-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48002",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Änderung der Besetzung des Aufsichtsrates der Karlsruher Verkehrsverbund GmbH nach dem Ausscheiden von Herrn Stadtrat David Hermanns",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0003",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

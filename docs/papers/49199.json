@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651051.pdf",
+      "created": "2023-09-28T10:02:45+02:00",
+      "date": "2023-09-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651051.pdf",
+      "fileName": "00651051.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651051",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651468.pdf",
+      "created": "2023-10-11T14:36:03+02:00",
+      "date": "2023-10-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651468.pdf",
+      "fileName": "00651468.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651468",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Sicherheitsbericht 2022 neu",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/80350",
+      "authoritative": true,
+      "created": "2023-09-20T11:19:20+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30480",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9065",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49199",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-09-20T11:11:33+02:00",
+  "date": "2023-09-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49199",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Handlungsschwerpunkte im Bereich Öffentliche Sicherheit und Ordnung",
+  "paperType": "Informationsvorlage",
+  "reference": "2023/1091",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

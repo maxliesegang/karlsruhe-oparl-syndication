@@ -1,0 +1,92 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675870.pdf",
+      "created": "2026-01-21T07:06:33+01:00",
+      "date": "2026-01-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675870.pdf",
+      "fileName": "00675870.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675870",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:42:12+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676301.pdf",
+      "created": "2026-02-02T13:00:46+01:00",
+      "date": "2026-02-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676301.pdf",
+      "fileName": "00676301.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676301",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:42:12+02:00",
+      "name": "Anlage 2 Anhörung TöB",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676358.pdf",
+      "created": "2026-02-03T13:47:41+01:00",
+      "date": "2026-02-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676358.pdf",
+      "fileName": "00676358.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676358",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:42:12+02:00",
+      "name": "Anlage 1 Nahverkehrsplan 2026",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678031.pdf",
+      "created": "2026-04-29T11:18:45+02:00",
+      "date": "2026-04-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678031.pdf",
+      "fileName": "00678031.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678031",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:42:12+02:00",
+      "name": "Abstimmungsergebnis TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678392.pdf",
+      "created": "2026-05-15T10:42:09+02:00",
+      "date": "2026-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678392.pdf",
+      "fileName": "00678392.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678392",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:42:12+02:00",
+      "name": "Protokoll GR 28.04.2026 TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101115",
+      "authoritative": true,
+      "created": "2026-04-01T09:53:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36865",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10512",
+      "modified": "2026-04-28T18:44:24+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54163",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-01-21T07:05:16+01:00",
+  "date": "2026-02-02",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54163",
+  "modified": "2026-05-15T10:42:12+02:00",
+  "name": "Gemeinsamer Nahverkehrsplan 2026 der Städte Karlsruhe und Baden-Baden und der Landkreise Karlsruhe und Rastatt im KVV",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0036",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

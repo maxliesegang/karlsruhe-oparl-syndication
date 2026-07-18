@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650999.pdf",
+      "created": "2023-09-27T11:40:46+02:00",
+      "date": "2023-09-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650999.pdf",
+      "fileName": "00650999.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650999",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654187.pdf",
+      "created": "2023-11-29T10:19:35+01:00",
+      "date": "2023-11-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654187.pdf",
+      "fileName": "00654187.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654187",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 11",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654858.pdf",
+      "created": "2023-12-19T14:55:12+01:00",
+      "date": "2023-12-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654858.pdf",
+      "fileName": "00654858.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654858",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 11",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83218",
+      "authoritative": true,
+      "created": "2023-10-30T14:44:32+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30538",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9054",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49238",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-09-27T11:35:03+02:00",
+  "date": "2023-09-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49238",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Antrag der LG Region Karlsruhe: Förderung der Langen Laufnacht 2024",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/1125",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

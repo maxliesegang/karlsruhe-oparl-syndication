@@ -1,0 +1,96 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617779.pdf",
+      "created": "2020-05-22T12:29:59+02:00",
+      "date": "2020-05-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617779.pdf",
+      "fileName": "00617779.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617779",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618277.pdf",
+      "created": "2020-06-19T08:25:20+02:00",
+      "date": "2020-06-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618277.pdf",
+      "fileName": "00618277.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618277",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Städtische Paketstationen in der Innenstadt",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619585.pdf",
+      "created": "2020-09-16T12:19:50+02:00",
+      "date": "2020-09-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619585.pdf",
+      "fileName": "00619585.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619585",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/52725",
+      "authoritative": true,
+      "created": "2020-06-03T09:17:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19467",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5666",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39844",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53596",
+      "authoritative": true,
+      "created": "2020-07-03T14:13:55+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19467",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5667",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39844",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53773",
+      "authoritative": true,
+      "created": "2020-07-22T09:21:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19467",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5668",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39844",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-05-22T12:29:36+02:00",
+  "date": "2020-05-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39844",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Städtische Paketstationen in der Innenstadt",
+  "paperType": "Antrag",
+  "reference": "2020/0636",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

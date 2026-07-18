@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672014.pdf",
+      "created": "2025-11-18T12:13:34+01:00",
+      "date": "2025-11-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672014.pdf",
+      "fileName": "00672014.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672014",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-19T08:11:07+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675458.pdf",
+      "created": "2025-12-19T08:11:03+01:00",
+      "date": "2025-12-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675458.pdf",
+      "fileName": "00675458.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675458",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-19T08:11:07+01:00",
+      "name": "Abtimmungsergebnis  Ö79",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99257",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:27+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35283",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-16T17:23:55+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52656",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-18T12:12:48+01:00",
+  "date": "2025-11-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52656",
+  "modified": "2025-12-19T08:11:07+01:00",
+  "name": "HHS4_GR23 - Kündigung Mitgliedschaft \"Deutsch-Europäisches Forum für urbane Sicherheit (DEFUS)\"",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1120",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

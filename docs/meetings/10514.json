@@ -1,0 +1,62 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37216",
+      "created": "2026-04-07T12:08:38+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101205",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10514",
+      "modified": "2026-05-04T16:30:40+02:00",
+      "name": "Verbesserung der allgemeinen Sauberkeit und des Erscheinungsbildes von Karlsruhe",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "mit Stellungnahme einverstanden",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-03-09T14:32:42+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100761",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10514",
+      "modified": "2026-05-04T16:31:00+02:00",
+      "name": "Verschiedenes",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "erledigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2025-10-10T11:31:34+02:00",
+  "end": "2026-04-30T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10514",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677482.pdf",
+    "created": "2026-04-07T12:10:11+02:00",
+    "date": "2026-04-07",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677482.pdf",
+    "fileName": "00677482.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677482",
+    "mimeType": "application/pdf",
+    "modified": "2026-04-23T15:39:22+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2022-12-29T15:24:53+01:00",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/rm/67922",
+    "locality": "",
+    "modified": "2023-08-21T13:57:08+02:00",
+    "postalCode": "",
+    "room": "Großer Sitzungssaal",
+    "streetAddress": "",
+    "subLocality": "",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-04-23T15:39:22+02:00",
+  "name": "Eigenbetrieb Abfallwirtschaft und Stadtreinigung (öffentlich/nichtöffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54889"
+  ],
+  "start": "2026-04-30T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

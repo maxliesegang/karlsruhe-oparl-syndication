@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612981.pdf",
+      "created": "2019-12-12T13:26:50+01:00",
+      "date": "2019-12-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612981.pdf",
+      "fileName": "00612981.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612981",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "ORS-Anfrage_CDU_Erneuerung_Heranlage_HRH",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612982.pdf",
+      "created": "2019-12-12T13:27:05+01:00",
+      "date": "2019-12-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612982.pdf",
+      "fileName": "00612982.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612982",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "ORS_Stellungnahme_CDU_Herdanlage_HRH_OV",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/48060",
+      "created": "2019-12-12T13:43:53+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17557",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5547",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38151",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-12-12T13:26:17+01:00",
+  "date": "2019-12-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38151",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Erneuerung der Herdanlage in der Hermann-Ringwald-Halle - Anfrage der CDU-Ortschaftsratsfraktion",
+  "paperType": "Anfrage",
+  "reference": "2019/1289",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607927.pdf",
+      "created": "2019-02-15T09:06:31+01:00",
+      "date": "2019-02-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607927.pdf",
+      "fileName": "00607927.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607927",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608412.pdf",
+      "created": "2019-03-15T11:51:11+01:00",
+      "date": "2019-03-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608412.pdf",
+      "fileName": "00608412.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608412",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 45",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609389.pdf",
+      "created": "2019-04-30T07:16:02+02:00",
+      "date": "2019-04-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609389.pdf",
+      "fileName": "00609389.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609389",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 45",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45108",
+      "authoritative": true,
+      "created": "2019-02-26T11:06:11+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16194",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5294",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37045",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-02-15T08:38:29+01:00",
+  "date": "2019-02-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37045",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Silvester-Feuerwerk in Karlsruhe",
+  "paperType": "Antrag",
+  "reference": "2019/0128",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

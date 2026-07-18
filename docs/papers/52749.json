@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672181.pdf",
+      "created": "2025-11-19T16:18:11+01:00",
+      "date": "2025-11-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672181.pdf",
+      "fileName": "00672181.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672181",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-14T13:32:57+01:00",
+      "name": "Anlage_1 Plan",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672182.pdf",
+      "created": "2025-11-19T16:18:20+01:00",
+      "date": "2025-11-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672182.pdf",
+      "fileName": "00672182.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672182",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-14T13:32:57+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99929",
+      "created": "2025-12-23T08:28:16+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35380",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10468",
+      "modified": "2026-01-13T09:44:14+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52749",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-19T15:54:39+01:00",
+  "date": "2025-11-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52749",
+  "modified": "2026-01-14T13:32:57+01:00",
+  "name": "Benennung einer Straße im Bereich des BBBank-Wildparkstadions mit Walther-Bensemann-Ring",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1201",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

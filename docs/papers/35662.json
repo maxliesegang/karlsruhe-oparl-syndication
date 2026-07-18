@@ -1,0 +1,103 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00599629.pdf",
+      "created": "2017-10-06T12:08:41+02:00",
+      "date": "2017-10-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00599629.pdf",
+      "fileName": "00599629.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/599629",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Lärmaktionsplan Ruhige Gebiete",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00599630.pdf",
+      "created": "2017-10-06T12:08:51+02:00",
+      "date": "2017-10-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00599630.pdf",
+      "fileName": "00599630.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/599630",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1 Ruhige Gebiete - Auswertung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00599631.pdf",
+      "created": "2017-10-06T12:09:02+02:00",
+      "date": "2017-10-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00599631.pdf",
+      "fileName": "00599631.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/599631",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 2 Ruhige Gebiete - Steckbriefe 19042017",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00599885.pdf",
+      "created": "2017-10-20T08:19:54+02:00",
+      "date": "2017-10-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00599885.pdf",
+      "fileName": "00599885.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/599885",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00602807.pdf",
+      "created": "2018-04-24T14:30:19+02:00",
+      "date": "2018-04-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00602807.pdf",
+      "fileName": "00602807.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/602807",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2017-07-07T14:09:07+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14521",
+      "modified": "2018-11-28T14:19:31+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35662",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41275",
+      "authoritative": true,
+      "created": "2017-09-28T09:35:10+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14446",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4646",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35662",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-06-20T14:33:37+02:00",
+  "date": "2017-06-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35662",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Fortschreibung Lärmaktionsplan 2016 - \"Ruhige Gebiete/Erholungszonen\"",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0416",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882975"
+  ]
+}

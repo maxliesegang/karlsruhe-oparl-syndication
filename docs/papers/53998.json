@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00673912.pdf",
+      "created": "2025-11-26T12:07:25+01:00",
+      "date": "2025-11-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00673912.pdf",
+      "fileName": "00673912.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/673912",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-08T17:39:11+01:00",
+      "name": "Antrag VOLT_008",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675003.pdf",
+      "created": "2025-12-08T15:22:01+01:00",
+      "date": "2025-12-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675003.pdf",
+      "fileName": "00675003.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675003",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-08T17:39:11+01:00",
+      "name": "0003 Stellungnahme DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99365",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:28+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36641",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-21T11:10:45+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/53998",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-26T11:25:12+01:00",
+  "date": "2025-11-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/53998",
+  "modified": "2025-12-08T17:39:11+01:00",
+  "name": "Reduzierung der geplanten Verschuldung durch eine Verminderung des geplanten Investitionsvolumens um ca. 250 Mio. Euro zwischen 2026-2030",
+  "paperType": "Haushalt Gesamt",
+  "reference": "DHH/2025/0003",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00599645.pdf",
+      "created": "2017-10-06T12:14:49+02:00",
+      "date": "2017-10-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00599645.pdf",
+      "fileName": "00599645.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/599645",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Linke-Tigermückenbestand",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00599646.pdf",
+      "created": "2017-10-06T12:15:07+02:00",
+      "date": "2017-10-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00599646.pdf",
+      "fileName": "00599646.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/599646",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 20",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00599896.pdf",
+      "created": "2017-10-20T08:23:26+02:00",
+      "date": "2017-10-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00599896.pdf",
+      "fileName": "00599896.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/599896",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 20",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41297",
+      "authoritative": true,
+      "created": "2017-09-28T09:35:11+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14656",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4646",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35823",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-09-20T07:55:01+02:00",
+  "date": "2017-09-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35823",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Tigermückenbestand in Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2017/0594",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

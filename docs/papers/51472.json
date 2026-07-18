@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664304.pdf",
+      "created": "2025-01-20T14:26:33+01:00",
+      "date": "2025-01-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664304.pdf",
+      "fileName": "00664304.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664304",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage ohne Pläne",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91986",
+      "authoritative": true,
+      "created": "2025-01-16T13:15:10+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33558",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9894",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51472",
+      "role": "Anhörung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-01-16T13:08:42+01:00",
+  "date": "2025-01-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51472",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bauvoranfrage Wiesenäckerweg 34a, 34b",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0055",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

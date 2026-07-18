@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670885.pdf",
+      "created": "2025-10-15T15:31:41+02:00",
+      "date": "2025-10-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670885.pdf",
+      "fileName": "00670885.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670885",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-10T16:24:49+01:00",
+      "name": "Beschlussvorlage Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671120.pdf",
+      "created": "2025-10-21T12:20:39+02:00",
+      "date": "2025-10-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671120.pdf",
+      "fileName": "00671120.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671120",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-10T16:24:49+01:00",
+      "name": "2025-10-21 Ortsteilhaushalt Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96793",
+      "authoritative": true,
+      "created": "2025-10-14T18:13:52+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35040",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9902",
+      "modified": "2025-12-08T11:50:35+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52487",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-10-15T15:27:44+02:00",
+  "date": "2025-10-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52487",
+  "modified": "2025-11-10T16:24:49+01:00",
+  "name": "Doppelhaushalt 2026/27 - Teilhaushalt der Ortsverwaltung Grötzingen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0978",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

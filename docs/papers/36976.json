@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607488.pdf",
+      "created": "2019-01-16T14:35:02+01:00",
+      "date": "2019-01-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607488.pdf",
+      "fileName": "00607488.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607488",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607939.pdf",
+      "created": "2019-02-15T10:27:47+01:00",
+      "date": "2019-02-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607939.pdf",
+      "fileName": "00607939.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607939",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 17",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608851.pdf",
+      "created": "2019-04-03T10:17:10+02:00",
+      "date": "2019-04-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608851.pdf",
+      "fileName": "00608851.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608851",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 17",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44921",
+      "created": "2019-01-29T14:40:38+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16121",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5276",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36976",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-01-16T14:33:10+01:00",
+  "date": "2019-01-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36976",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Notfallnummern auf Kinderspielplätzen",
+  "paperType": "Antrag",
+  "reference": "2019/0058",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

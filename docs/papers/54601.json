@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678631.pdf",
+      "created": "2026-05-22T14:31:34+02:00",
+      "date": "2026-05-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678631.pdf",
+      "fileName": "00678631.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678631",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-15T13:21:37+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102364",
+      "created": "2026-06-25T09:15:15+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37483",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10566",
+      "modified": "2026-07-02T07:35:52+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54601",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-05-22T14:30:42+02:00",
+  "date": "2026-05-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54601",
+  "modified": "2026-07-15T13:21:37+02:00",
+  "name": "Stadtwerke Karlsruhe GmbH: Anteilserhöhung an der WINDPOOL GmbH & Co. KG um 1,25%",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0434",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

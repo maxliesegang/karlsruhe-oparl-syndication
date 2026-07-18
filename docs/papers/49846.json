@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654996.pdf",
+      "created": "2023-12-21T09:51:37+01:00",
+      "date": "2023-12-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654996.pdf",
+      "fileName": "00654996.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654996",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-12T09:47:35+02:00",
+      "name": "Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83941",
+      "authoritative": true,
+      "created": "2023-12-20T15:45:40+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31251",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9714",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49846",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-12-20T14:20:36+01:00",
+  "date": "2024-01-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49846",
+  "modified": "2025-05-12T09:47:35+02:00",
+  "name": "Erreichbarkeit Bürgerbüro",
+  "paperType": "Antrag",
+  "reference": "2023/1423",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

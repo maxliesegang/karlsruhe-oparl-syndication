@@ -1,0 +1,105 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00623688.pdf",
+      "created": "2021-02-23T11:56:44+01:00",
+      "date": "2021-02-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00623688.pdf",
+      "fileName": "00623688.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/623688",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624708.pdf",
+      "created": "2021-04-08T17:46:08+02:00",
+      "date": "2021-04-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624708.pdf",
+      "fileName": "00624708.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624708",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN ÜbungsRäume_Musikbands",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625056.pdf",
+      "created": "2021-04-23T09:50:04+02:00",
+      "date": "2021-04-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625056.pdf",
+      "fileName": "00625056.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625056",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 37",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625562.pdf",
+      "created": "2021-05-19T10:19:29+02:00",
+      "date": "2021-05-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625562.pdf",
+      "fileName": "00625562.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625562",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 23",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2021-02-23T11:56:34+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20801",
+      "modified": "2021-03-05T12:59:51+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/29599"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40889",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56661",
+      "authoritative": true,
+      "created": "2021-03-05T13:00:44+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20800",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6176",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40889",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/57034",
+      "authoritative": true,
+      "created": "2021-03-24T12:11:00+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20823",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6195",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40889",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-02-23T11:55:38+01:00",
+  "date": "2021-02-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40889",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Übungsräume für Musikbands und Räume für Freie Kultureinrichtungen",
+  "paperType": "Antrag",
+  "reference": "2021/0249",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

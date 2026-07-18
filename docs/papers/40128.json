@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618929.pdf",
+      "created": "2020-07-21T11:20:52+02:00",
+      "date": "2020-07-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618929.pdf",
+      "fileName": "00618929.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618929",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618938.pdf",
+      "created": "2020-07-21T14:32:19+02:00",
+      "date": "2020-07-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618938.pdf",
+      "fileName": "00618938.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618938",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53767",
+      "authoritative": true,
+      "created": "2020-07-21T11:54:59+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19817",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5667",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40128",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-07-21T11:20:01+02:00",
+  "date": "2020-07-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40128",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Kulturveranstaltungen: Größere Räume als temporäre Ersatzspielorte",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2020/0919",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

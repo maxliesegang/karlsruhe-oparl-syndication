@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00585000.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2015-02-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00585000.pdf",
+      "fileName": "00585000.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/585000",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Zensus 2011",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00585001.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2015-02-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00585001.pdf",
+      "fileName": "00585001.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/585001",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Zensus 2011",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00585803.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2015-03-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00585803.pdf",
+      "fileName": "00585803.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/585803",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/36207",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/12236",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3827",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/33886",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2015-01-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/33886",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Gebäude und Wohnungen in Karlsruhe - Ergebnisse des Zensus 2011",
+  "paperType": "Beschlussvorlage",
+  "reference": "2015/0078",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882965"
+  ]
+}

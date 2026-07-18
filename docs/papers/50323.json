@@ -1,0 +1,82 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00657608.pdf",
+      "created": "2024-04-16T16:32:53+02:00",
+      "date": "2024-04-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00657608.pdf",
+      "fileName": "00657608.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/657608",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658612.pdf",
+      "created": "2024-05-21T13:30:20+02:00",
+      "date": "2024-05-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658612.pdf",
+      "fileName": "00658612.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658612",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 14.05.2024 TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660789.pdf",
+      "created": "2024-09-11T11:04:44+02:00",
+      "date": "2024-09-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660789.pdf",
+      "fileName": "00660789.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660789",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme zum Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86011",
+      "authoritative": true,
+      "created": "2024-04-17T13:31:33+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31935",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9526",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50323",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90139",
+      "authoritative": true,
+      "created": "2024-09-13T11:42:23+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31969",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9566",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50323",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-04-16T16:28:24+02:00",
+  "date": "2024-04-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50323",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Combo HipHop Kulturzentrum Karlsruhe: Findung von neuen Räumlichkeiten",
+  "paperType": "Antrag",
+  "reference": "2024/0436",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

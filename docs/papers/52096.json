@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668272.pdf",
+      "created": "2025-06-24T08:31:53+02:00",
+      "date": "2025-06-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668272.pdf",
+      "fileName": "00668272.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668272",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-16T18:06:10+02:00",
+      "name": "Anfrage Förderbescheid und Gutachtenoffenlegung TBB",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668273.pdf",
+      "created": "2025-06-24T08:33:48+02:00",
+      "date": "2025-06-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668273.pdf",
+      "fileName": "00668273.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668273",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-16T18:06:10+02:00",
+      "name": "Stellungnahme Förderbescheid und Gutachtenoffenlegung TBB",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94932",
+      "authoritative": true,
+      "created": "2025-07-04T10:29:08+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34475",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10028",
+      "modified": "2025-07-24T08:50:47+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52096",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-06-24T08:31:31+02:00",
+  "date": "2025-06-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52096",
+  "modified": "2025-08-08T15:23:33+02:00",
+  "name": "Förderbescheid und Gutachtenoffenlegung zur Turmbergbahn",
+  "paperType": "Anfrage",
+  "reference": "2025/0625",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

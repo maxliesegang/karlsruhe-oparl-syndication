@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611321.pdf",
+      "created": "2019-09-25T09:13:29+02:00",
+      "date": "2019-09-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611321.pdf",
+      "fileName": "00611321.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611321",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611602.pdf",
+      "created": "2019-10-11T13:48:52+02:00",
+      "date": "2019-10-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611602.pdf",
+      "fileName": "00611602.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611602",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 34",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611856.pdf",
+      "created": "2019-10-24T12:28:33+02:00",
+      "date": "2019-10-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611856.pdf",
+      "fileName": "00611856.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611856",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis_top34",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612686.pdf",
+      "created": "2019-11-28T09:17:32+01:00",
+      "date": "2019-11-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612686.pdf",
+      "fileName": "00612686.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612686",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 34",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47014",
+      "authoritative": true,
+      "created": "2019-09-25T10:23:51+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17140",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5404",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37814",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-09-25T09:13:13+02:00",
+  "date": "2019-09-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37814",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Keine vorzeitigen Ausgleichsmaßnahmen für die zweite Rheinbrücke",
+  "paperType": "Antrag",
+  "reference": "2019/0940",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

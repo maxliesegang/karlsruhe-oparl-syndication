@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614588.pdf",
+      "created": "2020-01-30T09:17:46+01:00",
+      "date": "2020-01-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614588.pdf",
+      "fileName": "00614588.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614588",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615550.pdf",
+      "created": "2020-03-13T08:57:20+01:00",
+      "date": "2020-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615550.pdf",
+      "fileName": "00615550.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615550",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 45",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00616860.pdf",
+      "created": "2020-03-30T10:04:11+02:00",
+      "date": "2020-03-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00616860.pdf",
+      "fileName": "00616860.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/616860",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 45",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/50025",
+      "created": "2020-02-24T10:49:36+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17785",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5663",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38332",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-01-30T09:16:54+01:00",
+  "date": "2020-01-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38332",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Zukunft des Gebäudes Kimmelmannschule",
+  "paperType": "Anfrage",
+  "reference": "2020/0119",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

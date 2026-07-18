@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00604900.pdf",
+      "created": "2018-09-06T09:13:31+02:00",
+      "date": "2018-09-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00604900.pdf",
+      "fileName": "00604900.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/604900",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Wahl Beisitzer GWA",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00605134.pdf",
+      "created": "2018-09-19T09:33:37+02:00",
+      "date": "2018-09-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00605134.pdf",
+      "fileName": "00605134.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/605134",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis GR TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00605520.pdf",
+      "created": "2018-10-16T08:51:35+02:00",
+      "date": "2018-10-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00605520.pdf",
+      "fileName": "00605520.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/605520",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/43717",
+      "authoritative": true,
+      "created": "2018-08-21T16:05:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15622",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4966",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36585",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-08-15T13:31:07+02:00",
+  "date": "2018-08-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36585",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Wahl der Beisitzer und Stellvertreter für den Gemeindewahlausschuss zur Gemeinderats- und Ortschaftsratswahl am 26. Mai 2019",
+  "paperType": "Beschlussvorlage",
+  "reference": "2018/0564",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882965"
+  ]
+}

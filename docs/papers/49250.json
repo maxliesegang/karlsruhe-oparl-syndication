@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651199.pdf",
+      "created": "2023-10-02T12:16:42+02:00",
+      "date": "2023-10-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651199.pdf",
+      "fileName": "00651199.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651199",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00652819.pdf",
+      "created": "2023-10-26T13:21:51+02:00",
+      "date": "2023-10-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00652819.pdf",
+      "fileName": "00652819.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/652819",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 10.1_Abstimmungsergebnis",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653645.pdf",
+      "created": "2023-11-14T12:06:25+01:00",
+      "date": "2023-11-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653645.pdf",
+      "fileName": "00653645.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653645",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 10_1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/81593",
+      "authoritative": true,
+      "created": "2023-10-18T11:58:58+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30747",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9051",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49250",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-09-28T12:21:47+02:00",
+  "date": "2023-09-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49250",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Beherbergungsvertrag zur Unterbringung vulnerabler Personengruppen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/1136",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

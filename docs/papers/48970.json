@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649553.pdf",
+      "created": "2023-08-03T17:14:58+02:00",
+      "date": "2023-08-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649553.pdf",
+      "fileName": "00649553.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649553",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650220.pdf",
+      "created": "2023-08-29T17:25:34+02:00",
+      "date": "2023-08-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650220.pdf",
+      "fileName": "00650220.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650220",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme_zur_Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651376.pdf",
+      "created": "2023-10-09T14:16:47+02:00",
+      "date": "2023-10-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651376.pdf",
+      "fileName": "00651376.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651376",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 40",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/79972",
+      "authoritative": true,
+      "created": "2023-08-22T09:36:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30162",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9049",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48970",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-08-03T17:14:31+02:00",
+  "date": "2023-08-03",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48970",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Wie gut sind Rettungseinsatzkräfte und das Karlsruher Tunnelsystem auf Not- und Katastrophenfälle vorbereitet?",
+  "paperType": "Anfrage",
+  "reference": "2023/0869",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882999"
+  ]
+}

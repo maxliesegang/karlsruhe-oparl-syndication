@@ -1,0 +1,72 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00628304.pdf",
+      "created": "2021-09-27T10:38:36+02:00",
+      "date": "2021-09-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00628304.pdf",
+      "fileName": "00628304.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/628304",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Redezeiten_DHH_22_23",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00629802.pdf",
+      "created": "2021-10-19T18:02:00+02:00",
+      "date": "2021-10-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00629802.pdf",
+      "fileName": "00629802.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/629802",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634354.pdf",
+      "created": "2021-12-10T15:08:13+01:00",
+      "date": "2021-12-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634354.pdf",
+      "fileName": "00634354.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634354",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/60889",
+      "authoritative": true,
+      "created": "2021-09-22T11:25:13+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/22050",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6301",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41825",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-09-20T10:15:03+02:00",
+  "date": "2021-09-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41825",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Redezeiten des Gemeinderates zum Doppelhaushalt 2022/2023",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/1118",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/42923",
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/42959"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882850"
+  ]
+}

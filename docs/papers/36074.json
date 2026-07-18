@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00601359.pdf",
+      "created": "2018-02-09T10:41:25+01:00",
+      "date": "2018-02-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00601359.pdf",
+      "fileName": "00601359.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/601359",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "FDP Holzbau in Karlsruhe",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00601362.pdf",
+      "created": "2018-02-09T10:42:18+01:00",
+      "date": "2018-02-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00601362.pdf",
+      "fileName": "00601362.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/601362",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 19",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00601638.pdf",
+      "created": "2018-02-28T10:32:15+01:00",
+      "date": "2018-02-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00601638.pdf",
+      "fileName": "00601638.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/601638",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 19",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/42141",
+      "authoritative": true,
+      "created": "2018-01-24T10:33:03+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14960",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4892",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36074",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-01-22T09:42:32+01:00",
+  "date": "2018-01-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36074",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Holzbau in Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2018/0023",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

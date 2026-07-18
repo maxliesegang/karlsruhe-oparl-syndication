@@ -1,0 +1,87 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643828.pdf",
+      "created": "2023-01-09T10:03:10+01:00",
+      "date": "2023-01-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643828.pdf",
+      "fileName": "00643828.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643828",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643830.pdf",
+      "created": "2023-01-09T10:41:16+01:00",
+      "date": "2023-01-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643830.pdf",
+      "fileName": "00643830.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643830",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Skizze Fahrradstraße 1.0",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00645166.pdf",
+      "created": "2023-02-22T14:29:48+01:00",
+      "date": "2023-02-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00645166.pdf",
+      "fileName": "00645166.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/645166",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Skizze Fahrradstraße 2.0 Nord",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00645167.pdf",
+      "created": "2023-02-22T14:30:07+01:00",
+      "date": "2023-02-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00645167.pdf",
+      "fileName": "00645167.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/645167",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Skizze Fahrradstraße 2.0 Süd",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2023-01-09T10:09:48+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28861",
+      "modified": "2023-01-09T10:42:11+01:00",
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48001",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75149",
+      "created": "2023-01-12T14:42:11+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28862",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9113",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48001",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-01-09T10:02:51+01:00",
+  "date": "2023-01-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48001",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Hubstraße Durlach - Fahrradstraße",
+  "paperType": "Informationsvorlage",
+  "reference": "2023/0002",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

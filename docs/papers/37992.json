@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612579.pdf",
+      "created": "2019-11-22T12:11:00+01:00",
+      "date": "2019-11-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612579.pdf",
+      "fileName": "00612579.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612579",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Annahme Zuwendungen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00613087.pdf",
+      "created": "2019-12-23T08:12:55+01:00",
+      "date": "2019-12-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00613087.pdf",
+      "fileName": "00613087.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/613087",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47681",
+      "created": "2019-11-07T14:44:42+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17363",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5438",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37992",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-11-07T14:33:49+01:00",
+  "date": "2019-11-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37992",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Annahme des Angebots von Zuwendungen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2019/1130",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

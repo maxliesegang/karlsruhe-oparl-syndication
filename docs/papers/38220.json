@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00613163.pdf",
+      "created": "2020-01-03T09:18:58+01:00",
+      "date": "2020-01-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00613163.pdf",
+      "fileName": "00613163.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/613163",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 6, Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/48269",
+      "authoritative": true,
+      "created": "2020-01-03T09:20:40+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17639",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5892",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34764"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38220",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-01-03T09:11:58+01:00",
+  "date": "2020-01-03",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38220",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Einrichtung einer Elternhaltestelle für die Grundschule Stupferich",
+  "paperType": "Antrag",
+  "reference": "2020/0007",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882957"
+  ]
+}

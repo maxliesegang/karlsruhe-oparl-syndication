@@ -1,0 +1,84 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35071",
+      "created": "2025-10-20T08:41:46+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96872",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10042",
+      "modified": "2025-11-12T08:48:21+01:00",
+      "name": "Bericht und Maßnahmen zur Umsetzung des Prostituiertenschutzgesetzes",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "erledigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34960",
+      "created": "2025-10-14T09:57:59+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96774",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10042",
+      "modified": "2025-11-12T08:48:48+01:00",
+      "name": "Anpassung der Benutzungsordnung und Festlegung neuer Entgelte der Stadtbibliothek im Kontext neuer Services",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "vorberaten ohne Änderungen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35008",
+      "created": "2025-10-14T09:57:59+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96777",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10042",
+      "modified": "2025-11-12T08:48:55+01:00",
+      "name": "Annahme des Angebots von Zuwendungen",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2024-10-16T13:50:51+02:00",
+  "end": "2025-11-11T18:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10042",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671432.pdf",
+    "created": "2025-10-30T06:52:18+01:00",
+    "date": "2025-10-30",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671432.pdf",
+    "fileName": "00671432.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671432",
+    "mimeType": "application/pdf",
+    "modified": "2025-11-03T07:22:48+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2024-10-16T13:50:51+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10042",
+    "modified": "2025-11-28T14:26:41+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-11-28T14:26:41+01:00",
+  "name": "Haupt- und Finanzausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+  ],
+  "resultsProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671766.pdf",
+    "created": "2025-11-12T08:45:46+01:00",
+    "date": "2025-11-12",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671766.pdf",
+    "fileName": "00671766.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671766",
+    "mimeType": "application/pdf",
+    "modified": "2025-11-28T14:26:42+01:00",
+    "name": "Anwesenheit (Protokoll)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "start": "2025-11-11T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667483.pdf",
+      "created": "2025-05-27T10:23:15+02:00",
+      "date": "2025-05-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667483.pdf",
+      "fileName": "00667483.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667483",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-27T10:51:05+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667823.pdf",
+      "created": "2025-06-10T13:27:45+02:00",
+      "date": "2025-06-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667823.pdf",
+      "fileName": "00667823.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667823",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-27T10:51:05+02:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668464.pdf",
+      "created": "2025-06-27T10:50:59+02:00",
+      "date": "2025-06-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668464.pdf",
+      "fileName": "00668464.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668464",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-27T10:51:05+02:00",
+      "name": "Protokoll GR 24.06.2025 TOP 32",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94068",
+      "authoritative": true,
+      "created": "2025-05-27T11:11:03+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34319",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10049",
+      "modified": "2025-06-25T08:06:03+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51985",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-05-27T10:22:53+02:00",
+  "date": "2025-05-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51985",
+  "modified": "2025-07-01T09:58:10+02:00",
+  "name": "Prüfung der Einführung eines Eigenbetriebs für IT-Dienstleistungen - insbesondere zur digitalen Betreuung von Schulen",
+  "paperType": "Anfrage",
+  "reference": "2025/0523",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883004"
+  ]
+}

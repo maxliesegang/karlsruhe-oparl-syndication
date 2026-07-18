@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638731.pdf",
+      "created": "2022-07-01T12:46:33+02:00",
+      "date": "2022-07-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638731.pdf",
+      "fileName": "00638731.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638731",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00639321.pdf",
+      "created": "2022-07-27T09:26:51+02:00",
+      "date": "2022-07-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00639321.pdf",
+      "fileName": "00639321.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/639321",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP6.3 Abstimmung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00639857.pdf",
+      "created": "2022-08-22T11:46:38+02:00",
+      "date": "2022-08-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00639857.pdf",
+      "fileName": "00639857.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/639857",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 26.07.2022 TOP 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/71032",
+      "authoritative": true,
+      "created": "2022-06-29T10:02:44+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27198",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6597",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46718",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-04-13T09:20:21+02:00",
+  "date": "2022-04-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46718",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Beauftragung der VBK - Verkehrsbetriebe Karlsruhe GmbH im Rahmen eines öffentlichen Dienstleistungsauftrags (ÖDA) zur Durchführung des straßen- und schienengebundenen ÖPNV im Stadtgebiet Karlsruhe und Betrauung Schlossgartenbahn und Turmbergbahn",
+  "paperType": "Beschlussvorlage",
+  "reference": "2022/0419",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882951"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676497.pdf",
+      "created": "2026-02-10T10:32:56+01:00",
+      "date": "2026-02-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676497.pdf",
+      "fileName": "00676497.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676497",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T11:45:10+02:00",
+      "name": "Anfrage Wolfartsweier",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677460.pdf",
+      "created": "2026-04-02T13:43:43+02:00",
+      "date": "2026-04-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677460.pdf",
+      "fileName": "00677460.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677460",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T11:45:10+02:00",
+      "name": "Stellungnahme Anfrage Wolfartsweier",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101232",
+      "created": "2026-04-09T14:39:57+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37214",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10802",
+      "modified": "2026-04-09T14:39:57+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54257",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-02-10T10:30:46+01:00",
+  "date": "2026-02-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54257",
+  "modified": "2026-04-09T11:45:10+02:00",
+  "name": "Stand und Zeitplanung der Umrüstung der Stromversorgung von Dachständern auf Erdkabel in Wolfartsweier",
+  "paperType": "Anfrage",
+  "reference": "2026/0120",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00630969.pdf",
+      "created": "2021-10-28T15:43:29+02:00",
+      "date": "2021-10-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00630969.pdf",
+      "fileName": "00630969.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/630969",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634164.pdf",
+      "created": "2021-12-02T09:11:19+01:00",
+      "date": "2021-12-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634164.pdf",
+      "fileName": "00634164.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634164",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "STN FW-FÜR Turmbergbahn",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635063.pdf",
+      "created": "2022-01-05T13:57:44+01:00",
+      "date": "2022-01-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635063.pdf",
+      "fileName": "00635063.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635063",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 35",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/65738",
+      "authoritative": true,
+      "created": "2021-11-17T09:58:03+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/24287",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6346",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/44005",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-10-28T15:42:37+02:00",
+  "date": "2021-10-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/44005",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Turmbergbahn",
+  "paperType": "Anfrage",
+  "reference": "2021/1298",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882999"
+  ]
+}

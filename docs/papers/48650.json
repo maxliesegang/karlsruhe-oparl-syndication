@@ -1,0 +1,54 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648292.pdf",
+      "created": "2023-06-20T16:13:08+02:00",
+      "date": "2023-06-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648292.pdf",
+      "fileName": "00648292.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648292",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Top 1 Aktuelles aus der Ausländerbehörde",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2023-06-20T17:15:49+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29886",
+      "modified": "2023-06-20T17:17:11+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/39759"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48650",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/77855",
+      "created": "2023-05-22T13:40:50+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29704",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9090",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/39759"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48650",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-05-22T13:07:50+02:00",
+  "date": "2023-07-04",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48650",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bericht der Ausländerbehörde",
+  "paperType": "Informationsvorlage",
+  "reference": "2023/0572",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883012"
+  ]
+}

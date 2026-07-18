@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610281.pdf",
+      "created": "2019-06-27T14:02:53+02:00",
+      "date": "2019-06-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610281.pdf",
+      "fileName": "00610281.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610281",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610510.pdf",
+      "created": "2019-07-16T09:39:35+02:00",
+      "date": "2019-07-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610510.pdf",
+      "fileName": "00610510.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610510",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610720.pdf",
+      "created": "2019-08-16T14:27:12+02:00",
+      "date": "2019-08-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610720.pdf",
+      "fileName": "00610720.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610720",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46348",
+      "authoritative": true,
+      "created": "2019-06-28T14:25:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16804",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5374",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37540",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-06-27T14:01:23+02:00",
+  "date": "2019-06-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37540",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Ausweitung des Kreises der Nutzerinnen und Nutzer von Karlsruher Pass und Kinderpass durch eine Erhöhung auf 30 % über der Einkommensgrenze",
+  "paperType": "Antrag",
+  "reference": "2019/0642",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658402.pdf",
+      "created": "2024-05-14T10:40:51+02:00",
+      "date": "2024-05-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658402.pdf",
+      "fileName": "00658402.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658402",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659892.pdf",
+      "created": "2024-07-30T15:58:09+02:00",
+      "date": "2024-07-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659892.pdf",
+      "fileName": "00659892.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659892",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_HA_02.07.2024_Sitzungseröffnung und TOP 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86910",
+      "authoritative": true,
+      "created": "2024-06-05T13:46:55+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32046",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9968",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50396",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-05-03T11:48:43+02:00",
+  "date": "2024-05-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50396",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Umstellung der Mobilfunkverträge zur Kosteneinsparung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0501",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883004"
+  ]
+}

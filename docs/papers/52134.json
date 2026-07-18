@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668551.pdf",
+      "created": "2025-07-01T14:32:12+02:00",
+      "date": "2025-07-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668551.pdf",
+      "fileName": "00668551.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668551",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T11:23:37+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668585.pdf",
+      "created": "2025-07-02T14:59:30+02:00",
+      "date": "2025-07-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668585.pdf",
+      "fileName": "00668585.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668585",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T11:23:37+02:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669517.pdf",
+      "created": "2025-08-19T11:23:35+02:00",
+      "date": "2025-08-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669517.pdf",
+      "fileName": "00669517.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669517",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T11:23:37+02:00",
+      "name": "Protokoll GR 29.07.2025 TOP 44",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94916",
+      "authoritative": true,
+      "created": "2025-07-02T07:38:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34525",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10051",
+      "modified": "2025-07-29T20:04:35+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52134",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-07-01T14:31:22+02:00",
+  "date": "2025-07-01",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52134",
+  "modified": "2025-08-19T11:23:37+02:00",
+  "name": "Trinkbrunnenkonzept umsetzen",
+  "paperType": "Anfrage",
+  "reference": "2025/0659",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882984"
+  ]
+}

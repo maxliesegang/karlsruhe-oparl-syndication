@@ -1,0 +1,96 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676120.pdf",
+      "created": "2026-01-27T09:06:49+01:00",
+      "date": "2026-01-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676120.pdf",
+      "fileName": "00676120.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676120",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:17:23+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677304.pdf",
+      "created": "2026-03-26T13:56:29+01:00",
+      "date": "2026-03-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677304.pdf",
+      "fileName": "00677304.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677304",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:17:23+02:00",
+      "name": "Abstimmungsergebnis Top 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677564.pdf",
+      "created": "2026-04-09T10:17:20+02:00",
+      "date": "2026-04-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677564.pdf",
+      "fileName": "00677564.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677564",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:17:23+02:00",
+      "name": "Protokoll GR 24.03.2026 TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100237",
+      "authoritative": true,
+      "created": "2026-01-28T17:40:18+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36909",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10487",
+      "modified": "2026-03-12T11:52:39+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54199",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100294",
+      "authoritative": true,
+      "created": "2026-01-30T10:28:58+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36917",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10715",
+      "modified": "2026-03-04T19:29:13+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54199",
+      "role": "Anhörung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100596",
+      "authoritative": true,
+      "created": "2026-02-24T10:29:54+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36910",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10497",
+      "modified": "2026-03-24T18:38:43+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54199",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-01-27T08:59:19+01:00",
+  "date": "2026-01-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54199",
+  "modified": "2026-04-09T10:17:22+02:00",
+  "name": "Überführung der verbleibenden Klassen des Bildungsgangs Vorqualifizierungsjahr Arbeit/Beruf in der Regelform (VAB-R) in den Bildungsgang Arbeitsvorbereitung (AV) zum Schuljahr 2026/27",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0066",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

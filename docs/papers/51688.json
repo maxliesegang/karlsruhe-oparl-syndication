@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666102.pdf",
+      "created": "2025-04-02T10:55:06+02:00",
+      "date": "2025-04-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666102.pdf",
+      "fileName": "00666102.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666102",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-17T10:39:36+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93167",
+      "created": "2025-04-07T15:50:39+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33871",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10070",
+      "modified": "2025-05-13T18:11:56+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51688",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-03-13T15:33:24+01:00",
+  "date": "2025-03-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51688",
+  "modified": "2025-04-17T10:39:36+02:00",
+  "name": "Umgestaltung der Litzelaustraße im Sanierungsgebiet Knielingen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0261",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

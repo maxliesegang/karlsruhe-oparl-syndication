@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672074.pdf",
+      "created": "2025-11-18T16:01:35+01:00",
+      "date": "2025-11-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672074.pdf",
+      "fileName": "00672074.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672074",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-18T20:04:51+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675351.pdf",
+      "created": "2025-12-18T20:04:45+01:00",
+      "date": "2025-12-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675351.pdf",
+      "fileName": "00675351.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675351",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-18T20:04:51+01:00",
+      "name": "Abstimmungsergebnis",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99289",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:27+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35324",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-17T06:45:49+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52696",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-18T16:00:15+01:00",
+  "date": "2025-11-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52696",
+  "modified": "2025-12-18T20:04:51+01:00",
+  "name": "HHS4_GR55 - Beförderungsdienst für Personen ab dem Pflegegrad 3 nur mit Nachweis einer Schwerbehinderung (Fortsetzung Maßnahme Haushaltssperre 2025)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1156",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

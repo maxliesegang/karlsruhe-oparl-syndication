@@ -1,0 +1,92 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00597103.pdf",
+      "created": "2017-04-21T14:32:47+02:00",
+      "date": "2017-04-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00597103.pdf",
+      "fileName": "00597103.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/597103",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1 Hauptsatzung neu",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00597104.pdf",
+      "created": "2017-04-21T14:33:03+02:00",
+      "date": "2017-04-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00597104.pdf",
+      "fileName": "00597104.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/597104",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 2 Hauptsatzung Synopse neu",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00597105.pdf",
+      "created": "2017-04-21T14:33:18+02:00",
+      "date": "2017-04-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00597105.pdf",
+      "fileName": "00597105.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/597105",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage_Hauptsatzung neu",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00597413.pdf",
+      "created": "2017-05-10T11:42:21+02:00",
+      "date": "2017-05-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00597413.pdf",
+      "fileName": "00597413.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/597413",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis_TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00597552.pdf",
+      "created": "2017-05-15T10:51:51+02:00",
+      "date": "2017-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00597552.pdf",
+      "fileName": "00597552.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/597552",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/40450",
+      "authoritative": true,
+      "created": "2017-03-28T13:41:21+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14065",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4564",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35365",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-02-06T15:01:25+01:00",
+  "date": "2017-02-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35365",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Neufassung der Hauptsatzung der Stadt Karlsruhe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0086",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882850"
+  ]
+}

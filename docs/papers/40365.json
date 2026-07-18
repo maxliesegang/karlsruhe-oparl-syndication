@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620040.pdf",
+      "created": "2020-10-07T07:39:30+02:00",
+      "date": "2020-10-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620040.pdf",
+      "fileName": "00620040.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620040",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620674.pdf",
+      "created": "2020-11-06T09:51:01+01:00",
+      "date": "2020-11-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620674.pdf",
+      "fileName": "00620674.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620674",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "DIE LINKE KOD",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620923.pdf",
+      "created": "2020-11-18T10:41:26+01:00",
+      "date": "2020-11-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620923.pdf",
+      "fileName": "00620923.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620923",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antwort des PP Karlsruhe",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00622612.pdf",
+      "created": "2021-01-05T11:12:34+01:00",
+      "date": "2021-01-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00622612.pdf",
+      "fileName": "00622612.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/622612",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 32",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54981",
+      "authoritative": true,
+      "created": "2020-10-21T09:05:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20144",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5672",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40365",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-10-07T07:39:05+02:00",
+  "date": "2020-10-08",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40365",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Erkenntnisse über Gewalteinsätze, Rechtsradikalismus und Racial Profiling bei Beamt*innen der Karlsruher Polizei und des Kommunalen Ordnungsdienstes (KOD)",
+  "paperType": "Anfrage",
+  "reference": "2020/1154",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

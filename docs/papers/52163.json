@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669020.pdf",
+      "created": "2025-07-24T12:53:45+02:00",
+      "date": "2025-07-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669020.pdf",
+      "fileName": "00669020.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669020",
+      "mimeType": "application/pdf",
+      "modified": "2025-09-10T17:46:09+02:00",
+      "name": "Anlagen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669704.pdf",
+      "created": "2025-08-26T14:30:22+02:00",
+      "date": "2025-08-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669704.pdf",
+      "fileName": "00669704.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669704",
+      "mimeType": "application/pdf",
+      "modified": "2025-09-10T17:46:09+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95681",
+      "created": "2025-08-22T10:13:19+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34563",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10077",
+      "modified": "2025-09-19T08:55:46+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52163",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-07-15T10:08:35+02:00",
+  "date": "2025-08-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52163",
+  "modified": "2025-09-10T17:46:09+02:00",
+  "name": "Ganztageserweiterung Eichelgartenschule, Karlsruhe Rüppurr",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0687",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

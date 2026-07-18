@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647067.pdf",
+      "created": "2023-05-05T14:29:16+02:00",
+      "date": "2023-05-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647067.pdf",
+      "fileName": "00647067.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647067",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647776.pdf",
+      "created": "2023-06-01T12:31:22+02:00",
+      "date": "2023-06-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647776.pdf",
+      "fileName": "00647776.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647776",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649019.pdf",
+      "created": "2023-07-17T13:36:11+02:00",
+      "date": "2023-07-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649019.pdf",
+      "fileName": "00649019.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649019",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 40",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78000",
+      "authoritative": true,
+      "created": "2023-05-25T15:14:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29599",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9046",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48572",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-05-05T14:28:55+02:00",
+  "date": "2023-05-05",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48572",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Anbindung der Waldstadt evaluieren",
+  "paperType": "Anfrage",
+  "reference": "2023/0502",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883018"
+  ]
+}

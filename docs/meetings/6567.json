@@ -1,0 +1,58 @@
+{
+  "agendaItem": [
+    {
+      "created": "2021-07-16T08:50:07+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/59748",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6567",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Vorstellung Konzept \"Sonnendorf Grötzingen\" durch Naturtreff Grötzingen",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00627302.pdf",
+      "created": "2021-08-01T19:43:38+02:00",
+      "date": "2021-08-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00627302.pdf",
+      "fileName": "00627302.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/627302",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "21 07 26 Protokoll Ausschuss I+II (ö).OSR",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2021-07-16T08:48:26+02:00",
+  "end": "2021-07-26T21:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6567",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00627042.pdf",
+    "created": "2021-07-16T08:50:44+02:00",
+    "date": "2021-07-16",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00627042.pdf",
+    "fileName": "00627042.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/627042",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2021-07-16T08:48:26+02:00",
+    "description": "Begegnungsstätte Grötzingen, Niddastraße 9, 76229 Karlsruhe",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6567",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ausschuss I+II Ortschaftsrat Grötzingen (öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+  ],
+  "start": "2021-07-26T19:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

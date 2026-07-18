@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614330.pdf",
+      "created": "2020-01-15T08:21:30+01:00",
+      "date": "2020-01-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614330.pdf",
+      "fileName": "00614330.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614330",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614433.pdf",
+      "created": "2020-01-21T13:29:42+01:00",
+      "date": "2020-01-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614433.pdf",
+      "fileName": "00614433.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614433",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 21 FW-FÜR",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/49444",
+      "authoritative": true,
+      "created": "2020-01-17T15:08:31+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17684",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5661",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38256",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-01-15T08:20:54+01:00",
+  "date": "2020-01-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38256",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Die Verwaltung schafft einen neuen Medienbus an",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2020/0043",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "agendaItem": [
+    {
+      "created": "2024-10-16T13:13:51+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90666",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9567",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Einführung in den Sportausschuss",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33032",
+      "created": "2024-10-16T13:12:01+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90663",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9567",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Bürgerbefragung 2023 Sport und Bewegung - Auswertung",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2024-10-16T13:14:07+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90667",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9567",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "World Games",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "Zustimmung",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663646.pdf",
+      "created": "2024-12-12T13:15:59+01:00",
+      "date": "2024-12-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663646.pdf",
+      "fileName": "00663646.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663646",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll SpA 12.11.2024 ö",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2023-09-06T14:45:49+02:00",
+  "end": "2024-11-12T18:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9567",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661731.pdf",
+    "created": "2024-10-16T13:17:12+02:00",
+    "date": "2024-10-16",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661731.pdf",
+    "fileName": "00661731.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661731",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2023-09-06T14:45:49+02:00",
+    "description": "Großer Sitzungssaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9567",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Sportausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33575"
+  ],
+  "start": "2024-11-12T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

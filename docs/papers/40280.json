@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619929.pdf",
+      "created": "2020-10-03T14:51:19+02:00",
+      "date": "2020-10-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619929.pdf",
+      "fileName": "00619929.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619929",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Sicherheitskonzept",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620002.pdf",
+      "created": "2020-10-06T08:55:01+02:00",
+      "date": "2020-10-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620002.pdf",
+      "fileName": "00620002.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620002",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Sicherheitskonzept Innenstadt - Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00622754.pdf",
+      "created": "2021-01-13T10:41:40+01:00",
+      "date": "2021-01-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00622754.pdf",
+      "fileName": "00622754.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/622754",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll HA TOP 1_5_1_9",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54526",
+      "authoritative": true,
+      "created": "2020-09-16T08:08:48+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20033",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5658",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40280",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-09-16T08:04:31+02:00",
+  "date": "2020-09-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40280",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Sicherheitskonzept für die Karlsruher Innenstadt",
+  "paperType": "Beschlussvorlage",
+  "reference": "2020/1070",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

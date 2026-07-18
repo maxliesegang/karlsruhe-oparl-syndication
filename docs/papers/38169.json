@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614334.pdf",
+      "created": "2020-01-15T08:58:15+01:00",
+      "date": "2020-01-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614334.pdf",
+      "fileName": "00614334.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614334",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Gleisentfernung Kaiserstraße",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614486.pdf",
+      "created": "2020-01-23T14:36:23+01:00",
+      "date": "2020-01-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614486.pdf",
+      "fileName": "00614486.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614486",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis_Top 8 Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614911.pdf",
+      "created": "2020-02-12T14:56:42+01:00",
+      "date": "2020-02-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614911.pdf",
+      "fileName": "00614911.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614911",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 21.01.20 TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/48135",
+      "authoritative": true,
+      "created": "2019-12-18T08:12:03+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17584",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5661",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38169",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-12-17T11:15:16+01:00",
+  "date": "2019-12-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38169",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Weiteres Vorgehen Gleisentfernung Kaiserstraße",
+  "paperType": "Beschlussvorlage",
+  "reference": "2019/1306",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882999"
+  ]
+}

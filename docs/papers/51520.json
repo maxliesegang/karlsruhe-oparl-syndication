@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664585.pdf",
+      "created": "2025-01-29T16:27:21+01:00",
+      "date": "2025-01-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664585.pdf",
+      "fileName": "00664585.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664585",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage ohne Pläne",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92294",
+      "authoritative": true,
+      "created": "2025-02-06T14:59:33+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33626",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9895",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51520",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-01-29T15:41:53+01:00",
+  "date": "2025-01-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51520",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bauvoranfrage Nutzungsänderung Weingartener Straße 28",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0101",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00641002.pdf",
+      "created": "2022-09-27T14:29:21+02:00",
+      "date": "2022-09-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00641002.pdf",
+      "fileName": "00641002.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/641002",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00641386.pdf",
+      "created": "2022-10-11T16:09:20+02:00",
+      "date": "2022-10-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00641386.pdf",
+      "fileName": "00641386.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/641386",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme zur Anfrage GRÜNE Jugendberufsagentur",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642737.pdf",
+      "created": "2022-11-17T13:12:30+01:00",
+      "date": "2022-11-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642737.pdf",
+      "fileName": "00642737.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642737",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 39",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72881",
+      "authoritative": true,
+      "created": "2022-09-28T12:53:22+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28182",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6603",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47520",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-09-27T14:28:52+02:00",
+  "date": "2022-09-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47520",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Jugendberufsagentur Karlsruhe: aktueller Sachstand",
+  "paperType": "Anfrage",
+  "reference": "2022/2011",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883010"
+  ]
+}

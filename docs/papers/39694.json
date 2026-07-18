@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617334.pdf",
+      "created": "2020-04-24T08:09:44+02:00",
+      "date": "2020-04-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617334.pdf",
+      "fileName": "00617334.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617334",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617777.pdf",
+      "created": "2020-05-22T12:18:14+02:00",
+      "date": "2020-05-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617777.pdf",
+      "fileName": "00617777.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617777",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 54",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618246.pdf",
+      "created": "2020-06-18T09:40:51+02:00",
+      "date": "2020-06-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618246.pdf",
+      "fileName": "00618246.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618246",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 54",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/51967",
+      "authoritative": true,
+      "created": "2020-04-29T11:57:54+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19257",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5665",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39694",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-04-24T08:09:21+02:00",
+  "date": "2020-04-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39694",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Grundwasser und Trinkwasser in Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2020/0486",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

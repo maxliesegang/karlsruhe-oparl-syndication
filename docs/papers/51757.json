@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667720.pdf",
+      "created": "2025-06-04T15:28:56+02:00",
+      "date": "2025-06-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667720.pdf",
+      "fileName": "00667720.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667720",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-26T13:41:23+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94137",
+      "created": "2025-06-03T09:17:11+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33975",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10113",
+      "modified": "2025-07-14T10:24:39+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54889"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51757",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-04-03T08:37:40+02:00",
+  "date": "2025-04-03",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51757",
+  "modified": "2025-06-26T13:41:23+02:00",
+  "name": "Auftragsvergabe für die Bereitstellung von Carsharing-Dienstleistungen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0320",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

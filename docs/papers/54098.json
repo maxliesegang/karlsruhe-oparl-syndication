@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675216.pdf",
+      "created": "2025-12-15T15:09:02+01:00",
+      "date": "2025-12-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675216.pdf",
+      "fileName": "00675216.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675216",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-09T14:08:38+01:00",
+      "name": "Beschlussvorlage Wolfartsweier",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675657.pdf",
+      "created": "2026-01-09T14:08:08+01:00",
+      "date": "2026-01-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675657.pdf",
+      "fileName": "00675657.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675657",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-09T14:08:38+01:00",
+      "name": "2025_Geschäftsordnung Ortschaftsrat Wolfartsweier",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99877",
+      "authoritative": true,
+      "created": "2025-12-15T15:08:49+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36754",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10725",
+      "modified": "2026-03-06T12:03:15+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54098",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-12-15T15:07:37+01:00",
+  "date": "2025-12-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54098",
+  "modified": "2026-01-09T14:08:38+01:00",
+  "name": "Änderung des Geschäftsordnung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1257",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+  ]
+}

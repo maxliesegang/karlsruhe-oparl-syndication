@@ -1,0 +1,93 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614373.pdf",
+      "created": "2020-01-17T15:12:18+01:00",
+      "date": "2020-01-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614373.pdf",
+      "fileName": "00614373.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614373",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615575.pdf",
+      "created": "2020-03-13T13:41:35+01:00",
+      "date": "2020-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615575.pdf",
+      "fileName": "00615575.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615575",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619665.pdf",
+      "created": "2020-09-18T13:59:17+02:00",
+      "date": "2020-09-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619665.pdf",
+      "fileName": "00619665.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619665",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 14 und 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2020-07-02T13:10:39+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19726",
+      "modified": "2020-07-02T13:10:39+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38268",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/51520",
+      "authoritative": true,
+      "created": "2020-03-30T08:20:13+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17703",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5664",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38268",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53713",
+      "authoritative": true,
+      "created": "2020-07-14T10:50:35+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19727",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5668",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38268",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-01-17T15:11:50+01:00",
+  "date": "2020-01-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38268",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Sicherheitsmaßnahmen im Karlsruher Zoo",
+  "paperType": "Antrag",
+  "reference": "2020/0055",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

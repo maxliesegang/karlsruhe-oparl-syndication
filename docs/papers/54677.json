@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679263.pdf",
+      "created": "2026-06-23T10:06:38+02:00",
+      "date": "2026-06-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679263.pdf",
+      "fileName": "00679263.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679263",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-23T15:32:58+02:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679292.pdf",
+      "created": "2026-06-23T14:03:32+02:00",
+      "date": "2026-06-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679292.pdf",
+      "fileName": "00679292.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679292",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-23T15:32:58+02:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102253",
+      "authoritative": true,
+      "created": "2026-06-23T10:22:13+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37601",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10540",
+      "modified": "2026-06-24T10:07:35+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54677",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-06-23T10:06:25+02:00",
+  "date": "2026-06-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54677",
+  "modified": "2026-06-29T16:09:48+02:00",
+  "name": "Richtlinie der Stadt Karlsruhe für die Förderung von Schülerhorten freier Träger - Übergangslösung SKiBB",
+  "paperType": "Antrag",
+  "reference": "2026/0340/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54505"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

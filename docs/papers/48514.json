@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647250.pdf",
+      "created": "2023-05-15T11:22:33+02:00",
+      "date": "2023-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647250.pdf",
+      "fileName": "00647250.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647250",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/77393",
+      "authoritative": true,
+      "created": "2023-05-09T13:50:57+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29532",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9116",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48514",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-04-24T16:45:28+02:00",
+  "date": "2023-05-02",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48514",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Sporthalle Oberreut, Neubau einer zweifachen Dreifeldsporthalle am Schulzentrum Südwest inkl. Photovoltaikanlage, Sanitär",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0447",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

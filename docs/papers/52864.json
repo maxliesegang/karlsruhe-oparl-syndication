@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672528.pdf",
+      "created": "2025-11-24T14:53:06+01:00",
+      "date": "2025-11-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672528.pdf",
+      "fileName": "00672528.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672528",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-26T10:16:12+01:00",
+      "name": "Antrag AfD_025",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675011.pdf",
+      "created": "2025-12-08T15:55:06+01:00",
+      "date": "2025-12-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675011.pdf",
+      "fileName": "00675011.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675011",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-26T10:16:12+01:00",
+      "name": "8003 Stellungnahme DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676004.pdf",
+      "created": "2026-01-26T10:16:09+01:00",
+      "date": "2026-01-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676004.pdf",
+      "fileName": "00676004.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676004",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-26T10:16:12+01:00",
+      "name": "Abstimmungsergebnis TOP  329",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99582",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:29+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35503",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-17T15:31:02+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52864",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-24T14:51:14+01:00",
+  "date": "2025-11-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52864",
+  "modified": "2026-01-26T10:16:12+01:00",
+  "name": "Cyberforum Smart Production",
+  "paperType": "Haushalt THH 8000",
+  "reference": "DHH/2025/8003",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

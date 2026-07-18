@@ -1,0 +1,94 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612205.pdf",
+      "created": "2019-11-13T07:33:15+01:00",
+      "date": "2019-11-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612205.pdf",
+      "fileName": "00612205.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612205",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612733.pdf",
+      "created": "2019-11-29T12:42:30+01:00",
+      "date": "2019-11-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612733.pdf",
+      "fileName": "00612733.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612733",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag AfD",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614487.pdf",
+      "created": "2020-01-23T14:37:01+01:00",
+      "date": "2020-01-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614487.pdf",
+      "fileName": "00614487.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614487",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis_Top8 AfD",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614574.pdf",
+      "created": "2020-01-29T10:04:36+01:00",
+      "date": "2020-01-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614574.pdf",
+      "fileName": "00614574.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614574",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 31 GR Dezember",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47748",
+      "authoritative": true,
+      "created": "2019-11-13T08:54:16+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17395",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5444",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38018",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/48148",
+      "authoritative": true,
+      "created": "2019-12-18T08:12:03+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17561",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5661",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38018",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-11-13T07:32:49+01:00",
+  "date": "2019-11-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38018",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Erhaltung der Gleise zwischen Europaplatz und Kronenplatz nach Fertigstellung der Kombilösung",
+  "paperType": "Antrag",
+  "reference": "2019/1156",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

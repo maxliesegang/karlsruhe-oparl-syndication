@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654056.pdf",
+      "created": "2023-11-24T16:11:40+01:00",
+      "date": "2023-11-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654056.pdf",
+      "fileName": "00654056.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654056",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654124.pdf",
+      "created": "2023-11-28T11:28:51+01:00",
+      "date": "2023-11-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654124.pdf",
+      "fileName": "00654124.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654124",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme zur Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83586",
+      "authoritative": true,
+      "created": "2023-11-27T08:18:31+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31113",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9054",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49748",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-11-24T16:11:16+01:00",
+  "date": "2023-11-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49748",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Gasnetztransformation für Gasheizungen: Wasserstoff in Karlsruhe nicht gewollt?",
+  "paperType": "Anfrage",
+  "reference": "2023/0840/5",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49581"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882975"
+  ]
+}

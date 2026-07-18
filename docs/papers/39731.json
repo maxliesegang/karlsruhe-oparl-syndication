@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617502.pdf",
+      "created": "2020-05-06T09:50:00+02:00",
+      "date": "2020-05-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617502.pdf",
+      "fileName": "00617502.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617502",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618284.pdf",
+      "created": "2020-06-19T08:32:25+02:00",
+      "date": "2020-06-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618284.pdf",
+      "fileName": "00618284.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618284",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Sachstand Augsburger Modell",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619086.pdf",
+      "created": "2020-07-30T11:55:52+02:00",
+      "date": "2020-07-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619086.pdf",
+      "fileName": "00619086.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619086",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 46",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/52757",
+      "authoritative": true,
+      "created": "2020-06-03T11:29:56+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19315",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5666",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39731",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-05-06T09:49:11+02:00",
+  "date": "2020-05-05",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39731",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Sachstand Umsetzung Augsburger Modell in Karlsruhe/Regulierung der Taubenpopulation",
+  "paperType": "Anfrage",
+  "reference": "2020/0523",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14697",
+      "created": "2017-10-16T14:56:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41363",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4663",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "AG Werderplatz - Abschlussbericht der dezernatsübergreifenden Arbeitsgruppe",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14715",
+      "created": "2017-10-16T14:56:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41366",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4663",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Pilotprojekt Fundraising Sybelcentrum",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14698",
+      "created": "2017-10-16T14:56:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41364",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4663",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Stilllegung Deponie Karlsruhe-Ost: 2. Teilmaßnahme, Herstellung, Lieferung und Montage einer thermischen Schwachgasbehandlungsanlage",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14699",
+      "created": "2017-10-16T14:56:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41365",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4663",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Klärwerk Karlsruhe, Sanierung der Klärschlammverbrennungslinie 1 bzw. alternativ Neubau einer Klärschlammverbrennungslinie 3",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2016-10-12T09:08:39+02:00",
+  "end": "2017-11-14T19:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4663",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00599966.pdf",
+    "created": "2017-11-03T08:33:50+01:00",
+    "date": "2017-11-03",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00599966.pdf",
+    "fileName": "00599966.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/599966",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2016-10-12T09:08:39+02:00",
+    "description": "Großer Sitzungssaal, Rathaus Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/4663",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Hauptausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+  ],
+  "start": "2017-11-14T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

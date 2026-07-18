@@ -1,0 +1,79 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00598193.pdf",
+      "created": "2017-06-30T08:08:38+02:00",
+      "date": "2017-06-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00598193.pdf",
+      "fileName": "00598193.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/598193",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Ausschreibung Radwege Winterdienst",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00598593.pdf",
+      "created": "2017-07-26T09:44:36+02:00",
+      "date": "2017-07-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00598593.pdf",
+      "fileName": "00598593.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/598593",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 13",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00599132.pdf",
+      "created": "2017-09-01T10:04:17+02:00",
+      "date": "2017-09-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00599132.pdf",
+      "fileName": "00599132.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/599132",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 13",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2017-06-13T09:22:29+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14420",
+      "modified": "2018-11-28T14:19:31+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35646",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/40917",
+      "authoritative": true,
+      "created": "2017-06-27T10:09:29+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14422",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4624",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35646",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-06-13T09:21:44+02:00",
+  "date": "2017-06-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35646",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Winterdienst auf dem Hauptradwegenetz der Stadt Karlsruhe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0399",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

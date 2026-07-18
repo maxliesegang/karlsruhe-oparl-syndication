@@ -1,0 +1,47 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20114",
+      "created": "2020-10-02T11:18:02+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54722",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5820",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Nachtrag 3 zum Pachtvertrag - Flächenerweiterung der Geschäftsstelle",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619955.pdf",
+      "created": "2020-10-05T10:57:52+02:00",
+      "date": "2020-10-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619955.pdf",
+      "fileName": "00619955.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619955",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Tagesordnung öffentlicher Teil",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2019-10-04T15:27:00+02:00",
+  "end": "2020-10-09T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5820",
+  "location": {
+    "created": "2019-10-04T15:27:00+02:00",
+    "description": "Ständehaus",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5820",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Betriebsausschuss \"Eigenbetrieb Fußballstadion im Wildpark\" (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54856"
+  ],
+  "start": "2020-10-09T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

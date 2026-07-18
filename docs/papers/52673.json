@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672041.pdf",
+      "created": "2025-11-18T14:04:36+01:00",
+      "date": "2025-11-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672041.pdf",
+      "fileName": "00672041.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672041",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-26T10:34:28+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676012.pdf",
+      "created": "2026-01-26T10:30:07+01:00",
+      "date": "2026-01-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676012.pdf",
+      "fileName": "00676012.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676012",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-26T10:34:28+01:00",
+      "name": "Abstimmungsergebnis TOP  1 Ö 102",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99267",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:27+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35300",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-17T09:51:47+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52673",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-18T14:03:56+01:00",
+  "date": "2025-11-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52673",
+  "modified": "2026-01-26T10:34:28+01:00",
+  "name": "HHS4_GR33 - Streichung des freiwilligen ÖPNV-Zuschuss für Grundschulkinder beim Jugendticket BW über Eigenanteil hinaus",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1133",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00657542.pdf",
+      "created": "2024-04-15T14:05:03+02:00",
+      "date": "2024-04-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00657542.pdf",
+      "fileName": "00657542.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/657542",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Lageplan",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00657545.pdf",
+      "created": "2024-04-15T14:43:06+02:00",
+      "date": "2024-04-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00657545.pdf",
+      "fileName": "00657545.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/657545",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage Grundstücksverkauf",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658459.pdf",
+      "created": "2024-05-14T20:18:58+02:00",
+      "date": "2024-05-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658459.pdf",
+      "fileName": "00658459.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658459",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 4.2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659043.pdf",
+      "created": "2024-06-13T16:11:24+02:00",
+      "date": "2024-06-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659043.pdf",
+      "fileName": "00659043.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659043",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 14.05.2024 TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/85993",
+      "authoritative": true,
+      "created": "2024-04-17T13:31:33+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31902",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9526",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50297",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-04-15T13:58:05+02:00",
+  "date": "2024-04-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50297",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Verkauf des städtischen Grundstücks Nr. 71894 mit 6.020 qm, Konrad-Zuse-Straße",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0265/1",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

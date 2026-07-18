@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672747.pdf",
+      "created": "2025-11-25T10:09:11+01:00",
+      "date": "2025-11-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672747.pdf",
+      "fileName": "00672747.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672747",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-25T16:40:47+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672803.pdf",
+      "created": "2025-11-25T13:19:09+01:00",
+      "date": "2025-11-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672803.pdf",
+      "fileName": "00672803.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672803",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-25T16:40:47+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99229",
+      "authoritative": true,
+      "created": "2025-11-25T10:20:32+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35585",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10058",
+      "modified": "2025-11-26T13:34:02+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52947",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-25T10:08:50+01:00",
+  "date": "2025-11-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52947",
+  "modified": "2026-03-12T14:11:26+01:00",
+  "name": "Sammel-Konzeptbeschluss und Sammel-Baubeschluss: Überleitung laufender  Bauprojekte des Tiefbauamtes gem. der beschlossenen Richtlinie \"Bauprozesse\" vom 29. April 2025 und der Hauptsatzung vom 29. Juli 2025",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2025/0938/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52444"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

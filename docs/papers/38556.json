@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615644.pdf",
+      "created": "2020-03-20T12:42:45+01:00",
+      "date": "2020-03-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615644.pdf",
+      "fileName": "00615644.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615644",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00616726.pdf",
+      "created": "2020-03-24T14:26:25+01:00",
+      "date": "2020-03-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00616726.pdf",
+      "fileName": "00616726.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/616726",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme E-Antrag SPD TOP 8.5",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635226.pdf",
+      "created": "2022-01-13T12:24:48+01:00",
+      "date": "2022-01-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635226.pdf",
+      "fileName": "00635226.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635226",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/51383",
+      "created": "2020-03-24T07:37:41+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/18082",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5663",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38556",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/51695",
+      "authoritative": true,
+      "created": "2020-04-14T10:31:02+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19166",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5664",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38556",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-03-20T12:41:55+01:00",
+  "date": "2020-03-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38556",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Maßnahmen zu Virenerkrankungen",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2020/0343",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

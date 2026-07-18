@@ -1,0 +1,93 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00652520.pdf",
+      "created": "2023-10-23T17:14:10+02:00",
+      "date": "2023-10-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00652520.pdf",
+      "fileName": "00652520.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/652520",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00652692.pdf",
+      "created": "2023-10-25T12:50:30+02:00",
+      "date": "2023-10-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00652692.pdf",
+      "fileName": "00652692.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/652692",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage-Rahmenkonzeption_2015",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654930.pdf",
+      "created": "2023-12-20T10:23:39+01:00",
+      "date": "2023-12-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654930.pdf",
+      "fileName": "00654930.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654930",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 14 u. 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655157.pdf",
+      "created": "2024-01-08T14:13:04+01:00",
+      "date": "2024-01-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655157.pdf",
+      "fileName": "00655157.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655157",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 14 und 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83355",
+      "created": "2023-11-07T17:26:48+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30929",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9096",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49612",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83485",
+      "authoritative": true,
+      "created": "2023-11-20T09:50:05+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30930",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9055",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49612",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-10-23T17:06:21+02:00",
+  "date": "2023-10-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49612",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Umsetzung des Rechtsanspruchs auf ganztägige Förderung von Kindern im Grundschulalter",
+  "paperType": "Informationsvorlage",
+  "reference": "2023/1224",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609071.pdf",
+      "created": "2019-04-16T12:59:14+02:00",
+      "date": "2019-04-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609071.pdf",
+      "fileName": "00609071.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609071",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609568.pdf",
+      "created": "2019-05-03T12:32:35+02:00",
+      "date": "2019-05-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609568.pdf",
+      "fileName": "00609568.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609568",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 74",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609967.pdf",
+      "created": "2019-05-29T14:12:28+02:00",
+      "date": "2019-05-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609967.pdf",
+      "fileName": "00609967.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609967",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Gemeinderat",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45676",
+      "created": "2019-04-16T13:16:37+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16531",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5323",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37310",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-04-16T12:58:26+02:00",
+  "date": "2019-04-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37310",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Zwischenlösung für die beschlossene gymnasiale Oberstufe an einer Gemeinschaftsschule",
+  "paperType": "Anfrage",
+  "reference": "2019/0405",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

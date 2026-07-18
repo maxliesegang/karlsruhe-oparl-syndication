@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608234.pdf",
+      "created": "2019-03-08T11:15:35+01:00",
+      "date": "2019-03-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608234.pdf",
+      "fileName": "00608234.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608234",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608822.pdf",
+      "created": "2019-04-02T13:26:14+02:00",
+      "date": "2019-04-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608822.pdf",
+      "fileName": "00608822.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608822",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 28",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609806.pdf",
+      "created": "2019-05-21T07:43:10+02:00",
+      "date": "2019-05-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609806.pdf",
+      "fileName": "00609806.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609806",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 28",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45234",
+      "authoritative": true,
+      "created": "2019-03-12T09:45:20+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16301",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5307",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37131",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-03-08T11:14:44+01:00",
+  "date": "2019-03-08",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37131",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Fehlende bedachte Unterstände an den Wartestellen am Europaplatz und Durlacher Tor",
+  "paperType": "Anfrage",
+  "reference": "2019/0219",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882999"
+  ]
+}

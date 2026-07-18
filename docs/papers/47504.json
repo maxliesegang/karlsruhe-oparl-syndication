@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00641852.pdf",
+      "created": "2022-10-24T17:41:31+02:00",
+      "date": "2022-10-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00641852.pdf",
+      "fileName": "00641852.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/641852",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00641853.pdf",
+      "created": "2022-10-24T17:51:09+02:00",
+      "date": "2022-10-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00641853.pdf",
+      "fileName": "00641853.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/641853",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Wirtschaftsplan 2023 Eigenbetrieb Gewerbeflächen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642666.pdf",
+      "created": "2022-11-16T14:35:45+01:00",
+      "date": "2022-11-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642666.pdf",
+      "fileName": "00642666.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642666",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmung TOP10",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643277.pdf",
+      "created": "2022-12-09T08:25:28+01:00",
+      "date": "2022-12-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643277.pdf",
+      "fileName": "00643277.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643277",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/73362",
+      "authoritative": true,
+      "created": "2022-10-20T10:54:05+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28162",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6605",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47504",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-09-22T17:47:03+02:00",
+  "date": "2022-09-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47504",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Festsetzung des Wirtschaftsplanes 2023 des Eigenbetriebs Gewerbeflächen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2022/2068",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

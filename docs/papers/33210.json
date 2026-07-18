@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00146554.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2014-04-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00146554.pdf",
+      "fileName": "00146554.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/146554",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Neue Stellvertretung OV Wolfartsweier",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00147046.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2014-05-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00147046.pdf",
+      "fileName": "00147046.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/147046",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 1.1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/34322",
+      "authoritative": true,
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/11353",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3501",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/33210",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2014-04-02",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/33210",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Wahl einer Stellvertretung des Ortsvorstehers im Stadtteil Wolfartsweier",
+  "paperType": "Beschlussvorlage",
+  "reference": "2014/0519",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882951"
+  ]
+}

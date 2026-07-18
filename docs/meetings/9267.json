@@ -1,0 +1,88 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29738",
+      "created": "2023-05-25T16:03:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78014",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9267",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Neureuter Nachrichten - Kostenanpassungen",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29739",
+      "created": "2023-05-25T16:03:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78015",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9267",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Änderung der Bekanntmachungssatzung",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29740",
+      "created": "2023-05-25T16:03:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78016",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9267",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Bekanntgaben",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29741",
+      "created": "2023-05-25T16:03:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78017",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9267",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Anfragen und Anregungen aus dem Ortschaftsrat",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667676.pdf",
+      "created": "2025-06-04T09:21:37+02:00",
+      "date": "2025-06-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667676.pdf",
+      "fileName": "00667676.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667676",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-04T09:45:04+02:00",
+      "name": "OR Proto 13.06..  ö",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2022-10-11T17:54:06+02:00",
+  "end": "2023-06-13T00:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9267",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647629.pdf",
+    "created": "2023-05-25T16:04:43+02:00",
+    "date": "2023-05-25",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647629.pdf",
+    "fileName": "00647629.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647629",
+    "mimeType": "application/pdf",
+    "modified": "2025-06-04T09:21:44+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "modified": "2025-06-04T09:45:04+02:00",
+  "name": "Ortschaftsrat Neureut (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34531"
+  ],
+  "start": "2023-06-13T19:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

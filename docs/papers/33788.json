@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00150430.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2015-01-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00150430.pdf",
+      "fileName": "00150430.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/150430",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "CDU-Einkaufen in Karlsruhe",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00150631.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2015-02-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00150631.pdf",
+      "fileName": "00150631.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/150631",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00585530.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2015-02-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00585530.pdf",
+      "fileName": "00585530.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/585530",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/36056",
+      "authoritative": true,
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/12126",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3835",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/33788",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2014-12-01",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/33788",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Einkaufen in Karlsruhe - Gesamtpaket zur Stärkung des Einzelhandels",
+  "paperType": "Antrag",
+  "reference": "2014/0801",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600987.pdf",
+      "created": "2018-01-12T09:29:57+01:00",
+      "date": "2018-01-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600987.pdf",
+      "fileName": "00600987.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600987",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "CDU Insektenpopulation",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600997.pdf",
+      "created": "2018-01-12T12:08:01+01:00",
+      "date": "2018-01-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600997.pdf",
+      "fileName": "00600997.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600997",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 27",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00601278.pdf",
+      "created": "2018-02-05T13:17:57+01:00",
+      "date": "2018-02-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00601278.pdf",
+      "fileName": "00601278.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/601278",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 27",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41879",
+      "authoritative": true,
+      "created": "2017-12-22T13:41:54+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14883",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4881",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36005",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-12-13T16:34:35+01:00",
+  "date": "2017-12-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36005",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Insektenpopulation in und um Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2017/0785",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

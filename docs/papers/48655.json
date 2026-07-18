@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647488.pdf",
+      "created": "2023-05-22T16:47:42+02:00",
+      "date": "2023-05-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647488.pdf",
+      "fileName": "00647488.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647488",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647852.pdf",
+      "created": "2023-06-02T15:10:27+02:00",
+      "date": "2023-06-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647852.pdf",
+      "fileName": "00647852.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647852",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649021.pdf",
+      "created": "2023-07-17T13:37:11+02:00",
+      "date": "2023-07-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649021.pdf",
+      "fileName": "00649021.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649021",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 42",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78003",
+      "authoritative": true,
+      "created": "2023-05-25T15:14:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29712",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9046",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48655",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-05-22T16:46:59+02:00",
+  "date": "2023-05-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48655",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Sachstand Photovoltaik-Ausbau",
+  "paperType": "Anfrage",
+  "reference": "2023/0577",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882975"
+  ]
+}

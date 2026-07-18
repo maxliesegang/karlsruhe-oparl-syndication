@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644295.pdf",
+      "created": "2023-01-24T13:14:31+01:00",
+      "date": "2023-01-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644295.pdf",
+      "fileName": "00644295.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644295",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646142.pdf",
+      "created": "2023-03-29T10:30:19+02:00",
+      "date": "2023-03-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646142.pdf",
+      "fileName": "00646142.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646142",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646538.pdf",
+      "created": "2023-04-13T12:43:32+02:00",
+      "date": "2023-04-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646538.pdf",
+      "fileName": "00646538.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646538",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75636",
+      "created": "2023-02-01T16:09:53+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28964",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9094",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48076",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/76129",
+      "authoritative": true,
+      "created": "2023-02-28T14:44:22+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28965",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9043",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48076",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-01-24T12:58:31+01:00",
+  "date": "2023-01-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48076",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Otto-Hahn-Gymnasium: Profilfach \"Informatik, Mathematik, Physik (IMP)\"",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0074",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

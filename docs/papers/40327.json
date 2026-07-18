@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619771.pdf",
+      "created": "2020-09-28T09:27:13+02:00",
+      "date": "2020-09-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619771.pdf",
+      "fileName": "00619771.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619771",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "ÄAntrag AfD Gerechte Sprache",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619786.pdf",
+      "created": "2020-09-28T15:40:26+02:00",
+      "date": "2020-09-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619786.pdf",
+      "fileName": "00619786.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619786",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme AfD Genderschreibweise",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619831.pdf",
+      "created": "2020-09-30T09:13:06+02:00",
+      "date": "2020-09-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619831.pdf",
+      "fileName": "00619831.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619831",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 21.1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54698",
+      "authoritative": true,
+      "created": "2020-09-28T07:51:42+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20092",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5670",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40327",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-09-25T14:53:21+02:00",
+  "date": "2020-09-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40327",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Verzicht auf Genderschreibweisen",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2020/1116",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664631.pdf",
+      "created": "2025-01-31T10:04:39+01:00",
+      "date": "2025-01-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664631.pdf",
+      "fileName": "00664631.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664631",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-16T06:20:11+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664929.pdf",
+      "created": "2025-02-13T10:18:29+01:00",
+      "date": "2025-02-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664929.pdf",
+      "fileName": "00664929.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664929",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-16T06:20:11+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666161.pdf",
+      "created": "2025-04-03T11:11:56+02:00",
+      "date": "2025-04-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666161.pdf",
+      "fileName": "00666161.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666161",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-16T06:20:11+02:00",
+      "name": "Protokoll GR 25.03.2025 TOP 22",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92618",
+      "authoritative": true,
+      "created": "2025-02-25T11:44:59+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33630",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10046",
+      "modified": "2025-03-25T19:20:49+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51524",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93805",
+      "created": "2025-05-07T09:30:38+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33669",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10106",
+      "modified": "2025-07-17T10:09:41+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51524",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-01-31T10:03:46+01:00",
+  "date": "2025-01-31",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51524",
+  "modified": "2025-06-16T06:20:11+02:00",
+  "name": "Kita-Bedarfsplanung aktualisieren und transparenter machen",
+  "paperType": "Antrag",
+  "reference": "2025/0105",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

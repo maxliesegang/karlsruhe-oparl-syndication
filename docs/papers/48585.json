@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647144.pdf",
+      "created": "2023-05-09T16:27:53+02:00",
+      "date": "2023-05-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647144.pdf",
+      "fileName": "00647144.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647144",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647154.pdf",
+      "created": "2023-05-10T10:26:07+02:00",
+      "date": "2023-05-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647154.pdf",
+      "fileName": "00647154.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647154",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649018.pdf",
+      "created": "2023-07-17T13:35:35+02:00",
+      "date": "2023-07-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649018.pdf",
+      "fileName": "00649018.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649018",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 39",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78001",
+      "authoritative": true,
+      "created": "2023-05-25T15:14:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29617",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9046",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48585",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-05-09T16:27:10+02:00",
+  "date": "2023-05-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48585",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bewertung von Beschickerinnen und Beschicker bei Miteigentümerwechseln",
+  "paperType": "Anfrage",
+  "reference": "2023/0513",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/447562"
+  ]
+}

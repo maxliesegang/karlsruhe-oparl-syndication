@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677665.pdf",
+      "created": "2026-04-15T11:20:48+02:00",
+      "date": "2026-04-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677665.pdf",
+      "fileName": "00677665.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677665",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-24T11:48:42+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101334",
+      "created": "2026-04-20T10:24:41+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37246",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10520",
+      "modified": "2026-04-22T10:50:21+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54444",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-04-15T11:07:58+02:00",
+  "date": "2026-04-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54444",
+  "modified": "2026-04-24T11:48:42+02:00",
+  "name": "Sachstand Allgemeinverfügung zum Schutz von Igeln und anderen nachtaktiven Kleintieren vor Mährobotern",
+  "paperType": "Informationsvorlage",
+  "reference": "2026/0286",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882951"
+  ]
+}

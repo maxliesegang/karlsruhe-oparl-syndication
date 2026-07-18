@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00627503.pdf",
+      "created": "2021-08-16T11:27:01+02:00",
+      "date": "2021-08-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00627503.pdf",
+      "fileName": "00627503.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/627503",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00628031.pdf",
+      "created": "2021-09-13T11:26:20+02:00",
+      "date": "2021-09-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00628031.pdf",
+      "fileName": "00628031.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/628031",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN Antrag Maßnahmenkonzept gegen Vereinsamung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00631086.pdf",
+      "created": "2021-11-02T12:20:59+01:00",
+      "date": "2021-11-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00631086.pdf",
+      "fileName": "00631086.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/631086",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 37",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/60634",
+      "authoritative": true,
+      "created": "2021-09-08T09:52:28+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21887",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6279",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41706",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-08-16T11:26:29+02:00",
+  "date": "2021-08-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41706",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Maßnahmenkonzepte gegen Vereinsamung",
+  "paperType": "Antrag",
+  "reference": "2021/1002",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

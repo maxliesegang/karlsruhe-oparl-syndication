@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00657111.pdf",
+      "created": "2024-03-25T15:35:56+01:00",
+      "date": "2024-03-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00657111.pdf",
+      "fileName": "00657111.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/657111",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00657301.pdf",
+      "created": "2024-04-03T15:40:41+02:00",
+      "date": "2024-04-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00657301.pdf",
+      "fileName": "00657301.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/657301",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658199.pdf",
+      "created": "2024-05-06T11:32:24+02:00",
+      "date": "2024-05-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658199.pdf",
+      "fileName": "00658199.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658199",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 23.04.2024 TOP 37",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/85497",
+      "authoritative": true,
+      "created": "2024-03-26T08:41:39+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31799",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9525",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50215",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-03-25T15:35:31+01:00",
+  "date": "2024-03-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50215",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bevölkerungsschutz in Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2024/0336",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882976"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678635.pdf",
+      "created": "2026-05-26T07:29:20+02:00",
+      "date": "2026-05-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678635.pdf",
+      "fileName": "00678635.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678635",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T15:02:12+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678784.pdf",
+      "created": "2026-06-01T12:29:26+02:00",
+      "date": "2026-06-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678784.pdf",
+      "fileName": "00678784.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678784",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T15:02:12+02:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679645.pdf",
+      "created": "2026-07-07T15:02:10+02:00",
+      "date": "2026-07-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679645.pdf",
+      "fileName": "00679645.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679645",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T15:02:12+02:00",
+      "name": "Protokoll GR 23.06.2026 TOP 39",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101928",
+      "authoritative": true,
+      "created": "2026-05-26T14:29:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37488",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10540",
+      "modified": "2026-06-24T10:13:31+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54604",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-05-26T07:28:52+02:00",
+  "date": "2026-05-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54604",
+  "modified": "2026-07-07T15:02:12+02:00",
+  "name": "Zeitenwende im Bevölkerungsschutz – Karlsruhe resilient, vernetzt und zukunftsfähig aufstellen",
+  "paperType": "Anfrage",
+  "reference": "2026/0437",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882976"
+  ]
+}

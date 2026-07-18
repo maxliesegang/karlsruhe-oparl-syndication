@@ -1,0 +1,82 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678629.pdf",
+      "created": "2026-05-22T14:04:37+02:00",
+      "date": "2026-05-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678629.pdf",
+      "fileName": "00678629.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678629",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T14:55:07+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678737.pdf",
+      "created": "2026-05-28T14:56:45+02:00",
+      "date": "2026-05-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678737.pdf",
+      "fileName": "00678737.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678737",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T14:55:07+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679636.pdf",
+      "created": "2026-07-07T14:55:04+02:00",
+      "date": "2026-07-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679636.pdf",
+      "fileName": "00679636.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679636",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T14:55:07+02:00",
+      "name": "Protokoll GR 23.06.2026 TOP 30",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102012",
+      "authoritative": true,
+      "created": "2026-06-08T09:09:35+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37481",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10540",
+      "modified": "2026-06-24T10:16:36+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54600",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102187",
+      "authoritative": true,
+      "created": "2026-06-16T10:24:54+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37506",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10557",
+      "modified": "2026-07-15T07:34:59+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54600",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-05-22T14:04:15+02:00",
+  "date": "2026-05-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54600",
+  "modified": "2026-07-07T14:55:07+02:00",
+  "name": "Überprüfung der städtischen Mitgliedschaften",
+  "paperType": "Antrag",
+  "reference": "2026/0433",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882850"
+  ]
+}

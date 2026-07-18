@@ -1,0 +1,33 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15185",
+      "created": "2018-04-09T10:12:02+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/42588",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4989",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Auswahlrichtlinien der Branddirektion",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2017-09-18T15:27:52+02:00",
+  "end": "2018-04-19T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4989",
+  "location": {
+    "created": "2017-09-18T15:27:52+02:00",
+    "description": "Großer Sitzungssaal, Rathaus Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/4989",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Personalausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31211"
+  ],
+  "start": "2018-04-19T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

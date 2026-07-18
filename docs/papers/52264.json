@@ -1,0 +1,83 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669421.pdf",
+      "created": "2025-08-14T16:00:55+02:00",
+      "date": "2025-08-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669421.pdf",
+      "fileName": "00669421.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669421",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:46:07+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669424.pdf",
+      "created": "2025-08-14T16:07:20+02:00",
+      "date": "2025-08-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669424.pdf",
+      "fileName": "00669424.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669424",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:46:07+02:00",
+      "name": "Anlage 1 Musterablösvertrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678045.pdf",
+      "created": "2026-04-29T11:48:46+02:00",
+      "date": "2026-04-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678045.pdf",
+      "fileName": "00678045.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678045",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:46:07+02:00",
+      "name": "Abstimmungsergebnis TOP 19 BV",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678404.pdf",
+      "created": "2026-05-15T10:46:05+02:00",
+      "date": "2026-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678404.pdf",
+      "fileName": "00678404.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678404",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:46:07+02:00",
+      "name": "Protokoll GR 28.04.2026 TOP 19",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101114",
+      "authoritative": true,
+      "created": "2026-04-01T09:53:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34710",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10512",
+      "modified": "2026-05-26T12:02:49+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52264",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-08-14T15:50:18+02:00",
+  "date": "2025-09-05",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52264",
+  "modified": "2026-05-15T10:46:07+02:00",
+  "name": "Ablösebeträge Kinderspielplätze nach Landesbauordnung (LBO)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0776",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54488"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882981"
+  ]
+}

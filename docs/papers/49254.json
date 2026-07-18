@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651162.pdf",
+      "created": "2023-09-29T15:26:40+02:00",
+      "date": "2023-09-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651162.pdf",
+      "fileName": "00651162.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651162",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00652928.pdf",
+      "created": "2023-10-27T10:58:05+02:00",
+      "date": "2023-10-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00652928.pdf",
+      "fileName": "00652928.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/652928",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 7 HA_17.10.2023",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/80689",
+      "authoritative": true,
+      "created": "2023-10-02T08:54:43+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30554",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9065",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49254",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-09-29T14:53:08+02:00",
+  "date": "2023-09-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49254",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Veranstaltungen im Gesamtstädtischen Interesse (VigI) - Neuregelung ab 2024",
+  "paperType": "Informationsvorlage",
+  "reference": "2023/1139",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

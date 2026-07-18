@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624964.pdf",
+      "created": "2021-04-21T10:57:43+02:00",
+      "date": "2021-04-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624964.pdf",
+      "fileName": "00624964.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624964",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625232.pdf",
+      "created": "2021-05-03T09:52:06+02:00",
+      "date": "2021-05-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625232.pdf",
+      "fileName": "00625232.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625232",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "AfD Bild Bank Marktplatz",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625374.pdf",
+      "created": "2021-05-06T13:32:33+02:00",
+      "date": "2021-05-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625374.pdf",
+      "fileName": "00625374.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625374",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN Marktplatz Bänke",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625943.pdf",
+      "created": "2021-06-07T09:56:18+02:00",
+      "date": "2021-06-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625943.pdf",
+      "fileName": "00625943.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625943",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 32",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/57508",
+      "authoritative": true,
+      "created": "2021-04-21T11:08:25+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21156",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6214",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41157",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-04-21T10:56:57+02:00",
+  "date": "2021-04-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41157",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Schäden an den neuen Bänken auf dem Marktplatz",
+  "paperType": "Anfrage",
+  "reference": "2021/0515",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

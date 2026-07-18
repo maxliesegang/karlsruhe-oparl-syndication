@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648789.pdf",
+      "created": "2023-07-06T16:41:01+02:00",
+      "date": "2023-07-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648789.pdf",
+      "fileName": "00648789.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648789",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/80302",
+      "authoritative": true,
+      "created": "2023-09-18T11:10:44+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30007",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/8922",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48867",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-07-06T16:39:24+02:00",
+  "date": "2023-07-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48867",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Graffiti-Projekt Combo B3 Unterführung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0774",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

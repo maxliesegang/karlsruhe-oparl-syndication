@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595018.pdf",
+      "created": "2016-12-01T14:53:52+01:00",
+      "date": "2016-12-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595018.pdf",
+      "fileName": "00595018.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595018",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "SPD-Taubenpopulation Sachstand",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595031.pdf",
+      "created": "2016-12-01T15:08:59+01:00",
+      "date": "2016-12-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595031.pdf",
+      "fileName": "00595031.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595031",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 29",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595576.pdf",
+      "created": "2017-01-10T08:53:24+01:00",
+      "date": "2017-01-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595576.pdf",
+      "fileName": "00595576.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595576",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 29",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/39721",
+      "authoritative": true,
+      "created": "2016-11-14T15:27:13+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/13871",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4160",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35203",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-11-14T15:18:55+01:00",
+  "date": "2016-11-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35203",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Taubenpopulation in Karlsruhe - Sachstand",
+  "paperType": "Anfrage",
+  "reference": "2016/0736",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

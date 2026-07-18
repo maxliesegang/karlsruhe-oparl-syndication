@@ -1,0 +1,96 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31486",
+      "created": "2024-02-15T10:30:59+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84803",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9560",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Umbenennung Schulbeirat in Schulausschuss",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "vorberaten ohne Änderungen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2024-02-15T10:34:51+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84806",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9560",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Umsetzung des Rechtsanspruchs auf ganztägige Förderung von Kindern in der Primarstufe der Sonderpädagogischen Bildungs- und Beratungszentren",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "vertagt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31485",
+      "created": "2024-02-15T10:30:59+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84802",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9560",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Kostenlose Damenhygieneartikel in Schulen bereitstellen",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31482",
+      "created": "2024-02-15T10:30:59+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84801",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9560",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Änderung der Satzung über die Erstattung der notwendigen Beförderungskosten für Schülerinnen und Schüler",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "result": "vorberaten ohne Änderungen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2024-02-15T10:30:59+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84798",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9560",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen des Bürgermeisteramts",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2023-09-06T14:40:07+02:00",
+  "end": "2024-03-21T18:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9560",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656753.pdf",
+    "created": "2024-03-14T10:28:23+01:00",
+    "date": "2024-03-14",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656753.pdf",
+    "fileName": "00656753.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656753",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2023-09-06T14:40:07+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9560",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Schulbeirat (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+  ],
+  "start": "2024-03-21T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

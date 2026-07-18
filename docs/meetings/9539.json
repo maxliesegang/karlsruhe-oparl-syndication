@@ -1,0 +1,71 @@
+{
+  "agendaItem": [
+    {
+      "created": "2024-02-22T13:41:48+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84940",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9539",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Tiefbauamt",
+      "number": "",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31429",
+      "created": "2024-02-22T13:41:48+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84944",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9539",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Abwasserbeseitigung, Erschließung Kernstadt Zukunft Nord, Bauabschnitt 2",
+      "number": "1",
+      "order": 2,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656900.pdf",
+      "created": "2024-03-19T14:35:27+01:00",
+      "date": "2024-03-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656900.pdf",
+      "fileName": "00656900.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656900",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "BA 14.03.2024 ö Protokoll",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2023-09-06T14:24:38+02:00",
+  "end": "2024-03-14T16:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9539",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656190.pdf",
+    "created": "2024-02-22T13:49:31+01:00",
+    "date": "2024-02-22",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656190.pdf",
+    "fileName": "00656190.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656190",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2023-09-06T14:24:38+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9539",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Bauausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+  ],
+  "start": "2024-03-14T16:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

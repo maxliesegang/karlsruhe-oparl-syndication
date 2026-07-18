@@ -1,0 +1,96 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617825.pdf",
+      "created": "2020-05-27T13:35:47+02:00",
+      "date": "2020-05-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617825.pdf",
+      "fileName": "00617825.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617825",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618278.pdf",
+      "created": "2020-06-19T08:26:53+02:00",
+      "date": "2020-06-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618278.pdf",
+      "fileName": "00618278.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618278",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Lern- und Freizeitangebote",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619586.pdf",
+      "created": "2020-09-16T12:20:12+02:00",
+      "date": "2020-09-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619586.pdf",
+      "fileName": "00619586.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619586",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/52728",
+      "authoritative": true,
+      "created": "2020-06-03T09:17:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19483",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5666",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39856",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53597",
+      "authoritative": true,
+      "created": "2020-07-03T14:14:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19483",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5667",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39856",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53774",
+      "authoritative": true,
+      "created": "2020-07-22T09:22:43+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19483",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5668",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39856",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-05-27T13:35:27+02:00",
+  "date": "2020-05-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39856",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Lern- und Freizeitangebote für benachteiligte Schüler*innen in den Ferien",
+  "paperType": "Antrag",
+  "reference": "2020/0648",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

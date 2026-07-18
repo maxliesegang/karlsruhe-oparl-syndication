@@ -1,0 +1,91 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600132.pdf",
+      "created": "2017-11-08T14:36:55+01:00",
+      "date": "2017-11-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600132.pdf",
+      "fileName": "00600132.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600132",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "EIBS Wirtschaftsplan 2018",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600134.pdf",
+      "created": "2017-11-08T14:37:47+01:00",
+      "date": "2017-11-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600134.pdf",
+      "fileName": "00600134.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600134",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Plan Eigenbetrieb Fußballstadion im Wildpark",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600272.pdf",
+      "created": "2017-11-17T10:13:06+01:00",
+      "date": "2017-11-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600272.pdf",
+      "fileName": "00600272.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600272",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1 EiBS Wirtschaftsplan 2018",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600613.pdf",
+      "created": "2017-12-08T10:39:56+01:00",
+      "date": "2017-12-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600613.pdf",
+      "fileName": "00600613.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600613",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 18",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2017-10-16T12:18:57+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14694",
+      "modified": "2018-11-28T14:19:31+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54856"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35856",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41510",
+      "authoritative": true,
+      "created": "2017-11-06T10:01:16+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14695",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4668",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35856",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-10-16T12:18:17+02:00",
+  "date": "2017-10-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35856",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Eigenbetrieb \"Fußballstadion im Wildpark\": Feststellung des Wirtschaftsplans 2018 mit Mittelfristplanung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0631",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883005"
+  ]
+}

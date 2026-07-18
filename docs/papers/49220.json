@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650950.pdf",
+      "created": "2023-09-26T09:33:00+02:00",
+      "date": "2023-09-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650950.pdf",
+      "fileName": "00650950.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650950",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650951.pdf",
+      "created": "2023-09-26T09:33:25+02:00",
+      "date": "2023-09-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650951.pdf",
+      "fileName": "00650951.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650951",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/80655",
+      "created": "2023-09-27T16:28:25+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30512",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9320",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49220",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-09-26T09:30:43+02:00",
+  "date": "2023-09-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49220",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Änderung der Öffnungszeiten und Einführung einer festen Pausenregelung auf den Wertstoffstationen und Schadstoffannahmestellen in Karlsruhe",
+  "paperType": "Informationsvorlage",
+  "reference": "2023/1111",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+  ]
+}

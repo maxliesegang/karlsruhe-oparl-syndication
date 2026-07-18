@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666055.pdf",
+      "created": "2025-03-28T15:00:24+01:00",
+      "date": "2025-03-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666055.pdf",
+      "fileName": "00666055.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666055",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-13T09:31:50+02:00",
+      "name": "Beschlussvorlage_Ehrenamtskarte",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667354.pdf",
+      "created": "2025-05-22T13:50:01+02:00",
+      "date": "2025-05-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667354.pdf",
+      "fileName": "00667354.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667354",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-13T09:31:50+02:00",
+      "name": "Protokoll GR 29.04.2025 TOP 5",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667931.pdf",
+      "created": "2025-06-13T09:31:38+02:00",
+      "date": "2025-06-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667931.pdf",
+      "fileName": "00667931.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667931",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-13T09:31:50+02:00",
+      "name": "Abstimmungsergebnis TOP 5",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93280",
+      "authoritative": true,
+      "created": "2025-04-14T13:39:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33947",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10047",
+      "modified": "2025-04-29T19:17:02+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51738",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-03-26T14:23:29+01:00",
+  "date": "2025-03-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51738",
+  "modified": "2025-06-13T09:31:50+02:00",
+  "name": "Einführung der Ehrenamtskarte Baden-Württemberg in Karlsruhe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0303",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882965"
+  ]
+}

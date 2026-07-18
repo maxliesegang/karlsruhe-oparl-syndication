@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655433.pdf",
+      "created": "2024-01-19T10:08:27+01:00",
+      "date": "2024-01-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655433.pdf",
+      "fileName": "00655433.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655433",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655434.pdf",
+      "created": "2024-01-19T10:12:22+01:00",
+      "date": "2024-01-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655434.pdf",
+      "fileName": "00655434.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655434",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84331",
+      "created": "2024-01-19T10:13:39+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31368",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9801",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49941",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-01-19T10:07:02+01:00",
+  "date": "2024-01-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49941",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Ortseingang Wolfartsweier Süd",
+  "paperType": "Antrag",
+  "reference": "2024/0084",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+  ]
+}

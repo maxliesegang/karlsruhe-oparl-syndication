@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607549.pdf",
+      "created": "2019-01-23T08:15:49+01:00",
+      "date": "2019-01-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607549.pdf",
+      "fileName": "00607549.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607549",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608006.pdf",
+      "created": "2019-02-22T15:40:04+01:00",
+      "date": "2019-02-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608006.pdf",
+      "fileName": "00608006.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608006",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 27 neu",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608864.pdf",
+      "created": "2019-04-03T12:50:34+02:00",
+      "date": "2019-04-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608864.pdf",
+      "fileName": "00608864.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608864",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 27",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44937",
+      "created": "2019-01-29T14:40:38+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16134",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5276",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36988",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-01-23T08:14:06+01:00",
+  "date": "2019-01-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36988",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Radioaktive Strahlung durch das geplante flächendeckende Granitpflaster in der Kaiserstraße und auf dem Marktplatz",
+  "paperType": "Anfrage",
+  "reference": "2019/0070",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

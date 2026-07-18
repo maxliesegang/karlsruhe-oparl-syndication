@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651683.pdf",
+      "created": "2023-10-17T17:39:57+02:00",
+      "date": "2023-10-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651683.pdf",
+      "fileName": "00651683.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651683",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag SPD_002",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653311.pdf",
+      "created": "2023-11-03T16:28:38+01:00",
+      "date": "2023-11-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653311.pdf",
+      "fileName": "00653311.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653311",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "3203 Stellungnahme DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654546.pdf",
+      "created": "2023-12-15T10:53:56+01:00",
+      "date": "2023-12-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654546.pdf",
+      "fileName": "00654546.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654546",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Auszug Protokoll GR Antrag 1.61_1.62",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/82787",
+      "authoritative": true,
+      "created": "2023-10-19T10:54:12+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30660",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9446",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49349",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-10-17T17:36:50+02:00",
+  "date": "2023-10-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49349",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Schaffung von zwei Stellen bei der Ausländerbehörde \"Clearingstelle\"",
+  "paperType": "Haushalt THH 3200",
+  "reference": "DHH/2023/3203",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

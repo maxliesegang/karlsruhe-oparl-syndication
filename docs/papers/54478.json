@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677894.pdf",
+      "created": "2026-04-27T07:08:34+02:00",
+      "date": "2026-04-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677894.pdf",
+      "fileName": "00677894.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677894",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-28T07:27:40+02:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677918.pdf",
+      "created": "2026-04-27T11:29:45+02:00",
+      "date": "2026-04-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677918.pdf",
+      "fileName": "00677918.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677918",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-28T07:27:40+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101407",
+      "authoritative": true,
+      "created": "2026-04-27T09:25:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37292",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10512",
+      "modified": "2026-04-29T07:26:30+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54478",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-04-27T07:08:08+02:00",
+  "date": "2026-04-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54478",
+  "modified": "2026-05-06T10:09:03+02:00",
+  "name": "Aktualisierung und Anpassung der Grillplatzordnung an klimatische Veränderungen",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2026/0170/2",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883003"
+  ]
+}

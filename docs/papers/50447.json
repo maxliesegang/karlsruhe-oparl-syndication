@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658453.pdf",
+      "created": "2024-05-14T18:51:26+02:00",
+      "date": "2024-05-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658453.pdf",
+      "fileName": "00658453.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658453",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661219.pdf",
+      "created": "2024-09-25T18:02:46+02:00",
+      "date": "2024-09-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661219.pdf",
+      "fileName": "00661219.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661219",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "2024-09-24 top15",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661601.pdf",
+      "created": "2024-10-14T09:49:53+02:00",
+      "date": "2024-10-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661601.pdf",
+      "fileName": "00661601.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661601",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 24.09.2024 TOP 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86892",
+      "created": "2024-06-05T11:44:56+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32119",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9564",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50447",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/89679",
+      "authoritative": true,
+      "created": "2024-08-22T10:16:01+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32120",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9531",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50447",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-05-14T18:42:06+02:00",
+  "date": "2024-05-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50447",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Elisabeth-Selbert-Schule: Neueinrichtung des Beruflichen Gymnasiums mit dem Profil \"Sozial- und Gesundheitswissenschaftliches Gymnasium\" zum Schuljahr 2025/26",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0546",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

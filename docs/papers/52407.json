@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670363.pdf",
+      "created": "2025-09-24T07:00:28+02:00",
+      "date": "2025-09-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670363.pdf",
+      "fileName": "00670363.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670363",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-26T15:16:11+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671565.pdf",
+      "created": "2025-11-04T11:11:25+01:00",
+      "date": "2025-11-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671565.pdf",
+      "fileName": "00671565.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671565",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-26T15:16:11+01:00",
+      "name": "Protokoll GR 21.10.2025 TOP 26",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671691.pdf",
+      "created": "2025-11-07T11:54:50+01:00",
+      "date": "2025-11-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671691.pdf",
+      "fileName": "00671691.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671691",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-26T15:16:11+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96437",
+      "authoritative": true,
+      "created": "2025-09-24T08:28:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34906",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10054",
+      "modified": "2025-10-22T09:53:06+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52407",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/97094",
+      "created": "2025-10-23T11:42:36+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34920",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10101",
+      "modified": "2026-01-07T13:36:27+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52407",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-09-24T06:54:29+02:00",
+  "date": "2025-09-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52407",
+  "modified": "2025-12-08T12:37:10+01:00",
+  "name": "Reduzierung der Lichtverschmutzung in Karlsruhe",
+  "paperType": "Antrag",
+  "reference": "2025/0908",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882975"
+  ]
+}

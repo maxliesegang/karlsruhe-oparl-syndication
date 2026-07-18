@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665072.pdf",
+      "created": "2025-02-20T09:57:18+01:00",
+      "date": "2025-02-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665072.pdf",
+      "fileName": "00665072.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665072",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92407",
+      "created": "2025-02-13T12:53:19+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33692",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10066",
+      "modified": "2025-03-03T15:33:37+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51568",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-02-12T13:01:22+01:00",
+  "date": "2025-02-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51568",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Stadthalle Modernisierung, Vergabe von Trockenbau, Innenausbau, Türen 2",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0145",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

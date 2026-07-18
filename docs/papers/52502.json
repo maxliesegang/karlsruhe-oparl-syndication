@@ -1,0 +1,110 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00673951.pdf",
+      "created": "2025-11-26T14:38:27+01:00",
+      "date": "2025-11-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00673951.pdf",
+      "fileName": "00673951.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/673951",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-26T13:16:37+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675692.pdf",
+      "created": "2026-01-13T08:22:48+01:00",
+      "date": "2026-01-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675692.pdf",
+      "fileName": "00675692.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675692",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-26T13:16:37+01:00",
+      "name": "Protokoll HFA 09.12.2025 TOP 5",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675890.pdf",
+      "created": "2026-01-21T08:19:26+01:00",
+      "date": "2026-01-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675890.pdf",
+      "fileName": "00675890.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675890",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-26T13:16:37+01:00",
+      "name": "Protokoll GR 16.-18.12.2025 TOP 19.1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676084.pdf",
+      "created": "2026-01-26T13:16:33+01:00",
+      "date": "2026-01-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676084.pdf",
+      "fileName": "00676084.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676084",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-26T13:16:37+01:00",
+      "name": "Abstimmung",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/97833",
+      "created": "2025-11-06T14:29:52+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35140",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10101",
+      "modified": "2025-12-03T14:25:49+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52502",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/98368",
+      "authoritative": true,
+      "created": "2025-11-11T14:40:08+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35064",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10043",
+      "modified": "2025-12-10T10:17:40+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52502",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99814",
+      "authoritative": true,
+      "created": "2025-12-10T14:33:49+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35223",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10607",
+      "modified": "2025-12-17T14:19:48+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52502",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-10-17T11:46:46+02:00",
+  "date": "2025-10-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52502",
+  "modified": "2026-01-26T13:16:37+01:00",
+  "name": "Nachtabsenkung der öffentlichen Straßenbeleuchtung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0991",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54102"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

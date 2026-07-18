@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614478.pdf",
+      "created": "2020-01-23T11:54:29+01:00",
+      "date": "2020-01-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614478.pdf",
+      "fileName": "00614478.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614478",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615548.pdf",
+      "created": "2020-03-13T08:24:24+01:00",
+      "date": "2020-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615548.pdf",
+      "fileName": "00615548.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615548",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2020-07-02T13:09:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19724",
+      "modified": "2020-07-02T13:09:16+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38291",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/51522",
+      "authoritative": true,
+      "created": "2020-03-30T08:20:13+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17733",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5664",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38291",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53714",
+      "authoritative": true,
+      "created": "2020-07-14T10:50:58+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19725",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5668",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38291",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-01-22T08:16:28+01:00",
+  "date": "2020-01-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38291",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Sicherheit- und Schutzzone für zoologischen Stadtgarten und Tiergehege/Tierheime",
+  "paperType": "Antrag",
+  "reference": "2020/0078",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

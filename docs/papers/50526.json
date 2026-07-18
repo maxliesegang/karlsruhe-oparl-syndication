@@ -1,0 +1,107 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658846.pdf",
+      "created": "2024-06-04T13:27:38+02:00",
+      "date": "2024-06-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658846.pdf",
+      "fileName": "00658846.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658846",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659995.pdf",
+      "created": "2024-08-05T10:35:55+02:00",
+      "date": "2024-08-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659995.pdf",
+      "fileName": "00659995.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659995",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 16.07.2024 TOP 23",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660584.pdf",
+      "created": "2024-09-03T11:17:25+02:00",
+      "date": "2024-09-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660584.pdf",
+      "fileName": "00660584.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660584",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663593.pdf",
+      "created": "2024-12-10T15:03:17+01:00",
+      "date": "2024-12-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663593.pdf",
+      "fileName": "00663593.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663593",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 19.11.2024 TOP 20",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/87191",
+      "authoritative": true,
+      "created": "2024-06-18T10:30:27+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32224",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9528",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50526",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/88304",
+      "created": "2024-07-31T17:41:07+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32270",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9693",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50526",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90827",
+      "authoritative": true,
+      "created": "2024-10-23T11:00:52+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33034",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9533",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50526",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-06-04T13:26:53+02:00",
+  "date": "2024-06-04",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50526",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "PV-Freiflächenanlage mit Bürgerenergiegenossenschaft realisieren",
+  "paperType": "Antrag",
+  "reference": "2024/0621",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883013"
+  ]
+}

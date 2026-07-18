@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676781.pdf",
+      "created": "2026-02-24T10:59:49+01:00",
+      "date": "2026-02-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676781.pdf",
+      "fileName": "00676781.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676781",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:23:54+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676930.pdf",
+      "created": "2026-03-05T10:24:39+01:00",
+      "date": "2026-03-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676930.pdf",
+      "fileName": "00676930.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676930",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:23:54+02:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677586.pdf",
+      "created": "2026-04-09T10:23:51+02:00",
+      "date": "2026-04-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677586.pdf",
+      "fileName": "00677586.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677586",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:23:54+02:00",
+      "name": "Protokoll GR 24.03.2026 TOP 27",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100632",
+      "authoritative": true,
+      "created": "2026-02-25T07:51:03+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37048",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10497",
+      "modified": "2026-03-24T19:29:06+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54297",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-02-24T10:59:14+01:00",
+  "date": "2026-02-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54297",
+  "modified": "2026-04-09T10:23:54+02:00",
+  "name": "Nutzung von E-Akten und Faxgeräten",
+  "paperType": "Anfrage",
+  "reference": "2026/0159",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883004"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00592773.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2016-07-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00592773.pdf",
+      "fileName": "00592773.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/592773",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "SPD-Wohnungsbau in Karlsruhe",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00592869.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2016-07-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00592869.pdf",
+      "fileName": "00592869.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/592869",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 30",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00593107.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2016-08-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00593107.pdf",
+      "fileName": "00593107.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/593107",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 30",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/38805",
+      "authoritative": true,
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/13379",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4142",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/34832",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2016-06-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/34832",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Wohnungsbau in Karlsruhe voranbringen",
+  "paperType": "Antrag",
+  "reference": "2016/0338",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

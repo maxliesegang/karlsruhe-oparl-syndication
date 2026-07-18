@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665046.pdf",
+      "created": "2025-02-19T12:16:52+01:00",
+      "date": "2025-02-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665046.pdf",
+      "fileName": "00665046.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665046",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92512",
+      "authoritative": true,
+      "created": "2025-02-19T12:18:00+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33748",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10024",
+      "modified": "2025-03-25T10:15:45+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51598",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-02-19T12:16:37+01:00",
+  "date": "2025-02-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51598",
+  "modified": "2025-03-12T10:51:13+01:00",
+  "name": "Nachbestellung eines Pflegers oder einer Pflegerin für den Stadtteilfriedhof Aue",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0172",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

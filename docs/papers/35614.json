@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00597930.pdf",
+      "created": "2017-06-14T08:32:39+02:00",
+      "date": "2017-06-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00597930.pdf",
+      "fileName": "00597930.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/597930",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Wahl eines Beigeordneten für das Dezernat 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00598395.pdf",
+      "created": "2017-07-13T10:47:39+02:00",
+      "date": "2017-07-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00598395.pdf",
+      "fileName": "00598395.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/598395",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/40765",
+      "authoritative": true,
+      "created": "2017-05-30T10:30:10+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14382",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4597",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35614",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-05-24T10:12:14+02:00",
+  "date": "2017-05-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35614",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Wahl einer oder eines Beigeordneten für das Dezernat 3",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0367",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882953"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00637850.pdf",
+      "created": "2022-05-17T16:07:21+02:00",
+      "date": "2022-05-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00637850.pdf",
+      "fileName": "00637850.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/637850",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638617.pdf",
+      "created": "2022-06-28T19:33:04+02:00",
+      "date": "2022-06-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638617.pdf",
+      "fileName": "00638617.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638617",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "2022-06-28_Stellungnahme_Garnisonskirche_Grüne-Linke-FWIFÜR",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00639121.pdf",
+      "created": "2022-07-18T08:58:41+02:00",
+      "date": "2022-07-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00639121.pdf",
+      "fileName": "00639121.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/639121",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 28.06.2022 TOP 18",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2022-09-13T14:05:22+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28070",
+      "modified": "2022-09-13T14:05:22+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46870",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70374",
+      "created": "2022-06-01T13:57:15+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27462",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6645",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46870",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70492",
+      "authoritative": true,
+      "created": "2022-06-13T10:08:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27389",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6594",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46870",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-05-17T16:06:12+02:00",
+  "date": "2022-05-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46870",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Runder Tisch „Nutzung für die ehemalige Garnisonskirche in Knielingen“",
+  "paperType": "Antrag",
+  "reference": "2022/0564",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47745"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

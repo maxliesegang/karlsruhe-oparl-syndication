@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667863.pdf",
+      "created": "2025-06-11T13:29:11+02:00",
+      "date": "2025-06-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667863.pdf",
+      "fileName": "00667863.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667863",
+      "mimeType": "application/pdf",
+      "modified": "2025-09-10T15:40:27+02:00",
+      "name": "Anfrage Hohenwettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668814.pdf",
+      "created": "2025-07-15T12:07:55+02:00",
+      "date": "2025-07-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668814.pdf",
+      "fileName": "00668814.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668814",
+      "mimeType": "application/pdf",
+      "modified": "2025-09-10T15:40:27+02:00",
+      "name": "Stellungnahme Anfrage Hohenwettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95494",
+      "created": "2025-08-15T10:06:58+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34406",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10305",
+      "modified": "2025-09-03T14:45:42+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34322"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52043",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-06-11T13:24:38+02:00",
+  "date": "2025-06-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52043",
+  "modified": "2025-09-10T15:40:27+02:00",
+  "name": "Elektrische Erschließung der Garagenhöfe in Hohenwettersbach",
+  "paperType": "Anfrage",
+  "reference": "2025/0577",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882959"
+  ]
+}

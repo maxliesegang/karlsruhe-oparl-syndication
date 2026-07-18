@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00604913.pdf",
+      "created": "2018-09-06T09:22:39+02:00",
+      "date": "2018-09-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00604913.pdf",
+      "fileName": "00604913.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/604913",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "GRÜNE Trinkwasserstationen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00604914.pdf",
+      "created": "2018-09-06T09:22:51+02:00",
+      "date": "2018-09-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00604914.pdf",
+      "fileName": "00604914.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/604914",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 17",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00605536.pdf",
+      "created": "2018-10-16T09:06:36+02:00",
+      "date": "2018-10-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00605536.pdf",
+      "fileName": "00605536.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/605536",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 17",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/43725",
+      "authoritative": true,
+      "created": "2018-08-21T16:05:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15471",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4966",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36462",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-06-19T11:24:12+02:00",
+  "date": "2018-06-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36462",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Trinkwasserstationen in Karlsruhe",
+  "paperType": "Antrag",
+  "reference": "2018/0434",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

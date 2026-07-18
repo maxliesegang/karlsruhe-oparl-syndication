@@ -1,0 +1,82 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664556.pdf",
+      "created": "2025-01-29T08:35:22+01:00",
+      "date": "2025-01-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664556.pdf",
+      "fileName": "00664556.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664556",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-03T11:12:16+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665424.pdf",
+      "created": "2025-03-07T08:07:08+01:00",
+      "date": "2025-03-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665424.pdf",
+      "fileName": "00665424.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665424",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-03T11:12:16+02:00",
+      "name": "Stellungnahme zum Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666162.pdf",
+      "created": "2025-04-03T11:12:14+02:00",
+      "date": "2025-04-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666162.pdf",
+      "fileName": "00666162.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666162",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-03T11:12:16+02:00",
+      "name": "Protokoll GR 25.03.2025 TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92397",
+      "authoritative": true,
+      "created": "2025-02-13T09:05:43+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33709",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10069",
+      "modified": "2025-04-11T13:26:21+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51516",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92617",
+      "authoritative": true,
+      "created": "2025-02-25T11:44:59+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33618",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10046",
+      "modified": "2025-03-25T19:20:40+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51516",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-01-29T08:34:19+01:00",
+  "date": "2025-01-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51516",
+  "modified": "2025-04-03T11:12:16+02:00",
+  "name": "Digitales Parkleitsystem - schnellstmögliche Einführung zur wirtschaftlichen Belebung von Karlsruher Stadtangeboten",
+  "paperType": "Antrag",
+  "reference": "2025/0097",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

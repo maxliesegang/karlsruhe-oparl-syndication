@@ -1,0 +1,83 @@
+{
+  "agendaItem": [
+    {
+      "auxiliaryFile": [
+        {
+          "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653097.pdf",
+          "created": "2023-10-31T15:54:20+01:00",
+          "date": "2023-10-31",
+          "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653097.pdf",
+          "fileName": "00653097.pdf",
+          "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653097",
+          "mimeType": "application/pdf",
+          "modified": "2025-03-03T14:30:18+01:00",
+          "name": "Bericht Biodiversitätskonzept",
+          "type": "https://schema.oparl.org/1.1/File"
+        }
+      ],
+      "created": "2023-10-20T12:34:28+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83069",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9133",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Aktuelles zur Umsetzung des Biodiversitätskonzepts",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30896",
+      "created": "2023-10-20T12:33:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83068",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9133",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Energieleitplan mit integrierter kommunaler Wärmeplanung der Stadt Karlsruhe",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "Zustimmung",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2023-09-28T13:31:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/80665",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9133",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verschiedenes",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2022-09-21T17:31:26+02:00",
+  "end": "2023-11-07T18:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9133",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00652395.pdf",
+    "created": "2023-10-20T12:35:40+02:00",
+    "date": "2023-10-20",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00652395.pdf",
+    "fileName": "00652395.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/652395",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2022-09-21T17:31:26+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9133",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ausschuss für Umwelt und Gesundheit (öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+  ],
+  "start": "2023-11-07T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

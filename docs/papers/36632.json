@@ -1,0 +1,93 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00605209.pdf",
+      "created": "2018-09-25T10:16:17+02:00",
+      "date": "2018-09-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00605209.pdf",
+      "fileName": "00605209.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/605209",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage_Förderrichtlinie_Kitas_Krippen_BSG",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00605444.pdf",
+      "created": "2018-10-12T10:07:47+02:00",
+      "date": "2018-10-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00605444.pdf",
+      "fileName": "00605444.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/605444",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 6 Änderung der Förderrichtlinie_20180827",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00605720.pdf",
+      "created": "2018-10-24T10:33:38+02:00",
+      "date": "2018-10-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00605720.pdf",
+      "fileName": "00605720.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/605720",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis GR Top 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00606181.pdf",
+      "created": "2018-11-09T09:54:39+01:00",
+      "date": "2018-11-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00606181.pdf",
+      "fileName": "00606181.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/606181",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/43915",
+      "created": "2018-09-25T10:05:49+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15685",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5015",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36632",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/43934",
+      "authoritative": true,
+      "created": "2018-09-25T14:05:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15686",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5036",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36632",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-09-03T15:21:54+02:00",
+  "date": "2018-09-03",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36632",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Änderung der \"Richtlinie der Stadt Karlsruhe für die Förderung von Kindertagesstätten und Kinderkrippen\"",
+  "paperType": "Beschlussvorlage",
+  "reference": "2018/0611",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

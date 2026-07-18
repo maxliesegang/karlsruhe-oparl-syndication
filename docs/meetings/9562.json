@@ -1,0 +1,58 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32140",
+      "created": "2024-05-16T12:39:10+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86578",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9562",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Kooperationsprojekte \"Schule-Sportverein\" für das Schuljahr 2024/2025",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2024-05-16T12:39:10+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86577",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9562",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Erfolgreiche Bewerbung um die Ausrichtung der World Games 2029",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2023-09-06T14:41:53+02:00",
+  "end": "2024-06-12T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9562",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658530.pdf",
+    "created": "2024-05-16T12:44:09+02:00",
+    "date": "2024-05-16",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658530.pdf",
+    "fileName": "00658530.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658530",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2023-09-06T14:41:53+02:00",
+    "description": "Großer Sitzungssaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9562",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Sportausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33575"
+  ],
+  "start": "2024-06-12T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

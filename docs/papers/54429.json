@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677608.pdf",
+      "created": "2026-04-10T09:35:48+02:00",
+      "date": "2026-04-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677608.pdf",
+      "fileName": "00677608.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677608",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-16T08:26:48+02:00",
+      "name": "Anlagen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678194.pdf",
+      "created": "2026-05-06T14:59:18+02:00",
+      "date": "2026-05-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678194.pdf",
+      "fileName": "00678194.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678194",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-16T08:26:48+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102473",
+      "created": "2026-07-01T10:05:49+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37226",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10566",
+      "modified": "2026-07-14T08:44:57+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54429",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-04-08T07:37:24+02:00",
+  "date": "2026-05-04",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54429",
+  "modified": "2026-07-16T08:26:48+02:00",
+  "name": "Anne-Frank-Schule, Gemeinschaftsschule, Neubau",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0272",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

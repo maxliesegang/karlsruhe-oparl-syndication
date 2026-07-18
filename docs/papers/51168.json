@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662154.pdf",
+      "created": "2024-10-29T08:59:42+01:00",
+      "date": "2024-10-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662154.pdf",
+      "fileName": "00662154.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662154",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662599.pdf",
+      "created": "2024-11-08T18:03:00+01:00",
+      "date": "2024-11-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662599.pdf",
+      "fileName": "00662599.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662599",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Energiebericht 2023",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91148",
+      "created": "2024-11-15T17:22:26+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33116",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9555",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51168",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-10-28T16:23:15+01:00",
+  "date": "2024-10-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51168",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Vorstellung Energiebericht 2023",
+  "paperType": "Informationsvorlage",
+  "reference": "2024/1220",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

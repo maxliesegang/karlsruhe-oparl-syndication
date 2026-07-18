@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00594301.pdf",
+      "created": "2016-10-28T11:23:22+02:00",
+      "date": "2016-10-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00594301.pdf",
+      "fileName": "00594301.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/594301",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Kürzung Zuschüsse KEK",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595488.pdf",
+      "created": "2017-01-04T09:49:17+01:00",
+      "date": "2017-01-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595488.pdf",
+      "fileName": "00595488.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595488",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 18",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/39550",
+      "authoritative": true,
+      "created": "2016-10-27T13:23:36+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/13666",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4157",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35062",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2016-10-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35062",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Kürzung der Zuschüsse für die KEK - Karlsruher Energie- und Klimaschutzagentur gGmbH",
+  "paperType": "Beschlussvorlage",
+  "reference": "2016/0592",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/447562"
+  ]
+}

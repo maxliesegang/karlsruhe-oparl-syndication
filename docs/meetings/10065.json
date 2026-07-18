@@ -1,0 +1,45 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33628",
+      "created": "2025-02-04T10:53:10+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92229",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10065",
+      "modified": "2025-03-03T14:30:51+01:00",
+      "name": "Bau einer äußeren Umfriedung im Rahmen des Vollumbaus \"Fußballstadion im Wildpark\"",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2024-10-17T11:35:28+02:00",
+  "end": "2025-02-27T19:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10065",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664676.pdf",
+    "created": "2025-02-03T16:33:33+01:00",
+    "date": "2025-02-07",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664676.pdf",
+    "fileName": "00664676.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664676",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2024-10-17T11:35:28+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10065",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Betriebsausschuss \"Eigenbetrieb Fußballstadion im Wildpark\" (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54856"
+  ],
+  "start": "2025-02-27T17:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

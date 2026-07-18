@@ -1,0 +1,82 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656046.pdf",
+      "created": "2024-02-16T09:54:10+01:00",
+      "date": "2024-02-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656046.pdf",
+      "fileName": "00656046.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656046",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 2 Variante 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656047.pdf",
+      "created": "2024-02-16T09:54:18+01:00",
+      "date": "2024-02-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656047.pdf",
+      "fileName": "00656047.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656047",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1 Variante 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00657779.pdf",
+      "created": "2024-04-22T11:50:06+02:00",
+      "date": "2024-04-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00657779.pdf",
+      "fileName": "00657779.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/657779",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage Fahrradstraße Basler-Tor-Straße",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/87858",
+      "authoritative": true,
+      "created": "2024-07-23T09:43:59+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32376",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9776",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50018",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90688",
+      "authoritative": true,
+      "created": "2024-10-17T17:43:41+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33049",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9778",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50018",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-02-15T13:51:38+01:00",
+  "date": "2024-02-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50018",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Fahrradstraße Basler-Tor-Straße",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0153",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

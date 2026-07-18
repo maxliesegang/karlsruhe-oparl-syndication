@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674527.pdf",
+      "created": "2025-12-03T11:29:13+01:00",
+      "date": "2025-12-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674527.pdf",
+      "fileName": "00674527.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674527",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-03T11:05:32+02:00",
+      "name": "Antrag SPD_013",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674883.pdf",
+      "created": "2025-12-08T11:17:31+01:00",
+      "date": "2025-12-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674883.pdf",
+      "fileName": "00674883.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674883",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-03T11:05:32+02:00",
+      "name": "6713 Stellungnahme DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679539.pdf",
+      "created": "2026-07-03T11:05:28+02:00",
+      "date": "2026-07-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679539.pdf",
+      "fileName": "00679539.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679539",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-03T11:05:32+02:00",
+      "name": "Abstimmungergebnis",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99753",
+      "authoritative": true,
+      "created": "2025-12-03T11:46:50+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36718",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2026-07-03T09:16:17+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54070",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-12-03T11:27:53+01:00",
+  "date": "2025-12-03",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54070",
+  "modified": "2026-07-03T11:05:32+02:00",
+  "name": "Werderplatz als Platz für die Südstadt",
+  "paperType": "Haushalt THH 6700",
+  "reference": "DHH/2025/6713",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

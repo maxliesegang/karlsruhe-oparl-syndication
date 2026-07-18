@@ -1,0 +1,82 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626568.pdf",
+      "created": "2021-06-28T09:50:16+02:00",
+      "date": "2021-06-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626568.pdf",
+      "fileName": "00626568.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626568",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Pilotprojekt Ganztagsangebot für Schülerinnen und Schüler in Vorbereitungsklassen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00631057.pdf",
+      "created": "2021-11-02T11:57:01+01:00",
+      "date": "2021-11-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00631057.pdf",
+      "fileName": "00631057.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/631057",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 12, 13, 14",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/59395",
+      "created": "2021-06-28T10:06:52+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21599",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6244",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/39759"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41470",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/59742",
+      "created": "2021-07-14T09:47:26+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21600",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6264",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41470",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/60439",
+      "authoritative": true,
+      "created": "2021-08-24T13:27:06+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21601",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6279",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41470",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-06-28T09:47:45+02:00",
+  "date": "2021-06-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41470",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Pilotprojekt „Ganztagsangebot für Schülerinnen und Schüler in Vorbereitungsklassen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/0803",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/546903"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626321.pdf",
+      "created": "2021-06-21T07:12:47+02:00",
+      "date": "2021-06-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626321.pdf",
+      "fileName": "00626321.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626321",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626433.pdf",
+      "created": "2021-06-22T12:07:18+02:00",
+      "date": "2021-06-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626433.pdf",
+      "fileName": "00626433.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626433",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN Zusätzliche Maßnahmen bei verstärktem Wachstum der Gräser",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626503.pdf",
+      "created": "2021-06-23T12:45:08+02:00",
+      "date": "2021-06-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626503.pdf",
+      "fileName": "00626503.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626503",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/58954",
+      "authoritative": true,
+      "created": "2021-06-21T08:59:07+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21534",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6235",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41432",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-06-21T07:12:33+02:00",
+  "date": "2021-06-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41432",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Vergabe der Pflegearbeiten in den öffentlichen Grünanlagen - Naturnahe Mahd 2022 bis 2023, Lose 30 bis 33",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2021/0599/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41249"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882984"
+  ]
+}

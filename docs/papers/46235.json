@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634767.pdf",
+      "created": "2021-12-16T14:45:27+01:00",
+      "date": "2021-12-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634767.pdf",
+      "fileName": "00634767.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634767",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635118.pdf",
+      "created": "2022-01-11T08:59:41+01:00",
+      "date": "2022-01-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635118.pdf",
+      "fileName": "00635118.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635118",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN FDP-Anfrage Supervision in Behörden",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635790.pdf",
+      "created": "2022-02-08T14:47:07+01:00",
+      "date": "2022-02-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635790.pdf",
+      "fileName": "00635790.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635790",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/67348",
+      "authoritative": true,
+      "created": "2021-12-27T10:35:09+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26598",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6580",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46235",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-12-16T14:44:58+01:00",
+  "date": "2021-12-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46235",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Supervision in Behörden",
+  "paperType": "Anfrage",
+  "reference": "2021/1527",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

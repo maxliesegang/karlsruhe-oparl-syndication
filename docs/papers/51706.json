@@ -1,0 +1,58 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665759.pdf",
+      "created": "2025-03-18T18:13:29+01:00",
+      "date": "2025-03-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665759.pdf",
+      "fileName": "00665759.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665759",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-12T08:59:08+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666443.pdf",
+      "created": "2025-04-15T11:48:43+02:00",
+      "date": "2025-04-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666443.pdf",
+      "fileName": "00666443.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666443",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-12T08:59:08+02:00",
+      "name": "Protokoll-Ausschuss_00665759_250404_Empf-Ö-Michiganstraße 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93052",
+      "created": "2025-03-27T09:09:53+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33892",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10165",
+      "modified": "2025-03-27T09:09:53+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54847"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51706",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-03-18T18:11:05+01:00",
+  "date": "2025-03-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51706",
+  "modified": "2025-06-12T08:59:08+02:00",
+  "name": "Umnutzung Kirche und Neubau Wohnen Michiganstraße 1, Nordstadt",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/0278",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52042"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

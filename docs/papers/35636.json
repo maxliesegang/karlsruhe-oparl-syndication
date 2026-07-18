@@ -1,0 +1,76 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00598194.pdf",
+      "created": "2017-06-30T08:09:47+02:00",
+      "date": "2017-06-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00598194.pdf",
+      "fileName": "00598194.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/598194",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Ticketpreise Das Fest",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00598578.pdf",
+      "created": "2017-07-26T09:27:03+02:00",
+      "date": "2017-07-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00598578.pdf",
+      "fileName": "00598578.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/598578",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00598644.pdf",
+      "created": "2017-08-03T10:09:15+02:00",
+      "date": "2017-08-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00598644.pdf",
+      "fileName": "00598644.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/598644",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Gemeinderat TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2017-06-13T08:34:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14404",
+      "modified": "2018-11-28T14:19:31+01:00",
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35636",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/40933",
+      "authoritative": true,
+      "created": "2017-06-27T10:09:29+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14406",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4624",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35636",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-06-13T08:33:18+02:00",
+  "date": "2017-06-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35636",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "KEG Karlsruhe Event GmbH: DAS FEST - Erhöhung des Ticketpreises",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0389",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

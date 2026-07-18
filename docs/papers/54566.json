@@ -1,0 +1,85 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678447.pdf",
+      "created": "2026-05-18T07:42:27+02:00",
+      "date": "2026-05-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678447.pdf",
+      "fileName": "00678447.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678447",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T14:46:40+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678795.pdf",
+      "created": "2026-06-01T17:19:41+02:00",
+      "date": "2026-06-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678795.pdf",
+      "fileName": "00678795.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678795",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T14:46:40+02:00",
+      "name": "Anlage 1_LuKIFG-Maßnahmen - Stand 13.5.2026",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679463.pdf",
+      "created": "2026-06-30T20:51:01+02:00",
+      "date": "2026-06-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679463.pdf",
+      "fileName": "00679463.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679463",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T14:46:40+02:00",
+      "name": "Abstimmungsergebnis TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679618.pdf",
+      "created": "2026-07-07T14:46:36+02:00",
+      "date": "2026-07-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679618.pdf",
+      "fileName": "00679618.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679618",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T14:46:40+02:00",
+      "name": "Protokoll GR 23.06.2026 TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101905",
+      "authoritative": true,
+      "created": "2026-05-26T14:29:29+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37420",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10540",
+      "modified": "2026-06-24T11:17:01+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54566",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-05-15T10:18:58+02:00",
+  "date": "2026-05-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54566",
+  "modified": "2026-07-07T14:46:40+02:00",
+  "name": "Verwendung der Fördermittel aus dem Länder-und-Kommunal-Infrastrukturfinanzierungsgesetz (LuKIFG)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0400",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54664",
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54672",
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54678"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

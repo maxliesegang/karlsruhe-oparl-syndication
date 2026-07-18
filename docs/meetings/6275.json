@@ -1,0 +1,109 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/22019",
+      "created": "2021-09-10T12:11:55+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/60663",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6275",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Biozertifizierung der Stadtgärtnerei",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "auxiliaryFile": [
+        {
+          "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00628094.pdf",
+          "created": "2021-09-14T15:11:02+02:00",
+          "date": "2021-09-14",
+          "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00628094.pdf",
+          "fileName": "00628094.pdf",
+          "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/628094",
+          "mimeType": "application/pdf",
+          "modified": "2025-03-03T14:30:18+01:00",
+          "name": "GrueneLunge_Umweltausschuss",
+          "type": "https://schema.oparl.org/1.1/File"
+        }
+      ],
+      "created": "2021-09-10T11:38:13+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/60660",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6275",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Ergebnisbericht des Forschungsprojektes \"Grüne Lunge\" (mündl. Bericht)",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "auxiliaryFile": [
+        {
+          "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00628097.pdf",
+          "created": "2021-09-14T15:15:17+02:00",
+          "date": "2021-09-14",
+          "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00628097.pdf",
+          "fileName": "00628097.pdf",
+          "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/628097",
+          "mimeType": "application/pdf",
+          "modified": "2025-03-03T14:30:18+01:00",
+          "name": "2021-09-10 eingezäunte Hundeauslauffläche",
+          "type": "https://schema.oparl.org/1.1/File"
+        }
+      ],
+      "created": "2021-09-10T11:38:39+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/60661",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6275",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verschiedenes",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00630916.pdf",
+      "created": "2021-10-26T14:07:49+02:00",
+      "date": "2021-10-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00630916.pdf",
+      "fileName": "00630916.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/630916",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_oeffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2020-09-10T14:33:47+02:00",
+  "end": "2021-09-23T19:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6275",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00628011.pdf",
+    "created": "2021-09-10T12:21:43+02:00",
+    "date": "2021-09-10",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00628011.pdf",
+    "fileName": "00628011.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/628011",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2020-09-10T14:33:47+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6275",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ausschuss für öffentliche Einrichtungen",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+  ],
+  "start": "2021-09-23T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

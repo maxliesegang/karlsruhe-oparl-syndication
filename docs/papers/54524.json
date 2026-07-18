@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678157.pdf",
+      "created": "2026-05-05T12:02:10+02:00",
+      "date": "2026-05-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678157.pdf",
+      "fileName": "00678157.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678157",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T15:01:16+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678654.pdf",
+      "created": "2026-05-27T08:13:54+02:00",
+      "date": "2026-05-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678654.pdf",
+      "fileName": "00678654.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678654",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T15:01:16+02:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679642.pdf",
+      "created": "2026-07-07T15:01:13+02:00",
+      "date": "2026-07-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679642.pdf",
+      "fileName": "00679642.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679642",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T15:01:16+02:00",
+      "name": "Protokoll GR 23.06.2026 TOP 36",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101925",
+      "authoritative": true,
+      "created": "2026-05-26T14:29:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37371",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10540",
+      "modified": "2026-06-24T10:12:40+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54524",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-05-05T12:01:47+02:00",
+  "date": "2026-05-05",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54524",
+  "modified": "2026-07-07T15:01:16+02:00",
+  "name": "Schnelle Hilfen für wohnungslose und sozial isolierte Menschen mit schweren psychischen Erkrankungen in Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2026/0359",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

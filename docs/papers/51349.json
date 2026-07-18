@@ -1,0 +1,107 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663452.pdf",
+      "created": "2024-12-05T08:43:21+01:00",
+      "date": "2024-12-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663452.pdf",
+      "fileName": "00663452.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663452",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T07:53:03+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664478.pdf",
+      "created": "2025-01-27T08:42:01+01:00",
+      "date": "2025-01-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664478.pdf",
+      "fileName": "00664478.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664478",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T07:53:03+02:00",
+      "name": "Protokoll GR 21.01.2025 TOP 13",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665041.pdf",
+      "created": "2025-02-19T08:30:23+01:00",
+      "date": "2025-02-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665041.pdf",
+      "fileName": "00665041.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665041",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T07:53:03+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668044.pdf",
+      "created": "2025-06-17T07:52:55+02:00",
+      "date": "2025-06-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668044.pdf",
+      "fileName": "00668044.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668044",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T07:53:03+02:00",
+      "name": "Protokoll GR 27.05.2025 TOP 23",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91800",
+      "authoritative": true,
+      "created": "2025-01-03T10:38:45+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33371",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10044",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51349",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92051",
+      "created": "2025-01-21T09:17:40+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33469",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10067",
+      "modified": "2025-03-20T17:13:48+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51349",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93776",
+      "authoritative": true,
+      "created": "2025-05-07T08:24:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33908",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10048",
+      "modified": "2025-05-27T18:39:26+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51349",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-12-04T10:33:29+01:00",
+  "date": "2024-12-04",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51349",
+  "modified": "2025-06-17T07:53:03+02:00",
+  "name": "Satzung für Radunterstände für nur besonders relevante Gebiete",
+  "paperType": "Antrag",
+  "reference": "2024/1385",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

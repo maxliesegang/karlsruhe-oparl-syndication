@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677470.pdf",
+      "created": "2026-04-02T17:45:00+02:00",
+      "date": "2026-04-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677470.pdf",
+      "fileName": "00677470.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677470",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:40:43+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678026.pdf",
+      "created": "2026-04-29T11:16:16+02:00",
+      "date": "2026-04-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678026.pdf",
+      "fileName": "00678026.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678026",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:40:43+02:00",
+      "name": "Abstimmungsergebnis TOP 5",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678387.pdf",
+      "created": "2026-05-15T10:40:40+02:00",
+      "date": "2026-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678387.pdf",
+      "fileName": "00678387.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678387",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:40:43+02:00",
+      "name": "Protokoll GR 28.04.2026 TOP 5",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101123",
+      "authoritative": true,
+      "created": "2026-04-01T09:53:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37121",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10512",
+      "modified": "2026-04-28T18:42:51+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54354",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-03-16T14:43:39+01:00",
+  "date": "2026-03-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54354",
+  "modified": "2026-05-15T10:40:43+02:00",
+  "name": "Änderung der Besetzung verschiedener Aufsichtsräte und Stiftungsräte nach dem Ausscheiden von Franziska Buresch und Herrn Stadtrat Benjamin Bauer",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0211",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

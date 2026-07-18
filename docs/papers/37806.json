@@ -1,0 +1,94 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611313.pdf",
+      "created": "2019-09-25T08:28:54+02:00",
+      "date": "2019-09-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611313.pdf",
+      "fileName": "00611313.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611313",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612134.pdf",
+      "created": "2019-11-08T13:08:14+01:00",
+      "date": "2019-11-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612134.pdf",
+      "fileName": "00612134.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612134",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 24",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612960.pdf",
+      "created": "2019-12-12T10:41:13+01:00",
+      "date": "2019-12-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612960.pdf",
+      "fileName": "00612960.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612960",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis_Top24",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614566.pdf",
+      "created": "2020-01-29T09:57:21+01:00",
+      "date": "2020-01-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614566.pdf",
+      "fileName": "00614566.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614566",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 24",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47414",
+      "authoritative": true,
+      "created": "2019-10-24T08:46:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17132",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5423",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37806",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47881",
+      "authoritative": true,
+      "created": "2019-11-26T10:53:34+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17132",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5444",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37806",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-09-25T08:27:54+02:00",
+  "date": "2019-09-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37806",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Kostenfreies Karlsruhe",
+  "paperType": "Antrag",
+  "reference": "2019/0932",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

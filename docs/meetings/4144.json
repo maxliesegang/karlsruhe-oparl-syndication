@@ -1,0 +1,57 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/13569",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/39092",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4144",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Annahme des Angebots von Zuwendungen",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2016-10-12T09:08:39+02:00",
+  "end": "2016-09-13T19:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4144",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00593287.pdf",
+    "created": "2016-10-12T09:08:36+02:00",
+    "date": "2016-09-01",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00593287.pdf",
+    "fileName": "00593287.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/593287",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2016-10-12T09:08:39+02:00",
+    "description": "Großer Sitzungssaal, Rathaus Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/4144",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Hauptausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+  ],
+  "resultsProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00593546.pdf",
+    "created": "2016-10-12T09:08:36+02:00",
+    "date": "2016-09-14",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00593546.pdf",
+    "fileName": "00593546.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/593546",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Anwesenheit (Protokoll)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "start": "2016-09-13T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

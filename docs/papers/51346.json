@@ -1,0 +1,82 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663385.pdf",
+      "created": "2024-12-03T13:05:16+01:00",
+      "date": "2024-12-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663385.pdf",
+      "fileName": "00663385.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663385",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-02T06:37:44+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664476.pdf",
+      "created": "2025-01-27T08:41:25+01:00",
+      "date": "2025-01-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664476.pdf",
+      "fileName": "00664476.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664476",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-02T06:37:43+02:00",
+      "name": "Protokoll GR 21.01.2025 TOP 11",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666284.pdf",
+      "created": "2025-04-08T15:26:32+02:00",
+      "date": "2025-04-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666284.pdf",
+      "fileName": "00666284.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666284",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-02T06:37:43+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91726",
+      "authoritative": true,
+      "created": "2024-12-17T10:41:39+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33365",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10044",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51346",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94634",
+      "authoritative": true,
+      "created": "2025-06-17T14:19:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33382",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10107",
+      "modified": "2025-07-16T16:25:53+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33195"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51346",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-12-03T13:04:21+01:00",
+  "date": "2024-12-03",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51346",
+  "modified": "2025-07-22T18:29:25+02:00",
+  "name": "Konzept \"Bielefelder Modell\" zum selbstbestimmten Wohnen für weitere Quartiere",
+  "paperType": "Antrag",
+  "reference": "2024/1382",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

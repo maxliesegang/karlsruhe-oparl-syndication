@@ -1,0 +1,94 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661098.pdf",
+      "created": "2024-09-24T14:42:26+02:00",
+      "date": "2024-09-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661098.pdf",
+      "fileName": "00661098.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661098",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661325.pdf",
+      "created": "2024-10-01T13:10:18+02:00",
+      "date": "2024-10-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661325.pdf",
+      "fileName": "00661325.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661325",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme zum Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662111.pdf",
+      "created": "2024-10-28T09:43:38+01:00",
+      "date": "2024-10-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662111.pdf",
+      "fileName": "00662111.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662111",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 22.10.2024 TOP 28",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662627.pdf",
+      "created": "2024-11-11T15:06:24+01:00",
+      "date": "2024-11-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662627.pdf",
+      "fileName": "00662627.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662627",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_HA_05.11.2024_TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90550",
+      "authoritative": true,
+      "created": "2024-10-07T15:28:14+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32894",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51015",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90608",
+      "authoritative": true,
+      "created": "2024-10-08T12:49:09+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32914",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9520",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51015",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-09-24T14:41:53+02:00",
+  "date": "2024-09-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51015",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Wertschätzung für Wahlhelferinnen und Wahlhelfer: Maßnahmen zur Attraktivitätssteigerung - Erkenntnisse aus der Kommunalwahl ernst nehmen",
+  "paperType": "Antrag",
+  "reference": "2024/1075",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882965"
+  ]
+}

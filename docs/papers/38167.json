@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00613011.pdf",
+      "created": "2019-12-17T07:55:53+01:00",
+      "date": "2019-12-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00613011.pdf",
+      "fileName": "00613011.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/613011",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00613313.pdf",
+      "created": "2020-01-10T17:06:19+01:00",
+      "date": "2020-01-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00613313.pdf",
+      "fileName": "00613313.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/613313",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 37",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614866.pdf",
+      "created": "2020-02-11T10:28:55+01:00",
+      "date": "2020-02-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614866.pdf",
+      "fileName": "00614866.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614866",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 37",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/48175",
+      "authoritative": true,
+      "created": "2019-12-18T08:12:04+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17580",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5661",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38167",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-12-17T07:55:34+01:00",
+  "date": "2019-12-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38167",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Fahrradverkehr an der Kreuzung Fritz-Erler-Straße/Markgrafenstraße",
+  "paperType": "Anfrage",
+  "reference": "2019/1305",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634971.pdf",
+      "created": "2022-01-04T12:16:28+01:00",
+      "date": "2022-01-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634971.pdf",
+      "fileName": "00634971.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634971",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Regionale Schulentwicklung _Änderung der Sprachenfolge Gymn Neureut",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635480.pdf",
+      "created": "2022-01-26T10:36:19+01:00",
+      "date": "2022-01-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635480.pdf",
+      "fileName": "00635480.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635480",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis  GR TOP10",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635778.pdf",
+      "created": "2022-02-08T14:41:21+01:00",
+      "date": "2022-02-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635778.pdf",
+      "fileName": "00635778.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635778",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/67084",
+      "created": "2021-12-01T14:21:30+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26523",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6347",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46180",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/67326",
+      "authoritative": true,
+      "created": "2021-12-27T10:35:08+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26524",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6580",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46180",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-12-01T14:12:19+01:00",
+  "date": "2021-12-01",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46180",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Regionale Schulentwicklung: Änderung der Sprachenfolge am Gymnasium Neureut",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/1482",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

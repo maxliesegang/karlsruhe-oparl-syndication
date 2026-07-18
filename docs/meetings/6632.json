@@ -1,0 +1,108 @@
+{
+  "agendaItem": [
+    {
+      "created": "2021-12-16T11:13:39+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/67243",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6632",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Amt für Hochbau und Gebäudewirtschaft",
+      "number": "",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26370",
+      "created": "2021-12-16T11:13:39+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/67246",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6632",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Walter-Eucken-Schule, Modernisierung (inkl. Photovoltaikanlage)",
+      "number": "1",
+      "order": 2,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2021-12-16T11:13:39+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/67242",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6632",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Tiefbauamt",
+      "number": "",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26567",
+      "created": "2021-12-16T11:13:39+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/67247",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6632",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Gemeindestraßen, Umbau der Händelstraße",
+      "number": "2",
+      "order": 4,
+      "public": true,
+      "result": "mehrheitlich beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26586",
+      "created": "2021-12-16T11:13:39+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/67248",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6632",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Gemeindestraßen, Sanierung der Theodor-Heuss-Allee zwischen Birkenparkplatz und Rintheimer Querallee",
+      "number": "3",
+      "order": 5,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647935.pdf",
+      "created": "2023-06-06T12:33:41+02:00",
+      "date": "2023-06-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647935.pdf",
+      "fileName": "00647935.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647935",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "BA 10.01.2022 Protokoll - ö",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2021-09-30T11:44:54+02:00",
+  "end": "2022-01-10T16:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6632",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634764.pdf",
+    "created": "2021-12-16T11:18:39+01:00",
+    "date": "2021-12-16",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634764.pdf",
+    "fileName": "00634764.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634764",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2021-09-30T11:44:54+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6632",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Bauausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+  ],
+  "start": "2022-01-10T16:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

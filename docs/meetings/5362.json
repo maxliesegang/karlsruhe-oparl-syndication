@@ -1,0 +1,93 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16733",
+      "created": "2019-06-12T10:09:36+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46194",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5362",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Annahme des Angebots von Zuwendungen",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16734",
+      "created": "2019-06-12T11:34:28+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46210",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5362",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Jährlicher Bericht über die Entwicklung des Frauenanteils in Führungspositionen bei Stadtwerke Karlsruhe GmbH, Städtisches Klinikum Karlsruhe gGmbH, Verkehrsbetriebe Karlsruhe GmbH und VOLKSWOHNUNG GmbH",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16767",
+      "created": "2019-06-21T10:07:38+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46247",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5362",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Wiederherstellung Marktplatzbrunnen mit Großherzog-Ludwig-Denkmal",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16750",
+      "created": "2019-06-12T10:09:36+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46197",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5362",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Auftragsvergabe für die Übernahme und Verwertung von Alttextilien der Stadt Karlsruhe",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2018-09-20T13:42:53+02:00",
+  "end": "2019-07-09T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5362",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610397.pdf",
+    "created": "2019-07-02T12:41:18+02:00",
+    "date": "2019-07-02",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610397.pdf",
+    "fileName": "00610397.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610397",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2018-09-20T13:42:53+02:00",
+    "description": "Großer Sitzungssaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5362",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Hauptausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+  ],
+  "resultsProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610477.pdf",
+    "created": "2019-07-10T07:50:46+02:00",
+    "date": "2019-07-10",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610477.pdf",
+    "fileName": "00610477.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610477",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Anwesenheit (Protokoll)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "start": "2019-07-09T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

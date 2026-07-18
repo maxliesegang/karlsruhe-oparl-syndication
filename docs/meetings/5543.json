@@ -1,0 +1,96 @@
+{
+  "agendaItem": [
+    {
+      "auxiliaryFile": [
+        {
+          "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610300.pdf",
+          "created": "2019-06-28T08:05:38+02:00",
+          "date": "2019-06-28",
+          "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610300.pdf",
+          "fileName": "00610300.pdf",
+          "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610300",
+          "mimeType": "application/pdf",
+          "modified": "2025-03-03T14:30:18+01:00",
+          "name": "2019.07.02 - ORS Beschlussvorlage Hinderungsgründe Ortschaftsräte",
+          "type": "https://schema.oparl.org/1.1/File"
+        }
+      ],
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16808",
+      "created": "2019-06-28T08:04:03+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46314",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5543",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Feststellung des Nichtvorliegens von Hinderungsgründen für den Eintritt der neu gewählten Ortschaftsratsmitglieder in den Ortschaftsrat",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2019-06-28T08:06:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46316",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5543",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verabschiedung der ausscheidenden Ortschaftsratsmitglieder",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611169.pdf",
+      "created": "2019-09-20T11:59:04+02:00",
+      "date": "2019-09-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611169.pdf",
+      "fileName": "00611169.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611169",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "ORS öff. 50-02.07.2019",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611170.pdf",
+      "created": "2019-09-20T11:59:20+02:00",
+      "date": "2019-09-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611170.pdf",
+      "fileName": "00611170.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611170",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "ORS öff. 50-02.07.2019 Wortlaut der Beschlüsse der öffentlichen Sitzung",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2018-12-10T13:40:57+01:00",
+  "end": "2019-07-02T19:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5543",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610298.pdf",
+    "created": "2019-06-28T07:54:48+02:00",
+    "date": "2019-06-28",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610298.pdf",
+    "fileName": "00610298.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610298",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "ORS-Einl.öff.02.07.2019_PIA",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2018-12-10T13:40:57+01:00",
+    "description": "Begegnungsstätte",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5543",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ortschaftsrat Wolfartsweier (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+  ],
+  "start": "2019-07-02T19:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

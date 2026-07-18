@@ -1,0 +1,108 @@
+{
+  "agendaItem": [
+    {
+      "created": "2022-09-14T13:58:48+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72490",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6646",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Tiefbauamt",
+      "number": "",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27945",
+      "created": "2022-09-14T13:58:48+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72495",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6646",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Erstellung eines kommunalen Starkregenrisikomanagements nach dem Leitfaden des Landes Baden-Württemberg",
+      "number": "1",
+      "order": 2,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2022-09-14T13:58:48+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72491",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6646",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Amt für Hochbau und Gebäudewirtschaft",
+      "number": "",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28038",
+      "created": "2022-09-14T13:58:48+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72496",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6646",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Badisches Konservatorium, Umbau Dragonerkaserne",
+      "number": "2",
+      "order": 4,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27889",
+      "created": "2022-09-14T13:58:48+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72494",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6646",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verwaltungsgebäude Helmholtzstraße 9/11, Umbau und Modernisierung",
+      "number": "3",
+      "order": 5,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644099.pdf",
+      "created": "2023-01-17T14:03:01+01:00",
+      "date": "2023-01-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644099.pdf",
+      "fileName": "00644099.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644099",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll ö - BA 5.10.2022",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2021-09-30T12:07:09+02:00",
+  "end": "2022-10-05T16:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6646",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00641058.pdf",
+    "created": "2022-09-28T14:45:24+02:00",
+    "date": "2022-09-28",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00641058.pdf",
+    "fileName": "00641058.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/641058",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2021-09-30T12:07:09+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6646",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Bauausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+  ],
+  "start": "2022-10-05T16:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

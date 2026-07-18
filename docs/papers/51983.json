@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667480.pdf",
+      "created": "2025-05-27T10:17:48+02:00",
+      "date": "2025-05-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667480.pdf",
+      "fileName": "00667480.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667480",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-27T10:50:22+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667957.pdf",
+      "created": "2025-06-13T14:08:54+02:00",
+      "date": "2025-06-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667957.pdf",
+      "fileName": "00667957.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667957",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-27T10:50:22+02:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668462.pdf",
+      "created": "2025-06-27T10:50:15+02:00",
+      "date": "2025-06-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668462.pdf",
+      "fileName": "00668462.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668462",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-27T10:50:22+02:00",
+      "name": "Protokoll GR 24.06.2025 TOP 30",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94066",
+      "authoritative": true,
+      "created": "2025-05-27T11:10:46+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34317",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10049",
+      "modified": "2025-06-25T08:05:49+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51983",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-05-27T10:17:19+02:00",
+  "date": "2025-05-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51983",
+  "modified": "2025-06-27T10:50:22+02:00",
+  "name": "Umsetzung des Landesprogramms \"Wohnungstausch\" in Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2025/0521",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

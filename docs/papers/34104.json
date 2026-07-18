@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00587213.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2015-06-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00587213.pdf",
+      "fileName": "00587213.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/587213",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "GR Vergabe Mittagsverpflegung Sonderschulen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00587765.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2015-07-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00587765.pdf",
+      "fileName": "00587765.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/587765",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "GR Protokoll TOP 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/36747",
+      "authoritative": true,
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/12499",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3841",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/34104",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2015-05-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/34104",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Vergabe der Lieferung von Mittagsverpflegung an sechs Sonderschulen, Schulkindergärten und Förderschulen für das Schuljahr 2015/2016 mit der Option auf Vertragsverlängerung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2015/0318",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

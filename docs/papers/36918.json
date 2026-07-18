@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00606962.pdf",
+      "created": "2018-12-20T14:10:04+01:00",
+      "date": "2018-12-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00606962.pdf",
+      "fileName": "00606962.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/606962",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607937.pdf",
+      "created": "2019-02-15T10:27:07+01:00",
+      "date": "2019-02-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607937.pdf",
+      "fileName": "00607937.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607937",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 15 SPD",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608056.pdf",
+      "created": "2019-02-27T11:13:33+01:00",
+      "date": "2019-02-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608056.pdf",
+      "fileName": "00608056.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608056",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis Top15 SPD",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608849.pdf",
+      "created": "2019-04-03T10:16:32+02:00",
+      "date": "2019-04-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608849.pdf",
+      "fileName": "00608849.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608849",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44919",
+      "authoritative": true,
+      "created": "2019-01-29T14:40:38+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16056",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5276",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36918",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-12-20T14:09:20+01:00",
+  "date": "2018-12-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36918",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Verzicht auf Leiharbeit",
+  "paperType": "Antrag",
+  "reference": "2018/0918",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

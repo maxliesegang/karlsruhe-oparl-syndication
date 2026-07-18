@@ -1,9 +1,9 @@
-import { BaseStore } from './base-store.js';
+import { PerRecordStore } from './per-record-store.js';
 import { Paper } from '../types/index.js';
 import { store } from './index.js';
 import { FileContentType } from '../types/file-content-type.js';
 
-class PaperStore extends BaseStore<Paper> {
+export class PaperStore extends PerRecordStore<Paper> {
   private consultationPapers: Map<string, string> = new Map();
   private paperConsultations: Map<string, Set<string>> = new Map();
   private filePapers: Map<string, Set<string>> = new Map();
@@ -12,6 +12,10 @@ class PaperStore extends BaseStore<Paper> {
 
   getFileName(): string {
     return 'papers.json';
+  }
+
+  getDirName(): string {
+    return 'papers';
   }
 
   getLastModifiedWithSafetyMargin(): Date | undefined {

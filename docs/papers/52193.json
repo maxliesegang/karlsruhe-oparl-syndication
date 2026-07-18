@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668990.pdf",
+      "created": "2025-07-23T12:55:40+02:00",
+      "date": "2025-07-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668990.pdf",
+      "fileName": "00668990.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668990",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-02T08:23:20+02:00",
+      "name": "Informationsvorlage Wettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95121",
+      "authoritative": true,
+      "created": "2025-07-23T12:56:44+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34608",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10215",
+      "modified": "2025-09-17T07:44:55+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52193",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-07-23T12:55:25+02:00",
+  "date": "2025-07-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52193",
+  "modified": "2025-10-02T08:23:20+02:00",
+  "name": "Errichtung einer Sportbox in Wettersbach",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/0715",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882961"
+  ]
+}

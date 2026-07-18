@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624986.pdf",
+      "created": "2021-04-22T11:59:25+02:00",
+      "date": "2021-04-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624986.pdf",
+      "fileName": "00624986.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624986",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626025.pdf",
+      "created": "2021-06-09T08:46:20+02:00",
+      "date": "2021-06-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626025.pdf",
+      "fileName": "00626025.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626025",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN Abwassermonitoring",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00627083.pdf",
+      "created": "2021-07-19T08:18:32+02:00",
+      "date": "2021-07-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00627083.pdf",
+      "fileName": "00627083.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/627083",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 24 22.06.2021",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/58143",
+      "authoritative": true,
+      "created": "2021-05-21T14:54:21+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21176",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6235",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41169",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/58567",
+      "created": "2021-06-11T13:50:59+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21424",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6237",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41169",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-04-22T11:58:41+02:00",
+  "date": "2021-04-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41169",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Abwasser-Monitoring zu Covid-19",
+  "paperType": "Antrag",
+  "reference": "2021/0520",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

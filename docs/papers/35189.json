@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595015.pdf",
+      "created": "2016-12-01T14:52:46+01:00",
+      "date": "2016-12-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595015.pdf",
+      "fileName": "00595015.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595015",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "FW-Straba-Linien 5 und 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595116.pdf",
+      "created": "2016-12-09T09:14:59+01:00",
+      "date": "2016-12-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595116.pdf",
+      "fileName": "00595116.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595116",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 26",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595573.pdf",
+      "created": "2017-01-10T08:49:53+01:00",
+      "date": "2017-01-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595573.pdf",
+      "fileName": "00595573.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595573",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 26",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/39712",
+      "authoritative": true,
+      "created": "2016-11-14T14:00:12+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/13853",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4160",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35189",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-11-09T08:45:54+01:00",
+  "date": "2016-11-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35189",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Straßenbahnlinien 5 und 6",
+  "paperType": "Anfrage",
+  "reference": "2016/0722",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882999"
+  ]
+}

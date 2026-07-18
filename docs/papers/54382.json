@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677186.pdf",
+      "created": "2026-03-20T13:39:24+01:00",
+      "date": "2026-03-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677186.pdf",
+      "fileName": "00677186.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677186",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:48:07+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677490.pdf",
+      "created": "2026-04-07T14:26:28+02:00",
+      "date": "2026-04-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677490.pdf",
+      "fileName": "00677490.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677490",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:48:07+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678411.pdf",
+      "created": "2026-05-15T10:48:03+02:00",
+      "date": "2026-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678411.pdf",
+      "fileName": "00678411.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678411",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:48:07+02:00",
+      "name": "Protokoll GR 28.04.2026 TOP 25",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101191",
+      "authoritative": true,
+      "created": "2026-04-07T08:34:54+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37154",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10512",
+      "modified": "2026-05-26T12:02:49+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54382",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101205",
+      "created": "2026-04-07T12:08:38+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37216",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10514",
+      "modified": "2026-05-04T16:30:40+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54889"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54382",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-03-20T13:38:49+01:00",
+  "date": "2026-03-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54382",
+  "modified": "2026-05-15T10:48:07+02:00",
+  "name": "Verbesserung der allgemeinen Sauberkeit und des Erscheinungsbildes von Karlsruhe",
+  "paperType": "Antrag",
+  "reference": "2026/0234",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

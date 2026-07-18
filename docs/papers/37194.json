@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608944.pdf",
+      "created": "2019-04-05T15:34:51+02:00",
+      "date": "2019-04-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608944.pdf",
+      "fileName": "00608944.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608944",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Verfassungsfest",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608979.pdf",
+      "created": "2019-04-10T11:14:44+02:00",
+      "date": "2019-04-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608979.pdf",
+      "fileName": "00608979.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608979",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis GR Top4",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609773.pdf",
+      "created": "2019-05-16T10:53:53+02:00",
+      "date": "2019-05-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609773.pdf",
+      "fileName": "00609773.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609773",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45351",
+      "authoritative": true,
+      "created": "2019-03-26T12:05:12+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16375",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5307",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37194",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-03-26T07:48:46+01:00",
+  "date": "2019-03-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37194",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Sachstand zum VerfassungsFEST 70 Jahre Grundgesetz und Sachstand zum Forum Recht",
+  "paperType": "Beschlussvorlage",
+  "reference": "2019/0283",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615131.pdf",
+      "created": "2020-02-26T08:23:32+01:00",
+      "date": "2020-02-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615131.pdf",
+      "fileName": "00615131.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615131",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615604.pdf",
+      "created": "2020-03-16T13:08:58+01:00",
+      "date": "2020-03-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615604.pdf",
+      "fileName": "00615604.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615604",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 55",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00616876.pdf",
+      "created": "2020-03-30T10:08:06+02:00",
+      "date": "2020-03-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00616876.pdf",
+      "fileName": "00616876.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/616876",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 55",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/50060",
+      "created": "2020-02-26T08:45:18+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17958",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5663",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38455",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-02-26T08:23:13+01:00",
+  "date": "2020-02-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38455",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Zukunft der Bildungsakademie der Handwerkskammer Karlsruhe in Karlsruhe oder in Bruchsal oder Bretten?",
+  "paperType": "Anfrage",
+  "reference": "2020/0242",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

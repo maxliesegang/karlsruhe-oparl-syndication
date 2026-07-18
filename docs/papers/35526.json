@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00597486.pdf",
+      "created": "2017-05-12T12:07:13+02:00",
+      "date": "2017-05-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00597486.pdf",
+      "fileName": "00597486.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/597486",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Verlängerung Frühlingstraße",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00597487.pdf",
+      "created": "2017-05-12T12:07:27+02:00",
+      "date": "2017-05-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00597487.pdf",
+      "fileName": "00597487.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/597487",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Fruehlingstrasse",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00597755.pdf",
+      "created": "2017-05-24T09:45:13+02:00",
+      "date": "2017-05-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00597755.pdf",
+      "fileName": "00597755.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/597755",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00597809.pdf",
+      "created": "2017-05-31T09:33:09+02:00",
+      "date": "2017-05-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00597809.pdf",
+      "fileName": "00597809.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/597809",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/40583",
+      "authoritative": true,
+      "created": "2017-04-25T10:21:13+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14280",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4585",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35526",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-04-25T09:17:52+02:00",
+  "date": "2017-04-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35526",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Verlängerung der Frühlingstraße",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0273",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

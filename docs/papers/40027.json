@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618521.pdf",
+      "created": "2020-06-30T11:59:50+02:00",
+      "date": "2020-06-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618521.pdf",
+      "fileName": "00618521.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618521",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618531.pdf",
+      "created": "2020-06-30T15:37:02+02:00",
+      "date": "2020-06-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618531.pdf",
+      "fileName": "00618531.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618531",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 7 Ergänzungsantrag GRÜNE",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53338",
+      "authoritative": true,
+      "created": "2020-06-30T12:15:53+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19691",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5666",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40027",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-06-30T11:58:59+02:00",
+  "date": "2020-06-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40027",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Klimaanpassung des Stadtwaldes",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2020/0818",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

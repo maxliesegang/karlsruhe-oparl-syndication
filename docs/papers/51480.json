@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664307.pdf",
+      "created": "2025-01-20T14:38:49+01:00",
+      "date": "2025-01-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664307.pdf",
+      "fileName": "00664307.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664307",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-11T08:41:13+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664529.pdf",
+      "created": "2025-01-28T10:36:46+01:00",
+      "date": "2025-01-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664529.pdf",
+      "fileName": "00664529.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664529",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-11T08:41:13+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665519.pdf",
+      "created": "2025-03-11T08:41:10+01:00",
+      "date": "2025-03-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665519.pdf",
+      "fileName": "00665519.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665519",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-11T08:41:13+01:00",
+      "name": "Protokoll GR 18.02.2025 TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92080",
+      "authoritative": true,
+      "created": "2025-01-21T10:03:02+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33567",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10045",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51480",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-01-20T14:37:06+01:00",
+  "date": "2025-01-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51480",
+  "modified": "2025-03-11T08:41:13+01:00",
+  "name": "Zugang von Kindern mit Sprachförderbedarf zu Kindertageseinrichtungen",
+  "paperType": "Anfrage",
+  "reference": "2025/0063",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

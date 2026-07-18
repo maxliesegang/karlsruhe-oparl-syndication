@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615629.pdf",
+      "created": "2020-03-19T12:53:56+01:00",
+      "date": "2020-03-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615629.pdf",
+      "fileName": "00615629.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615629",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617340.pdf",
+      "created": "2020-04-24T12:37:42+02:00",
+      "date": "2020-04-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617340.pdf",
+      "fileName": "00617340.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617340",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 8.9",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635230.pdf",
+      "created": "2022-01-13T12:27:13+01:00",
+      "date": "2022-01-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635230.pdf",
+      "fileName": "00635230.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635230",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/51382",
+      "created": "2020-03-24T07:37:11+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/18079",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5663",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38553",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/51581",
+      "authoritative": true,
+      "created": "2020-03-31T15:16:58+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/18083",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5664",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38553",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-03-19T12:53:32+01:00",
+  "date": "2020-03-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38553",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Auswirkungen der Corona-Krise auf die Bürger*innen und die Stadt Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2020/0340",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

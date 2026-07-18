@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650013.pdf",
+      "created": "2023-08-22T10:48:15+02:00",
+      "date": "2023-08-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650013.pdf",
+      "fileName": "00650013.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650013",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage Wettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650623.pdf",
+      "created": "2023-09-14T18:30:09+02:00",
+      "date": "2023-09-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650623.pdf",
+      "fileName": "00650623.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650623",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650624.pdf",
+      "created": "2023-09-14T18:37:42+02:00",
+      "date": "2023-09-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650624.pdf",
+      "fileName": "00650624.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650624",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Tischvorlage Wettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/80005",
+      "authoritative": true,
+      "created": "2023-08-23T14:24:50+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30314",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9254",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49060",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-08-22T10:46:37+02:00",
+  "date": "2023-08-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49060",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Ortsteilhaushalt Wettersbach zum Doppelhaushalt 2024/2025",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0954",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882961"
+  ]
+}

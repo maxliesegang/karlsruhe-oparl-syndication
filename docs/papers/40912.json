@@ -1,0 +1,94 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00623743.pdf",
+      "created": "2021-02-25T14:43:21+01:00",
+      "date": "2021-02-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00623743.pdf",
+      "fileName": "00623743.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/623743",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625292.pdf",
+      "created": "2021-05-04T09:43:21+02:00",
+      "date": "2021-05-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625292.pdf",
+      "fileName": "00625292.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625292",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN Antrag FDP Einstellung Projekt neue Entsorgungslogistik_V5",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625666.pdf",
+      "created": "2021-05-20T15:40:05+02:00",
+      "date": "2021-05-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625666.pdf",
+      "fileName": "00625666.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625666",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis Top14",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625922.pdf",
+      "created": "2021-06-07T09:49:30+02:00",
+      "date": "2021-06-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625922.pdf",
+      "fileName": "00625922.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625922",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 18.05.21 TOP 14",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/57241",
+      "authoritative": true,
+      "created": "2021-03-31T11:49:36+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20837",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6195",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40912",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/57446",
+      "authoritative": true,
+      "created": "2021-04-20T14:03:09+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21038",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6214",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40912",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-02-25T14:41:53+01:00",
+  "date": "2021-02-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40912",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Einstellung des Projekts der neuen Entsorgungslogistik des Amts für Abfallwirtschaft (AfA)",
+  "paperType": "Antrag",
+  "reference": "2021/0271",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

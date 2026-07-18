@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00613120.pdf",
+      "created": "2019-12-23T13:19:34+01:00",
+      "date": "2019-12-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00613120.pdf",
+      "fileName": "00613120.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/613120",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614385.pdf",
+      "created": "2020-01-17T15:46:40+01:00",
+      "date": "2020-01-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614385.pdf",
+      "fileName": "00614385.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614385",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 28 Strukturkommission",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614496.pdf",
+      "created": "2020-01-23T14:43:32+01:00",
+      "date": "2020-01-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614496.pdf",
+      "fileName": "00614496.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614496",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis_Top28",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614857.pdf",
+      "created": "2020-02-11T10:24:02+01:00",
+      "date": "2020-02-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614857.pdf",
+      "fileName": "00614857.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614857",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 28",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/48212",
+      "authoritative": true,
+      "created": "2019-12-23T14:01:03+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17610",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5661",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38191",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-12-23T13:18:40+01:00",
+  "date": "2019-12-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38191",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Öffentliche Sitzung der Strukturkommission am 22.01.2020 für TOP 1 und 4",
+  "paperType": "Antrag",
+  "reference": "2019/1328",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664408.pdf",
+      "created": "2025-01-22T09:26:59+01:00",
+      "date": "2025-01-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664408.pdf",
+      "fileName": "00664408.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664408",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-11T08:40:02+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664492.pdf",
+      "created": "2025-01-27T11:48:39+01:00",
+      "date": "2025-01-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664492.pdf",
+      "fileName": "00664492.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664492",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-24T12:32:38+01:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665516.pdf",
+      "created": "2025-03-11T08:40:00+01:00",
+      "date": "2025-03-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665516.pdf",
+      "fileName": "00665516.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665516",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-11T08:40:02+01:00",
+      "name": "Protokoll GR 18.02.2025 TOP 18",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92227",
+      "authoritative": true,
+      "created": "2025-02-04T09:41:34+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33587",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10045",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51493",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92737",
+      "created": "2025-03-05T15:27:13+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33632",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10068",
+      "modified": "2025-04-14T12:52:42+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51493",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-01-21T19:44:45+01:00",
+  "date": "2025-01-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51493",
+  "modified": "2025-03-11T08:40:02+01:00",
+  "name": "Wiederaufstellung eines Maibaums in Mühlburg",
+  "paperType": "Antrag",
+  "reference": "2025/0074",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

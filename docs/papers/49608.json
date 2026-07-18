@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00652464.pdf",
+      "created": "2023-10-23T12:08:39+02:00",
+      "date": "2023-10-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00652464.pdf",
+      "fileName": "00652464.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/652464",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653567.pdf",
+      "created": "2023-11-09T19:04:29+01:00",
+      "date": "2023-11-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653567.pdf",
+      "fileName": "00653567.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653567",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654872.pdf",
+      "created": "2023-12-19T15:00:30+01:00",
+      "date": "2023-12-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654872.pdf",
+      "fileName": "00654872.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654872",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 24",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83209",
+      "authoritative": true,
+      "created": "2023-10-30T14:44:31+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30925",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9054",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49608",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-10-23T12:08:05+02:00",
+  "date": "2023-10-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49608",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Verlängerung Betriebserlaubnis der Turmbergbahn",
+  "paperType": "Anfrage",
+  "reference": "2023/1222",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882999"
+  ]
+}

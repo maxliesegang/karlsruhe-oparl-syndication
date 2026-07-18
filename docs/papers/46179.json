@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634970.pdf",
+      "created": "2022-01-04T12:13:57+01:00",
+      "date": "2022-01-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634970.pdf",
+      "fileName": "00634970.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634970",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderung Ganztagsbetrieb Weinbrennerschule",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635479.pdf",
+      "created": "2022-01-26T10:35:53+01:00",
+      "date": "2022-01-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635479.pdf",
+      "fileName": "00635479.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635479",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis  GR TOP9",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635777.pdf",
+      "created": "2022-02-08T14:41:00+01:00",
+      "date": "2022-02-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635777.pdf",
+      "fileName": "00635777.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635777",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/67083",
+      "created": "2021-12-01T14:21:30+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26521",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6347",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46179",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/67325",
+      "authoritative": true,
+      "created": "2021-12-27T10:35:08+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26522",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6580",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46179",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-12-01T14:10:04+01:00",
+  "date": "2021-12-01",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46179",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Antrag auf Änderung des Ganztagsbetriebs an der Weinbrennerschule (Grundschule) zum Schuljahr 2022/23",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/1481",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

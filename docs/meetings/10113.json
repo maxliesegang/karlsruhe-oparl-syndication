@@ -1,0 +1,74 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33975",
+      "created": "2025-06-03T09:17:11+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94137",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10113",
+      "modified": "2025-07-14T10:24:39+02:00",
+      "name": "Auftragsvergabe für die Bereitstellung von Carsharing-Dienstleistungen",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34209",
+      "created": "2025-06-03T09:17:11+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94138",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10113",
+      "modified": "2025-07-14T10:25:05+02:00",
+      "name": "Geschäftsordnung für die Betriebsleitung des Eigenbetriebs \"Team Sauberes Karlsruhe - Abfallwirtschaft und Stadtreinigung\"",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-06-03T09:17:11+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94136",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10113",
+      "modified": "2025-08-27T13:33:28+02:00",
+      "name": "Verschiedenes",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2024-10-17T13:06:47+02:00",
+  "end": "2025-07-11T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10113",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667644.pdf",
+    "created": "2025-06-03T09:48:32+02:00",
+    "date": "2025-06-23",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667644.pdf",
+    "fileName": "00667644.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667644",
+    "mimeType": "application/pdf",
+    "modified": "2025-07-08T08:08:53+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2022-12-29T15:24:53+01:00",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/rm/67922",
+    "locality": "",
+    "modified": "2023-08-21T13:57:08+02:00",
+    "postalCode": "",
+    "room": "Großer Sitzungssaal",
+    "streetAddress": "",
+    "subLocality": "",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-08-26T11:27:49+02:00",
+  "name": "Betriebsausschuss Eigenbetrieb Abfallwirtschaft und Stadtreinigung (öffentlich/nichtöffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54889"
+  ],
+  "start": "2025-07-11T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

@@ -1,0 +1,97 @@
+{
+  "agendaItem": [
+    {
+      "created": "2022-05-09T12:50:01+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70010",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6642",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Amt für Hochbau und Gebäudewirtschaft",
+      "number": "",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27257",
+      "created": "2022-05-09T12:50:01+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70015",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6642",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Heinrich-Hübsch-Schule, Teilmodernisierung Werkstätten, Instandsetzung Brandschutzklappen",
+      "number": "1",
+      "order": 2,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27284",
+      "created": "2022-05-09T12:50:01+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70016",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6642",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Heinrich-Hübsch-Schule, Teilmodernisierung Werkstätten, Instandsetzung Brandschutzklappen",
+      "number": "2",
+      "order": 3,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27236",
+      "created": "2022-05-09T12:50:01+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70013",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6642",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Neubau Leitstelle und Hauptfeuerwache",
+      "number": "3",
+      "order": 4,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647900.pdf",
+      "created": "2023-06-05T14:15:19+02:00",
+      "date": "2023-06-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647900.pdf",
+      "fileName": "00647900.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647900",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "BA 02.06.2022 Protokoll - ö",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2021-09-30T12:00:57+02:00",
+  "end": "2022-06-02T16:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6642",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00637668.pdf",
+    "created": "2022-05-10T14:53:56+02:00",
+    "date": "2022-05-10",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00637668.pdf",
+    "fileName": "00637668.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/637668",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2021-09-30T12:00:57+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6642",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Bauausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+  ],
+  "start": "2022-06-02T16:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

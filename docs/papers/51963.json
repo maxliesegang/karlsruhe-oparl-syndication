@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667402.pdf",
+      "created": "2025-05-23T11:03:55+02:00",
+      "date": "2025-05-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667402.pdf",
+      "fileName": "00667402.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667402",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-27T10:49:19+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667757.pdf",
+      "created": "2025-06-05T15:56:58+02:00",
+      "date": "2025-06-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667757.pdf",
+      "fileName": "00667757.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667757",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-27T10:49:19+02:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668459.pdf",
+      "created": "2025-06-27T10:49:16+02:00",
+      "date": "2025-06-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668459.pdf",
+      "fileName": "00668459.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668459",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-27T10:49:19+02:00",
+      "name": "Protokoll GR 24.06.2025 TOP 27",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94040",
+      "authoritative": true,
+      "created": "2025-05-27T09:11:25+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34285",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10049",
+      "modified": "2025-06-25T08:05:26+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51963",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-05-23T11:03:13+02:00",
+  "date": "2025-05-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51963",
+  "modified": "2025-06-27T10:49:19+02:00",
+  "name": "Präventive Aktivitäten bei psychischen Erkrankungen im Jugendalter",
+  "paperType": "Anfrage",
+  "reference": "2025/0504",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

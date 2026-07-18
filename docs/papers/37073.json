@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608476.pdf",
+      "created": "2019-03-20T09:40:34+01:00",
+      "date": "2019-03-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608476.pdf",
+      "fileName": "00608476.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608476",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608757.pdf",
+      "created": "2019-03-29T12:36:17+01:00",
+      "date": "2019-03-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608757.pdf",
+      "fileName": "00608757.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608757",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Straßenbenennun Neureut-Kirchfeld",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608997.pdf",
+      "created": "2019-04-10T11:32:12+02:00",
+      "date": "2019-04-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608997.pdf",
+      "fileName": "00608997.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608997",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis GR Top13",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609822.pdf",
+      "created": "2019-05-21T07:52:54+02:00",
+      "date": "2019-05-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609822.pdf",
+      "fileName": "00609822.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609822",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 13",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45217",
+      "authoritative": true,
+      "created": "2019-03-12T09:45:20+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16237",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5307",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37073",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-02-21T10:53:07+01:00",
+  "date": "2019-02-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37073",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Benennung einer Straße in Neureut-Kirchfeld mit \"Labor-Service-Straße\"",
+  "paperType": "Beschlussvorlage",
+  "reference": "2019/0157",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

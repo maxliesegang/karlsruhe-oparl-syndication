@@ -1,0 +1,73 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670465.pdf",
+      "created": "2025-09-29T08:02:38+02:00",
+      "date": "2025-09-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670465.pdf",
+      "fileName": "00670465.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670465",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-09T10:39:01+02:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670621.pdf",
+      "created": "2025-10-07T10:16:17+02:00",
+      "date": "2025-10-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670621.pdf",
+      "fileName": "00670621.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670621",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T17:13:15+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96520",
+      "authoritative": true,
+      "created": "2025-09-29T09:57:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34943",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10054",
+      "modified": "2025-10-22T09:52:52+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52426",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99217",
+      "authoritative": true,
+      "created": "2025-11-24T10:49:00+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35103",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10607",
+      "modified": "2025-12-19T08:36:04+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52426",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-09-29T08:00:45+02:00",
+  "date": "2025-09-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52426",
+  "modified": "2025-10-21T14:27:56+02:00",
+  "name": "Baukosten in Karlsruhe: Sporthallen: Karlsruher Baustandards wieder an gesetzliche Vorgaben anpassen",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2025/0321/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51758"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882971"
+  ]
+}

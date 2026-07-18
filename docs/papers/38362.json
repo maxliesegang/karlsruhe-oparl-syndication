@@ -1,0 +1,91 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615306.pdf",
+      "created": "2020-03-06T12:01:37+01:00",
+      "date": "2020-03-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615306.pdf",
+      "fileName": "00615306.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615306",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Öffentliche Toiletten",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615307.pdf",
+      "created": "2020-03-06T12:01:55+01:00",
+      "date": "2020-03-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615307.pdf",
+      "fileName": "00615307.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615307",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00616772.pdf",
+      "created": "2020-03-25T11:50:47+01:00",
+      "date": "2020-03-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00616772.pdf",
+      "fileName": "00616772.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/616772",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 28",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00616856.pdf",
+      "created": "2020-03-30T10:02:55+02:00",
+      "date": "2020-03-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00616856.pdf",
+      "fileName": "00616856.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/616856",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 28",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2020-02-05T10:30:02+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17822",
+      "modified": "2020-02-05T10:30:02+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38362",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/49967",
+      "authoritative": true,
+      "created": "2020-02-24T10:49:35+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17824",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5663",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38362",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-02-05T10:29:12+01:00",
+  "date": "2020-02-05",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38362",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Öffentliche Toiletten in hochfrequentierten Grünanlagen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2020/0149",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

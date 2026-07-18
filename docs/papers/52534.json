@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671160.pdf",
+      "created": "2025-10-22T11:26:02+02:00",
+      "date": "2025-10-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671160.pdf",
+      "fileName": "00671160.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671160",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-03T06:48:06+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671733.pdf",
+      "created": "2025-11-11T13:17:00+01:00",
+      "date": "2025-11-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671733.pdf",
+      "fileName": "00671733.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671733",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-03T06:48:06+01:00",
+      "name": "Anlage 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671860.pdf",
+      "created": "2025-11-14T06:45:55+01:00",
+      "date": "2025-11-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671860.pdf",
+      "fileName": "00671860.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671860",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-03T06:48:06+01:00",
+      "name": "Anlage 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/97166",
+      "created": "2025-10-27T07:35:15+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35104",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10111",
+      "modified": "2026-01-13T17:50:29+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33195"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52534",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-10-22T11:23:49+02:00",
+  "date": "2025-10-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52534",
+  "modified": "2025-12-03T06:48:06+01:00",
+  "name": "Suchthilfe-Monitor 2025",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/1014",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665830.pdf",
+      "created": "2025-03-21T12:47:07+01:00",
+      "date": "2025-03-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665830.pdf",
+      "fileName": "00665830.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665830",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-22T13:57:36+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665939.pdf",
+      "created": "2025-03-25T15:28:51+01:00",
+      "date": "2025-03-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665939.pdf",
+      "fileName": "00665939.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665939",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-22T13:57:35+02:00",
+      "name": "Stellungnahme zur Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667369.pdf",
+      "created": "2025-05-22T13:57:33+02:00",
+      "date": "2025-05-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667369.pdf",
+      "fileName": "00667369.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667369",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-22T13:57:35+02:00",
+      "name": "Protokoll GR 29.04.2025 TOP 20",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93111",
+      "authoritative": true,
+      "created": "2025-04-01T13:24:18+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33913",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10047",
+      "modified": "2025-04-30T08:15:04+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51717",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-03-21T12:46:38+01:00",
+  "date": "2025-03-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51717",
+  "modified": "2025-05-22T13:57:35+02:00",
+  "name": "Nutzung von Künstlicher Intelligenz (KI) zur Optimierung von Prozessen in der Stadtverwaltung",
+  "paperType": "Anfrage",
+  "reference": "2025/0288",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883004"
+  ]
+}

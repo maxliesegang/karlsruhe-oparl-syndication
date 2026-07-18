@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667463.pdf",
+      "created": "2025-05-27T08:53:10+02:00",
+      "date": "2025-05-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667463.pdf",
+      "fileName": "00667463.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667463",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-27T10:49:39+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667908.pdf",
+      "created": "2025-06-12T14:01:51+02:00",
+      "date": "2025-06-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667908.pdf",
+      "fileName": "00667908.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667908",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-27T10:49:39+02:00",
+      "name": "Stellungnahme zur Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668460.pdf",
+      "created": "2025-06-27T10:49:36+02:00",
+      "date": "2025-06-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668460.pdf",
+      "fileName": "00668460.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668460",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-27T10:49:39+02:00",
+      "name": "Protokoll GR 24.06.2025 TOP 28",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94041",
+      "authoritative": true,
+      "created": "2025-05-27T09:11:25+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34315",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10049",
+      "modified": "2025-06-25T08:05:34+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51981",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-05-27T08:52:17+02:00",
+  "date": "2025-05-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51981",
+  "modified": "2025-06-27T10:49:39+02:00",
+  "name": "Optimierung von Lichtsignalanlagen für den Umweltverbund",
+  "paperType": "Anfrage",
+  "reference": "2025/0519",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

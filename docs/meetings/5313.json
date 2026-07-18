@@ -1,0 +1,82 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16461",
+      "created": "2019-04-08T13:38:19+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45442",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5313",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Otto-Hahn-Gymnasium, Brandschutzmaßnahmen 2. Bauabschnitt: Vergabe von Metallbauarbeiten (Brandschutztüren)",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16462",
+      "created": "2019-04-08T13:38:19+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45443",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5313",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Gartenschule, Modernisierung Umkleiden, TGA und Oberflächen: Vergabe von Nieder- und Mittelspannungsanlagen bis 36 kV",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2019-04-08T13:38:46+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45452",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5313",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen des Bürgermeisteramtes",
+      "number": "",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608955.pdf",
+      "created": "2019-04-08T13:39:55+02:00",
+      "date": "2019-04-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608955.pdf",
+      "fileName": "00608955.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608955",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Tagesordnung_öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614720.pdf",
+      "created": "2020-02-05T14:19:35+01:00",
+      "date": "2020-02-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614720.pdf",
+      "fileName": "00614720.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614720",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_öffentlich BA 20190412",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2018-09-20T11:54:30+02:00",
+  "end": "2019-04-12T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5313",
+  "location": {
+    "created": "2018-09-20T11:54:30+02:00",
+    "description": "Großer Sitzungssaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5313",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Bauausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+  ],
+  "start": "2019-04-12T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

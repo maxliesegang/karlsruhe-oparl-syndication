@@ -1,0 +1,82 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668532.pdf",
+      "created": "2025-07-01T10:54:02+02:00",
+      "date": "2025-07-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668532.pdf",
+      "fileName": "00668532.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668532",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-08T14:05:13+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669506.pdf",
+      "created": "2025-08-19T11:03:30+02:00",
+      "date": "2025-08-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669506.pdf",
+      "fileName": "00669506.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669506",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-08T14:05:13+02:00",
+      "name": "Protokoll GR 29.07.2025 TOP 34",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669819.pdf",
+      "created": "2025-09-01T15:30:12+02:00",
+      "date": "2025-09-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669819.pdf",
+      "fileName": "00669819.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669819",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-08T14:05:13+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94917",
+      "authoritative": true,
+      "created": "2025-07-02T07:38:34+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34522",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10051",
+      "modified": "2025-07-29T20:02:55+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52131",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96087",
+      "authoritative": true,
+      "created": "2025-09-03T14:24:29+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34532",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10109",
+      "modified": "2025-10-17T14:03:44+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52131",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-07-01T10:53:14+02:00",
+  "date": "2025-07-01",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52131",
+  "modified": "2025-10-08T14:05:13+02:00",
+  "name": "Auf den Anfang kommt es an – Kita-Zugang gerechter gestalten",
+  "paperType": "Antrag",
+  "reference": "2025/0656",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650352.pdf",
+      "created": "2023-09-04T15:07:21+02:00",
+      "date": "2023-09-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650352.pdf",
+      "fileName": "00650352.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650352",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1 Aufteilung Objekte ER_FR",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653183.pdf",
+      "created": "2023-11-03T12:07:55+01:00",
+      "date": "2023-11-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653183.pdf",
+      "fileName": "00653183.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653183",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage neu Stand 03.11.2023",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654331.pdf",
+      "created": "2023-12-05T15:17:47+01:00",
+      "date": "2023-12-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654331.pdf",
+      "fileName": "00654331.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654331",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 17",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654864.pdf",
+      "created": "2023-12-19T14:57:29+01:00",
+      "date": "2023-12-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654864.pdf",
+      "fileName": "00654864.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654864",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 17",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83186",
+      "authoritative": true,
+      "created": "2023-10-30T14:44:31+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30324",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9054",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49068",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-08-22T19:27:25+02:00",
+  "date": "2023-08-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49068",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Reinigungsmanagement Erhöhung des Eigenreinigungsanteils bei der Unterhaltsreinigung auf 50 % mit Einführung eines standardisierten Qualitätsmanagements",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0962",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

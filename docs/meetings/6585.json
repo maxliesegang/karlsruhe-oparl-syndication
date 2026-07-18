@@ -1,0 +1,71 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26824",
+      "created": "2022-02-09T10:59:13+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/68009",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6585",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "IQ-Monitoringbericht 2022",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26761",
+      "created": "2022-02-09T10:59:13+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/68007",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6585",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Attraktives Jobticket bei der Stadt",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "verwiesen in Fachausschuss",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2021-09-30T09:32:58+02:00",
+  "end": "2022-03-15T18:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6585",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636239.pdf",
+    "created": "2022-03-04T08:26:24+01:00",
+    "date": "2022-03-04",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636239.pdf",
+    "fileName": "00636239.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636239",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2021-09-30T09:32:58+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6585",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Hauptausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+  ],
+  "resultsProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636553.pdf",
+    "created": "2022-03-16T07:19:45+01:00",
+    "date": "2022-03-16",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636553.pdf",
+    "fileName": "00636553.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636553",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Anwesenheit (Protokoll)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "start": "2022-03-15T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

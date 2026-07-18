@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00145359.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2014-01-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00145359.pdf",
+      "fileName": "00145359.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/145359",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "GRÜNE-Interkulturelle Kompetenz",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00145360.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2014-01-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00145360.pdf",
+      "fileName": "00145360.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/145360",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 14",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00146492.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2014-04-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00146492.pdf",
+      "fileName": "00146492.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/146492",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 14",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/33824",
+      "authoritative": true,
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/11024",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3464",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/32944",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2013-11-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/32944",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Erhöhung der interkulturellen Kompetenz in der Stadtverwaltung",
+  "paperType": "Antrag",
+  "reference": "2013/0218",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882953"
+  ]
+}

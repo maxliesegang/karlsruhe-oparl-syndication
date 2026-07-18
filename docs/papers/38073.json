@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612643.pdf",
+      "created": "2019-11-27T09:36:30+01:00",
+      "date": "2019-11-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612643.pdf",
+      "fileName": "00612643.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612643",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00613260.pdf",
+      "created": "2020-01-10T11:46:18+01:00",
+      "date": "2020-01-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00613260.pdf",
+      "fileName": "00613260.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/613260",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 15.3 Fahrradfreundliche Straßenbahnschienen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614846.pdf",
+      "created": "2020-02-11T10:17:35+01:00",
+      "date": "2020-02-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614846.pdf",
+      "fileName": "00614846.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614846",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/48153",
+      "authoritative": true,
+      "created": "2019-12-18T08:12:03+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17464",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5661",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38073",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-11-27T09:35:22+01:00",
+  "date": "2019-11-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38073",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Fahrradfreundliche Straßenbahnschienen",
+  "paperType": "Antrag",
+  "reference": "2019/1211",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

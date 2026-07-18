@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612578.pdf",
+      "created": "2019-11-22T12:10:33+01:00",
+      "date": "2019-11-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612578.pdf",
+      "fileName": "00612578.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612578",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Vergabe Apple-Geräte",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00613084.pdf",
+      "created": "2019-12-23T08:10:53+01:00",
+      "date": "2019-12-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00613084.pdf",
+      "fileName": "00613084.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/613084",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Sitzungseröffnung und TOP 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47812",
+      "created": "2019-11-18T11:38:52+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17428",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5438",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38049",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-11-18T11:36:18+01:00",
+  "date": "2019-11-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38049",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Vergabe der Lieferung von Apple-Geräten mit Zubehör für 41 Schulen in Karlsruhe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2019/1187",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

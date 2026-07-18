@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651617.pdf",
+      "created": "2023-10-17T14:39:36+02:00",
+      "date": "2023-10-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651617.pdf",
+      "fileName": "00651617.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651617",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag OV Wettersbach_003",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653040.pdf",
+      "created": "2023-10-31T09:08:47+01:00",
+      "date": "2023-10-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653040.pdf",
+      "fileName": "00653040.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653040",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "8202 Stellungnahme DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653957.pdf",
+      "created": "2023-11-22T15:37:54+01:00",
+      "date": "2023-11-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653957.pdf",
+      "fileName": "00653957.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653957",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 1.228",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654716.pdf",
+      "created": "2023-12-15T12:04:53+01:00",
+      "date": "2023-12-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654716.pdf",
+      "fileName": "00654716.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654716",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Auszug Protokoll GR Antrag 1.228",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/82954",
+      "authoritative": true,
+      "created": "2023-10-19T10:54:13+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30631",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9446",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49320",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-10-17T14:36:36+02:00",
+  "date": "2023-10-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49320",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Sanierung Wildgehege Wettersbach",
+  "paperType": "Haushalt THH 8200",
+  "reference": "DHH/2023/8202",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

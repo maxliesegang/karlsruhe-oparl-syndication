@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661709.pdf",
+      "created": "2024-10-15T18:41:31+02:00",
+      "date": "2024-10-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661709.pdf",
+      "fileName": "00661709.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661709",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662089.pdf",
+      "created": "2024-10-25T13:24:38+02:00",
+      "date": "2024-10-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662089.pdf",
+      "fileName": "00662089.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662089",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90689",
+      "authoritative": true,
+      "created": "2024-10-17T17:44:26+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32885",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9778",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51009",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-09-24T13:36:01+02:00",
+  "date": "2024-09-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51009",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Ergänzungs-/Änderungsantrag zu TOP Beschlussvorlage 2024/0153 \"Fahrradstraße Basler-Tor-Straße\"",
+  "paperType": "Antrag",
+  "reference": "2024/1073",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665259.pdf",
+      "created": "2025-02-27T13:32:26+01:00",
+      "date": "2025-02-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665259.pdf",
+      "fileName": "00665259.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665259",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-31T08:01:31+02:00",
+      "name": "Anfrage Wettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665260.pdf",
+      "created": "2025-02-27T13:33:35+01:00",
+      "date": "2025-02-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665260.pdf",
+      "fileName": "00665260.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665260",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-31T08:01:31+02:00",
+      "name": "Stellungnahme Anfrage Wettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92683",
+      "authoritative": true,
+      "created": "2025-02-27T13:31:09+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33799",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10207",
+      "modified": "2025-04-09T08:25:25+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51630",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-02-27T13:26:09+01:00",
+  "date": "2025-02-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51630",
+  "modified": "2025-03-31T08:01:31+02:00",
+  "name": "Umweltverschmutzung und den Gifteintrag an den Bushaltestellen in Wettersbach Anfrage der Bündnis90/DieGrünen-Ortschaftsratsfraktion Wettersbach",
+  "paperType": "Anfrage",
+  "reference": "2025/0203",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882961"
+  ]
+}

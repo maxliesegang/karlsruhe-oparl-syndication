@@ -1,0 +1,105 @@
+{
+  "agendaItem": [
+    {
+      "created": "2024-12-13T10:48:02+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91685",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10117",
+      "modified": "2025-09-29T15:29:22+02:00",
+      "name": "Wahl zum Integrationsausschuss 2024 - Vereidigung der sachkundigen Einwohner*innen",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33055",
+      "created": "2024-12-13T10:48:37+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91686",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10117",
+      "modified": "2025-03-03T14:30:51+01:00",
+      "name": "Beschulung von neuzugewanderten Kindern und Jugendlichen in Karlsruhe: Sechste Fortschreibung Schuljahre 2021/22 bis 2023/24",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33462",
+      "created": "2024-12-13T10:49:13+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91687",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10117",
+      "modified": "2025-03-03T14:30:51+01:00",
+      "name": "Finanzielle Förderung von Projekten/Verlängerung von Projekten (PIAzA)",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33647",
+      "created": "2025-02-05T10:16:25+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92269",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10117",
+      "modified": "2025-03-03T14:30:51+01:00",
+      "name": "Weiterentwicklung ehrenamtlicher Dolmetscherpool, Internationaler Bund e.V.: Erhöhung Pauschale Dolmetschereinsätze",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-02-04T16:38:56+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92263",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10117",
+      "modified": "2025-03-03T14:30:51+01:00",
+      "name": "Mitteilungen des Bürgermeisteramtes",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676420.pdf",
+      "created": "2026-02-05T15:27:54+01:00",
+      "date": "2026-02-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676420.pdf",
+      "fileName": "00676420.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676420",
+      "mimeType": "application/pdf",
+      "modified": "2026-02-05T15:29:01+01:00",
+      "name": "Protokoll",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2024-10-17T13:13:55+02:00",
+  "end": "2025-02-26T18:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10117",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664784.pdf",
+    "created": "2025-02-06T10:15:11+01:00",
+    "date": "2025-02-06",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664784.pdf",
+    "fileName": "00664784.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664784",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (ö)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2024-10-17T13:13:55+02:00",
+    "description": "Großer Sitzungssaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10117",
+    "modified": "2026-02-05T15:29:01+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-02-05T15:29:01+01:00",
+  "name": "Integrationsausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/39759"
+  ],
+  "start": "2025-02-26T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

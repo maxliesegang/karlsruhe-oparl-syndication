@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676559.pdf",
+      "created": "2026-02-11T19:16:44+01:00",
+      "date": "2026-02-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676559.pdf",
+      "fileName": "00676559.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676559",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-23T10:30:26+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676648.pdf",
+      "created": "2026-02-17T13:09:39+01:00",
+      "date": "2026-02-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676648.pdf",
+      "fileName": "00676648.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676648",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-23T10:30:26+02:00",
+      "name": "Anlage zur Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677824.pdf",
+      "created": "2026-04-23T10:30:23+02:00",
+      "date": "2026-04-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677824.pdf",
+      "fileName": "00677824.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677824",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-23T10:30:26+02:00",
+      "name": "Protokoll HFA 14.04.2026 TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100833",
+      "authoritative": true,
+      "created": "2026-03-17T08:09:48+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37001",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10502",
+      "modified": "2026-04-15T07:29:22+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54265",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-02-11T15:35:04+01:00",
+  "date": "2026-02-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54265",
+  "modified": "2026-04-23T10:30:26+02:00",
+  "name": "Änderung des Gesellschaftsvertrages der Karlsruher Messe- und Kongress GmbH",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0128",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

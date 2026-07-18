@@ -1,0 +1,99 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37329",
+      "created": "2026-05-08T15:45:59+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101673",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10531",
+      "modified": "2026-05-08T15:47:08+02:00",
+      "name": "Büromarktüberblick Karlsruhe 2025",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37331",
+      "created": "2026-05-08T15:45:59+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101674",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10531",
+      "modified": "2026-05-08T15:47:14+02:00",
+      "name": "Sachstand Circular Economy Karlsruhe: Strategieentwicklung und weitere Vorgehensweise 2026/2027",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37332",
+      "created": "2026-05-08T15:45:59+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101675",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10531",
+      "modified": "2026-05-08T15:47:22+02:00",
+      "name": "IQ Zukunftsthema \"karlsruhe.digital\" - Sachstand und Jahresbericht sowie weiteres Vorgehen",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37231",
+      "created": "2026-05-08T15:45:59+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101672",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10531",
+      "modified": "2026-05-08T15:47:22+02:00",
+      "name": "Sachstandsbericht zu Smart City Karlsruhe bei der Stadtverwaltung Karlsruhe",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679748.pdf",
+      "created": "2026-07-15T08:57:20+02:00",
+      "date": "2026-07-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679748.pdf",
+      "fileName": "00679748.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679748",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-15T08:57:20+02:00",
+      "name": "Protokoll Ausschuss öffentl.",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2025-10-10T12:06:20+02:00",
+  "end": "2026-06-11T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10531",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678169.pdf",
+    "created": "2026-05-05T13:52:16+02:00",
+    "date": "2026-05-06",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678169.pdf",
+    "fileName": "00678169.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678169",
+    "mimeType": "application/pdf",
+    "modified": "2026-06-11T12:20:32+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2022-12-12T11:11:26+01:00",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/rm/67907",
+    "locality": "",
+    "modified": "2025-08-05T10:18:13+02:00",
+    "postalCode": "",
+    "room": "Bürgersaal",
+    "streetAddress": "",
+    "subLocality": "",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-06-11T12:20:32+02:00",
+  "name": "Ausschuss für Wirtschaft und Wissenschaft (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/50069"
+  ],
+  "start": "2026-06-11T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636801.pdf",
+      "created": "2022-03-29T10:55:01+02:00",
+      "date": "2022-03-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636801.pdf",
+      "fileName": "00636801.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636801",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00637010.pdf",
+      "created": "2022-04-06T12:11:08+02:00",
+      "date": "2022-04-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00637010.pdf",
+      "fileName": "00637010.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/637010",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme_Änderungsantrag CDU Mehr Raum Reinhold-Frank-Straße",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/69540",
+      "authoritative": true,
+      "created": "2022-04-13T07:59:14+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27181",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6588",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46662",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-03-29T10:54:35+02:00",
+  "date": "2022-03-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46662",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Mehr Raum für Fuß- und Radverkehr in der Reinhold-Frank-Straße",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2022/0048/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46315"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

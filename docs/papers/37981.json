@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612041.pdf",
+      "created": "2019-11-05T13:26:43+01:00",
+      "date": "2019-11-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612041.pdf",
+      "fileName": "00612041.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612041",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "ORS-Anfrage_interfraktionell_Arbeitsaufteilung_Hausmeister",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612042.pdf",
+      "created": "2019-11-05T13:27:01+01:00",
+      "date": "2019-11-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612042.pdf",
+      "fileName": "00612042.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612042",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "ORS_Stellungnahme_interfraktionell_Arbeitsaufteilung_Hausmeister_OV",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47604",
+      "created": "2019-11-05T13:43:58+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17348",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5546",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37981",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-11-05T13:25:55+01:00",
+  "date": "2019-11-05",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37981",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Arbeitsaufteilung des Hausmeisters",
+  "paperType": "Anfrage",
+  "reference": "2019/1119",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675519.pdf",
+      "created": "2025-12-22T12:12:24+01:00",
+      "date": "2025-12-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675519.pdf",
+      "fileName": "00675519.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675519",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-15T08:20:49+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676732.pdf",
+      "created": "2026-02-20T09:53:10+01:00",
+      "date": "2026-02-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676732.pdf",
+      "fileName": "00676732.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676732",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-15T08:20:49+02:00",
+      "name": "Protokoll GR 27.01.2026 TOP 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676942.pdf",
+      "created": "2026-03-05T16:47:37+01:00",
+      "date": "2026-03-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676942.pdf",
+      "fileName": "00676942.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676942",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-15T08:20:49+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100063",
+      "authoritative": true,
+      "created": "2026-01-14T10:29:49+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36790",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10468",
+      "modified": "2026-01-27T18:45:25+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54117",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100756",
+      "created": "2026-03-09T08:08:16+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36833",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10506",
+      "modified": "2026-04-23T11:21:48+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33195"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54117",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-12-22T12:11:51+01:00",
+  "date": "2025-12-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54117",
+  "modified": "2026-04-15T08:20:49+02:00",
+  "name": "Bezahlbaren Wohnraum sichern, Mietwucher effektiv entgegenwirken",
+  "paperType": "Antrag",
+  "reference": "2025/1270",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

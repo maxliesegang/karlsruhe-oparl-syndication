@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624844.pdf",
+      "created": "2021-04-16T15:47:15+02:00",
+      "date": "2021-04-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624844.pdf",
+      "fileName": "00624844.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624844",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "115-Telefonie Baden Baden",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624992.pdf",
+      "created": "2021-04-22T14:24:54+02:00",
+      "date": "2021-04-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624992.pdf",
+      "fileName": "00624992.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624992",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis Top 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625539.pdf",
+      "created": "2021-05-19T10:12:14+02:00",
+      "date": "2021-05-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625539.pdf",
+      "fileName": "00625539.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625539",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/57226",
+      "authoritative": true,
+      "created": "2021-03-31T10:11:26+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21015",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6195",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41057",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-03-30T08:58:18+02:00",
+  "date": "2021-03-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41057",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Übernahme der 115-Telefonie für die Stadtverwaltung Baden-Baden",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/0416",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/8462",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/28475",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/2740",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Annahme des Angebots von Zuwendungen",
+      "number": "1",
+      "order": 881,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/8466",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/28479",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/2740",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Lebensqualität in Karlsruhe aus Bürgersicht 2011 - Ergebnisse der Bürgerumfrage 2011",
+      "number": "2",
+      "order": 1918,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/8467",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/28480",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/2740",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Sachstandsbericht Karlsruhe Masterplan 2015 - Fortschreibung zu einem Integrierten Stadtentwicklungskonzept Karlsruhe 2020",
+      "number": "3",
+      "order": 2820,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2016-10-12T09:08:39+02:00",
+  "end": "2011-12-06T00:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/2740",
+  "location": {
+    "created": "2016-10-12T09:08:39+02:00",
+    "description": "Großer Sitzungssaal",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/2740",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Hauptausschuss",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+  ],
+  "start": "2011-12-06T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "verbatimProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00003338.pdf",
+    "created": "2016-10-12T09:08:36+02:00",
+    "date": "2013-08-15",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00003338.pdf",
+    "fileName": "00003338.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/3338",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Protokoll TOP 01 ö: Annahme des Angebots von Zuwendungen",
+    "type": "https://schema.oparl.org/1.1/File"
+  }
+}

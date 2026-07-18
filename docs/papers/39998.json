@@ -1,0 +1,96 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618452.pdf",
+      "created": "2020-06-25T12:11:33+02:00",
+      "date": "2020-06-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618452.pdf",
+      "fileName": "00618452.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618452",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618769.pdf",
+      "created": "2020-07-10T08:39:38+02:00",
+      "date": "2020-07-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618769.pdf",
+      "fileName": "00618769.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618769",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Sicherheitskonzept für die Karlsruher Innenstadt",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619663.pdf",
+      "created": "2020-09-18T13:57:18+02:00",
+      "date": "2020-09-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619663.pdf",
+      "fileName": "00619663.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619663",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 28.07.20 TOP 13",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53609",
+      "authoritative": true,
+      "created": "2020-07-03T14:48:48+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19655",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5667",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39998",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53789",
+      "authoritative": true,
+      "created": "2020-07-22T09:31:07+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19655",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5668",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39998",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54551",
+      "authoritative": true,
+      "created": "2020-09-16T10:52:27+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19854",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5658",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39998",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-06-25T12:11:09+02:00",
+  "date": "2020-06-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39998",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Sicherheitskonzept für die Karlsruher Innenstadt",
+  "paperType": "Antrag",
+  "reference": "2020/0789",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

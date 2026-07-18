@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00613003.pdf",
+      "created": "2019-12-16T13:55:10+01:00",
+      "date": "2019-12-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00613003.pdf",
+      "fileName": "00613003.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/613003",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614796.pdf",
+      "created": "2020-02-07T10:47:43+01:00",
+      "date": "2020-02-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614796.pdf",
+      "fileName": "00614796.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614796",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615441.pdf",
+      "created": "2020-03-12T09:27:14+01:00",
+      "date": "2020-03-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615441.pdf",
+      "fileName": "00615441.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615441",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/49497",
+      "authoritative": true,
+      "created": "2020-01-21T09:39:22+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17571",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5662",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38158",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-12-16T13:50:23+01:00",
+  "date": "2019-12-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38158",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Weiterentwicklung der nächtlichen Kultur",
+  "paperType": "Antrag",
+  "reference": "2019/1296",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

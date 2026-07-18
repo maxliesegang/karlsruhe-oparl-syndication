@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679077.pdf",
+      "created": "2026-06-15T09:12:34+02:00",
+      "date": "2026-06-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679077.pdf",
+      "fileName": "00679077.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679077",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-09T13:42:55+02:00",
+      "name": "Anfrage Wolfartsweier",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102137",
+      "created": "2026-06-15T09:59:07+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37571",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10730",
+      "modified": "2026-06-25T15:46:06+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54650",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-06-15T09:07:17+02:00",
+  "date": "2026-06-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54650",
+  "modified": "2026-07-09T13:42:55+02:00",
+  "name": "Vorstellung der aktuellen Planung des neuen Radwegs entlang der L623 zwischen Grünwettersbach und Wolfartsweier",
+  "paperType": "Anfrage",
+  "reference": "2026/0482",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+  ]
+}

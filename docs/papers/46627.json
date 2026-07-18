@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636692.pdf",
+      "created": "2022-03-23T13:22:38+01:00",
+      "date": "2022-03-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636692.pdf",
+      "fileName": "00636692.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636692",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00637293.pdf",
+      "created": "2022-04-25T16:29:47+02:00",
+      "date": "2022-04-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00637293.pdf",
+      "fileName": "00637293.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/637293",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN neu Anfrage Die Linke Bußgeldverfahren",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00637986.pdf",
+      "created": "2022-05-23T11:56:23+02:00",
+      "date": "2022-05-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00637986.pdf",
+      "fileName": "00637986.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/637986",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 26.04.2022 TOP 34",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/69290",
+      "authoritative": true,
+      "created": "2022-03-24T09:11:58+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27072",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6588",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46627",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-03-23T13:22:03+01:00",
+  "date": "2022-03-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46627",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bußgeldverfahren gegen Teilnehmende der Kundgebung des Antifaschistischen Aktionsbündnis Karlsruhe in der Günther-Klotz-Anlage am 03.06.2021",
+  "paperType": "Anfrage",
+  "reference": "2022/0336",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

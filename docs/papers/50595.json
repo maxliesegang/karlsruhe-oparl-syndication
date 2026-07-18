@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659127.pdf",
+      "created": "2024-06-18T09:38:12+02:00",
+      "date": "2024-06-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659127.pdf",
+      "fileName": "00659127.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659127",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659334.pdf",
+      "created": "2024-06-28T13:11:00+02:00",
+      "date": "2024-06-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659334.pdf",
+      "fileName": "00659334.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659334",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660004.pdf",
+      "created": "2024-08-05T10:39:14+02:00",
+      "date": "2024-08-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660004.pdf",
+      "fileName": "00660004.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660004",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 16.07.2024 TOP 32",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/87202",
+      "authoritative": true,
+      "created": "2024-06-18T10:30:27+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32321",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9528",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50595",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-06-18T09:37:48+02:00",
+  "date": "2024-06-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50595",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Reaktion auf Hochwasserereignisse",
+  "paperType": "Anfrage",
+  "reference": "2024/0679",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

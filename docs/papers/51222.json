@@ -1,0 +1,58 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662435.pdf",
+      "created": "2024-11-07T13:14:53+01:00",
+      "date": "2024-08-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662435.pdf",
+      "fileName": "00662435.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662435",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663335.pdf",
+      "created": "2024-11-29T12:12:20+01:00",
+      "date": "2024-11-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663335.pdf",
+      "fileName": "00663335.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663335",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Empfehlung",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91083",
+      "created": "2024-11-11T19:47:26+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33193",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9861",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54847"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51222",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-11-07T13:14:53+01:00",
+  "date": "2024-11-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51222",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Wohnen Augustenburgstraße, Grötzingen",
+  "paperType": "Informationsvorlage",
+  "reference": "2024/0967/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50896"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

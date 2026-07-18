@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609026.pdf",
+      "created": "2019-04-12T16:33:27+02:00",
+      "date": "2019-04-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609026.pdf",
+      "fileName": "00609026.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609026",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609612.pdf",
+      "created": "2019-05-08T14:30:53+02:00",
+      "date": "2019-05-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609612.pdf",
+      "fileName": "00609612.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609612",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 70",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609963.pdf",
+      "created": "2019-05-29T14:02:45+02:00",
+      "date": "2019-05-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609963.pdf",
+      "fileName": "00609963.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609963",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Gemeinderat",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45655",
+      "created": "2019-04-16T12:55:05+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16514",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5323",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37294",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-04-12T16:31:10+02:00",
+  "date": "2019-04-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37294",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Qualität des Mittagessens in den Schulen",
+  "paperType": "Anfrage",
+  "reference": "2019/0389",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

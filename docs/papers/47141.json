@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00639162.pdf",
+      "created": "2022-07-20T07:43:51+02:00",
+      "date": "2022-07-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00639162.pdf",
+      "fileName": "00639162.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/639162",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00641217.pdf",
+      "created": "2022-10-05T16:11:21+02:00",
+      "date": "2022-10-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00641217.pdf",
+      "fileName": "00641217.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/641217",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 8 Versorgung im Bereich stätionäre Pflege Senioren",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00641597.pdf",
+      "created": "2022-10-18T10:35:13+02:00",
+      "date": "2022-10-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00641597.pdf",
+      "fileName": "00641597.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/641597",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 32",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72562",
+      "created": "2022-09-22T09:25:03+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27801",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6617",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33195"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47141",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72737",
+      "authoritative": true,
+      "created": "2022-09-27T12:25:29+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27741",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6600",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47141",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-07-20T07:34:58+02:00",
+  "date": "2022-07-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47141",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Versorgung im Bereich der stationären Pflege für Senior*innen - aktuelle Situationen und Schlussfolgerungen",
+  "paperType": "Antrag",
+  "reference": "2022/0822",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

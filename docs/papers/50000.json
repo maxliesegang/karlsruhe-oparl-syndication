@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655868.pdf",
+      "created": "2024-02-07T12:09:46+01:00",
+      "date": "2024-02-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655868.pdf",
+      "fileName": "00655868.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655868",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage Wolfartsweier",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656552.pdf",
+      "created": "2024-03-06T14:56:44+01:00",
+      "date": "2024-03-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656552.pdf",
+      "fileName": "00656552.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656552",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Ergänzung Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656866.pdf",
+      "created": "2024-03-19T09:56:51+01:00",
+      "date": "2024-03-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656866.pdf",
+      "fileName": "00656866.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656866",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Anfrage Wolfartsweier",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84685",
+      "created": "2024-02-07T12:32:35+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31479",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9803",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50000",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-02-07T12:08:37+01:00",
+  "date": "2024-02-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50000",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "DHH 2024/2025 Pirolstraße – Projektnummer 7.66 102.700",
+  "paperType": "Anfrage",
+  "reference": "2024/0135",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+  ]
+}

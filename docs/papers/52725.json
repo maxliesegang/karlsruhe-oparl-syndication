@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672122.pdf",
+      "created": "2025-11-19T09:30:41+01:00",
+      "date": "2025-11-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672122.pdf",
+      "fileName": "00672122.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672122",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-08T17:26:42+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99314",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:27+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35354",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-17T14:22:47+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52725",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-19T09:29:59+01:00",
+  "date": "2025-11-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52725",
+  "modified": "2025-12-08T17:26:42+01:00",
+  "name": "HHS4_GR81 - Zurückstellung der Herstellung von Fahrradstraßen durch reine Markierungsarbeiten oder kleinere bauliche Maßnahmen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1183",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

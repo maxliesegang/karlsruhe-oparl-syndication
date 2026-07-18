@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00002495.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2013-08-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00002495.pdf",
+      "fileName": "00002495.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/2495",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "GfK-Koordination Straßenbaustellen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00002496.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2014-01-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00002496.pdf",
+      "fileName": "00002496.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/2496",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 28",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/30188",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/9492",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/2975",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/30188",
+      "role": "unbekannt",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2012-09-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/30188",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Koordination der Straßenbaustellen in Karlsruhe: Anfrage Stadtrat Kalmbach (GfK)",
+  "paperType": "Beschlussvorlage",
+  "reference": "30188",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882950"
+  ]
+}

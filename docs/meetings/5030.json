@@ -1,0 +1,58 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15714",
+      "created": "2018-09-18T13:59:54+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/43881",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5030",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Abschluss eines Ergebnisabführungsvertrages zwischen der SWK - NOVATEC GmbH und der Stadtwerke Karlsruhe GmbH ab 2019",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2017-09-19T08:51:52+02:00",
+  "end": "2018-10-16T19:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5030",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00605348.pdf",
+    "created": "2018-10-05T11:11:35+02:00",
+    "date": "2018-10-05",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00605348.pdf",
+    "fileName": "00605348.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/605348",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2017-09-19T08:51:52+02:00",
+    "description": "Großer Sitzungssaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5030",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Hauptausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+  ],
+  "resultsProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00605604.pdf",
+    "created": "2018-10-18T09:49:12+02:00",
+    "date": "2018-10-18",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00605604.pdf",
+    "fileName": "00605604.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/605604",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Anwesenheit (Protokoll)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "start": "2018-10-16T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

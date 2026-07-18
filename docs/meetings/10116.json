@@ -1,0 +1,58 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34612",
+      "created": "2025-10-27T13:14:53+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/97171",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10116",
+      "modified": "2025-12-11T18:04:29+01:00",
+      "name": "Abschluss eines Rahmenvertrags zur Beseitigung von Ölspuren bzw. vergleichbaren Betriebsstoffen und anderen Verunreinigungen nach Verkehrsunfällen und sonstigen Havarien auf öffentlichen Verkehrsflächen im Stadtgebiet Karlsruhe",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-10-27T13:14:53+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/97170",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10116",
+      "modified": "2025-12-11T18:06:23+01:00",
+      "name": "Verschiedenes",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "erledigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2024-10-17T13:12:07+02:00",
+  "end": "2025-12-11T18:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10116",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671343.pdf",
+    "created": "2025-10-27T13:17:17+01:00",
+    "date": "2025-11-04",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671343.pdf",
+    "fileName": "00671343.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671343",
+    "mimeType": "application/pdf",
+    "modified": "2025-12-11T15:08:39+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2024-10-17T13:12:07+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10116",
+    "modified": "2025-12-11T15:08:39+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-12-11T15:08:39+01:00",
+  "name": "Betriebsausschuss Eigenbetrieb Abfallwirtschaft und Stadtreinigung (öffentlich/nichtöffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54889"
+  ],
+  "start": "2025-12-11T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00613122.pdf",
+      "created": "2019-12-27T07:56:29+01:00",
+      "date": "2019-12-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00613122.pdf",
+      "fileName": "00613122.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/613122",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614376.pdf",
+      "created": "2020-01-17T15:22:11+01:00",
+      "date": "2020-01-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614376.pdf",
+      "fileName": "00614376.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614376",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 41",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614868.pdf",
+      "created": "2020-02-11T10:29:34+01:00",
+      "date": "2020-02-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614868.pdf",
+      "fileName": "00614868.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614868",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 41",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/48283",
+      "authoritative": true,
+      "created": "2020-01-07T13:35:00+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17613",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5661",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38194",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-12-27T07:56:03+01:00",
+  "date": "2019-12-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38194",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Sichere Übergänge für Schülerinnen und Schüler auf dem Schulweg von Knielingen in die Nordweststadt",
+  "paperType": "Anfrage",
+  "reference": "2019/1331",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672289.pdf",
+      "created": "2025-11-21T13:52:28+01:00",
+      "date": "2025-11-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672289.pdf",
+      "fileName": "00672289.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672289",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-19T07:38:30+01:00",
+      "name": "Antrag VOLT_001",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674827.pdf",
+      "created": "2025-12-08T09:09:30+01:00",
+      "date": "2025-12-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674827.pdf",
+      "fileName": "00674827.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674827",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-19T07:38:30+01:00",
+      "name": "1702 Stellungnahme DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675430.pdf",
+      "created": "2025-12-19T07:38:27+01:00",
+      "date": "2025-12-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675430.pdf",
+      "fileName": "00675430.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675430",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-19T07:38:30+01:00",
+      "name": "Abstimmungsergebnis Ö43",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99395",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:28+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35410",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-16T17:02:07+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52770",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-21T13:48:51+01:00",
+  "date": "2025-11-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52770",
+  "modified": "2025-12-19T07:38:30+01:00",
+  "name": "Sicherstellung des Betriebs der RPA-Bot-Infrastruktur",
+  "paperType": "Haushalt THH 1700",
+  "reference": "DHH/2025/1702",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

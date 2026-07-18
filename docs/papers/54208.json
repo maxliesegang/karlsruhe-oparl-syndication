@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676188.pdf",
+      "created": "2026-01-27T18:18:56+01:00",
+      "date": "2026-01-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676188.pdf",
+      "fileName": "00676188.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676188",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-13T09:37:13+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676697.pdf",
+      "created": "2026-02-19T13:05:01+01:00",
+      "date": "2026-02-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676697.pdf",
+      "fileName": "00676697.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676697",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-13T09:37:13+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677064.pdf",
+      "created": "2026-03-13T09:37:10+01:00",
+      "date": "2026-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677064.pdf",
+      "fileName": "00677064.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677064",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-13T09:37:13+01:00",
+      "name": "Protokoll GR 24.02.2026 TOP 17",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100200",
+      "authoritative": true,
+      "created": "2026-01-28T07:43:23+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36926",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10476",
+      "modified": "2026-02-24T17:10:43+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54208",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-01-27T18:18:16+01:00",
+  "date": "2026-01-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54208",
+  "modified": "2026-03-13T09:37:13+01:00",
+  "name": "Erneuerung der Wasserversorgungsleitungen für Karlsruhe (alle Stadtteile)",
+  "paperType": "Anfrage",
+  "reference": "2026/0073",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/447562"
+  ]
+}

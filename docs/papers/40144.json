@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619005.pdf",
+      "created": "2020-07-24T14:48:13+02:00",
+      "date": "2020-07-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619005.pdf",
+      "fileName": "00619005.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619005",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619035.pdf",
+      "created": "2020-07-28T14:51:29+02:00",
+      "date": "2020-07-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619035.pdf",
+      "fileName": "00619035.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619035",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 18",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53912",
+      "created": "2020-07-24T15:19:10+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19842",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5668",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40144",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54285",
+      "created": "2020-09-04T12:34:33+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19948",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5836",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40144",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-07-24T14:47:48+02:00",
+  "date": "2020-07-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40144",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Anpassung der Fahrradstraßen in Karlsruhe an die Musterlösung des Landes Baden-Württemberg",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2020/0934",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

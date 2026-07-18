@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667836.pdf",
+      "created": "2025-06-10T16:43:23+02:00",
+      "date": "2025-06-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667836.pdf",
+      "fileName": "00667836.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667836",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-04T13:50:16+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93953",
+      "created": "2025-05-19T15:35:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34401",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10118",
+      "modified": "2025-06-12T10:37:56+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/39759"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52039",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-06-10T16:42:18+02:00",
+  "date": "2025-06-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52039",
+  "modified": "2025-07-04T13:50:16+02:00",
+  "name": "Jahresbericht der Ausländerbehörde",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/0576",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

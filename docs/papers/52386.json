@@ -1,0 +1,84 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670277.pdf",
+      "created": "2025-09-22T13:15:13+02:00",
+      "date": "2025-09-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670277.pdf",
+      "fileName": "00670277.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670277",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-04T11:01:29+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670283.pdf",
+      "created": "2025-09-22T13:28:23+02:00",
+      "date": "2025-09-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670283.pdf",
+      "fileName": "00670283.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670283",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-04T11:01:29+01:00",
+      "name": "Änderung_Hundesteuersatzung_2025",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671181.pdf",
+      "created": "2025-10-22T13:43:37+02:00",
+      "date": "2025-10-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671181.pdf",
+      "fileName": "00671181.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671181",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-04T11:01:29+01:00",
+      "name": "Abstimmungsergebnis TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671547.pdf",
+      "created": "2025-11-04T11:01:22+01:00",
+      "date": "2025-11-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671547.pdf",
+      "fileName": "00671547.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671547",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-04T11:01:29+01:00",
+      "name": "Protokoll GR 21.10.2025 TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96411",
+      "authoritative": true,
+      "created": "2025-09-23T12:57:42+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34884",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10054",
+      "modified": "2025-10-22T09:30:42+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52386",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-09-22T13:05:39+02:00",
+  "date": "2025-09-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52386",
+  "modified": "2025-11-04T11:01:29+01:00",
+  "name": "Satzung zur Änderung der Satzung der Stadt Karlsruhe über die Erhebung einer Hundesteuer (Hundesteuersatzung)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0890",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52521",
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52522"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

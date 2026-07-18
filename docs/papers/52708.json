@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672100.pdf",
+      "created": "2025-11-19T07:46:03+01:00",
+      "date": "2025-11-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672100.pdf",
+      "fileName": "00672100.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672100",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-19T15:45:00+01:00",
+      "name": "Anfrage Eisenbahnüberführung über die Pfinz",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672101.pdf",
+      "created": "2025-11-19T07:48:11+01:00",
+      "date": "2025-11-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672101.pdf",
+      "fileName": "00672101.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672101",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-19T15:45:00+01:00",
+      "name": "Stellungnahme Eisenbahnüberführung über die Pfinz",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99630",
+      "authoritative": true,
+      "created": "2025-11-28T10:18:02+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35337",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10713",
+      "modified": "2026-01-14T19:16:11+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52708",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-19T07:44:36+01:00",
+  "date": "2025-11-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52708",
+  "modified": "2025-12-19T15:45:00+01:00",
+  "name": "Projekt \"Eisenbahnüberführung über die Pfinz\"",
+  "paperType": "Anfrage",
+  "reference": "2025/1166",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26971",
+      "created": "2022-03-07T15:40:33+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/68947",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7841",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Ehrung Blutspenderinnen und Blutspender für die Stadtteile Grünwettersbach und Palmbach für das Jahr 2021",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "erledigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26972",
+      "created": "2022-03-07T15:40:33+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/68948",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7841",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Einrichtung von kostenfreien WLAN Hotspots in Wettersbach",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "erledigt durch Stellungnahme der Verwaltung",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26973",
+      "created": "2022-03-07T15:40:33+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/68949",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7841",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Amtseinführung von Frau Kerstin Tron, Ortsvorsteherin Wettersbach",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "erledigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2022-03-07T15:42:26+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/68952",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7841",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen der Ortsverwaltung",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "result": "erledigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638522.pdf",
+      "created": "2022-06-23T11:45:00+02:00",
+      "date": "2022-06-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638522.pdf",
+      "fileName": "00638522.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638522",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_15.03.2022_öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2021-10-28T14:45:18+02:00",
+  "end": "2022-03-15T21:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7841",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636316.pdf",
+    "created": "2022-03-07T15:43:35+01:00",
+    "date": "2022-03-07",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636316.pdf",
+    "fileName": "00636316.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636316",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2021-10-28T14:45:18+02:00",
+    "description": "Sporthalle der Heinz-Barth-Schule, Thüringer Straße 11, 76228 Karlsruhe",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/7841",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ortschaftsrat Wettersbach (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+  ],
+  "start": "2022-03-15T19:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00597544.pdf",
+      "created": "2017-05-15T10:09:53+02:00",
+      "date": "2017-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00597544.pdf",
+      "fileName": "00597544.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/597544",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Konzessionsvertrag VBK KASIG",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00597753.pdf",
+      "created": "2017-05-24T09:43:54+02:00",
+      "date": "2017-05-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00597753.pdf",
+      "fileName": "00597753.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/597753",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00597807.pdf",
+      "created": "2017-05-31T09:32:21+02:00",
+      "date": "2017-05-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00597807.pdf",
+      "fileName": "00597807.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/597807",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "GR Protokoll TOP 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/40631",
+      "authoritative": true,
+      "created": "2017-05-02T14:15:52+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14323",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4585",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35560",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-05-02T11:13:17+02:00",
+  "date": "2017-05-02",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35560",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Änderung des Konzessionsvertrages Stadt mit den Verkehrsbetrieben Karlsruhe GmbH (VBK) und der Karlsruher Schienen Infrastruktur GmbH (KASIG)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0309",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

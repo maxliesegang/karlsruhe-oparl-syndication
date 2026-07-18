@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679130.pdf",
+      "created": "2026-06-17T08:12:35+02:00",
+      "date": "2026-06-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679130.pdf",
+      "fileName": "00679130.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679130",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-01T13:35:55+02:00",
+      "name": "Untersuchungsbericht",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679473.pdf",
+      "created": "2026-07-01T08:11:12+02:00",
+      "date": "2026-07-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679473.pdf",
+      "fileName": "00679473.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679473",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-01T13:35:55+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101958",
+      "created": "2026-05-28T16:45:18+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37452",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10548",
+      "modified": "2026-07-09T19:09:06+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54584",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-05-20T13:24:38+02:00",
+  "date": "2026-05-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54584",
+  "modified": "2026-07-01T13:35:55+02:00",
+  "name": "Umbau der Kreuzung Kriegs-/Brauer-/Reinhold-Frank-Straße",
+  "paperType": "Informationsvorlage",
+  "reference": "2026/0417",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

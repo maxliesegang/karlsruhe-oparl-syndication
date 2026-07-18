@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651822.pdf",
+      "created": "2023-10-17T19:45:19+02:00",
+      "date": "2023-10-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651822.pdf",
+      "fileName": "00651822.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651822",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag SPD_015",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653431.pdf",
+      "created": "2023-11-06T12:00:36+01:00",
+      "date": "2023-11-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653431.pdf",
+      "fileName": "00653431.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653431",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "8811 Stellungnahme DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654732.pdf",
+      "created": "2023-12-15T12:11:35+01:00",
+      "date": "2023-12-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654732.pdf",
+      "fileName": "00654732.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654732",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Auszug Protokoll GR Antrag 1.244",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/82969",
+      "authoritative": true,
+      "created": "2023-10-19T10:54:13+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30726",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9446",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49424",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-10-17T19:44:12+02:00",
+  "date": "2023-10-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49424",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Streckung Finanzierung Stadthalle",
+  "paperType": "Haushalt THH 8800",
+  "reference": "DHH/2023/8811",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

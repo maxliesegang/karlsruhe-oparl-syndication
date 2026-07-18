@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649602.pdf",
+      "created": "2023-08-07T15:48:53+02:00",
+      "date": "2023-08-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649602.pdf",
+      "fileName": "00649602.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649602",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650877.pdf",
+      "created": "2023-09-25T11:06:06+02:00",
+      "date": "2023-09-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650877.pdf",
+      "fileName": "00650877.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650877",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651340.pdf",
+      "created": "2023-10-09T13:56:30+02:00",
+      "date": "2023-10-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651340.pdf",
+      "fileName": "00651340.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651340",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/79937",
+      "authoritative": true,
+      "created": "2023-08-22T09:36:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30187",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9049",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48983",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-08-07T15:31:23+02:00",
+  "date": "2023-08-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48983",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Änderung der Besetzung des Aufsichtsrates der Städtisches Klinikum Karlsruhe gGmbH und Tochtergesellschaften nach dem Ausscheiden von Herrn Stadtrat Karsten Lamprecht",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0881",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

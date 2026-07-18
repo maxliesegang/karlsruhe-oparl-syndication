@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00603764.pdf",
+      "created": "2018-06-22T10:00:58+02:00",
+      "date": "2018-06-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00603764.pdf",
+      "fileName": "00603764.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/603764",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Vergabe Mittagsverpflegung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00604471.pdf",
+      "created": "2018-08-02T15:18:34+02:00",
+      "date": "2018-08-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00604471.pdf",
+      "fileName": "00604471.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/604471",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/43277",
+      "authoritative": true,
+      "created": "2018-06-15T09:56:34+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15456",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4880",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36449",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-06-15T09:55:34+02:00",
+  "date": "2018-06-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36449",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Vergabe der Lieferung von Mittagsverpflegung an zwölf Schulmensen für das Schuljahr 2018/2019 mit der Option auf Vertragsverlängerung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2018/0420",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

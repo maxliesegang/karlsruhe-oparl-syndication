@@ -1,0 +1,84 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00639283.pdf",
+      "created": "2022-07-26T13:44:29+02:00",
+      "date": "2022-07-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00639283.pdf",
+      "fileName": "00639283.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/639283",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00640339.pdf",
+      "created": "2022-09-06T12:50:25+02:00",
+      "date": "2022-09-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00640339.pdf",
+      "fileName": "00640339.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/640339",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme zum Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00641598.pdf",
+      "created": "2022-10-18T10:35:58+02:00",
+      "date": "2022-10-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00641598.pdf",
+      "fileName": "00641598.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/641598",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 33",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72738",
+      "authoritative": true,
+      "created": "2022-09-27T12:25:29+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27785",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6600",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47176",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/73335",
+      "created": "2022-10-19T18:39:14+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27880",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6667",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47176",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-07-26T13:44:00+02:00",
+  "date": "2022-07-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47176",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Einsatz von Drohnen zur Rehkitzrettung bei Mäharbeiten auf städtischen Flächen",
+  "paperType": "Antrag",
+  "reference": "2022/0849",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47494"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

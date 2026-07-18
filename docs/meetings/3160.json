@@ -1,0 +1,71 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/9983",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/31045",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3160",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Wettbewerb \"Knielingen 2.0 - Quartier verdichtetes Wohnen\"",
+      "number": "1",
+      "order": 6492,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/9984",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/31046",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3160",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mehrfachbeauftragung Turmbergterrasse",
+      "number": "2",
+      "order": 8901,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00005045.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2013-08-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00005045.pdf",
+      "fileName": "00005045.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/5045",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll ö",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2016-10-12T09:08:39+02:00",
+  "end": "2013-01-10T00:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3160",
+  "location": {
+    "created": "2016-10-12T09:08:39+02:00",
+    "description": "Großer Sitzungssaal",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/3160",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Planungsausschuss",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+  ],
+  "start": "2013-01-10T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "verbatimProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00023894.pdf",
+    "created": "2016-10-12T09:08:36+02:00",
+    "date": "2013-08-15",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00023894.pdf",
+    "fileName": "00023894.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/23894",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung ö",
+    "type": "https://schema.oparl.org/1.1/File"
+  }
+}

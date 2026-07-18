@@ -1,0 +1,54 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679124.pdf",
+      "created": "2026-06-16T15:37:35+02:00",
+      "date": "2026-06-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679124.pdf",
+      "fileName": "00679124.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679124",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-17T07:21:27+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2026-06-29T09:18:33+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37639",
+      "modified": "2026-06-29T09:18:33+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54661",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102502",
+      "created": "2026-07-03T08:11:34+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37587",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10566",
+      "modified": "2026-07-17T09:22:28+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54661",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-06-16T15:34:57+02:00",
+  "date": "2026-06-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54661",
+  "modified": "2026-07-17T07:21:27+02:00",
+  "name": "Kommunales Bildungsmonitoring in Karlsruhe",
+  "paperType": "Antrag",
+  "reference": "2026/0491",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

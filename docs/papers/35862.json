@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600307.pdf",
+      "created": "2017-11-20T14:47:15+01:00",
+      "date": "2017-11-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600307.pdf",
+      "fileName": "00600307.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600307",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "GR-Vorlage Bildung Kommission IT und Digitalisierung neu",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600604.pdf",
+      "created": "2017-12-08T10:32:45+01:00",
+      "date": "2017-12-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600604.pdf",
+      "fileName": "00600604.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600604",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41512",
+      "authoritative": true,
+      "created": "2017-11-06T10:01:16+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14703",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4668",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35862",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-10-16T13:51:04+02:00",
+  "date": "2017-10-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35862",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bildung einer Kommission für Informationstechnik und Digitalisierung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0637",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883004"
+  ]
+}

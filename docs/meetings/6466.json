@@ -1,0 +1,103 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20686",
+      "created": "2021-02-01T18:12:41+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56266",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6466",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Einrichtung von Carsharing-Parkplätzen in der Steinkreuzstraße / ehemaligen Bushaltestelle - Beschlussvorlage der Ortsverwaltung",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20687",
+      "created": "2021-02-01T18:11:10+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56262",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6466",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Bank - Gewann Heiligenwiesen - Antrag der FDP-Ortschaftsratsfraktion",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20688",
+      "created": "2021-02-01T18:11:10+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56263",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6466",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Platzgestaltung bei der Bushaltestelle \"Wolfartsweier Süd\" in Fahrtrichtung Durlach - Antrag der SPD-Ortschaftsratsfraktion",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20689",
+      "created": "2021-02-01T18:11:10+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56264",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6466",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Fußgängerüberweg zwischen Eingang Neuer Friedhof-Kreuzackerstraße - Anfrage der CDU-Ortschaftsratsfraktion",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2021-02-02T18:07:41+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56273",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6466",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mündliche Anfragen",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2021-02-02T18:09:40+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56274",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6466",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen der Verwaltung",
+      "number": "6",
+      "order": 6,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2020-12-20T19:54:54+01:00",
+  "end": "2021-02-09T21:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6466",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00623247.pdf",
+    "created": "2021-02-03T14:08:09+01:00",
+    "date": "2021-02-03",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00623247.pdf",
+    "fileName": "00623247.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/623247",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2020-12-20T19:54:54+01:00",
+    "description": "Hermann-Ringwald-Halle",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6466",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ortschaftsrat Wolfartsweier (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+  ],
+  "start": "2021-02-09T19:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

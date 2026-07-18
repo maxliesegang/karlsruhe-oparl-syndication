@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608595.pdf",
+      "created": "2019-03-25T09:44:25+01:00",
+      "date": "2019-03-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608595.pdf",
+      "fileName": "00608595.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608595",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609544.pdf",
+      "created": "2019-05-03T12:20:38+02:00",
+      "date": "2019-05-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609544.pdf",
+      "fileName": "00609544.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609544",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 40",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609762.pdf",
+      "created": "2019-05-15T13:15:32+02:00",
+      "date": "2019-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609762.pdf",
+      "fileName": "00609762.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609762",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmunsergebnis TOP 40 Geschäftsordnungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610034.pdf",
+      "created": "2019-06-03T11:56:42+02:00",
+      "date": "2019-06-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610034.pdf",
+      "fileName": "00610034.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610034",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 40",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45768",
+      "authoritative": true,
+      "created": "2019-04-26T11:51:14+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16372",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5323",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37192",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-03-25T09:42:50+01:00",
+  "date": "2019-03-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37192",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Nachverdichtung Waldstadt Kolberger Straße 3 - 5",
+  "paperType": "Antrag",
+  "reference": "2019/0281",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

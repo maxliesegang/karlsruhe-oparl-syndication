@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595980.pdf",
+      "created": "2017-02-02T09:44:13+01:00",
+      "date": "2017-02-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595980.pdf",
+      "fileName": "00595980.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595980",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "GR-Vorlage Jahresabschluss 2015",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00596319.pdf",
+      "created": "2017-02-24T09:55:22+01:00",
+      "date": "2017-02-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00596319.pdf",
+      "fileName": "00596319.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/596319",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/39999",
+      "authoritative": true,
+      "created": "2017-01-11T08:00:47+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/13963",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4530",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35281",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-12-27T08:33:22+01:00",
+  "date": "2016-12-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35281",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Jahresabschluss 2015:",
+  "paperType": "Beschlussvorlage",
+  "reference": "2016/0820",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

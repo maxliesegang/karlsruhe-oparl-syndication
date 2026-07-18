@@ -1,0 +1,79 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678596.pdf",
+      "created": "2026-05-22T11:31:41+02:00",
+      "date": "2026-05-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678596.pdf",
+      "fileName": "00678596.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678596",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T14:53:06+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679191.pdf",
+      "created": "2026-06-18T14:18:50+02:00",
+      "date": "2026-06-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679191.pdf",
+      "fileName": "00679191.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679191",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T14:53:06+02:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679634.pdf",
+      "created": "2026-07-07T14:53:03+02:00",
+      "date": "2026-07-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679634.pdf",
+      "fileName": "00679634.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679634",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T14:53:06+02:00",
+      "name": "Protokoll GR 23.06.2026 TOP 28",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2026-05-27T11:42:59+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37499",
+      "modified": "2026-05-28T07:57:46+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54592",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102011",
+      "authoritative": true,
+      "created": "2026-06-08T09:08:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37469",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10540",
+      "modified": "2026-06-24T10:16:21+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54592",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-05-22T11:31:35+02:00",
+  "date": "2026-05-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54592",
+  "modified": "2026-07-07T14:53:06+02:00",
+  "name": "Ehrung von Hedwig Lachmann und Gustav Landauer durch eine Straßenbenennung",
+  "paperType": "Antrag",
+  "reference": "2026/0425",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

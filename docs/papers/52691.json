@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672069.pdf",
+      "created": "2025-11-18T15:12:30+01:00",
+      "date": "2025-11-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672069.pdf",
+      "fileName": "00672069.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672069",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-18T19:53:08+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674189.pdf",
+      "created": "2025-12-01T11:09:56+01:00",
+      "date": "2025-12-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674189.pdf",
+      "fileName": "00674189.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674189",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-18T19:53:08+01:00",
+      "name": "Anlage 1_HHS4_GR51",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675341.pdf",
+      "created": "2025-12-18T19:53:04+01:00",
+      "date": "2025-12-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675341.pdf",
+      "fileName": "00675341.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675341",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-18T19:53:08+01:00",
+      "name": "Abstimmungsergebnis",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99285",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:27+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35318",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-17T06:45:49+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52691",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-18T15:11:41+01:00",
+  "date": "2025-11-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52691",
+  "modified": "2025-12-18T19:53:08+01:00",
+  "name": "HHS4_GR51 - Einstellung der Projektförderung freier und innovativer Projekte sowie \"Schule und Kultur\" und \"Wochen gegen Rassismus\"",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1151",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

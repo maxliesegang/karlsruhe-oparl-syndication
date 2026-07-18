@@ -1,0 +1,56 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/10128",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/31319",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3405",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Wahl eines Mitglieds des Gemeinderates zur Verpflichtung des Oberbürgermeisters Dr. Frank Mentrup",
+      "number": "1",
+      "order": 1026,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/31937",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3405",
+      "modified": "2025-03-03T14:30:51+01:00",
+      "name": "Amtseinführung und Verpflichtung des neu gewählten Oberbürgermeisters Dr. Frank Mentrup",
+      "number": "2",
+      "order": 2067,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2016-10-12T09:08:39+02:00",
+  "end": "2013-03-01T00:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3405",
+  "location": {
+    "created": "2016-10-12T09:08:39+02:00",
+    "description": "Bürgersaal",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/3405",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Gemeinderat",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+  ],
+  "start": "2013-03-01T15:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "verbatimProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00015129.pdf",
+    "created": "2016-10-12T09:08:36+02:00",
+    "date": "2013-08-15",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00015129.pdf",
+    "fileName": "00015129.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/15129",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Protokoll TOP 02: Amtseinführung und Verpflichtung des neu gewählten Oberbürgermeisters Dr. Frank Mentrup",
+    "type": "https://schema.oparl.org/1.1/File"
+  }
+}

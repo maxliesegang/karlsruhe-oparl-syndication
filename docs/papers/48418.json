@@ -1,0 +1,106 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646316.pdf",
+      "created": "2023-04-04T14:46:46+02:00",
+      "date": "2023-04-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646316.pdf",
+      "fileName": "00646316.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646316",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646453.pdf",
+      "created": "2023-04-11T13:32:22+02:00",
+      "date": "2023-04-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646453.pdf",
+      "fileName": "00646453.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646453",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648535.pdf",
+      "created": "2023-06-27T20:01:48+02:00",
+      "date": "2023-06-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648535.pdf",
+      "fileName": "00648535.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648535",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 11 Ziffer 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648536.pdf",
+      "created": "2023-06-27T20:01:48+02:00",
+      "date": "2023-06-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648536.pdf",
+      "fileName": "00648536.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648536",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 11 Ziffer 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648990.pdf",
+      "created": "2023-07-17T12:53:17+02:00",
+      "date": "2023-07-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648990.pdf",
+      "fileName": "00648990.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648990",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 11",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/76795",
+      "authoritative": true,
+      "created": "2023-04-11T13:18:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29408",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9083",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48418",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/77966",
+      "authoritative": true,
+      "created": "2023-05-25T15:14:15+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29406",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9046",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48418",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-03-30T12:03:50+02:00",
+  "date": "2023-03-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48418",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Neue Finanzierungssystematik für Kindertagesstätten und Kinderkrippen in Karlsruhe – Umsetzung des Gemeinderatsbeschlusses vom 31.05.2022",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0361",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

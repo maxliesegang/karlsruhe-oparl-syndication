@@ -1,0 +1,81 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31108",
+      "created": "2023-11-28T11:18:52+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83628",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9322",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Störung in der Wasserversorgung",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2023-11-28T11:19:25+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83630",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9322",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen der Verwaltung",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2023-11-28T11:19:40+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83631",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9322",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mündliche Anfragen",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00657473.pdf",
+      "created": "2024-04-11T10:57:23+02:00",
+      "date": "2024-04-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00657473.pdf",
+      "fileName": "00657473.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/657473",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll ö",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2022-11-03T14:21:29+01:00",
+  "end": "2023-12-13T00:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9322",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654277.pdf",
+    "created": "2023-12-01T10:21:10+01:00",
+    "date": "2023-12-01",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654277.pdf",
+    "fileName": "00654277.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654277",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2022-11-03T14:21:29+01:00",
+    "description": "Begegnungsstätte, Rathausstr. 2a, 76228 Karlsruhe",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9322",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ortschaftsrat Wolfartsweier (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+  ],
+  "start": "2023-12-13T19:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

@@ -1,0 +1,103 @@
+{
+  "agendaItem": [
+    {
+      "created": "2022-06-24T10:55:52+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70777",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6778",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Polizeiliche Krimininalstatistik 2021",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2022-06-24T10:56:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70778",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6778",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Neue Finanzierungssystematik für Karlsruher Kindertagesstätten",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27604",
+      "created": "2022-06-24T10:46:31+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70770",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6778",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Vorstellung Biodiversitätskonzept und naturnahe Mahd",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27605",
+      "created": "2022-06-24T10:53:56+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70775",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6778",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Sachstandsbericht über die geplante Skateranlage für Stupferich",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2022-06-24T10:56:27+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70779",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6778",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen der Ortsverwaltung",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2022-06-24T10:56:33+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70780",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6778",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verschiedenes",
+      "number": "6",
+      "order": 6,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00641112.pdf",
+      "created": "2022-09-30T11:54:15+02:00",
+      "date": "2022-09-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00641112.pdf",
+      "fileName": "00641112.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/641112",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll 28.ORatSitzung öffentlich 06.07.22",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2021-10-07T15:25:44+02:00",
+  "end": "2022-07-06T00:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6778",
+  "location": {
+    "created": "2021-10-07T15:25:44+02:00",
+    "description": "Großer Saal, Gemeindezentrum Stupferich",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6778",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ortschaftsrat Stupferich (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34764"
+  ],
+  "start": "2022-07-06T19:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

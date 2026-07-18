@@ -1,0 +1,58 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662770.pdf",
+      "created": "2024-11-14T11:20:12+01:00",
+      "date": "2024-11-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662770.pdf",
+      "fileName": "00662770.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662770",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662783.pdf",
+      "created": "2024-11-14T12:43:51+01:00",
+      "date": "2024-11-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662783.pdf",
+      "fileName": "00662783.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662783",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91120",
+      "created": "2024-11-14T11:31:18+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33250",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9554",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51262",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-11-14T11:19:45+01:00",
+  "date": "2024-11-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51262",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Konzeptbeschluss - Bauabschnitt 2 Neugestaltung Kaiserstraße",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2024/0965/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50894"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671351.pdf",
+      "created": "2025-10-28T07:27:03+01:00",
+      "date": "2025-10-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671351.pdf",
+      "fileName": "00671351.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671351",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:21:25+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672316.pdf",
+      "created": "2025-11-21T16:36:32+01:00",
+      "date": "2025-11-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672316.pdf",
+      "fileName": "00672316.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672316",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:21:25+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675136.pdf",
+      "created": "2025-12-11T11:21:22+01:00",
+      "date": "2025-12-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675136.pdf",
+      "fileName": "00675136.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675136",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:21:25+01:00",
+      "name": "Protokoll GR 25.11.2025 TOP 28",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/97233",
+      "authoritative": true,
+      "created": "2025-10-28T08:53:52+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35127",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10058",
+      "modified": "2025-11-26T13:35:41+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52554",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-10-28T07:26:15+01:00",
+  "date": "2025-10-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52554",
+  "modified": "2025-12-11T11:21:25+01:00",
+  "name": "Zuständigkeiten klären - Doppelstrukturen abbauen: Kommunale Aufgaben prüfen und Einsparpotenziale identifizieren",
+  "paperType": "Anfrage",
+  "reference": "2025/1034",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

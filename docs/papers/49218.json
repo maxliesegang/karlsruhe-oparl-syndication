@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650946.pdf",
+      "created": "2023-09-26T08:52:05+02:00",
+      "date": "2023-09-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650946.pdf",
+      "fileName": "00650946.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650946",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650949.pdf",
+      "created": "2023-09-26T09:13:13+02:00",
+      "date": "2023-09-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650949.pdf",
+      "fileName": "00650949.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650949",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/80958",
+      "created": "2023-10-16T18:07:37+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30511",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/8923",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49218",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-09-26T08:51:26+02:00",
+  "date": "2023-09-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49218",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Errichtung eines Tauschschrankes in Grötzingen",
+  "paperType": "Antrag",
+  "reference": "2023/1109",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

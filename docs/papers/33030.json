@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00145385.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2014-01-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00145385.pdf",
+      "fileName": "00145385.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/145385",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "CDU-Frühe Prävention",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00145402.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2014-01-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00145402.pdf",
+      "fileName": "00145402.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/145402",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 31",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00146508.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2014-04-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00146508.pdf",
+      "fileName": "00146508.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/146508",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 31",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/33846",
+      "authoritative": true,
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/11135",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3464",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/33030",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2013-12-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/33030",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Frühe Prävention - Ergebnisse der Maßnahmenerweiterung",
+  "paperType": "Anfrage",
+  "reference": "2013/0317",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00633540.pdf",
+      "created": "2021-11-23T11:41:42+01:00",
+      "date": "2021-11-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00633540.pdf",
+      "fileName": "00633540.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/633540",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Aufgabenuebertragung Citymarketing",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634615.pdf",
+      "created": "2021-12-14T11:13:01+01:00",
+      "date": "2021-12-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634615.pdf",
+      "fileName": "00634615.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634615",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 5",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635183.pdf",
+      "created": "2022-01-12T11:19:17+01:00",
+      "date": "2022-01-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635183.pdf",
+      "fileName": "00635183.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635183",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Auszug Protokoll HH-Beratungen TOP 5",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/65859",
+      "authoritative": true,
+      "created": "2021-11-22T15:47:13+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26468",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6560",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46138",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-11-22T10:19:29+01:00",
+  "date": "2021-11-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46138",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Aufgabenübertragung Citymarketing/KME",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/1443",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883009"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "agendaItem": [
+    {
+      "created": "2022-11-15T14:46:10+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/74016",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6669",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Bericht aus den Hallen- und Freibädern - mündlicher Bericht",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28211",
+      "created": "2022-11-15T14:43:36+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/74013",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6669",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Preissteigerung Bäder",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28259",
+      "created": "2022-11-15T14:43:36+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/74012",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6669",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Sanierung des denkmalgeschützten Restaurantgebäudes im Rheinstrandbad/Park Rappenwört: Dialog aller Beteiligten",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28559",
+      "created": "2022-11-15T14:43:36+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/74014",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6669",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Aktueller Sachstandsbericht zum Haushaltssicherungsprozess",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644872.pdf",
+      "created": "2023-02-10T14:26:22+01:00",
+      "date": "2023-02-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644872.pdf",
+      "fileName": "00644872.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644872",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "2022-11-23 BäA öffentlich Niederschrift final",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2021-09-30T13:20:42+02:00",
+  "end": "2022-11-23T18:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6669",
+  "location": {
+    "created": "2021-09-30T13:20:42+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6669",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Bäderausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54833"
+  ],
+  "start": "2022-11-23T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

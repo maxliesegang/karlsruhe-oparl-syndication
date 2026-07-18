@@ -1,0 +1,71 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665903.pdf",
+      "created": "2025-03-25T09:09:36+01:00",
+      "date": "2025-03-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665903.pdf",
+      "fileName": "00665903.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665903",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-25T18:14:14+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665910.pdf",
+      "created": "2025-03-25T09:53:46+01:00",
+      "date": "2025-03-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665910.pdf",
+      "fileName": "00665910.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665910",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-25T18:14:14+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665949.pdf",
+      "created": "2025-03-25T18:14:09+01:00",
+      "date": "2025-03-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665949.pdf",
+      "fileName": "00665949.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665949",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-25T18:14:14+01:00",
+      "name": "Abstimmunsergebnis TOP 5.2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92960",
+      "authoritative": true,
+      "created": "2025-03-25T09:27:47+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33927",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10046",
+      "modified": "2025-03-25T17:10:46+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51728",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-03-25T09:09:17+01:00",
+  "date": "2025-03-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51728",
+  "modified": "2025-05-05T15:04:02+02:00",
+  "name": "Satzung über die Erhebung einer Übernachtungsteuer in der Stadt Karlsruhe",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2025/0147/2",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51570"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

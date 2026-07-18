@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00628053.pdf",
+      "created": "2021-09-13T14:59:36+02:00",
+      "date": "2021-09-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00628053.pdf",
+      "fileName": "00628053.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/628053",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Trainingsmöglichkeiten LG Region Karlsruhe",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00628423.pdf",
+      "created": "2021-10-01T11:11:05+02:00",
+      "date": "2021-10-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00628423.pdf",
+      "fileName": "00628423.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/628423",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 6 HA",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/60301",
+      "authoritative": true,
+      "created": "2021-08-18T11:40:04+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21897",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6266",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41714",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-08-18T11:37:51+02:00",
+  "date": "2021-08-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41714",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Trainingsmöglichkeiten für die Leichtathletikgemeinschaft Region Karlsruhe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/1010",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

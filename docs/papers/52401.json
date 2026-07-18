@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670338.pdf",
+      "created": "2025-09-23T11:55:04+02:00",
+      "date": "2025-09-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670338.pdf",
+      "fileName": "00670338.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670338",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-23T09:08:12+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96908",
+      "created": "2025-10-20T11:44:46+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34908",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10119",
+      "modified": "2025-11-14T10:00:26+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33575"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52401",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-09-23T11:51:36+02:00",
+  "date": "2025-09-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52401",
+  "modified": "2025-10-23T09:08:12+02:00",
+  "name": "Neue Hallenverwaltungssoftware",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/0903",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

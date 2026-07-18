@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660834.pdf",
+      "created": "2024-09-12T13:19:38+02:00",
+      "date": "2024-09-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660834.pdf",
+      "fileName": "00660834.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660834",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Ortsvorsteher_Ausschreibung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661004.pdf",
+      "created": "2024-09-20T00:15:45+02:00",
+      "date": "2024-09-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661004.pdf",
+      "fileName": "00661004.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661004",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage PA 01.10.2024 und GR 22.10.2024",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661976.pdf",
+      "created": "2024-10-23T15:16:59+02:00",
+      "date": "2024-10-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661976.pdf",
+      "fileName": "00661976.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661976",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662251.pdf",
+      "created": "2024-10-31T14:04:24+01:00",
+      "date": "2024-10-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662251.pdf",
+      "fileName": "00662251.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662251",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 22.10.2024 TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90286",
+      "authoritative": true,
+      "created": "2024-09-25T09:33:35+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32836",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50971",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-09-12T13:10:10+02:00",
+  "date": "2024-09-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50971",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Wahl der Ortsvorsteherin / des Ortsvorstehers in der Ortschaft Neureut",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/1038",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882960"
+  ]
+}

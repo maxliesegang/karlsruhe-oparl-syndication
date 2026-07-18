@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611811.pdf",
+      "created": "2019-10-23T14:13:49+02:00",
+      "date": "2019-10-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611811.pdf",
+      "fileName": "00611811.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611811",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612730.pdf",
+      "created": "2019-11-29T12:40:44+01:00",
+      "date": "2019-11-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612730.pdf",
+      "fileName": "00612730.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612730",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 25",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612962.pdf",
+      "created": "2019-12-12T10:42:53+01:00",
+      "date": "2019-12-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612962.pdf",
+      "fileName": "00612962.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612962",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis_Top25",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614567.pdf",
+      "created": "2020-01-29T09:59:39+01:00",
+      "date": "2020-01-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614567.pdf",
+      "fileName": "00614567.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614567",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 25",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47733",
+      "authoritative": true,
+      "created": "2019-11-13T08:54:16+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17276",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5444",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37929",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-10-23T11:33:52+02:00",
+  "date": "2019-10-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37929",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Selbstverpflichtung des Gemeinderats zur Sicherung des gegenwärtigen Leistungsstands im Bereich Schutz, Beratung und Prävention von Gewalt gegen Frauen und häuslicher Gewalt",
+  "paperType": "Antrag",
+  "reference": "2019/1066",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

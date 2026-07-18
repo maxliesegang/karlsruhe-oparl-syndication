@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658160.pdf",
+      "created": "2024-05-03T15:55:16+02:00",
+      "date": "2024-05-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658160.pdf",
+      "fileName": "00658160.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658160",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661683.pdf",
+      "created": "2024-10-15T13:36:54+02:00",
+      "date": "2024-10-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661683.pdf",
+      "fileName": "00661683.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661683",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_HA_04_06_2024_TOP_8",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86403",
+      "authoritative": true,
+      "created": "2024-05-06T16:28:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32026",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9516",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50383",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-04-30T15:32:41+02:00",
+  "date": "2024-04-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50383",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Klärwerk Karlsruhe, Lieferung von Pulveraktivkohle",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0489",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

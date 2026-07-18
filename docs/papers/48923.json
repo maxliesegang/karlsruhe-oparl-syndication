@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649179.pdf",
+      "created": "2023-07-24T09:02:56+02:00",
+      "date": "2023-07-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649179.pdf",
+      "fileName": "00649179.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649179",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650218.pdf",
+      "created": "2023-08-29T17:16:54+02:00",
+      "date": "2023-08-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650218.pdf",
+      "fileName": "00650218.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650218",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme zur interfratkionellen Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651372.pdf",
+      "created": "2023-10-09T14:15:26+02:00",
+      "date": "2023-10-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651372.pdf",
+      "fileName": "00651372.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651372",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 36",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/79968",
+      "authoritative": true,
+      "created": "2023-08-22T09:36:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30100",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9049",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48923",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-07-24T09:02:30+02:00",
+  "date": "2023-07-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48923",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Karlsruhe auf dem Weg zur Innovativen Pflege? Auswertung des Projektes: Pflegedauer, Pflegekräfte im ambulanten Bereich",
+  "paperType": "Anfrage",
+  "reference": "2023/0823",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

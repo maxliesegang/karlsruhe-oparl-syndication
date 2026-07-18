@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667531.pdf",
+      "created": "2025-05-28T07:32:54+02:00",
+      "date": "2025-05-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667531.pdf",
+      "fileName": "00667531.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667531",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T11:04:19+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668426.pdf",
+      "created": "2025-06-26T14:39:01+02:00",
+      "date": "2025-06-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668426.pdf",
+      "fileName": "00668426.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668426",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T11:04:19+02:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669508.pdf",
+      "created": "2025-08-19T11:04:16+02:00",
+      "date": "2025-08-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669508.pdf",
+      "fileName": "00669508.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669508",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T11:04:19+02:00",
+      "name": "Protokoll GR 29.07.2025 TOP 36",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94879",
+      "authoritative": true,
+      "created": "2025-06-27T09:55:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34332",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10051",
+      "modified": "2025-07-29T20:03:17+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51992",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-05-28T07:32:02+02:00",
+  "date": "2025-05-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51992",
+  "modified": "2025-08-19T11:04:19+02:00",
+  "name": "Sicherstellung der politischen Neutralität bei der Verwendung kommunaler Fördermittel – Prüfung konkreter Fälle",
+  "paperType": "Anfrage",
+  "reference": "2025/0530",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882951"
+  ]
+}

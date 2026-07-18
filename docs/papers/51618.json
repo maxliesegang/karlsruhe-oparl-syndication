@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665163.pdf",
+      "created": "2025-02-25T13:04:58+01:00",
+      "date": "2025-02-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665163.pdf",
+      "fileName": "00665163.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665163",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-09T13:37:04+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666153.pdf",
+      "created": "2025-04-03T11:09:01+02:00",
+      "date": "2025-04-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666153.pdf",
+      "fileName": "00666153.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666153",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-09T13:37:04+02:00",
+      "name": "Protokoll GR 25.03.2025 TOP 30",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666849.pdf",
+      "created": "2025-05-02T10:08:08+02:00",
+      "date": "2025-05-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666849.pdf",
+      "fileName": "00666849.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666849",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-06T15:01:45+02:00",
+      "name": "Stellungnahme zum Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92702",
+      "authoritative": true,
+      "created": "2025-03-03T10:21:43+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33775",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10046",
+      "modified": "2025-03-25T19:23:01+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51618",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93260",
+      "created": "2025-04-11T10:05:19+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33793",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10191",
+      "modified": "2025-04-11T10:06:11+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/50069"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51618",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-02-25T13:04:21+01:00",
+  "date": "2025-02-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51618",
+  "modified": "2025-05-16T16:00:46+02:00",
+  "name": "Unterstützung und Koordination von Betrieblichem Mobilitätsmanagement in einem Pilotvorhaben",
+  "paperType": "Antrag",
+  "reference": "2025/0191",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882973"
+  ]
+}

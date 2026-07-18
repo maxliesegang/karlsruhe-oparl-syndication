@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617187.pdf",
+      "created": "2020-04-17T10:50:26+02:00",
+      "date": "2020-04-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617187.pdf",
+      "fileName": "00617187.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617187",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617671.pdf",
+      "created": "2020-05-14T14:36:36+02:00",
+      "date": "2020-05-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617671.pdf",
+      "fileName": "00617671.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617671",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 52.1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618243.pdf",
+      "created": "2020-06-18T09:38:51+02:00",
+      "date": "2020-06-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618243.pdf",
+      "fileName": "00618243.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618243",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 52",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/51963",
+      "authoritative": true,
+      "created": "2020-04-29T11:57:54+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19207",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5665",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39654",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-04-17T10:49:58+02:00",
+  "date": "2020-04-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39654",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Aktuelle Situation häusliche Gewalt",
+  "paperType": "Anfrage",
+  "reference": "2020/0446",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882951"
+  ]
+}

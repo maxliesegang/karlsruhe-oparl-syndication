@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672016.pdf",
+      "created": "2025-11-18T12:17:19+01:00",
+      "date": "2025-11-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672016.pdf",
+      "fileName": "00672016.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672016",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-29T09:19:28+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675748.pdf",
+      "created": "2026-01-14T07:37:59+01:00",
+      "date": "2026-01-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675748.pdf",
+      "fileName": "00675748.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675748",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-29T09:19:28+02:00",
+      "name": "Protokoll GR 22.12.2025 TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675766.pdf",
+      "created": "2026-01-14T13:54:14+01:00",
+      "date": "2026-01-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675766.pdf",
+      "fileName": "00675766.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675766",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-29T09:19:28+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99790",
+      "authoritative": true,
+      "created": "2025-12-08T10:00:42+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35285",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10425",
+      "modified": "2025-12-22T20:22:54+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52658",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101616",
+      "created": "2026-05-06T16:45:26+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35385",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10550",
+      "modified": "2026-05-21T13:02:51+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/39759"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52658",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-18T12:16:24+01:00",
+  "date": "2025-11-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52658",
+  "modified": "2026-06-29T09:19:28+02:00",
+  "name": "Entscheidungsfreiheit stärken - Gestaltungsspielräume bei der Bezahlkarte nutzen",
+  "paperType": "Antrag",
+  "reference": "2025/1122",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

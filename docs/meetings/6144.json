@@ -1,0 +1,96 @@
+{
+  "agendaItem": [
+    {
+      "created": "2020-12-16T14:50:12+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/55830",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6144",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Tiefbauamt",
+      "number": "",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20437",
+      "created": "2020-12-16T14:50:12+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/55834",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6144",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Städtebauliche Neuordnung südlich der Stuttgarter Straße zwischen Mittelbruchstraße",
+      "number": "1",
+      "order": 2,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2020-12-16T14:50:12+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/55831",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6144",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Amt für Hochbau und Gebäudewirtschaft",
+      "number": "",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20485",
+      "created": "2020-12-16T14:50:12+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/55835",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6144",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Technisches Rathaus, Sanierung/Fortführungsmaßnahmen",
+      "number": "2",
+      "order": 4,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20502",
+      "created": "2020-12-16T14:50:12+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/55836",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6144",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Augustenburg Gemeinschaftsschule Grötzingen, Modernisierung Schloss-Schule",
+      "number": "3",
+      "order": 5,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625775.pdf",
+      "created": "2021-05-31T12:12:03+02:00",
+      "date": "2021-05-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625775.pdf",
+      "fileName": "00625775.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625775",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_öffentlich BA 20210114",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2020-09-10T08:28:03+02:00",
+  "end": "2021-01-14T16:45:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6144",
+  "location": {
+    "created": "2020-09-10T08:28:03+02:00",
+    "description": "Bürgersaal, Rathaus Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6144",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Bauausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+  ],
+  "start": "2021-01-14T16:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

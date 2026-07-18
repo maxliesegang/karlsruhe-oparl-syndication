@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665800.pdf",
+      "created": "2025-03-20T13:50:53+01:00",
+      "date": "2025-03-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665800.pdf",
+      "fileName": "00665800.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665800",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-15T15:04:22+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669438.pdf",
+      "created": "2025-08-15T15:03:41+02:00",
+      "date": "2025-08-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669438.pdf",
+      "fileName": "00669438.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669438",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-15T15:04:22+02:00",
+      "name": "Protokoll HFA 03.06.2025 TOP 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93651",
+      "authoritative": true,
+      "created": "2025-05-05T13:38:33+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33905",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10038",
+      "modified": "2025-06-04T14:55:42+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51713",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-03-20T13:45:45+01:00",
+  "date": "2025-03-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51713",
+  "modified": "2025-08-15T15:04:22+02:00",
+  "name": "Ausschreibung der Reinigungsleistungen für die Eichelgartenschule mit Sporthalle (Rosenweg 1, 76199 Karlsruhe) und die Ernst-Reuter-Schule (Tilsiter Straße 15, 76139 Karlsruhe)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0285",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

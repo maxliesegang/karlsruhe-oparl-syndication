@@ -1,0 +1,47 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/13370",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/38658",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4227",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Aufstellungsbeschlüsse zur Änderung der Bebauungspläne Nr. 614 Nutzungsartfestsetzung vom 22. Februar 1985 innerhalb von Knielingen und Nr. 285 Industriegebiet westlich der Bundesbahn Karlsruhe-Graben-Neudorf vom 5. Januar 1962, Karlsruhe-Knielingen",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00592205.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2016-06-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00592205.pdf",
+      "fileName": "00592205.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/592205",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Tagesordnung öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2016-10-12T09:08:39+02:00",
+  "end": "2016-06-16T19:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4227",
+  "location": {
+    "created": "2016-10-12T09:08:39+02:00",
+    "description": "Großer Sitzungssaal, Rathaus Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/4227",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Planungsausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+  ],
+  "start": "2016-06-16T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

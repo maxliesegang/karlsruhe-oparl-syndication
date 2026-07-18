@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00150435.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2015-01-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00150435.pdf",
+      "fileName": "00150435.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/150435",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "GRÜNE-Wärmebedarfskarte",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00150511.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2015-01-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00150511.pdf",
+      "fileName": "00150511.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/150511",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 25",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00585534.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2015-02-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00585534.pdf",
+      "fileName": "00585534.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/585534",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 25",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/36060",
+      "authoritative": true,
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/12152",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3835",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/33812",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2015-01-05",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/33812",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Abwärme- und Wärmebedarfskarte für Industrieparks und Gewerbegebiete",
+  "paperType": "Antrag",
+  "reference": "2015/0004",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32417",
+      "created": "2024-07-04T18:04:50+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/87551",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9983",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Feststellung des Vorliegens eines Ablehnungsgrundes sowie Nachrückens der gewählten Ersatzperson",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32422",
+      "created": "2024-07-04T18:04:50+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/87549",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9983",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Förmliche Feststellung des Nichtsvorliegens von Hinderungsgründen bei den gewählten Mitgliedern des neuen Ortschaftsrates",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2024-07-04T18:05:28+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/87552",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9983",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verabschiedung der ausgeschiedenen Mitglieder",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659917.pdf",
+      "created": "2024-07-31T11:16:22+02:00",
+      "date": "2024-07-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659917.pdf",
+      "fileName": "00659917.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659917",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Ortschaftsrat 17.07. - 17.00 Uhr",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2024-07-04T18:03:40+02:00",
+  "end": "2024-07-17T00:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9983",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659414.pdf",
+    "created": "2024-07-04T18:05:46+02:00",
+    "date": "2024-07-04",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659414.pdf",
+    "fileName": "00659414.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659414",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung 17.07. - 17.00 Uhr",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2024-07-04T18:03:40+02:00",
+    "description": "Bürgersaal im Rathaus, Pfinztalstr. 33",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9983",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ortschaftsrat Durlach (öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+  ],
+  "start": "2024-07-17T17:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

@@ -1,0 +1,71 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651725.pdf",
+      "created": "2023-10-17T18:18:06+02:00",
+      "date": "2023-10-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651725.pdf",
+      "fileName": "00651725.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651725",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag FW_FÜR_004",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653446.pdf",
+      "created": "2023-11-06T12:38:06+01:00",
+      "date": "2023-11-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653446.pdf",
+      "fileName": "00653446.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653446",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "4101 Stellungnahme DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654561.pdf",
+      "created": "2023-12-15T10:59:22+01:00",
+      "date": "2023-12-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654561.pdf",
+      "fileName": "00654561.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654561",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Auszug Protokoll GR Antrag 1.76",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/82802",
+      "authoritative": true,
+      "created": "2023-10-19T10:54:12+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30681",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9446",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49371",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-10-17T18:16:37+02:00",
+  "date": "2023-10-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49371",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Kunstkommission straffer organisieren",
+  "paperType": "Haushalt THH 4100",
+  "reference": "DHH/2023/4101",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49959"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

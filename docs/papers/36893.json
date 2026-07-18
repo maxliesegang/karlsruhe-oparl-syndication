@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607528.pdf",
+      "created": "2019-01-18T16:25:30+01:00",
+      "date": "2019-01-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607528.pdf",
+      "fileName": "00607528.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607528",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Neuausrichtung Bürgerbüro Ost -neu-",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607562.pdf",
+      "created": "2019-01-23T09:15:41+01:00",
+      "date": "2019-01-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607562.pdf",
+      "fileName": "00607562.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607562",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis GR Top 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607646.pdf",
+      "created": "2019-01-29T14:42:31+01:00",
+      "date": "2019-01-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607646.pdf",
+      "fileName": "00607646.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607646",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44708",
+      "authoritative": true,
+      "created": "2018-12-18T09:14:24+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16026",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5261",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36893",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-12-17T09:24:26+01:00",
+  "date": "2018-12-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36893",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Neuausrichtung Bürgerbüro Ost",
+  "paperType": "Beschlussvorlage",
+  "reference": "2018/0893",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

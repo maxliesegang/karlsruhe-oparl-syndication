@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00641879.pdf",
+      "created": "2022-10-25T13:12:57+02:00",
+      "date": "2022-10-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00641879.pdf",
+      "fileName": "00641879.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/641879",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643131.pdf",
+      "created": "2022-12-05T16:22:52+01:00",
+      "date": "2022-12-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643131.pdf",
+      "fileName": "00643131.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643131",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644031.pdf",
+      "created": "2023-01-13T09:21:53+01:00",
+      "date": "2023-01-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644031.pdf",
+      "fileName": "00644031.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644031",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 39",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/74225",
+      "authoritative": true,
+      "created": "2022-11-22T11:18:04+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28449",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6608",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47694",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75100",
+      "created": "2023-01-11T11:11:30+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28505",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9138",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47694",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-10-25T13:12:13+02:00",
+  "date": "2022-10-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47694",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Sanierungsgebiet Innenstadt-Ost - Einrichtung eines Taubenschlages am Kronenplatz",
+  "paperType": "Antrag",
+  "reference": "2022/2227",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

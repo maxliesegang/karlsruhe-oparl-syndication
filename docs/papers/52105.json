@@ -1,0 +1,71 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668297.pdf",
+      "created": "2025-06-24T11:13:16+02:00",
+      "date": "2025-06-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668297.pdf",
+      "fileName": "00668297.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668297",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-25T07:50:13+02:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668317.pdf",
+      "created": "2025-06-24T13:53:46+02:00",
+      "date": "2025-06-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668317.pdf",
+      "fileName": "00668317.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668317",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-25T07:50:13+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668340.pdf",
+      "created": "2025-06-25T07:50:10+02:00",
+      "date": "2025-06-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668340.pdf",
+      "fileName": "00668340.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668340",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-25T07:50:13+02:00",
+      "name": "Abstimmungsergebnis Top 5-2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94765",
+      "authoritative": true,
+      "created": "2025-06-24T11:16:14+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34485",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10049",
+      "modified": "2025-06-25T07:59:41+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52105",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-06-24T11:11:47+02:00",
+  "date": "2025-06-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52105",
+  "modified": "2025-07-04T17:10:02+02:00",
+  "name": "Haushaltssicherung: Haushaltswirtschaftliche Sperre im Teilhaushalt Kultur nach geänderten Kriterien umsetzen",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2025/0403/3",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52049"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/447562"
+  ]
+}

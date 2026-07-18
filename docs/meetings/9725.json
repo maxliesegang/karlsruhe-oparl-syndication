@@ -1,0 +1,73 @@
+{
+  "agendaItem": [
+    {
+      "auxiliaryFile": [
+        {
+          "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663204.pdf",
+          "created": "2024-11-26T09:45:10+01:00",
+          "date": "2024-11-26",
+          "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663204.pdf",
+          "fileName": "00663204.pdf",
+          "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663204",
+          "mimeType": "application/pdf",
+          "modified": "2025-03-03T14:30:18+01:00",
+          "name": "Protokoll Ausschuss II öffentlich",
+          "type": "https://schema.oparl.org/1.1/File"
+        }
+      ],
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33095",
+      "created": "2024-10-17T14:57:11+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90677",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9725",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Runder Tisch Inklusion",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663350.pdf",
+      "created": "2024-12-02T09:10:53+01:00",
+      "date": "2024-12-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663350.pdf",
+      "fileName": "00663350.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663350",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "2024_10_23 Anwesenheitsliste Ausschuss II",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663359.pdf",
+      "created": "2024-12-02T12:52:57+01:00",
+      "date": "2024-12-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663359.pdf",
+      "fileName": "00663359.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663359",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Ausschuss II öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2023-09-20T14:04:55+02:00",
+  "end": "2024-10-23T20:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9725",
+  "location": {
+    "created": "2023-09-20T14:04:55+02:00",
+    "description": "Herbert-Schweizer-Haus Begegnungsstätte Grötzingen, Niddastraße 9, 76229 Karlsruhe",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9725",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ausschuss II „Finanzen, Personal und Soziales“ Ortschaftsrat Grötzingen (öffentlich/nichtöffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+  ],
+  "start": "2024-10-23T18:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

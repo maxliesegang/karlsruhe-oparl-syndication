@@ -1,0 +1,92 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670508.pdf",
+      "created": "2025-09-30T13:09:29+02:00",
+      "date": "2025-09-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670508.pdf",
+      "fileName": "00670508.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670508",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:21:07+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670571.pdf",
+      "created": "2025-10-02T07:46:54+02:00",
+      "date": "2025-10-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670571.pdf",
+      "fileName": "00670571.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670571",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:21:07+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671518.pdf",
+      "created": "2025-11-03T14:33:27+01:00",
+      "date": "2025-11-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671518.pdf",
+      "fileName": "00671518.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671518",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:21:07+01:00",
+      "name": "Gefährlicher Ort Amalienstraße",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671519.pdf",
+      "created": "2025-11-03T14:33:27+01:00",
+      "date": "2025-11-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671519.pdf",
+      "fileName": "00671519.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671519",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:21:07+01:00",
+      "name": "Gefährlicher Ort Marktplatz",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675135.pdf",
+      "created": "2025-12-11T11:21:04+01:00",
+      "date": "2025-12-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675135.pdf",
+      "fileName": "00675135.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675135",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:21:07+01:00",
+      "name": "Protokoll GR 25.11.2025 TOP 27",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/97209",
+      "authoritative": true,
+      "created": "2025-10-27T13:42:05+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34952",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10058",
+      "modified": "2025-11-26T13:35:34+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52432",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-09-30T13:08:55+02:00",
+  "date": "2025-09-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52432",
+  "modified": "2025-12-11T11:21:07+01:00",
+  "name": "Organisierte Kriminalität in der Amalienstraße?",
+  "paperType": "Anfrage",
+  "reference": "2025/0927",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

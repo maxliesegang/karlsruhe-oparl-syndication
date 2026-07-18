@@ -1,0 +1,91 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00599669.pdf",
+      "created": "2017-10-09T14:26:41+02:00",
+      "date": "2017-10-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00599669.pdf",
+      "fileName": "00599669.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/599669",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Freiraumentwicklungsplan_Broschüre",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600478.pdf",
+      "created": "2017-12-01T11:23:44+01:00",
+      "date": "2017-12-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600478.pdf",
+      "fileName": "00600478.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600478",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Freiraumentwicklungsplan",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600806.pdf",
+      "created": "2017-12-21T11:07:58+01:00",
+      "date": "2017-12-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600806.pdf",
+      "fileName": "00600806.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600806",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 17",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00602882.pdf",
+      "created": "2018-04-26T10:24:18+02:00",
+      "date": "2018-04-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00602882.pdf",
+      "fileName": "00602882.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/602882",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis GR_TOP 17",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2017-10-09T14:22:26+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14685",
+      "modified": "2018-11-28T14:19:31+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35849",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41682",
+      "authoritative": true,
+      "created": "2017-11-15T09:49:38+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14686",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4688",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35849",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-10-09T14:21:25+02:00",
+  "date": "2017-10-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35849",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Freiraumentwicklungsplan Karlsruhe 2017",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0624",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

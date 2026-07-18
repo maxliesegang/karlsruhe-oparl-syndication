@@ -1,0 +1,94 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649842.pdf",
+      "created": "2023-08-17T13:56:26+02:00",
+      "date": "2023-08-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649842.pdf",
+      "fileName": "00649842.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649842",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Lageplan_Ortsmitte Grünwettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649843.pdf",
+      "created": "2023-08-17T13:57:04+02:00",
+      "date": "2023-08-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649843.pdf",
+      "fileName": "00649843.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649843",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Neugestaltung Ortsmitte Grünwettersbach_Variante_1_M_1_100_A3",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649844.pdf",
+      "created": "2023-08-17T13:57:28+02:00",
+      "date": "2023-08-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649844.pdf",
+      "fileName": "00649844.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649844",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Neugestaltung Ortsmitte Grünwettersbach_Variante_2_M_1_100_A3",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650619.pdf",
+      "created": "2023-09-14T15:08:44+02:00",
+      "date": "2023-09-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650619.pdf",
+      "fileName": "00650619.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650619",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/79633",
+      "authoritative": true,
+      "created": "2023-08-14T10:02:59+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30029",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9125",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48881",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/80041",
+      "authoritative": true,
+      "created": "2023-08-25T10:04:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30028",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9255",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48881",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-07-11T17:54:44+02:00",
+  "date": "2023-08-01",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48881",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Konzeptbeschluss: Gestaltung Ortsmitte Grünwettersbach",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0786",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

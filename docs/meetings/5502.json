@@ -1,0 +1,59 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17000",
+      "created": "2019-08-28T15:06:12+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46737",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5502",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "TOP 1 Unterhaltung der Gräben im Tiefgestade Neureut - Reprofilierung des Brunnengrabens",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17001",
+      "created": "2019-08-28T15:06:12+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46738",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5502",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "TOP 2 Sirenenwarnsytem - Einsatzort N 17 Neuruet Kirchfeld - Zustimmung zum Standort",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2018-10-24T08:42:19+02:00",
+  "end": "2019-09-10T22:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5502",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610837.pdf",
+    "created": "2019-08-26T10:17:44+02:00",
+    "date": "2019-08-26",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610837.pdf",
+    "fileName": "00610837.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610837",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2018-10-24T08:42:19+02:00",
+    "description": "Sitzungssaal des Neureuter Rathauses",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5502",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ortschaftsrat Neureut (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34531"
+  ],
+  "start": "2019-09-10T19:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

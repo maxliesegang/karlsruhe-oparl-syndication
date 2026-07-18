@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608626.pdf",
+      "created": "2019-03-26T07:41:11+01:00",
+      "date": "2019-03-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608626.pdf",
+      "fileName": "00608626.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608626",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609558.pdf",
+      "created": "2019-05-03T12:28:05+02:00",
+      "date": "2019-05-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609558.pdf",
+      "fileName": "00609558.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609558",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 61",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609954.pdf",
+      "created": "2019-05-29T13:40:03+02:00",
+      "date": "2019-05-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609954.pdf",
+      "fileName": "00609954.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609954",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Gemeinderat",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45648",
+      "created": "2019-04-16T12:55:05+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16374",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5323",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37193",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-03-26T07:40:26+01:00",
+  "date": "2019-03-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37193",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Änderung des Bebauungsplans in den Straßen, für die laut Rahmenplan die Errichtung zusätzlicher Häuser vorgesehen ist",
+  "paperType": "Anfrage",
+  "reference": "2019/0282",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

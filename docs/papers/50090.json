@@ -1,0 +1,97 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656361.pdf",
+      "created": "2024-02-29T12:34:08+01:00",
+      "date": "2024-02-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656361.pdf",
+      "fileName": "00656361.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656361",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656435.pdf",
+      "created": "2024-03-01T15:17:01+01:00",
+      "date": "2024-03-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656435.pdf",
+      "fileName": "00656435.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656435",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656989.pdf",
+      "created": "2024-03-21T09:43:50+01:00",
+      "date": "2024-03-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656989.pdf",
+      "fileName": "00656989.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656989",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_HA_05_03_2024_TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00657713.pdf",
+      "created": "2024-04-18T10:27:36+02:00",
+      "date": "2024-04-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00657713.pdf",
+      "fileName": "00657713.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/657713",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_HA_09.04.2024 TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/85099",
+      "authoritative": true,
+      "created": "2024-03-01T11:58:54+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31608",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9513",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50090",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/85187",
+      "authoritative": true,
+      "created": "2024-03-08T16:53:36+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31656",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9514",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50090",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-02-29T12:33:48+01:00",
+  "date": "2024-02-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50090",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Lösungskonzept für das Oberwaldbad hochprioritär im Hauptausschuss behandeln",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2024/0004/2",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49860"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882969"
+  ]
+}

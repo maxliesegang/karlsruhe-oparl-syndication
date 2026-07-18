@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677479.pdf",
+      "created": "2026-04-07T11:59:23+02:00",
+      "date": "2026-04-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677479.pdf",
+      "fileName": "00677479.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677479",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-24T11:11:36+02:00",
+      "name": "Informationsvorlage Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100697",
+      "created": "2026-03-02T09:01:44+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37217",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10437",
+      "modified": "2026-06-01T10:34:38+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54422",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-04-07T09:03:44+02:00",
+  "date": "2026-04-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54422",
+  "modified": "2026-04-24T11:11:08+02:00",
+  "name": "Sachstand zur Konzeptvergabe für den Niddaplatz",
+  "paperType": "Informationsvorlage",
+  "reference": "2026/0265",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

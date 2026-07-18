@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00673893.pdf",
+      "created": "2025-11-25T18:33:59+01:00",
+      "date": "2025-11-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00673893.pdf",
+      "fileName": "00673893.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/673893",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-08T17:08:01+01:00",
+      "name": "Antrag KAL_005",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674745.pdf",
+      "created": "2025-12-05T16:45:11+01:00",
+      "date": "2025-12-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674745.pdf",
+      "fileName": "00674745.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674745",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-08T17:08:01+01:00",
+      "name": "4153 Stellungnahme DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99510",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:29+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36634",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-17T09:05:48+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/53993",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-25T17:46:14+01:00",
+  "date": "2025-11-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/53993",
+  "modified": "2025-12-08T17:08:01+01:00",
+  "name": "HHS4_GR51 - Erhalt Projekte interdisziplinäre Jugendkultur",
+  "paperType": "Haushalt THH 4100",
+  "reference": "DHH/2025/4153",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

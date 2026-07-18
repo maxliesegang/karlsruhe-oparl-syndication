@@ -1,0 +1,71 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00629787.pdf",
+      "created": "2021-10-19T07:26:25+02:00",
+      "date": "2021-10-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00629787.pdf",
+      "fileName": "00629787.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/629787",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00629798.pdf",
+      "created": "2021-10-19T14:08:38+02:00",
+      "date": "2021-10-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00629798.pdf",
+      "fileName": "00629798.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/629798",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN zum Änderungsantrag TOP 3 DIE LINKE",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00629804.pdf",
+      "created": "2021-10-19T18:05:22+02:00",
+      "date": "2021-10-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00629804.pdf",
+      "fileName": "00629804.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/629804",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 3 Linke",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/62183",
+      "authoritative": true,
+      "created": "2021-10-19T09:16:21+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/23223",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6301",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/42959",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-10-19T07:25:34+02:00",
+  "date": "2021-10-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/42959",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Redezeiten des Gemeinderates zum Doppelhaushalt 2022/2023",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2021/1118/2",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41825"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882850"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667819.pdf",
+      "created": "2025-06-10T11:07:05+02:00",
+      "date": "2025-06-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667819.pdf",
+      "fileName": "00667819.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667819",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T10:53:40+02:00",
+      "name": "Anlage 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667822.pdf",
+      "created": "2025-06-10T11:37:08+02:00",
+      "date": "2025-06-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667822.pdf",
+      "fileName": "00667822.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667822",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T10:53:40+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667955.pdf",
+      "created": "2025-06-13T13:13:59+02:00",
+      "date": "2025-06-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667955.pdf",
+      "fileName": "00667955.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667955",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T10:53:40+02:00",
+      "name": "Anlage 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669142.pdf",
+      "created": "2025-07-29T21:04:11+02:00",
+      "date": "2025-07-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669142.pdf",
+      "fileName": "00669142.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669142",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T10:53:40+02:00",
+      "name": "Abstimmungsergebnis TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669486.pdf",
+      "created": "2025-08-19T10:53:37+02:00",
+      "date": "2025-08-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669486.pdf",
+      "fileName": "00669486.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669486",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T10:53:40+02:00",
+      "name": "Protokoll GR 29.07.2025 TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93808",
+      "authoritative": true,
+      "created": "2025-05-07T09:30:38+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34183",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10106",
+      "modified": "2025-06-30T15:24:10+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51888",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94861",
+      "authoritative": true,
+      "created": "2025-06-27T09:55:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34184",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10051",
+      "modified": "2025-07-29T18:07:33+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51888",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-05-06T10:54:35+02:00",
+  "date": "2025-05-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51888",
+  "modified": "2025-08-19T10:53:40+02:00",
+  "name": "Aufnahme eines neuen Kita-Projektes in die Bedarfsplanung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0436",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

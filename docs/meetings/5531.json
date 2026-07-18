@@ -1,0 +1,57 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611102.pdf",
+      "created": "2019-09-17T11:00:12+02:00",
+      "date": "2019-09-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611102.pdf",
+      "fileName": "00611102.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611102",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Tagesordnung ÖFFENLICH 25.09.2019",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611600.pdf",
+      "created": "2019-10-11T13:19:58+02:00",
+      "date": "2019-10-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611600.pdf",
+      "fileName": "00611600.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611600",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll ÖFFENTLICH",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2018-11-19T15:52:25+01:00",
+  "end": "2019-09-25T22:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5531",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611101.pdf",
+    "created": "2019-09-17T10:58:46+02:00",
+    "date": "2019-09-17",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611101.pdf",
+    "fileName": "00611101.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611101",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2018-11-19T15:52:25+01:00",
+    "description": "Bürgersaal des Rathauses Hohenwettersbach",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5531",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ortschaftsrat Hohenwettersbach (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34322"
+  ],
+  "start": "2019-09-25T19:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

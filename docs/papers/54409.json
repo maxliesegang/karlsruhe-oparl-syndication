@@ -1,0 +1,71 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677370.pdf",
+      "created": "2026-03-30T11:53:58+02:00",
+      "date": "2026-03-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677370.pdf",
+      "fileName": "00677370.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677370",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-29T11:43:44+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677513.pdf",
+      "created": "2026-04-08T08:54:27+02:00",
+      "date": "2026-04-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677513.pdf",
+      "fileName": "00677513.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677513",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-29T11:43:44+02:00",
+      "name": "NBS_ABS_Stellungnahme_Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678041.pdf",
+      "created": "2026-04-29T11:43:40+02:00",
+      "date": "2026-04-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678041.pdf",
+      "fileName": "00678041.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678041",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-29T11:43:44+02:00",
+      "name": "Abstimmungsergebnis TOP 16.1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101151",
+      "authoritative": true,
+      "created": "2026-04-01T09:53:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37192",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10512",
+      "modified": "2026-05-26T12:02:49+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54409",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-03-30T11:53:40+02:00",
+  "date": "2026-03-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54409",
+  "modified": "2026-04-29T11:43:44+02:00",
+  "name": "Neubaustrecke - Ausbaustrecke (NBS/ABS) Mannheim-Karlsruhe, Sachstand",
+  "paperType": "Antrag",
+  "reference": "2026/0088/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54223"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

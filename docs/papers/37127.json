@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608191.pdf",
+      "created": "2019-03-07T13:04:30+01:00",
+      "date": "2019-03-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608191.pdf",
+      "fileName": "00608191.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608191",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608820.pdf",
+      "created": "2019-04-02T13:25:33+02:00",
+      "date": "2019-04-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608820.pdf",
+      "fileName": "00608820.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608820",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 16",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609818.pdf",
+      "created": "2019-05-21T07:47:50+02:00",
+      "date": "2019-05-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609818.pdf",
+      "fileName": "00609818.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609818",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 16",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45225",
+      "authoritative": true,
+      "created": "2019-03-12T09:45:20+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16297",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5307",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37127",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-03-07T13:03:49+01:00",
+  "date": "2019-03-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37127",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Regelmäßige Busverbindung zur Messe Karlsruhe",
+  "paperType": "Antrag",
+  "reference": "2019/0215",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882999"
+  ]
+}

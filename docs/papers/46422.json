@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635743.pdf",
+      "created": "2022-02-08T09:11:17+01:00",
+      "date": "2022-02-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635743.pdf",
+      "fileName": "00635743.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635743",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "BA Westmarkstraße BA2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635878.pdf",
+      "created": "2022-02-11T08:11:09+01:00",
+      "date": "2022-02-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635878.pdf",
+      "fileName": "00635878.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635878",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "BA Sanierungsgeb. ASP Durlach-Aue_ Umgestalt. Stegwiesen- u. Westmarkstraße ohne Beschluss",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/68446",
+      "authoritative": true,
+      "created": "2022-02-16T17:59:58+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26812",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6636",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46422",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-02-07T13:50:20+01:00",
+  "date": "2022-02-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46422",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Sanierungsgebiet ASP, Durlach Aue",
+  "paperType": "Beschlussvorlage",
+  "reference": "2022/0151",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

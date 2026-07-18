@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642488.pdf",
+      "created": "2022-11-11T09:19:17+01:00",
+      "date": "2022-11-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642488.pdf",
+      "fileName": "00642488.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642488",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP_8_HHSicherungsprozess",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642902.pdf",
+      "created": "2022-11-24T15:57:53+01:00",
+      "date": "2022-11-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642902.pdf",
+      "fileName": "00642902.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642902",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Ergebnisse Haushaltsplanung 2024-2025_22.11.2022",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/73953",
+      "created": "2022-11-11T09:21:10+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28555",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/8913",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34531"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47761",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-11-11T09:18:36+01:00",
+  "date": "2022-11-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47761",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Aktueller Sachstand zum Haushaltssicherungsprozess",
+  "paperType": "Beschlussvorlage",
+  "reference": "2022/2290",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882960"
+  ]
+}

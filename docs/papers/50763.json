@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659769.pdf",
+      "created": "2024-07-23T16:33:19+02:00",
+      "date": "2024-07-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659769.pdf",
+      "fileName": "00659769.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659769",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661570.pdf",
+      "created": "2024-10-11T13:49:49+02:00",
+      "date": "2024-10-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661570.pdf",
+      "fileName": "00661570.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661570",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661616.pdf",
+      "created": "2024-10-14T09:57:01+02:00",
+      "date": "2024-10-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661616.pdf",
+      "fileName": "00661616.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661616",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 24.09.2024 TOP 30",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/89561",
+      "created": "2024-08-21T12:48:35+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32694",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9694",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50763",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/89754",
+      "authoritative": true,
+      "created": "2024-08-22T10:16:02+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32554",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9531",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50763",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-07-23T16:32:49+02:00",
+  "date": "2024-08-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50763",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Optimierung der Plakatierungsregularien",
+  "paperType": "Antrag",
+  "reference": "2024/0839",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882981"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609039.pdf",
+      "created": "2019-04-15T14:52:54+02:00",
+      "date": "2019-04-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609039.pdf",
+      "fileName": "00609039.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609039",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609554.pdf",
+      "created": "2019-05-03T12:25:55+02:00",
+      "date": "2019-05-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609554.pdf",
+      "fileName": "00609554.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609554",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610627.pdf",
+      "created": "2019-07-30T11:08:33+02:00",
+      "date": "2019-07-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610627.pdf",
+      "fileName": "00610627.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610627",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46106",
+      "authoritative": true,
+      "created": "2019-05-28T12:51:18+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16520",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5344",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37299",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-04-15T14:51:43+02:00",
+  "date": "2019-04-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37299",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Zusätzliche Parkflächen für mindestens 200 motorisierte Zweiräder im Innenstadtbereich und weitere in allen Stadtteilen mit hohem Aufkommen von motorisierten Zweirädern",
+  "paperType": "Antrag",
+  "reference": "2019/0394",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

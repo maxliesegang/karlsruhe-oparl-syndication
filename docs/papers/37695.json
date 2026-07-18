@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610848.pdf",
+      "created": "2019-08-27T14:33:32+02:00",
+      "date": "2019-08-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610848.pdf",
+      "fileName": "00610848.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610848",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611599.pdf",
+      "created": "2019-10-11T13:10:36+02:00",
+      "date": "2019-10-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611599.pdf",
+      "fileName": "00611599.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611599",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 31",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612717.pdf",
+      "created": "2019-11-28T16:03:20+01:00",
+      "date": "2019-11-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612717.pdf",
+      "fileName": "00612717.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612717",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 31",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47007",
+      "authoritative": true,
+      "created": "2019-09-25T10:23:51+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17002",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5404",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37695",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-08-27T09:06:55+02:00",
+  "date": "2019-08-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37695",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Der Marktplatz wird Projektfeld - Bürger*innen gestalten ihre Stadt",
+  "paperType": "Antrag",
+  "reference": "2019/0801",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

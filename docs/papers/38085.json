@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612697.pdf",
+      "created": "2019-11-28T12:05:15+01:00",
+      "date": "2019-11-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612697.pdf",
+      "fileName": "00612697.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612697",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614296.pdf",
+      "created": "2020-01-14T10:55:59+01:00",
+      "date": "2020-01-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614296.pdf",
+      "fileName": "00614296.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614296",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 31 Pedelecs_aktuelle Unfallstatistik und Sicherheitstrainings",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614860.pdf",
+      "created": "2020-02-11T10:25:36+01:00",
+      "date": "2020-02-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614860.pdf",
+      "fileName": "00614860.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614860",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 31",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/48168",
+      "authoritative": true,
+      "created": "2019-12-18T08:12:04+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17476",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5661",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38085",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-11-28T12:04:52+01:00",
+  "date": "2019-11-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38085",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Pedelecs: Aktuelle Unfallstatistik und Sicherheitstrainings",
+  "paperType": "Anfrage",
+  "reference": "2019/1223",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "agendaItem": [
+    {
+      "created": "2024-01-12T15:18:41+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84176",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9537",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Tiefbauamt",
+      "number": "",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31329",
+      "created": "2024-01-12T15:18:11+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84175",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9537",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Klärwerk Karlsruhe, Installation eines Photovoltaik-Solarfaltdaches für der Filtrationsanlage",
+      "number": "1",
+      "order": 2,
+      "public": true,
+      "result": "mehrheitlich beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2024-01-04T15:14:11+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84014",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9537",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Amt für Hochbau und Gebäudewirtschaft",
+      "number": "",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31215",
+      "created": "2024-01-04T15:14:12+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84017",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9537",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Stadthalle Modernisierung, Vergabe von Elektrotechnik",
+      "number": "2",
+      "order": 4,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31420",
+      "created": "2024-01-31T11:01:33+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84594",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9537",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Stadthalle Modernisierung",
+      "number": "3",
+      "order": 5,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656287.pdf",
+      "created": "2024-02-27T11:47:41+01:00",
+      "date": "2024-02-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656287.pdf",
+      "fileName": "00656287.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656287",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll ö BA 08.02.2024",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2023-09-06T14:23:26+02:00",
+  "end": "2024-02-08T16:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9537",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655281.pdf",
+    "created": "2024-01-12T15:21:12+01:00",
+    "date": "2024-01-31",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655281.pdf",
+    "fileName": "00655281.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655281",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2023-09-06T14:23:26+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9537",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Bauausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+  ],
+  "start": "2024-02-08T16:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

@@ -1,0 +1,71 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19701",
+      "created": "2020-07-02T07:52:23+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53421",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5834",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Städtebauliches Entwicklungskonzept Ettlinger Tor - Südwestseite Abschluss des Werkstattverfahrens",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19702",
+      "created": "2020-07-02T07:52:23+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53422",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5834",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Bebauungsplan \"Oberer Säuterich\" Durlach Aue hier: Frühzeitige Beteiligung der Öffentlichkeit gem. § 3 Abs. 1 BauGB",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618610.pdf",
+      "created": "2020-07-02T15:11:46+02:00",
+      "date": "2020-07-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618610.pdf",
+      "fileName": "00618610.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618610",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Tagesordnung ö",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00623435.pdf",
+      "created": "2021-02-17T08:24:59+01:00",
+      "date": "2021-02-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00623435.pdf",
+      "fileName": "00623435.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/623435",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Niederschrift Planungsausschusses vom 9. Juli 2020 -ö-",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2019-10-07T11:38:49+02:00",
+  "end": "2020-07-09T18:45:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5834",
+  "location": {
+    "created": "2019-10-07T11:38:49+02:00",
+    "description": "Bürgersaal Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5834",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Planungsausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+  ],
+  "start": "2020-07-09T16:45:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

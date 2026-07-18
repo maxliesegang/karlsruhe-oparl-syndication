@@ -1,0 +1,85 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27522",
+      "created": "2022-08-15T11:24:54+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/71934",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/8874",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Fahrrad-Stellplätze: Jeden letzten Kfz-Parkplatz vor einer Kreuzung mit Anlehnbügeln Fahrräder, Fahrradanhänger u. ä. belegen",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "verwiesen in den Gemeinderat",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27286",
+      "created": "2022-08-15T11:24:54+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/71932",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/8874",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Aufgeweitete Radaufstellstreifen (ARAS)",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "erledigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27602",
+      "created": "2022-08-15T11:24:54+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/71935",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/8874",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Sozialdiakonisches Zentrum Bilfinger Straße",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27788",
+      "created": "2022-08-22T09:17:12+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72018",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/8874",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Sondernutzungsrichtlinie Innenstadt",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "result": "vorberaten ohne Änderungen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2021-11-11T10:25:37+01:00",
+  "end": "2022-09-15T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/8874",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00640235.pdf",
+    "created": "2022-09-02T12:00:35+02:00",
+    "date": "2022-09-02",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00640235.pdf",
+    "fileName": "00640235.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/640235",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortsverwaltung",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2021-11-11T10:25:37+01:00",
+    "description": "Ständehausstraße, Stephansaal",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/8874",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Planungsausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+  ],
+  "start": "2022-09-15T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

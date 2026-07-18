@@ -1,0 +1,94 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00604927.pdf",
+      "created": "2018-09-06T09:28:28+02:00",
+      "date": "2018-09-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00604927.pdf",
+      "fileName": "00604927.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/604927",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "CDU Videoüberwachung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00605007.pdf",
+      "created": "2018-09-07T09:28:23+02:00",
+      "date": "2018-09-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00605007.pdf",
+      "fileName": "00605007.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/605007",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00605545.pdf",
+      "created": "2018-10-16T09:09:31+02:00",
+      "date": "2018-10-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00605545.pdf",
+      "fileName": "00605545.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/605545",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 18.09.2018 TOP 23",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607415.pdf",
+      "created": "2019-01-15T10:02:38+01:00",
+      "date": "2019-01-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607415.pdf",
+      "fileName": "00607415.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607415",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll HA TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/43732",
+      "authoritative": true,
+      "created": "2018-08-21T16:05:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15549",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4966",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36525",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44504",
+      "authoritative": true,
+      "created": "2018-11-06T14:45:16+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15941",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4914",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36525",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-07-09T15:42:26+02:00",
+  "date": "2018-07-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36525",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Videoüberwachung von ausgewählten Straßen und Plätzen im öffentlichen Raum",
+  "paperType": "Antrag",
+  "reference": "2018/0499",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

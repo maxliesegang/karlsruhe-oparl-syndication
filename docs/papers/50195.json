@@ -1,0 +1,71 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00657017.pdf",
+      "created": "2024-03-21T14:07:39+01:00",
+      "date": "2024-03-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00657017.pdf",
+      "fileName": "00657017.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/657017",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-18T10:46:21+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658569.pdf",
+      "created": "2024-05-17T13:09:04+02:00",
+      "date": "2024-05-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658569.pdf",
+      "fileName": "00658569.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658569",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-18T10:46:21+01:00",
+      "name": "Protokoll GR 23.04.2024 TOP 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665733.pdf",
+      "created": "2025-03-18T10:46:06+01:00",
+      "date": "2025-03-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665733.pdf",
+      "fileName": "00665733.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665733",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-18T10:46:21+01:00",
+      "name": "Abstimmungsergebnis TOP 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/85442",
+      "authoritative": true,
+      "created": "2024-03-22T12:11:37+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31770",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9525",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50195",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-03-21T13:50:51+01:00",
+  "date": "2024-03-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50195",
+  "modified": "2025-03-18T10:46:21+01:00",
+  "name": "Bewerbung um die Ausrichtung der World Games 2029",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0316",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50354"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

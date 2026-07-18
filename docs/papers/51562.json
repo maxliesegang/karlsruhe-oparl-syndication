@@ -1,0 +1,85 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664849.pdf",
+      "created": "2025-02-11T11:56:17+01:00",
+      "date": "2025-02-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664849.pdf",
+      "fileName": "00664849.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664849",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-16T08:54:50+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666348.pdf",
+      "created": "2025-04-10T08:09:34+02:00",
+      "date": "2025-04-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666348.pdf",
+      "fileName": "00666348.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666348",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-16T08:54:50+02:00",
+      "name": "Protokoll GR 25.03.2025 TOP 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666417.pdf",
+      "created": "2025-04-15T10:19:02+02:00",
+      "date": "2025-04-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666417.pdf",
+      "fileName": "00666417.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666417",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-16T08:54:50+02:00",
+      "name": "Protokoll HFA 08.04.2025 TOP 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92665",
+      "authoritative": true,
+      "created": "2025-02-26T13:21:31+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33683",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10046",
+      "modified": "2025-03-25T19:06:07+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51562",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93033",
+      "authoritative": true,
+      "created": "2025-03-26T08:33:07+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33940",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10036",
+      "modified": "2025-04-09T07:26:37+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51562",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-02-11T11:42:31+01:00",
+  "date": "2025-02-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51562",
+  "modified": "2025-04-16T08:54:50+02:00",
+  "name": "Erbbaurechtskonditionen für gemeinwohlorientierte Baugruppen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0140",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51825"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

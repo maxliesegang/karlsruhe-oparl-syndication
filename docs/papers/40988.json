@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624516.pdf",
+      "created": "2021-03-31T09:38:36+02:00",
+      "date": "2021-03-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624516.pdf",
+      "fileName": "00624516.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624516",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625097.pdf",
+      "created": "2021-04-26T10:56:28+02:00",
+      "date": "2021-04-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625097.pdf",
+      "fileName": "00625097.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625097",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll  TOP 3 HA",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2021-03-11T10:49:40+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20922",
+      "modified": "2021-03-11T10:49:40+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/39759"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40988",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56887",
+      "authoritative": true,
+      "created": "2021-03-16T11:26:00+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20923",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6186",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40988",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-03-11T10:48:40+01:00",
+  "date": "2021-03-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40988",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Mitgliedschaft in der Flüchtlingshilfe Karlsruhe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/0347",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

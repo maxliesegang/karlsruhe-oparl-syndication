@@ -1,0 +1,58 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612147.pdf",
+      "created": "2019-11-08T13:57:05+01:00",
+      "date": "2019-11-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612147.pdf",
+      "fileName": "00612147.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612147",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 2, BESCHLUSSVORLAGE",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47692",
+      "authoritative": true,
+      "created": "2019-11-08T10:16:52+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17365",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5474",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34764"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37995",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/48264",
+      "authoritative": true,
+      "created": "2020-01-03T09:20:40+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17365",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5892",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34764"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37995",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-11-08T10:03:27+01:00",
+  "date": "2019-11-08",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37995",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bebauungsplan \"An der Ochsenstraße, 2. Änderung\", Karlsruhe-Stupferich;",
+  "paperType": "Beschlussvorlage",
+  "reference": "2019/1133",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882957"
+  ]
+}

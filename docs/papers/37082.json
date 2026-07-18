@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608015.pdf",
+      "created": "2019-02-25T14:52:30+01:00",
+      "date": "2019-02-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608015.pdf",
+      "fileName": "00608015.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608015",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608405.pdf",
+      "created": "2019-03-15T11:48:27+01:00",
+      "date": "2019-03-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608405.pdf",
+      "fileName": "00608405.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608405",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 38",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608709.pdf",
+      "created": "2019-03-28T10:42:20+01:00",
+      "date": "2019-03-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608709.pdf",
+      "fileName": "00608709.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608709",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis GR Top38 Verweisungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609382.pdf",
+      "created": "2019-04-30T07:12:36+02:00",
+      "date": "2019-04-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609382.pdf",
+      "fileName": "00609382.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609382",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 38",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45125",
+      "authoritative": true,
+      "created": "2019-02-27T12:54:04+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16249",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5294",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37082",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-02-25T14:51:42+01:00",
+  "date": "2019-02-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37082",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Wiedereinführung einer Jahreskarte im Fächerbad",
+  "paperType": "Antrag",
+  "reference": "2019/0170",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

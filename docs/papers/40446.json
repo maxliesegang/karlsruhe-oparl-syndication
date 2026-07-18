@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620423.pdf",
+      "created": "2020-10-27T12:33:51+01:00",
+      "date": "2020-10-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620423.pdf",
+      "fileName": "00620423.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620423",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 4 ANTRAG Bebauungspläne Hanggebiet Durlach",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620545.pdf",
+      "created": "2020-11-02T16:04:03+01:00",
+      "date": "2020-11-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620545.pdf",
+      "fileName": "00620545.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620545",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 4 STELLUNGNAHME Hanggebiet Durlach",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/55064",
+      "authoritative": true,
+      "created": "2020-10-26T14:28:46+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20246",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5729",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40446",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-10-26T14:28:44+01:00",
+  "date": "2020-10-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40446",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bebauungspläne für das Durlacher Hanggebiet",
+  "paperType": "Antrag",
+  "reference": "2020/1235",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

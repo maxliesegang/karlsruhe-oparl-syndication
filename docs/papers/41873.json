@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00628354.pdf",
+      "created": "2021-09-28T18:43:00+02:00",
+      "date": "2021-09-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00628354.pdf",
+      "fileName": "00628354.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/628354",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00628618.pdf",
+      "created": "2021-10-08T14:18:14+02:00",
+      "date": "2021-10-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00628618.pdf",
+      "fileName": "00628618.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/628618",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN Information Hospitalisierung Corona",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634380.pdf",
+      "created": "2021-12-10T15:17:42+01:00",
+      "date": "2021-12-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634380.pdf",
+      "fileName": "00634380.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634380",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 29",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/60954",
+      "authoritative": true,
+      "created": "2021-09-30T11:35:49+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/22113",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6301",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41873",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-09-28T18:41:35+02:00",
+  "date": "2021-09-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41873",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Regelmäßige Information der Bevölkerung über Hospitalisierungen von an oder in Verbindung mit Corona Erkrankten und über die Nebenwirkungen der Impfungen",
+  "paperType": "Antrag",
+  "reference": "2021/1160",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

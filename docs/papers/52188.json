@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668960.pdf",
+      "created": "2025-07-22T14:17:53+02:00",
+      "date": "2025-07-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668960.pdf",
+      "fileName": "00668960.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668960",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:30:48+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669027.pdf",
+      "created": "2025-07-24T14:36:23+02:00",
+      "date": "2025-07-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669027.pdf",
+      "fileName": "00669027.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669027",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:30:48+02:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670977.pdf",
+      "created": "2025-10-17T10:30:45+02:00",
+      "date": "2025-10-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670977.pdf",
+      "fileName": "00670977.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670977",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:30:48+02:00",
+      "name": "Protokoll GR 30.09.2025 TOP 35",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95975",
+      "authoritative": true,
+      "created": "2025-08-29T08:53:33+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34601",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10052",
+      "modified": "2025-09-30T18:48:24+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52188",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-07-22T14:16:08+02:00",
+  "date": "2025-07-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52188",
+  "modified": "2025-10-17T10:30:48+02:00",
+  "name": "\"Graue Wölfe\" in Karlsruhe: Erkenntnisse über Aktivitäten der rechtsextremen Gruppierung",
+  "paperType": "Anfrage",
+  "reference": "2025/0710",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

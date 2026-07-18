@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635853.pdf",
+      "created": "2022-02-10T07:13:27+01:00",
+      "date": "2022-02-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635853.pdf",
+      "fileName": "00635853.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635853",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Nachberufung SanB Alt-Knielingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636101.pdf",
+      "created": "2022-02-23T11:13:23+01:00",
+      "date": "2022-02-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636101.pdf",
+      "fileName": "00636101.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636101",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 3.1-3.3",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636455.pdf",
+      "created": "2022-03-11T10:46:31+01:00",
+      "date": "2022-03-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636455.pdf",
+      "fileName": "00636455.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636455",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 22.02.2022 TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/67818",
+      "authoritative": true,
+      "created": "2022-02-03T09:33:35+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26788",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6584",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46396",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-02-03T09:32:22+01:00",
+  "date": "2022-02-03",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46396",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Neuberufung Mitglieder im Sanierungsbeirat Alt-Knielingen Ortskern",
+  "paperType": "Beschlussvorlage",
+  "reference": "2022/0125",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

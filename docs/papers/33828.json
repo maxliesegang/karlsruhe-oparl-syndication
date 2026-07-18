@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00150618.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2015-01-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00150618.pdf",
+      "fileName": "00150618.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/150618",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "GR-Grundsätze Förderrichtlinien BZ",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00585524.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2015-02-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00585524.pdf",
+      "fileName": "00585524.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/585524",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/36129",
+      "authoritative": true,
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/12233",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3835",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/33828",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2015-01-05",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/33828",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Grundsätze für die Förderung von Bürgerzentren in den Stadtteilen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2015/0020",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882965"
+  ]
+}

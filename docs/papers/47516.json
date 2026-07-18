@@ -1,0 +1,93 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00640998.pdf",
+      "created": "2022-09-27T13:44:31+02:00",
+      "date": "2022-09-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00640998.pdf",
+      "fileName": "00640998.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/640998",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00641005.pdf",
+      "created": "2022-09-27T15:30:51+02:00",
+      "date": "2022-09-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00641005.pdf",
+      "fileName": "00641005.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/641005",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643283.pdf",
+      "created": "2022-12-09T08:31:21+01:00",
+      "date": "2022-12-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643283.pdf",
+      "fileName": "00643283.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643283",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 17",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2022-10-26T10:20:28+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28463",
+      "modified": "2022-10-26T10:20:28+02:00",
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47516",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72810",
+      "authoritative": true,
+      "created": "2022-09-27T15:40:44+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28177",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6603",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47516",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/73560",
+      "authoritative": true,
+      "created": "2022-10-26T09:54:53+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28462",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6605",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47516",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-09-27T13:44:14+02:00",
+  "date": "2022-09-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47516",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Kein Verkauf, keine Vergabe der Immobilie der Majolika an die Gröner-Group",
+  "paperType": "Antrag",
+  "reference": "2022/1070",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47772"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

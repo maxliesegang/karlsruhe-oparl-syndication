@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626312.pdf",
+      "created": "2021-06-18T12:16:42+02:00",
+      "date": "2021-06-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626312.pdf",
+      "fileName": "00626312.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626312",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626638.pdf",
+      "created": "2021-06-29T13:53:23+02:00",
+      "date": "2021-06-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626638.pdf",
+      "fileName": "00626638.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626638",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "4.2 - TOP 4 - 2021-06-15__GS_Präsentation AUG und PlA",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626652.pdf",
+      "created": "2021-06-29T16:08:47+02:00",
+      "date": "2021-06-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626652.pdf",
+      "fileName": "00626652.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626652",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Grünsatzung",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/58950",
+      "created": "2021-06-18T12:10:08+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21532",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6242",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41389",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/59015",
+      "created": "2021-06-21T17:45:08+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21466",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6251",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41389",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-06-14T10:57:07+02:00",
+  "date": "2021-06-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41389",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "IQ-Korridorthema Grüne Stadt - Leitprojekt Grünsatzung: Bebauungsplan \"Grünordnung und Klimaanpassung in der Innenstadt\" (Grünsatzung), Karlsruhe-Innenstadt West und Ost",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/0735",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

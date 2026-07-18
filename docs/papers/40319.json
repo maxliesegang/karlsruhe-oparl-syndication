@@ -1,0 +1,79 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620290.pdf",
+      "created": "2020-10-20T13:17:39+02:00",
+      "date": "2020-10-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620290.pdf",
+      "fileName": "00620290.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620290",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Gemeinderat Christkindlesmarkt neu",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620307.pdf",
+      "created": "2020-10-21T09:06:00+02:00",
+      "date": "2020-10-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620307.pdf",
+      "fileName": "00620307.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620307",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620744.pdf",
+      "created": "2020-11-12T08:10:44+01:00",
+      "date": "2020-11-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620744.pdf",
+      "fileName": "00620744.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620744",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2020-09-24T14:27:50+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20079",
+      "modified": "2020-09-24T14:27:50+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40319",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54727",
+      "authoritative": true,
+      "created": "2020-10-02T11:39:11+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20104",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5671",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40319",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-09-24T14:27:18+02:00",
+  "date": "2020-09-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40319",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Weiteres Vorgehen Christkindlesmarkt 2020",
+  "paperType": "Beschlussvorlage",
+  "reference": "2020/1108",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882979"
+  ]
+}

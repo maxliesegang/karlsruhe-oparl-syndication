@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608242.pdf",
+      "created": "2019-03-08T13:27:32+01:00",
+      "date": "2019-03-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608242.pdf",
+      "fileName": "00608242.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608242",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Europabericht",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608243.pdf",
+      "created": "2019-03-08T13:27:41+01:00",
+      "date": "2019-03-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608243.pdf",
+      "fileName": "00608243.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608243",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Europabericht",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608694.pdf",
+      "created": "2019-03-28T10:28:39+01:00",
+      "date": "2019-03-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608694.pdf",
+      "fileName": "00608694.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608694",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis GR Top12",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609322.pdf",
+      "created": "2019-04-29T11:54:42+02:00",
+      "date": "2019-04-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609322.pdf",
+      "fileName": "00609322.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609322",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45068",
+      "authoritative": true,
+      "created": "2019-02-26T11:06:11+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16218",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5294",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37061",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-02-19T12:09:25+01:00",
+  "date": "2019-02-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37061",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Europabericht der Stadt Karlsruhe 2016 - 2018",
+  "paperType": "Beschlussvorlage",
+  "reference": "2019/0144",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882970"
+  ]
+}

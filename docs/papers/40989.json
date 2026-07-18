@@ -1,0 +1,79 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624518.pdf",
+      "created": "2021-03-31T10:02:57+02:00",
+      "date": "2021-03-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624518.pdf",
+      "fileName": "00624518.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624518",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 5 Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624519.pdf",
+      "created": "2021-03-31T10:02:57+02:00",
+      "date": "2021-03-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624519.pdf",
+      "fileName": "00624519.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624519",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 5 Mitgliedschaft Bundesverband Gebäudegrün 16.02.2021",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625099.pdf",
+      "created": "2021-04-26T10:57:13+02:00",
+      "date": "2021-04-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625099.pdf",
+      "fileName": "00625099.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625099",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll  TOP 5 HA",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2021-03-16T10:39:53+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20945",
+      "modified": "2021-03-16T10:39:53+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40989",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56888",
+      "authoritative": true,
+      "created": "2021-03-16T11:26:00+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20924",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6186",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40989",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-03-11T10:52:35+01:00",
+  "date": "2021-03-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40989",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Mitgliedschaft im Bundesverband für Gebäudegrün",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/0348",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882984"
+  ]
+}

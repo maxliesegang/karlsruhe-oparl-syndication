@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00627583.pdf",
+      "created": "2021-08-19T14:08:13+02:00",
+      "date": "2021-08-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00627583.pdf",
+      "fileName": "00627583.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/627583",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00627927.pdf",
+      "created": "2021-09-07T09:04:57+02:00",
+      "date": "2021-09-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00627927.pdf",
+      "fileName": "00627927.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/627927",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN WLAN in Karlsruher Wohnungslosen- und Obdachlosenunterkünften",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00631100.pdf",
+      "created": "2021-11-02T13:32:34+01:00",
+      "date": "2021-11-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00631100.pdf",
+      "fileName": "00631100.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/631100",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 50",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/60495",
+      "authoritative": true,
+      "created": "2021-08-24T13:27:07+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21909",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6279",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41722",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-08-19T14:07:44+02:00",
+  "date": "2021-08-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41722",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "WLAN in Karlsruher Wohnungslosen- und Obdachlosen-Unterkünften",
+  "paperType": "Anfrage",
+  "reference": "2021/1018",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

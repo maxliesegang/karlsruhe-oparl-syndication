@@ -1,0 +1,70 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647552.pdf",
+      "created": "2023-05-24T10:48:45+02:00",
+      "date": "2023-05-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647552.pdf",
+      "fileName": "00647552.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647552",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648055.pdf",
+      "created": "2023-06-13T09:19:52+02:00",
+      "date": "2023-06-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648055.pdf",
+      "fileName": "00648055.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648055",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78078",
+      "authoritative": true,
+      "created": "2023-05-31T13:21:25+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29725",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9046",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48665",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78630",
+      "authoritative": true,
+      "created": "2023-06-28T15:51:12+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29970",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9093",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33195"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48665",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-05-24T10:48:16+02:00",
+  "date": "2023-05-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48665",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Haus für Alle: Beratungs- und Begegnungszentrum",
+  "paperType": "Antrag",
+  "reference": "2023/0587",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665810.pdf",
+      "created": "2025-03-20T14:22:55+01:00",
+      "date": "2025-03-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665810.pdf",
+      "fileName": "00665810.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665810",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T07:42:21+02:00",
+      "name": "Lageplan",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666032.pdf",
+      "created": "2025-03-27T10:01:48+01:00",
+      "date": "2025-03-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666032.pdf",
+      "fileName": "00666032.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666032",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T07:42:21+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667618.pdf",
+      "created": "2025-06-02T15:00:31+02:00",
+      "date": "2025-06-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667618.pdf",
+      "fileName": "00667618.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667618",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T07:42:21+02:00",
+      "name": "Abstimmungsergebnis TOP 19",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668038.pdf",
+      "created": "2025-06-17T07:42:16+02:00",
+      "date": "2025-06-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668038.pdf",
+      "fileName": "00668038.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668038",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T07:42:21+02:00",
+      "name": "Protokoll GR 27.05.2025 TOP 19",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93761",
+      "authoritative": true,
+      "created": "2025-05-07T08:24:15+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33869",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10048",
+      "modified": "2025-05-27T18:00:39+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51686",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-03-13T15:19:27+01:00",
+  "date": "2025-03-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51686",
+  "modified": "2025-06-17T07:42:21+02:00",
+  "name": "Schlossplatztunnel - Sanierung Fahrbahnen und Bauwerkssanierung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0259",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

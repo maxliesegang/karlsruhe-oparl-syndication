@@ -1,0 +1,83 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21000",
+      "created": "2021-05-26T10:59:03+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/58198",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6527",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Ausübung dingliches Vorkaufsrecht an den Grundstücken Nr.24102/2 mit 11.278 m² und Nr.24102/3 mit 4.779 m² Gebäude- und Freifläche, Am Mühlburger Bahnhof 10, (Autohaus Zschernitz)",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "mehrheitlich zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "auxiliaryFile": [
+        {
+          "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625091.pdf",
+          "created": "2021-04-26T10:39:52+02:00",
+          "date": "2021-04-26",
+          "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625091.pdf",
+          "fileName": "00625091.pdf",
+          "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625091",
+          "mimeType": "application/pdf",
+          "modified": "2025-03-03T14:30:18+01:00",
+          "name": "Protokoll GR TOP 2",
+          "type": "https://schema.oparl.org/1.1/File"
+        }
+      ],
+      "created": "2021-03-30T10:32:41+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/57202",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6527",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen des Bürgermeisteramtes",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2021-03-26T08:13:32+01:00",
+  "end": "2021-04-13T19:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6527",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624498.pdf",
+    "created": "2021-03-30T10:34:25+02:00",
+    "date": "2021-03-30",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624498.pdf",
+    "fileName": "00624498.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624498",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (ö/nö)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2021-03-26T08:13:32+01:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6527",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Sondersitzung Gemeinderat (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+  ],
+  "resultsProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625090.pdf",
+    "created": "2021-04-26T10:37:04+02:00",
+    "date": "2021-04-26",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625090.pdf",
+    "fileName": "00625090.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625090",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Anwesenheit (Protokoll)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "start": "2021-04-13T18:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

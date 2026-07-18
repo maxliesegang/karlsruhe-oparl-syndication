@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676408.pdf",
+      "created": "2026-02-05T13:17:38+01:00",
+      "date": "2026-02-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676408.pdf",
+      "fileName": "00676408.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676408",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-05T10:28:31+01:00",
+      "name": "Anlage Breitbandausbau Stand Februar 2026",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676467.pdf",
+      "created": "2026-02-09T09:45:21+01:00",
+      "date": "2026-02-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676467.pdf",
+      "fileName": "00676467.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676467",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-05T10:28:31+01:00",
+      "name": "Informationsvorlage Wettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100431",
+      "authoritative": true,
+      "created": "2026-02-09T09:39:20+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36973",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10454",
+      "modified": "2026-03-18T07:30:27+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54243",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-02-05T13:17:38+01:00",
+  "date": "2026-02-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54243",
+  "modified": "2026-03-05T10:28:31+01:00",
+  "name": "Sachstandsbericht Breitbandausbau in der Stadt Karlsruhe",
+  "paperType": "Informationsvorlage",
+  "reference": "2026/0065/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54198"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882961"
+  ]
+}

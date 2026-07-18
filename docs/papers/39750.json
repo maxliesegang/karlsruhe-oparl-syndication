@@ -1,0 +1,95 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617543.pdf",
+      "created": "2020-05-08T07:38:38+02:00",
+      "date": "2020-05-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617543.pdf",
+      "fileName": "00617543.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617543",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618274.pdf",
+      "created": "2020-06-19T07:53:45+02:00",
+      "date": "2020-06-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618274.pdf",
+      "fileName": "00618274.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618274",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Pop-up-Radwege",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619218.pdf",
+      "created": "2020-08-19T07:42:23+02:00",
+      "date": "2020-08-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619218.pdf",
+      "fileName": "00619218.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619218",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 26, Gemeinderat 21. Juli 2020",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/52720",
+      "authoritative": true,
+      "created": "2020-06-03T09:17:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19335",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5666",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39750",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53592",
+      "authoritative": true,
+      "created": "2020-07-03T14:12:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19335",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5667",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39750",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54279",
+      "created": "2020-09-04T12:34:33+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19946",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5836",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39750",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-05-08T07:38:01+02:00",
+  "date": "2020-05-08",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39750",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Einführung von Pop-up-Radwegen während der Corona-Krise in Karlsruhe",
+  "paperType": "Antrag",
+  "reference": "2020/0542",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

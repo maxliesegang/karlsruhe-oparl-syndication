@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665299.pdf",
+      "created": "2025-03-03T09:38:50+01:00",
+      "date": "2025-03-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665299.pdf",
+      "fileName": "00665299.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665299",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-27T12:44:34+01:00",
+      "name": "Anfrage Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665561.pdf",
+      "created": "2025-03-12T09:44:06+01:00",
+      "date": "2025-03-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665561.pdf",
+      "fileName": "00665561.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665561",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-27T12:44:34+01:00",
+      "name": "Stellungnahme Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92794",
+      "created": "2025-03-10T08:19:00+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33808",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9896",
+      "modified": "2025-03-10T11:48:43+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51637",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-03-03T09:38:08+01:00",
+  "date": "2025-03-03",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51637",
+  "modified": "2025-06-13T10:19:27+02:00",
+  "name": "Unterbringungsmöglichkeiten Schule",
+  "paperType": "Anfrage",
+  "reference": "2025/0210",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

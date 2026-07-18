@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666128.pdf",
+      "created": "2025-04-03T10:13:09+02:00",
+      "date": "2025-04-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666128.pdf",
+      "fileName": "00666128.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666128",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-30T14:00:59+02:00",
+      "name": "Beschlussvorlage ohne Pläne",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93272",
+      "created": "2025-04-14T08:31:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33972",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9897",
+      "modified": "2025-04-30T14:00:17+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51754",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-04-03T08:12:22+02:00",
+  "date": "2025-04-03",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51754",
+  "modified": "2025-04-30T14:00:59+02:00",
+  "name": "Bauantrag Im Oberviertel 21",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0317",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

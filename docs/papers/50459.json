@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658538.pdf",
+      "created": "2024-05-16T15:36:56+02:00",
+      "date": "2024-05-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658538.pdf",
+      "fileName": "00658538.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658538",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659554.pdf",
+      "created": "2024-07-11T14:58:24+02:00",
+      "date": "2024-07-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659554.pdf",
+      "fileName": "00659554.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659554",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Empfehlung/Protokoll Ausschuss",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/87248",
+      "created": "2024-06-19T16:35:14+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32141",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9859",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54847"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50459",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-05-16T15:34:18+02:00",
+  "date": "2024-05-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50459",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "cab Neubau mit Lager, Technologiepark",
+  "paperType": "Informationsvorlage",
+  "reference": "2024/0556",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

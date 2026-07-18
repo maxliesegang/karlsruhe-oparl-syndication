@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662141.pdf",
+      "created": "2024-10-28T12:12:57+01:00",
+      "date": "2024-10-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662141.pdf",
+      "fileName": "00662141.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662141",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663031.pdf",
+      "created": "2024-11-20T14:25:10+01:00",
+      "date": "2024-11-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663031.pdf",
+      "fileName": "00663031.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663031",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663576.pdf",
+      "created": "2024-12-10T14:56:22+01:00",
+      "date": "2024-12-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663576.pdf",
+      "fileName": "00663576.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663576",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 19.11.2024 TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90943",
+      "authoritative": true,
+      "created": "2024-10-30T11:11:09+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33115",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9533",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51167",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-10-28T12:10:01+01:00",
+  "date": "2024-10-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51167",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Änderung der Besetzung des Aufsichtsrats der Arbeitsförderung Karlsruhe gGmbH (afka) nach dem Ausscheiden von Frau Michaela Mannhardt",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/1219",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

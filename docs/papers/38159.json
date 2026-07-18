@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00613004.pdf",
+      "created": "2019-12-16T13:56:43+01:00",
+      "date": "2019-12-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00613004.pdf",
+      "fileName": "00613004.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/613004",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614302.pdf",
+      "created": "2020-01-14T14:03:27+01:00",
+      "date": "2020-01-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614302.pdf",
+      "fileName": "00614302.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614302",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 21 Medienbus",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614851.pdf",
+      "created": "2020-02-11T10:20:11+01:00",
+      "date": "2020-02-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614851.pdf",
+      "fileName": "00614851.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614851",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/48156",
+      "authoritative": true,
+      "created": "2019-12-18T08:12:03+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17572",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5661",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38159",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-12-16T13:54:57+01:00",
+  "date": "2019-12-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38159",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Medienbus ersetzen",
+  "paperType": "Antrag",
+  "reference": "2019/1297",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

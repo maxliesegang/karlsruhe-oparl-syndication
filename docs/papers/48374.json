@@ -1,0 +1,93 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00645968.pdf",
+      "created": "2023-03-23T14:53:55+01:00",
+      "date": "2023-03-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00645968.pdf",
+      "fileName": "00645968.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/645968",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647452.pdf",
+      "created": "2023-05-22T11:49:41+02:00",
+      "date": "2023-05-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647452.pdf",
+      "fileName": "00647452.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647452",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650307.pdf",
+      "created": "2023-08-31T16:26:13+02:00",
+      "date": "2023-08-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650307.pdf",
+      "fileName": "00650307.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650307",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2023-03-28T10:46:14+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29362",
+      "modified": "2023-03-28T10:46:14+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48374",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/76553",
+      "authoritative": true,
+      "created": "2023-03-28T12:58:58+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29337",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9044",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48374",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78896",
+      "authoritative": true,
+      "created": "2023-07-20T14:49:57+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30079",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9451",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33195"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48374",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-03-23T14:53:07+01:00",
+  "date": "2023-03-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48374",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Städtische Investitionen gegen Fachkräftemangel:",
+  "paperType": "Antrag",
+  "reference": "2023/0324",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

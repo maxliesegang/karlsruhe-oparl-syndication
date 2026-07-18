@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665477.pdf",
+      "created": "2025-03-10T15:55:38+01:00",
+      "date": "2025-03-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665477.pdf",
+      "fileName": "00665477.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665477",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-28T11:21:17+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93165",
+      "created": "2025-04-07T15:50:39+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33844",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10070",
+      "modified": "2025-05-19T09:55:35+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51669",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-03-10T15:48:54+01:00",
+  "date": "2025-03-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51669",
+  "modified": "2025-04-28T11:21:17+02:00",
+  "name": "Änderung der Kommentierung der Hans-Thoma-Straße",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0242",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

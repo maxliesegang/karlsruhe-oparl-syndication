@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636199.pdf",
+      "created": "2022-03-02T09:07:59+01:00",
+      "date": "2022-03-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636199.pdf",
+      "fileName": "00636199.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636199",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636200.pdf",
+      "created": "2022-03-02T09:07:59+01:00",
+      "date": "2022-03-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636200.pdf",
+      "fileName": "00636200.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636200",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636899.pdf",
+      "created": "2022-03-31T13:37:16+02:00",
+      "date": "2022-03-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636899.pdf",
+      "fileName": "00636899.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636899",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis  TOP4",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00637222.pdf",
+      "created": "2022-04-21T11:10:52+02:00",
+      "date": "2022-04-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00637222.pdf",
+      "fileName": "00637222.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/637222",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 29.03.202 TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/68786",
+      "authoritative": true,
+      "created": "2022-03-01T12:53:33+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26868",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6610",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46465",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-02-16T12:10:05+01:00",
+  "date": "2022-02-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46465",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Genehmigung von Mehrauszahlungen für die Hauptfeuerwache mit Deckung aus dem Projekt Integrierte Leitstelle",
+  "paperType": "Beschlussvorlage",
+  "reference": "2022/0191",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882976"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651204.pdf",
+      "created": "2023-10-02T14:01:26+02:00",
+      "date": "2023-10-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651204.pdf",
+      "fileName": "00651204.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651204",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651205.pdf",
+      "created": "2023-10-02T14:01:37+02:00",
+      "date": "2023-10-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651205.pdf",
+      "fileName": "00651205.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651205",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Vereinbarung zu POLIS zw RVMO-KA-KVV",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00652825.pdf",
+      "created": "2023-10-26T13:27:34+02:00",
+      "date": "2023-10-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00652825.pdf",
+      "fileName": "00652825.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/652825",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 19_Abstimmungsergebnis",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653653.pdf",
+      "created": "2023-11-14T12:14:18+01:00",
+      "date": "2023-11-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653653.pdf",
+      "fileName": "00653653.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653653",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 19",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/80727",
+      "authoritative": true,
+      "created": "2023-10-02T14:06:48+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30569",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9051",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49268",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-10-02T13:58:53+02:00",
+  "date": "2023-10-02",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49268",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Gemeinsame POLIS-Mitgliedschaft der Stadt Karlsruhe mit Karlsruher Verkehrsverbund (KVV) und Regionalverband Mittlerer Oberrhein (RVMO)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/1153",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00640895.pdf",
+      "created": "2022-09-22T12:12:10+02:00",
+      "date": "2022-09-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00640895.pdf",
+      "fileName": "00640895.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/640895",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/73440",
+      "authoritative": true,
+      "created": "2022-10-21T12:37:53+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27997",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6701",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/29599"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47331",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-08-31T09:38:02+02:00",
+  "date": "2022-08-31",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47331",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bunte Stadt – Sachstandsbericht zu den Projekten mit und in Oberreut",
+  "paperType": "Informationsvorlage",
+  "reference": "2022/1003",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882963"
+  ]
+}

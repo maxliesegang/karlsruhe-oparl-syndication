@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00603777.pdf",
+      "created": "2018-06-22T10:04:16+02:00",
+      "date": "2018-06-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00603777.pdf",
+      "fileName": "00603777.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/603777",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderung Entschädigungssatzung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00603778.pdf",
+      "created": "2018-06-22T10:04:32+02:00",
+      "date": "2018-06-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00603778.pdf",
+      "fileName": "00603778.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/603778",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Entschädigungssatzung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00604336.pdf",
+      "created": "2018-07-18T10:33:35+02:00",
+      "date": "2018-07-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00604336.pdf",
+      "fileName": "00604336.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/604336",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis Top 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00604425.pdf",
+      "created": "2018-07-31T15:00:42+02:00",
+      "date": "2018-07-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00604425.pdf",
+      "fileName": "00604425.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/604425",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/43393",
+      "authoritative": true,
+      "created": "2018-06-20T13:02:09+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15425",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4931",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36422",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-06-05T15:09:54+02:00",
+  "date": "2018-06-05",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36422",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Satzung zur Änderung der Satzung über die Entschädigung für ehrenamtliche Tätigkeit in der Stadt Karlsruhe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2018/0392",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882976"
+  ]
+}

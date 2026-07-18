@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00606618.pdf",
+      "created": "2018-11-27T08:09:21+01:00",
+      "date": "2018-11-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00606618.pdf",
+      "fileName": "00606618.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/606618",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00606684.pdf",
+      "created": "2018-11-30T10:39:43+01:00",
+      "date": "2018-11-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00606684.pdf",
+      "fileName": "00606684.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/606684",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 23",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00606895.pdf",
+      "created": "2018-12-12T11:06:59+01:00",
+      "date": "2018-12-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00606895.pdf",
+      "fileName": "00606895.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/606895",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Top23 Abstimmungsergebnis GR",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607081.pdf",
+      "created": "2019-01-08T08:10:03+01:00",
+      "date": "2019-01-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607081.pdf",
+      "fileName": "00607081.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607081",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 23",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44569",
+      "authoritative": true,
+      "created": "2018-11-13T10:24:31+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15945",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4930",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36820",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-11-12T07:37:11+01:00",
+  "date": "2018-11-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36820",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Aberkennung der Ehrenbürgerschaft Paul von Hindenburgs",
+  "paperType": "Antrag",
+  "reference": "2018/0808",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

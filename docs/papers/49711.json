@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653746.pdf",
+      "created": "2023-11-16T15:23:53+01:00",
+      "date": "2023-11-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653746.pdf",
+      "fileName": "00653746.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653746",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag auf Genehmigung von Mehraufwendungen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653748.pdf",
+      "created": "2023-11-16T15:27:32+01:00",
+      "date": "2023-11-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653748.pdf",
+      "fileName": "00653748.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653748",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654948.pdf",
+      "created": "2023-12-20T10:36:35+01:00",
+      "date": "2023-12-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654948.pdf",
+      "fileName": "00654948.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654948",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 23",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655170.pdf",
+      "created": "2024-01-08T14:18:13+01:00",
+      "date": "2024-01-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655170.pdf",
+      "fileName": "00655170.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655170",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 23 und 24",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83466",
+      "authoritative": true,
+      "created": "2023-11-20T09:50:04+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31060",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9055",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49711",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-11-15T11:20:37+01:00",
+  "date": "2023-11-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49711",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Erhöhte Aufwendungen für Energie- und Betriebsstoffe im Klärwerk",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/1312",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

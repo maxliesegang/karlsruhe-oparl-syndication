@@ -1,0 +1,72 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26706",
+      "created": "2022-03-17T13:52:13+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/69135",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6639",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Bebauungsplan \"Ortskern Alt-Knielingen\", Karlsruhe - Knielingen",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26864",
+      "created": "2022-03-17T13:52:13+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/69148",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6639",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Bebauungsplan Seewiesenäcker Änderung der Nutzungsart im Bereich des AkademieHotels Rüppurr",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "mehrheitlich beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27022",
+      "created": "2022-03-17T14:11:13+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/69151",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6639",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Südlich Stuttgarter Straße - Information zum Start des Boden- und Kampfmittelmanagements in den Bauabschnitten 1 und 2",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2021-09-30T11:57:10+02:00",
+  "end": "2022-04-07T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6639",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636605.pdf",
+    "created": "2022-03-17T14:42:23+01:00",
+    "date": "2022-03-24",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636605.pdf",
+    "fileName": "00636605.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636605",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2021-09-30T11:57:10+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6639",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Planungsausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+  ],
+  "start": "2022-04-07T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

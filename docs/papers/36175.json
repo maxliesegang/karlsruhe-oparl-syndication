@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00602551.pdf",
+      "created": "2018-04-12T14:14:37+02:00",
+      "date": "2018-04-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00602551.pdf",
+      "fileName": "00602551.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/602551",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "GRÜNE Auto-Poser",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00602552.pdf",
+      "created": "2018-04-12T14:14:49+02:00",
+      "date": "2018-04-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00602552.pdf",
+      "fileName": "00602552.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/602552",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 40.2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00603302.pdf",
+      "created": "2018-05-24T10:14:33+02:00",
+      "date": "2018-05-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00603302.pdf",
+      "fileName": "00603302.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/603302",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 40",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/42680",
+      "authoritative": true,
+      "created": "2018-04-10T11:20:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15092",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4992",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36175",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-03-12T14:35:01+01:00",
+  "date": "2018-03-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36175",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Lärmbelästigung durch Auto-Poser",
+  "paperType": "Anfrage",
+  "reference": "2018/0123",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

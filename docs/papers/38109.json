@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612831.pdf",
+      "created": "2019-12-06T14:43:57+01:00",
+      "date": "2019-12-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612831.pdf",
+      "fileName": "00612831.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612831",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612870.pdf",
+      "created": "2019-12-10T14:18:19+01:00",
+      "date": "2019-12-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612870.pdf",
+      "fileName": "00612870.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612870",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 17.1 KAL-Die PARTEI",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47963",
+      "authoritative": true,
+      "created": "2019-12-09T09:01:39+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17505",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5444",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38109",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-12-06T14:43:13+01:00",
+  "date": "2019-12-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38109",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Lärmaktionsplan: Mehr Tempo 30 wagen",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2019/1247",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

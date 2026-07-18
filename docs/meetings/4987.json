@@ -1,0 +1,59 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15221",
+      "created": "2018-04-11T09:14:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/42707",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4987",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Ergebnis Wettbewerb Schloss Augustenburg in Grötzingen",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15222",
+      "created": "2018-04-11T09:14:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/42708",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4987",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Maßnahmen zum Schutz des historischen Stadtbildes - Beiertheim",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00602463.pdf",
+      "created": "2018-04-11T09:18:03+02:00",
+      "date": "2018-04-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00602463.pdf",
+      "fileName": "00602463.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/602463",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Tagesordnung öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2017-09-18T15:26:33+02:00",
+  "end": "2018-04-18T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4987",
+  "location": {
+    "created": "2017-09-18T15:26:33+02:00",
+    "description": "Großer Sitzungssaal, Rathaus Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/4987",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Planungsausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+  ],
+  "start": "2018-04-18T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

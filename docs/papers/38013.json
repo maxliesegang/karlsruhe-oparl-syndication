@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612171.pdf",
+      "created": "2019-11-12T12:13:16+01:00",
+      "date": "2019-11-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612171.pdf",
+      "fileName": "00612171.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612171",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614395.pdf",
+      "created": "2020-01-17T16:11:58+01:00",
+      "date": "2020-01-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614395.pdf",
+      "fileName": "00614395.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614395",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 15.1 Radaufstellstreifen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614844.pdf",
+      "created": "2020-02-11T10:16:47+01:00",
+      "date": "2020-02-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614844.pdf",
+      "fileName": "00614844.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614844",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/48145",
+      "authoritative": true,
+      "created": "2019-12-18T08:12:03+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17390",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5661",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38013",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-11-12T12:12:58+01:00",
+  "date": "2019-11-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38013",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Haltebereich (Radaufstellstreifen) für Fahrradfahrer*innen an allen Ampelanlagen",
+  "paperType": "Antrag",
+  "reference": "2019/1151",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670876.pdf",
+      "created": "2025-10-15T14:14:09+02:00",
+      "date": "2025-10-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670876.pdf",
+      "fileName": "00670876.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670876",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-14T07:31:40+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670879.pdf",
+      "created": "2025-10-15T14:45:00+02:00",
+      "date": "2025-10-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670879.pdf",
+      "fileName": "00670879.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670879",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-14T07:31:40+01:00",
+      "name": "Mitgliederliste Sanierungsbeirat Durlach Stadteingang",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675544.pdf",
+      "created": "2025-12-22T16:41:24+01:00",
+      "date": "2025-12-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675544.pdf",
+      "fileName": "00675544.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675544",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-14T07:31:40+01:00",
+      "name": "Abstimmungsergebnis Top3",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675738.pdf",
+      "created": "2026-01-14T07:31:38+01:00",
+      "date": "2026-01-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675738.pdf",
+      "fileName": "00675738.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675738",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-14T07:31:40+01:00",
+      "name": "Protokoll GR 22.12.2025 TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99140",
+      "authoritative": true,
+      "created": "2025-11-18T13:46:51+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35038",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10425",
+      "modified": "2025-12-22T16:10:23+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52485",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-10-15T14:11:03+02:00",
+  "date": "2025-10-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52485",
+  "modified": "2026-01-14T07:31:40+01:00",
+  "name": "Nachberufung Mitglieder im Sanierungsbeirat Durlach Stadteingang",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0976",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

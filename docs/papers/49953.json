@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655497.pdf",
+      "created": "2024-01-23T15:26:17+01:00",
+      "date": "2024-01-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655497.pdf",
+      "fileName": "00655497.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655497",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655947.pdf",
+      "created": "2024-02-08T16:45:27+01:00",
+      "date": "2024-02-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655947.pdf",
+      "fileName": "00655947.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655947",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage zur Stellungnahme Anfrage FDP 2024_0095",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656006.pdf",
+      "created": "2024-02-14T11:16:42+01:00",
+      "date": "2024-02-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656006.pdf",
+      "fileName": "00656006.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656006",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656725.pdf",
+      "created": "2024-03-13T11:31:53+01:00",
+      "date": "2024-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656725.pdf",
+      "fileName": "00656725.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656725",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 20.02.2024 TOP 27",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84528",
+      "authoritative": true,
+      "created": "2024-01-24T15:45:01+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31388",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9523",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49953",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-01-23T15:25:48+01:00",
+  "date": "2024-01-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49953",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Überwindung von Immobilienleerständen in der Karlsruher Innenstadt",
+  "paperType": "Anfrage",
+  "reference": "2024/0095",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882973"
+  ]
+}

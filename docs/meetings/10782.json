@@ -1,0 +1,109 @@
+{
+  "agendaItem": [
+    {
+      "auxiliaryFile": [
+        {
+          "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676234.pdf",
+          "created": "2026-01-29T12:24:47+01:00",
+          "date": "2026-01-29",
+          "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676234.pdf",
+          "fileName": "00676234.pdf",
+          "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676234",
+          "mimeType": "application/pdf",
+          "modified": "2026-02-11T10:09:27+01:00",
+          "name": "Antrag FWV AED",
+          "type": "https://schema.oparl.org/1.1/File"
+        },
+        {
+          "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676534.pdf",
+          "created": "2026-02-11T10:09:17+01:00",
+          "date": "2026-02-11",
+          "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676534.pdf",
+          "fileName": "00676534.pdf",
+          "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676534",
+          "mimeType": "application/pdf",
+          "modified": "2026-02-11T10:09:27+01:00",
+          "name": "Stellungnahme zum Antrag AED",
+          "type": "https://schema.oparl.org/1.1/File"
+        }
+      ],
+      "created": "2026-01-29T12:10:23+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100274",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10782",
+      "modified": "2026-02-23T11:01:47+01:00",
+      "name": "Antrag der FWV-OR-Fraktion vom 28.01.2026; hier:",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-01-29T12:10:37+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100275",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10782",
+      "modified": "2026-02-23T11:02:13+01:00",
+      "name": "Mitteilungen der Ortsverwaltung",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-01-29T12:12:42+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100276",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10782",
+      "modified": "2026-02-23T11:02:19+01:00",
+      "name": "Verschiedenes",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678123.pdf",
+      "created": "2026-05-04T11:46:19+02:00",
+      "date": "2026-05-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678123.pdf",
+      "fileName": "00678123.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678123",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-04T11:46:40+02:00",
+      "name": "Niederschrift 15. ORatSitzung öffentlich 11.02.2026",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2025-12-08T11:15:28+01:00",
+  "end": "2026-02-11T00:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10782",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676233.pdf",
+    "created": "2026-01-29T12:16:39+01:00",
+    "date": "2026-01-29",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676233.pdf",
+    "fileName": "00676233.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676233",
+    "mimeType": "application/pdf",
+    "modified": "2026-02-11T10:09:27+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2025-12-08T11:15:28+01:00",
+    "description": "Sitzungssaal Rathaus Stupferich",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10782",
+    "modified": "2026-02-11T10:09:27+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-02-11T10:09:27+01:00",
+  "name": "Ortschaftsrat Stupferich (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34764"
+  ],
+  "start": "2026-02-11T19:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

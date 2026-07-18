@@ -1,0 +1,71 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/10617",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/32500",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3219",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Annahme des Angebots von Zuwendungen",
+      "number": "1",
+      "order": 1062,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00143059.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2013-09-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00143059.pdf",
+      "fileName": "00143059.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/143059",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anwesenheit",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00143060.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2013-09-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00143060.pdf",
+      "fileName": "00143060.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/143060",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Sitzungseröffnung und TOP 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2016-10-12T09:08:39+02:00",
+  "end": "2013-07-16T00:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3219",
+  "location": {
+    "created": "2016-10-12T09:08:39+02:00",
+    "description": "Großer Sitzungssaal",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/3219",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Hauptausschuss",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+  ],
+  "start": "2013-07-16T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "verbatimProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00041690.pdf",
+    "created": "2016-10-12T09:08:36+02:00",
+    "date": "2013-08-15",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00041690.pdf",
+    "fileName": "00041690.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/41690",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung öffentlich",
+    "type": "https://schema.oparl.org/1.1/File"
+  }
+}

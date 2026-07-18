@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00606253.pdf",
+      "created": "2018-11-13T08:48:03+01:00",
+      "date": "2018-11-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00606253.pdf",
+      "fileName": "00606253.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/606253",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607373.pdf",
+      "created": "2019-01-10T11:00:49+01:00",
+      "date": "2019-01-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607373.pdf",
+      "fileName": "00607373.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607373",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607649.pdf",
+      "created": "2019-01-29T14:43:50+01:00",
+      "date": "2019-01-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607649.pdf",
+      "fileName": "00607649.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607649",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44718",
+      "authoritative": true,
+      "created": "2018-12-18T09:14:24+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15887",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5261",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36783",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-10-30T15:57:05+01:00",
+  "date": "2018-10-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36783",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Prüfung der Ansprüche der Stadt Karlsruhe im Dieselskandal",
+  "paperType": "Antrag",
+  "reference": "2018/0771",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/776412"
+  ]
+}

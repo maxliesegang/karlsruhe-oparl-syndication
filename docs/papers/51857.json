@@ -1,0 +1,82 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666748.pdf",
+      "created": "2025-04-29T13:41:50+02:00",
+      "date": "2025-04-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666748.pdf",
+      "fileName": "00666748.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666748",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-05T09:18:26+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667285.pdf",
+      "created": "2025-05-21T08:28:55+02:00",
+      "date": "2025-05-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667285.pdf",
+      "fileName": "00667285.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667285",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-05T09:18:26+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669228.pdf",
+      "created": "2025-08-05T09:18:23+02:00",
+      "date": "2025-08-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669228.pdf",
+      "fileName": "00669228.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669228",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-05T09:18:26+02:00",
+      "name": "Protokoll HFA 15.07.2025 TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94027",
+      "authoritative": true,
+      "created": "2025-05-27T09:11:25+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34142",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10049",
+      "modified": "2025-06-25T08:03:22+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51857",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94767",
+      "authoritative": true,
+      "created": "2025-06-25T09:09:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34488",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10039",
+      "modified": "2025-07-16T07:15:54+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51857",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-04-29T13:41:21+02:00",
+  "date": "2025-04-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51857",
+  "modified": "2025-08-05T09:18:26+02:00",
+  "name": "Plakat-Kampagne: Wohnungen für Pflegekräfte",
+  "paperType": "Antrag",
+  "reference": "2025/0405",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

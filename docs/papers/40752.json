@@ -1,0 +1,105 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00623010.pdf",
+      "created": "2021-01-26T12:25:08+01:00",
+      "date": "2021-01-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00623010.pdf",
+      "fileName": "00623010.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/623010",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624242.pdf",
+      "created": "2021-03-19T08:45:35+01:00",
+      "date": "2021-03-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624242.pdf",
+      "fileName": "00624242.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624242",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 23.02.2021 TOP 22",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624637.pdf",
+      "created": "2021-04-07T10:37:32+02:00",
+      "date": "2021-04-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624637.pdf",
+      "fileName": "00624637.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624637",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN Konzept kommunale Ausbildungsvergütung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625561.pdf",
+      "created": "2021-05-19T10:19:06+02:00",
+      "date": "2021-05-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625561.pdf",
+      "fileName": "00625561.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625561",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 20.04.2021 TOP 22",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2021-01-28T08:45:23+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20656",
+      "modified": "2021-01-28T08:45:23+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/29599"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40752",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56313",
+      "authoritative": true,
+      "created": "2021-02-09T14:05:59+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20633",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6155",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40752",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/57243",
+      "authoritative": true,
+      "created": "2021-04-01T08:36:41+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21045",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6195",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40752",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-01-26T12:23:03+01:00",
+  "date": "2021-01-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40752",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Erstellung eines Konzepts für eine kommunale Ausstellungsvergütung für Bildende Künstler*innen",
+  "paperType": "Antrag",
+  "reference": "2021/0073",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

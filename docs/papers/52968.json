@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00673820.pdf",
+      "created": "2025-11-25T16:41:49+01:00",
+      "date": "2025-11-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00673820.pdf",
+      "fileName": "00673820.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/673820",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-08T17:10:31+01:00",
+      "name": "Antrag CDU_023",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674903.pdf",
+      "created": "2025-12-08T11:59:05+01:00",
+      "date": "2025-12-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674903.pdf",
+      "fileName": "00674903.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674903",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-08T17:10:31+01:00",
+      "name": "4119 Stellungnahme DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99476",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:28+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36606",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-17T09:04:00+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52968",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-25T13:07:43+01:00",
+  "date": "2025-11-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52968",
+  "modified": "2025-12-08T17:10:30+01:00",
+  "name": "Büroräume für das Sandkorn-Theater",
+  "paperType": "Haushalt THH 4100",
+  "reference": "DHH/2025/4119",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

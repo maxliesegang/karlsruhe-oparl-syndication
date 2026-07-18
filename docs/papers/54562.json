@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678371.pdf",
+      "created": "2026-05-15T07:16:08+02:00",
+      "date": "2026-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678371.pdf",
+      "fileName": "00678371.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678371",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-19T11:40:39+02:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678467.pdf",
+      "created": "2026-05-18T11:32:54+02:00",
+      "date": "2026-05-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678467.pdf",
+      "fileName": "00678467.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678467",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-19T11:40:47+02:00",
+      "name": "Stellungnahme_Vowo_Garnisonskirche",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101743",
+      "authoritative": true,
+      "created": "2026-05-15T10:54:20+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37416",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10526",
+      "modified": "2026-05-20T08:17:04+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54562",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-05-15T07:15:25+02:00",
+  "date": "2026-05-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54562",
+  "modified": "2026-06-02T17:23:02+02:00",
+  "name": "Knielinger Garnisonskirche als Landmarke erhalten",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2025/1224/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54058"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883015"
+  ]
+}

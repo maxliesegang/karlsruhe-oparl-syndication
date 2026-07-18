@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642783.pdf",
+      "created": "2022-11-21T14:46:12+01:00",
+      "date": "2022-11-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642783.pdf",
+      "fileName": "00642783.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642783",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643565.pdf",
+      "created": "2022-12-21T11:06:20+01:00",
+      "date": "2022-12-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643565.pdf",
+      "fileName": "00643565.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643565",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 1.1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643990.pdf",
+      "created": "2023-01-13T08:52:19+01:00",
+      "date": "2023-01-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643990.pdf",
+      "fileName": "00643990.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643990",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 1_1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/74208",
+      "authoritative": true,
+      "created": "2022-11-22T11:18:04+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28622",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6608",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47812",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-11-21T14:39:51+01:00",
+  "date": "2022-11-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47812",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Berufung sachkundiger Einwohnerinnen/Einwohner und Sachverständiger in gemeinderätliche Ausschüsse und Gremien: Änderung in der Zusammensetzung des Kulturausschusses",
+  "paperType": "Beschlussvorlage",
+  "reference": "2022/2334",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882963"
+  ]
+}

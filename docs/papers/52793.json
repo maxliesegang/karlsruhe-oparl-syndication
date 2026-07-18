@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672342.pdf",
+      "created": "2025-11-24T08:45:08+01:00",
+      "date": "2025-11-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672342.pdf",
+      "fileName": "00672342.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672342",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-08T17:32:45+01:00",
+      "name": "Antrag SR Braun_008",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674902.pdf",
+      "created": "2025-12-08T11:58:33+01:00",
+      "date": "2025-12-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674902.pdf",
+      "fileName": "00674902.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674902",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-08T17:32:45+01:00",
+      "name": "6801 Stellungnahme DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99578",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:29+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35431",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-17T15:10:28+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52793",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-24T08:35:06+01:00",
+  "date": "2025-11-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52793",
+  "modified": "2025-12-08T17:32:45+01:00",
+  "name": "Gänzliche Schließung des Karlsruher Zoos",
+  "paperType": "Haushalt THH 6800",
+  "reference": "DHH/2025/6801",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

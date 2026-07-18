@@ -1,0 +1,106 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660701.pdf",
+      "created": "2024-09-05T15:42:03+02:00",
+      "date": "2024-09-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660701.pdf",
+      "fileName": "00660701.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660701",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660897.pdf",
+      "created": "2024-09-16T14:52:29+02:00",
+      "date": "2024-09-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660897.pdf",
+      "fileName": "00660897.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660897",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660928.pdf",
+      "created": "2024-09-17T16:38:38+02:00",
+      "date": "2024-09-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660928.pdf",
+      "fileName": "00660928.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660928",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663044.pdf",
+      "created": "2024-11-20T14:30:27+01:00",
+      "date": "2024-11-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663044.pdf",
+      "fileName": "00663044.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663044",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 13",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663587.pdf",
+      "created": "2024-12-10T15:01:06+01:00",
+      "date": "2024-12-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663587.pdf",
+      "fileName": "00663587.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663587",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 19.11.2024 TOP 13",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90145",
+      "authoritative": true,
+      "created": "2024-09-13T11:42:23+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32805",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9566",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50946",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90825",
+      "authoritative": true,
+      "created": "2024-10-23T10:52:54+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32806",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9533",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50946",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-09-05T14:28:13+02:00",
+  "date": "2024-09-05",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50946",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Förderung der Kinder- und Familienzentren – Aufnahme der Förderung in die Dynamisierung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/1017",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

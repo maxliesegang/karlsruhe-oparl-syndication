@@ -1,0 +1,99 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659621.pdf",
+      "created": "2024-07-16T13:10:18+02:00",
+      "date": "2024-07-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659621.pdf",
+      "fileName": "00659621.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659621",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660730.pdf",
+      "created": "2024-09-06T16:19:56+02:00",
+      "date": "2024-09-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660730.pdf",
+      "fileName": "00660730.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660730",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme neu",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661352.pdf",
+      "created": "2024-10-02T10:01:16+02:00",
+      "date": "2024-10-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661352.pdf",
+      "fileName": "00661352.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661352",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_HA_17.09.2024_TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/87670",
+      "authoritative": true,
+      "created": "2024-07-16T13:03:13+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32487",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9528",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50702",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/89211",
+      "authoritative": true,
+      "created": "2024-08-20T11:29:49+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32491",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9518",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50702",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90176",
+      "authoritative": true,
+      "created": "2024-09-18T14:00:32+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32857",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9531",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50702",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-07-16T09:00:20+02:00",
+  "date": "2024-07-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50702",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Neues Vergabeverfahren zur Erweiterung des Vollservices bei der Wertstoffsammlung",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2024/0618/2",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50678"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

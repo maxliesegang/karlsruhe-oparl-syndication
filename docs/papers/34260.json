@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00589450.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2015-11-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00589450.pdf",
+      "fileName": "00589450.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/589450",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1 Fächer",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00589451.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2015-11-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00589451.pdf",
+      "fileName": "00589451.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/589451",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 2 Fächer",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00589651.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2015-12-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00589651.pdf",
+      "fileName": "00589651.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/589651",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "GR - Fächer GmbH",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00590106.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2016-01-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00590106.pdf",
+      "fileName": "00590106.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/590106",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 24",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/37557",
+      "authoritative": true,
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/12678",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3846",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/34260",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2015-09-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/34260",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Neuausrichtung der Karlsruher Fächer GmbH",
+  "paperType": "Beschlussvorlage",
+  "reference": "2015/0489",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

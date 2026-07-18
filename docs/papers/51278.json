@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662907.pdf",
+      "created": "2024-11-18T16:02:53+01:00",
+      "date": "2024-11-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662907.pdf",
+      "fileName": "00662907.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662907",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663220.pdf",
+      "created": "2024-11-26T10:46:19+01:00",
+      "date": "2024-11-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663220.pdf",
+      "fileName": "00663220.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663220",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663966.pdf",
+      "created": "2025-01-02T15:03:07+01:00",
+      "date": "2025-01-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663966.pdf",
+      "fileName": "00663966.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663966",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 17.12.2024 TOP 47",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91342",
+      "authoritative": true,
+      "created": "2024-11-20T08:53:10+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33275",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9534",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51278",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-11-18T16:02:22+01:00",
+  "date": "2024-11-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51278",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Auswirkungen eines fehlenden Bundeshaushaltes auf Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2024/1320",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

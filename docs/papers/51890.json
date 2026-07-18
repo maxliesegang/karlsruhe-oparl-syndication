@@ -1,0 +1,109 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671175.pdf",
+      "created": "2025-10-22T13:35:43+02:00",
+      "date": "2025-10-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671175.pdf",
+      "fileName": "00671175.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671175",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:13:56+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671637.pdf",
+      "created": "2025-11-05T16:11:28+01:00",
+      "date": "2025-11-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671637.pdf",
+      "fileName": "00671637.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671637",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:13:56+01:00",
+      "name": "Protokoll Kulturausschuss 25.07.2025",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671638.pdf",
+      "created": "2025-11-05T16:15:27+01:00",
+      "date": "2025-11-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671638.pdf",
+      "fileName": "00671638.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671638",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:13:56+01:00",
+      "name": "Präsentation",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00673922.pdf",
+      "created": "2025-11-26T13:39:42+01:00",
+      "date": "2025-11-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00673922.pdf",
+      "fileName": "00673922.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/673922",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:13:56+01:00",
+      "name": "Abstimmungsergebnis TOP 5",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675113.pdf",
+      "created": "2025-12-11T11:13:52+01:00",
+      "date": "2025-12-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675113.pdf",
+      "fileName": "00675113.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675113",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:13:56+01:00",
+      "name": "Protokoll GR 25.11.2025 TOP 5",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96245",
+      "authoritative": true,
+      "created": "2025-09-15T12:37:39+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34858",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10124",
+      "modified": "2025-11-05T10:45:20+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/29599"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51890",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/97178",
+      "authoritative": true,
+      "created": "2025-10-27T13:42:04+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34859",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10058",
+      "modified": "2025-11-26T13:29:20+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51890",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-05-06T12:28:45+02:00",
+  "date": "2025-09-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51890",
+  "modified": "2025-12-11T11:13:56+01:00",
+  "name": "Konzept zur Bespielung der Seebühne",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0884/3",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50812"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882963"
+  ]
+}

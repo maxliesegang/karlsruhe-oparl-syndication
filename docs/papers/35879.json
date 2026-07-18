@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600161.pdf",
+      "created": "2017-11-08T15:02:58+01:00",
+      "date": "2017-11-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600161.pdf",
+      "fileName": "00600161.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600161",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "FDP Bürgerbüros",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600181.pdf",
+      "created": "2017-11-09T15:39:39+01:00",
+      "date": "2017-11-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600181.pdf",
+      "fileName": "00600181.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600181",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 35",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600746.pdf",
+      "created": "2017-12-18T11:42:10+01:00",
+      "date": "2017-12-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600746.pdf",
+      "fileName": "00600746.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600746",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 35",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41548",
+      "authoritative": true,
+      "created": "2017-11-06T10:01:17+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14728",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4668",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35879",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-10-19T14:14:41+02:00",
+  "date": "2017-10-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35879",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bürgerbüros in Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2017/0654",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

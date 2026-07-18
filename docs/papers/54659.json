@@ -1,0 +1,89 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679117.pdf",
+      "created": "2026-06-16T12:59:40+02:00",
+      "date": "2026-06-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679117.pdf",
+      "fileName": "00679117.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679117",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-08T10:57:19+02:00",
+      "name": "Anlage 1_Mietentgelte GMZ Stupferich ab 01.01.2027",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679655.pdf",
+      "created": "2026-07-08T10:55:04+02:00",
+      "date": "2026-07-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679655.pdf",
+      "fileName": "00679655.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679655",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-08T10:57:19+02:00",
+      "name": "08.07.2026, Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679656.pdf",
+      "created": "2026-07-08T10:55:16+02:00",
+      "date": "2026-07-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679656.pdf",
+      "fileName": "00679656.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679656",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-08T10:57:19+02:00",
+      "name": "Anlage 2_Kalkulation Entgelte für Sondertrauorte_Stand_08.07.2026",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2026-06-16T12:34:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37584",
+      "modified": "2026-06-16T12:36:55+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54659",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "created": "2026-06-16T12:34:51+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37585",
+      "modified": "2026-06-16T12:34:51+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54659",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102207",
+      "created": "2026-06-16T12:58:20+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37583",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10787",
+      "modified": "2026-07-08T11:13:02+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34764"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54659",
+      "role": "Anhörung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-06-16T12:33:25+02:00",
+  "date": "2026-06-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54659",
+  "modified": "2026-07-08T10:57:18+02:00",
+  "name": "Anpassung der Nutzungsentgelte für die durch die OV Stupferich zur Verfügung gestellten Räumlichkeiten im Gemeindezentrum Stupferich",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0489",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882957"
+  ]
+}

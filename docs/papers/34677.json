@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00591469.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2016-04-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00591469.pdf",
+      "fileName": "00591469.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/591469",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "KULT-Anmeldungen inklusive Beschulung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00591496.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2016-04-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00591496.pdf",
+      "fileName": "00591496.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/591496",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 37",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00591987.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2016-05-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00591987.pdf",
+      "fileName": "00591987.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/591987",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 37",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/37990",
+      "authoritative": true,
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/13180",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4135",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/34677",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2016-03-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/34677",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Aktueller Stand der Anmeldungen für eine \"inklusive Beschulung\"",
+  "paperType": "Anfrage",
+  "reference": "2016/0153",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

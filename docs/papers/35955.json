@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600507.pdf",
+      "created": "2017-12-01T12:06:04+01:00",
+      "date": "2017-12-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600507.pdf",
+      "fileName": "00600507.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600507",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "GfK IT-Sicherheit",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600520.pdf",
+      "created": "2017-12-01T12:29:00+01:00",
+      "date": "2017-12-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600520.pdf",
+      "fileName": "00600520.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600520",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 37",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00601080.pdf",
+      "created": "2018-01-19T09:19:50+01:00",
+      "date": "2018-01-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00601080.pdf",
+      "fileName": "00601080.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/601080",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 37",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41714",
+      "authoritative": true,
+      "created": "2017-11-15T09:49:39+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14827",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4688",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35955",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-11-15T08:55:49+01:00",
+  "date": "2017-11-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35955",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "IT-Sicherheit der Stadt",
+  "paperType": "Anfrage",
+  "reference": "2017/0730",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

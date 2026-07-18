@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666862.pdf",
+      "created": "2025-05-02T15:18:42+02:00",
+      "date": "2025-05-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666862.pdf",
+      "fileName": "00666862.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666862",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-14T10:57:29+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668344.pdf",
+      "created": "2025-06-25T07:52:00+02:00",
+      "date": "2025-06-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668344.pdf",
+      "fileName": "00668344.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668344",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-14T10:57:29+02:00",
+      "name": "Abstimmungsergebnis Top 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668785.pdf",
+      "created": "2025-07-14T10:57:27+02:00",
+      "date": "2025-07-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668785.pdf",
+      "fileName": "00668785.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668785",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-14T10:57:29+02:00",
+      "name": "Protokoll GR 24.06.2025 TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94080",
+      "authoritative": true,
+      "created": "2025-05-28T08:08:37+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34113",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10049",
+      "modified": "2025-06-25T08:00:28+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51837",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-04-25T14:37:50+02:00",
+  "date": "2025-04-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51837",
+  "modified": "2025-07-14T10:57:29+02:00",
+  "name": "Liquidation der Mobility Inside Verwaltungs GmbH, der Mobility Inside Holding GmbH & Co. KG und der Mobility Inside Plattform GmbH",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0388",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

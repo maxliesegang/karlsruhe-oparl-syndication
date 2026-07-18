@@ -1,0 +1,98 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654099.pdf",
+      "created": "2023-11-28T08:50:14+01:00",
+      "date": "2023-11-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654099.pdf",
+      "fileName": "00654099.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654099",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654168.pdf",
+      "created": "2023-11-28T15:42:17+01:00",
+      "date": "2023-11-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654168.pdf",
+      "fileName": "00654168.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654168",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme zum Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656708.pdf",
+      "created": "2024-03-13T10:57:45+01:00",
+      "date": "2024-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656708.pdf",
+      "fileName": "00656708.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656708",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 20.02.2024 TOP 13",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83632",
+      "authoritative": true,
+      "created": "2023-11-28T11:29:13+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31126",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9054",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49756",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83774",
+      "created": "2023-12-06T17:00:56+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31155",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9674",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49756",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84573",
+      "authoritative": true,
+      "created": "2024-01-29T13:26:44+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31406",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9523",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49756",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-11-28T08:47:15+01:00",
+  "date": "2023-11-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49756",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Energieleitplan mit integrierter kommunaler Wärmeplanung der Stadt Karlsruhe",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2023/0840/7",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49581"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882975"
+  ]
+}

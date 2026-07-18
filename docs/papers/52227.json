@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669206.pdf",
+      "created": "2025-08-04T07:39:37+02:00",
+      "date": "2025-08-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669206.pdf",
+      "fileName": "00669206.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669206",
+      "mimeType": "application/pdf",
+      "modified": "2025-09-15T13:51:04+02:00",
+      "name": "Beschlussvorlage Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94908",
+      "created": "2025-07-01T07:50:39+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34656",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9900",
+      "modified": "2025-10-06T11:36:52+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52227",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-08-04T07:38:54+02:00",
+  "date": "2025-09-03",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52227",
+  "modified": "2025-09-15T13:51:04+02:00",
+  "name": "Errichtung neuer Carsharing-Stellplätze in Grötzingen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0741",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

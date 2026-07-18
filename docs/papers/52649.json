@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671991.pdf",
+      "created": "2025-11-18T11:19:34+01:00",
+      "date": "2025-11-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671991.pdf",
+      "fileName": "00671991.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671991",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-19T07:45:10+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675438.pdf",
+      "created": "2025-12-19T07:45:06+01:00",
+      "date": "2025-12-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675438.pdf",
+      "fileName": "00675438.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675438",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-19T07:45:10+01:00",
+      "name": "Abstimmungsergebnis Ö52",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99251",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:27+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35274",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-16T17:07:40+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52649",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-18T11:18:35+01:00",
+  "date": "2025-11-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52649",
+  "modified": "2025-12-19T07:45:10+01:00",
+  "name": "HHS4_GR17 - Reduzierung Mittel Klimaschutzfonds - Umsetzung der Maßnahmen in 2026 und 2027 durch HH-Reste aus 2025",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1114",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

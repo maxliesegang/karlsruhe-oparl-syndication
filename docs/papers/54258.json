@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676507.pdf",
+      "created": "2026-02-10T13:17:38+01:00",
+      "date": "2026-02-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676507.pdf",
+      "fileName": "00676507.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676507",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:23:12+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676988.pdf",
+      "created": "2026-03-10T10:38:10+01:00",
+      "date": "2026-03-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676988.pdf",
+      "fileName": "00676988.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676988",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:23:12+02:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677584.pdf",
+      "created": "2026-04-09T10:23:11+02:00",
+      "date": "2026-04-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677584.pdf",
+      "fileName": "00677584.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677584",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:23:12+02:00",
+      "name": "Protokoll GR 24.03.2026 TOP 25",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100614",
+      "authoritative": true,
+      "created": "2026-02-24T10:29:55+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36996",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10497",
+      "modified": "2026-03-24T19:28:34+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54258",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-02-10T13:16:49+01:00",
+  "date": "2026-02-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54258",
+  "modified": "2026-04-09T10:23:12+02:00",
+  "name": "Sozialer Wohnungsbau in Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2026/0121",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

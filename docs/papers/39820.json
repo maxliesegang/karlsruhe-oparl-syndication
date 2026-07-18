@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618051.pdf",
+      "created": "2020-06-12T09:46:33+02:00",
+      "date": "2020-06-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618051.pdf",
+      "fileName": "00618051.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618051",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Car-Sharing-Dienstleistungen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618983.pdf",
+      "created": "2020-07-24T11:04:41+02:00",
+      "date": "2020-07-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618983.pdf",
+      "fileName": "00618983.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618983",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Sitzungseröffnung und TOP 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/52486",
+      "authoritative": true,
+      "created": "2020-05-25T11:37:48+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19440",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5655",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39820",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-05-19T14:56:28+02:00",
+  "date": "2020-05-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39820",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Auftragsvergabe Car-Sharing-Dienstleistungen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2020/0612",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

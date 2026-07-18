@@ -1,0 +1,82 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620852.pdf",
+      "created": "2020-11-17T09:06:56+01:00",
+      "date": "2020-11-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620852.pdf",
+      "fileName": "00620852.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620852",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "BA Umfahrung Hagsfeld",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00622550.pdf",
+      "created": "2020-12-23T09:14:37+01:00",
+      "date": "2020-12-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00622550.pdf",
+      "fileName": "00622550.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/622550",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis Top 18",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00623529.pdf",
+      "created": "2021-02-18T08:38:33+01:00",
+      "date": "2021-02-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00623529.pdf",
+      "fileName": "00623529.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/623529",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 18",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/55276",
+      "authoritative": true,
+      "created": "2020-11-12T15:25:56+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20345",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5841",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40515",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/55739",
+      "authoritative": true,
+      "created": "2020-12-08T10:31:07+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20483",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6107",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40515",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-11-12T13:34:48+01:00",
+  "date": "2020-11-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40515",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Südumfahrung Hagsfeld",
+  "paperType": "Beschlussvorlage",
+  "reference": "2020/1304",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

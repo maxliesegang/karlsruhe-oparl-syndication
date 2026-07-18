@@ -1,0 +1,93 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32644",
+      "created": "2024-09-12T15:57:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90124",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9830",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Vorschlag des Ortschaftsrates zur Wahl der Stellvertretung des Ortsvorstehers beziehungsweise der Ortsvorsteherin durch den Gemeinderat der Stadt Karlsruhe",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32645",
+      "created": "2024-09-12T15:57:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90125",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9830",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Festlegung der Mindestzahl der Mitglieder für die Bildung einer Ortschaftsratsfraktion und Benennung der Fraktionsvorsitzenden und ihrer Stellvertretungen",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2024-09-12T15:59:07+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90126",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9830",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Anregungen aus dem Ortschaftsrat",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2024-09-12T15:59:35+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90127",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9830",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen der Ortsverwaltung",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661840.pdf",
+      "created": "2024-10-18T16:02:47+02:00",
+      "date": "2024-10-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661840.pdf",
+      "fileName": "00661840.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661840",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "02. Sitzung am 25.09.2024 öffentlich,",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2023-11-15T14:36:33+01:00",
+  "end": "2024-09-25T00:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9830",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660842.pdf",
+    "created": "2024-09-12T16:03:56+02:00",
+    "date": "2024-09-12",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660842.pdf",
+    "fileName": "00660842.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660842",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2023-11-15T14:36:33+01:00",
+    "description": "Bürgersaal im Rathaus Hohenwettersbach",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9830",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ortschaftsrat Hohenwettersbach (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34322"
+  ],
+  "start": "2024-09-25T19:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

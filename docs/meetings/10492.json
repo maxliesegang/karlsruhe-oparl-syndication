@@ -1,0 +1,103 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36965",
+      "created": "2026-02-19T12:53:57+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100530",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10492",
+      "modified": "2026-03-19T16:57:35+01:00",
+      "name": "Karlsruher Startchancen-Strategie (Säule III)",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36966",
+      "created": "2026-02-19T12:53:57+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100531",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10492",
+      "modified": "2026-03-19T16:57:46+01:00",
+      "name": "Amtsvormundschaften und Amtspflegschaften - Anpassung der Aufgabenerledigung im Rahmen gesetztlicher Veränderungen",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36968",
+      "created": "2026-02-19T12:53:57+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100532",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10492",
+      "modified": "2026-03-19T16:57:59+01:00",
+      "name": "Anpassung zweier Projekte aus der Kita-Bedarfsplanung",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36946",
+      "created": "2026-02-19T12:53:57+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100529",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10492",
+      "modified": "2026-03-19T16:58:10+01:00",
+      "name": "Änderung in der Zusammensetzung der Mitglieder der Drogenkommission",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679443.pdf",
+      "created": "2026-06-30T12:56:29+02:00",
+      "date": "2026-06-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679443.pdf",
+      "fileName": "00679443.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679443",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-06T10:49:13+02:00",
+      "name": "Protokoll JHA 18032026 öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2025-10-10T10:41:38+02:00",
+  "end": "2026-03-18T18:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10492",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676696.pdf",
+    "created": "2026-02-19T12:58:11+01:00",
+    "date": "2026-02-19",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676696.pdf",
+    "fileName": "00676696.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676696",
+    "mimeType": "application/pdf",
+    "modified": "2026-03-11T06:50:41+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2022-12-12T11:11:26+01:00",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/rm/67907",
+    "locality": "",
+    "modified": "2025-08-05T10:18:13+02:00",
+    "postalCode": "",
+    "room": "Bürgersaal",
+    "streetAddress": "",
+    "subLocality": "",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-07-06T10:49:13+02:00",
+  "name": "Jugendhilfeausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+  ],
+  "start": "2026-03-18T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

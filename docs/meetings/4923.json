@@ -1,0 +1,94 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15995",
+      "created": "2018-11-28T12:12:22+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44650",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4923",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Kanalauswechslung in der Kleinbach- und Friedrich-Eberle-Straße: Vergabe von Kanal- und Straßenbauarbeiten",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15996",
+      "created": "2018-11-28T12:12:22+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44651",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4923",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Frauennamen für die Straßennamen-Vormerkliste",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15997",
+      "created": "2018-11-28T12:12:22+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44652",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4923",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Sanierung Europahalle: Vergabe von Architektenleistungen",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2018-11-28T12:13:16+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44656",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4923",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen des Bürgermeisteramtes",
+      "number": "",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00606671.pdf",
+      "created": "2018-11-28T12:21:46+01:00",
+      "date": "2018-11-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00606671.pdf",
+      "fileName": "00606671.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/606671",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Tagesordnung_öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607755.pdf",
+      "created": "2019-02-06T11:57:26+01:00",
+      "date": "2019-02-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607755.pdf",
+      "fileName": "00607755.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607755",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_öffentlich BA 20181207",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2017-09-18T14:47:17+02:00",
+  "end": "2018-12-07T19:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4923",
+  "location": {
+    "created": "2017-09-18T14:47:17+02:00",
+    "description": "Großer Sitzungssaal, Rathaus Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/4923",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Bauausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+  ],
+  "start": "2018-12-07T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

@@ -1,0 +1,99 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638484.pdf",
+      "created": "2022-06-21T15:24:27+02:00",
+      "date": "2022-06-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638484.pdf",
+      "fileName": "00638484.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638484",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644748.pdf",
+      "created": "2023-02-07T12:38:32+01:00",
+      "date": "2023-02-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644748.pdf",
+      "fileName": "00644748.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644748",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 3.2 neu",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646046.pdf",
+      "created": "2023-03-27T13:29:45+02:00",
+      "date": "2023-03-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646046.pdf",
+      "fileName": "00646046.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646046",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 16",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70632",
+      "authoritative": true,
+      "created": "2022-06-23T08:53:50+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27561",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6594",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46992",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75365",
+      "authoritative": true,
+      "created": "2023-01-20T12:33:06+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27632",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9057",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46992",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75476",
+      "authoritative": true,
+      "created": "2023-01-27T10:04:10+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28413",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9042",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46992",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-06-21T15:22:23+02:00",
+  "date": "2022-10-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46992",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Organisation der Reinigungsleistungen bei der Stadt Karlsruhe: Vorbereitung einer strategischen Grundsatzentscheidung",
+  "paperType": "Antrag",
+  "reference": "2022/0679",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48235"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

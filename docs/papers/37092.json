@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608309.pdf",
+      "created": "2019-03-12T14:38:51+01:00",
+      "date": "2019-03-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608309.pdf",
+      "fileName": "00608309.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608309",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608452.pdf",
+      "created": "2019-03-19T12:08:16+01:00",
+      "date": "2019-03-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608452.pdf",
+      "fileName": "00608452.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608452",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 48",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609392.pdf",
+      "created": "2019-04-30T07:17:16+02:00",
+      "date": "2019-04-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609392.pdf",
+      "fileName": "00609392.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609392",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 48",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45129",
+      "authoritative": true,
+      "created": "2019-02-27T12:57:57+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16262",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5294",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37092",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-02-27T12:46:25+01:00",
+  "date": "2019-02-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37092",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Zweckentfremdung des \"Netzwerk gegen Rechts\" durch Die Linke",
+  "paperType": "Anfrage",
+  "reference": "2019/0180",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

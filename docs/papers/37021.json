@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607779.pdf",
+      "created": "2019-02-07T08:55:45+01:00",
+      "date": "2019-02-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607779.pdf",
+      "fileName": "00607779.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607779",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608393.pdf",
+      "created": "2019-03-15T11:44:21+01:00",
+      "date": "2019-03-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608393.pdf",
+      "fileName": "00608393.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608393",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 27",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609368.pdf",
+      "created": "2019-04-30T07:01:48+02:00",
+      "date": "2019-04-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609368.pdf",
+      "fileName": "00609368.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609368",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 27",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45087",
+      "authoritative": true,
+      "created": "2019-02-26T11:06:11+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16170",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5294",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37021",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-02-07T08:54:34+01:00",
+  "date": "2019-02-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37021",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Inklusion umsetzen: Stärkung der Kitas für den Umgang mit der Heterogenität der Kinder",
+  "paperType": "Antrag",
+  "reference": "2019/0104",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

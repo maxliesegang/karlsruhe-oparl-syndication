@@ -1,0 +1,70 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646430.pdf",
+      "created": "2023-04-06T13:56:55+02:00",
+      "date": "2022-09-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646430.pdf",
+      "fileName": "00646430.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646430",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646431.pdf",
+      "created": "2023-04-06T13:56:55+02:00",
+      "date": "2022-09-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646431.pdf",
+      "fileName": "00646431.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646431",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag Alt",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646844.pdf",
+      "created": "2023-04-26T14:01:30+02:00",
+      "date": "2023-04-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646844.pdf",
+      "fileName": "00646844.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646844",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Ergänzende Stellungnahme zu PlanA 11.05.2023",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/76911",
+      "created": "2023-04-17T16:22:59+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29477",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9115",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48471",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-04-06T13:56:55+02:00",
+  "date": "2023-04-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48471",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Verkehrsversuch sichere Stuttgarter Straße",
+  "paperType": "Antrag",
+  "reference": "2022/0883/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47210"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

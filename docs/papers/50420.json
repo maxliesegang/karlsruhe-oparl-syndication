@@ -1,0 +1,106 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658388.pdf",
+      "created": "2024-05-13T16:35:54+02:00",
+      "date": "2024-05-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658388.pdf",
+      "fileName": "00658388.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658388",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658510.pdf",
+      "created": "2024-05-16T09:22:13+02:00",
+      "date": "2024-05-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658510.pdf",
+      "fileName": "00658510.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658510",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage_HEFT 64_Bevölkerungsprognose in Karlsruhe 2024_WEB_24-0226",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659155.pdf",
+      "created": "2024-06-18T21:07:32+02:00",
+      "date": "2024-06-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659155.pdf",
+      "fileName": "00659155.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659155",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmumsergebnis TOP 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659444.pdf",
+      "created": "2024-07-08T15:40:34+02:00",
+      "date": "2024-07-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659444.pdf",
+      "fileName": "00659444.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659444",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 18.06.2024 TOP 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661679.pdf",
+      "created": "2024-10-15T13:34:48+02:00",
+      "date": "2024-10-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661679.pdf",
+      "fileName": "00661679.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661679",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_HA_04_06_2024_TOP_4",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86431",
+      "authoritative": true,
+      "created": "2024-05-08T15:34:32+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32084",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9516",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50420",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86695",
+      "authoritative": true,
+      "created": "2024-05-22T13:39:22+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32085",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9527",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50420",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-05-08T11:06:25+02:00",
+  "date": "2024-05-08",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50420",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Kleinräumige Bevölkerungsprognose 2040",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0524",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882965"
+  ]
+}

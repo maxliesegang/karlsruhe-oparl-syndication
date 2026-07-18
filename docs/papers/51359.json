@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663477.pdf",
+      "created": "2024-12-05T15:02:58+01:00",
+      "date": "2024-09-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663477.pdf",
+      "fileName": "00663477.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663477",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663478.pdf",
+      "created": "2024-12-05T15:02:58+01:00",
+      "date": "2024-10-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663478.pdf",
+      "fileName": "00663478.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663478",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Absichtserklärung Erweiterung KVV",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663821.pdf",
+      "created": "2024-12-17T18:52:05+01:00",
+      "date": "2024-12-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663821.pdf",
+      "fileName": "00663821.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663821",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664076.pdf",
+      "created": "2025-01-09T11:07:43+01:00",
+      "date": "2025-01-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664076.pdf",
+      "fileName": "00664076.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664076",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 17.12.2024 TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91643",
+      "authoritative": true,
+      "created": "2024-12-11T10:11:34+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33389",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9534",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51359",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-12-05T15:02:58+01:00",
+  "date": "2024-12-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51359",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Karlsruher Verkehrsverbund GmbH - gemeinsame Absichtserklärung der Gesellschafter zur Erweiterung des Verbundgebiets",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/1047/1",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

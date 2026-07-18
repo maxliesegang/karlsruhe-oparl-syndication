@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655047.pdf",
+      "created": "2024-01-02T10:52:37+01:00",
+      "date": "2024-01-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655047.pdf",
+      "fileName": "00655047.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655047",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655381.pdf",
+      "created": "2024-01-17T16:50:33+01:00",
+      "date": "2024-01-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655381.pdf",
+      "fileName": "00655381.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655381",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656721.pdf",
+      "created": "2024-03-13T11:30:44+01:00",
+      "date": "2024-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656721.pdf",
+      "fileName": "00656721.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656721",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 20.02.2024 TOP 23",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84513",
+      "authoritative": true,
+      "created": "2024-01-23T12:57:50+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31260",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9523",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49854",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-01-02T10:50:51+01:00",
+  "date": "2024-01-02",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49854",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Auswirkungen der Wohngeldreform auf kommunale Finanzen",
+  "paperType": "Anfrage",
+  "reference": "2024/0015",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

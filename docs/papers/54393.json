@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677465.pdf",
+      "created": "2026-04-02T15:03:07+02:00",
+      "date": "2026-04-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677465.pdf",
+      "fileName": "00677465.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677465",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:40:25+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677683.pdf",
+      "created": "2026-04-16T10:58:28+02:00",
+      "date": "2026-04-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677683.pdf",
+      "fileName": "00677683.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677683",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:40:25+02:00",
+      "name": "Umbesetzung Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678025.pdf",
+      "created": "2026-04-29T11:14:28+02:00",
+      "date": "2026-04-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678025.pdf",
+      "fileName": "00678025.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678025",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:40:25+02:00",
+      "name": "Abstimmungsergebnis TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678386.pdf",
+      "created": "2026-05-15T10:40:23+02:00",
+      "date": "2026-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678386.pdf",
+      "fileName": "00678386.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678386",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:40:25+02:00",
+      "name": "Protokoll GR 28.04.2026 TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101127",
+      "authoritative": true,
+      "created": "2026-04-01T09:53:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37170",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10512",
+      "modified": "2026-04-28T18:42:39+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54393",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-03-24T11:22:53+01:00",
+  "date": "2026-03-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54393",
+  "modified": "2026-05-15T10:40:25+02:00",
+  "name": "Umbesetzung von Ausschüssen und sonstigen Gremien nach dem Ausscheiden von Franziska Buresch aus dem Gemeinderat",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0239",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882850"
+  ]
+}

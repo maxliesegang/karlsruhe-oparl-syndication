@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608824.pdf",
+      "created": "2019-04-02T14:39:48+02:00",
+      "date": "2019-04-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608824.pdf",
+      "fileName": "00608824.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608824",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609563.pdf",
+      "created": "2019-05-03T12:29:49+02:00",
+      "date": "2019-05-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609563.pdf",
+      "fileName": "00609563.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609563",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 66",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609959.pdf",
+      "created": "2019-05-29T13:54:35+02:00",
+      "date": "2019-05-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609959.pdf",
+      "fileName": "00609959.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609959",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Gemeinderat",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45652",
+      "created": "2019-04-16T12:55:05+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16402",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5323",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37217",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-04-02T14:38:31+02:00",
+  "date": "2019-04-02",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37217",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Verschmutzung von Straßen und Plätzen stärker ahnden - Beispiel Mannheim",
+  "paperType": "Anfrage",
+  "reference": "2019/0308",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

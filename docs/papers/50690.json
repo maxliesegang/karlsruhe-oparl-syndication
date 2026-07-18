@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659550.pdf",
+      "created": "2024-07-11T13:12:59+02:00",
+      "date": "2024-07-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659550.pdf",
+      "fileName": "00659550.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659550",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/89991",
+      "created": "2024-09-09T17:06:28+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32469",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9914",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50690",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-07-11T13:12:43+02:00",
+  "date": "2024-07-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50690",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Besetzung von Ausschüssen und Funktionen des Ortschaftsrates",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0771",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

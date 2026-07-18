@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619520.pdf",
+      "created": "2020-09-11T16:50:17+02:00",
+      "date": "2020-09-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619520.pdf",
+      "fileName": "00619520.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619520",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Ausschlussfrist Anträge DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619951.pdf",
+      "created": "2020-10-05T10:23:08+02:00",
+      "date": "2020-10-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619951.pdf",
+      "fileName": "00619951.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619951",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54077",
+      "authoritative": true,
+      "created": "2020-08-25T09:23:48+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19907",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5669",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40189",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-08-25T09:11:40+02:00",
+  "date": "2020-08-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40189",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Haushalt 2021: Ausschlussfristen für Anträge und Anfragen aus der Mitte des Gemeinderates",
+  "paperType": "Beschlussvorlage",
+  "reference": "2020/0979",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

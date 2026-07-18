@@ -1,0 +1,108 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31195",
+      "created": "2023-12-08T12:29:29+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83789",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9511",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Annahme des Angebots von Zuwendungen",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31038",
+      "created": "2023-12-04T13:23:53+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83734",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9511",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Rahmenvertrag Sicherheitsüberprüfung und Instandhaltung/Reparatur aller Schultafeln und interaktivenTafelanlagen nach GUV SI 8016",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2023-12-07T09:16:46+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83783",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9511",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Erweiterungbau Theaterhaus in der Kaiserallee 11d",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31147",
+      "created": "2023-12-04T13:23:53+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83731",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9511",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Erweiterungsbau Theaterhaus in der Kaiserallee 11d",
+      "number": "3.1",
+      "order": 4,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31179",
+      "created": "2023-12-07T09:14:40+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83781",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9511",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Erweiterungsbau Theaterhaus in der Kaiserallee 11d",
+      "number": "3.2",
+      "order": 5,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2023-09-06T13:38:46+02:00",
+  "end": "2024-01-09T18:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9511",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654991.pdf",
+    "created": "2023-12-21T08:06:25+01:00",
+    "date": "2023-12-21",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654991.pdf",
+    "fileName": "00654991.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654991",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2023-09-06T13:38:46+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9511",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Hauptausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+  ],
+  "resultsProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655216.pdf",
+    "created": "2024-01-10T09:00:50+01:00",
+    "date": "2024-01-10",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655216.pdf",
+    "fileName": "00655216.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655216",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Anwesenheit (Protokoll)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "start": "2024-01-09T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672369.pdf",
+      "created": "2025-11-24T11:09:40+01:00",
+      "date": "2025-11-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672369.pdf",
+      "fileName": "00672369.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672369",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-08T16:03:11+01:00",
+      "name": "Antrag CDU_003",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674876.pdf",
+      "created": "2025-12-08T10:55:16+01:00",
+      "date": "2025-12-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674876.pdf",
+      "fileName": "00674876.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674876",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-08T16:03:11+01:00",
+      "name": "1002 Stellungnahme DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99367",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:28+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35441",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-21T11:11:18+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52802",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-24T11:07:14+01:00",
+  "date": "2025-11-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52802",
+  "modified": "2025-12-08T16:03:11+01:00",
+  "name": "Kennzeichnung von Pflichtaufgaben und Freiwilligen Aufgaben auf Beschlussvorlagen",
+  "paperType": "Haushalt THH 1000",
+  "reference": "DHH/2025/1002",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

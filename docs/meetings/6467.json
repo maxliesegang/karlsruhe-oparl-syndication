@@ -1,0 +1,102 @@
+{
+  "agendaItem": [
+    {
+      "created": "2021-03-04T10:36:14+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56633",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6467",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Bürgerfragestunde",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20877",
+      "created": "2021-03-04T11:43:14+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56639",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6467",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Trinkbrunnen - Antrag der FDP-Ortschaftsratsfraktion",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20879",
+      "created": "2021-03-04T11:43:14+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56640",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6467",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Anlage eines neuen Urnen-Grabfeldes auf dem Friedhof \"Mergeläcker\" - Antrag der SPD-/CDU-/FDP-Ortschaftsratsfraktion",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2021-03-04T11:22:19+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56634",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6467",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mündliche Anfragen",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2021-03-04T11:22:48+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56635",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6467",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen der Verwaltung",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2020-12-20T19:55:23+01:00",
+  "end": "2021-03-09T21:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6467",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00623914.pdf",
+    "created": "2021-03-04T15:49:38+01:00",
+    "date": "2021-03-04",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00623914.pdf",
+    "fileName": "00623914.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/623914",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2020-12-20T19:55:23+01:00",
+    "description": "Begegnungsstätte Wolfartsweier",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6467",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ortschaftsrat Wolfartsweier (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+  ],
+  "resultsProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634279.pdf",
+    "created": "2021-12-08T14:34:50+01:00",
+    "date": "2021-12-08",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634279.pdf",
+    "fileName": "00634279.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634279",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Protokoll_Öffentliche Ortschaftsratssitzung_09.03.2021",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "start": "2021-03-09T19:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

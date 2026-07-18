@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668922.pdf",
+      "created": "2025-07-21T11:00:43+02:00",
+      "date": "2025-07-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668922.pdf",
+      "fileName": "00668922.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668922",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-28T10:09:41+02:00",
+      "name": "Anfrage Wolfartsweier",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669004.pdf",
+      "created": "2025-07-24T08:27:37+02:00",
+      "date": "2025-07-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669004.pdf",
+      "fileName": "00669004.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669004",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-28T10:09:41+02:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95071",
+      "created": "2025-07-21T11:06:57+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34592",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10276",
+      "modified": "2025-08-25T13:34:24+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52179",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-07-21T11:00:18+02:00",
+  "date": "2025-07-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52179",
+  "modified": "2025-08-28T10:09:41+02:00",
+  "name": "Starkregenrisiken und Hochwasserschutz im Zusammenhang mit dem geplanten Radwegprojekt an der L623",
+  "paperType": "Anfrage",
+  "reference": "2025/0702",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+  ]
+}

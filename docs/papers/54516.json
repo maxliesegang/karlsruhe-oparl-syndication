@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678119.pdf",
+      "created": "2026-05-04T10:16:10+02:00",
+      "date": "2026-05-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678119.pdf",
+      "fileName": "00678119.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678119",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T14:43:56+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679456.pdf",
+      "created": "2026-06-30T20:45:17+02:00",
+      "date": "2026-06-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679456.pdf",
+      "fileName": "00679456.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679456",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T14:43:56+02:00",
+      "name": "Abstimmungsergebnis",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679611.pdf",
+      "created": "2026-07-07T14:43:54+02:00",
+      "date": "2026-07-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679611.pdf",
+      "fileName": "00679611.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679611",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T14:43:56+02:00",
+      "name": "Protokoll GR 23.06.2026 TOP 5",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101897",
+      "authoritative": true,
+      "created": "2026-05-26T14:29:29+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37359",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10540",
+      "modified": "2026-06-23T15:44:23+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54516",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-05-04T10:09:25+02:00",
+  "date": "2026-05-04",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54516",
+  "modified": "2026-07-07T14:43:56+02:00",
+  "name": "Entbindung und Berufung sachkundiger Einwohnerinnen und Einwohner sowie die Entbindung und Neuberufung von beratenden Sachverständigen in gemeinderätliche Ausschüsse und Gremien: Umlegungsausschuss",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0351",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

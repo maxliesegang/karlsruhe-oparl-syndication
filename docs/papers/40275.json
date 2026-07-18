@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619575.pdf",
+      "created": "2020-09-16T07:06:11+02:00",
+      "date": "2020-09-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619575.pdf",
+      "fileName": "00619575.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619575",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620071.pdf",
+      "created": "2020-10-07T14:22:37+02:00",
+      "date": "2020-10-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620071.pdf",
+      "fileName": "00620071.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620071",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN Anfrage Inklusion von Kindern",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620755.pdf",
+      "created": "2020-11-12T10:40:59+01:00",
+      "date": "2020-11-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620755.pdf",
+      "fileName": "00620755.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620755",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 13",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54672",
+      "authoritative": true,
+      "created": "2020-09-25T12:10:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20028",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5671",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40275",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-09-16T07:05:49+02:00",
+  "date": "2020-09-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40275",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Inklusion von Kindern mit herausfordernden Verhaltensweisen in den Kindertagesstätten",
+  "paperType": "Anfrage",
+  "reference": "2020/1065",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

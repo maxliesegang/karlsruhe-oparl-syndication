@@ -1,0 +1,92 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00623695.pdf",
+      "created": "2021-02-23T14:41:43+01:00",
+      "date": "2021-02-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00623695.pdf",
+      "fileName": "00623695.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/623695",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624110.pdf",
+      "created": "2021-03-11T10:43:53+01:00",
+      "date": "2021-03-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624110.pdf",
+      "fileName": "00624110.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624110",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN AfD Entwicklung Schülerzahlen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624111.pdf",
+      "created": "2021-03-11T10:44:02+01:00",
+      "date": "2021-03-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624111.pdf",
+      "fileName": "00624111.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624111",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1 AfD Entwicklung Schülerzahlen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624112.pdf",
+      "created": "2021-03-11T10:44:02+01:00",
+      "date": "2021-03-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624112.pdf",
+      "fileName": "00624112.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624112",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 2 AfD Entwicklung Schülerzahlen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625069.pdf",
+      "created": "2021-04-23T10:07:46+02:00",
+      "date": "2021-04-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625069.pdf",
+      "fileName": "00625069.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625069",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 50",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56477",
+      "authoritative": true,
+      "created": "2021-02-24T11:24:07+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20810",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6176",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40896",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-02-23T14:41:18+01:00",
+  "date": "2021-02-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40896",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Entwicklung der Schülerzahlen in den einzelnen Schularten",
+  "paperType": "Anfrage",
+  "reference": "2021/0256",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

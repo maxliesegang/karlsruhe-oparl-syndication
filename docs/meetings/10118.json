@@ -1,0 +1,106 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34401",
+      "created": "2025-05-19T15:35:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93953",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10118",
+      "modified": "2025-06-12T10:37:56+02:00",
+      "name": "Jahresbericht der Ausländerbehörde",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34409",
+      "created": "2025-05-27T09:16:21+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94048",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10118",
+      "modified": "2025-06-12T10:38:12+02:00",
+      "name": "Jahresbericht der Staatsangehörigkeitsbehörde",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34347",
+      "created": "2025-05-19T15:37:35+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93954",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10118",
+      "modified": "2025-06-12T10:50:57+02:00",
+      "name": "Ergebnisse Evaluation der Maßnahmen im Bereich Geflüchtete",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34348",
+      "created": "2025-05-19T15:39:01+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93955",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10118",
+      "modified": "2025-07-07T09:27:15+02:00",
+      "name": "Empfehlungsliste Bereich Integration für Doppelhaushalt 26/27",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34349",
+      "created": "2025-05-19T15:46:51+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93957",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10118",
+      "modified": "2025-06-12T10:51:36+02:00",
+      "name": "Projektverlängerungen: „Deutsch spielerisch lernen“ der Landsmannschaft der Deutschen aus Russland e. V. und „Sprachtreff: Spielend Deutsch lernen“ der AWO Karlsruhe gGmbH",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-05-19T15:47:15+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93958",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10118",
+      "modified": "2025-05-27T09:16:39+02:00",
+      "name": "Mitteilungen aus dem Bürgermeisteramt",
+      "number": "6",
+      "order": 6,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676421.pdf",
+      "created": "2026-02-05T15:29:46+01:00",
+      "date": "2026-02-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676421.pdf",
+      "fileName": "00676421.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676421",
+      "mimeType": "application/pdf",
+      "modified": "2026-02-05T15:30:03+01:00",
+      "name": "Protokoll",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2024-10-17T13:16:14+02:00",
+  "end": "2025-07-10T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10118",
+  "location": {
+    "created": "2024-10-17T13:16:14+02:00",
+    "description": "Großer Sitzungssaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10118",
+    "modified": "2026-02-05T15:30:03+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-02-05T15:30:03+01:00",
+  "name": "Integrationsausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/39759"
+  ],
+  "start": "2025-07-10T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

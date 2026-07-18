@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678493.pdf",
+      "created": "2026-05-19T11:03:49+02:00",
+      "date": "2026-05-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678493.pdf",
+      "fileName": "00678493.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678493",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-15T13:17:00+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102393",
+      "created": "2026-06-25T09:15:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37442",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10566",
+      "modified": "2026-07-02T07:35:52+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54579",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-05-19T11:01:10+02:00",
+  "date": "2026-05-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54579",
+  "modified": "2026-07-15T13:17:00+02:00",
+  "name": "Das Förderprogramm der Stadtteilhäuser in Karlsruhe - Sachstandsbericht",
+  "paperType": "Informationsvorlage",
+  "reference": "2026/0412",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882965"
+  ]
+}

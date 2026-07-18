@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667475.pdf",
+      "created": "2025-05-27T09:45:02+02:00",
+      "date": "2025-05-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667475.pdf",
+      "fileName": "00667475.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667475",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-27T10:50:00+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667496.pdf",
+      "created": "2025-05-27T11:10:28+02:00",
+      "date": "2025-05-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667496.pdf",
+      "fileName": "00667496.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667496",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-27T10:50:00+02:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668461.pdf",
+      "created": "2025-06-27T10:49:57+02:00",
+      "date": "2025-06-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668461.pdf",
+      "fileName": "00668461.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668461",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-27T10:50:00+02:00",
+      "name": "Protokoll GR 24.06.2025 TOP 29",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94064",
+      "authoritative": true,
+      "created": "2025-05-27T10:34:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34316",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10049",
+      "modified": "2025-06-25T08:05:42+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51982",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-05-27T09:42:45+02:00",
+  "date": "2025-05-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51982",
+  "modified": "2025-06-27T10:50:00+02:00",
+  "name": "Digitale und effiziente Veranstaltungsorganisation in der Stadtverwaltung – Ausweitung des Einsatzes des Eventmoduls in CAS genesisWorld?",
+  "paperType": "Anfrage",
+  "reference": "2025/0520",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883004"
+  ]
+}

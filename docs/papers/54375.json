@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677170.pdf",
+      "created": "2026-03-20T07:18:38+01:00",
+      "date": "2026-03-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677170.pdf",
+      "fileName": "00677170.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677170",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:51:42+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677246.pdf",
+      "created": "2026-03-24T08:31:58+01:00",
+      "date": "2026-03-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677246.pdf",
+      "fileName": "00677246.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677246",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:51:42+02:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678419.pdf",
+      "created": "2026-05-15T10:51:40+02:00",
+      "date": "2026-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678419.pdf",
+      "fileName": "00678419.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678419",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:51:42+02:00",
+      "name": "Protokoll GR 28.04.2026 TOP 32",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101142",
+      "authoritative": true,
+      "created": "2026-04-01T09:53:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37146",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10512",
+      "modified": "2026-05-26T12:02:49+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54375",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-03-20T07:17:59+01:00",
+  "date": "2026-03-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54375",
+  "modified": "2026-05-15T10:51:42+02:00",
+  "name": "Entwicklung der Eigenreinigungsquote",
+  "paperType": "Anfrage",
+  "reference": "2026/0229",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

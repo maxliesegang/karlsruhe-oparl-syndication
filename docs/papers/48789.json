@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648304.pdf",
+      "created": "2023-06-20T17:56:05+02:00",
+      "date": "2023-06-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648304.pdf",
+      "fileName": "00648304.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648304",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648331.pdf",
+      "created": "2023-06-21T11:39:05+02:00",
+      "date": "2023-06-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648331.pdf",
+      "fileName": "00648331.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648331",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649532.pdf",
+      "created": "2023-08-03T12:27:49+02:00",
+      "date": "2023-08-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649532.pdf",
+      "fileName": "00649532.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649532",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 42",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78409",
+      "authoritative": true,
+      "created": "2023-06-21T11:53:58+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29887",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9047",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48789",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-06-20T17:55:12+02:00",
+  "date": "2023-06-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48789",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Waldbrandgefahr in Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2023/0707",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883003"
+  ]
+}

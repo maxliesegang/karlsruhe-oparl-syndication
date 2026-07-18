@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675617.pdf",
+      "created": "2026-01-07T08:44:12+01:00",
+      "date": "2026-01-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675617.pdf",
+      "fileName": "00675617.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675617",
+      "mimeType": "application/pdf",
+      "modified": "2026-02-03T08:35:08+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99680",
+      "authoritative": true,
+      "created": "2025-12-02T14:54:27+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36680",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10453",
+      "modified": "2026-02-11T07:21:31+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52543",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-10-23T13:06:18+02:00",
+  "date": "2025-12-02",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52543",
+  "modified": "2026-02-03T08:35:08+01:00",
+  "name": "Umsetzung des Rechtsanspruchs auf ganztägige Förderung von Kindern im Grundschulalter ab dem Schuljahr 2026/27 in der Heinz-Barth-Schule Wettersbach",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1023",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882961"
+  ]
+}

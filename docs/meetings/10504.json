@@ -1,0 +1,63 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36822",
+      "created": "2026-02-24T09:16:15+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100584",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10504",
+      "modified": "2026-04-16T18:16:40+02:00",
+      "name": "Mögliche Neustrukturierung der Stadtbibliothek und Kinder- und  Jugendbibliothek in einem erweiterten Ständehaus - Grundsatzbeschluss",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "vorberaten ohne Änderungen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36904",
+      "created": "2026-02-24T09:16:15+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100585",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10504",
+      "modified": "2026-04-16T18:17:08+02:00",
+      "name": "Planfeststellungsersetzender Bebauungsplan „östliche Kaiserstraße“ –Verzicht auf Frühzeitige Öffentlichkeitsbeteiligung  nach § 3 Abs 1 Baugesetzbuch",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "mehrheitlich beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2025-10-10T11:09:47+02:00",
+  "end": "2026-04-16T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10504",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677136.pdf",
+    "created": "2026-03-18T15:20:11+01:00",
+    "date": "2026-03-20",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677136.pdf",
+    "fileName": "00677136.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677136",
+    "mimeType": "application/pdf",
+    "modified": "2026-04-10T09:30:30+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2022-12-12T11:11:26+01:00",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/rm/67907",
+    "locality": "",
+    "modified": "2025-08-05T10:18:13+02:00",
+    "postalCode": "",
+    "room": "Bürgersaal",
+    "streetAddress": "",
+    "subLocality": "",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-04-10T11:11:29+02:00",
+  "name": "Planungsausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+  ],
+  "start": "2026-04-16T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

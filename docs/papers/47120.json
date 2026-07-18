@@ -1,0 +1,87 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00639811.pdf",
+      "created": "2022-08-19T07:57:56+02:00",
+      "date": "2022-08-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00639811.pdf",
+      "fileName": "00639811.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/639811",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00640903.pdf",
+      "created": "2022-09-22T15:11:25+02:00",
+      "date": "2022-09-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00640903.pdf",
+      "fileName": "00640903.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/640903",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "St zum Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00641592.pdf",
+      "created": "2022-10-18T10:31:04+02:00",
+      "date": "2022-10-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00641592.pdf",
+      "fileName": "00641592.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/641592",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 24",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/71288",
+      "created": "2022-07-11T15:56:03+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27712",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6615",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33195"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47120",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72724",
+      "authoritative": true,
+      "created": "2022-09-27T12:25:28+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27926",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6600",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47120",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-07-11T13:33:21+02:00",
+  "date": "2022-07-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47120",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Kommunaler Maßnahmenplan zur Verhinderung von Energiearmut",
+  "paperType": "Antrag",
+  "reference": "2022/0207/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46493"
+  ],
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47512"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882988"
+  ]
+}

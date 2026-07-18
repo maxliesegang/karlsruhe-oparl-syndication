@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664248.pdf",
+      "created": "2025-01-16T09:53:39+01:00",
+      "date": "2025-01-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664248.pdf",
+      "fileName": "00664248.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664248",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-11T08:17:45+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665026.pdf",
+      "created": "2025-02-18T19:32:46+01:00",
+      "date": "2025-02-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665026.pdf",
+      "fileName": "00665026.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665026",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-11T08:17:45+01:00",
+      "name": "Abstimmungsergebnis TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665497.pdf",
+      "created": "2025-03-11T08:17:42+01:00",
+      "date": "2025-03-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665497.pdf",
+      "fileName": "00665497.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665497",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-11T08:17:45+01:00",
+      "name": "Protokoll GR 18.02.2025 TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92110",
+      "authoritative": true,
+      "created": "2025-01-21T19:53:16+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33475",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10045",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51416",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-01-02T11:10:02+01:00",
+  "date": "2025-01-02",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51416",
+  "modified": "2025-03-11T08:17:45+01:00",
+  "name": "Abschluss einer Belegungsvereinbarung zur Unterbringung von geflüchteten Menschen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0002",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

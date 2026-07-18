@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615361.pdf",
+      "created": "2020-03-09T16:25:55+01:00",
+      "date": "2020-03-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615361.pdf",
+      "fileName": "00615361.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615361",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Lageplan",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615492.pdf",
+      "created": "2020-03-12T11:47:30+01:00",
+      "date": "2020-03-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615492.pdf",
+      "fileName": "00615492.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615492",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Ausübung Vorkaufsrecht Pfizerstraße, neu",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/50309",
+      "authoritative": true,
+      "created": "2020-03-12T11:30:31+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/18016",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6016",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38502",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-03-03T15:22:16+01:00",
+  "date": "2020-03-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38502",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Ausübung dingliches Vorkaufsrecht an den Grundstücken Flst. Nr. 56180, An der Tagweide 5, Pfizerstraße 1 und Flst. Nr. 56180/1, An der Tagweide 23",
+  "paperType": "Beschlussvorlage",
+  "reference": "2020/0289",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665389.pdf",
+      "created": "2025-03-06T08:47:11+01:00",
+      "date": "2025-03-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665389.pdf",
+      "fileName": "00665389.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665389",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-07T12:22:11+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92746",
+      "authoritative": true,
+      "created": "2025-03-06T08:45:53+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33827",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10024",
+      "modified": "2025-03-25T10:15:55+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51654",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-03-06T08:45:05+01:00",
+  "date": "2025-03-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51654",
+  "modified": "2025-03-12T10:47:50+01:00",
+  "name": "Nachbenennung eines Mitgliedes für den Jugendhilfeausschuss der Stadt Karlsruhe durch den Ortschaftsrat",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0227",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

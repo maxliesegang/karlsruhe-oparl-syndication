@@ -1,0 +1,110 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666461.pdf",
+      "created": "2025-04-16T08:37:37+02:00",
+      "date": "2025-04-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666461.pdf",
+      "fileName": "00666461.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666461",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:24:37+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668049.pdf",
+      "created": "2025-06-17T07:57:52+02:00",
+      "date": "2025-06-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668049.pdf",
+      "fileName": "00668049.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668049",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:24:37+02:00",
+      "name": "Protokoll GR 27.05.2025 TOP 27",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668142.pdf",
+      "created": "2025-06-18T11:50:42+02:00",
+      "date": "2025-06-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668142.pdf",
+      "fileName": "00668142.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668142",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:24:37+02:00",
+      "name": "Stellungnahme Bebauungsplanverfahren in Karlsruhe",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670963.pdf",
+      "created": "2025-10-17T10:24:34+02:00",
+      "date": "2025-10-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670963.pdf",
+      "fileName": "00670963.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670963",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:24:37+02:00",
+      "name": "Protokoll GR 30.09.2025 TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93780",
+      "authoritative": true,
+      "created": "2025-05-07T08:24:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34066",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10048",
+      "modified": "2025-05-27T18:10:18+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51805",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94182",
+      "created": "2025-06-04T09:16:36+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34109",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10076",
+      "modified": "2025-07-30T11:39:57+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51805",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96074",
+      "authoritative": true,
+      "created": "2025-09-02T13:00:54+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34685",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10052",
+      "modified": "2025-09-30T18:43:24+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51805",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-04-16T08:37:16+02:00",
+  "date": "2025-04-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51805",
+  "modified": "2025-10-17T10:24:37+02:00",
+  "name": "Bebauungsplanverfahren in Karlsruhe",
+  "paperType": "Antrag",
+  "reference": "2025/0361",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52239"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642681.pdf",
+      "created": "2022-11-16T16:14:16+01:00",
+      "date": "2022-11-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642681.pdf",
+      "fileName": "00642681.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642681",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/74326",
+      "authoritative": true,
+      "created": "2022-11-28T10:41:25+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28543",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7849",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47750",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-11-10T09:32:29+01:00",
+  "date": "2022-11-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47750",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Vorschlag des Ortschaftsrates Wettersbach zur Wahl von Frau Ortsvorsteherin Tron als Vertreterin der Stadt Karlsruhe in der Verbandsversammlung für die Wasserversorgung des Hügellandes zwischen Alb und Pfinz",
+  "paperType": "Beschlussvorlage",
+  "reference": "2022/2279",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882961"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666739.pdf",
+      "created": "2025-04-29T11:03:43+02:00",
+      "date": "2025-04-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666739.pdf",
+      "fileName": "00666739.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666739",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-13T13:52:36+02:00",
+      "name": "Anfrage Hohenwettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666977.pdf",
+      "created": "2025-05-07T10:50:58+02:00",
+      "date": "2025-05-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666977.pdf",
+      "fileName": "00666977.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666977",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-13T13:52:36+02:00",
+      "name": "Stellungnahme Anfrage Hohenwettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93814",
+      "created": "2025-05-07T13:39:27+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34140",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10302",
+      "modified": "2025-05-07T13:40:03+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34322"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51853",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-04-29T10:59:17+02:00",
+  "date": "2025-05-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51853",
+  "modified": "2025-05-13T13:52:36+02:00",
+  "name": "Anbringung von Aschenbechern an ausgewählten ÖPNV-Haltestellen in Kooperation mit den City Cleaners Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2025/0401",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882959"
+  ]
+}

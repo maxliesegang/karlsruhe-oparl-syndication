@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676783.pdf",
+      "created": "2026-02-24T11:38:29+01:00",
+      "date": "2026-06-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676783.pdf",
+      "fileName": "00676783.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676783",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-08T08:41:12+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677579.pdf",
+      "created": "2026-04-09T10:22:00+02:00",
+      "date": "2026-04-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677579.pdf",
+      "fileName": "00677579.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677579",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-08T08:41:12+02:00",
+      "name": "Protokoll GR 24.03.2026 TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678425.pdf",
+      "created": "2026-05-15T11:43:32+02:00",
+      "date": "2026-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678425.pdf",
+      "fileName": "00678425.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678425",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-08T08:41:12+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100688",
+      "authoritative": true,
+      "created": "2026-03-02T08:31:20+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37049",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10497",
+      "modified": "2026-03-24T19:22:11+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54298",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102097",
+      "created": "2026-06-10T09:49:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37065",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10558",
+      "modified": "2026-07-15T19:29:03+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33195"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54298",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-02-24T11:37:57+01:00",
+  "date": "2026-02-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54298",
+  "modified": "2026-07-08T08:41:12+02:00",
+  "name": "Pflege-Monitor fortschreiben",
+  "paperType": "Antrag",
+  "reference": "2026/0160",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

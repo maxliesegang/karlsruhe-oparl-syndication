@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646740.pdf",
+      "created": "2023-04-20T16:34:06+02:00",
+      "date": "2023-04-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646740.pdf",
+      "fileName": "00646740.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646740",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647311.pdf",
+      "created": "2023-05-17T10:37:59+02:00",
+      "date": "2023-05-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647311.pdf",
+      "fileName": "00647311.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647311",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 3.2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647827.pdf",
+      "created": "2023-06-02T12:35:21+02:00",
+      "date": "2023-06-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647827.pdf",
+      "fileName": "00647827.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647827",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 3.2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/76874",
+      "authoritative": true,
+      "created": "2023-04-17T10:43:36+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29485",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9045",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48476",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-04-13T17:19:41+02:00",
+  "date": "2023-04-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48476",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Schöffenwahl für die Geschäftsjahre 2024 - 2028: Abstimmung über die Vorschlagslisten für die Amtsgerichtsbezirke Karlsruhe und Karlsruhe-Durlach",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0411",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882965"
+  ]
+}

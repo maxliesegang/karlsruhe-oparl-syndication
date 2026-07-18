@@ -1,0 +1,82 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29714",
+      "created": "2023-05-30T09:24:54+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78045",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9121",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Klimaanpassungsstrategie in der Innenstadt: Pilotprojekte für Fassadenbegrünungen",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29591",
+      "created": "2023-06-27T11:00:46+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78551",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9121",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Konzeptbeschluss Sanierung Pfarrer-Blink-Straße",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29507",
+      "created": "2023-06-27T10:41:27+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78550",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9121",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Konzeptbeschluss: Westliche Kriegsstraße",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "vertagt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29593",
+      "created": "2023-06-27T11:01:20+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78552",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9121",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Festplatz Rüppurr: weitere Vorgehensweise bei der Entwicklung der städtischen Fläche",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2022-09-21T16:35:58+02:00",
+  "end": "2023-09-14T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9121",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650055.pdf",
+    "created": "2023-08-23T11:49:20+02:00",
+    "date": "2023-08-23",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650055.pdf",
+    "fileName": "00650055.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650055",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2022-09-21T16:35:58+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9121",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Planungsausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+  ],
+  "start": "2023-09-14T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

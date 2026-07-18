@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678478.pdf",
+      "created": "2026-05-19T06:57:58+02:00",
+      "date": "2026-05-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678478.pdf",
+      "fileName": "00678478.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678478",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-19T14:22:26+02:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678494.pdf",
+      "created": "2026-05-19T11:05:15+02:00",
+      "date": "2026-05-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678494.pdf",
+      "fileName": "00678494.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678494",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-19T14:22:26+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101775",
+      "authoritative": true,
+      "created": "2026-05-19T08:33:28+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37436",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10526",
+      "modified": "2026-05-20T08:11:15+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54574",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-05-19T06:57:34+02:00",
+  "date": "2026-05-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54574",
+  "modified": "2026-06-01T12:04:43+02:00",
+  "name": "Konzeptvergabe Rathaus West, Verwaltungsauftrag Nr. 5: Prüfauftrag: Zweckbindung der Erlöse städtischer Immobilienverkäufe für den kommunalen Bauunterhalt (Bauunterhaltungsfonds)",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2026/0253/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54410"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

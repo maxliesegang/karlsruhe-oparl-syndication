@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607629.pdf",
+      "created": "2019-01-29T13:09:30+01:00",
+      "date": "2019-01-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607629.pdf",
+      "fileName": "00607629.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607629",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608391.pdf",
+      "created": "2019-03-15T11:43:46+01:00",
+      "date": "2019-03-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608391.pdf",
+      "fileName": "00608391.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608391",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 25",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609409.pdf",
+      "created": "2019-04-30T08:15:07+02:00",
+      "date": "2019-04-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609409.pdf",
+      "fileName": "00609409.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609409",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 25",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45082",
+      "authoritative": true,
+      "created": "2019-02-26T11:06:11+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16147",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5294",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36999",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-01-29T10:37:11+01:00",
+  "date": "2019-01-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36999",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Straßenbenennung nach Eduard Dietz",
+  "paperType": "Antrag",
+  "reference": "2019/0082",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

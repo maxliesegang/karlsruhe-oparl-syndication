@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00640650.pdf",
+      "created": "2022-09-14T17:55:26+02:00",
+      "date": "2022-09-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00640650.pdf",
+      "fileName": "00640650.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/640650",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00641959.pdf",
+      "created": "2022-10-26T16:06:48+02:00",
+      "date": "2022-10-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00641959.pdf",
+      "fileName": "00641959.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/641959",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 16",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642715.pdf",
+      "created": "2022-11-17T12:36:21+01:00",
+      "date": "2022-11-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642715.pdf",
+      "fileName": "00642715.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642715",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 16",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72809",
+      "authoritative": true,
+      "created": "2022-09-27T15:39:20+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28087",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6603",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47438",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-09-14T16:54:23+02:00",
+  "date": "2022-09-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47438",
+  "modified": "2025-07-11T10:02:39+02:00",
+  "name": "Sonnenfächer",
+  "paperType": "Informationsvorlage",
+  "reference": "IV/2022/2012",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

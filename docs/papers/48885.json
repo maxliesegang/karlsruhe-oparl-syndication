@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648921.pdf",
+      "created": "2023-07-12T17:17:35+02:00",
+      "date": "2023-07-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648921.pdf",
+      "fileName": "00648921.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648921",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650221.pdf",
+      "created": "2023-08-29T17:46:40+02:00",
+      "date": "2023-08-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650221.pdf",
+      "fileName": "00650221.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650221",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651371.pdf",
+      "created": "2023-10-09T14:15:06+02:00",
+      "date": "2023-10-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651371.pdf",
+      "fileName": "00651371.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651371",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 35",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/79967",
+      "authoritative": true,
+      "created": "2023-08-22T09:36:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30037",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9049",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48885",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-07-12T17:12:10+02:00",
+  "date": "2023-07-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48885",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Kosten der Unterkunft (KdU) – Übernahme von Mietkosten von Haushalten mit geringem Einkommen",
+  "paperType": "Anfrage",
+  "reference": "2023/0790",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

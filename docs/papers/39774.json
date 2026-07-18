@@ -1,0 +1,82 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617653.pdf",
+      "created": "2020-05-13T13:06:43+02:00",
+      "date": "2020-05-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617653.pdf",
+      "fileName": "00617653.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617653",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618275.pdf",
+      "created": "2020-06-19T08:22:16+02:00",
+      "date": "2020-06-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618275.pdf",
+      "fileName": "00618275.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618275",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Nachbesserung Liniennetzplan",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619220.pdf",
+      "created": "2020-08-19T07:43:17+02:00",
+      "date": "2020-08-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619220.pdf",
+      "fileName": "00619220.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619220",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 28",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/52723",
+      "authoritative": true,
+      "created": "2020-06-03T09:17:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19369",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5666",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39774",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53594",
+      "authoritative": true,
+      "created": "2020-07-03T14:13:14+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19369",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5667",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39774",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-05-13T13:05:37+02:00",
+  "date": "2020-05-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39774",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Nachbesserungen Liniennetzplan",
+  "paperType": "Antrag",
+  "reference": "2020/0566",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

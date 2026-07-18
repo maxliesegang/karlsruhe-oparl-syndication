@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677434.pdf",
+      "created": "2026-04-01T14:31:32+02:00",
+      "date": "2026-04-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677434.pdf",
+      "fileName": "00677434.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677434",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-24T10:11:03+02:00",
+      "name": "Anfrage Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677503.pdf",
+      "created": "2026-04-07T15:15:10+02:00",
+      "date": "2026-04-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677503.pdf",
+      "fileName": "00677503.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677503",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-24T10:11:03+02:00",
+      "name": "Stellungnahme Anfrage Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101184",
+      "created": "2026-04-01T14:30:33+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37213",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10437",
+      "modified": "2026-06-01T10:34:38+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54421",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-04-01T14:29:47+02:00",
+  "date": "2026-04-02",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54421",
+  "modified": "2026-04-27T15:53:39+02:00",
+  "name": "Aufwandsentschädigung des Ortschaftsrates (Anfrage GRÜNE-Fraktion)",
+  "paperType": "Anfrage",
+  "reference": "2026/0264",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

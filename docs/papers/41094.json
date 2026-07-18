@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624566.pdf",
+      "created": "2021-04-01T11:30:35+02:00",
+      "date": "2021-04-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624566.pdf",
+      "fileName": "00624566.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624566",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625932.pdf",
+      "created": "2021-06-07T09:52:56+02:00",
+      "date": "2021-06-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625932.pdf",
+      "fileName": "00625932.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625932",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 18.05.21 TOP 23",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00627013.pdf",
+      "created": "2021-07-14T10:10:55+02:00",
+      "date": "2021-07-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00627013.pdf",
+      "fileName": "00627013.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/627013",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme_Grundschule am Wasserturm: Überprüfung der Einhaltung des Qualitätsrahmens Ganztagsgrundschule Baden-Württemberg",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/57917",
+      "authoritative": true,
+      "created": "2021-05-04T10:41:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21077",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6214",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41094",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/59741",
+      "created": "2021-07-14T09:47:26+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21101",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6264",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41094",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-04-01T11:29:24+02:00",
+  "date": "2021-04-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41094",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Grundschule am Wasserturm: Überprüfung der Einhaltung des Qualitätsrahmens Ganztagesschule Baden-Württemberg",
+  "paperType": "Antrag",
+  "reference": "2021/0453",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

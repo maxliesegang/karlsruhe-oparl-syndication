@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638548.pdf",
+      "created": "2022-06-24T10:13:39+02:00",
+      "date": "2022-06-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638548.pdf",
+      "fileName": "00638548.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638548",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638549.pdf",
+      "created": "2022-06-24T10:13:58+02:00",
+      "date": "2022-06-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638549.pdf",
+      "fileName": "00638549.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638549",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Jahresbericht 2022",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00639864.pdf",
+      "created": "2022-08-22T11:51:28+02:00",
+      "date": "2022-08-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00639864.pdf",
+      "fileName": "00639864.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/639864",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 26.07.2022 TOP 13",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/71077",
+      "authoritative": true,
+      "created": "2022-06-29T10:02:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27593",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6597",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47015",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-06-23T12:05:46+02:00",
+  "date": "2022-06-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47015",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bevölkerung in Karlsruhe 2021",
+  "paperType": "Informationsvorlage",
+  "reference": "2022/0702",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882965"
+  ]
+}

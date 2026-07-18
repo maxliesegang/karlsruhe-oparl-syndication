@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662016.pdf",
+      "created": "2024-10-23T19:15:42+02:00",
+      "date": "2024-10-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662016.pdf",
+      "fileName": "00662016.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662016",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "2024 10 23 Tischvorlage Runder Tisch",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662018.pdf",
+      "created": "2024-10-23T19:19:47+02:00",
+      "date": "2024-10-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662018.pdf",
+      "fileName": "00662018.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662018",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Vorlage Bauamt Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90677",
+      "created": "2024-10-17T14:57:11+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33095",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9725",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51153",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-10-23T19:15:15+02:00",
+  "date": "2024-10-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51153",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Runder Tisch Inklusion",
+  "paperType": "Informationsvorlage",
+  "reference": "2024/1205",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

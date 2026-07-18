@@ -1,0 +1,92 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37583",
+      "created": "2026-06-16T12:58:20+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102207",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10787",
+      "modified": "2026-07-08T11:13:02+02:00",
+      "name": "Anpassung der Nutzungsentgelte für die durch die OV Stupferich zur Verfügung gestellten Räumlichkeiten im Gemeindezentrum Stupferich",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "auxiliaryFile": [
+        {
+          "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679657.pdf",
+          "created": "2026-07-08T11:06:37+02:00",
+          "date": "2026-07-08",
+          "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679657.pdf",
+          "fileName": "00679657.pdf",
+          "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679657",
+          "mimeType": "application/pdf",
+          "modified": "2026-07-13T12:26:36+02:00",
+          "name": "Rückbau Spielplätze 2026",
+          "type": "https://schema.oparl.org/1.1/File"
+        }
+      ],
+      "created": "2026-07-08T11:03:22+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102530",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10787",
+      "modified": "2026-07-08T11:13:02+02:00",
+      "name": "Rückbau Spielplätze 2026; hier: Kinderspielplatz Trollinger Straße",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-07-08T11:11:48+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102531",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10787",
+      "modified": "2026-07-08T11:13:02+02:00",
+      "name": "Mitteilungen der Ortsverwaltung",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-07-08T11:11:54+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102532",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10787",
+      "modified": "2026-07-08T11:13:02+02:00",
+      "name": "Verschiedenes",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2025-12-08T11:17:46+01:00",
+  "end": "2026-07-22T00:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10787",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679659.pdf",
+    "created": "2026-07-08T11:16:12+02:00",
+    "date": "2026-07-08",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679659.pdf",
+    "fileName": "00679659.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679659",
+    "mimeType": "application/pdf",
+    "modified": "2026-07-13T12:26:36+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2025-12-08T11:17:46+01:00",
+    "description": "Sitzungssaal Rathaus Stupferich",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10787",
+    "modified": "2026-07-13T12:26:36+02:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-07-13T12:26:36+02:00",
+  "name": "Ortschaftsrat Stupferich (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34764"
+  ],
+  "start": "2026-07-22T19:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

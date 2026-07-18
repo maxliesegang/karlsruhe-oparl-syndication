@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660472.pdf",
+      "created": "2024-08-28T08:44:22+02:00",
+      "date": "2024-08-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660472.pdf",
+      "fileName": "00660472.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660472",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661201.pdf",
+      "created": "2024-09-25T17:55:00+02:00",
+      "date": "2024-09-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661201.pdf",
+      "fileName": "00661201.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661201",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "2024-09-24 top10-1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/89890",
+      "authoritative": true,
+      "created": "2024-08-28T17:10:18+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32752",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9531",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50907",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-08-28T08:39:53+02:00",
+  "date": "2024-08-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50907",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Berufung sachkundiger Einwohnerinnen und Einwohner sowie Sachverständiger in gemeinderätliche Ausschüsse und Gremien: Jugendhilfeausschuss",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0978",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35200",
+      "created": "2025-12-11T16:04:48+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99842",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10793",
+      "modified": "2025-12-11T17:05:02+01:00",
+      "name": "VBK-Einsparkonzept: vorübergehende Anpassung des öffentlichen Dienstleistungsauftrags an die VBK",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-12-11T16:07:19+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99847",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10793",
+      "modified": "2025-12-11T17:05:02+01:00",
+      "name": "Mitteilungen der Ortsverwaltung",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-12-11T16:07:24+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99848",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10793",
+      "modified": "2025-12-11T17:05:02+01:00",
+      "name": "Verschiedenes",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675978.pdf",
+      "created": "2026-01-23T12:18:23+01:00",
+      "date": "2026-01-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675978.pdf",
+      "fileName": "00675978.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675978",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-23T12:18:23+01:00",
+      "name": "Niederschrift 13. ORatSitzung öffentlich 19.12.2025",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2025-12-11T16:04:39+01:00",
+  "end": "2025-12-19T00:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10793",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675151.pdf",
+    "created": "2025-12-11T17:07:29+01:00",
+    "date": "2025-12-11",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675151.pdf",
+    "fileName": "00675151.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675151",
+    "mimeType": "application/pdf",
+    "modified": "2025-12-12T11:47:11+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2025-12-11T16:04:39+01:00",
+    "description": "Sitzungssaal Rathaus Stupferich",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10793",
+    "modified": "2025-12-22T10:41:42+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-12-22T10:41:42+01:00",
+  "name": "Ortschaftsrat Stupferich (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34764"
+  ],
+  "start": "2025-12-19T18:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

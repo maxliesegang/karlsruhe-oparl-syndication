@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667523.pdf",
+      "created": "2025-05-27T14:38:55+02:00",
+      "date": "2025-05-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667523.pdf",
+      "fileName": "00667523.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667523",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-18T09:32:22+02:00",
+      "name": "Plan",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667639.pdf",
+      "created": "2025-06-03T07:49:59+02:00",
+      "date": "2025-06-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667639.pdf",
+      "fileName": "00667639.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667639",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-18T09:32:22+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94097",
+      "created": "2025-05-28T15:20:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34325",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10075",
+      "modified": "2025-07-09T09:28:56+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51989",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-05-27T11:07:22+02:00",
+  "date": "2025-05-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51989",
+  "modified": "2025-06-18T09:32:22+02:00",
+  "name": "Sanierung der Rintheimer Querallee zwischen Theodor-Heuss-Allee bis Hagsfelder Allee, 1. Teilprojekt",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0527",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

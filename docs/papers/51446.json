@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664169.pdf",
+      "created": "2025-01-14T09:37:45+01:00",
+      "date": "2025-01-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664169.pdf",
+      "fileName": "00664169.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664169",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-11T08:40:56+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664283.pdf",
+      "created": "2025-01-17T14:31:24+01:00",
+      "date": "2025-01-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664283.pdf",
+      "fileName": "00664283.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664283",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-11T08:40:56+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665518.pdf",
+      "created": "2025-03-11T08:40:53+01:00",
+      "date": "2025-03-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665518.pdf",
+      "fileName": "00665518.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665518",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-11T08:40:56+01:00",
+      "name": "Protokoll GR 18.02.2025 TOP 20",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92079",
+      "authoritative": true,
+      "created": "2025-01-21T10:03:02+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33521",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10045",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51446",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-01-14T09:37:27+01:00",
+  "date": "2025-01-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51446",
+  "modified": "2025-03-11T08:40:56+01:00",
+  "name": "Umsetzungsstand: First-Responder-App der Region der Lebensretter",
+  "paperType": "Anfrage",
+  "reference": "2025/0030",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882976"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670303.pdf",
+      "created": "2025-09-22T20:42:23+02:00",
+      "date": "2025-09-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670303.pdf",
+      "fileName": "00670303.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670303",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-21T07:41:55+01:00",
+      "name": "Anfrage Durlach",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670304.pdf",
+      "created": "2025-09-22T20:43:10+02:00",
+      "date": "2025-09-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670304.pdf",
+      "fileName": "00670304.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670304",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-21T07:41:55+01:00",
+      "name": "Stellungnahme Anfrage Durlach",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/97579",
+      "authoritative": true,
+      "created": "2025-11-04T08:06:39+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34890",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10032",
+      "modified": "2025-12-04T11:06:26+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52390",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-09-22T20:41:26+02:00",
+  "date": "2025-09-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52390",
+  "modified": "2025-11-21T07:41:55+01:00",
+  "name": "Aktueller Sachstand zum Neubau der Kita Bergwaldstraße",
+  "paperType": "Anfrage",
+  "reference": "2025/0894",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

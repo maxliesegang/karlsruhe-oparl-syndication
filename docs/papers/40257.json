@@ -1,0 +1,93 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620233.pdf",
+      "created": "2020-10-16T08:09:00+02:00",
+      "date": "2020-10-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620233.pdf",
+      "fileName": "00620233.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620233",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Bäderkonzept_2020",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620606.pdf",
+      "created": "2020-11-04T11:48:41+01:00",
+      "date": "2020-11-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620606.pdf",
+      "fileName": "00620606.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620606",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Bäderkonzept 3. Fortschreibung 2020",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620911.pdf",
+      "created": "2020-11-18T09:46:00+01:00",
+      "date": "2020-11-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620911.pdf",
+      "fileName": "00620911.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620911",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis top 14",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00622595.pdf",
+      "created": "2021-01-05T11:04:13+01:00",
+      "date": "2021-01-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00622595.pdf",
+      "fileName": "00622595.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/622595",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 14",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54900",
+      "created": "2020-10-16T08:02:57+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20205",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5871",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54833"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40257",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54993",
+      "authoritative": true,
+      "created": "2020-10-21T09:35:09+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20000",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5672",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40257",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-09-10T13:57:51+02:00",
+  "date": "2020-09-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40257",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Entwicklung der Bäder - Bäderkonzept 2020, 3. Fortschreibung des Bäderkonzeptes 2000",
+  "paperType": "Beschlussvorlage",
+  "reference": "2020/1047",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882969"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667526.pdf",
+      "created": "2025-05-27T14:44:23+02:00",
+      "date": "2025-05-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667526.pdf",
+      "fileName": "00667526.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667526",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-18T09:33:11+02:00",
+      "name": "Plan",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667636.pdf",
+      "created": "2025-06-03T07:34:16+02:00",
+      "date": "2025-06-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667636.pdf",
+      "fileName": "00667636.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667636",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-18T09:33:11+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94098",
+      "created": "2025-05-28T15:20:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34326",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10075",
+      "modified": "2025-07-09T09:29:04+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51990",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-05-27T11:09:22+02:00",
+  "date": "2025-05-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51990",
+  "modified": "2025-06-18T09:33:11+02:00",
+  "name": "Erschließungsmaßnahmen, Zukunft Nord BA 2",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0528",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668887.pdf",
+      "created": "2025-07-18T09:15:10+02:00",
+      "date": "2025-07-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668887.pdf",
+      "fileName": "00668887.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668887",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-27T12:21:25+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669793.pdf",
+      "created": "2025-09-01T08:58:05+02:00",
+      "date": "2025-09-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669793.pdf",
+      "fileName": "00669793.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669793",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-27T12:21:25+01:00",
+      "name": "Anlage Lagebild",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671321.pdf",
+      "created": "2025-10-27T12:21:22+01:00",
+      "date": "2025-10-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671321.pdf",
+      "fileName": "00671321.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671321",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-27T12:21:25+01:00",
+      "name": "Protokoll HFA 14.10.2025 Sitzungseröffnung und TOP 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96272",
+      "authoritative": true,
+      "created": "2025-09-19T11:57:09+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34520",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10041",
+      "modified": "2025-10-15T08:33:12+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52129",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-07-01T08:31:11+02:00",
+  "date": "2025-07-01",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52129",
+  "modified": "2025-10-27T12:21:25+01:00",
+  "name": "Lagebild der Fachgruppe Prostituiertenschutzgesetz",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/0654",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

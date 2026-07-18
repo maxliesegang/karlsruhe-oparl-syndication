@@ -1,0 +1,85 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634154.pdf",
+      "created": "2021-12-02T07:44:28+01:00",
+      "date": "2021-12-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634154.pdf",
+      "fileName": "00634154.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634154",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634887.pdf",
+      "created": "2021-12-23T11:15:04+01:00",
+      "date": "2021-12-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634887.pdf",
+      "fileName": "00634887.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634887",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Ergänzungsantrag GRÜNE",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635423.pdf",
+      "created": "2022-01-21T13:38:11+01:00",
+      "date": "2022-01-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635423.pdf",
+      "fileName": "00635423.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635423",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Sitzungseröffnung und TOP 1 HA_11_01_2022",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/67094",
+      "authoritative": true,
+      "created": "2021-12-03T12:13:29+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26531",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6346",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46184",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/67104",
+      "authoritative": true,
+      "created": "2021-12-07T07:07:22+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26532",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6579",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46184",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-12-02T07:44:08+01:00",
+  "date": "2021-12-02",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46184",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Interaktives Tool zur unkomplizierten Meldung falsch abgestellter E-Scooter",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2021/1407/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46103"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883004"
+  ]
+}

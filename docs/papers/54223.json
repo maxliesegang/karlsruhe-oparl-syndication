@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676699.pdf",
+      "created": "2026-02-19T14:29:35+01:00",
+      "date": "2026-02-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676699.pdf",
+      "fileName": "00676699.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676699",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:44:49+02:00",
+      "name": "Informationsvorlage_NBS_ABS_Mannheim-Karlsruhe",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678400.pdf",
+      "created": "2026-05-15T10:44:46+02:00",
+      "date": "2026-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678400.pdf",
+      "fileName": "00678400.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678400",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:44:49+02:00",
+      "name": "Protokoll GR 28.04.2026 TOP 16",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101150",
+      "authoritative": true,
+      "created": "2026-04-01T09:53:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37160",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10512",
+      "modified": "2026-05-26T12:02:49+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54223",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-02-02T09:08:23+01:00",
+  "date": "2026-02-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54223",
+  "modified": "2026-05-15T10:44:49+02:00",
+  "name": "Neubaustrecke - Ausbaustrecke (NBS/ABS) Mannheim-Karlsruhe, Sachstand",
+  "paperType": "Informationsvorlage",
+  "reference": "2026/0088",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54409"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

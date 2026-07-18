@@ -1,0 +1,60 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37455",
+      "created": "2026-05-28T15:47:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101954",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10560",
+      "modified": "2026-07-02T14:03:15+02:00",
+      "name": "Auftragsvergabe von Winterdienstleistungen im Rahmen der Anliegerverpflichtung sowie für Bushaltestellen in 12 Losen",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-07-02T14:03:44+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102495",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10560",
+      "modified": "2026-07-02T14:03:44+02:00",
+      "name": "Verschiedenes",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2025-10-10T13:13:25+02:00",
+  "end": "2026-07-17T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10560",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679520.pdf",
+    "created": "2026-07-02T14:05:52+02:00",
+    "date": "2026-07-02",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679520.pdf",
+    "fileName": "00679520.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679520",
+    "mimeType": "application/pdf",
+    "modified": "2026-07-03T09:26:47+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2022-12-29T15:24:53+01:00",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/rm/67922",
+    "locality": "",
+    "modified": "2023-08-21T13:57:08+02:00",
+    "postalCode": "",
+    "room": "Großer Sitzungssaal",
+    "streetAddress": "",
+    "subLocality": "",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-07-03T09:26:47+02:00",
+  "name": "Eigenbetrieb Abfallwirtschaft und Stadtreinigung (öffentlich/nichtöffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54889"
+  ],
+  "start": "2026-07-17T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

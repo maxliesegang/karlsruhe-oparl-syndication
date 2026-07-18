@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672511.pdf",
+      "created": "2025-11-24T14:33:26+01:00",
+      "date": "2025-11-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672511.pdf",
+      "fileName": "00672511.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672511",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-26T10:14:21+01:00",
+      "name": "Antrag AfD_026",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675010.pdf",
+      "created": "2025-12-08T15:47:22+01:00",
+      "date": "2025-12-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675010.pdf",
+      "fileName": "00675010.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675010",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-26T10:14:21+01:00",
+      "name": "8002 Stellungnahme DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676003.pdf",
+      "created": "2026-01-26T10:14:16+01:00",
+      "date": "2026-01-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676003.pdf",
+      "fileName": "00676003.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676003",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-26T10:14:21+01:00",
+      "name": "Abstimmungsergebnis TOP  328",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99581",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:29+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35495",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-17T15:30:43+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52855",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-24T14:29:50+01:00",
+  "date": "2025-11-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52855",
+  "modified": "2026-01-26T10:14:21+01:00",
+  "name": "EnergieForum",
+  "paperType": "Haushalt THH 8000",
+  "reference": "DHH/2025/8002",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619880.pdf",
+      "created": "2020-10-02T08:00:29+02:00",
+      "date": "2020-10-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619880.pdf",
+      "fileName": "00619880.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619880",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620600.pdf",
+      "created": "2020-11-04T11:34:09+01:00",
+      "date": "2020-11-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620600.pdf",
+      "fileName": "00620600.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620600",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN FDP Abruf von Fördermitteln zur Digitalisierung der Schulen in Karlsruhe",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54980",
+      "authoritative": true,
+      "created": "2020-10-21T09:05:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20109",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5672",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40340",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-10-02T08:00:07+02:00",
+  "date": "2020-10-02",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40340",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Abruf von Fördermitteln zur Digitalisierung der Schulen in Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2020/1129",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00599628.pdf",
+      "created": "2017-10-06T12:07:54+02:00",
+      "date": "2017-10-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00599628.pdf",
+      "fileName": "00599628.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/599628",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Humboldt-Gymnasium",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00599884.pdf",
+      "created": "2017-10-20T08:19:31+02:00",
+      "date": "2017-10-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00599884.pdf",
+      "fileName": "00599884.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/599884",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00602806.pdf",
+      "created": "2018-04-24T14:28:35+02:00",
+      "date": "2018-04-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00602806.pdf",
+      "fileName": "00602806.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/602806",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41282",
+      "authoritative": true,
+      "created": "2017-09-28T09:35:10+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14650",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4646",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35818",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-09-19T09:01:54+02:00",
+  "date": "2017-09-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35818",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Humboldt-Gymnasium: Verlängerung des Schulversuchs G9 um fünf weitere Schuljahre",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0589",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

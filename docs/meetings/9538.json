@@ -1,0 +1,98 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31210",
+      "created": "2023-12-14T14:15:36+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83838",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9538",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Planungswerkstatt Stadteingang Ost/Südseite der Durlacher Allee",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "verwiesen in den Gemeinderat",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31255",
+      "created": "2024-01-02T10:27:26+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83958",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9538",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Bahnübergangsbeseitigung am Brunnenstückweg erforderlich?",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "erledigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31046",
+      "created": "2023-11-29T11:43:35+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83643",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9538",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Konzeptbeschluss: IQ-Leitprojekt Sanierung Innenstadt Ost - Umbau Kapellenstraße",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "mehrheitlich beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30998",
+      "created": "2023-11-14T09:25:40+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83387",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9538",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Konzeptbeschluss Verkehrsversuch Fahrradstraße Rechts der Alb",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "result": "mehrheitlich beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31203",
+      "created": "2023-12-13T15:30:01+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83831",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9538",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Bebauungsplan \"Grünordnung und Klimaanpassung in der Innenstadt\", Karlsruhe Innenstadt-West und Innenstadt-Ost",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "result": "vorberaten ohne Änderungen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2023-09-06T14:23:59+02:00",
+  "end": "2024-02-08T18:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9538",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655530.pdf",
+    "created": "2024-01-24T14:15:52+01:00",
+    "date": "2024-01-24",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655530.pdf",
+    "fileName": "00655530.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655530",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2023-09-06T14:23:59+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9538",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Planungsausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+  ],
+  "start": "2024-02-08T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

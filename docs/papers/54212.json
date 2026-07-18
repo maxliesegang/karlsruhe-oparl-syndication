@@ -1,0 +1,57 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676324.pdf",
+      "created": "2026-02-03T08:22:29+01:00",
+      "date": "2026-02-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676324.pdf",
+      "fileName": "00676324.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676324",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-09T08:27:23+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100239",
+      "authoritative": true,
+      "created": "2026-01-28T17:40:18+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36932",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10487",
+      "modified": "2026-03-12T11:52:18+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54212",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100419",
+      "created": "2026-02-09T07:40:01+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36934",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10435",
+      "modified": "2026-03-24T13:23:39+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54212",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-01-28T17:35:25+01:00",
+  "date": "2026-01-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54212",
+  "modified": "2026-03-09T16:54:36+01:00",
+  "name": "Auslaufen der Horte an Standorten von gesetzlichen Ganztagsgrundschulen bis zum Schuljahr 2029/30",
+  "paperType": "Informationsvorlage",
+  "reference": "2026/0077",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

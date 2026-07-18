@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677754.pdf",
+      "created": "2026-04-21T12:37:43+02:00",
+      "date": "2026-04-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677754.pdf",
+      "fileName": "00677754.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677754",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-28T13:31:57+02:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677892.pdf",
+      "created": "2026-04-24T16:41:26+02:00",
+      "date": "2026-04-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677892.pdf",
+      "fileName": "00677892.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677892",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-28T13:31:57+02:00",
+      "name": "Stellungnahme zum Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101378",
+      "authoritative": true,
+      "created": "2026-04-21T13:11:31+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37268",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10512",
+      "modified": "2026-04-28T18:45:55+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54460",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-04-21T12:33:32+02:00",
+  "date": "2026-04-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54460",
+  "modified": "2026-04-29T16:48:02+02:00",
+  "name": "Zurückstellung Verkauf Bismarkstraße 24 (Haus Solms)",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2026/0247/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54403"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

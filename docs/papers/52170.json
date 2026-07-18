@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668886.pdf",
+      "created": "2025-07-18T07:05:01+02:00",
+      "date": "2025-07-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668886.pdf",
+      "fileName": "00668886.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668886",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:30:30+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669373.pdf",
+      "created": "2025-08-12T09:28:55+02:00",
+      "date": "2025-08-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669373.pdf",
+      "fileName": "00669373.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669373",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:30:30+02:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670976.pdf",
+      "created": "2025-10-17T10:30:27+02:00",
+      "date": "2025-10-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670976.pdf",
+      "fileName": "00670976.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670976",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:30:30+02:00",
+      "name": "Protokoll GR 30.09.2025 TOP 34",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95974",
+      "authoritative": true,
+      "created": "2025-08-29T08:53:33+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34581",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10052",
+      "modified": "2025-09-30T18:48:18+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52170",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-07-18T07:04:06+02:00",
+  "date": "2025-07-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52170",
+  "modified": "2025-10-17T10:30:30+02:00",
+  "name": "Kosten-Nutzen-Analyse der Maßnahmen im Karlsruher Hitzeaktionsplan (HAP)",
+  "paperType": "Anfrage",
+  "reference": "2025/0693",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882975"
+  ]
+}

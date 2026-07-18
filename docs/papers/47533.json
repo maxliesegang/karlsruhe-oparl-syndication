@@ -1,0 +1,94 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00641045.pdf",
+      "created": "2022-09-28T11:35:33+02:00",
+      "date": "2022-09-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00641045.pdf",
+      "fileName": "00641045.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/641045",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642732.pdf",
+      "created": "2022-11-17T13:10:35+01:00",
+      "date": "2022-11-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642732.pdf",
+      "fileName": "00642732.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642732",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 35",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643209.pdf",
+      "created": "2022-12-06T16:09:14+01:00",
+      "date": "2022-12-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643209.pdf",
+      "fileName": "00643209.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643209",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644029.pdf",
+      "created": "2023-01-13T09:20:44+01:00",
+      "date": "2023-01-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644029.pdf",
+      "fileName": "00644029.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644029",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 37",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72889",
+      "authoritative": true,
+      "created": "2022-09-28T13:01:51+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28203",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6603",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47533",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/74224",
+      "authoritative": true,
+      "created": "2022-11-22T11:18:04+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28472",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6608",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47533",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-09-28T11:35:06+02:00",
+  "date": "2022-09-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47533",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Fortführung der alltagsintegrierten Sprachförderung in Kitas",
+  "paperType": "Antrag",
+  "reference": "2022/1080",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

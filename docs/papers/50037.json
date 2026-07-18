@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656105.pdf",
+      "created": "2024-02-19T15:00:25+01:00",
+      "date": "2024-02-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656105.pdf",
+      "fileName": "00656105.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656105",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656116.pdf",
+      "created": "2024-02-19T17:16:15+01:00",
+      "date": "2024-02-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656116.pdf",
+      "fileName": "00656116.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656116",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656690.pdf",
+      "created": "2024-03-13T10:52:03+01:00",
+      "date": "2024-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656690.pdf",
+      "fileName": "00656690.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656690",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 20.02.2024 TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84868",
+      "authoritative": true,
+      "created": "2024-02-19T15:19:05+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31530",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9523",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50037",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-02-19T14:57:13+01:00",
+  "date": "2024-02-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50037",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Zwischenbericht Werderplatz",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2024/0170",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882965"
+  ]
+}

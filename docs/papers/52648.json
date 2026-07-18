@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671990.pdf",
+      "created": "2025-11-18T11:14:38+01:00",
+      "date": "2025-11-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671990.pdf",
+      "fileName": "00671990.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671990",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-19T07:41:07+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675433.pdf",
+      "created": "2025-12-19T07:41:03+01:00",
+      "date": "2025-12-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675433.pdf",
+      "fileName": "00675433.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675433",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-19T07:41:07+01:00",
+      "name": "Abstimmungsergebnis Ö46",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99250",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:27+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35273",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-16T17:03:45+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52648",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-18T11:13:49+01:00",
+  "date": "2025-11-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52648",
+  "modified": "2025-12-19T07:41:07+01:00",
+  "name": "HHS4_GR16 - Erhöhung der Verwaltungsgebühren (untere Umweltverwaltungsbehörde und im Justiziariat)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1113",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

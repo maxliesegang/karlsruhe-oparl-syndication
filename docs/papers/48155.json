@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644667.pdf",
+      "created": "2023-02-06T11:30:36+01:00",
+      "date": "2023-02-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644667.pdf",
+      "fileName": "00644667.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644667",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 11 Bauvoranfrage Mühlstraße 8 ohne Pläne",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00645670.pdf",
+      "created": "2023-03-09T12:18:41+01:00",
+      "date": "2023-03-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00645670.pdf",
+      "fileName": "00645670.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/645670",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Niederschrift TOP 11",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75764",
+      "authoritative": true,
+      "created": "2023-02-06T11:35:19+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29054",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/8917",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48155",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-02-06T11:29:27+01:00",
+  "date": "2023-02-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48155",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bauvoranfrage Mühlstraße 8",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0139",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

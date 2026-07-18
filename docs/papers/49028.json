@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649778.pdf",
+      "created": "2023-08-15T12:59:45+02:00",
+      "date": "2023-08-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649778.pdf",
+      "fileName": "00649778.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649778",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00652924.pdf",
+      "created": "2023-10-27T10:56:31+02:00",
+      "date": "2023-10-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00652924.pdf",
+      "fileName": "00652924.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/652924",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 3 HA_17.10.2023",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/80275",
+      "authoritative": true,
+      "created": "2023-09-15T13:12:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30275",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9065",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49028",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-08-15T12:53:05+02:00",
+  "date": "2023-08-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49028",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Beitritt als ordentliches Mitglied zum Institut der Rechnungsprüfer und Rechnungsprüferinnen in Deutschland e.V. (IDR)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0925",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882955"
+  ]
+}

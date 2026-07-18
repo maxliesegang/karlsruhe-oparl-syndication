@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00630907.pdf",
+      "created": "2021-10-26T10:26:21+02:00",
+      "date": "2021-10-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00630907.pdf",
+      "fileName": "00630907.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/630907",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00633340.pdf",
+      "created": "2021-11-16T09:29:43+01:00",
+      "date": "2021-11-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00633340.pdf",
+      "fileName": "00633340.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/633340",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN Laufende Kosten Kombilösung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634745.pdf",
+      "created": "2021-12-16T08:01:35+01:00",
+      "date": "2021-12-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634745.pdf",
+      "fileName": "00634745.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634745",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/63353",
+      "authoritative": true,
+      "created": "2021-10-27T08:22:27+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/24265",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6324",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/43987",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-10-26T10:21:56+02:00",
+  "date": "2021-10-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/43987",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Laufende Kosten der Kombilösung",
+  "paperType": "Anfrage",
+  "reference": "2021/1281",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

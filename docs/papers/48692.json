@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648099.pdf",
+      "created": "2023-06-14T11:37:57+02:00",
+      "date": "2023-06-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648099.pdf",
+      "fileName": "00648099.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648099",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648164.pdf",
+      "created": "2023-06-15T18:50:49+02:00",
+      "date": "2023-06-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648164.pdf",
+      "fileName": "00648164.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648164",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648601.pdf",
+      "created": "2023-06-29T15:48:44+02:00",
+      "date": "2023-06-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648601.pdf",
+      "fileName": "00648601.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648601",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 2 Präsentation EEA Audit",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78027",
+      "created": "2023-05-26T12:07:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29754",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9131",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48692",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-05-26T11:02:58+02:00",
+  "date": "2023-05-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48692",
+  "modified": "2026-03-18T09:55:52+01:00",
+  "name": "Audit European Energy Award",
+  "paperType": "Informationsvorlage",
+  "reference": "2023/0613",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882975"
+  ]
+}

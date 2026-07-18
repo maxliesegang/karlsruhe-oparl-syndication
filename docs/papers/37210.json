@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608800.pdf",
+      "created": "2019-04-01T13:45:32+02:00",
+      "date": "2019-04-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608800.pdf",
+      "fileName": "00608800.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608800",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609560.pdf",
+      "created": "2019-05-03T12:28:40+02:00",
+      "date": "2019-05-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609560.pdf",
+      "fileName": "00609560.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609560",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 63",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609956.pdf",
+      "created": "2019-05-29T13:48:35+02:00",
+      "date": "2019-05-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609956.pdf",
+      "fileName": "00609956.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609956",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Gemeinderat",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45650",
+      "created": "2019-04-16T12:55:05+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16392",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5323",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37210",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-04-01T13:44:54+02:00",
+  "date": "2019-04-01",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37210",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Ausstellen von Eingangsbestätigungen beim Jobcenter Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2019/0300",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

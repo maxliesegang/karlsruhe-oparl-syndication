@@ -1,0 +1,82 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675583.pdf",
+      "created": "2025-12-23T07:28:14+01:00",
+      "date": "2025-12-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675583.pdf",
+      "fileName": "00675583.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675583",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-06T09:39:21+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675693.pdf",
+      "created": "2026-01-13T08:22:55+01:00",
+      "date": "2026-01-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675693.pdf",
+      "fileName": "00675693.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675693",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-06T09:39:21+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676733.pdf",
+      "created": "2026-02-20T09:53:28+01:00",
+      "date": "2026-02-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676733.pdf",
+      "fileName": "00676733.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676733",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-06T09:39:21+01:00",
+      "name": "Protokoll GR 27.01.2026 TOP 16",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100061",
+      "authoritative": true,
+      "created": "2026-01-13T15:02:38+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36798",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10468",
+      "modified": "2026-01-27T18:45:33+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54119",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100240",
+      "authoritative": true,
+      "created": "2026-01-28T17:40:18+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36800",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10487",
+      "modified": "2026-03-12T11:53:41+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54119",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-12-23T07:27:33+01:00",
+  "date": "2025-12-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54119",
+  "modified": "2026-03-09T14:28:12+01:00",
+  "name": "SchulZukunft: Bündnis für moderne Schulinfrastruktur",
+  "paperType": "Antrag",
+  "reference": "2025/1272",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

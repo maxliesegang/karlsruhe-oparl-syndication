@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609041.pdf",
+      "created": "2019-04-15T14:58:31+02:00",
+      "date": "2019-04-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609041.pdf",
+      "fileName": "00609041.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609041",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609516.pdf",
+      "created": "2019-05-03T10:26:31+02:00",
+      "date": "2019-05-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609516.pdf",
+      "fileName": "00609516.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609516",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 71",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609964.pdf",
+      "created": "2019-05-29T14:04:31+02:00",
+      "date": "2019-05-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609964.pdf",
+      "fileName": "00609964.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609964",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Gemeinderat",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45656",
+      "created": "2019-04-16T12:55:05+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16521",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5323",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37300",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-04-15T14:57:07+02:00",
+  "date": "2019-04-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37300",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Fachkräftemangel und Stellenbesetzungen bei den Kitas in Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2019/0395",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

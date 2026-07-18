@@ -1,0 +1,79 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37348",
+      "created": "2026-06-02T13:33:46+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101991",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10769",
+      "modified": "2026-06-02T13:33:46+02:00",
+      "name": "Freiflächenphotovoltaikanlage Rippertfeld",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37312",
+      "created": "2026-06-02T13:33:46+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101992",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10769",
+      "modified": "2026-06-02T13:33:46+02:00",
+      "name": "Stationäre Jugendverkehrsschule für die Höhenstadtteile",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-06-03T14:04:41+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102001",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10769",
+      "modified": "2026-06-03T14:04:41+02:00",
+      "name": "Mitteilungen der Ortsverwaltung",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-06-03T14:05:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102002",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10769",
+      "modified": "2026-06-03T14:05:00+02:00",
+      "name": "Anregungen aus dem Ortschaftsrat",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2025-11-27T16:32:20+01:00",
+  "end": "2026-06-17T00:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10769",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678846.pdf",
+    "created": "2026-06-03T14:12:37+02:00",
+    "date": "2026-06-03",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678846.pdf",
+    "fileName": "00678846.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678846",
+    "mimeType": "application/pdf",
+    "modified": "2026-06-09T14:06:09+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2025-11-27T16:32:20+01:00",
+    "description": "Bürgersaal im Rathaus Hohenwettersbach",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10769",
+    "modified": "2026-06-09T14:06:09+02:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-06-09T14:06:09+02:00",
+  "name": "Ortschaftsrat Hohenwettersbach (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34322"
+  ],
+  "start": "2026-06-17T19:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

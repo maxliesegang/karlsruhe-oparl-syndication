@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00599977.pdf",
+      "created": "2017-11-03T08:51:29+01:00",
+      "date": "2017-11-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00599977.pdf",
+      "fileName": "00599977.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/599977",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschaffung IT-Systeme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600605.pdf",
+      "created": "2017-12-08T10:33:35+01:00",
+      "date": "2017-12-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600605.pdf",
+      "fileName": "00600605.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600605",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41511",
+      "authoritative": true,
+      "created": "2017-11-06T10:01:16+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14701",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4668",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35861",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-10-16T13:47:00+02:00",
+  "date": "2017-10-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35861",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Beschaffung von IT-Systemen inklusive Dienstleistungen und Garantieerweiterung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0636",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883004"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37125",
+      "created": "2026-03-17T13:36:22+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100846",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10502",
+      "modified": "2026-04-15T07:29:12+02:00",
+      "name": "Rahmenvereinbarungen über die Lieferung von Hygienebedarfen für Toiletten und Waschräume",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37001",
+      "created": "2026-03-17T08:09:48+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100833",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10502",
+      "modified": "2026-04-15T07:29:22+02:00",
+      "name": "Änderung des Gesellschaftsvertrages der Karlsruher Messe- und Kongress GmbH",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37056",
+      "created": "2026-03-17T08:09:48+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100834",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10502",
+      "modified": "2026-04-15T07:29:37+02:00",
+      "name": "Annahme des Angebots von Zuwendungen",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2025-10-10T11:06:34+02:00",
+  "end": "2026-04-14T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10502",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677443.pdf",
+    "created": "2026-04-01T16:55:17+02:00",
+    "date": "2026-04-02",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677443.pdf",
+    "fileName": "00677443.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677443",
+    "mimeType": "application/pdf",
+    "modified": "2026-04-14T15:23:29+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2022-12-12T11:11:26+01:00",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/rm/67907",
+    "locality": "",
+    "modified": "2025-08-05T10:18:13+02:00",
+    "postalCode": "",
+    "room": "Bürgersaal",
+    "streetAddress": "",
+    "subLocality": "",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-04-23T10:31:47+02:00",
+  "name": "Haupt- und Finanzausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+  ],
+  "resultsProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677661.pdf",
+    "created": "2026-04-15T07:31:28+02:00",
+    "date": "2026-04-15",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677661.pdf",
+    "fileName": "00677661.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677661",
+    "mimeType": "application/pdf",
+    "modified": "2026-04-23T10:31:47+02:00",
+    "name": "Anwesenheit (Protokoll)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "start": "2026-04-14T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

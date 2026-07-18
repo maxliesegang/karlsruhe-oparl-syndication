@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644172.pdf",
+      "created": "2023-01-20T10:25:37+01:00",
+      "date": "2023-01-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644172.pdf",
+      "fileName": "00644172.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644172",
+      "mimeType": "application/pdf",
+      "modified": "2025-09-30T12:30:32+02:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644174.pdf",
+      "created": "2023-01-20T10:25:58+01:00",
+      "date": "2023-01-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644174.pdf",
+      "fileName": "00644174.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644174",
+      "mimeType": "application/pdf",
+      "modified": "2025-09-30T12:30:32+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75377",
+      "created": "2023-01-20T15:22:24+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28944",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9313",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48063",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-01-20T10:22:08+01:00",
+  "date": "2023-01-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48063",
+  "modified": "2025-09-30T12:30:32+02:00",
+  "name": "Möglichkeiten der Umgestaltung in der Steinkreuzstr. zwischen Katzenberg- und Ringstr.",
+  "paperType": "Antrag",
+  "reference": "2023/0062",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+  ]
+}

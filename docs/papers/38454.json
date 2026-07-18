@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615130.pdf",
+      "created": "2020-02-26T08:20:49+01:00",
+      "date": "2020-02-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615130.pdf",
+      "fileName": "00615130.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615130",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615534.pdf",
+      "created": "2020-03-13T08:15:28+01:00",
+      "date": "2020-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615534.pdf",
+      "fileName": "00615534.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615534",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 54",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00616874.pdf",
+      "created": "2020-03-30T10:06:54+02:00",
+      "date": "2020-03-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00616874.pdf",
+      "fileName": "00616874.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/616874",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 54",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/50059",
+      "created": "2020-02-26T08:44:28+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17957",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5663",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38454",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-02-26T08:20:07+01:00",
+  "date": "2020-02-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38454",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Spielplatz zwischen Heinrich-Heine-Ring und Herrenalber Straße ertüchtigen",
+  "paperType": "Anfrage",
+  "reference": "2020/0241",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

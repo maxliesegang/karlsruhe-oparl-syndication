@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669092.pdf",
+      "created": "2025-07-29T08:32:15+02:00",
+      "date": "2025-07-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669092.pdf",
+      "fileName": "00669092.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669092",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-27T12:23:41+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671328.pdf",
+      "created": "2025-10-27T12:23:28+01:00",
+      "date": "2025-10-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671328.pdf",
+      "fileName": "00671328.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671328",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-27T12:23:41+01:00",
+      "name": "Protokoll HFA 14.10.2025 TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96275",
+      "authoritative": true,
+      "created": "2025-09-19T11:57:09+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34627",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10041",
+      "modified": "2025-10-15T08:35:18+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52208",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-07-28T08:30:33+02:00",
+  "date": "2025-07-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52208",
+  "modified": "2025-10-27T12:23:41+01:00",
+  "name": "Ausschreibung von Wartungsarbeiten, Rufbereitschaft und Kundendienst für die Gewerke Heizung, Lüftung und Wasseraufbereitung im Gebäudekomplex ZKM, Lorenzstraße 9-27 in 76135 Karlsruhe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0727",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676578.pdf",
+      "created": "2026-02-13T09:39:52+01:00",
+      "date": "2026-02-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676578.pdf",
+      "fileName": "00676578.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676578",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-11T07:39:38+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100530",
+      "authoritative": true,
+      "created": "2026-02-19T12:53:57+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36965",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10492",
+      "modified": "2026-03-19T16:57:35+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54238",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101783",
+      "created": "2026-05-19T10:36:36+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37033",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10541",
+      "modified": "2026-06-25T11:47:09+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54238",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-02-04T14:53:09+01:00",
+  "date": "2026-02-04",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54238",
+  "modified": "2026-03-11T07:39:38+01:00",
+  "name": "Karlsruher Startchancen-Strategie (Säule III)",
+  "paperType": "Informationsvorlage",
+  "reference": "2026/0103",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

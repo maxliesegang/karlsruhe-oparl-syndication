@@ -1,0 +1,54 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609265.pdf",
+      "created": "2019-04-25T15:42:58+02:00",
+      "date": "2019-04-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609265.pdf",
+      "fileName": "00609265.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609265",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "ORS-Antrag_SPD_Sanierung_Rathausstraße",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2019-04-25T15:42:03+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16561",
+      "modified": "2019-04-25T15:42:03+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37332",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45750",
+      "created": "2019-04-25T15:41:37+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16560",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5541",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37332",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-04-25T15:41:30+02:00",
+  "date": "2022-03-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37332",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Sanierung der Rathausstraße im Zuge des behindertengerechten Umbaus des Rathauses Wolfartsweier - Antrag der SPD-Ortschaftsratsfraktion",
+  "paperType": "Antrag",
+  "reference": "2019/0427",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+  ]
+}

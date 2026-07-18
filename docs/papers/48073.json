@@ -1,0 +1,105 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644280.pdf",
+      "created": "2023-01-24T10:31:08+01:00",
+      "date": "2023-01-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644280.pdf",
+      "fileName": "00644280.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644280",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644281.pdf",
+      "created": "2023-01-24T10:31:34+01:00",
+      "date": "2023-01-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644281.pdf",
+      "fileName": "00644281.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644281",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644282.pdf",
+      "created": "2023-01-24T10:32:39+01:00",
+      "date": "2023-01-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644282.pdf",
+      "fileName": "00644282.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644282",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646139.pdf",
+      "created": "2023-03-29T10:28:11+02:00",
+      "date": "2023-03-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646139.pdf",
+      "fileName": "00646139.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646139",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP7",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646536.pdf",
+      "created": "2023-04-13T12:42:50+02:00",
+      "date": "2023-04-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646536.pdf",
+      "fileName": "00646536.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646536",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75635",
+      "created": "2023-02-01T16:09:53+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28959",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9094",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48073",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/76128",
+      "authoritative": true,
+      "created": "2023-02-28T14:44:22+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28960",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9043",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48073",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-01-24T10:15:52+01:00",
+  "date": "2023-01-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48073",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Öffentlich-rechtliche Vereinbarung über den Bau und Betrieb der Erich Kästner-Schule",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0072",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

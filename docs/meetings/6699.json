@@ -1,0 +1,80 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26782",
+      "created": "2022-02-02T09:10:11+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/67791",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6699",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Corona - Auswirkungen auf die Kultur in Karlsruhe",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26783",
+      "created": "2022-02-02T09:10:11+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/67793",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6699",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Vollversammlung des Ökumenischen Rats der Kirchen in Karlsruhe: Begegnungs- und Kulturprogramm",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26784",
+      "created": "2022-02-02T09:10:11+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/67792",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6699",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Karlsruhe als UNESCO Creative City of Media Arts: Planungen und Perspektiven",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2022-02-02T09:10:11+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/67794",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6699",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verschiedenes",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2021-10-04T09:16:37+02:00",
+  "end": "2022-03-17T18:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6699",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636223.pdf",
+    "created": "2022-03-03T11:38:54+01:00",
+    "date": "2022-03-03",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636223.pdf",
+    "fileName": "00636223.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636223",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2021-10-04T09:16:37+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6699",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Kulturausschuss (öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/29599"
+  ],
+  "start": "2022-03-17T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

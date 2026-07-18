@@ -1,0 +1,70 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615112.pdf",
+      "created": "2020-02-21T10:18:39+01:00",
+      "date": "2020-02-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615112.pdf",
+      "fileName": "00615112.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615112",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617998.pdf",
+      "created": "2020-06-10T10:21:10+02:00",
+      "date": "2020-06-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617998.pdf",
+      "fileName": "00617998.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617998",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme FW-FÜR Ticketfreier ÖPNV",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/49962",
+      "authoritative": true,
+      "created": "2020-02-21T10:33:56+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17940",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5404",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38444",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/52697",
+      "authoritative": true,
+      "created": "2020-06-03T09:17:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17942",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5666",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38444",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-02-21T10:15:26+01:00",
+  "date": "2020-02-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38444",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Ticketfreier ÖPNV für Schülerinnen und Schüler",
+  "paperType": "Antrag",
+  "reference": "2019/1034",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

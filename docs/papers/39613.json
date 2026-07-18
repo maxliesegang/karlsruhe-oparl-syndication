@@ -1,0 +1,70 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00616965.pdf",
+      "created": "2020-03-31T14:15:50+02:00",
+      "date": "2020-03-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00616965.pdf",
+      "fileName": "00616965.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/616965",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617201.pdf",
+      "created": "2020-04-17T11:34:30+02:00",
+      "date": "2020-04-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617201.pdf",
+      "fileName": "00617201.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617201",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP Rehkitze",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/51586",
+      "authoritative": true,
+      "created": "2020-03-31T15:24:50+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19131",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5664",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39613",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/52250",
+      "authoritative": true,
+      "created": "2020-05-08T14:05:48+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19131",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5665",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39613",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-03-31T14:15:26+02:00",
+  "date": "2020-03-31",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39613",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Rehkitze retten: Wildtierschutz bei der Grünlandmahd in Karlsruhe",
+  "paperType": "Antrag",
+  "reference": "2020/0405",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

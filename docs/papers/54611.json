@@ -1,0 +1,104 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679133.pdf",
+      "created": "2026-06-17T09:08:53+02:00",
+      "date": "2026-06-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679133.pdf",
+      "fileName": "00679133.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679133",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-29T14:44:16+02:00",
+      "name": "Anlage_1_Strassenalter",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679134.pdf",
+      "created": "2026-06-17T09:09:01+02:00",
+      "date": "2026-06-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679134.pdf",
+      "fileName": "00679134.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679134",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-29T14:44:16+02:00",
+      "name": "Anlage_2_Strassenzustand",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679135.pdf",
+      "created": "2026-06-17T09:09:15+02:00",
+      "date": "2026-06-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679135.pdf",
+      "fileName": "00679135.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679135",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-29T14:44:16+02:00",
+      "name": "Anlage 3_Entwicklung_der_Strassensubstanz",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679232.pdf",
+      "created": "2026-06-19T14:39:22+02:00",
+      "date": "2026-06-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679232.pdf",
+      "fileName": "00679232.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679232",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-29T14:44:16+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2026-07-15T07:50:34+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37689",
+      "modified": "2026-07-15T07:50:53+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54611",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101995",
+      "created": "2026-06-03T11:30:06+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37501",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10554",
+      "modified": "2026-07-02T20:52:34+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54611",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102401",
+      "authoritative": true,
+      "created": "2026-06-25T09:52:20+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37624",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10557",
+      "modified": "2026-07-15T07:36:08+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54611",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-05-27T13:57:34+02:00",
+  "date": "2026-05-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54611",
+  "modified": "2026-06-29T15:11:40+02:00",
+  "name": "Fachstrategie Straßen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0444",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

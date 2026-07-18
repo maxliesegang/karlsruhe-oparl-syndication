@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00616880.pdf",
+      "created": "2020-03-31T08:17:46+02:00",
+      "date": "2020-03-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00616880.pdf",
+      "fileName": "00616880.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/616880",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617223.pdf",
+      "created": "2020-04-17T12:28:21+02:00",
+      "date": "2020-04-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617223.pdf",
+      "fileName": "00617223.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617223",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 8.11",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635232.pdf",
+      "created": "2022-01-13T12:28:24+01:00",
+      "date": "2022-01-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635232.pdf",
+      "fileName": "00635232.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635232",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/51700",
+      "authoritative": true,
+      "created": "2020-04-14T13:36:35+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19123",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5664",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39597",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-03-31T08:16:42+02:00",
+  "date": "2020-03-31",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39597",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Umgang mit Corona-Erkrankungen in der Landeserstaufnahmestelle (LEA) an der Durlacher Allee und an den anderen (auch künftigen) Karlsruher Standorten",
+  "paperType": "Anfrage",
+  "reference": "2020/0389",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

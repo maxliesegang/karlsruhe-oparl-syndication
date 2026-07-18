@@ -1,0 +1,97 @@
+{
+  "agendaItem": [
+    {
+      "created": "2024-04-30T18:09:56+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86251",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9545",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Amt für Hochbau und Gebäudewirtschaft",
+      "number": "",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31865",
+      "created": "2024-04-30T18:09:56+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86254",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9545",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Stadthalle Modernisierung, Vergabe von Beschallungstechnik",
+      "number": "1",
+      "order": 2,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31926",
+      "created": "2024-04-30T18:09:56+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86255",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9545",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Stadthalle Modernisierung, Vergabe von Natursteinarbeiten Foyer",
+      "number": "2",
+      "order": 3,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32034",
+      "created": "2024-05-06T11:43:31+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86378",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9545",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Nachhaltige Modernisierung städtischer Gebäude – Strategie der Teilmaßnahmen",
+      "number": "3",
+      "order": 4,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666535.pdf",
+      "created": "2025-04-17T16:39:57+02:00",
+      "date": "2025-04-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666535.pdf",
+      "fileName": "00666535.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666535",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-17T16:39:57+02:00",
+      "name": "Protokoll öff",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2023-09-06T14:28:57+02:00",
+  "end": "2024-06-06T16:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9545",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658240.pdf",
+    "created": "2024-05-06T17:48:55+02:00",
+    "date": "2024-05-06",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658240.pdf",
+    "fileName": "00658240.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658240",
+    "mimeType": "application/pdf",
+    "modified": "2025-04-17T16:39:38+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2023-09-06T14:28:57+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9545",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Bauausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+  ],
+  "start": "2024-06-06T16:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

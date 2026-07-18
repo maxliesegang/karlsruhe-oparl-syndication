@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00587222.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2015-06-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00587222.pdf",
+      "fileName": "00587222.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/587222",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "GR Stadthalle",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00587849.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2015-07-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00587849.pdf",
+      "fileName": "00587849.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/587849",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "GR Protokoll TOP 16",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/36743",
+      "authoritative": true,
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/12459",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3841",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/34077",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2015-05-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/34077",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Grundsatzentscheidung: Modernisierung Stadthalle",
+  "paperType": "Beschlussvorlage",
+  "reference": "2015/0285",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

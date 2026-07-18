@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675642.pdf",
+      "created": "2026-01-09T09:22:18+01:00",
+      "date": "2026-01-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675642.pdf",
+      "fileName": "00675642.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675642",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-12T10:51:26+01:00",
+      "name": "TOP_2_Plauderbänke",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675643.pdf",
+      "created": "2026-01-09T09:22:34+01:00",
+      "date": "2026-01-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675643.pdf",
+      "fileName": "00675643.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675643",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-12T10:51:26+01:00",
+      "name": "TOP_2_Anlage_Antrag Plauderbänke",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675644.pdf",
+      "created": "2026-01-09T09:22:50+01:00",
+      "date": "2026-01-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675644.pdf",
+      "fileName": "00675644.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675644",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-12T10:51:26+01:00",
+      "name": "TOP_2_Anlage_Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100008",
+      "created": "2026-01-09T09:23:12+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36812",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10744",
+      "modified": "2026-01-09T09:23:31+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34531"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54130",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-01-09T09:19:28+01:00",
+  "date": "2026-01-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54130",
+  "modified": "2026-01-12T10:51:26+01:00",
+  "name": "Plauderbänke – Standorte in Neureut",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0003",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882960"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615207.pdf",
+      "created": "2020-02-28T13:32:42+01:00",
+      "date": "2020-02-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615207.pdf",
+      "fileName": "00615207.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615207",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617159.pdf",
+      "created": "2020-04-15T09:42:31+02:00",
+      "date": "2020-04-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617159.pdf",
+      "fileName": "00617159.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617159",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/51533",
+      "authoritative": true,
+      "created": "2020-03-30T08:20:13+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17993",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5664",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38485",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/51995",
+      "authoritative": true,
+      "created": "2020-04-30T08:22:07+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17993",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5665",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38485",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-02-28T13:32:19+01:00",
+  "date": "2020-02-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38485",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Kulturelle Nutzung in Gewerbegebieten",
+  "paperType": "Antrag",
+  "reference": "2020/0272",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

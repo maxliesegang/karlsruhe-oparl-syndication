@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664584.pdf",
+      "created": "2025-01-29T16:12:41+01:00",
+      "date": "2025-01-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664584.pdf",
+      "fileName": "00664584.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664584",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-11T13:28:43+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92840",
+      "authoritative": true,
+      "created": "2025-03-11T13:04:08+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33625",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10104",
+      "modified": "2025-03-21T11:18:24+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51519",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-01-29T15:09:05+01:00",
+  "date": "2025-01-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51519",
+  "modified": "2025-03-11T13:28:43+01:00",
+  "name": "AG \"Regionale Schulentwicklung Stadt Karlsruhe\": Zusammensetzung in der Wahlperiode 2024 bis 2029",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/0100",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

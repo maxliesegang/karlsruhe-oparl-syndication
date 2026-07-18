@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677476.pdf",
+      "created": "2026-04-07T10:36:17+02:00",
+      "date": "2026-04-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677476.pdf",
+      "fileName": "00677476.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677476",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-06T14:41:05+02:00",
+      "name": "Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677477.pdf",
+      "created": "2026-04-07T10:37:14+02:00",
+      "date": "2026-04-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677477.pdf",
+      "fileName": "00677477.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677477",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-06T14:41:05+02:00",
+      "name": "Stellungnahme Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101964",
+      "created": "2026-06-01T10:36:27+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37518",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10443",
+      "modified": "2026-07-17T09:54:03+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54424",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-04-07T10:35:39+02:00",
+  "date": "2026-04-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54424",
+  "modified": "2026-07-06T14:41:05+02:00",
+  "name": "Umbenennung des Herbert-Schweizer-Haus Begegnungsstätte Grötzingen (Antrag der Ortschaftsräte Breier, Daubenberger und Galley)",
+  "paperType": "Antrag",
+  "reference": "2026/0267",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

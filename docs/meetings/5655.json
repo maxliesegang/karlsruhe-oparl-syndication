@@ -1,0 +1,71 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19440",
+      "created": "2020-05-25T11:37:48+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/52486",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5655",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Auftragsvergabe Car-Sharing-Dienstleistungen",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19489",
+      "created": "2020-05-29T13:57:27+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/52629",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5655",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "regiomove - Port Bahnhof Hagsfeld",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2019-09-27T09:49:49+02:00",
+  "end": "2020-06-23T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5655",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618075.pdf",
+    "created": "2020-06-12T10:03:14+02:00",
+    "date": "2020-06-12",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618075.pdf",
+    "fileName": "00618075.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618075",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2019-09-27T09:49:49+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5655",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Hauptausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+  ],
+  "resultsProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618968.pdf",
+    "created": "2020-07-23T14:57:23+02:00",
+    "date": "2020-07-23",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618968.pdf",
+    "fileName": "00618968.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618968",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Anwesenheit (Protokoll)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "start": "2020-06-23T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

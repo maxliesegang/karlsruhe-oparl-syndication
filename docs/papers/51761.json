@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666177.pdf",
+      "created": "2025-04-03T15:34:15+02:00",
+      "date": "2025-04-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666177.pdf",
+      "fileName": "00666177.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666177",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-24T15:43:17+02:00",
+      "name": "Anfrage Wolfartsweier",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666178.pdf",
+      "created": "2025-04-03T15:36:30+02:00",
+      "date": "2025-04-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666178.pdf",
+      "fileName": "00666178.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666178",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-24T15:43:17+02:00",
+      "name": "Stellungnahme Anfrage Wolfartsweier",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93144",
+      "created": "2025-04-03T15:38:38+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33982",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10273",
+      "modified": "2025-04-08T12:29:16+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51761",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-04-03T15:33:50+02:00",
+  "date": "2025-04-03",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51761",
+  "modified": "2025-04-24T15:43:17+02:00",
+  "name": "Anfrage zur Temperaturmessung in den Kita-Räumen",
+  "paperType": "Anfrage",
+  "reference": "2025/0324",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614460.pdf",
+      "created": "2020-01-23T08:21:34+01:00",
+      "date": "2020-01-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614460.pdf",
+      "fileName": "00614460.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614460",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614999.pdf",
+      "created": "2020-02-17T12:30:05+01:00",
+      "date": "2020-02-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614999.pdf",
+      "fileName": "00614999.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614999",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 41.1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615473.pdf",
+      "created": "2020-03-12T10:06:15+01:00",
+      "date": "2020-03-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615473.pdf",
+      "fileName": "00615473.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615473",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 41",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/49655",
+      "authoritative": true,
+      "created": "2020-01-29T10:29:23+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17738",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5662",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38296",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-01-22T08:25:27+01:00",
+  "date": "2020-01-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38296",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Papiersammlungen der Vereine",
+  "paperType": "Antrag",
+  "reference": "2020/0083",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

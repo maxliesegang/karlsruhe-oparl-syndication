@@ -1,0 +1,82 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00613191.pdf",
+      "created": "2020-01-07T10:01:51+01:00",
+      "date": "2020-01-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00613191.pdf",
+      "fileName": "00613191.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/613191",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll, GR 19.11.2019",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617830.pdf",
+      "created": "2020-05-28T09:26:12+02:00",
+      "date": "2020-05-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617830.pdf",
+      "fileName": "00617830.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617830",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617831.pdf",
+      "created": "2020-05-28T09:26:21+02:00",
+      "date": "2020-05-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617831.pdf",
+      "fileName": "00617831.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617831",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47426",
+      "authoritative": true,
+      "created": "2019-10-24T08:46:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17273",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5423",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37926",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/52698",
+      "authoritative": true,
+      "created": "2020-06-03T09:17:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17867",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5666",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37926",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-10-23T11:22:25+02:00",
+  "date": "2019-10-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37926",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Nachhaltige Verkehrslösungen für Hagsfeld",
+  "paperType": "Antrag",
+  "reference": "2019/1063",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

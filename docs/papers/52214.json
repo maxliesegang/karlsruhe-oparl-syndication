@@ -1,0 +1,82 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669096.pdf",
+      "created": "2025-07-29T08:43:45+02:00",
+      "date": "2025-07-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669096.pdf",
+      "fileName": "00669096.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669096",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-30T09:00:37+02:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669106.pdf",
+      "created": "2025-07-29T10:15:00+02:00",
+      "date": "2025-07-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669106.pdf",
+      "fileName": "00669106.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669106",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-30T09:00:37+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669148.pdf",
+      "created": "2025-07-30T09:00:35+02:00",
+      "date": "2025-07-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669148.pdf",
+      "fileName": "00669148.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669148",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-30T09:00:37+02:00",
+      "name": "Abstimmungsergebnis TOP 14.2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2025-07-29T08:42:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34636",
+      "modified": "2025-07-29T08:42:30+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52214",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95144",
+      "authoritative": true,
+      "created": "2025-07-29T08:53:50+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34635",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10051",
+      "modified": "2025-07-29T19:15:20+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52214",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-07-29T08:42:30+02:00",
+  "date": "2025-07-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52214",
+  "modified": "2025-09-09T11:50:38+02:00",
+  "name": "Neukonzeption der Schulkindbetreuung zum Schuljahr 2026/27 in Verbindung mit dem Ganztagsförderungsgesetz (GaFöG): Das Schulkind- Bildungs- und Betreuungssystem (SKiBB)",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2025/0392/3",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52204"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

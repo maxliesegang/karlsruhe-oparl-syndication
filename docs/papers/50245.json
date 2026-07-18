@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00657378.pdf",
+      "created": "2024-04-08T16:39:55+02:00",
+      "date": "2024-04-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00657378.pdf",
+      "fileName": "00657378.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/657378",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage Grötzingen ohne Pläne",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/85690",
+      "authoritative": true,
+      "created": "2024-04-04T16:20:27+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31839",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9717",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50245",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-04-04T11:56:02+02:00",
+  "date": "2024-04-04",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50245",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bauantrag Laubplatz 2",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0364",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

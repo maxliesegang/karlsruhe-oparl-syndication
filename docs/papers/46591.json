@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636547.pdf",
+      "created": "2022-03-15T13:41:02+01:00",
+      "date": "2022-03-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636547.pdf",
+      "fileName": "00636547.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636547",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00637283.pdf",
+      "created": "2022-04-25T13:20:17+02:00",
+      "date": "2022-04-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00637283.pdf",
+      "fileName": "00637283.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/637283",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Live-Übertragung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00637985.pdf",
+      "created": "2022-05-23T11:55:45+02:00",
+      "date": "2022-05-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00637985.pdf",
+      "fileName": "00637985.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/637985",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 26.04.2022 TOP 33",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/69289",
+      "authoritative": true,
+      "created": "2022-03-24T09:11:58+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27021",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6588",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46591",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-03-15T13:40:32+01:00",
+  "date": "2022-03-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46591",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Stand der Umsetzung des Antrags \"Demokratie stärken - Live-Übertragung von Gemeinderatssitzungen im Internet\"",
+  "paperType": "Anfrage",
+  "reference": "2022/0300",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882952"
+  ]
+}

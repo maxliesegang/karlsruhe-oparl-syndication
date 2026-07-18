@@ -1,0 +1,110 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00645405.pdf",
+      "created": "2023-03-01T13:54:35+01:00",
+      "date": "2023-03-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00645405.pdf",
+      "fileName": "00645405.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/645405",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646313.pdf",
+      "created": "2023-04-04T14:14:33+02:00",
+      "date": "2023-04-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646313.pdf",
+      "fileName": "00646313.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646313",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647446.pdf",
+      "created": "2023-05-22T11:47:50+02:00",
+      "date": "2023-05-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647446.pdf",
+      "fileName": "00647446.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647446",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649001.pdf",
+      "created": "2023-07-17T13:25:52+02:00",
+      "date": "2023-07-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649001.pdf",
+      "fileName": "00649001.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649001",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/76586",
+      "created": "2023-03-29T11:51:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29390",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9115",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48280",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/76587",
+      "authoritative": true,
+      "created": "2023-03-29T12:09:13+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29217",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9044",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48280",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78074",
+      "authoritative": true,
+      "created": "2023-05-30T16:44:23+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29647",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9046",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48280",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-03-01T13:54:01+01:00",
+  "date": "2023-03-01",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48280",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Kitas in Oberreut",
+  "paperType": "Antrag",
+  "reference": "2023/0243",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48827"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

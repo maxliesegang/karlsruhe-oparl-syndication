@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607729.pdf",
+      "created": "2019-02-05T08:50:46+01:00",
+      "date": "2019-02-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607729.pdf",
+      "fileName": "00607729.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607729",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608409.pdf",
+      "created": "2019-03-15T11:49:36+01:00",
+      "date": "2019-03-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608409.pdf",
+      "fileName": "00608409.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608409",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 42",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609386.pdf",
+      "created": "2019-04-30T07:14:46+02:00",
+      "date": "2019-04-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609386.pdf",
+      "fileName": "00609386.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609386",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 42",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45206",
+      "authoritative": true,
+      "created": "2019-03-07T15:39:15+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16165",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5294",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37016",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-02-05T08:49:39+01:00",
+  "date": "2019-02-05",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37016",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Zahlungsrückstände bei Strom und Gas: Strom- und Gassperren",
+  "paperType": "Anfrage",
+  "reference": "2019/0099",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

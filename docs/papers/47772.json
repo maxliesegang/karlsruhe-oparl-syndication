@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642554.pdf",
+      "created": "2022-11-14T16:24:47+01:00",
+      "date": "2022-11-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642554.pdf",
+      "fileName": "00642554.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642554",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642562.pdf",
+      "created": "2022-11-15T08:27:36+01:00",
+      "date": "2022-11-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642562.pdf",
+      "fileName": "00642562.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642562",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/73997",
+      "authoritative": true,
+      "created": "2022-11-14T16:51:58+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28567",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6605",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47772",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-11-14T16:24:27+01:00",
+  "date": "2022-11-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47772",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Kein Verkauf der Immobilie der Majolika",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2022/1070/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47516"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

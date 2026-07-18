@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642036.pdf",
+      "created": "2022-10-28T11:45:57+02:00",
+      "date": "2022-10-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642036.pdf",
+      "fileName": "00642036.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642036",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642890.pdf",
+      "created": "2022-11-24T13:22:31+01:00",
+      "date": "2022-11-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642890.pdf",
+      "fileName": "00642890.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642890",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme zur Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644035.pdf",
+      "created": "2023-01-13T09:24:26+01:00",
+      "date": "2023-01-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644035.pdf",
+      "fileName": "00644035.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644035",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 43",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/74234",
+      "authoritative": true,
+      "created": "2022-11-22T11:18:04+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28489",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6608",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47716",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-10-28T11:45:37+02:00",
+  "date": "2022-10-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47716",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Potential von Mehrfachnutzungen bei Gebäuden und Flächen",
+  "paperType": "Anfrage",
+  "reference": "2022/2249",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

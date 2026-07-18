@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612557.pdf",
+      "created": "2019-11-22T09:01:04+01:00",
+      "date": "2019-11-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612557.pdf",
+      "fileName": "00612557.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612557",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Bühnentechnik Kammertheater",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00613086.pdf",
+      "created": "2019-12-23T08:12:19+01:00",
+      "date": "2019-12-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00613086.pdf",
+      "fileName": "00613086.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/613086",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47639",
+      "created": "2019-11-06T08:13:58+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17322",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5438",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37965",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-11-04T12:37:55+01:00",
+  "date": "2019-11-04",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37965",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Übertragung Bühnentechnik Kammertheater an die Karlsruher Fächer GmbH",
+  "paperType": "Beschlussvorlage",
+  "reference": "2019/1102",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

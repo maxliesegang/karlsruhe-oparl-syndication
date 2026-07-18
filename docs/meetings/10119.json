@@ -1,0 +1,58 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34908",
+      "created": "2025-10-20T11:44:46+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96908",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10119",
+      "modified": "2025-11-14T10:00:26+01:00",
+      "name": "Neue Hallenverwaltungssoftware",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-10-20T11:44:46+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96907",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10119",
+      "modified": "2025-11-14T10:00:36+01:00",
+      "name": "World Games 2029 in Karlsruhe",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2024-10-17T13:18:03+02:00",
+  "end": "2025-11-05T18:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10119",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671020.pdf",
+    "created": "2025-10-20T11:51:21+02:00",
+    "date": "2025-10-20",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671020.pdf",
+    "fileName": "00671020.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671020",
+    "mimeType": "application/pdf",
+    "modified": "2025-10-29T08:14:41+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2024-10-17T13:18:03+02:00",
+    "description": "Großer Sitzungssaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10119",
+    "modified": "2025-10-29T08:14:41+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-10-29T08:14:41+01:00",
+  "name": "Sportausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33575"
+  ],
+  "start": "2025-11-05T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

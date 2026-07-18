@@ -1,0 +1,91 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611377.pdf",
+      "created": "2019-09-27T14:42:06+02:00",
+      "date": "2019-09-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611377.pdf",
+      "fileName": "00611377.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611377",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Deponie Hamberg",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611378.pdf",
+      "created": "2019-09-27T14:42:32+02:00",
+      "date": "2019-09-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611378.pdf",
+      "fileName": "00611378.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611378",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1 Mineralische Abfälle",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611846.pdf",
+      "created": "2019-10-24T12:17:47+02:00",
+      "date": "2019-10-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611846.pdf",
+      "fileName": "00611846.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611846",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis_Top20",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612674.pdf",
+      "created": "2019-11-27T13:29:26+01:00",
+      "date": "2019-11-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612674.pdf",
+      "fileName": "00612674.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612674",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 20",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2019-09-24T09:14:54+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17123",
+      "modified": "2019-09-24T09:14:54+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37755",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46977",
+      "authoritative": true,
+      "created": "2019-09-25T10:23:50+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17052",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5404",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37755",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-09-11T15:42:30+02:00",
+  "date": "2019-09-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37755",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Mitbenutzung der Deponie Hamberg des Enzkreises: Änderung der Entgelte in der öffentlich-rechtlichen Vereinbarung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2019/0861",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

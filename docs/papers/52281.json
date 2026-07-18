@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675263.pdf",
+      "created": "2025-12-17T09:55:32+01:00",
+      "date": "2025-12-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675263.pdf",
+      "fileName": "00675263.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675263",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-13T08:51:39+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675669.pdf",
+      "created": "2026-01-12T10:18:16+01:00",
+      "date": "2026-01-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675669.pdf",
+      "fileName": "00675669.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675669",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-13T08:51:39+01:00",
+      "name": "Anlage 1 Jahresabschlussbericht TSK 2023",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675670.pdf",
+      "created": "2026-01-12T10:18:29+01:00",
+      "date": "2026-01-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675670.pdf",
+      "fileName": "00675670.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675670",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-13T08:51:39+01:00",
+      "name": "Anlage 2 Prüfungsbericht des Rechnungsprüfungsamtes 2023",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677055.pdf",
+      "created": "2026-03-13T08:51:37+01:00",
+      "date": "2026-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677055.pdf",
+      "fileName": "00677055.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677055",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-13T08:51:39+01:00",
+      "name": "Protokoll GR 24.02.2026 TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100165",
+      "authoritative": true,
+      "created": "2026-01-27T11:08:30+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34729",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10476",
+      "modified": "2026-02-24T17:08:44+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52281",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-08-19T16:29:03+02:00",
+  "date": "2025-08-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52281",
+  "modified": "2026-03-13T08:51:39+01:00",
+  "name": "Feststellung des Jahresabschlusses zum 31.12.2023 des Eigenbetriebs Team Sauberes Karlsruhe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0792",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

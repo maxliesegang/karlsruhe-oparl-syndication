@@ -1,0 +1,69 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618740.pdf",
+      "created": "2020-07-10T07:22:48+02:00",
+      "date": "2020-07-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618740.pdf",
+      "fileName": "00618740.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618740",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Konzept Jugendberufsagentur",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619207.pdf",
+      "created": "2020-08-19T07:35:33+02:00",
+      "date": "2020-08-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619207.pdf",
+      "fileName": "00619207.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619207",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53235",
+      "authoritative": true,
+      "created": "2020-06-23T13:06:58+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19437",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5667",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39818",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53278",
+      "created": "2020-06-25T09:06:26+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19436",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5801",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39818",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-05-19T14:50:47+02:00",
+  "date": "2020-05-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39818",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Konzept Jugendberufsagentur \"Haus der kurzen Wege\" - rechtskreisübergreifend",
+  "paperType": "Beschlussvorlage",
+  "reference": "2020/0610",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

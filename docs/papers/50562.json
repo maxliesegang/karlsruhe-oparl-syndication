@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659027.pdf",
+      "created": "2024-06-13T11:23:43+02:00",
+      "date": "2024-06-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659027.pdf",
+      "fileName": "00659027.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659027",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659567.pdf",
+      "created": "2024-07-12T08:57:21+02:00",
+      "date": "2024-07-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659567.pdf",
+      "fileName": "00659567.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659567",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Ausschuss",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659654.pdf",
+      "created": "2024-07-16T20:16:07+02:00",
+      "date": "2024-07-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659654.pdf",
+      "fileName": "00659654.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659654",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 16",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659988.pdf",
+      "created": "2024-08-05T10:29:51+02:00",
+      "date": "2024-08-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659988.pdf",
+      "fileName": "00659988.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659988",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 16.07.2024 TOP 16",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/87183",
+      "authoritative": true,
+      "created": "2024-06-18T10:30:26+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32283",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9528",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50562",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-06-13T11:17:17+02:00",
+  "date": "2024-06-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50562",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Benennung eines Saals im Kongresszentrum Karlsruhe nach Magdalena Neff",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0649",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

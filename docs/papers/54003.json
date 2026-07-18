@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00673979.pdf",
+      "created": "2025-11-27T09:00:06+01:00",
+      "date": "2025-11-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00673979.pdf",
+      "fileName": "00673979.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/673979",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-13T08:20:47+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675691.pdf",
+      "created": "2026-01-13T08:20:44+01:00",
+      "date": "2026-01-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675691.pdf",
+      "fileName": "00675691.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675691",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-13T08:20:47+01:00",
+      "name": "Protokoll HFA 09.12.2025 TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99605",
+      "authoritative": true,
+      "created": "2025-11-27T09:36:53+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36644",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10043",
+      "modified": "2025-12-10T10:17:40+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54003",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-27T08:53:01+01:00",
+  "date": "2025-11-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54003",
+  "modified": "2026-01-13T08:20:47+01:00",
+  "name": "Kontokorrentkredit vhs Karlsruhe e. V.: Aufstockung und Verlängerung der Laufzeit",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1215",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

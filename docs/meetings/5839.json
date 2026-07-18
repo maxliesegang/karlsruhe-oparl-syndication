@@ -1,0 +1,95 @@
+{
+  "agendaItem": [
+    {
+      "created": "2020-10-19T10:29:37+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54907",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5839",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Tiefbauamt",
+      "number": "",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20163",
+      "created": "2020-10-19T10:29:37+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54912",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5839",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Edeltrudtunnel Südtangente - Erweiterung Betriebsgebäude",
+      "number": "1",
+      "order": 2,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2020-10-19T10:29:37+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54908",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5839",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Amt für Hochbau und Gebäudewirtschaft",
+      "number": "",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20145",
+      "created": "2020-10-19T10:29:37+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54911",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5839",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verschiedene Liegenschaften im Bereich der Stadt Karlsruhe (6 Lose)",
+      "number": "2",
+      "order": 4,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00622808.pdf",
+      "created": "2021-01-15T07:51:26+01:00",
+      "date": "2021-01-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00622808.pdf",
+      "fileName": "00622808.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/622808",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_öffentlich BA 20201105",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2019-10-07T11:47:32+02:00",
+  "end": "2020-11-05T16:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5839",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620256.pdf",
+    "created": "2020-10-19T11:07:40+02:00",
+    "date": "2020-10-19",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620256.pdf",
+    "fileName": "00620256.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620256",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2019-10-07T11:47:32+02:00",
+    "description": "Bürgersaal",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5839",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Bauausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+  ],
+  "start": "2020-11-05T16:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

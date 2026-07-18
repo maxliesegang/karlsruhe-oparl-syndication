@@ -1,0 +1,70 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617285.pdf",
+      "created": "2020-04-22T08:13:37+02:00",
+      "date": "2020-04-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617285.pdf",
+      "fileName": "00617285.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617285",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617790.pdf",
+      "created": "2020-05-25T14:41:50+02:00",
+      "date": "2020-05-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617790.pdf",
+      "fileName": "00617790.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617790",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 47",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/51954",
+      "authoritative": true,
+      "created": "2020-04-29T11:57:54+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19227",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5665",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39666",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/52711",
+      "authoritative": true,
+      "created": "2020-06-03T09:17:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19227",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5666",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39666",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-04-22T08:13:16+02:00",
+  "date": "2020-04-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39666",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Einforderung eines Notfall-Schutzschirms für Kommunen",
+  "paperType": "Antrag",
+  "reference": "2020/0458",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

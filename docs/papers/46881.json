@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638386.pdf",
+      "created": "2022-06-17T08:50:05+02:00",
+      "date": "2022-06-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638386.pdf",
+      "fileName": "00638386.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638386",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638957.pdf",
+      "created": "2022-07-08T12:12:56+02:00",
+      "date": "2022-07-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638957.pdf",
+      "fileName": "00638957.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638957",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 4 HA_21_06_2022",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70303",
+      "authoritative": true,
+      "created": "2022-05-30T07:08:49+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27408",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6592",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46881",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-05-20T13:42:03+02:00",
+  "date": "2022-05-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46881",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Annahme des Angebots von Zuwendungen auf dem Spendenkonto \"Karlsruhe hilft\" für die Ukraine Flüchtlingshilfe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2022/0575",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619598.pdf",
+      "created": "2020-09-16T12:25:24+02:00",
+      "date": "2020-09-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619598.pdf",
+      "fileName": "00619598.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619598",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53933",
+      "authoritative": true,
+      "created": "2020-07-28T09:23:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19851",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5668",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40151",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54305",
+      "created": "2020-09-04T13:07:08+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19964",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5836",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40151",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-07-28T07:39:11+02:00",
+  "date": "2020-07-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40151",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Keine Umnutzung von Parkhäusern ohne klaren Plan für die Mobilität in der Karlsruher Innenstadt",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2020/0941",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

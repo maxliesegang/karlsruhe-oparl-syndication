@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00623974.pdf",
+      "created": "2021-03-09T12:56:15+01:00",
+      "date": "2021-03-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00623974.pdf",
+      "fileName": "00623974.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/623974",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624643.pdf",
+      "created": "2021-04-07T11:14:10+02:00",
+      "date": "2021-04-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624643.pdf",
+      "fileName": "00624643.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624643",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN Brandschutz Parkhäuser",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625588.pdf",
+      "created": "2021-05-19T10:27:19+02:00",
+      "date": "2021-05-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625588.pdf",
+      "fileName": "00625588.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625588",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 43",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/57063",
+      "authoritative": true,
+      "created": "2021-03-24T12:11:00+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20906",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6195",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40976",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-03-09T12:55:48+01:00",
+  "date": "2021-03-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40976",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Brandschutz in Parkhäusern: Erhöhte Gefahr durch Hybrid- und Elektrofahrzeuge?",
+  "paperType": "Anfrage",
+  "reference": "2021/0335",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675047.pdf",
+      "created": "2025-12-09T11:22:01+01:00",
+      "date": "2025-02-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675047.pdf",
+      "fileName": "00675047.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675047",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-27T10:36:08+01:00",
+      "name": "Variante 1: 23_12_06_Rittnertstraße_V1 CAD-Gesamt",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675051.pdf",
+      "created": "2025-12-09T11:23:31+01:00",
+      "date": "2025-12-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675051.pdf",
+      "fileName": "00675051.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675051",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-27T10:36:08+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677516.pdf",
+      "created": "2026-04-08T11:11:20+02:00",
+      "date": "2026-04-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677516.pdf",
+      "fileName": "00677516.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677516",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-08T11:11:40+02:00",
+      "name": "Variante 2: 23_12_06_Rittnertstraße_V2 CAD-Gesamt",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100649",
+      "authoritative": true,
+      "created": "2026-02-25T12:27:24+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36737",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10716",
+      "modified": "2026-04-09T13:44:59+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54087",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-12-09T11:22:01+01:00",
+  "date": "2025-12-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54087",
+  "modified": "2026-03-27T14:29:43+01:00",
+  "name": "Verbreiterung und Instandsetzung des Anlagenwegs Rittnertstraße",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1248",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

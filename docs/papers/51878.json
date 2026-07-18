@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666901.pdf",
+      "created": "2025-05-05T14:06:46+02:00",
+      "date": "2025-05-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666901.pdf",
+      "fileName": "00666901.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666901",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-16T14:36:46+02:00",
+      "name": "Antrag Hohenwettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667395.pdf",
+      "created": "2025-05-23T09:44:06+02:00",
+      "date": "2025-05-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667395.pdf",
+      "fileName": "00667395.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667395",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-16T14:36:46+02:00",
+      "name": "Stellungnahme Antrag Hohenwettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94330",
+      "created": "2025-06-11T10:34:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34171",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10303",
+      "modified": "2025-06-11T10:38:35+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34322"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51878",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-05-05T14:03:47+02:00",
+  "date": "2025-05-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51878",
+  "modified": "2025-06-16T14:36:46+02:00",
+  "name": "Verkehrssichernde Maßnahmen an der Kreuzung Rehbuckel / Tiefentalstrasse",
+  "paperType": "Antrag",
+  "reference": "2025/0426",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882959"
+  ]
+}

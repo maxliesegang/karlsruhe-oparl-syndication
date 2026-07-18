@@ -1,0 +1,94 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677689.pdf",
+      "created": "2026-04-16T13:44:17+02:00",
+      "date": "2026-04-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677689.pdf",
+      "fileName": "00677689.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677689",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-15T13:38:30+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678186.pdf",
+      "created": "2026-05-06T09:33:14+02:00",
+      "date": "2026-05-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678186.pdf",
+      "fileName": "00678186.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678186",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-15T13:38:30+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678832.pdf",
+      "created": "2026-06-03T07:35:51+02:00",
+      "date": "2026-06-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678832.pdf",
+      "fileName": "00678832.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678832",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-15T13:38:30+02:00",
+      "name": "Protokoll GR 19.05.2026 TOP 11",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101549",
+      "authoritative": true,
+      "created": "2026-05-05T16:14:51+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37250",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10526",
+      "modified": "2026-05-20T08:17:11+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54448",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101680",
+      "created": "2026-05-11T11:58:32+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37381",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10548",
+      "modified": "2026-07-09T19:08:47+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54448",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102545",
+      "created": "2026-07-10T08:32:55+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37680",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10566",
+      "modified": "2026-07-17T09:22:28+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54448",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-04-16T13:43:30+02:00",
+  "date": "2026-04-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54448",
+  "modified": "2026-07-15T13:38:30+02:00",
+  "name": "Potenzialanalyse für mehr Wohnungsbau durch Aufstockung eingschossiger Immobilien bis 2035",
+  "paperType": "Antrag",
+  "reference": "2026/0289",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/9878",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/30812",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3015",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Annahme des Angebots von Zuwendungen",
+      "number": "1",
+      "order": 1000,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2016-10-12T09:08:39+02:00",
+  "end": "2012-12-04T00:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3015",
+  "location": {
+    "created": "2016-10-12T09:08:39+02:00",
+    "description": "Feuerbachsaal",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/3015",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Hauptausschuss",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+  ],
+  "start": "2012-12-04T17:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "verbatimProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00010508.pdf",
+    "created": "2016-10-12T09:08:36+02:00",
+    "date": "2013-08-15",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00010508.pdf",
+    "fileName": "00010508.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/10508",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Protokoll TOP 01 ö: Annahme des Angebots von Zuwendungen",
+    "type": "https://schema.oparl.org/1.1/File"
+  }
+}

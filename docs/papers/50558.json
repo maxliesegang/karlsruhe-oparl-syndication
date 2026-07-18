@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659000.pdf",
+      "created": "2024-06-12T10:34:57+02:00",
+      "date": "2024-06-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659000.pdf",
+      "fileName": "00659000.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659000",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659996.pdf",
+      "created": "2024-08-05T10:36:14+02:00",
+      "date": "2024-08-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659996.pdf",
+      "fileName": "00659996.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659996",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 16.07.2024 TOP 24",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660426.pdf",
+      "created": "2024-08-26T13:47:20+02:00",
+      "date": "2024-08-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660426.pdf",
+      "fileName": "00660426.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660426",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme zum Antrag Glasfaserausbau in Karlsruhe visualisieren",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/87192",
+      "authoritative": true,
+      "created": "2024-06-18T10:30:27+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32276",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9528",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50558",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/89882",
+      "created": "2024-08-28T13:42:15+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32387",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9585",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/50069"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50558",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-06-12T10:33:56+02:00",
+  "date": "2024-06-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50558",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Glasfaserausbau in Karlsruhe visualisieren",
+  "paperType": "Antrag",
+  "reference": "2024/0646",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882973"
+  ]
+}

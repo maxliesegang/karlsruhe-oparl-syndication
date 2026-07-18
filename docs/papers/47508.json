@@ -1,0 +1,73 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00640965.pdf",
+      "created": "2022-09-26T15:10:13+02:00",
+      "date": "2022-09-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00640965.pdf",
+      "fileName": "00640965.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/640965",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00640978.pdf",
+      "created": "2022-09-27T09:40:46+02:00",
+      "date": "2022-09-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00640978.pdf",
+      "fileName": "00640978.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/640978",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72879",
+      "authoritative": true,
+      "created": "2022-09-28T11:58:39+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28166",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6600",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47508",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72891",
+      "authoritative": true,
+      "created": "2022-09-28T13:04:39+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28200",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6603",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47508",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-09-26T15:08:51+02:00",
+  "date": "2022-09-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47508",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Neufassung der Geschäftsordnung für die Tätigkeit des Gestaltungsbeirats",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2022/0101/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46372"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

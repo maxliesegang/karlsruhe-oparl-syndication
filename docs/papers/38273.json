@@ -1,0 +1,93 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614402.pdf",
+      "created": "2020-01-20T11:11:36+01:00",
+      "date": "2020-01-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614402.pdf",
+      "fileName": "00614402.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614402",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615549.pdf",
+      "created": "2020-03-13T08:26:00+01:00",
+      "date": "2020-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615549.pdf",
+      "fileName": "00615549.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615549",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Böllerverbot",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619664.pdf",
+      "created": "2020-09-18T13:58:35+02:00",
+      "date": "2020-09-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619664.pdf",
+      "fileName": "00619664.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619664",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 14 und 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2020-07-02T13:12:15+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19728",
+      "modified": "2020-07-02T13:12:15+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38273",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/51521",
+      "authoritative": true,
+      "created": "2020-03-30T08:20:13+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17709",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5664",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38273",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53719",
+      "authoritative": true,
+      "created": "2020-07-14T10:58:09+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19729",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5668",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38273",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-01-20T11:11:09+01:00",
+  "date": "2020-01-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38273",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Ausweitung des Böllerverbots zum Schutz vor Lärm und Emissionen",
+  "paperType": "Antrag",
+  "reference": "2020/0060",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

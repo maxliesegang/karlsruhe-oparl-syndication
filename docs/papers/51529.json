@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664718.pdf",
+      "created": "2025-02-04T14:08:22+01:00",
+      "date": "2025-02-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664718.pdf",
+      "fileName": "00664718.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664718",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92367",
+      "authoritative": true,
+      "created": "2025-02-10T14:13:12+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33639",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10112",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54889"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51529",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-02-03T12:34:21+01:00",
+  "date": "2025-02-04",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51529",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Auftragsvergabe Ladeinfrastruktur für Nutzfahrzeuge",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0110",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

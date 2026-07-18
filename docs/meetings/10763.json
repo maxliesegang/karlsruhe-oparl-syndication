@@ -1,0 +1,92 @@
+{
+  "agendaItem": [
+    {
+      "created": "2026-01-09T14:20:14+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100027",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10763",
+      "modified": "2026-01-09T14:20:14+01:00",
+      "name": "Amphibienwanderung am Batzenhofweg",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-01-09T14:20:56+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100028",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10763",
+      "modified": "2026-01-09T14:20:56+01:00",
+      "name": "Mitteilungen der Ortsverwaltung",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-01-09T14:21:32+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100029",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10763",
+      "modified": "2026-01-09T14:21:32+01:00",
+      "name": "Anregungen aus dem Ortschaftsrat",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676794.pdf",
+      "created": "2026-02-24T15:59:26+01:00",
+      "date": "2026-02-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676794.pdf",
+      "fileName": "00676794.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676794",
+      "mimeType": "application/pdf",
+      "modified": "2026-02-24T16:00:29+01:00",
+      "name": "364.62131 - OR Hohenwettersbach Amphibien - 13.01.2026",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676796.pdf",
+      "created": "2026-02-24T16:00:15+01:00",
+      "date": "2026-02-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676796.pdf",
+      "fileName": "00676796.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676796",
+      "mimeType": "application/pdf",
+      "modified": "2026-02-24T16:00:29+01:00",
+      "name": "OR. Ho. Protokoll Öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2025-11-27T16:26:27+01:00",
+  "end": "2026-01-21T00:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10763",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675661.pdf",
+    "created": "2026-01-09T14:27:27+01:00",
+    "date": "2026-01-09",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675661.pdf",
+    "fileName": "00675661.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675661",
+    "mimeType": "application/pdf",
+    "modified": "2026-01-13T09:34:11+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2025-11-27T16:26:27+01:00",
+    "description": "Bürgersaal im Rathaus Hohenwettersbach",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10763",
+    "modified": "2026-02-24T16:00:29+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-02-24T16:00:29+01:00",
+  "name": "Ortschaftsrat Hohenwettersbach (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34322"
+  ],
+  "start": "2026-01-21T19:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

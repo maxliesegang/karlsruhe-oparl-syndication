@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655550.pdf",
+      "created": "2024-01-25T09:03:40+01:00",
+      "date": "2024-01-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655550.pdf",
+      "fileName": "00655550.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655550",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage üpl_Ausgaben",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655594.pdf",
+      "created": "2024-01-26T11:20:55+01:00",
+      "date": "2024-01-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655594.pdf",
+      "fileName": "00655594.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655594",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656991.pdf",
+      "created": "2024-03-21T09:44:48+01:00",
+      "date": "2024-03-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656991.pdf",
+      "fileName": "00656991.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656991",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_HA_05_03_2024_TOP 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84625",
+      "authoritative": true,
+      "created": "2024-02-01T08:54:06+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31387",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9513",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49952",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-01-23T14:57:42+01:00",
+  "date": "2024-01-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49952",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Erhöhte Aufwendungen für Mehrkosten innerhalb des Ergebnishaushalts im THH 6600",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0094",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

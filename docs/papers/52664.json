@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675802.pdf",
+      "created": "2026-01-16T13:02:31+01:00",
+      "date": "2026-01-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675802.pdf",
+      "fileName": "00675802.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675802",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-13T08:49:22+01:00",
+      "name": "Livestream Gemeinderat",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677050.pdf",
+      "created": "2026-03-13T08:48:36+01:00",
+      "date": "2026-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677050.pdf",
+      "fileName": "00677050.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677050",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-13T08:49:22+01:00",
+      "name": "Protokoll GR 24.02.2026 TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100167",
+      "authoritative": true,
+      "created": "2026-01-27T11:08:30+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36738",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10476",
+      "modified": "2026-02-24T17:06:01+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52664",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-18T13:33:57+01:00",
+  "date": "2025-11-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52664",
+  "modified": "2026-03-13T08:49:22+01:00",
+  "name": "Livestream Gemeinderat",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1126",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54295"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882952"
+  ]
+}

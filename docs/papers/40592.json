@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00621637.pdf",
+      "created": "2020-11-27T11:35:22+01:00",
+      "date": "2020-11-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00621637.pdf",
+      "fileName": "00621637.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/621637",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00622962.pdf",
+      "created": "2021-01-22T11:00:19+01:00",
+      "date": "2021-01-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00622962.pdf",
+      "fileName": "00622962.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/622962",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 14",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00623546.pdf",
+      "created": "2021-02-18T09:11:23+01:00",
+      "date": "2021-02-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00623546.pdf",
+      "fileName": "00623546.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/623546",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 14",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/55936",
+      "created": "2021-01-07T08:32:59+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20435",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6141",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40592",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-11-27T11:34:56+01:00",
+  "date": "2020-11-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40592",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Zukunft des Karlsruher ÖPNV",
+  "paperType": "Anfrage",
+  "reference": "2020/1381",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

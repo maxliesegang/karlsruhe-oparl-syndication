@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608137.pdf",
+      "created": "2019-03-06T08:03:28+01:00",
+      "date": "2019-03-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608137.pdf",
+      "fileName": "00608137.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608137",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608854.pdf",
+      "created": "2019-04-03T10:53:55+02:00",
+      "date": "2019-04-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608854.pdf",
+      "fileName": "00608854.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608854",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 18",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609819.pdf",
+      "created": "2019-05-21T07:49:16+02:00",
+      "date": "2019-05-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609819.pdf",
+      "fileName": "00609819.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609819",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 18",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45226",
+      "authoritative": true,
+      "created": "2019-03-12T09:45:20+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16274",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5307",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37104",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-03-06T08:02:37+01:00",
+  "date": "2019-03-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37104",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Gestaltung des Bernhardusplatzes",
+  "paperType": "Antrag",
+  "reference": "2019/0192",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

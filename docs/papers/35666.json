@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00598071.pdf",
+      "created": "2017-06-26T09:16:27+02:00",
+      "date": "2017-06-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00598071.pdf",
+      "fileName": "00598071.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/598071",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Vierordtstraße",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00598422.pdf",
+      "created": "2017-07-14T10:14:01+02:00",
+      "date": "2017-07-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00598422.pdf",
+      "fileName": "00598422.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/598422",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Vierordtstraße Palmbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00598594.pdf",
+      "created": "2017-07-26T09:45:28+02:00",
+      "date": "2017-07-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00598594.pdf",
+      "fileName": "00598594.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/598594",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 14",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00599133.pdf",
+      "created": "2017-09-01T10:04:44+02:00",
+      "date": "2017-09-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00599133.pdf",
+      "fileName": "00599133.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/599133",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 14",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/40924",
+      "authoritative": true,
+      "created": "2017-06-27T10:09:29+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14454",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4624",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35666",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-06-20T14:48:18+02:00",
+  "date": "2017-06-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35666",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Änderung des Namenspaten der Vierordtstraße in Palmbach",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0420",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

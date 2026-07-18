@@ -1,0 +1,80 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36754",
+      "created": "2025-12-15T15:08:49+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99877",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10725",
+      "modified": "2026-03-06T12:03:15+01:00",
+      "name": "Änderung des Geschäftsordnung",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-12-01T13:14:38+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99665",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10725",
+      "modified": "2025-12-15T15:08:54+01:00",
+      "name": "Mitteilungen der Verwaltung",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-12-01T13:14:49+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99666",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10725",
+      "modified": "2025-12-15T15:08:54+01:00",
+      "name": "Mündliche Anfragen",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2025-10-27T10:58:24+01:00",
+  "end": "2026-01-20T00:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10725",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675658.pdf",
+    "created": "2026-01-09T14:09:52+01:00",
+    "date": "2026-01-09",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675658.pdf",
+    "fileName": "00675658.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675658",
+    "mimeType": "application/pdf",
+    "modified": "2026-03-10T10:45:08+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2025-10-27T10:58:24+01:00",
+    "description": "Begegnungsstätte Wolfartsweier, Rathausstr. 2a, 76228 Karlsruhe",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10725",
+    "modified": "2026-03-10T10:46:52+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-03-10T10:46:52+01:00",
+  "name": "Ortschaftsrat Wolfartsweier (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+  ],
+  "resultsProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676946.pdf",
+    "created": "2026-03-05T17:29:13+01:00",
+    "date": "2026-03-05",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676946.pdf",
+    "fileName": "00676946.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676946",
+    "mimeType": "application/pdf",
+    "modified": "2026-03-10T10:46:52+01:00",
+    "name": "öProtokoll",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "start": "2026-01-20T19:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

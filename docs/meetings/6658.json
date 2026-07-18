@@ -1,0 +1,92 @@
+{
+  "agendaItem": [
+    {
+      "created": "2022-04-14T08:55:03+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/69562",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6658",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Urban Gardening",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2022-04-14T08:55:18+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/69563",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6658",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verschiedenes",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27128",
+      "created": "2022-04-14T08:56:36+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/69565",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6658",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Licht nach Bedarf - vertagt auf Sitzung vom 23.06.2022-",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2022-04-14T08:55:36+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/69564",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6658",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verschiedenes",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00637159.pdf",
+      "created": "2022-04-14T09:30:01+02:00",
+      "date": "2022-04-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00637159.pdf",
+      "fileName": "00637159.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/637159",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Tagesordnung ö",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638228.pdf",
+      "created": "2022-06-08T14:30:57+02:00",
+      "date": "2022-06-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638228.pdf",
+      "fileName": "00638228.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638228",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Gesamtprotokoll öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2021-09-30T13:04:56+02:00",
+  "end": "2022-04-27T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6658",
+  "location": {
+    "created": "2021-09-30T13:04:56+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6658",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ausschuss für öffentliche Einrichtungen (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+  ],
+  "start": "2022-04-27T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

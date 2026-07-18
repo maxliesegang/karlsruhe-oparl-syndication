@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610656.pdf",
+      "created": "2019-08-01T14:44:34+02:00",
+      "date": "2019-08-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610656.pdf",
+      "fileName": "00610656.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610656",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611597.pdf",
+      "created": "2019-10-11T13:09:54+02:00",
+      "date": "2019-10-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611597.pdf",
+      "fileName": "00611597.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611597",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 28",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611855.pdf",
+      "created": "2019-10-24T12:25:47+02:00",
+      "date": "2019-10-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611855.pdf",
+      "fileName": "00611855.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611855",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis_top28",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612684.pdf",
+      "created": "2019-11-28T09:16:27+01:00",
+      "date": "2019-11-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612684.pdf",
+      "fileName": "00612684.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612684",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 28",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47004",
+      "authoritative": true,
+      "created": "2019-09-25T10:23:51+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16926",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5404",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37647",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-08-01T14:44:08+02:00",
+  "date": "2019-08-01",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37647",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Anlagenweg im Bereich der Landgrabenstraße in Bulach",
+  "paperType": "Antrag",
+  "reference": "2019/0754",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

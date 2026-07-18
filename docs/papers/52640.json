@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671982.pdf",
+      "created": "2025-11-18T10:40:31+01:00",
+      "date": "2025-11-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671982.pdf",
+      "fileName": "00671982.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671982",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-19T07:27:39+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675422.pdf",
+      "created": "2025-12-19T07:27:36+01:00",
+      "date": "2025-12-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675422.pdf",
+      "fileName": "00675422.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675422",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-19T07:27:39+01:00",
+      "name": "Abstimmungsergebnis  Ö31",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99246",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:27+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35265",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-16T10:28:39+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52640",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-18T10:38:36+01:00",
+  "date": "2025-11-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52640",
+  "modified": "2025-12-19T07:27:39+01:00",
+  "name": "HHS4_GR8 - Reduzierung der Bezuschussung von Stadtteilhäusern (Reinigung, Mietkosten, Südwerk und nicht verausgabtes Budget)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1105",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

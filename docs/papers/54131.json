@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675922.pdf",
+      "created": "2026-01-21T16:21:14+01:00",
+      "date": "2026-01-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675922.pdf",
+      "fileName": "00675922.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675922",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-13T11:09:51+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100031",
+      "authoritative": true,
+      "created": "2026-01-09T15:51:16+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36813",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10501",
+      "modified": "2026-03-30T14:45:20+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/29599"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54131",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-01-09T13:09:00+01:00",
+  "date": "2026-01-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54131",
+  "modified": "2026-03-13T11:09:50+01:00",
+  "name": "Konsequenzen für die Kulturförderung aus den Haushaltsbeschlüssen",
+  "paperType": "Informationsvorlage",
+  "reference": "2026/0004",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882963"
+  ]
+}

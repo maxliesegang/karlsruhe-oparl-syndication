@@ -1,0 +1,84 @@
+{
+  "agendaItem": [
+    {
+      "created": "2021-03-30T12:11:58+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/57205",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6197",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Tiefbauamt",
+      "number": "",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20968",
+      "created": "2021-03-30T12:10:09+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/57203",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6197",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Sanierungsgebiet ASP, Durlach-Aue",
+      "number": "1",
+      "order": 2,
+      "public": true,
+      "result": "genehmigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20969",
+      "created": "2021-03-30T12:10:09+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/57204",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6197",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Adenauerring, Umbau und Fahrbahnerneuerung zwischen der Lärchenallee",
+      "number": "2",
+      "order": 3,
+      "public": true,
+      "result": "genehmigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625797.pdf",
+      "created": "2021-05-31T13:33:28+02:00",
+      "date": "2021-05-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625797.pdf",
+      "fileName": "00625797.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625797",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_öffentlich BA 20210422",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2020-09-10T13:51:54+02:00",
+  "end": "2021-04-22T16:45:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6197",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624292.pdf",
+    "created": "2021-03-22T11:19:38+01:00",
+    "date": "2021-03-31",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624292.pdf",
+    "fileName": "00624292.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624292",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2020-09-10T13:51:54+02:00",
+    "description": "Bürgersaal, Rathaus Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6197",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Bauausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+  ],
+  "start": "2021-04-22T16:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

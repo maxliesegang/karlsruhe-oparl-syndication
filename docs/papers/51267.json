@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662826.pdf",
+      "created": "2024-11-15T11:21:42+01:00",
+      "date": "2024-11-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662826.pdf",
+      "fileName": "00662826.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662826",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91134",
+      "created": "2024-11-15T11:28:18+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33260",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9722",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51267",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-11-15T11:21:10+01:00",
+  "date": "2024-11-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51267",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Vorstellung der neuen Organisation der Abteilung „Bürgerservice“",
+  "paperType": "Informationsvorlage",
+  "reference": "2024/1310",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

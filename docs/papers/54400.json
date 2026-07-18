@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677278.pdf",
+      "created": "2026-03-25T07:22:24+01:00",
+      "date": "2026-03-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677278.pdf",
+      "fileName": "00677278.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677278",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:52:40+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677347.pdf",
+      "created": "2026-03-30T07:31:48+02:00",
+      "date": "2026-03-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677347.pdf",
+      "fileName": "00677347.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677347",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:52:40+02:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678422.pdf",
+      "created": "2026-05-15T10:52:38+02:00",
+      "date": "2026-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678422.pdf",
+      "fileName": "00678422.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678422",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:52:40+02:00",
+      "name": "Protokoll GR 28.04.2026 TOP 35",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101149",
+      "authoritative": true,
+      "created": "2026-04-01T09:53:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37178",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10512",
+      "modified": "2026-05-26T12:02:49+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54400",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-03-25T07:21:45+01:00",
+  "date": "2026-03-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54400",
+  "modified": "2026-05-15T10:52:40+02:00",
+  "name": "Geplanter Containerabbau an der Riedschule Rüppurr: Vereinbarkeit mit dem Rechtsanspruch auf Ganztagsbetreuung ab 2026",
+  "paperType": "Anfrage",
+  "reference": "2026/0245",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

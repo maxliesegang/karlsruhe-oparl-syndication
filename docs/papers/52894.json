@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672607.pdf",
+      "created": "2025-11-24T16:25:33+01:00",
+      "date": "2025-11-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672607.pdf",
+      "fileName": "00672607.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672607",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-18T20:36:43+01:00",
+      "name": "Antrag AfD_022",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674841.pdf",
+      "created": "2025-12-08T09:49:26+01:00",
+      "date": "2025-12-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674841.pdf",
+      "fileName": "00674841.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674841",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-18T20:36:43+01:00",
+      "name": "5011 Stellungnahme DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675374.pdf",
+      "created": "2025-12-18T20:35:13+01:00",
+      "date": "2025-12-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675374.pdf",
+      "fileName": "00675374.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675374",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-18T20:36:43+01:00",
+      "name": "Abstimmungsergebnis Ö 250",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99524",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:29+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35533",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-17T06:45:49+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52894",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-24T16:24:40+01:00",
+  "date": "2025-11-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52894",
+  "modified": "2025-12-18T20:36:43+01:00",
+  "name": "Kulturküche",
+  "paperType": "Haushalt THH 5000",
+  "reference": "DHH/2025/5011",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

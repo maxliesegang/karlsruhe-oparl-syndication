@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612158.pdf",
+      "created": "2019-11-08T14:02:41+01:00",
+      "date": "2019-11-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612158.pdf",
+      "fileName": "00612158.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612158",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 6, Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612211.pdf",
+      "created": "2019-11-13T14:24:24+01:00",
+      "date": "2019-11-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612211.pdf",
+      "fileName": "00612211.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612211",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 6, STELLUNGNAHME",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47696",
+      "authoritative": true,
+      "created": "2019-11-08T10:16:52+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17369",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5474",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34764"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37999",
+      "role": "unbekannt",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-11-08T10:10:41+01:00",
+  "date": "2019-11-08",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37999",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Verbesserung der Fußgängersituation an der Kreuzung Karlsbader Straße, Thomashofstraße",
+  "paperType": "Anfrage",
+  "reference": "2019/1137",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882957"
+  ]
+}

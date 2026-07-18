@@ -1,0 +1,69 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19755",
+      "created": "2020-07-03T14:03:04+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53578",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5898",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Sachstandsbericht über den derzeitigen Planungsstand für die Anlagen von Blumenwiesen und",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2020-07-03T14:04:18+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53583",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5898",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen der Ortsverwaltung",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2020-07-03T14:06:49+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53585",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5898",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verschiedenes",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619250.pdf",
+      "created": "2020-08-25T14:30:45+02:00",
+      "date": "2020-08-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619250.pdf",
+      "fileName": "00619250.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619250",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll 9. ORatSitzung öffentlich 15.07.20",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2019-10-15T16:02:05+02:00",
+  "end": "2020-07-15T21:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5898",
+  "location": {
+    "created": "2019-10-15T16:02:05+02:00",
+    "description": "Rathaus Stupferich, Sitzungssaal",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5898",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ortschaftsrat Stupferich (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34764"
+  ],
+  "start": "2020-07-15T19:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

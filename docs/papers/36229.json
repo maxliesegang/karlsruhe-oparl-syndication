@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00602570.pdf",
+      "created": "2018-04-12T14:22:09+02:00",
+      "date": "2018-04-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00602570.pdf",
+      "fileName": "00602570.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/602570",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "AfD DITIB",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00602622.pdf",
+      "created": "2018-04-13T10:24:57+02:00",
+      "date": "2018-04-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00602622.pdf",
+      "fileName": "00602622.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/602622",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 49",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00603312.pdf",
+      "created": "2018-05-24T10:19:10+02:00",
+      "date": "2018-05-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00603312.pdf",
+      "fileName": "00603312.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/603312",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 49",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/42686",
+      "authoritative": true,
+      "created": "2018-04-10T11:20:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15163",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4992",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36229",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-03-27T09:58:05+02:00",
+  "date": "2018-03-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36229",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "DITIB Großmoschee Oststadt - Fragen zum Sachstand nach Einreichung des Bauantrags",
+  "paperType": "Anfrage",
+  "reference": "2018/0181",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

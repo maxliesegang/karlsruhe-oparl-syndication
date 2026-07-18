@@ -1,12 +1,16 @@
-import { BaseStore } from './base-store.js';
+import { PerRecordStore } from './per-record-store.js';
 import { Meeting } from '../types/index.js';
 
-class MeetingStore extends BaseStore<Meeting> {
+export class MeetingStore extends PerRecordStore<Meeting> {
   private organizationMeetings: Map<string, Set<string>> = new Map();
   private meetingOrganizations: Map<string, Set<string>> = new Map();
 
   getFileName(): string {
     return 'meetings.json';
+  }
+
+  getDirName(): string {
+    return 'meetings';
   }
 
   getLastModifiedWithSafetyMargin(): Date | undefined {

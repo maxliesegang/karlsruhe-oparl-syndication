@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677171.pdf",
+      "created": "2026-03-20T08:34:22+01:00",
+      "date": "2026-03-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677171.pdf",
+      "fileName": "00677171.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677171",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:39:47+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678022.pdf",
+      "created": "2026-04-29T11:11:25+02:00",
+      "date": "2026-04-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678022.pdf",
+      "fileName": "00678022.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678022",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:39:47+02:00",
+      "name": "Abstimmungsergebnis TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678384.pdf",
+      "created": "2026-05-15T10:39:44+02:00",
+      "date": "2026-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678384.pdf",
+      "fileName": "00678384.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678384",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:39:47+02:00",
+      "name": "Protokoll GR 28.04.2026 TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101125",
+      "authoritative": true,
+      "created": "2026-04-01T09:53:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37149",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10512",
+      "modified": "2026-04-28T18:42:11+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54377",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-03-20T08:29:49+01:00",
+  "date": "2026-03-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54377",
+  "modified": "2026-05-15T10:39:47+02:00",
+  "name": "Zusammensetzung des Gemeinderates: Ausscheiden von Franziska Buresch mit Ablauf des 30.04.2026 und Feststellung des Nichtvorliegens von Hinderungsgründen der nachfolgenden Frau Leyla Duran",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0231",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882850"
+  ]
+}

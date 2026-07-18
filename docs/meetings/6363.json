@@ -1,0 +1,96 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/24290",
+      "created": "2021-10-29T08:13:08+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/63399",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6363",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Vorstellung des Entwurfs des Doppelhaushalts 2022/2023",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2021-10-29T08:14:13+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/63402",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6363",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen der Ortsverwaltung",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2021-10-29T08:14:22+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/63403",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6363",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verschiedenes",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00630975.pdf",
+      "created": "2021-10-29T08:11:39+02:00",
+      "date": "2021-10-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00630975.pdf",
+      "fileName": "00630975.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/630975",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 1, BESCHLUSSVORLAGE",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00630976.pdf",
+      "created": "2021-10-29T08:11:40+02:00",
+      "date": "2021-10-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00630976.pdf",
+      "fileName": "00630976.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/630976",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635138.pdf",
+      "created": "2022-01-12T08:45:49+01:00",
+      "date": "2022-01-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635138.pdf",
+      "fileName": "00635138.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635138",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll 21.ORatSitzung öffentlich 10.11.2021",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2020-09-25T10:16:51+02:00",
+  "end": "2021-11-10T21:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6363",
+  "location": {
+    "created": "2020-09-25T10:16:51+02:00",
+    "description": "Gemeindezentrum Stupferich",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6363",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ortschaftsrat Stupferich (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34764"
+  ],
+  "start": "2021-11-10T19:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

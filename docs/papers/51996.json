@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668606.pdf",
+      "created": "2025-07-03T15:47:36+02:00",
+      "date": "2025-07-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668606.pdf",
+      "fileName": "00668606.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668606",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T10:57:05+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669151.pdf",
+      "created": "2025-07-30T09:02:12+02:00",
+      "date": "2025-07-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669151.pdf",
+      "fileName": "00669151.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669151",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T10:57:05+02:00",
+      "name": "Abstimmungsergebnis TOP 19",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669493.pdf",
+      "created": "2025-08-19T10:57:00+02:00",
+      "date": "2025-08-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669493.pdf",
+      "fileName": "00669493.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669493",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T10:57:05+02:00",
+      "name": "Protokoll GR 29.07.2025 TOP 19",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94980",
+      "authoritative": true,
+      "created": "2025-07-11T08:27:51+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34343",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10051",
+      "modified": "2025-07-29T19:56:39+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51996",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-06-02T09:01:39+02:00",
+  "date": "2025-06-02",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51996",
+  "modified": "2025-08-19T10:57:05+02:00",
+  "name": "Katastrophenschutzbedarfsplan für die Stadt Karlsruhe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0534",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882976"
+  ]
+}

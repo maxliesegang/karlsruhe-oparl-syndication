@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672389.pdf",
+      "created": "2025-11-24T11:37:21+01:00",
+      "date": "2025-11-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672389.pdf",
+      "fileName": "00672389.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672389",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-19T07:52:35+01:00",
+      "name": "Antrag AfD_005",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674955.pdf",
+      "created": "2025-12-08T14:24:19+01:00",
+      "date": "2025-12-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674955.pdf",
+      "fileName": "00674955.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674955",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-19T07:52:35+01:00",
+      "name": "3104 Stellungnahme DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675444.pdf",
+      "created": "2025-12-19T07:52:30+01:00",
+      "date": "2025-12-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675444.pdf",
+      "fileName": "00675444.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675444",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-19T07:52:35+01:00",
+      "name": "Abstimmungsergebnis Ö58",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99422",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:28+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35450",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-16T17:11:14+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52811",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-24T11:36:12+01:00",
+  "date": "2025-11-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52811",
+  "modified": "2025-12-19T07:52:34+01:00",
+  "name": "Erhöhung Klimaanpassung",
+  "paperType": "Haushalt THH 3100",
+  "reference": "DHH/2025/3104",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658098.pdf",
+      "created": "2024-05-02T14:13:50+02:00",
+      "date": "2024-05-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658098.pdf",
+      "fileName": "00658098.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658098",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659227.pdf",
+      "created": "2024-06-21T10:43:36+02:00",
+      "date": "2024-06-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659227.pdf",
+      "fileName": "00659227.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659227",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 18.06.2024 TOP 22",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660374.pdf",
+      "created": "2024-08-22T17:02:42+02:00",
+      "date": "2024-08-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660374.pdf",
+      "fileName": "00660374.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660374",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme zum Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86709",
+      "authoritative": true,
+      "created": "2024-05-22T13:39:22+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32039",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9527",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50391",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/87359",
+      "created": "2024-06-20T09:57:38+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32125",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9550",
+      "modified": "2025-04-11T14:05:35+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50391",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-05-02T14:12:37+02:00",
+  "date": "2024-05-02",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50391",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Eine bessere Alternative prüfen: Keine Brücke und keine Unterführung für Autoverkehr am Bahnübergang am Brunnenstückweg",
+  "paperType": "Antrag",
+  "reference": "2024/0496",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

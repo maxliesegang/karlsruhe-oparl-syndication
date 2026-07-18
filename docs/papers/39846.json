@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617784.pdf",
+      "created": "2020-05-25T07:18:57+02:00",
+      "date": "2020-05-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617784.pdf",
+      "fileName": "00617784.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617784",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617814.pdf",
+      "created": "2020-05-26T11:24:34+02:00",
+      "date": "2020-05-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617814.pdf",
+      "fileName": "00617814.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617814",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN ÄndAntrag FW Stellenschaffungsverfahren 2020.doc",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/52474",
+      "authoritative": true,
+      "created": "2020-05-25T07:35:42+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19470",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5665",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39846",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-05-25T07:14:37+02:00",
+  "date": "2020-05-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39846",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Stellenschaffungsverfahren 2020",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2020/0638",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595004.pdf",
+      "created": "2016-12-01T14:36:45+01:00",
+      "date": "2016-12-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595004.pdf",
+      "fileName": "00595004.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595004",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stadtwald 2017",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595005.pdf",
+      "created": "2016-12-01T14:37:17+01:00",
+      "date": "2016-12-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595005.pdf",
+      "fileName": "00595005.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595005",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1 Grundsätze und Zielsetzung der Waldwirtschaft",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595006.pdf",
+      "created": "2016-12-01T14:37:25+01:00",
+      "date": "2016-12-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595006.pdf",
+      "fileName": "00595006.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595006",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 2 Zusammenfassung der Ergebnisse Stakeholder",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595565.pdf",
+      "created": "2017-01-10T08:33:41+01:00",
+      "date": "2017-01-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595565.pdf",
+      "fileName": "00595565.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595565",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 20",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2016-11-14T12:29:57+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/13867",
+      "modified": "2018-11-28T14:19:31+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35199",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/39706",
+      "authoritative": true,
+      "created": "2016-11-14T14:00:12+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/13868",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4160",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35199",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-11-14T12:29:23+01:00",
+  "date": "2016-11-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35199",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Zielsetzung im Stadtwald für die Forsteinrichtung 2017",
+  "paperType": "Beschlussvorlage",
+  "reference": "2016/0732",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883003"
+  ]
+}

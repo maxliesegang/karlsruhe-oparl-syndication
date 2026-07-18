@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600471.pdf",
+      "created": "2017-12-01T11:19:31+01:00",
+      "date": "2017-12-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600471.pdf",
+      "fileName": "00600471.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600471",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Sandkorn-Theater",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600472.pdf",
+      "created": "2017-12-01T11:19:41+01:00",
+      "date": "2017-12-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600472.pdf",
+      "fileName": "00600472.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600472",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Sandkorn",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600810.pdf",
+      "created": "2017-12-21T11:10:39+01:00",
+      "date": "2017-12-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600810.pdf",
+      "fileName": "00600810.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600810",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 13",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00602877.pdf",
+      "created": "2018-04-26T10:10:08+02:00",
+      "date": "2018-04-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00602877.pdf",
+      "fileName": "00602877.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/602877",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis GR_TOP 13",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41697",
+      "authoritative": true,
+      "created": "2017-11-15T09:49:38+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14822",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4688",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35949",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-11-10T14:30:51+01:00",
+  "date": "2017-11-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35949",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Sandkorn-Theater, Fortführung des Theaterbetriebes",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0724",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882963"
+  ]
+}

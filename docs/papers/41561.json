@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626973.pdf",
+      "created": "2021-07-13T09:13:05+02:00",
+      "date": "2021-07-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626973.pdf",
+      "fileName": "00626973.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626973",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Information_Jahresbericht",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626987.pdf",
+      "created": "2021-07-13T10:53:44+02:00",
+      "date": "2021-07-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626987.pdf",
+      "fileName": "00626987.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626987",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Jahresbericht 2020_Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/59694",
+      "created": "2021-07-09T10:50:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21701",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6258",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/29599"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41561",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-07-09T10:29:53+02:00",
+  "date": "2021-07-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41561",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Jahrsbericht 2020 des Kulturamtes",
+  "paperType": "Informationsvorlage",
+  "reference": "2021/0891",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882963"
+  ]
+}

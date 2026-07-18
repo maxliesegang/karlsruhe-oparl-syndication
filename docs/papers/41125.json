@@ -1,0 +1,66 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625079.pdf",
+      "created": "2021-04-23T12:14:25+02:00",
+      "date": "2021-04-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625079.pdf",
+      "fileName": "00625079.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625079",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Ergänzungsvereinbarung TEXAID",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625440.pdf",
+      "created": "2021-05-11T14:26:07+02:00",
+      "date": "2021-05-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625440.pdf",
+      "fileName": "00625440.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625440",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 5 HA",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2021-04-20T08:35:55+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21145",
+      "modified": "2021-04-20T08:35:55+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41125",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/57387",
+      "created": "2021-04-16T12:01:12+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21119",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6205",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41125",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-04-16T09:19:46+02:00",
+  "date": "2021-04-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41125",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Coronabedingte Ergänzungsvereinbarung zum Alttextilverwertungsvertrag mit der Firma TEXAID",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/0484",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

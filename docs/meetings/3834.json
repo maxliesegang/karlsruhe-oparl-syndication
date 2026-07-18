@@ -1,0 +1,94 @@
+{
+  "agendaItem": [
+    {
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/36095",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3834",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Haushaltsreden des Gemeinderates zum Doppelhaushalt 2015/2016",
+      "number": "",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00585031.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2015-02-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00585031.pdf",
+      "fileName": "00585031.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/585031",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Sitzungseröffnung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00585032.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2015-02-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00585032.pdf",
+      "fileName": "00585032.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/585032",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Außerh.Mahnwache",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00593657.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2016-09-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00593657.pdf",
+      "fileName": "00593657.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/593657",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Haushaltsreden",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2016-10-12T09:08:39+02:00",
+  "end": "2015-01-13T00:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3834",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00150147.pdf",
+    "created": "2016-10-12T09:08:36+02:00",
+    "date": "2014-12-29",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00150147.pdf",
+    "fileName": "00150147.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/150147",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2016-10-12T09:08:39+02:00",
+    "description": "Bürgersaal, Rathaus Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/3834",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Gemeinderat (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+  ],
+  "resultsProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00150258.pdf",
+    "created": "2016-10-12T09:08:36+02:00",
+    "date": "2015-01-14",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00150258.pdf",
+    "fileName": "00150258.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/150258",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Anwesenheit (Protokoll)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "start": "2015-01-13T15:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

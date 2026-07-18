@@ -1,0 +1,46 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28493",
+      "created": "2022-11-02T10:04:43+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/73728",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6747",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Aktueller Sachstandsbericht des Liegenschaftsamtes zum Haushaltssicherungsprozess",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2021-10-06T10:31:33+02:00",
+  "end": "2022-11-25T18:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6747",
+  "location": {
+    "created": "2021-10-06T10:31:33+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6747",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Umlegungsausschuss (nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/39355"
+  ],
+  "resultsProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00645916.pdf",
+    "created": "2023-03-21T12:58:55+01:00",
+    "date": "2023-03-21",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00645916.pdf",
+    "fileName": "00645916.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/645916",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Anwesenheit (Protokoll)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "start": "2022-11-25T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

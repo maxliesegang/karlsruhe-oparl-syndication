@@ -1,0 +1,93 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668367.pdf",
+      "created": "2025-06-25T11:45:04+02:00",
+      "date": "2025-06-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668367.pdf",
+      "fileName": "00668367.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668367",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T10:55:43+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668368.pdf",
+      "created": "2025-06-25T11:51:12+02:00",
+      "date": "2025-06-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668368.pdf",
+      "fileName": "00668368.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668368",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T10:55:43+02:00",
+      "name": "Informationsvorlage-Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669121.pdf",
+      "created": "2025-07-29T13:19:29+02:00",
+      "date": "2025-07-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669121.pdf",
+      "fileName": "00669121.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669121",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T10:55:43+02:00",
+      "name": "TOP 3 Protokoll Entwicklung Großmarkt MA - AföE 10.07.2025 - Freigabe Dez 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669490.pdf",
+      "created": "2025-08-19T10:55:40+02:00",
+      "date": "2025-08-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669490.pdf",
+      "fileName": "00669490.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669490",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T10:55:43+02:00",
+      "name": "Protokoll GR 29.07.2025 TOP 16",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93982",
+      "created": "2025-05-21T18:31:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34241",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10093",
+      "modified": "2025-06-20T09:47:35+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51935",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94888",
+      "authoritative": true,
+      "created": "2025-06-27T09:55:01+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34243",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10051",
+      "modified": "2025-07-29T19:16:31+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51935",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-05-16T11:37:32+02:00",
+  "date": "2025-05-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51935",
+  "modified": "2025-08-19T10:55:43+02:00",
+  "name": "Zukunftsentwicklung des Großmarktes Karlsruhe",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/0174/1",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882979"
+  ]
+}

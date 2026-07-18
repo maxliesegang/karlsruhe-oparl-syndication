@@ -1,0 +1,107 @@
+{
+  "agendaItem": [
+    {
+      "created": "2026-03-03T14:25:51+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100721",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10716",
+      "modified": "2026-04-09T13:42:41+02:00",
+      "name": "Jährlicher Bericht des Pfinzgaumuseums",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36737",
+      "created": "2026-02-25T12:27:24+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100649",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10716",
+      "modified": "2026-04-09T13:44:59+02:00",
+      "name": "Verbreiterung und Instandsetzung des Anlagenwegs Rittnertstraße",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "mehrheitlich beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37008",
+      "created": "2026-02-25T12:27:24+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100651",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10716",
+      "modified": "2026-04-09T13:44:48+02:00",
+      "name": "Vermietung der IBC-Container",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-03-03T14:27:10+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100722",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10716",
+      "modified": "2026-04-08T15:47:26+02:00",
+      "name": "Mitteilungen des Stadtamtes Durlach",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-03-03T14:27:16+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100723",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10716",
+      "modified": "2026-03-19T10:15:31+01:00",
+      "name": "Mündliche Fragen",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678214.pdf",
+      "created": "2026-05-07T16:13:09+02:00",
+      "date": "2026-05-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678214.pdf",
+      "fileName": "00678214.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678214",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-07T16:13:59+02:00",
+      "name": "Protokoll OR 08.04.2026",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2025-10-17T14:37:15+02:00",
+  "end": "2026-04-08T00:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10716",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677261.pdf",
+    "created": "2026-03-24T12:47:01+01:00",
+    "date": "2026-03-24",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677261.pdf",
+    "fileName": "00677261.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677261",
+    "mimeType": "application/pdf",
+    "modified": "2026-03-27T11:28:51+01:00",
+    "name": "Tagesordnung OR 08.04.2026",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2025-10-17T14:37:15+02:00",
+    "description": "Bürgersaal im Rathaus, Pfinztalstr. 33",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10716",
+    "modified": "2026-05-07T16:13:59+02:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-05-07T16:13:59+02:00",
+  "name": "Ortschaftsrat Durlach (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+  ],
+  "start": "2026-04-08T17:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

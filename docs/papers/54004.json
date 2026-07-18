@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675229.pdf",
+      "created": "2025-12-16T11:41:55+01:00",
+      "date": "2025-12-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675229.pdf",
+      "fileName": "00675229.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675229",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-23T15:11:57+01:00",
+      "name": "Anlage 1-Konzeptbeschluss-Präsentation",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675590.pdf",
+      "created": "2025-12-23T10:08:46+01:00",
+      "date": "2025-12-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675590.pdf",
+      "fileName": "00675590.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675590",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-23T15:11:57+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99860",
+      "created": "2025-12-12T09:22:59+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36646",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10464",
+      "modified": "2026-01-16T09:51:17+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54004",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-27T11:04:42+01:00",
+  "date": "2025-11-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54004",
+  "modified": "2025-12-23T15:11:57+01:00",
+  "name": "Konzeptbeschluss Hansastraße 48-Brandübungsanlage",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1216",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

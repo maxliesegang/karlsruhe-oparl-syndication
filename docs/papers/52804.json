@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672376.pdf",
+      "created": "2025-11-24T11:20:25+01:00",
+      "date": "2025-11-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672376.pdf",
+      "fileName": "00672376.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672376",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-08T16:03:51+01:00",
+      "name": "Antrag VOLT_003",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674963.pdf",
+      "created": "2025-12-08T14:40:17+01:00",
+      "date": "2025-12-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674963.pdf",
+      "fileName": "00674963.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674963",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-08T16:03:51+01:00",
+      "name": "1003 Stellungnahme DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99368",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:28+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35443",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-21T11:11:38+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52804",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-24T11:17:28+01:00",
+  "date": "2025-11-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52804",
+  "modified": "2025-12-08T16:03:51+01:00",
+  "name": "Durchführung eines Strategieprojekts zur langfristigen Ausrichtung der Stadt Karlsruhe",
+  "paperType": "Haushalt THH 1000",
+  "reference": "DHH/2025/1003",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "agendaItem": [
+    {
+      "created": "2025-12-12T09:22:58+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99856",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10464",
+      "modified": "2025-12-12T11:30:49+01:00",
+      "name": "Amt für Hochbau und Gebäudewirtschaft",
+      "number": "",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36646",
+      "created": "2025-12-12T09:22:59+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99860",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10464",
+      "modified": "2026-01-16T09:51:17+01:00",
+      "name": "Konzeptbeschluss Hansastraße 48-Brandübungsanlage",
+      "number": "1",
+      "order": 2,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-12-12T10:38:25+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99874",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10464",
+      "modified": "2025-12-23T10:34:27+01:00",
+      "name": "Zoo",
+      "number": "",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35205",
+      "created": "2025-12-12T09:22:59+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99863",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10464",
+      "modified": "2026-01-16T09:51:35+01:00",
+      "name": "Baubeschluss Sanierung Zooterrassen im Zoologischen Stadtgarten Karlsruhe",
+      "number": "2",
+      "order": 4,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2025-10-10T09:12:32+02:00",
+  "end": "2026-01-15T18:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10464",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675594.pdf",
+    "created": "2025-12-23T11:06:36+01:00",
+    "date": "2025-12-23",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675594.pdf",
+    "fileName": "00675594.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675594",
+    "mimeType": "application/pdf",
+    "modified": "2025-12-23T15:13:05+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2022-12-12T11:11:26+01:00",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/rm/67907",
+    "locality": "",
+    "modified": "2025-08-05T10:18:13+02:00",
+    "postalCode": "",
+    "room": "Bürgersaal",
+    "streetAddress": "",
+    "subLocality": "",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-12-23T15:13:05+01:00",
+  "name": "Bauausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+  ],
+  "start": "2026-01-15T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

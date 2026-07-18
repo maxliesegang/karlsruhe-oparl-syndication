@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00606664.pdf",
+      "created": "2018-11-28T12:18:07+01:00",
+      "date": "2018-11-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00606664.pdf",
+      "fileName": "00606664.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/606664",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 1 Vorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00606665.pdf",
+      "created": "2018-11-28T12:18:23+01:00",
+      "date": "2018-11-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00606665.pdf",
+      "fileName": "00606665.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/606665",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 1 Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44650",
+      "created": "2018-11-28T12:12:22+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15995",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4923",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36866",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-11-28T12:06:01+01:00",
+  "date": "2018-11-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36866",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Kanalauswechslung in der Kleinbach- und Friedrich-Eberle-Straße: Vergabe von Kanal- und Straßenbauarbeiten",
+  "paperType": "Beschlussvorlage",
+  "reference": "2018/0862",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

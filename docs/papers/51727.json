@@ -1,0 +1,73 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665899.pdf",
+      "created": "2025-03-25T07:15:04+01:00",
+      "date": "2025-03-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665899.pdf",
+      "fileName": "00665899.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665899",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-29T14:03:55+02:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665907.pdf",
+      "created": "2025-03-25T09:16:27+01:00",
+      "date": "2025-03-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665907.pdf",
+      "fileName": "00665907.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665907",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-29T14:03:55+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92956",
+      "authoritative": true,
+      "created": "2025-03-25T08:05:38+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33926",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10046",
+      "modified": "2025-03-25T19:07:11+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51727",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93034",
+      "authoritative": true,
+      "created": "2025-03-26T08:33:25+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33941",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10036",
+      "modified": "2025-04-09T07:26:44+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51727",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-03-25T07:14:47+01:00",
+  "date": "2025-03-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51727",
+  "modified": "2026-02-16T14:16:35+01:00",
+  "name": "Quartier Zukunft Nord: Grundstücksvergabe",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2025/0141/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51563"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

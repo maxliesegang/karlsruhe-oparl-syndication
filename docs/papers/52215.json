@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669100.pdf",
+      "created": "2025-07-29T09:31:50+02:00",
+      "date": "2025-07-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669100.pdf",
+      "fileName": "00669100.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669100",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-13T12:09:14+02:00",
+      "name": "Anfrage Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669102.pdf",
+      "created": "2025-07-29T09:33:42+02:00",
+      "date": "2025-07-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669102.pdf",
+      "fileName": "00669102.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669102",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-13T12:09:14+02:00",
+      "name": "Stellungnahme Anfrage Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96091",
+      "created": "2025-09-03T14:47:07+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34637",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9901",
+      "modified": "2025-10-08T15:19:40+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52215",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-07-29T09:30:27+02:00",
+  "date": "2025-10-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52215",
+  "modified": "2025-10-13T12:09:14+02:00",
+  "name": "Flächen und Umzug Bauhof",
+  "paperType": "Anfrage",
+  "reference": "2025/0729",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

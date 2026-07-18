@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647228.pdf",
+      "created": "2023-05-12T13:05:06+02:00",
+      "date": "2023-05-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647228.pdf",
+      "fileName": "00647228.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647228",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 4 SPD-Anfrage Grötzinger Wochenmarkt",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647229.pdf",
+      "created": "2023-05-12T13:05:06+02:00",
+      "date": "2023-05-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647229.pdf",
+      "fileName": "00647229.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647229",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 4 Stellungnahme SPD-Anfrage Grötzinger Wochenmarkt",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78318",
+      "created": "2023-06-19T15:45:31+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29648",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/8920",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48605",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-05-12T13:04:30+02:00",
+  "date": "2023-05-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48605",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Grötzinger Wochenmarkt",
+  "paperType": "Anfrage",
+  "reference": "2023/0530",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

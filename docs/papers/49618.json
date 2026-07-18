@@ -1,0 +1,108 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00652600.pdf",
+      "created": "2023-10-24T16:24:51+02:00",
+      "date": "2023-10-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00652600.pdf",
+      "fileName": "00652600.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/652600",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654870.pdf",
+      "created": "2023-12-19T14:59:50+01:00",
+      "date": "2023-12-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654870.pdf",
+      "fileName": "00654870.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654870",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 22",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658274.pdf",
+      "created": "2024-05-07T14:43:43+02:00",
+      "date": "2024-05-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658274.pdf",
+      "fileName": "00658274.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658274",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659990.pdf",
+      "created": "2024-08-05T10:31:19+02:00",
+      "date": "2024-08-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659990.pdf",
+      "fileName": "00659990.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659990",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 16.07.2024 TOP 6, 7, 8, 18",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83205",
+      "authoritative": true,
+      "created": "2023-10-30T14:44:31+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30936",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9054",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49618",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86391",
+      "authoritative": true,
+      "created": "2024-05-06T11:46:55+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30967",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9563",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49618",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/87478",
+      "authoritative": true,
+      "created": "2024-06-28T10:11:51+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32378",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9528",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49618",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-10-24T16:08:28+02:00",
+  "date": "2023-10-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49618",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Kita-Gebühren gerecht verteilen",
+  "paperType": "Antrag",
+  "reference": "2023/1226",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

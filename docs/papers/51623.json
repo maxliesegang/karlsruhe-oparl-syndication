@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665171.pdf",
+      "created": "2025-02-25T14:41:00+01:00",
+      "date": "2025-02-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665171.pdf",
+      "fileName": "00665171.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665171",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-27T12:36:04+01:00",
+      "name": "Stellungnahme Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665172.pdf",
+      "created": "2025-02-25T14:41:12+01:00",
+      "date": "2025-02-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665172.pdf",
+      "fileName": "00665172.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665172",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-27T12:36:04+01:00",
+      "name": "Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92793",
+      "created": "2025-03-10T08:18:50+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33780",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9896",
+      "modified": "2025-03-13T10:17:24+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51623",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-02-25T14:40:33+01:00",
+  "date": "2025-02-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51623",
+  "modified": "2025-05-16T16:20:23+02:00",
+  "name": "Haushaltssperre 2025 Stadt Karlsruhe",
+  "paperType": "Antrag",
+  "reference": "2025/0196",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

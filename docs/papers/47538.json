@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00641050.pdf",
+      "created": "2022-09-28T12:20:19+02:00",
+      "date": "2022-09-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00641050.pdf",
+      "fileName": "00641050.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/641050",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00641083.pdf",
+      "created": "2022-09-29T09:24:12+02:00",
+      "date": "2022-09-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00641083.pdf",
+      "fileName": "00641083.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/641083",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642738.pdf",
+      "created": "2022-11-17T13:12:56+01:00",
+      "date": "2022-11-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642738.pdf",
+      "fileName": "00642738.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642738",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 40",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72882",
+      "authoritative": true,
+      "created": "2022-09-28T12:53:54+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28210",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6603",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47538",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-09-28T12:19:56+02:00",
+  "date": "2022-09-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47538",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Aufkommensneutralität der neuen Grundsteuer",
+  "paperType": "Anfrage",
+  "reference": "2022/2203",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

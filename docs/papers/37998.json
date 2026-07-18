@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612154.pdf",
+      "created": "2019-11-08T14:01:35+01:00",
+      "date": "2019-11-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612154.pdf",
+      "fileName": "00612154.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612154",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 5, Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612155.pdf",
+      "created": "2019-11-08T14:02:00+01:00",
+      "date": "2019-11-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612155.pdf",
+      "fileName": "00612155.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612155",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 5, STELLUNGNAHME",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47695",
+      "authoritative": true,
+      "created": "2019-11-08T10:16:52+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17368",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5474",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34764"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37998",
+      "role": "unbekannt",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-11-08T10:09:03+01:00",
+  "date": "2019-11-08",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37998",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Verbesserung des fließenden Busverkehrs",
+  "paperType": "Antrag",
+  "reference": "2019/1136",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882957"
+  ]
+}

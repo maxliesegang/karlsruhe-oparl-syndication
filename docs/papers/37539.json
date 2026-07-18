@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610590.pdf",
+      "created": "2019-07-22T17:06:41+02:00",
+      "date": "2019-07-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610590.pdf",
+      "fileName": "00610590.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610590",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Wahl Vertreter für Verbandsversammlung NVK",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610602.pdf",
+      "created": "2019-07-26T07:51:19+02:00",
+      "date": "2019-07-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610602.pdf",
+      "fileName": "00610602.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610602",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis Top3",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610708.pdf",
+      "created": "2019-08-16T14:22:40+02:00",
+      "date": "2019-08-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610708.pdf",
+      "fileName": "00610708.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610708",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46301",
+      "authoritative": true,
+      "created": "2019-06-27T14:27:19+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16803",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5374",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37539",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-06-27T14:00:47+02:00",
+  "date": "2019-06-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37539",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Nachbarschaftsverband Karlsruhe: Wahl der Vertreterinnen und Vertreter der Stadt Karlsruhe in die Verbandsversammlung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2019/0641",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882951"
+  ]
+}

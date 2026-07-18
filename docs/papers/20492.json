@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00006623.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2013-08-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00006623.pdf",
+      "fileName": "00006623.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/6623",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 14",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00006624.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2013-08-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00006624.pdf",
+      "fileName": "00006624.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/6624",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Millenniums-Erklärung_Bericht2008",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/20492",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/4201",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/1798",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/20492",
+      "role": "unbekannt",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2008-07-08",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/20492",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Milleniumsbericht 2008",
+  "paperType": "Beschlussvorlage",
+  "reference": "20492",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882950"
+  ]
+}

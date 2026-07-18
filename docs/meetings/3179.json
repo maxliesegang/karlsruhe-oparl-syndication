@@ -1,0 +1,83 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/10210",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/31454",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3179",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Hortentwicklung 2013",
+      "number": "1",
+      "order": 6511,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/10211",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/31455",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3179",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Rechtsanspruch für Kinder ab dem 1. Lebensjahr: Programm 600 plus",
+      "number": "2",
+      "order": 8918,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/10212",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/31456",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3179",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Dauerhafte Übernahme der Betriebsträgerschaft für die Kindertageseinrichtung Edith Stein in der Lessingstraße 16",
+      "number": "3",
+      "order": 9968,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00019508.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2013-08-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00019508.pdf",
+      "fileName": "00019508.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/19508",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Tagesordnung nö",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2016-10-12T09:08:39+02:00",
+  "end": "2013-03-13T00:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3179",
+  "location": {
+    "created": "2016-10-12T09:08:39+02:00",
+    "description": "Großer Sitzungssaal",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/3179",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Jugendhilfeausschuss",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+  ],
+  "start": "2013-03-13T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "verbatimProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00021408.pdf",
+    "created": "2016-10-12T09:08:36+02:00",
+    "date": "2013-08-15",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00021408.pdf",
+    "fileName": "00021408.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/21408",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung ö",
+    "type": "https://schema.oparl.org/1.1/File"
+  }
+}

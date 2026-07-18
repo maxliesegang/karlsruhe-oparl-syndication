@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678572.pdf",
+      "created": "2026-05-21T11:31:18+02:00",
+      "date": "2026-05-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678572.pdf",
+      "fileName": "00678572.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678572",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-06T14:25:53+02:00",
+      "name": "Beschlussvorlage Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102068",
+      "created": "2026-06-09T12:29:56+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37466",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10443",
+      "modified": "2026-07-17T09:50:09+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54591",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-05-21T11:30:22+02:00",
+  "date": "2026-05-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54591",
+  "modified": "2026-07-06T14:25:53+02:00",
+  "name": "Konzeptvergabe Niddaplatz",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0424",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

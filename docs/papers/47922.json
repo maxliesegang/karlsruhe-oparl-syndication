@@ -1,0 +1,71 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643383.pdf",
+      "created": "2022-12-14T08:10:43+01:00",
+      "date": "2022-12-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643383.pdf",
+      "fileName": "00643383.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643383",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643486.pdf",
+      "created": "2022-12-16T19:50:53+01:00",
+      "date": "2022-12-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643486.pdf",
+      "fileName": "00643486.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643486",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stn_Antrag_CDU",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643578.pdf",
+      "created": "2022-12-21T11:29:43+01:00",
+      "date": "2022-12-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643578.pdf",
+      "fileName": "00643578.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643578",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 9 CDU",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/74635",
+      "authoritative": true,
+      "created": "2022-12-14T09:03:56+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28766",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6608",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47922",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-12-14T08:10:37+01:00",
+  "date": "2022-12-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47922",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Baumaßnahme Neugestaltung Kaiserstraße",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2022/2305/2",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47783"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

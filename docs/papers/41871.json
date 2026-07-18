@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00628337.pdf",
+      "created": "2021-09-28T15:12:48+02:00",
+      "date": "2021-09-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00628337.pdf",
+      "fileName": "00628337.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/628337",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00628574.pdf",
+      "created": "2021-10-06T16:04:40+02:00",
+      "date": "2021-10-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00628574.pdf",
+      "fileName": "00628574.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/628574",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "STN Antrag Innovative Pflege",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634378.pdf",
+      "created": "2021-12-10T15:17:05+01:00",
+      "date": "2021-12-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634378.pdf",
+      "fileName": "00634378.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634378",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 27",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/60959",
+      "authoritative": true,
+      "created": "2021-09-30T11:39:14+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/22111",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6301",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41871",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-09-28T15:12:25+02:00",
+  "date": "2021-09-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41871",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Aufzeigen der Stärken des Modellprojekts \"Innovative Pflege\"",
+  "paperType": "Antrag",
+  "reference": "2021/1158",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

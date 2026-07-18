@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668263.pdf",
+      "created": "2025-06-24T07:13:28+02:00",
+      "date": "2025-06-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668263.pdf",
+      "fileName": "00668263.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668263",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T11:22:59+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668700.pdf",
+      "created": "2025-07-09T13:15:35+02:00",
+      "date": "2025-07-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668700.pdf",
+      "fileName": "00668700.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668700",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T11:22:59+02:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669515.pdf",
+      "created": "2025-08-19T11:22:56+02:00",
+      "date": "2025-08-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669515.pdf",
+      "fileName": "00669515.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669515",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T11:22:59+02:00",
+      "name": "Protokoll GR 29.07.2025 TOP 42",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94886",
+      "authoritative": true,
+      "created": "2025-06-27T09:55:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34466",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10051",
+      "modified": "2025-07-29T20:04:13+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52087",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-06-24T07:12:35+02:00",
+  "date": "2025-06-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52087",
+  "modified": "2025-08-19T11:22:59+02:00",
+  "name": "Der Wohnungsnot in Karlsruhe wieder Herrin werden",
+  "paperType": "Anfrage",
+  "reference": "2025/0617",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882965"
+  ]
+}

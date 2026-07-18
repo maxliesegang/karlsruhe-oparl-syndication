@@ -1,0 +1,93 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626452.pdf",
+      "created": "2021-06-23T09:06:29+02:00",
+      "date": "2021-06-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626452.pdf",
+      "fileName": "00626452.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626452",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626882.pdf",
+      "created": "2021-07-07T15:51:59+02:00",
+      "date": "2021-07-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626882.pdf",
+      "fileName": "00626882.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626882",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "STN SPD Schuldnerberatung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00627628.pdf",
+      "created": "2021-08-20T07:54:20+02:00",
+      "date": "2021-08-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00627628.pdf",
+      "fileName": "00627628.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/627628",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 27.07.2021 TOP 32",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635874.pdf",
+      "created": "2022-02-10T15:01:13+01:00",
+      "date": "2022-02-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635874.pdf",
+      "fileName": "00635874.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635874",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 4 Schuldnerinnenberatung in Corona-Zeiten",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/59461",
+      "authoritative": true,
+      "created": "2021-06-29T10:37:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21566",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6263",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41451",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/68039",
+      "created": "2022-02-10T14:58:58+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21798",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6613",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33195"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41451",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-06-23T09:05:24+02:00",
+  "date": "2021-06-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41451",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Schuldner*innenberatung in Corona-Zeiten",
+  "paperType": "Antrag",
+  "reference": "2021/0784",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

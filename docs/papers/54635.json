@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678868.pdf",
+      "created": "2026-06-05T11:37:27+02:00",
+      "date": "2026-06-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678868.pdf",
+      "fileName": "00678868.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678868",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-08T06:17:00+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679247.pdf",
+      "created": "2026-06-22T13:00:08+02:00",
+      "date": "2026-06-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679247.pdf",
+      "fileName": "00679247.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679247",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-08T06:17:00+02:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102100",
+      "created": "2026-06-10T09:49:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37544",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10558",
+      "modified": "2026-07-15T19:28:18+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33195"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54635",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-06-05T11:35:10+02:00",
+  "date": "2026-06-05",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54635",
+  "modified": "2026-07-08T06:17:00+02:00",
+  "name": "Pflege-Monitor 2026",
+  "paperType": "Informationsvorlage",
+  "reference": "2026/0468",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

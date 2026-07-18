@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678001.pdf",
+      "created": "2026-04-28T13:44:30+02:00",
+      "date": "2026-04-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678001.pdf",
+      "fileName": "00678001.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678001",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T14:56:30+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678183.pdf",
+      "created": "2026-05-06T08:58:41+02:00",
+      "date": "2026-05-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678183.pdf",
+      "fileName": "00678183.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678183",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T14:56:30+02:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679639.pdf",
+      "created": "2026-07-07T14:56:26+02:00",
+      "date": "2026-07-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679639.pdf",
+      "fileName": "00679639.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679639",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T14:56:30+02:00",
+      "name": "Protokoll GR 23.06.2026 TOP 33",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101924",
+      "authoritative": true,
+      "created": "2026-05-26T14:29:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37326",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10540",
+      "modified": "2026-06-24T10:12:16+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54492",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-04-28T13:43:46+02:00",
+  "date": "2026-04-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54492",
+  "modified": "2026-07-07T14:56:30+02:00",
+  "name": "Städtebauliche und soziale Aufwertung der Amalienstraße",
+  "paperType": "Anfrage",
+  "reference": "2026/0327",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

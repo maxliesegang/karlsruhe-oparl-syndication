@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656732.pdf",
+      "created": "2024-03-13T11:49:13+01:00",
+      "date": "2024-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656732.pdf",
+      "fileName": "00656732.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656732",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag Wettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656733.pdf",
+      "created": "2024-03-13T11:51:53+01:00",
+      "date": "2024-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656733.pdf",
+      "fileName": "00656733.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656733",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag Wettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/85212",
+      "authoritative": true,
+      "created": "2024-03-13T11:57:38+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31692",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9754",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50141",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-03-13T11:48:14+01:00",
+  "date": "2024-03-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50141",
+  "modified": "2026-02-16T14:15:30+01:00",
+  "name": "Bau von Photovoltaik-Anlagen in Grünwettersbach und Palmbach Antrag der CDU/FW-Fraktion im Ortschaftsrat Wettersbach",
+  "paperType": "Antrag",
+  "reference": "2024/0266",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882961"
+  ]
+}

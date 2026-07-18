@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00606300.pdf",
+      "created": "2018-11-14T10:40:04+01:00",
+      "date": "2018-11-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00606300.pdf",
+      "fileName": "00606300.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/606300",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00606415.pdf",
+      "created": "2018-11-21T13:17:32+01:00",
+      "date": "2018-11-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00606415.pdf",
+      "fileName": "00606415.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/606415",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 28",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607083.pdf",
+      "created": "2019-01-08T08:12:23+01:00",
+      "date": "2019-01-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607083.pdf",
+      "fileName": "00607083.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607083",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 28",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44413",
+      "authoritative": true,
+      "created": "2018-10-30T16:36:48+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15837",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4973",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36750",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-10-24T14:40:38+02:00",
+  "date": "2018-10-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36750",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Anbindung Neubaugebiet Oberer Säuterich",
+  "paperType": "Anfrage",
+  "reference": "2018/0738",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

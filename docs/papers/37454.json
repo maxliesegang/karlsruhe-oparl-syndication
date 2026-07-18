@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609924.pdf",
+      "created": "2019-05-28T11:28:58+02:00",
+      "date": "2019-05-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609924.pdf",
+      "fileName": "00609924.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609924",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "ORS_Anfrage_SPD_Oberer_Säuterich",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610044.pdf",
+      "created": "2019-06-04T06:36:43+02:00",
+      "date": "2019-06-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610044.pdf",
+      "fileName": "00610044.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610044",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "ORS_Stellungnahme_SPD_Oberer_Säuterich_StPlA",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46089",
+      "created": "2019-05-28T11:52:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16694",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5542",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37454",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-05-28T11:26:05+02:00",
+  "date": "2019-05-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37454",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Neues Wohnbaugebiet \"Oberer Säuterich\"",
+  "paperType": "Anfrage",
+  "reference": "2019/0554",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651780.pdf",
+      "created": "2023-10-17T19:02:49+02:00",
+      "date": "2023-10-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651780.pdf",
+      "fileName": "00651780.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651780",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag SR Fenrich_003",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653240.pdf",
+      "created": "2023-11-03T14:16:46+01:00",
+      "date": "2023-11-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653240.pdf",
+      "fileName": "00653240.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653240",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "3208 Stellungnahme DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653890.pdf",
+      "created": "2023-11-21T17:05:09+01:00",
+      "date": "2023-11-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653890.pdf",
+      "fileName": "00653890.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653890",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmung TOP 1.66",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654550.pdf",
+      "created": "2023-12-15T10:55:32+01:00",
+      "date": "2023-12-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654550.pdf",
+      "fileName": "00654550.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654550",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Auszug Protokoll GR Antrag 1.66",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/82792",
+      "authoritative": true,
+      "created": "2023-10-19T10:54:12+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30709",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9446",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49397",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-10-17T19:01:02+02:00",
+  "date": "2023-10-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49397",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Städtischer Fonds für Tierarztkosten",
+  "paperType": "Haushalt THH 3200",
+  "reference": "DHH/2023/3208",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

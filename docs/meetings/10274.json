@@ -1,0 +1,100 @@
+{
+  "agendaItem": [
+    {
+      "created": "2025-02-20T15:51:24+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92531",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10274",
+      "modified": "2025-05-12T15:30:39+02:00",
+      "name": "Aktueller Stand Team Bergdörfer",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-05-13T11:39:41+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93891",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10274",
+      "modified": "2025-05-13T11:39:41+02:00",
+      "name": "Haushaltsstabilisierungsprozess der Stadt Karlsruhe",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-05-13T11:39:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93890",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10274",
+      "modified": "2025-05-13T11:39:41+02:00",
+      "name": "Grenzsteinanlage alter Friedhof",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-05-12T15:30:37+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93878",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10274",
+      "modified": "2025-05-13T11:39:41+02:00",
+      "name": "Mitteilungen der Verwaltung",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-05-12T15:30:53+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93879",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10274",
+      "modified": "2025-05-13T11:39:41+02:00",
+      "name": "Mündliche Anfragen",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2024-11-05T14:37:56+01:00",
+  "end": "2025-06-04T00:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10274",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667122.pdf",
+    "created": "2025-05-13T11:40:24+02:00",
+    "date": "2025-05-13",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667122.pdf",
+    "fileName": "00667122.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667122",
+    "mimeType": "application/pdf",
+    "modified": "2025-05-22T11:35:51+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2024-11-05T14:37:56+01:00",
+    "description": "Begegnungsstätte Wolfartsweier, Rathausstr. 2a",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10274",
+    "modified": "2025-07-10T11:04:06+02:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-07-10T11:04:06+02:00",
+  "name": "Ortschaftsrat Wolfartsweier (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+  ],
+  "resultsProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668721.pdf",
+    "created": "2025-07-10T11:03:51+02:00",
+    "date": "2025-07-10",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668721.pdf",
+    "fileName": "00668721.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668721",
+    "mimeType": "application/pdf",
+    "modified": "2025-07-10T11:04:06+02:00",
+    "name": "ö Protokoll",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "start": "2025-06-04T19:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

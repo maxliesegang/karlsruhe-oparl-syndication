@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656593.pdf",
+      "created": "2024-03-07T15:08:14+01:00",
+      "date": "2024-03-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656593.pdf",
+      "fileName": "00656593.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656593",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Systemskizze",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656594.pdf",
+      "created": "2024-03-07T15:08:33+01:00",
+      "date": "2024-03-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656594.pdf",
+      "fileName": "00656594.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656594",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Lageplan",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656604.pdf",
+      "created": "2024-03-08T12:00:12+01:00",
+      "date": "2024-03-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656604.pdf",
+      "fileName": "00656604.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656604",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/85218",
+      "created": "2024-03-13T12:18:11+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31665",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9541",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50120",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-03-07T13:11:40+01:00",
+  "date": "2024-03-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50120",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Teilerneuerung der Lärmschutzwand Geroldsäcker",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0245",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

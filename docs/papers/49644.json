@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00652983.pdf",
+      "created": "2023-10-30T08:30:40+01:00",
+      "date": "2023-10-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00652983.pdf",
+      "fileName": "00652983.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/652983",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653004.pdf",
+      "created": "2023-10-30T12:21:16+01:00",
+      "date": "2023-10-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653004.pdf",
+      "fileName": "00653004.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653004",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654876.pdf",
+      "created": "2023-12-19T15:01:48+01:00",
+      "date": "2023-12-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654876.pdf",
+      "fileName": "00654876.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654876",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 28",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83213",
+      "authoritative": true,
+      "created": "2023-10-30T14:44:31+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30966",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9054",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49644",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-10-30T08:30:13+01:00",
+  "date": "2023-10-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49644",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Wie entwickelte sich das PKW-Stellplatzangebot in Relation zur Einwohnerzahl zwischen den Jahren 2012 und 2022 in Karlsruhe?",
+  "paperType": "Anfrage",
+  "reference": "2023/1250",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

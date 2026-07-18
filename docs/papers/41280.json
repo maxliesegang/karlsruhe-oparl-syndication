@@ -1,0 +1,71 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625763.pdf",
+      "created": "2021-05-31T09:46:17+02:00",
+      "date": "2021-05-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625763.pdf",
+      "fileName": "00625763.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625763",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Vergabe der Lieferung von Mittagsverpflegung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626495.pdf",
+      "created": "2021-06-23T12:40:14+02:00",
+      "date": "2021-06-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626495.pdf",
+      "fileName": "00626495.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626495",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00627071.pdf",
+      "created": "2021-07-19T08:11:47+02:00",
+      "date": "2021-07-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00627071.pdf",
+      "fileName": "00627071.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/627071",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 10 22.06.2021",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/58131",
+      "authoritative": true,
+      "created": "2021-05-21T14:54:20+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21322",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6235",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41280",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-05-20T11:22:24+02:00",
+  "date": "2021-05-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41280",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Vergabe der Lieferung von Mittagsverpflegung an neun Schulen für das Schuljahr 2021/2022 mit der Option auf Vertragsverlängerung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/0622",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41433"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

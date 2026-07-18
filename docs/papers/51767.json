@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666290.pdf",
+      "created": "2025-04-08T16:08:48+02:00",
+      "date": "2025-04-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666290.pdf",
+      "fileName": "00666290.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666290",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T07:41:44+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666301.pdf",
+      "created": "2025-04-09T11:20:07+02:00",
+      "date": "2025-04-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666301.pdf",
+      "fileName": "00666301.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666301",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T07:41:44+02:00",
+      "name": "Anhang_1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667617.pdf",
+      "created": "2025-06-02T14:59:56+02:00",
+      "date": "2025-06-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667617.pdf",
+      "fileName": "00667617.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667617",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T07:41:44+02:00",
+      "name": "Abstimmungsergebnis TOP 18",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668037.pdf",
+      "created": "2025-06-17T07:41:38+02:00",
+      "date": "2025-06-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668037.pdf",
+      "fileName": "00668037.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668037",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T07:41:44+02:00",
+      "name": "Protokoll GR 27.05.2025 TOP 18",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93765",
+      "authoritative": true,
+      "created": "2025-05-07T08:24:15+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33996",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10048",
+      "modified": "2025-05-27T18:00:27+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51767",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-04-07T16:22:17+02:00",
+  "date": "2025-04-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51767",
+  "modified": "2025-06-17T07:41:44+02:00",
+  "name": "Benennung eines Weges in Grünwinkel mit \"Badener-Höhe-Weg\"",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0328",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

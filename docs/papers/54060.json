@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674408.pdf",
+      "created": "2025-12-02T15:34:48+01:00",
+      "date": "2025-12-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674408.pdf",
+      "fileName": "00674408.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674408",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-13T09:36:37+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676356.pdf",
+      "created": "2026-02-03T13:47:30+01:00",
+      "date": "2026-02-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676356.pdf",
+      "fileName": "00676356.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676356",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-13T09:36:37+01:00",
+      "name": "Stellungnahme Übergriffe Anfrage AfD",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676384.pdf",
+      "created": "2026-02-04T11:14:03+01:00",
+      "date": "2026-02-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676384.pdf",
+      "fileName": "00676384.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676384",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-13T09:36:37+01:00",
+      "name": "Anlage StN Übergriffe AfD aktualisiert",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677062.pdf",
+      "created": "2026-03-13T09:36:34+01:00",
+      "date": "2026-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677062.pdf",
+      "fileName": "00677062.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677062",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-13T09:36:37+01:00",
+      "name": "Protokoll GR 24.02.2026 TOP 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100186",
+      "authoritative": true,
+      "created": "2026-01-27T11:08:31+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36704",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10476",
+      "modified": "2026-02-24T17:10:26+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54060",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-12-02T15:33:33+01:00",
+  "date": "2025-12-02",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54060",
+  "modified": "2026-03-13T09:36:37+01:00",
+  "name": "Angriffe und Bedrohungen auf städtisches Personal",
+  "paperType": "Anfrage",
+  "reference": "2025/1226",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882953"
+  ]
+}

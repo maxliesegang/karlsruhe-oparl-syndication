@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648181.pdf",
+      "created": "2023-06-16T09:06:43+02:00",
+      "date": "2023-06-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648181.pdf",
+      "fileName": "00648181.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648181",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649240.pdf",
+      "created": "2023-07-25T16:16:38+02:00",
+      "date": "2023-07-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649240.pdf",
+      "fileName": "00649240.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649240",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649522.pdf",
+      "created": "2023-08-03T12:23:12+02:00",
+      "date": "2023-08-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649522.pdf",
+      "fileName": "00649522.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649522",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 33",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78368",
+      "authoritative": true,
+      "created": "2023-06-20T11:19:31+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29850",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9047",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48761",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78681",
+      "created": "2023-06-30T13:20:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29866",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9132",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48761",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-06-16T09:05:56+02:00",
+  "date": "2023-06-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48761",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Maßnahmen zur Verbesserung der ambulanten ärztlichen Versorgung in Karlsruhe",
+  "paperType": "Antrag",
+  "reference": "2023/0680",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882975"
+  ]
+}

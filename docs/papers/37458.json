@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609931.pdf",
+      "created": "2019-05-28T11:50:24+02:00",
+      "date": "2019-05-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609931.pdf",
+      "fileName": "00609931.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609931",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "ORS-Anfrage_OR_Dr._Dingler_Lärmbeseitigung_Wendeschleife",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609932.pdf",
+      "created": "2019-05-28T11:50:41+02:00",
+      "date": "2019-05-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609932.pdf",
+      "fileName": "00609932.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609932",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "ORS-Stellungnahme_OR_Dr_Dingler_Lärmbeseitigung_Wendeschleife_VBK",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46093",
+      "created": "2019-05-28T11:52:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16698",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5542",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37458",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-05-28T11:49:48+02:00",
+  "date": "2019-05-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37458",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Lärmbeseitigung an der Straßenbahnendhaltestelle Wolfartsweier-Nord",
+  "paperType": "Anfrage",
+  "reference": "2019/0558",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+  ]
+}

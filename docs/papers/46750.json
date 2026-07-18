@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00637307.pdf",
+      "created": "2022-04-26T15:49:11+02:00",
+      "date": "2022-04-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00637307.pdf",
+      "fileName": "00637307.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/637307",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638166.pdf",
+      "created": "2022-06-02T08:31:17+02:00",
+      "date": "2022-06-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638166.pdf",
+      "fileName": "00638166.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638166",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638412.pdf",
+      "created": "2022-06-17T09:16:11+02:00",
+      "date": "2022-06-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638412.pdf",
+      "fileName": "00638412.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638412",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 31.05.2022 TOP 19",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70120",
+      "created": "2022-05-13T12:54:43+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27234",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6590",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46750",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70172",
+      "created": "2022-05-18T14:37:50+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27365",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6645",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46750",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-04-26T15:46:49+02:00",
+  "date": "2022-04-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46750",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Innovative Logistikkonzepte für die Innenstadt",
+  "paperType": "Antrag",
+  "reference": "2022/0446",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

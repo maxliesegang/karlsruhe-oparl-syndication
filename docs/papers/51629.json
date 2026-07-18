@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665240.pdf",
+      "created": "2025-02-27T13:00:53+01:00",
+      "date": "2025-02-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665240.pdf",
+      "fileName": "00665240.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665240",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-31T08:01:18+02:00",
+      "name": "Anfrage Wettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665250.pdf",
+      "created": "2025-02-27T13:26:30+01:00",
+      "date": "2025-02-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665250.pdf",
+      "fileName": "00665250.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665250",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-31T08:01:18+02:00",
+      "name": "Stellungnahme Anfrage Wettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92681",
+      "authoritative": true,
+      "created": "2025-02-27T13:27:14+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33798",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10207",
+      "modified": "2025-04-09T08:25:20+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51629",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-02-27T12:59:46+01:00",
+  "date": "2025-02-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51629",
+  "modified": "2025-04-14T15:40:25+02:00",
+  "name": "Aschenbechern an Haltestellen hier: Kooperation mit den City Cleaners Karlsruhe Anfrage der Bündnis90/Die Grünen-Ortschaftsratsfraktion Wettersbach",
+  "paperType": "Anfrage",
+  "reference": "2025/0202",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882961"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664636.pdf",
+      "created": "2025-01-31T12:01:48+01:00",
+      "date": "2025-01-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664636.pdf",
+      "fileName": "00664636.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664636",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-10T08:08:26+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665957.pdf",
+      "created": "2025-03-25T19:42:59+01:00",
+      "date": "2025-03-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665957.pdf",
+      "fileName": "00665957.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665957",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-10T08:08:26+02:00",
+      "name": "Abstsimmungsergebnis",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666345.pdf",
+      "created": "2025-04-10T08:08:22+02:00",
+      "date": "2025-04-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666345.pdf",
+      "fileName": "00666345.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666345",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-10T08:08:26+02:00",
+      "name": "Protokoll GR 25.03.2025 TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92605",
+      "authoritative": true,
+      "created": "2025-02-25T11:44:58+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33634",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10046",
+      "modified": "2025-03-25T19:03:14+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51525",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92842",
+      "authoritative": true,
+      "created": "2025-03-11T13:04:08+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33633",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10104",
+      "modified": "2025-03-21T11:16:11+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51525",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-01-31T11:57:48+01:00",
+  "date": "2025-01-31",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51525",
+  "modified": "2025-04-10T08:08:26+02:00",
+  "name": "Goethe-Gymnasium: Einrichtung des Profilfachs \"Bildende Kunst\"",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0106",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

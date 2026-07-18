@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642574.pdf",
+      "created": "2022-11-15T10:29:23+01:00",
+      "date": "2022-11-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642574.pdf",
+      "fileName": "00642574.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642574",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644967.pdf",
+      "created": "2023-02-15T10:29:56+01:00",
+      "date": "2023-02-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644967.pdf",
+      "fileName": "00644967.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644967",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN zur Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646052.pdf",
+      "created": "2023-03-27T13:33:51+02:00",
+      "date": "2023-03-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646052.pdf",
+      "fileName": "00646052.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646052",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 23",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75484",
+      "authoritative": true,
+      "created": "2023-01-27T10:04:10+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28573",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9042",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47777",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-11-15T10:29:02+01:00",
+  "date": "2022-11-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47777",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Unbesetzte Stellen im Bereich Karlsruher Grundschulen",
+  "paperType": "Anfrage",
+  "reference": "2022/2299",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

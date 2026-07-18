@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618871.pdf",
+      "created": "2020-07-17T07:34:04+02:00",
+      "date": "2020-07-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618871.pdf",
+      "fileName": "00618871.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618871",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618947.pdf",
+      "created": "2020-07-21T15:08:48+02:00",
+      "date": "2020-07-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618947.pdf",
+      "fileName": "00618947.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618947",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 14",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53759",
+      "authoritative": true,
+      "created": "2020-07-17T11:26:56+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19809",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5667",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40120",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-07-17T07:33:44+02:00",
+  "date": "2020-07-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40120",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Städtebaulicher Rahmenplan Neureut-Zentrum III",
+  "paperType": "Anfrage",
+  "reference": "2020/0911",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

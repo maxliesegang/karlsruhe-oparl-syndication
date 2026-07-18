@@ -1,0 +1,79 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00591446.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2016-04-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00591446.pdf",
+      "fileName": "00591446.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/591446",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage - Bericht Bio-Essen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00591447.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2016-04-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00591447.pdf",
+      "fileName": "00591447.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/591447",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Nachhaltige Essensversorgung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00592009.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2016-05-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00592009.pdf",
+      "fileName": "00592009.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/592009",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 17",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2016-10-12T09:08:36+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/13199",
+      "modified": "2018-11-28T14:19:31+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/34694",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/38013",
+      "authoritative": true,
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/13200",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4135",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/34694",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2016-04-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/34694",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Nachhaltige Essensversorgung bei der Stadt Karlsruhe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2016/0170",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882975"
+  ]
+}

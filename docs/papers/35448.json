@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00596980.pdf",
+      "created": "2017-04-12T11:46:31+02:00",
+      "date": "2017-04-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00596980.pdf",
+      "fileName": "00596980.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/596980",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 22",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00596981.pdf",
+      "created": "2017-04-12T11:46:45+02:00",
+      "date": "2017-04-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00596981.pdf",
+      "fileName": "00596981.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/596981",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "CDU-U3-Betreuungsbedarf",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00597660.pdf",
+      "created": "2017-05-19T14:26:14+02:00",
+      "date": "2017-05-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00597660.pdf",
+      "fileName": "00597660.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/597660",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 22",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/40508",
+      "authoritative": true,
+      "created": "2017-03-29T08:28:43+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14182",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4564",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35448",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-03-15T09:43:09+01:00",
+  "date": "2017-03-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35448",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "U3 Betreuungsbedarf",
+  "paperType": "Antrag",
+  "reference": "2017/0187",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

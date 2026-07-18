@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625502.pdf",
+      "created": "2021-05-18T09:43:49+02:00",
+      "date": "2021-05-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625502.pdf",
+      "fileName": "00625502.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625502",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626281.pdf",
+      "created": "2021-06-17T10:50:37+02:00",
+      "date": "2021-06-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626281.pdf",
+      "fileName": "00626281.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626281",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN_Möglicher Personenkreis für Durchführung gemeinnütziger Tätigkeiten KA",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00627082.pdf",
+      "created": "2021-07-19T08:17:13+02:00",
+      "date": "2021-07-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00627082.pdf",
+      "fileName": "00627082.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/627082",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 22 22.06.2021",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/58160",
+      "authoritative": true,
+      "created": "2021-05-21T14:54:21+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21294",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6235",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41263",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-05-18T09:42:41+02:00",
+  "date": "2021-05-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41263",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Möglicher Personenkreis zur Durchführung gemeinnütziger Tätigkeiten nach dem Asylbewerberleistungsgesetz bei der Stadt Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2021/0608",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

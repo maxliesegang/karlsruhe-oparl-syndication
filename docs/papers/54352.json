@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677040.pdf",
+      "created": "2026-03-12T14:48:23+01:00",
+      "date": "2026-03-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677040.pdf",
+      "fileName": "00677040.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677040",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-13T13:29:33+02:00",
+      "name": "Anfrage Hohenwettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677273.pdf",
+      "created": "2026-03-24T15:31:20+01:00",
+      "date": "2026-03-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677273.pdf",
+      "fileName": "00677273.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677273",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-13T13:29:33+02:00",
+      "name": "Stellungnahme Anfrage Hohenwettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100776",
+      "created": "2026-03-12T14:51:57+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37118",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10767",
+      "modified": "2026-04-08T13:46:27+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34322"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54352",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-03-12T14:43:44+01:00",
+  "date": "2026-03-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54352",
+  "modified": "2026-04-13T13:29:33+02:00",
+  "name": "Schulbusverkehr von Hohenwettersbach",
+  "paperType": "Anfrage",
+  "reference": "2026/0209",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882959"
+  ]
+}

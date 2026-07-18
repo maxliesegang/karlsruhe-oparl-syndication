@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00145779.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2014-02-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00145779.pdf",
+      "fileName": "00145779.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/145779",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 26",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00145780.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2014-02-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00145780.pdf",
+      "fileName": "00145780.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/145780",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "GRÜNE-Sicherstellung Trinkwasserversorgung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00146630.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2014-04-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00146630.pdf",
+      "fileName": "00146630.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/146630",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 26",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/34012",
+      "authoritative": true,
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/11182",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3473",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/33065",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2014-01-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/33065",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Sicherstellung der Karlsruher Trinkwasserversorgung",
+  "paperType": "Anfrage",
+  "reference": "2014/0360",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882988"
+  ]
+}

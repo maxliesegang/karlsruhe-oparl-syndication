@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669895.pdf",
+      "created": "2025-09-03T15:01:59+02:00",
+      "date": "2025-09-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669895.pdf",
+      "fileName": "00669895.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669895",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-11T10:18:26+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96096",
+      "authoritative": true,
+      "created": "2025-09-04T07:08:26+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34795",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10109",
+      "modified": "2025-10-17T14:03:17+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52336",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-09-03T14:58:53+02:00",
+  "date": "2025-09-03",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52336",
+  "modified": "2025-10-13T08:06:05+02:00",
+  "name": "Weiterentwicklung Fachstelle für Demokratie und Vielfalt - Lernort Stadion",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/0841",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

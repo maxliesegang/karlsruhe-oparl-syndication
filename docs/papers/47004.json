@@ -1,0 +1,93 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638721.pdf",
+      "created": "2022-07-01T10:15:37+02:00",
+      "date": "2022-07-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638721.pdf",
+      "fileName": "00638721.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638721",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage Entwicklungskonzept Naturpark",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638722.pdf",
+      "created": "2022-07-01T10:16:10+02:00",
+      "date": "2022-07-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638722.pdf",
+      "fileName": "00638722.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638722",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Entwicklungskonzept",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00639343.pdf",
+      "created": "2022-07-27T09:46:38+02:00",
+      "date": "2022-07-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00639343.pdf",
+      "fileName": "00639343.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/639343",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP23 Abstimmung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00639874.pdf",
+      "created": "2022-08-22T11:55:38+02:00",
+      "date": "2022-08-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00639874.pdf",
+      "fileName": "00639874.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/639874",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 26.07.2022 TOP 23",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70628",
+      "created": "2022-06-23T08:15:19+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27576",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6665",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47004",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/71046",
+      "authoritative": true,
+      "created": "2022-06-29T10:02:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27577",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6597",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47004",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-06-23T08:13:54+02:00",
+  "date": "2022-06-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47004",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Entwicklungskonzept für die Mitgliedschaft der Stadt Karlsruhe im Naturpark Schwarzwald Mitte/Nord e. V. und für die Patenschaft der Stadt Karlsruhe mit dem Nationalpark Schwarzwald",
+  "paperType": "Beschlussvorlage",
+  "reference": "2022/0691",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883003"
+  ]
+}

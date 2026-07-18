@@ -1,0 +1,82 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626436.pdf",
+      "created": "2021-06-22T13:32:17+02:00",
+      "date": "2021-06-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626436.pdf",
+      "fileName": "00626436.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626436",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626840.pdf",
+      "created": "2021-07-06T12:25:21+02:00",
+      "date": "2021-07-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626840.pdf",
+      "fileName": "00626840.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626840",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN INKA Coronahilfe",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00631082.pdf",
+      "created": "2021-11-02T12:19:02+01:00",
+      "date": "2021-11-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00631082.pdf",
+      "fileName": "00631082.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/631082",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Hinweis zu TOP 33",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/59457",
+      "authoritative": true,
+      "created": "2021-06-29T10:37:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21560",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6263",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41445",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/60473",
+      "authoritative": true,
+      "created": "2021-08-24T13:27:07+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21560",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6279",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41445",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-06-22T13:31:55+02:00",
+  "date": "2021-06-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41445",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Einmalige Corona-Notfallhilfe für INKA Verlag",
+  "paperType": "Antrag",
+  "reference": "2021/0778",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

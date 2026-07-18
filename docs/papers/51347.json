@@ -1,0 +1,82 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663388.pdf",
+      "created": "2024-12-03T14:42:06+01:00",
+      "date": "2024-12-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663388.pdf",
+      "fileName": "00663388.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663388",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663904.pdf",
+      "created": "2024-12-19T17:21:01+01:00",
+      "date": "2024-12-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663904.pdf",
+      "fileName": "00663904.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663904",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664477.pdf",
+      "created": "2025-01-27T08:41:43+01:00",
+      "date": "2025-01-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664477.pdf",
+      "fileName": "00664477.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664477",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 21.01.2025 TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91702",
+      "authoritative": true,
+      "created": "2024-12-13T11:56:44+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33366",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10044",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51347",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92104",
+      "authoritative": true,
+      "created": "2025-01-21T15:30:17+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33370",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10112",
+      "modified": "2025-04-08T18:06:47+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54889"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51347",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-12-03T14:41:42+01:00",
+  "date": "2024-12-03",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51347",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Lehren ziehen: Abfallentsorgungssatzung zukunftssicher und bürgerfreundlich gestalten",
+  "paperType": "Antrag",
+  "reference": "2024/1383",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

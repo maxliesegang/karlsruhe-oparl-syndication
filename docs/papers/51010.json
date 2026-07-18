@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661080.pdf",
+      "created": "2024-09-24T13:42:40+02:00",
+      "date": "2024-09-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661080.pdf",
+      "fileName": "00661080.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661080",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661094.pdf",
+      "created": "2024-09-24T14:19:12+02:00",
+      "date": "2024-09-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661094.pdf",
+      "fileName": "00661094.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661094",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90264",
+      "authoritative": true,
+      "created": "2024-09-24T14:29:54+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32886",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9531",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51010",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-09-24T13:42:17+02:00",
+  "date": "2024-09-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51010",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Weiteres Vorgehen bei der Wertstofferfassung und Entscheidung über Fortgang des Vergabeverfahrens",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2024/0934/2",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50862"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

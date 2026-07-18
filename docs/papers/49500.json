@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651915.pdf",
+      "created": "2023-10-18T11:04:38+02:00",
+      "date": "2023-10-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651915.pdf",
+      "fileName": "00651915.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651915",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag Interfrak_015",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653302.pdf",
+      "created": "2023-11-03T16:14:59+01:00",
+      "date": "2023-11-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653302.pdf",
+      "fileName": "00653302.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653302",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "5024 Stellungnahme DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654651.pdf",
+      "created": "2023-12-15T11:35:38+01:00",
+      "date": "2023-12-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654651.pdf",
+      "fileName": "00654651.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654651",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Auszug Protokoll GR Antrag 1.166_1.167_1.168",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/82891",
+      "authoritative": true,
+      "created": "2023-10-19T10:54:13+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30767",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9446",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49500",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-10-18T11:03:29+02:00",
+  "date": "2023-10-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49500",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Unterstützung des \"Vereins zum Schutz misshandelter Frauen e. V.\"",
+  "paperType": "Haushalt THH 5000",
+  "reference": "DHH/2023/5024",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

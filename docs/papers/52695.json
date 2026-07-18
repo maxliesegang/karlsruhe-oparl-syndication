@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674083.pdf",
+      "created": "2025-11-28T13:00:09+01:00",
+      "date": "2025-11-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674083.pdf",
+      "fileName": "00674083.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674083",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-26T13:15:09+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675886.pdf",
+      "created": "2026-01-21T08:17:35+01:00",
+      "date": "2026-01-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675886.pdf",
+      "fileName": "00675886.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675886",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-26T13:15:09+01:00",
+      "name": "Protokoll GR 16.-18.12.2025 TOP 16",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676082.pdf",
+      "created": "2026-01-26T13:15:03+01:00",
+      "date": "2026-01-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676082.pdf",
+      "fileName": "00676082.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676082",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-26T13:15:09+01:00",
+      "name": "Abstimmungsergebnis",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99202",
+      "authoritative": true,
+      "created": "2025-11-24T08:36:36+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35336",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10607",
+      "modified": "2025-12-17T13:57:37+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52695",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-18T15:58:22+01:00",
+  "date": "2025-11-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52695",
+  "modified": "2026-01-26T13:15:09+01:00",
+  "name": "Egon von Neindorff Reitinstitut: Streichung des jährlichen Unterhaltungszuschusses der Stadt Karlsruhe im Rahmen der Haushaltskonsolidierung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1155",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

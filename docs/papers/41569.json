@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626936.pdf",
+      "created": "2021-07-12T07:33:56+02:00",
+      "date": "2021-07-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626936.pdf",
+      "fileName": "00626936.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626936",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00628032.pdf",
+      "created": "2021-09-13T11:48:11+02:00",
+      "date": "2021-09-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00628032.pdf",
+      "fileName": "00628032.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/628032",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN Anfrage FDP Wettbewerbs- und Zukunftsfähigkeit",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00631093.pdf",
+      "created": "2021-11-02T13:29:08+01:00",
+      "date": "2021-11-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00631093.pdf",
+      "fileName": "00631093.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/631093",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 43",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/60486",
+      "authoritative": true,
+      "created": "2021-08-24T13:27:07+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21707",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6279",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41569",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-07-12T07:32:41+02:00",
+  "date": "2021-07-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41569",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Wettbewerbs- und Zukunftsfähigkeit des Wirtschaftsstandorts Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2021/0899",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

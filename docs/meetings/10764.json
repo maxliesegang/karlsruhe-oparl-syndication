@@ -1,0 +1,81 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36974",
+      "created": "2026-02-05T14:10:44+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100345",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10764",
+      "modified": "2026-02-05T14:10:44+01:00",
+      "name": "Entwicklung eines Gestaltung- und Nutzungskonzeptes für den Lustgarten Hohenwettersbach und Ausweisung eines Nutzungsareals für einen Gemeinschafts-und Mitmach-Garten",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-02-05T14:30:24+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100347",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10764",
+      "modified": "2026-02-05T14:30:24+01:00",
+      "name": "Mitteilungen der Ortsverwaltung",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-02-05T14:31:03+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100348",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10764",
+      "modified": "2026-02-05T14:31:03+01:00",
+      "name": "Anregungen aus dem Ortschaftsrat",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677007.pdf",
+      "created": "2026-03-11T12:06:25+01:00",
+      "date": "2026-03-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677007.pdf",
+      "fileName": "00677007.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677007",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-11T12:06:37+01:00",
+      "name": "Protokoll Öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2025-11-27T16:27:10+01:00",
+  "end": "2026-02-18T00:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10764",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676414.pdf",
+    "created": "2026-02-05T14:36:59+01:00",
+    "date": "2026-02-05",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676414.pdf",
+    "fileName": "00676414.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676414",
+    "mimeType": "application/pdf",
+    "modified": "2026-02-10T14:03:39+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2025-11-27T16:27:10+01:00",
+    "description": "Bürgersaal im Rathaus Hohenwettersbach",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10764",
+    "modified": "2026-03-11T12:06:37+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-03-11T12:06:37+01:00",
+  "name": "Ortschaftsrat Hohenwettersbach (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34322"
+  ],
+  "start": "2026-02-18T19:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

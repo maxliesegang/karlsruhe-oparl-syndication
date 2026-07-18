@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664911.pdf",
+      "created": "2025-02-12T15:59:07+01:00",
+      "date": "2025-02-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664911.pdf",
+      "fileName": "00664911.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664911",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-03T11:07:23+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664980.pdf",
+      "created": "2025-02-17T14:29:01+01:00",
+      "date": "2025-02-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664980.pdf",
+      "fileName": "00664980.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664980",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-03T11:07:23+02:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666150.pdf",
+      "created": "2025-04-03T11:07:21+02:00",
+      "date": "2025-04-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666150.pdf",
+      "fileName": "00666150.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666150",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-03T11:07:23+02:00",
+      "name": "Protokoll GR 25.03.2025 TOP 33",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92629",
+      "authoritative": true,
+      "created": "2025-02-25T11:44:59+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33698",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10046",
+      "modified": "2025-03-25T19:12:05+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51573",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-02-12T15:58:10+01:00",
+  "date": "2025-02-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51573",
+  "modified": "2025-04-03T11:07:23+02:00",
+  "name": "Sachstand Bolzplatz Bulach",
+  "paperType": "Anfrage",
+  "reference": "2025/0150",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882984"
+  ]
+}

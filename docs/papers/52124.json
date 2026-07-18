@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668495.pdf",
+      "created": "2025-06-30T10:06:51+02:00",
+      "date": "2025-06-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668495.pdf",
+      "fileName": "00668495.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668495",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-01T20:03:31+02:00",
+      "name": "Beschlussvorlage Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94904",
+      "authoritative": true,
+      "created": "2025-06-30T10:33:50+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34516",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9899",
+      "modified": "2025-07-17T08:33:46+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52124",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-06-30T10:06:15+02:00",
+  "date": "2025-06-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52124",
+  "modified": "2025-07-01T20:03:31+02:00",
+  "name": "Bauvoranfrage Baden-Gesundheitszentrum",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0649",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

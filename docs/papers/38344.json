@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614648.pdf",
+      "created": "2020-01-31T14:55:18+01:00",
+      "date": "2020-01-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614648.pdf",
+      "fileName": "00614648.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614648",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615538.pdf",
+      "created": "2020-03-13T08:17:52+01:00",
+      "date": "2020-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615538.pdf",
+      "fileName": "00615538.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615538",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 47",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00616862.pdf",
+      "created": "2020-03-30T10:04:43+02:00",
+      "date": "2020-03-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00616862.pdf",
+      "fileName": "00616862.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/616862",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 47",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/50045",
+      "created": "2020-02-24T12:00:47+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17797",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5663",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38344",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-01-31T14:53:54+01:00",
+  "date": "2020-02-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38344",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Luftreinigung durch künstliche Bäume",
+  "paperType": "Antrag",
+  "reference": "2020/0131",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00003524.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2013-08-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00003524.pdf",
+      "fileName": "00003524.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/3524",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "SPD-Heinrich-Köhler",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00003525.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2014-01-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00003525.pdf",
+      "fileName": "00003525.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/3525",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 26",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/20865",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/4410",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/1811",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/20865",
+      "role": "unbekannt",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2008-09-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/20865",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Anfrage der SPD vom 31. Juli 2008: Heinrich-Köhler-Platz in der Nordweststadt",
+  "paperType": "Beschlussvorlage",
+  "reference": "20865",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882950"
+  ]
+}

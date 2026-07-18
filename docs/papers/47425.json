@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00640591.pdf",
+      "created": "2022-09-13T15:24:13+02:00",
+      "date": "2022-09-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00640591.pdf",
+      "fileName": "00640591.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/640591",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage_Eggensteiner_V1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642146.pdf",
+      "created": "2022-11-02T10:58:37+01:00",
+      "date": "2022-11-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642146.pdf",
+      "fileName": "00642146.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642146",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage_Eggensteiner_V2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642620.pdf",
+      "created": "2022-11-15T13:27:17+01:00",
+      "date": "2022-11-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642620.pdf",
+      "fileName": "00642620.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642620",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "PlanA-Vorlage Umbau Eggensteiner Straße",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/74302",
+      "created": "2022-11-24T15:28:53+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28072",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9107",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47425",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75238",
+      "created": "2023-01-17T11:00:17+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28914",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9109",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47425",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-09-13T15:22:28+02:00",
+  "date": "2022-09-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47425",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Umbau Eggensteiner Straße",
+  "paperType": "Beschlussvorlage",
+  "reference": "BV/2022/2026",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

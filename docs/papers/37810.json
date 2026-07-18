@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611317.pdf",
+      "created": "2019-09-25T08:56:46+02:00",
+      "date": "2019-09-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611317.pdf",
+      "fileName": "00611317.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611317",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612133.pdf",
+      "created": "2019-11-08T13:07:42+01:00",
+      "date": "2019-11-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612133.pdf",
+      "fileName": "00612133.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612133",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 22.1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00613214.pdf",
+      "created": "2020-01-07T11:59:57+01:00",
+      "date": "2020-01-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00613214.pdf",
+      "fileName": "00613214.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/613214",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 22",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47416",
+      "authoritative": true,
+      "created": "2019-10-24T08:46:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17136",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5423",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37810",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-09-25T08:56:20+02:00",
+  "date": "2019-09-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37810",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Verkehrsmittelnutzung bei Dienstreisen",
+  "paperType": "Antrag",
+  "reference": "2019/0936",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

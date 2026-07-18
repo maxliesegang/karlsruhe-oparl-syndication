@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00623089.pdf",
+      "created": "2021-01-29T09:13:19+01:00",
+      "date": "2021-01-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00623089.pdf",
+      "fileName": "00623089.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/623089",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP_3_Neureuter_Markt",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00623310.pdf",
+      "created": "2021-02-10T10:39:18+01:00",
+      "date": "2021-02-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00623310.pdf",
+      "fileName": "00623310.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/623310",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP_3_Wochenmarkt_Plan",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56225",
+      "created": "2021-01-29T09:22:29+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20660",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6449",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34531"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40778",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-01-29T09:12:48+01:00",
+  "date": "2021-02-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40778",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Erweiterung des Wochenmarktes auf dem Neureuter Platz",
+  "paperType": "Informationsvorlage",
+  "reference": "2021/0099",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882960"
+  ]
+}

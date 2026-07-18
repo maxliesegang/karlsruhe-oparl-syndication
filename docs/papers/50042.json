@@ -1,0 +1,82 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656128.pdf",
+      "created": "2024-02-20T12:47:02+01:00",
+      "date": "2024-02-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656128.pdf",
+      "fileName": "00656128.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656128",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00657051.pdf",
+      "created": "2024-03-22T11:44:02+01:00",
+      "date": "2024-03-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00657051.pdf",
+      "fileName": "00657051.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/657051",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 19.03.2024 TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00657417.pdf",
+      "created": "2024-04-09T17:28:01+02:00",
+      "date": "2024-04-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00657417.pdf",
+      "fileName": "00657417.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/657417",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84888",
+      "authoritative": true,
+      "created": "2024-02-21T09:58:05+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31535",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9524",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50042",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86392",
+      "authoritative": true,
+      "created": "2024-05-06T11:46:55+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31556",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9563",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50042",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-02-20T12:46:19+01:00",
+  "date": "2024-05-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50042",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bei der Aktion \"Karlsruhe spielt\" auch ältere Menschen einbeziehen",
+  "paperType": "Antrag",
+  "reference": "2024/0172",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

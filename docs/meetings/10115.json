@@ -1,0 +1,62 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34730",
+      "created": "2025-08-25T09:47:36+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95699",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10115",
+      "modified": "2025-10-09T18:29:35+02:00",
+      "name": "Kauf der PV-Anlage auf der Deponie West durch das TSK",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-08-25T09:47:36+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95697",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10115",
+      "modified": "2025-10-09T18:30:41+02:00",
+      "name": "Verschiedenes",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "erledigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2024-10-17T13:10:27+02:00",
+  "end": "2025-10-09T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10115",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669640.pdf",
+    "created": "2025-08-25T09:49:56+02:00",
+    "date": "2025-09-22",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669640.pdf",
+    "fileName": "00669640.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669640",
+    "mimeType": "application/pdf",
+    "modified": "2025-10-10T10:20:53+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2022-12-29T15:24:53+01:00",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/rm/67922",
+    "locality": "",
+    "modified": "2023-08-21T13:57:08+02:00",
+    "postalCode": "",
+    "room": "Großer Sitzungssaal",
+    "streetAddress": "",
+    "subLocality": "",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-10-10T10:20:53+02:00",
+  "name": "Betriebsausschuss Eigenbetrieb Abfallwirtschaft und Stadtreinigung (öffentlich/nichtöffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54889"
+  ],
+  "start": "2025-10-09T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

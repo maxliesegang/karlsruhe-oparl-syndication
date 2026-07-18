@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618932.pdf",
+      "created": "2020-07-21T11:36:58+02:00",
+      "date": "2020-07-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618932.pdf",
+      "fileName": "00618932.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618932",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618939.pdf",
+      "created": "2020-07-21T14:33:15+02:00",
+      "date": "2020-07-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618939.pdf",
+      "fileName": "00618939.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618939",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53768",
+      "authoritative": true,
+      "created": "2020-07-21T11:55:35+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19820",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5667",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40131",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-07-21T11:36:16+02:00",
+  "date": "2020-07-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40131",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Anteilige Berechnung der Kita-Gebühren verwirklichen",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2020/0922",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

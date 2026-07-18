@@ -1,0 +1,85 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659585.pdf",
+      "created": "2024-07-15T09:36:10+02:00",
+      "date": "2024-07-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659585.pdf",
+      "fileName": "00659585.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659585",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661535.pdf",
+      "created": "2024-10-10T19:48:47+02:00",
+      "date": "2024-10-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661535.pdf",
+      "fileName": "00661535.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661535",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661614.pdf",
+      "created": "2024-10-14T09:56:08+02:00",
+      "date": "2024-10-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661614.pdf",
+      "fileName": "00661614.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661614",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 24.09.2024 TOP 28",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/89752",
+      "authoritative": true,
+      "created": "2024-08-22T10:16:02+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32480",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9531",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50698",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90726",
+      "authoritative": true,
+      "created": "2024-10-18T12:09:53+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32558",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9568",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50698",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-07-15T09:34:48+02:00",
+  "date": "2024-07-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50698",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Stationäre Jugendverkehrsschule für die Bergdörfer",
+  "paperType": "Antrag",
+  "reference": "2024/0778",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51113"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

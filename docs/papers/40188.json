@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619336.pdf",
+      "created": "2020-09-04T09:19:57+02:00",
+      "date": "2020-09-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619336.pdf",
+      "fileName": "00619336.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619336",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619607.pdf",
+      "created": "2020-09-17T12:17:43+02:00",
+      "date": "2020-09-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619607.pdf",
+      "fileName": "00619607.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619607",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Benennung Tunnel Kriegsstraße",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619828.pdf",
+      "created": "2020-09-30T09:00:02+02:00",
+      "date": "2020-09-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619828.pdf",
+      "fileName": "00619828.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619828",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 11",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620356.pdf",
+      "created": "2020-10-23T14:49:38+02:00",
+      "date": "2020-10-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620356.pdf",
+      "fileName": "00620356.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620356",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 11",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54235",
+      "authoritative": true,
+      "created": "2020-09-02T11:30:14+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19906",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5670",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40188",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-08-21T14:48:11+02:00",
+  "date": "2020-08-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40188",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Benennung des Tunnels unter der Kriegsstraße",
+  "paperType": "Beschlussvorlage",
+  "reference": "2020/0978",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

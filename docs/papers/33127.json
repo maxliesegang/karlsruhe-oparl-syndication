@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00146078.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2014-03-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00146078.pdf",
+      "fileName": "00146078.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/146078",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Ernst-Reuter-Schule",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00146825.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2014-04-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00146825.pdf",
+      "fileName": "00146825.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/146825",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/34167",
+      "authoritative": true,
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/11256",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3485",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/33127",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2014-02-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/33127",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Einrichtung einer Gemeinschaftsschule an der Ernst-Reuter-Schule",
+  "paperType": "Beschlussvorlage",
+  "reference": "2014/0428",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

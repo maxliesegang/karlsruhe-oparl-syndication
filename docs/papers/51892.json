@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666966.pdf",
+      "created": "2025-05-07T09:16:05+02:00",
+      "date": "2025-05-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666966.pdf",
+      "fileName": "00666966.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666966",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-16T06:19:12+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93810",
+      "authoritative": true,
+      "created": "2025-05-07T09:30:38+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34189",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10106",
+      "modified": "2025-06-30T15:24:20+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51892",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-05-07T08:04:49+02:00",
+  "date": "2025-05-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51892",
+  "modified": "2025-06-16T06:19:12+02:00",
+  "name": "Zentrum für digitale Spiel- und Freizeitgestaltung und Lebenswelten",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/0439",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

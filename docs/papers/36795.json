@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00606622.pdf",
+      "created": "2018-11-27T08:20:30+01:00",
+      "date": "2018-11-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00606622.pdf",
+      "fileName": "00606622.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/606622",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00606710.pdf",
+      "created": "2018-11-30T10:48:20+01:00",
+      "date": "2018-11-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00606710.pdf",
+      "fileName": "00606710.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/606710",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 31",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607075.pdf",
+      "created": "2019-01-08T08:05:59+01:00",
+      "date": "2019-01-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607075.pdf",
+      "fileName": "00607075.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607075",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 31",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44645",
+      "authoritative": true,
+      "created": "2018-11-28T10:48:55+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15901",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4930",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36795",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-11-05T13:34:02+01:00",
+  "date": "2018-11-05",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36795",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Personalbedingte Fahrtausfälle bei der Albtal-Verkehrsgesellschaft (AVG)",
+  "paperType": "Anfrage",
+  "reference": "2018/0783",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

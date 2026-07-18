@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669428.pdf",
+      "created": "2025-08-15T09:42:16+02:00",
+      "date": "2025-08-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669428.pdf",
+      "fileName": "00669428.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669428",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-18T13:30:25+01:00",
+      "name": "Antrag Hohenwettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669537.pdf",
+      "created": "2025-08-19T15:08:43+02:00",
+      "date": "2025-08-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669537.pdf",
+      "fileName": "00669537.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669537",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-18T13:30:25+01:00",
+      "name": "Stellungnahme Antrag Hohenwettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/98396",
+      "created": "2025-11-12T11:04:52+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34713",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10307",
+      "modified": "2025-11-12T11:29:02+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34322"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52268",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-08-15T09:38:09+02:00",
+  "date": "2025-08-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52268",
+  "modified": "2025-11-18T13:30:25+01:00",
+  "name": "Gestaltung Brunnenplatz",
+  "paperType": "Antrag",
+  "reference": "2025/0780",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882959"
+  ]
+}

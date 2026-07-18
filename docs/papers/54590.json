@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678570.pdf",
+      "created": "2026-05-21T10:58:07+02:00",
+      "date": "2026-05-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678570.pdf",
+      "fileName": "00678570.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678570",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-09T13:42:36+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678586.pdf",
+      "created": "2026-05-22T07:35:45+02:00",
+      "date": "2026-05-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678586.pdf",
+      "fileName": "00678586.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678586",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-09T13:42:36+02:00",
+      "name": "Stellungnahme Anfrage Wolfartsweier",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101940",
+      "created": "2026-05-28T08:57:11+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37465",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10730",
+      "modified": "2026-06-25T15:45:45+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54590",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-05-21T10:57:22+02:00",
+  "date": "2026-05-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54590",
+  "modified": "2026-07-09T13:42:36+02:00",
+  "name": "Mögliche Flächen zur Umsetzung von urbanen Naturoasen in Wolfartsweier",
+  "paperType": "Anfrage",
+  "reference": "2026/0423",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+  ]
+}

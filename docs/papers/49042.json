@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650011.pdf",
+      "created": "2023-08-22T10:42:19+02:00",
+      "date": "2023-08-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650011.pdf",
+      "fileName": "00650011.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650011",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag Wettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651247.pdf",
+      "created": "2023-10-05T11:20:27+02:00",
+      "date": "2023-10-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651247.pdf",
+      "fileName": "00651247.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651247",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag Wettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/79769",
+      "authoritative": true,
+      "created": "2023-08-18T11:34:57+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30292",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9255",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49042",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-08-18T10:50:42+02:00",
+  "date": "2023-08-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49042",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Erhalt des Wildschweingeheges beim Funkturm Wettersbach Antrag der SPD-Fraktion im Ortschaftsrat Wettersbach",
+  "paperType": "Antrag",
+  "reference": "2023/0938",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882961"
+  ]
+}

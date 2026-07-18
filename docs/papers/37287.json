@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609430.pdf",
+      "created": "2019-04-30T09:35:18+02:00",
+      "date": "2019-04-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609430.pdf",
+      "fileName": "00609430.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609430",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Plan Oberer Säuterich",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609531.pdf",
+      "created": "2019-05-03T12:13:56+02:00",
+      "date": "2019-05-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609531.pdf",
+      "fileName": "00609531.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609531",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 23 Oberer Säuterich",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609749.pdf",
+      "created": "2019-05-15T11:15:22+02:00",
+      "date": "2019-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609749.pdf",
+      "fileName": "00609749.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609749",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmunsergebnis TOP 23",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610042.pdf",
+      "created": "2019-06-03T15:09:40+02:00",
+      "date": "2019-06-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610042.pdf",
+      "fileName": "00610042.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610042",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Gemeinderat",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45610",
+      "authoritative": true,
+      "created": "2019-04-16T12:55:05+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16503",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5323",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37287",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-04-11T15:11:11+02:00",
+  "date": "2019-04-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37287",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Rahmenplan \"Oberer Säuterich\"",
+  "paperType": "Beschlussvorlage",
+  "reference": "2019/0382",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

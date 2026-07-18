@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644946.pdf",
+      "created": "2023-02-14T12:42:49+01:00",
+      "date": "2023-02-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644946.pdf",
+      "fileName": "00644946.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644946",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646545.pdf",
+      "created": "2023-04-13T12:46:30+02:00",
+      "date": "2023-04-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646545.pdf",
+      "fileName": "00646545.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646545",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 19",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648010.pdf",
+      "created": "2023-06-09T11:08:52+02:00",
+      "date": "2023-06-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648010.pdf",
+      "fileName": "00648010.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648010",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StellungnahmeAntrag_aktuell_0906023",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/76146",
+      "authoritative": true,
+      "created": "2023-02-28T14:44:23+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29116",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9043",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48207",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/77912",
+      "created": "2023-05-22T15:47:37+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29149",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9141",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48207",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-02-14T12:42:14+01:00",
+  "date": "2023-02-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48207",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Zukünftige Nutzung Tiefgarage Friedrichsplatz",
+  "paperType": "Antrag",
+  "reference": "2023/0180",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

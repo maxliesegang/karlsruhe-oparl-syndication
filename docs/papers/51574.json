@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665315.pdf",
+      "created": "2025-03-03T14:45:34+01:00",
+      "date": "2025-03-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665315.pdf",
+      "fileName": "00665315.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665315",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-24T12:35:02+01:00",
+      "name": "Beschussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92740",
+      "created": "2025-03-05T15:27:13+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33699",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10068",
+      "modified": "2025-04-14T12:54:31+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51574",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-02-12T16:09:46+01:00",
+  "date": "2025-02-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51574",
+  "modified": "2025-03-24T12:35:01+01:00",
+  "name": "Badisches Konservatorium, Umbau Dragonerkaserne, Vergabe eines Bauauftrages für die vorgehängte und hinterlüftete Fassade",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0151",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

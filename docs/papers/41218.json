@@ -1,0 +1,93 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625881.pdf",
+      "created": "2021-06-02T14:58:39+02:00",
+      "date": "2021-06-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625881.pdf",
+      "fileName": "00625881.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625881",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Bericht 2020 Behindertenbeirat KBB",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626018.pdf",
+      "created": "2021-06-09T07:40:34+02:00",
+      "date": "2021-06-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626018.pdf",
+      "fileName": "00626018.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626018",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Jahresbericht 2020 BMB und KBB",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626500.pdf",
+      "created": "2021-06-23T12:43:02+02:00",
+      "date": "2021-06-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626500.pdf",
+      "fileName": "00626500.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626500",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00627073.pdf",
+      "created": "2021-07-19T08:12:45+02:00",
+      "date": "2021-07-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00627073.pdf",
+      "fileName": "00627073.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/627073",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 12 22.06.2021",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/58120",
+      "authoritative": true,
+      "created": "2021-05-21T14:54:20+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21228",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6235",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41218",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/58429",
+      "created": "2021-06-02T14:49:48+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21316",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6231",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33195"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41218",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-04-30T13:27:52+02:00",
+  "date": "2021-04-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41218",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Jahresbericht 2020 des Beirates für Menschen mit Behinderungen und der Kommunalen Behindertenbeauftragten",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/0568",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654983.pdf",
+      "created": "2023-12-20T15:23:42+01:00",
+      "date": "2023-12-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654983.pdf",
+      "fileName": "00654983.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654983",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-12T09:46:47+02:00",
+      "name": "Anlage Fachbericht",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654984.pdf",
+      "created": "2023-12-20T15:32:37+01:00",
+      "date": "2023-12-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654984.pdf",
+      "fileName": "00654984.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654984",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-12T09:46:47+02:00",
+      "name": "Stellungnahme Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655341.pdf",
+      "created": "2024-01-16T12:03:19+01:00",
+      "date": "2024-01-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655341.pdf",
+      "fileName": "00655341.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655341",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-12T09:46:47+02:00",
+      "name": "Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84433",
+      "authoritative": true,
+      "created": "2024-01-22T13:15:29+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31245",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9714",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49840",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-12-20T10:32:49+01:00",
+  "date": "2023-12-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49840",
+  "modified": "2025-05-12T09:46:47+02:00",
+  "name": "Errichtung von öffentlicher Ladeinfrastruktur in Grötzingen",
+  "paperType": "Antrag",
+  "reference": "2023/1417",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

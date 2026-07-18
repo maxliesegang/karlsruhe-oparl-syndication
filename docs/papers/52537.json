@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671205.pdf",
+      "created": "2025-10-22T14:00:45+02:00",
+      "date": "2025-10-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671205.pdf",
+      "fileName": "00671205.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671205",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-03T06:49:32+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672238.pdf",
+      "created": "2025-11-21T10:30:59+01:00",
+      "date": "2025-11-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672238.pdf",
+      "fileName": "00672238.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672238",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-03T06:49:32+01:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/97167",
+      "created": "2025-10-27T07:35:15+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35111",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10111",
+      "modified": "2026-01-13T17:50:44+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33195"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52537",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-10-22T13:46:13+02:00",
+  "date": "2025-10-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52537",
+  "modified": "2025-12-05T10:45:52+01:00",
+  "name": "Teilhabe-Monitor 2025 – Eingliederungshilfe in der Stadt Karlsruhe",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/1017",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

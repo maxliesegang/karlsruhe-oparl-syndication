@@ -1,0 +1,97 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28954",
+      "created": "2023-02-08T12:14:43+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75819",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9058",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Neuerstellung Mietspiegel 2025/2026: Ökologische und soziale Kriterien stärker gewichten",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "einverstanden",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29068",
+      "created": "2023-02-08T15:23:09+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75831",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9058",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Vergabe Bladeserver IT22008",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28841",
+      "created": "2023-02-08T12:14:43+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75817",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9058",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Erwerb des landeseigenen Grundstücks Nr. 46318/1, Gemarkung Durlach",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28855",
+      "created": "2023-02-08T12:14:43+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75818",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9058",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Lieferung, Montage, Inbetriebnahme und Betrieb von 4 öffentlichen barrierefreien WC-Anlagen",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2022-09-21T13:30:10+02:00",
+  "end": "2023-03-14T18:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9058",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00645406.pdf",
+    "created": "2023-03-01T14:16:37+01:00",
+    "date": "2023-03-01",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00645406.pdf",
+    "fileName": "00645406.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/645406",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2022-09-21T13:30:10+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9058",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Hauptausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+  ],
+  "resultsProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00645806.pdf",
+    "created": "2023-03-15T07:52:03+01:00",
+    "date": "2023-03-15",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00645806.pdf",
+    "fileName": "00645806.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/645806",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Anwesenheit (Protokoll)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "start": "2023-03-14T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

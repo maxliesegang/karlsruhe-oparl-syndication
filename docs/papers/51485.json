@@ -1,0 +1,82 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664325.pdf",
+      "created": "2025-01-21T09:33:29+01:00",
+      "date": "2025-01-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664325.pdf",
+      "fileName": "00664325.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664325",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-02T06:36:53+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665512.pdf",
+      "created": "2025-03-11T08:38:48+01:00",
+      "date": "2025-03-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665512.pdf",
+      "fileName": "00665512.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665512",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-02T06:36:53+02:00",
+      "name": "Protokoll GR 18.02.2025 TOP 14",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666363.pdf",
+      "created": "2025-04-10T15:20:31+02:00",
+      "date": "2025-04-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666363.pdf",
+      "fileName": "00666363.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666363",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-02T06:36:53+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92144",
+      "authoritative": true,
+      "created": "2025-01-27T10:34:25+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33574",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10045",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51485",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94637",
+      "authoritative": true,
+      "created": "2025-06-17T14:19:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33590",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10107",
+      "modified": "2025-07-16T16:25:40+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33195"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51485",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-01-21T09:31:09+01:00",
+  "date": "2025-01-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51485",
+  "modified": "2025-07-02T06:36:53+02:00",
+  "name": "Angebot \"Wohnen für Hilfe\" ausbauen",
+  "paperType": "Antrag",
+  "reference": "2025/0067",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

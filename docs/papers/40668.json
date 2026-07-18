@@ -1,0 +1,94 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00622518.pdf",
+      "created": "2020-12-21T10:06:03+01:00",
+      "date": "2020-12-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00622518.pdf",
+      "fileName": "00622518.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/622518",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00623029.pdf",
+      "created": "2021-01-27T14:47:21+01:00",
+      "date": "2021-01-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00623029.pdf",
+      "fileName": "00623029.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/623029",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme_Anwohnerparkausweise_Geschaeftsinhaber",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00623785.pdf",
+      "created": "2021-02-26T13:35:22+01:00",
+      "date": "2021-02-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00623785.pdf",
+      "fileName": "00623785.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/623785",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Sitzungseröffnung und TOP 1 HA",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624007.pdf",
+      "created": "2021-03-09T14:20:08+01:00",
+      "date": "2021-03-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624007.pdf",
+      "fileName": "00624007.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624007",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/55930",
+      "authoritative": true,
+      "created": "2021-01-07T08:32:59+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20524",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6141",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40668",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56016",
+      "authoritative": true,
+      "created": "2021-01-11T10:40:48+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20528",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6151",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40668",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-12-21T10:05:16+01:00",
+  "date": "2020-12-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40668",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Anwohnerparkausweise auch für Geschäftsinhaber",
+  "paperType": "Antrag",
+  "reference": "2020/1457",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677157.pdf",
+      "created": "2026-03-19T11:36:31+01:00",
+      "date": "2026-03-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677157.pdf",
+      "fileName": "00677157.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677157",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-11T10:55:40+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678999.pdf",
+      "created": "2026-06-11T10:54:57+02:00",
+      "date": "2026-06-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678999.pdf",
+      "fileName": "00678999.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678999",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-11T10:55:40+02:00",
+      "name": "Präsentation Sachstandsbericht zu Smart-City-Karlsruhe Karlsruhe bei der Stadtverwaltung",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101672",
+      "created": "2026-05-08T15:45:59+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37231",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10531",
+      "modified": "2026-05-08T15:47:22+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/50069"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54358",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-03-18T07:06:37+01:00",
+  "date": "2026-03-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54358",
+  "modified": "2026-06-11T10:55:40+02:00",
+  "name": "Sachstandsbericht zu Smart City Karlsruhe bei der Stadtverwaltung Karlsruhe",
+  "paperType": "Informationsvorlage",
+  "reference": "2026/0214",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883004"
+  ]
+}

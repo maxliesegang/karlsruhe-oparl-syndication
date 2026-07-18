@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00601838.pdf",
+      "created": "2018-03-08T12:18:01+01:00",
+      "date": "2018-03-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00601838.pdf",
+      "fileName": "00601838.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/601838",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "CDU Südtangente",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00601839.pdf",
+      "created": "2018-03-08T12:18:14+01:00",
+      "date": "2018-03-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00601839.pdf",
+      "fileName": "00601839.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/601839",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 20",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00602473.pdf",
+      "created": "2018-04-11T12:33:07+02:00",
+      "date": "2018-04-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00602473.pdf",
+      "fileName": "00602473.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/602473",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 20.0",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/42231",
+      "authoritative": true,
+      "created": "2018-02-20T10:21:51+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15027",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4925",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36127",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-02-20T08:12:34+01:00",
+  "date": "2018-02-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36127",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Südtangente",
+  "paperType": "Antrag",
+  "reference": "2018/0076",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

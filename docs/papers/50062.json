@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656320.pdf",
+      "created": "2024-02-28T10:07:26+01:00",
+      "date": "2024-02-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656320.pdf",
+      "fileName": "00656320.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656320",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656321.pdf",
+      "created": "2024-02-28T10:07:44+01:00",
+      "date": "2024-02-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656321.pdf",
+      "fileName": "00656321.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656321",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Präsentation",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656500.pdf",
+      "created": "2024-03-05T11:26:54+01:00",
+      "date": "2024-03-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656500.pdf",
+      "fileName": "00656500.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656500",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/85078",
+      "created": "2024-02-29T16:51:01+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31562",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9679",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50062",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-02-23T11:33:43+01:00",
+  "date": "2024-02-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50062",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bericht über den Weiterbildungsverbund Allgemeinmedizin Region Karlsruhe",
+  "paperType": "Informationsvorlage",
+  "reference": "2024/0192",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882975"
+  ]
+}

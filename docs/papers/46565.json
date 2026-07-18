@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636420.pdf",
+      "created": "2022-03-11T08:26:12+01:00",
+      "date": "2022-03-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636420.pdf",
+      "fileName": "00636420.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636420",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636421.pdf",
+      "created": "2022-03-11T08:26:40+01:00",
+      "date": "2022-03-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636421.pdf",
+      "fileName": "00636421.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636421",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/68999",
+      "created": "2022-03-10T12:32:10+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26985",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6622",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46565",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-03-10T12:28:26+01:00",
+  "date": "2022-03-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46565",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "SKiBB: Muster-Raumprogramm für Ganztagsangebote an Grundschulen",
+  "paperType": "Informationsvorlage",
+  "reference": "2022/0274",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

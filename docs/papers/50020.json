@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656210.pdf",
+      "created": "2024-02-23T10:05:21+01:00",
+      "date": "2024-02-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656210.pdf",
+      "fileName": "00656210.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656210",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656917.pdf",
+      "created": "2024-03-19T16:54:20+01:00",
+      "date": "2024-03-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656917.pdf",
+      "fileName": "00656917.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656917",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00657283.pdf",
+      "created": "2024-04-03T15:27:43+02:00",
+      "date": "2024-04-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00657283.pdf",
+      "fileName": "00657283.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/657283",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 19.03.2024 TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84846",
+      "authoritative": true,
+      "created": "2024-02-19T15:11:33+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31512",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9524",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50020",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-02-15T14:52:07+01:00",
+  "date": "2024-02-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50020",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Benennung von Einwohnerinnen und  Einwohnern zum Vorschlag als Vertrauensperson zur Vorbereitung der Wahl der ehrenamtlichen Verwaltungsrichterinnen und Verwaltungsrichter",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0155",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882965"
+  ]
+}

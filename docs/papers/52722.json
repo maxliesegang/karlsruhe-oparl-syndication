@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672119.pdf",
+      "created": "2025-11-19T09:15:59+01:00",
+      "date": "2025-11-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672119.pdf",
+      "fileName": "00672119.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672119",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-22T16:28:56+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675537.pdf",
+      "created": "2025-12-22T16:28:24+01:00",
+      "date": "2025-12-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675537.pdf",
+      "fileName": "00675537.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675537",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-22T16:28:56+01:00",
+      "name": "Abstimmungsergebnis am 22.12.2025 abgestimmt",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99311",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:27+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35351",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-22T16:11:55+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52722",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-19T09:15:20+01:00",
+  "date": "2025-11-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52722",
+  "modified": "2025-12-22T16:28:56+01:00",
+  "name": "HHS4_GR78 - Erhöhung der Parkgebühren bei mittels Parkscheinautomaten bewirtschafteten öffentlichen Stellplätzen um 100%",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1180",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33740",
+      "created": "2025-03-04T14:57:50+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92717",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10122",
+      "modified": "2025-04-04T17:47:09+02:00",
+      "name": "Auftragsvergabe der Rohbauarbeiten für den Neubau einer Salzlagerhalle",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33659",
+      "created": "2025-03-04T14:57:50+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92716",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10122",
+      "modified": "2025-04-29T19:46:59+02:00",
+      "name": "Smarter Abfuhrkalender für Karlsruhe",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "erledigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-03-04T14:57:50+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92715",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10122",
+      "modified": "2025-03-04T15:05:33+01:00",
+      "name": "Verschiedenes",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2024-10-17T13:21:50+02:00",
+  "end": "2025-04-04T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10122",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665355.pdf",
+    "created": "2025-03-04T15:09:47+01:00",
+    "date": "2025-03-04",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665355.pdf",
+    "fileName": "00665355.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665355",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-21T14:00:46+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2024-10-17T13:21:50+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10122",
+    "modified": "2025-10-10T09:48:53+02:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-10-10T09:48:53+02:00",
+  "name": "Betriebsausschuss Eigenbetrieb Abfallwirtschaft und Stadtreinigung (öffentlich/nichtöffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54889"
+  ],
+  "start": "2025-04-04T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

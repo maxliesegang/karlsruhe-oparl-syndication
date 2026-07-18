@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00599983.pdf",
+      "created": "2017-11-03T08:54:02+01:00",
+      "date": "2017-11-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00599983.pdf",
+      "fileName": "00599983.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/599983",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Übernahme Grabstätten",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600612.pdf",
+      "created": "2017-12-08T10:39:20+01:00",
+      "date": "2017-12-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600612.pdf",
+      "fileName": "00600612.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600612",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 17",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2017-08-15T11:25:28+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14592",
+      "modified": "2018-11-28T14:19:31+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35774",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41509",
+      "authoritative": true,
+      "created": "2017-11-06T10:01:16+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14594",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4668",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35774",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-08-15T11:24:02+02:00",
+  "date": "2017-08-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35774",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Übernahme von Grabstätten als erhaltungswürdige Grabstätten in städtische Pflege",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0544",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882977"
+  ]
+}

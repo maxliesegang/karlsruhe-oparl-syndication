@@ -1,0 +1,103 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00623048.pdf",
+      "created": "2021-01-28T08:43:48+01:00",
+      "date": "2021-01-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00623048.pdf",
+      "fileName": "00623048.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/623048",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Vertrag Holzfeuerungsanlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00623049.pdf",
+      "created": "2021-01-28T08:43:59+01:00",
+      "date": "2021-01-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00623049.pdf",
+      "fileName": "00623049.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/623049",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1 Vertrag-SWK-finale Fassung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00623050.pdf",
+      "created": "2021-01-28T08:44:09+01:00",
+      "date": "2021-01-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00623050.pdf",
+      "fileName": "00623050.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/623050",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 2, Eckpunktepapier",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00623731.pdf",
+      "created": "2021-02-25T11:45:00+01:00",
+      "date": "2021-02-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00623731.pdf",
+      "fileName": "00623731.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/623731",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis Top5",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624223.pdf",
+      "created": "2021-03-19T08:33:28+01:00",
+      "date": "2021-03-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624223.pdf",
+      "fileName": "00624223.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624223",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 5",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2021-01-11T10:21:05+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20573",
+      "modified": "2021-01-11T10:21:05+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40713",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56168",
+      "authoritative": true,
+      "created": "2021-01-27T08:45:47+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20575",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6155",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40713",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-01-11T10:20:16+01:00",
+  "date": "2021-01-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40713",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Vertrag über den Betrieb der Holzfeuerungsanlage, die Fernwärmeleitung und die Nutzung der Abwärme aus der Deponieschwachgasanlage im Anlagenverbund Ost mit den Stadtwerken",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/0034",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

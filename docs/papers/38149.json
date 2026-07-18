@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612977.pdf",
+      "created": "2019-12-12T13:22:53+01:00",
+      "date": "2019-12-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612977.pdf",
+      "fileName": "00612977.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612977",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "ORS-Anfrage_FDP_und_CDU_Personalstand_Bauhof",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612978.pdf",
+      "created": "2019-12-12T13:23:07+01:00",
+      "date": "2019-12-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612978.pdf",
+      "fileName": "00612978.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612978",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "ORS_Stellungnahme_FDP_CDU_Personalstand_Bauhof_OV",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/48058",
+      "created": "2019-12-12T13:43:24+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17555",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5547",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38149",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-12-12T13:22:12+01:00",
+  "date": "2019-12-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38149",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Personalstand des Bauhofes - Gemeinsame Anfrage der FDP-Ortschaftsratsfraktion und der CDU-Ortschaftsratsfraktion",
+  "paperType": "Anfrage",
+  "reference": "2019/1287",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+  ]
+}

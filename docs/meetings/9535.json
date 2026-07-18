@@ -1,0 +1,97 @@
+{
+  "agendaItem": [
+    {
+      "created": "2023-12-06T11:34:45+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83762",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9535",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Amt für Hochbau und Gebäudewirtschaft",
+      "number": "",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31064",
+      "created": "2023-12-06T11:34:45+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83766",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9535",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Kindertagesstätte Sybelstraße, Neubau, Rohbau",
+      "number": "1",
+      "order": 2,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31099",
+      "created": "2023-12-06T11:34:45+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83767",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9535",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Kindertagesstätte Sybelstraße, Neubau, Fenster und Fassade",
+      "number": "2",
+      "order": 3,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31148",
+      "created": "2023-12-06T11:34:45+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83768",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9535",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Kindertagesstätte Sybelstraße, Neubau, Zimmer- und Holzbau",
+      "number": "3",
+      "order": 4,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655730.pdf",
+      "created": "2024-02-01T12:32:46+01:00",
+      "date": "2024-02-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655730.pdf",
+      "fileName": "00655730.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655730",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll ö 11.01.2024",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2023-09-06T14:21:46+02:00",
+  "end": "2024-01-11T16:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9535",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654358.pdf",
+    "created": "2023-12-06T11:41:37+01:00",
+    "date": "2023-12-07",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654358.pdf",
+    "fileName": "00654358.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654358",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2023-09-06T14:21:46+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9535",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Bauausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+  ],
+  "start": "2024-01-11T16:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

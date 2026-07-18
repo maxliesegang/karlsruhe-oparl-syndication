@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668584.pdf",
+      "created": "2025-07-02T14:34:50+02:00",
+      "date": "2025-09-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668584.pdf",
+      "fileName": "00668584.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668584",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:29:25+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670073.pdf",
+      "created": "2025-09-11T13:31:18+02:00",
+      "date": "2025-09-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670073.pdf",
+      "fileName": "00670073.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670073",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:29:25+02:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670973.pdf",
+      "created": "2025-10-17T10:29:22+02:00",
+      "date": "2025-10-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670973.pdf",
+      "fileName": "00670973.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670973",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:29:25+02:00",
+      "name": "Protokoll GR 30.09.2025 TOP 31",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95971",
+      "authoritative": true,
+      "created": "2025-08-29T08:53:33+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34529",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10052",
+      "modified": "2025-09-30T18:47:50+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52139",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-07-02T14:33:18+02:00",
+  "date": "2025-07-02",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52139",
+  "modified": "2025-10-17T10:29:25+02:00",
+  "name": "Möglichkeiten und Chancen von Outsourcing bei der Stadt Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2025/0664",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882953"
+  ]
+}

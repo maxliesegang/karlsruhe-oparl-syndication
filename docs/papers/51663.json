@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665463.pdf",
+      "created": "2025-03-10T11:25:30+01:00",
+      "date": "2025-03-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665463.pdf",
+      "fileName": "00665463.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665463",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-27T12:38:27+01:00",
+      "name": "Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665465.pdf",
+      "created": "2025-03-10T11:30:07+01:00",
+      "date": "2025-03-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665465.pdf",
+      "fileName": "00665465.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665465",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-27T12:38:27+01:00",
+      "name": "Stellungnahme Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92800",
+      "created": "2025-03-10T11:48:43+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33838",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9896",
+      "modified": "2025-03-13T10:19:09+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51663",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-03-10T11:25:02+01:00",
+  "date": "2025-03-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51663",
+  "modified": "2025-03-27T12:38:27+01:00",
+  "name": "Untersuchungen zum öffentlichen Nahverkehr in Grötzingen",
+  "paperType": "Antrag",
+  "reference": "2025/0236",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

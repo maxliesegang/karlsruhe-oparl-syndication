@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658419.pdf",
+      "created": "2024-05-14T12:27:34+02:00",
+      "date": "2024-05-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658419.pdf",
+      "fileName": "00658419.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658419",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659893.pdf",
+      "created": "2024-07-30T15:58:33+02:00",
+      "date": "2024-07-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659893.pdf",
+      "fileName": "00659893.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659893",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_HA_02.07.2024_TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86911",
+      "authoritative": true,
+      "created": "2024-06-05T13:46:55+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32111",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9968",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50442",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-05-14T12:27:18+02:00",
+  "date": "2024-05-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50442",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Microsoft Lizenzen: Verlängerung um ein Jahr",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0541",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883004"
+  ]
+}

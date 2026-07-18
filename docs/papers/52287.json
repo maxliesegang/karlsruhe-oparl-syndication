@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669561.pdf",
+      "created": "2025-08-20T11:34:38+02:00",
+      "date": "2025-08-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669561.pdf",
+      "fileName": "00669561.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669561",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-04T11:00:46+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671177.pdf",
+      "created": "2025-10-22T13:41:29+02:00",
+      "date": "2025-10-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671177.pdf",
+      "fileName": "00671177.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671177",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-04T11:00:46+01:00",
+      "name": "Abstimmungsergebnis TOP 5",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671545.pdf",
+      "created": "2025-11-04T11:00:39+01:00",
+      "date": "2025-11-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671545.pdf",
+      "fileName": "00671545.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671545",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-04T11:00:46+01:00",
+      "name": "Protokoll GR 21.10.2025 TOP 5",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96399",
+      "authoritative": true,
+      "created": "2025-09-23T12:57:42+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34736",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10054",
+      "modified": "2025-10-22T09:23:46+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52287",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-08-20T10:48:12+02:00",
+  "date": "2025-08-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52287",
+  "modified": "2025-11-04T11:00:46+01:00",
+  "name": "Verlängerung Bestellung erster Naturschutzbeauftragter für den Stadtkreis Karlsruhe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0796",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882951"
+  ]
+}

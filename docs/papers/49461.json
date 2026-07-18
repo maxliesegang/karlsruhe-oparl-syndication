@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651873.pdf",
+      "created": "2023-10-18T09:45:52+02:00",
+      "date": "2023-10-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651873.pdf",
+      "fileName": "00651873.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651873",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag Grüne_003",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653211.pdf",
+      "created": "2023-11-03T13:06:17+01:00",
+      "date": "2023-11-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653211.pdf",
+      "fileName": "00653211.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653211",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "3101 Stellungnahme DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653898.pdf",
+      "created": "2023-11-21T17:09:35+01:00",
+      "date": "2023-11-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653898.pdf",
+      "fileName": "00653898.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653898",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmung TOP1.31",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/82757",
+      "authoritative": true,
+      "created": "2023-10-19T10:54:12+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30749",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9446",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49461",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-10-18T09:44:24+02:00",
+  "date": "2023-10-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49461",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Umsetzung des Biodiversitätskonzepts: Stadtbiotopkartierung und Monitoring von Flora und Fauna",
+  "paperType": "Haushalt THH 3100",
+  "reference": "DHH/2023/3101",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

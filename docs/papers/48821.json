@@ -1,0 +1,99 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648443.pdf",
+      "created": "2023-06-26T09:23:38+02:00",
+      "date": "2023-06-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648443.pdf",
+      "fileName": "00648443.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648443",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648509.pdf",
+      "created": "2023-06-27T15:26:05+02:00",
+      "date": "2023-06-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648509.pdf",
+      "fileName": "00648509.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648509",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650896.pdf",
+      "created": "2023-09-25T11:23:32+02:00",
+      "date": "2023-09-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650896.pdf",
+      "fileName": "00650896.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650896",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 16.3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78542",
+      "authoritative": true,
+      "created": "2023-06-26T11:14:20+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29927",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9046",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48821",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/79705",
+      "authoritative": true,
+      "created": "2023-08-15T11:57:02+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29959",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9064",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48821",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/79947",
+      "authoritative": true,
+      "created": "2023-08-22T09:36:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29960",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9049",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48821",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-06-26T09:23:01+02:00",
+  "date": "2023-06-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48821",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Weiterentwicklung Karlstraße auf Basis des Reallabors: Übergeordnete Planung",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2023/0386/2",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48449"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

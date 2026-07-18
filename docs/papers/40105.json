@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618915.pdf",
+      "created": "2020-07-20T13:08:10+02:00",
+      "date": "2020-07-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618915.pdf",
+      "fileName": "00618915.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618915",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "ORS-Anfrage FDP Waldbrand",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618916.pdf",
+      "created": "2020-07-20T13:08:20+02:00",
+      "date": "2020-07-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618916.pdf",
+      "fileName": "00618916.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618916",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "ORS-Stellungnahme Waldbrände FDP",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53736",
+      "created": "2020-07-15T07:53:37+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19794",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6126",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40105",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-07-14T14:58:31+02:00",
+  "date": "2020-07-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40105",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Vorsorge bei Waldbränden",
+  "paperType": "Anfrage",
+  "reference": "2020/0896",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668958.pdf",
+      "created": "2025-07-22T11:49:31+02:00",
+      "date": "2025-07-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668958.pdf",
+      "fileName": "00668958.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668958",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-03T06:51:07+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670968.pdf",
+      "created": "2025-10-17T10:26:32+02:00",
+      "date": "2025-10-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670968.pdf",
+      "fileName": "00670968.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670968",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-03T06:51:07+01:00",
+      "name": "Protokoll GR 30.09.2025 TOP 26",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671894.pdf",
+      "created": "2025-11-17T08:31:56+01:00",
+      "date": "2025-11-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671894.pdf",
+      "fileName": "00671894.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671894",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-03T06:51:07+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95965",
+      "authoritative": true,
+      "created": "2025-08-29T08:53:33+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34600",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10052",
+      "modified": "2025-09-30T18:47:09+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52187",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/97164",
+      "created": "2025-10-27T07:35:15+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34616",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10111",
+      "modified": "2025-10-27T07:36:06+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33195"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52187",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-07-22T11:48:49+02:00",
+  "date": "2025-07-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52187",
+  "modified": "2025-12-03T06:51:07+01:00",
+  "name": "Begleitete Pflege- und Wohnmöglichkeiten sowie tagesstrukturierende Angebote für junge Erwachsene mit schweren und komplexen Behinderungen in Karlsruhe",
+  "paperType": "Antrag",
+  "reference": "2025/0709",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

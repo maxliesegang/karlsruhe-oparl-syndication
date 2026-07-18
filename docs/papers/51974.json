@@ -1,0 +1,82 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667435.pdf",
+      "created": "2025-05-26T11:53:32+02:00",
+      "date": "2025-05-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667435.pdf",
+      "fileName": "00667435.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667435",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T10:52:39+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667716.pdf",
+      "created": "2025-06-04T11:48:39+02:00",
+      "date": "2025-06-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667716.pdf",
+      "fileName": "00667716.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667716",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T10:52:39+02:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669482.pdf",
+      "created": "2025-08-19T10:52:36+02:00",
+      "date": "2025-08-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669482.pdf",
+      "fileName": "00669482.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669482",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T10:52:39+02:00",
+      "name": "Protokoll GR 29.07.2025 TOP 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94642",
+      "authoritative": true,
+      "created": "2025-06-17T14:19:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34301",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10107",
+      "modified": "2025-07-16T16:23:28+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33195"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51974",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94889",
+      "authoritative": true,
+      "created": "2025-06-27T09:55:01+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34302",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10051",
+      "modified": "2025-07-29T18:06:25+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51974",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-05-26T11:47:20+02:00",
+  "date": "2025-05-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51974",
+  "modified": "2025-08-19T10:52:39+02:00",
+  "name": "Gesamtkonzept Wohnungslosenhilfe ´97 – Vierzehnter Sachstandsbericht 2025",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/0515",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

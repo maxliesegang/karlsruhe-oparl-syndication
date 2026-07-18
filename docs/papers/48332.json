@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00645747.pdf",
+      "created": "2023-03-13T12:30:56+01:00",
+      "date": "2023-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00645747.pdf",
+      "fileName": "00645747.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/645747",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00645963.pdf",
+      "created": "2023-03-23T12:35:10+01:00",
+      "date": "2023-03-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00645963.pdf",
+      "fileName": "00645963.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/645963",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Verlagerung der ESG Frankonia an die Stuttgarter Straße",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647459.pdf",
+      "created": "2023-05-22T11:52:19+02:00",
+      "date": "2023-05-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647459.pdf",
+      "fileName": "00647459.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647459",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 28",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/76561",
+      "authoritative": true,
+      "created": "2023-03-28T12:58:58+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29287",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9044",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48332",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-03-13T12:29:32+01:00",
+  "date": "2023-03-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48332",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Nachfragen zur Verlagerung der ESG Frankonia an die Stuttgarter Straße",
+  "paperType": "Anfrage",
+  "reference": "2023/0288",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882984"
+  ]
+}

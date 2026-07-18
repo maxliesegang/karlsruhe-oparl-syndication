@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667801.pdf",
+      "created": "2025-06-06T16:30:45+02:00",
+      "date": "2025-06-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667801.pdf",
+      "fileName": "00667801.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667801",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-30T15:53:45+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669179.pdf",
+      "created": "2025-07-30T15:51:50+02:00",
+      "date": "2025-07-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669179.pdf",
+      "fileName": "00669179.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669179",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-30T15:53:45+02:00",
+      "name": "Präsentation",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93335",
+      "authoritative": true,
+      "created": "2025-04-15T20:31:22+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34060",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10123",
+      "modified": "2025-07-28T15:08:27+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/29599"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51799",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-04-15T19:48:19+02:00",
+  "date": "2025-04-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51799",
+  "modified": "2025-07-30T15:53:45+02:00",
+  "name": "Erinnerungsmal für die migrantischen Opfer des Brandanschlags in der Markgrafenstraße 41 im Jahr 1996",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/0355",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882963"
+  ]
+}

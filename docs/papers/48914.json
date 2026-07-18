@@ -1,0 +1,106 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650098.pdf",
+      "created": "2023-08-24T11:45:10+02:00",
+      "date": "2023-08-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650098.pdf",
+      "fileName": "00650098.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650098",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654929.pdf",
+      "created": "2023-12-20T10:23:15+01:00",
+      "date": "2023-12-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654929.pdf",
+      "fileName": "00654929.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654929",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 14 u. 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655156.pdf",
+      "created": "2024-01-08T14:12:41+01:00",
+      "date": "2024-01-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655156.pdf",
+      "fileName": "00655156.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655156",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 14 und 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2023-07-20T10:11:18+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30072",
+      "modified": "2023-08-25T13:57:35+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48914",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78898",
+      "authoritative": true,
+      "created": "2023-07-20T14:49:57+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30082",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9451",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33195"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48914",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83351",
+      "created": "2023-11-07T17:26:48+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30073",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9096",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48914",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83780",
+      "authoritative": true,
+      "created": "2023-12-07T08:28:39+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30334",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9055",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48914",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-07-20T10:08:11+02:00",
+  "date": "2023-07-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48914",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Delegation Rechtsanspruch Ganztagsbetreuung für Kinder im Grundschulalter",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0816",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

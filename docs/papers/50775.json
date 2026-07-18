@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659807.pdf",
+      "created": "2024-07-25T14:41:07+02:00",
+      "date": "2024-07-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659807.pdf",
+      "fileName": "00659807.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659807",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659809.pdf",
+      "created": "2024-07-25T15:29:35+02:00",
+      "date": "2024-07-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659809.pdf",
+      "fileName": "00659809.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659809",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1 Geschäftsordnung",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/89994",
+      "created": "2024-09-09T17:06:28+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32567",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9914",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50775",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-07-25T14:28:03+02:00",
+  "date": "2024-07-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50775",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Änderung der Geschäftsordnung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0849",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

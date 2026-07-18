@@ -1,0 +1,54 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609358.pdf",
+      "created": "2019-04-29T15:18:42+02:00",
+      "date": "2019-04-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609358.pdf",
+      "fileName": "00609358.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609358",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP_7_Hortentwicklung",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2019-04-29T15:12:58+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16579",
+      "modified": "2019-04-29T15:12:58+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37348",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45790",
+      "created": "2019-04-29T15:14:26+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16578",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5328",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37348",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-04-29T15:12:26+02:00",
+  "date": "2019-04-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37348",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Akuelle Hortentwicklung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2019/0443",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610121.pdf",
+      "created": "2019-06-18T09:58:11+02:00",
+      "date": "2019-06-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610121.pdf",
+      "fileName": "00610121.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610121",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610454.pdf",
+      "created": "2019-07-05T12:41:46+02:00",
+      "date": "2019-07-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610454.pdf",
+      "fileName": "00610454.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610454",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610695.pdf",
+      "created": "2019-08-13T09:31:10+02:00",
+      "date": "2019-08-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610695.pdf",
+      "fileName": "00610695.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610695",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46242",
+      "authoritative": true,
+      "created": "2019-06-19T07:38:01+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16764",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5370",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37505",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-06-18T09:57:15+02:00",
+  "date": "2019-06-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37505",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Vorrang für Open-Source-Lösungen bei der Stadtverwaltung",
+  "paperType": "Antrag",
+  "reference": "2019/0605",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

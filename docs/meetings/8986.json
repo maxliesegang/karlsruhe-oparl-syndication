@@ -1,0 +1,45 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27352",
+      "created": "2022-05-12T08:36:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70085",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/8986",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Herstellung Hospitality Parkplatz inklusive Zufahrt „Fußballstadion im Wildpark“",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2022-04-12T15:02:41+02:00",
+  "end": "2022-05-12T17:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/8986",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00637735.pdf",
+    "created": "2022-05-12T08:42:51+02:00",
+    "date": "2022-05-12",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00637735.pdf",
+    "fileName": "00637735.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/637735",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2022-04-12T15:02:41+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/8986",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Sondersitzung Betriebsausschuss \"Eigenbetrieb Fußballstadion im Wildpark\" (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54856"
+  ],
+  "start": "2022-05-12T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

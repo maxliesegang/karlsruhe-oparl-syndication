@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676096.pdf",
+      "created": "2026-01-26T14:55:25+01:00",
+      "date": "2026-01-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676096.pdf",
+      "fileName": "00676096.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676096",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-05T07:48:33+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100236",
+      "authoritative": true,
+      "created": "2026-01-28T17:40:18+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36903",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10487",
+      "modified": "2026-03-12T11:53:17+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54193",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-01-26T14:53:28+01:00",
+  "date": "2026-01-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54193",
+  "modified": "2026-03-05T07:48:33+01:00",
+  "name": "Schulleitungsstellenbesetzungsverfahren",
+  "paperType": "Informationsvorlage",
+  "reference": "2026/0062",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

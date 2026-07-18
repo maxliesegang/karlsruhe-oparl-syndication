@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670991.pdf",
+      "created": "2025-10-17T11:23:27+02:00",
+      "date": "2025-12-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670991.pdf",
+      "fileName": "00670991.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670991",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-14T07:38:27+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674630.pdf",
+      "created": "2025-12-04T09:08:01+01:00",
+      "date": "2025-12-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674630.pdf",
+      "fileName": "00674630.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674630",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-14T07:38:27+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674631.pdf",
+      "created": "2025-12-04T09:23:16+01:00",
+      "date": "2025-12-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674631.pdf",
+      "fileName": "00674631.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674631",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-14T07:38:27+01:00",
+      "name": "Anlage 1 - Liste der Mitgliedschaften der Stadt Karlsruhe",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675749.pdf",
+      "created": "2026-01-14T07:38:23+01:00",
+      "date": "2026-01-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675749.pdf",
+      "fileName": "00675749.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675749",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-14T07:38:27+01:00",
+      "name": "Protokoll GR 22.12.2025 TOP 13",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99219",
+      "authoritative": true,
+      "created": "2025-11-24T13:53:32+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35062",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10425",
+      "modified": "2025-12-22T20:22:54+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52501",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-10-17T11:22:58+02:00",
+  "date": "2025-11-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52501",
+  "modified": "2026-01-14T07:38:27+01:00",
+  "name": "Vereins- und Verbandsmitgliedschaften der Stadt Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2025/0990",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882850"
+  ]
+}

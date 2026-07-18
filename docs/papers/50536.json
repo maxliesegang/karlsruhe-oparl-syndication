@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658869.pdf",
+      "created": "2024-06-05T10:58:28+02:00",
+      "date": "2024-06-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658869.pdf",
+      "fileName": "00658869.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658869",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659077.pdf",
+      "created": "2024-06-14T14:25:01+02:00",
+      "date": "2024-06-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659077.pdf",
+      "fileName": "00659077.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659077",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme zum Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659228.pdf",
+      "created": "2024-06-21T10:45:09+02:00",
+      "date": "2024-06-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659228.pdf",
+      "fileName": "00659228.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659228",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 18.06.2024 TOP 23",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86928",
+      "authoritative": true,
+      "created": "2024-06-05T18:29:33+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32240",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9527",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50536",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/87415",
+      "created": "2024-06-24T12:31:42+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32311",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9550",
+      "modified": "2025-04-11T14:05:41+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50536",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-06-05T10:55:44+02:00",
+  "date": "2024-06-05",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50536",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Modernisierung des Bahnübergangs am Brunnenstückweg",
+  "paperType": "Antrag",
+  "reference": "2024/0631",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

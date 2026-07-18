@@ -1,0 +1,59 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16201",
+      "created": "2019-02-20T08:40:03+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45014",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5286",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Monitoring der IQ-Arbeitsweise",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16204",
+      "created": "2019-03-06T09:21:20+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45171",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5286",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Abschluss von Rahmenverträgen zur gewerbsmäßigen Arbeitnehmerüberlassung nach dem Arbeitnehmerüberlassungsgesetz",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "mehrheitlich beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2018-09-20T11:39:34+02:00",
+  "end": "2019-03-19T19:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5286",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608237.pdf",
+    "created": "2019-03-08T13:23:21+01:00",
+    "date": "2019-03-08",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608237.pdf",
+    "fileName": "00608237.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608237",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2018-09-20T11:39:34+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5286",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Hauptausschuss, gemeinsam mit Bauausschuss (TOP 3) (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+  ],
+  "start": "2019-03-19T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

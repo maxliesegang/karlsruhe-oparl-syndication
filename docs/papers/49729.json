@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653868.pdf",
+      "created": "2023-11-21T16:10:02+01:00",
+      "date": "2023-11-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653868.pdf",
+      "fileName": "00653868.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653868",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Aufhebungssatzung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653869.pdf",
+      "created": "2023-11-21T16:10:05+01:00",
+      "date": "2023-11-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653869.pdf",
+      "fileName": "00653869.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653869",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654914.pdf",
+      "created": "2023-12-20T10:14:28+01:00",
+      "date": "2023-12-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654914.pdf",
+      "fileName": "00654914.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654914",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis Top3",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655145.pdf",
+      "created": "2024-01-08T14:07:41+01:00",
+      "date": "2024-01-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655145.pdf",
+      "fileName": "00655145.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655145",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83547",
+      "authoritative": true,
+      "created": "2023-11-23T09:45:12+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31083",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9055",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49729",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-11-21T14:13:24+01:00",
+  "date": "2023-11-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49729",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Aufhebung der \"Satzung der Stadt Karlsruhe über das Ausstellen eines Bewohnerparkausweises (Bewohnerparkausweisgebührensatzung)\"",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/1326",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

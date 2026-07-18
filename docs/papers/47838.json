@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642893.pdf",
+      "created": "2022-11-24T14:20:23+01:00",
+      "date": "2022-11-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642893.pdf",
+      "fileName": "00642893.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642893",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644588.pdf",
+      "created": "2023-02-01T17:12:00+01:00",
+      "date": "2023-02-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644588.pdf",
+      "fileName": "00644588.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644588",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN zur Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644607.pdf",
+      "created": "2023-02-02T14:44:00+01:00",
+      "date": "2023-02-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644607.pdf",
+      "fileName": "00644607.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644607",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646053.pdf",
+      "created": "2023-03-27T13:34:18+02:00",
+      "date": "2023-03-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646053.pdf",
+      "fileName": "00646053.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646053",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 24",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75485",
+      "authoritative": true,
+      "created": "2023-01-27T10:04:10+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28653",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9042",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47838",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-11-24T14:17:29+01:00",
+  "date": "2022-11-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47838",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Versorgungssituation und Kosten der Schulverpflegung in Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2022/2360",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

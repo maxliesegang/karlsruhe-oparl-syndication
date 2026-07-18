@@ -1,0 +1,68 @@
+{
+  "agendaItem": [
+    {
+      "created": "2022-09-08T19:09:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72412",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6660",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Vorsitz: Bürgermeisterin Bettina Lisbach",
+      "number": "",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27859",
+      "created": "2022-09-08T19:06:02+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72405",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6660",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Ersatzflächensuche für Skateanlage beim NCO-Club",
+      "number": "1",
+      "order": 2,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2022-09-08T19:10:13+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72414",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6660",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verschiedenes",
+      "number": "2",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2021-09-30T13:07:49+02:00",
+  "end": "2022-09-28T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6660",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00640224.pdf",
+    "created": "2022-09-01T15:08:23+02:00",
+    "date": "2022-09-09",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00640224.pdf",
+    "fileName": "00640224.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/640224",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortsverwaltung",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2021-09-30T13:07:49+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6660",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ausschuss für öffentliche Einrichtungen (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+  ],
+  "start": "2022-09-28T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

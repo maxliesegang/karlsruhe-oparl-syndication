@@ -1,0 +1,72 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27723",
+      "created": "2022-09-09T14:43:49+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72437",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6647",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Digitales Parkraum-Management für Karlsruhe",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "vorberaten ohne Änderungen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27133",
+      "created": "2022-09-19T11:17:19+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72531",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6647",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Sozialwohnungsquote für Außenbereich einführen",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "vorberaten ohne Änderungen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28020",
+      "created": "2022-09-28T13:23:03+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72894",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6647",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Prüfung und Dokumentation eines möglichen Standorts des Zwangsarbeiterlagers der Deutschen Waffen- und Munitionsfabriken AG in der NS Zeit",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "erledigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2021-09-30T12:08:11+02:00",
+  "end": "2022-10-05T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6647",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00641082.pdf",
+    "created": "2022-09-28T18:38:26+02:00",
+    "date": "2022-09-28",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00641082.pdf",
+    "fileName": "00641082.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/641082",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2021-09-30T12:08:11+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6647",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Planungsausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+  ],
+  "start": "2022-10-05T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

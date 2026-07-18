@@ -1,0 +1,93 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00598089.pdf",
+      "created": "2017-06-26T09:41:21+02:00",
+      "date": "2017-06-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00598089.pdf",
+      "fileName": "00598089.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/598089",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Richtlinie der Stadt KA für die Förderung von Kitas",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00598419.pdf",
+      "created": "2017-07-14T10:10:49+02:00",
+      "date": "2017-07-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00598419.pdf",
+      "fileName": "00598419.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/598419",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderung Richtlinien Kindertagesstätten",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00598588.pdf",
+      "created": "2017-07-26T09:38:33+02:00",
+      "date": "2017-07-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00598588.pdf",
+      "fileName": "00598588.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/598588",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00599128.pdf",
+      "created": "2017-09-01T10:01:44+02:00",
+      "date": "2017-09-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00599128.pdf",
+      "fileName": "00599128.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/599128",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/40907",
+      "created": "2017-06-26T09:38:10+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14461",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4604",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35671",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/40966",
+      "authoritative": true,
+      "created": "2017-06-27T14:04:39+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14462",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4624",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35671",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-06-20T15:16:01+02:00",
+  "date": "2017-06-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35671",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Änderung der \"Richtlinie der Stadt Karlsruhe für die Förderung von Kindertagesstätten und Kinderkrippen\" - Befristete Förderung von geeigneten Kräften bei der Aufnahme von Kindern mit Fluchterfahrung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0425",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

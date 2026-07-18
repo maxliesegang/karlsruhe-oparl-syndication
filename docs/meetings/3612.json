@@ -1,0 +1,84 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/11984",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/35879",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3612",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Transatlantisches Freihandelsabkommen TTIP - Diskussion zur Positionierung des Gemeinderates",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/35951",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3612",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Änderungsantrag GRÜNE, KULT, Die Linke: Karlsruher Resolution zu TTIP, CETA und TISA",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "mehrheitlich abgelehnt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/12085",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/35881",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3612",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Änderung der Verbandssatzung des Zweckverbandes Kommunale Informationsverarbeitung Baden-Franken (KIV BF)",
+      "number": "2",
+      "order": 3,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/12039",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/35880",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3612",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Annahme des Angebots von Zuwendungen",
+      "number": "3",
+      "order": 4,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2016-10-12T09:08:39+02:00",
+  "end": "2014-12-09T00:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3612",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00150056.pdf",
+    "created": "2016-10-12T09:08:36+02:00",
+    "date": "2014-12-09",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00150056.pdf",
+    "fileName": "00150056.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/150056",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2016-10-12T09:08:39+02:00",
+    "description": "Großer Sitzungssaal",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/3612",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Hauptausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+  ],
+  "start": "2014-12-09T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

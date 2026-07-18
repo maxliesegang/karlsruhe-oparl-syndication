@@ -1,0 +1,108 @@
+{
+  "agendaItem": [
+    {
+      "created": "2024-12-09T14:43:22+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91624",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10060",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Amt für Hochbau und Gebäudewirtschaft",
+      "number": "",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33328",
+      "created": "2024-12-09T14:43:22+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91629",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10060",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Schloss-Schule Durlach, Erweiterung und Modernisierung, Abbruch- und Rückbau (BA III)",
+      "number": "1",
+      "order": 2,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33162",
+      "created": "2024-12-09T14:43:22+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91627",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10060",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verschiedene Liegenschaften im Bereich der Stadt Karlsruhe (9 Lose)",
+      "number": "2",
+      "order": 3,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2024-12-09T14:43:22+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91623",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10060",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Tiefbauamt",
+      "number": "",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33299",
+      "created": "2024-12-09T14:43:22+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91628",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10060",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Abwasserbeseitigung, Netzsanierung Kernstadt und Stadtteile",
+      "number": "3",
+      "order": 5,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669330.pdf",
+      "created": "2025-08-08T10:58:27+02:00",
+      "date": "2025-08-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669330.pdf",
+      "fileName": "00669330.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669330",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-08T10:58:27+02:00",
+      "name": "Protokoll Ausschuss öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2024-10-16T14:49:44+02:00",
+  "end": "2025-01-09T18:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10060",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663672.pdf",
+    "created": "2024-12-13T13:28:34+01:00",
+    "date": "2024-12-13",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663672.pdf",
+    "fileName": "00663672.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663672",
+    "mimeType": "application/pdf",
+    "modified": "2025-08-08T10:56:49+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2024-10-16T14:49:44+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10060",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Bauausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+  ],
+  "start": "2025-01-09T16:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

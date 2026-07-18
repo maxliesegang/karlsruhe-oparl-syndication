@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607892.pdf",
+      "created": "2019-02-13T10:06:52+01:00",
+      "date": "2019-02-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607892.pdf",
+      "fileName": "00607892.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607892",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608402.pdf",
+      "created": "2019-03-15T11:47:29+01:00",
+      "date": "2019-03-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608402.pdf",
+      "fileName": "00608402.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608402",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 35",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609379.pdf",
+      "created": "2019-04-30T07:11:08+02:00",
+      "date": "2019-04-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609379.pdf",
+      "fileName": "00609379.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609379",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 35",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45096",
+      "authoritative": true,
+      "created": "2019-02-26T11:06:11+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16191",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5294",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37042",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-02-13T10:05:20+01:00",
+  "date": "2019-02-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37042",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Durlach: Erhaltungssatzung",
+  "paperType": "Antrag",
+  "reference": "2019/0125",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

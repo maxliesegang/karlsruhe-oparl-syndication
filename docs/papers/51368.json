@@ -1,0 +1,92 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665427.pdf",
+      "created": "2025-03-07T08:59:30+01:00",
+      "date": "2025-03-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665427.pdf",
+      "fileName": "00665427.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665427",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T07:24:55+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666173.pdf",
+      "created": "2025-04-03T14:16:54+02:00",
+      "date": "2025-04-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666173.pdf",
+      "fileName": "00666173.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666173",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T07:27:14+02:00",
+      "name": "Anlage 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666174.pdf",
+      "created": "2025-04-03T14:17:09+02:00",
+      "date": "2025-04-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666174.pdf",
+      "fileName": "00666174.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666174",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T07:27:33+02:00",
+      "name": "Anlage 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667609.pdf",
+      "created": "2025-06-02T14:42:15+02:00",
+      "date": "2025-06-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667609.pdf",
+      "fileName": "00667609.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667609",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T07:24:55+02:00",
+      "name": "Abstimmungsergebnis TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668031.pdf",
+      "created": "2025-06-17T07:24:50+02:00",
+      "date": "2025-06-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668031.pdf",
+      "fileName": "00668031.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668031",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T07:27:41+02:00",
+      "name": "Protokoll GR 27.05.2025 TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93756",
+      "authoritative": true,
+      "created": "2025-05-07T08:24:15+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33787",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10048",
+      "modified": "2025-05-27T15:51:43+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51368",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-12-10T10:39:30+01:00",
+  "date": "2025-02-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51368",
+  "modified": "2025-06-17T07:24:55+02:00",
+  "name": "Satzung zur Änderung der Betriebssatzung für den Eigenbetrieb Team Sauberes Karlsruhe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/1398",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

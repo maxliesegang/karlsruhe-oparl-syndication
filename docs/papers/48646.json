@@ -1,0 +1,106 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647383.pdf",
+      "created": "2023-05-19T09:47:49+02:00",
+      "date": "2023-05-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647383.pdf",
+      "fileName": "00647383.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647383",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647388.pdf",
+      "created": "2023-05-19T10:05:52+02:00",
+      "date": "2023-05-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647388.pdf",
+      "fileName": "00647388.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647388",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage2_Synopse_Stadtteilhäuser",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648602.pdf",
+      "created": "2023-06-29T15:58:21+02:00",
+      "date": "2023-06-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648602.pdf",
+      "fileName": "00648602.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648602",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage1_Stadtteilhäuser_Förderrichtlinie_Stand_06_2023",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649089.pdf",
+      "created": "2023-07-18T19:57:31+02:00",
+      "date": "2023-07-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649089.pdf",
+      "fileName": "00649089.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649089",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis Top 9.2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649497.pdf",
+      "created": "2023-08-03T12:12:54+02:00",
+      "date": "2023-08-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649497.pdf",
+      "fileName": "00649497.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649497",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78056",
+      "authoritative": true,
+      "created": "2023-05-30T13:35:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29699",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9093",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33195"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48646",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78351",
+      "authoritative": true,
+      "created": "2023-06-20T11:19:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29700",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9047",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48646",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-05-19T09:46:12+02:00",
+  "date": "2023-05-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48646",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Weiterentwicklung der bestehenden Förderung der Bürgerzentren zur Förderrichtlinie Stadtteilhäuser",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0568",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882965"
+  ]
+}

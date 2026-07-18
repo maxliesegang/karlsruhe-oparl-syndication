@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659957.pdf",
+      "created": "2024-08-01T18:03:53+02:00",
+      "date": "2024-08-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659957.pdf",
+      "fileName": "00659957.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659957",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661984.pdf",
+      "created": "2024-10-23T15:22:07+02:00",
+      "date": "2024-10-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661984.pdf",
+      "fileName": "00661984.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661984",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662259.pdf",
+      "created": "2024-10-31T14:06:46+01:00",
+      "date": "2024-10-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662259.pdf",
+      "fileName": "00662259.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662259",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 22.10.2024 TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90276",
+      "authoritative": true,
+      "created": "2024-09-25T09:33:35+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32604",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50803",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90363",
+      "created": "2024-09-27T14:20:07+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32848",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9820",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34531"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50803",
+      "role": "Anhörung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-08-01T17:46:43+02:00",
+  "date": "2024-08-01",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50803",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Symbolische Aberkennung der Ehrenbürgerwürde",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0875",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882951"
+  ]
+}

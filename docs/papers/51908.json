@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667101.pdf",
+      "created": "2025-05-12T19:10:40+02:00",
+      "date": "2025-05-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667101.pdf",
+      "fileName": "00667101.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667101",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-24T08:59:35+02:00",
+      "name": "Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667381.pdf",
+      "created": "2025-05-22T15:02:40+02:00",
+      "date": "2025-05-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667381.pdf",
+      "fileName": "00667381.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667381",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-24T08:59:35+02:00",
+      "name": "Stellungnahme zum Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93883",
+      "created": "2025-05-12T19:44:54+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34207",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9898",
+      "modified": "2025-05-20T07:58:46+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51908",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-05-12T19:09:54+02:00",
+  "date": "2025-05-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51908",
+  "modified": "2025-05-24T08:59:35+02:00",
+  "name": "Zustand Roter Blitz",
+  "paperType": "Antrag",
+  "reference": "2025/0454",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

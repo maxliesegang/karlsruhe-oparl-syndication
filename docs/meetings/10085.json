@@ -1,0 +1,46 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36650",
+      "created": "2025-12-01T07:29:52+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99636",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10085",
+      "modified": "2025-12-11T08:14:38+01:00",
+      "name": "Kreuzung Kriegs-/Brauer-/Reinhold-Frank-Straße, hier: Präsentation der Planung und erste Ergebnisse der Überprüfung anlässlich des Änderungsantrags vom 25. November 2025",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2024-10-17T11:57:51+02:00",
+  "end": "2025-12-10T18:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10085",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674146.pdf",
+    "created": "2025-12-01T07:29:57+01:00",
+    "date": "2025-12-01",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674146.pdf",
+    "fileName": "00674146.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674146",
+    "mimeType": "application/pdf",
+    "modified": "2025-12-04T12:11:42+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2024-10-17T11:57:51+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10085",
+    "modified": "2025-12-04T12:11:42+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-12-04T12:11:42+01:00",
+  "name": "Planungsausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+  ],
+  "start": "2025-12-10T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

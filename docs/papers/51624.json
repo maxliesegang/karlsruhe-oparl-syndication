@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665183.pdf",
+      "created": "2025-02-26T08:47:25+01:00",
+      "date": "2025-02-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665183.pdf",
+      "fileName": "00665183.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665183",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-03T11:03:48+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665679.pdf",
+      "created": "2025-03-17T09:32:33+01:00",
+      "date": "2025-03-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665679.pdf",
+      "fileName": "00665679.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665679",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-03T11:03:48+02:00",
+      "name": "neu-Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666142.pdf",
+      "created": "2025-04-03T11:03:45+02:00",
+      "date": "2025-04-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666142.pdf",
+      "fileName": "00666142.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666142",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-03T11:03:48+02:00",
+      "name": "Protokoll GR 25.03.2025 TOP 41",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92648",
+      "authoritative": true,
+      "created": "2025-02-26T08:50:35+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33782",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10046",
+      "modified": "2025-03-25T19:13:27+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51624",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-02-26T08:46:54+01:00",
+  "date": "2025-02-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51624",
+  "modified": "2025-04-03T11:03:48+02:00",
+  "name": "Reservepool als Schlüssel für den Nahverkehr",
+  "paperType": "Anfrage",
+  "reference": "2025/0197",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

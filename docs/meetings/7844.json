@@ -1,0 +1,109 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27466",
+      "created": "2022-06-14T08:42:46+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70512",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7844",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Sachstand VbB Wiesenstraße 40 Karlsruhe - Grünwettersbach",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27537",
+      "created": "2022-06-14T08:42:46+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70513",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7844",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "„Einladende“ kreativ gestaltete Abfalleimer",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "erledigt durch Stellungnahme der Verwaltung",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2022-06-14T08:49:10+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70514",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7844",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Bekanntgabe nichtöffentlich gefasster Beschlüsse",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "keine Mitteilungen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2022-06-14T08:49:26+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70515",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7844",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen der Ortsverwaltung",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2022-06-14T08:49:39+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70516",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7844",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Anfragen aus dem Ortschaftsrat",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "result": "erledigt durch Stellungnahme der Verwaltung",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00641410.pdf",
+      "created": "2022-10-12T11:45:51+02:00",
+      "date": "2022-10-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00641410.pdf",
+      "fileName": "00641410.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/641410",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Niederschrift_21.06.2022_öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2021-10-28T14:46:58+02:00",
+  "end": "2022-06-21T21:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7844",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638303.pdf",
+    "created": "2022-06-14T09:05:17+02:00",
+    "date": "2022-06-14",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638303.pdf",
+    "fileName": "00638303.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638303",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2021-10-28T14:46:58+02:00",
+    "description": "Musiksaal der Heinz-Barth-Schule, Esslinger Straße 2, 76228 Karlsruhe",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/7844",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ortschaftsrat Wettersbach (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+  ],
+  "start": "2022-06-21T19:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

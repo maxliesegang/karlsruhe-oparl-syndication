@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653831.pdf",
+      "created": "2023-11-21T08:12:13+01:00",
+      "date": "2023-11-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653831.pdf",
+      "fileName": "00653831.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653831",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "GRÜNE-Ä-Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653899.pdf",
+      "created": "2023-11-21T17:10:07+01:00",
+      "date": "2023-11-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653899.pdf",
+      "fileName": "00653899.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653899",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmung TOP1.38.1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83522",
+      "authoritative": true,
+      "created": "2023-11-21T08:39:38+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31080",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9446",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49728",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-11-21T08:07:37+01:00",
+  "date": "2023-11-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49728",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "HHSM - KSK 2030 - Klimaschutz und Wärmewende für die Bürger*innen (HHS_GR35)",
+  "paperType": "Haushalt THH 3100",
+  "reference": "DHH/2023/3107/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49523"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

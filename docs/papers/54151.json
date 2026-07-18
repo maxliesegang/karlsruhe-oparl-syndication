@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675804.pdf",
+      "created": "2026-01-16T14:23:03+01:00",
+      "date": "2026-01-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675804.pdf",
+      "fileName": "00675804.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675804",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-13T09:36:54+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676479.pdf",
+      "created": "2026-02-09T12:53:36+01:00",
+      "date": "2026-02-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676479.pdf",
+      "fileName": "00676479.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676479",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-13T09:36:54+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677063.pdf",
+      "created": "2026-03-13T09:36:52+01:00",
+      "date": "2026-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677063.pdf",
+      "fileName": "00677063.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677063",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-13T09:36:54+01:00",
+      "name": "Protokoll GR 24.02.2026 TOP 16",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100187",
+      "authoritative": true,
+      "created": "2026-01-27T11:08:31+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36850",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10476",
+      "modified": "2026-02-24T17:10:35+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54151",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-01-16T14:18:35+01:00",
+  "date": "2026-01-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54151",
+  "modified": "2026-03-13T09:36:54+01:00",
+  "name": "Kritische Einordnung und Analyse des außergewöhnlichen Anstiegs der Heizkosten in Karlsruhe für das Jahr 2025",
+  "paperType": "Anfrage",
+  "reference": "2026/0024",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/447562"
+  ]
+}

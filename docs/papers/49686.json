@@ -1,0 +1,91 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654050.pdf",
+      "created": "2023-11-24T14:53:37+01:00",
+      "date": "2023-11-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654050.pdf",
+      "fileName": "00654050.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654050",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654302.pdf",
+      "created": "2023-12-04T12:03:07+01:00",
+      "date": "2023-12-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654302.pdf",
+      "fileName": "00654302.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654302",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654933.pdf",
+      "created": "2023-12-20T10:25:15+01:00",
+      "date": "2023-12-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654933.pdf",
+      "fileName": "00654933.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654933",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 17",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655160.pdf",
+      "created": "2024-01-08T14:14:01+01:00",
+      "date": "2024-01-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655160.pdf",
+      "fileName": "00655160.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655160",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 17",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2023-11-09T12:03:00+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31017",
+      "modified": "2023-11-17T09:03:06+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34322"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49686",
+      "role": "Anhörung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83461",
+      "authoritative": true,
+      "created": "2023-11-20T09:50:04+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31018",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9055",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49686",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-11-09T11:53:24+01:00",
+  "date": "2023-11-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49686",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Erwerb des Grundstücks Nr. 98103 mit insgesamt 44.413 m² Verkehrsfläche Landwirtschaftsfläche und einer Teilfläche von ca. 33.664 m² des Grundstücks Nr. 98234 mit insgesamt 107.718 m² Verkehrsfläche Waldfläche Land",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/1291",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

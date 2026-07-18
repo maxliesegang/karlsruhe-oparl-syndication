@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679237.pdf",
+      "created": "2026-06-21T13:53:07+02:00",
+      "date": "2026-06-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679237.pdf",
+      "fileName": "00679237.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679237",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-02T08:11:10+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102252",
+      "authoritative": true,
+      "created": "2026-06-22T07:30:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37597",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10557",
+      "modified": "2026-07-15T07:35:18+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54673",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-06-21T13:51:41+02:00",
+  "date": "2026-06-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54673",
+  "modified": "2026-07-02T08:11:10+02:00",
+  "name": "Annahme des Angebots von Zuwendungen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0500",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

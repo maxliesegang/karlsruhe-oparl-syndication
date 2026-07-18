@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660512.pdf",
+      "created": "2024-08-29T13:51:46+02:00",
+      "date": "2024-08-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660512.pdf",
+      "fileName": "00660512.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660512",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage neu",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661999.pdf",
+      "created": "2024-10-23T15:34:48+02:00",
+      "date": "2024-10-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661999.pdf",
+      "fileName": "00661999.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661999",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 20",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662270.pdf",
+      "created": "2024-10-31T14:10:05+01:00",
+      "date": "2024-10-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662270.pdf",
+      "fileName": "00662270.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662270",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 22.10.2024 TOP 20",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90275",
+      "authoritative": true,
+      "created": "2024-09-25T09:33:35+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32601",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50801",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-08-01T09:11:27+02:00",
+  "date": "2024-08-01",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50801",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Klärwerk Karlsruhe, Neubau Labor- und Verwaltungsgebäude",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0873",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

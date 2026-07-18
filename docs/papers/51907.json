@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667424.pdf",
+      "created": "2025-05-26T09:52:34+02:00",
+      "date": "2025-05-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667424.pdf",
+      "fileName": "00667424.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667424",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-27T15:33:28+02:00",
+      "name": "Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667501.pdf",
+      "created": "2025-05-27T12:21:57+02:00",
+      "date": "2025-05-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667501.pdf",
+      "fileName": "00667501.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667501",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-27T15:33:28+02:00",
+      "name": "Stellungnahme Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93882",
+      "created": "2025-05-12T19:44:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34206",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9898",
+      "modified": "2025-05-20T07:58:46+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51907",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-05-12T18:58:06+02:00",
+  "date": "2025-05-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51907",
+  "modified": "2025-05-27T15:33:28+02:00",
+  "name": "Festverankerte Mülleimer Greschbachstraße",
+  "paperType": "Antrag",
+  "reference": "2025/0453",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

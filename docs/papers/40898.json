@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00623698.pdf",
+      "created": "2021-02-24T08:53:06+01:00",
+      "date": "2021-02-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00623698.pdf",
+      "fileName": "00623698.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/623698",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00623943.pdf",
+      "created": "2021-03-08T16:13:03+01:00",
+      "date": "2021-03-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00623943.pdf",
+      "fileName": "00623943.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/623943",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 2.1 Stellungnahme Anfrage GRÜNE",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56470",
+      "authoritative": true,
+      "created": "2021-02-24T09:24:49+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20813",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6165",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40898",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-02-24T08:52:25+01:00",
+  "date": "2021-02-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40898",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Zukunft von stadteigenen Wohngebäuden und strategische Weiterentwicklung der Volkswohnung GmbH",
+  "paperType": "Anfrage",
+  "reference": "2021/0257",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

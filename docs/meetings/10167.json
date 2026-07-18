@@ -1,0 +1,57 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34809",
+      "created": "2025-09-04T15:57:51+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96136",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10167",
+      "modified": "2025-09-04T15:57:58+02:00",
+      "name": "Bebauung Garagenhof – Gartenstadt Karlsruhe, Rüppurr",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34810",
+      "created": "2025-09-04T15:57:51+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96135",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10167",
+      "modified": "2025-09-04T15:57:58+02:00",
+      "name": "Umnutzung Kirche und Neubau Wohnen Michiganstraße 1, Nordstadt",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2024-10-18T10:02:13+02:00",
+  "end": "2025-10-10T15:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10167",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669931.pdf",
+    "created": "2025-09-04T15:22:21+02:00",
+    "date": "2025-09-04",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669931.pdf",
+    "fileName": "00669931.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669931",
+    "mimeType": "application/pdf",
+    "modified": "2025-09-09T12:07:02+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2024-10-18T10:02:13+02:00",
+    "description": "Stadtplanungsamt, Kaiserallee 4, Raum 201",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10167",
+    "modified": "2025-09-09T12:03:46+02:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-09-09T12:03:46+02:00",
+  "name": "Gestaltungsbeirat (öffentlich/nichtöffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54847"
+  ],
+  "start": "2025-10-10T13:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648824.pdf",
+      "created": "2023-07-10T12:15:11+02:00",
+      "date": "2023-07-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648824.pdf",
+      "fileName": "00648824.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648824",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage_Metropolkonzept_HA_GR_Juli2023",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648860.pdf",
+      "created": "2023-07-11T10:37:29+02:00",
+      "date": "2023-07-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648860.pdf",
+      "fileName": "00648860.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648860",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage_Metropolkonzept_HA_GR_Juli2023",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649104.pdf",
+      "created": "2023-07-18T21:56:05+02:00",
+      "date": "2023-07-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649104.pdf",
+      "fileName": "00649104.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649104",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 25",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649514.pdf",
+      "created": "2023-08-03T12:18:40+02:00",
+      "date": "2023-08-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649514.pdf",
+      "fileName": "00649514.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649514",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 25",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78773",
+      "authoritative": true,
+      "created": "2023-07-11T13:13:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30014",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9047",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48873",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-07-10T11:46:57+02:00",
+  "date": "2023-07-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48873",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Metropolkonzept Karlsruhe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0280/1",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

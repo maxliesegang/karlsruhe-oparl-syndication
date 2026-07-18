@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655686.pdf",
+      "created": "2024-01-30T15:54:37+01:00",
+      "date": "2024-01-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655686.pdf",
+      "fileName": "00655686.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655686",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage Firmengebäude big",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656566.pdf",
+      "created": "2024-03-06T17:58:37+01:00",
+      "date": "2024-03-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656566.pdf",
+      "fileName": "00656566.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656566",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Ausschuss",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84246",
+      "created": "2024-01-15T13:29:23+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31344",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9857",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54847"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49921",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-01-15T13:27:58+01:00",
+  "date": "2024-01-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49921",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Firmengebäude big",
+  "paperType": "Informationsvorlage",
+  "reference": "2024/0064",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

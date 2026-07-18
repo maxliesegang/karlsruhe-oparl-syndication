@@ -1,0 +1,83 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16858",
+      "created": "2019-08-28T14:32:29+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46707",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5626",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Vorschlag des Ortschaftsrates zur Wahl des Ortsvorstehers",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17030",
+      "created": "2019-09-09T14:25:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46781",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5626",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Vorschläge des Ortschaftsrates zur Wahl der Stellvertreter des Ortsvorstehers durch den Gemeinderat",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17031",
+      "created": "2019-09-11T09:15:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46812",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5626",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Förmliche Festlegung Sanierungsgebiet \"Ortsmitte Grötzingen\"",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614356.pdf",
+      "created": "2020-01-17T09:34:34+01:00",
+      "date": "2020-01-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614356.pdf",
+      "fileName": "00614356.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614356",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "19 09 18 Wortlaut der Beschlüsse der öffentlichen Sitzung des Ortschaftsrates Grötzingen 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614400.pdf",
+      "created": "2020-01-20T08:47:27+01:00",
+      "date": "2020-01-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614400.pdf",
+      "fileName": "00614400.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614400",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "19 09 18 Protokoll (ö).OSR",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2019-08-21T14:21:27+02:00",
+  "end": "2019-09-18T22:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5626",
+  "location": {
+    "created": "2019-08-21T14:21:27+02:00",
+    "description": "Begegnungsstätte Grötzingen",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5626",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ortschaftsrat Grötzingen (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+  ],
+  "start": "2019-09-18T19:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

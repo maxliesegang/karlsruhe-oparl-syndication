@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669033.pdf",
+      "created": "2025-07-25T07:31:44+02:00",
+      "date": "2025-07-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669033.pdf",
+      "fileName": "00669033.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669033",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:32:03+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669631.pdf",
+      "created": "2025-08-22T14:06:02+02:00",
+      "date": "2025-08-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669631.pdf",
+      "fileName": "00669631.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669631",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:32:03+02:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670981.pdf",
+      "created": "2025-10-17T10:32:01+02:00",
+      "date": "2025-10-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670981.pdf",
+      "fileName": "00670981.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670981",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:32:03+02:00",
+      "name": "Protokoll GR 30.09.2025 TOP 39",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96072",
+      "authoritative": true,
+      "created": "2025-09-02T10:48:43+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34617",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10052",
+      "modified": "2025-09-30T18:48:57+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52200",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-07-25T07:24:14+02:00",
+  "date": "2025-07-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52200",
+  "modified": "2025-10-17T10:32:03+02:00",
+  "name": "Entwicklung der ambulanten Kinder- und Jugendmedizin in Karlsruhe - Förderung der pädiatrischen Grundversorgung vor Ort",
+  "paperType": "Anfrage",
+  "reference": "2025/0722",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882975"
+  ]
+}

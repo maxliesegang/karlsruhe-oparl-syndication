@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00596450.pdf",
+      "created": "2017-03-03T13:42:37+01:00",
+      "date": "2017-03-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00596450.pdf",
+      "fileName": "00596450.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/596450",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderung in der Besetzung des Ältestenrates",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00596904.pdf",
+      "created": "2017-04-04T14:03:57+02:00",
+      "date": "2017-04-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00596904.pdf",
+      "fileName": "00596904.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/596904",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/40217",
+      "created": "2017-02-14T10:31:21+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14080",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4544",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35374",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-02-10T08:54:55+01:00",
+  "date": "2017-02-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35374",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Änderung in der Besetzung des Ältestenrates",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0104",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882850"
+  ]
+}

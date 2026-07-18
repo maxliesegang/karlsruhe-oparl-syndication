@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00645354.pdf",
+      "created": "2023-02-28T10:53:06+01:00",
+      "date": "2023-02-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00645354.pdf",
+      "fileName": "00645354.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/645354",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Pläne Radroute 12 Plangrundlage Vorlage Bauausschuss",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00645472.pdf",
+      "created": "2023-03-02T16:08:30+01:00",
+      "date": "2023-03-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00645472.pdf",
+      "fileName": "00645472.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/645472",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlusssvorlage BA Radroute 12 Hans-Thoma-Straße_Willy-Brandt-Allee",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/76281",
+      "authoritative": true,
+      "created": "2023-03-03T12:15:38+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29168",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9112",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48242",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-02-23T10:09:25+01:00",
+  "date": "2023-02-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48242",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Umsetzung der Radroute 12 Hans-Thoma-Straße/Willy-Brandt-Allee zwischen Binsenschlauchallee und Stephanienstraße (K 9656)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0209",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

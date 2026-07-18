@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600149.pdf",
+      "created": "2017-11-08T14:56:09+01:00",
+      "date": "2017-11-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600149.pdf",
+      "fileName": "00600149.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600149",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Klärwerk Karlsruhe",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600617.pdf",
+      "created": "2017-12-08T10:43:19+01:00",
+      "date": "2017-12-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600617.pdf",
+      "fileName": "00600617.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600617",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 22",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41518",
+      "authoritative": true,
+      "created": "2017-11-06T10:01:16+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14736",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4668",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35885",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-10-23T09:05:19+02:00",
+  "date": "2017-10-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35885",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Klärwerk Karlsruhe, Sanierung der Klärschlammverbrennungslinie 1 bzw. alternativ Neubau einer Klärschlammverbrennungslinie 3; Vergabe der Planungsleistungen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0660",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

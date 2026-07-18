@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00627743.pdf",
+      "created": "2021-08-31T13:19:41+02:00",
+      "date": "2021-08-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00627743.pdf",
+      "fileName": "00627743.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/627743",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00628249.pdf",
+      "created": "2021-09-21T14:33:55+02:00",
+      "date": "2021-09-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00628249.pdf",
+      "fileName": "00628249.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/628249",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "STN Anfrage Drais-Gemeinschaftsschule",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00631103.pdf",
+      "created": "2021-11-02T13:33:54+01:00",
+      "date": "2021-11-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00631103.pdf",
+      "fileName": "00631103.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/631103",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 54",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/60635",
+      "authoritative": true,
+      "created": "2021-09-08T10:01:29+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21943",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6279",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41743",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-08-31T13:18:58+02:00",
+  "date": "2021-08-31",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41743",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Oberstufe der Drais-Gemeinschaftsschule",
+  "paperType": "Anfrage",
+  "reference": "2021/1039",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

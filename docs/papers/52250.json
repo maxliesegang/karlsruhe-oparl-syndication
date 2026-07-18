@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669369.pdf",
+      "created": "2025-08-12T08:40:46+02:00",
+      "date": "2025-08-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669369.pdf",
+      "fileName": "00669369.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669369",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-07T11:30:51+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670629.pdf",
+      "created": "2025-10-07T11:30:48+02:00",
+      "date": "2025-10-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670629.pdf",
+      "fileName": "00670629.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670629",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-07T11:30:51+02:00",
+      "name": "Protokoll HFA 23.09.2025 TOP 5",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95533",
+      "authoritative": true,
+      "created": "2025-08-18T11:12:14+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34690",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10040",
+      "modified": "2025-09-24T07:52:52+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52250",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-08-12T08:39:45+02:00",
+  "date": "2025-08-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52250",
+  "modified": "2025-10-07T11:30:51+02:00",
+  "name": "Vergabe der Beschaffung von Microsoft-Software-Lizenzen für Schulen durch den Beitritt zum Rahmenvertrag zwischen FWU und Microsoft oder anderen Lizenzprogrammen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0763",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

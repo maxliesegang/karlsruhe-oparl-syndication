@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655202.pdf",
+      "created": "2024-01-09T14:32:12+01:00",
+      "date": "2024-01-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655202.pdf",
+      "fileName": "00655202.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655202",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655236.pdf",
+      "created": "2024-01-11T12:29:12+01:00",
+      "date": "2024-01-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655236.pdf",
+      "fileName": "00655236.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655236",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656722.pdf",
+      "created": "2024-03-13T11:31:00+01:00",
+      "date": "2024-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656722.pdf",
+      "fileName": "00656722.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656722",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 20.02.2024 TOP 24",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84514",
+      "authoritative": true,
+      "created": "2024-01-23T12:57:50+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31296",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9523",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49888",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-01-09T14:31:47+01:00",
+  "date": "2024-01-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49888",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Künftiger Schulraumbedarf in Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2024/0032",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611318.pdf",
+      "created": "2019-09-25T09:00:51+02:00",
+      "date": "2019-09-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611318.pdf",
+      "fileName": "00611318.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611318",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612270.pdf",
+      "created": "2019-11-15T14:15:50+01:00",
+      "date": "2019-11-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612270.pdf",
+      "fileName": "00612270.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612270",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 35",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00613192.pdf",
+      "created": "2020-01-07T10:02:16+01:00",
+      "date": "2020-01-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00613192.pdf",
+      "fileName": "00613192.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/613192",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 35",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47439",
+      "authoritative": true,
+      "created": "2019-10-24T08:46:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17137",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5423",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37811",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-09-25T08:59:12+02:00",
+  "date": "2019-09-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37811",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Klimaneutralität des neuen Wildparkstadions: Wie weit sind die Planungen für ein klimaneutrales Wildparkstadion fortgeschritten?",
+  "paperType": "Anfrage",
+  "reference": "2019/0937",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

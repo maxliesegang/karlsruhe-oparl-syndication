@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635286.pdf",
+      "created": "2022-01-17T12:42:05+01:00",
+      "date": "2022-01-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635286.pdf",
+      "fileName": "00635286.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635286",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag Wohnungen für Mitarbeiter*innen des Klinikums",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636477.pdf",
+      "created": "2022-03-11T11:10:22+01:00",
+      "date": "2022-03-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636477.pdf",
+      "fileName": "00636477.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636477",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 22.02.2022 TOP 17",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636538.pdf",
+      "created": "2022-03-15T07:44:02+01:00",
+      "date": "2022-03-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636538.pdf",
+      "fileName": "00636538.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636538",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/67698",
+      "authoritative": true,
+      "created": "2022-01-26T09:45:33+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26693",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6584",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46316",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/69021",
+      "created": "2022-03-11T14:17:47+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26703",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6663",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46316",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-01-17T12:41:34+01:00",
+  "date": "2022-01-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46316",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Wohnungen für Mitarbeiter*innen des Klinikums",
+  "paperType": "Antrag",
+  "reference": "2022/0049",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882994"
+  ]
+}

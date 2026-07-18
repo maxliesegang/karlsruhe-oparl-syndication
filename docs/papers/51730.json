@@ -1,0 +1,57 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671000.pdf",
+      "created": "2025-10-17T15:03:54+02:00",
+      "date": "2025-10-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671000.pdf",
+      "fileName": "00671000.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671000",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-27T14:37:18+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96167",
+      "created": "2025-09-09T10:55:33+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34269",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10084",
+      "modified": "2025-11-13T17:03:09+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51730",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/97585",
+      "authoritative": true,
+      "created": "2025-11-04T09:15:40+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34646",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10110",
+      "modified": "2025-12-03T10:15:47+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51730",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-03-25T15:52:23+01:00",
+  "date": "2025-05-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51730",
+  "modified": "2025-10-27T14:37:18+01:00",
+  "name": "Grundschule am Wasserturm",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/0295",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882990"
+  ]
+}

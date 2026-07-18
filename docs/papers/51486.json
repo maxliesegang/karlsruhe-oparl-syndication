@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670913.pdf",
+      "created": "2025-10-16T10:57:31+02:00",
+      "date": "2025-10-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670913.pdf",
+      "fileName": "00670913.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670913",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:13:06+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671672.pdf",
+      "created": "2025-11-07T08:10:03+01:00",
+      "date": "2025-11-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671672.pdf",
+      "fileName": "00671672.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671672",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:13:06+01:00",
+      "name": "Präsentation",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00673920.pdf",
+      "created": "2025-11-26T13:38:54+01:00",
+      "date": "2025-11-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00673920.pdf",
+      "fileName": "00673920.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/673920",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:13:06+01:00",
+      "name": "Abstimmungsergebnis TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675111.pdf",
+      "created": "2025-12-11T11:13:03+01:00",
+      "date": "2025-12-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675111.pdf",
+      "fileName": "00675111.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675111",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:13:06+01:00",
+      "name": "Protokoll GR 25.11.2025 TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/97831",
+      "authoritative": true,
+      "created": "2025-11-06T07:56:22+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33576",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10058",
+      "modified": "2025-11-26T13:28:26+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51486",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-01-21T10:32:38+01:00",
+  "date": "2025-04-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51486",
+  "modified": "2025-12-11T11:13:06+01:00",
+  "name": "Umbenennung der Städtischen Galerie Karlsruhe in Kunstmuseum Karlsruhe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0068",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882963"
+  ]
+}

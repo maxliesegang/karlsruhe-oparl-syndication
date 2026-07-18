@@ -1,0 +1,58 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668481.pdf",
+      "created": "2025-06-30T08:44:45+02:00",
+      "date": "2025-06-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668481.pdf",
+      "fileName": "00668481.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668481",
+      "mimeType": "application/pdf",
+      "modified": "2025-09-15T16:07:57+02:00",
+      "name": "Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668482.pdf",
+      "created": "2025-06-30T08:46:12+02:00",
+      "date": "2025-06-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668482.pdf",
+      "fileName": "00668482.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668482",
+      "mimeType": "application/pdf",
+      "modified": "2025-09-15T16:07:57+02:00",
+      "name": "Stellungnahme Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95546",
+      "created": "2025-08-18T15:02:05+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34514",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9900",
+      "modified": "2025-08-18T15:02:05+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52122",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-06-30T08:43:59+02:00",
+  "date": "2025-09-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52122",
+  "modified": "2025-10-09T14:56:13+02:00",
+  "name": "Instandhaltung Hallenbad Grötzingen (interfraktioneller Antrag)",
+  "paperType": "Antrag",
+  "reference": "2025/0647",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52474"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

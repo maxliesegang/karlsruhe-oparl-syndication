@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611615.pdf",
+      "created": "2019-10-14T08:48:25+02:00",
+      "date": "2019-10-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611615.pdf",
+      "fileName": "00611615.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611615",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612163.pdf",
+      "created": "2019-11-08T14:10:35+01:00",
+      "date": "2019-11-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612163.pdf",
+      "fileName": "00612163.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612163",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 24",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00613207.pdf",
+      "created": "2020-01-07T11:36:43+01:00",
+      "date": "2020-01-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00613207.pdf",
+      "fileName": "00613207.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/613207",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 24",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47456",
+      "authoritative": true,
+      "created": "2019-10-24T09:32:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17219",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5423",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37878",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-10-14T08:47:54+02:00",
+  "date": "2019-10-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37878",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Öffentliche Gebührenordnung für Stellplatzablöse",
+  "paperType": "Antrag",
+  "reference": "2019/1004",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

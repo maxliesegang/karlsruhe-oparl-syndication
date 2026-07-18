@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667833.pdf",
+      "created": "2025-06-10T15:57:46+02:00",
+      "date": "2025-06-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667833.pdf",
+      "fileName": "00667833.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667833",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-20T16:04:12+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668174.pdf",
+      "created": "2025-06-20T11:55:18+02:00",
+      "date": "2025-06-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668174.pdf",
+      "fileName": "00668174.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668174",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-20T16:04:12+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94420",
+      "authoritative": true,
+      "created": "2025-06-13T09:08:46+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34399",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10049",
+      "modified": "2025-06-25T07:57:36+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52037",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-06-10T15:54:10+02:00",
+  "date": "2025-06-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52037",
+  "modified": "2025-07-01T10:03:36+02:00",
+  "name": "Maßnahmen zur Haushaltssicherung - Gemeinsame Klausur von Gemeinderat und Amtsleitungen vor den Beratungen zum Doppelhaushalt2026/27",
+  "paperType": "Antrag",
+  "reference": "2025/0574",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

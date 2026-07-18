@@ -1,0 +1,85 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671281.pdf",
+      "created": "2025-10-24T11:20:45+02:00",
+      "date": "2025-10-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671281.pdf",
+      "fileName": "00671281.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671281",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:15:27+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671282.pdf",
+      "created": "2025-10-24T11:54:34+02:00",
+      "date": "2025-10-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671282.pdf",
+      "fileName": "00671282.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671282",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:15:27+01:00",
+      "name": "GO Beirat City Tax",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00673929.pdf",
+      "created": "2025-11-26T13:41:28+01:00",
+      "date": "2025-11-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00673929.pdf",
+      "fileName": "00673929.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/673929",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:15:27+01:00",
+      "name": "Abstimmungsergebnis TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675118.pdf",
+      "created": "2025-12-11T11:15:24+01:00",
+      "date": "2025-12-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675118.pdf",
+      "fileName": "00675118.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675118",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:15:27+01:00",
+      "name": "Protokoll GR 25.11.2025 TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/97194",
+      "authoritative": true,
+      "created": "2025-10-27T13:42:04+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34946",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10058",
+      "modified": "2025-11-26T13:30:37+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52428",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-09-29T09:15:12+02:00",
+  "date": "2025-09-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52428",
+  "modified": "2025-12-11T11:15:27+01:00",
+  "name": "Übernachtungsteuer (City Tax) in der Stadt Karlsruhe - Zusammensetzung und Geschäftsordnung des City Tax Beirats",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0923",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52745",
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52944",
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52961"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

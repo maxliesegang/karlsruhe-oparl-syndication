@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672130.pdf",
+      "created": "2025-11-19T09:53:00+01:00",
+      "date": "2025-11-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672130.pdf",
+      "fileName": "00672130.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672130",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-08T17:31:38+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99320",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:27+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35360",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-17T14:45:49+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52731",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-19T09:52:21+01:00",
+  "date": "2025-11-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52731",
+  "modified": "2025-12-08T17:31:38+01:00",
+  "name": "HHS4_GR87 - Verzicht auf die Beschaffung von Hundekotbeuteln",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1189",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

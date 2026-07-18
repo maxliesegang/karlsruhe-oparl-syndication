@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00627582.pdf",
+      "created": "2021-08-19T14:05:18+02:00",
+      "date": "2021-08-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00627582.pdf",
+      "fileName": "00627582.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/627582",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00628588.pdf",
+      "created": "2021-10-07T11:19:14+02:00",
+      "date": "2021-10-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00628588.pdf",
+      "fileName": "00628588.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/628588",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN Denkmalschutz",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634385.pdf",
+      "created": "2021-12-10T15:19:54+01:00",
+      "date": "2021-12-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634385.pdf",
+      "fileName": "00634385.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634385",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 34",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/60941",
+      "authoritative": true,
+      "created": "2021-09-28T09:43:21+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21908",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6301",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41721",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-08-19T14:04:59+02:00",
+  "date": "2021-08-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41721",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Denkmalschutz bei Wohnungs- und Wohnungsbaugenossenschaften sowie Volkswohnung",
+  "paperType": "Anfrage",
+  "reference": "2021/1017",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618931.pdf",
+      "created": "2020-07-21T11:34:30+02:00",
+      "date": "2020-07-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618931.pdf",
+      "fileName": "00618931.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618931",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618941.pdf",
+      "created": "2020-07-21T14:36:28+02:00",
+      "date": "2020-07-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618941.pdf",
+      "fileName": "00618941.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618941",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Prävention",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53771",
+      "authoritative": true,
+      "created": "2020-07-21T11:58:07+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19819",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5667",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40130",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53793",
+      "authoritative": true,
+      "created": "2020-07-22T09:32:38+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19819",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5668",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40130",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54553",
+      "authoritative": true,
+      "created": "2020-09-16T10:57:13+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19857",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5658",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40130",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-07-21T11:34:08+02:00",
+  "date": "2020-07-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40130",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Prävention statt Repression - Soziale Angebot an Jugendliche in der Innenstadt entwickeln",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2020/0921",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625462.pdf",
+      "created": "2021-05-12T14:04:05+02:00",
+      "date": "2021-05-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625462.pdf",
+      "fileName": "00625462.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625462",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP4_Bekanntgabe_Lammsaal",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/57855",
+      "created": "2021-04-30T11:56:12+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21221",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6452",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34531"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41211",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-04-30T11:45:06+02:00",
+  "date": "2021-05-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41211",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bekanntgaben",
+  "paperType": "Informationsvorlage",
+  "reference": "2021/0561",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882960"
+  ]
+}

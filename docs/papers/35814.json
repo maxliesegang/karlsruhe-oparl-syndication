@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00599622.pdf",
+      "created": "2017-10-06T12:05:39+02:00",
+      "date": "2017-10-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00599622.pdf",
+      "fileName": "00599622.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/599622",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Wahl Ortsvorsteher OV Neureut",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00599878.pdf",
+      "created": "2017-10-20T08:16:45+02:00",
+      "date": "2017-10-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00599878.pdf",
+      "fileName": "00599878.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/599878",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41278",
+      "authoritative": true,
+      "created": "2017-09-28T09:35:10+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14646",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4646",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35814",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-09-19T08:51:17+02:00",
+  "date": "2017-09-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35814",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Wahl der Ortsvorsteherin/des Ortsvorstehers der Ortsverwaltung Neureut",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0585",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882953"
+  ]
+}

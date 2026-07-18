@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611319.pdf",
+      "created": "2019-09-25T09:04:39+02:00",
+      "date": "2019-09-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611319.pdf",
+      "fileName": "00611319.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611319",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611603.pdf",
+      "created": "2019-10-11T13:52:39+02:00",
+      "date": "2019-10-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611603.pdf",
+      "fileName": "00611603.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611603",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 37",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612689.pdf",
+      "created": "2019-11-28T09:18:46+01:00",
+      "date": "2019-11-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612689.pdf",
+      "fileName": "00612689.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612689",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 37",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47020",
+      "authoritative": true,
+      "created": "2019-09-25T10:23:51+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17138",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5404",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37812",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-09-25T09:03:58+02:00",
+  "date": "2019-09-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37812",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Präventive Hausbesuche bei 75jährigen",
+  "paperType": "Anfrage",
+  "reference": "2019/0938",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

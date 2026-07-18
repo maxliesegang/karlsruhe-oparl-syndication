@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609047.pdf",
+      "created": "2019-04-15T15:18:13+02:00",
+      "date": "2019-04-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609047.pdf",
+      "fileName": "00609047.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609047",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609668.pdf",
+      "created": "2019-05-10T16:18:22+02:00",
+      "date": "2019-05-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609668.pdf",
+      "fileName": "00609668.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609668",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 56",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609919.pdf",
+      "created": "2019-05-27T10:22:36+02:00",
+      "date": "2019-05-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609919.pdf",
+      "fileName": "00609919.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609919",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Gemeinderat",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45641",
+      "authoritative": true,
+      "created": "2019-04-16T12:55:05+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16524",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5323",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37303",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-04-15T15:17:30+02:00",
+  "date": "2019-04-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37303",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Errichtung eines Friedensdenkmals statt des Leibgrenadier-Denkmals am Europaplatz",
+  "paperType": "Antrag",
+  "reference": "2019/0398",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

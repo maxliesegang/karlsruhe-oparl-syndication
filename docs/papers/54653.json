@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679092.pdf",
+      "created": "2026-06-16T07:04:03+02:00",
+      "date": "2026-06-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679092.pdf",
+      "fileName": "00679092.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679092",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-17T12:51:32+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679698.pdf",
+      "created": "2026-07-10T11:56:30+02:00",
+      "date": "2026-07-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679698.pdf",
+      "fileName": "00679698.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679698",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-17T12:51:32+02:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102390",
+      "created": "2026-06-25T09:15:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37576",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10566",
+      "modified": "2026-07-17T09:22:28+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54653",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-06-16T07:03:16+02:00",
+  "date": "2026-06-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54653",
+  "modified": "2026-07-17T12:51:32+02:00",
+  "name": "Wie ist die aktuelle Situation in den Karlsruher Notaufnahmen?",
+  "paperType": "Anfrage",
+  "reference": "2026/0485",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646649.pdf",
+      "created": "2023-04-18T13:05:45+02:00",
+      "date": "2023-04-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646649.pdf",
+      "fileName": "00646649.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646649",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage_Variante-A",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650849.pdf",
+      "created": "2023-09-22T14:26:21+02:00",
+      "date": "2023-09-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650849.pdf",
+      "fileName": "00650849.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650849",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Konzeptbeschluss: Variantenentscheidung für den barrierefreien Ausbau der Straßenbahn- und Bushaltestelle „Hübschstraße“ sowie Umgestaltung des gesamten Straßenraums",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78550",
+      "created": "2023-06-27T10:41:27+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29507",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9121",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48491",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/80325",
+      "authoritative": true,
+      "created": "2023-09-19T12:10:42+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30462",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9123",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48491",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-04-18T12:55:13+02:00",
+  "date": "2024-01-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48491",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Konzeptbeschluss: Variantenentscheidung für den barrierefreien Ausbau der Straßenbahn- und Bushaltestelle \"Hübschstraße\" sowie Umgestaltung des gesamten Straßenraums",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0425",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49945"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

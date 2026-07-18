@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00592222.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2016-06-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00592222.pdf",
+      "fileName": "00592222.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/592222",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Benennung Mitglieder Drogenkommission",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00592960.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2016-07-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00592960.pdf",
+      "fileName": "00592960.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/592960",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/38652",
+      "authoritative": true,
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/13368",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4140",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/34823",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2016-06-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/34823",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bestellung der Mitglieder der Drogenkommission",
+  "paperType": "Beschlussvorlage",
+  "reference": "2016/0329",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

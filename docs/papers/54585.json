@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679084.pdf",
+      "created": "2026-06-15T11:27:27+02:00",
+      "date": "2026-06-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679084.pdf",
+      "fileName": "00679084.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679084",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-03T09:57:06+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679493.pdf",
+      "created": "2026-07-01T13:47:17+02:00",
+      "date": "2026-07-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679493.pdf",
+      "fileName": "00679493.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679493",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-03T09:57:06+02:00",
+      "name": "Anlage 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102186",
+      "authoritative": true,
+      "created": "2026-06-16T10:24:54+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37454",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10557",
+      "modified": "2026-07-15T07:35:27+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54585",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-05-20T13:43:39+02:00",
+  "date": "2026-05-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54585",
+  "modified": "2026-07-08T15:54:45+02:00",
+  "name": "Jährlicher Bericht über die Entwicklung des Frauenanteils an Führungspositionen bei den städtischen Gesellschaften",
+  "paperType": "Informationsvorlage",
+  "reference": "2026/0418",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

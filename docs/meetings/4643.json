@@ -1,0 +1,82 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14679",
+      "created": "2017-10-09T13:39:37+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41333",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4643",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Hauptfeuerwache und Leitstelle, Nebau Hauptfeuerwache: Vergabe von Gas-, Wasser-, und Entwässerungsanlagen innerhalb von Gebäuden",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14680",
+      "created": "2017-10-09T13:39:37+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41334",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4643",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Stadthalle, Modernisierung: Vergabe von Trockenbau-, Tischler-, Metallbau- und Gerüstarbeiten",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2017-10-09T13:40:49+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41343",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4643",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen des Bürgermeisteramtes",
+      "number": "",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00599663.pdf",
+      "created": "2017-10-09T13:57:32+02:00",
+      "date": "2017-10-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00599663.pdf",
+      "fileName": "00599663.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/599663",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Tagesordnung_öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600443.pdf",
+      "created": "2017-11-28T15:28:45+01:00",
+      "date": "2017-11-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600443.pdf",
+      "fileName": "00600443.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600443",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2016-10-12T09:08:39+02:00",
+  "end": "2017-10-13T19:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4643",
+  "location": {
+    "created": "2016-10-12T09:08:39+02:00",
+    "description": "Großer Sitzungssaal, Rathaus Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/4643",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Bauausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+  ],
+  "start": "2017-10-13T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

@@ -1,0 +1,111 @@
+{
+  "agendaItem": [
+    {
+      "created": "2026-05-22T11:48:50+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101872",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10554",
+      "modified": "2026-06-25T14:52:21+02:00",
+      "name": "Amt für Hochbau und Gebäudewirtschaft",
+      "number": "",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37380",
+      "created": "2026-05-22T11:48:51+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101876",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10554",
+      "modified": "2026-07-02T19:12:09+02:00",
+      "name": "Antriebswende beschleunigen: E-Ladeinfrastruktur für städtische Mitarbeitende",
+      "number": "1",
+      "order": 2,
+      "public": true,
+      "result": "erledigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37398",
+      "created": "2026-05-22T11:48:51+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101878",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10554",
+      "modified": "2026-07-02T19:12:23+02:00",
+      "name": "Kita Wettersbach, Neubau einer 6-gruppigen Kita",
+      "number": "2",
+      "order": 3,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-05-22T11:48:50+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101873",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10554",
+      "modified": "2026-06-26T12:49:34+02:00",
+      "name": "Tiefbauamt",
+      "number": "",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37501",
+      "created": "2026-06-03T11:30:06+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101995",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10554",
+      "modified": "2026-07-02T20:52:34+02:00",
+      "name": "Fachstrategie Straßen",
+      "number": "3",
+      "order": 5,
+      "public": true,
+      "result": "vorberaten ohne Änderungen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37026",
+      "created": "2026-05-22T11:48:51+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101880",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10554",
+      "modified": "2026-07-02T20:52:48+02:00",
+      "name": "Fachstrategie Brücken",
+      "number": "4",
+      "order": 6,
+      "public": true,
+      "result": "vorberaten ohne Änderungen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2025-10-10T13:04:17+02:00",
+  "end": "2026-07-02T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10554",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678874.pdf",
+    "created": "2026-06-05T14:56:46+02:00",
+    "date": "2026-06-26",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678874.pdf",
+    "fileName": "00678874.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678874",
+    "mimeType": "application/pdf",
+    "modified": "2026-06-26T13:22:47+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2022-12-12T11:11:26+01:00",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/rm/67907",
+    "locality": "",
+    "modified": "2025-08-05T10:18:13+02:00",
+    "postalCode": "",
+    "room": "Bürgersaal",
+    "streetAddress": "",
+    "subLocality": "",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-06-27T10:12:00+02:00",
+  "name": "Bauausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+  ],
+  "start": "2026-07-02T17:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

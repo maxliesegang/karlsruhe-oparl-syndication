@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00657065.pdf",
+      "created": "2024-03-22T12:11:44+01:00",
+      "date": "2024-03-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00657065.pdf",
+      "fileName": "00657065.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/657065",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag Wettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00657066.pdf",
+      "created": "2024-03-22T12:12:24+01:00",
+      "date": "2024-03-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00657066.pdf",
+      "fileName": "00657066.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/657066",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag Wettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/85440",
+      "authoritative": true,
+      "created": "2024-03-22T12:05:01+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31787",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9755",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50209",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-03-22T12:03:37+01:00",
+  "date": "2024-03-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50209",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Streckenbezogene Geschwindigkeitsbegrenzung auf der L623 zwischen Grünwettersbach und Wolfartsweier Antrag der SPD-Ortschaftsratsfraktion Wettersbach",
+  "paperType": "Antrag",
+  "reference": "2024/0330",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882961"
+  ]
+}

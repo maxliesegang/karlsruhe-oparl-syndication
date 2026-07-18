@@ -1,0 +1,95 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28598",
+      "created": "2022-11-15T17:04:23+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/74018",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7865",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Rückblick Saison 2022 - Zahlen, Auswertungen",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "auxiliaryFile": [
+        {
+          "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642652.pdf",
+          "created": "2022-11-16T11:35:36+01:00",
+          "date": "2022-11-16",
+          "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642652.pdf",
+          "fileName": "00642652.pdf",
+          "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642652",
+          "mimeType": "application/pdf",
+          "modified": "2025-03-03T14:30:18+01:00",
+          "name": "Präsentation Monitoring Kalikokrebse",
+          "type": "https://schema.oparl.org/1.1/File"
+        }
+      ],
+      "created": "2022-11-15T17:04:39+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/74019",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7865",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Information Kalikokrebse",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2022-11-15T17:05:07+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/74020",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7865",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verschiedenes (Mitteilungen & Anregungen)",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643165.pdf",
+      "created": "2022-12-06T11:38:01+01:00",
+      "date": "2022-12-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643165.pdf",
+      "fileName": "00643165.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643165",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "22 11 16 Deck + Niederschrift AK Baggersee (ö)",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2021-10-29T12:44:21+02:00",
+  "end": "2022-11-16T21:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7865",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642679.pdf",
+    "created": "2022-11-16T16:06:03+01:00",
+    "date": "2022-11-16",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642679.pdf",
+    "fileName": "00642679.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642679",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2021-10-29T12:44:21+02:00",
+    "description": "Begegnungsstätte Grötzingen, Niddastraße 9, 76229 Karlsruhe",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/7865",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Arbeitskreis Baggersee (öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+  ],
+  "start": "2022-11-16T19:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

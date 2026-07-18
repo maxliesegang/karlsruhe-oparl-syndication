@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675170.pdf",
+      "created": "2025-12-12T09:16:05+01:00",
+      "date": "2025-12-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675170.pdf",
+      "fileName": "00675170.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675170",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-27T10:03:57+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676132.pdf",
+      "created": "2026-01-27T10:02:50+01:00",
+      "date": "2026-01-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676132.pdf",
+      "fileName": "00676132.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676132",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-27T10:03:57+01:00",
+      "name": "Abstimmungsergebnis TOP 1 Ö 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99873",
+      "authoritative": true,
+      "created": "2025-12-12T10:20:32+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36749",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-21T11:17:40+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54094",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-12-12T09:09:14+01:00",
+  "date": "2025-12-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54094",
+  "modified": "2026-01-27T10:03:57+01:00",
+  "name": "Verwendung der Fördermittel aus dem Länder-und-Kommunal-Infrastrukturfinanzierungsgesetz (LuKIFG)",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/1253",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

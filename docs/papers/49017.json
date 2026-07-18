@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649728.pdf",
+      "created": "2023-08-11T13:35:28+02:00",
+      "date": "2023-08-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649728.pdf",
+      "fileName": "00649728.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649728",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649788.pdf",
+      "created": "2023-08-15T15:07:29+02:00",
+      "date": "2023-08-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649788.pdf",
+      "fileName": "00649788.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649788",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Richtlinie Deutschlandticket BW 2023",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650891.pdf",
+      "created": "2023-09-25T11:17:53+02:00",
+      "date": "2023-09-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650891.pdf",
+      "fileName": "00650891.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650891",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651350.pdf",
+      "created": "2023-10-09T14:05:06+02:00",
+      "date": "2023-10-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651350.pdf",
+      "fileName": "00651350.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651350",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/79939",
+      "authoritative": true,
+      "created": "2023-08-22T09:36:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30246",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9049",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49017",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-08-11T12:19:21+02:00",
+  "date": "2023-08-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49017",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Beantragung und Abwicklung der Ausgleichsleistungen für die städtischen Verkehrsunternehmen im Rahmen des Deutschlandtickets für die Jahre 2023 und 2024",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0914",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

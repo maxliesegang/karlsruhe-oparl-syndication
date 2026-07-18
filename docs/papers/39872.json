@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617861.pdf",
+      "created": "2020-06-03T08:34:47+02:00",
+      "date": "2020-06-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617861.pdf",
+      "fileName": "00617861.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617861",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618408.pdf",
+      "created": "2020-06-23T14:00:46+02:00",
+      "date": "2020-06-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618408.pdf",
+      "fileName": "00618408.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618408",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Bildungsakademie",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619091.pdf",
+      "created": "2020-07-30T12:07:00+02:00",
+      "date": "2020-07-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619091.pdf",
+      "fileName": "00619091.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619091",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 51",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/52743",
+      "authoritative": true,
+      "created": "2020-06-03T09:17:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19501",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5666",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39872",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-06-03T08:34:17+02:00",
+  "date": "2020-06-03",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39872",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bildungsakademie der Handwerkskammer: Erweiterungsmöglichkeiten in der Hertzstraße",
+  "paperType": "Anfrage",
+  "reference": "2020/0664",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

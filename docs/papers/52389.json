@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670300.pdf",
+      "created": "2025-09-22T20:34:13+02:00",
+      "date": "2025-09-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670300.pdf",
+      "fileName": "00670300.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670300",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-31T16:38:35+01:00",
+      "name": "Antrag Durlach",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670301.pdf",
+      "created": "2025-09-22T20:35:41+02:00",
+      "date": "2025-09-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670301.pdf",
+      "fileName": "00670301.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670301",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-31T16:38:35+01:00",
+      "name": "Stellungnahme Antrag Durlach",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96341",
+      "authoritative": true,
+      "created": "2025-09-22T20:47:09+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34889",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10031",
+      "modified": "2025-11-13T08:52:18+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52389",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-09-22T20:33:23+02:00",
+  "date": "2025-09-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52389",
+  "modified": "2025-11-13T13:37:13+01:00",
+  "name": "Sitzmöglichkeiten am Alten Friedhof Durlach",
+  "paperType": "Antrag",
+  "reference": "2025/0893",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

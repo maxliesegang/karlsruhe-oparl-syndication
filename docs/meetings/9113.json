@@ -1,0 +1,98 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29150",
+      "created": "2023-03-08T15:09:00+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/76373",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9113",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Marktplatz für die Zukunft mit Bäumen ausstatten",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "verwiesen in den Gemeinderat",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28761",
+      "created": "2023-01-26T13:11:47+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75443",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9113",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Konzeptbeschluss: Markgräfliches Palais - Umbau Karl-Friedrich-Straße",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "mehrheitlich zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28742",
+      "created": "2023-01-12T14:42:11+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75148",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9113",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Konzeptbeschluss: Bebauungsplan Straße an der Gießerei_Planungsstand",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "mehrheitlich zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28862",
+      "created": "2023-01-12T14:42:11+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75149",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9113",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Hubstraße Durlach - Fahrradstraße",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28885",
+      "created": "2023-01-12T14:42:11+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75150",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9113",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Golfplatz Batzenhof - Verkehrszählungen",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2022-09-21T16:26:59+02:00",
+  "end": "2023-03-30T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9113",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00645845.pdf",
+    "created": "2023-03-16T14:30:14+01:00",
+    "date": "2023-03-16",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00645845.pdf",
+    "fileName": "00645845.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/645845",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2022-09-21T16:26:59+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9113",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Planungsausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+  ],
+  "start": "2023-03-30T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

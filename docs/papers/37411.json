@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609658.pdf",
+      "created": "2019-05-10T14:54:42+02:00",
+      "date": "2019-05-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609658.pdf",
+      "fileName": "00609658.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609658",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611139.pdf",
+      "created": "2019-09-18T13:11:55+02:00",
+      "date": "2019-09-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611139.pdf",
+      "fileName": "00611139.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611139",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 22",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612022.pdf",
+      "created": "2019-11-05T11:33:35+01:00",
+      "date": "2019-11-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612022.pdf",
+      "fileName": "00612022.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612022",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 22",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46625",
+      "authoritative": true,
+      "created": "2019-08-13T09:11:02+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16643",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5379",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37411",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-05-10T14:53:24+02:00",
+  "date": "2019-05-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37411",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Wirkungsvolle Maßnahmen gegen Wohnungsnot: Baugebot, Ankauf leerstehender Wohngebäude sowie Unterstützung der Grundsteuer C",
+  "paperType": "Antrag",
+  "reference": "2019/0508",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

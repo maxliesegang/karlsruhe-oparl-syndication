@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676656.pdf",
+      "created": "2026-02-18T09:39:15+01:00",
+      "date": "2026-02-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676656.pdf",
+      "fileName": "00676656.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676656",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-16T15:53:52+01:00",
+      "name": "Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676754.pdf",
+      "created": "2026-02-23T10:30:26+01:00",
+      "date": "2026-02-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676754.pdf",
+      "fileName": "00676754.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676754",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-16T15:53:52+01:00",
+      "name": "Stellungnahme Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100513",
+      "authoritative": true,
+      "created": "2026-02-18T09:41:13+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37024",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10435",
+      "modified": "2026-03-31T14:35:48+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54281",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-02-18T09:38:23+01:00",
+  "date": "2026-03-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54281",
+  "modified": "2026-03-16T15:53:52+01:00",
+  "name": "Beteiligung Grötzingens an der art karlsruhe 2027 (Antrag CDU-Fraktion)",
+  "paperType": "Antrag",
+  "reference": "2026/0144",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

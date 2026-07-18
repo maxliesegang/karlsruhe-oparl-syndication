@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658902.pdf",
+      "created": "2024-06-06T10:39:24+02:00",
+      "date": "2024-06-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658902.pdf",
+      "fileName": "00658902.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658902",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Skizze Tullastraße",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660040.pdf",
+      "created": "2024-08-06T13:46:42+02:00",
+      "date": "2024-08-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660040.pdf",
+      "fileName": "00660040.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660040",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/87497",
+      "created": "2024-07-01T14:20:06+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32060",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9550",
+      "modified": "2025-04-11T14:11:38+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50405",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-05-06T10:37:12+02:00",
+  "date": "2024-05-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50405",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Umgestaltung Tullastraße",
+  "paperType": "Informationsvorlage",
+  "reference": "2024/0509",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

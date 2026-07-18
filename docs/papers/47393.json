@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00640489.pdf",
+      "created": "2022-09-09T10:35:01+02:00",
+      "date": "2022-09-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00640489.pdf",
+      "fileName": "00640489.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/640489",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "2022-09-20_TOP 1_Antrag FDP_Mitteilungsblatt",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00640490.pdf",
+      "created": "2022-09-09T10:41:09+02:00",
+      "date": "2022-09-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00640490.pdf",
+      "fileName": "00640490.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/640490",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "2022-09-20_TOP 1_SN OV_Mitteilungsblatt",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72420",
+      "created": "2022-09-09T10:53:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28047",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7876",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47393",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-09-09T10:28:53+02:00",
+  "date": "2022-09-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47393",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Mitteilungsblatt Wolfartsweier",
+  "paperType": "Antrag",
+  "reference": "2022/1042",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+  ]
+}

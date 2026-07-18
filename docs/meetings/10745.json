@@ -1,0 +1,77 @@
+{
+  "agendaItem": [
+    {
+      "created": "2026-02-18T09:58:48+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100514",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10745",
+      "modified": "2026-02-18T09:58:48+01:00",
+      "name": "Bericht zur Stadtteilbibliothek Neureut",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-02-18T09:59:37+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100515",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10745",
+      "modified": "2026-02-18T09:59:37+01:00",
+      "name": "Grüne Nordspange, hier: Abschnitt Neureuter Feldflur",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-02-18T10:00:13+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100516",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10745",
+      "modified": "2026-02-18T10:00:13+01:00",
+      "name": "Bekanntgaben",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-02-18T10:00:45+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100517",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10745",
+      "modified": "2026-02-18T10:00:45+01:00",
+      "name": "Anfragen und Anregungen aus dem Ortschaftsrat",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2025-11-07T08:42:36+01:00",
+  "end": "2026-03-03T00:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10745",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676658.pdf",
+    "created": "2026-02-18T10:03:34+01:00",
+    "date": "2026-02-18",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676658.pdf",
+    "fileName": "00676658.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676658",
+    "mimeType": "application/pdf",
+    "modified": "2026-02-23T13:31:06+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2025-11-07T08:42:36+01:00",
+    "description": "Sitzungssaal Rathaus Neureut",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10745",
+    "modified": "2026-02-23T13:31:06+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-02-23T13:31:06+01:00",
+  "name": "Ortschaftsrat Neureut (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34531"
+  ],
+  "start": "2026-03-03T19:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

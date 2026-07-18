@@ -1,0 +1,95 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676510.pdf",
+      "created": "2026-02-10T14:05:38+01:00",
+      "date": "2026-02-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676510.pdf",
+      "fileName": "00676510.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676510",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:15:50+02:00",
+      "name": "Kurzversion",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676511.pdf",
+      "created": "2026-02-10T14:05:46+01:00",
+      "date": "2026-02-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676511.pdf",
+      "fileName": "00676511.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676511",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:15:50+02:00",
+      "name": "Langversion",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677089.pdf",
+      "created": "2026-03-17T07:56:33+01:00",
+      "date": "2026-03-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677089.pdf",
+      "fileName": "00677089.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677089",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:15:50+02:00",
+      "name": "Beschlussvorlage Beigeordnetenwahl",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677090.pdf",
+      "created": "2026-03-17T07:56:51+01:00",
+      "date": "2026-03-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677090.pdf",
+      "fileName": "00677090.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677090",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:15:50+02:00",
+      "name": "Terminplan Besetzungsverfahren",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677560.pdf",
+      "created": "2026-04-09T10:15:47+02:00",
+      "date": "2026-04-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677560.pdf",
+      "fileName": "00677560.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677560",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:15:50+02:00",
+      "name": "Protokoll GR 24.03.2026 TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100600",
+      "authoritative": true,
+      "created": "2026-02-24T10:29:54+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36943",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10497",
+      "modified": "2026-03-24T18:35:18+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54218",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-01-29T16:36:45+01:00",
+  "date": "2026-01-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54218",
+  "modified": "2026-04-09T10:15:50+02:00",
+  "name": "Beigeordnetenwahl Dezernat 6 - Stellenausschreibung, Wahlverfahren und Festlegung des Termins für die Beigeordnetenwahl",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0083",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54395"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882953"
+  ]
+}

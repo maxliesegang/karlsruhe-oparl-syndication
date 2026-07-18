@@ -1,0 +1,84 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31823",
+      "created": "2024-04-10T09:54:36+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/85794",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9546",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Bürgerzentrum Nordweststadt voranbringen: Attraktive Mitte in der Nordweststadt gestalten",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "erledigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31824",
+      "created": "2024-04-10T09:54:36+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/85795",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9546",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Lebenswerte Südstadt - Werderplatz autofrei",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "vorberaten ohne Änderungen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32103",
+      "created": "2024-05-15T13:47:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86556",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9546",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Bebauungsplanverfahren „Durlacher Allee, Güterumgehungsbahn Karlsruhe 4210, Durlacher Allee 106 (Alter Gleisbauhof) und Ostring\", Oststadt",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31805",
+      "created": "2024-03-27T09:24:49+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/85599",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9546",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Förderprogramm für gewerblich genutzte E-Lastenräder und E-Lastenanhänger für Karlsruher Firmen 2024",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2023-09-06T14:29:31+02:00",
+  "end": "2024-06-06T18:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9546",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658532.pdf",
+    "created": "2024-05-16T13:28:01+02:00",
+    "date": "2024-05-16",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658532.pdf",
+    "fileName": "00658532.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658532",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2023-09-06T14:29:31+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9546",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Planungsausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+  ],
+  "start": "2024-06-06T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

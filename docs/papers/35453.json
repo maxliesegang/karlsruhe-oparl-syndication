@@ -1,0 +1,91 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00596760.pdf",
+      "created": "2017-03-23T11:55:27+01:00",
+      "date": "2017-03-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00596760.pdf",
+      "fileName": "00596760.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/596760",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Neubau der Sporthalle TG Neureut",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00596892.pdf",
+      "created": "2017-03-31T15:06:58+02:00",
+      "date": "2017-03-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00596892.pdf",
+      "fileName": "00596892.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/596892",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Neubau Sporthalle",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00597432.pdf",
+      "created": "2017-05-10T12:05:33+02:00",
+      "date": "2017-05-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00597432.pdf",
+      "fileName": "00597432.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/597432",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis_TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00597559.pdf",
+      "created": "2017-05-15T10:54:58+02:00",
+      "date": "2017-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00597559.pdf",
+      "fileName": "00597559.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/597559",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2017-03-17T11:34:11+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14187",
+      "modified": "2018-11-28T14:19:31+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33575"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35453",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/40455",
+      "authoritative": true,
+      "created": "2017-03-28T13:41:21+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14189",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4564",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35453",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-03-17T11:32:47+01:00",
+  "date": "2017-03-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35453",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Neubau der Sporthalle der TG Neureut",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0192",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

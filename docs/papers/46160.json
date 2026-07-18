@@ -1,0 +1,97 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634773.pdf",
+      "created": "2021-12-17T08:10:28+01:00",
+      "date": "2021-12-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634773.pdf",
+      "fileName": "00634773.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634773",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Neu GEFEK Karlsruhe Abschlusspräsentation",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635251.pdf",
+      "created": "2022-01-14T07:18:53+01:00",
+      "date": "2022-01-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635251.pdf",
+      "fileName": "00635251.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635251",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abschlussbericht GEFEK Karlsruhe 2021",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635441.pdf",
+      "created": "2022-01-25T12:08:49+01:00",
+      "date": "2022-01-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635441.pdf",
+      "fileName": "00635441.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635441",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Gewerbeflächengutachten Neu",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635481.pdf",
+      "created": "2022-01-26T10:37:04+01:00",
+      "date": "2022-01-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635481.pdf",
+      "fileName": "00635481.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635481",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis  GR TOP11",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635779.pdf",
+      "created": "2022-02-08T14:41:41+01:00",
+      "date": "2022-02-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635779.pdf",
+      "fileName": "00635779.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635779",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 11",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/67336",
+      "authoritative": true,
+      "created": "2021-12-27T10:35:08+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26500",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6580",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46160",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-11-25T14:28:42+01:00",
+  "date": "2021-11-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46160",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Gewerbeflächengutachten 2021 für die Stadt Karlsruhe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/1465",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46229",
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46343",
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46345"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

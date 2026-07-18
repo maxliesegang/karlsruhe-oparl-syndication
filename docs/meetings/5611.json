@@ -1,0 +1,71 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16854",
+      "created": "2019-07-03T12:28:51+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46395",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5611",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Feststellung Nichtvorliegen Hinderungsgründe",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16855",
+      "created": "2019-07-03T12:28:51+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46396",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5611",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verabschiedung der aus dem Ortschaftsrat ausscheidenden Mitglieder",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614355.pdf",
+      "created": "2020-01-17T09:18:01+01:00",
+      "date": "2020-01-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614355.pdf",
+      "fileName": "00614355.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614355",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "19 07 10 Wortlaut der Beschlüsse der öffentlichen Sitzung des Ortschaftsrates Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614398.pdf",
+      "created": "2020-01-20T08:42:22+01:00",
+      "date": "2020-01-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614398.pdf",
+      "fileName": "00614398.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614398",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "19 07 10 Protokoll (ö).OSR",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2019-07-03T08:51:56+02:00",
+  "end": "2019-07-10T19:15:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5611",
+  "location": {
+    "created": "2019-07-03T08:51:56+02:00",
+    "description": "Begegnungstätte, Niddastraße 9",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5611",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ortschaftsrat Grötzingen (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+  ],
+  "start": "2019-07-10T19:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

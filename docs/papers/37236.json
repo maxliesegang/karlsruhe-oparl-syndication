@@ -1,0 +1,91 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609146.pdf",
+      "created": "2019-04-18T09:02:08+02:00",
+      "date": "2019-04-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609146.pdf",
+      "fileName": "00609146.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609146",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1 Perspektiven der Karlsruher Wertstofftonne",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609247.pdf",
+      "created": "2019-04-25T14:27:53+02:00",
+      "date": "2019-04-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609247.pdf",
+      "fileName": "00609247.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609247",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Perspektiven der Karlsruher Wertstofftonne",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609746.pdf",
+      "created": "2019-05-15T11:13:37+02:00",
+      "date": "2019-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609746.pdf",
+      "fileName": "00609746.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609746",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 19",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610039.pdf",
+      "created": "2019-06-03T15:02:05+02:00",
+      "date": "2019-06-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610039.pdf",
+      "fileName": "00610039.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610039",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Gemeinderat",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2019-04-03T14:40:58+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16430",
+      "modified": "2019-04-04T09:25:08+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37236",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45593",
+      "authoritative": true,
+      "created": "2019-04-16T12:55:05+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16432",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5323",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37236",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-04-03T14:38:44+02:00",
+  "date": "2019-04-04",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37236",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Perspektiven der Karlsruher Wertstofftonne",
+  "paperType": "Beschlussvorlage",
+  "reference": "2019/0327",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

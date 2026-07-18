@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00645350.pdf",
+      "created": "2023-02-28T10:11:52+01:00",
+      "date": "2023-02-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00645350.pdf",
+      "fileName": "00645350.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/645350",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646228.pdf",
+      "created": "2023-03-31T12:06:33+02:00",
+      "date": "2023-03-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646228.pdf",
+      "fileName": "00646228.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646228",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646548.pdf",
+      "created": "2023-04-13T12:48:53+02:00",
+      "date": "2023-04-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646548.pdf",
+      "fileName": "00646548.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646548",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 22",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/76320",
+      "authoritative": true,
+      "created": "2023-03-06T16:56:17+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29200",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9043",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48268",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/76630",
+      "created": "2023-03-31T12:34:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29214",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9130",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48268",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-02-28T10:11:15+01:00",
+  "date": "2023-02-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48268",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Hitzeinseln lokalisieren",
+  "paperType": "Antrag",
+  "reference": "2023/0233",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882975"
+  ]
+}

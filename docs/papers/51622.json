@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665170.pdf",
+      "created": "2025-02-25T14:37:37+01:00",
+      "date": "2025-02-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665170.pdf",
+      "fileName": "00665170.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665170",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-03T11:04:06+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665789.pdf",
+      "created": "2025-03-20T08:10:00+01:00",
+      "date": "2025-03-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665789.pdf",
+      "fileName": "00665789.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665789",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-03T11:04:06+02:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666143.pdf",
+      "created": "2025-04-03T11:04:04+02:00",
+      "date": "2025-04-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666143.pdf",
+      "fileName": "00666143.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666143",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-03T11:04:06+02:00",
+      "name": "Protokoll GR 25.03.2025 TOP 40",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92645",
+      "authoritative": true,
+      "created": "2025-02-25T14:46:38+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33779",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10046",
+      "modified": "2025-03-25T19:13:16+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51622",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-02-25T14:37:15+01:00",
+  "date": "2025-02-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51622",
+  "modified": "2025-04-10T11:45:43+02:00",
+  "name": "Kostensenkung durch Gelbe Tonne",
+  "paperType": "Anfrage",
+  "reference": "2025/0195",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

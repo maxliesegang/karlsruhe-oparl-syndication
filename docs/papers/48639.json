@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647362.pdf",
+      "created": "2023-05-17T15:44:56+02:00",
+      "date": "2023-05-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647362.pdf",
+      "fileName": "00647362.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647362",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649092.pdf",
+      "created": "2023-07-18T19:58:56+02:00",
+      "date": "2023-07-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649092.pdf",
+      "fileName": "00649092.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649092",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis Top 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649500.pdf",
+      "created": "2023-08-03T12:14:02+02:00",
+      "date": "2023-08-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649500.pdf",
+      "fileName": "00649500.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649500",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/77722",
+      "created": "2023-05-17T17:53:42+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29692",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9095",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48639",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78349",
+      "authoritative": true,
+      "created": "2023-06-20T11:19:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29693",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9047",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48639",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-05-17T15:41:16+02:00",
+  "date": "2023-05-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48639",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Heinrich-Hertz-Schule: Neueinrichtung einer Zusatzqualifikation zum Erwerb der Fachhochschulreife /ZQFHSR)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0562",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

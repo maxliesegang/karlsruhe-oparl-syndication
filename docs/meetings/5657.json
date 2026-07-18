@@ -1,0 +1,97 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19922",
+      "created": "2020-09-01T10:14:34+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54129",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5657",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Zuschlagskriterien für Schulverpflegung",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19897",
+      "created": "2020-08-20T13:44:46+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54060",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5657",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Sicherheits - und Pfortendienst Männerwohnheim der Stadt Karlsruhe",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19872",
+      "created": "2020-08-11T09:40:02+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53954",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5657",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Beschaffung von zwei Kleineinsatzfahrzeugen (KEF) für die Berufsfeuerwehr Karlsruhe",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19503",
+      "created": "2020-08-11T09:40:02+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53953",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5657",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Dauerhaftes Management von Ausgleichsflächen sowie Finanzierung der Ausgleichsmaßnahmen aus städtischen Verfahren",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2019-09-27T09:57:47+02:00",
+  "end": "2020-09-15T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5657",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619342.pdf",
+    "created": "2020-09-04T12:29:40+02:00",
+    "date": "2020-09-04",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619342.pdf",
+    "fileName": "00619342.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619342",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2019-09-27T09:57:47+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5657",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Hauptausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+  ],
+  "resultsProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619684.pdf",
+    "created": "2020-09-21T09:56:00+02:00",
+    "date": "2020-09-21",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619684.pdf",
+    "fileName": "00619684.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619684",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Anwesenheit (Protokoll)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "start": "2020-09-15T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

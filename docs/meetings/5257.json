@@ -1,0 +1,46 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16034",
+      "created": "2018-12-17T10:21:47+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44683",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5257",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Beschaffung von zwei Löschgruppenfahrzeugen 20 Katastrophenschutz (LF 20 KatS) für die Freiwillige Feuerwehr Karlsruhe",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2018-09-20T11:03:19+02:00",
+  "end": "2019-01-15T19:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5257",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00606975.pdf",
+    "created": "2019-01-03T14:04:17+01:00",
+    "date": "2019-01-03",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00606975.pdf",
+    "fileName": "00606975.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/606975",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2018-09-20T11:03:19+02:00",
+    "description": "Großer Sitzungssaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5257",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Hauptausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+  ],
+  "start": "2019-01-15T17:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00613008.pdf",
+      "created": "2019-12-17T07:47:10+01:00",
+      "date": "2019-12-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00613008.pdf",
+      "fileName": "00613008.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/613008",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614388.pdf",
+      "created": "2020-01-17T15:59:28+01:00",
+      "date": "2020-01-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614388.pdf",
+      "fileName": "00614388.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614388",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 39 SmarterCity",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614867.pdf",
+      "created": "2020-02-11T10:29:13+01:00",
+      "date": "2020-02-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614867.pdf",
+      "fileName": "00614867.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614867",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 39",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/48165",
+      "authoritative": true,
+      "created": "2019-12-18T08:12:04+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17577",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5661",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38164",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-12-17T07:46:44+01:00",
+  "date": "2019-12-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38164",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Aktueller Status der Smarter City Initiative in Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2019/1302",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883007"
+  ]
+}

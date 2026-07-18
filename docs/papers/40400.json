@@ -1,0 +1,93 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620535.pdf",
+      "created": "2020-11-02T11:05:28+01:00",
+      "date": "2020-11-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620535.pdf",
+      "fileName": "00620535.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620535",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Änderung der Richtlinie",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620603.pdf",
+      "created": "2020-11-04T11:41:21+01:00",
+      "date": "2020-11-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620603.pdf",
+      "fileName": "00620603.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620603",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderung der Richtlinie Förderung Kita und Kinderkrippen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620908.pdf",
+      "created": "2020-11-18T09:44:28+01:00",
+      "date": "2020-11-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620908.pdf",
+      "fileName": "00620908.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620908",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis top 11",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00622592.pdf",
+      "created": "2021-01-05T11:03:10+01:00",
+      "date": "2021-01-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00622592.pdf",
+      "fileName": "00622592.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/622592",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 11",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54952",
+      "authoritative": true,
+      "created": "2020-10-21T09:05:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20188",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5672",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40400",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/55178",
+      "created": "2020-11-02T11:03:29+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20187",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6122",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40400",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-10-13T13:59:18+02:00",
+  "date": "2020-10-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40400",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Änderung der Richtlinie der Stadt Karlsruhe für die Förderung von Kindertagesstätten und Kinderkrippen: Förderung verbindlicher pädagogischer Leitungszeit",
+  "paperType": "Beschlussvorlage",
+  "reference": "2020/1189",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

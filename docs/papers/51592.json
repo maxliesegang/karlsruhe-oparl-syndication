@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665300.pdf",
+      "created": "2025-03-03T09:44:03+01:00",
+      "date": "2025-03-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665300.pdf",
+      "fileName": "00665300.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665300",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-20T17:13:46+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92717",
+      "authoritative": true,
+      "created": "2025-03-04T14:57:50+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33740",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10122",
+      "modified": "2025-04-04T17:47:09+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54889"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51592",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-02-18T14:15:38+01:00",
+  "date": "2025-02-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51592",
+  "modified": "2025-03-20T17:13:46+01:00",
+  "name": "Auftragsvergabe der Rohbauarbeiten für den Neubau einer Salzlagerhalle",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0166",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

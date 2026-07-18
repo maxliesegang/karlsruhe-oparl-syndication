@@ -1,0 +1,94 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624338.pdf",
+      "created": "2021-03-23T14:38:40+01:00",
+      "date": "2021-03-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624338.pdf",
+      "fileName": "00624338.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624338",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625583.pdf",
+      "created": "2021-05-19T10:26:03+02:00",
+      "date": "2021-05-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625583.pdf",
+      "fileName": "00625583.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625583",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 20.04.21 TOP 38",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626104.pdf",
+      "created": "2021-06-11T12:41:00+02:00",
+      "date": "2021-06-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626104.pdf",
+      "fileName": "00626104.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626104",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN 100Prozent Bio-Essen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626720.pdf",
+      "created": "2021-07-02T12:18:47+02:00",
+      "date": "2021-07-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626720.pdf",
+      "fileName": "00626720.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626720",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll HA 15.06.21 TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/57244",
+      "authoritative": true,
+      "created": "2021-04-01T08:45:14+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20981",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6195",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41031",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/58037",
+      "authoritative": true,
+      "created": "2021-05-17T08:58:04+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21088",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6228",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41031",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-03-23T14:38:12+01:00",
+  "date": "2021-03-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41031",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "100 % Bio-Essen in Schulen, Horten, Kitas und Kantinen",
+  "paperType": "Antrag",
+  "reference": "2021/0390",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

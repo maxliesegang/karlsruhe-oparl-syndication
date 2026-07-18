@@ -1,0 +1,47 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665533.pdf",
+      "created": "2025-03-11T13:28:45+01:00",
+      "date": "2025-03-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665533.pdf",
+      "fileName": "00665533.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665533",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-03T16:24:40+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92761",
+      "created": "2025-03-06T11:07:11+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33830",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10068",
+      "modified": "2025-05-22T10:15:40+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51655",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-03-06T10:17:07+01:00",
+  "date": "2025-03-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51655",
+  "modified": "2025-04-03T16:24:40+02:00",
+  "name": "Stadthalle Modernisierung, Vergabe von Lose Möblierung: Los 1 Stühle, Los 2 Tische",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0228",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51921",
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51923"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

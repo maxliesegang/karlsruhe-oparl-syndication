@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661736.pdf",
+      "created": "2024-10-16T14:06:47+02:00",
+      "date": "2024-10-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661736.pdf",
+      "fileName": "00661736.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661736",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661739.pdf",
+      "created": "2024-10-16T15:26:44+02:00",
+      "date": "2024-10-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661739.pdf",
+      "fileName": "00661739.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661739",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661740.pdf",
+      "created": "2024-10-16T15:26:58+02:00",
+      "date": "2024-10-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661740.pdf",
+      "fileName": "00661740.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661740",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90663",
+      "authoritative": true,
+      "created": "2024-10-16T13:12:01+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33032",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9567",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33575"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51107",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-10-16T12:04:26+02:00",
+  "date": "2024-10-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51107",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bürgerbefragung 2023 Sport und Bewegung - Auswertung",
+  "paperType": "Informationsvorlage",
+  "reference": "2024/1166",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

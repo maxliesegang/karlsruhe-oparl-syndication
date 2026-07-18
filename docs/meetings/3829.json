@@ -1,0 +1,81 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/12489",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/36708",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3829",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Sachstandsbericht zur Nachhaltigkeitsentwicklung in Karlsruhe",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/12001",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/36711",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3829",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Änderung der Bestimmungen von Pachtverträgen für landwirtschaftlich nutzbare städtische Grundstücke",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/12496",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/36725",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3829",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Sachstand Karlsruher Wohnraumförderungsprogramm KaWoF und Karlsruher Innenentwicklungsprogramm (KAI)",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2016-10-12T09:08:39+02:00",
+  "end": "2015-06-16T00:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3829",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00587009.pdf",
+    "created": "2016-10-12T09:08:36+02:00",
+    "date": "2015-06-05",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00587009.pdf",
+    "fileName": "00587009.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/587009",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2016-10-12T09:08:39+02:00",
+    "description": "Großer Sitzungssaal, Rathaus",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/3829",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Hauptausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+  ],
+  "resultsProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00587311.pdf",
+    "created": "2016-10-12T09:08:36+02:00",
+    "date": "2015-06-22",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00587311.pdf",
+    "fileName": "00587311.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/587311",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Anwesenheit (Protokoll)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "start": "2015-06-16T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

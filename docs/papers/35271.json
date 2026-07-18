@@ -1,0 +1,79 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595443.pdf",
+      "created": "2017-01-03T14:51:00+01:00",
+      "date": "2017-01-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595443.pdf",
+      "fileName": "00595443.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595443",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Deckenerneuerung Südtangente BA 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595444.pdf",
+      "created": "2017-01-03T14:51:11+01:00",
+      "date": "2017-01-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595444.pdf",
+      "fileName": "00595444.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595444",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Plan Südtangente",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595946.pdf",
+      "created": "2017-01-30T09:58:53+01:00",
+      "date": "2017-01-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595946.pdf",
+      "fileName": "00595946.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595946",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2016-12-20T09:01:42+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/13946",
+      "modified": "2018-11-28T14:19:31+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35271",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/39873",
+      "authoritative": true,
+      "created": "2016-12-20T14:06:35+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/13947",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4521",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35271",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-12-20T08:58:09+01:00",
+  "date": "2016-12-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35271",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Deckenerneuerung Südtangente zwischen Edeltrudtunnel und Ausfahrt 1/Wolfartsweier. Vergabe von Tiefbauarbeiten",
+  "paperType": "Beschlussvorlage",
+  "reference": "2016/0810",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

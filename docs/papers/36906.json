@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607361.pdf",
+      "created": "2019-01-10T10:00:01+01:00",
+      "date": "2019-01-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607361.pdf",
+      "fileName": "00607361.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607361",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderung Besetzung AR",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607554.pdf",
+      "created": "2019-01-23T09:08:15+01:00",
+      "date": "2019-01-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607554.pdf",
+      "fileName": "00607554.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607554",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis GR Top 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607638.pdf",
+      "created": "2019-01-29T14:34:47+01:00",
+      "date": "2019-01-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607638.pdf",
+      "fileName": "00607638.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607638",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44869",
+      "authoritative": true,
+      "created": "2019-01-08T09:49:42+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16044",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5261",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36906",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-12-17T13:22:58+01:00",
+  "date": "2018-12-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36906",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Änderung der Besetzung verschiedener Aufsichtsräte und des Stiftungsrates ZKM in Folge der Niederlegung von Mandaten durch Stadträtin Dr. Ute Leidig",
+  "paperType": "Beschlussvorlage",
+  "reference": "2018/0906",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

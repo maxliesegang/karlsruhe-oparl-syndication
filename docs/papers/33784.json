@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00150089.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2014-12-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00150089.pdf",
+      "fileName": "00150089.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/150089",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "GR Änderung Dezernatsverteilungsplan",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00150091.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2014-12-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00150091.pdf",
+      "fileName": "00150091.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/150091",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Dezernatsverteilungsplan",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00150569.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2015-01-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00150569.pdf",
+      "fileName": "00150569.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/150569",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 8.1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/35953",
+      "authoritative": true,
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/12124",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3621",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/33784",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2014-11-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/33784",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Änderung des Dezernatsverteilungsplans zum 01.01.2015",
+  "paperType": "Beschlussvorlage",
+  "reference": "2014/0797",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882953"
+  ]
+}

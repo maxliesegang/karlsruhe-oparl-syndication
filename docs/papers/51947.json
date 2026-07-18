@@ -1,0 +1,94 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667267.pdf",
+      "created": "2025-05-20T13:57:25+02:00",
+      "date": "2025-05-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667267.pdf",
+      "fileName": "00667267.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667267",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-07T11:29:34+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667470.pdf",
+      "created": "2025-05-27T09:22:39+02:00",
+      "date": "2025-05-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667470.pdf",
+      "fileName": "00667470.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667470",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-07T11:29:34+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668448.pdf",
+      "created": "2025-06-27T10:44:41+02:00",
+      "date": "2025-06-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668448.pdf",
+      "fileName": "00668448.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668448",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-07T11:29:34+02:00",
+      "name": "Protokoll GR 24.06.2025 TOP 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670625.pdf",
+      "created": "2025-10-07T11:29:32+02:00",
+      "date": "2025-10-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670625.pdf",
+      "fileName": "00670625.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670625",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-07T11:29:34+02:00",
+      "name": "Protokoll HFA 23.09.2025 TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94028",
+      "authoritative": true,
+      "created": "2025-05-27T09:11:25+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34256",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10049",
+      "modified": "2025-06-25T08:03:43+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51947",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95527",
+      "authoritative": true,
+      "created": "2025-08-18T11:12:14+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34257",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10040",
+      "modified": "2025-09-24T07:52:12+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51947",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-05-20T13:56:19+02:00",
+  "date": "2025-05-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51947",
+  "modified": "2025-10-07T11:29:34+02:00",
+  "name": "Dokumentationspflichten auf den Prüfstand",
+  "paperType": "Antrag",
+  "reference": "2025/0488",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

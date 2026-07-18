@@ -1,0 +1,82 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/18018",
+      "created": "2020-03-09T10:39:30+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/50180",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6016",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "1. Nachtragshaushaltsplan 2020, Fortschreibung und Verabschiedung Haushaltssatzung",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "mehrheitlich zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/18016",
+      "created": "2020-03-12T11:30:31+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/50309",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6016",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Ausübung dingliches Vorkaufsrecht an den Grundstücken Flst. Nr. 56180, An der Tagweide 5, Pfizerstraße 1 und Flst. Nr. 56180/1, An der Tagweide 23",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "mehrheitlich zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2020-03-09T10:39:30+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/50186",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6016",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen des Bürgermeisteramtes",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2020-03-09T08:21:05+01:00",
+  "end": "2020-03-13T18:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6016",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615327.pdf",
+    "created": "2020-03-09T10:41:17+01:00",
+    "date": "2020-03-09",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615327.pdf",
+    "fileName": "00615327.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615327",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (ö/nö)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2020-03-09T08:21:05+01:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6016",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Sondersitzung Gemeinderat (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+  ],
+  "resultsProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615589.pdf",
+    "created": "2020-03-16T08:24:15+01:00",
+    "date": "2020-03-16",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615589.pdf",
+    "fileName": "00615589.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615589",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Anwesenheit (Protokoll)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "start": "2020-03-13T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

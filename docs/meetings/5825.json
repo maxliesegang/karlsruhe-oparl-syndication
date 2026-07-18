@@ -1,0 +1,83 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/18002",
+      "created": "2020-03-02T16:22:37+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/50132",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5825",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Kita Egon-Eiermann-Allee, Neubau - Vergabe von Tischler-, Beschlag- und Verglasungsarbeiten (Holz-Aluminium-Fenster)",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/18003",
+      "created": "2020-03-02T16:22:37+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/50133",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5825",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Rathaus am Marktplatz, Sanierung der Heizungsanlage - Vergabe von Heizanlagen und zentrale Wassererwärmungsanlagen",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/18004",
+      "created": "2020-03-02T16:22:37+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/50134",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5825",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Anpassung der Kommentierung von Straßennamen",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615233.pdf",
+      "created": "2020-03-02T16:39:34+01:00",
+      "date": "2020-03-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615233.pdf",
+      "fileName": "00615233.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615233",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Tagesordnung_öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618684.pdf",
+      "created": "2020-07-06T08:36:18+02:00",
+      "date": "2020-07-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618684.pdf",
+      "fileName": "00618684.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618684",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_öffentlich BA 20200312",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2019-10-07T11:29:52+02:00",
+  "end": "2020-03-12T16:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5825",
+  "location": {
+    "created": "2019-10-07T11:29:52+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5825",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Bauausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+  ],
+  "start": "2020-03-12T16:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

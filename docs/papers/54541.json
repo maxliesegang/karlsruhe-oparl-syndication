@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678258.pdf",
+      "created": "2026-05-11T11:55:48+02:00",
+      "date": "2026-05-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678258.pdf",
+      "fileName": "00678258.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678258",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-09T14:55:43+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679509.pdf",
+      "created": "2026-07-02T11:47:52+02:00",
+      "date": "2026-07-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679509.pdf",
+      "fileName": "00679509.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679509",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-09T14:55:43+02:00",
+      "name": "Protokoll Ausschuss",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102061",
+      "created": "2026-06-09T10:43:48+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37395",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10545",
+      "modified": "2026-06-25T15:15:53+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54847"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54541",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-05-11T11:55:39+02:00",
+  "date": "2026-05-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54541",
+  "modified": "2026-07-09T14:55:43+02:00",
+  "name": "Dammerstock Aufstockung Nürnberger Straße 5a",
+  "paperType": "Informationsvorlage",
+  "reference": "2026/0376",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608290.pdf",
+      "created": "2019-03-12T09:18:45+01:00",
+      "date": "2019-03-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608290.pdf",
+      "fileName": "00608290.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608290",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608764.pdf",
+      "created": "2019-03-29T15:09:44+01:00",
+      "date": "2019-03-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608764.pdf",
+      "fileName": "00608764.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608764",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609814.pdf",
+      "created": "2019-05-21T07:46:03+02:00",
+      "date": "2019-05-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609814.pdf",
+      "fileName": "00609814.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609814",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45231",
+      "authoritative": true,
+      "created": "2019-03-12T09:45:20+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16316",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5307",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37141",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-03-12T09:17:14+01:00",
+  "date": "2019-03-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37141",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Teilhabe von Nichthörenden und Schwerhörenden bei städtischen Sitzungen und Veranstaltungen verbessern",
+  "paperType": "Antrag",
+  "reference": "2019/0229",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

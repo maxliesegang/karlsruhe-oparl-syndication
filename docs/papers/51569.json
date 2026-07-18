@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664884.pdf",
+      "created": "2025-02-12T13:13:15+01:00",
+      "date": "2025-02-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664884.pdf",
+      "fileName": "00664884.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664884",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-18T08:35:52+01:00",
+      "name": "Anfrage Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665630.pdf",
+      "created": "2025-03-13T11:10:52+01:00",
+      "date": "2025-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665630.pdf",
+      "fileName": "00665630.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665630",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-18T08:35:52+01:00",
+      "name": "Stellungnahme zur Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92792",
+      "created": "2025-03-10T08:18:38+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33693",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9896",
+      "modified": "2025-03-13T10:19:09+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51569",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-02-12T13:12:16+01:00",
+  "date": "2025-02-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51569",
+  "modified": "2025-03-18T08:35:52+01:00",
+  "name": "Pflege verwahrloster Grundstücke im Speitel",
+  "paperType": "Anfrage",
+  "reference": "2025/0146",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638860.pdf",
+      "created": "2022-07-05T14:36:32+02:00",
+      "date": "2022-07-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638860.pdf",
+      "fileName": "00638860.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638860",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638885.pdf",
+      "created": "2022-07-06T15:00:59+02:00",
+      "date": "2022-07-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638885.pdf",
+      "fileName": "00638885.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638885",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00639323.pdf",
+      "created": "2022-07-27T09:28:22+02:00",
+      "date": "2022-07-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00639323.pdf",
+      "fileName": "00639323.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/639323",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP8 Abstimmung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00639859.pdf",
+      "created": "2022-08-22T11:47:26+02:00",
+      "date": "2022-08-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00639859.pdf",
+      "fileName": "00639859.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/639859",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 26.07.2022 TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/71042",
+      "authoritative": true,
+      "created": "2022-06-29T10:02:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27505",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6597",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46952",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-06-09T07:10:53+02:00",
+  "date": "2022-06-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46952",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Veräußerung der Anteile an der Fahrzeugbereitstellung Baden-Württemberg GmbH (FBBW) durch die Albtal-Verkehrs-Gesellschaft mbH",
+  "paperType": "Beschlussvorlage",
+  "reference": "2022/0641",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614407.pdf",
+      "created": "2020-01-20T13:56:25+01:00",
+      "date": "2020-01-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614407.pdf",
+      "fileName": "00614407.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614407",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614434.pdf",
+      "created": "2020-01-21T13:37:27+01:00",
+      "date": "2020-01-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614434.pdf",
+      "fileName": "00614434.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614434",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 8 Anfrage KAL_Die Partei",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/49473",
+      "authoritative": true,
+      "created": "2020-01-20T15:00:24+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17712",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5661",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38276",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-01-20T13:55:49+01:00",
+  "date": "2020-01-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38276",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Versorgungsleitungen in der Kaiserstraße",
+  "paperType": "Anfrage",
+  "reference": "2020/0063",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882999"
+  ]
+}

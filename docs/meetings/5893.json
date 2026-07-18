@@ -1,0 +1,107 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17366",
+      "created": "2020-02-04T16:34:45+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/49724",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5893",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Bebauungsplan \"Kleintierzuchtanlage Windelbachstraße\" Karlsruhe-Stupferich;",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17815",
+      "created": "2020-02-05T10:15:10+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/49731",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5893",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Beitritt zum Naturpark Schwarzwald Mitte/Nord:",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2020-02-05T10:16:14+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/49732",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5893",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Barrierefreier Umbau der Bushaltestellen \"Rebgärtenstraße\" und \"Wiesentalstraße\";",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "einverstanden",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2020-02-05T10:16:30+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/49733",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5893",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen der Ortsverwaltung",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2020-02-04T16:34:45+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/49726",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5893",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verschiedenes",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614712.pdf",
+      "created": "2020-02-05T10:30:22+01:00",
+      "date": "2020-02-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614712.pdf",
+      "fileName": "00614712.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614712",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 2, Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615400.pdf",
+      "created": "2020-03-10T13:52:09+01:00",
+      "date": "2020-03-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615400.pdf",
+      "fileName": "00615400.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615400",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_ö",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2019-10-15T14:18:54+02:00",
+  "end": "2020-02-12T21:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5893",
+  "location": {
+    "created": "2019-10-15T14:18:54+02:00",
+    "description": "Rathaus Stupferich, Sitzungssaal",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5893",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ortschaftsrat Stupferich (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34764"
+  ],
+  "start": "2020-02-12T19:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

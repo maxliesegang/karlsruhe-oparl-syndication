@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634593.pdf",
+      "created": "2021-12-14T10:32:12+01:00",
+      "date": "2021-12-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634593.pdf",
+      "fileName": "00634593.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634593",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634641.pdf",
+      "created": "2021-12-14T15:35:15+01:00",
+      "date": "2021-12-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634641.pdf",
+      "fileName": "00634641.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634641",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "SPD-Änderungsantrag CHM-Gebühren",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/67180",
+      "authoritative": true,
+      "created": "2021-12-14T11:30:13+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26587",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6346",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46227",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-12-14T10:32:04+01:00",
+  "date": "2021-12-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46227",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Schließung Christkindlesmarkt - Änderung der Gebührensatzung für Märkte und Volksfeste",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2021/1257/1/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46216"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882979"
+  ]
+}

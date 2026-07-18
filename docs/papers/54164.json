@@ -1,0 +1,84 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675871.pdf",
+      "created": "2026-01-21T07:15:54+01:00",
+      "date": "2026-01-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675871.pdf",
+      "fileName": "00675871.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675871",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-13T09:36:04+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677060.pdf",
+      "created": "2026-03-13T09:36:02+01:00",
+      "date": "2026-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677060.pdf",
+      "fileName": "00677060.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677060",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-13T09:36:04+01:00",
+      "name": "Protokoll GR 24.02.2026 TOP 13",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678141.pdf",
+      "created": "2026-05-04T16:40:47+02:00",
+      "date": "2026-05-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678141.pdf",
+      "fileName": "00678141.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678141",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-13T11:24:46+02:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100342",
+      "authoritative": true,
+      "created": "2026-02-05T07:55:58+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36866",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10476",
+      "modified": "2026-02-24T17:10:02+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54164",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101277",
+      "created": "2026-04-16T15:52:29+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36951",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10527",
+      "modified": "2026-05-21T12:16:57+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54164",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-01-21T07:15:34+01:00",
+  "date": "2026-01-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54164",
+  "modified": "2026-05-19T10:43:20+02:00",
+  "name": "Familie-Reinhardt-Platz: Ein Ort zum Gedenken an die ermordeten Sinti und Roma",
+  "paperType": "Antrag",
+  "reference": "2026/0037",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54241"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

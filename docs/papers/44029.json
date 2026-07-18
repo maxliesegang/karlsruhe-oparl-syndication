@@ -1,0 +1,92 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00633382.pdf",
+      "created": "2021-11-17T14:42:28+01:00",
+      "date": "2021-11-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00633382.pdf",
+      "fileName": "00633382.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/633382",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1 ÖFFENTLICH",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00633421.pdf",
+      "created": "2021-11-18T14:17:45+01:00",
+      "date": "2021-11-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00633421.pdf",
+      "fileName": "00633421.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/633421",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage Stadthalle",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634338.pdf",
+      "created": "2021-12-10T08:07:11+01:00",
+      "date": "2021-12-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634338.pdf",
+      "fileName": "00634338.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634338",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Ergänzende Tischvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634624.pdf",
+      "created": "2021-12-14T11:32:39+01:00",
+      "date": "2021-12-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634624.pdf",
+      "fileName": "00634624.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634624",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 13",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635193.pdf",
+      "created": "2022-01-12T11:23:01+01:00",
+      "date": "2022-01-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635193.pdf",
+      "fileName": "00635193.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635193",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Auszug Protokoll HH-Beratungen TOP 13",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/65553",
+      "authoritative": true,
+      "created": "2021-11-09T10:24:33+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/24323",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6560",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/44029",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-11-03T12:25:19+01:00",
+  "date": "2021-11-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/44029",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Stadthalle Modernisierung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/1322",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

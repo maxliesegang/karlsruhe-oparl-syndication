@@ -1,0 +1,71 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665920.pdf",
+      "created": "2025-03-25T10:29:07+01:00",
+      "date": "2025-03-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665920.pdf",
+      "fileName": "00665920.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665920",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-25T19:45:40+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665922.pdf",
+      "created": "2025-03-25T10:58:04+01:00",
+      "date": "2025-03-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665922.pdf",
+      "fileName": "00665922.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665922",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-25T19:45:40+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665960.pdf",
+      "created": "2025-03-25T19:45:37+01:00",
+      "date": "2025-03-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665960.pdf",
+      "fileName": "00665960.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665960",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-25T19:45:40+01:00",
+      "name": "Abstimmungsergebnis TOP 13 CDU",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92967",
+      "authoritative": true,
+      "created": "2025-03-25T11:09:50+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33928",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10046",
+      "modified": "2025-03-25T19:05:23+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51729",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-03-25T10:28:50+01:00",
+  "date": "2025-03-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51729",
+  "modified": "2025-04-28T11:24:36+02:00",
+  "name": "Aktualisierung Umsetzungsstrategie des Rechtsanspruchs auf ganztägige Förderung von Grundschulkindern ab dem Schuljahr 2026/27",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2025/0107/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51526"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672583.pdf",
+      "created": "2025-11-24T15:41:59+01:00",
+      "date": "2025-11-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672583.pdf",
+      "fileName": "00672583.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672583",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-26T10:18:01+01:00",
+      "name": "Antrag Grüne_035",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675015.pdf",
+      "created": "2025-12-08T16:30:09+01:00",
+      "date": "2025-12-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675015.pdf",
+      "fileName": "00675015.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675015",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-26T10:18:01+01:00",
+      "name": "8006 Stellungnahme DHH-Stk",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676007.pdf",
+      "created": "2026-01-26T10:17:55+01:00",
+      "date": "2026-01-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676007.pdf",
+      "fileName": "00676007.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676007",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-26T10:18:01+01:00",
+      "name": "Abstimmungsergebnis TOP  332",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99585",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:29+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35521",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-17T15:41:41+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52883",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-24T15:39:29+01:00",
+  "date": "2025-11-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52883",
+  "modified": "2026-01-26T10:18:01+01:00",
+  "name": "Effekte-Reihe streichen",
+  "paperType": "Haushalt THH 8000",
+  "reference": "DHH/2025/8006",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

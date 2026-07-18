@@ -1,0 +1,72 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00628564.pdf",
+      "created": "2021-10-06T14:39:25+02:00",
+      "date": "2021-10-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00628564.pdf",
+      "fileName": "00628564.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/628564",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Wasserrechtsantrag RDK 7_4-10-21",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00629819.pdf",
+      "created": "2021-10-19T19:38:30+02:00",
+      "date": "2021-10-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00629819.pdf",
+      "fileName": "00629819.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/629819",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 19 BV",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634370.pdf",
+      "created": "2021-12-10T15:13:43+01:00",
+      "date": "2021-12-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634370.pdf",
+      "fileName": "00634370.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634370",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 19",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/60942",
+      "authoritative": true,
+      "created": "2021-09-28T09:46:59+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/22095",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6301",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41858",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-09-24T14:13:55+02:00",
+  "date": "2021-09-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41858",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Antrag auf wasserrechtliche Erlaubnis für die Entnahme von Kühlwasser und Direkteinleitung von Abwasser und Kühlwasser für die Blöcke 4S und 7 am Rheinhafen-Dampfkraftwerk",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/1148",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41911",
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/42961"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882975"
+  ]
+}

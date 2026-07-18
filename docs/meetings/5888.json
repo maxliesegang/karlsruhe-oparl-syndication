@@ -1,0 +1,85 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19977",
+      "created": "2020-09-07T13:25:57+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54366",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5888",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Planungskonkurrenz Esslinger und Heidenheimer Straße, Grünwettersbach - Ergebnisse des konkurrierenden städtebaulich-landschaftsplanerischen Entwurfsverfahrens",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19978",
+      "created": "2020-09-07T13:25:57+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54367",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5888",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Schaffung einer Personalstelle bei der Ortsverwaltung Wettersbach",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "erledigt durch Stellungnahme der Verwaltung",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2020-09-07T13:31:19+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54372",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5888",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen der Ortsverwaltung",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "keine Mitteilungen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00623393.pdf",
+      "created": "2021-02-15T14:16:45+01:00",
+      "date": "2021-02-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00623393.pdf",
+      "fileName": "00623393.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/623393",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_15.09.2020_öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2019-10-15T13:26:33+02:00",
+  "end": "2020-09-15T21:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5888",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619392.pdf",
+    "created": "2020-09-07T13:35:20+02:00",
+    "date": "2020-09-07",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619392.pdf",
+    "fileName": "00619392.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619392",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2019-10-15T13:26:33+02:00",
+    "description": "Musiksaal der Heinz-Barth-Schule,\r\nEsslinger Straße 2, 76228 Karlsruhe",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5888",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ortschaftsrat Wettersbach (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+  ],
+  "start": "2020-09-15T19:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

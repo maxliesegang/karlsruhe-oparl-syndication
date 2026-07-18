@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655883.pdf",
+      "created": "2024-02-07T14:24:38+01:00",
+      "date": "2024-02-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655883.pdf",
+      "fileName": "00655883.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655883",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655884.pdf",
+      "created": "2024-02-07T14:30:02+01:00",
+      "date": "2024-02-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655884.pdf",
+      "fileName": "00655884.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655884",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84802",
+      "created": "2024-02-15T10:30:59+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31485",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9560",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50004",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-02-07T14:21:33+01:00",
+  "date": "2024-02-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50004",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Kostenlose Damenhygieneartikel in Schulen bereitstellen",
+  "paperType": "Informationsvorlage",
+  "reference": "2024/0139",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666136.pdf",
+      "created": "2025-04-03T10:43:20+02:00",
+      "date": "2025-04-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666136.pdf",
+      "fileName": "00666136.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666136",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-17T10:38:50+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93169",
+      "created": "2025-04-07T15:50:39+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33920",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10070",
+      "modified": "2025-05-13T18:11:14+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51723",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-03-24T10:22:01+01:00",
+  "date": "2025-03-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51723",
+  "modified": "2025-04-17T10:38:50+02:00",
+  "name": "Bauhof Tiefbauamt, Kornweg 20, Modernisierung und Erweiterung, Landschaftsbauarbeiten",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0291",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

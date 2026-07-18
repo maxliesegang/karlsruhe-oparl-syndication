@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624745.pdf",
+      "created": "2021-04-13T10:30:15+02:00",
+      "date": "2021-04-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624745.pdf",
+      "fileName": "00624745.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624745",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625287.pdf",
+      "created": "2021-05-04T08:44:21+02:00",
+      "date": "2021-05-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625287.pdf",
+      "fileName": "00625287.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625287",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "STN zum Antrag_GRÜNE_Jugend gestärkt in der Krise",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625925.pdf",
+      "created": "2021-06-07T09:51:05+02:00",
+      "date": "2021-06-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625925.pdf",
+      "fileName": "00625925.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625925",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 18",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/57455",
+      "authoritative": true,
+      "created": "2021-04-20T14:03:09+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21105",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6214",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41116",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-04-13T10:29:52+02:00",
+  "date": "2021-04-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41116",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Jugend gestärkt in der Krise",
+  "paperType": "Antrag",
+  "reference": "2021/0475",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

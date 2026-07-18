@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679256.pdf",
+      "created": "2026-06-23T08:11:07+02:00",
+      "date": "2026-06-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679256.pdf",
+      "fileName": "00679256.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679256",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-16T15:28:03+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102391",
+      "created": "2026-06-25T09:15:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37599",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10566",
+      "modified": "2026-07-17T09:22:28+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54676",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-06-23T08:10:11+02:00",
+  "date": "2026-06-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54676",
+  "modified": "2026-07-16T15:28:02+02:00",
+  "name": "Karlsruher RegenbogenKinderBücherKoffer",
+  "paperType": "Anfrage",
+  "reference": "2026/0503",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

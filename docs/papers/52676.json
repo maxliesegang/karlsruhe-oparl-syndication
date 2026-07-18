@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672046.pdf",
+      "created": "2025-11-18T14:13:31+01:00",
+      "date": "2025-11-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672046.pdf",
+      "fileName": "00672046.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672046",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-26T10:49:00+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676019.pdf",
+      "created": "2026-01-26T10:48:51+01:00",
+      "date": "2026-01-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676019.pdf",
+      "fileName": "00676019.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676019",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-26T10:49:00+01:00",
+      "name": "Abstimmungsergebnis TOP  1 Ö 108",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99270",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:27+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35303",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-17T09:54:50+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52676",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-18T14:12:56+01:00",
+  "date": "2025-11-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52676",
+  "modified": "2026-01-26T10:49:00+01:00",
+  "name": "HHS4_GR36 - Streichung des Fahrtkostenzuschusses in der Sportförderung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1136",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

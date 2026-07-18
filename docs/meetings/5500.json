@@ -1,0 +1,102 @@
+{
+  "agendaItem": [
+    {
+      "created": "2019-05-15T09:30:10+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45992",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5500",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Vor Eintritt in die Tagesordnung werden Ehrungen für die 20-jährigen und 30-jährigen verdienstvollen ehrenamtlichen Tätigkeiten im Ortschafstrat Neureut vorgenommen und das Verdienstabzeichen des Städtetags Baden-Württemberg verliehen.",
+      "number": "",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2019-05-15T09:31:22+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45993",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5500",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Vorstellung der polizeilichen Kriminalstatistik für den Stadtteil Neureut und der Ver-kehrsunfallstatistik durch Vertreter des Polizeireviers Waldstadt und des Polizeipostens Neureut",
+      "number": "1",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2019-05-15T09:31:38+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45994",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5500",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Artenschutz auf den landwirtschaftlichen Flächen in Neureut, Vortrag durch das Amt für Umwelt und Arbeitsschutz mit Unterstützung des Artenschutzkurators aus dem Karlsruher Zoo",
+      "number": "2",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2019-05-15T09:31:57+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45995",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5500",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Bekanntgaben",
+      "number": "3",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2019-05-15T09:32:13+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45996",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5500",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Anfragen und Anregungen aus dem Ortschaftsrat",
+      "number": "4",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610280.pdf",
+      "created": "2019-06-27T10:59:38+02:00",
+      "date": "2019-06-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610280.pdf",
+      "fileName": "00610280.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610280",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "OR Proto 28.05. ö",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2018-10-24T08:40:58+02:00",
+  "end": "2019-05-28T22:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5500",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609717.pdf",
+    "created": "2019-05-15T09:36:44+02:00",
+    "date": "2019-05-15",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609717.pdf",
+    "fileName": "00609717.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609717",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2018-10-24T08:40:58+02:00",
+    "description": "Sitzungssaal des Neureuter Rathauses",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5500",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ortschaftsrat Neureut (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34531"
+  ],
+  "start": "2019-05-28T19:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

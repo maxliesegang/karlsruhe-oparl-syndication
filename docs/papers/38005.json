@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612587.pdf",
+      "created": "2019-11-22T16:24:38+01:00",
+      "date": "2019-11-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612587.pdf",
+      "fileName": "00612587.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612587",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stützungsmaßnahmen Klinikum TOP 27",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612948.pdf",
+      "created": "2019-12-12T10:22:29+01:00",
+      "date": "2019-12-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612948.pdf",
+      "fileName": "00612948.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612948",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis_Top18",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614560.pdf",
+      "created": "2020-01-28T15:05:02+01:00",
+      "date": "2020-01-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614560.pdf",
+      "fileName": "00614560.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614560",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 18",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47766",
+      "authoritative": true,
+      "created": "2019-11-13T09:26:27+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17378",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5444",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38005",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-11-11T08:41:20+01:00",
+  "date": "2019-11-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38005",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Stützungsmaßnahmen für die Städtisches Klinikum Karlsruhe gGmbH",
+  "paperType": "Beschlussvorlage",
+  "reference": "2019/1143",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/776412"
+  ]
+}

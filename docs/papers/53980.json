@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00673856.pdf",
+      "created": "2025-11-25T17:36:03+01:00",
+      "date": "2025-11-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00673856.pdf",
+      "fileName": "00673856.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/673856",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-18T18:00:46+01:00",
+      "name": "Antrag KAL_009",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674919.pdf",
+      "created": "2025-12-08T12:58:42+01:00",
+      "date": "2025-12-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674919.pdf",
+      "fileName": "00674919.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674919",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-18T18:00:46+01:00",
+      "name": "4140 Stellungnahme DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675323.pdf",
+      "created": "2025-12-18T18:00:43+01:00",
+      "date": "2025-12-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675323.pdf",
+      "fileName": "00675323.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675323",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-18T18:00:46+01:00",
+      "name": "Abstimmungsergebnis",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99497",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:29+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36620",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-17T06:45:49+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/53980",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-25T16:51:33+01:00",
+  "date": "2025-11-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/53980",
+  "modified": "2025-12-18T18:00:46+01:00",
+  "name": "KOHI - Poetry Slam - Einmalförderung",
+  "paperType": "Haushalt THH 4100",
+  "reference": "DHH/2025/4140",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635276.pdf",
+      "created": "2022-01-14T14:01:00+01:00",
+      "date": "2022-01-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635276.pdf",
+      "fileName": "00635276.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635276",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635856.pdf",
+      "created": "2022-02-10T07:32:45+01:00",
+      "date": "2022-02-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635856.pdf",
+      "fileName": "00635856.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635856",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN Antrag FDP Stempelfahrkarten",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636114.pdf",
+      "created": "2022-02-23T11:27:12+01:00",
+      "date": "2022-02-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636114.pdf",
+      "fileName": "00636114.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636114",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 14 FDP",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636471.pdf",
+      "created": "2022-03-11T11:06:10+01:00",
+      "date": "2022-03-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636471.pdf",
+      "fileName": "00636471.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636471",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 22.02.2022 TOP 14",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/67695",
+      "authoritative": true,
+      "created": "2022-01-26T09:45:33+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26688",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6584",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46312",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-01-14T14:00:11+01:00",
+  "date": "2022-01-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46312",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Wiedereinführung aller Stempelfahrkarten im Karlsruher Verkehrsverbund",
+  "paperType": "Antrag",
+  "reference": "2022/0045",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46481",
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46488",
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46489"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882999"
+  ]
+}

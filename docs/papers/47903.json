@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643245.pdf",
+      "created": "2022-12-08T12:01:31+01:00",
+      "date": "2022-12-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643245.pdf",
+      "fileName": "00643245.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643245",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643330.pdf",
+      "created": "2022-12-09T15:20:04+01:00",
+      "date": "2022-12-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643330.pdf",
+      "fileName": "00643330.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643330",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Entwurf ergänzende Vereinbarung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644403.pdf",
+      "created": "2023-01-26T15:50:41+01:00",
+      "date": "2023-01-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644403.pdf",
+      "fileName": "00644403.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644403",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP7",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644715.pdf",
+      "created": "2023-02-07T10:31:46+01:00",
+      "date": "2023-02-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644715.pdf",
+      "fileName": "00644715.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644715",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75020",
+      "authoritative": true,
+      "created": "2023-01-10T09:25:01+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28733",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9041",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47903",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-12-08T08:09:15+01:00",
+  "date": "2022-12-08",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47903",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Fortführung der ergänzenden Vereinbarung zum KVV-Gesellschaftsvertrag über die Finanzierung der Verbundorganisation sowie der verbundbedingten Lasten des KVV für die Jahre",
+  "paperType": "Beschlussvorlage",
+  "reference": "2022/2421",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

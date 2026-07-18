@@ -1,0 +1,95 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646937.pdf",
+      "created": "2023-04-28T11:56:54+02:00",
+      "date": "2023-04-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646937.pdf",
+      "fileName": "00646937.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646937",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647480.pdf",
+      "created": "2023-05-22T14:07:34+02:00",
+      "date": "2023-05-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647480.pdf",
+      "fileName": "00647480.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647480",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Lageplan",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647481.pdf",
+      "created": "2023-05-22T14:07:51+02:00",
+      "date": "2023-05-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647481.pdf",
+      "fileName": "00647481.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647481",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Luftbild",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649096.pdf",
+      "created": "2023-07-18T21:47:43+02:00",
+      "date": "2023-07-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649096.pdf",
+      "fileName": "00649096.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649096",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 18 BV",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649508.pdf",
+      "created": "2023-08-03T12:16:17+02:00",
+      "date": "2023-08-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649508.pdf",
+      "fileName": "00649508.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649508",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 18",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78423",
+      "authoritative": true,
+      "created": "2023-06-21T14:37:58+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29566",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9047",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48545",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-04-28T11:54:36+02:00",
+  "date": "2023-05-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48545",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Verlängerung des Erbbaurechts an dem städtischen Grundstück Nr. 2363 mit 20.159 m² Gebäude- und Freifläche, Durlacher Allee 100, zugunsten des Landes Baden-Württemberg (Liegenschaftsverwaltung)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0476",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48900"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

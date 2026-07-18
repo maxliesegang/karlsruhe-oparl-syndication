@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00613161.pdf",
+      "created": "2020-01-03T09:18:21+01:00",
+      "date": "2020-01-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00613161.pdf",
+      "fileName": "00613161.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/613161",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 5, Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00613162.pdf",
+      "created": "2020-01-03T09:18:35+01:00",
+      "date": "2020-01-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00613162.pdf",
+      "fileName": "00613162.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/613162",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 5, Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/48268",
+      "authoritative": true,
+      "created": "2020-01-03T09:20:40+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17638",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5892",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34764"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38219",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-01-03T08:45:59+01:00",
+  "date": "2020-01-03",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38219",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Einrichtung Startpunkt-Elterncafé in Stupferich",
+  "paperType": "Antrag",
+  "reference": "2020/0006",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882957"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644429.pdf",
+      "created": "2023-01-27T13:07:59+01:00",
+      "date": "2023-01-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644429.pdf",
+      "fileName": "00644429.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644429",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644430.pdf",
+      "created": "2023-01-27T13:08:34+01:00",
+      "date": "2023-01-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644430.pdf",
+      "fileName": "00644430.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644430",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75637",
+      "created": "2023-02-01T16:09:53+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28993",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9094",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48104",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-01-27T13:01:19+01:00",
+  "date": "2023-01-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48104",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Prioritätenliste für Schulbaumaßnahmen",
+  "paperType": "Informationsvorlage",
+  "reference": "2023/0095",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

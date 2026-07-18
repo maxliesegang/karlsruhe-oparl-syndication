@@ -1,0 +1,54 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679350.pdf",
+      "created": "2026-06-25T08:52:03+02:00",
+      "date": "2026-06-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679350.pdf",
+      "fileName": "00679350.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679350",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-17T07:23:16+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2026-06-25T11:41:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37627",
+      "modified": "2026-06-25T11:44:02+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31211"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54698",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102477",
+      "created": "2026-07-01T10:14:31+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37623",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10566",
+      "modified": "2026-07-17T09:22:28+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54698",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-06-25T08:51:43+02:00",
+  "date": "2026-06-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54698",
+  "modified": "2026-07-17T07:23:16+02:00",
+  "name": "Verwaltungsstruktur anpassen – Reduzierung von Doppelspitzen in den Ämtern",
+  "paperType": "Antrag",
+  "reference": "2026/0521",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882953"
+  ]
+}

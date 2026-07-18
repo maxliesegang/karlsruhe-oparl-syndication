@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665210.pdf",
+      "created": "2025-02-26T16:41:41+01:00",
+      "date": "2025-02-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665210.pdf",
+      "fileName": "00665210.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665210",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-10T08:04:25+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665944.pdf",
+      "created": "2025-03-25T17:54:40+01:00",
+      "date": "2025-03-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665944.pdf",
+      "fileName": "00665944.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665944",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-10T08:04:25+02:00",
+      "name": "Abstimmungsergebnis TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666334.pdf",
+      "created": "2025-04-10T08:04:22+02:00",
+      "date": "2025-04-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666334.pdf",
+      "fileName": "00666334.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666334",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-10T08:04:25+02:00",
+      "name": "Protokoll GR 25.03.2025 TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92701",
+      "authoritative": true,
+      "created": "2025-03-03T10:18:24+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33784",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10046",
+      "modified": "2025-03-25T15:38:59+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51625",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-02-26T13:28:50+01:00",
+  "date": "2025-02-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51625",
+  "modified": "2025-04-10T08:04:25+02:00",
+  "name": "Erneute Bestellung von Herrn Landrat Dr. Christoph Schnaudigel in den Aufsichtsrat der Karlsruher Messe- und Kongress GmbH",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0198",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

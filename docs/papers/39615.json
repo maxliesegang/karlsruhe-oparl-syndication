@@ -1,0 +1,70 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00616967.pdf",
+      "created": "2020-04-01T08:00:07+02:00",
+      "date": "2020-04-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00616967.pdf",
+      "fileName": "00616967.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/616967",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617366.pdf",
+      "created": "2020-04-28T07:36:11+02:00",
+      "date": "2020-04-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617366.pdf",
+      "fileName": "00617366.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617366",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP Theaterhaus",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/51588",
+      "authoritative": true,
+      "created": "2020-04-01T09:19:03+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19133",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5664",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39615",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/52008",
+      "authoritative": true,
+      "created": "2020-04-30T08:29:27+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19133",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5665",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39615",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-04-01T07:59:25+02:00",
+  "date": "2020-04-01",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39615",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Erweiterung Theaterhaus Karlsruhe",
+  "paperType": "Antrag",
+  "reference": "2020/0407",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

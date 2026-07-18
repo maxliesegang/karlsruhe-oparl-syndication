@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644660.pdf",
+      "created": "2023-02-06T08:27:58+01:00",
+      "date": "2023-02-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644660.pdf",
+      "fileName": "00644660.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644660",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00645567.pdf",
+      "created": "2023-03-06T16:56:43+01:00",
+      "date": "2023-03-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00645567.pdf",
+      "fileName": "00645567.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/645567",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme_DS_Antrag FDP_Wohnen in der Innenstadt",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646543.pdf",
+      "created": "2023-04-13T12:45:48+02:00",
+      "date": "2023-04-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646543.pdf",
+      "fileName": "00646543.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646543",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 17",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/76335",
+      "created": "2023-03-07T11:51:19+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29257",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9115",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48151",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/76337",
+      "authoritative": true,
+      "created": "2023-03-07T12:20:34+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29050",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9043",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48151",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-02-06T08:27:24+01:00",
+  "date": "2023-02-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48151",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Wohnen in der Innenstadt - Umsetzung eines Pilotprojekts",
+  "paperType": "Antrag",
+  "reference": "2023/0135",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

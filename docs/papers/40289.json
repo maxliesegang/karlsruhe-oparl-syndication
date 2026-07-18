@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619689.pdf",
+      "created": "2020-09-22T09:19:01+02:00",
+      "date": "2020-09-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619689.pdf",
+      "fileName": "00619689.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619689",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619772.pdf",
+      "created": "2020-09-28T09:29:40+02:00",
+      "date": "2020-09-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619772.pdf",
+      "fileName": "00619772.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619772",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme AfD Unterbringung in LEA",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620456.pdf",
+      "created": "2020-10-29T08:53:11+01:00",
+      "date": "2020-10-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620456.pdf",
+      "fileName": "00620456.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620456",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 40.1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54652",
+      "authoritative": true,
+      "created": "2020-09-24T14:47:44+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20045",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5670",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40289",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-09-22T09:17:15+02:00",
+  "date": "2020-09-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40289",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Unterbringung von Personen aus der Landeserstaufnahmestelle in Karlsruher Übergangsunterkünften",
+  "paperType": "Anfrage",
+  "reference": "2020/0983",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

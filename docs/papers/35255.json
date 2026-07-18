@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595464.pdf",
+      "created": "2017-01-03T14:58:38+01:00",
+      "date": "2017-01-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595464.pdf",
+      "fileName": "00595464.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595464",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "GfK Blauer Streifen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595465.pdf",
+      "created": "2017-01-03T14:58:52+01:00",
+      "date": "2017-01-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595465.pdf",
+      "fileName": "00595465.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595465",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595958.pdf",
+      "created": "2017-01-30T10:24:46+01:00",
+      "date": "2017-01-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595958.pdf",
+      "fileName": "00595958.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595958",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/39895",
+      "authoritative": true,
+      "created": "2016-12-20T14:06:35+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/13930",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4521",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35255",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-12-14T13:48:56+01:00",
+  "date": "2016-12-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35255",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Blauer Majolika-Streifen und Fahrrinne",
+  "paperType": "Anfrage",
+  "reference": "2016/0794",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

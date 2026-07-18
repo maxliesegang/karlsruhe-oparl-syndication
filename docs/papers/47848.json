@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643788.pdf",
+      "created": "2022-12-29T13:38:28+01:00",
+      "date": "2022-12-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643788.pdf",
+      "fileName": "00643788.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643788",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 3 Antrag Verkehrssituation Pfinzstraße",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643789.pdf",
+      "created": "2022-12-29T13:38:40+01:00",
+      "date": "2022-12-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643789.pdf",
+      "fileName": "00643789.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643789",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 3 Stellungnahme Verkehrssituation Pfinzstraße",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/74931",
+      "authoritative": true,
+      "created": "2022-12-29T13:24:42+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28665",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9284",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47848",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-11-28T17:46:56+01:00",
+  "date": "2022-11-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47848",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Verkehrssituation Pfinzstraße",
+  "paperType": "Antrag",
+  "reference": "2022/2370",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

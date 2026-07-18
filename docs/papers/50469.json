@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658705.pdf",
+      "created": "2024-05-24T12:28:18+02:00",
+      "date": "2024-05-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658705.pdf",
+      "fileName": "00658705.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658705",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659165.pdf",
+      "created": "2024-06-18T21:46:29+02:00",
+      "date": "2024-06-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659165.pdf",
+      "fileName": "00659165.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659165",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 14",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659452.pdf",
+      "created": "2024-07-08T15:43:15+02:00",
+      "date": "2024-07-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659452.pdf",
+      "fileName": "00659452.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659452",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 18.06.2024 TOP 14",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86698",
+      "authoritative": true,
+      "created": "2024-05-22T13:39:22+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32153",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9527",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50469",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-05-21T10:13:36+02:00",
+  "date": "2024-05-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50469",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Verlängerung des Erbbaurechts an dem städtischen Grundstück Nr. 7539 mit 4.741 m² Gebäude- und Freifläche, Gustav-Heller-Platz 1",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0566",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

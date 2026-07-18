@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608466.pdf",
+      "created": "2019-03-20T08:48:20+01:00",
+      "date": "2019-03-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608466.pdf",
+      "fileName": "00608466.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608466",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609545.pdf",
+      "created": "2019-05-03T12:20:57+02:00",
+      "date": "2019-05-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609545.pdf",
+      "fileName": "00609545.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609545",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 41",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610361.pdf",
+      "created": "2019-07-01T10:59:42+02:00",
+      "date": "2019-07-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610361.pdf",
+      "fileName": "00610361.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610361",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Gemeinderat",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45619",
+      "authoritative": true,
+      "created": "2019-04-16T12:55:05+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16348",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5323",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37168",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-03-20T08:47:28+01:00",
+  "date": "2019-03-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37168",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Fußgängerverkehr stärken: Ampel-Regelschaltung mit Allgemein-Grün für zu Fuß Gehende in der City einrichten",
+  "paperType": "Antrag",
+  "reference": "2019/0256",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

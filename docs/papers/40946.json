@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00623879.pdf",
+      "created": "2021-03-02T13:44:54+01:00",
+      "date": "2021-03-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00623879.pdf",
+      "fileName": "00623879.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/623879",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624639.pdf",
+      "created": "2021-04-07T10:50:52+02:00",
+      "date": "2021-04-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624639.pdf",
+      "fileName": "00624639.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624639",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN ROTAG-Gelände",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625565.pdf",
+      "created": "2021-05-19T10:20:17+02:00",
+      "date": "2021-05-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625565.pdf",
+      "fileName": "00625565.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625565",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 23",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/57240",
+      "authoritative": true,
+      "created": "2021-03-31T11:44:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20872",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6195",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40946",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-03-02T13:43:25+01:00",
+  "date": "2021-03-02",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40946",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Kultur braucht Raum: Entwicklung ROTAG-Gelände / Raum für Kunst- und Kulturschaffende erhalten und neu schaffen",
+  "paperType": "Antrag",
+  "reference": "2021/0305",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

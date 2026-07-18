@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00623326.pdf",
+      "created": "2021-02-11T08:42:47+01:00",
+      "date": "2021-02-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00623326.pdf",
+      "fileName": "00623326.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/623326",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00623327.pdf",
+      "created": "2021-02-11T08:44:35+01:00",
+      "date": "2021-02-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00623327.pdf",
+      "fileName": "00623327.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/623327",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN CDU - Schulsozialarbeit",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624251.pdf",
+      "created": "2021-03-19T08:49:09+01:00",
+      "date": "2021-03-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624251.pdf",
+      "fileName": "00624251.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624251",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 31",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56190",
+      "authoritative": true,
+      "created": "2021-01-27T08:45:48+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20637",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6155",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40755",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-01-26T15:14:00+01:00",
+  "date": "2021-01-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40755",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Schulsozialarbeit während der coronabedingten Schulschließungen Anfrage: CDU",
+  "paperType": "Anfrage",
+  "reference": "2021/0076",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

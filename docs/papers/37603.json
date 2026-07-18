@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610474.pdf",
+      "created": "2019-07-09T09:47:49+02:00",
+      "date": "2019-07-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610474.pdf",
+      "fileName": "00610474.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610474",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611720.pdf",
+      "created": "2019-10-18T15:09:07+02:00",
+      "date": "2019-10-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611720.pdf",
+      "fileName": "00611720.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611720",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 35",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612687.pdf",
+      "created": "2019-11-28T09:18:00+01:00",
+      "date": "2019-11-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612687.pdf",
+      "fileName": "00612687.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612687",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 35",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47016",
+      "authoritative": true,
+      "created": "2019-09-25T10:23:51+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16872",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5404",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37603",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-07-09T09:45:18+02:00",
+  "date": "2019-07-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37603",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Hochwasserschutz in den Kombi-Tunneln",
+  "paperType": "Anfrage",
+  "reference": "2019/0707",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

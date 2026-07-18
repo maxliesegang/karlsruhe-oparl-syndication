@@ -1,0 +1,82 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618430.pdf",
+      "created": "2020-06-24T07:30:02+02:00",
+      "date": "2020-06-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618430.pdf",
+      "fileName": "00618430.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618430",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618768.pdf",
+      "created": "2020-07-10T08:33:57+02:00",
+      "date": "2020-07-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618768.pdf",
+      "fileName": "00618768.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618768",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Runder Tisch",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619662.pdf",
+      "created": "2020-09-18T13:54:14+02:00",
+      "date": "2020-09-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619662.pdf",
+      "fileName": "00619662.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619662",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53264",
+      "authoritative": true,
+      "created": "2020-06-24T09:12:34+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19649",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5667",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39992",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53788",
+      "authoritative": true,
+      "created": "2020-07-22T09:30:44+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19649",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5668",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39992",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-06-24T07:29:35+02:00",
+  "date": "2020-06-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39992",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Runder Tisch \"Selbstbestimmte und möglichst interventionsarme Geburt\"",
+  "paperType": "Antrag",
+  "reference": "2020/0783",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

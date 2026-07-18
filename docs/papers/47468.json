@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00640803.pdf",
+      "created": "2022-09-20T14:06:57+02:00",
+      "date": "2022-09-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00640803.pdf",
+      "fileName": "00640803.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/640803",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Lageplan",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00641092.pdf",
+      "created": "2022-09-29T13:51:11+02:00",
+      "date": "2022-09-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00641092.pdf",
+      "fileName": "00641092.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/641092",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72934",
+      "created": "2022-09-30T09:36:32+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28132",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6672",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54856"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47468",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-09-19T10:57:20+02:00",
+  "date": "2022-10-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47468",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Vermietung Birkenparkplatz",
+  "paperType": "Beschlussvorlage",
+  "reference": "2022/2052",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883005"
+  ]
+}

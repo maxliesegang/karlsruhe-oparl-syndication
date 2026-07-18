@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642143.pdf",
+      "created": "2022-11-02T10:36:22+01:00",
+      "date": "2022-11-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642143.pdf",
+      "fileName": "00642143.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642143",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/74026",
+      "authoritative": true,
+      "created": "2022-11-15T20:08:53+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28420",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6650",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47682",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-10-24T16:09:37+02:00",
+  "date": "2022-10-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47682",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Technisches Rathaus, Sanierung /Fortführungsmaßnahmen inkl. Photovoltaikanlagen, Rohbau",
+  "paperType": "Beschlussvorlage",
+  "reference": "2022/2215",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

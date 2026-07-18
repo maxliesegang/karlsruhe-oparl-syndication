@@ -1,0 +1,70 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665815.pdf",
+      "created": "2025-03-20T16:32:36+01:00",
+      "date": "2025-03-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665815.pdf",
+      "fileName": "00665815.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665815",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-13T09:57:22+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667347.pdf",
+      "created": "2025-05-22T13:47:24+02:00",
+      "date": "2025-05-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667347.pdf",
+      "fileName": "00667347.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667347",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-13T09:57:22+02:00",
+      "name": "Protokoll GR 29.04.2025 TOP 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92901",
+      "authoritative": true,
+      "created": "2025-03-20T16:59:42+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33906",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10025",
+      "modified": "2025-04-23T19:15:13+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51714",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93099",
+      "authoritative": true,
+      "created": "2025-04-01T13:24:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33907",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10047",
+      "modified": "2025-04-29T16:20:20+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51714",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-03-20T16:30:52+01:00",
+  "date": "2025-03-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51714",
+  "modified": "2025-06-13T09:57:22+02:00",
+  "name": "Bestellung von Herrn Martin Pötzsche, Herrn Dirk Müller sowie Herrn Mathias Tröndle zu Ehrenbeamten der Stadt Karlsruhe für die Tätigkeit im Standesamtsbezirk Durlach",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0286",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

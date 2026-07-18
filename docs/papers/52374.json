@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670615.pdf",
+      "created": "2025-10-06T17:13:01+02:00",
+      "date": "2025-10-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670615.pdf",
+      "fileName": "00670615.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670615",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-27T12:45:14+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670616.pdf",
+      "created": "2025-10-06T17:15:25+02:00",
+      "date": "2025-10-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670616.pdf",
+      "fileName": "00670616.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670616",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-27T12:45:14+01:00",
+      "name": "Anlage 1, Übersicht der Projekte",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670617.pdf",
+      "created": "2025-10-06T17:16:03+02:00",
+      "date": "2025-10-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670617.pdf",
+      "fileName": "00670617.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670617",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-27T12:45:14+01:00",
+      "name": "Anlage 2, Beispiel Kindermalwerkstatt",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96243",
+      "authoritative": true,
+      "created": "2025-09-15T12:26:59+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34860",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10124",
+      "modified": "2025-11-05T10:47:34+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/29599"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52374",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-09-15T12:19:00+02:00",
+  "date": "2025-09-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52374",
+  "modified": "2025-10-27T12:45:14+01:00",
+  "name": "Schule und Kultur 2025/2026",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/0878",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882963"
+  ]
+}

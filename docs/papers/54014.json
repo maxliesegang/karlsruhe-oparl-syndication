@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674186.pdf",
+      "created": "2025-12-01T10:53:42+01:00",
+      "date": "2025-12-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674186.pdf",
+      "fileName": "00674186.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674186",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-18T19:50:25+01:00",
+      "name": "Antrag SPD_010",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674996.pdf",
+      "created": "2025-12-08T15:05:35+01:00",
+      "date": "2025-12-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674996.pdf",
+      "fileName": "00674996.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674996",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-18T19:50:25+01:00",
+      "name": "4159 Stellungnahme DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675340.pdf",
+      "created": "2025-12-18T19:43:37+01:00",
+      "date": "2025-12-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675340.pdf",
+      "fileName": "00675340.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675340",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-18T19:50:25+01:00",
+      "name": "Abstimmungsergebnis",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99708",
+      "authoritative": true,
+      "created": "2025-12-03T08:45:13+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36655",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-17T06:45:49+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54014",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-12-01T10:52:35+01:00",
+  "date": "2025-12-01",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54014",
+  "modified": "2025-12-18T19:50:25+01:00",
+  "name": "HHS4_GR51 - Förderung freier Projekte erhalten",
+  "paperType": "Haushalt THH 4100",
+  "reference": "DHH/2025/4159",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

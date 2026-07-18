@@ -1,0 +1,63 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37545",
+      "created": "2026-06-09T11:16:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102064",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10551",
+      "modified": "2026-07-08T09:29:18+02:00",
+      "name": "Kooperationsprojekte \"Schule-Sportverein\" für das Schuljahr 2026/2027",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37547",
+      "created": "2026-06-09T11:16:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102065",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10551",
+      "modified": "2026-07-08T09:29:31+02:00",
+      "name": "„Karlsruhe auf dem Weg zur Inklusion – Sport für alle von Anfang an“ - Sachstand und Förderungsmodalitäten",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2025-10-10T13:00:05+02:00",
+  "end": "2026-07-07T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10551",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679378.pdf",
+    "created": "2026-06-25T12:46:25+02:00",
+    "date": "2026-06-25",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679378.pdf",
+    "fileName": "00679378.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679378",
+    "mimeType": "application/pdf",
+    "modified": "2026-06-30T14:34:44+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2022-12-12T11:11:26+01:00",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/rm/67907",
+    "locality": "",
+    "modified": "2025-08-05T10:18:13+02:00",
+    "postalCode": "",
+    "room": "Bürgersaal",
+    "streetAddress": "",
+    "subLocality": "",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-07-13T11:41:20+02:00",
+  "name": "Sportausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33575"
+  ],
+  "start": "2026-07-07T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

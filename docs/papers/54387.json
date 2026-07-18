@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677227.pdf",
+      "created": "2026-03-23T16:47:18+01:00",
+      "date": "2026-03-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677227.pdf",
+      "fileName": "00677227.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677227",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-24T15:36:36+01:00",
+      "name": "Änderungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677256.pdf",
+      "created": "2026-03-24T11:51:21+01:00",
+      "date": "2026-03-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677256.pdf",
+      "fileName": "00677256.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677256",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-24T15:36:36+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100913",
+      "authoritative": true,
+      "created": "2026-03-24T07:33:20+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37164",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10497",
+      "modified": "2026-03-24T18:40:13+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54387",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-03-23T16:46:53+01:00",
+  "date": "2026-03-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54387",
+  "modified": "2026-04-07T11:48:11+02:00",
+  "name": "Reduktion der Einsparungen bei der Personalbesetzungssperre",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2026/0203/2",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54344"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/447562"
+  ]
+}

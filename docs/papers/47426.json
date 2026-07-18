@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00641437.pdf",
+      "created": "2022-10-13T12:30:31+02:00",
+      "date": "2022-10-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00641437.pdf",
+      "fileName": "00641437.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/641437",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642710.pdf",
+      "created": "2022-11-17T12:31:31+01:00",
+      "date": "2022-11-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642710.pdf",
+      "fileName": "00642710.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642710",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72802",
+      "authoritative": true,
+      "created": "2022-09-27T12:38:32+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28073",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6603",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47426",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-09-13T15:37:11+02:00",
+  "date": "2022-09-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47426",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Besonderheit und Auswirkungen des Sommers 2022 in Karlsruhe",
+  "paperType": "Informationsvorlage",
+  "reference": "IV/2022/2010",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/776412"
+  ]
+}

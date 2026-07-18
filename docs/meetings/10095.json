@@ -1,0 +1,91 @@
+{
+  "agendaItem": [
+    {
+      "created": "2025-10-22T15:15:25+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/97078",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10095",
+      "modified": "2025-11-05T17:00:15+01:00",
+      "name": "Vorsitz: Bürgermeister Dr. Albert Käuflein",
+      "number": "",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35113",
+      "created": "2025-10-22T15:13:59+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/97077",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10095",
+      "modified": "2025-10-22T15:15:25+02:00",
+      "name": "Sachstand Stadttauben",
+      "number": "1",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-10-21T15:05:19+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/97056",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10095",
+      "modified": "2026-03-23T17:00:48+01:00",
+      "name": "Vorsitz: Bürgermeisterin Bettina Lisbach",
+      "number": "",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34877",
+      "created": "2025-10-21T14:48:56+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/97050",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10095",
+      "modified": "2025-12-03T13:56:19+01:00",
+      "name": "Plauderbänke",
+      "number": "2",
+      "order": 4,
+      "public": true,
+      "result": "erledigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-10-21T14:48:56+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/97049",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10095",
+      "modified": "2025-10-22T15:15:25+02:00",
+      "name": "Verschiedenes",
+      "number": "3",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2024-10-17T12:12:09+02:00",
+  "end": "2025-11-27T18:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10095",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670686.pdf",
+    "created": "2025-10-08T15:41:14+02:00",
+    "date": "2025-11-05",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670686.pdf",
+    "fileName": "00670686.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670686",
+    "mimeType": "application/pdf",
+    "modified": "2025-11-18T09:48:33+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2024-10-17T12:12:09+02:00",
+    "description": "Großer Sitzungssaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10095",
+    "modified": "2025-11-18T09:48:33+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-11-18T09:48:33+01:00",
+  "name": "Ausschuss für öffentliche Einrichtungen (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+  ],
+  "start": "2025-11-27T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

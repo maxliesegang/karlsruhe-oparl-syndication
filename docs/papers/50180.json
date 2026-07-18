@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656948.pdf",
+      "created": "2024-03-20T10:34:13+01:00",
+      "date": "2024-03-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656948.pdf",
+      "fileName": "00656948.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656948",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00657129.pdf",
+      "created": "2024-03-26T09:51:58+01:00",
+      "date": "2024-03-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00657129.pdf",
+      "fileName": "00657129.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/657129",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme zum Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658187.pdf",
+      "created": "2024-05-06T11:24:00+02:00",
+      "date": "2024-05-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658187.pdf",
+      "fileName": "00658187.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658187",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 23.04.2024 TOP 26",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/85348",
+      "authoritative": true,
+      "created": "2024-03-21T13:19:55+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31746",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9525",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50180",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/85781",
+      "created": "2024-04-09T17:59:55+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31800",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9543",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50180",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-03-20T10:21:04+01:00",
+  "date": "2024-03-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50180",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Leerstand vermeiden: Kaiserallee 11c  Nachnutzung des bisherigen Gebäudes des Badischen Konservatoriums",
+  "paperType": "Antrag",
+  "reference": "2024/0301",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

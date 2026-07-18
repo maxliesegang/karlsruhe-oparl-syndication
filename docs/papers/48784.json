@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648279.pdf",
+      "created": "2023-06-20T14:03:38+02:00",
+      "date": "2023-06-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648279.pdf",
+      "fileName": "00648279.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648279",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648665.pdf",
+      "created": "2023-06-30T16:28:37+02:00",
+      "date": "2023-06-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648665.pdf",
+      "fileName": "00648665.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648665",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme zur Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649533.pdf",
+      "created": "2023-08-03T12:28:08+02:00",
+      "date": "2023-08-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649533.pdf",
+      "fileName": "00649533.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649533",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 43",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78410",
+      "authoritative": true,
+      "created": "2023-06-21T11:56:34+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29880",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9047",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48784",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-06-20T14:03:13+02:00",
+  "date": "2023-06-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48784",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Karlsruhe als Schwammstadt",
+  "paperType": "Anfrage",
+  "reference": "2023/0702",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

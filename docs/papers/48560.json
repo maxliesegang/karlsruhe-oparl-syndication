@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647014.pdf",
+      "created": "2023-05-03T11:56:35+02:00",
+      "date": "2023-05-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647014.pdf",
+      "fileName": "00647014.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647014",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647015.pdf",
+      "created": "2023-05-03T11:56:35+02:00",
+      "date": "2023-05-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647015.pdf",
+      "fileName": "00647015.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647015",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647029.pdf",
+      "created": "2023-05-03T16:31:48+02:00",
+      "date": "2023-05-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647029.pdf",
+      "fileName": "00647029.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647029",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderung der Bekanntmachungssatzung",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/77698",
+      "authoritative": true,
+      "created": "2023-05-17T14:45:18+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29582",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9252",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48560",
+      "role": "Anhörung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-05-03T11:44:31+02:00",
+  "date": "2023-05-03",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48560",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Änderung der Bekanntmachungssatzung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0491",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882961"
+  ]
+}

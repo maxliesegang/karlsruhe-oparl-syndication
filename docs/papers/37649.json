@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610658.pdf",
+      "created": "2019-08-01T14:57:35+02:00",
+      "date": "2019-08-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610658.pdf",
+      "fileName": "00610658.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610658",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611014.pdf",
+      "created": "2019-09-12T15:17:47+02:00",
+      "date": "2019-09-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611014.pdf",
+      "fileName": "00611014.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611014",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 29",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612030.pdf",
+      "created": "2019-11-05T12:57:21+01:00",
+      "date": "2019-11-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612030.pdf",
+      "fileName": "00612030.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612030",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 29",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46634",
+      "authoritative": true,
+      "created": "2019-08-13T09:11:02+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16928",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5379",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37649",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-08-01T14:57:09+02:00",
+  "date": "2019-08-01",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37649",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Wartezeiten vor Freibädern reduzieren - Einführung einer \"Eintritts-App\"",
+  "paperType": "Antrag",
+  "reference": "2019/0756",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

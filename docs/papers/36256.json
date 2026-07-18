@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00602979.pdf",
+      "created": "2018-04-27T14:39:40+02:00",
+      "date": "2018-04-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00602979.pdf",
+      "fileName": "00602979.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/602979",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Festsetzung Zielgrößen AVG VBK",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00603361.pdf",
+      "created": "2018-06-01T13:09:18+02:00",
+      "date": "2018-06-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00603361.pdf",
+      "fileName": "00603361.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/603361",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Sitzungseröffnung und TOP 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/42605",
+      "authoritative": true,
+      "created": "2018-04-10T10:40:31+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15194",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5003",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36256",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-04-10T10:04:02+02:00",
+  "date": "2018-04-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36256",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Festsetzung von Zielgrößen gemäß dem Gesetz für die gleichberechtigte Teilhabe von Frauen und Männern an Führungspositionen: AVG und VBK",
+  "paperType": "Beschlussvorlage",
+  "reference": "2018/0209",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

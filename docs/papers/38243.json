@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614298.pdf",
+      "created": "2020-01-14T12:33:44+01:00",
+      "date": "2020-01-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614298.pdf",
+      "fileName": "00614298.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614298",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614798.pdf",
+      "created": "2020-02-07T11:08:32+01:00",
+      "date": "2020-02-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614798.pdf",
+      "fileName": "00614798.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614798",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 28",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615449.pdf",
+      "created": "2020-03-12T09:42:46+01:00",
+      "date": "2020-03-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615449.pdf",
+      "fileName": "00615449.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615449",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 28",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/49503",
+      "authoritative": true,
+      "created": "2020-01-21T09:39:22+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17669",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5662",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38243",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-01-14T12:33:00+01:00",
+  "date": "2020-01-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38243",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Straßenschilder für Sehbehinderte",
+  "paperType": "Antrag",
+  "reference": "2020/0030",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

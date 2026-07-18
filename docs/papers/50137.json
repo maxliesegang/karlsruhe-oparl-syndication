@@ -1,0 +1,61 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656671.pdf",
+      "created": "2024-03-12T19:32:52+01:00",
+      "date": "2024-03-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656671.pdf",
+      "fileName": "00656671.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656671",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage 2024/0262 (Referenzvorlage)",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/85687",
+      "authoritative": true,
+      "created": "2024-04-04T16:19:50+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31684",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9717",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50137",
+      "role": "Anhörung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86412",
+      "authoritative": true,
+      "created": "2024-05-06T18:15:55+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31684",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9912",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50137",
+      "role": "Anhörung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-03-12T19:30:30+01:00",
+  "date": "2024-03-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50137",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Anpassung der Nutzungsentgelte für die durch die OV Grötzingen zur Verfügung gestellten Räumlichkeiten im Herbert-Schweizer-Haus Begegnungsstätte Grötzingen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0262",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50649"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648050.pdf",
+      "created": "2023-06-12T18:32:45+02:00",
+      "date": "2023-06-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648050.pdf",
+      "fileName": "00648050.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648050",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 4 Anfrage Nutzung des Hausmeisterhauses in der Karl-Weysser-Str. 18, 76227 Karlsruhe",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648051.pdf",
+      "created": "2023-06-12T18:32:57+02:00",
+      "date": "2023-06-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648051.pdf",
+      "fileName": "00648051.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648051",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 4 Stellungnahme Nutzung des Hausmeisterhauses in der Karl-Weysser-Str. 18, 76227 Karlsruhe",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78135",
+      "authoritative": true,
+      "created": "2023-06-05T12:26:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29636",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9289",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48598",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-05-11T14:38:12+02:00",
+  "date": "2023-05-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48598",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Nutzung des Hausmeisterhauses in der Karl-Weysser-Str. 18, 76227 Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2023/0523",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

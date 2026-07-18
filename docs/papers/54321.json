@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676867.pdf",
+      "created": "2026-03-02T13:27:23+01:00",
+      "date": "2026-03-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676867.pdf",
+      "fileName": "00676867.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676867",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-11T14:08:49+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679025.pdf",
+      "created": "2026-06-11T14:08:46+02:00",
+      "date": "2026-06-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679025.pdf",
+      "fileName": "00679025.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679025",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-11T14:08:49+02:00",
+      "name": "Protokoll HFA 09.06.2026 TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101712",
+      "authoritative": true,
+      "created": "2026-05-12T11:55:23+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37252",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10529",
+      "modified": "2026-06-10T07:02:13+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54321",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-03-02T12:44:24+01:00",
+  "date": "2026-03-02",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54321",
+  "modified": "2026-06-11T14:08:49+02:00",
+  "name": "Parkraumbewirtschaftung an Schulen und Verwaltungsgebäuden, Erhöhung der Stellplatzmiete",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0182",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

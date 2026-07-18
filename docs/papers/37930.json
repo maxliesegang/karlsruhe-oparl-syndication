@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611803.pdf",
+      "created": "2019-10-23T14:06:12+02:00",
+      "date": "2019-10-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611803.pdf",
+      "fileName": "00611803.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611803",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612731.pdf",
+      "created": "2019-11-29T12:41:06+01:00",
+      "date": "2019-11-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612731.pdf",
+      "fileName": "00612731.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612731",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 26",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614568.pdf",
+      "created": "2020-01-29T10:00:18+01:00",
+      "date": "2020-01-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614568.pdf",
+      "fileName": "00614568.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614568",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 26",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47734",
+      "authoritative": true,
+      "created": "2019-11-13T08:54:16+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17277",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5444",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37930",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-10-23T11:38:42+02:00",
+  "date": "2019-10-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37930",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Versorgungssituation klären im Bereich \"Ambulante Pflege\" und \"Hauswirtschaftliche Unterstützung\" von Seniorinnen und Senioren",
+  "paperType": "Antrag",
+  "reference": "2019/1067",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

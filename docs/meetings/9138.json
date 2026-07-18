@@ -1,0 +1,82 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28764",
+      "created": "2023-01-11T11:11:30+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75102",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9138",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Integration von Schul- und Hochschulverpflegungs-Apps in die Karlsruhe-App",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28505",
+      "created": "2023-01-11T11:11:30+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75100",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9138",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Sanierungsgebiet Innenstadt-Ost - Einrichtung eines Taubenschlages am Kronenplatz",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28734",
+      "created": "2023-01-11T11:11:30+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75101",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9138",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Stadtwald: Rückblick 2021, Situation 2022 und Planung 2023",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2023-01-11T11:11:30+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75103",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9138",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verschiedenes",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "result": "erledigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2022-09-22T09:07:26+02:00",
+  "end": "2023-02-03T18:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9138",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643651.pdf",
+    "created": "2022-12-22T13:48:18+01:00",
+    "date": "2022-12-29",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643651.pdf",
+    "fileName": "00643651.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643651",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2022-09-22T09:07:26+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9138",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ausschuss für öffentliche Einrichtungen (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+  ],
+  "start": "2023-02-03T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

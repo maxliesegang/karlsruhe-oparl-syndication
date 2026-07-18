@@ -1,0 +1,84 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634089.pdf",
+      "created": "2021-12-01T08:07:24+01:00",
+      "date": "2021-12-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634089.pdf",
+      "fileName": "00634089.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634089",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Neue Klimaschutzziele_mit Anpassungsvorschläge KSK-PG",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634684.pdf",
+      "created": "2021-12-15T08:18:24+01:00",
+      "date": "2021-12-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634684.pdf",
+      "fileName": "00634684.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634684",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635049.pdf",
+      "created": "2022-01-05T13:51:54+01:00",
+      "date": "2022-01-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635049.pdf",
+      "fileName": "00635049.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635049",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/65605",
+      "created": "2021-11-12T09:04:55+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26352",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6558",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46036",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/65719",
+      "authoritative": true,
+      "created": "2021-11-17T09:58:02+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26331",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6346",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46036",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-11-08T08:17:16+01:00",
+  "date": "2021-11-08",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46036",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Klimaschutzkonzept 2030 - Anpassung der Klimaschutzziele",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/1341",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46228"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882975"
+  ]
+}

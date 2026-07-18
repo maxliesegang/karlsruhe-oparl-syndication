@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00652657.pdf",
+      "created": "2023-10-25T10:04:54+02:00",
+      "date": "2023-10-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00652657.pdf",
+      "fileName": "00652657.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/652657",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83273",
+      "authoritative": true,
+      "created": "2023-10-31T18:06:53+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30920",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9126",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49601",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-10-20T14:46:30+02:00",
+  "date": "2023-10-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49601",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Stadthalle Modernisierung, Vergabe von Brunnenbauarbeiten",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/1215",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

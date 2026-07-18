@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672105.pdf",
+      "created": "2025-11-19T08:28:49+01:00",
+      "date": "2025-11-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672105.pdf",
+      "fileName": "00672105.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672105",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-18T20:58:26+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675391.pdf",
+      "created": "2025-12-18T20:58:18+01:00",
+      "date": "2025-12-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675391.pdf",
+      "fileName": "00675391.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675391",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-18T20:58:26+01:00",
+      "name": "Abstimmungsergebnis Ö 279",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99301",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:27+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35341",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-17T06:45:49+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52712",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-19T08:28:10+01:00",
+  "date": "2025-11-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52712",
+  "modified": "2025-12-18T20:58:26+01:00",
+  "name": "HHS4_GR68 - Einführung einer Gebühr für die Erteilung von Wohnberechtigungsscheinen (20 Euro)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1170",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

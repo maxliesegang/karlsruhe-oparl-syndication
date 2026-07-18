@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659488.pdf",
+      "created": "2024-07-10T12:12:41+02:00",
+      "date": "2024-07-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659488.pdf",
+      "fileName": "00659488.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659488",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage Wettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660795.pdf",
+      "created": "2024-09-11T13:58:09+02:00",
+      "date": "2024-09-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660795.pdf",
+      "fileName": "00660795.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660795",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage1_Lageplan_Radstation",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/87661",
+      "authoritative": true,
+      "created": "2024-07-13T10:56:07+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32456",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9759",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49992",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-02-06T10:33:57+01:00",
+  "date": "2024-07-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49992",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Errichtung eines Radservicepunktes in Wettersbach",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0128",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882961"
+  ]
+}

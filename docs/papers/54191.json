@@ -1,0 +1,110 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676088.pdf",
+      "created": "2026-01-26T13:59:35+01:00",
+      "date": "2026-01-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676088.pdf",
+      "fileName": "00676088.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676088",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:41:18+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678028.pdf",
+      "created": "2026-04-29T11:17:12+02:00",
+      "date": "2026-04-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678028.pdf",
+      "fileName": "00678028.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678028",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:41:18+02:00",
+      "name": "Abstimmungsergebnis TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678389.pdf",
+      "created": "2026-05-15T10:41:16+02:00",
+      "date": "2026-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678389.pdf",
+      "fileName": "00678389.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678389",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:41:18+02:00",
+      "name": "Protokoll GR 28.04.2026 TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100225",
+      "authoritative": true,
+      "created": "2026-01-28T16:30:25+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36899",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10454",
+      "modified": "2026-03-18T07:30:20+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54191",
+      "role": "Anhörung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100235",
+      "authoritative": true,
+      "created": "2026-01-28T17:40:18+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36898",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10487",
+      "modified": "2026-03-12T11:53:26+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54191",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100904",
+      "authoritative": true,
+      "created": "2026-03-23T14:51:04+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37162",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10455",
+      "modified": "2026-04-15T08:04:24+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54191",
+      "role": "Anhörung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101116",
+      "authoritative": true,
+      "created": "2026-04-01T09:53:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36900",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10512",
+      "modified": "2026-04-28T18:43:19+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54191",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-01-26T13:47:14+01:00",
+  "date": "2026-01-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54191",
+  "modified": "2026-05-15T10:41:18+02:00",
+  "name": "Heinz-Barth-Schule Wettersbach: Aufhebung der Außenstelle am Standort Waldenserschule Palmbach",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0061",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666203.pdf",
+      "created": "2025-04-07T08:21:30+02:00",
+      "date": "2025-04-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666203.pdf",
+      "fileName": "00666203.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666203",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-27T10:00:53+02:00",
+      "name": "Antrag Wettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666205.pdf",
+      "created": "2025-04-07T08:22:25+02:00",
+      "date": "2025-04-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666205.pdf",
+      "fileName": "00666205.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666205",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-27T10:00:53+02:00",
+      "name": "Stellungnahme Antrag Wettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93156",
+      "authoritative": true,
+      "created": "2025-04-07T08:29:43+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33993",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10209",
+      "modified": "2025-05-07T13:14:24+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51765",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-04-07T08:20:14+02:00",
+  "date": "2025-04-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51765",
+  "modified": "2025-04-27T10:00:53+02:00",
+  "name": "Verwirklichung Kulturpfad mit Stäffelesweg in Grünwettersbach Antrag der CDU/FW-Ortschaftsratsfraktion Wettersbach",
+  "paperType": "Antrag",
+  "reference": "2025/0326",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51898"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882961"
+  ]
+}

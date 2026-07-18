@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668888.pdf",
+      "created": "2025-07-18T09:16:17+02:00",
+      "date": "2025-07-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668888.pdf",
+      "fileName": "00668888.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668888",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-27T12:21:07+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670398.pdf",
+      "created": "2025-09-25T07:04:03+02:00",
+      "date": "2025-09-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670398.pdf",
+      "fileName": "00670398.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670398",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-27T12:21:07+01:00",
+      "name": "Taetigkeitsbericht 2024",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671320.pdf",
+      "created": "2025-10-27T12:21:02+01:00",
+      "date": "2025-10-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671320.pdf",
+      "fileName": "00671320.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671320",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-27T12:21:07+01:00",
+      "name": "Protokoll HFA 14.10.2025 Sitzungseröffnung und TOP 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96273",
+      "authoritative": true,
+      "created": "2025-09-19T11:57:09+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34521",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10041",
+      "modified": "2025-10-15T08:32:58+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52130",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-07-01T08:34:39+02:00",
+  "date": "2025-07-01",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52130",
+  "modified": "2025-10-27T12:21:07+01:00",
+  "name": "Handlungsschwerpunkte im Bereich Öffentliche Sicherheit und Ordnung",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/0655",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

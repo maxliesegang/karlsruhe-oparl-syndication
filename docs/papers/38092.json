@@ -1,0 +1,69 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612762.pdf",
+      "created": "2019-12-03T12:56:53+01:00",
+      "date": "2019-12-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612762.pdf",
+      "fileName": "00612762.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612762",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TPO 7 Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612803.pdf",
+      "created": "2019-12-03T16:16:48+01:00",
+      "date": "2019-12-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612803.pdf",
+      "fileName": "00612803.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612803",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47926",
+      "created": "2019-12-03T13:18:48+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17488",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5438",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38092",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/50051",
+      "authoritative": true,
+      "created": "2020-02-24T15:02:51+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17698",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5653",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38092",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-12-03T12:56:16+01:00",
+  "date": "2020-01-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38092",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Anpassung der Aufsichtsratvergütungen bei städtischen Beteiligungsgesellschaften",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2019/1230",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

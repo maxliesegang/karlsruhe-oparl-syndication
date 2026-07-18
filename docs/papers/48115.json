@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644458.pdf",
+      "created": "2023-01-30T17:10:52+01:00",
+      "date": "2023-01-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644458.pdf",
+      "fileName": "00644458.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644458",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644459.pdf",
+      "created": "2023-01-30T17:15:15+01:00",
+      "date": "2023-01-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644459.pdf",
+      "fileName": "00644459.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644459",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75639",
+      "created": "2023-02-01T16:09:53+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29006",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9094",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48115",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-01-30T17:06:29+01:00",
+  "date": "2023-01-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48115",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Luftfilteranlagen in Karlsruher Schulen",
+  "paperType": "Informationsvorlage",
+  "reference": "2023/0104",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

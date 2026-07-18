@@ -1,0 +1,93 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608004.pdf",
+      "created": "2019-02-22T15:38:44+01:00",
+      "date": "2019-02-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608004.pdf",
+      "fileName": "00608004.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608004",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 9 Anrechnung Auszubildende PIA",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608005.pdf",
+      "created": "2019-02-22T15:38:56+01:00",
+      "date": "2019-02-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608005.pdf",
+      "fileName": "00608005.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608005",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Anrechnung PIA",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608048.pdf",
+      "created": "2019-02-27T11:07:36+01:00",
+      "date": "2019-02-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608048.pdf",
+      "fileName": "00608048.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608048",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "AbstimmungsergebnisTop 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608843.pdf",
+      "created": "2019-04-03T10:14:14+02:00",
+      "date": "2019-04-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608843.pdf",
+      "fileName": "00608843.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608843",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44911",
+      "authoritative": true,
+      "created": "2019-01-29T14:40:38+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16114",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5276",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36971",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44965",
+      "created": "2019-02-04T08:44:22+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16113",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5266",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36971",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-01-14T08:53:05+01:00",
+  "date": "2019-01-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36971",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Anrechnung der Auszubildenden für die praxisintegrierte Erzieherinnen- und Erzieherausbildung (PIA) sowie der Auszubildenden der Fachrichtung Jugend- und Heimerziehung (FJH) auf den förderfähigen Stellenschlüssel",
+  "paperType": "Beschlussvorlage",
+  "reference": "2019/0050",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

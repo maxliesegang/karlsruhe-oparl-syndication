@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00596536.pdf",
+      "created": "2017-03-03T15:46:30+01:00",
+      "date": "2017-03-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00596536.pdf",
+      "fileName": "00596536.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/596536",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Sachstand Kombilösung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00596913.pdf",
+      "created": "2017-04-04T14:08:00+02:00",
+      "date": "2017-04-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00596913.pdf",
+      "fileName": "00596913.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/596913",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/40225",
+      "created": "2017-02-14T10:31:21+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14110",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4544",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35399",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-02-14T09:05:09+01:00",
+  "date": "2017-02-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35399",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Sachstandsbericht Kombilösung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0129",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/420351"
+  ]
+}

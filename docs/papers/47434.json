@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00640635.pdf",
+      "created": "2022-09-14T15:06:58+02:00",
+      "date": "2022-09-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00640635.pdf",
+      "fileName": "00640635.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/640635",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00640641.pdf",
+      "created": "2022-09-14T16:45:19+02:00",
+      "date": "2022-09-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00640641.pdf",
+      "fileName": "00640641.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/640641",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642736.pdf",
+      "created": "2022-11-17T13:12:04+01:00",
+      "date": "2022-11-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642736.pdf",
+      "fileName": "00642736.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642736",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 38",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72811",
+      "authoritative": true,
+      "created": "2022-09-27T15:44:36+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28083",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6603",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47434",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-09-14T15:06:37+02:00",
+  "date": "2022-09-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47434",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Ergebnisse der Kontrollen von E-Scootern, E-Bikes und Fahrrädern",
+  "paperType": "Anfrage",
+  "reference": "ANF/2022/2006",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

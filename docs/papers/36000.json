@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00601346.pdf",
+      "created": "2018-02-09T10:36:28+01:00",
+      "date": "2018-02-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00601346.pdf",
+      "fileName": "00601346.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/601346",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "KULT-Livestream Gemeinderat",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00601397.pdf",
+      "created": "2018-02-12T09:46:40+01:00",
+      "date": "2018-02-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00601397.pdf",
+      "fileName": "00601397.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/601397",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00601613.pdf",
+      "created": "2018-02-27T11:16:43+01:00",
+      "date": "2018-02-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00601613.pdf",
+      "fileName": "00601613.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/601613",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00602305.pdf",
+      "created": "2018-04-03T16:03:56+02:00",
+      "date": "2018-04-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00602305.pdf",
+      "fileName": "00602305.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/602305",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis_TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/42150",
+      "authoritative": true,
+      "created": "2018-01-24T11:12:34+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14878",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4892",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36000",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-12-05T14:38:08+01:00",
+  "date": "2018-01-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36000",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Livestream aus dem Gemeinderat: Haushaltsreden zum Doppelhaushalt",
+  "paperType": "Antrag",
+  "reference": "2017/0778",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00657614.pdf",
+      "created": "2024-04-16T18:30:00+02:00",
+      "date": "2024-04-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00657614.pdf",
+      "fileName": "00657614.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/657614",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage (04/2024)",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658044.pdf",
+      "created": "2024-04-30T11:57:54+02:00",
+      "date": "2024-04-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658044.pdf",
+      "fileName": "00658044.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658044",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Ausschuss  (04/2024)",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/85940",
+      "created": "2024-04-15T17:01:21+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31913",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9858",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54847"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50306",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-04-15T16:40:27+02:00",
+  "date": "2024-06-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50306",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Aufstockung Mehrfamilienwohnhaus Bernhardstraße",
+  "paperType": "Informationsvorlage",
+  "reference": "2024/0419",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50588",
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52041"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

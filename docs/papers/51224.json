@@ -1,0 +1,78 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662460.pdf",
+      "created": "2024-11-07T17:18:58+01:00",
+      "date": "2024-11-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662460.pdf",
+      "fileName": "00662460.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662460",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662468.pdf",
+      "created": "2024-11-08T09:26:35+01:00",
+      "date": "2024-11-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662468.pdf",
+      "fileName": "00662468.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662468",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Kostenaufstellung Motorrettungsboot",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663101.pdf",
+      "created": "2024-11-21T13:34:09+01:00",
+      "date": "2024-11-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663101.pdf",
+      "fileName": "00663101.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663101",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Präsentation DLRG Motorrettungsboot",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2024-11-07T17:18:09+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33195",
+      "modified": "2024-11-15T13:14:07+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51224",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91070",
+      "created": "2024-11-07T17:45:55+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33196",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10263",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51224",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-11-07T17:16:47+01:00",
+  "date": "2024-11-08",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51224",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Unterstützung bei der Finanzierung eines Motorrettungsbootes für Grötzingen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/1270",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

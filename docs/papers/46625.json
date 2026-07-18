@@ -1,0 +1,71 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00637280.pdf",
+      "created": "2022-04-22T15:14:57+02:00",
+      "date": "2022-04-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00637280.pdf",
+      "fileName": "00637280.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/637280",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Vorlage Gemeinderat, Erneuerung Turmbergbahn, Einleitung Planfeststellungsverfahren",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00637314.pdf",
+      "created": "2022-04-26T17:31:19+02:00",
+      "date": "2022-04-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00637314.pdf",
+      "fileName": "00637314.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/637314",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00637945.pdf",
+      "created": "2022-05-23T08:58:00+02:00",
+      "date": "2022-05-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00637945.pdf",
+      "fileName": "00637945.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/637945",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 26.04.2022 TOP 5",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/69279",
+      "authoritative": true,
+      "created": "2022-03-24T09:11:58+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27070",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6588",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46625",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-03-22T11:38:57+01:00",
+  "date": "2022-03-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46625",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Erneuerung der Turmbergbahn - Beauftragung zur Einleitung des Planfeststellungsverfahrens",
+  "paperType": "Beschlussvorlage",
+  "reference": "2022/0334",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46709"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882999"
+  ]
+}

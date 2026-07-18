@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642484.pdf",
+      "created": "2022-11-11T09:07:24+01:00",
+      "date": "2022-11-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642484.pdf",
+      "fileName": "00642484.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642484",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP_2_Pilotprojekt_Hausbesuche",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642901.pdf",
+      "created": "2022-11-24T15:57:10+01:00",
+      "date": "2022-11-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642901.pdf",
+      "fileName": "00642901.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642901",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Hausbesuch",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/73946",
+      "created": "2022-11-11T09:21:09+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28549",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/8913",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34531"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47755",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-11-11T09:06:44+01:00",
+  "date": "2022-11-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47755",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Vorstellung des Pilotprojekts „Präventive Hausbesuche“ in Neureut",
+  "paperType": "Beschlussvorlage",
+  "reference": "2022/2284",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882960"
+  ]
+}

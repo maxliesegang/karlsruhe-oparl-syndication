@@ -1,0 +1,93 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34510",
+      "created": "2025-08-01T10:00:28+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95169",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10294",
+      "modified": "2025-09-17T12:17:55+02:00",
+      "name": "Fortschreibung 2025 des Rahmenkonzeptes für den Ausbau öffentlicher und öffentlich zugänglicher Ladeinfrastruktur der Stadt Karlsruhe",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34686",
+      "created": "2025-08-11T09:34:48+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95461",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10294",
+      "modified": "2025-09-17T12:17:55+02:00",
+      "name": "Anfrage der Grünen-OR-Fraktion vom 04.08.2025; hier: Neues Einbahnstraßenkonzept",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-08-18T10:50:14+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95505",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10294",
+      "modified": "2025-09-17T12:17:55+02:00",
+      "name": "Mitteilungen der Verwaltung",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-08-18T10:50:19+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95506",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10294",
+      "modified": "2025-09-17T12:17:55+02:00",
+      "name": "Verschiedenes",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671440.pdf",
+      "created": "2025-10-30T12:03:56+01:00",
+      "date": "2025-10-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671440.pdf",
+      "fileName": "00671440.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671440",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-30T12:03:56+01:00",
+      "name": "Niederschrift 10. ORatSitzung öffentlich 17.09.2025",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2024-11-28T13:29:06+01:00",
+  "end": "2025-09-17T00:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10294",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669610.pdf",
+    "created": "2025-08-22T10:47:32+02:00",
+    "date": "2025-08-22",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669610.pdf",
+    "fileName": "00669610.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669610",
+    "mimeType": "application/pdf",
+    "modified": "2025-09-17T12:09:24+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2024-11-28T13:29:06+01:00",
+    "description": "Sitzungssaal im Rathaus Stupferich",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10294",
+    "modified": "2025-09-17T12:09:24+02:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-09-17T12:09:24+02:00",
+  "name": "Ortschaftsrat Stupferich (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34764"
+  ],
+  "start": "2025-09-17T19:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

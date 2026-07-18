@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670012.pdf",
+      "created": "2025-09-09T09:55:02+02:00",
+      "date": "2025-09-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670012.pdf",
+      "fileName": "00670012.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670012",
+      "mimeType": "application/pdf",
+      "modified": "2025-09-26T10:35:21+02:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670156.pdf",
+      "created": "2025-09-16T08:55:51+02:00",
+      "date": "2025-09-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670156.pdf",
+      "fileName": "00670156.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670156",
+      "mimeType": "application/pdf",
+      "modified": "2025-09-26T10:35:21+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95699",
+      "created": "2025-08-25T09:47:36+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34730",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10115",
+      "modified": "2025-10-09T18:29:35+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54889"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52282",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-08-19T16:44:04+02:00",
+  "date": "2025-08-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52282",
+  "modified": "2025-09-26T10:35:21+02:00",
+  "name": "Kauf der PV-Anlage auf der Deponie West durch das TSK",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0793",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

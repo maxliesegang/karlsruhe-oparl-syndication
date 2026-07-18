@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677728.pdf",
+      "created": "2026-04-21T07:06:19+02:00",
+      "date": "2026-04-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677728.pdf",
+      "fileName": "00677728.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677728",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-11T07:15:37+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677746.pdf",
+      "created": "2026-04-21T11:11:00+02:00",
+      "date": "2026-04-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677746.pdf",
+      "fileName": "00677746.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677746",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-11T07:15:37+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101886",
+      "authoritative": true,
+      "created": "2026-05-26T14:29:29+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37264",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10540",
+      "modified": "2026-06-24T09:56:41+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54456",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-04-21T07:06:02+02:00",
+  "date": "2026-04-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54456",
+  "modified": "2026-06-11T07:15:36+02:00",
+  "name": "Neustrukturierung der Stadtbibliothek und Kinder- und  Jugendbibliothek in einem erweiterten Ständehaus - Grundsatzbeschluss",
+  "paperType": "Antrag",
+  "reference": "2026/0010/2",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54437"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882990"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00631160.pdf",
+      "created": "2021-11-03T13:05:13+01:00",
+      "date": "2021-11-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00631160.pdf",
+      "fileName": "00631160.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/631160",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "ORS_Antrag_FPD_Tempo30",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00631161.pdf",
+      "created": "2021-11-03T13:05:40+01:00",
+      "date": "2021-11-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00631161.pdf",
+      "fileName": "00631161.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/631161",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "ORS_Stellungnahme_Antrag_FDP_Tempo30",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/63538",
+      "created": "2021-11-04T08:50:47+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/24326",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6474",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/44032",
+      "role": "unbekannt",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-11-03T13:04:18+01:00",
+  "date": "2021-11-03",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/44032",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Tempo 30 im gesamten Stadtteil",
+  "paperType": "Antrag",
+  "reference": "2021/1325",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+  ]
+}

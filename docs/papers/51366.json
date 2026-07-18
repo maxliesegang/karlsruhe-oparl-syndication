@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663547.pdf",
+      "created": "2024-12-09T15:30:13+01:00",
+      "date": "2024-12-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663547.pdf",
+      "fileName": "00663547.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663547",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663548.pdf",
+      "created": "2024-12-09T15:31:31+01:00",
+      "date": "2024-12-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663548.pdf",
+      "fileName": "00663548.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663548",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91616",
+      "created": "2024-12-08T20:37:09+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33401",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9723",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51366",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-12-09T15:29:43+01:00",
+  "date": "2024-12-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51366",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Glasfaserausbau in Grötzingen",
+  "paperType": "Antrag",
+  "reference": "2024/1396",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

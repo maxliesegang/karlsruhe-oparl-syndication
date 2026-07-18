@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608941.pdf",
+      "created": "2019-04-05T14:47:03+02:00",
+      "date": "2019-04-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608941.pdf",
+      "fileName": "00608941.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608941",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609551.pdf",
+      "created": "2019-05-03T12:23:40+02:00",
+      "date": "2019-05-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609551.pdf",
+      "fileName": "00609551.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609551",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 47",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610079.pdf",
+      "created": "2019-06-05T10:58:27+02:00",
+      "date": "2019-06-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610079.pdf",
+      "fileName": "00610079.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610079",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Gemeinderat",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45632",
+      "authoritative": true,
+      "created": "2019-04-16T12:55:05+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16460",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5323",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37256",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-04-05T14:44:55+02:00",
+  "date": "2019-04-05",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37256",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Sachstandsbericht und Fortschreibung des Plätze- und Höfekonzepts für Karlsruhe unter klimatischen, sozialen und verkehrlichen Aspekten",
+  "paperType": "Antrag",
+  "reference": "2019/0347",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

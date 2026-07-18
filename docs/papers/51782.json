@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666368.pdf",
+      "created": "2025-04-11T09:24:04+02:00",
+      "date": "2025-04-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666368.pdf",
+      "fileName": "00666368.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666368",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-16T06:18:56+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93804",
+      "authoritative": true,
+      "created": "2025-05-07T09:30:38+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34027",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10106",
+      "modified": "2025-07-16T16:19:39+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51782",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-04-11T09:15:34+02:00",
+  "date": "2025-04-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51782",
+  "modified": "2025-06-16T06:18:56+02:00",
+  "name": "Umsetzung der KJSG-Reform in Karlsruhe",
+  "paperType": "Informationsvorlage",
+  "reference": "2024/1422/1",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

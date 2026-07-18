@@ -1,0 +1,84 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670142.pdf",
+      "created": "2025-09-15T14:18:53+02:00",
+      "date": "2025-09-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670142.pdf",
+      "fileName": "00670142.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670142",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:17:46+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671244.pdf",
+      "created": "2025-10-23T14:44:37+02:00",
+      "date": "2025-10-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671244.pdf",
+      "fileName": "00671244.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671244",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:17:46+01:00",
+      "name": "RDK9 Absichtserklärung/LoI",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00673939.pdf",
+      "created": "2025-11-26T13:45:08+01:00",
+      "date": "2025-11-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00673939.pdf",
+      "fileName": "00673939.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/673939",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:17:46+01:00",
+      "name": "Abstimmungsergebnis TOP 17",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675125.pdf",
+      "created": "2025-12-11T11:17:43+01:00",
+      "date": "2025-12-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675125.pdf",
+      "fileName": "00675125.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675125",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:17:46+01:00",
+      "name": "Protokoll GR 25.11.2025 TOP 17",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/97186",
+      "authoritative": true,
+      "created": "2025-10-27T13:42:04+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34998",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10058",
+      "modified": "2025-11-26T13:33:04+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52236",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-08-07T09:48:54+02:00",
+  "date": "2025-08-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52236",
+  "modified": "2025-12-11T11:17:46+01:00",
+  "name": "Planung und Absichtserklärung zum vorhabenbezogenen Bebauungsplanverfahren \"Rheinhafen-Dampfkraftwerk, Block 9, Fettweisstraße 60, Rheinhafen\" (VbB RDK9)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0750",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52608",
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52707"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

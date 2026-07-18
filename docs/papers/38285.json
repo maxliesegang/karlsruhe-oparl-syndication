@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614427.pdf",
+      "created": "2020-01-21T12:01:00+01:00",
+      "date": "2020-01-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614427.pdf",
+      "fileName": "00614427.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614427",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614843.pdf",
+      "created": "2020-02-11T10:16:24+01:00",
+      "date": "2020-02-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614843.pdf",
+      "fileName": "00614843.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614843",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 14",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/49564",
+      "authoritative": true,
+      "created": "2020-01-21T13:05:42+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17727",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5661",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38285",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-01-21T12:00:16+01:00",
+  "date": "2020-01-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38285",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Verkehrskonzept für Bernhardusplatz",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2020/0072",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

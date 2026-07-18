@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00613020.pdf",
+      "created": "2019-12-17T13:49:58+01:00",
+      "date": "2019-12-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00613020.pdf",
+      "fileName": "00613020.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/613020",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614332.pdf",
+      "created": "2020-01-15T08:49:20+01:00",
+      "date": "2020-01-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614332.pdf",
+      "fileName": "00614332.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614332",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 23 Energie- und Klimacheck Kläranlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614852.pdf",
+      "created": "2020-02-11T10:20:31+01:00",
+      "date": "2020-02-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614852.pdf",
+      "fileName": "00614852.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614852",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 23",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/48197",
+      "authoritative": true,
+      "created": "2019-12-19T17:29:39+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17587",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5661",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38171",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-12-17T13:49:17+01:00",
+  "date": "2019-12-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38171",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Energie- und Klimascheck Kläranlage Karlsruhe",
+  "paperType": "Antrag",
+  "reference": "2019/1308",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669779.pdf",
+      "created": "2025-08-29T11:49:35+02:00",
+      "date": "2025-08-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669779.pdf",
+      "fileName": "00669779.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669779",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-04T11:05:25+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671196.pdf",
+      "created": "2025-10-22T13:50:14+02:00",
+      "date": "2025-10-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671196.pdf",
+      "fileName": "00671196.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671196",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-04T11:05:25+01:00",
+      "name": "Abstimmungsergebnis TOP 16",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671556.pdf",
+      "created": "2025-11-04T11:05:22+01:00",
+      "date": "2025-11-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671556.pdf",
+      "fileName": "00671556.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671556",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-04T11:05:25+01:00",
+      "name": "Protokoll GR 21.10.2025 TOP 16",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96088",
+      "authoritative": true,
+      "created": "2025-09-03T14:24:29+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34771",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10109",
+      "modified": "2025-10-17T14:02:40+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52315",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96404",
+      "authoritative": true,
+      "created": "2025-09-23T12:57:42+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34772",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10054",
+      "modified": "2025-10-22T09:47:29+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52315",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-08-29T11:46:51+02:00",
+  "date": "2025-08-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52315",
+  "modified": "2025-11-04T11:05:25+01:00",
+  "name": "Erhöhung der Entgelte für die Verpflegung in den städtischen Kindertageseinrichtungen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0820",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00594448.pdf",
+      "created": "2016-11-10T09:42:34+01:00",
+      "date": "2016-11-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00594448.pdf",
+      "fileName": "00594448.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/594448",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1 Kita-Projektliste",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00594449.pdf",
+      "created": "2016-11-10T09:42:42+01:00",
+      "date": "2016-11-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00594449.pdf",
+      "fileName": "00594449.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/594449",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 2 Kita-Projektliste",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00594450.pdf",
+      "created": "2016-11-10T09:42:56+01:00",
+      "date": "2016-11-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00594450.pdf",
+      "fileName": "00594450.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/594450",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Weitere Kita-Projekte",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595484.pdf",
+      "created": "2017-01-04T09:47:11+01:00",
+      "date": "2017-01-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595484.pdf",
+      "fileName": "00595484.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595484",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 14",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/39521",
+      "authoritative": true,
+      "created": "2016-10-26T10:43:34+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/13744",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4157",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35122",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/39578",
+      "created": "2016-10-31T15:58:10+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/13743",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4307",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35122",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-26T09:55:49+02:00",
+  "date": "2016-10-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35122",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Aufnahme weiterer Kita-Projekte in die Bedarfsplanung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2016/0655",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

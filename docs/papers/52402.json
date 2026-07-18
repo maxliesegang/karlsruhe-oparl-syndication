@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670340.pdf",
+      "created": "2025-09-23T13:07:01+02:00",
+      "date": "2025-09-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670340.pdf",
+      "fileName": "00670340.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670340",
+      "mimeType": "application/pdf",
+      "modified": "2025-09-30T14:07:28+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670347.pdf",
+      "created": "2025-09-23T13:18:54+02:00",
+      "date": "2025-09-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670347.pdf",
+      "fileName": "00670347.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670347",
+      "mimeType": "application/pdf",
+      "modified": "2025-09-30T14:07:28+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96435",
+      "authoritative": true,
+      "created": "2025-09-23T16:04:20+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34901",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10052",
+      "modified": "2025-09-30T19:19:23+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52402",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-09-23T13:06:23+02:00",
+  "date": "2025-09-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52402",
+  "modified": "2025-10-10T13:11:18+02:00",
+  "name": "Pilotversuch zum Einsatz technischer Hilfsmittel bei der Überwachung von Ladezonen",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2025/0496/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51955"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00613006.pdf",
+      "created": "2019-12-16T14:01:08+01:00",
+      "date": "2019-12-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00613006.pdf",
+      "fileName": "00613006.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/613006",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614377.pdf",
+      "created": "2020-01-17T15:23:14+01:00",
+      "date": "2020-01-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614377.pdf",
+      "fileName": "00614377.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614377",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 34 Zeitablauf Stadion",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614863.pdf",
+      "created": "2020-02-11T10:27:35+01:00",
+      "date": "2020-02-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614863.pdf",
+      "fileName": "00614863.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614863",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 34",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/48172",
+      "authoritative": true,
+      "created": "2019-12-18T08:12:04+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17574",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5661",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38161",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-12-16T14:00:28+01:00",
+  "date": "2019-12-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38161",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Enger Zeitablauf bei Stadionneubau und Risiken",
+  "paperType": "Anfrage",
+  "reference": "2019/1299",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

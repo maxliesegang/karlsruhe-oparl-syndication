@@ -1,0 +1,104 @@
+{
+  "agendaItem": [
+    {
+      "created": "2024-09-19T18:38:37+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90183",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9810",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Kriminalstatistik Wolfartsweier",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33180",
+      "created": "2024-11-06T15:29:09+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91057",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9810",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Satzung der Stadt Karlsruhe über Gebühren für das Friedhofs- und Bestattungswesens (Friedhofsgebührensatzung)",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33313",
+      "created": "2024-11-20T16:03:25+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91376",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9810",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Unterhaltung und Pflege von Ehrengräbern sowie erhaltungswürdigen Grabstätten auf den Karlsruher Friedhöfen",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2024-11-21T09:44:03+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91388",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9810",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen der Verwaltung",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2024-11-21T09:44:15+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91389",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9810",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mündliche Anfragen",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664615.pdf",
+      "created": "2025-01-30T12:15:14+01:00",
+      "date": "2025-01-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664615.pdf",
+      "fileName": "00664615.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664615",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "ö Protokoll 11.12.2024",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2023-11-09T09:20:04+01:00",
+  "end": "2024-12-11T00:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9810",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663088.pdf",
+    "created": "2024-11-21T09:44:27+01:00",
+    "date": "2024-11-21",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663088.pdf",
+    "fileName": "00663088.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663088",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2023-11-09T09:20:04+01:00",
+    "description": "Begegnungsstätte Wolfartsweier, Rathausstr. 2a",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9810",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ortschaftsrat Wolfartsweier (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+  ],
+  "start": "2024-12-11T19:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

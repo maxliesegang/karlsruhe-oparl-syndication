@@ -1,0 +1,72 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34109",
+      "created": "2025-06-04T09:16:36+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94182",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10076",
+      "modified": "2025-07-30T11:39:57+02:00",
+      "name": "Bebauungsplanverfahren in Karlsruhe",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "verwiesen in den Gemeinderat",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34403",
+      "created": "2025-06-11T11:31:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94338",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10076",
+      "modified": "2025-07-30T11:38:44+02:00",
+      "name": "Carsharing fördern: Angebotsausbau ermöglichen durch mehr Stellplätze im öffentlichen Raum",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "erledigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34328",
+      "created": "2025-06-03T09:34:49+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94147",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10076",
+      "modified": "2025-07-30T11:39:05+02:00",
+      "name": "Entsiegelungskonzept Innenstadt",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2024-10-17T11:46:52+02:00",
+  "end": "2025-07-24T18:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10076",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668681.pdf",
+    "created": "2025-07-09T08:38:33+02:00",
+    "date": "2025-07-09",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668681.pdf",
+    "fileName": "00668681.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668681",
+    "mimeType": "application/pdf",
+    "modified": "2025-07-14T15:19:43+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2024-10-17T11:46:52+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10076",
+    "modified": "2025-09-01T13:40:14+02:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-09-01T13:40:14+02:00",
+  "name": "Planungsausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+  ],
+  "start": "2025-07-24T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

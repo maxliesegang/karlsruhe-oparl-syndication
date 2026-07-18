@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646943.pdf",
+      "created": "2023-04-28T12:48:05+02:00",
+      "date": "2023-04-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646943.pdf",
+      "fileName": "00646943.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646943",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647580.pdf",
+      "created": "2023-05-25T08:56:28+02:00",
+      "date": "2023-05-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647580.pdf",
+      "fileName": "00647580.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647580",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 3_1 HA_09.05.2023",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/77139",
+      "authoritative": true,
+      "created": "2023-05-03T10:37:48+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29567",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9061",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48546",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-04-28T12:33:36+02:00",
+  "date": "2023-04-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48546",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Annahme des Angebots von Zuwendungen auf dem Spendenkonto \"Karlsruhe hilft\" für die Ukraine Flüchtlingshilfe und für die Erdbebenopfer in der Türkei und Syrien",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0477",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

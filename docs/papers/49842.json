@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654971.pdf",
+      "created": "2023-12-20T12:10:06+01:00",
+      "date": "2023-12-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654971.pdf",
+      "fileName": "00654971.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654971",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655306.pdf",
+      "created": "2024-01-15T12:14:14+01:00",
+      "date": "2024-01-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655306.pdf",
+      "fileName": "00655306.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655306",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656719.pdf",
+      "created": "2024-03-13T11:29:37+01:00",
+      "date": "2024-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656719.pdf",
+      "fileName": "00656719.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656719",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 20.02.2024 TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84511",
+      "authoritative": true,
+      "created": "2024-01-23T12:57:50+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31247",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9523",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49842",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-12-20T12:09:41+01:00",
+  "date": "2023-12-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49842",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Gesellschaftliche Mehrwerte gemeinschaftlicher Wohnprojekte und aktueller Stand in Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2023/1419",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

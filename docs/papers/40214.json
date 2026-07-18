@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619281.pdf",
+      "created": "2020-09-01T12:56:38+02:00",
+      "date": "2020-09-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619281.pdf",
+      "fileName": "00619281.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619281",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619751.pdf",
+      "created": "2020-09-25T11:37:09+02:00",
+      "date": "2020-09-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619751.pdf",
+      "fileName": "00619751.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619751",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 40",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620455.pdf",
+      "created": "2020-10-29T08:50:34+01:00",
+      "date": "2020-10-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620455.pdf",
+      "fileName": "00620455.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620455",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 40",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54234",
+      "authoritative": true,
+      "created": "2020-09-02T11:17:38+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19936",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5670",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40214",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-09-01T12:55:18+02:00",
+  "date": "2020-09-01",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40214",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Sachstand beschlossener, noch nicht ausgeführter Radwegprojekte",
+  "paperType": "Anfrage",
+  "reference": "2020/1004",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

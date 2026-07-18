@@ -1,0 +1,93 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678162.pdf",
+      "created": "2026-05-05T12:30:12+02:00",
+      "date": "2026-05-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678162.pdf",
+      "fileName": "00678162.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678162",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T14:51:48+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679383.pdf",
+      "created": "2026-06-25T14:39:37+02:00",
+      "date": "2026-06-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679383.pdf",
+      "fileName": "00679383.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679383",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T14:51:48+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679631.pdf",
+      "created": "2026-07-07T14:51:44+02:00",
+      "date": "2026-07-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679631.pdf",
+      "fileName": "00679631.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679631",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T14:51:48+02:00",
+      "name": "Protokoll GR 23.06.2026 TOP 25",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2026-07-15T07:49:27+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37688",
+      "modified": "2026-07-15T07:49:27+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54527",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101912",
+      "authoritative": true,
+      "created": "2026-05-26T14:29:29+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37374",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10540",
+      "modified": "2026-06-24T10:16:00+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54527",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102183",
+      "authoritative": true,
+      "created": "2026-06-16T10:24:54+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37443",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10557",
+      "modified": "2026-07-15T07:35:45+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54527",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-05-05T12:29:39+02:00",
+  "date": "2026-05-05",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54527",
+  "modified": "2026-07-07T14:51:48+02:00",
+  "name": "Bürokratieabbau vorantreiben",
+  "paperType": "Antrag",
+  "reference": "2026/0362",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882975"
+  ]
+}

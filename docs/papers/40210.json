@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619277.pdf",
+      "created": "2020-09-01T10:25:40+02:00",
+      "date": "2020-09-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619277.pdf",
+      "fileName": "00619277.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619277",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619610.pdf",
+      "created": "2020-09-17T14:02:17+02:00",
+      "date": "2020-09-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619610.pdf",
+      "fileName": "00619610.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619610",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme CDU Phoenix",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619808.pdf",
+      "created": "2020-09-29T15:06:25+02:00",
+      "date": "2020-09-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619808.pdf",
+      "fileName": "00619808.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619808",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Tischvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620474.pdf",
+      "created": "2020-10-29T09:20:55+01:00",
+      "date": "2020-10-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620474.pdf",
+      "fileName": "00620474.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620474",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 17",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54166",
+      "authoritative": true,
+      "created": "2020-09-01T11:04:41+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19930",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5670",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40210",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-09-01T10:24:32+02:00",
+  "date": "2020-09-01",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40210",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Wiederaufstellung des Kunstwerks \"Phönix über Europa\" von Walter Maria Förderer auf dem Europaplatz",
+  "paperType": "Antrag",
+  "reference": "2020/1000",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

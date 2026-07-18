@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614759.pdf",
+      "created": "2020-02-07T09:26:02+01:00",
+      "date": "2020-02-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614759.pdf",
+      "fileName": "00614759.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614759",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615603.pdf",
+      "created": "2020-03-16T10:39:55+01:00",
+      "date": "2020-03-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615603.pdf",
+      "fileName": "00615603.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615603",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 48",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00616868.pdf",
+      "created": "2020-03-30T10:04:59+02:00",
+      "date": "2020-03-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00616868.pdf",
+      "fileName": "00616868.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/616868",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 48",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/50027",
+      "created": "2020-02-24T10:49:36+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17837",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5663",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38371",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-02-07T09:25:46+01:00",
+  "date": "2020-02-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38371",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Fußgänger- und Schulbrücke Grötzingen",
+  "paperType": "Anfrage",
+  "reference": "2020/0158",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00637200.pdf",
+      "created": "2022-04-19T14:31:47+02:00",
+      "date": "2022-04-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00637200.pdf",
+      "fileName": "00637200.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/637200",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Darlehensvertrag KSC",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00637970.pdf",
+      "created": "2022-05-23T10:59:21+02:00",
+      "date": "2022-05-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00637970.pdf",
+      "fileName": "00637970.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/637970",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 26.04.2022 TOP 18.1 und 18.2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/69552",
+      "authoritative": true,
+      "created": "2022-04-13T09:28:15+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26998",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6588",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46573",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-03-14T10:59:51+01:00",
+  "date": "2022-03-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46573",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Darlehensvertrag mit der KSC BG Stadion mbH",
+  "paperType": "Beschlussvorlage",
+  "reference": "2022/0282",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664179.pdf",
+      "created": "2025-01-14T12:20:13+01:00",
+      "date": "2025-01-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664179.pdf",
+      "fileName": "00664179.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664179",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-02T06:35:42+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665511.pdf",
+      "created": "2025-03-11T08:38:26+01:00",
+      "date": "2025-03-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665511.pdf",
+      "fileName": "00665511.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665511",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-02T06:35:42+02:00",
+      "name": "Protokoll GR 18.02.2025 TOP 13",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667186.pdf",
+      "created": "2025-05-15T12:45:04+02:00",
+      "date": "2025-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667186.pdf",
+      "fileName": "00667186.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667186",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-02T06:35:42+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92225",
+      "authoritative": true,
+      "created": "2025-02-04T09:34:59+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33523",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10045",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51448",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94636",
+      "created": "2025-06-17T14:19:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33524",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10107",
+      "modified": "2025-07-16T16:37:37+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33195"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51448",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-01-14T12:09:18+01:00",
+  "date": "2025-01-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51448",
+  "modified": "2025-07-02T06:35:42+02:00",
+  "name": "Umsetzung Nationaler Aktionsplan gegen Wohnungslosigkeit 2024 auf kommunaler Ebene - Wohnungs- und Obdachlosigkeit in Karlsruhe vermeiden",
+  "paperType": "Antrag",
+  "reference": "2025/0032",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

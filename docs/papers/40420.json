@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620276.pdf",
+      "created": "2020-10-20T10:29:12+02:00",
+      "date": "2020-10-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620276.pdf",
+      "fileName": "00620276.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620276",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620291.pdf",
+      "created": "2020-10-20T13:48:05+02:00",
+      "date": "2020-10-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620291.pdf",
+      "fileName": "00620291.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620291",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN Ä-Antrag AfD Geschäftsordnung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620302.pdf",
+      "created": "2020-10-21T09:02:38+02:00",
+      "date": "2020-10-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620302.pdf",
+      "fileName": "00620302.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620302",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis GR TOP 3 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54938",
+      "authoritative": true,
+      "created": "2020-10-20T12:01:23+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20217",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5671",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40420",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-10-20T10:28:30+02:00",
+  "date": "2020-10-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40420",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Neufassung der Geschäftsordnung des Gemeinderates",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2020/1209",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882850"
+  ]
+}

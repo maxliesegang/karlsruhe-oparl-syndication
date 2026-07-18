@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00633959.pdf",
+      "created": "2021-11-24T14:48:44+01:00",
+      "date": "2021-11-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00633959.pdf",
+      "fileName": "00633959.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/633959",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/67039",
+      "authoritative": true,
+      "created": "2021-11-30T08:55:35+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/24273",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6337",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/43992",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-10-26T11:56:08+02:00",
+  "date": "2021-10-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/43992",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Europahalle Karlsruhe, Sanierung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/1286",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

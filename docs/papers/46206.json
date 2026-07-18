@@ -1,0 +1,98 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634926.pdf",
+      "created": "2021-12-29T15:26:30+01:00",
+      "date": "2021-12-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634926.pdf",
+      "fileName": "00634926.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634926",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Abschlussbericht Genderstern",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635338.pdf",
+      "created": "2022-01-18T10:48:50+01:00",
+      "date": "2022-01-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635338.pdf",
+      "fileName": "00635338.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635338",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 3 HA_11_01_2022",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635362.pdf",
+      "created": "2022-01-19T09:28:00+01:00",
+      "date": "2022-01-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635362.pdf",
+      "fileName": "00635362.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635362",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage Genderstern",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635776.pdf",
+      "created": "2022-02-08T14:40:33+01:00",
+      "date": "2022-02-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635776.pdf",
+      "fileName": "00635776.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635776",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 25.01.2022 TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/67253",
+      "authoritative": true,
+      "created": "2021-12-16T13:55:34+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26558",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6579",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46206",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/67567",
+      "authoritative": true,
+      "created": "2022-01-12T08:23:15+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26676",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6580",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46206",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-12-09T07:49:25+01:00",
+  "date": "2021-12-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46206",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Abschlussbericht des Projekts \"Genderstern - Umsetzung geschlechtergerechter Sprache bei der Stadt Karlsruhe\"",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/1506",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46341",
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46344"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882951"
+  ]
+}

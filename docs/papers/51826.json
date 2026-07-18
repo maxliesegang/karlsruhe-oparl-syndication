@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666572.pdf",
+      "created": "2025-04-22T14:53:40+02:00",
+      "date": "2025-04-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666572.pdf",
+      "fileName": "00666572.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666572",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-25T08:33:58+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668324.pdf",
+      "created": "2025-06-24T14:39:14+02:00",
+      "date": "2025-06-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668324.pdf",
+      "fileName": "00668324.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668324",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-25T08:33:58+02:00",
+      "name": "Anlage Abschlussbericht",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94057",
+      "authoritative": true,
+      "created": "2025-05-27T09:35:35+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34094",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10262",
+      "modified": "2025-07-22T12:55:22+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51826",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-04-22T14:49:25+02:00",
+  "date": "2025-04-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51826",
+  "modified": "2025-06-25T12:05:12+02:00",
+  "name": "IT-moderne Schule - Abschlussbericht",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/0377",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

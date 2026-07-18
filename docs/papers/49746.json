@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654316.pdf",
+      "created": "2023-12-04T15:14:23+01:00",
+      "date": "2023-12-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654316.pdf",
+      "fileName": "00654316.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654316",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655510.pdf",
+      "created": "2024-01-23T18:30:41+01:00",
+      "date": "2024-01-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655510.pdf",
+      "fileName": "00655510.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655510",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655923.pdf",
+      "created": "2024-02-08T13:22:08+01:00",
+      "date": "2024-02-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655923.pdf",
+      "fileName": "00655923.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655923",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83795",
+      "authoritative": true,
+      "created": "2023-12-11T11:15:27+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31110",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9522",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49746",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-11-24T13:26:20+01:00",
+  "date": "2023-11-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49746",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Verschiedene Liegenschaften im Bereich der Stadt Karlsruhe (6 Lose)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/1342",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

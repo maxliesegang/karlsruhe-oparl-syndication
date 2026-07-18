@@ -1,0 +1,94 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647915.pdf",
+      "created": "2023-06-05T18:17:18+02:00",
+      "date": "2023-06-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647915.pdf",
+      "fileName": "00647915.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647915",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648187.pdf",
+      "created": "2023-06-16T11:47:12+02:00",
+      "date": "2023-06-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648187.pdf",
+      "fileName": "00648187.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648187",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649087.pdf",
+      "created": "2023-07-18T19:56:39+02:00",
+      "date": "2023-07-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649087.pdf",
+      "fileName": "00649087.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649087",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649495.pdf",
+      "created": "2023-08-03T12:11:31+02:00",
+      "date": "2023-08-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649495.pdf",
+      "fileName": "00649495.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649495",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78061",
+      "authoritative": true,
+      "created": "2023-05-30T13:35:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29771",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9093",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33195"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48707",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78354",
+      "authoritative": true,
+      "created": "2023-06-20T11:19:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29772",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9047",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48707",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-05-30T13:26:30+02:00",
+  "date": "2023-05-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48707",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Projekt Luise - Konzept Mobile medizinische Versorgung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0628",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648673.pdf",
+      "created": "2023-07-03T10:56:54+02:00",
+      "date": "2023-07-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648673.pdf",
+      "fileName": "00648673.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648673",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649100.pdf",
+      "created": "2023-07-18T21:52:51+02:00",
+      "date": "2023-07-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649100.pdf",
+      "fileName": "00649100.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649100",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649511.pdf",
+      "created": "2023-08-03T12:17:30+02:00",
+      "date": "2023-08-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649511.pdf",
+      "fileName": "00649511.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649511",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78574",
+      "authoritative": true,
+      "created": "2023-06-28T10:21:29+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29916",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9047",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48812",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-06-22T13:50:50+02:00",
+  "date": "2023-06-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48812",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Leopoldschule, Modernisierung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0727",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

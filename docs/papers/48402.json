@@ -1,0 +1,95 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646122.pdf",
+      "created": "2023-03-28T15:00:52+02:00",
+      "date": "2023-03-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646122.pdf",
+      "fileName": "00646122.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646122",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647455.pdf",
+      "created": "2023-05-22T11:50:41+02:00",
+      "date": "2023-05-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647455.pdf",
+      "fileName": "00647455.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647455",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 24",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647604.pdf",
+      "created": "2023-05-25T11:55:44+02:00",
+      "date": "2023-05-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647604.pdf",
+      "fileName": "00647604.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647604",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/76573",
+      "authoritative": true,
+      "created": "2023-03-28T15:32:31+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29373",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9044",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48402",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/77515",
+      "created": "2023-05-11T12:36:39+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29414",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9131",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48402",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/79945",
+      "authoritative": true,
+      "created": "2023-08-22T09:36:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30004",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9049",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48402",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-03-28T15:00:02+02:00",
+  "date": "2023-03-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48402",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Karlsruher Masterplan zur Wärmewende",
+  "paperType": "Antrag",
+  "reference": "2023/0345",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882975"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676474.pdf",
+      "created": "2026-02-09T11:12:39+01:00",
+      "date": "2026-02-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676474.pdf",
+      "fileName": "00676474.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676474",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-03T07:32:46+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676475.pdf",
+      "created": "2026-02-09T11:13:13+01:00",
+      "date": "2026-02-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676475.pdf",
+      "fileName": "00676475.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676475",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-03T07:32:46+02:00",
+      "name": "Anlage 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678519.pdf",
+      "created": "2026-05-20T08:41:06+02:00",
+      "date": "2026-05-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678519.pdf",
+      "fileName": "00678519.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678519",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-03T07:32:46+02:00",
+      "name": "Abstimmungsergebnis TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678825.pdf",
+      "created": "2026-06-03T07:32:37+02:00",
+      "date": "2026-06-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678825.pdf",
+      "fileName": "00678825.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678825",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-03T07:32:46+02:00",
+      "name": "Protokoll GR 19.05.2026 TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101360",
+      "authoritative": true,
+      "created": "2026-04-21T12:49:27+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36987",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10526",
+      "modified": "2026-05-20T08:07:34+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54252",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-02-09T10:59:09+01:00",
+  "date": "2026-02-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54252",
+  "modified": "2026-06-03T07:32:46+02:00",
+  "name": "Abschluss einer Belegungsvereinbarung zur Unterbringung von obdachlosen Menschen – Vertragsverlängerung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0115",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

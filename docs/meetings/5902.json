@@ -1,0 +1,105 @@
+{
+  "agendaItem": [
+    {
+      "created": "2020-11-30T15:47:29+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/55627",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5902",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Satzung zur Änderung der Hauptsatzung der Stadt Karlsruhe;",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2020-11-30T16:02:14+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/55628",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5902",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Satzung der Stadt Karlsruhefür das Friedhofs- und Bestattungswesen (Friedhofsgebührensatzung);",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2020-11-30T16:02:27+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/55629",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5902",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen der Ortsverwaltung",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2020-11-30T16:02:48+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/55631",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5902",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verschiedenes",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00622123.pdf",
+      "created": "2020-11-30T15:45:52+01:00",
+      "date": "2020-11-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00622123.pdf",
+      "fileName": "00622123.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/622123",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 1, Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00622124.pdf",
+      "created": "2020-11-30T15:46:08+01:00",
+      "date": "2020-11-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00622124.pdf",
+      "fileName": "00622124.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/622124",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 2_Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00622562.pdf",
+      "created": "2021-01-04T09:46:14+01:00",
+      "date": "2021-01-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00622562.pdf",
+      "fileName": "00622562.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/622562",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll 13. ORatSitzung öffentlich 11.12.20",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2019-10-15T16:05:40+02:00",
+  "end": "2020-12-11T21:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5902",
+  "location": {
+    "created": "2019-10-15T16:05:40+02:00",
+    "description": "Rathaus Stupferich, Sitzungssaal",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5902",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ortschaftsrat Stupferich (nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34764"
+  ],
+  "start": "2020-12-11T18:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

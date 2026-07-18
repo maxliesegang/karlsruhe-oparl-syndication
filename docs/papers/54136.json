@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675828.pdf",
+      "created": "2026-01-19T14:43:49+01:00",
+      "date": "2026-01-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675828.pdf",
+      "fileName": "00675828.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675828",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-29T10:43:01+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100040",
+      "authoritative": true,
+      "created": "2026-01-13T09:40:33+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36820",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10472",
+      "modified": "2026-02-11T10:08:14+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54136",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-01-12T15:14:47+01:00",
+  "date": "2026-01-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54136",
+  "modified": "2026-02-02T17:25:53+01:00",
+  "name": "Aktualisierung des Einsatzleitsystems der Integrierten Leitstelle Karlsruhe - Beauftragung eines Fachplaners/einer Fachplanerin",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0009",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882976"
+  ]
+}

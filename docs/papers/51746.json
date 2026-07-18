@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666086.pdf",
+      "created": "2025-04-01T11:35:56+02:00",
+      "date": "2025-04-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666086.pdf",
+      "fileName": "00666086.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666086",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-27T10:01:29+02:00",
+      "name": "Informationsvorlage Wettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93086",
+      "authoritative": true,
+      "created": "2025-04-01T11:35:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33960",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10209",
+      "modified": "2025-05-07T13:14:07+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51746",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-04-01T11:35:05+02:00",
+  "date": "2025-04-01",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51746",
+  "modified": "2025-04-27T10:01:29+02:00",
+  "name": "Änderung der Herausgeberschaft des Mitteilungsblattes \"Wettersbacher Anzeiger\"",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/0310",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882961"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666631.pdf",
+      "created": "2025-04-24T13:25:41+02:00",
+      "date": "2025-04-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666631.pdf",
+      "fileName": "00666631.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666631",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-14T10:57:47+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666632.pdf",
+      "created": "2025-04-24T13:26:10+02:00",
+      "date": "2025-04-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666632.pdf",
+      "fileName": "00666632.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666632",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-14T10:57:47+02:00",
+      "name": "Anlage zur Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668345.pdf",
+      "created": "2025-06-25T07:52:22+02:00",
+      "date": "2025-06-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668345.pdf",
+      "fileName": "00668345.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668345",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-14T10:57:47+02:00",
+      "name": "Abstimmungsergebnis Top 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668786.pdf",
+      "created": "2025-07-14T10:57:44+02:00",
+      "date": "2025-07-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668786.pdf",
+      "fileName": "00668786.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668786",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-14T10:57:47+02:00",
+      "name": "Protokoll GR 24.06.2025 TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94016",
+      "authoritative": true,
+      "created": "2025-05-27T09:11:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34040",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10049",
+      "modified": "2025-06-25T08:01:06+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51788",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-04-14T16:54:44+02:00",
+  "date": "2025-04-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51788",
+  "modified": "2025-07-14T10:57:47+02:00",
+  "name": "Betrauung der Karlsruher Messe- und Kongress GmbH",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0345",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27506",
+      "created": "2022-06-09T08:14:13+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70406",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6659",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Licht nach Bedarf",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2022-04-27T09:26:56+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/69671",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6659",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verschiedenes",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27316",
+      "created": "2022-06-09T08:06:05+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70402",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6659",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Nachhaltigen Holzeinschlag im Stadtwald dauerhaft sicherstellen",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27431",
+      "created": "2022-06-09T08:06:05+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70403",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6659",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Einzäunung Hundeauslaufflächen - Prüfergebnis und weiteres Vorgehen",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27499",
+      "created": "2022-06-09T08:06:05+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70405",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6659",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Hundeauslauffläche in die Günther-Klotz-Anlage verlagern",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2022-06-09T08:15:31+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70407",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6659",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verschiedenes",
+      "number": "6",
+      "order": 6,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638250.pdf",
+      "created": "2022-06-09T14:01:29+02:00",
+      "date": "2022-06-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638250.pdf",
+      "fileName": "00638250.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638250",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Tagesordnung_öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2021-09-30T13:06:34+02:00",
+  "end": "2022-06-23T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6659",
+  "location": {
+    "created": "2021-09-30T13:06:34+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6659",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ausschuss für öffentliche Einrichtungen (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+  ],
+  "start": "2022-06-23T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

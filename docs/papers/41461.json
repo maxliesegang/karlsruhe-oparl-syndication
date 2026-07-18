@@ -1,0 +1,69 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00627016.pdf",
+      "created": "2021-07-14T10:22:58+02:00",
+      "date": "2021-07-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00627016.pdf",
+      "fileName": "00627016.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/627016",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Kolonialgeschichte",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00627607.pdf",
+      "created": "2021-08-20T07:35:53+02:00",
+      "date": "2021-08-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00627607.pdf",
+      "fileName": "00627607.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/627607",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/59440",
+      "authoritative": true,
+      "created": "2021-06-29T10:37:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21582",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6263",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41461",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/59693",
+      "created": "2021-07-09T10:50:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21581",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6258",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/29599"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41461",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-06-24T09:00:55+02:00",
+  "date": "2021-06-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41461",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Die koloniale Geschichte Karlsruhes aufarbeiten",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/0794",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882963"
+  ]
+}

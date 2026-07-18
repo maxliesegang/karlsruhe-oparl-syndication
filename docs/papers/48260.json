@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00645296.pdf",
+      "created": "2023-02-27T08:41:40+01:00",
+      "date": "2023-02-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00645296.pdf",
+      "fileName": "00645296.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/645296",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646546.pdf",
+      "created": "2023-04-13T12:46:53+02:00",
+      "date": "2023-04-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646546.pdf",
+      "fileName": "00646546.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646546",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 20",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/76205",
+      "authoritative": true,
+      "created": "2023-03-01T11:36:01+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29188",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9043",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48260",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-02-27T08:41:15+01:00",
+  "date": "2023-02-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48260",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Mindestens zwei Kandidaten bei der Besetzung von Stellen im Personalausschuss und im Gemeinderat",
+  "paperType": "Antrag",
+  "reference": "2023/0225",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882953"
+  ]
+}

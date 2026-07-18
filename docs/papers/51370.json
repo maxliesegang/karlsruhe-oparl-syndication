@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663572.pdf",
+      "created": "2024-12-10T14:47:12+01:00",
+      "date": "2024-12-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663572.pdf",
+      "fileName": "00663572.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663572",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664201.pdf",
+      "created": "2025-01-14T16:29:38+01:00",
+      "date": "2025-01-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664201.pdf",
+      "fileName": "00664201.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664201",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664485.pdf",
+      "created": "2025-01-27T08:44:38+01:00",
+      "date": "2025-01-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664485.pdf",
+      "fileName": "00664485.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664485",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 21.01.2025 TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91712",
+      "authoritative": true,
+      "created": "2024-12-13T11:56:44+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33405",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10044",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51370",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-12-10T14:44:26+01:00",
+  "date": "2024-12-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51370",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Aktueller Planungsstand Glasfaseranschluss der Wohn- und Geschäftsgebäude in den Karlsruher Stadtteilen",
+  "paperType": "Anfrage",
+  "reference": "2024/1400",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882973"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668740.pdf",
+      "created": "2025-07-10T16:30:49+02:00",
+      "date": "2025-07-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668740.pdf",
+      "fileName": "00668740.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668740",
+      "mimeType": "application/pdf",
+      "modified": "2025-09-05T15:05:54+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668742.pdf",
+      "created": "2025-07-10T16:33:49+02:00",
+      "date": "2025-07-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668742.pdf",
+      "fileName": "00668742.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668742",
+      "mimeType": "application/pdf",
+      "modified": "2025-09-05T15:05:54+02:00",
+      "name": "Anlage 1 - Verkehrszählung KFZ",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668743.pdf",
+      "created": "2025-07-10T16:33:59+02:00",
+      "date": "2025-07-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668743.pdf",
+      "fileName": "00668743.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668743",
+      "mimeType": "application/pdf",
+      "modified": "2025-09-05T15:05:54+02:00",
+      "name": "Anlage 2 - Verkehrszählung Rad",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94977",
+      "authoritative": true,
+      "created": "2025-07-10T16:56:51+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34559",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10029",
+      "modified": "2025-09-25T10:15:23+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52160",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-07-10T16:30:07+02:00",
+  "date": "2025-07-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52160",
+  "modified": "2025-09-29T08:07:24+02:00",
+  "name": "Radverkehr Alte Weingartener Straße - hier: Anbringung von Glasaugen in der Unterführung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0684",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

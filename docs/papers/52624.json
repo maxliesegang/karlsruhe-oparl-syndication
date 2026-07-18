@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671888.pdf",
+      "created": "2025-11-14T15:23:40+01:00",
+      "date": "2025-11-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671888.pdf",
+      "fileName": "00671888.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671888",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-08T15:34:44+01:00",
+      "name": "Anfrage Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671917.pdf",
+      "created": "2025-11-17T11:24:44+01:00",
+      "date": "2025-11-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671917.pdf",
+      "fileName": "00671917.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671917",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-08T15:34:44+01:00",
+      "name": "Stellungnahme Anfrage Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/98999",
+      "created": "2025-11-14T15:02:59+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35245",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9903",
+      "modified": "2025-12-02T09:59:22+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52624",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-14T15:04:07+01:00",
+  "date": "2025-11-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52624",
+  "modified": "2025-12-08T15:34:44+01:00",
+  "name": "Sauberkeit im Stadtbild sichern, Hundekotbeutelausgabe erhalten (Anfrage von Ortschaftsrat Breier)",
+  "paperType": "Anfrage",
+  "reference": "2025/1090",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

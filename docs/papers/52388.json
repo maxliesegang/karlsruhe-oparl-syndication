@@ -1,0 +1,83 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670288.pdf",
+      "created": "2025-09-22T13:34:27+02:00",
+      "date": "2025-09-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670288.pdf",
+      "fileName": "00670288.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670288",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-04T11:01:54+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670289.pdf",
+      "created": "2025-09-22T13:37:52+02:00",
+      "date": "2025-09-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670289.pdf",
+      "fileName": "00670289.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670289",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-04T11:01:54+01:00",
+      "name": "Änderung_Vergnügungsteuersatzung_2025",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671184.pdf",
+      "created": "2025-10-22T13:44:46+02:00",
+      "date": "2025-10-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671184.pdf",
+      "fileName": "00671184.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671184",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-04T11:01:54+01:00",
+      "name": "Abstimmungsergebnis TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671548.pdf",
+      "created": "2025-11-04T11:01:48+01:00",
+      "date": "2025-11-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671548.pdf",
+      "fileName": "00671548.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671548",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-04T11:01:54+01:00",
+      "name": "Protokoll GR 21.10.2025 TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96413",
+      "authoritative": true,
+      "created": "2025-09-23T12:57:42+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34888",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10054",
+      "modified": "2025-10-22T09:31:33+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52388",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-09-22T13:11:17+02:00",
+  "date": "2025-09-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52388",
+  "modified": "2025-11-04T11:01:54+01:00",
+  "name": "Satzung zur Änderung der Satzung der Stadt Karlsruhe über die Erhebung einer Vergnügungsteuer (Vergnügungsteuersatzung)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0892",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52518"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

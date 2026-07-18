@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608308.pdf",
+      "created": "2019-03-12T14:35:14+01:00",
+      "date": "2019-03-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608308.pdf",
+      "fileName": "00608308.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608308",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608406.pdf",
+      "created": "2019-03-15T11:48:43+01:00",
+      "date": "2019-03-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608406.pdf",
+      "fileName": "00608406.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608406",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 39",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609383.pdf",
+      "created": "2019-04-30T07:13:06+02:00",
+      "date": "2019-04-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609383.pdf",
+      "fileName": "00609383.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609383",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 39",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45209",
+      "authoritative": true,
+      "created": "2019-03-08T16:12:59+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16259",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5294",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37089",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-02-27T12:40:38+01:00",
+  "date": "2019-02-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37089",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Service Jugend- und Sozialbehörde verbessern",
+  "paperType": "Antrag",
+  "reference": "2019/0177",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

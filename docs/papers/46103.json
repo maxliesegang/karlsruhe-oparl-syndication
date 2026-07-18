@@ -1,0 +1,97 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00633394.pdf",
+      "created": "2021-11-18T08:28:07+01:00",
+      "date": "2021-11-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00633394.pdf",
+      "fileName": "00633394.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/633394",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634890.pdf",
+      "created": "2021-12-23T11:30:18+01:00",
+      "date": "2021-12-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634890.pdf",
+      "fileName": "00634890.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634890",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag CDU",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635061.pdf",
+      "created": "2022-01-05T13:56:59+01:00",
+      "date": "2022-01-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635061.pdf",
+      "fileName": "00635061.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635061",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 14.12.2021 TOP 33",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635422.pdf",
+      "created": "2022-01-21T13:37:41+01:00",
+      "date": "2022-01-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635422.pdf",
+      "fileName": "00635422.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635422",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Sitzungseröffnung und TOP 1 HA_11_01_2022",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/65988",
+      "authoritative": true,
+      "created": "2021-11-26T09:10:37+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26415",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6346",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46103",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/67108",
+      "authoritative": true,
+      "created": "2021-12-07T07:07:22+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26449",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6579",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46103",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-11-18T08:27:44+01:00",
+  "date": "2021-11-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46103",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Interaktives Tool zur unkomplizierten Meldung falsch abgestellter E-Scooter",
+  "paperType": "Antrag",
+  "reference": "2021/1407",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46184"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615587.pdf",
+      "created": "2020-03-13T18:54:00+01:00",
+      "date": "2020-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615587.pdf",
+      "fileName": "00615587.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615587",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Sachstandsbericht Kombilösung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617551.pdf",
+      "created": "2020-05-08T08:08:55+02:00",
+      "date": "2020-05-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617551.pdf",
+      "fileName": "00617551.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617551",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GemRat TOP 5",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/51488",
+      "authoritative": true,
+      "created": "2020-03-30T08:20:12+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/18001",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5664",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38490",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-03-02T14:35:02+01:00",
+  "date": "2020-03-02",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38490",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Sachstandsbericht Kombilösung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2020/0277",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882987"
+  ]
+}

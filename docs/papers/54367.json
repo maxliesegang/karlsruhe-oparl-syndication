@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677144.pdf",
+      "created": "2026-03-19T09:43:09+01:00",
+      "date": "2026-03-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677144.pdf",
+      "fileName": "00677144.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677144",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-23T14:23:11+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677158.pdf",
+      "created": "2026-03-19T11:37:08+01:00",
+      "date": "2026-03-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677158.pdf",
+      "fileName": "00677158.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677158",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-23T14:23:11+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100863",
+      "authoritative": true,
+      "created": "2026-03-19T10:48:23+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37137",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10497",
+      "modified": "2026-03-24T18:39:51+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54367",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-03-19T09:42:51+01:00",
+  "date": "2026-03-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54367",
+  "modified": "2026-04-07T11:41:52+02:00",
+  "name": "Haushaltswirtschaftliche Sperre 2026, Umsetzung",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2026/0203/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54344"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

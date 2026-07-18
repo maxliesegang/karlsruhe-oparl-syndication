@@ -1,0 +1,93 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00597049.pdf",
+      "created": "2017-04-18T08:21:46+02:00",
+      "date": "2017-04-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00597049.pdf",
+      "fileName": "00597049.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/597049",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 24",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00603758.pdf",
+      "created": "2018-06-22T09:58:10+02:00",
+      "date": "2018-06-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00603758.pdf",
+      "fileName": "00603758.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/603758",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "CDU Sicherheitskonzept der Stadt Karlsruhe mit Bürgerbeteiligung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00603759.pdf",
+      "created": "2018-06-22T09:58:33+02:00",
+      "date": "2018-06-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00603759.pdf",
+      "fileName": "00603759.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/603759",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme CDU - Sicherheitskonzepte",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00604465.pdf",
+      "created": "2018-08-02T15:16:12+02:00",
+      "date": "2018-08-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00604465.pdf",
+      "fileName": "00604465.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/604465",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll HA TOP 2.3,2.4,2.4.1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/40229",
+      "created": "2017-02-14T10:31:21+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14017",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4544",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35320",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/43228",
+      "authoritative": true,
+      "created": "2018-06-06T09:00:08+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15428",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4880",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35320",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-01-18T14:22:07+01:00",
+  "date": "2017-01-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35320",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Sicherheitskonzepte der Stadt Karlsruhe mit Bürgerbeteiligung",
+  "paperType": "Antrag",
+  "reference": "2017/0030",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

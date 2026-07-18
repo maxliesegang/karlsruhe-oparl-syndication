@@ -1,0 +1,94 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666434.pdf",
+      "created": "2025-04-15T11:19:13+02:00",
+      "date": "2025-04-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666434.pdf",
+      "fileName": "00666434.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666434",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T10:50:56+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666454.pdf",
+      "created": "2025-04-15T16:12:20+02:00",
+      "date": "2025-04-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666454.pdf",
+      "fileName": "00666454.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666454",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T10:50:56+02:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669134.pdf",
+      "created": "2025-07-29T20:50:05+02:00",
+      "date": "2025-07-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669134.pdf",
+      "fileName": "00669134.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669134",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T10:50:56+02:00",
+      "name": "Abstimmungsergebnis TOP 5",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669477.pdf",
+      "created": "2025-08-19T10:50:53+02:00",
+      "date": "2025-08-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669477.pdf",
+      "fileName": "00669477.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669477",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T10:50:56+02:00",
+      "name": "Protokoll GR 29.07.2025 TOP 5",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93338",
+      "authoritative": true,
+      "created": "2025-04-15T20:31:22+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34044",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10123",
+      "modified": "2025-07-28T15:08:46+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/29599"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51776",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94852",
+      "authoritative": true,
+      "created": "2025-06-27T09:55:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34020",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10051",
+      "modified": "2025-07-29T16:55:43+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51776",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-04-09T13:25:05+02:00",
+  "date": "2025-04-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51776",
+  "modified": "2025-08-19T10:50:56+02:00",
+  "name": "Vereinbarung einer Bildungspartnerschaft zwischen der Bau- und Architekturgeschichte am Karlsruher Institut für Technologie (KIT) und dem Stadtarchiv",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0334",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882963"
+  ]
+}

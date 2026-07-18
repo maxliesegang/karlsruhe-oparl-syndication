@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678320.pdf",
+      "created": "2026-05-12T15:49:28+02:00",
+      "date": "2026-05-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678320.pdf",
+      "fileName": "00678320.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678320",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-06T14:42:24+02:00",
+      "name": "Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678321.pdf",
+      "created": "2026-05-12T15:50:15+02:00",
+      "date": "2026-05-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678321.pdf",
+      "fileName": "00678321.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678321",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-06T14:42:24+02:00",
+      "name": "Stellungnahme Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101735",
+      "created": "2026-05-13T15:32:57+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37409",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10443",
+      "modified": "2026-07-02T12:03:13+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54554",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-05-12T15:48:50+02:00",
+  "date": "2026-05-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54554",
+  "modified": "2026-07-06T14:42:24+02:00",
+  "name": "Hundeauslauffläche für Grötzingen (CDU-Antrag)",
+  "paperType": "Antrag",
+  "reference": "2026/0389",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

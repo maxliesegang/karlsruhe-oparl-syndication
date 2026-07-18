@@ -81,8 +81,8 @@ export async function fetchDataAndGenerateFeed(
       artifacts: [
         config.feedFilename,
         config.feedFilenameRecent,
-        'meetings.json',
-        'papers.json',
+        'meetings/',
+        'papers/',
         'consultations.json',
         'consultation-resolution-failures.json',
         'organizations.json',

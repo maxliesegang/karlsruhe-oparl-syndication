@@ -1,0 +1,70 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19935",
+      "created": "2020-09-01T15:53:34+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54223",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5835",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Neues Fußballstadion im Wildpark, Herstellen eines Verkehrsleitsystems Vergabe von Bauleistungen",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2020-09-02T08:50:22+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54231",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5835",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen des Bürgermeisteramts",
+      "number": "",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00622230.pdf",
+      "created": "2020-12-03T14:43:40+01:00",
+      "date": "2020-12-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00622230.pdf",
+      "fileName": "00622230.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/622230",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_öffentlich BA 20200914",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2019-10-07T11:43:25+02:00",
+  "end": "2020-09-14T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5835",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619284.pdf",
+    "created": "2020-09-02T09:06:20+02:00",
+    "date": "2020-09-02",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619284.pdf",
+    "fileName": "00619284.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619284",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2019-10-07T11:43:25+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5835",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Bauausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+  ],
+  "start": "2020-09-14T16:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676853.pdf",
+      "created": "2026-02-27T15:03:14+01:00",
+      "date": "2026-02-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676853.pdf",
+      "fileName": "00676853.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676853",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:42:30+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678032.pdf",
+      "created": "2026-04-29T11:19:12+02:00",
+      "date": "2026-04-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678032.pdf",
+      "fileName": "00678032.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678032",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:42:29+02:00",
+      "name": "Abstimmungsergebnis TOP 11",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678393.pdf",
+      "created": "2026-05-15T10:42:27+02:00",
+      "date": "2026-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678393.pdf",
+      "fileName": "00678393.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678393",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:42:29+02:00",
+      "name": "Protokoll GR 28.04.2026 TOP 11",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101120",
+      "authoritative": true,
+      "created": "2026-04-01T09:53:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37070",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10512",
+      "modified": "2026-04-28T18:44:36+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54314",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-02-27T15:01:57+01:00",
+  "date": "2026-03-04",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54314",
+  "modified": "2026-05-15T10:42:29+02:00",
+  "name": "Liquidation der Beteiligung der Albtal-Verkehrs-Gesellschaft mbH an der Verkehrsverbund Pforzheim-Enzkreis GmbH (VPE)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0176",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

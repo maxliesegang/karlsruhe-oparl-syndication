@@ -1,0 +1,94 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677233.pdf",
+      "created": "2026-03-24T07:10:45+01:00",
+      "date": "2026-03-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677233.pdf",
+      "fileName": "00677233.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677233",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-11T14:07:26+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678412.pdf",
+      "created": "2026-05-15T10:48:41+02:00",
+      "date": "2026-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678412.pdf",
+      "fileName": "00678412.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678412",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-11T14:07:26+02:00",
+      "name": "Protokoll GR 28.04.2026 TOP 26",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678473.pdf",
+      "created": "2026-05-18T12:44:22+02:00",
+      "date": "2026-05-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678473.pdf",
+      "fileName": "00678473.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678473",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-11T14:07:26+02:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679021.pdf",
+      "created": "2026-06-11T14:07:22+02:00",
+      "date": "2026-06-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679021.pdf",
+      "fileName": "00679021.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679021",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-11T14:07:26+02:00",
+      "name": "Protokoll HFA 09.06.2026 TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101136",
+      "authoritative": true,
+      "created": "2026-04-01T09:53:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37165",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10512",
+      "modified": "2026-05-26T12:02:49+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54389",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101713",
+      "authoritative": true,
+      "created": "2026-05-12T11:55:23+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37167",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10529",
+      "modified": "2026-06-10T07:01:31+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54389",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-03-24T07:03:35+01:00",
+  "date": "2026-03-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54389",
+  "modified": "2026-06-11T14:07:26+02:00",
+  "name": "Förderung einer nachhaltigen Ernährungswende durch die Plant Based Treaty-Initiative in der Stadt Karlsruhe",
+  "paperType": "Antrag",
+  "reference": "2026/0237",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882850"
+  ]
+}

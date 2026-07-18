@@ -1,0 +1,70 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659588.pdf",
+      "created": "2024-07-15T11:05:03+02:00",
+      "date": "2024-07-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659588.pdf",
+      "fileName": "00659588.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659588",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659590.pdf",
+      "created": "2024-07-15T11:24:47+02:00",
+      "date": "2024-07-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659590.pdf",
+      "fileName": "00659590.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659590",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2024-07-15T11:03:49+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32483",
+      "modified": "2024-07-15T11:03:49+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50700",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/87662",
+      "authoritative": true,
+      "created": "2024-07-15T11:32:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32484",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9719",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50700",
+      "role": "Anhörung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-07-15T11:03:49+02:00",
+  "date": "2024-07-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50700",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Änderungsantrag Anpassung der Nutzungsentgelte für die durch die OV Grötzingen zur Verfügung gestellten Räumlichkeiten im Herbert-Schweizer-Haus Begegnungsstätte Grötzingen",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2024/0262/2",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50649"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

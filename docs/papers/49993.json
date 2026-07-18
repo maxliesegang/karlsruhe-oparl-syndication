@@ -1,0 +1,97 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655816.pdf",
+      "created": "2024-02-06T10:44:57+01:00",
+      "date": "2024-02-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655816.pdf",
+      "fileName": "00655816.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655816",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655827.pdf",
+      "created": "2024-02-06T13:01:14+01:00",
+      "date": "2024-02-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655827.pdf",
+      "fileName": "00655827.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655827",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656255.pdf",
+      "created": "2024-02-26T10:14:39+01:00",
+      "date": "2024-02-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656255.pdf",
+      "fileName": "00656255.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656255",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_HA_Sitzungseröffnung und TOP 1_06.02.2024",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656698.pdf",
+      "created": "2024-03-13T10:54:41+01:00",
+      "date": "2024-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656698.pdf",
+      "fileName": "00656698.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656698",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 20.02.2024 TOP 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84652",
+      "authoritative": true,
+      "created": "2024-02-06T10:49:11+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31467",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9512",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49993",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84654",
+      "authoritative": true,
+      "created": "2024-02-06T11:13:46+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31468",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9523",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49993",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-02-06T10:44:47+01:00",
+  "date": "2024-02-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49993",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Konzeptbeschluss: Variantenentscheidung für den barrierefreien Ausbau der Straßenbahn- und Bushaltestelle \"Hübschstraße\" sowie Umgestaltung des gesamten Straßenraums",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2023/0425/5",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49945"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

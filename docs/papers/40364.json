@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620011.pdf",
+      "created": "2020-10-06T09:28:27+02:00",
+      "date": "2020-10-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620011.pdf",
+      "fileName": "00620011.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620011",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "ORS THH1500 Wolfartsweier HHJ 2021 Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54767",
+      "authoritative": true,
+      "created": "2020-10-06T09:27:39+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20142",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5953",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40364",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-10-06T09:26:32+02:00",
+  "date": "2020-10-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40364",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Vorstellung des Entwurf des Haushaltsplans 2021 mit THH 1500 (Ortsverwaltung Wolfartsweier) einschließlich der Behandlung der Anträge des Ortschaftsrats zum Haushaltsplanentwurf",
+  "paperType": "Beschlussvorlage",
+  "reference": "2020/1153",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+  ]
+}

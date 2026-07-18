@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00628030.pdf",
+      "created": "2021-09-13T11:19:31+02:00",
+      "date": "2021-09-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00628030.pdf",
+      "fileName": "00628030.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/628030",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP_7_Neureuter Nachrichten",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/60536",
+      "created": "2021-08-31T16:01:33+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21953",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6455",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34531"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41751",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-08-31T15:19:40+02:00",
+  "date": "2021-09-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41751",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bekanntgaben",
+  "paperType": "Informationsvorlage",
+  "reference": "2021/1047",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882960"
+  ]
+}

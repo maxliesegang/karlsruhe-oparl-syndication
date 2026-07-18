@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678860.pdf",
+      "created": "2026-06-05T10:07:40+02:00",
+      "date": "2026-06-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678860.pdf",
+      "fileName": "00678860.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678860",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-17T09:26:25+02:00",
+      "name": "Offenlage_MRZ",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101869",
+      "created": "2026-05-21T13:02:28+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37385",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10550",
+      "modified": "2026-05-21T13:03:45+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/39759"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54533",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102563",
+      "created": "2026-07-17T09:21:57+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37699",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10566",
+      "modified": "2026-07-17T09:22:28+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54533",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-05-06T10:22:05+02:00",
+  "date": "2026-06-08",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54533",
+  "modified": "2026-07-17T09:26:25+02:00",
+  "name": "Übertragung des Betriebskostenzuschusses vom Menschenrechtszentrum Karlsruhe e.V. auf Haus der Menschenrechte e.V: Fortführung der Förderung nach Trägerwechsel",
+  "paperType": "Offenlage",
+  "reference": "2026/0368",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883012"
+  ]
+}

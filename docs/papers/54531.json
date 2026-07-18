@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678445.pdf",
+      "created": "2026-05-17T15:48:44+02:00",
+      "date": "2026-05-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678445.pdf",
+      "fileName": "00678445.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678445",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-11T14:08:28+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679024.pdf",
+      "created": "2026-06-11T14:08:23+02:00",
+      "date": "2026-06-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679024.pdf",
+      "fileName": "00679024.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679024",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-11T14:08:28+02:00",
+      "name": "Protokoll HFA 09.06.2026 TOP 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101716",
+      "authoritative": true,
+      "created": "2026-05-12T11:55:23+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37382",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10529",
+      "modified": "2026-06-10T07:02:02+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54531",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-05-06T07:49:30+02:00",
+  "date": "2026-05-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54531",
+  "modified": "2026-06-11T14:08:28+02:00",
+  "name": "Annahme des Angebots von Zuwendungen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0366",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

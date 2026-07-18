@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677653.pdf",
+      "created": "2026-04-14T14:32:13+02:00",
+      "date": "2026-04-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677653.pdf",
+      "fileName": "00677653.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677653",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T14:56:11+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678792.pdf",
+      "created": "2026-06-01T15:29:57+02:00",
+      "date": "2026-06-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678792.pdf",
+      "fileName": "00678792.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678792",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T14:56:11+02:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679638.pdf",
+      "created": "2026-07-07T14:56:09+02:00",
+      "date": "2026-07-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679638.pdf",
+      "fileName": "00679638.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679638",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T14:56:11+02:00",
+      "name": "Protokoll GR 23.06.2026 TOP 32",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101921",
+      "authoritative": true,
+      "created": "2026-05-26T14:29:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37245",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10540",
+      "modified": "2026-06-24T10:12:07+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54442",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-04-14T14:31:41+02:00",
+  "date": "2026-04-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54442",
+  "modified": "2026-07-07T14:56:11+02:00",
+  "name": "Weiterbeschäftigung und Wertschätzung erfahrener Mitarbeitender über die Regelaltersgrenze",
+  "paperType": "Anfrage",
+  "reference": "2026/0284",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882953"
+  ]
+}

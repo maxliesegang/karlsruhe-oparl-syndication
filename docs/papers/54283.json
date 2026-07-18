@@ -1,0 +1,92 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678699.pdf",
+      "created": "2026-05-28T09:25:28+02:00",
+      "date": "2026-05-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678699.pdf",
+      "fileName": "00678699.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678699",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-29T14:43:47+02:00",
+      "name": "Anlage 2 Bericht",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678700.pdf",
+      "created": "2026-05-28T09:25:44+02:00",
+      "date": "2026-05-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678700.pdf",
+      "fileName": "00678700.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678700",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-29T14:43:47+02:00",
+      "name": "Anlage 1 Zustandsnoten",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679132.pdf",
+      "created": "2026-06-17T08:57:03+02:00",
+      "date": "2026-06-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679132.pdf",
+      "fileName": "00679132.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679132",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-29T14:43:47+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2026-07-15T07:51:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37690",
+      "modified": "2026-07-15T07:51:30+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54283",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101880",
+      "created": "2026-05-22T11:48:51+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37026",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10554",
+      "modified": "2026-07-02T20:52:48+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54283",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102402",
+      "authoritative": true,
+      "created": "2026-06-25T10:08:33+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37625",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10557",
+      "modified": "2026-07-15T07:36:21+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54283",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-02-18T13:32:54+01:00",
+  "date": "2026-02-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54283",
+  "modified": "2026-06-29T15:11:29+02:00",
+  "name": "Fachstrategie Brücken",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0146",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00641009.pdf",
+      "created": "2022-09-27T16:35:12+02:00",
+      "date": "2022-09-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00641009.pdf",
+      "fileName": "00641009.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/641009",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642472.pdf",
+      "created": "2022-11-10T16:28:15+01:00",
+      "date": "2022-11-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642472.pdf",
+      "fileName": "00642472.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642472",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Pia-2022.10.28 BB Stellungnahme_Antrag GRÜNE 27.09.2022 V03",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642731.pdf",
+      "created": "2022-11-17T13:06:21+01:00",
+      "date": "2022-11-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642731.pdf",
+      "fileName": "00642731.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642731",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 34",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/73042",
+      "authoritative": true,
+      "created": "2022-10-06T15:40:31+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28185",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6603",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47524",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/74012",
+      "created": "2022-11-15T14:43:36+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28259",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6669",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54833"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47524",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-09-27T16:29:02+02:00",
+  "date": "2022-10-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47524",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Sanierung des denkmalgeschützten Restaurantgebäudes im Rheinstrandbad/Park Rappenwört: Dialog aller Beteiligten",
+  "paperType": "Antrag",
+  "reference": "2022/1073",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882969"
+  ]
+}

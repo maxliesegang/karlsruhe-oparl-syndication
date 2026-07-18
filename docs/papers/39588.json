@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00616827.pdf",
+      "created": "2020-03-30T08:21:33+02:00",
+      "date": "2020-03-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00616827.pdf",
+      "fileName": "00616827.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/616827",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617158.pdf",
+      "created": "2020-04-15T09:40:07+02:00",
+      "date": "2020-04-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617158.pdf",
+      "fileName": "00617158.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617158",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635246.pdf",
+      "created": "2022-01-13T12:37:30+01:00",
+      "date": "2022-01-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635246.pdf",
+      "fileName": "00635246.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635246",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/51699",
+      "authoritative": true,
+      "created": "2020-04-14T13:30:56+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19114",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5664",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39588",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-03-30T08:20:26+02:00",
+  "date": "2020-03-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39588",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Auswahl der Klimaschutzmaßnahmen nach Nutzen-/Kostenbewertung",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2020/0380",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

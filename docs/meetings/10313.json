@@ -1,0 +1,95 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33810",
+      "created": "2025-03-04T10:13:18+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92704",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10313",
+      "modified": "2025-03-04T10:13:41+01:00",
+      "name": "Vorstellung des digitalen Bauantrages durch die Leiterin des Bauordnungsamtes und Vorstellung des für Neureut zuständigen neuen Leiters vom Baubezirk 2",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33811",
+      "created": "2025-03-04T10:13:18+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92705",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10313",
+      "modified": "2025-03-04T10:29:43+01:00",
+      "name": "Antrag der CDU Fraktion für ein innovatives und attraktives „Unser Neureut“ durch Bedienung von Social-Media-Kanälen",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33812",
+      "created": "2025-03-04T10:13:18+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92706",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10313",
+      "modified": "2025-03-04T10:13:18+01:00",
+      "name": "Bekanntgaben",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33813",
+      "created": "2025-03-04T10:13:18+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92707",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10313",
+      "modified": "2025-03-04T10:13:18+01:00",
+      "name": "Anfragen und Anregungen aus dem Ortschaftsrat",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667709.pdf",
+      "created": "2025-06-04T10:27:08+02:00",
+      "date": "2025-06-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667709.pdf",
+      "fileName": "00667709.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667709",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-04T10:27:12+02:00",
+      "name": "ORat Proto 3_25 ö",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2024-12-03T16:22:26+01:00",
+  "end": "2025-03-18T00:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10313",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665345.pdf",
+    "created": "2025-03-04T10:31:04+01:00",
+    "date": "2025-03-04",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665345.pdf",
+    "fileName": "00665345.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665345",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-04T10:32:05+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2024-12-03T16:22:26+01:00",
+    "description": "Sitzungssaal Rathaus Neureut",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10313",
+    "modified": "2025-06-04T10:27:12+02:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-06-04T10:27:12+02:00",
+  "name": "Ortschaftsrat Neureut (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34531"
+  ],
+  "start": "2025-03-18T19:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

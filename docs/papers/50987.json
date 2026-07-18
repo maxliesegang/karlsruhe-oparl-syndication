@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660954.pdf",
+      "created": "2024-09-18T11:04:09+02:00",
+      "date": "2024-09-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660954.pdf",
+      "fileName": "00660954.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660954",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661975.pdf",
+      "created": "2024-10-23T15:16:13+02:00",
+      "date": "2024-10-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661975.pdf",
+      "fileName": "00661975.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661975",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662250.pdf",
+      "created": "2024-10-31T14:04:01+01:00",
+      "date": "2024-10-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662250.pdf",
+      "fileName": "00662250.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662250",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 22.10.2024 TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90288",
+      "authoritative": true,
+      "created": "2024-09-25T09:33:35+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32859",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50987",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-09-18T11:01:33+02:00",
+  "date": "2024-09-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50987",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Änderung in der Besetzung des Ausschusses für Umwelt und Gesundheit auf Wunsch der Volt-Gemeinderatsfraktion",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/1053",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882850"
+  ]
+}

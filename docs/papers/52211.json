@@ -1,0 +1,71 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669083.pdf",
+      "created": "2025-07-28T15:59:53+02:00",
+      "date": "2025-07-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669083.pdf",
+      "fileName": "00669083.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669083",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-29T20:51:45+02:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669093.pdf",
+      "created": "2025-07-29T08:33:04+02:00",
+      "date": "2025-07-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669093.pdf",
+      "fileName": "00669093.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669093",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-29T20:51:45+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669137.pdf",
+      "created": "2025-07-29T20:51:37+02:00",
+      "date": "2025-07-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669137.pdf",
+      "fileName": "00669137.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669137",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-29T20:51:45+02:00",
+      "name": "Abstimmungsergebnis TOP 7.1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95141",
+      "authoritative": true,
+      "created": "2025-07-29T07:10:36+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34631",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10051",
+      "modified": "2025-07-29T16:57:31+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52211",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-07-28T15:59:40+02:00",
+  "date": "2025-07-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52211",
+  "modified": "2025-08-08T11:17:02+02:00",
+  "name": "Beschaffung der Microsoft-Lizenzen für die Stadtverwaltung",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2025/0505/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51964"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883004"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667484.pdf",
+      "created": "2025-05-27T10:26:44+02:00",
+      "date": "2025-05-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667484.pdf",
+      "fileName": "00667484.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667484",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-30T12:00:26+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668452.pdf",
+      "created": "2025-06-27T10:46:48+02:00",
+      "date": "2025-06-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668452.pdf",
+      "fileName": "00668452.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668452",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-30T12:00:26+02:00",
+      "name": "Protokoll GR 24.06.2025 TOP 20",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668928.pdf",
+      "created": "2025-07-21T12:18:32+02:00",
+      "date": "2025-07-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668928.pdf",
+      "fileName": "00668928.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668928",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-23T13:41:07+02:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94323",
+      "authoritative": true,
+      "created": "2025-06-11T08:35:32+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34320",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10049",
+      "modified": "2025-06-25T08:04:22+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51986",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94338",
+      "created": "2025-06-11T11:31:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34403",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10076",
+      "modified": "2025-07-30T11:38:44+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51986",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-05-27T10:25:58+02:00",
+  "date": "2025-05-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51986",
+  "modified": "2025-07-31T11:00:56+02:00",
+  "name": "Carsharing fördern: Angebotsausbau ermöglichen durch mehr Stellplätze im öffentlichen Raum",
+  "paperType": "Antrag",
+  "reference": "2025/0524",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

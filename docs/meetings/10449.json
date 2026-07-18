@@ -1,0 +1,93 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34923",
+      "created": "2025-11-27T11:53:46+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99610",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10449",
+      "modified": "2025-11-27T11:53:46+01:00",
+      "name": "Satzung über die Kfz- und Fahrradstellplatzverpflichtung für Wohnungen (Stellplatzsatzung); Satzungsbeschluss gemäß § 74 Abs. 2, 5 und 6 Landesbauordnung (LBO), § 4 Gemeindeordnung (GemO)",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36647",
+      "created": "2025-11-27T11:53:46+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99611",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10449",
+      "modified": "2025-11-27T11:53:46+01:00",
+      "name": "Satzung der Stadt Karlsruhe über Gebühren für das Friedhofs- und Bestattungswesen (Friedhofsgebührensatzung)",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-11-27T11:55:43+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99612",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10449",
+      "modified": "2025-11-27T11:55:43+01:00",
+      "name": "Mitteilungen der Ortsverwaltung",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-11-27T11:56:03+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99613",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10449",
+      "modified": "2025-11-27T11:56:03+01:00",
+      "name": "Anregungen aus dem Ortschaftsrat",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676212.pdf",
+      "created": "2026-01-28T13:34:36+01:00",
+      "date": "2026-01-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676212.pdf",
+      "fileName": "00676212.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676212",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-28T13:34:52+01:00",
+      "name": "Protokoll Öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2025-09-18T14:55:17+02:00",
+  "end": "2025-12-10T00:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10449",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674004.pdf",
+    "created": "2025-11-27T11:58:13+01:00",
+    "date": "2025-11-27",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674004.pdf",
+    "fileName": "00674004.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674004",
+    "mimeType": "application/pdf",
+    "modified": "2025-12-03T10:26:25+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2025-09-18T14:55:17+02:00",
+    "description": "Bürgersaal im Rathaus Hohenwettersbach",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10449",
+    "modified": "2026-01-28T13:34:52+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-01-28T13:34:52+01:00",
+  "name": "Ortschaftsrat Hohenwettersbach (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34322"
+  ],
+  "start": "2025-12-10T19:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

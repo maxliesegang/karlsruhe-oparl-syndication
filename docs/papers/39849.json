@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617807.pdf",
+      "created": "2020-05-26T07:46:26+02:00",
+      "date": "2020-05-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617807.pdf",
+      "fileName": "00617807.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617807",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617819.pdf",
+      "created": "2020-05-26T15:24:39+02:00",
+      "date": "2020-05-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617819.pdf",
+      "fileName": "00617819.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617819",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 12.5 Zusatzfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618229.pdf",
+      "created": "2020-06-18T09:31:43+02:00",
+      "date": "2020-06-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618229.pdf",
+      "fileName": "00618229.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618229",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/52534",
+      "authoritative": true,
+      "created": "2020-05-26T07:53:28+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19474",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5665",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39849",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-05-26T07:45:36+02:00",
+  "date": "2020-05-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39849",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Verfügung einer Haushaltssperre",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2020/0641",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

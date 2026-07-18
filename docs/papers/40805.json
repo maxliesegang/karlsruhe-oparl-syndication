@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00623186.pdf",
+      "created": "2021-02-02T06:40:12+01:00",
+      "date": "2021-02-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00623186.pdf",
+      "fileName": "00623186.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/623186",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624106.pdf",
+      "created": "2021-03-11T10:22:42+01:00",
+      "date": "2021-03-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624106.pdf",
+      "fileName": "00624106.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624106",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN FW-FÜR Hundeführerschein",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625064.pdf",
+      "created": "2021-04-23T10:06:00+02:00",
+      "date": "2021-04-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625064.pdf",
+      "fileName": "00625064.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625064",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 45",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56454",
+      "authoritative": true,
+      "created": "2021-02-22T14:32:43+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20692",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6176",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40805",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-02-02T06:39:24+01:00",
+  "date": "2021-02-02",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40805",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Ausgaben für die Prämie zum Hundeführerschein",
+  "paperType": "Anfrage",
+  "reference": "2021/0126",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

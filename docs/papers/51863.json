@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666764.pdf",
+      "created": "2025-04-30T07:26:00+02:00",
+      "date": "2025-04-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666764.pdf",
+      "fileName": "00666764.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666764",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-27T10:47:59+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667151.pdf",
+      "created": "2025-05-14T11:32:06+02:00",
+      "date": "2025-05-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667151.pdf",
+      "fileName": "00667151.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667151",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-27T10:47:59+02:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668455.pdf",
+      "created": "2025-06-27T10:47:57+02:00",
+      "date": "2025-06-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668455.pdf",
+      "fileName": "00668455.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668455",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-27T10:47:59+02:00",
+      "name": "Protokoll GR 24.06.2025 TOP 23",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94036",
+      "authoritative": true,
+      "created": "2025-05-27T09:11:25+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34148",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10049",
+      "modified": "2025-06-25T08:04:48+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51863",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-04-30T07:25:41+02:00",
+  "date": "2025-04-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51863",
+  "modified": "2025-06-27T10:47:59+02:00",
+  "name": "Erstellung und Qualitätssicherug der im Internet veröffentlichten Protokolle der Gemeinderats- und Hauptausschusssitzungen",
+  "paperType": "Anfrage",
+  "reference": "2025/0411",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882850"
+  ]
+}

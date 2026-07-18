@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650529.pdf",
+      "created": "2023-09-11T12:12:28+02:00",
+      "date": "2023-09-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650529.pdf",
+      "fileName": "00650529.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650529",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00652389.pdf",
+      "created": "2023-10-20T12:10:36+02:00",
+      "date": "2023-10-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00652389.pdf",
+      "fileName": "00652389.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/652389",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1 Zuständigkeit Verwaltung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00652397.pdf",
+      "created": "2023-10-20T13:23:16+02:00",
+      "date": "2023-10-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00652397.pdf",
+      "fileName": "00652397.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/652397",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 2 Zuständigkeit Gemeinderat",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653646.pdf",
+      "created": "2023-11-14T12:11:41+01:00",
+      "date": "2023-11-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653646.pdf",
+      "fileName": "00653646.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653646",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 11",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/80573",
+      "authoritative": true,
+      "created": "2023-09-26T09:44:58+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30281",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9051",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49031",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-08-16T10:14:48+02:00",
+  "date": "2023-08-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49031",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Aktueller Sachstandsbericht zum Haushaltssicherungsprozess Gesamt",
+  "paperType": "Informationsvorlage",
+  "reference": "2023/0928",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

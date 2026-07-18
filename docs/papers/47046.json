@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638639.pdf",
+      "created": "2022-06-29T09:03:32+02:00",
+      "date": "2022-06-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638639.pdf",
+      "fileName": "00638639.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638639",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00639094.pdf",
+      "created": "2022-07-15T09:18:09+02:00",
+      "date": "2022-07-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00639094.pdf",
+      "fileName": "00639094.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/639094",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN E-Ladeinfrastruktur",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00639894.pdf",
+      "created": "2022-08-22T12:06:23+02:00",
+      "date": "2022-08-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00639894.pdf",
+      "fileName": "00639894.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/639894",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 26.07.2022 TOP 47",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/71072",
+      "authoritative": true,
+      "created": "2022-06-29T10:02:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27636",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6597",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47046",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-06-29T09:03:02+02:00",
+  "date": "2022-06-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47046",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Standorte für Ladestationen für E-Autos bis 2030",
+  "paperType": "Anfrage",
+  "reference": "2022/0731",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882975"
+  ]
+}

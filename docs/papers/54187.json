@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676612.pdf",
+      "created": "2026-02-16T10:25:29+01:00",
+      "date": "2026-02-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676612.pdf",
+      "fileName": "00676612.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676612",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-02T14:29:02+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676827.pdf",
+      "created": "2026-02-26T07:31:09+01:00",
+      "date": "2026-02-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676827.pdf",
+      "fileName": "00676827.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676827",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-02T14:29:02+01:00",
+      "name": "Anlage 1-Präsentation ohne Grundrisse",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100327",
+      "created": "2026-02-04T13:09:18+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36890",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10488",
+      "modified": "2026-03-13T10:10:32+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54187",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-01-26T10:31:22+01:00",
+  "date": "2026-01-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54187",
+  "modified": "2026-03-02T14:29:02+01:00",
+  "name": "Grundschule Friedrich-Ebert-Schule - Umbau Hort zur Ganztageseinrichtung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0058",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

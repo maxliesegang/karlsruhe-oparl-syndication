@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620856.pdf",
+      "created": "2020-11-17T10:10:46+01:00",
+      "date": "2020-11-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620856.pdf",
+      "fileName": "00620856.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620856",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620868.pdf",
+      "created": "2020-11-17T14:14:39+01:00",
+      "date": "2020-11-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620868.pdf",
+      "fileName": "00620868.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620868",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Ä-Antrag GRÜNE",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/55309",
+      "authoritative": true,
+      "created": "2020-11-17T12:12:40+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20360",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5672",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40527",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-11-17T10:04:08+01:00",
+  "date": "2020-11-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40527",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Kitas und Schulen fit für Corona",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2020/1316",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600377.pdf",
+      "created": "2017-11-24T10:49:41+01:00",
+      "date": "2017-11-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600377.pdf",
+      "fileName": "00600377.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600377",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Fortschreibung Klimaschutzkonzept",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00602880.pdf",
+      "created": "2018-04-26T10:20:59+02:00",
+      "date": "2018-04-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00602880.pdf",
+      "fileName": "00602880.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/602880",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis GR_TOP 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00604282.pdf",
+      "created": "2018-07-16T14:26:33+02:00",
+      "date": "2018-07-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00604282.pdf",
+      "fileName": "00604282.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/604282",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2017-11-06T10:42:44+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14782",
+      "modified": "2018-11-28T14:19:31+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35924",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41724",
+      "authoritative": true,
+      "created": "2017-11-15T10:11:47+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14784",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4688",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35924",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-11-06T10:42:04+01:00",
+  "date": "2017-11-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35924",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Fortschreibung des Karlsruher Klimaschutzkonzeptes",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0699",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882975"
+  ]
+}

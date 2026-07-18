@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646081.pdf",
+      "created": "2023-03-28T10:41:38+02:00",
+      "date": "2023-03-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646081.pdf",
+      "fileName": "00646081.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646081",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646423.pdf",
+      "created": "2023-04-06T12:51:36+02:00",
+      "date": "2023-04-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646423.pdf",
+      "fileName": "00646423.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646423",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme zur Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647463.pdf",
+      "created": "2023-05-22T11:53:36+02:00",
+      "date": "2023-05-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647463.pdf",
+      "fileName": "00647463.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647463",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 32",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/76565",
+      "authoritative": true,
+      "created": "2023-03-28T12:58:58+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29361",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9044",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48393",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-03-28T10:41:23+02:00",
+  "date": "2023-03-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48393",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Unterstützung Galeria Karstadt Kaufhof durch die Stadtverwaltung",
+  "paperType": "Anfrage",
+  "reference": "2023/0339",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

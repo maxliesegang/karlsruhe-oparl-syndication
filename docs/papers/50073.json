@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656425.pdf",
+      "created": "2024-03-01T11:23:53+01:00",
+      "date": "2024-03-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656425.pdf",
+      "fileName": "00656425.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656425",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 3 Beschlussvorlage Kultursommer 2024",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/85020",
+      "authoritative": true,
+      "created": "2024-02-27T16:55:25+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31584",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9770",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50073",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-02-27T16:53:38+01:00",
+  "date": "2024-02-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50073",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Kultursommer 2024",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0203",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

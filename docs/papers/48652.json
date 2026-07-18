@@ -1,0 +1,93 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648067.pdf",
+      "created": "2023-06-13T15:45:52+02:00",
+      "date": "2023-06-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648067.pdf",
+      "fileName": "00648067.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648067",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage Petition komm. Wahlrecht Drittstaatsangehörige",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648069.pdf",
+      "created": "2023-06-13T15:49:36+02:00",
+      "date": "2023-06-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648069.pdf",
+      "fileName": "00648069.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648069",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Erklärung Unsere Städte, unsere Stimmen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650888.pdf",
+      "created": "2023-09-25T11:15:26+02:00",
+      "date": "2023-09-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650888.pdf",
+      "fileName": "00650888.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650888",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651347.pdf",
+      "created": "2023-10-09T13:59:35+02:00",
+      "date": "2023-10-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651347.pdf",
+      "fileName": "00651347.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651347",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/77857",
+      "created": "2023-05-22T13:40:50+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29707",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9090",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/39759"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48652",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/79926",
+      "authoritative": true,
+      "created": "2023-08-22T09:36:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29708",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9049",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48652",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-05-22T13:20:43+02:00",
+  "date": "2023-05-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48652",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Unterzeichnung der Erklärung „Unsere Städte - unsere Stimmen“ zur Einführung eines kommunalen Wahlrechts für Drittstaatsangehörige",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0574",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883012"
+  ]
+}

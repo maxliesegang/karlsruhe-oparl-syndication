@@ -1,0 +1,94 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644240.pdf",
+      "created": "2023-01-23T12:08:23+01:00",
+      "date": "2023-01-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644240.pdf",
+      "fileName": "00644240.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644240",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00645248.pdf",
+      "created": "2023-02-24T11:07:06+01:00",
+      "date": "2023-02-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00645248.pdf",
+      "fileName": "00645248.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/645248",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme_Antrag_CDU_Marktplatz",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646050.pdf",
+      "created": "2023-03-27T13:32:37+02:00",
+      "date": "2023-03-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646050.pdf",
+      "fileName": "00646050.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646050",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 20",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646865.pdf",
+      "created": "2023-04-27T11:22:20+02:00",
+      "date": "2023-04-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646865.pdf",
+      "fileName": "00646865.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646865",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 3 HA_18.04.2023",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75598",
+      "authoritative": true,
+      "created": "2023-02-01T10:08:44+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28955",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9042",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48070",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/76427",
+      "authoritative": true,
+      "created": "2023-03-16T17:02:12+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28996",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9060",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48070",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-01-23T12:06:56+01:00",
+  "date": "2023-01-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48070",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Zukunft Marktplatz: Chancen und Potentiale jetzt nutzen",
+  "paperType": "Antrag",
+  "reference": "2023/0069",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882965"
+  ]
+}

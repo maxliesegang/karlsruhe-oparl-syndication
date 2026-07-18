@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644169.pdf",
+      "created": "2023-01-20T09:35:25+01:00",
+      "date": "2023-01-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644169.pdf",
+      "fileName": "00644169.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644169",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75376",
+      "created": "2023-01-20T15:22:24+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28940",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9313",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48060",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-01-20T09:18:10+01:00",
+  "date": "2023-01-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48060",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Auslaufen des Eingemeindungsvertrages - Weiteres Vorgehen",
+  "paperType": "Antrag",
+  "reference": "2023/0059",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+  ]
+}

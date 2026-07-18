@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00017118.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2013-08-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00017118.pdf",
+      "fileName": "00017118.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/17118",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Top5Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00017119.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2014-01-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00017119.pdf",
+      "fileName": "00017119.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/17119",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Top5Stn",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/21903",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/4991",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/2121",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/21903",
+      "role": "unbekannt",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2009-03-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/21903",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Antrag CDU: Hort an der Schule, Einrichtung einer weiteren Gruppe",
+  "paperType": "Beschlussvorlage",
+  "reference": "21903",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882950"
+  ]
+}

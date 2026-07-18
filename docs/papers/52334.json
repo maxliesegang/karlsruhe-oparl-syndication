@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670010.pdf",
+      "created": "2025-09-08T16:30:58+02:00",
+      "date": "2025-09-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670010.pdf",
+      "fileName": "00670010.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670010",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-23T14:59:52+01:00",
+      "name": "Anlage 1 - Übersichtsplan",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670671.pdf",
+      "created": "2025-10-08T11:18:09+02:00",
+      "date": "2025-10-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670671.pdf",
+      "fileName": "00670671.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670671",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-23T14:59:52+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99900",
+      "created": "2025-12-17T16:21:35+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34794",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10466",
+      "modified": "2026-01-22T17:10:36+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52334",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-09-03T11:41:33+02:00",
+  "date": "2025-09-08",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52334",
+  "modified": "2025-12-23T14:59:52+01:00",
+  "name": "Bebauungsplanverfahren „Rüppurrer Straße, Ettlinger Straße (ehemaliges Postverteilzentrum)“, Karlsruhe - Südstadt",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0839",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

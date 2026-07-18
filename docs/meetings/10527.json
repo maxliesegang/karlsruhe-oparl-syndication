@@ -1,0 +1,87 @@
+{
+  "agendaItem": [
+    {
+      "created": "2026-04-17T10:19:48+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101304",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10527",
+      "modified": "2026-05-04T10:06:26+02:00",
+      "name": "Liegenschaftsamt",
+      "number": "",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37369",
+      "created": "2026-05-05T14:29:05+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101544",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10527",
+      "modified": "2026-05-21T12:16:46+02:00",
+      "name": "Benennung eines Platzes in der Innenstadt-Ost mit \"Familie-Reinhardt-Platz\"",
+      "number": "1",
+      "order": 2,
+      "public": true,
+      "result": "vorberaten ohne Änderungen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36951",
+      "created": "2026-04-16T15:52:29+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101277",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10527",
+      "modified": "2026-05-21T12:16:57+02:00",
+      "name": "Familie-Reinhardt-Platz: Ein Ort zum Gedenken an die ermordeten Sinti und Roma",
+      "number": "1.1",
+      "order": 3,
+      "public": true,
+      "result": "erledigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36970",
+      "created": "2026-04-16T15:52:29+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101278",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10527",
+      "modified": "2026-05-21T12:17:07+02:00",
+      "name": "Familie-Reinhardt-Platz: Ein Ort zum Gedenken an die ermordeten Sinti und Roma",
+      "number": "1.2",
+      "order": 4,
+      "public": true,
+      "result": "zurückgezogen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2025-10-10T11:59:34+02:00",
+  "end": "2026-05-20T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10527",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678344.pdf",
+    "created": "2026-05-13T10:54:31+02:00",
+    "date": "2026-05-13",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678344.pdf",
+    "fileName": "00678344.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678344",
+    "mimeType": "application/pdf",
+    "modified": "2026-05-14T22:31:13+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2022-12-12T11:11:26+01:00",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/rm/67907",
+    "locality": "",
+    "modified": "2025-08-05T10:18:13+02:00",
+    "postalCode": "",
+    "room": "Bürgersaal",
+    "streetAddress": "",
+    "subLocality": "",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-05-14T22:31:13+02:00",
+  "name": "Bauausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+  ],
+  "start": "2026-05-20T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676836.pdf",
+      "created": "2026-02-26T13:33:01+01:00",
+      "date": "2026-03-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676836.pdf",
+      "fileName": "00676836.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676836",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-30T11:35:03+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677358.pdf",
+      "created": "2026-03-30T11:34:57+02:00",
+      "date": "2026-03-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677358.pdf",
+      "fileName": "00677358.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677358",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-30T11:35:03+02:00",
+      "name": "Protokoll HFA 10.03.2026 TOP 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100522",
+      "authoritative": true,
+      "created": "2026-02-19T10:17:22+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37021",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10486",
+      "modified": "2026-03-11T07:37:09+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54279",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-02-16T14:29:03+01:00",
+  "date": "2026-02-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54279",
+  "modified": "2026-03-30T11:35:03+02:00",
+  "name": "Verwendung der dem City Tax Beirat aus der Übernachtungsteuer (City Tax) bereitgestellten Mittel zur Förderung touristischer Projekte",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0142",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677010.pdf",
+      "created": "2026-03-11T12:32:34+01:00",
+      "date": "2026-03-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677010.pdf",
+      "fileName": "00677010.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677010",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T14:50:54+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677594.pdf",
+      "created": "2026-04-09T11:37:07+02:00",
+      "date": "2026-04-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677594.pdf",
+      "fileName": "00677594.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677594",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T14:50:54+02:00",
+      "name": "Stellungnahme zum Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678409.pdf",
+      "created": "2026-05-15T10:47:28+02:00",
+      "date": "2026-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678409.pdf",
+      "fileName": "00678409.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678409",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T14:50:54+02:00",
+      "name": "Protokoll GR 28.04.2026 TOP 23",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679629.pdf",
+      "created": "2026-07-07T14:50:52+02:00",
+      "date": "2026-07-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679629.pdf",
+      "fileName": "00679629.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679629",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T14:50:54+02:00",
+      "name": "Protokoll GR 23.06.2026 TOP 23",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100917",
+      "created": "2026-03-24T12:48:41+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37119",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10518",
+      "modified": "2026-05-18T11:16:10+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54348",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101137",
+      "authoritative": true,
+      "created": "2026-04-01T09:53:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37114",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10512",
+      "modified": "2026-05-26T12:02:49+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54348",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101910",
+      "authoritative": true,
+      "created": "2026-05-26T14:29:29+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37435",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10540",
+      "modified": "2026-06-24T10:15:22+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54348",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-03-11T12:31:38+01:00",
+  "date": "2026-03-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54348",
+  "modified": "2026-07-07T14:50:54+02:00",
+  "name": "Verkehrssicherheit erhöhen - Überholabstände einhalten",
+  "paperType": "Antrag",
+  "reference": "2026/0205",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "agendaItem": [
+    {
+      "created": "2023-07-13T17:45:53+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78799",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9120",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Amt für Hochbau und Gebäudewirtschaft",
+      "number": "",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30133",
+      "created": "2023-08-03T11:19:48+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/79254",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9120",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Badisches Konservatorium, Umbau Dragonerkaserne, Fassade",
+      "number": "1",
+      "order": 2,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30105",
+      "created": "2023-07-25T11:29:44+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78931",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9120",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Stadthalle Modernisierung",
+      "number": "2",
+      "order": 3,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30256",
+      "created": "2023-08-23T12:16:31+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/80003",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9120",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Stadthalle Modernisierung",
+      "number": "3",
+      "order": 4,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30106",
+      "created": "2023-07-25T11:29:44+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78932",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9120",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Sporthalle Oberreut, Neubau einer zweifachen Dreifeldsporthalle am Schulzentrum Südwest, Vorgehängte Hinterlüftete Fassade",
+      "number": "4",
+      "order": 5,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655721.pdf",
+      "created": "2024-02-01T12:11:57+01:00",
+      "date": "2024-02-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655721.pdf",
+      "fileName": "00655721.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655721",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll ö BA 11.09.2023",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2022-09-21T16:34:11+02:00",
+  "end": "2023-09-11T16:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9120",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648945.pdf",
+    "created": "2023-07-13T16:24:05+02:00",
+    "date": "2023-08-23",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648945.pdf",
+    "fileName": "00648945.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648945",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2022-09-21T16:34:11+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9120",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Bauausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+  ],
+  "start": "2023-09-11T16:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

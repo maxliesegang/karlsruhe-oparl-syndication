@@ -1,0 +1,91 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28047",
+      "created": "2022-09-09T10:53:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72420",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7876",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungsblatt Wolfartsweier",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28048",
+      "created": "2022-09-09T10:53:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72421",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7876",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Erlassen eines Modernisierungsgebotes bei Verwahrlosung von Immobilien gemäß Leitfaden zum Einsatz von Rechtsinstrumenten des Bundesministeriums für Umwelt, Naturschutz, Bau und Reaktorsicherheit",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28049",
+      "created": "2022-09-09T10:53:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72422",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7876",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verkehrsaufkommen und gefahrene Geschwindigkeiten in der Steinkreuzstr.",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2022-09-09T10:55:34+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72423",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7876",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mündliche Anfragen",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2022-09-09T10:56:49+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72424",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7876",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen Verwaltung",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2021-11-04T14:08:50+01:00",
+  "end": "2022-09-20T21:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7876",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00640496.pdf",
+    "created": "2022-09-09T11:00:01+02:00",
+    "date": "2022-09-09",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00640496.pdf",
+    "fileName": "00640496.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/640496",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortsverwaltung",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2021-11-04T14:08:50+01:00",
+    "description": "Begegnungsstätte (Rathausstraße 2a, 76228 Karlsruhe)",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/7876",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ortschaftsrat Wolfartsweier (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+  ],
+  "start": "2022-09-20T19:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

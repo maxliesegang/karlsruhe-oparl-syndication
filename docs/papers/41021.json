@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624320.pdf",
+      "created": "2021-03-23T10:12:20+01:00",
+      "date": "2021-03-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624320.pdf",
+      "fileName": "00624320.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624320",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624344.pdf",
+      "created": "2021-03-23T16:28:45+01:00",
+      "date": "2021-03-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624344.pdf",
+      "fileName": "00624344.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624344",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN LINKE Zoo",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624416.pdf",
+      "created": "2021-03-25T15:08:54+01:00",
+      "date": "2021-03-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624416.pdf",
+      "fileName": "00624416.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624416",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis_top21_linke",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625036.pdf",
+      "created": "2021-04-23T09:29:45+02:00",
+      "date": "2021-04-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625036.pdf",
+      "fileName": "00625036.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625036",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56952",
+      "authoritative": true,
+      "created": "2021-03-23T10:36:21+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20970",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6176",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41021",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-03-23T10:11:44+01:00",
+  "date": "2021-03-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41021",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Anpassung der Eintrittspreise des Zoologischen Stadtgartens Karlsruhe",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2021/0380",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

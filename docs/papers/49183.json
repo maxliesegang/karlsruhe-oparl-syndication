@@ -1,0 +1,85 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650704.pdf",
+      "created": "2023-09-19T12:21:07+02:00",
+      "date": "2023-09-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650704.pdf",
+      "fileName": "00650704.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650704",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Ergänzungsantrag: SPD",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650706.pdf",
+      "created": "2023-09-19T12:31:13+02:00",
+      "date": "2023-09-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650706.pdf",
+      "fileName": "00650706.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650706",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655164.pdf",
+      "created": "2024-01-08T14:15:41+01:00",
+      "date": "2024-01-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655164.pdf",
+      "fileName": "00655164.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655164",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 19",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/80326",
+      "authoritative": true,
+      "created": "2023-09-19T12:58:07+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30464",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9049",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49183",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83478",
+      "authoritative": true,
+      "created": "2023-11-20T09:50:04+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30491",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9055",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49183",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-09-19T12:20:14+02:00",
+  "date": "2023-09-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49183",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Fuß- und Radentscheid Karlsruhe – Zulässigkeit und Bewertung des Bürgerbegehrens",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2023/0980/2",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49086"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882951"
+  ]
+}

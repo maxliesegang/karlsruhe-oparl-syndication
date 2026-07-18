@@ -1,0 +1,95 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617845.pdf",
+      "created": "2020-05-29T07:24:49+02:00",
+      "date": "2020-05-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617845.pdf",
+      "fileName": "00617845.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617845",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618784.pdf",
+      "created": "2020-07-10T15:40:06+02:00",
+      "date": "2020-07-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618784.pdf",
+      "fileName": "00618784.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618784",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Umnutzung Parkhäuser",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619596.pdf",
+      "created": "2020-09-16T12:24:40+02:00",
+      "date": "2020-09-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619596.pdf",
+      "fileName": "00619596.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619596",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53251",
+      "authoritative": true,
+      "created": "2020-06-23T13:06:58+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19491",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5667",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39862",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53786",
+      "authoritative": true,
+      "created": "2020-07-22T09:27:35+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19491",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5668",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39862",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54281",
+      "created": "2020-09-04T12:34:33+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19943",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5836",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39862",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-05-29T07:24:25+02:00",
+  "date": "2020-05-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39862",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Konzept und Wettbewerb für Umnutzung von Parkhäusern in der Innenstadt",
+  "paperType": "Antrag",
+  "reference": "2020/0654",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

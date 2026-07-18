@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676971.pdf",
+      "created": "2026-03-09T13:03:01+01:00",
+      "date": "2026-03-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676971.pdf",
+      "fileName": "00676971.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676971",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:45:26+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678042.pdf",
+      "created": "2026-04-29T11:44:09+02:00",
+      "date": "2026-04-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678042.pdf",
+      "fileName": "00678042.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678042",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:45:26+02:00",
+      "name": "Abstimmungsergebnis TOP 17",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678402.pdf",
+      "created": "2026-05-15T10:45:23+02:00",
+      "date": "2026-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678402.pdf",
+      "fileName": "00678402.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678402",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:45:26+02:00",
+      "name": "Protokoll GR 28.04.2026 TOP 17",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101122",
+      "authoritative": true,
+      "created": "2026-04-01T09:53:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37099",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10512",
+      "modified": "2026-05-26T12:02:49+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54339",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-03-09T12:19:51+01:00",
+  "date": "2026-03-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54339",
+  "modified": "2026-05-15T10:45:26+02:00",
+  "name": "Grünwinkel: Weiterentwicklung WestBahnHub - Teileinziehung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0198",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

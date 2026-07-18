@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00606960.pdf",
+      "created": "2018-12-20T14:07:06+01:00",
+      "date": "2018-12-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00606960.pdf",
+      "fileName": "00606960.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/606960",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607470.pdf",
+      "created": "2019-01-15T16:52:04+01:00",
+      "date": "2019-01-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607470.pdf",
+      "fileName": "00607470.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607470",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage TOP 19 Antrag Verkehrschaos Knielingen ANLAGE Antwort PP Karlsruhe",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607473.pdf",
+      "created": "2019-01-16T08:49:05+01:00",
+      "date": "2019-01-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607473.pdf",
+      "fileName": "00607473.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607473",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 19",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607653.pdf",
+      "created": "2019-01-29T14:45:09+01:00",
+      "date": "2019-01-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607653.pdf",
+      "fileName": "00607653.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607653",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 19",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44744",
+      "authoritative": true,
+      "created": "2018-12-21T08:27:25+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16055",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5261",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36917",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-12-20T14:06:24+01:00",
+  "date": "2018-12-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36917",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Verkehrschaos in Knielingen",
+  "paperType": "Antrag",
+  "reference": "2018/0917",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

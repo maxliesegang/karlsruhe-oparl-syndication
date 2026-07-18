@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676373.pdf",
+      "created": "2026-02-03T16:41:05+01:00",
+      "date": "2026-02-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676373.pdf",
+      "fileName": "00676373.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676373",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-13T07:18:16+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676557.pdf",
+      "created": "2026-02-11T15:06:59+01:00",
+      "date": "2026-02-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676557.pdf",
+      "fileName": "00676557.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676557",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-13T07:18:16+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100613",
+      "authoritative": true,
+      "created": "2026-02-24T10:29:55+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36961",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10497",
+      "modified": "2026-03-24T19:21:11+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54235",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-02-03T16:37:44+01:00",
+  "date": "2026-02-03",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54235",
+  "modified": "2026-03-13T07:18:16+01:00",
+  "name": "Umfahrung Hagsfeld",
+  "paperType": "Anfrage",
+  "reference": "2026/0100",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

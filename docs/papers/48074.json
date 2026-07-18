@@ -1,0 +1,73 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644286.pdf",
+      "created": "2023-01-24T11:34:44+01:00",
+      "date": "2023-01-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644286.pdf",
+      "fileName": "00644286.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644286",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644413.pdf",
+      "created": "2023-01-27T10:04:54+01:00",
+      "date": "2023-01-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644413.pdf",
+      "fileName": "00644413.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644413",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme zum Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75442",
+      "authoritative": true,
+      "created": "2023-01-26T12:50:50+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28961",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9082",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48074",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75807",
+      "authoritative": true,
+      "created": "2023-02-08T09:58:49+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29062",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9042",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48074",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-01-24T11:32:54+01:00",
+  "date": "2023-01-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48074",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Weitgehende Gleichstellung der Karlsruher Tagesmütter mit den Erzieher*innen in städtischen Kindertageseinrichtungen",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "ANT/2022/1053/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47433"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37395",
+      "created": "2026-06-09T10:43:48+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102061",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10545",
+      "modified": "2026-06-25T15:15:53+02:00",
+      "name": "Dammerstock Aufstockung Nürnberger Straße 5a",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678562.pdf",
+      "created": "2026-05-20T15:39:50+02:00",
+      "date": "2026-05-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678562.pdf",
+      "fileName": "00678562.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678562",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-09T14:56:07+02:00",
+      "name": "80_Tagesordnung_oeff_2026",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2025-10-10T12:29:57+02:00",
+  "end": "2026-06-26T00:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10545",
+  "location": {
+    "created": "2022-12-29T15:24:53+01:00",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/rm/67922",
+    "locality": "",
+    "modified": "2023-08-21T13:57:08+02:00",
+    "postalCode": "",
+    "room": "Großer Sitzungssaal",
+    "streetAddress": "",
+    "subLocality": "",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-07-09T14:56:07+02:00",
+  "name": "Gestaltungsbeirat (öffentlich/nichtöffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54847"
+  ],
+  "start": "2026-06-26T13:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

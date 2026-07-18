@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661442.pdf",
+      "created": "2024-10-07T19:04:11+02:00",
+      "date": "2024-10-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661442.pdf",
+      "fileName": "00661442.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661442",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663050.pdf",
+      "created": "2024-11-20T14:42:06+01:00",
+      "date": "2024-11-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663050.pdf",
+      "fileName": "00663050.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663050",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 19",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663592.pdf",
+      "created": "2024-12-10T15:02:40+01:00",
+      "date": "2024-12-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663592.pdf",
+      "fileName": "00663592.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663592",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 19.11.2024 TOP 19",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90776",
+      "authoritative": true,
+      "created": "2024-10-22T10:36:44+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32957",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9533",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51060",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-10-02T13:51:33+02:00",
+  "date": "2024-10-02",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51060",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Sanierungsgebiet „Kaiserstraße-West“, Vergabe von Tätigkeiten zur Wertermittlung, Kaufpreisprüfung und Ausgleichsbetragserhebung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/1120",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

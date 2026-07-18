@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656920.pdf",
+      "created": "2024-03-19T17:21:13+01:00",
+      "date": "2024-03-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656920.pdf",
+      "fileName": "00656920.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656920",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658464.pdf",
+      "created": "2024-05-14T20:21:47+02:00",
+      "date": "2024-05-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658464.pdf",
+      "fileName": "00658464.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658464",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659049.pdf",
+      "created": "2024-06-13T16:14:45+02:00",
+      "date": "2024-06-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659049.pdf",
+      "fileName": "00659049.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659049",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 14.05.2024 TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/85996",
+      "authoritative": true,
+      "created": "2024-04-17T13:31:33+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31729",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9526",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50165",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-03-18T16:26:33+01:00",
+  "date": "2024-03-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50165",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Vergabe von Landschaftsbauarbeiten Stuttgarter Straße - Neubau Kleingartenanlage",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0288",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882984"
+  ]
+}

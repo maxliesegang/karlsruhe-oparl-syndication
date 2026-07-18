@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634695.pdf",
+      "created": "2021-12-15T09:42:19+01:00",
+      "date": "2021-12-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634695.pdf",
+      "fileName": "00634695.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634695",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "BA Theodor-Heuss-Allee BA 3 Plan",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634826.pdf",
+      "created": "2021-12-21T08:09:19+01:00",
+      "date": "2021-12-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634826.pdf",
+      "fileName": "00634826.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634826",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "BA Theodor-Heuss-Allee BA 3_ohne Beschluss",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/67248",
+      "authoritative": true,
+      "created": "2021-12-16T11:13:39+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26586",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6632",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46226",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-12-14T09:14:49+01:00",
+  "date": "2021-12-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46226",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Gemeindestraßen, Sanierung der Theodor-Heuss-Allee zwischen Birkenparkplatz und Rintheimer Querallee",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/1524",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

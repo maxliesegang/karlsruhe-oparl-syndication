@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650278.pdf",
+      "created": "2023-08-31T10:55:02+02:00",
+      "date": "2023-08-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650278.pdf",
+      "fileName": "00650278.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650278",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 4 Beschlussvorlage - Konzeptbeschluss Sanierung Pfarrer-Blink-Straße",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/80103",
+      "authoritative": true,
+      "created": "2023-08-30T13:31:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30361",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9291",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49102",
+      "role": "Anhörung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-08-29T13:29:41+02:00",
+  "date": "2023-08-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49102",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Konzeptbeschluss Sanierung Pfarrer-Blink-Straße",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0996",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

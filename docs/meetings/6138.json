@@ -1,0 +1,95 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20499",
+      "created": "2020-12-10T09:49:39+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/55776",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6138",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Rahmenverträge für Persönliche Schutzausrüstung (PSA) und Arbeitskleidung",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20363",
+      "created": "2021-01-04T15:41:19+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/55914",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6138",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Wirtschaftlichkeitsbetrachtung Neubau/Sanierung Badisches Staatstheater",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "erledigt durch Stellungnahme der Verwaltung",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20154",
+      "created": "2020-12-10T09:49:39+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/55777",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6138",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verkauf 1. Grundstück Nr. 1867 mit 623 m², Zähringerstraße 11,13 und 2. Grundstück Nr. 1837  mit 977 m², Fasanenstraße 11 und städtischer Anteil an dem Erbbaurecht an dem Grundstück Nr. 1837 an die AWO Karlsruhe, Erbbauberechtigte:Ziffer 1: AWO Karls",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2021-01-15T17:09:34+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56064",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6138",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "- entfällt -",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2020-09-09T14:41:32+02:00",
+  "end": "2021-01-19T19:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6138",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00622629.pdf",
+    "created": "2021-01-07T08:00:36+01:00",
+    "date": "2021-01-07",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00622629.pdf",
+    "fileName": "00622629.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/622629",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2020-09-09T14:41:32+02:00",
+    "description": "Bürgersaal, Rathaus Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6138",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Hauptausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+  ],
+  "resultsProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00622954.pdf",
+    "created": "2021-01-22T08:52:39+01:00",
+    "date": "2021-01-22",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00622954.pdf",
+    "fileName": "00622954.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/622954",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Anwesenheit (Protokoll)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "start": "2021-01-19T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

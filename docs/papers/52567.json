@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671514.pdf",
+      "created": "2025-11-03T11:59:40+01:00",
+      "date": "2025-11-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671514.pdf",
+      "fileName": "00671514.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671514",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-10T16:24:38+01:00",
+      "name": "Beschlussvorlage Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/97240",
+      "authoritative": true,
+      "created": "2025-10-28T11:28:14+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35153",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9902",
+      "modified": "2025-12-08T13:04:07+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52567",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-03T11:39:32+01:00",
+  "date": "2025-11-03",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52567",
+  "modified": "2025-11-10T16:24:38+01:00",
+  "name": "Haushaltsstabilisierung - Streichung von Sonder- und Jubiläumszuschüssen an Grötzinger Vereine",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1046",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

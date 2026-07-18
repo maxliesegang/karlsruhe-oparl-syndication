@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659327.pdf",
+      "created": "2024-06-27T16:19:28+02:00",
+      "date": "2024-06-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659327.pdf",
+      "fileName": "00659327.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659327",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659635.pdf",
+      "created": "2024-07-16T19:22:34+02:00",
+      "date": "2024-07-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659635.pdf",
+      "fileName": "00659635.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659635",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659971.pdf",
+      "created": "2024-08-05T10:23:13+02:00",
+      "date": "2024-08-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659971.pdf",
+      "fileName": "00659971.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659971",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 16.07.2024 TOP 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/87182",
+      "authoritative": true,
+      "created": "2024-06-18T10:30:26+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32280",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9528",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50561",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-06-12T15:48:45+02:00",
+  "date": "2024-06-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50561",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Feststellung des Nichtvorliegens von Hinderungsgründen für den Eintritt der neu gewählten Mitglieder in den Gemeinderat der Stadt Karlsruhe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0648",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882850"
+  ]
+}

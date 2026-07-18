@@ -1,0 +1,88 @@
+{
+  "agendaItem": [
+    {
+      "created": "2025-09-05T14:53:19+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96139",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10128",
+      "modified": "2025-10-20T09:20:07+02:00",
+      "name": "Bericht aus den Hallen- und Freibädern - mündlicher Bericht",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34916",
+      "created": "2025-09-05T14:53:19+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96140",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10128",
+      "modified": "2025-10-20T09:19:52+02:00",
+      "name": "Neufestsetzung der Tarife Therme Vierordtbad und städtische Hallen- und Freibäder zum 01.01.2026",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "verwiesen in den Gemeinderat",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-09-05T14:59:08+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96142",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10128",
+      "modified": "2025-10-20T09:20:36+02:00",
+      "name": "Mitteilungen Bürgermeisteramt",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675464.pdf",
+      "created": "2025-12-19T11:29:13+01:00",
+      "date": "2025-12-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675464.pdf",
+      "fileName": "00675464.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675464",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-19T11:29:39+01:00",
+      "name": "2025-10-17 - BäA 23. öffentliche Niederschrift",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2024-10-17T13:40:34+02:00",
+  "end": "2025-10-17T17:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10128",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670472.pdf",
+    "created": "2025-09-29T10:40:55+02:00",
+    "date": "2025-09-29",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670472.pdf",
+    "fileName": "00670472.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670472",
+    "mimeType": "application/pdf",
+    "modified": "2025-10-11T14:23:27+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2022-12-12T11:11:26+01:00",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/rm/67907",
+    "locality": "",
+    "modified": "2025-08-05T10:18:13+02:00",
+    "postalCode": "",
+    "room": "Bürgersaal",
+    "streetAddress": "",
+    "subLocality": "",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-10-20T09:18:45+02:00",
+  "name": "Bäderausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54833"
+  ],
+  "start": "2025-10-17T15:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667726.pdf",
+      "created": "2025-06-05T08:52:06+02:00",
+      "date": "2025-06-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667726.pdf",
+      "fileName": "00667726.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667726",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-17T11:56:53+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94869",
+      "created": "2025-06-27T09:55:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34373",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10051",
+      "modified": "2025-07-17T11:48:25+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52020",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-06-05T08:30:25+02:00",
+  "date": "2025-06-05",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52020",
+  "modified": "2025-07-22T08:43:19+02:00",
+  "name": "Ausrichtung von „The World Games 2029“ durch die Stadt Karlsruhe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0557",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

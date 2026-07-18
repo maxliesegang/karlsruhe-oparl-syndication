@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676804.pdf",
+      "created": "2026-02-25T07:16:55+01:00",
+      "date": "2026-02-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676804.pdf",
+      "fileName": "00676804.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676804",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:49:24+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677390.pdf",
+      "created": "2026-03-31T09:09:56+02:00",
+      "date": "2026-03-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677390.pdf",
+      "fileName": "00677390.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677390",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:49:24+02:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678414.pdf",
+      "created": "2026-05-15T10:49:22+02:00",
+      "date": "2026-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678414.pdf",
+      "fileName": "00678414.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678414",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:49:24+02:00",
+      "name": "Protokoll GR 28.04.2026 TOP 28",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101141",
+      "authoritative": true,
+      "created": "2026-04-01T09:53:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37051",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10512",
+      "modified": "2026-05-26T12:02:49+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54300",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-02-25T07:16:12+01:00",
+  "date": "2026-02-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54300",
+  "modified": "2026-05-15T10:49:24+02:00",
+  "name": "Entwicklung der Stadtteilfriedhöfe",
+  "paperType": "Anfrage",
+  "reference": "2026/0162",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882977"
+  ]
+}

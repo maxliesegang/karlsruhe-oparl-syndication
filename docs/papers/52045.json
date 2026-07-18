@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667892.pdf",
+      "created": "2025-06-12T07:16:07+02:00",
+      "date": "2025-06-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667892.pdf",
+      "fileName": "00667892.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667892",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-04T13:50:49+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94048",
+      "created": "2025-05-27T09:16:21+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34409",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10118",
+      "modified": "2025-06-12T10:38:12+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/39759"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52045",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-06-12T07:15:18+02:00",
+  "date": "2025-06-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52045",
+  "modified": "2025-07-04T13:50:49+02:00",
+  "name": "Jahresbericht der Staatsangehörigkeitsbehörde",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/0579",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

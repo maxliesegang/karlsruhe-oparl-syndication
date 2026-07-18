@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00601833.pdf",
+      "created": "2018-03-08T12:16:12+01:00",
+      "date": "2018-03-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00601833.pdf",
+      "fileName": "00601833.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/601833",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Interfrakt. Mittel Clearingstelle",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00601907.pdf",
+      "created": "2018-03-12T14:00:23+01:00",
+      "date": "2018-03-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00601907.pdf",
+      "fileName": "00601907.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/601907",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 17",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00602469.pdf",
+      "created": "2018-04-11T12:30:54+02:00",
+      "date": "2018-04-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00602469.pdf",
+      "fileName": "00602469.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/602469",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 17",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/42228",
+      "authoritative": true,
+      "created": "2018-02-20T10:21:51+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15012",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4925",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36115",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-02-09T09:12:09+01:00",
+  "date": "2018-02-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36115",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Erhöhung der Mittel Clearingstelle SkF/akuter Bedarf",
+  "paperType": "Antrag",
+  "reference": "2018/0064",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

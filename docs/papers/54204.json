@@ -1,0 +1,92 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676151.pdf",
+      "created": "2026-01-27T12:07:57+01:00",
+      "date": "2026-01-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676151.pdf",
+      "fileName": "00676151.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676151",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:19:05+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676831.pdf",
+      "created": "2026-02-26T10:04:20+01:00",
+      "date": "2026-02-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676831.pdf",
+      "fileName": "00676831.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676831",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:19:05+02:00",
+      "name": "Lageplan",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676832.pdf",
+      "created": "2026-02-26T10:04:38+01:00",
+      "date": "2026-02-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676832.pdf",
+      "fileName": "00676832.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676832",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:19:05+02:00",
+      "name": "Luftbild",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677312.pdf",
+      "created": "2026-03-26T14:00:05+01:00",
+      "date": "2026-03-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677312.pdf",
+      "fileName": "00677312.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677312",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:19:05+02:00",
+      "name": "Abstimmungsergebnis",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677569.pdf",
+      "created": "2026-04-09T10:19:02+02:00",
+      "date": "2026-04-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677569.pdf",
+      "fileName": "00677569.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677569",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:19:05+02:00",
+      "name": "Protokoll GR 24.03.2026 TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100687",
+      "authoritative": true,
+      "created": "2026-03-02T08:29:43+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36919",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10497",
+      "modified": "2026-03-24T18:45:45+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54204",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-01-27T11:58:43+01:00",
+  "date": "2026-02-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54204",
+  "modified": "2026-04-09T10:19:05+02:00",
+  "name": "Verkauf des Grundstücks Nr. 11924 mit 1.371 m² Gebäude- und Freifläche, Blütenweg 28",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0069",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

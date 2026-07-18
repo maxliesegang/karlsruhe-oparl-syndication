@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614631.pdf",
+      "created": "2020-01-31T12:20:45+01:00",
+      "date": "2020-01-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614631.pdf",
+      "fileName": "00614631.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614631",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Vergabe Straßenkehricht",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615335.pdf",
+      "created": "2020-03-09T14:29:32+01:00",
+      "date": "2020-03-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615335.pdf",
+      "fileName": "00615335.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615335",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 5",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/49336",
+      "authoritative": true,
+      "created": "2020-01-14T08:10:59+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17652",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5652",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38233",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-01-13T11:42:15+01:00",
+  "date": "2020-01-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38233",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Auftragsvergabe für die Annahme, Verwertung und Entsorgung von Straßenkehricht",
+  "paperType": "Beschlussvorlage",
+  "reference": "2020/0020",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

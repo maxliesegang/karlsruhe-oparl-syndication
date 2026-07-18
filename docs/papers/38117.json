@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612847.pdf",
+      "created": "2019-12-09T09:32:44+01:00",
+      "date": "2019-12-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612847.pdf",
+      "fileName": "00612847.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612847",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612873.pdf",
+      "created": "2019-12-10T15:27:43+01:00",
+      "date": "2019-12-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612873.pdf",
+      "fileName": "00612873.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612873",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 17.1 AfD",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612947.pdf",
+      "created": "2019-12-12T10:20:41+01:00",
+      "date": "2019-12-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612947.pdf",
+      "fileName": "00612947.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612947",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis_Top17Afd",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47971",
+      "authoritative": true,
+      "created": "2019-12-09T11:08:05+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17516",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5444",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38117",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-12-09T09:31:58+01:00",
+  "date": "2019-12-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38117",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Lärmaktionsplan - Anpassung",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2019/1255",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

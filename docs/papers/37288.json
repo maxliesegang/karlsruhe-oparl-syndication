@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610088.pdf",
+      "created": "2019-06-14T08:27:36+02:00",
+      "date": "2019-06-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610088.pdf",
+      "fileName": "00610088.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610088",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 4 Beschlussvorlage_Leitlinien gg Kinderarmut",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610219.pdf",
+      "created": "2019-06-26T10:16:53+02:00",
+      "date": "2019-06-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610219.pdf",
+      "fileName": "00610219.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610219",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610623.pdf",
+      "created": "2019-07-30T11:06:57+02:00",
+      "date": "2019-07-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610623.pdf",
+      "fileName": "00610623.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610623",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45787",
+      "created": "2019-04-29T15:14:26+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16504",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5328",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37288",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46097",
+      "authoritative": true,
+      "created": "2019-05-28T12:51:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16505",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5344",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37288",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-04-11T15:13:22+02:00",
+  "date": "2019-04-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37288",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Leitlinien gegen Kinderarmut: Fortschreibung 2019",
+  "paperType": "Beschlussvorlage",
+  "reference": "2019/0383",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

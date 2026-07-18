@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612615.pdf",
+      "created": "2019-11-25T15:10:42+01:00",
+      "date": "2019-11-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612615.pdf",
+      "fileName": "00612615.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612615",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Jahresabschluss 2018",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612929.pdf",
+      "created": "2019-12-12T10:05:11+01:00",
+      "date": "2019-12-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612929.pdf",
+      "fileName": "00612929.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612929",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis_Top1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614543.pdf",
+      "created": "2020-01-28T14:54:08+01:00",
+      "date": "2020-01-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614543.pdf",
+      "fileName": "00614543.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614543",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47711",
+      "authoritative": true,
+      "created": "2019-11-13T08:54:16+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17304",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5444",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37955",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-11-04T11:17:17+01:00",
+  "date": "2019-11-04",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37955",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Jahresabschluss 2018: Feststellung des Jahresabschlusses der Stadt Karlsruhe für das Haushaltsjahr 2018",
+  "paperType": "Beschlussvorlage",
+  "reference": "2019/1092",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

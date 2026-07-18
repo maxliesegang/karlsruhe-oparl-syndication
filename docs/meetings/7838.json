@@ -1,0 +1,59 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21962",
+      "created": "2021-11-15T14:19:18+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/65637",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7838",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Zukunft_Schule",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/22036",
+      "created": "2021-11-15T14:19:18+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/65638",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7838",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Bebauungsplan „Hanggebiet Durlach – Bereich D“, Karlsruhe-Durlach hier: Aufstellungsbeschluss gemäß § 2 Abs. 1 BauGB",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2021-10-28T12:38:24+02:00",
+  "end": "2021-11-26T19:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7838",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00631166.pdf",
+    "created": "2021-11-03T13:56:23+01:00",
+    "date": "2021-11-15",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00631166.pdf",
+    "fileName": "00631166.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/631166",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2021-10-28T12:38:24+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/7838",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Planungsausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+  ],
+  "start": "2021-11-26T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

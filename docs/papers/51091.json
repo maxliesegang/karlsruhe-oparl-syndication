@@ -1,0 +1,107 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661531.pdf",
+      "created": "2024-10-10T19:20:33+02:00",
+      "date": "2024-10-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661531.pdf",
+      "fileName": "00661531.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661531",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661533.pdf",
+      "created": "2024-10-10T19:25:35+02:00",
+      "date": "2024-10-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661533.pdf",
+      "fileName": "00661533.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661533",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage-Plan",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663826.pdf",
+      "created": "2024-12-17T19:35:28+01:00",
+      "date": "2024-12-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663826.pdf",
+      "fileName": "00663826.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663826",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmung TOP 20",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664083.pdf",
+      "created": "2025-01-09T11:11:22+01:00",
+      "date": "2025-01-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664083.pdf",
+      "fileName": "00664083.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664083",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 17.12.2024 TOP 20",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90728",
+      "authoritative": true,
+      "created": "2024-10-18T12:09:53+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33005",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9568",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51091",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91304",
+      "authoritative": true,
+      "created": "2024-11-20T08:53:10+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33007",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9534",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51091",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91511",
+      "created": "2024-11-28T14:41:56+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33006",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9822",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34531"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51091",
+      "role": "Anhörung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-10-10T19:12:48+02:00",
+  "date": "2024-10-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51091",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Änderung der Schulbezirke der Nordschule Neureut und der Südschule Neureut",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/1150",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

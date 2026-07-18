@@ -1,0 +1,92 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00645501.pdf",
+      "created": "2023-03-03T11:21:04+01:00",
+      "date": "2023-03-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00645501.pdf",
+      "fileName": "00645501.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/645501",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00645547.pdf",
+      "created": "2023-03-06T15:57:38+01:00",
+      "date": "2023-03-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00645547.pdf",
+      "fileName": "00645547.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/645547",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1_Weiterführung einer Wertstofftonne",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00645548.pdf",
+      "created": "2023-03-06T15:57:56+01:00",
+      "date": "2023-03-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00645548.pdf",
+      "fileName": "00645548.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/645548",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 2_Einführung einer gelben Tonne",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646145.pdf",
+      "created": "2023-03-29T10:33:53+02:00",
+      "date": "2023-03-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646145.pdf",
+      "fileName": "00646145.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646145",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 13",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646541.pdf",
+      "created": "2023-04-13T12:44:34+02:00",
+      "date": "2023-04-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646541.pdf",
+      "fileName": "00646541.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646541",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 13",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/76202",
+      "authoritative": true,
+      "created": "2023-03-01T11:10:42+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28979",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9043",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48088",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-01-25T15:35:30+01:00",
+  "date": "2023-01-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48088",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Abstimmungsvereinbarung nach § 22 Verpackungsgesetz mit den Betreibern Dualer Systeme (BDS) ab 2024",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0086",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

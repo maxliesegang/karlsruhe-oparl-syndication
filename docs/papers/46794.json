@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00637502.pdf",
+      "created": "2022-05-03T12:03:19+02:00",
+      "date": "2022-05-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00637502.pdf",
+      "fileName": "00637502.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/637502",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638239.pdf",
+      "created": "2022-06-09T08:34:41+02:00",
+      "date": "2022-06-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638239.pdf",
+      "fileName": "00638239.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638239",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638415.pdf",
+      "created": "2022-06-17T09:17:40+02:00",
+      "date": "2022-06-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638415.pdf",
+      "fileName": "00638415.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638415",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 31.05.2022 TOP 22",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/69932",
+      "created": "2022-05-04T07:28:26+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27296",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6590",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46794",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70402",
+      "created": "2022-06-09T08:06:05+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27316",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6659",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46794",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-05-03T12:02:53+02:00",
+  "date": "2022-05-03",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46794",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Nachhaltigen Holzeinschlag im Stadtwald dauerhaft sicherstellen",
+  "paperType": "Antrag",
+  "reference": "2022/0490",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883003"
+  ]
+}

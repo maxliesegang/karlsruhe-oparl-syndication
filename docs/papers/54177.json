@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675952.pdf",
+      "created": "2026-01-22T14:08:13+01:00",
+      "date": "2026-01-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675952.pdf",
+      "fileName": "00675952.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675952",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-13T08:50:42+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677052.pdf",
+      "created": "2026-03-13T08:50:40+01:00",
+      "date": "2026-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677052.pdf",
+      "fileName": "00677052.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677052",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-13T08:50:42+01:00",
+      "name": "Protokoll GR 24.02.2026 TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100176",
+      "authoritative": true,
+      "created": "2026-01-27T11:08:30+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36881",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10476",
+      "modified": "2026-02-24T17:07:22+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54177",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-01-22T14:05:01+01:00",
+  "date": "2026-01-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54177",
+  "modified": "2026-03-13T08:50:42+01:00",
+  "name": "Vergabe der Lieferung von Mittagsverpflegung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0049",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

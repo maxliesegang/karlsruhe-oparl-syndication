@@ -1,0 +1,103 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00602946.pdf",
+      "created": "2018-04-27T08:31:39+02:00",
+      "date": "2018-04-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00602946.pdf",
+      "fileName": "00602946.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/602946",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1 Kleingartenbeirat",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00602954.pdf",
+      "created": "2018-04-27T09:14:01+02:00",
+      "date": "2018-04-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00602954.pdf",
+      "fileName": "00602954.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/602954",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Kleingartenbeirat",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00603146.pdf",
+      "created": "2018-05-11T09:17:18+02:00",
+      "date": "2018-05-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00603146.pdf",
+      "fileName": "00603146.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/603146",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Kleingartenbeirat_Anlage 2 NEU",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00603197.pdf",
+      "created": "2018-05-16T11:11:08+02:00",
+      "date": "2018-05-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00603197.pdf",
+      "fileName": "00603197.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/603197",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00603458.pdf",
+      "created": "2018-06-05T11:10:03+02:00",
+      "date": "2018-06-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00603458.pdf",
+      "fileName": "00603458.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/603458",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2018-04-10T10:15:46+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15198",
+      "modified": "2018-11-28T14:19:31+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36259",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/42935",
+      "authoritative": true,
+      "created": "2018-04-30T11:38:02+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15200",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5008",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36259",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-04-10T10:15:10+02:00",
+  "date": "2018-04-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36259",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bildung, Zusammensetzung und Richtlinien für den Kleingartenbeirat",
+  "paperType": "Beschlussvorlage",
+  "reference": "2018/0212",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882984"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670477.pdf",
+      "created": "2025-09-29T13:28:44+02:00",
+      "date": "2025-09-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670477.pdf",
+      "fileName": "00670477.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670477",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-27T12:23:15+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671327.pdf",
+      "created": "2025-10-27T12:23:12+01:00",
+      "date": "2025-10-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671327.pdf",
+      "fileName": "00671327.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671327",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-27T12:23:15+01:00",
+      "name": "Protokoll HFA 14.10.2025 TOP 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96514",
+      "authoritative": true,
+      "created": "2025-09-29T09:20:37+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34944",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10041",
+      "modified": "2025-10-15T08:35:09+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52427",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-09-29T08:08:28+02:00",
+  "date": "2025-09-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52427",
+  "modified": "2025-10-27T12:23:14+01:00",
+  "name": "Annahme des Angebots von Zuwendungen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0922",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

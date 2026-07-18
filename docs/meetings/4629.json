@@ -1,0 +1,71 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14635",
+      "created": "2017-09-13T12:38:57+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41207",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4629",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Kriegsstraße 23-25, Motel One: Ergebnis Mehrfachbeauftragung \"Kriegsstraße 23 u. 25\", Auftrag vorhabenbezogener Bebauungsplan",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14636",
+      "created": "2017-09-13T12:38:57+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41208",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4629",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Vorhabenbezogener Bebauungsplan \"Kriegsstraße 23-25\", Karlsruher Südweststadt hier: Aufstellungsbeschluss gem. § 2Abs. 1 BauGB",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00599295.pdf",
+      "created": "2017-09-13T13:05:34+02:00",
+      "date": "2017-09-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00599295.pdf",
+      "fileName": "00599295.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/599295",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Tagesordnung ö",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00599825.pdf",
+      "created": "2017-10-18T13:34:20+02:00",
+      "date": "2017-10-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00599825.pdf",
+      "fileName": "00599825.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/599825",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Niederschrift öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2016-10-12T09:08:39+02:00",
+  "end": "2017-09-21T19:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4629",
+  "location": {
+    "created": "2016-10-12T09:08:39+02:00",
+    "description": "Großer Sitzungssaal, Rathaus Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/4629",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Planungsausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+  ],
+  "start": "2017-09-21T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

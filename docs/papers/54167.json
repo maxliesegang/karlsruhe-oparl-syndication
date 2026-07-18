@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676505.pdf",
+      "created": "2026-02-10T12:29:50+01:00",
+      "date": "2026-02-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676505.pdf",
+      "fileName": "00676505.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676505",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-29T09:25:12+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676824.pdf",
+      "created": "2026-02-25T16:14:23+01:00",
+      "date": "2026-02-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676824.pdf",
+      "fileName": "00676824.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676824",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-29T09:25:12+02:00",
+      "name": "Anlage 1-Konzeptbeschluss-Präsentation ohne Grundrisse",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100326",
+      "created": "2026-02-04T13:09:18+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36869",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10488",
+      "modified": "2026-03-13T10:10:21+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54167",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-01-21T11:08:25+01:00",
+  "date": "2026-01-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54167",
+  "modified": "2026-04-29T09:25:12+02:00",
+  "name": "Konzeptbeschluss Vogesenschule",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0040",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

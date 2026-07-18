@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665418.pdf",
+      "created": "2025-03-07T06:23:22+01:00",
+      "date": "2025-03-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665418.pdf",
+      "fileName": "00665418.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665418",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-24T12:33:12+01:00",
+      "name": "Plan",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665771.pdf",
+      "created": "2025-03-19T10:32:48+01:00",
+      "date": "2025-03-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665771.pdf",
+      "fileName": "00665771.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665771",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-24T12:33:12+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92742",
+      "created": "2025-03-05T15:27:13+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33807",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10068",
+      "modified": "2025-04-14T12:54:04+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51636",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-02-28T13:00:59+01:00",
+  "date": "2025-02-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51636",
+  "modified": "2025-03-24T12:33:12+01:00",
+  "name": "Abwasserbeseitigung, Netzsanierung Kernstadt",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0209",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

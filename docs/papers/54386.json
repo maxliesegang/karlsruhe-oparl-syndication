@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677225.pdf",
+      "created": "2026-03-23T16:19:31+01:00",
+      "date": "2026-03-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677225.pdf",
+      "fileName": "00677225.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677225",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-24T15:51:51+01:00",
+      "name": "Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677230.pdf",
+      "created": "2026-03-23T19:31:55+01:00",
+      "date": "2026-03-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677230.pdf",
+      "fileName": "00677230.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677230",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-24T15:51:51+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100912",
+      "authoritative": true,
+      "created": "2026-03-24T07:32:51+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37163",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10497",
+      "modified": "2026-03-24T18:36:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54386",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-03-23T16:18:34+01:00",
+  "date": "2026-03-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54386",
+  "modified": "2026-03-31T08:09:37+02:00",
+  "name": "Werbeanlagensatzung Innenstadt Karlsruhe",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2025/0716/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52194"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882951"
+  ]
+}

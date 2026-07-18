@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636187.pdf",
+      "created": "2022-03-01T12:35:06+01:00",
+      "date": "2022-03-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636187.pdf",
+      "fileName": "00636187.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636187",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636635.pdf",
+      "created": "2022-03-18T15:57:17+01:00",
+      "date": "2022-03-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636635.pdf",
+      "fileName": "00636635.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636635",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00637245.pdf",
+      "created": "2022-04-21T11:21:29+02:00",
+      "date": "2022-04-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00637245.pdf",
+      "fileName": "00637245.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/637245",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 29.03.2022 TOP 26",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/68811",
+      "authoritative": true,
+      "created": "2022-03-01T12:53:33+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26947",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6610",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46531",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-03-01T12:34:11+01:00",
+  "date": "2022-03-01",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46531",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Kurzfristiger Rückbau der eingezäunten Hundefreilauffläche in Mühlburg, deren Errichtung der Oberbürgermeister dem Gemeinderat zugesagt hatte, und Errichtung einer neuen eingezäunten Hundeauslauffläche",
+  "paperType": "Anfrage",
+  "reference": "2022/0242",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882984"
+  ]
+}

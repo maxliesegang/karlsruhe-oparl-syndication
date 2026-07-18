@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643520.pdf",
+      "created": "2022-12-19T16:03:53+01:00",
+      "date": "2022-12-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643520.pdf",
+      "fileName": "00643520.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643520",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643521.pdf",
+      "created": "2022-12-19T16:04:33+01:00",
+      "date": "2022-12-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643521.pdf",
+      "fileName": "00643521.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643521",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Konzept",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643522.pdf",
+      "created": "2022-12-19T16:05:45+01:00",
+      "date": "2022-12-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643522.pdf",
+      "fileName": "00643522.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643522",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN Kom. Behindertenbeauftragte",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/74814",
+      "created": "2022-12-19T17:20:00+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28805",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9082",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47951",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-12-19T15:53:12+01:00",
+  "date": "2022-12-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47951",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Poollösung bei Schulbegleitung",
+  "paperType": "Informationsvorlage",
+  "reference": "2022/2463",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

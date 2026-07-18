@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671940.pdf",
+      "created": "2025-11-17T15:01:41+01:00",
+      "date": "2025-11-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671940.pdf",
+      "fileName": "00671940.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671940",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-08T16:01:56+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99241",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:27+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35253",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-16T10:33:44+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52632",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-17T14:49:32+01:00",
+  "date": "2025-11-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52632",
+  "modified": "2025-12-08T16:01:56+01:00",
+  "name": "HHS4_GR3 - Reduzierung der Zuschüsse an die Bürgervereine / Arbeitsgemeinschaft Karlsruher Bürgervereine",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1098",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

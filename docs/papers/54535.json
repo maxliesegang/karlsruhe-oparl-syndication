@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678235.pdf",
+      "created": "2026-05-08T15:18:57+02:00",
+      "date": "2026-05-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678235.pdf",
+      "fileName": "00678235.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678235",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-11T14:08:07+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679023.pdf",
+      "created": "2026-06-11T14:08:04+02:00",
+      "date": "2026-06-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679023.pdf",
+      "fileName": "00679023.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679023",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-11T14:08:07+02:00",
+      "name": "Protokoll HFA 09.06.2026 TOP 5",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101717",
+      "authoritative": true,
+      "created": "2026-05-12T11:55:23+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37388",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10529",
+      "modified": "2026-06-10T07:01:53+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54535",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-05-07T14:44:02+02:00",
+  "date": "2026-05-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54535",
+  "modified": "2026-06-11T14:08:06+02:00",
+  "name": "Mitgliedschaft im KOSIS-Verbund e. V. und den daraus entwickelten, für die Stadt Karlsruhe erforderlichen KOSIS-Gemeinschaften",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0370",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882965"
+  ]
+}

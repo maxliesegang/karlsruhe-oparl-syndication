@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646707.pdf",
+      "created": "2023-04-19T17:07:59+02:00",
+      "date": "2023-04-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646707.pdf",
+      "fileName": "00646707.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646707",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647579.pdf",
+      "created": "2023-05-25T08:55:30+02:00",
+      "date": "2023-05-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647579.pdf",
+      "fileName": "00647579.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647579",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 3 HA_09.05.2023",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/77038",
+      "authoritative": true,
+      "created": "2023-04-20T15:57:02+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29517",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9061",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48502",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-04-19T16:51:54+02:00",
+  "date": "2023-04-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48502",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Renate-und-Rolf-G.-Brenkmann-Stiftung (unselbständige Stiftung), Sanierung der Stiftungsimmobilie \"Bürklinstraße 4\"",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0436",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

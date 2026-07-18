@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666379.pdf",
+      "created": "2025-04-11T11:37:50+02:00",
+      "date": "2025-04-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666379.pdf",
+      "fileName": "00666379.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666379",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-27T08:38:07+02:00",
+      "name": "Informationsvorlage Wettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93267",
+      "authoritative": true,
+      "created": "2025-04-11T11:54:55+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34029",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10211",
+      "modified": "2025-07-09T08:16:12+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51783",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-04-11T11:27:36+02:00",
+  "date": "2025-04-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51783",
+  "modified": "2025-06-27T08:38:07+02:00",
+  "name": "Kriminalstatistik des Polizeireviers Karlsruhe-Durlach für die beiden Stadtteile Grünwettersbach und Palmbach 2024",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/0340",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882961"
+  ]
+}

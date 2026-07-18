@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609657.pdf",
+      "created": "2019-05-10T14:48:44+02:00",
+      "date": "2019-05-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609657.pdf",
+      "fileName": "00609657.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609657",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610097.pdf",
+      "created": "2019-06-14T09:37:13+02:00",
+      "date": "2019-06-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610097.pdf",
+      "fileName": "00610097.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610097",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 11",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610663.pdf",
+      "created": "2019-08-02T11:43:09+02:00",
+      "date": "2019-08-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610663.pdf",
+      "fileName": "00610663.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610663",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 11",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46107",
+      "authoritative": true,
+      "created": "2019-05-28T12:51:18+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16642",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5344",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37410",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-05-10T14:47:25+02:00",
+  "date": "2019-05-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37410",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Faires Bauen und Wohnen für alle",
+  "paperType": "Antrag",
+  "reference": "2019/0507",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

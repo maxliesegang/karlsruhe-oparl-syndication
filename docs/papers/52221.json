@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669173.pdf",
+      "created": "2025-07-30T11:46:15+02:00",
+      "date": "2025-07-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669173.pdf",
+      "fileName": "00669173.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669173",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:27:52+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669345.pdf",
+      "created": "2025-08-08T17:54:13+02:00",
+      "date": "2025-08-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669345.pdf",
+      "fileName": "00669345.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669345",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:27:52+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670969.pdf",
+      "created": "2025-10-17T10:27:46+02:00",
+      "date": "2025-10-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670969.pdf",
+      "fileName": "00670969.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670969",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:27:52+02:00",
+      "name": "Protokoll GR 30.09.2025 TOP 27",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95966",
+      "authoritative": true,
+      "created": "2025-08-29T08:53:33+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34649",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10052",
+      "modified": "2025-09-30T18:47:15+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52221",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96217",
+      "created": "2025-09-15T07:32:26+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34843",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10080",
+      "modified": "2025-10-16T08:10:53+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52221",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-07-30T11:44:56+02:00",
+  "date": "2025-07-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52221",
+  "modified": "2025-10-17T10:27:52+02:00",
+  "name": "Radinfrastruktur verbessern: Gemeinsame Entwicklung von Protected Bike Lanes",
+  "paperType": "Antrag",
+  "reference": "2025/0735",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659685.pdf",
+      "created": "2024-07-17T22:59:58+02:00",
+      "date": "2024-07-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659685.pdf",
+      "fileName": "00659685.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659685",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661180.pdf",
+      "created": "2024-09-25T17:45:51+02:00",
+      "date": "2024-09-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661180.pdf",
+      "fileName": "00661180.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661180",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "2024-09-24 top3-26",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/89689",
+      "authoritative": true,
+      "created": "2024-08-22T10:16:01+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32508",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9531",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50720",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-07-17T22:59:07+02:00",
+  "date": "2024-07-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50720",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bestellung der Mitglieder des Aufsichtsrates der Karlsruher Fächer GmbH & Co. Stadtentwicklungs-KG",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0798",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

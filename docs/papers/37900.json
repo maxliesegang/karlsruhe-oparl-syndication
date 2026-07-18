@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611713.pdf",
+      "created": "2019-10-18T11:11:05+02:00",
+      "date": "2019-10-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611713.pdf",
+      "fileName": "00611713.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611713",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612268.pdf",
+      "created": "2019-11-15T14:09:10+01:00",
+      "date": "2019-11-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612268.pdf",
+      "fileName": "00612268.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612268",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 28",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00613185.pdf",
+      "created": "2020-01-07T09:58:56+01:00",
+      "date": "2020-01-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00613185.pdf",
+      "fileName": "00613185.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/613185",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 28",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47421",
+      "authoritative": true,
+      "created": "2019-10-24T08:46:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17244",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5423",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37900",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-10-18T11:09:54+02:00",
+  "date": "2019-10-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37900",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Ausweitung von Anwohnerparkzonen im gesamten innerstädtischen Bezirk",
+  "paperType": "Antrag",
+  "reference": "2019/1030",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

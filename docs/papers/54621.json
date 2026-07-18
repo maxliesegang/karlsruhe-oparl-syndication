@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678750.pdf",
+      "created": "2026-05-29T11:29:29+02:00",
+      "date": "2026-05-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678750.pdf",
+      "fileName": "00678750.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678750",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-15T09:20:52+02:00",
+      "name": "Antrag Wettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679053.pdf",
+      "created": "2026-06-12T10:02:58+02:00",
+      "date": "2026-06-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679053.pdf",
+      "fileName": "00679053.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679053",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-15T09:20:51+02:00",
+      "name": "Stellungnahme Antrag Wettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102535",
+      "created": "2026-07-09T08:20:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37516",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10458",
+      "modified": "2026-07-09T08:20:16+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54621",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-05-29T11:28:31+02:00",
+  "date": "2026-05-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54621",
+  "modified": "2026-07-15T09:20:51+02:00",
+  "name": "Neue Radwegplanung L623 zwischen Grünwettersbach–Wolfartsweier Antrag der SPD/FDP-Ortschaftsratsfraktion Wettersbach",
+  "paperType": "Antrag",
+  "reference": "2026/0454",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882961"
+  ]
+}

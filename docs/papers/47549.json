@@ -1,0 +1,94 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00641091.pdf",
+      "created": "2022-09-29T12:34:02+02:00",
+      "date": "2022-09-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00641091.pdf",
+      "fileName": "00641091.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/641091",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642526.pdf",
+      "created": "2022-11-14T10:09:37+01:00",
+      "date": "2022-11-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642526.pdf",
+      "fileName": "00642526.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642526",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme EhrenamtsKarte",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643284.pdf",
+      "created": "2022-12-09T08:36:35+01:00",
+      "date": "2022-12-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643284.pdf",
+      "fileName": "00643284.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643284",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 15.11.2022 TOP 18",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643681.pdf",
+      "created": "2022-12-27T08:08:44+01:00",
+      "date": "2022-12-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643681.pdf",
+      "fileName": "00643681.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643681",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 3 HA_06_12_2022",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/73373",
+      "authoritative": true,
+      "created": "2022-10-20T10:54:05+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28223",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6605",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47549",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/73861",
+      "authoritative": true,
+      "created": "2022-11-04T15:47:07+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28234",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6606",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47549",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-09-29T12:33:16+02:00",
+  "date": "2022-09-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47549",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "EhrenamtsKArte - Ehrenamt kann sich lohnen",
+  "paperType": "Antrag",
+  "reference": "2022/2084",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882965"
+  ]
+}

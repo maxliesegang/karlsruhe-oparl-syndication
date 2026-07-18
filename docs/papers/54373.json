@@ -1,0 +1,71 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677160.pdf",
+      "created": "2026-03-19T12:51:40+01:00",
+      "date": "2026-03-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677160.pdf",
+      "fileName": "00677160.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677160",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-26T14:05:49+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677226.pdf",
+      "created": "2026-03-23T16:37:44+01:00",
+      "date": "2026-03-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677226.pdf",
+      "fileName": "00677226.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677226",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-26T14:05:49+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677317.pdf",
+      "created": "2026-03-26T14:05:45+01:00",
+      "date": "2026-03-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677317.pdf",
+      "fileName": "00677317.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677317",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-26T14:05:49+01:00",
+      "name": "Abstimmungsergebnis Top 16.1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100865",
+      "authoritative": true,
+      "created": "2026-03-19T13:46:05+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37144",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10497",
+      "modified": "2026-03-24T19:31:01+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54373",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-03-19T12:51:11+01:00",
+  "date": "2026-03-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54373",
+  "modified": "2026-03-26T14:05:49+01:00",
+  "name": "Satzung zur Änderung der Satzung der Stadt Karlsruhe über Parkgebühren (Parkgebührensatzung)",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2026/0072/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54207"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

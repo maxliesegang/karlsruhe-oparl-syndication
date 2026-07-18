@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619295.pdf",
+      "created": "2020-09-03T09:19:40+02:00",
+      "date": "2020-09-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619295.pdf",
+      "fileName": "00619295.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619295",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Sicherheits- und Pfortendienst Männerhwohnheim",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619850.pdf",
+      "created": "2020-10-01T09:17:28+02:00",
+      "date": "2020-10-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619850.pdf",
+      "fileName": "00619850.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619850",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll HA TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54060",
+      "authoritative": true,
+      "created": "2020-08-20T13:44:46+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19897",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5657",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40182",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-08-20T13:35:06+02:00",
+  "date": "2020-08-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40182",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Sicherheits - und Pfortendienst Männerwohnheim der Stadt Karlsruhe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2020/0972",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

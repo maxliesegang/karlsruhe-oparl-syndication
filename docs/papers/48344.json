@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646273.pdf",
+      "created": "2023-04-03T17:21:33+02:00",
+      "date": "2023-04-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646273.pdf",
+      "fileName": "00646273.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646273",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646883.pdf",
+      "created": "2023-04-27T11:55:12+02:00",
+      "date": "2023-04-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646883.pdf",
+      "fileName": "00646883.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646883",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647432.pdf",
+      "created": "2023-05-22T11:41:05+02:00",
+      "date": "2023-05-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647432.pdf",
+      "fileName": "00647432.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647432",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/76540",
+      "authoritative": true,
+      "created": "2023-03-28T12:58:58+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29305",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9044",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48344",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-03-14T16:16:06+01:00",
+  "date": "2023-03-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48344",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Vergabe von Postdienstleistungen, Beförderung und Zustellung von Brief- und Paketsendungen für die Stadt Karlsruhe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0300",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882850"
+  ]
+}

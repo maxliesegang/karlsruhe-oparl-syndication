@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00622743.pdf",
+      "created": "2021-01-12T15:27:49+01:00",
+      "date": "2021-01-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00622743.pdf",
+      "fileName": "00622743.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/622743",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 4 - Beschlussvorlage Verkaufsoffene Sonntage 2021-2023",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00622747.pdf",
+      "created": "2021-01-13T10:01:12+01:00",
+      "date": "2021-01-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00622747.pdf",
+      "fileName": "00622747.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/622747",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 4 - Anlage 1 - Satzung Verkaufsoffene Sonntage 2021-2023",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56006",
+      "authoritative": true,
+      "created": "2021-01-08T15:09:02+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20446",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6393",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40602",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-11-30T12:29:36+01:00",
+  "date": "2021-01-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40602",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Verkaufsoffene Sonntage 2021",
+  "paperType": "Beschlussvorlage",
+  "reference": "2020/1391",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

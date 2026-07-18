@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658717.pdf",
+      "created": "2024-05-24T14:24:36+02:00",
+      "date": "2024-05-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658717.pdf",
+      "fileName": "00658717.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658717",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag Bericht Hitzeperioden",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659345.pdf",
+      "created": "2024-06-28T16:31:10+02:00",
+      "date": "2024-06-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659345.pdf",
+      "fileName": "00659345.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659345",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Bericht Hitzeperioden",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/87134",
+      "authoritative": true,
+      "created": "2024-06-17T16:01:59+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32184",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9774",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50493",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-05-24T14:22:44+02:00",
+  "date": "2024-05-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50493",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bericht zum Umgang mit Hitzeperioden in Durlach",
+  "paperType": "Antrag",
+  "reference": "2024/0589",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

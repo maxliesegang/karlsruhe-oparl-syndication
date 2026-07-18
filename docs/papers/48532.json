@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646848.pdf",
+      "created": "2023-04-26T15:58:22+02:00",
+      "date": "2023-04-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646848.pdf",
+      "fileName": "00646848.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646848",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648538.pdf",
+      "created": "2023-06-27T21:26:03+02:00",
+      "date": "2023-06-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648538.pdf",
+      "fileName": "00648538.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648538",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648996.pdf",
+      "created": "2023-07-17T13:22:35+02:00",
+      "date": "2023-07-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648996.pdf",
+      "fileName": "00648996.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648996",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/77971",
+      "authoritative": true,
+      "created": "2023-05-25T15:14:15+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29553",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9046",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48532",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-04-26T15:57:53+02:00",
+  "date": "2023-04-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48532",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Mitgliedschaft der Stadt Karlsruhe beim Werkbund",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0463",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

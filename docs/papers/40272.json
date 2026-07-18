@@ -1,0 +1,92 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620140.pdf",
+      "created": "2020-10-09T16:44:44+02:00",
+      "date": "2020-10-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620140.pdf",
+      "fileName": "00620140.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620140",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Geschäftsordnung _BV",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620270.pdf",
+      "created": "2020-10-20T08:28:29+02:00",
+      "date": "2020-10-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620270.pdf",
+      "fileName": "00620270.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620270",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Geschäftsordnung Anlage 1 neu",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620271.pdf",
+      "created": "2020-10-20T08:28:29+02:00",
+      "date": "2020-10-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620271.pdf",
+      "fileName": "00620271.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620271",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Geschäftsordnung Anlage 2_Synopse neu",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620301.pdf",
+      "created": "2020-10-21T09:02:05+02:00",
+      "date": "2020-10-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620301.pdf",
+      "fileName": "00620301.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620301",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis GR TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620740.pdf",
+      "created": "2020-11-12T08:08:17+01:00",
+      "date": "2020-11-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620740.pdf",
+      "fileName": "00620740.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620740",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54660",
+      "authoritative": true,
+      "created": "2020-09-25T12:10:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20024",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5671",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40272",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-09-15T09:14:37+02:00",
+  "date": "2020-09-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40272",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Neufassung der Geschäftsordnung des Gemeinderates",
+  "paperType": "Beschlussvorlage",
+  "reference": "2020/1062",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882850"
+  ]
+}

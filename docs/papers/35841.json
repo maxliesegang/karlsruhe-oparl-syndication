@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00599681.pdf",
+      "created": "2017-10-11T13:28:13+02:00",
+      "date": "2017-10-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00599681.pdf",
+      "fileName": "00599681.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/599681",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beteiligung AVG an BW Tarif GmbH",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00599882.pdf",
+      "created": "2017-10-20T08:18:52+02:00",
+      "date": "2017-10-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00599882.pdf",
+      "fileName": "00599882.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/599882",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00602804.pdf",
+      "created": "2018-04-24T14:26:22+02:00",
+      "date": "2018-04-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00602804.pdf",
+      "fileName": "00602804.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/602804",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41311",
+      "authoritative": true,
+      "created": "2017-10-04T07:58:26+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14675",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4646",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35841",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-10-04T07:12:50+02:00",
+  "date": "2017-10-04",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35841",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Beteiligung der Albtal-Verkehrs-Gesellschaft mbh (AVG) an der Baden-Württemberg Tarif GmbH (BW Tarif GmbH)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0616",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

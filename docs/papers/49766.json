@@ -1,0 +1,100 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654119.pdf",
+      "created": "2023-11-28T10:50:53+01:00",
+      "date": "2023-11-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654119.pdf",
+      "fileName": "00654119.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654119",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654146.pdf",
+      "created": "2023-11-28T15:25:22+01:00",
+      "date": "2023-11-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654146.pdf",
+      "fileName": "00654146.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654146",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Theaterhaus",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654867.pdf",
+      "created": "2023-12-19T14:58:32+01:00",
+      "date": "2023-12-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654867.pdf",
+      "fileName": "00654867.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654867",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 19",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655331.pdf",
+      "created": "2024-01-16T10:45:28+01:00",
+      "date": "2024-01-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655331.pdf",
+      "fileName": "00655331.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655331",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP_3_Protokoll_HA_09.01.2024",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83634",
+      "authoritative": true,
+      "created": "2023-11-28T11:36:39+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31138",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9054",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49766",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83731",
+      "authoritative": true,
+      "created": "2023-12-04T13:23:53+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31147",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9511",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49766",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-11-28T10:49:48+01:00",
+  "date": "2023-11-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49766",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Erweiterungsbau Theaterhaus in der Kaiserallee 11d",
+  "paperType": "Antrag",
+  "reference": "2023/0901/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49003"
+  ],
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49795"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882990"
+  ]
+}

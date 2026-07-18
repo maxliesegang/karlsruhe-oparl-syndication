@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667191.pdf",
+      "created": "2025-05-15T15:09:29+02:00",
+      "date": "2025-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667191.pdf",
+      "fileName": "00667191.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667191",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T10:57:46+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669152.pdf",
+      "created": "2025-07-30T09:04:07+02:00",
+      "date": "2025-07-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669152.pdf",
+      "fileName": "00669152.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669152",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T10:57:46+02:00",
+      "name": "Abstimmungsergebnis TOP 20",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669494.pdf",
+      "created": "2025-08-19T10:57:44+02:00",
+      "date": "2025-08-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669494.pdf",
+      "fileName": "00669494.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669494",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T10:57:46+02:00",
+      "name": "Protokoll GR 29.07.2025 TOP 20",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94851",
+      "authoritative": true,
+      "created": "2025-06-27T09:55:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33971",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10051",
+      "modified": "2025-07-29T19:56:52+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51753",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-04-02T15:24:17+02:00",
+  "date": "2025-04-02",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51753",
+  "modified": "2025-08-19T10:57:46+02:00",
+  "name": "Auftragsvergabe für die Übernahme und Verwertung von Papier, Pappe und Kartonagen (PPK) der Stadt Karlsruhe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0316",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

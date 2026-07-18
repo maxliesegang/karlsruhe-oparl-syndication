@@ -1,0 +1,56 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37041",
+      "created": "2026-04-29T14:20:07+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101444",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10533",
+      "modified": "2026-04-29T14:21:18+02:00",
+      "name": "TSK26001 - Beschaffung von zwei Arbeitsmaschinen und vier LKW",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-04-29T14:20:07+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101443",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10533",
+      "modified": "2026-05-15T11:28:43+02:00",
+      "name": "Verschiedenes",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2025-10-10T12:10:01+02:00",
+  "end": "2026-06-16T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10533",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677927.pdf",
+    "created": "2026-04-27T13:26:53+02:00",
+    "date": "2026-05-15",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677927.pdf",
+    "fileName": "00677927.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677927",
+    "mimeType": "application/pdf",
+    "modified": "2026-06-01T14:26:19+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2025-10-10T12:10:01+02:00",
+    "description": "TSK, Kantine, Ottostraße 21, 76227 Karlsruhe",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10533",
+    "modified": "2026-06-01T14:26:19+02:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-06-01T14:26:19+02:00",
+  "name": "Eigenbetrieb Abfallwirtschaft und Stadtreinigung (öffentlich/nichtöffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54889"
+  ],
+  "start": "2026-06-16T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

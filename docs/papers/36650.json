@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00606159.pdf",
+      "created": "2018-11-08T08:12:56+01:00",
+      "date": "2018-11-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00606159.pdf",
+      "fileName": "00606159.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/606159",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "FW Stuttgarter Straße",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608959.pdf",
+      "created": "2019-04-08T15:47:12+02:00",
+      "date": "2019-04-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608959.pdf",
+      "fileName": "00608959.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608959",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 12 Gemeinderat April 2019",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609823.pdf",
+      "created": "2019-05-21T07:53:22+02:00",
+      "date": "2019-05-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609823.pdf",
+      "fileName": "00609823.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609823",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45246",
+      "authoritative": true,
+      "created": "2019-03-12T10:01:15+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15706",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5307",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36650",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-09-14T16:49:56+02:00",
+  "date": "2018-09-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36650",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Entwicklung Stuttgarter Straße",
+  "paperType": "Anfrage",
+  "reference": "2018/0630",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

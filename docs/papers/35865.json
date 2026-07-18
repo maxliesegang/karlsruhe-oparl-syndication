@@ -1,0 +1,88 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600032.pdf",
+      "created": "2017-11-03T16:19:27+01:00",
+      "date": "2017-11-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600032.pdf",
+      "fileName": "00600032.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600032",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "GR-Vorlage Umsetzungsbeschluss",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600033.pdf",
+      "created": "2017-11-03T16:20:02+01:00",
+      "date": "2017-11-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600033.pdf",
+      "fileName": "00600033.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600033",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1 - GSV KEG",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600034.pdf",
+      "created": "2017-11-03T16:20:12+01:00",
+      "date": "2017-11-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600034.pdf",
+      "fileName": "00600034.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600034",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 2 - GSV KEG",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600608.pdf",
+      "created": "2017-12-08T10:35:44+01:00",
+      "date": "2017-12-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600608.pdf",
+      "fileName": "00600608.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600608",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 13",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2017-10-17T08:28:20+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14716",
+      "modified": "2018-11-28T14:19:31+01:00",
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35865",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41513",
+      "authoritative": true,
+      "created": "2017-11-06T10:01:16+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14707",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4668",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35865",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-10-16T13:58:38+02:00",
+  "date": "2017-10-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35865",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Zukünftige Struktur von Stadtmarketing Karlsruhe GmbH, KTG Karlsruhe Tourismus GmbH und KEG Karlsruhe Event GmbH; Umsetzungsbeschluss",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0640",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

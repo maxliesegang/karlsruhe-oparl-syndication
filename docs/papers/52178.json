@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668919.pdf",
+      "created": "2025-07-21T10:55:17+02:00",
+      "date": "2025-07-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668919.pdf",
+      "fileName": "00668919.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668919",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-28T10:08:30+02:00",
+      "name": "Anfrage Wolfartsweier",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669005.pdf",
+      "created": "2025-07-24T08:35:40+02:00",
+      "date": "2025-07-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669005.pdf",
+      "fileName": "00669005.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669005",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-28T10:08:30+02:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95070",
+      "created": "2025-07-21T10:58:20+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34591",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10276",
+      "modified": "2025-08-25T13:34:24+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52178",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-07-21T10:54:49+02:00",
+  "date": "2025-07-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52178",
+  "modified": "2025-08-28T10:08:30+02:00",
+  "name": "Verkehrssicherheit an der Unterführung der L623 im Bereich des geplanten Radwegs",
+  "paperType": "Anfrage",
+  "reference": "2025/0701",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+  ]
+}

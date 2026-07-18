@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666318.pdf",
+      "created": "2025-04-09T15:22:06+02:00",
+      "date": "2025-04-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666318.pdf",
+      "fileName": "00666318.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666318",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-09T09:36:08+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666585.pdf",
+      "created": "2025-04-23T08:07:44+02:00",
+      "date": "2025-04-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666585.pdf",
+      "fileName": "00666585.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666585",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-09T09:36:08+02:00",
+      "name": "Stellungnahme Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93505",
+      "created": "2025-04-30T13:58:33+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34024",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9897",
+      "modified": "2025-05-07T10:39:28+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51778",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-04-09T15:17:22+02:00",
+  "date": "2025-04-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51778",
+  "modified": "2025-05-09T09:36:08+02:00",
+  "name": "Bericht zum Straßenzustand in Grötzingen",
+  "paperType": "Antrag",
+  "reference": "2025/0336",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

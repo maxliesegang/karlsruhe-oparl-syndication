@@ -1,0 +1,70 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676654.pdf",
+      "created": "2026-02-18T07:49:47+01:00",
+      "date": "2026-02-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676654.pdf",
+      "fileName": "00676654.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676654",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T13:01:50+02:00",
+      "name": "Lageplan",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677597.pdf",
+      "created": "2026-04-09T11:41:50+02:00",
+      "date": "2026-04-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677597.pdf",
+      "fileName": "00677597.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677597",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T13:01:50+02:00",
+      "name": "Informationsvorlage Wolfartsweier - neu",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100505",
+      "authoritative": true,
+      "created": "2026-02-16T15:21:31+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37003",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10726",
+      "modified": "2026-03-05T15:40:49+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54267",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101104",
+      "authoritative": true,
+      "created": "2026-03-31T14:42:35+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37091",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10802",
+      "modified": "2026-04-16T17:02:30+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54267",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-02-12T09:23:28+01:00",
+  "date": "2026-03-31",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54267",
+  "modified": "2026-04-09T13:01:50+02:00",
+  "name": "Instandsetzung Steinkreuzstraße",
+  "paperType": "Informationsvorlage",
+  "reference": "2026/0130",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+  ]
+}

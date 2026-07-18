@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619601.pdf",
+      "created": "2020-09-16T13:57:54+02:00",
+      "date": "2020-09-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619601.pdf",
+      "fileName": "00619601.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619601",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620626.pdf",
+      "created": "2020-11-04T13:57:28+01:00",
+      "date": "2020-11-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620626.pdf",
+      "fileName": "00620626.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620626",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN SPD Weitere Calisthenics-Anlagen realisieren",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00622603.pdf",
+      "created": "2021-01-05T11:08:59+01:00",
+      "date": "2021-01-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00622603.pdf",
+      "fileName": "00622603.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/622603",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 23",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54967",
+      "authoritative": true,
+      "created": "2020-10-21T09:05:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20037",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5672",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40284",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-09-16T13:57:31+02:00",
+  "date": "2020-09-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40284",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Weitere Calisthenics-Anlagen realisieren",
+  "paperType": "Antrag",
+  "reference": "2020/1074",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

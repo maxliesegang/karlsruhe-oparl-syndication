@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00601387.pdf",
+      "created": "2018-02-09T15:00:09+01:00",
+      "date": "2018-02-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00601387.pdf",
+      "fileName": "00601387.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/601387",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "SPD Hospizwohnung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00601423.pdf",
+      "created": "2018-02-16T09:14:21+01:00",
+      "date": "2018-02-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00601423.pdf",
+      "fileName": "00601423.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/601423",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00601651.pdf",
+      "created": "2018-02-28T10:39:43+01:00",
+      "date": "2018-02-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00601651.pdf",
+      "fileName": "00601651.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/601651",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/42151",
+      "authoritative": true,
+      "created": "2018-01-24T11:14:22+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14967",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4892",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36080",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-01-23T12:29:59+01:00",
+  "date": "2018-01-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36080",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Umnutzung der ehemaligen Karlsruher Hospizwohnung als Einrichtung für Jugendliche und junge Erwachsene mit Mehrfachbehinderung",
+  "paperType": "Antrag",
+  "reference": "2018/0029",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

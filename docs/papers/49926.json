@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655469.pdf",
+      "created": "2024-01-22T17:05:23+01:00",
+      "date": "2024-01-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655469.pdf",
+      "fileName": "00655469.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655469",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-12T09:47:42+02:00",
+      "name": "Beschlussvorlage Grötzingen ohne Pläne",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84265",
+      "authoritative": true,
+      "created": "2024-01-17T15:05:49+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31352",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9714",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49926",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-01-17T14:11:22+01:00",
+  "date": "2024-01-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49926",
+  "modified": "2025-05-12T09:47:42+02:00",
+  "name": "Bauantrag Augustenburgstraße 45",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0069",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

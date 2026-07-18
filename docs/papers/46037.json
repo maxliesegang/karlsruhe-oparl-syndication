@@ -1,0 +1,83 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00633328.pdf",
+      "created": "2021-11-16T08:40:25+01:00",
+      "date": "2021-11-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00633328.pdf",
+      "fileName": "00633328.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/633328",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Hebesatzsatzung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00633329.pdf",
+      "created": "2021-11-16T08:40:36+01:00",
+      "date": "2021-11-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00633329.pdf",
+      "fileName": "00633329.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/633329",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Hebesatzsatzung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634610.pdf",
+      "created": "2021-12-14T10:48:25+01:00",
+      "date": "2021-12-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634610.pdf",
+      "fileName": "00634610.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634610",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635181.pdf",
+      "created": "2022-01-12T11:18:31+01:00",
+      "date": "2022-01-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635181.pdf",
+      "fileName": "00635181.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635181",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Auszug Protokoll HH-Beratungen TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/65568",
+      "authoritative": true,
+      "created": "2021-11-09T11:21:46+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26333",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6560",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46037",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-11-08T09:32:12+01:00",
+  "date": "2021-11-08",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46037",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Satzung zur Änderung der Satzung der Stadt Karlsruhe über die Erhebung der Grundsteuer und Gewerbesteuer (Hebesatzung)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/1342",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46185"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

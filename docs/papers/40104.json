@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618913.pdf",
+      "created": "2020-07-20T13:03:58+02:00",
+      "date": "2020-07-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618913.pdf",
+      "fileName": "00618913.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618913",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "ORS-Anfrage FDP Standsicherheit von Bäumen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618914.pdf",
+      "created": "2020-07-20T13:07:29+02:00",
+      "date": "2020-07-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618914.pdf",
+      "fileName": "00618914.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618914",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "ORS-Stellungnahme Standsicherheit FDP",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53735",
+      "created": "2020-07-15T07:53:37+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19793",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6126",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40104",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-07-14T14:52:37+02:00",
+  "date": "2020-07-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40104",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Standsicherheit von Bäumen",
+  "paperType": "Anfrage",
+  "reference": "2020/0895",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+  ]
+}

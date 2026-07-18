@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656762.pdf",
+      "created": "2024-03-14T11:12:30+01:00",
+      "date": "2024-03-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656762.pdf",
+      "fileName": "00656762.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656762",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/85265",
+      "created": "2024-03-14T12:08:45+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31631",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9541",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50103",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-03-04T10:03:40+01:00",
+  "date": "2024-03-04",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50103",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Stadthalle Modernisierung, Vergabe von Elektrotechnik",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0230",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

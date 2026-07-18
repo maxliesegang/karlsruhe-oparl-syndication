@@ -1,0 +1,85 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32130",
+      "created": "2024-05-16T11:12:02+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86572",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9908",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Feststellen des Nichtvorliegens von Hinderungsgründen für den Eintritt der neu gewählten Ortschaftsratsmitglieder in den Ortschaftsrat Wettersbach",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32138",
+      "created": "2024-05-16T11:21:44+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86573",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9908",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verabschiedung der aus dem Ortschaftsrat Wettersbach ausscheidenden Mitglieder (Legislaturperiode 2019-2024)",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2024-05-16T11:23:57+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86574",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9908",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen der Ortsverwaltung",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "erledigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661271.pdf",
+      "created": "2024-09-27T14:40:50+02:00",
+      "date": "2024-09-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661271.pdf",
+      "fileName": "00661271.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661271",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll-2024-58-Sitzung-ORat-ö_Nr58_18072024",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2024-02-06T11:12:22+01:00",
+  "end": "2024-07-18T20:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9908",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659282.pdf",
+    "created": "2024-06-25T10:30:38+02:00",
+    "date": "2024-06-25",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659282.pdf",
+    "fileName": "00659282.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659282",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2024-02-06T11:12:22+01:00",
+    "description": "Musiksaal der Heinz-Barth-Schule, Esslinger Straße 2, 76228 Karlsruhe",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9908",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ortschaftsrat Wettersbach - Verabschiedung (öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+  ],
+  "start": "2024-07-18T19:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

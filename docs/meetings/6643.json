@@ -1,0 +1,85 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27116",
+      "created": "2022-04-27T10:45:26+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/69675",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6643",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Fahrradstraßen 2.0 nach Musterlösungen RadNETZ BW",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27039",
+      "created": "2022-04-27T10:45:26+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/69673",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6643",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "NaturRADtour, Querungshilfe Elfmorgenbruchstraße",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27040",
+      "created": "2022-04-27T10:45:26+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/69674",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6643",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Radverkehrsführung in der nördlichen Waldhornstraße",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27142",
+      "created": "2022-04-27T10:45:26+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/69676",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6643",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Förderprogramm für gewerblich genutzte E-Lastenräder von Karlsruher Firmen",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2021-09-30T12:01:47+02:00",
+  "end": "2022-06-02T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6643",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00637876.pdf",
+    "created": "2022-05-18T13:22:46+02:00",
+    "date": "2022-05-18",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00637876.pdf",
+    "fileName": "00637876.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/637876",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2021-09-30T12:01:47+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6643",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Planungsausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+  ],
+  "start": "2022-06-02T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

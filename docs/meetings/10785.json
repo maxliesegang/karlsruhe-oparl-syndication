@@ -1,0 +1,92 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37321",
+      "created": "2026-04-30T10:28:14+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101455",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10785",
+      "modified": "2026-04-30T10:29:33+02:00",
+      "name": "Aktualisierung und Anpassung der Grillplatzordnung an klimatische Veränderungen",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "auxiliaryFile": [
+        {
+          "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678093.pdf",
+          "created": "2026-04-30T13:54:23+02:00",
+          "date": "2026-04-30",
+          "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678093.pdf",
+          "fileName": "00678093.pdf",
+          "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678093",
+          "mimeType": "application/pdf",
+          "modified": "2026-05-07T12:29:07+02:00",
+          "name": "Top 01 Blutspender",
+          "type": "https://schema.oparl.org/1.1/File"
+        }
+      ],
+      "created": "2026-04-30T10:28:33+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101456",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10785",
+      "modified": "2026-04-30T14:08:50+02:00",
+      "name": "Blutspenderehrung 2026",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-04-30T10:28:55+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101457",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10785",
+      "modified": "2026-04-30T10:29:33+02:00",
+      "name": "Mitteilungen der Ortsverwaltung",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-04-30T10:29:08+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101458",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10785",
+      "modified": "2026-04-30T10:29:33+02:00",
+      "name": "Verschiedenes",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2025-12-08T11:16:43+01:00",
+  "end": "2026-05-13T00:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10785",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678092.pdf",
+    "created": "2026-04-30T13:45:09+02:00",
+    "date": "2026-04-30",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678092.pdf",
+    "fileName": "00678092.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678092",
+    "mimeType": "application/pdf",
+    "modified": "2026-05-07T12:29:07+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2025-12-08T11:16:43+01:00",
+    "description": "Sitzungssaal Rathaus Stupferich",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10785",
+    "modified": "2026-05-07T12:29:07+02:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-05-07T12:29:07+02:00",
+  "name": "Ortschaftsrat Stupferich (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34764"
+  ],
+  "start": "2026-05-13T19:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

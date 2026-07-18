@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00673802.pdf",
+      "created": "2025-11-25T16:16:29+01:00",
+      "date": "2025-11-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00673802.pdf",
+      "fileName": "00673802.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/673802",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-08T17:41:45+01:00",
+      "name": "Antrag VOLT_010",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674742.pdf",
+      "created": "2025-12-05T16:34:55+01:00",
+      "date": "2025-12-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674742.pdf",
+      "fileName": "00674742.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674742",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-08T17:41:45+01:00",
+      "name": "2018 Stellungnahme DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99415",
+      "created": "2025-11-26T15:12:28+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36599",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-17T06:45:49+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/53967",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-25T16:15:10+01:00",
+  "date": "2025-11-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/53967",
+  "modified": "2025-12-08T17:41:45+01:00",
+  "name": "Namensrechte Sponsoring",
+  "paperType": "Haushalt THH 2000",
+  "reference": "DHH/2025/2018",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

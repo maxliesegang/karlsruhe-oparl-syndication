@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672465.pdf",
+      "created": "2025-11-24T13:37:07+01:00",
+      "date": "2025-11-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672465.pdf",
+      "fileName": "00672465.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672465",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-23T07:16:32+01:00",
+      "name": "Antrag KAL_031",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674803.pdf",
+      "created": "2025-12-08T07:26:52+01:00",
+      "date": "2025-12-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674803.pdf",
+      "fileName": "00674803.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674803",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-23T07:16:32+01:00",
+      "name": "6707 Stellungnahme DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675577.pdf",
+      "created": "2025-12-23T07:16:28+01:00",
+      "date": "2025-12-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675577.pdf",
+      "fileName": "00675577.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675577",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-23T07:16:32+01:00",
+      "name": "Abstimmungsergebnis TOP 305",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99574",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:29+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35478",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-17T14:29:36+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52839",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-24T13:36:18+01:00",
+  "date": "2025-11-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52839",
+  "modified": "2025-12-23T07:16:32+01:00",
+  "name": "HHS4_GR82 Lichterfest - Rücknahme Verzicht",
+  "paperType": "Haushalt THH 6700",
+  "reference": "DHH/2025/6707",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

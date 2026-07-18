@@ -1,0 +1,107 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00645707.pdf",
+      "created": "2023-03-10T11:44:58+01:00",
+      "date": "2023-03-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00645707.pdf",
+      "fileName": "00645707.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/645707",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00645855.pdf",
+      "created": "2023-03-17T10:39:26+01:00",
+      "date": "2023-03-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00645855.pdf",
+      "fileName": "00645855.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/645855",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647449.pdf",
+      "created": "2023-05-22T11:48:42+02:00",
+      "date": "2023-05-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647449.pdf",
+      "fileName": "00647449.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647449",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 18",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649002.pdf",
+      "created": "2023-07-17T13:26:54+02:00",
+      "date": "2023-07-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649002.pdf",
+      "fileName": "00649002.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649002",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 22",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/76549",
+      "authoritative": true,
+      "created": "2023-03-28T12:58:58+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29283",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9044",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48328",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/76631",
+      "created": "2023-03-31T12:34:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29310",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9130",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48328",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78042",
+      "authoritative": true,
+      "created": "2023-05-26T13:59:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29600",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9046",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48328",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-03-10T11:44:14+01:00",
+  "date": "2023-03-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48328",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Versandung der Alb - Maßnahmen zur Verbesserung ihres gewässer-ökologischen Zustands im Stadtkreis Karlsruhe",
+  "paperType": "Antrag",
+  "reference": "2023/0285",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

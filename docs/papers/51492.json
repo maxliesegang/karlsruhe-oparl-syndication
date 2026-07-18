@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664464.pdf",
+      "created": "2025-01-24T15:36:04+01:00",
+      "date": "2025-01-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664464.pdf",
+      "fileName": "00664464.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664464",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-11T08:18:02+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664465.pdf",
+      "created": "2025-01-24T15:42:01+01:00",
+      "date": "2025-01-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664465.pdf",
+      "fileName": "00664465.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664465",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-11T08:18:02+01:00",
+      "name": "Anlage 1 Haushaltswirtschaftliche Sperre",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665027.pdf",
+      "created": "2025-02-18T19:33:44+01:00",
+      "date": "2025-02-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665027.pdf",
+      "fileName": "00665027.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665027",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-11T08:18:02+01:00",
+      "name": "Abstimmungsergebnis TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665498.pdf",
+      "created": "2025-03-11T08:17:59+01:00",
+      "date": "2025-03-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665498.pdf",
+      "fileName": "00665498.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665498",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-11T08:18:02+01:00",
+      "name": "Protokoll GR 18.02.2025 TOP 4",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92222",
+      "authoritative": true,
+      "created": "2025-02-04T09:27:37+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33585",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10045",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51492",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-01-21T16:10:09+01:00",
+  "date": "2025-01-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51492",
+  "modified": "2025-03-11T08:18:02+01:00",
+  "name": "Haushaltssicherung Stadt Karlsruhe: Haushaltswirtschaftliche Sperre",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0073",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

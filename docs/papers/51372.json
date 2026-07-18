@@ -1,0 +1,93 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663609.pdf",
+      "created": "2024-12-11T12:06:14+01:00",
+      "date": "2024-12-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663609.pdf",
+      "fileName": "00663609.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663609",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663902.pdf",
+      "created": "2024-12-19T16:35:36+01:00",
+      "date": "2024-12-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663902.pdf",
+      "fileName": "00663902.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663902",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme zum Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663979.pdf",
+      "created": "2025-01-02T15:09:04+01:00",
+      "date": "2025-01-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663979.pdf",
+      "fileName": "00663979.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663979",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Übersichtskarte_Bellenkopf_ohne_Planspiegel_",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664482.pdf",
+      "created": "2025-01-27T08:43:24+01:00",
+      "date": "2025-01-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664482.pdf",
+      "fileName": "00664482.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664482",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 21.01.2025 TOP 17",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91775",
+      "authoritative": true,
+      "created": "2024-12-19T12:25:01+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33408",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10044",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51372",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91779",
+      "created": "2024-12-20T14:20:48+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33459",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10096",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51372",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-12-11T12:05:00+01:00",
+  "date": "2024-12-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51372",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Schnelle Ertüchtigung des Rheinhochwasserdamms RHWD XXV gefordert: Karlsruhe muss Hochwasserschutz im Tiefgestade Daxlanden sicherstellen",
+  "paperType": "Antrag",
+  "reference": "2024/1402",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

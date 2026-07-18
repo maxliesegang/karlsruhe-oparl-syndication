@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651320.pdf",
+      "created": "2023-10-06T15:58:45+02:00",
+      "date": "2023-10-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651320.pdf",
+      "fileName": "00651320.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651320",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Plan Memeler Straße",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651446.pdf",
+      "created": "2023-10-10T16:52:22+02:00",
+      "date": "2023-10-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651446.pdf",
+      "fileName": "00651446.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651446",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlusssvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/80773",
+      "authoritative": true,
+      "created": "2023-10-09T14:05:38+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30583",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9124",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49274",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-10-06T15:07:24+02:00",
+  "date": "2023-10-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49274",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Sanierungsgebiet ASP, Durlach Aue_Umgestaltung Memeler Straße zwischen Schlesier- und Ostmarkstraße",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/1157",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

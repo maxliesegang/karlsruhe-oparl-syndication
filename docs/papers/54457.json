@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677733.pdf",
+      "created": "2026-04-21T09:36:16+02:00",
+      "date": "2026-04-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677733.pdf",
+      "fileName": "00677733.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677733",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-03T07:36:32+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678136.pdf",
+      "created": "2026-05-04T14:07:00+02:00",
+      "date": "2026-05-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678136.pdf",
+      "fileName": "00678136.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678136",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-03T07:36:32+02:00",
+      "name": "Stellungnahme zur Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678834.pdf",
+      "created": "2026-06-03T07:36:30+02:00",
+      "date": "2026-06-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678834.pdf",
+      "fileName": "00678834.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678834",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-03T07:36:32+02:00",
+      "name": "Protokoll GR 19.05.2026 TOP 13",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101373",
+      "authoritative": true,
+      "created": "2026-04-21T12:49:28+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37265",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10526",
+      "modified": "2026-05-20T08:17:31+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54457",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-04-21T09:35:32+02:00",
+  "date": "2026-04-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54457",
+  "modified": "2026-06-03T07:36:32+02:00",
+  "name": "Zuwendungen des Bundes im Programmbereich „Partnerschaften für Demokratie“",
+  "paperType": "Anfrage",
+  "reference": "2026/0297",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

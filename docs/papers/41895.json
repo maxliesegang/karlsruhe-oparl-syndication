@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00628511.pdf",
+      "created": "2021-10-05T09:02:38+02:00",
+      "date": "2021-10-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00628511.pdf",
+      "fileName": "00628511.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/628511",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00633462.pdf",
+      "created": "2021-11-19T14:15:13+01:00",
+      "date": "2021-11-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00633462.pdf",
+      "fileName": "00633462.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/633462",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN CDU AC in Parkhäusern",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634740.pdf",
+      "created": "2021-12-16T07:59:54+01:00",
+      "date": "2021-12-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634740.pdf",
+      "fileName": "00634740.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634740",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 16",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/63263",
+      "authoritative": true,
+      "created": "2021-10-26T09:14:56+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/22140",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6324",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41895",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-10-05T09:02:15+02:00",
+  "date": "2021-10-05",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41895",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Priorisierung von AC-Ladepunkten in Parkhäusern der Karlsruher Innenstadt",
+  "paperType": "Anfrage",
+  "reference": "2021/1182",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

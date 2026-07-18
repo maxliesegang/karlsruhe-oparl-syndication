@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642813.pdf",
+      "created": "2022-11-22T08:50:47+01:00",
+      "date": "2022-11-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642813.pdf",
+      "fileName": "00642813.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642813",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642814.pdf",
+      "created": "2022-11-22T08:52:02+01:00",
+      "date": "2022-11-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642814.pdf",
+      "fileName": "00642814.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642814",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643338.pdf",
+      "created": "2022-12-12T14:51:17+01:00",
+      "date": "2022-12-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643338.pdf",
+      "fileName": "00643338.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643338",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlagen_AfD_Anfrage_neu",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644042.pdf",
+      "created": "2023-01-13T09:27:14+01:00",
+      "date": "2023-01-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644042.pdf",
+      "fileName": "00644042.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644042",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 50",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/74240",
+      "authoritative": true,
+      "created": "2022-11-22T11:18:04+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28633",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6608",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47825",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-11-22T08:47:58+01:00",
+  "date": "2022-11-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47825",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Institutionelle und Projektförderungen im Kulturbereich 2021",
+  "paperType": "Anfrage",
+  "reference": "2022/2347",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882963"
+  ]
+}

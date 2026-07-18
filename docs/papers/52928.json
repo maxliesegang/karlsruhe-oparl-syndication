@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672715.pdf",
+      "created": "2025-11-25T08:57:54+01:00",
+      "date": "2025-11-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672715.pdf",
+      "fileName": "00672715.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672715",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-27T13:42:27+01:00",
+      "name": "Antrag SR Kalmbach_004",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674760.pdf",
+      "created": "2025-12-05T17:21:17+01:00",
+      "date": "2025-12-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674760.pdf",
+      "fileName": "00674760.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674760",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-27T13:42:27+01:00",
+      "name": "2009 Stellungnahme DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676163.pdf",
+      "created": "2026-01-27T13:42:05+01:00",
+      "date": "2026-01-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676163.pdf",
+      "fileName": "00676163.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676163",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-27T13:42:27+01:00",
+      "name": "Abstimmungsergebnis",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99406",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:28+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35567",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-21T11:13:50+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52928",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-25T08:29:39+01:00",
+  "date": "2025-11-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52928",
+  "modified": "2026-01-27T13:42:27+01:00",
+  "name": "Turmbergbahn Umbau aussetzen",
+  "paperType": "Haushalt THH 2000",
+  "reference": "DHH/2025/2009",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

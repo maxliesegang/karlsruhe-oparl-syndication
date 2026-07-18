@@ -1,0 +1,113 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664127.pdf",
+      "created": "2025-01-10T09:35:41+01:00",
+      "date": "2024-08-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664127.pdf",
+      "fileName": "00664127.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664127",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-22T13:54:37+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664969.pdf",
+      "created": "2025-02-17T12:08:52+01:00",
+      "date": "2025-02-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664969.pdf",
+      "fileName": "00664969.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664969",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-22T13:54:37+02:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666356.pdf",
+      "created": "2025-04-10T09:43:01+02:00",
+      "date": "2025-04-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666356.pdf",
+      "fileName": "00666356.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666356",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-24T10:40:57+02:00",
+      "name": "Protokoll TOP 1 Seebühne - AföE 9. April 2025",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667364.pdf",
+      "created": "2025-05-22T13:54:34+02:00",
+      "date": "2025-05-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667364.pdf",
+      "fileName": "00667364.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667364",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-22T13:54:37+02:00",
+      "name": "Protokoll GR 29.04.2025 TOP 14",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92370",
+      "created": "2025-02-10T14:41:54+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33511",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10092",
+      "modified": "2025-04-09T18:01:37+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51438",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93102",
+      "authoritative": true,
+      "created": "2025-04-01T13:24:18+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33512",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10047",
+      "modified": "2025-06-26T14:36:38+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51438",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94115",
+      "authoritative": true,
+      "created": "2025-05-30T13:00:41+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34337",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10123",
+      "modified": "2025-07-28T15:12:04+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/29599"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51438",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-01-10T09:35:41+01:00",
+  "date": "2025-01-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51438",
+  "modified": "2025-05-22T13:54:36+02:00",
+  "name": "Seebühne stärker nutzen",
+  "paperType": "Antrag",
+  "reference": "2024/0884/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50812"
+  ],
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51852"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882984"
+  ]
+}

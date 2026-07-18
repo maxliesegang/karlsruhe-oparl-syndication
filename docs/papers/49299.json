@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00652344.pdf",
+      "created": "2023-10-19T18:25:48+02:00",
+      "date": "2023-10-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00652344.pdf",
+      "fileName": "00652344.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/652344",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00652348.pdf",
+      "created": "2023-10-19T18:54:50+02:00",
+      "date": "2023-10-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00652348.pdf",
+      "fileName": "00652348.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/652348",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Gesellschaftsvertrag der Baden Airpark Beteiligunsgesellschaft mbH mit Änderungen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654147.pdf",
+      "created": "2023-11-28T15:25:31+01:00",
+      "date": "2023-11-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654147.pdf",
+      "fileName": "00654147.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654147",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 3 HA_14.11.2023",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/80896",
+      "authoritative": true,
+      "created": "2023-10-16T11:14:26+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30610",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9066",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49299",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-10-12T16:13:05+02:00",
+  "date": "2023-10-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49299",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Änderung des Gesellschaftsvertrags der Baden Airpark Beteiligungsgesellschaft mbH",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/1175",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

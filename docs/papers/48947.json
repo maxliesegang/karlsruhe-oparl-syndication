@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649811.pdf",
+      "created": "2023-08-16T17:28:43+02:00",
+      "date": "2023-08-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649811.pdf",
+      "fileName": "00649811.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649811",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650019.pdf",
+      "created": "2023-08-22T11:43:02+02:00",
+      "date": "2023-08-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650019.pdf",
+      "fileName": "00650019.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650019",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/79312",
+      "created": "2023-08-07T12:31:57+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30132",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9102",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54889"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48947",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-07-27T18:17:52+02:00",
+  "date": "2023-07-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48947",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Auftragsvergabe von Winterdienstleistungen im Rahmen der Anliegerverpflichtung in 6 Losen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0846",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

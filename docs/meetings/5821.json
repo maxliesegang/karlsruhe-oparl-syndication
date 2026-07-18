@@ -1,0 +1,70 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17634",
+      "created": "2020-01-03T07:21:44+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/48255",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5821",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Badisches Konservatorium, Umbau Dragonerkaserne",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2020-01-03T07:14:42+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/48254",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5821",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verschiedenes",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00613157.pdf",
+      "created": "2020-01-03T07:21:16+01:00",
+      "date": "2020-01-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00613157.pdf",
+      "fileName": "00613157.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/613157",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Tagesordnung_öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618081.pdf",
+      "created": "2020-06-15T08:28:21+02:00",
+      "date": "2020-06-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618081.pdf",
+      "fileName": "00618081.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618081",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2019-10-07T11:25:53+02:00",
+  "end": "2020-01-09T16:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5821",
+  "location": {
+    "created": "2019-10-07T11:25:53+02:00",
+    "description": "Kleiner Sitzungssaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5821",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Bauausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+  ],
+  "start": "2020-01-09T16:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

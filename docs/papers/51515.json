@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664555.pdf",
+      "created": "2025-01-29T08:30:39+01:00",
+      "date": "2025-01-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664555.pdf",
+      "fileName": "00664555.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664555",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-09T10:51:39+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666163.pdf",
+      "created": "2025-04-03T11:12:44+02:00",
+      "date": "2025-04-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666163.pdf",
+      "fileName": "00666163.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666163",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-09T10:51:39+02:00",
+      "name": "Protokoll GR 25.03.2025 TOP 20",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666520.pdf",
+      "created": "2025-04-17T13:18:46+02:00",
+      "date": "2025-04-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666520.pdf",
+      "fileName": "00666520.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666520",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-09T10:51:39+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92721",
+      "authoritative": true,
+      "created": "2025-03-05T09:35:45+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33617",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10046",
+      "modified": "2025-03-25T19:20:33+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51515",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93063",
+      "created": "2025-03-28T10:22:42+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33661",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10098",
+      "modified": "2025-06-06T16:10:13+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51515",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-01-29T08:26:05+01:00",
+  "date": "2025-01-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51515",
+  "modified": "2025-05-16T16:05:11+02:00",
+  "name": "Allgemeinverfügung zum Schutz von Igeln und anderen nachtaktiven Kleintieren vor Mährobotern",
+  "paperType": "Antrag",
+  "reference": "2025/0096",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882951"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611897.pdf",
+      "created": "2019-10-25T11:50:41+02:00",
+      "date": "2019-10-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611897.pdf",
+      "fileName": "00611897.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611897",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 8 Karlsruher Pass",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612600.pdf",
+      "created": "2019-11-25T11:44:54+01:00",
+      "date": "2019-11-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612600.pdf",
+      "fileName": "00612600.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612600",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis_Top8",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00613064.pdf",
+      "created": "2019-12-20T13:33:02+01:00",
+      "date": "2019-12-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00613064.pdf",
+      "fileName": "00613064.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/613064",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47396",
+      "authoritative": true,
+      "created": "2019-10-24T08:46:39+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17095",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5423",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37783",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-09-16T15:12:21+02:00",
+  "date": "2019-09-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37783",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Fortentwicklung Karlsruher Pass",
+  "paperType": "Beschlussvorlage",
+  "reference": "2019/0889",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/546903"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679273.pdf",
+      "created": "2026-06-23T11:21:24+02:00",
+      "date": "2026-06-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679273.pdf",
+      "fileName": "00679273.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679273",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-17T07:22:39+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2026-07-03T09:48:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37654",
+      "modified": "2026-07-03T09:48:17+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54889"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54680",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102503",
+      "created": "2026-07-03T09:45:05+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37605",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10566",
+      "modified": "2026-07-17T09:22:28+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54680",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-06-23T11:20:14+02:00",
+  "date": "2026-06-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54680",
+  "modified": "2026-07-17T07:22:39+02:00",
+  "name": "Verbesserung der Alttextilsammlung",
+  "paperType": "Antrag",
+  "reference": "2026/0504",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

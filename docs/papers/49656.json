@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653139.pdf",
+      "created": "2023-11-02T16:22:41+01:00",
+      "date": "2023-11-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653139.pdf",
+      "fileName": "00653139.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653139",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage_Förderantrag_Waldstadt_mit_Anhängen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653142.pdf",
+      "created": "2023-11-03T08:38:10+01:00",
+      "date": "2023-11-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653142.pdf",
+      "fileName": "00653142.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653142",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage_Stadtteilhaus_Waldstadt",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654927.pdf",
+      "created": "2023-12-20T10:22:25+01:00",
+      "date": "2023-12-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654927.pdf",
+      "fileName": "00654927.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654927",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655154.pdf",
+      "created": "2024-01-08T14:12:02+01:00",
+      "date": "2024-01-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655154.pdf",
+      "fileName": "00655154.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655154",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83457",
+      "authoritative": true,
+      "created": "2023-11-20T09:50:04+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30982",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9055",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49656",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-11-02T16:02:21+01:00",
+  "date": "2023-11-02",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49656",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Antrag auf Förderung als Stadtteilhaus \"Bürgerzentrum Waldstadt - BZW\"",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/1262",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882965"
+  ]
+}

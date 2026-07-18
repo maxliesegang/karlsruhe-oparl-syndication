@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607532.pdf",
+      "created": "2019-01-21T08:04:22+01:00",
+      "date": "2019-01-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607532.pdf",
+      "fileName": "00607532.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607532",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607956.pdf",
+      "created": "2019-02-18T12:01:24+01:00",
+      "date": "2019-02-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607956.pdf",
+      "fileName": "00607956.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607956",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 18",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608852.pdf",
+      "created": "2019-04-03T10:17:27+02:00",
+      "date": "2019-04-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608852.pdf",
+      "fileName": "00608852.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608852",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 18",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44924",
+      "created": "2019-01-29T14:40:38+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16130",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5276",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36984",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-01-21T08:03:12+01:00",
+  "date": "2019-01-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36984",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Gehwegparken - Folgen der Parkraumreduzierung, Forderung von Ausgleichsmaßnahmen",
+  "paperType": "Antrag",
+  "reference": "2019/0066",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

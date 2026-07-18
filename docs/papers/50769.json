@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660961.pdf",
+      "created": "2024-09-18T13:11:36+02:00",
+      "date": "2024-09-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660961.pdf",
+      "fileName": "00660961.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660961",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660962.pdf",
+      "created": "2024-09-18T13:22:47+02:00",
+      "date": "2024-09-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660962.pdf",
+      "fileName": "00660962.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660962",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage - Übersichtsliste Querungen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/88567",
+      "created": "2024-08-06T16:24:53+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32563",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9552",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50769",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-07-25T10:51:20+02:00",
+  "date": "2024-08-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50769",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Querungsstellen Fußverkehr - Prüfliste",
+  "paperType": "Informationsvorlage",
+  "reference": "2024/0845",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

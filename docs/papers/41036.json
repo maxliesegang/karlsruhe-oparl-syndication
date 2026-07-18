@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624351.pdf",
+      "created": "2021-03-23T17:05:20+01:00",
+      "date": "2021-03-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624351.pdf",
+      "fileName": "00624351.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624351",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625333.pdf",
+      "created": "2021-05-05T10:57:25+02:00",
+      "date": "2021-05-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625333.pdf",
+      "fileName": "00625333.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625333",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN SPD E-Ladestationen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625941.pdf",
+      "created": "2021-06-07T09:55:38+02:00",
+      "date": "2021-06-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625941.pdf",
+      "fileName": "00625941.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625941",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 30",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/57464",
+      "authoritative": true,
+      "created": "2021-04-20T14:03:09+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21003",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6214",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41036",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-03-23T17:04:59+01:00",
+  "date": "2021-03-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41036",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "E-Ladestationen Konzeption",
+  "paperType": "Anfrage",
+  "reference": "2021/0395",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

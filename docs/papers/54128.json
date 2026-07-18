@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675994.pdf",
+      "created": "2026-01-26T09:50:11+01:00",
+      "date": "2026-01-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675994.pdf",
+      "fileName": "00675994.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675994",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-30T15:01:31+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100006",
+      "created": "2026-01-09T09:05:19+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36810",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10474",
+      "modified": "2026-02-13T09:48:04+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54889"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54128",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-01-09T08:19:45+01:00",
+  "date": "2026-01-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54128",
+  "modified": "2026-01-30T15:01:31+01:00",
+  "name": "Neubau einer Salzlagerhalle - Auftragsvergabe der Zimmer- und Holzbauarbeiten",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0001",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

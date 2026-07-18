@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00606298.pdf",
+      "created": "2018-11-14T10:36:09+01:00",
+      "date": "2018-11-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00606298.pdf",
+      "fileName": "00606298.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/606298",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00606376.pdf",
+      "created": "2018-11-16T11:43:30+01:00",
+      "date": "2018-11-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00606376.pdf",
+      "fileName": "00606376.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/606376",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 26",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607085.pdf",
+      "created": "2019-01-08T08:13:46+01:00",
+      "date": "2019-01-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607085.pdf",
+      "fileName": "00607085.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607085",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 26",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44411",
+      "authoritative": true,
+      "created": "2018-10-30T16:36:48+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15793",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4973",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36715",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-10-22T07:54:35+02:00",
+  "date": "2018-10-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36715",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Lebensräume für Reptilien / hier: Kirchfeld-Nord",
+  "paperType": "Anfrage",
+  "reference": "2018/0700",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

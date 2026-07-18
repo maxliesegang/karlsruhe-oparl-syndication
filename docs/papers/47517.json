@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00640999.pdf",
+      "created": "2022-09-27T13:46:59+02:00",
+      "date": "2022-09-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00640999.pdf",
+      "fileName": "00640999.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/640999",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00641776.pdf",
+      "created": "2022-10-21T09:15:57+02:00",
+      "date": "2022-10-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00641776.pdf",
+      "fileName": "00641776.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/641776",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme_zum_Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642733.pdf",
+      "created": "2022-11-17T13:11:00+01:00",
+      "date": "2022-11-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642733.pdf",
+      "fileName": "00642733.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642733",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 36",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72820",
+      "created": "2022-09-27T16:38:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28179",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6651",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47517",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/73014",
+      "authoritative": true,
+      "created": "2022-10-06T09:57:18+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28238",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6603",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47517",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-09-27T13:46:24+02:00",
+  "date": "2022-09-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47517",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Fahrradroute Sophienstraße - Herrenstraße - Erbprinzenstraße vorbereiten und ausweisen",
+  "paperType": "Antrag",
+  "reference": "2022/1071",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

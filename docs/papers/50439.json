@@ -1,0 +1,71 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658399.pdf",
+      "created": "2024-05-14T09:12:57+02:00",
+      "date": "2024-05-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658399.pdf",
+      "fileName": "00658399.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658399",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658443.pdf",
+      "created": "2024-05-14T17:06:34+02:00",
+      "date": "2024-05-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658443.pdf",
+      "fileName": "00658443.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658443",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658467.pdf",
+      "created": "2024-05-14T20:23:43+02:00",
+      "date": "2024-05-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658467.pdf",
+      "fileName": "00658467.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658467",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP11.2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86488",
+      "authoritative": true,
+      "created": "2024-05-14T09:51:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32108",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9526",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50439",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-05-14T09:12:24+02:00",
+  "date": "2024-05-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50439",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Themenfelder Fuß- und Radverkehr",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2024/0284/2",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50160"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

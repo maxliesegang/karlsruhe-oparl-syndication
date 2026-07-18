@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677127.pdf",
+      "created": "2026-03-18T14:11:19+01:00",
+      "date": "2026-03-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677127.pdf",
+      "fileName": "00677127.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677127",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:43:04+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677129.pdf",
+      "created": "2026-03-18T14:16:37+01:00",
+      "date": "2026-03-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677129.pdf",
+      "fileName": "00677129.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677129",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:43:04+02:00",
+      "name": "Anlage Genehmigungsschreiben",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678034.pdf",
+      "created": "2026-04-29T11:22:16+02:00",
+      "date": "2026-04-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678034.pdf",
+      "fileName": "00678034.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678034",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:43:04+02:00",
+      "name": "Abstimmungsergebnis TOP 13",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678395.pdf",
+      "created": "2026-05-15T10:43:02+02:00",
+      "date": "2026-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678395.pdf",
+      "fileName": "00678395.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678395",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:43:04+02:00",
+      "name": "Protokoll GR 28.04.2026 TOP 13",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101124",
+      "authoritative": true,
+      "created": "2026-04-01T09:53:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37124",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10512",
+      "modified": "2026-04-28T18:45:06+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54355",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-03-17T09:10:49+01:00",
+  "date": "2026-03-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54355",
+  "modified": "2026-05-15T10:43:04+02:00",
+  "name": "Genehmigung des Antrags auf Befreiung vom Erweiterten Beteiligungsbericht nach dem Kommunalen Regelungsbefreiungsgesetz (KommRegBefrG) / Beschlussfassung zur Umsetzung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0212",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

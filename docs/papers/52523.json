@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671056.pdf",
+      "created": "2025-10-21T08:02:08+02:00",
+      "date": "2025-10-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671056.pdf",
+      "fileName": "00671056.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671056",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-21T15:08:05+02:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671114.pdf",
+      "created": "2025-10-21T11:01:54+02:00",
+      "date": "2025-10-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671114.pdf",
+      "fileName": "00671114.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671114",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-21T15:08:05+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96994",
+      "authoritative": true,
+      "created": "2025-10-21T09:45:53+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35090",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10054",
+      "modified": "2025-10-22T09:48:28+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52523",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-10-21T08:01:50+02:00",
+  "date": "2025-10-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52523",
+  "modified": "2026-03-02T13:38:20+01:00",
+  "name": "Haushaltssicherungsmaßnahmen: Stufenweise Reduzierung des Geschwisterkinderzuschusses und weitere Auswirkungen auf die Kita-Finanzierung",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2025/0846/2",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52341"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

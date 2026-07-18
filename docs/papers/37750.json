@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611376.pdf",
+      "created": "2019-09-27T14:41:41+02:00",
+      "date": "2019-09-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611376.pdf",
+      "fileName": "00611376.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611376",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Auftragsvergabe LKW",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611848.pdf",
+      "created": "2019-10-24T12:19:22+02:00",
+      "date": "2019-10-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611848.pdf",
+      "fileName": "00611848.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611848",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis_top22",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612676.pdf",
+      "created": "2019-11-27T13:30:18+01:00",
+      "date": "2019-11-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612676.pdf",
+      "fileName": "00612676.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612676",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 22",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46976",
+      "authoritative": true,
+      "created": "2019-09-25T10:23:50+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17045",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5404",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37750",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-09-10T08:32:34+02:00",
+  "date": "2019-09-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37750",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Auftragsvergabe zur Beschaffung von LKW, Arbeitsmaschinen und einem Schlepper - AfA 19016",
+  "paperType": "Beschlussvorlage",
+  "reference": "2019/0856",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

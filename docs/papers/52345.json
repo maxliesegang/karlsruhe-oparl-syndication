@@ -1,0 +1,58 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669939.pdf",
+      "created": "2025-09-04T15:51:10+02:00",
+      "date": "2025-06-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669939.pdf",
+      "fileName": "00669939.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669939",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-02T16:30:24+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670932.pdf",
+      "created": "2025-10-16T15:17:38+02:00",
+      "date": "2025-10-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670932.pdf",
+      "fileName": "00670932.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670932",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-22T10:43:41+02:00",
+      "name": "Empfehlung GBR-Sitzung 10.10.2025",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96135",
+      "created": "2025-09-04T15:57:51+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34810",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10167",
+      "modified": "2025-09-04T15:57:58+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54847"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52345",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-09-04T15:51:10+02:00",
+  "date": "2025-09-04",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52345",
+  "modified": "2025-11-25T16:53:31+01:00",
+  "name": "Umnutzung Kirche und Neubau Wohnen Michiganstraße 1, Nordstadt",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/0278/2",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52042"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

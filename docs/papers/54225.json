@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676309.pdf",
+      "created": "2026-02-02T15:24:41+01:00",
+      "date": "2026-02-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676309.pdf",
+      "fileName": "00676309.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676309",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:22:57+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676688.pdf",
+      "created": "2026-02-19T11:00:13+01:00",
+      "date": "2026-02-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676688.pdf",
+      "fileName": "00676688.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676688",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:22:57+02:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677583.pdf",
+      "created": "2026-04-09T10:22:54+02:00",
+      "date": "2026-04-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677583.pdf",
+      "fileName": "00677583.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677583",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:22:57+02:00",
+      "name": "Protokoll GR 24.03.2026 TOP 24",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100612",
+      "authoritative": true,
+      "created": "2026-02-24T10:29:55+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36950",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10497",
+      "modified": "2026-03-24T19:28:26+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54225",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-02-02T15:24:05+01:00",
+  "date": "2026-02-02",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54225",
+  "modified": "2026-04-09T10:22:57+02:00",
+  "name": "Ausrichtung des Karlsruher Jugendschutzes",
+  "paperType": "Anfrage",
+  "reference": "2026/0090",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

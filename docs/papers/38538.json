@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00622258.pdf",
+      "created": "2020-12-04T09:07:44+01:00",
+      "date": "2020-12-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00622258.pdf",
+      "fileName": "00622258.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/622258",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Inklusion Kitaeinrichtungen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00622505.pdf",
+      "created": "2020-12-18T11:24:20+01:00",
+      "date": "2020-12-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00622505.pdf",
+      "fileName": "00622505.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/622505",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis Oz 156 und TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626340.pdf",
+      "created": "2021-06-21T14:26:57+02:00",
+      "date": "2021-06-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626340.pdf",
+      "fileName": "00626340.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626340",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Auszug Protokoll TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53275",
+      "created": "2020-06-25T09:06:26+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/18059",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5801",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38538",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/55290",
+      "authoritative": true,
+      "created": "2020-11-17T09:40:07+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/18060",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5675",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38538",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-03-16T08:59:16+01:00",
+  "date": "2020-03-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38538",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Inklusion in Kindertageseinrichtungen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2020/0325",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

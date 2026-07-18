@@ -1,0 +1,81 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36805",
+      "created": "2026-01-09T09:23:12+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100009",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10744",
+      "modified": "2026-01-12T09:25:47+01:00",
+      "name": "Antrag der CDU-Ortschaftsratsfraktion zur Datenerhebung bzw. Überprüfung Altklei-der- und Altglascontainer",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36812",
+      "created": "2026-01-09T09:23:12+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100008",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10744",
+      "modified": "2026-01-09T09:23:31+01:00",
+      "name": "Plauderbänke – Standorte in Neureut",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36806",
+      "created": "2026-01-09T09:23:12+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100010",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10744",
+      "modified": "2026-01-09T09:23:31+01:00",
+      "name": "Bekanntgaben",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36807",
+      "created": "2026-01-09T09:23:12+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100011",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10744",
+      "modified": "2026-01-09T09:23:31+01:00",
+      "name": "Anfragen und Anregungen aus dem Ortschaftsrat",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2025-11-07T08:35:42+01:00",
+  "end": "2026-01-20T00:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10744",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675646.pdf",
+    "created": "2026-01-09T09:26:00+01:00",
+    "date": "2026-01-09",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675646.pdf",
+    "fileName": "00675646.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675646",
+    "mimeType": "application/pdf",
+    "modified": "2026-01-12T10:51:03+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2025-11-07T08:35:42+01:00",
+    "description": "Sitzungssaal Rathaus Neureut",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10744",
+    "modified": "2026-01-14T16:49:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-01-14T16:49:55+01:00",
+  "name": "Ortschaftsrat Neureut (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34531"
+  ],
+  "start": "2026-01-20T19:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

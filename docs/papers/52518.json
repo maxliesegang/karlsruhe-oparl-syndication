@@ -1,0 +1,71 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671041.pdf",
+      "created": "2025-10-20T15:14:23+02:00",
+      "date": "2025-10-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671041.pdf",
+      "fileName": "00671041.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671041",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-22T13:45:11+02:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671091.pdf",
+      "created": "2025-10-21T09:50:32+02:00",
+      "date": "2025-10-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671091.pdf",
+      "fileName": "00671091.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671091",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-22T13:45:11+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671185.pdf",
+      "created": "2025-10-22T13:45:09+02:00",
+      "date": "2025-10-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671185.pdf",
+      "fileName": "00671185.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671185",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-22T13:45:11+02:00",
+      "name": "Abstimmungsergebnis TOP 8.1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96989",
+      "authoritative": true,
+      "created": "2025-10-20T15:28:21+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35085",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10054",
+      "modified": "2025-10-22T09:31:51+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52518",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-10-20T15:14:09+02:00",
+  "date": "2025-10-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52518",
+  "modified": "2025-10-22T13:45:11+02:00",
+  "name": "Satzung zur Änderung der Satzung der Stadt Karlsruhe über die Erhebung einer Vergnügungsteuer (Vergnügungsteuersatzung)",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2025/0892/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52388"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

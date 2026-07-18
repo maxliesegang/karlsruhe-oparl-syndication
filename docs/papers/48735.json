@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648024.pdf",
+      "created": "2023-06-09T12:18:54+02:00",
+      "date": "2023-06-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648024.pdf",
+      "fileName": "00648024.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648024",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Plan",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648155.pdf",
+      "created": "2023-06-15T15:12:26+02:00",
+      "date": "2023-06-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648155.pdf",
+      "fileName": "00648155.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648155",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlusssvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78247",
+      "authoritative": true,
+      "created": "2023-06-12T11:07:41+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29809",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9118",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48735",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-06-06T12:15:51+02:00",
+  "date": "2023-06-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48735",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Erschließungsmaßnahmen, Technologiepark Vogelsand",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0654",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

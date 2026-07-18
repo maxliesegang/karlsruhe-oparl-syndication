@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619172.pdf",
+      "created": "2020-08-05T10:20:09+02:00",
+      "date": "2020-08-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619172.pdf",
+      "fileName": "00619172.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619172",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619613.pdf",
+      "created": "2020-09-17T14:03:34+02:00",
+      "date": "2020-09-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619613.pdf",
+      "fileName": "00619613.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619613",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme SPD Reform Leitungsstruktur",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54159",
+      "authoritative": true,
+      "created": "2020-09-01T11:04:41+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19873",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5670",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40163",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-08-05T10:19:54+02:00",
+  "date": "2020-08-05",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40163",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Reform der Leitungsstruktur am Badischen Staatstheater",
+  "paperType": "Antrag",
+  "reference": "2020/0953",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

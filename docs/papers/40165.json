@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619175.pdf",
+      "created": "2020-08-07T11:27:58+02:00",
+      "date": "2020-08-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619175.pdf",
+      "fileName": "00619175.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619175",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619633.pdf",
+      "created": "2020-09-17T14:08:55+02:00",
+      "date": "2020-09-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619633.pdf",
+      "fileName": "00619633.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619633",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme FDP Neuer Liniennetzplan",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620458.pdf",
+      "created": "2020-10-29T08:55:19+01:00",
+      "date": "2020-10-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620458.pdf",
+      "fileName": "00620458.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620458",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 38",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54169",
+      "authoritative": true,
+      "created": "2020-09-01T11:04:41+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19876",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5670",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40165",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-08-07T11:27:35+02:00",
+  "date": "2020-08-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40165",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Neuer Liniennetzplan",
+  "paperType": "Anfrage",
+  "reference": "2020/0955",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882999"
+  ]
+}

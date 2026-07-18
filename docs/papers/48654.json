@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647485.pdf",
+      "created": "2023-05-22T15:40:15+02:00",
+      "date": "2023-05-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647485.pdf",
+      "fileName": "00647485.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647485",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648533.pdf",
+      "created": "2023-06-27T19:59:35+02:00",
+      "date": "2023-06-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648533.pdf",
+      "fileName": "00648533.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648533",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648988.pdf",
+      "created": "2023-07-17T12:51:55+02:00",
+      "date": "2023-07-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648988.pdf",
+      "fileName": "00648988.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648988",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78070",
+      "authoritative": true,
+      "created": "2023-05-30T15:53:07+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29776",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9046",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48654",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-05-22T15:38:21+02:00",
+  "date": "2023-05-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48654",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Aufbereitung von personenbezogenen Daten (Bildmaterial) im Zusammenhang mit Geschwindigkeits- sowie Rotlichtverstößen Vergabe Nr.: OA22004",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0576",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

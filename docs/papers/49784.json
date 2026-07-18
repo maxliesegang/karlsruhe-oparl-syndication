@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655054.pdf",
+      "created": "2024-01-02T14:00:05+01:00",
+      "date": "2024-01-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655054.pdf",
+      "fileName": "00655054.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655054",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656693.pdf",
+      "created": "2024-03-13T10:53:02+01:00",
+      "date": "2024-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656693.pdf",
+      "fileName": "00656693.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656693",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 20.02.2024 TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84490",
+      "authoritative": true,
+      "created": "2024-01-23T12:57:49+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31172",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9523",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49784",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-12-04T10:54:34+01:00",
+  "date": "2023-12-04",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49784",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Beitritt der Stadt Karlsruhe zum Verein wirfuerbio e.V.",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/1370",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

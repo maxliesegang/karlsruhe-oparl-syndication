@@ -1,0 +1,73 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649876.pdf",
+      "created": "2023-08-18T12:39:57+02:00",
+      "date": "2023-08-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649876.pdf",
+      "fileName": "00649876.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649876",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650258.pdf",
+      "created": "2023-08-30T18:04:06+02:00",
+      "date": "2023-08-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650258.pdf",
+      "fileName": "00650258.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650258",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/79770",
+      "authoritative": true,
+      "created": "2023-08-18T12:46:08+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30293",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9064",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49043",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/79999",
+      "authoritative": true,
+      "created": "2023-08-23T11:03:41+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30294",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9049",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49043",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-08-18T12:38:52+02:00",
+  "date": "2023-08-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49043",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Umwidmung der nördlichen Karlstraße in eine verkehrsberuhigte Zone",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2023/0386/5",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48449"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

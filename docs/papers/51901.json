@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667045.pdf",
+      "created": "2025-05-09T09:35:19+02:00",
+      "date": "2025-05-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667045.pdf",
+      "fileName": "00667045.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667045",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-16T18:02:54+02:00",
+      "name": "Prüfantrag Verkehrsversuch Seboldstraße",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667046.pdf",
+      "created": "2025-05-09T09:37:26+02:00",
+      "date": "2025-05-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667046.pdf",
+      "fileName": "00667046.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667046",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-16T18:02:54+02:00",
+      "name": "Stellungnahme Verkehrsversuch Seboldstraße",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93865",
+      "authoritative": true,
+      "created": "2025-05-12T14:37:13+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34198",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10028",
+      "modified": "2025-07-24T08:50:19+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51901",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-05-09T09:34:53+02:00",
+  "date": "2025-05-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51901",
+  "modified": "2025-08-08T15:22:50+02:00",
+  "name": "Verkehrsversuch Seboldstraße",
+  "paperType": "Anfrage",
+  "reference": "2025/0447",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

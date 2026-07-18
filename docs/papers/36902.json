@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607362.pdf",
+      "created": "2019-01-10T10:00:22+01:00",
+      "date": "2019-01-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607362.pdf",
+      "fileName": "00607362.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607362",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Ausschussumbesetzung KASIG",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607555.pdf",
+      "created": "2019-01-23T09:08:56+01:00",
+      "date": "2019-01-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607555.pdf",
+      "fileName": "00607555.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607555",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis Top 5",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607639.pdf",
+      "created": "2019-01-29T14:35:09+01:00",
+      "date": "2019-01-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607639.pdf",
+      "fileName": "00607639.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607639",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 5",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44870",
+      "authoritative": true,
+      "created": "2019-01-08T09:49:55+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16039",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5261",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36902",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-12-17T13:11:59+01:00",
+  "date": "2018-12-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36902",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Änderung der Besetzung des Aufsichtsrates der KASIG - Karlsruher Schieneninfrastruktur-Gesellschaft mbH und der VBK - Verkehrsbetriebe Karlsruhe GmbH in Folge der Niederlegung der Aufsichtsratsmandate durch Herrn Istvan Pinter",
+  "paperType": "Beschlussvorlage",
+  "reference": "2018/0902",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

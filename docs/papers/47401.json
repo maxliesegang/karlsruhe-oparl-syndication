@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00640520.pdf",
+      "created": "2022-09-12T09:27:13+02:00",
+      "date": "2022-09-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00640520.pdf",
+      "fileName": "00640520.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/640520",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00641315.pdf",
+      "created": "2022-10-10T15:36:37+02:00",
+      "date": "2022-10-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00641315.pdf",
+      "fileName": "00641315.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/641315",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahnme Ausbildungsplätze",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00641316.pdf",
+      "created": "2022-10-10T15:36:37+02:00",
+      "date": "2022-10-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00641316.pdf",
+      "fileName": "00641316.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/641316",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "GR Anlage_Gesellschaften",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642735.pdf",
+      "created": "2022-11-17T13:11:41+01:00",
+      "date": "2022-11-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642735.pdf",
+      "fileName": "00642735.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642735",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 37",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72800",
+      "authoritative": true,
+      "created": "2022-09-27T12:38:31+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28053",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6603",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47401",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-09-12T09:22:05+02:00",
+  "date": "2022-10-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47401",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Ausbildung 2022 bei der Stadt und ihren Gesellschaften",
+  "paperType": "Anfrage",
+  "reference": "ANF2022/2003",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882953"
+  ]
+}

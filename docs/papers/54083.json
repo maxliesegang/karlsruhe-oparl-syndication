@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675012.pdf",
+      "created": "2025-12-08T16:05:32+01:00",
+      "date": "2025-12-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675012.pdf",
+      "fileName": "00675012.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675012",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-23T15:09:36+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675152.pdf",
+      "created": "2025-12-11T18:24:03+01:00",
+      "date": "2025-12-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675152.pdf",
+      "fileName": "00675152.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675152",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-23T15:09:36+01:00",
+      "name": "Anlage_1_K100_Protokoll_öffentliche Begutachtung",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99803",
+      "created": "2025-12-09T07:50:18+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36731",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10466",
+      "modified": "2026-01-22T17:59:52+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54083",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-12-08T16:02:31+01:00",
+  "date": "2025-12-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54083",
+  "modified": "2025-12-23T15:09:36+01:00",
+  "name": "Ergebnis Wettbewerbsverfahren \"Kriegsstraße 100 - Entwicklung ehemaliges Postgiroareal\"",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/1244",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

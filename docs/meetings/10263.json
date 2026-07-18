@@ -1,0 +1,94 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33163",
+      "created": "2024-10-22T10:04:19+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90756",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10263",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Arbeitskreis Baggersee",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33196",
+      "created": "2024-11-07T17:45:55+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91070",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10263",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Unterstützung bei der Finanzierung eines Motorrettungsbootes für Grötzingen",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2024-11-20T14:05:51+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91366",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10263",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verschiedenes (Mitteilungen & Anregungen)",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663352.pdf",
+      "created": "2024-12-02T09:11:53+01:00",
+      "date": "2024-12-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663352.pdf",
+      "fileName": "00663352.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663352",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "2024_11_27 Anwesenheitsliste AK Baggersee",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664750.pdf",
+      "created": "2025-02-05T11:14:45+01:00",
+      "date": "2025-02-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664750.pdf",
+      "fileName": "00664750.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664750",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll AK Baggersee öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2024-10-22T10:03:31+02:00",
+  "end": "2024-11-27T19:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10263",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664751.pdf",
+    "created": "2025-02-05T11:14:57+01:00",
+    "date": "2025-02-05",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664751.pdf",
+    "fileName": "00664751.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664751",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2024-10-22T10:03:31+02:00",
+    "description": "Herbert-Schweizer-Haus Begegnungsstätte Grötzingen, Niddastraße 9, 76229 Karlsruhe",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10263",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ortschaftsrat Grötzingen Arbeitskreis Baggersee (öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+  ],
+  "start": "2024-11-27T18:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

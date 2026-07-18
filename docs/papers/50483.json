@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659195.pdf",
+      "created": "2024-06-19T16:12:02+02:00",
+      "date": "2024-06-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659195.pdf",
+      "fileName": "00659195.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659195",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659894.pdf",
+      "created": "2024-07-30T15:58:53+02:00",
+      "date": "2024-07-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659894.pdf",
+      "fileName": "00659894.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659894",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_HA_02.07.2024_TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86913",
+      "authoritative": true,
+      "created": "2024-06-05T13:46:55+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32172",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9968",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50483",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-05-23T10:07:38+02:00",
+  "date": "2024-05-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50483",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Dienstleistung für Kommunikations- und Marketingmaßnahmen der Karlsruhe.App",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0579",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883004"
+  ]
+}

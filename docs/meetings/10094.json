@@ -1,0 +1,80 @@
+{
+  "agendaItem": [
+    {
+      "created": "2025-08-25T13:35:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95710",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10094",
+      "modified": "2025-10-21T15:05:07+02:00",
+      "name": "Vorsitz: Bürgermeisterin Bettina Lisbach",
+      "number": "",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-08-27T11:40:32+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95733",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10094",
+      "modified": "2025-08-27T11:42:16+02:00",
+      "name": "Sachstand Ersthelfer - App",
+      "number": "1",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-08-12T13:41:44+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95466",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10094",
+      "modified": "2025-08-27T11:42:16+02:00",
+      "name": "Verschiedenes",
+      "number": "2",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670630.pdf",
+      "created": "2025-10-07T11:30:50+02:00",
+      "date": "2025-10-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670630.pdf",
+      "fileName": "00670630.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670630",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-07T11:31:23+02:00",
+      "name": "Protokoll TOP 1 Sachstand Ersthelfer App - AföE 1.10.2025",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2024-10-17T12:10:40+02:00",
+  "end": "2025-10-01T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10094",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669725.pdf",
+    "created": "2025-08-27T11:43:57+02:00",
+    "date": "2025-08-27",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669725.pdf",
+    "fileName": "00669725.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669725",
+    "mimeType": "application/pdf",
+    "modified": "2025-10-07T11:31:47+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2024-10-17T12:10:40+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10094",
+    "modified": "2025-10-01T09:57:35+02:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-10-01T09:57:35+02:00",
+  "name": "Ausschuss für öffentliche Einrichtungen (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+  ],
+  "start": "2025-10-01T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

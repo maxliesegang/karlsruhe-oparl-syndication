@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665022.pdf",
+      "created": "2025-02-18T16:52:41+01:00",
+      "date": "2025-02-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665022.pdf",
+      "fileName": "00665022.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665022",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-07T10:04:53+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666217.pdf",
+      "created": "2025-04-07T10:04:46+02:00",
+      "date": "2025-04-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666217.pdf",
+      "fileName": "00666217.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666217",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-07T10:04:53+02:00",
+      "name": "Protokoll_HFA_11.03.2025_TOP 5",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92508",
+      "authoritative": true,
+      "created": "2025-02-19T07:56:31+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33742",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10035",
+      "modified": "2025-03-17T11:30:25+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51594",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-02-18T16:40:54+01:00",
+  "date": "2025-02-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51594",
+  "modified": "2025-04-07T10:04:53+02:00",
+  "name": "Vergabe zur Beschaffung von insgesamt sieben Mannschaftstransportwagen für die Feuerwehr Karlsruhe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0168",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882976"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665395.pdf",
+      "created": "2025-03-06T10:34:50+01:00",
+      "date": "2025-03-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665395.pdf",
+      "fileName": "00665395.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665395",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-17T07:50:55+01:00",
+      "name": "Anfrage Wolfartsweier",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665629.pdf",
+      "created": "2025-03-13T10:54:48+01:00",
+      "date": "2025-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665629.pdf",
+      "fileName": "00665629.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665629",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-17T07:50:55+01:00",
+      "name": "Stellungnahme Bauarbeiten Aussegnungshalle00665397",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92789",
+      "created": "2025-03-10T08:10:38+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33829",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10272",
+      "modified": "2025-03-10T08:10:46+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51656",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-03-06T10:34:22+01:00",
+  "date": "2025-03-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51656",
+  "modified": "2025-03-17T07:50:55+01:00",
+  "name": "Bauarbeiten an der Aussegnungshalle Neuer Friedhof",
+  "paperType": "Anfrage",
+  "reference": "2025/0229",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+  ]
+}

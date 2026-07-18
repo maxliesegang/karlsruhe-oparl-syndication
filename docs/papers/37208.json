@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608796.pdf",
+      "created": "2019-04-01T09:28:56+02:00",
+      "date": "2019-04-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608796.pdf",
+      "fileName": "00608796.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608796",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609572.pdf",
+      "created": "2019-05-03T13:01:34+02:00",
+      "date": "2019-05-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609572.pdf",
+      "fileName": "00609572.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609572",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 3.2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610619.pdf",
+      "created": "2019-07-30T11:05:00+02:00",
+      "date": "2019-07-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610619.pdf",
+      "fileName": "00610619.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610619",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 3.1 und 3.2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46104",
+      "authoritative": true,
+      "created": "2019-05-28T12:51:18+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16390",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5344",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37208",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-04-01T09:26:47+02:00",
+  "date": "2019-04-01",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37208",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Kurzfristige Maßnahmen für eine lebendige Innenstadt",
+  "paperType": "Antrag",
+  "reference": "2019/0298",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

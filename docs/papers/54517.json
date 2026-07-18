@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678117.pdf",
+      "created": "2026-05-04T10:14:05+02:00",
+      "date": "2026-05-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678117.pdf",
+      "fileName": "00678117.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678117",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-03T13:25:55+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678359.pdf",
+      "created": "2026-05-13T13:30:25+02:00",
+      "date": "2026-05-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678359.pdf",
+      "fileName": "00678359.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678359",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-03T13:25:55+02:00",
+      "name": "Lagepläne",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678360.pdf",
+      "created": "2026-05-13T13:30:39+02:00",
+      "date": "2026-05-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678360.pdf",
+      "fileName": "00678360.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678360",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-03T13:25:55+02:00",
+      "name": "Querschnitte",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102082",
+      "created": "2026-06-09T14:01:06+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37360",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10719",
+      "modified": "2026-07-14T11:22:50+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54517",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-05-04T10:13:28+02:00",
+  "date": "2026-05-04",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54517",
+  "modified": "2026-07-03T13:25:55+02:00",
+  "name": "Anpassungen am nördlichen Geh- und Radweg der Ottostraße",
+  "paperType": "Informationsvorlage",
+  "reference": "2026/0352",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

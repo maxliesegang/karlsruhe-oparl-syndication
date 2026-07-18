@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655901.pdf",
+      "created": "2024-02-08T11:21:21+01:00",
+      "date": "2024-02-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655901.pdf",
+      "fileName": "00655901.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655901",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Plan",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655988.pdf",
+      "created": "2024-02-13T10:06:22+01:00",
+      "date": "2024-02-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655988.pdf",
+      "fileName": "00655988.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655988",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84944",
+      "authoritative": true,
+      "created": "2024-02-22T13:41:48+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31429",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9539",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49976",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-01-30T12:03:41+01:00",
+  "date": "2024-01-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49976",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Abwasserbeseitigung, Erschließung Kernstadt Zukunft Nord, Bauabschnitt 2",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0115",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

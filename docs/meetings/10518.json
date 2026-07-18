@@ -1,0 +1,76 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37119",
+      "created": "2026-03-24T12:48:41+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100917",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10518",
+      "modified": "2026-05-18T11:16:10+02:00",
+      "name": "Verkehrssicherheit erhöhen - Überholabstände einhalten",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "verwiesen in den Gemeinderat",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37107",
+      "created": "2026-03-11T14:33:46+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100769",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10518",
+      "modified": "2026-05-08T10:17:28+02:00",
+      "name": "Mehr Modalfilter für mehr Verkehrssicherheit und weniger Durchgangsverkehr!",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "erledigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37215",
+      "created": "2026-04-17T13:53:29+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101307",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10518",
+      "modified": "2026-05-08T10:17:35+02:00",
+      "name": "Umwandlung des Seitenstreifens auf der BAB5 in Fahrtrichtung Frankfurt zwischen der Anschlussstelle Karlsruhe-Durlach (44) und Karlsruhe-Nord (43)",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "erledigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2025-10-10T11:39:26+02:00",
+  "end": "2026-05-07T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10518",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677889.pdf",
+    "created": "2026-04-24T13:18:29+02:00",
+    "date": "2026-04-24",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677889.pdf",
+    "fileName": "00677889.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677889",
+    "mimeType": "application/pdf",
+    "modified": "2026-04-24T13:49:38+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2022-12-12T11:11:26+01:00",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/rm/67907",
+    "locality": "",
+    "modified": "2025-08-05T10:18:13+02:00",
+    "postalCode": "",
+    "room": "Bürgersaal",
+    "streetAddress": "",
+    "subLocality": "",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-04-24T13:49:38+02:00",
+  "name": "Planungsausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+  ],
+  "start": "2026-05-07T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

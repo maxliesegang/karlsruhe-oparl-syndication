@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668698.pdf",
+      "created": "2025-07-09T11:34:31+02:00",
+      "date": "2025-07-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668698.pdf",
+      "fileName": "00668698.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668698",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:20:20+02:00",
+      "name": "Beschlussvorlage_Prüfungstagessätze",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670522.pdf",
+      "created": "2025-09-30T16:35:45+02:00",
+      "date": "2025-09-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670522.pdf",
+      "fileName": "00670522.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670522",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:20:20+02:00",
+      "name": "Abstimmugsergebnis TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670951.pdf",
+      "created": "2025-10-17T10:20:17+02:00",
+      "date": "2025-10-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670951.pdf",
+      "fileName": "00670951.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670951",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:20:20+02:00",
+      "name": "Protokoll GR 30.09.2025 TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95945",
+      "authoritative": true,
+      "created": "2025-08-29T08:53:32+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34252",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10052",
+      "modified": "2025-09-30T16:21:02+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51944",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-05-20T10:12:03+02:00",
+  "date": "2025-05-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51944",
+  "modified": "2025-10-17T10:20:20+02:00",
+  "name": "Kalkulation und Festlegung der Prüfungstagessätze für das Rechnungsprüfungsamt",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0486",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882955"
+  ]
+}

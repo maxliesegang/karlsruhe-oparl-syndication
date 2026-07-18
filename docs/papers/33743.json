@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00150441.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2015-01-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00150441.pdf",
+      "fileName": "00150441.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/150441",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "GfK-Streit beim Tunnelbau",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00150477.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2015-01-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00150477.pdf",
+      "fileName": "00150477.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/150477",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 27.2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00585539.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2015-02-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00585539.pdf",
+      "fileName": "00585539.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/585539",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 27.2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/36064",
+      "authoritative": true,
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/12070",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3835",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/33743",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2014-11-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/33743",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Streit im Tunnelbau",
+  "paperType": "Anfrage",
+  "reference": "2014/0308",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

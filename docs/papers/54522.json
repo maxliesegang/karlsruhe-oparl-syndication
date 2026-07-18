@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678152.pdf",
+      "created": "2026-05-05T11:23:51+02:00",
+      "date": "2026-05-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678152.pdf",
+      "fileName": "00678152.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678152",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-08T15:35:01+02:00",
+      "name": "Anfrage Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678153.pdf",
+      "created": "2026-05-05T11:24:55+02:00",
+      "date": "2026-05-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678153.pdf",
+      "fileName": "00678153.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678153",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-08T15:35:01+02:00",
+      "name": "Stellungnahme Anfrage Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101517",
+      "created": "2026-05-05T11:27:31+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37368",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10442",
+      "modified": "2026-05-15T09:51:21+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54522",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-05-05T11:23:23+02:00",
+  "date": "2026-05-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54522",
+  "modified": "2026-06-08T15:35:00+02:00",
+  "name": "Unterstützung der DLRG bei der Beschaffung eines Hochwasserbootes (Interfraktionelle Anfrage)",
+  "paperType": "Anfrage",
+  "reference": "2026/0357",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

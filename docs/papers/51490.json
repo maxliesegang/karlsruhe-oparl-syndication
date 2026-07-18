@@ -1,0 +1,82 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664366.pdf",
+      "created": "2025-01-21T14:35:00+01:00",
+      "date": "2025-01-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664366.pdf",
+      "fileName": "00664366.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664366",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-17T10:50:09+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665514.pdf",
+      "created": "2025-03-11T08:39:26+01:00",
+      "date": "2025-03-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665514.pdf",
+      "fileName": "00665514.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665514",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-17T10:50:09+02:00",
+      "name": "Protokoll GR 18.02.2025 TOP 16",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667803.pdf",
+      "created": "2025-06-06T16:40:21+02:00",
+      "date": "2025-06-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667803.pdf",
+      "fileName": "00667803.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667803",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-17T10:50:50+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92228",
+      "authoritative": true,
+      "created": "2025-02-04T09:41:51+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33582",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10045",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51490",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93331",
+      "authoritative": true,
+      "created": "2025-04-15T20:31:22+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33599",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10123",
+      "modified": "2025-07-28T15:11:21+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/29599"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51490",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-01-21T14:34:19+01:00",
+  "date": "2025-01-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51490",
+  "modified": "2025-07-17T10:50:09+02:00",
+  "name": "Kommunale Aufarbeitung der Kinderverschickung in Karlsruhe",
+  "paperType": "Antrag",
+  "reference": "2025/0071",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882963"
+  ]
+}

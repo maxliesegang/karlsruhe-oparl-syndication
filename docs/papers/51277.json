@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662906.pdf",
+      "created": "2024-11-18T16:00:38+01:00",
+      "date": "2024-11-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662906.pdf",
+      "fileName": "00662906.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662906",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663756.pdf",
+      "created": "2024-12-16T14:31:14+01:00",
+      "date": "2024-12-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663756.pdf",
+      "fileName": "00663756.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663756",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663965.pdf",
+      "created": "2025-01-02T15:02:46+01:00",
+      "date": "2025-01-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663965.pdf",
+      "fileName": "00663965.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663965",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 17.12.2024 TOP 46",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91341",
+      "authoritative": true,
+      "created": "2024-11-20T08:53:10+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33274",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9534",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51277",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-11-18T16:00:07+01:00",
+  "date": "2024-11-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51277",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Netzausbau und Energieversorgung in Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2024/1319",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

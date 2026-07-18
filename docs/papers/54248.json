@@ -1,0 +1,71 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676523.pdf",
+      "created": "2026-02-10T17:28:15+01:00",
+      "date": "2026-02-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676523.pdf",
+      "fileName": "00676523.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676523",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:21:04+02:00",
+      "name": "Anlage Einwohnerantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676838.pdf",
+      "created": "2026-02-26T15:35:11+01:00",
+      "date": "2026-02-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676838.pdf",
+      "fileName": "00676838.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676838",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:21:04+02:00",
+      "name": "Beschlussvorlage Behandlung der Angelegenheit Einwohnerantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677575.pdf",
+      "created": "2026-04-09T10:21:02+02:00",
+      "date": "2026-04-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677575.pdf",
+      "fileName": "00677575.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677575",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:21:04+02:00",
+      "name": "Protokoll GR 24.03.2026 TOP 17",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100684",
+      "authoritative": true,
+      "created": "2026-03-02T08:25:38+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36980",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10497",
+      "modified": "2026-03-24T19:49:30+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54248",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-02-06T15:33:16+01:00",
+  "date": "2026-02-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54248",
+  "modified": "2026-04-09T10:21:04+02:00",
+  "name": "Einwohnerantrag Geschützte Radwege - Behandlung der Angelegenheit",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0111",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54357"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

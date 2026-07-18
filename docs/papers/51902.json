@@ -1,0 +1,92 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667300.pdf",
+      "created": "2025-05-21T11:29:58+02:00",
+      "date": "2025-05-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667300.pdf",
+      "fileName": "00667300.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667300",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T11:00:24+02:00",
+      "name": "Lageplan Kaiserstraße  West",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667301.pdf",
+      "created": "2025-05-21T11:30:14+02:00",
+      "date": "2025-05-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667301.pdf",
+      "fileName": "00667301.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667301",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T11:00:24+02:00",
+      "name": "Lageplan Kaiserstraße BA2_Ost",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667633.pdf",
+      "created": "2025-06-03T07:30:58+02:00",
+      "date": "2025-06-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667633.pdf",
+      "fileName": "00667633.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667633",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T11:00:24+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669158.pdf",
+      "created": "2025-07-30T09:17:05+02:00",
+      "date": "2025-07-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669158.pdf",
+      "fileName": "00669158.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669158",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T11:00:24+02:00",
+      "name": "Abstimmungsergebnis TOP 24",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669499.pdf",
+      "created": "2025-08-19T11:00:21+02:00",
+      "date": "2025-08-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669499.pdf",
+      "fileName": "00669499.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669499",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T11:00:24+02:00",
+      "name": "Protokoll GR 29.07.2025 TOP 24",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94922",
+      "authoritative": true,
+      "created": "2025-07-02T07:59:49+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34200",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10051",
+      "modified": "2025-07-29T20:25:35+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51902",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-05-09T10:22:30+02:00",
+  "date": "2025-05-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51902",
+  "modified": "2025-08-19T11:00:24+02:00",
+  "name": "Sanierungsgebiet Innenstadt West/Ost",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0448",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

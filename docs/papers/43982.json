@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00630891.pdf",
+      "created": "2021-10-25T11:08:10+02:00",
+      "date": "2021-10-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00630891.pdf",
+      "fileName": "00630891.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/630891",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Netanel-Weil-Straße",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00633940.pdf",
+      "created": "2021-11-24T07:52:52+01:00",
+      "date": "2021-11-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00633940.pdf",
+      "fileName": "00633940.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/633940",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage_Netanel-Weil-Straße",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635486.pdf",
+      "created": "2022-01-26T10:39:47+01:00",
+      "date": "2022-01-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635486.pdf",
+      "fileName": "00635486.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635486",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis  GR TOP14",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635783.pdf",
+      "created": "2022-02-08T14:43:16+01:00",
+      "date": "2022-02-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635783.pdf",
+      "fileName": "00635783.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635783",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 14",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/67324",
+      "authoritative": true,
+      "created": "2021-12-27T10:35:08+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/24258",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6580",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/43982",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-10-25T10:01:34+02:00",
+  "date": "2021-12-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/43982",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Benennung einer Straße in der Oststadt nach Netanel Weil",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/1276",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

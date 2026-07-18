@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674235.pdf",
+      "created": "2025-12-01T14:53:02+01:00",
+      "date": "2025-12-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674235.pdf",
+      "fileName": "00674235.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674235",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-08T17:20:13+01:00",
+      "name": "Antrag KAL_027",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674823.pdf",
+      "created": "2025-12-08T08:51:52+01:00",
+      "date": "2025-12-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674823.pdf",
+      "fileName": "00674823.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674823",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-08T17:20:13+01:00",
+      "name": "5206 Stellungnahme DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99730",
+      "authoritative": true,
+      "created": "2025-12-03T08:48:30+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36666",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-17T06:45:49+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54024",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-12-01T14:52:12+01:00",
+  "date": "2025-12-01",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54024",
+  "modified": "2025-12-08T17:20:13+01:00",
+  "name": "HHS4_GR61 Rheinstrandbad Rappenwört: Perspektiven entwickeln",
+  "paperType": "Haushalt THH 5200",
+  "reference": "DHH/2025/5206",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

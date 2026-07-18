@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600504.pdf",
+      "created": "2017-12-01T12:02:18+01:00",
+      "date": "2017-12-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600504.pdf",
+      "fileName": "00600504.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600504",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Die Linke Kindertagespflegepersonen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600535.pdf",
+      "created": "2017-12-04T15:04:35+01:00",
+      "date": "2017-12-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600535.pdf",
+      "fileName": "00600535.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600535",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 34",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00601078.pdf",
+      "created": "2018-01-19T09:18:34+01:00",
+      "date": "2018-01-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00601078.pdf",
+      "fileName": "00601078.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/601078",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 34",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41712",
+      "authoritative": true,
+      "created": "2017-11-15T09:49:39+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14770",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4688",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35913",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-10-27T14:12:12+02:00",
+  "date": "2017-10-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35913",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Kindertagespflegepersonen in Karlsruhe - Situation und Bedarf",
+  "paperType": "Anfrage",
+  "reference": "2017/0688",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

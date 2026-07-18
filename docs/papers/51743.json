@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666071.pdf",
+      "created": "2025-03-31T11:26:17+02:00",
+      "date": "2025-03-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666071.pdf",
+      "fileName": "00666071.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666071",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T08:00:32+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666806.pdf",
+      "created": "2025-04-30T14:02:38+02:00",
+      "date": "2025-04-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666806.pdf",
+      "fileName": "00666806.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666806",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T08:00:32+02:00",
+      "name": "Stellungnahme zur Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668053.pdf",
+      "created": "2025-06-17T08:00:28+02:00",
+      "date": "2025-06-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668053.pdf",
+      "fileName": "00668053.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668053",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T08:00:32+02:00",
+      "name": "Protokoll GR 27.05.2025 TOP 31",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93787",
+      "authoritative": true,
+      "created": "2025-05-07T08:24:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33955",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10048",
+      "modified": "2025-05-27T18:11:16+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51743",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-03-31T11:25:33+02:00",
+  "date": "2025-03-31",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51743",
+  "modified": "2025-06-17T08:00:32+02:00",
+  "name": "Zweckentfremdungsverbotssatzung für mehr Wohnraum in Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2025/0307",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882965"
+  ]
+}

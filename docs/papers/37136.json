@@ -1,0 +1,91 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608755.pdf",
+      "created": "2019-03-29T12:31:19+01:00",
+      "date": "2019-03-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608755.pdf",
+      "fileName": "00608755.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608755",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Sporthalle SSC",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608756.pdf",
+      "created": "2019-03-29T12:31:35+01:00",
+      "date": "2019-03-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608756.pdf",
+      "fileName": "00608756.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608756",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Machbarkeitsstudie Ballsporthalle SSC_Planunterlagen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608989.pdf",
+      "created": "2019-04-10T11:23:30+02:00",
+      "date": "2019-04-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608989.pdf",
+      "fileName": "00608989.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608989",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis GR Top9",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609778.pdf",
+      "created": "2019-05-16T10:55:42+02:00",
+      "date": "2019-05-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609778.pdf",
+      "fileName": "00609778.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609778",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2019-03-12T09:07:25+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16307",
+      "modified": "2019-03-12T09:07:25+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33575"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37136",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45220",
+      "authoritative": true,
+      "created": "2019-03-12T09:45:20+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16308",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5307",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37136",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-03-12T09:07:01+01:00",
+  "date": "2019-03-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37136",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Sporthalle SSC",
+  "paperType": "Beschlussvorlage",
+  "reference": "2019/0224",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/546903"
+  ]
+}

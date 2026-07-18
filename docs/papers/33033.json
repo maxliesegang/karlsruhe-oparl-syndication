@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00145376.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2014-01-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00145376.pdf",
+      "fileName": "00145376.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/145376",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "CDU-Stadtpark Südost",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00145399.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2014-01-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00145399.pdf",
+      "fileName": "00145399.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/145399",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 24",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00146502.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2014-04-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00146502.pdf",
+      "fileName": "00146502.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/146502",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 24",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/33836",
+      "authoritative": true,
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/11138",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3464",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/33033",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2013-12-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/33033",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Gestaltung Stadtpark Südost",
+  "paperType": "Antrag",
+  "reference": "2013/0320",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882984"
+  ]
+}

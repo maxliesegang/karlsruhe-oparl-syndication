@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00621569.pdf",
+      "created": "2020-11-25T13:15:17+01:00",
+      "date": "2020-11-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00621569.pdf",
+      "fileName": "00621569.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/621569",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Annahme Zuwendungen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00622644.pdf",
+      "created": "2021-01-08T12:33:13+01:00",
+      "date": "2021-01-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00622644.pdf",
+      "fileName": "00622644.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/622644",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll HA TOP 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/55411",
+      "authoritative": true,
+      "created": "2020-11-19T14:17:52+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20290",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5660",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40486",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-11-05T09:07:13+01:00",
+  "date": "2020-11-05",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40486",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Annahme des Angebots von Zuwendungen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2020/1275",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

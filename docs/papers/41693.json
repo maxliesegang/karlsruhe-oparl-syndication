@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00627713.pdf",
+      "created": "2021-08-27T09:20:26+02:00",
+      "date": "2021-08-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00627713.pdf",
+      "fileName": "00627713.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/627713",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Konsolidierung Microsoft-Verträge",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00628351.pdf",
+      "created": "2021-09-28T17:50:00+02:00",
+      "date": "2021-09-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00628351.pdf",
+      "fileName": "00628351.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/628351",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis GR TOP 11",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00631055.pdf",
+      "created": "2021-11-02T11:56:21+01:00",
+      "date": "2021-11-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00631055.pdf",
+      "fileName": "00631055.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/631055",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 11",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/60451",
+      "authoritative": true,
+      "created": "2021-08-24T13:27:06+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21866",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6279",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41693",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-08-10T11:29:58+02:00",
+  "date": "2021-08-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41693",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Konsolidierung der bereits bestehenden Microsoft-Verträge inklusive Lizenzen zur Ablösung von Lotus Notes durch Outlook (Mail, Kalender, Aufgaben und Kontakte)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/0989",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883004"
+  ]
+}

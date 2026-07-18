@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677761.pdf",
+      "created": "2026-04-21T13:44:34+02:00",
+      "date": "2026-04-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677761.pdf",
+      "fileName": "00677761.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677761",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-03T07:32:14+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677763.pdf",
+      "created": "2026-04-21T14:11:17+02:00",
+      "date": "2026-04-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677763.pdf",
+      "fileName": "00677763.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677763",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-03T07:32:14+02:00",
+      "name": "GBR-Geschaeftsordnung_2022",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678521.pdf",
+      "created": "2026-05-20T08:42:01+02:00",
+      "date": "2026-05-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678521.pdf",
+      "fileName": "00678521.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678521",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-03T07:32:14+02:00",
+      "name": "Abstimmungsergebnis TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678824.pdf",
+      "created": "2026-06-03T07:32:11+02:00",
+      "date": "2026-06-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678824.pdf",
+      "fileName": "00678824.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678824",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-03T07:32:14+02:00",
+      "name": "Protokoll GR 19.05.2026 TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101379",
+      "authoritative": true,
+      "created": "2026-04-21T14:33:28+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37270",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10526",
+      "modified": "2026-05-20T08:05:43+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54462",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-04-21T13:36:54+02:00",
+  "date": "2026-04-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54462",
+  "modified": "2026-06-03T07:32:13+02:00",
+  "name": "Neubesetzung Gestaltungsbeirat",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0300",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

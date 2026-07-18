@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00601589.pdf",
+      "created": "2018-02-23T11:56:20+01:00",
+      "date": "2018-02-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00601589.pdf",
+      "fileName": "00601589.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/601589",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00602344.pdf",
+      "created": "2018-04-06T10:57:28+02:00",
+      "date": "2018-04-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00602344.pdf",
+      "fileName": "00602344.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/602344",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Zuschüsse Kita _HSPKa-Maßnahmen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00602843.pdf",
+      "created": "2018-04-25T13:49:16+02:00",
+      "date": "2018-04-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00602843.pdf",
+      "fileName": "00602843.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/602843",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00603280.pdf",
+      "created": "2018-05-23T13:42:59+02:00",
+      "date": "2018-05-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00603280.pdf",
+      "fileName": "00603280.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/603280",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/42629",
+      "authoritative": true,
+      "created": "2018-04-10T11:20:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15049",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4992",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36141",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-02-23T11:42:23+01:00",
+  "date": "2018-02-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36141",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Arbeitsgruppe \"Zuschüsse Kinderbetreuung\" Offene HSPKa-Maßnahmen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2018/0091",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

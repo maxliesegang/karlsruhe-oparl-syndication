@@ -1,0 +1,81 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26421",
+      "created": "2021-11-18T10:29:43+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/65765",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/8888",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Rückblick Saison 2021 - Zahlen, Auswertungen",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2021-11-18T10:30:17+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/65766",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/8888",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Anregungen und Maßnahmen",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2021-11-18T10:30:29+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/65767",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/8888",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verschiedenes",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634266.pdf",
+      "created": "2021-12-08T11:49:28+01:00",
+      "date": "2021-12-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634266.pdf",
+      "fileName": "00634266.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634266",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "21 11 24 Deck + Niederschrift Arbeitskreis Baggersee (ö).OSR",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2021-11-18T10:28:08+01:00",
+  "end": "2021-11-24T21:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/8888",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00633410.pdf",
+    "created": "2021-11-18T10:30:36+01:00",
+    "date": "2021-11-30",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00633410.pdf",
+    "fileName": "00633410.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/633410",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2021-11-18T10:28:08+01:00",
+    "description": "Änderung: per Online-Videokonferenz alfaview, Anmeldung unter groetzingen@karlsruhe.de oder 0721/133-7602",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/8888",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Arbeitskreis Baggersee (öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+  ],
+  "start": "2021-11-24T19:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

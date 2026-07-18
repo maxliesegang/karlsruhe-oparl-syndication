@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656467.pdf",
+      "created": "2024-03-04T15:51:50+01:00",
+      "date": "2024-03-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656467.pdf",
+      "fileName": "00656467.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656467",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656496.pdf",
+      "created": "2024-03-05T09:50:11+01:00",
+      "date": "2024-03-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656496.pdf",
+      "fileName": "00656496.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656496",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/85109",
+      "authoritative": true,
+      "created": "2024-03-04T17:14:42+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31635",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9524",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50106",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-03-04T15:49:09+01:00",
+  "date": "2024-03-04",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50106",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Soziales Plätzekonzept",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2024/0118/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49981"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

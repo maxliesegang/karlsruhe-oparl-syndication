@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660816.pdf",
+      "created": "2024-09-12T11:24:37+02:00",
+      "date": "2024-09-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660816.pdf",
+      "fileName": "00660816.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660816",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661154.pdf",
+      "created": "2024-09-25T17:35:10+02:00",
+      "date": "2024-09-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661154.pdf",
+      "fileName": "00661154.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661154",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "2024-09-24 15 Top2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661590.pdf",
+      "created": "2024-10-14T09:45:08+02:00",
+      "date": "2024-10-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661590.pdf",
+      "fileName": "00661590.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661590",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 24.09.2024 TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90118",
+      "authoritative": true,
+      "created": "2024-09-12T11:44:50+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32833",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9531",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50969",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-09-12T11:23:18+02:00",
+  "date": "2024-09-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50969",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Zusammensetzung des Gemeinderates: Feststellung des Nichtvorliegens von Hinderungsgründen des auf den verstorbenen Stadtrat Marco Gottmann nachfolgenden Herrn Dr. Gerhard Lenz",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/1037",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882850"
+  ]
+}

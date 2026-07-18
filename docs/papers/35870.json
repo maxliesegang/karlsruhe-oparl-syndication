@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600174.pdf",
+      "created": "2017-11-09T09:16:19+01:00",
+      "date": "2017-11-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600174.pdf",
+      "fileName": "00600174.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600174",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Sybelcentrum",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600236.pdf",
+      "created": "2017-11-15T08:25:37+01:00",
+      "date": "2017-11-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600236.pdf",
+      "fileName": "00600236.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600236",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Präsentation Sybelcentrum_V4",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600331.pdf",
+      "created": "2017-11-23T09:06:35+01:00",
+      "date": "2017-11-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600331.pdf",
+      "fileName": "00600331.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600331",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41366",
+      "authoritative": true,
+      "created": "2017-10-16T14:56:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14715",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4663",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35870",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-10-16T14:29:04+02:00",
+  "date": "2017-10-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35870",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Pilotprojekt Fundraising Sybelcentrum",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0645",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

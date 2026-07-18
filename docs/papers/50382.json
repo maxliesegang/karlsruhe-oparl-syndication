@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658298.pdf",
+      "created": "2024-05-08T12:40:44+02:00",
+      "date": "2024-05-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658298.pdf",
+      "fileName": "00658298.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658298",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661682.pdf",
+      "created": "2024-10-15T13:36:35+02:00",
+      "date": "2024-10-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661682.pdf",
+      "fileName": "00661682.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661682",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_HA_04_06_2024_TOP_7",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86402",
+      "authoritative": true,
+      "created": "2024-05-06T16:28:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32025",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9516",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50382",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-04-30T15:30:46+02:00",
+  "date": "2024-04-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50382",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Änderung der Betriebsform des Bereichs Stadtentwässerung in einen Eigenbetrieb beim Tiefbauamt",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0488",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

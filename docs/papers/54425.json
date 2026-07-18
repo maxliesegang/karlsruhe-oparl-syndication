@@ -1,0 +1,82 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678104.pdf",
+      "created": "2026-04-30T17:32:05+02:00",
+      "date": "2026-04-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678104.pdf",
+      "fileName": "00678104.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678104",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-19T13:33:05+02:00",
+      "name": "Beschlussvorlage FFPV-Anlage Rippertfeld",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678256.pdf",
+      "created": "2026-05-11T11:47:06+02:00",
+      "date": "2026-05-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678256.pdf",
+      "fileName": "00678256.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678256",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-19T13:33:05+02:00",
+      "name": "Anlage_Projektskizze_Visualisierungen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101314",
+      "authoritative": true,
+      "created": "2026-04-17T14:30:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37251",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10536",
+      "modified": "2026-06-18T18:13:13+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54425",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101943",
+      "created": "2026-05-28T11:15:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37346",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10786",
+      "modified": "2026-07-10T10:09:54+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34764"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54425",
+      "role": "Anhörung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101991",
+      "created": "2026-06-02T13:33:46+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37348",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10769",
+      "modified": "2026-06-02T13:33:46+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34322"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54425",
+      "role": "Anhörung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-04-07T10:50:10+02:00",
+  "date": "2026-04-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54425",
+  "modified": "2026-06-19T13:33:05+02:00",
+  "name": "Freiflächenphotovoltaikanlage Rippertfeld",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0268",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

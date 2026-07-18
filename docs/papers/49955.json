@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655831.pdf",
+      "created": "2024-02-06T14:03:27+01:00",
+      "date": "2024-02-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655831.pdf",
+      "fileName": "00655831.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655831",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655875.pdf",
+      "created": "2024-02-07T13:16:26+01:00",
+      "date": "2024-02-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655875.pdf",
+      "fileName": "00655875.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655875",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656727.pdf",
+      "created": "2024-03-13T11:32:32+01:00",
+      "date": "2024-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656727.pdf",
+      "fileName": "00656727.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656727",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 20.02.2024 TOP 29",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84530",
+      "authoritative": true,
+      "created": "2024-01-24T15:45:35+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31390",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9523",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49955",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-01-24T08:24:46+01:00",
+  "date": "2024-01-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49955",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bezugsentwicklungen des Bürgergeldes",
+  "paperType": "Anfrage",
+  "reference": "2024/0097",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

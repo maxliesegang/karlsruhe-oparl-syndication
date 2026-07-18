@@ -1,0 +1,90 @@
+{
+  "agendaItem": [
+    {
+      "created": "2021-10-01T16:07:06+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/60998",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6473",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Bericht über die Freibad-Saison 2021 des \"Wölfle\"",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/22136",
+      "created": "2021-10-01T16:06:14+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/60995",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6473",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Tempo 30 im gesamten Stadtgebiet",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/22135",
+      "created": "2021-10-01T16:06:14+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/60996",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6473",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Sachstand Umsetzung passiver Schallschutz aufgrund der schalltechnischen Neuberechnung durch verringerte Auslösewerte zur Vermeidung von Lärm durch die A8",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2021-10-01T16:08:06+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/60999",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6473",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mündliche Anfragen",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2021-10-01T16:08:20+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/61000",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6473",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen der Verwaltung",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2020-12-20T19:57:46+01:00",
+  "end": "2021-10-12T21:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6473",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00628541.pdf",
+    "created": "2021-10-06T08:18:36+02:00",
+    "date": "2021-10-06",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00628541.pdf",
+    "fileName": "00628541.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/628541",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Einladung ORS oeffentlich 12.10.2021",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2020-12-20T19:57:46+01:00",
+    "description": "Begegnungsstätte\r\nRathausstraße 2a, 76228 Wolfartsweier",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6473",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ortschaftsrat Wolfartsweier (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+  ],
+  "start": "2021-10-12T19:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

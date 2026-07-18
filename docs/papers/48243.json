@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00645678.pdf",
+      "created": "2023-03-09T13:55:23+01:00",
+      "date": "2023-03-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00645678.pdf",
+      "fileName": "00645678.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/645678",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 9.1 Bauantrag An der Rossweid 16 ohne Pläne",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75989",
+      "authoritative": true,
+      "created": "2023-02-23T11:24:33+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29169",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/8918",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48243",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-02-23T10:55:25+01:00",
+  "date": "2023-02-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48243",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bauantrag An der Rossweid 16",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0210",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672432.pdf",
+      "created": "2025-11-24T12:45:14+01:00",
+      "date": "2025-11-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672432.pdf",
+      "fileName": "00672432.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672432",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-08T16:06:47+01:00",
+      "name": "Antrag CDU_012",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674938.pdf",
+      "created": "2025-12-08T14:02:22+01:00",
+      "date": "2025-12-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674938.pdf",
+      "fileName": "00674938.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674938",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-08T16:06:47+01:00",
+      "name": "1501 Stellungnahme DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99393",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:28+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35465",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-16T17:01:02+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52825",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-24T12:31:38+01:00",
+  "date": "2025-11-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52825",
+  "modified": "2025-12-08T16:06:47+01:00",
+  "name": "Verwaltungsmodernisierung in den Bergdörfern",
+  "paperType": "Haushalt THH 1500",
+  "reference": "DHH/2025/1501",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

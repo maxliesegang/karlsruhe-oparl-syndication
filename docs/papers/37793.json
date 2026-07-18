@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611142.pdf",
+      "created": "2019-09-18T15:42:15+02:00",
+      "date": "2019-09-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611142.pdf",
+      "fileName": "00611142.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611142",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 10a Bauanträge",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611143.pdf",
+      "created": "2019-09-18T15:42:38+02:00",
+      "date": "2019-09-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611143.pdf",
+      "fileName": "00611143.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611143",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 10b Bauanträge",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611144.pdf",
+      "created": "2019-09-18T15:42:51+02:00",
+      "date": "2019-09-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611144.pdf",
+      "fileName": "00611144.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611144",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 10c Bauanträge",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46901",
+      "created": "2019-09-18T15:49:01+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17105",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5461",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37793",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-09-18T15:41:47+02:00",
+  "date": "2019-09-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37793",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bauanträge",
+  "paperType": "Beschlussvorlage",
+  "reference": "2019/0901",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

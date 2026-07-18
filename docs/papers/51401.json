@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663861.pdf",
+      "created": "2024-12-18T15:36:33+01:00",
+      "date": "2024-12-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663861.pdf",
+      "fileName": "00663861.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663861",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664896.pdf",
+      "created": "2025-02-12T14:12:03+01:00",
+      "date": "2025-02-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664896.pdf",
+      "fileName": "00664896.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664896",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_HA_04.02.2025_Sitzungseröffnung und TOP 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91910",
+      "authoritative": true,
+      "created": "2025-01-14T14:22:11+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33446",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10034",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51401",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-12-18T15:22:16+01:00",
+  "date": "2025-01-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51401",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Rahmenvereinbarung für die Anzeigenschaltungen der Stadt Karlsruhe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/1424",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882952"
+  ]
+}

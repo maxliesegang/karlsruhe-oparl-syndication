@@ -1,0 +1,84 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16120",
+      "created": "2019-01-15T15:29:53+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44885",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5265",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Annahme des Angebots von Zuwendungen",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16127",
+      "created": "2019-01-18T13:51:19+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44897",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5265",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Vergabe-Kriterien vorab beraten und beschließen",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "mit Stellungnahme einverstanden",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16091",
+      "created": "2019-01-08T09:38:41+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44861",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5265",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Ausschreibung der Unterhalts-, Grund- und Glasreinigung für die Objekte Adam-Remmele-Schule, Städtische Galerie, Werner-von Siemens-Schule, Obdachlosenwohnheim Rüppurrer Straße 23",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "einstimmig zugestimmt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2018-09-20T11:11:10+02:00",
+  "end": "2019-02-05T18:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5265",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607601.pdf",
+    "created": "2019-01-25T08:56:13+01:00",
+    "date": "2019-01-25",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607601.pdf",
+    "fileName": "00607601.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607601",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2018-09-20T11:11:10+02:00",
+    "description": "Großer Sitzungssaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5265",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Hauptausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+  ],
+  "resultsProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607749.pdf",
+    "created": "2019-02-06T08:36:41+01:00",
+    "date": "2019-02-06",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607749.pdf",
+    "fileName": "00607749.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607749",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Anwesenheit (Protokoll)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "start": "2019-02-05T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

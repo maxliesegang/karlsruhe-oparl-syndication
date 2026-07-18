@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00622778.pdf",
+      "created": "2021-01-13T11:51:53+01:00",
+      "date": "2021-01-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00622778.pdf",
+      "fileName": "00622778.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/622778",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00623320.pdf",
+      "created": "2021-02-11T08:14:22+01:00",
+      "date": "2021-02-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00623320.pdf",
+      "fileName": "00623320.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/623320",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN GRÜNE - Faktor2 - StädteChallenge",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624236.pdf",
+      "created": "2021-03-19T08:42:46+01:00",
+      "date": "2021-03-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624236.pdf",
+      "fileName": "00624236.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624236",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56172",
+      "authoritative": true,
+      "created": "2021-01-27T08:45:47+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20586",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6155",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40721",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-01-13T11:51:00+01:00",
+  "date": "2021-01-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40721",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Teilnahme der Stadt Karlsruhe an der „Faktor2 – StädteChallenge",
+  "paperType": "Antrag",
+  "reference": "2021/0042",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662437.pdf",
+      "created": "2024-11-07T13:19:43+01:00",
+      "date": "2024-08-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662437.pdf",
+      "fileName": "00662437.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662437",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663336.pdf",
+      "created": "2024-11-29T12:16:39+01:00",
+      "date": "2024-11-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663336.pdf",
+      "fileName": "00663336.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663336",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Empfehlung",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91084",
+      "created": "2024-11-11T19:47:26+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33194",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9861",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54847"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51223",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-11-07T13:19:43+01:00",
+  "date": "2024-11-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51223",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Umnutzung Kaiserstraße 178 - 182, Innenstadt",
+  "paperType": "Informationsvorlage",
+  "reference": "2024/0968/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50897"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

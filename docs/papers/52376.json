@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670433.pdf",
+      "created": "2025-09-25T16:59:03+02:00",
+      "date": "2025-09-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670433.pdf",
+      "fileName": "00670433.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670433",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-27T12:22:20+01:00",
+      "name": "2025_09_25_Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671324.pdf",
+      "created": "2025-10-27T12:22:18+01:00",
+      "date": "2025-10-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671324.pdf",
+      "fileName": "00671324.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671324",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-27T12:22:20+01:00",
+      "name": "Protokoll HFA 14.10.2025 TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96278",
+      "authoritative": true,
+      "created": "2025-09-19T11:57:09+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34865",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10041",
+      "modified": "2025-10-15T08:34:22+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52376",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-09-16T10:46:45+02:00",
+  "date": "2025-09-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52376",
+  "modified": "2025-10-27T12:22:20+01:00",
+  "name": "Rahmenvereinbarungen für Büromaterial und Kopierpapier in Losen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0880",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882850"
+  ]
+}

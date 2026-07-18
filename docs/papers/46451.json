@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635887.pdf",
+      "created": "2022-02-11T11:29:37+01:00",
+      "date": "2022-02-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635887.pdf",
+      "fileName": "00635887.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635887",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636753.pdf",
+      "created": "2022-03-25T15:15:50+01:00",
+      "date": "2022-03-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636753.pdf",
+      "fileName": "00636753.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636753",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN Solarenergie Hebelstraße 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00637230.pdf",
+      "created": "2022-04-21T11:14:37+02:00",
+      "date": "2022-04-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00637230.pdf",
+      "fileName": "00637230.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/637230",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 29.03.202 TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/68802",
+      "authoritative": true,
+      "created": "2022-03-01T12:53:33+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26856",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6610",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46451",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-02-11T11:29:14+01:00",
+  "date": "2022-02-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46451",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Jetzt aber: Solarenergie für die Hebelstraße 21",
+  "paperType": "Antrag",
+  "reference": "2022/0178",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

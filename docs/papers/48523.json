@@ -1,0 +1,119 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646799.pdf",
+      "created": "2023-04-25T12:07:21+02:00",
+      "date": "2023-04-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646799.pdf",
+      "fileName": "00646799.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646799",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649006.pdf",
+      "created": "2023-07-17T13:29:15+02:00",
+      "date": "2023-07-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649006.pdf",
+      "fileName": "00649006.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649006",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 27",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649258.pdf",
+      "created": "2023-07-26T10:46:41+02:00",
+      "date": "2023-07-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649258.pdf",
+      "fileName": "00649258.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649258",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 5 HA_11.07.2023",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651580.pdf",
+      "created": "2023-10-16T12:51:21+02:00",
+      "date": "2023-10-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651580.pdf",
+      "fileName": "00651580.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651580",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme mit Ergänzung",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2023-07-20T14:48:23+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30084",
+      "modified": "2023-07-20T14:48:23+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48523",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78548",
+      "authoritative": true,
+      "created": "2023-06-26T16:15:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29539",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9046",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48523",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78555",
+      "authoritative": true,
+      "created": "2023-06-27T13:34:31+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29937",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9063",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48523",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78899",
+      "authoritative": true,
+      "created": "2023-07-20T14:49:57+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30083",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9451",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33195"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48523",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-04-25T12:05:34+02:00",
+  "date": "2023-04-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48523",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Entlastung des pädagogischen Personals in Kitas",
+  "paperType": "Antrag",
+  "reference": "2023/0454",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00599189.pdf",
+      "created": "2017-09-07T11:41:51+02:00",
+      "date": "2017-09-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00599189.pdf",
+      "fileName": "00599189.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/599189",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "IQ-Projekt Innenstadt",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00599787.pdf",
+      "created": "2017-10-17T14:06:23+02:00",
+      "date": "2017-10-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00599787.pdf",
+      "fileName": "00599787.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/599787",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41074",
+      "authoritative": true,
+      "created": "2017-08-21T09:50:52+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14571",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4627",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35760",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-08-08T09:16:57+02:00",
+  "date": "2017-08-08",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35760",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "IQ-Leitprojekt des Korridorthemas Zukunft Innenstadt - Gutachten zur Zukunftsfähigkeit der City als Einzelhandelsstandort 2030",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0530",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882965"
+  ]
+}

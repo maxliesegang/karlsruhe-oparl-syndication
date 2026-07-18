@@ -1,0 +1,83 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638573.pdf",
+      "created": "2022-06-27T12:29:17+02:00",
+      "date": "2022-06-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638573.pdf",
+      "fileName": "00638573.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638573",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638609.pdf",
+      "created": "2022-06-28T15:15:04+02:00",
+      "date": "2022-06-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638609.pdf",
+      "fileName": "00638609.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638609",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638626.pdf",
+      "created": "2022-06-29T07:07:35+02:00",
+      "date": "2022-06-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638626.pdf",
+      "fileName": "00638626.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638626",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmung Top 7.1 und TOP 7 Spiegelstrich 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638627.pdf",
+      "created": "2022-06-29T07:08:11+02:00",
+      "date": "2022-06-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638627.pdf",
+      "fileName": "00638627.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638627",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmung GO Antrag Top 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70903",
+      "authoritative": true,
+      "created": "2022-06-27T12:34:09+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27614",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6594",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47034",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-06-27T12:29:01+02:00",
+  "date": "2022-06-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47034",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Verbesserung des Radwegesystems",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2022/0083/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46354"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

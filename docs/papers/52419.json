@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670434.pdf",
+      "created": "2025-09-26T09:02:33+02:00",
+      "date": "2025-09-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670434.pdf",
+      "fileName": "00670434.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670434",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-05T11:19:48+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/97588",
+      "authoritative": true,
+      "created": "2025-11-04T09:15:40+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34935",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10110",
+      "modified": "2025-12-03T10:16:20+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52419",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-09-26T09:00:32+02:00",
+  "date": "2025-09-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52419",
+  "modified": "2025-11-05T11:19:48+01:00",
+  "name": "Situation und Herausforderungen des Schulschwimmens",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/0919",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

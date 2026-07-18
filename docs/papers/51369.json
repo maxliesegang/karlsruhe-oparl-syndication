@@ -1,0 +1,93 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663565.pdf",
+      "created": "2024-12-10T11:17:37+01:00",
+      "date": "2024-12-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663565.pdf",
+      "fileName": "00663565.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663565",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-26T11:36:41+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663795.pdf",
+      "created": "2024-12-17T15:04:18+01:00",
+      "date": "2025-01-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663795.pdf",
+      "fileName": "00663795.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663795",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-26T13:00:38+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664480.pdf",
+      "created": "2025-01-27T08:42:42+01:00",
+      "date": "2025-01-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664480.pdf",
+      "fileName": "00664480.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664480",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-26T11:36:41+01:00",
+      "name": "Protokoll GR 21.01.2025 TOP 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666956.pdf",
+      "created": "2025-05-06T17:44:26+02:00",
+      "date": "2025-05-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666956.pdf",
+      "fileName": "00666956.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666956",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-06T17:46:03+02:00",
+      "name": "Protokoll TOP 2 Zügige Einrichtung weiterer „Toiletten für Alle“  - AföE 09.04.2025",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91801",
+      "authoritative": true,
+      "created": "2025-01-03T10:39:41+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33404",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10044",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51369",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92371",
+      "created": "2025-02-10T14:41:54+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33435",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10092",
+      "modified": "2025-04-09T18:03:53+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51369",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-12-10T11:17:02+01:00",
+  "date": "2024-12-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51369",
+  "modified": "2025-03-26T11:36:40+01:00",
+  "name": "Zügige Einrichtung weiterer \"Toiletten für Alle\" im Karlsruher Stadtgebiet",
+  "paperType": "Antrag",
+  "reference": "2024/1399",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

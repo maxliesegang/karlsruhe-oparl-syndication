@@ -1,0 +1,94 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667441.pdf",
+      "created": "2025-05-26T12:43:55+02:00",
+      "date": "2025-05-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667441.pdf",
+      "fileName": "00667441.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667441",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:26:13+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668613.pdf",
+      "created": "2025-07-04T10:46:26+02:00",
+      "date": "2025-07-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668613.pdf",
+      "fileName": "00668613.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668613",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:26:13+02:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670535.pdf",
+      "created": "2025-09-30T19:21:20+02:00",
+      "date": "2025-09-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670535.pdf",
+      "fileName": "00670535.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670535",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:26:13+02:00",
+      "name": "Abstimmung TOP 25",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670967.pdf",
+      "created": "2025-10-17T10:26:06+02:00",
+      "date": "2025-10-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670967.pdf",
+      "fileName": "00670967.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670967",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-17T10:26:13+02:00",
+      "name": "Protokoll GR 30.09.2025 TOP 25",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94033",
+      "authoritative": true,
+      "created": "2025-05-27T09:11:25+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34306",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10049",
+      "modified": "2025-06-25T08:04:15+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51977",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96071",
+      "authoritative": true,
+      "created": "2025-09-02T10:43:01+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34576",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10052",
+      "modified": "2025-09-30T19:18:49+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51977",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-05-26T12:42:16+02:00",
+  "date": "2025-05-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51977",
+  "modified": "2025-10-17T10:26:13+02:00",
+  "name": "Verwaltungsstruktur reformieren - Kosten senken durch Zusammenlegung von Ämtern und Dezernaten",
+  "paperType": "Antrag",
+  "reference": "2025/0518",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882953"
+  ]
+}

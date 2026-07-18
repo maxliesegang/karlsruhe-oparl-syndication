@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676774.pdf",
+      "created": "2026-02-24T07:28:17+01:00",
+      "date": "2026-02-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676774.pdf",
+      "fileName": "00676774.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676774",
+      "mimeType": "application/pdf",
+      "modified": "2026-02-24T15:46:16+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676779.pdf",
+      "created": "2026-02-24T10:40:39+01:00",
+      "date": "2026-02-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676779.pdf",
+      "fileName": "00676779.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676779",
+      "mimeType": "application/pdf",
+      "modified": "2026-02-24T15:49:18+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100582",
+      "authoritative": true,
+      "created": "2026-02-24T09:15:51+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37046",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10476",
+      "modified": "2026-02-24T17:06:08+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54295",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-02-24T07:27:35+01:00",
+  "date": "2026-02-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54295",
+  "modified": "2026-02-27T15:53:20+01:00",
+  "name": "Livestream Gemeinderat",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2025/1126/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52664"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882952"
+  ]
+}

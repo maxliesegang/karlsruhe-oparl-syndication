@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672049.pdf",
+      "created": "2025-11-18T14:17:36+01:00",
+      "date": "2025-11-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672049.pdf",
+      "fileName": "00672049.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672049",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-26T10:50:00+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676020.pdf",
+      "created": "2026-01-26T10:49:57+01:00",
+      "date": "2026-01-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676020.pdf",
+      "fileName": "00676020.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676020",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-26T10:50:00+01:00",
+      "name": "Abstimmungsergebnis TOP  1 Ö 109",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99271",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:27+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35304",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-17T09:55:30+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52677",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-18T14:16:51+01:00",
+  "date": "2025-11-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52677",
+  "modified": "2026-01-26T10:50:00+01:00",
+  "name": "HHS4_GR37 - Kürzung der Leistungssportförderung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1137",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

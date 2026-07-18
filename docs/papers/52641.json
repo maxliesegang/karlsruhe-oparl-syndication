@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671983.pdf",
+      "created": "2025-11-18T10:47:06+01:00",
+      "date": "2025-11-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671983.pdf",
+      "fileName": "00671983.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671983",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-19T07:37:10+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675428.pdf",
+      "created": "2025-12-19T07:37:02+01:00",
+      "date": "2025-12-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675428.pdf",
+      "fileName": "00675428.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675428",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-19T07:37:10+01:00",
+      "name": "Abstimmungsergebnis  Ö40 Ö41",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99247",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:27+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35266",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-16T17:00:23+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52641",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-18T10:46:01+01:00",
+  "date": "2025-11-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52641",
+  "modified": "2025-12-19T07:37:10+01:00",
+  "name": "HHS4_GR9 - Aussetzung der Zuschüsse für Grötzinger Vereine, die keine Zuschüsse von anderer städtischer Stelle erhalten haben",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1106",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

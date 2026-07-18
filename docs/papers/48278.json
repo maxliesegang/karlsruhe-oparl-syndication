@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00645392.pdf",
+      "created": "2023-03-01T08:34:48+01:00",
+      "date": "2023-03-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00645392.pdf",
+      "fileName": "00645392.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/645392",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00645999.pdf",
+      "created": "2023-03-24T12:16:49+01:00",
+      "date": "2023-03-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00645999.pdf",
+      "fileName": "00645999.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/645999",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Neu - Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646560.pdf",
+      "created": "2023-04-13T12:53:42+02:00",
+      "date": "2023-04-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646560.pdf",
+      "fileName": "00646560.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646560",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 33",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/76197",
+      "authoritative": true,
+      "created": "2023-03-01T10:01:18+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29213",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9043",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48278",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-03-01T08:34:25+01:00",
+  "date": "2023-03-01",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48278",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Unbegrenzte Drosselung der Stromversorgung und Anschlusspflicht für Wallboxen und PV-Anlagen",
+  "paperType": "Anfrage",
+  "reference": "2023/0242",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882988"
+  ]
+}

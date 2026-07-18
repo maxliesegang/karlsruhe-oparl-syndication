@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650045.pdf",
+      "created": "2023-08-23T09:24:55+02:00",
+      "date": "2023-08-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650045.pdf",
+      "fileName": "00650045.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650045",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650346.pdf",
+      "created": "2023-09-04T13:06:12+02:00",
+      "date": "2023-09-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650346.pdf",
+      "fileName": "00650346.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650346",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651378.pdf",
+      "created": "2023-10-09T14:17:26+02:00",
+      "date": "2023-10-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651378.pdf",
+      "fileName": "00651378.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651378",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 42",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/79995",
+      "authoritative": true,
+      "created": "2023-08-23T10:53:34+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30326",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9049",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49070",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-08-23T09:24:03+02:00",
+  "date": "2023-08-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49070",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Überprüfung und Verbesserung der Toilettensituation in Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2023/0964",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

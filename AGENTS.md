@@ -19,8 +19,16 @@ This repository builds and publishes an Atom feed for Karlsruhe city council age
 3) Build feed: iterate meetings → agenda items; resolve consultations → papers → auxiliary files, fix URLs with `correctUrl`, compute freshest date (item/paper), and add Atom entries.
 4) Persist artifacts to `docs/`:
    - `tagesordnungspunkte.xml` (or `FEED_FILENAME` override).
-   - `meetings.json`, `papers.json`, `consultations.json`, `organizations.json`.
+   - `meetings/<meetingId>.json` and `papers/<paperId>.json` — **one JSON object per record** (see below). These are the two largest, most git-churning stores.
+   - `consultations.json`, `organizations.json` — kept as single monolithic files (small, low churn).
    - `file-contents.json` (index) plus `file-contents/<fileId>.txt` and chunked JSON in `file-contents-chunks/` for bulk loading.
+
+### Per-record store layout (`meetings/`, `papers/`)
+
+- `PerRecordStore` (`src/store/per-record-store.ts`) persists each record to `docs/<entity>/<recordId>.json`. `recordId` is the last path segment of the record's `id` URL (`extractRecordId`), sanitized to a safe basename (`sanitizeRecordId`); filename collisions fail loudly rather than overwrite.
+- **File format (viewer contract):** exactly one JSON object per file — the full record, not a single-element array. Serialization is canonical (`canonicalStringify`): object keys sorted recursively, 2-space indent, UTF-8, single trailing newline. This makes an unchanged record byte-identical every run so git dedupes its blob; only changed/new records are rewritten each run (dirty tracking).
+- **Deletion:** an OParl `deleted:true` tombstone removes the record; its file is unlinked by the post-write orphan sweep (any `docs/<entity>/*.json` whose id is not in the store is removed, always *after* all writes succeed).
+- **Migration:** if `docs/<entity>/` is absent but the legacy `docs/<entity>.json` exists, the store loads the legacy array, then the next persist writes the per-record files and deletes the legacy file (one-time cutover).
 
 ## PDF Text Extraction
 
@@ -39,9 +47,9 @@ This repository builds and publishes an Atom feed for Karlsruhe city council age
 ## Caching and Refresh Strategy
 
 - This repo is a **complete archive**: meetings, papers, and organizations are stored **add-only**. Fetches upsert by `id` and never wipe records that drop out of the collection (e.g. meetings/papers that become member-only and 401, or a truncated crawl that omits the tail). Records are removed **only** on an explicit OParl `deleted: true` tombstone (handled in `BaseStore.add`). A full reconciliation (`modified_since` undefined) therefore refreshes every currently-exposed object without deleting the rest.
-- Stores serialize to `docs/`; reruns are incremental thanks to `modified_since`. The `--clear-cache` flag only clears in-memory maps; it does not delete files.
-- To force a full refetch/re-extract: delete the relevant `docs/*.json` and `docs/file-contents*` directories, then run `npm run generate -- --clear-cache`.
-- Keep `docs/` under the GitHub 100 MB per-file limit; chunking exists to help, so avoid large single-file changes.
+- Stores serialize to `docs/`; reruns are incremental thanks to `modified_since`. Meetings and papers are **per-record files** (`docs/meetings/`, `docs/papers/`) so a run only rewrites the records that actually changed — this is what keeps git history small and removes the 100 MB-per-file ceiling. Consultations and organizations stay as single files. The `--clear-cache` flag only clears in-memory maps; it does not delete files.
+- To force a full refetch/re-extract: delete the relevant per-record directory (`docs/meetings/`, `docs/papers/`) or monolithic file (`docs/*.json`) plus the `docs/file-contents*` directories, then run `npm run generate -- --clear-cache`. On the next run the per-record stores rebuild the whole directory.
+- No single `docs/` file may exceed GitHub's 100 MB limit. Per-record files keep meetings/papers well under it; `file-contents` chunking helps the rest — avoid reintroducing large single-file artifacts.
 
 ## Repo Scripts
 

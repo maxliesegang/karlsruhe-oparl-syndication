@@ -1,0 +1,71 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626654.pdf",
+      "created": "2021-06-30T07:31:00+02:00",
+      "date": "2021-06-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626654.pdf",
+      "fileName": "00626654.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626654",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00627021.pdf",
+      "created": "2021-07-14T11:23:01+02:00",
+      "date": "2021-07-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00627021.pdf",
+      "fileName": "00627021.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/627021",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "STN CDU-Konzept_vorbeugende Maßnahmen gegen Schulschließungen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00627618.pdf",
+      "created": "2021-08-20T07:42:13+02:00",
+      "date": "2021-08-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00627618.pdf",
+      "fileName": "00627618.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/627618",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 20.1 und 33",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/59534",
+      "authoritative": true,
+      "created": "2021-07-01T07:52:21+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21637",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6263",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41504",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-06-30T07:30:36+02:00",
+  "date": "2021-06-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41504",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Konzept: Vorbeugende Maßnahmen zur Vermeidung erneuter Schulschließungen",
+  "paperType": "Antrag",
+  "reference": "2021/0836",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41617"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

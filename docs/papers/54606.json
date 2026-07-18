@@ -1,0 +1,54 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678659.pdf",
+      "created": "2026-05-27T10:33:30+02:00",
+      "date": "2026-05-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678659.pdf",
+      "fileName": "00678659.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678659",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-17T07:17:27+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2026-05-27T14:24:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37504",
+      "modified": "2026-05-27T14:24:30+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54606",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102457",
+      "created": "2026-06-30T14:18:39+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37493",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10566",
+      "modified": "2026-07-17T09:22:28+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54606",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-05-27T10:33:06+02:00",
+  "date": "2026-05-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54606",
+  "modified": "2026-07-17T07:17:26+02:00",
+  "name": "Mehr Sicherheit im öffentlichen Raum",
+  "paperType": "Antrag",
+  "reference": "2026/0439",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

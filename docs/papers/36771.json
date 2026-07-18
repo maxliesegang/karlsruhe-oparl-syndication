@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00606252.pdf",
+      "created": "2018-11-13T08:46:31+01:00",
+      "date": "2018-11-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00606252.pdf",
+      "fileName": "00606252.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/606252",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00606718.pdf",
+      "created": "2018-11-30T10:59:24+01:00",
+      "date": "2018-11-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00606718.pdf",
+      "fileName": "00606718.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/606718",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 20",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608008.pdf",
+      "created": "2019-02-25T10:48:18+01:00",
+      "date": "2019-02-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608008.pdf",
+      "fileName": "00608008.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608008",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 20",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44567",
+      "authoritative": true,
+      "created": "2018-11-13T10:22:37+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15873",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4930",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36771",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-10-30T11:23:09+01:00",
+  "date": "2018-10-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36771",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Baugebote",
+  "paperType": "Antrag",
+  "reference": "2018/0759",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

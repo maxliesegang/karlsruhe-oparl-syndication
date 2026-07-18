@@ -1,0 +1,72 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00640874.pdf",
+      "created": "2022-09-22T09:17:08+02:00",
+      "date": "2022-09-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00640874.pdf",
+      "fileName": "00640874.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/640874",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642501.pdf",
+      "created": "2022-11-11T12:14:51+01:00",
+      "date": "2022-11-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642501.pdf",
+      "fileName": "00642501.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642501",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme_Ergänzungsantrag_neu",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/72739",
+      "authoritative": true,
+      "created": "2022-09-27T12:25:29+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28149",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6600",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47494",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/73336",
+      "created": "2022-10-19T18:39:14+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28150",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6667",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47494",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-09-22T09:16:48+02:00",
+  "date": "2022-09-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47494",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Kooperation mit der Kreisjägervereinigung Karlsruhe zur Widltierrettung auf städtischen Grünflächen mithilfe spezifischer Drohnentechnologie",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2022/0849/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47176"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

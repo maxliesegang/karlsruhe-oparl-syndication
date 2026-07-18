@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678102.pdf",
+      "created": "2026-04-30T15:44:50+02:00",
+      "date": "2026-04-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678102.pdf",
+      "fileName": "00678102.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678102",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T14:51:22+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679630.pdf",
+      "created": "2026-07-07T14:51:11+02:00",
+      "date": "2026-07-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679630.pdf",
+      "fileName": "00679630.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679630",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T14:51:22+02:00",
+      "name": "Protokoll GR 23.06.2026 TOP 24",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101911",
+      "authoritative": true,
+      "created": "2026-05-26T14:29:29+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37350",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10540",
+      "modified": "2026-06-24T10:15:46+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54508",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-04-30T15:43:34+02:00",
+  "date": "2026-04-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54508",
+  "modified": "2026-07-07T14:51:22+02:00",
+  "name": "Konzept für den Eigenbetrieb Zoologischer Stadtgarten",
+  "paperType": "Antrag",
+  "reference": "2026/0343",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882985"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668234.pdf",
+      "created": "2025-06-23T16:19:21+02:00",
+      "date": "2025-06-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668234.pdf",
+      "fileName": "00668234.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668234",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-24T14:32:47+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668295.pdf",
+      "created": "2025-06-24T10:38:35+02:00",
+      "date": "2025-06-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668295.pdf",
+      "fileName": "00668295.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668295",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-24T14:32:47+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94738",
+      "authoritative": true,
+      "created": "2025-06-24T07:01:38+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34463",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10049",
+      "modified": "2025-06-25T08:03:13+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52085",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-06-23T16:18:43+02:00",
+  "date": "2025-06-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52085",
+  "modified": "2025-07-01T10:30:37+02:00",
+  "name": "Verstärktes Engagement gegen Adressweitergabe von Minderjährigen an Dritte - Social Media",
+  "paperType": "Antrag",
+  "reference": "2025/0390/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51839"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33528",
+      "created": "2025-01-14T16:43:31+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91946",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10102",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verteilung der investiven Sportförderungsmittel 2025",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "vorberaten ohne Änderungen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33527",
+      "created": "2025-01-14T16:43:31+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91945",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10102",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verteilung der Leistungssportförderungsmittel für das Jahr 2025 - Fördervorschlag Sportkreis",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-01-14T16:43:31+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91944",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10102",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "The World Games 2029 in Karlsruhe",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665731.pdf",
+      "created": "2025-03-18T10:14:36+01:00",
+      "date": "2025-03-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665731.pdf",
+      "fileName": "00665731.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665731",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-18T10:14:48+01:00",
+      "name": "Protokoll SpA 12.02.2025 ö",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2024-10-17T12:28:20+02:00",
+  "end": "2025-02-12T18:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10102",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664206.pdf",
+    "created": "2025-01-14T16:46:11+01:00",
+    "date": "2025-01-14",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664206.pdf",
+    "fileName": "00664206.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664206",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2024-10-17T12:28:20+02:00",
+    "description": "Großer Sitzungssaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10102",
+    "modified": "2025-03-18T10:14:48+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-18T10:14:48+01:00",
+  "name": "Sportausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33575"
+  ],
+  "start": "2025-02-12T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

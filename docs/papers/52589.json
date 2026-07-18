@@ -1,0 +1,47 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671650.pdf",
+      "created": "2025-11-06T14:08:03+01:00",
+      "date": "2025-11-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671650.pdf",
+      "fileName": "00671650.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671650",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-27T08:16:10+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/97866",
+      "authoritative": true,
+      "created": "2025-11-07T13:36:40+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35183",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10032",
+      "modified": "2025-12-04T11:05:13+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52589",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-06T14:07:24+01:00",
+  "date": "2025-11-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52589",
+  "modified": "2025-12-04T07:37:51+01:00",
+  "name": "Sachstandsbericht und Beschlussfassung über das weitere Vorgehen zur Umsetzung des Durlacher Verkehrskonzepts",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1062",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/53964"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

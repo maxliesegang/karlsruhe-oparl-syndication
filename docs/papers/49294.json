@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651480.pdf",
+      "created": "2023-10-12T09:54:40+02:00",
+      "date": "2023-10-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651480.pdf",
+      "fileName": "00651480.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651480",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654144.pdf",
+      "created": "2023-11-28T15:24:21+01:00",
+      "date": "2023-11-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654144.pdf",
+      "fileName": "00654144.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654144",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Sitzungseröffnung und TOP 1 HA_14.11.2023",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/80895",
+      "authoritative": true,
+      "created": "2023-10-16T11:14:26+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30603",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9066",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49294",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-10-11T15:32:53+02:00",
+  "date": "2023-10-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49294",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Vergabe von Postdienstleistungen, Beförderung und Zustellung von Internationalen Briefen, Postkarten, Einschreiben, PZA und E-PZA sowie Paketen für die Stadt Karlsruhe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/1170",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882850"
+  ]
+}

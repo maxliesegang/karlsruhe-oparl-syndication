@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635155.pdf",
+      "created": "2022-01-12T11:06:58+01:00",
+      "date": "2022-01-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635155.pdf",
+      "fileName": "00635155.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635155",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stadthalle - Vergabe von Architekten- und Ingenieurleistungen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636113.pdf",
+      "created": "2022-02-23T11:26:37+01:00",
+      "date": "2022-02-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636113.pdf",
+      "fileName": "00636113.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636113",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636468.pdf",
+      "created": "2022-03-11T11:00:54+01:00",
+      "date": "2022-03-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636468.pdf",
+      "fileName": "00636468.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636468",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 22.02.2022 TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/67718",
+      "authoritative": true,
+      "created": "2022-01-26T10:56:15+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26610",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6584",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46243",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-12-17T14:51:08+01:00",
+  "date": "2021-12-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46243",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Stadthalle, Modernisierung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/1535",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

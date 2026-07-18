@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607038.pdf",
+      "created": "2019-01-07T14:16:02+01:00",
+      "date": "2019-01-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607038.pdf",
+      "fileName": "00607038.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607038",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Vorlage_ö",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607039.pdf",
+      "created": "2019-01-07T14:16:27+01:00",
+      "date": "2019-01-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607039.pdf",
+      "fileName": "00607039.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607039",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44773",
+      "created": "2019-01-07T14:07:52+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16074",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5259",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36936",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-01-07T13:58:48+01:00",
+  "date": "2019-01-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36936",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Kanalbau Germersheimer Straße: Vergabe der Kanal- und Straßenarbeiten",
+  "paperType": "Beschlussvorlage",
+  "reference": "2019/0015",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

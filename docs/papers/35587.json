@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00597944.pdf",
+      "created": "2017-06-14T08:49:09+02:00",
+      "date": "2017-06-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00597944.pdf",
+      "fileName": "00597944.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/597944",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "SPD Buurtzorg",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00597945.pdf",
+      "created": "2017-06-14T08:49:46+02:00",
+      "date": "2017-06-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00597945.pdf",
+      "fileName": "00597945.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/597945",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 13",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00598546.pdf",
+      "created": "2017-07-25T11:30:24+02:00",
+      "date": "2017-07-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00598546.pdf",
+      "fileName": "00598546.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/598546",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 13",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/40769",
+      "authoritative": true,
+      "created": "2017-05-30T10:30:10+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14352",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4597",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35587",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-05-12T08:15:21+02:00",
+  "date": "2017-05-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35587",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Pflegekonzept Buurtzorg",
+  "paperType": "Antrag",
+  "reference": "2017/0336",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

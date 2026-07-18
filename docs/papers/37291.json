@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609021.pdf",
+      "created": "2019-04-12T12:31:25+02:00",
+      "date": "2019-04-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609021.pdf",
+      "fileName": "00609021.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609021",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609616.pdf",
+      "created": "2019-05-09T13:40:18+02:00",
+      "date": "2019-05-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609616.pdf",
+      "fileName": "00609616.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609616",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 50",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610075.pdf",
+      "created": "2019-06-05T07:11:06+02:00",
+      "date": "2019-06-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610075.pdf",
+      "fileName": "00610075.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610075",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Gemeinderat",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45634",
+      "authoritative": true,
+      "created": "2019-04-16T12:55:05+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16510",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5323",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37291",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-04-12T12:30:09+02:00",
+  "date": "2019-04-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37291",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Investitionen in die Spielstätten der neugegründeten Sportgemeinschaft Rüppurr-Alemannia-DJK-FG e. V. (SG Rüppurr)",
+  "paperType": "Antrag",
+  "reference": "2019/0386",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33304",
+      "created": "2024-11-21T09:36:30+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91386",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9556",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verbesserte Sicherheit auf dem Geh- und Radweg am Adenauerring zwischen Fußballstadion und Willy-Brandt-Allee",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "erledigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33305",
+      "created": "2024-11-21T09:36:30+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91387",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9556",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verbesserte Sicherheit auf dem Geh- und Radweg am Adenauerring zwischen Fußballstadion und Willy-Brandt-Allee",
+      "number": "1.1",
+      "order": 2,
+      "public": true,
+      "result": "erledigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33255",
+      "created": "2024-11-14T20:05:24+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91123",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9556",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Konzeptbeschluss - Bahnübergangsbeseitigung Brunnenstückweg",
+      "number": "2",
+      "order": 3,
+      "public": true,
+      "result": "mehrheitlich beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32993",
+      "created": "2024-10-30T09:32:19+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90941",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9556",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Satzung über die Kfz- und Fahrradstellplatzverpflichtung für Wohnungen (Stellplatzsatzung); Beschluss zur Veröffentlichung und Auslegung sowie Beteiligung der Träger öffentlicher Belange nach § 3 Abs. 2 und § 4 Abs. 2 Baugesetzbuch (BauGB)",
+      "number": "3",
+      "order": 4,
+      "public": true,
+      "result": "vorberaten ohne Änderungen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2023-09-06T14:37:19+02:00",
+  "end": "2024-12-12T18:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9556",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663177.pdf",
+    "created": "2024-11-25T12:41:32+01:00",
+    "date": "2024-11-25",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663177.pdf",
+    "fileName": "00663177.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663177",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2023-09-06T14:37:19+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9556",
+    "modified": "2025-04-11T09:17:44+02:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-04-11T09:17:44+02:00",
+  "name": "Planungsausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+  ],
+  "resultsProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666367.pdf",
+    "created": "2025-04-11T09:15:03+02:00",
+    "date": "2025-04-11",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666367.pdf",
+    "fileName": "00666367.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666367",
+    "mimeType": "application/pdf",
+    "modified": "2025-04-11T09:17:45+02:00",
+    "name": "Protokoll Ausschuss",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "start": "2024-12-12T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

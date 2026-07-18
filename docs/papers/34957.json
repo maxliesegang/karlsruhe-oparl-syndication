@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00593928.pdf",
+      "created": "2016-10-13T12:11:26+02:00",
+      "date": "2016-10-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00593928.pdf",
+      "fileName": "00593928.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/593928",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 14",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00593929.pdf",
+      "created": "2016-10-13T12:11:42+02:00",
+      "date": "2016-10-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00593929.pdf",
+      "fileName": "00593929.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/593929",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Linke-Schuldnerberatungen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00594601.pdf",
+      "created": "2016-11-16T09:45:02+01:00",
+      "date": "2016-11-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00594601.pdf",
+      "fileName": "00594601.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/594601",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 14",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/39276",
+      "authoritative": true,
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/13540",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4150",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/34957",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2016-08-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/34957",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Überschuldete Haushalte und Schuldnerberatungen",
+  "paperType": "Anfrage",
+  "reference": "2016/0481",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

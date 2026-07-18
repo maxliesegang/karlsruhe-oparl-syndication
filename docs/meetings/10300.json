@@ -1,0 +1,92 @@
+{
+  "agendaItem": [
+    {
+      "created": "2025-03-07T11:10:21+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92782",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10300",
+      "modified": "2025-03-07T11:13:17+01:00",
+      "name": "Ehrung der Blutspenderinnen und Blutspender aus Hohenwettersbach für das Jahr 2024",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33834",
+      "created": "2025-03-07T14:07:00+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92787",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10300",
+      "modified": "2025-03-07T14:07:27+01:00",
+      "name": "Fortführung der offenen Kinder- und Jugendarbeit in Hohenwettersbach",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-03-07T11:13:48+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92784",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10300",
+      "modified": "2025-03-07T14:07:06+01:00",
+      "name": "Mitteilungen der Ortsverwaltung",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-03-07T11:14:04+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92785",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10300",
+      "modified": "2025-03-07T14:07:06+01:00",
+      "name": "Anregungen aus dem Ortschaftsrat",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666625.pdf",
+      "created": "2025-04-24T10:07:23+02:00",
+      "date": "2025-04-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666625.pdf",
+      "fileName": "00666625.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666625",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-24T10:07:35+02:00",
+      "name": "OR. Ho. Protokoll Öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2024-11-28T16:50:43+01:00",
+  "end": "2025-03-19T00:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10300",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665437.pdf",
+    "created": "2025-03-07T11:18:30+01:00",
+    "date": "2025-03-07",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665437.pdf",
+    "fileName": "00665437.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665437",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-12T10:33:22+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2024-11-28T16:50:43+01:00",
+    "description": "Bürgersaal im Rathaus Hohenwettersbach",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10300",
+    "modified": "2025-04-24T10:07:35+02:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-04-24T10:07:35+02:00",
+  "name": "Ortschaftsrat Hohenwettersbach (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34322"
+  ],
+  "start": "2025-03-19T19:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

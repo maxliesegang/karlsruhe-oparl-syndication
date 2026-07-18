@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662658.pdf",
+      "created": "2024-11-12T08:29:49+01:00",
+      "date": "2024-11-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662658.pdf",
+      "fileName": "00662658.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662658",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663157.pdf",
+      "created": "2024-11-25T10:57:45+01:00",
+      "date": "2024-11-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663157.pdf",
+      "fileName": "00663157.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663157",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StellungnahmeAnfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663963.pdf",
+      "created": "2025-01-02T15:02:03+01:00",
+      "date": "2025-01-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663963.pdf",
+      "fileName": "00663963.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663963",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 17.12.2024 TOP 44",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91340",
+      "authoritative": true,
+      "created": "2024-11-20T08:53:10+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33212",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9534",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51234",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-11-12T08:29:01+01:00",
+  "date": "2024-11-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51234",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Erfassung der Bedarfsabdeckung der Kinderbetreuung in Karlsruhe und Möglichkeiten zur Verbesserung des Betreuungsangebots",
+  "paperType": "Anfrage",
+  "reference": "2024/1280",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

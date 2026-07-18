@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648184.pdf",
+      "created": "2023-06-16T11:22:08+02:00",
+      "date": "2023-06-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648184.pdf",
+      "fileName": "00648184.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648184",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649523.pdf",
+      "created": "2023-08-03T12:24:25+02:00",
+      "date": "2023-08-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649523.pdf",
+      "fileName": "00649523.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649523",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 34",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78597",
+      "authoritative": true,
+      "created": "2023-06-28T10:55:09+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29854",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9047",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48763",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-06-16T11:21:38+02:00",
+  "date": "2023-06-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48763",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Diversitätsmanagement ausbauen - Vielfalt stärken",
+  "paperType": "Antrag",
+  "reference": "2023/0682",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882953"
+  ]
+}

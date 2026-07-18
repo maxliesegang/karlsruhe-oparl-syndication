@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677375.pdf",
+      "created": "2026-03-30T12:33:17+02:00",
+      "date": "2026-03-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677375.pdf",
+      "fileName": "00677375.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677375",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-02T09:16:41+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101097",
+      "authoritative": true,
+      "created": "2026-03-31T14:34:33+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37205",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10802",
+      "modified": "2026-04-16T17:02:09+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54412",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-03-30T12:31:27+02:00",
+  "date": "2026-03-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54412",
+  "modified": "2026-04-02T09:16:41+02:00",
+  "name": "Umbesetzung des Umlegungsausschuss Stadt",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0255",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+  ]
+}

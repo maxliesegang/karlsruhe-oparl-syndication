@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677684.pdf",
+      "created": "2026-04-16T11:10:01+02:00",
+      "date": "2026-04-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677684.pdf",
+      "fileName": "00677684.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677684",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-12T12:18:02+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102238",
+      "authoritative": true,
+      "created": "2026-06-18T10:12:19+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37249",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10537",
+      "modified": "2026-06-25T10:18:28+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54447",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-04-16T11:08:50+02:00",
+  "date": "2026-04-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54447",
+  "modified": "2026-06-12T12:18:02+02:00",
+  "name": "Änderung in der Zusammensetzung des Arbeitsausschusses Jugendhilfeausschuss",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0288",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647097.pdf",
+      "created": "2023-05-09T08:58:54+02:00",
+      "date": "2023-05-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647097.pdf",
+      "fileName": "00647097.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647097",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage Rheinhafen Breitbandverlegung 2023_neu",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648540.pdf",
+      "created": "2023-06-27T21:28:27+02:00",
+      "date": "2023-06-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648540.pdf",
+      "fileName": "00648540.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648540",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 19",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648999.pdf",
+      "created": "2023-07-17T13:25:06+02:00",
+      "date": "2023-07-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648999.pdf",
+      "fileName": "00648999.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648999",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 19",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/77969",
+      "authoritative": true,
+      "created": "2023-05-25T15:14:15+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29475",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9046",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48470",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-04-06T12:05:04+02:00",
+  "date": "2023-04-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48470",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Breitbandverlegung im Rheinhafen, Anpassung der Baukosten",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0407",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00622997.pdf",
+      "created": "2021-01-26T08:22:39+01:00",
+      "date": "2021-01-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00622997.pdf",
+      "fileName": "00622997.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/622997",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624241.pdf",
+      "created": "2021-03-19T08:45:06+01:00",
+      "date": "2021-03-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624241.pdf",
+      "fileName": "00624241.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624241",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 23.02.2021 TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624626.pdf",
+      "created": "2021-04-07T10:17:10+02:00",
+      "date": "2021-04-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624626.pdf",
+      "fileName": "00624626.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624626",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN Öffentliche Sitzung KultA",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625554.pdf",
+      "created": "2021-05-19T10:16:50+02:00",
+      "date": "2021-05-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625554.pdf",
+      "fileName": "00625554.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625554",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 17",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2021-01-26T15:06:07+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20636",
+      "modified": "2021-01-26T15:06:07+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/29599"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40749",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56312",
+      "authoritative": true,
+      "created": "2021-02-09T14:05:18+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20628",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6155",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40749",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/57213",
+      "authoritative": true,
+      "created": "2021-03-31T09:06:52+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21032",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6195",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40749",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-01-26T08:18:15+01:00",
+  "date": "2021-01-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40749",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Öffentliche Sitzung des Kulturausschusses",
+  "paperType": "Antrag",
+  "reference": "2021/0070",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

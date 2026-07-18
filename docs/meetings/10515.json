@@ -1,0 +1,86 @@
+{
+  "agendaItem": [
+    {
+      "created": "2026-04-27T07:30:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101405",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10515",
+      "modified": "2026-04-27T07:30:17+02:00",
+      "name": "- abgesetzt -",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37239",
+      "created": "2026-04-13T07:06:29+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101235",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10515",
+      "modified": "2026-05-06T07:31:20+02:00",
+      "name": "Vergabe freigestellter Schülerverkehre im Rahmen der Inklusion an 17 Schulen in Karlsruhe für das Schuljahr 2026/2027",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37240",
+      "created": "2026-04-13T08:45:46+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101237",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10515",
+      "modified": "2026-05-06T07:31:36+02:00",
+      "name": "Annahme des Angebots von Zuwendungen",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2025-10-10T11:32:51+02:00",
+  "end": "2026-05-05T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10515",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677868.pdf",
+    "created": "2026-04-24T07:17:37+02:00",
+    "date": "2026-04-24",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677868.pdf",
+    "fileName": "00677868.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677868",
+    "mimeType": "application/pdf",
+    "modified": "2026-04-29T11:02:38+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2022-12-12T11:11:26+01:00",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/rm/67907",
+    "locality": "",
+    "modified": "2025-08-05T10:18:13+02:00",
+    "postalCode": "",
+    "room": "Bürgersaal",
+    "streetAddress": "",
+    "subLocality": "",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-05-11T07:56:38+02:00",
+  "name": "Haupt- und Finanzausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+  ],
+  "resultsProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678180.pdf",
+    "created": "2026-05-06T07:33:03+02:00",
+    "date": "2026-05-06",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678180.pdf",
+    "fileName": "00678180.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678180",
+    "mimeType": "application/pdf",
+    "modified": "2026-05-11T07:56:39+02:00",
+    "name": "Anwesenheit (Protokoll)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "start": "2026-05-05T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

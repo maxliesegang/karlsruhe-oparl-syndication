@@ -1,0 +1,94 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624744.pdf",
+      "created": "2021-04-13T10:10:17+02:00",
+      "date": "2021-04-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624744.pdf",
+      "fileName": "00624744.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624744",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625935.pdf",
+      "created": "2021-06-07T09:53:44+02:00",
+      "date": "2021-06-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625935.pdf",
+      "fileName": "00625935.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625935",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 18.05.21 TOP 25",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626070.pdf",
+      "created": "2021-06-10T10:44:05+02:00",
+      "date": "2021-06-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626070.pdf",
+      "fileName": "00626070.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626070",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN Abschlepprichtlinien an Vorgaben des VM ausrichten",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626719.pdf",
+      "created": "2021-07-02T12:17:59+02:00",
+      "date": "2021-07-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626719.pdf",
+      "fileName": "00626719.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626719",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Sitzungseröffnung und TOP 1 HA",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/57454",
+      "authoritative": true,
+      "created": "2021-04-20T14:03:09+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21104",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6214",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41115",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/58039",
+      "authoritative": true,
+      "created": "2021-05-17T08:58:04+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21124",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6228",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41115",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-04-13T10:09:20+02:00",
+  "date": "2021-04-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41115",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Abschlepprichtlinien an Vorgaben des Verkehrsministeriums ausrichten",
+  "paperType": "Antrag",
+  "reference": "2021/0474",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

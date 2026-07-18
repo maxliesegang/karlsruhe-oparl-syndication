@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609309.pdf",
+      "created": "2019-04-29T10:59:33+02:00",
+      "date": "2019-04-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609309.pdf",
+      "fileName": "00609309.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609309",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609341.pdf",
+      "created": "2019-04-29T14:37:41+02:00",
+      "date": "2019-04-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609341.pdf",
+      "fileName": "00609341.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609341",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 2, Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45773",
+      "authoritative": true,
+      "created": "2019-04-29T13:36:58+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16568",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5469",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34764"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37337",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-04-26T10:09:14+02:00",
+  "date": "2019-04-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37337",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Entfernen von Werbeplakaten - Antrag der FWV-OR-Fraktion, eingegangen am 17.04.2019",
+  "paperType": "Antrag",
+  "reference": "2019/0432",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882957"
+  ]
+}

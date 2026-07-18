@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663873.pdf",
+      "created": "2024-12-19T10:50:38+01:00",
+      "date": "2024-12-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663873.pdf",
+      "fileName": "00663873.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663873",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag Verlegung Haltestelle Schulbus",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663874.pdf",
+      "created": "2024-12-19T10:52:24+01:00",
+      "date": "2024-12-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663874.pdf",
+      "fileName": "00663874.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663874",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag Verlegung Haltestelle Schulbus",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91830",
+      "authoritative": true,
+      "created": "2025-01-07T16:09:42+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33458",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10023",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51405",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-12-19T10:49:37+01:00",
+  "date": "2024-12-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51405",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Verlegung der Haltestelle für den Schulbus von der Weiherstraße in den Weiherhof",
+  "paperType": "Antrag",
+  "reference": "2024/1427",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

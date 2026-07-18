@@ -1,0 +1,91 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647745.pdf",
+      "created": "2023-05-31T15:50:07+02:00",
+      "date": "2023-05-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647745.pdf",
+      "fileName": "00647745.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647745",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648640.pdf",
+      "created": "2023-06-30T10:25:54+02:00",
+      "date": "2023-06-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648640.pdf",
+      "fileName": "00648640.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648640",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649014.pdf",
+      "created": "2023-07-17T13:32:22+02:00",
+      "date": "2023-07-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649014.pdf",
+      "fileName": "00649014.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649014",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 35",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649262.pdf",
+      "created": "2023-07-26T10:48:04+02:00",
+      "date": "2023-07-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649262.pdf",
+      "fileName": "00649262.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649262",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 10 HA_11.07.2023",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78213",
+      "authoritative": true,
+      "created": "2023-06-07T14:07:15+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29782",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9046",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48713",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78271",
+      "authoritative": true,
+      "created": "2023-06-13T09:36:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29817",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9063",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48713",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-05-31T13:23:49+02:00",
+  "date": "2023-05-31",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48713",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Ausschreibung Gastronomie Europahalle",
+  "paperType": "Antrag",
+  "reference": "2023/0634",
+  "type": "https://schema.oparl.org/1.1/Paper"
+}

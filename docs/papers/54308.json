@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676888.pdf",
+      "created": "2026-03-03T13:07:05+01:00",
+      "date": "2026-03-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676888.pdf",
+      "fileName": "00676888.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676888",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-16T07:53:56+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677297.pdf",
+      "created": "2026-03-25T15:17:52+01:00",
+      "date": "2026-03-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677297.pdf",
+      "fileName": "00677297.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677297",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-16T07:53:56+02:00",
+      "name": "Grillplatzordnung - Anlage 1 zur Vorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677436.pdf",
+      "created": "2026-04-01T14:44:41+02:00",
+      "date": "2026-04-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677436.pdf",
+      "fileName": "00677436.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677436",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-16T07:53:56+02:00",
+      "name": "Anlage 2 Synopse",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101119",
+      "created": "2026-04-01T09:53:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37084",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10512",
+      "modified": "2026-04-16T07:23:14+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54308",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-02-26T11:02:37+01:00",
+  "date": "2026-02-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54308",
+  "modified": "2026-04-16T07:53:55+02:00",
+  "name": "Aktualisierung und Anpassung der Grillplatzordnung an klimatische Veränderungen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0170",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883003"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662431.pdf",
+      "created": "2024-11-07T11:31:48+01:00",
+      "date": "2024-11-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662431.pdf",
+      "fileName": "00662431.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662431",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-10T08:10:20+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663106.pdf",
+      "created": "2024-11-21T15:17:22+01:00",
+      "date": "2024-11-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663106.pdf",
+      "fileName": "00663106.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663106",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-10T08:10:20+02:00",
+      "name": "Stellungnahme zum Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663955.pdf",
+      "created": "2025-01-02T14:59:11+01:00",
+      "date": "2025-01-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663955.pdf",
+      "fileName": "00663955.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663955",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-10T08:10:20+02:00",
+      "name": "Protokoll GR 17.12.2024 TOP 36",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666350.pdf",
+      "created": "2025-04-10T08:10:18+02:00",
+      "date": "2025-04-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666350.pdf",
+      "fileName": "00666350.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666350",
+      "mimeType": "application/pdf",
+      "modified": "2025-04-10T08:10:20+02:00",
+      "name": "Protokoll GR 25.03.2025 TOP 18",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91572",
+      "authoritative": true,
+      "created": "2024-12-03T11:53:26+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33189",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9534",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51220",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91660",
+      "created": "2024-12-12T09:54:39+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33319",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10064",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51220",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92615",
+      "authoritative": true,
+      "created": "2025-02-25T11:44:59+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33718",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10046",
+      "modified": "2025-03-25T19:24:32+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51220",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-11-07T11:31:08+01:00",
+  "date": "2024-11-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51220",
+  "modified": "2025-04-10T08:10:20+02:00",
+  "name": "Satzung Gehwegreinigung modernisieren",
+  "paperType": "Antrag",
+  "reference": "2024/1268",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

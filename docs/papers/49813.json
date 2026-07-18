@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655221.pdf",
+      "created": "2024-01-10T14:02:17+01:00",
+      "date": "2024-01-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655221.pdf",
+      "fileName": "00655221.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655221",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage_GWA_2024",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656154.pdf",
+      "created": "2024-02-20T16:57:29+01:00",
+      "date": "2024-02-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656154.pdf",
+      "fileName": "00656154.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656154",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00656684.pdf",
+      "created": "2024-03-13T10:49:41+01:00",
+      "date": "2024-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00656684.pdf",
+      "fileName": "00656684.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/656684",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 20.02.2024 TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84492",
+      "authoritative": true,
+      "created": "2024-01-23T12:57:49+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31206",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9523",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49813",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-12-12T14:23:24+01:00",
+  "date": "2023-12-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49813",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bildung des Gemeindewahlausschusses für die Gemeinderatswahl sowie die Ortschaftsratswahlen 2024",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/1393",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882965"
+  ]
+}

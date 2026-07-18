@@ -1,0 +1,94 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665432.pdf",
+      "created": "2025-03-07T09:38:47+01:00",
+      "date": "2025-03-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665432.pdf",
+      "fileName": "00665432.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665432",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T10:59:15+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665812.pdf",
+      "created": "2025-03-20T15:10:38+01:00",
+      "date": "2025-03-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665812.pdf",
+      "fileName": "00665812.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665812",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T10:59:15+02:00",
+      "name": "Anlage 20250317_Werderplatz entfallende Stellplätze und Kurzzeitparken",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669157.pdf",
+      "created": "2025-07-30T09:13:44+02:00",
+      "date": "2025-07-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669157.pdf",
+      "fileName": "00669157.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669157",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T10:59:15+02:00",
+      "name": "Abstimmungsergebnis TOP 23",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669497.pdf",
+      "created": "2025-08-19T10:59:12+02:00",
+      "date": "2025-08-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669497.pdf",
+      "fileName": "00669497.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669497",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T10:59:15+02:00",
+      "name": "Protokoll GR 29.07.2025 TOP 23",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94001",
+      "authoritative": true,
+      "created": "2025-05-26T13:44:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34308",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10073",
+      "modified": "2025-07-03T16:55:27+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51657",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94850",
+      "authoritative": true,
+      "created": "2025-06-27T09:55:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33831",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10051",
+      "modified": "2025-07-29T20:25:08+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51657",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-03-07T09:38:15+01:00",
+  "date": "2025-03-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51657",
+  "modified": "2025-08-19T10:59:15+02:00",
+  "name": "Werderplatz - Eingliederung des westlichen Teils in die Fußgängerzone",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0230",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

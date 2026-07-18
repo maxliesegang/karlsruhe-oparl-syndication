@@ -1,0 +1,71 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672098.pdf",
+      "created": "2025-11-19T07:18:08+01:00",
+      "date": "2025-11-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672098.pdf",
+      "fileName": "00672098.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672098",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-25T16:43:57+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672463.pdf",
+      "created": "2025-11-24T13:34:12+01:00",
+      "date": "2025-11-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672463.pdf",
+      "fileName": "00672463.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672463",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-25T16:43:57+01:00",
+      "name": "Stellungnahme zum Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672464.pdf",
+      "created": "2025-11-24T13:34:42+01:00",
+      "date": "2025-11-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672464.pdf",
+      "fileName": "00672464.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672464",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-25T16:43:57+01:00",
+      "name": "Stellungnahme der ENBW",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99175",
+      "authoritative": true,
+      "created": "2025-11-19T09:04:22+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35335",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10058",
+      "modified": "2025-11-26T13:33:12+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52707",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-19T07:17:26+01:00",
+  "date": "2025-11-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52707",
+  "modified": "2025-12-08T12:53:34+01:00",
+  "name": "Planung und Absichtserklärung zum vorhabenbezogenen Bebauungsplanverfahren \"Rheinhafen-Dampfkraftwerk, Block 9, Fettweisstraße 60, Rheinhafen\" (VbB RDK9)",
+  "paperType": "Antrag",
+  "reference": "2025/0750/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52236"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

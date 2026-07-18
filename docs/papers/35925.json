@@ -1,0 +1,79 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600376.pdf",
+      "created": "2017-11-24T10:49:21+01:00",
+      "date": "2017-11-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600376.pdf",
+      "fileName": "00600376.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600376",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Betriebsform AfA",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00600807.pdf",
+      "created": "2017-12-21T11:08:35+01:00",
+      "date": "2017-12-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00600807.pdf",
+      "fileName": "00600807.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/600807",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 16",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00602881.pdf",
+      "created": "2018-04-26T10:22:21+02:00",
+      "date": "2018-04-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00602881.pdf",
+      "fileName": "00602881.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/602881",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis GR_TOP 16",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2017-11-06T10:45:49+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14785",
+      "modified": "2018-11-28T14:19:31+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35925",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/41687",
+      "authoritative": true,
+      "created": "2017-11-15T09:49:38+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14787",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4688",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35925",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-11-06T10:45:20+01:00",
+  "date": "2017-11-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35925",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Zukünftige Rechts-/Betriebsform des Amtes für Abfallwirtschaft",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0700",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

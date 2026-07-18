@@ -1,0 +1,88 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00596758.pdf",
+      "created": "2017-03-23T11:53:54+01:00",
+      "date": "2017-03-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00596758.pdf",
+      "fileName": "00596758.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/596758",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "KEG Neufassung Gesellschaftsvertrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00596759.pdf",
+      "created": "2017-03-23T11:54:21+01:00",
+      "date": "2017-03-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00596759.pdf",
+      "fileName": "00596759.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/596759",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage KEG Gesellschaftsvertrag neu Stand 17.01.2017",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00597429.pdf",
+      "created": "2017-05-10T12:02:31+02:00",
+      "date": "2017-05-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00597429.pdf",
+      "fileName": "00597429.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/597429",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis_TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00597556.pdf",
+      "created": "2017-05-15T10:53:51+02:00",
+      "date": "2017-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00597556.pdf",
+      "fileName": "00597556.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/597556",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2017-03-07T08:41:16+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14155",
+      "modified": "2018-11-28T14:19:31+01:00",
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35435",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/40453",
+      "authoritative": true,
+      "created": "2017-03-28T13:41:21+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14157",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4564",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35435",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-03-07T08:37:56+01:00",
+  "date": "2017-03-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35435",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "KEG Karlsruhe Event GmbH: Neufassung Gesellschaftsvertrag (Erhöhung Stammkapital und Umstellung Geschäftsjahr auf Kalenderjahr)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0167",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

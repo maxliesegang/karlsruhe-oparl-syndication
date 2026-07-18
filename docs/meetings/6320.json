@@ -1,0 +1,82 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/25331",
+      "created": "2021-11-05T07:37:08+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/64541",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6320",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Stadtwald: Rückblick 2020, Situation 2021 und Planung 2022",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/25332",
+      "created": "2021-11-05T07:37:08+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/64542",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6320",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mehr Bänke durch Spenden",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2021-11-05T07:38:13+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/64547",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6320",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verschiedenes",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00632199.pdf",
+      "created": "2021-11-05T08:20:31+01:00",
+      "date": "2021-11-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00632199.pdf",
+      "fileName": "00632199.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/632199",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "2021-11-18 Tagesorndung AföE_ö",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634891.pdf",
+      "created": "2021-12-23T12:02:08+01:00",
+      "date": "2021-12-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634891.pdf",
+      "fileName": "00634891.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634891",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Gesamtprotokoll_ö",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2020-09-10T15:01:02+02:00",
+  "end": "2021-11-18T19:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6320",
+  "location": {
+    "created": "2020-09-10T15:01:02+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6320",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ausschuss für öffentliche Einrichtungen (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+  ],
+  "start": "2021-11-18T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

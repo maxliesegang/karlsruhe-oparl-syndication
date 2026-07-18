@@ -1,0 +1,84 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661241.pdf",
+      "created": "2024-09-26T14:04:01+02:00",
+      "date": "2024-09-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661241.pdf",
+      "fileName": "00661241.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661241",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662114.pdf",
+      "created": "2024-10-28T09:44:43+01:00",
+      "date": "2024-10-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662114.pdf",
+      "fileName": "00662114.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662114",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 22.10.2024 TOP 31",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662153.pdf",
+      "created": "2024-10-28T18:24:33+01:00",
+      "date": "2024-10-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662153.pdf",
+      "fileName": "00662153.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662153",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme zum Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90545",
+      "authoritative": true,
+      "created": "2024-10-07T13:57:20+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32936",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51033",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90737",
+      "created": "2024-10-18T12:25:43+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32937",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9553",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51033",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-09-26T14:03:09+02:00",
+  "date": "2024-09-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51033",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Turnhallen-Dach der Südend-Grundschule instand setzen",
+  "paperType": "Antrag",
+  "reference": "2024/1093",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51335"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

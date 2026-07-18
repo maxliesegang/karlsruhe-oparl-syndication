@@ -1,0 +1,70 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29602",
+      "created": "2023-05-17T16:16:27+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/77714",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9087",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Kooperationsprojekte \"Schule - Sportverein\" und \"Sport im Ganztag\" für das Schuljahr 2023/2024",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "Zustimmung",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29601",
+      "created": "2023-05-17T16:16:27+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/77713",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9087",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Förderung der Karlsruher Olympiahoffnungen im Jahr 2023 - Fördervorschlag Sportkreis",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2023-05-17T16:16:27+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/77712",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9087",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen des Bürgermeisteramtes",
+      "number": "",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2022-09-21T15:17:47+02:00",
+  "end": "2023-06-13T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9087",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647081.pdf",
+    "created": "2023-05-08T13:08:56+02:00",
+    "date": "2023-05-08",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647081.pdf",
+    "fileName": "00647081.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647081",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2022-09-21T15:17:47+02:00",
+    "description": "Großer Sitzungssaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9087",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Sportausschuss (öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33575"
+  ],
+  "start": "2023-06-13T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620020.pdf",
+      "created": "2020-10-06T12:37:30+02:00",
+      "date": "2020-10-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620020.pdf",
+      "fileName": "00620020.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620020",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Loreal Lageplan",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620021.pdf",
+      "created": "2020-10-06T12:37:30+02:00",
+      "date": "2020-10-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620021.pdf",
+      "fileName": "00620021.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620021",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Loreal",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620306.pdf",
+      "created": "2020-10-21T09:05:06+02:00",
+      "date": "2020-10-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620306.pdf",
+      "fileName": "00620306.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620306",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis GR TOP 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620743.pdf",
+      "created": "2020-11-12T08:10:26+01:00",
+      "date": "2020-11-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620743.pdf",
+      "fileName": "00620743.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620743",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54654",
+      "authoritative": true,
+      "created": "2020-09-25T12:10:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19259",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5671",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39695",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-04-24T09:06:18+02:00",
+  "date": "2020-04-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39695",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bestellung eines Erbbaurechts an den städtischen Grundstücken Nrn 8545/37 und Nr. 8545/45 (ehemals L'Oréal), Greschbachstraße 5 und 5 d (Stadtteil Grötzingen), zugunsten der Firma Pfeiffer & May Karlsruhe GmbH, Unterweingartenfeld 2, 76135 Karlsruhe,",
+  "paperType": "Beschlussvorlage",
+  "reference": "2020/0487",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882963"
+  ]
+}

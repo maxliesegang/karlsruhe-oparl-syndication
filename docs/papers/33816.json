@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00585743.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2015-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00585743.pdf",
+      "fileName": "00585743.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/585743",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "SPD-Leiharbeit bei der Stadtverwaltung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00585789.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2015-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00585789.pdf",
+      "fileName": "00585789.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/585789",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 20",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00586527.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2015-04-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00586527.pdf",
+      "fileName": "00586527.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/586527",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 20",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/36364",
+      "authoritative": true,
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/12156",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3894",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/33816",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2015-01-05",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/33816",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Leiharbeit bei der Stadtverwaltung",
+  "paperType": "Anfrage",
+  "reference": "2015/0008",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

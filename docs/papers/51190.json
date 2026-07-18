@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662212.pdf",
+      "created": "2024-10-30T15:51:45+01:00",
+      "date": "2024-10-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662212.pdf",
+      "fileName": "00662212.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662212",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662664.pdf",
+      "created": "2024-11-12T11:41:00+01:00",
+      "date": "2024-11-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662664.pdf",
+      "fileName": "00662664.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662664",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90948",
+      "created": "2024-10-30T15:57:25+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33146",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9723",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51190",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-10-30T15:48:24+01:00",
+  "date": "2024-11-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51190",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Thema Sitzung: Runder Tisch Inklusion - Vorstellung der geänderten Planung der Renovierung des Rathauses 2",
+  "paperType": "Antrag",
+  "reference": "2024/1242",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33892",
+      "created": "2025-03-27T09:09:53+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93052",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10165",
+      "modified": "2025-03-27T09:09:53+01:00",
+      "name": "Umnutzung Kirche und Neubau Wohnen Michiganstraße 1, Nordstadt",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2024-10-18T10:00:40+02:00",
+  "end": "2025-04-04T17:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10165",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665763.pdf",
+    "created": "2025-03-18T19:30:20+01:00",
+    "date": "2025-03-18",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665763.pdf",
+    "fileName": "00665763.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665763",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-27T09:51:49+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2024-10-18T10:00:40+02:00",
+    "description": "Großer Sitzungssaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10165",
+    "modified": "2025-03-27T09:51:49+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-27T09:51:49+01:00",
+  "name": "Gestaltungsbeirat (öffentlich/nichtöffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54847"
+  ],
+  "start": "2025-04-04T13:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

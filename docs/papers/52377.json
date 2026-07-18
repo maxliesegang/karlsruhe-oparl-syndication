@@ -1,0 +1,95 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670177.pdf",
+      "created": "2025-09-16T14:37:05+02:00",
+      "date": "2025-09-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670177.pdf",
+      "fileName": "00670177.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670177",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:14:51+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00673925.pdf",
+      "created": "2025-11-26T13:40:34+01:00",
+      "date": "2025-11-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00673925.pdf",
+      "fileName": "00673925.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/673925",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:14:51+01:00",
+      "name": "Abstimmungsergebnis TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675116.pdf",
+      "created": "2025-12-11T11:14:49+01:00",
+      "date": "2025-12-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675116.pdf",
+      "fileName": "00675116.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675116",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:14:51+01:00",
+      "name": "Protokoll GR 25.11.2025 TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/97191",
+      "authoritative": true,
+      "created": "2025-10-27T13:42:04+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34870",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10058",
+      "modified": "2025-11-26T13:30:05+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52377",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/97488",
+      "created": "2025-11-03T09:53:57+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34866",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10320",
+      "modified": "2025-11-03T09:54:35+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34531"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52377",
+      "role": "Anhörung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/97587",
+      "authoritative": true,
+      "created": "2025-11-04T09:15:40+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34867",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10110",
+      "modified": "2025-12-03T10:15:32+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52377",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-09-16T14:19:26+02:00",
+  "date": "2025-09-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52377",
+  "modified": "2025-12-11T11:14:51+01:00",
+  "name": "Gymnasium Neureut: Neueinrichtung des Profilfachs \"Sport\"",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0881",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626445.pdf",
+      "created": "2021-06-22T19:20:32+02:00",
+      "date": "2021-06-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626445.pdf",
+      "fileName": "00626445.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626445",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00627629.pdf",
+      "created": "2021-08-20T07:56:11+02:00",
+      "date": "2021-08-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00627629.pdf",
+      "fileName": "00627629.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/627629",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 27.07.2021 TOP 34",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00628154.pdf",
+      "created": "2021-09-17T08:58:52+02:00",
+      "date": "2021-09-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00628154.pdf",
+      "fileName": "00628154.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/628154",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Lehrlingswohnheime",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00628425.pdf",
+      "created": "2021-10-01T11:12:36+02:00",
+      "date": "2021-10-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00628425.pdf",
+      "fileName": "00628425.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/628425",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 8 HA 21.09.2021",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/59459",
+      "created": "2021-06-29T10:37:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21562",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6263",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41447",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/60629",
+      "authoritative": true,
+      "created": "2021-09-07T15:56:07+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21638",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6266",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41447",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-06-22T19:18:58+02:00",
+  "date": "2021-09-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41447",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bereitstellung eines Grundstücks für den Ersatz-Neubau von Lehrlingswohnheimen",
+  "paperType": "Antrag",
+  "reference": "2021/0780",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

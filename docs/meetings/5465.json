@@ -1,0 +1,109 @@
+{
+  "agendaItem": [
+    {
+      "created": "2019-01-07T14:24:44+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44815",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5465",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Bürgerfragestunde",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "erledigt durch Antwort der Verwaltung",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16077",
+      "created": "2019-01-07T14:19:40+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44812",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5465",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Beleuchtung des P+M Parkplatzes an der Ausfahrt Karlsbad und Einrichtung einer Ladestation für Elektrofahrzeuge",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "keine Abstimmung",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16081",
+      "created": "2019-01-07T14:19:40+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44813",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5465",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Unterstützung des Ortschaftsrates für eine Änderung des Textes über die Nutzungsart der Bergleshalle im Rahmen der damaligen Baugenehmigung",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "keine Abstimmung",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2019-01-07T14:25:21+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44816",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5465",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen der Ortsverwaltung",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2019-01-07T14:25:31+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44817",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5465",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verschiedenes",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608023.pdf",
+      "created": "2019-02-25T16:41:01+01:00",
+      "date": "2019-02-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608023.pdf",
+      "fileName": "00608023.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608023",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2018-10-02T15:41:21+02:00",
+  "end": "2019-01-16T21:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5465",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607047.pdf",
+    "created": "2019-01-07T14:34:04+01:00",
+    "date": "2019-01-07",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607047.pdf",
+    "fileName": "00607047.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607047",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2018-10-02T15:41:21+02:00",
+    "description": "Sitzungssaal, Rathaus Stupferich",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5465",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ortschaftsrat Stupferich (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34764"
+  ],
+  "start": "2019-01-16T19:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

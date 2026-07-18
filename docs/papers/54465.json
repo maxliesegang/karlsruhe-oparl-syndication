@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677774.pdf",
+      "created": "2026-04-22T07:17:28+02:00",
+      "date": "2026-04-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677774.pdf",
+      "fileName": "00677774.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677774",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-25T14:58:35+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677787.pdf",
+      "created": "2026-04-22T11:56:50+02:00",
+      "date": "2026-04-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677787.pdf",
+      "fileName": "00677787.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677787",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-25T14:58:35+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678833.pdf",
+      "created": "2026-06-03T07:36:10+02:00",
+      "date": "2026-06-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678833.pdf",
+      "fileName": "00678833.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678833",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-25T14:58:35+02:00",
+      "name": "Protokoll GR 19.05.2026 TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101548",
+      "authoritative": true,
+      "created": "2026-05-05T16:11:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37273",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10526",
+      "modified": "2026-05-20T08:17:23+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54465",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101876",
+      "created": "2026-05-22T11:48:51+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37380",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10554",
+      "modified": "2026-07-02T19:12:09+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54465",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-04-22T07:16:40+02:00",
+  "date": "2026-04-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54465",
+  "modified": "2026-06-25T14:58:35+02:00",
+  "name": "Antriebswende beschleunigen: E-Ladeinfrastruktur für städtische Mitarbeitende",
+  "paperType": "Antrag",
+  "reference": "2026/0303",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

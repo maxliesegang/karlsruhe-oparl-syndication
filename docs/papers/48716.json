@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647767.pdf",
+      "created": "2023-06-01T10:25:28+02:00",
+      "date": "2023-06-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647767.pdf",
+      "fileName": "00647767.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647767",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage_Jugendarbeit",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78085",
+      "authoritative": true,
+      "created": "2023-06-01T10:30:03+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29788",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9253",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48716",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-06-01T10:22:56+02:00",
+  "date": "2023-06-01",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48716",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Entwicklung der offenen Jugendarbeit in Wettersbach",
+  "paperType": "Informationsvorlage",
+  "reference": "2023/0635",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882961"
+  ]
+}

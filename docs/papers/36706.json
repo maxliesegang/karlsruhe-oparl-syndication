@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00606249.pdf",
+      "created": "2018-11-13T08:31:09+01:00",
+      "date": "2018-11-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00606249.pdf",
+      "fileName": "00606249.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/606249",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00606550.pdf",
+      "created": "2018-11-23T15:08:24+01:00",
+      "date": "2018-11-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00606550.pdf",
+      "fileName": "00606550.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/606550",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 18",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607093.pdf",
+      "created": "2019-01-08T08:26:14+01:00",
+      "date": "2019-01-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607093.pdf",
+      "fileName": "00607093.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607093",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 18",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44398",
+      "authoritative": true,
+      "created": "2018-10-30T16:36:48+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15783",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4973",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36706",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-10-15T07:52:59+02:00",
+  "date": "2018-10-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36706",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Einrichtung eines Wohnmobilstellplatzes auf dem Festplatz Rüppurr",
+  "paperType": "Antrag",
+  "reference": "2018/0688",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

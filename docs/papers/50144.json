@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00657043.pdf",
+      "created": "2024-03-22T11:12:58+01:00",
+      "date": "2024-03-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00657043.pdf",
+      "fileName": "00657043.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/657043",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage_neu",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00657877.pdf",
+      "created": "2024-04-23T20:45:06+02:00",
+      "date": "2024-04-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00657877.pdf",
+      "fileName": "00657877.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/657877",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658578.pdf",
+      "created": "2024-05-17T13:12:14+02:00",
+      "date": "2024-05-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658578.pdf",
+      "fileName": "00658578.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658578",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 23.04.2024 TOP 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/85335",
+      "authoritative": true,
+      "created": "2024-03-21T13:19:55+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31699",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9525",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50144",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-03-14T10:00:11+01:00",
+  "date": "2024-03-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50144",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Grundsatzbeschluss: Suffizienzstrategie im Bauwesen der Stadt Karlsruhe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0269",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882971"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674054.pdf",
+      "created": "2025-11-28T09:23:47+01:00",
+      "date": "2025-11-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674054.pdf",
+      "fileName": "00674054.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674054",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-08T15:34:05+01:00",
+      "name": "Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674055.pdf",
+      "created": "2025-11-28T09:26:15+01:00",
+      "date": "2025-11-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674055.pdf",
+      "fileName": "00674055.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674055",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-08T15:34:05+01:00",
+      "name": "Stellungnahme Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99617",
+      "created": "2025-11-28T09:20:41+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36648",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9903",
+      "modified": "2025-12-02T08:24:13+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54006",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-28T09:17:53+01:00",
+  "date": "2025-11-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54006",
+  "modified": "2025-12-08T15:34:05+01:00",
+  "name": "ÖPNV-Anbindung an den Grötzinger Friedhof (interfraktioneller Antrag)",
+  "paperType": "Antrag",
+  "reference": "2025/1217",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

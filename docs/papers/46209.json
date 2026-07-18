@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636183.pdf",
+      "created": "2022-03-01T10:44:43+01:00",
+      "date": "2022-03-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636183.pdf",
+      "fileName": "00636183.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636183",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636903.pdf",
+      "created": "2022-03-31T13:39:42+02:00",
+      "date": "2022-03-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636903.pdf",
+      "fileName": "00636903.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636903",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis  TOP 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00637224.pdf",
+      "created": "2022-04-21T11:11:47+02:00",
+      "date": "2022-04-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00637224.pdf",
+      "fileName": "00637224.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/637224",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 29.03.202 TOP 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/68780",
+      "authoritative": true,
+      "created": "2022-03-01T12:53:33+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26565",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6610",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46209",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-12-09T09:17:27+01:00",
+  "date": "2021-12-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46209",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Sanierungsgebiet \"Gewerbegebiet Grünwinkel\", Vergabe von Tätigkeiten zur Wertermittlung, Kaufpreisprüfung und Ausgleichsbetragserhebung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/1509",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

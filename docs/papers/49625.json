@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00652652.pdf",
+      "created": "2023-10-25T09:36:03+02:00",
+      "date": "2023-10-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00652652.pdf",
+      "fileName": "00652652.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/652652",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653578.pdf",
+      "created": "2023-11-10T14:04:11+01:00",
+      "date": "2023-11-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653578.pdf",
+      "fileName": "00653578.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653578",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654879.pdf",
+      "created": "2023-12-19T15:02:46+01:00",
+      "date": "2023-12-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654879.pdf",
+      "fileName": "00654879.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654879",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 31",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83391",
+      "authoritative": true,
+      "created": "2023-11-14T16:32:19+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30942",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9054",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49625",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-10-25T09:35:01+02:00",
+  "date": "2023-10-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49625",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Radverkehr schützen - Überholabstand kontrollieren",
+  "paperType": "Anfrage",
+  "reference": "2023/1233",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

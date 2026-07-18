@@ -1,0 +1,71 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647728.pdf",
+      "created": "2023-05-31T12:15:47+02:00",
+      "date": "2023-05-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647728.pdf",
+      "fileName": "00647728.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647728",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648537.pdf",
+      "created": "2023-06-27T21:24:40+02:00",
+      "date": "2023-06-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648537.pdf",
+      "fileName": "00648537.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648537",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648992.pdf",
+      "created": "2023-07-17T12:57:32+02:00",
+      "date": "2023-07-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648992.pdf",
+      "fileName": "00648992.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648992",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78113",
+      "authoritative": true,
+      "created": "2023-06-02T10:38:08+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29784",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9046",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48710",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-05-31T12:14:05+02:00",
+  "date": "2023-05-31",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48710",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Vergabe der Lieferung von Mittagsverpflegung an zwölf Schulen und Schulkindergärten für das Schuljahr 2023/2024 mit der Option auf Vertragsverlängerung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0631",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48829"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

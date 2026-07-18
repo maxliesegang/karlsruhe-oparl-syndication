@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00616966.pdf",
+      "created": "2020-03-31T14:29:17+02:00",
+      "date": "2020-03-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00616966.pdf",
+      "fileName": "00616966.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/616966",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00617357.pdf",
+      "created": "2020-04-27T17:38:41+02:00",
+      "date": "2020-04-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00617357.pdf",
+      "fileName": "00617357.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/617357",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 8.7",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635228.pdf",
+      "created": "2022-01-13T12:26:05+01:00",
+      "date": "2022-01-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635228.pdf",
+      "fileName": "00635228.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635228",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/51582",
+      "authoritative": true,
+      "created": "2020-03-31T15:18:12+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19132",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5664",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39614",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-03-31T14:28:48+02:00",
+  "date": "2020-03-31",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39614",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Unbürokratische Hilfe für Schaustellerinnen und Schausteller sowie Beschickerinnen und Beschicker des Christkindlesmarktes 2020 in Karlsruhe",
+  "paperType": "Antrag",
+  "reference": "2020/0406",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

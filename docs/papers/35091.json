@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00594455.pdf",
+      "created": "2016-11-10T09:48:13+01:00",
+      "date": "2016-11-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00594455.pdf",
+      "fileName": "00594455.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/594455",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Heinrich-Hertz-Schule, Niederspannungsanlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595492.pdf",
+      "created": "2017-01-04T09:51:32+01:00",
+      "date": "2017-01-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595492.pdf",
+      "fileName": "00595492.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595492",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 21.2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/39513",
+      "authoritative": true,
+      "created": "2016-10-26T10:43:34+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/13706",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4157",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35091",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-18T11:52:29+02:00",
+  "date": "2016-10-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35091",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Heinrich-Hertz-Schule, Sanierung und Erweiterung, 2. Bauabschnitt: Vergabe von Nieder- und Mittelspannungsanlagen bis 36 kV",
+  "paperType": "Beschlussvorlage",
+  "reference": "2016/0621",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

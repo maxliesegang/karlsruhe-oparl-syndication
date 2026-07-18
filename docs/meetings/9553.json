@@ -1,0 +1,95 @@
+{
+  "agendaItem": [
+    {
+      "created": "2024-10-18T12:25:43+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90734",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9553",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Amt für Hochbau und Gebäudewirtschaft",
+      "number": "",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32937",
+      "created": "2024-10-18T12:25:43+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90737",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9553",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Turnhallen-Dach der Südend-Grundschule instand setzen",
+      "number": "1",
+      "order": 2,
+      "public": true,
+      "result": "verwiesen in den Gemeinderat",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2024-10-18T12:25:43+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90733",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9553",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Tiefbauamt",
+      "number": "",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32920",
+      "created": "2024-10-18T12:25:43+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90738",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9553",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Abwasserbeseitigung, Netzsanierung Kernstadt, Kanalauswechslung Durlacher Allee zwischen Veilchen und Tullastraße",
+      "number": "2",
+      "order": 4,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668002.pdf",
+      "created": "2025-06-16T14:23:19+02:00",
+      "date": "2025-06-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668002.pdf",
+      "fileName": "00668002.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668002",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-16T14:24:09+02:00",
+      "name": "Protokoll Ausschuss öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2023-09-06T14:35:09+02:00",
+  "end": "2024-11-14T16:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9553",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661824.pdf",
+    "created": "2024-10-18T12:32:21+02:00",
+    "date": "2024-10-18",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661824.pdf",
+    "fileName": "00661824.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661824",
+    "mimeType": "application/pdf",
+    "modified": "2025-06-16T14:23:50+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2023-09-06T14:35:09+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9553",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Bauausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+  ],
+  "start": "2024-11-14T16:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

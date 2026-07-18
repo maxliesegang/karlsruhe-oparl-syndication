@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607530.pdf",
+      "created": "2019-01-21T07:56:19+01:00",
+      "date": "2019-01-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607530.pdf",
+      "fileName": "00607530.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607530",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607940.pdf",
+      "created": "2019-02-15T10:28:07+01:00",
+      "date": "2019-02-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607940.pdf",
+      "fileName": "00607940.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607940",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 19",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608061.pdf",
+      "created": "2019-02-27T11:15:45+01:00",
+      "date": "2019-02-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608061.pdf",
+      "fileName": "00608061.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608061",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis Top19",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608871.pdf",
+      "created": "2019-04-03T12:54:17+02:00",
+      "date": "2019-04-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608871.pdf",
+      "fileName": "00608871.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608871",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 19",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44923",
+      "authoritative": true,
+      "created": "2019-01-29T14:40:38+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16129",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5276",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36983",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-01-21T07:54:38+01:00",
+  "date": "2019-01-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36983",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Keine Beteiligung an der Studie \"Cannabis zu Genusszwecken\"",
+  "paperType": "Antrag",
+  "reference": "2019/0065",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

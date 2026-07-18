@@ -1,0 +1,105 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34007",
+      "created": "2025-05-07T13:39:27+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93813",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10302",
+      "modified": "2025-05-07T13:39:27+02:00",
+      "name": "Neugestaltung des Vollservice bei der Abfallsammlung des Teams Sauberes Karlsruhe",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34170",
+      "created": "2025-05-07T13:39:27+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93815",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10302",
+      "modified": "2025-05-07T13:40:03+02:00",
+      "name": "Bevölkerungswettbewerb zur Benennung unbenannter Fußwege in Hohenwettersbach",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34140",
+      "created": "2025-05-07T13:39:27+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93814",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10302",
+      "modified": "2025-05-07T13:40:03+02:00",
+      "name": "Anbringung von Aschenbechern an ausgewählten ÖPNV-Haltestellen in Kooperation mit den City Cleaners Karlsruhe",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-05-07T13:41:22+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93816",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10302",
+      "modified": "2025-05-07T13:41:22+02:00",
+      "name": "Mitteilungen der Ortsverwaltung",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-05-07T13:41:53+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93817",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10302",
+      "modified": "2025-05-07T13:41:53+02:00",
+      "name": "Anregungen aus dem Ortschaftsrat",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668410.pdf",
+      "created": "2025-06-26T11:33:00+02:00",
+      "date": "2025-06-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668410.pdf",
+      "fileName": "00668410.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668410",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-26T11:33:23+02:00",
+      "name": "Protokoll Öffentlich, OR Ho.,",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2024-11-28T16:52:22+01:00",
+  "end": "2025-05-21T00:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10302",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666985.pdf",
+    "created": "2025-05-07T13:49:25+02:00",
+    "date": "2025-05-07",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666985.pdf",
+    "fileName": "00666985.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666985",
+    "mimeType": "application/pdf",
+    "modified": "2025-05-13T13:53:09+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2024-11-28T16:52:22+01:00",
+    "description": "Bürgersaal im Rathaus Hohenwettersbach",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10302",
+    "modified": "2025-06-26T11:33:23+02:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-06-26T11:33:23+02:00",
+  "name": "Ortschaftsrat Hohenwettersbach (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34322"
+  ],
+  "start": "2025-05-21T19:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

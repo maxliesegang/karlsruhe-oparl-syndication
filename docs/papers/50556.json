@@ -1,0 +1,71 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658988.pdf",
+      "created": "2024-06-11T13:32:59+02:00",
+      "date": "2024-06-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658988.pdf",
+      "fileName": "00658988.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658988",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659091.pdf",
+      "created": "2024-06-17T10:32:11+02:00",
+      "date": "2024-06-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659091.pdf",
+      "fileName": "00659091.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659091",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659170.pdf",
+      "created": "2024-06-18T21:49:38+02:00",
+      "date": "2024-06-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659170.pdf",
+      "fileName": "00659170.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659170",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 18.1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86985",
+      "authoritative": true,
+      "created": "2024-06-11T14:53:29+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32274",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9527",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50556",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-06-11T13:32:34+02:00",
+  "date": "2024-06-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50556",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Gesamtfortschreibung Regionalplan Mittlerer Oberrhein 2003",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2024/0503/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50398"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

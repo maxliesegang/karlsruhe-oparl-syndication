@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614299.pdf",
+      "created": "2020-01-14T12:39:04+01:00",
+      "date": "2020-01-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614299.pdf",
+      "fileName": "00614299.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614299",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614807.pdf",
+      "created": "2020-02-07T12:06:39+01:00",
+      "date": "2020-02-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614807.pdf",
+      "fileName": "00614807.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614807",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 29",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615584.pdf",
+      "created": "2020-03-13T16:28:19+01:00",
+      "date": "2020-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615584.pdf",
+      "fileName": "00615584.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615584",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 29",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/49504",
+      "authoritative": true,
+      "created": "2020-01-21T09:39:22+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17670",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5662",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38244",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-01-14T12:38:22+01:00",
+  "date": "2020-01-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38244",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Licht- und Plätzekonzept Europaplatz und westliche Kaiserstraße",
+  "paperType": "Antrag",
+  "reference": "2020/0031",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

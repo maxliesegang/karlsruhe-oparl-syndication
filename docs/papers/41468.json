@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626565.pdf",
+      "created": "2021-06-28T09:40:57+02:00",
+      "date": "2021-06-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626565.pdf",
+      "fileName": "00626565.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626565",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "4 Informationsvorlage Dolmetscherpool",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/59393",
+      "created": "2021-06-28T10:06:52+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21597",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6244",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/39759"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41468",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-06-28T09:40:01+02:00",
+  "date": "2021-06-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41468",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Sachstand Dolmetscherangebote",
+  "paperType": "Informationsvorlage",
+  "reference": "2021/0801",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/546903"
+  ]
+}

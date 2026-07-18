@@ -1,0 +1,61 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36908",
+      "created": "2026-02-06T13:24:16+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100381",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10479",
+      "modified": "2026-02-06T13:31:50+01:00",
+      "name": "Sachstandsbericht Breitbandausbau in der Stadt Karlsruhe",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36912",
+      "created": "2026-02-06T13:24:16+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100382",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10479",
+      "modified": "2026-02-06T13:31:50+01:00",
+      "name": "Ergebnisse der Fußgängerfrequenzzählungen Mai und Oktober 2025",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2025-10-10T09:52:26+02:00",
+  "end": "2026-02-26T18:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10479",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676241.pdf",
+    "created": "2026-01-29T14:49:22+01:00",
+    "date": "2026-01-29",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676241.pdf",
+    "fileName": "00676241.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676241",
+    "mimeType": "application/pdf",
+    "modified": "2026-02-11T10:35:45+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2022-12-29T15:24:53+01:00",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/rm/67922",
+    "locality": "",
+    "modified": "2023-08-21T13:57:08+02:00",
+    "postalCode": "",
+    "room": "Großer Sitzungssaal",
+    "streetAddress": "",
+    "subLocality": "",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-03-06T08:24:18+01:00",
+  "name": "Ausschuss für Wirtschaft und Wissenschaft (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/50069"
+  ],
+  "start": "2026-02-26T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

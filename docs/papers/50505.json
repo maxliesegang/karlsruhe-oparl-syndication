@@ -1,0 +1,85 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658931.pdf",
+      "created": "2024-06-07T10:55:32+02:00",
+      "date": "2024-06-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658931.pdf",
+      "fileName": "00658931.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658931",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage Neufestsetzung Tarife Vierordtbad zum 01.09.2024 und städtische Hallen- und Freibäder zum 01.01.2025",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659647.pdf",
+      "created": "2024-07-16T19:30:46+02:00",
+      "date": "2024-07-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659647.pdf",
+      "fileName": "00659647.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659647",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 11",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659983.pdf",
+      "created": "2024-08-05T10:28:14+02:00",
+      "date": "2024-08-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659983.pdf",
+      "fileName": "00659983.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659983",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 16.07.2024 TOP 11",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86839",
+      "authoritative": true,
+      "created": "2024-06-03T15:59:31+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32201",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9660",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54833"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50505",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/87495",
+      "authoritative": true,
+      "created": "2024-07-01T12:12:01+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32388",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9528",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50505",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-05-29T18:56:13+02:00",
+  "date": "2024-06-03",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50505",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Neufestsetzung Tarife Therme Vierordtbad zum 01.09.2024 und städtische Hallen- und Freibäder zum 01.01.2025",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0601",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50695"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882969"
+  ]
+}

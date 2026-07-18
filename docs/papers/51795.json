@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666452.pdf",
+      "created": "2025-04-15T15:30:15+02:00",
+      "date": "2025-04-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666452.pdf",
+      "fileName": "00666452.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666452",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-09T09:55:44+02:00",
+      "name": "Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666453.pdf",
+      "created": "2025-04-15T15:32:06+02:00",
+      "date": "2025-04-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666453.pdf",
+      "fileName": "00666453.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666453",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-09T09:55:44+02:00",
+      "name": "Stellungnahme Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93343",
+      "created": "2025-04-16T07:21:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34056",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9897",
+      "modified": "2025-05-02T11:29:27+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51795",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-04-15T15:29:54+02:00",
+  "date": "2025-04-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51795",
+  "modified": "2025-05-16T16:20:33+02:00",
+  "name": "Kulturbetrieb und Kulturförderung sicherstellen",
+  "paperType": "Antrag",
+  "reference": "2025/0351",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

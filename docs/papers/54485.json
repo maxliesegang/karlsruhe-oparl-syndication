@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677924.pdf",
+      "created": "2026-04-27T12:14:27+02:00",
+      "date": "2026-04-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677924.pdf",
+      "fileName": "00677924.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677924",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-30T16:41:36+02:00",
+      "name": "Anfrage Wolfartsweier",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677925.pdf",
+      "created": "2026-04-27T12:15:46+02:00",
+      "date": "2026-04-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677925.pdf",
+      "fileName": "00677925.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677925",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-30T16:41:36+02:00",
+      "name": "Stellungnahme Anfrage Wolfartsweier",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101478",
+      "created": "2026-04-30T16:07:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37302",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10728",
+      "modified": "2026-04-30T16:15:36+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54485",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-04-27T12:08:06+02:00",
+  "date": "2026-04-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54485",
+  "modified": "2026-04-30T16:41:36+02:00",
+  "name": "Bereitstellung von Hundekotbeuteln in Wolfartsweier",
+  "paperType": "Anfrage",
+  "reference": "2026/0321",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882962"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678601.pdf",
+      "created": "2026-05-22T11:53:47+02:00",
+      "date": "2026-05-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678601.pdf",
+      "fileName": "00678601.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678601",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-10T14:04:35+02:00",
+      "name": "Antrag Provisorium Auer Straße beseitigen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678770.pdf",
+      "created": "2026-06-01T09:08:14+02:00",
+      "date": "2026-06-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678770.pdf",
+      "fileName": "00678770.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678770",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-10T14:04:34+02:00",
+      "name": "Stellungnahme Provisorium Auer Straße",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102087",
+      "created": "2026-06-09T14:01:06+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37471",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10719",
+      "modified": "2026-07-14T11:22:50+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54594",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-05-22T11:53:14+02:00",
+  "date": "2026-05-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54594",
+  "modified": "2026-07-10T14:04:34+02:00",
+  "name": "Provisorium Auer Straße beseitigen",
+  "paperType": "Antrag",
+  "reference": "2026/0427",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

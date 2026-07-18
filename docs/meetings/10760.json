@@ -1,0 +1,60 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35160",
+      "created": "2025-11-17T10:30:13+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99038",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10760",
+      "modified": "2025-11-28T07:18:03+01:00",
+      "name": "Erwerb der Grundstücks Nrn. 73950 mit 1.900 m², Bergacker, Landwirtschaftsfläche, Gemarkung Durlach sowie 63904 mit 334 m², Bergacker, Landwirtschaftsfläche, Gemarkung Durlach",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "mehrheitlich beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675093.pdf",
+      "created": "2025-12-10T11:18:05+01:00",
+      "date": "2025-12-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675093.pdf",
+      "fileName": "00675093.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675093",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-10T11:18:25+01:00",
+      "name": "Nr.17_27.11.2025_öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2025-11-14T09:01:37+01:00",
+  "end": "2025-11-27T20:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10760",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671903.pdf",
+    "created": "2025-11-17T10:43:34+01:00",
+    "date": "2025-11-17",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671903.pdf",
+    "fileName": "00671903.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671903",
+    "mimeType": "application/pdf",
+    "modified": "2025-11-20T14:20:32+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2025-11-14T09:01:37+01:00",
+    "description": "Bürgersaal, Rathaus Grünwettersbach, Am Wetterbach 40, 76228 Karlsruhe",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10760",
+    "modified": "2025-12-10T11:18:25+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-12-10T11:18:25+01:00",
+  "name": "Ortschaftsrat Wettersbach (öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+  ],
+  "start": "2025-11-27T18:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

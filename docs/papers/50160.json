@@ -1,0 +1,98 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00657523.pdf",
+      "created": "2024-04-12T17:05:05+02:00",
+      "date": "2024-04-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00657523.pdf",
+      "fileName": "00657523.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/657523",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658465.pdf",
+      "created": "2024-05-14T20:22:34+02:00",
+      "date": "2024-05-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658465.pdf",
+      "fileName": "00658465.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658465",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 11",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658469.pdf",
+      "created": "2024-05-14T20:30:30+02:00",
+      "date": "2024-05-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658469.pdf",
+      "fileName": "00658469.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658469",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 11 Geschäftsordnungsantrag auf Vertagung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659051.pdf",
+      "created": "2024-06-13T16:17:27+02:00",
+      "date": "2024-06-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659051.pdf",
+      "fileName": "00659051.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659051",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 14.05.2024 TOP 11",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/85767",
+      "created": "2024-04-08T17:39:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31721",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9542",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50160",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/85995",
+      "authoritative": true,
+      "created": "2024-04-17T13:31:33+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31722",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9526",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50160",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-03-18T11:30:15+01:00",
+  "date": "2024-03-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50160",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Themenfelder Fuß- und Radverkehr",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0284",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50437",
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50439",
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50440"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

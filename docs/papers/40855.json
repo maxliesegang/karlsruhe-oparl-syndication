@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624071.pdf",
+      "created": "2021-03-11T07:54:29+01:00",
+      "date": "2021-03-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624071.pdf",
+      "fileName": "00624071.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624071",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1_Umbesetzung_Ausschüsse",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624118.pdf",
+      "created": "2021-03-12T07:56:44+01:00",
+      "date": "2021-03-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624118.pdf",
+      "fileName": "00624118.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624118",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Umbesetzung_Ausschuesse_Schmidt",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624397.pdf",
+      "created": "2021-03-25T15:01:03+01:00",
+      "date": "2021-03-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624397.pdf",
+      "fileName": "00624397.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624397",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis_top3",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625015.pdf",
+      "created": "2021-04-23T09:19:33+02:00",
+      "date": "2021-04-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625015.pdf",
+      "fileName": "00625015.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625015",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56439",
+      "authoritative": true,
+      "created": "2021-02-22T14:32:42+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20760",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6176",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40855",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-02-18T09:50:27+01:00",
+  "date": "2021-02-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40855",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Umbesetzung von Ausschüssen und sonstigen Gremien nach dem Ausscheiden von Stadtrat Markus Schmidt aus dem Gemeinderat",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/0176",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882850"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649724.pdf",
+      "created": "2023-08-11T12:19:09+02:00",
+      "date": "2023-08-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649724.pdf",
+      "fileName": "00649724.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649724",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650633.pdf",
+      "created": "2023-09-15T11:17:03+02:00",
+      "date": "2023-09-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650633.pdf",
+      "fileName": "00650633.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650633",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme zum Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651040.pdf",
+      "created": "2023-09-27T17:14:03+02:00",
+      "date": "2023-09-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651040.pdf",
+      "fileName": "00651040.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651040",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll AföE _ Rettung für die Wildtiergehege_geä",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653655.pdf",
+      "created": "2023-11-14T12:15:00+01:00",
+      "date": "2023-11-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653655.pdf",
+      "fileName": "00653655.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653655",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/80048",
+      "authoritative": true,
+      "created": "2023-08-25T13:54:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30239",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9142",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49016",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/80614",
+      "authoritative": true,
+      "created": "2023-09-27T10:05:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30533",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9051",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49016",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-08-11T12:18:26+02:00",
+  "date": "2023-08-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49016",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Rettung für die Wildtiergehege",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2023/0239/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48275"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

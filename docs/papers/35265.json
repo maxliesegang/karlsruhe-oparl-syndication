@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595467.pdf",
+      "created": "2017-01-03T14:59:41+01:00",
+      "date": "2017-01-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595467.pdf",
+      "fileName": "00595467.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595467",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "SPD Zufahrt Staatstheater",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595468.pdf",
+      "created": "2017-01-03T14:59:53+01:00",
+      "date": "2017-01-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595468.pdf",
+      "fileName": "00595468.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595468",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 23",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595960.pdf",
+      "created": "2017-01-30T10:26:38+01:00",
+      "date": "2017-01-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595960.pdf",
+      "fileName": "00595960.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595960",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 23",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/39903",
+      "authoritative": true,
+      "created": "2016-12-20T14:11:30+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/13940",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4521",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35265",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-12-19T09:53:48+01:00",
+  "date": "2016-12-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35265",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Zufahrtsmöglichkeiten zum Staatstheater während der Bauarbeiten",
+  "paperType": "Anfrage",
+  "reference": "2016/0804",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882987"
+  ]
+}

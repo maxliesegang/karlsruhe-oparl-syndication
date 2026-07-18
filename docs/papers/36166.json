@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00603026.pdf",
+      "created": "2018-05-04T08:25:30+02:00",
+      "date": "2018-05-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00603026.pdf",
+      "fileName": "00603026.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/603026",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "SPD Bürgerbüros",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00603083.pdf",
+      "created": "2018-05-04T11:02:50+02:00",
+      "date": "2018-05-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00603083.pdf",
+      "fileName": "00603083.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/603083",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 10.2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00603466.pdf",
+      "created": "2018-06-05T11:14:44+02:00",
+      "date": "2018-06-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00603466.pdf",
+      "fileName": "00603466.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/603466",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/42784",
+      "authoritative": true,
+      "created": "2018-04-17T08:39:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15082",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5008",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36166",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-03-05T15:20:30+01:00",
+  "date": "2018-03-05",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36166",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Konzept für Bürgerbüros",
+  "paperType": "Antrag",
+  "reference": "2018/0114",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

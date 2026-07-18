@@ -1,0 +1,58 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667845.pdf",
+      "created": "2025-06-11T09:02:26+02:00",
+      "date": "2025-06-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667845.pdf",
+      "fileName": "00667845.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667845",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-27T16:44:24+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669064.pdf",
+      "created": "2025-07-28T01:19:51+02:00",
+      "date": "2025-07-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669064.pdf",
+      "fileName": "00669064.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669064",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-27T16:46:53+02:00",
+      "name": "Empfehlung",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94326",
+      "created": "2025-06-11T09:27:25+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34405",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10166",
+      "modified": "2025-06-11T09:27:42+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54847"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52041",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-06-11T08:54:55+02:00",
+  "date": "2025-06-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52041",
+  "modified": "2025-08-27T16:44:24+02:00",
+  "name": "Aufstockung Mehrfamilienwohnhaus Bernhardstraße",
+  "paperType": "Informationsvorlage",
+  "reference": "2024/0419/2",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50306"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

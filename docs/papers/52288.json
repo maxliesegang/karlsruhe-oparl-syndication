@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669556.pdf",
+      "created": "2025-08-20T11:09:25+02:00",
+      "date": "2025-08-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669556.pdf",
+      "fileName": "00669556.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669556",
+      "mimeType": "application/pdf",
+      "modified": "2025-09-30T11:09:00+02:00",
+      "name": "Anfrage Durlach",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669557.pdf",
+      "created": "2025-08-20T11:16:53+02:00",
+      "date": "2025-08-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669557.pdf",
+      "fileName": "00669557.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669557",
+      "mimeType": "application/pdf",
+      "modified": "2025-09-30T11:09:00+02:00",
+      "name": "Stellungnahme Anfrage Durlach",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96184",
+      "authoritative": true,
+      "created": "2025-09-09T12:40:15+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34737",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10030",
+      "modified": "2025-10-16T07:39:14+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52288",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-08-20T11:00:58+02:00",
+  "date": "2025-08-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52288",
+  "modified": "2025-09-30T11:09:00+02:00",
+  "name": "Fairteiler in Durlach",
+  "paperType": "Anfrage",
+  "reference": "2025/0797",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

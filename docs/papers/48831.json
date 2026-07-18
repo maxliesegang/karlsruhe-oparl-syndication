@@ -1,0 +1,71 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648490.pdf",
+      "created": "2023-06-27T13:24:35+02:00",
+      "date": "2023-06-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648490.pdf",
+      "fileName": "00648490.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648490",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648530.pdf",
+      "created": "2023-06-27T19:57:56+02:00",
+      "date": "2023-06-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648530.pdf",
+      "fileName": "00648530.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648530",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis Top 7  Linke",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648531.pdf",
+      "created": "2023-06-27T19:58:09+02:00",
+      "date": "2023-06-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648531.pdf",
+      "fileName": "00648531.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648531",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 7 AfD",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78557",
+      "authoritative": true,
+      "created": "2023-06-27T13:47:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29950",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9046",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48831",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-06-27T13:24:10+02:00",
+  "date": "2023-06-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48831",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Gleiche Redezeiten für alle Fraktionen",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2023/0638/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48719"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882850"
+  ]
+}

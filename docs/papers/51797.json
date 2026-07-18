@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667936.pdf",
+      "created": "2025-06-13T09:47:30+02:00",
+      "date": "2025-06-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667936.pdf",
+      "fileName": "00667936.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667936",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-09T16:54:17+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668385.pdf",
+      "created": "2025-06-26T06:06:36+02:00",
+      "date": "2025-06-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668385.pdf",
+      "fileName": "00668385.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668385",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-09T16:54:17+02:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93333",
+      "authoritative": true,
+      "created": "2025-04-15T20:31:22+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34058",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10123",
+      "modified": "2025-07-28T15:06:06+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/29599"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51797",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-04-15T16:47:03+02:00",
+  "date": "2025-04-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51797",
+  "modified": "2025-07-09T16:54:17+02:00",
+  "name": "Jahresbericht 2024 des Kulturamtes",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/0353",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882963"
+  ]
+}

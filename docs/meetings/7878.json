@@ -1,0 +1,99 @@
+{
+  "agendaItem": [
+    {
+      "created": "2022-11-04T10:03:06+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/73821",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7878",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Nahverkehrskonzept der Verkehrsbetriebe Karlsruhe",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2022-11-04T10:06:27+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/73822",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7878",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "„Altersgerechte Wohnformen in Wolfartsweier (Dorfblütenkonzept)“ – Vorstellung der aktuellen Situation und Beratung des weiteren Vorgehens",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2022-11-04T10:07:24+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/73823",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7878",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Vorstellung des Konzepts „Jugendarbeit in den Höhenstadtteilen“",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2022-11-04T10:10:11+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/73824",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7878",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Büste zur Würdigung von Erna Scheffler – Sachstandsbericht",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2022-11-04T10:10:30+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/73825",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7878",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mündliche Anfragen",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2022-11-04T10:11:23+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/73826",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7878",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen der Verwaltung",
+      "number": "6",
+      "order": 6,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2021-11-04T14:09:57+01:00",
+  "end": "2022-11-16T21:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/7878",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00642259.pdf",
+    "created": "2022-11-04T10:16:07+01:00",
+    "date": "2022-11-04",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00642259.pdf",
+    "fileName": "00642259.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/642259",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2021-11-04T14:09:57+01:00",
+    "description": "Begegnungsstätte (Rathausstraße 2a, 76228 Karlsruhe)",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/7878",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ortschaftsrat Wolfartsweier (öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
+  ],
+  "start": "2022-11-16T19:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

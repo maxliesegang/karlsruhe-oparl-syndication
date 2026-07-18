@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00020554.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2013-08-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00020554.pdf",
+      "fileName": "00020554.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/20554",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "FDP-Kasernen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00020555.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2014-01-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00020555.pdf",
+      "fileName": "00020555.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/20555",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 31",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/20511",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/4219",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/1798",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/20511",
+      "role": "unbekannt",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2008-07-08",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/20511",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Antrag FDP/Aufbruch: Künftige Nutzung der Kasernenareale Kammhuber und Mackensen",
+  "paperType": "Beschlussvorlage",
+  "reference": "20511",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882950"
+  ]
+}

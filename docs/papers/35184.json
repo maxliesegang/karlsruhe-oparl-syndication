@@ -1,0 +1,90 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00596371.pdf",
+      "created": "2017-02-24T15:14:57+01:00",
+      "date": "2017-02-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00596371.pdf",
+      "fileName": "00596371.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/596371",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Benutzungsordnung für städtische Grillplätze",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00596372.pdf",
+      "created": "2017-02-24T15:15:44+01:00",
+      "date": "2017-02-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00596372.pdf",
+      "fileName": "00596372.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/596372",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 2 zu TOP Benutzungsordnung für städtische Grillplätze",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00596373.pdf",
+      "created": "2017-02-24T15:15:53+01:00",
+      "date": "2017-02-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00596373.pdf",
+      "fileName": "00596373.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/596373",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1 zu TOP Benutzungsordnung für städtische Grillplätze",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00596909.pdf",
+      "created": "2017-04-04T14:06:39+02:00",
+      "date": "2017-04-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00596909.pdf",
+      "fileName": "00596909.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/596909",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2016-11-07T14:37:14+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/13845",
+      "modified": "2018-11-28T14:19:31+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35184",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/40207",
+      "created": "2017-02-14T10:31:21+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/13847",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4544",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35184",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-11-07T14:36:29+01:00",
+  "date": "2016-11-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35184",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Grillplatzordnung für städtische Grillplätze",
+  "paperType": "Beschlussvorlage",
+  "reference": "2016/0717",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883003"
+  ]
+}

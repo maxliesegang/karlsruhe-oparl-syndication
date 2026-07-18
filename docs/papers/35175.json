@@ -1,0 +1,91 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00594667.pdf",
+      "created": "2016-11-18T13:45:39+01:00",
+      "date": "2016-11-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00594667.pdf",
+      "fileName": "00594667.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/594667",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1 Änderung Abfallentsorgungssatzung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00594668.pdf",
+      "created": "2016-11-18T13:45:48+01:00",
+      "date": "2016-11-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00594668.pdf",
+      "fileName": "00594668.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/594668",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 2 Synopse Abfallentsorgungssatzung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00594875.pdf",
+      "created": "2016-11-25T11:27:31+01:00",
+      "date": "2016-11-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00594875.pdf",
+      "fileName": "00594875.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/594875",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abfallentsorgungssatzung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595543.pdf",
+      "created": "2017-01-09T14:46:02+01:00",
+      "date": "2017-01-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595543.pdf",
+      "fileName": "00595543.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595543",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2016-11-07T13:28:46+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/13830",
+      "modified": "2018-11-28T14:19:31+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35175",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/39696",
+      "authoritative": true,
+      "created": "2016-11-14T14:00:12+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/13832",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4160",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35175",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-11-07T13:26:49+01:00",
+  "date": "2016-11-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35175",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Satzung zur Änderung der Satzung der Stadt Karlsruhe über die Vermeidung, Verwertung und Beseitigung von Abfällen (Abfallentsorgungssatzung)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2016/0708",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

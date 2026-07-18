@@ -1,0 +1,54 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678942.pdf",
+      "created": "2026-06-10T08:15:24+02:00",
+      "date": "2026-06-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678942.pdf",
+      "fileName": "00678942.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678942",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-17T07:18:59+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2026-06-10T11:29:18+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37557",
+      "modified": "2026-06-10T11:29:18+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54641",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102382",
+      "created": "2026-06-25T09:15:15+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37554",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10566",
+      "modified": "2026-07-17T09:22:28+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54641",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-06-10T08:14:49+02:00",
+  "date": "2026-06-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54641",
+  "modified": "2026-07-17T07:18:59+02:00",
+  "name": "Anschlussregelung für ein dauerhaftes Verbot der Straßenprostitution",
+  "paperType": "Antrag",
+  "reference": "2026/0474",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

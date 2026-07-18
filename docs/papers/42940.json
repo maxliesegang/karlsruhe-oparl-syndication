@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00629750.pdf",
+      "created": "2021-10-15T13:30:48+02:00",
+      "date": "2021-10-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00629750.pdf",
+      "fileName": "00629750.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/629750",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634340.pdf",
+      "created": "2021-12-10T09:33:50+01:00",
+      "date": "2021-12-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634340.pdf",
+      "fileName": "00634340.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634340",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN GRÜNE Anerkennung des DGTI-Ergänzungsausweises",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00635057.pdf",
+      "created": "2022-01-05T13:55:11+01:00",
+      "date": "2022-01-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00635057.pdf",
+      "fileName": "00635057.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/635057",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 30",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/65732",
+      "authoritative": true,
+      "created": "2021-11-17T09:58:03+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/23195",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6346",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/42940",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-10-15T13:30:27+02:00",
+  "date": "2021-10-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/42940",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Anerkennung des DGTI-Ergänzungsausweises der \"Deutschen Gesellschaft für Transidentität und Intersexualität\" in Karlsruhe und Mitgliedschaft im \"Rainbow Cities Network\"",
+  "paperType": "Antrag",
+  "reference": "2021/1234",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667145.pdf",
+      "created": "2025-05-14T09:21:59+02:00",
+      "date": "2025-05-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667145.pdf",
+      "fileName": "00667145.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667145",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-02T06:36:11+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667147.pdf",
+      "created": "2025-05-14T09:24:01+02:00",
+      "date": "2025-05-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667147.pdf",
+      "fileName": "00667147.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667147",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-02T06:36:11+02:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94640",
+      "authoritative": true,
+      "created": "2025-06-17T14:19:47+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34216",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10107",
+      "modified": "2025-07-16T16:25:04+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33195"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51917",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-05-14T09:18:47+02:00",
+  "date": "2025-05-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51917",
+  "modified": "2025-07-02T06:36:11+02:00",
+  "name": "Informations-, Beratungs- und Beschwerdestelle Psychiatrie (IBB) Karlsruhe, Bericht 2023 - 2024",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/0463",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

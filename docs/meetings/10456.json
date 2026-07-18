@@ -1,0 +1,81 @@
+{
+  "agendaItem": [
+    {
+      "created": "2026-04-21T10:53:38+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101343",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10456",
+      "modified": "2026-05-13T08:34:15+02:00",
+      "name": "Kita-Bedarfsplanung - Mündlicher Bericht zur aktuellen Bedarfslage sowie Erläuterung der Planungen im Zusammenhang mit dem Ersatzneubau der städtischen Kita Wettersbach",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-03-30T10:00:49+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100985",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10456",
+      "modified": "2026-05-13T08:34:20+02:00",
+      "name": "Bekanntgabe nichtöffentlich gefasster Beschlüsse",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "erledigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-03-30T10:01:07+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100986",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10456",
+      "modified": "2026-05-13T08:34:25+02:00",
+      "name": "Mitteilungen der Ortsverwaltung",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "erledigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-03-30T10:01:23+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100987",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10456",
+      "modified": "2026-05-13T08:34:31+02:00",
+      "name": "Anfragen aus dem Ortschaftsrat",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "result": "erledigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2025-10-08T14:08:43+02:00",
+  "end": "2026-05-12T21:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10456",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677877.pdf",
+    "created": "2026-04-24T08:54:32+02:00",
+    "date": "2026-04-24",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677877.pdf",
+    "fileName": "00677877.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677877",
+    "mimeType": "application/pdf",
+    "modified": "2026-05-04T11:27:37+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2025-10-08T14:08:43+02:00",
+    "description": "Bürgersaal, Rathaus Grünwettersbach, Am Wetterbach 40, 76228 Karlsruhe",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10456",
+    "modified": "2026-05-13T08:34:50+02:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-05-13T08:34:50+02:00",
+  "name": "Ortschaftsrat Wettersbach (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+  ],
+  "start": "2026-05-12T19:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

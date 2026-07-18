@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00622220.pdf",
+      "created": "2020-12-03T11:02:03+01:00",
+      "date": "2020-12-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00622220.pdf",
+      "fileName": "00622220.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/622220",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Lageplan Lina-Radke-Halle",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00622221.pdf",
+      "created": "2020-12-03T11:02:26+01:00",
+      "date": "2020-12-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00622221.pdf",
+      "fileName": "00622221.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/622221",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00623736.pdf",
+      "created": "2021-02-25T11:47:09+01:00",
+      "date": "2021-02-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00623736.pdf",
+      "fileName": "00623736.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/623736",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis Top8",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624227.pdf",
+      "created": "2021-03-19T08:35:19+01:00",
+      "date": "2021-03-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624227.pdf",
+      "fileName": "00624227.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624227",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/56162",
+      "authoritative": true,
+      "created": "2021-01-27T08:45:47+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20487",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6155",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40640",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-12-03T10:36:34+01:00",
+  "date": "2021-01-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40640",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Benennung der Dreifeldhalle an der Elisabeth-Selbert-Schule mit Lina-Radke-Halle",
+  "paperType": "Beschlussvorlage",
+  "reference": "2020/1429",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

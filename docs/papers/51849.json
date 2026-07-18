@@ -1,0 +1,71 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666706.pdf",
+      "created": "2025-04-29T07:16:55+02:00",
+      "date": "2025-04-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666706.pdf",
+      "fileName": "00666706.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666706",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-22T13:49:17+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666740.pdf",
+      "created": "2025-04-29T11:31:16+02:00",
+      "date": "2025-04-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666740.pdf",
+      "fileName": "00666740.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666740",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-22T13:49:17+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667352.pdf",
+      "created": "2025-05-22T13:49:13+02:00",
+      "date": "2025-05-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667352.pdf",
+      "fileName": "00667352.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667352",
+      "mimeType": "application/pdf",
+      "modified": "2025-05-22T13:49:17+02:00",
+      "name": "Protokoll GR 29.04.2025 TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93431",
+      "authoritative": true,
+      "created": "2025-04-29T07:21:58+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34134",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10047",
+      "modified": "2025-04-30T08:42:44+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51849",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-04-29T07:16:20+02:00",
+  "date": "2025-04-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51849",
+  "modified": "2025-05-22T13:49:17+02:00",
+  "name": "Grundstücksvergabekonzept für das „Quartier Zukunft Nord (nördlicher Teil)“ – Auswahlkriterien für die Baufelder 4 und 5",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2025/0141/3",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51824"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

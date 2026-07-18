@@ -1,0 +1,99 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30486",
+      "created": "2023-10-23T13:07:29+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83086",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9746",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Sprachliche Bildung für (neu)zugewanderte Kinder und Jugendliche",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30487",
+      "created": "2023-10-06T17:56:09+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/80743",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9746",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Ausbau kommunales Integrationsmanagement",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30488",
+      "created": "2023-10-06T17:57:23+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/80745",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9746",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Projektförderung: Verlängerung AniKA – Ankommen in Karlsruhe",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30489",
+      "created": "2023-10-06T17:57:41+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/80746",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9746",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Projektverlängerungen: Internationaler Elterntreff und „Individuelle Unterstützung beim Deutschlernen“",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654414.pdf",
+      "created": "2023-12-11T14:15:06+01:00",
+      "date": "2023-12-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654414.pdf",
+      "fileName": "00654414.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654414",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll 23.11.2023 InA",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2023-09-22T13:15:57+02:00",
+  "end": "2023-11-23T18:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9746",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653094.pdf",
+    "created": "2023-10-31T15:25:07+01:00",
+    "date": "2023-10-31",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653094.pdf",
+    "fileName": "00653094.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653094",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2022-12-12T11:11:26+01:00",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/rm/67907",
+    "locality": "",
+    "modified": "2025-08-05T10:18:13+02:00",
+    "postalCode": "",
+    "room": "Bürgersaal",
+    "streetAddress": "",
+    "subLocality": "",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Integrationsausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/39759"
+  ],
+  "start": "2023-11-23T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658191.pdf",
+      "created": "2024-05-06T11:27:07+02:00",
+      "date": "2024-05-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658191.pdf",
+      "fileName": "00658191.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658191",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658209.pdf",
+      "created": "2024-05-06T12:25:34+02:00",
+      "date": "2024-05-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658209.pdf",
+      "fileName": "00658209.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658209",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Skizze Neugrabenstraße",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86449",
+      "created": "2024-05-13T10:02:15+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32062",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9548",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50406",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-05-06T11:26:16+02:00",
+  "date": "2024-05-08",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50406",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Umgestaltung Neugrabenstraße",
+  "paperType": "Informationsvorlage",
+  "reference": "2024/0510",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

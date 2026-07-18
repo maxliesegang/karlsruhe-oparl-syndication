@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676093.pdf",
+      "created": "2026-01-26T14:12:52+01:00",
+      "date": "2026-01-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676093.pdf",
+      "fileName": "00676093.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676093",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-02T14:29:51+01:00",
+      "name": "Anlagen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676405.pdf",
+      "created": "2026-02-05T13:07:49+01:00",
+      "date": "2026-02-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676405.pdf",
+      "fileName": "00676405.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676405",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-02T14:29:51+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100325",
+      "created": "2026-02-04T13:09:18+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36896",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10488",
+      "modified": "2026-03-13T10:10:43+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54161",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-01-20T14:20:07+01:00",
+  "date": "2026-01-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54161",
+  "modified": "2026-03-02T14:29:51+01:00",
+  "name": "Konzerthaus Karlsruhe, Brandschutzmaßnahmen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0034",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

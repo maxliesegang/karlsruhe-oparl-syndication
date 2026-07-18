@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665295.pdf",
+      "created": "2025-02-28T22:18:36+01:00",
+      "date": "2025-02-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665295.pdf",
+      "fileName": "00665295.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665295",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-13T09:36:37+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666408.pdf",
+      "created": "2025-04-15T09:56:25+02:00",
+      "date": "2025-04-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666408.pdf",
+      "fileName": "00666408.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666408",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-13T09:36:37+02:00",
+      "name": "Anlage 1 Richtlinie Bauprozesse (Stand 15-04-2025 nach Hauptausschuss)",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667357.pdf",
+      "created": "2025-05-22T13:51:48+02:00",
+      "date": "2025-05-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667357.pdf",
+      "fileName": "00667357.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667357",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-13T09:36:37+02:00",
+      "name": "Protokoll GR 29.04.2025 TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93138",
+      "authoritative": true,
+      "created": "2025-04-03T09:12:20+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33704",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10047",
+      "modified": "2025-04-29T19:18:30+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51576",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-02-12T17:03:01+01:00",
+  "date": "2025-02-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51576",
+  "modified": "2026-07-13T15:15:24+02:00",
+  "name": "Richtlinie der Stadt Karlsruhe zur Umsetzung der Neuausrichtung der Bau-, Planungs- und Realisierungsprozesse (Richtlinie Bauprozesse)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0152",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/185690"
+  ]
+}

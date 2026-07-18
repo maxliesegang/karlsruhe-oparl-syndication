@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669420.pdf",
+      "created": "2025-08-14T15:55:14+02:00",
+      "date": "2025-08-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669420.pdf",
+      "fileName": "00669420.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669420",
+      "mimeType": "application/pdf",
+      "modified": "2025-09-05T15:10:45+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669583.pdf",
+      "created": "2025-08-20T16:06:24+02:00",
+      "date": "2025-08-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669583.pdf",
+      "fileName": "00669583.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669583",
+      "mimeType": "application/pdf",
+      "modified": "2025-09-05T15:10:45+02:00",
+      "name": "Anlage 1 - Kalkulation Entgelt Vermietung Toilettenwagen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/95502",
+      "authoritative": true,
+      "created": "2025-08-18T08:51:48+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34707",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10029",
+      "modified": "2025-09-25T10:15:46+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52265",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-08-14T15:50:28+02:00",
+  "date": "2025-08-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52265",
+  "modified": "2025-09-05T15:10:45+02:00",
+  "name": "Festsetzung des Entgelts für die Vermietung des Durlacher Toilettenwagens",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0777",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

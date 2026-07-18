@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661741.pdf",
+      "created": "2024-10-16T15:33:51+02:00",
+      "date": "2024-10-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661741.pdf",
+      "fileName": "00661741.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661741",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661776.pdf",
+      "created": "2024-10-17T16:10:38+02:00",
+      "date": "2024-10-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661776.pdf",
+      "fileName": "00661776.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661776",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663191.pdf",
+      "created": "2024-11-25T14:58:05+01:00",
+      "date": "2024-11-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663191.pdf",
+      "fileName": "00663191.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663191",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 19.11.2024 TOP 34",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90794",
+      "authoritative": true,
+      "created": "2024-10-22T10:36:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33039",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9533",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51112",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-10-16T15:33:21+02:00",
+  "date": "2024-10-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51112",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Gemeldeter Waffenbesitz in Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2024/1171",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

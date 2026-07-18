@@ -1,0 +1,77 @@
+{
+  "agendaItem": [
+    {
+      "created": "2026-05-15T12:03:18+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101764",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10748",
+      "modified": "2026-05-15T12:03:18+02:00",
+      "name": "Vorstellung der neuen Leiterin des Stadtplanungsamtes",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-05-15T12:03:54+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101765",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10748",
+      "modified": "2026-05-15T12:31:06+02:00",
+      "name": "Vorstellung des Bauturbos (Gesetz zur Beschleunigung des Wohnungsbaus und zur Wohnraumsicherung) durch die Leiterinnen des Bauordnungsamtes und des Stadtplanungsamtes",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-05-15T12:02:34+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101763",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10748",
+      "modified": "2026-05-15T12:05:34+02:00",
+      "name": "Bekanntgaben",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-05-15T12:04:26+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101766",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10748",
+      "modified": "2026-05-15T12:05:34+02:00",
+      "name": "Anfragen und Anregungen aus dem Ortschaftsrat",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2025-11-07T08:56:35+01:00",
+  "end": "2026-06-09T00:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10748",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678429.pdf",
+    "created": "2026-05-15T12:29:05+02:00",
+    "date": "2026-05-15",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678429.pdf",
+    "fileName": "00678429.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678429",
+    "mimeType": "application/pdf",
+    "modified": "2026-06-09T07:59:07+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2025-11-07T08:56:35+01:00",
+    "description": "Sitzungssaal Rathaus Neureut",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10748",
+    "modified": "2026-06-09T07:59:07+02:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2026-06-09T07:59:07+02:00",
+  "name": "Ortschaftsrat Neureut (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34531"
+  ],
+  "start": "2026-06-09T19:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

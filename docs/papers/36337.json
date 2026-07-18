@@ -1,0 +1,94 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00603762.pdf",
+      "created": "2018-06-22T10:00:10+02:00",
+      "date": "2018-06-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00603762.pdf",
+      "fileName": "00603762.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/603762",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "CDU Regelmäßige Sondersitzungen HA",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00603763.pdf",
+      "created": "2018-06-22T10:00:21+02:00",
+      "date": "2018-06-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00603763.pdf",
+      "fileName": "00603763.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/603763",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme CDU Sondersitzungen HA",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00604467.pdf",
+      "created": "2018-08-02T15:16:56+02:00",
+      "date": "2018-08-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00604467.pdf",
+      "fileName": "00604467.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/604467",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll HA TOP 2.5",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00604671.pdf",
+      "created": "2018-08-27T11:23:05+02:00",
+      "date": "2018-08-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00604671.pdf",
+      "fileName": "00604671.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/604671",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 17.07.18 TOP 31",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/43226",
+      "authoritative": true,
+      "created": "2018-06-06T08:37:38+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15306",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4880",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36337",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/43414",
+      "authoritative": true,
+      "created": "2018-06-20T13:02:10+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15339",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4931",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36337",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-05-07T13:28:39+02:00",
+  "date": "2018-05-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36337",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Regelmäßige Sondersitzungen des Hauptausschusses zu sicherheitspolitischen Themen",
+  "paperType": "Antrag",
+  "reference": "2018/0302",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

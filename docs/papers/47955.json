@@ -1,0 +1,82 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643529.pdf",
+      "created": "2022-12-20T10:07:10+01:00",
+      "date": "2022-12-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643529.pdf",
+      "fileName": "00643529.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643529",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643530.pdf",
+      "created": "2022-12-20T10:07:43+01:00",
+      "date": "2022-12-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643530.pdf",
+      "fileName": "00643530.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643530",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646036.pdf",
+      "created": "2023-03-27T13:24:10+02:00",
+      "date": "2023-03-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646036.pdf",
+      "fileName": "00646036.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646036",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/74819",
+      "authoritative": true,
+      "created": "2022-12-20T12:46:23+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28810",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9082",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47955",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75492",
+      "authoritative": true,
+      "created": "2023-01-27T10:04:11+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28811",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9042",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47955",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-12-20T09:59:00+01:00",
+  "date": "2022-12-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47955",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Karlsruher Jugendbeteiligungskonzept 2022 – 3. Fortschreibung des Konzepts zur Beteiligung von Jugendlichen in Karlsruhe 2010",
+  "paperType": "Informationsvorlage",
+  "reference": "2022/2466",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

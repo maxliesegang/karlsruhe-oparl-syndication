@@ -1,0 +1,71 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675984.pdf",
+      "created": "2026-01-23T14:37:28+01:00",
+      "date": "2026-01-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675984.pdf",
+      "fileName": "00675984.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675984",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-26T14:04:06+01:00",
+      "name": "Änderungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676468.pdf",
+      "created": "2026-02-09T09:48:04+01:00",
+      "date": "2026-02-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676468.pdf",
+      "fileName": "00676468.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676468",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-26T14:04:06+01:00",
+      "name": "Stellungnahme zum Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677315.pdf",
+      "created": "2026-03-26T14:03:47+01:00",
+      "date": "2026-03-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677315.pdf",
+      "fileName": "00677315.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677315",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-26T14:04:06+01:00",
+      "name": "Abstimmungsergebnis Top 15.1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100591",
+      "authoritative": true,
+      "created": "2026-02-24T10:29:54+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36887",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10497",
+      "modified": "2026-03-24T19:20:02+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54183",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-01-23T14:37:11+01:00",
+  "date": "2026-01-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54183",
+  "modified": "2026-03-26T14:04:06+01:00",
+  "name": "Baubeschluss: Umfahrung Hagsfeld",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2025/1241/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54080"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

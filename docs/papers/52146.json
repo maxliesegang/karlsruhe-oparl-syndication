@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668648.pdf",
+      "created": "2025-07-08T12:04:32+02:00",
+      "date": "2025-07-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668648.pdf",
+      "fileName": "00668648.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668648",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-29T11:49:17+02:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668738.pdf",
+      "created": "2025-07-10T15:43:25+02:00",
+      "date": "2025-07-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668738.pdf",
+      "fileName": "00668738.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668738",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-29T11:49:17+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94950",
+      "authoritative": true,
+      "created": "2025-07-09T09:18:39+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34542",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10051",
+      "modified": "2025-07-29T20:01:30+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52146",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-07-08T12:04:14+02:00",
+  "date": "2025-07-08",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52146",
+  "modified": "2025-08-04T13:34:32+02:00",
+  "name": "Parkraumkonzept: Quartier um die westliche Kriegsstraße",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2025/0381/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51830"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

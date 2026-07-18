@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668364.pdf",
+      "created": "2025-06-25T10:41:12+02:00",
+      "date": "2025-06-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668364.pdf",
+      "fileName": "00668364.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668364",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-07T09:16:21+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669300.pdf",
+      "created": "2025-08-07T09:16:19+02:00",
+      "date": "2025-08-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669300.pdf",
+      "fileName": "00669300.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669300",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-07T09:16:21+02:00",
+      "name": "Protokoll GR 22.07.2025 TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94766",
+      "authoritative": true,
+      "created": "2025-06-25T07:50:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34484",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10050",
+      "modified": "2025-07-22T17:15:35+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52104",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-06-24T10:37:48+02:00",
+  "date": "2025-06-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52104",
+  "modified": "2025-08-07T09:16:21+02:00",
+  "name": "Doppelhaushalt 2026/2027; Ausschlussfristen für Anträge und Anfragen aus der Mitte des Gemeinderates",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0631",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

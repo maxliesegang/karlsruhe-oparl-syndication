@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659661.pdf",
+      "created": "2024-07-17T12:55:03+02:00",
+      "date": "2024-07-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659661.pdf",
+      "fileName": "00659661.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659661",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660176.pdf",
+      "created": "2024-08-13T10:27:26+02:00",
+      "date": "2024-08-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660176.pdf",
+      "fileName": "00660176.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660176",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 23.07.2024 TOP 7.3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/87621",
+      "authoritative": true,
+      "created": "2024-07-09T12:57:26+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32450",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9530",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50675",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-07-09T12:22:18+02:00",
+  "date": "2024-07-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50675",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Wahl der Ortsvorsteherin bzw. des Ortsvorstehers in der Ortschaft Hohenwettersbach",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0758",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882959"
+  ]
+}

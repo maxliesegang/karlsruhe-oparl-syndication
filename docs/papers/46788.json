@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00637488.pdf",
+      "created": "2022-05-03T10:29:19+02:00",
+      "date": "2022-05-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00637488.pdf",
+      "fileName": "00637488.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/637488",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00637904.pdf",
+      "created": "2022-05-19T11:42:21+02:00",
+      "date": "2022-05-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00637904.pdf",
+      "fileName": "00637904.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/637904",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN SPD Solar-Photovoltaikanlagen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638422.pdf",
+      "created": "2022-06-17T09:20:43+02:00",
+      "date": "2022-06-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638422.pdf",
+      "fileName": "00638422.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638422",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 31.05.2022 TOP 29",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/69936",
+      "created": "2022-05-04T07:28:26+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27289",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6590",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46788",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-05-03T10:28:57+02:00",
+  "date": "2022-05-03",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46788",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Solar-/Photovoltaikanlage versus Denkmalschutz",
+  "paperType": "Anfrage",
+  "reference": "2022/0484",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882951"
+  ]
+}

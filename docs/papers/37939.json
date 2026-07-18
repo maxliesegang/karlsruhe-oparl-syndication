@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00611877.pdf",
+      "created": "2019-10-25T10:38:25+02:00",
+      "date": "2019-10-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00611877.pdf",
+      "fileName": "00611877.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/611877",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612737.pdf",
+      "created": "2019-11-29T13:00:13+01:00",
+      "date": "2019-11-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612737.pdf",
+      "fileName": "00612737.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612737",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 28",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614571.pdf",
+      "created": "2020-01-29T10:02:30+01:00",
+      "date": "2020-01-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614571.pdf",
+      "fileName": "00614571.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614571",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 28",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47771",
+      "authoritative": true,
+      "created": "2019-11-13T09:51:55+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17286",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5444",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37939",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-10-25T10:36:50+02:00",
+  "date": "2019-10-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37939",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Kostendeckel von \"Worst Case\"-Fall mit 320 Mio. Euro bei Neu- und Umbau des Badischen Staatstheater einhalten",
+  "paperType": "Antrag",
+  "reference": "2019/1076",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17694",
+      "created": "2020-01-27T13:36:02+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/49637",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5823",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Abwasserbeseitigung, Kanalauswechslung Silcherstraße und Rabenweg",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17693",
+      "created": "2020-01-27T13:32:14+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/49623",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5823",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Abwasserbeseitigung, Kanalsanierung Landgraben im Schlauchlingverfahren",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17700",
+      "created": "2020-01-27T13:40:12+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/49638",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5823",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Drais-Grund- und Gemeinschaftsschule - Herstellung Schulhoffläche",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614528.pdf",
+      "created": "2020-01-27T14:13:39+01:00",
+      "date": "2020-01-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614528.pdf",
+      "fileName": "00614528.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614528",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Tagesordnung_öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618084.pdf",
+      "created": "2020-06-15T08:30:23+02:00",
+      "date": "2020-06-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618084.pdf",
+      "fileName": "00618084.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618084",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2019-10-07T11:28:12+02:00",
+  "end": "2020-02-06T16:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5823",
+  "location": {
+    "created": "2019-10-07T11:28:12+02:00",
+    "description": "Kleiner Sitzungssaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5823",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Bauausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+  ],
+  "start": "2020-02-06T16:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

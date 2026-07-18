@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667759.pdf",
+      "created": "2025-06-05T16:22:29+02:00",
+      "date": "2025-06-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667759.pdf",
+      "fileName": "00667759.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667759",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T11:01:09+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669160.pdf",
+      "created": "2025-07-30T09:18:52+02:00",
+      "date": "2025-07-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669160.pdf",
+      "fileName": "00669160.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669160",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T11:01:09+02:00",
+      "name": "Abstimmungsergebnis TOP 26",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669501.pdf",
+      "created": "2025-08-19T11:01:05+02:00",
+      "date": "2025-08-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669501.pdf",
+      "fileName": "00669501.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669501",
+      "mimeType": "application/pdf",
+      "modified": "2025-08-19T11:01:09+02:00",
+      "name": "Protokoll GR 29.07.2025 TOP 26",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94866",
+      "authoritative": true,
+      "created": "2025-06-27T09:55:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34340",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10051",
+      "modified": "2025-07-29T20:27:05+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51994",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-06-02T07:27:43+02:00",
+  "date": "2025-06-02",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51994",
+  "modified": "2025-08-19T11:01:09+02:00",
+  "name": "Walter-Eucken-Schule, Modernisierung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0532",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

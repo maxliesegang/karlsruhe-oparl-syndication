@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00613118.pdf",
+      "created": "2019-12-23T13:12:01+01:00",
+      "date": "2019-12-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00613118.pdf",
+      "fileName": "00613118.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/613118",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614783.pdf",
+      "created": "2020-02-07T10:21:13+01:00",
+      "date": "2020-02-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614783.pdf",
+      "fileName": "00614783.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614783",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 26",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615448.pdf",
+      "created": "2020-03-12T09:42:10+01:00",
+      "date": "2020-03-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615448.pdf",
+      "fileName": "00615448.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615448",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 26",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/49501",
+      "authoritative": true,
+      "created": "2020-01-21T09:39:22+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17607",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5662",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38188",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-12-23T13:11:16+01:00",
+  "date": "2019-12-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38188",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Übernachtungsmöglichkeit für Obdachlose mit Hund",
+  "paperType": "Antrag",
+  "reference": "2019/1325",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00608938.pdf",
+      "created": "2019-04-05T14:41:36+02:00",
+      "date": "2019-04-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00608938.pdf",
+      "fileName": "00608938.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/608938",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609683.pdf",
+      "created": "2019-05-13T14:28:50+02:00",
+      "date": "2019-05-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609683.pdf",
+      "fileName": "00609683.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609683",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage TOP 48",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609684.pdf",
+      "created": "2019-05-13T15:10:37+02:00",
+      "date": "2019-05-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609684.pdf",
+      "fileName": "00609684.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609684",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 48",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610077.pdf",
+      "created": "2019-06-05T08:57:42+02:00",
+      "date": "2019-06-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610077.pdf",
+      "fileName": "00610077.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610077",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Gemeinderat",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/45679",
+      "authoritative": true,
+      "created": "2019-04-16T14:58:44+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16459",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5323",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37255",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-04-05T14:39:22+02:00",
+  "date": "2019-04-05",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37255",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Zukunft für Karlsruher Wohnungsmarkt",
+  "paperType": "Antrag",
+  "reference": "2019/0346",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

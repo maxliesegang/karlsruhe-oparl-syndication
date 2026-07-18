@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677526.pdf",
+      "created": "2026-04-08T14:38:20+02:00",
+      "date": "2026-04-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677526.pdf",
+      "fileName": "00677526.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677526",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-08T15:32:42+02:00",
+      "name": "Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677557.pdf",
+      "created": "2026-04-09T09:41:50+02:00",
+      "date": "2026-04-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677557.pdf",
+      "fileName": "00677557.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677557",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-08T15:32:42+02:00",
+      "name": "Stellungnahme Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101244",
+      "created": "2026-04-14T08:52:48+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37230",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10442",
+      "modified": "2026-05-15T09:51:21+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54433",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-04-08T14:37:16+02:00",
+  "date": "2026-04-08",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54433",
+  "modified": "2026-06-08T15:32:42+02:00",
+  "name": "Grötzingen im Klimawandel (Antrag der Ortschaftsräte Breier, Daubenberger und Galley)",
+  "paperType": "Antrag",
+  "reference": "2026/0276",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

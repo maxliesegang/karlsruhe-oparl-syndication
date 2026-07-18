@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671403.pdf",
+      "created": "2025-10-29T08:46:35+01:00",
+      "date": "2025-10-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671403.pdf",
+      "fileName": "00671403.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671403",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:18:52+01:00",
+      "name": "Informationsvorlage_NEU",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675128.pdf",
+      "created": "2025-12-11T11:18:50+01:00",
+      "date": "2025-12-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675128.pdf",
+      "fileName": "00675128.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675128",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-11T11:18:52+01:00",
+      "name": "Protokoll GR 25.11.2025 TOP 20",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/97213",
+      "authoritative": true,
+      "created": "2025-10-27T13:42:05+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35049",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10058",
+      "modified": "2025-11-26T13:34:12+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52491",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-10-16T09:22:31+02:00",
+  "date": "2025-10-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52491",
+  "modified": "2025-12-11T11:18:52+01:00",
+  "name": "Badisches Staatstheater, Sanierung und Erweiterung, Sachstand und Kostenentwicklung",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/0981",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882971"
+  ]
+}

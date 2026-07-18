@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00673876.pdf",
+      "created": "2025-11-25T18:11:48+01:00",
+      "date": "2025-11-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00673876.pdf",
+      "fileName": "00673876.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/673876",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-18T19:26:42+01:00",
+      "name": "Antrag Interfrak_026",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00674789.pdf",
+      "created": "2025-12-05T18:14:28+01:00",
+      "date": "2025-12-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00674789.pdf",
+      "fileName": "00674789.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/674789",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-18T19:26:42+01:00",
+      "name": "4146 Stellungnahme DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675328.pdf",
+      "created": "2025-12-18T19:26:39+01:00",
+      "date": "2025-12-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675328.pdf",
+      "fileName": "00675328.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675328",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-18T19:26:42+01:00",
+      "name": "Abstimmungsergebnis",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99503",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:29+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36628",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-17T06:45:49+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/53986",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-25T17:12:01+01:00",
+  "date": "2025-11-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/53986",
+  "modified": "2025-12-18T19:26:42+01:00",
+  "name": "HHS4_GR50 - Stummfilmtage erhalten",
+  "paperType": "Haushalt THH 4100",
+  "reference": "DHH/2025/4146",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

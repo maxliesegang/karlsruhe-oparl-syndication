@@ -1,0 +1,58 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00612227.pdf",
+      "created": "2019-11-14T07:53:11+01:00",
+      "date": "2019-11-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00612227.pdf",
+      "fileName": "00612227.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/612227",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 1  B-Plan Kleintierzuchtanlage Windelbachstraße",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/47693",
+      "authoritative": true,
+      "created": "2019-11-08T10:16:52+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17366",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5474",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34764"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37996",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/49724",
+      "authoritative": true,
+      "created": "2020-02-04T16:34:45+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17366",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5893",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34764"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37996",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-11-08T10:06:28+01:00",
+  "date": "2019-11-08",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37996",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Verfahren Flächennutzungsplan - Einzeländerung KA 772 Kleintierzuchtanlage, Windelbachstraße",
+  "paperType": "Beschlussvorlage",
+  "reference": "2019/1134",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882957"
+  ]
+}

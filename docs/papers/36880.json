@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00606839.pdf",
+      "created": "2018-12-10T14:31:08+01:00",
+      "date": "2018-12-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00606839.pdf",
+      "fileName": "00606839.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/606839",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607407.pdf",
+      "created": "2019-01-15T08:09:13+01:00",
+      "date": "2019-01-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607407.pdf",
+      "fileName": "00607407.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607407",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 17",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607651.pdf",
+      "created": "2019-01-29T14:44:30+01:00",
+      "date": "2019-01-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607651.pdf",
+      "fileName": "00607651.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607651",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 17",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44719",
+      "authoritative": true,
+      "created": "2018-12-18T09:14:24+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16010",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5261",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36880",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-12-10T14:30:12+01:00",
+  "date": "2018-12-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36880",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Austauschprogramm für städtische Auszubildende mit Nancy",
+  "paperType": "Antrag",
+  "reference": "2018/0878",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882850"
+  ]
+}

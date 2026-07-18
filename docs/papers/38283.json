@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614425.pdf",
+      "created": "2020-01-21T11:42:36+01:00",
+      "date": "2020-01-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614425.pdf",
+      "fileName": "00614425.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614425",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614780.pdf",
+      "created": "2020-02-07T10:16:14+01:00",
+      "date": "2020-02-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614780.pdf",
+      "fileName": "00614780.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614780",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme HA 11.02.20 bzw. GR 18.02.20",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615438.pdf",
+      "created": "2020-03-12T09:25:20+01:00",
+      "date": "2020-03-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615438.pdf",
+      "fileName": "00615438.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615438",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 20",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/49560",
+      "created": "2020-01-21T12:27:03+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17721",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5379",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38283",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/49585",
+      "authoritative": true,
+      "created": "2020-01-22T12:01:46+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17723",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5662",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38283",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-01-21T11:39:26+01:00",
+  "date": "2020-01-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38283",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Graffitis schützen",
+  "paperType": "Antrag",
+  "reference": "2019/0916",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

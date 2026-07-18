@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668366.pdf",
+      "created": "2025-06-25T11:14:03+02:00",
+      "date": "2025-06-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668366.pdf",
+      "fileName": "00668366.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668366",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-07T11:54:20+02:00",
+      "name": "Beschlussvorlage Wettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94654",
+      "authoritative": true,
+      "created": "2025-06-17T16:35:23+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34437",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10419",
+      "modified": "2025-07-16T08:18:25+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52069",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-06-17T16:34:43+02:00",
+  "date": "2025-06-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52069",
+  "modified": "2025-07-07T11:54:20+02:00",
+  "name": "Änderungsvorschlag des Ortschaftrates Wettersbach zur Wahl von Mitgliedern als Vertretungen der Stadt Karlsruhe in der Verbandsversammlung für die Wasserversorgung des Hügellandes zwischen Alb und Pfinz durch den Gemeinderat",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0602",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882961"
+  ]
+}

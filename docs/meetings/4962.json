@@ -1,0 +1,71 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15663",
+      "created": "2018-09-03T11:57:23+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/43820",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4962",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Stadthalle Modernisierung: Vergabe von Digitale Hauptverteiler (Nieder- und Mittelspannungsanlagen bis 36 kV)",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15664",
+      "created": "2018-09-03T11:57:23+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/43821",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4962",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Hauptfeuerwache und Leitstelle, Neubau Hauptfeuerwache: Vergabe von Estricharbeiten",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15665",
+      "created": "2018-09-03T11:57:23+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/43822",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4962",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Drais-Gemeinschaftsschule und Grundschule Erweiterung: Vergabe der vorgehängten hinterlüfteten Fassade (Verblendmauerwerk)",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00606936.pdf",
+      "created": "2018-12-17T08:31:10+01:00",
+      "date": "2018-12-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00606936.pdf",
+      "fileName": "00606936.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/606936",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2017-09-18T15:06:43+02:00",
+  "end": "2018-09-14T19:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4962",
+  "location": {
+    "created": "2017-09-18T15:06:43+02:00",
+    "description": "Großer Sitzungssaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/4962",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Bauausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+  ],
+  "start": "2018-09-14T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

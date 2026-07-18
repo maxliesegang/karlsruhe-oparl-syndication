@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676575.pdf",
+      "created": "2026-02-12T15:08:21+01:00",
+      "date": "2026-02-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676575.pdf",
+      "fileName": "00676575.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676575",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-24T11:12:24+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676776.pdf",
+      "created": "2026-02-24T09:29:08+01:00",
+      "date": "2026-02-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676776.pdf",
+      "fileName": "00676776.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676776",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-24T11:12:24+01:00",
+      "name": "Anlage -  Kalkulation Vermietungspreis pro Tag pro Container",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100651",
+      "authoritative": true,
+      "created": "2026-02-25T12:27:24+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37008",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10716",
+      "modified": "2026-04-09T13:44:48+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54271",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-02-12T13:51:57+01:00",
+  "date": "2026-02-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54271",
+  "modified": "2026-03-24T11:12:24+01:00",
+  "name": "Vermietung der IBC-Container",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0134",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

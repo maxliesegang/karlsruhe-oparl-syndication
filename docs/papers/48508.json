@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646746.pdf",
+      "created": "2023-04-21T16:09:52+02:00",
+      "date": "2023-04-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646746.pdf",
+      "fileName": "00646746.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646746",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647328.pdf",
+      "created": "2023-05-17T11:24:31+02:00",
+      "date": "2023-05-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647328.pdf",
+      "fileName": "00647328.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647328",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649016.pdf",
+      "created": "2023-07-17T13:34:26+02:00",
+      "date": "2023-07-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649016.pdf",
+      "fileName": "00649016.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649016",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 37",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/77998",
+      "authoritative": true,
+      "created": "2023-05-25T15:14:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29529",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9046",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48508",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-04-21T16:09:06+02:00",
+  "date": "2023-04-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48508",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Verschmutzung der Bodenbeläge am Karlsruher Marktplatz und das allgemeine Erscheinungsbild der Karlsruher Haltestellen",
+  "paperType": "Anfrage",
+  "reference": "2023/0441",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671293.pdf",
+      "created": "2025-10-24T14:11:14+02:00",
+      "date": "2025-10-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671293.pdf",
+      "fileName": "00671293.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671293",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-10T16:25:02+01:00",
+      "name": "Informationsvorlage Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96616",
+      "created": "2025-10-06T11:45:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35123",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9902",
+      "modified": "2025-10-28T11:28:21+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52550",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-10-24T14:08:37+02:00",
+  "date": "2025-11-04",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52550",
+  "modified": "2025-11-10T16:25:02+01:00",
+  "name": "Marktsituation in Grötzingen",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/1030",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

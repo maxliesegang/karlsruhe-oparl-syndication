@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651704.pdf",
+      "created": "2023-10-17T17:57:02+02:00",
+      "date": "2023-10-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651704.pdf",
+      "fileName": "00651704.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651704",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag CDU_001",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653449.pdf",
+      "created": "2023-11-06T12:50:25+01:00",
+      "date": "2023-11-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653449.pdf",
+      "fileName": "00653449.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653449",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "1201 Stellungnahme DHH",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653855.pdf",
+      "created": "2023-11-21T15:29:43+01:00",
+      "date": "2023-11-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653855.pdf",
+      "fileName": "00653855.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653855",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmunsergebnis TOP 1.16",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654501.pdf",
+      "created": "2023-12-15T10:25:02+01:00",
+      "date": "2023-12-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654501.pdf",
+      "fileName": "00654501.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654501",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Auszug Protokoll GR Antrag 1.16",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/82742",
+      "authoritative": true,
+      "created": "2023-10-19T10:54:12+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30671",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9446",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49362",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-10-17T17:54:57+02:00",
+  "date": "2023-10-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49362",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Aufhebung der Sozialen Erhaltungssatzung",
+  "paperType": "Haushalt THH 1200",
+  "reference": "DHH/2023/1201",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650667.pdf",
+      "created": "2023-09-18T11:27:49+02:00",
+      "date": "2023-09-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650667.pdf",
+      "fileName": "00650667.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650667",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/80301",
+      "authoritative": true,
+      "created": "2023-09-18T11:10:22+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30450",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/8922",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49175",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-09-18T11:26:21+02:00",
+  "date": "2023-09-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49175",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Standorte Fahrradabstellanlagen Grötzingen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/1065",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

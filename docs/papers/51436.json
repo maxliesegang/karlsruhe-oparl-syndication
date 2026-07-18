@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664111.pdf",
+      "created": "2025-01-09T15:19:57+01:00",
+      "date": "2025-01-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664111.pdf",
+      "fileName": "00664111.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664111",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-11T08:40:21+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664178.pdf",
+      "created": "2025-01-14T12:10:42+01:00",
+      "date": "2025-01-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664178.pdf",
+      "fileName": "00664178.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664178",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-11T08:40:21+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665517.pdf",
+      "created": "2025-03-11T08:40:18+01:00",
+      "date": "2025-03-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665517.pdf",
+      "fileName": "00665517.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665517",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-11T08:40:21+01:00",
+      "name": "Protokoll GR 18.02.2025 TOP 19",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92078",
+      "authoritative": true,
+      "created": "2025-01-21T10:03:02+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33509",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10045",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51436",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-01-09T15:19:20+01:00",
+  "date": "2025-01-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51436",
+  "modified": "2025-03-11T08:40:21+01:00",
+  "name": "Inklusive Spielplätze",
+  "paperType": "Anfrage",
+  "reference": "2025/0021",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882984"
+  ]
+}

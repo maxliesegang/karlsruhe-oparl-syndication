@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670205.pdf",
+      "created": "2025-09-18T09:09:21+02:00",
+      "date": "2025-09-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670205.pdf",
+      "fileName": "00670205.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670205",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-14T07:37:43+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670232.pdf",
+      "created": "2025-09-19T12:51:51+02:00",
+      "date": "2025-09-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670232.pdf",
+      "fileName": "00670232.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670232",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-14T07:37:43+01:00",
+      "name": "Anlage Entwurf Verschmelzungsvertrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675557.pdf",
+      "created": "2025-12-22T18:04:37+01:00",
+      "date": "2025-12-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675557.pdf",
+      "fileName": "00675557.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675557",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-14T07:37:43+01:00",
+      "name": "Abstimmungsergebnis TOP 11",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675747.pdf",
+      "created": "2026-01-14T07:37:40+01:00",
+      "date": "2026-01-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675747.pdf",
+      "fileName": "00675747.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675747",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-14T07:37:43+01:00",
+      "name": "Protokoll GR 22.12.2025 TOP 11",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99220",
+      "authoritative": true,
+      "created": "2025-11-24T13:55:01+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34839",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10425",
+      "modified": "2025-12-22T20:22:54+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52362",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-09-08T12:58:35+02:00",
+  "date": "2025-09-08",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52362",
+  "modified": "2026-01-14T07:37:43+01:00",
+  "name": "Verschmelzung der Volkswohnung Bauträger GmbH auf die Volkswohnung GmbH",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0866",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

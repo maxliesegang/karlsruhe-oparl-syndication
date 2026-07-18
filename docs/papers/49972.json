@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655720.pdf",
+      "created": "2024-02-01T10:46:18+01:00",
+      "date": "2024-02-01",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655720.pdf",
+      "fileName": "00655720.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655720",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/84594",
+      "authoritative": true,
+      "created": "2024-01-31T11:01:33+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31420",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9537",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49972",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-01-30T07:49:55+01:00",
+  "date": "2024-01-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49972",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Stadthalle Modernisierung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0113",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

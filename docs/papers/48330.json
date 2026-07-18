@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00645739.pdf",
+      "created": "2023-03-13T09:59:04+01:00",
+      "date": "2023-03-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00645739.pdf",
+      "fileName": "00645739.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/645739",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648525.pdf",
+      "created": "2023-06-27T19:55:35+02:00",
+      "date": "2023-06-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648525.pdf",
+      "fileName": "00648525.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648525",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648982.pdf",
+      "created": "2023-07-17T12:43:26+02:00",
+      "date": "2023-07-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648982.pdf",
+      "fileName": "00648982.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648982",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/77963",
+      "authoritative": true,
+      "created": "2023-05-25T15:14:15+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29285",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9046",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48330",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-03-13T09:39:09+01:00",
+  "date": "2023-03-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48330",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Bildung des Sanierungsbeirates Kaiserstraße West mit Berufung der Mitglieder",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0286",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

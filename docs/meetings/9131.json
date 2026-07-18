@@ -1,0 +1,96 @@
+{
+  "agendaItem": [
+    {
+      "auxiliaryFile": [
+        {
+          "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648663.pdf",
+          "created": "2023-06-30T15:59:48+02:00",
+          "date": "2023-06-30",
+          "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648663.pdf",
+          "fileName": "00648663.pdf",
+          "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648663",
+          "mimeType": "application/pdf",
+          "modified": "2025-03-03T14:30:18+01:00",
+          "name": "TOP 1 Präsentation Nachhaltige Beschaffungskriterien",
+          "type": "https://schema.oparl.org/1.1/File"
+        }
+      ],
+      "created": "2023-05-11T16:16:41+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/77517",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9131",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Nachhaltige Beschaffungskriterien - Sachstandsbericht",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29754",
+      "created": "2023-05-26T12:07:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78027",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9131",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Audit European Energy Award",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29414",
+      "created": "2023-05-11T12:36:39+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/77515",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9131",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Karlsruher Masterplan zur Wärmewende",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "verwiesen in den Gemeinderat",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2023-05-11T12:36:39+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/77513",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9131",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verschiedenes",
+      "number": "",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2022-09-21T17:29:05+02:00",
+  "end": "2023-07-04T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9131",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00648356.pdf",
+    "created": "2023-06-21T16:36:11+02:00",
+    "date": "2023-06-21",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00648356.pdf",
+    "fileName": "00648356.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/648356",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2022-09-21T17:29:05+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9131",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ausschuss für Umwelt und Gesundheit (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+  ],
+  "start": "2023-07-04T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

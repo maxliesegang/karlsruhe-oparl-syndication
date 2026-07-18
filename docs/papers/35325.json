@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00596484.pdf",
+      "created": "2017-03-03T14:00:08+01:00",
+      "date": "2017-03-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00596484.pdf",
+      "fileName": "00596484.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/596484",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Gemeinsame Anfrage Unzulässige Beabauung",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00596510.pdf",
+      "created": "2017-03-03T14:12:41+01:00",
+      "date": "2017-03-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00596510.pdf",
+      "fileName": "00596510.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/596510",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme 36",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00597060.pdf",
+      "created": "2017-04-18T08:31:57+02:00",
+      "date": "2017-04-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00597060.pdf",
+      "fileName": "00597060.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/597060",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 36",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/40241",
+      "created": "2017-02-14T10:31:21+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14022",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4544",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35325",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-01-20T08:47:20+01:00",
+  "date": "2017-01-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35325",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Unzulässige Bebauung",
+  "paperType": "Anfrage",
+  "reference": "2017/0035",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

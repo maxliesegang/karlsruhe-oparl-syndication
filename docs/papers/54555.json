@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678323.pdf",
+      "created": "2026-05-12T15:51:58+02:00",
+      "date": "2026-05-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678323.pdf",
+      "fileName": "00678323.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678323",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-08T15:34:11+02:00",
+      "name": "Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678324.pdf",
+      "created": "2026-05-12T15:52:31+02:00",
+      "date": "2026-05-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678324.pdf",
+      "fileName": "00678324.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678324",
+      "mimeType": "application/pdf",
+      "modified": "2026-06-08T15:34:11+02:00",
+      "name": "Stellungnahme Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101730",
+      "authoritative": true,
+      "created": "2026-05-12T16:07:39+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37410",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10442",
+      "modified": "2026-06-23T10:05:11+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54555",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-05-12T15:51:30+02:00",
+  "date": "2026-05-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54555",
+  "modified": "2026-06-08T15:34:11+02:00",
+  "name": "Veranstaltung \"Ehrenamtliches Engagement\" (CDU-Antrag)",
+  "paperType": "Antrag",
+  "reference": "2026/0390",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

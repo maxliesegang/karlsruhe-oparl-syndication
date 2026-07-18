@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00622102.pdf",
+      "created": "2020-11-30T11:29:15+01:00",
+      "date": "2020-11-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00622102.pdf",
+      "fileName": "00622102.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/622102",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP2_Hauptsatzung",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/55592",
+      "authoritative": true,
+      "created": "2020-11-30T11:37:50+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20439",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5984",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34531"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40595",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-11-30T11:27:49+01:00",
+  "date": "2020-11-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/40595",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Satzung zur Änderung der Hauptsatzung der Stadt Karlsruhe, Anhörung des Ortschaftsrates",
+  "paperType": "Beschlussvorlage",
+  "reference": "2020/1384",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882960"
+  ]
+}

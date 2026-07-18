@@ -1,0 +1,71 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677004.pdf",
+      "created": "2026-03-11T10:51:37+01:00",
+      "date": "2026-03-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677004.pdf",
+      "fileName": "00677004.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677004",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:18:01+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677308.pdf",
+      "created": "2026-03-26T13:57:57+01:00",
+      "date": "2026-03-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677308.pdf",
+      "fileName": "00677308.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677308",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:18:01+02:00",
+      "name": "Abstimmungsergebnis",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677566.pdf",
+      "created": "2026-04-09T10:17:59+02:00",
+      "date": "2026-04-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677566.pdf",
+      "fileName": "00677566.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677566",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T10:18:01+02:00",
+      "name": "Protokoll GR 24.03.2026 TOP 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100778",
+      "authoritative": true,
+      "created": "2026-03-13T07:12:55+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37112",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10497",
+      "modified": "2026-03-24T18:39:20+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54346",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-03-11T10:48:14+01:00",
+  "date": "2026-03-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54346",
+  "modified": "2026-04-09T10:18:01+02:00",
+  "name": "Haushaltswirtschaftliche Sperre 2026",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0169/1",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54384"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

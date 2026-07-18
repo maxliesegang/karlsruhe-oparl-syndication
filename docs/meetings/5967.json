@@ -1,0 +1,92 @@
+{
+  "agendaItem": [
+    {
+      "created": "2020-10-19T14:01:18+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54932",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5967",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Kriminalstatistik 2019 des Polizeireviers Karlsruhe-Durlach für den Stadtteil Hohenwettersbach durch den Revierleiter, Polizeioberrat Baumgärtner",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20213",
+      "created": "2020-10-19T14:00:15+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54931",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5967",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Ortsteilhaushalt Hohenwettersbach - Haushaltsplan 2021",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2020-10-19T14:01:58+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54933",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5967",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Anregungen aus dem Ortschaftsrat",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2020-10-19T14:02:23+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/54934",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5967",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen der Ortsverwaltung",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620721.pdf",
+      "created": "2020-11-10T13:40:46+01:00",
+      "date": "2020-11-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620721.pdf",
+      "fileName": "00620721.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620721",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "10. Sitzung ÖFFENTLICHER Teil am 28.10.2020",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2019-12-23T16:35:23+01:00",
+  "end": "2020-10-28T00:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5967",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00620261.pdf",
+    "created": "2020-10-19T14:04:31+02:00",
+    "date": "2020-10-19",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00620261.pdf",
+    "fileName": "00620261.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/620261",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2019-12-23T16:35:23+01:00",
+    "description": "Lustgartenhalle Hohenwettersbach, Foyer",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5967",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ortschaftsrat Hohenwettersbach (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34322"
+  ],
+  "start": "2020-10-28T19:00:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

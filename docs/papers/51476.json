@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664507.pdf",
+      "created": "2025-01-27T13:40:15+01:00",
+      "date": "2025-01-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664507.pdf",
+      "fileName": "00664507.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664507",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage_für Hauptausschuss_2025-02-04",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664897.pdf",
+      "created": "2025-02-12T14:12:19+01:00",
+      "date": "2025-02-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664897.pdf",
+      "fileName": "00664897.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664897",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_HA_04.02.2025_TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/92011",
+      "authoritative": true,
+      "created": "2025-01-17T10:18:06+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33563",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10034",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51476",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-01-16T15:55:21+01:00",
+  "date": "2025-01-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51476",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Kooperationsvereinbarung zwischen der Stadt Karlsruhe und der Hochschule für öffentliche Verwaltung Kehl",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/0059",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883007"
+  ]
+}

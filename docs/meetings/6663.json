@@ -1,0 +1,106 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26703",
+      "created": "2022-03-11T14:17:47+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/69021",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6663",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Wohnungen für Mitarbeiter*innen des Klinikums",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26841",
+      "created": "2022-03-11T12:16:16+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/69017",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6663",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verbesserung der ärztlichen Versorgung im Karlsruher Südwesten",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26925",
+      "created": "2022-03-11T14:17:13+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/69019",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6663",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Öffentliche Straßenbeleuchtung - Anpassung der Strategie zur Änderung der Lichtfarbe aufgrund des Naturschutzgesetzes",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26933",
+      "created": "2022-03-11T14:17:47+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/69022",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6663",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Karlsruher Nachhaltigkeitsbericht 2021",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2022-03-11T12:16:16+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/69018",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6663",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verschiedenes",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00637679.pdf",
+      "created": "2022-05-11T09:00:14+02:00",
+      "date": "2022-05-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00637679.pdf",
+      "fileName": "00637679.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/637679",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Gesamtprotokoll öffentlich_AUG_22.März",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2021-09-30T13:11:45+02:00",
+  "end": "2022-03-22T18:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6663",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636500.pdf",
+    "created": "2022-03-11T15:01:27+01:00",
+    "date": "2022-03-11",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636500.pdf",
+    "fileName": "00636500.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636500",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2021-09-30T13:11:45+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6663",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ausschuss für Umwelt und Gesundheit (öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/48728"
+  ],
+  "start": "2022-03-22T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

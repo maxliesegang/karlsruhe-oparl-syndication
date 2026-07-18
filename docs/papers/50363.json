@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00657933.pdf",
+      "created": "2024-04-24T18:22:02+02:00",
+      "date": "2024-04-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00657933.pdf",
+      "fileName": "00657933.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/657933",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658461.pdf",
+      "created": "2024-05-14T20:20:19+02:00",
+      "date": "2024-05-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658461.pdf",
+      "fileName": "00658461.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658461",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659045.pdf",
+      "created": "2024-06-13T16:13:47+02:00",
+      "date": "2024-06-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659045.pdf",
+      "fileName": "00659045.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659045",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 14.05.2024 TOP 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86131",
+      "authoritative": true,
+      "created": "2024-04-26T13:06:34+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32000",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9526",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50363",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-04-24T18:18:15+02:00",
+  "date": "2024-04-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50363",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Rückerwerb von 1/10 Anteil der SBV Immobilienverwaltung am Marktplatz an dem Erbbaurecht an dem Grundstück Nr. 1290 mit 2.384 m², Gebäude- und Freifläche, Kaiserstraße 145, Karl-Friedrich-Straße 8, Lammstraße 7, Zähringer Straße 96",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/0470",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

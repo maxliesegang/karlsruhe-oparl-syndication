@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679434.pdf",
+      "created": "2026-06-30T09:30:22+02:00",
+      "date": "2026-06-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679434.pdf",
+      "fileName": "00679434.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679434",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-17T20:03:19+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679675.pdf",
+      "created": "2026-07-09T10:30:47+02:00",
+      "date": "2026-07-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679675.pdf",
+      "fileName": "00679675.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679675",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-17T20:03:19+02:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102452",
+      "created": "2026-06-30T11:49:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37646",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10566",
+      "modified": "2026-07-17T09:22:28+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54706",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-06-30T09:29:40+02:00",
+  "date": "2026-06-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54706",
+  "modified": "2026-07-17T20:04:28+02:00",
+  "name": "Bedeutung, Situation, Prognose Kurzzeitpflege",
+  "paperType": "Anfrage",
+  "reference": "2026/0528",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

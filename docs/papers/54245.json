@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676430.pdf",
+      "created": "2026-02-06T09:01:24+01:00",
+      "date": "2026-02-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676430.pdf",
+      "fileName": "00676430.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676430",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:46:55+02:00",
+      "name": "Offenlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678048.pdf",
+      "created": "2026-04-29T11:50:55+02:00",
+      "date": "2026-04-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678048.pdf",
+      "fileName": "00678048.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678048",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:46:55+02:00",
+      "name": "Abstimmungsergebnis TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678407.pdf",
+      "created": "2026-05-15T10:46:51+02:00",
+      "date": "2026-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678407.pdf",
+      "fileName": "00678407.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678407",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:46:55+02:00",
+      "name": "Protokoll GR 28.04.2026 TOP 21",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101155",
+      "authoritative": true,
+      "created": "2026-04-01T09:53:18+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37108",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10512",
+      "modified": "2026-05-26T12:02:49+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54245",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-02-06T09:00:58+01:00",
+  "date": "2026-02-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54245",
+  "modified": "2026-05-15T10:46:55+02:00",
+  "name": "Kündigung Mitgliedschaft DGNB (Deutsche Gesellschaft für Nachhaltiges Bauen)",
+  "paperType": "Offenlage",
+  "reference": "2026/0108",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00660976.pdf",
+      "created": "2024-09-18T16:57:38+02:00",
+      "date": "2024-09-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00660976.pdf",
+      "fileName": "00660976.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/660976",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661456.pdf",
+      "created": "2024-10-08T12:31:09+02:00",
+      "date": "2024-10-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661456.pdf",
+      "fileName": "00661456.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661456",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme zum Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662109.pdf",
+      "created": "2024-10-28T09:42:52+01:00",
+      "date": "2024-10-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662109.pdf",
+      "fileName": "00662109.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662109",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 22.10.2024 TOP 26",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90294",
+      "authoritative": true,
+      "created": "2024-09-25T09:33:36+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32865",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9532",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50993",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90623",
+      "created": "2024-10-09T10:18:50+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32882",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9554",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50993",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-09-18T16:56:53+02:00",
+  "date": "2024-09-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50993",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Grüne Welle für Karlsruhe",
+  "paperType": "Antrag",
+  "reference": "2024/1059",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

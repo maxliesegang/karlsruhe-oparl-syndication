@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644354.pdf",
+      "created": "2023-01-25T13:05:17+01:00",
+      "date": "2023-01-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644354.pdf",
+      "fileName": "00644354.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644354",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00645188.pdf",
+      "created": "2023-02-23T10:12:55+01:00",
+      "date": "2023-02-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00645188.pdf",
+      "fileName": "00645188.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/645188",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 5 HA_14.02.2023",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75420",
+      "authoritative": true,
+      "created": "2023-01-25T13:13:40+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28977",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9057",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48087",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-01-25T12:56:41+01:00",
+  "date": "2023-01-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48087",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Vorläufige Unterbringung der Geflüchteten aus der Ukraine Vergabe von Sicherheitsleistungen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0085",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

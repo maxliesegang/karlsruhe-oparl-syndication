@@ -1,0 +1,105 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00605205.pdf",
+      "created": "2018-09-25T10:14:44+02:00",
+      "date": "2018-09-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00605205.pdf",
+      "fileName": "00605205.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/605205",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP_3_Anlage_1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00605206.pdf",
+      "created": "2018-09-25T10:14:56+02:00",
+      "date": "2018-09-25",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00605206.pdf",
+      "fileName": "00605206.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/605206",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP_3_Anlage_2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00605446.pdf",
+      "created": "2018-10-12T10:09:13+02:00",
+      "date": "2018-10-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00605446.pdf",
+      "fileName": "00605446.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/605446",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 8 Aufnahme Hortgruppe",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00605722.pdf",
+      "created": "2018-10-24T10:35:16+02:00",
+      "date": "2018-10-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00605722.pdf",
+      "fileName": "00605722.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/605722",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis GR Top 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00606183.pdf",
+      "created": "2018-11-09T09:55:29+01:00",
+      "date": "2018-11-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00606183.pdf",
+      "fileName": "00606183.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/606183",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/43914",
+      "created": "2018-09-25T10:05:49+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15680",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5015",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36629",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/43931",
+      "authoritative": true,
+      "created": "2018-09-25T14:05:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15681",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5036",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36629",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2018-09-03T15:05:30+02:00",
+  "date": "2018-09-03",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/36629",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Aufnahme einer neuen Hortgruppe in die Hortplanung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2018/0608",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

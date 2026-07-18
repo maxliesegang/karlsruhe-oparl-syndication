@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675947.pdf",
+      "created": "2026-01-22T10:33:38+01:00",
+      "date": "2026-01-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675947.pdf",
+      "fileName": "00675947.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675947",
+      "mimeType": "application/pdf",
+      "modified": "2026-02-06T12:49:18+01:00",
+      "name": "Beschlussvorlage Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100113",
+      "authoritative": true,
+      "created": "2026-01-21T10:41:35+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36868",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10434",
+      "modified": "2026-02-20T16:04:23+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54166",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-01-21T10:40:39+01:00",
+  "date": "2026-02-04",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54166",
+  "modified": "2026-02-06T12:49:17+01:00",
+  "name": "Namensgebung des geplanten Gründerzentrums",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0039",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

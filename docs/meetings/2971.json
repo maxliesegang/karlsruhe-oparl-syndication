@@ -1,0 +1,57 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/9425",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/30115",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/2971",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Ergebnisse Haushaltsbefragung zum Mobilitätsverhalten der Bevölkerung in der Stadt Karlsruhe",
+      "number": "2",
+      "order": 2010,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/9426",
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/30116",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/2971",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Planungswerkstatt \"Ehemalige Artilleriekaserne - westlich Kußmaulstraße\"",
+      "number": "3",
+      "order": 2905,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2016-10-12T09:08:39+02:00",
+  "end": "2012-09-12T00:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/2971",
+  "location": {
+    "created": "2016-10-12T09:08:39+02:00",
+    "description": "Bürgersaal",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/2971",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Planungsausschuss",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+  ],
+  "start": "2012-09-12T15:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting",
+  "verbatimProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00014729.pdf",
+    "created": "2016-10-12T09:08:36+02:00",
+    "date": "2013-08-15",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00014729.pdf",
+    "fileName": "00014729.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/14729",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Protokoll ö",
+    "type": "https://schema.oparl.org/1.1/File"
+  }
+}

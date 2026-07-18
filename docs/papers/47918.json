@@ -1,0 +1,71 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643373.pdf",
+      "created": "2022-12-13T15:08:32+01:00",
+      "date": "2022-12-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643373.pdf",
+      "fileName": "00643373.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643373",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643471.pdf",
+      "created": "2022-12-16T14:39:47+01:00",
+      "date": "2022-12-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643471.pdf",
+      "fileName": "00643471.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643471",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stn_Antrag_Die_Linke",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643577.pdf",
+      "created": "2022-12-21T11:28:21+01:00",
+      "date": "2022-12-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643577.pdf",
+      "fileName": "00643577.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643577",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 9 Linke",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/74634",
+      "authoritative": true,
+      "created": "2022-12-13T15:43:00+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28760",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6608",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47918",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-12-13T15:08:06+01:00",
+  "date": "2022-12-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47918",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Gestaltung Kaiserstraße - Szenarien zur Erhaltung der Platanen in der Kaiserstraße prüfen",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2022/2305/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47783"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882983"
+  ]
+}

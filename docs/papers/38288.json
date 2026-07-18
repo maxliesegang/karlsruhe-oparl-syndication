@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614443.pdf",
+      "created": "2020-01-22T08:09:20+01:00",
+      "date": "2020-01-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614443.pdf",
+      "fileName": "00614443.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614443",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00614834.pdf",
+      "created": "2020-02-10T13:20:35+01:00",
+      "date": "2020-02-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00614834.pdf",
+      "fileName": "00614834.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/614834",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 34",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615463.pdf",
+      "created": "2020-03-12T09:56:19+01:00",
+      "date": "2020-03-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615463.pdf",
+      "fileName": "00615463.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615463",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 34",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/49574",
+      "authoritative": true,
+      "created": "2020-01-22T11:38:20+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/17730",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5662",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38288",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-01-22T08:08:44+01:00",
+  "date": "2020-01-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/38288",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Informationsfreiheit für Schwangere in Bezug auf § 219 a",
+  "paperType": "Antrag",
+  "reference": "2020/0075",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

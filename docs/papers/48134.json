@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644615.pdf",
+      "created": "2023-02-02T15:48:56+01:00",
+      "date": "2023-02-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644615.pdf",
+      "fileName": "00644615.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644615",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644761.pdf",
+      "created": "2023-02-08T11:17:46+01:00",
+      "date": "2023-02-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644761.pdf",
+      "fileName": "00644761.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644761",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Stadtentwicklung aktuell - Alleinerziehende in Karlsruhe 2022",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75600",
+      "authoritative": true,
+      "created": "2023-02-01T12:02:12+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29030",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9092",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33195"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48134",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-02-01T11:49:12+01:00",
+  "date": "2023-02-01",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48134",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Qualitative Befragung von Alleinerziehenden",
+  "paperType": "Informationsvorlage",
+  "reference": "2023/0120",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

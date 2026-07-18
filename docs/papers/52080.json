@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668164.pdf",
+      "created": "2025-06-20T10:51:57+02:00",
+      "date": "2025-06-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668164.pdf",
+      "fileName": "00668164.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668164",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-24T13:35:14+02:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668214.pdf",
+      "created": "2025-06-23T13:12:38+02:00",
+      "date": "2025-06-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668214.pdf",
+      "fileName": "00668214.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668214",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-24T13:35:14+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94726",
+      "authoritative": true,
+      "created": "2025-06-20T11:27:25+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34454",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10049",
+      "modified": "2025-06-25T07:58:05+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52080",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-06-20T10:51:33+02:00",
+  "date": "2025-06-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52080",
+  "modified": "2025-06-24T13:35:23+02:00",
+  "name": "Neufassung der „Richtlinien über den Beförderungsdienst für schwerbehinderte Menschen“",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2025/0382/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51831"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

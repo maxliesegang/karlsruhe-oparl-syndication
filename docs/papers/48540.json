@@ -1,0 +1,81 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646898.pdf",
+      "created": "2023-04-27T14:11:31+02:00",
+      "date": "2023-04-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646898.pdf",
+      "fileName": "00646898.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646898",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647507.pdf",
+      "created": "2023-05-23T10:05:08+02:00",
+      "date": "2023-05-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647507.pdf",
+      "fileName": "00647507.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647507",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649007.pdf",
+      "created": "2023-07-17T13:29:37+02:00",
+      "date": "2023-07-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649007.pdf",
+      "fileName": "00649007.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649007",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 28",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78038",
+      "authoritative": true,
+      "created": "2023-05-26T13:46:03+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29561",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9046",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48540",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78045",
+      "created": "2023-05-30T09:24:54+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29714",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9121",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48540",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-04-27T14:10:41+02:00",
+  "date": "2023-04-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48540",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Klimaanpassungsstrategie in der Innenstadt: Pilotprojekte für Fassadenbegrünungen",
+  "paperType": "Antrag",
+  "reference": "2023/0471",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882984"
+  ]
+}

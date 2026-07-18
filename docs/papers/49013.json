@@ -1,0 +1,93 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649710.pdf",
+      "created": "2023-08-11T09:13:35+02:00",
+      "date": "2023-08-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649710.pdf",
+      "fileName": "00649710.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649710",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650985.pdf",
+      "created": "2023-09-26T18:08:32+02:00",
+      "date": "2023-09-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650985.pdf",
+      "fileName": "00650985.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650985",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme - Toilette für alle",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651366.pdf",
+      "created": "2023-10-09T14:13:24+02:00",
+      "date": "2023-10-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651366.pdf",
+      "fileName": "00651366.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651366",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 30",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654202.pdf",
+      "created": "2023-11-29T11:13:11+01:00",
+      "date": "2023-11-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654202.pdf",
+      "fileName": "00654202.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654202",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Zoo _ TOP 1 _ ö _  AföE 16.11.2023",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/79960",
+      "authoritative": true,
+      "created": "2023-08-22T09:36:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30235",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9049",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49013",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/81827",
+      "created": "2023-10-18T13:54:37+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30311",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9143",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49013",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-08-11T09:12:45+02:00",
+  "date": "2023-08-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49013",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Toilette für alle",
+  "paperType": "Antrag",
+  "reference": "2023/0911",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882985"
+  ]
+}

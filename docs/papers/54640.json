@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678918.pdf",
+      "created": "2026-06-09T08:00:45+02:00",
+      "date": "2026-06-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678918.pdf",
+      "fileName": "00678918.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678918",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-16T08:03:52+02:00",
+      "name": "Beschlussvorlage Wahl Beigeordneter Dez. 6 GR 28.07.2026",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102373",
+      "created": "2026-06-25T09:15:15+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37553",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10566",
+      "modified": "2026-06-30T09:08:31+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54640",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-06-09T07:51:58+02:00",
+  "date": "2026-06-09",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54640",
+  "modified": "2026-07-16T08:03:52+02:00",
+  "name": "Wahl einer*eines Beigeordneten für das Dezernat 6",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0473",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882953"
+  ]
+}

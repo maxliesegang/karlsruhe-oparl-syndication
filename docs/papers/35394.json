@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00596379.pdf",
+      "created": "2017-02-24T15:29:50+01:00",
+      "date": "2017-02-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00596379.pdf",
+      "fileName": "00596379.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/596379",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Vergabe Postdienstleistungen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00596912.pdf",
+      "created": "2017-04-04T14:07:43+02:00",
+      "date": "2017-04-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00596912.pdf",
+      "fileName": "00596912.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/596912",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 11",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/40221",
+      "created": "2017-02-14T10:31:21+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14104",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4544",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35394",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-02-13T15:11:03+01:00",
+  "date": "2017-02-13",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35394",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Vergabe von Postdienstleistungen, Beförderung und Zustellung von Brief- und Paketsendungen für die Stadt Karlsruhe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0124",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882850"
+  ]
+}

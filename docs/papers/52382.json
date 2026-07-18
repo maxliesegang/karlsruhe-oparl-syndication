@@ -1,0 +1,84 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670185.pdf",
+      "created": "2025-09-17T07:02:03+02:00",
+      "date": "2025-09-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670185.pdf",
+      "fileName": "00670185.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670185",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-04T11:11:09+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670211.pdf",
+      "created": "2025-09-18T11:04:09+02:00",
+      "date": "2025-09-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670211.pdf",
+      "fileName": "00670211.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670211",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-17T13:42:56+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671564.pdf",
+      "created": "2025-11-04T11:10:58+01:00",
+      "date": "2025-11-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671564.pdf",
+      "fileName": "00671564.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671564",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-04T11:11:09+01:00",
+      "name": "Protokoll GR 21.10.2025 TOP 25",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96415",
+      "authoritative": true,
+      "created": "2025-09-23T12:57:42+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34876",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10054",
+      "modified": "2025-10-22T09:53:00+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52382",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/97050",
+      "created": "2025-10-21T14:48:56+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34877",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10095",
+      "modified": "2025-12-03T13:56:19+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/41797"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52382",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-09-17T07:01:17+02:00",
+  "date": "2025-09-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52382",
+  "modified": "2025-11-04T11:11:09+01:00",
+  "name": "Plauderbänke",
+  "paperType": "Antrag",
+  "reference": "2025/0886",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54085"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882984"
+  ]
+}

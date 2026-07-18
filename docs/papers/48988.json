@@ -1,0 +1,97 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650503.pdf",
+      "created": "2023-09-08T11:58:34+02:00",
+      "date": "2023-09-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650503.pdf",
+      "fileName": "00650503.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650503",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00652483.pdf",
+      "created": "2023-10-23T13:32:05+02:00",
+      "date": "2023-10-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00652483.pdf",
+      "fileName": "00652483.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/652483",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage: Bericht",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00652815.pdf",
+      "created": "2023-10-26T13:17:44+02:00",
+      "date": "2023-10-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00652815.pdf",
+      "fileName": "00652815.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/652815",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 7_Abstimmungsergebnis",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00653641.pdf",
+      "created": "2023-11-14T12:04:58+01:00",
+      "date": "2023-11-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00653641.pdf",
+      "fileName": "00653641.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/653641",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/79483",
+      "created": "2023-08-09T12:07:26+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30196",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9197",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/29599"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48988",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/80617",
+      "authoritative": true,
+      "created": "2023-09-27T10:23:01+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30197",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9051",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48988",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-08-08T19:53:14+02:00",
+  "date": "2023-08-08",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48988",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Runder Tisch Antirassismus und Antidiskriminierung – Vorstellung des bisherigen Prozesses, des erarbeiteten Positionspapieres und Festlegung des weiteren Vorgehens",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0886",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49615",
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49617"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882963"
+  ]
+}

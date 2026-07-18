@@ -1,0 +1,97 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654121.pdf",
+      "created": "2023-11-28T10:52:39+01:00",
+      "date": "2023-11-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654121.pdf",
+      "fileName": "00654121.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654121",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "GR-Vorlage Mietentgelte inkl. Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654800.pdf",
+      "created": "2023-12-19T09:50:01+01:00",
+      "date": "2023-12-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654800.pdf",
+      "fileName": "00654800.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654800",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP_1_HA_Sitzungseröffnung und TOP _1_05.12.2023",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00654924.pdf",
+      "created": "2023-12-20T10:20:47+01:00",
+      "date": "2023-12-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00654924.pdf",
+      "fileName": "00654924.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/654924",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00655151.pdf",
+      "created": "2024-01-08T14:09:56+01:00",
+      "date": "2024-01-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00655151.pdf",
+      "fileName": "00655151.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/655151",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83713",
+      "authoritative": true,
+      "created": "2023-12-01T10:30:24+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31121",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9055",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49752",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83720",
+      "authoritative": true,
+      "created": "2023-12-01T15:37:49+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31120",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9067",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49752",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-11-27T15:03:55+01:00",
+  "date": "2023-11-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49752",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Anpassung der Mietentgelte für die durch das Stadtamt Durlach zu vermietenden Räumlichkeiten Karlsburg, Nikolauskapelle, Rathausgewölbe, Veranstaltungsraum Turmbergterrasse und Festhalle Durlach.",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/1247/2",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49641"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

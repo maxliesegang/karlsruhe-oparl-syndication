@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677185.pdf",
+      "created": "2026-03-20T12:53:33+01:00",
+      "date": "2026-03-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677185.pdf",
+      "fileName": "00677185.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677185",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-24T15:27:11+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677224.pdf",
+      "created": "2026-03-23T16:04:30+01:00",
+      "date": "2026-03-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677224.pdf",
+      "fileName": "00677224.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677224",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-24T15:33:07+01:00",
+      "name": "Stellungnahme",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100898",
+      "authoritative": true,
+      "created": "2026-03-20T13:45:02+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37153",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10497",
+      "modified": "2026-03-24T20:08:03+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54381",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-03-20T12:53:08+01:00",
+  "date": "2026-03-20",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54381",
+  "modified": "2026-04-07T11:47:28+02:00",
+  "name": "Neubau Turmbergbahn: weiterer Projektfortgang und Kostenprüfung: Konkretisierung der beantragten und erfragten Prüfungspunkte",
+  "paperType": "Antrag",
+  "reference": "2026/0064/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54196"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882999"
+  ]
+}

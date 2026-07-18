@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00665444.pdf",
+      "created": "2025-03-07T12:06:23+01:00",
+      "date": "2025-03-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00665444.pdf",
+      "fileName": "00665444.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/665444",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-16T14:34:34+02:00",
+      "name": "Antrag Hohenwettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667380.pdf",
+      "created": "2025-05-22T14:52:10+02:00",
+      "date": "2025-05-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667380.pdf",
+      "fileName": "00667380.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667380",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-16T14:34:34+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/94329",
+      "created": "2025-06-11T10:34:00+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33833",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10303",
+      "modified": "2025-06-11T10:38:35+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34322"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51659",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-03-07T11:32:55+01:00",
+  "date": "2025-05-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51659",
+  "modified": "2025-06-16T14:34:34+02:00",
+  "name": "Kennzeichnung Parkplätze auf dem alten Festplatz",
+  "paperType": "Antrag",
+  "reference": "2025/0232",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882959"
+  ]
+}

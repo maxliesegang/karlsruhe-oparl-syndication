@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00629752.pdf",
+      "created": "2021-10-15T14:45:26+02:00",
+      "date": "2021-10-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00629752.pdf",
+      "fileName": "00629752.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/629752",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00633333.pdf",
+      "created": "2021-11-16T09:18:35+01:00",
+      "date": "2021-11-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00633333.pdf",
+      "fileName": "00633333.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/633333",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "STN Pflegestützpunkt",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634730.pdf",
+      "created": "2021-12-16T07:53:41+01:00",
+      "date": "2021-12-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634730.pdf",
+      "fileName": "00634730.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634730",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/63259",
+      "authoritative": true,
+      "created": "2021-10-26T09:14:56+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/23197",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6324",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/42942",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-10-15T14:44:58+02:00",
+  "date": "2021-10-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/42942",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Beratungsstelle \"Pflegestützpunkt\" gut sichtbar in der Innenstadt verorten",
+  "paperType": "Antrag",
+  "reference": "2021/1236",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

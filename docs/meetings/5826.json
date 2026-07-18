@@ -1,0 +1,83 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/18005",
+      "created": "2020-03-02T17:02:42+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/50147",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5826",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Bebauungsplan \"Quartier Mühlgraben\" in Karlsruhe-Grötzingen hier: Aufstellungsbeschluss gemäß § 2 Abs. 1 BauGb",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/18006",
+      "created": "2020-03-02T17:02:42+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/50148",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5826",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Bebauungsplan \"Markgrafen-, Kreuz-, Kriegs- und Karl-Friedrich-Straße\" in Karlsruhe-Innenstadt hier: Aufstellungsbeschluss gemäß § 2 Abs. 1 BauGB",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/18007",
+      "created": "2020-03-02T17:02:42+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/50149",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5826",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Bebauungsplan \"Kriegsstraße, Ettlinger Straße, Hermann-Billing-Straße und Badenwerkstraße-Am Festplatz\", in Karlsruhe-Südweststadt hier: Aufstellungsbeschluss gemäß § 2 Abs. 1 BauGB",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00615247.pdf",
+      "created": "2020-03-03T08:57:15+01:00",
+      "date": "2020-03-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00615247.pdf",
+      "fileName": "00615247.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/615247",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Tagesordnung_öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618880.pdf",
+      "created": "2020-07-17T09:39:12+02:00",
+      "date": "2020-07-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618880.pdf",
+      "fileName": "00618880.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618880",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Niederschrift ö",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2019-10-07T11:30:35+02:00",
+  "end": "2020-03-12T18:45:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5826",
+  "location": {
+    "created": "2019-10-07T11:30:35+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5826",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Planungsausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+  ],
+  "start": "2020-03-12T16:45:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

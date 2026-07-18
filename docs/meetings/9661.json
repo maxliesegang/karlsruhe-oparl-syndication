@@ -1,0 +1,71 @@
+{
+  "agendaItem": [
+    {
+      "created": "2024-10-30T16:41:43+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90949",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9661",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Vorstellung Karlsruher Bäder",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2024-10-23T13:04:06+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90834",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9661",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Bericht aus den Hallen- und Freibädern",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2024-10-23T13:04:06+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90835",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9661",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen Bürgermeisteramt",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669081.pdf",
+      "created": "2025-07-28T15:34:28+02:00",
+      "date": "2025-07-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669081.pdf",
+      "fileName": "00669081.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669081",
+      "mimeType": "application/pdf",
+      "modified": "2025-07-28T16:58:23+02:00",
+      "name": "2024-11-26 BädA öffentlich Niederschrift unterschrieben",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2023-09-07T10:31:07+02:00",
+  "end": "2024-11-26T16:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9661",
+  "location": {
+    "created": "2023-09-07T10:31:07+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9661",
+    "modified": "2025-07-28T16:58:23+02:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-07-28T16:58:23+02:00",
+  "name": "Bäderausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54833"
+  ],
+  "start": "2024-11-26T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

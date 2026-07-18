@@ -1,0 +1,71 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14070",
+      "created": "2017-02-06T15:48:04+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/40115",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4538",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Bericht zur Delegationsreise des Ministerpräsidenten des Landes Baden-Württemberg nach Indien: Ergebnisse für Karlsruhe",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14078",
+      "created": "2017-02-06T15:48:05+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/40127",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4538",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Rahmenkonzept zur Förderung von Frauen in Führungspositionen in den Gesellschaften der Stadt Karlsruhe",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "mehrheitlich beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2016-10-12T09:08:39+02:00",
+  "end": "2017-03-07T19:00:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4538",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00596360.pdf",
+    "created": "2017-02-24T15:05:39+01:00",
+    "date": "2017-02-24",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00596360.pdf",
+    "fileName": "00596360.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/596360",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2016-10-12T09:08:39+02:00",
+    "description": "Großer Sitzungssaal, Rathaus Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/4538",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Hauptausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+  ],
+  "resultsProtocol": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00596560.pdf",
+    "created": "2017-03-08T08:31:05+01:00",
+    "date": "2017-03-08",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00596560.pdf",
+    "fileName": "00596560.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/596560",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Anwesenheit (Protokoll)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "start": "2017-03-07T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

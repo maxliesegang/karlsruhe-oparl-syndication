@@ -1,0 +1,80 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30000",
+      "created": "2023-08-07T12:31:57+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/79310",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9102",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Auftragsvergabe für die mobile tourenbegleitende und stationäre Reinigung von Abfallwertstoffbehältern",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30132",
+      "created": "2023-08-07T12:31:57+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/79312",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9102",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Auftragsvergabe von Winterdienstleistungen im Rahmen der Anliegerverpflichtung in 6 Losen",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30121",
+      "created": "2023-08-07T12:31:57+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/79311",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9102",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verlängerungsvertrag zur energetischen Verwertung des Deponiegases der Deponie West",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2023-08-07T12:31:57+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/79309",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9102",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Verschiedenes",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2022-09-21T16:14:13+02:00",
+  "end": "2023-10-06T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9102",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649440.pdf",
+    "created": "2023-08-01T15:43:46+02:00",
+    "date": "2023-08-01",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649440.pdf",
+    "fileName": "00649440.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649440",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2022-09-21T16:14:13+02:00",
+    "description": "Besprechungsraum in der Kantine beim Team Sauberes Karlsruhe, Ottostraße 21",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9102",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Betriebsausschuss Eigenbetrieb Abfallwirtschaft und Stadtreinigung (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54889"
+  ],
+  "start": "2023-10-06T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

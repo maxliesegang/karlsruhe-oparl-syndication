@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00147888.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2014-07-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00147888.pdf",
+      "fileName": "00147888.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/147888",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Regionalverband",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00148015.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2014-07-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00148015.pdf",
+      "fileName": "00148015.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/148015",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage A bis G Regionalverband",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00149217.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2014-11-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00149217.pdf",
+      "fileName": "00149217.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/149217",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/34949",
+      "authoritative": true,
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/11696",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3557",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/33464",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2014-07-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/33464",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Regionalverband Mittlerer Oberrhein: Wahl der vom Gemeinderat der Stadt Karlsruhe zu bestellenden Mitglieder der Verbandsversammlung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2014/0005",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882951"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618370.pdf",
+      "created": "2020-06-23T08:33:36+02:00",
+      "date": "2020-06-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618370.pdf",
+      "fileName": "00618370.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618370",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00618771.pdf",
+      "created": "2020-07-10T08:44:22+02:00",
+      "date": "2020-07-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00618771.pdf",
+      "fileName": "00618771.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/618771",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Wideraufstellung Stundenbrunnen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00619222.pdf",
+      "created": "2020-08-19T07:44:41+02:00",
+      "date": "2020-08-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00619222.pdf",
+      "fileName": "00619222.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/619222",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 44",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/53255",
+      "authoritative": true,
+      "created": "2020-06-23T13:06:58+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/19634",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5667",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39983",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2020-06-23T08:17:13+02:00",
+  "date": "2020-06-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/39983",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Wiederaufstellung des sogenannten \"Stundenbrunnens\"",
+  "paperType": "Anfrage",
+  "reference": "2020/0774",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595456.pdf",
+      "created": "2017-01-03T14:55:38+01:00",
+      "date": "2017-01-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595456.pdf",
+      "fileName": "00595456.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595456",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "FW Feinstaub Turmberg",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595457.pdf",
+      "created": "2017-01-03T14:55:54+01:00",
+      "date": "2017-01-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595457.pdf",
+      "fileName": "00595457.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595457",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 16",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595953.pdf",
+      "created": "2017-01-30T10:20:00+01:00",
+      "date": "2017-01-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595953.pdf",
+      "fileName": "00595953.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595953",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 16",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/39888",
+      "authoritative": true,
+      "created": "2016-12-20T14:06:35+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/13898",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4521",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35225",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-11-23T13:59:43+01:00",
+  "date": "2016-11-23",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35225",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Feinstaubmessung Turmberg",
+  "paperType": "Anfrage",
+  "reference": "2016/0760",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

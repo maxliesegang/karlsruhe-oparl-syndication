@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647758.pdf",
+      "created": "2023-05-31T18:02:44+02:00",
+      "date": "2023-05-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647758.pdf",
+      "fileName": "00647758.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647758",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647759.pdf",
+      "created": "2023-05-31T18:02:53+02:00",
+      "date": "2023-05-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647759.pdf",
+      "fileName": "00647759.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647759",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage Ka.App",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649086.pdf",
+      "created": "2023-07-18T19:56:01+02:00",
+      "date": "2023-07-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649086.pdf",
+      "fileName": "00649086.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649086",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649494.pdf",
+      "created": "2023-08-03T12:10:53+02:00",
+      "date": "2023-08-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649494.pdf",
+      "fileName": "00649494.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649494",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 7",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78345",
+      "authoritative": true,
+      "created": "2023-06-20T11:19:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29673",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9047",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48625",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-05-16T09:31:06+02:00",
+  "date": "2023-05-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48625",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Karlsruhe.App: Entgeltordnung und Anbieterverträge",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0549",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883004"
+  ]
+}

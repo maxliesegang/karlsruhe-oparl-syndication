@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658097.pdf",
+      "created": "2024-05-02T13:55:26+02:00",
+      "date": "2024-05-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658097.pdf",
+      "fileName": "00658097.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658097",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage Hohenwettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658267.pdf",
+      "created": "2024-05-07T12:48:45+02:00",
+      "date": "2024-05-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658267.pdf",
+      "fileName": "00658267.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658267",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Anfrage Hohenwettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86816",
+      "created": "2024-06-03T12:46:18+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32038",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9828",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34322"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50390",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-05-02T13:53:26+02:00",
+  "date": "2024-05-08",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50390",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Barrierefreie Bushaltestelle \"Medersbuckel\"",
+  "paperType": "Anfrage",
+  "reference": "2024/0495",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882959"
+  ]
+}

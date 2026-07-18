@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00144988.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2013-12-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00144988.pdf",
+      "fileName": "00144988.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/144988",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "CDU-Sachmittel Schulen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00144989.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2013-12-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00144989.pdf",
+      "fileName": "00144989.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/144989",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 35",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00146191.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2014-03-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00146191.pdf",
+      "fileName": "00146191.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/146191",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 35 Protokoll",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/33574",
+      "authoritative": true,
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/11064",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3260",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/32973",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2013-11-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/32973",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Zuweisung für Sachmittel an Schulen",
+  "paperType": "Anfrage",
+  "reference": "2013/0248",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

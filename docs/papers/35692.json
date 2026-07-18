@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00598324.pdf",
+      "created": "2017-07-07T16:16:45+02:00",
+      "date": "2017-07-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00598324.pdf",
+      "fileName": "00598324.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/598324",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Leichtbauhalle",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00598602.pdf",
+      "created": "2017-07-26T13:43:54+02:00",
+      "date": "2017-07-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00598602.pdf",
+      "fileName": "00598602.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/598602",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll Sitzungseröffnung und TOP 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/40896",
+      "created": "2017-06-26T09:02:58+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14483",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4611",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35692",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-06-26T09:00:10+02:00",
+  "date": "2017-06-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35692",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Projekt Leichtbauhalle des Post Südstadt Karlsruhe e. V. (PSK): Kauf und Errichtung auf dem Fußballplatz des ehemaligen VfB Südstadt",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0449",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
+  ]
+}

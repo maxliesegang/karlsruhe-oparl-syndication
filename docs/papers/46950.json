@@ -1,0 +1,95 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638207.pdf",
+      "created": "2022-06-07T14:31:25+02:00",
+      "date": "2022-06-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638207.pdf",
+      "fileName": "00638207.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638207",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638620.pdf",
+      "created": "2022-06-28T19:43:17+02:00",
+      "date": "2022-06-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638620.pdf",
+      "fileName": "00638620.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638620",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "2022-06-28_Stellungnahme_Garnisonskirche_KAL-Die_Partei",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00639122.pdf",
+      "created": "2022-07-18T08:59:02+02:00",
+      "date": "2022-07-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00639122.pdf",
+      "fileName": "00639122.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/639122",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 28.06.2022 TOP 18",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2022-09-13T14:06:10+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28071",
+      "modified": "2022-09-13T14:06:10+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46950",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70401",
+      "created": "2022-06-08T12:25:39+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27498",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6645",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46950",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/70493",
+      "authoritative": true,
+      "created": "2022-06-13T10:08:32+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27497",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6594",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46950",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-06-07T14:30:39+02:00",
+  "date": "2022-06-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46950",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Garnisonskirche Knielingen",
+  "paperType": "Antrag",
+  "reference": "2022/0639",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47746"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675226.pdf",
+      "created": "2025-12-16T11:13:26+01:00",
+      "date": "2025-12-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675226.pdf",
+      "fileName": "00675226.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675226",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-26T13:13:05+01:00",
+      "name": "Änderungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675247.pdf",
+      "created": "2025-12-16T14:38:48+01:00",
+      "date": "2025-12-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675247.pdf",
+      "fileName": "00675247.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675247",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-26T13:13:05+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675515.pdf",
+      "created": "2025-12-22T10:32:11+01:00",
+      "date": "2025-12-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675515.pdf",
+      "fileName": "00675515.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675515",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-26T13:13:05+01:00",
+      "name": "Protokoll Ausschuss",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676079.pdf",
+      "created": "2026-01-26T13:13:02+01:00",
+      "date": "2026-01-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676079.pdf",
+      "fileName": "00676079.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676079",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-26T13:13:05+01:00",
+      "name": "Abstimmungsergebnis",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99890",
+      "authoritative": true,
+      "created": "2025-12-16T11:43:38+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36759",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10607",
+      "modified": "2025-12-17T15:25:11+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54101",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-12-16T11:12:16+01:00",
+  "date": "2025-12-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54101",
+  "modified": "2026-01-26T13:13:05+01:00",
+  "name": "Satzung zur Änderung der Gebührensatzung der Stadt Karlsruhe für den Großmarkt, die Wochenmärkte, die Jahrmärkte, die Kirchweihen und andere Volksfeste, den Christkindlesmarkt und die Spezialmärkte (Gebührensatzung für Märkte und Volksfeste)",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2025/1016/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52536"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882979"
+  ]
+}

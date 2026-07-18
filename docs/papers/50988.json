@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00661045.pdf",
+      "created": "2024-09-23T15:13:46+02:00",
+      "date": "2024-09-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00661045.pdf",
+      "fileName": "00661045.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/661045",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/90486",
+      "created": "2024-10-02T11:05:18+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32860",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9696",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54889"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50988",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-09-18T11:27:07+02:00",
+  "date": "2024-09-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50988",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Auftragsvergabe für die Abholung, den Transport und die Verwertung/Entsorgung von Schadstoffen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/1054",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671882.pdf",
+      "created": "2025-11-14T11:40:25+01:00",
+      "date": "2025-11-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671882.pdf",
+      "fileName": "00671882.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671882",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-25T10:50:23+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672302.pdf",
+      "created": "2025-11-21T14:41:23+01:00",
+      "date": "2025-11-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672302.pdf",
+      "fileName": "00672302.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672302",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-25T10:50:23+01:00",
+      "name": "Anlage 1 Konzept",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672303.pdf",
+      "created": "2025-11-21T14:41:36+01:00",
+      "date": "2025-11-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672303.pdf",
+      "fileName": "00672303.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672303",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-25T10:50:23+01:00",
+      "name": "Anlage 2_Bekanntmachung",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/98979",
+      "authoritative": true,
+      "created": "2025-11-14T11:45:51+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35243",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10032",
+      "modified": "2025-12-04T11:06:03+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52623",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-14T11:40:06+01:00",
+  "date": "2025-11-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52623",
+  "modified": "2025-11-25T10:50:23+01:00",
+  "name": "Vergabe der Neuvermietung des Karlsburg-Cafés",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1089",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

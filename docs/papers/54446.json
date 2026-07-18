@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677686.pdf",
+      "created": "2026-04-16T11:20:54+02:00",
+      "date": "2026-04-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677686.pdf",
+      "fileName": "00677686.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677686",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:41:55+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677867.pdf",
+      "created": "2026-04-24T07:14:41+02:00",
+      "date": "2026-04-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677867.pdf",
+      "fileName": "00677867.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677867",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:41:55+02:00",
+      "name": "Anlage Variante 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678030.pdf",
+      "created": "2026-04-29T11:18:13+02:00",
+      "date": "2026-04-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678030.pdf",
+      "fileName": "00678030.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678030",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:41:55+02:00",
+      "name": "Abstimmungsergebnis TOP 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678391.pdf",
+      "created": "2026-05-15T10:41:52+02:00",
+      "date": "2026-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678391.pdf",
+      "fileName": "00678391.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678391",
+      "mimeType": "application/pdf",
+      "modified": "2026-05-15T10:41:55+02:00",
+      "name": "Protokoll GR 28.04.2026 TOP 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101404",
+      "authoritative": true,
+      "created": "2026-04-24T07:13:08+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37248",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10512",
+      "modified": "2026-04-28T18:44:03+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54446",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-04-16T10:46:49+02:00",
+  "date": "2026-04-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54446",
+  "modified": "2026-05-15T10:41:54+02:00",
+  "name": "Betriebskonzept Rheinstrandbad Rappenwört Saison 2026",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0249/1",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/546903"
+  ]
+}

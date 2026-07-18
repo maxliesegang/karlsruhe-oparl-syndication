@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00643438.pdf",
+      "created": "2022-12-16T08:13:08+01:00",
+      "date": "2022-12-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00643438.pdf",
+      "fileName": "00643438.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/643438",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00644258.pdf",
+      "created": "2023-01-23T15:54:25+01:00",
+      "date": "2023-01-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00644258.pdf",
+      "fileName": "00644258.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/644258",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00646054.pdf",
+      "created": "2023-03-27T13:34:44+02:00",
+      "date": "2023-03-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00646054.pdf",
+      "fileName": "00646054.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/646054",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 25",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/75486",
+      "authoritative": true,
+      "created": "2023-01-27T10:04:10+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/28781",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9042",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47933",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-12-15T16:35:52+01:00",
+  "date": "2022-12-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/47933",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Studentische Wohnraumsituation in Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2022/2446",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882974"
+  ]
+}

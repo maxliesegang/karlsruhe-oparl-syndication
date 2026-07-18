@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663355.pdf",
+      "created": "2024-12-02T11:30:27+01:00",
+      "date": "2024-12-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663355.pdf",
+      "fileName": "00663355.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663355",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664398.pdf",
+      "created": "2025-01-21T19:25:18+01:00",
+      "date": "2025-01-21",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664398.pdf",
+      "fileName": "00664398.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664398",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664694.pdf",
+      "created": "2025-02-04T09:40:04+01:00",
+      "date": "2025-02-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664694.pdf",
+      "fileName": "00664694.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664694",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 21.01.2025 TOP 9",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91696",
+      "authoritative": true,
+      "created": "2024-12-13T11:56:43+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33354",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10044",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51337",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-11-29T12:07:01+01:00",
+  "date": "2024-11-29",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51337",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Rahmenvertrag Schulmöbel und Einrichtungsgegenstände",
+  "paperType": "Beschlussvorlage",
+  "reference": "2024/1374",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

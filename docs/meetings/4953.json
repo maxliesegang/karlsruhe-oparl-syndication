@@ -1,0 +1,59 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/15864",
+      "created": "2018-10-29T14:44:20+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/44282",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4953",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Pflegearbeiten (Mähen, Hacken, Laubaufnahme) auf Gleisrasenflächen und Flächen mit erhöhtem Sicherheitsaufwand für die Jahre 2019 - 2022",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00606034.pdf",
+      "created": "2018-10-29T14:47:25+01:00",
+      "date": "2018-10-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00606034.pdf",
+      "fileName": "00606034.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/606034",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Tagesordnung öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00607753.pdf",
+      "created": "2019-02-06T11:55:48+01:00",
+      "date": "2019-02-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00607753.pdf",
+      "fileName": "00607753.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/607753",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_öffentlich BA 20181109",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2017-09-18T15:02:56+02:00",
+  "end": "2018-11-09T19:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4953",
+  "location": {
+    "created": "2017-09-18T15:02:56+02:00",
+    "description": "Kleiner Sitzungssaal, Rathaus Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/4953",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Bauausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+  ],
+  "start": "2018-11-09T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

@@ -1,0 +1,72 @@
+{
+  "agendaItem": [
+    {
+      "auxiliaryFile": [
+        {
+          "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00652339.pdf",
+          "created": "2023-10-19T17:54:46+02:00",
+          "date": "2023-10-19",
+          "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00652339.pdf",
+          "fileName": "00652339.pdf",
+          "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/652339",
+          "mimeType": "application/pdf",
+          "modified": "2025-03-03T14:30:18+01:00",
+          "name": "TOP 1 Protokollauszug",
+          "type": "https://schema.oparl.org/1.1/File"
+        }
+      ],
+      "created": "2023-10-19T17:47:21+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/83060",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9726",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Runder Tisch Inklusion",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00652338.pdf",
+      "created": "2023-10-19T17:54:36+02:00",
+      "date": "2023-10-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00652338.pdf",
+      "fileName": "00652338.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/652338",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Niederschrift öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2023-09-20T14:06:34+02:00",
+  "end": "2023-10-11T18:45:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9726",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00652337.pdf",
+    "created": "2023-10-19T17:52:53+02:00",
+    "date": "2023-10-19",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00652337.pdf",
+    "fileName": "00652337.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/652337",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2023-09-20T14:06:34+02:00",
+    "description": "Herbert-Schweizer-Haus Begegnungsstätte Grötzingen, Niddastraße 9, 76229 Karlsruhe",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9726",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Runder Tisch Inklusion Ortschaftsrat Grötzingen (öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+  ],
+  "start": "2023-10-11T18:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

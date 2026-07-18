@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00650547.pdf",
+      "created": "2023-09-12T10:18:17+02:00",
+      "date": "2023-09-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00650547.pdf",
+      "fileName": "00650547.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/650547",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag Wettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00651255.pdf",
+      "created": "2023-10-05T13:20:45+02:00",
+      "date": "2023-10-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00651255.pdf",
+      "fileName": "00651255.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/651255",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme_Antrag Wettersbach",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/80170",
+      "authoritative": true,
+      "created": "2023-09-12T12:56:38+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30420",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9255",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49150",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-09-12T10:16:49+02:00",
+  "date": "2023-09-12",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49150",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Information des Ortschaftsrates, sowie Abstimmung zur aktuellen Planung des RVMO bzgl. Windkraftanlagen-Gebieten bei Wettersbach Antrag der BFW-Ortschaftsratsfraktion Wettersbach",
+  "paperType": "Antrag",
+  "reference": "2023/1043",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882961"
+  ]
+}

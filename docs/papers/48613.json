@@ -1,0 +1,82 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00647246.pdf",
+      "created": "2023-05-15T11:15:44+02:00",
+      "date": "2023-05-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00647246.pdf",
+      "fileName": "00647246.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/647246",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649010.pdf",
+      "created": "2023-07-17T13:30:48+02:00",
+      "date": "2023-07-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649010.pdf",
+      "fileName": "00649010.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649010",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 31",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649889.pdf",
+      "created": "2023-08-18T15:52:12+02:00",
+      "date": "2023-08-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649889.pdf",
+      "fileName": "00649889.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649889",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme GB Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/77990",
+      "authoritative": true,
+      "created": "2023-05-25T15:14:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29660",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9046",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48613",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/78864",
+      "authoritative": true,
+      "created": "2023-07-20T09:40:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/29698",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9451",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33195"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48613",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-05-15T11:14:48+02:00",
+  "date": "2023-05-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/48613",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Existenz von Frauenhäusern zur Pflichtaufgabe erklären",
+  "paperType": "Antrag",
+  "reference": "2023/0537",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883019"
+  ]
+}

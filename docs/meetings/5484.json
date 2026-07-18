@@ -1,0 +1,111 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16703",
+      "created": "2019-05-28T14:00:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46124",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5484",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Bürgerfragestunde",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "erledigt",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16704",
+      "created": "2019-05-28T14:00:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46125",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5484",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Informationen zum Sanierungsgebiet",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16705",
+      "created": "2019-05-28T14:00:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46126",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5484",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Einrichtung von Car-Sharing-Plätzen in unseren Ortsteilen Grünwettersbach/Palmbach",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "einverstanden",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16706",
+      "created": "2019-05-28T14:00:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46127",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5484",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Breitbandausbau im Gewerbegebiet „Winterrot“ und Gewerbegebiet „Zur Seeplatte“",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "result": "einverstanden",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2021-03-30T10:11:46+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/57191",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5484",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Mitteilungen der Ortsverwaltung",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "result": "keine Mitteilungen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624495.pdf",
+      "created": "2021-03-30T10:22:48+02:00",
+      "date": "2021-03-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624495.pdf",
+      "fileName": "00624495.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624495",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll_04.06.2019_öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "created": "2018-10-09T15:28:10+02:00",
+  "end": "2019-06-04T21:00:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5484",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624494.pdf",
+    "created": "2021-03-30T10:17:52+02:00",
+    "date": "2021-03-30",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624494.pdf",
+    "fileName": "00624494.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624494",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2018-10-09T15:28:10+02:00",
+    "description": "Bürgersaal des Rathauses Grünwettersbach",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/5484",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Ortschaftsrat Wettersbach (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
+  ],
+  "start": "2019-06-04T19:00:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

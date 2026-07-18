@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00664766.pdf",
+      "created": "2025-02-05T17:10:26+01:00",
+      "date": "2025-02-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00664766.pdf",
+      "fileName": "00664766.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/664766",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T09:40:36+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667626.pdf",
+      "created": "2025-06-02T16:05:20+02:00",
+      "date": "2025-06-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667626.pdf",
+      "fileName": "00667626.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667626",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T09:40:36+02:00",
+      "name": "Abstimmungsergebnis TOP 22",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668043.pdf",
+      "created": "2025-06-17T07:51:17+02:00",
+      "date": "2025-06-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668043.pdf",
+      "fileName": "00668043.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668043",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T09:40:36+02:00",
+      "name": "Protokoll GR 27.05.2025 TOP 22",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93794",
+      "authoritative": true,
+      "created": "2025-05-07T08:24:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33665",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10048",
+      "modified": "2025-05-27T18:04:24+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51546",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-02-05T17:05:48+01:00",
+  "date": "2025-02-05",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51546",
+  "modified": "2025-06-17T09:40:36+02:00",
+  "name": "Abschluss eines Mietvertrags zur Anmietung der Ladenzeile Bahnhofsplatz 4",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0126",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882985"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676278.pdf",
+      "created": "2026-02-02T08:18:30+01:00",
+      "date": "2026-02-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676278.pdf",
+      "fileName": "00676278.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676278",
+      "mimeType": "application/pdf",
+      "modified": "2026-03-11T07:40:07+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/100529",
+      "authoritative": true,
+      "created": "2026-02-19T12:53:57+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36946",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10492",
+      "modified": "2026-03-19T16:58:10+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54220",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-02-02T08:16:22+01:00",
+  "date": "2026-02-02",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54220",
+  "modified": "2026-03-11T07:40:07+01:00",
+  "name": "Änderung in der Zusammensetzung der Mitglieder der Drogenkommission",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0085",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

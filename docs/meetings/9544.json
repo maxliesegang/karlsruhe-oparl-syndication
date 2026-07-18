@@ -1,0 +1,45 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/31531",
+      "created": "2024-04-12T17:03:15+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/85892",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9544",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Sachstandsbericht \"Strategische Innenentwicklung von Gewerbeflächen - nachhaltig und innovativ\"",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2023-09-06T14:27:59+02:00",
+  "end": "2024-05-03T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9544",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00657751.pdf",
+    "created": "2024-04-18T17:31:22+02:00",
+    "date": "2024-04-18",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00657751.pdf",
+    "fileName": "00657751.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/657751",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2023-09-06T14:27:59+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/9544",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Planungsausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+  ],
+  "start": "2024-05-03T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

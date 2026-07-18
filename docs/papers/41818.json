@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00628505.pdf",
+      "created": "2021-10-05T07:38:30+02:00",
+      "date": "2021-10-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00628505.pdf",
+      "fileName": "00628505.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/628505",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Umbesetzung SanB Gewerbegebiet Grünwinkel",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00629809.pdf",
+      "created": "2021-10-19T18:08:45+02:00",
+      "date": "2021-10-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00629809.pdf",
+      "fileName": "00629809.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/629809",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00634359.pdf",
+      "created": "2021-12-10T15:10:01+01:00",
+      "date": "2021-12-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00634359.pdf",
+      "fileName": "00634359.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/634359",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 8",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/60887",
+      "authoritative": true,
+      "created": "2021-09-22T11:25:13+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/22041",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6301",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41818",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-09-16T09:30:30+02:00",
+  "date": "2021-09-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41818",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Neuberufung Mitglieder im Sanierungsbeirat Gewerbegebiet Grünwinkel",
+  "paperType": "Beschlussvorlage",
+  "reference": "2021/1111",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

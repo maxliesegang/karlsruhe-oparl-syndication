@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625697.pdf",
+      "created": "2021-05-26T07:40:50+02:00",
+      "date": "2021-05-26",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625697.pdf",
+      "fileName": "00625697.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625697",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00626751.pdf",
+      "created": "2021-07-05T13:18:25+02:00",
+      "date": "2021-07-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00626751.pdf",
+      "fileName": "00626751.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/626751",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN AfD Sanierungsgebie Alt-Knielingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00627632.pdf",
+      "created": "2021-08-20T07:57:44+02:00",
+      "date": "2021-08-20",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00627632.pdf",
+      "fileName": "00627632.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/627632",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 37",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/59466",
+      "authoritative": true,
+      "created": "2021-06-29T10:37:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/21329",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6263",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41285",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-05-26T07:40:16+02:00",
+  "date": "2021-05-26",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41285",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Sanierungsgebiet Alt-Knielingen Ortskern - Sachstandsbericht",
+  "paperType": "Anfrage",
+  "reference": "2021/0627",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

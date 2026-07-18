@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679430.pdf",
+      "created": "2026-06-29T12:53:10+02:00",
+      "date": "2026-06-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679430.pdf",
+      "fileName": "00679430.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679430",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-15T13:27:28+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679453.pdf",
+      "created": "2026-06-30T19:00:09+02:00",
+      "date": "2026-06-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679453.pdf",
+      "fileName": "00679453.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679453",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-15T13:27:28+02:00",
+      "name": "ANLAGE_Ablauf-Kostenschätzung",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102536",
+      "created": "2026-07-09T09:25:53+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37667",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10566",
+      "modified": "2026-07-14T08:44:57+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54674",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-06-22T09:07:57+02:00",
+  "date": "2026-06-24",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54674",
+  "modified": "2026-07-15T13:27:28+02:00",
+  "name": "Fortschreibung Verkehrsentwicklungsplan",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0501",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

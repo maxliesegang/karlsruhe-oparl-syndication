@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675958.pdf",
+      "created": "2026-01-22T16:16:15+01:00",
+      "date": "2026-01-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675958.pdf",
+      "fileName": "00675958.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675958",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T16:54:08+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00677603.pdf",
+      "created": "2026-04-09T16:51:26+02:00",
+      "date": "2026-04-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00677603.pdf",
+      "fileName": "00677603.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/677603",
+      "mimeType": "application/pdf",
+      "modified": "2026-04-09T16:54:08+02:00",
+      "name": "Präsentation",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99987",
+      "authoritative": true,
+      "created": "2026-01-05T12:34:56+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36765",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10501",
+      "modified": "2026-03-30T14:44:45+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/29599"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54104",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-12-16T12:53:55+01:00",
+  "date": "2025-12-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54104",
+  "modified": "2026-04-09T16:54:08+02:00",
+  "name": "Umfrage zur Karlsruher Kultur 2025",
+  "paperType": "Informationsvorlage",
+  "reference": "2025/1261",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882963"
+  ]
+}

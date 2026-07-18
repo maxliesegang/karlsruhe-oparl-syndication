@@ -1,0 +1,71 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667334.pdf",
+      "created": "2025-05-22T11:50:29+02:00",
+      "date": "2025-05-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667334.pdf",
+      "fileName": "00667334.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667334",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T07:44:50+02:00",
+      "name": "Referenzvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00667620.pdf",
+      "created": "2025-06-02T15:01:33+02:00",
+      "date": "2025-06-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00667620.pdf",
+      "fileName": "00667620.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/667620",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T07:44:50+02:00",
+      "name": "Abstimmungsergebnis TOP 20.2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668040.pdf",
+      "created": "2025-06-17T07:44:45+02:00",
+      "date": "2025-06-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668040.pdf",
+      "fileName": "00668040.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668040",
+      "mimeType": "application/pdf",
+      "modified": "2025-06-17T07:44:50+02:00",
+      "name": "Protokoll GR 27.05.2025 TOP 20",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93909",
+      "authoritative": true,
+      "created": "2025-05-14T15:19:38+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34225",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10048",
+      "modified": "2025-05-27T18:01:12+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51923",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-05-14T15:12:46+02:00",
+  "date": "2025-05-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51923",
+  "modified": "2025-06-17T07:44:50+02:00",
+  "name": "Stadthalle Modernisierung, Vergabe von Lose Möblierung: Los 2 Tische",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0228/2",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51655"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00594421.pdf",
+      "created": "2016-11-10T09:13:35+01:00",
+      "date": "2016-11-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00594421.pdf",
+      "fileName": "00594421.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/594421",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "SSP Mühlburg",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595474.pdf",
+      "created": "2017-01-04T09:42:34+01:00",
+      "date": "2017-01-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595474.pdf",
+      "fileName": "00595474.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595474",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 3",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/39671",
+      "authoritative": true,
+      "created": "2016-11-07T16:05:09+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/13836",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4157",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35177",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-11-07T13:38:57+01:00",
+  "date": "2016-11-07",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35177",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Berufung in gemeinderätliche Ausschüsse und Gremien: Änderung in der Zusammensetzung des Sanierungsbeirats SSP Mühlburg",
+  "paperType": "Beschlussvorlage",
+  "reference": "2016/0710",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

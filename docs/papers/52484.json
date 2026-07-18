@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670858.pdf",
+      "created": "2025-10-15T11:37:12+02:00",
+      "date": "2025-10-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670858.pdf",
+      "fileName": "00670858.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670858",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-14T07:31:22+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670861.pdf",
+      "created": "2025-10-15T11:52:38+02:00",
+      "date": "2025-10-15",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670861.pdf",
+      "fileName": "00670861.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670861",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-14T07:31:22+01:00",
+      "name": "Mitgliederliste Sanierungsbeirat Grötzingen Ortsmitte",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675543.pdf",
+      "created": "2025-12-22T16:40:12+01:00",
+      "date": "2025-12-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675543.pdf",
+      "fileName": "00675543.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675543",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-14T07:31:22+01:00",
+      "name": "Abstimmungsergebnis Top2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675737.pdf",
+      "created": "2026-01-14T07:31:19+01:00",
+      "date": "2026-01-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675737.pdf",
+      "fileName": "00675737.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675737",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-14T07:31:22+01:00",
+      "name": "Protokoll GR 22.12.2025 TOP 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99139",
+      "authoritative": true,
+      "created": "2025-11-18T13:46:51+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35037",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10425",
+      "modified": "2025-12-22T16:10:01+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52484",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-10-15T11:35:08+02:00",
+  "date": "2025-10-15",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52484",
+  "modified": "2026-01-14T07:31:22+01:00",
+  "name": "Umbesetzung Mitglieder im Sanierungsbeirat Grötzingen Ortsmitte",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0975",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

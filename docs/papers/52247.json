@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669354.pdf",
+      "created": "2025-08-11T13:10:06+02:00",
+      "date": "2025-08-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669354.pdf",
+      "fileName": "00669354.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669354",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-13T12:09:10+02:00",
+      "name": "Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00669355.pdf",
+      "created": "2025-08-11T13:12:01+02:00",
+      "date": "2025-08-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00669355.pdf",
+      "fileName": "00669355.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/669355",
+      "mimeType": "application/pdf",
+      "modified": "2025-10-13T12:09:10+02:00",
+      "name": "Stellungnahme Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96090",
+      "created": "2025-09-03T14:46:22+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34687",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9901",
+      "modified": "2025-10-08T15:19:40+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52247",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-08-11T13:09:34+02:00",
+  "date": "2025-10-10",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52247",
+  "modified": "2025-10-13T12:09:10+02:00",
+  "name": "Wohnraum für Grötzingen mit dem Bau-Turbo (Antrag der Ortschaftsräte Breier, Daubenberger, Galley)",
+  "paperType": "Antrag",
+  "reference": "2025/0760",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}

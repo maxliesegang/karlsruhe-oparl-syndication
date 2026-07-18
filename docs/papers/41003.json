@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624177.pdf",
+      "created": "2021-03-16T14:04:50+01:00",
+      "date": "2021-03-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624177.pdf",
+      "fileName": "00624177.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624177",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624837.pdf",
+      "created": "2021-04-16T08:31:31+02:00",
+      "date": "2021-04-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624837.pdf",
+      "fileName": "00624837.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624837",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN Enthärtung Trinkwasser",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00624838.pdf",
+      "created": "2021-04-16T08:31:39+02:00",
+      "date": "2021-04-16",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00624838.pdf",
+      "fileName": "00624838.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/624838",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage StN Enthärtung Trinkwasser",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00625569.pdf",
+      "created": "2021-05-19T10:21:25+02:00",
+      "date": "2021-05-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00625569.pdf",
+      "fileName": "00625569.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/625569",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR TOP 25",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/57047",
+      "authoritative": true,
+      "created": "2021-03-24T12:11:00+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/20948",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6195",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41003",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2021-03-16T14:04:02+01:00",
+  "date": "2021-03-16",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/41003",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Zentrale Enthärtung des Trinkwassers in Karlsruhe",
+  "paperType": "Antrag",
+  "reference": "2021/0362",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

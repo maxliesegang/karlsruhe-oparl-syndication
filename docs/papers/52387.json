@@ -1,0 +1,83 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670285.pdf",
+      "created": "2025-09-22T13:30:01+02:00",
+      "date": "2025-09-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670285.pdf",
+      "fileName": "00670285.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670285",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-04T11:01:06+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00670286.pdf",
+      "created": "2025-09-22T13:32:43+02:00",
+      "date": "2025-09-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00670286.pdf",
+      "fileName": "00670286.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/670286",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-04T11:01:06+01:00",
+      "name": "Änderung_Zweitwohnungsteuersatzung_2025",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671178.pdf",
+      "created": "2025-10-22T13:42:03+02:00",
+      "date": "2025-10-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671178.pdf",
+      "fileName": "00671178.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671178",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-04T11:01:06+01:00",
+      "name": "Abstimmungsergebnis TOP 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671546.pdf",
+      "created": "2025-11-04T11:01:03+01:00",
+      "date": "2025-11-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671546.pdf",
+      "fileName": "00671546.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671546",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-04T11:01:06+01:00",
+      "name": "Protokoll GR 21.10.2025 TOP 6",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96412",
+      "authoritative": true,
+      "created": "2025-09-23T12:57:42+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34886",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10054",
+      "modified": "2025-10-22T09:24:26+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52387",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-09-22T13:08:55+02:00",
+  "date": "2025-09-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52387",
+  "modified": "2025-11-04T11:01:06+01:00",
+  "name": "Satzung zur Änderung der Satzung über die Erhebung einer Zweitwohnungsteuer in der Stadt Karlsruhe (Zweitwohnungsteuersatzung)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0891",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52517"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

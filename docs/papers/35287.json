@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00595707.pdf",
+      "created": "2017-01-13T10:02:59+01:00",
+      "date": "2017-01-13",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00595707.pdf",
+      "fileName": "00595707.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/595707",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Fahrzeug Feuerwehr",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00596331.pdf",
+      "created": "2017-02-24T11:08:56+01:00",
+      "date": "2017-02-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00596331.pdf",
+      "fileName": "00596331.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/596331",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 10",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/40005",
+      "authoritative": true,
+      "created": "2017-01-11T08:00:47+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/13975",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4530",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35287",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-12-27T08:50:01+01:00",
+  "date": "2016-12-27",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35287",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Einsatzstellenverpflegungsfahrzeug für die Feuerwehr Karlsruhe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2016/0826",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882976"
+  ]
+}

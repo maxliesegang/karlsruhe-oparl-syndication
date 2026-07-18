@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00597490.pdf",
+      "created": "2017-05-12T12:08:54+02:00",
+      "date": "2017-05-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00597490.pdf",
+      "fileName": "00597490.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/597490",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stadthalle Heizanlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00597758.pdf",
+      "created": "2017-05-24T09:47:05+02:00",
+      "date": "2017-05-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00597758.pdf",
+      "fileName": "00597758.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/597758",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmungsergebnis TOP 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00597812.pdf",
+      "created": "2017-05-31T09:34:10+02:00",
+      "date": "2017-05-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00597812.pdf",
+      "fileName": "00597812.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/597812",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 15",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/40586",
+      "authoritative": true,
+      "created": "2017-04-25T10:21:13+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/14286",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/4585",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35529",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2017-04-25T09:25:51+02:00",
+  "date": "2017-04-25",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/35529",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Stadthalle, Modernisierung: Vergabe von Heizanlagen und zentrale Wassererwärmungsanlagen",
+  "paperType": "Beschlussvorlage",
+  "reference": "2017/0276",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

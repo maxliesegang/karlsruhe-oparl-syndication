@@ -1,0 +1,71 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34127",
+      "created": "2025-04-30T11:52:49+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93498",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10105",
+      "modified": "2025-05-16T14:32:34+02:00",
+      "name": "Kooperationsprojekte \"Schule-Sportverein\" für das Schuljahr 2025/2026 und Pilotprojekt \"Sport im Ganztag\"",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "Zustimmung",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34128",
+      "created": "2025-04-30T11:52:49+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93499",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10105",
+      "modified": "2025-05-16T14:33:00+02:00",
+      "name": "Neubau Ballsporthalle SSC - Planungsstand 2025 -",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2025-04-30T11:52:49+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/93497",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10105",
+      "modified": "2025-05-16T14:33:21+02:00",
+      "name": "The World Games 2029 in Karlsruhe",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2024-10-17T12:53:38+02:00",
+  "end": "2025-05-13T18:30:00+02:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10105",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00666884.pdf",
+    "created": "2025-05-05T10:09:33+02:00",
+    "date": "2025-05-05",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00666884.pdf",
+    "fileName": "00666884.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/666884",
+    "mimeType": "application/pdf",
+    "modified": "2025-05-12T12:55:58+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2024-10-17T12:53:38+02:00",
+    "description": "IHK, Raum Fidelitas",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10105",
+    "modified": "2025-05-12T12:55:58+02:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-05-12T12:55:58+02:00",
+  "name": "Sportausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33575"
+  ],
+  "start": "2025-05-13T16:30:00+02:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}

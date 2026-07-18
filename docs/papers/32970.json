@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00144936.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2013-12-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00144936.pdf",
+      "fileName": "00144936.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/144936",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Resolution",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00144937.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2013-12-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00144937.pdf",
+      "fileName": "00144937.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/144937",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 1 Resolution",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00144938.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2013-12-09",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00144938.pdf",
+      "fileName": "00144938.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/144938",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage 2 Resolution",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00146207.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2014-03-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00146207.pdf",
+      "fileName": "00146207.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/146207",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 1 Protokoll",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/33595",
+      "authoritative": true,
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/11073",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3260",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/32970",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2013-11-21",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/32970",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Resolution des Karlsruher Gemeinderates  zur Novellierung des Landespersonalvertretungsgesetzes",
+  "paperType": "Beschlussvorlage",
+  "reference": "2013/0245",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/420351"
+  ]
+}

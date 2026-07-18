@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00672013.pdf",
+      "created": "2025-11-18T12:10:01+01:00",
+      "date": "2025-11-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00672013.pdf",
+      "fileName": "00672013.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/672013",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-19T08:07:26+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675456.pdf",
+      "created": "2025-12-19T08:07:23+01:00",
+      "date": "2025-12-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675456.pdf",
+      "fileName": "00675456.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675456",
+      "mimeType": "application/pdf",
+      "modified": "2025-12-19T08:07:26+01:00",
+      "name": "Abtimmungsergebnis  Ö78",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99256",
+      "authoritative": true,
+      "created": "2025-11-26T15:12:27+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35282",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10439",
+      "modified": "2025-12-16T17:23:37+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54902"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52655",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-11-18T12:08:49+01:00",
+  "date": "2025-11-18",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52655",
+  "modified": "2025-12-19T08:07:26+01:00",
+  "name": "HHS4_GR22 - Einführung einer Gebühr für die Reservierung der Trautermine im Onlinetraukalender (30 Euro) - u.a. Vermeidung der sehr frühzeitigen Reservierung mehrerer Termine",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/1119",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678149.pdf",
+      "created": "2026-05-05T10:30:10+02:00",
+      "date": "2026-05-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678149.pdf",
+      "fileName": "00678149.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678149",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T15:00:45+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678167.pdf",
+      "created": "2026-05-05T13:42:16+02:00",
+      "date": "2026-05-05",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678167.pdf",
+      "fileName": "00678167.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678167",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T15:00:45+02:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678748.pdf",
+      "created": "2026-05-29T11:14:00+02:00",
+      "date": "2026-05-29",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678748.pdf",
+      "fileName": "00678748.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678748",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T15:00:45+02:00",
+      "name": "Anlage zu Frage 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679641.pdf",
+      "created": "2026-07-07T15:00:24+02:00",
+      "date": "2026-07-07",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679641.pdf",
+      "fileName": "00679641.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679641",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-07T15:00:45+02:00",
+      "name": "Protokoll GR 23.06.2026 TOP 35",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101923",
+      "authoritative": true,
+      "created": "2026-05-26T14:29:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37366",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10540",
+      "modified": "2026-06-24T10:12:33+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54520",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-05-05T10:28:56+02:00",
+  "date": "2026-05-05",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54520",
+  "modified": "2026-07-07T15:00:45+02:00",
+  "name": "Einbürgerungen nach bisheriger Staatsangehörigkeit in Karlsruhe",
+  "paperType": "Anfrage",
+  "reference": "2026/0355",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638173.pdf",
+      "created": "2022-06-02T15:01:25+02:00",
+      "date": "2022-06-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638173.pdf",
+      "fileName": "00638173.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638173",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00638556.pdf",
+      "created": "2022-06-24T13:28:53+02:00",
+      "date": "2022-06-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00638556.pdf",
+      "fileName": "00638556.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/638556",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "StN_Innenreinigung Fzg VBK",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00639892.pdf",
+      "created": "2022-08-22T12:05:36+02:00",
+      "date": "2022-08-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00639892.pdf",
+      "fileName": "00639892.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/639892",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 26.07.2022 TOP 45",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/71071",
+      "authoritative": true,
+      "created": "2022-06-29T10:02:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/27480",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6597",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46938",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2022-06-02T14:59:57+02:00",
+  "date": "2022-06-02",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/46938",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Grundreinigung in den Fahrzeugen der VBK",
+  "paperType": "Anfrage",
+  "reference": "2022/0628",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882999"
+  ]
+}

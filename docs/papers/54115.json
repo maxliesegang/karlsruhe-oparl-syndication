@@ -1,0 +1,59 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675517.pdf",
+      "created": "2025-12-22T11:37:51+01:00",
+      "date": "2025-12-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675517.pdf",
+      "fileName": "00675517.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675517",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-28T07:27:39+01:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675586.pdf",
+      "created": "2025-12-23T08:12:27+01:00",
+      "date": "2025-12-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675586.pdf",
+      "fileName": "00675586.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675586",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-28T07:27:39+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99954",
+      "authoritative": true,
+      "created": "2025-12-23T10:09:02+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/36797",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10468",
+      "modified": "2026-01-27T16:45:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54115",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-12-22T11:37:30+01:00",
+  "date": "2025-12-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54115",
+  "modified": "2026-04-13T14:21:23+02:00",
+  "name": "VBK-Einsparkonzept: vorübergehende Anpassung des öffentlichen Dienstleistungsauftrags an die VBK",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2025/1069/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52596"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882999"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00144780.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2013-12-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00144780.pdf",
+      "fileName": "00144780.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/144780",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anlage Marktamt",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00145028.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2013-12-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00145028.pdf",
+      "fileName": "00145028.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/145028",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Gebühren Marktamt",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00146185.pdf",
+      "created": "2016-10-12T09:08:36+02:00",
+      "date": "2014-03-12",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00146185.pdf",
+      "fileName": "00146185.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/146185",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "TOP 16 Protokoll",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/33532",
+      "authoritative": true,
+      "created": "2016-10-12T09:08:40+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/11001",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/3260",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/32928",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2016-10-12T09:08:40+02:00",
+  "date": "2013-11-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/32928",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Verrechnung von Kostenüber- bzw. Kostenunterdeckungen bei den Gebühren für das Marktamt (Ergebnisausgleich gem. § 14 Abs. 2 KAG für THH 7200 Märkte)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2013/0202",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882979"
+  ]
+}

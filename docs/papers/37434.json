@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00609838.pdf",
+      "created": "2019-05-22T08:31:57+02:00",
+      "date": "2019-05-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00609838.pdf",
+      "fileName": "00609838.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/609838",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610125.pdf",
+      "created": "2019-06-18T14:13:30+02:00",
+      "date": "2019-06-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610125.pdf",
+      "fileName": "00610125.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610125",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme TOP 18",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00610646.pdf",
+      "created": "2019-07-31T11:02:47+02:00",
+      "date": "2019-07-31",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00610646.pdf",
+      "fileName": "00610646.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/610646",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 18",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/46138",
+      "authoritative": true,
+      "created": "2019-05-28T15:31:38+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/16670",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/5344",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37434",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2019-05-22T08:31:17+02:00",
+  "date": "2019-05-22",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/37434",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Handlungsmöglichkeiten der Stadt in Bezug auf \"Bettenburgen\" in der Südstadt",
+  "paperType": "Anfrage",
+  "reference": "2019/0534",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

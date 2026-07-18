@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00662957.pdf",
+      "created": "2024-11-19T12:49:00+01:00",
+      "date": "2024-11-19",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00662957.pdf",
+      "fileName": "00662957.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/662957",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663367.pdf",
+      "created": "2024-12-02T17:35:50+01:00",
+      "date": "2024-12-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663367.pdf",
+      "fileName": "00663367.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663367",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00663969.pdf",
+      "created": "2025-01-02T15:04:08+01:00",
+      "date": "2025-01-02",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00663969.pdf",
+      "fileName": "00663969.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/663969",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 17.12.2024 TOP 50",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/91339",
+      "authoritative": true,
+      "created": "2024-11-20T08:53:10+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/33291",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9534",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51291",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-11-19T12:48:43+01:00",
+  "date": "2024-11-19",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/51291",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Änderung der Abfallentsorgungssatzung und Verhandlung der Abstimmungsvereinbarung mit dem Betreiber Duales System (BDS): Zeitplan",
+  "paperType": "Anfrage",
+  "reference": "2024/1330",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00649730.pdf",
+      "created": "2023-08-11T14:15:30+02:00",
+      "date": "2023-08-11",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00649730.pdf",
+      "fileName": "00649730.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/649730",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00652929.pdf",
+      "created": "2023-10-27T10:58:26+02:00",
+      "date": "2023-10-27",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00652929.pdf",
+      "fileName": "00652929.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/652929",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll TOP 8 HA_17.10.2023",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/80274",
+      "authoritative": true,
+      "created": "2023-09-15T13:12:30+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/30248",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9065",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49019",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2023-08-11T14:11:50+02:00",
+  "date": "2023-08-11",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/49019",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Verlängerung der Laufzeit des Kontokorrentkredits aus 2020 in Höhe von 750.000 Euro an die vhs Karlsruhe bis 31. Dezember 2024",
+  "paperType": "Beschlussvorlage",
+  "reference": "2023/0916",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

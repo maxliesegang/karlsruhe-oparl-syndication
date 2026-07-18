@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00675092.pdf",
+      "created": "2025-12-10T11:17:06+01:00",
+      "date": "2025-12-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00675092.pdf",
+      "fileName": "00675092.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/675092",
+      "mimeType": "application/pdf",
+      "modified": "2026-01-29T11:32:22+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/99800",
+      "created": "2025-12-08T14:52:30+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/35046",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10474",
+      "modified": "2026-02-13T09:48:51+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54889"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52492",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-10-16T09:25:37+02:00",
+  "date": "2025-11-04",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52492",
+  "modified": "2026-01-29T11:32:22+01:00",
+  "name": "Auftragsvergabe für die mobile tourenbegleitende und stationäre Reinigung von Abfallwertstoffbehältern",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0982",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
+  ]
+}

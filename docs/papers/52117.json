@@ -1,0 +1,56 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00668944.pdf",
+      "created": "2025-07-22T08:36:20+02:00",
+      "date": "2025-07-22",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00668944.pdf",
+      "fileName": "00668944.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/668944",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-04T10:59:17+01:00",
+      "name": "Beschlussvorlage Wahl Beigeordneter Dez 2",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00671541.pdf",
+      "created": "2025-11-04T10:59:13+01:00",
+      "date": "2025-11-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00671541.pdf",
+      "fileName": "00671541.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/671541",
+      "mimeType": "application/pdf",
+      "modified": "2025-11-04T10:59:17+01:00",
+      "name": "Protokoll GR 21.10.2025 TOP 1",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/96440",
+      "authoritative": true,
+      "created": "2025-09-24T08:58:01+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/34502",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10054",
+      "modified": "2025-10-22T09:22:35+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52117",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2025-06-26T16:01:47+02:00",
+  "date": "2025-07-30",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/52117",
+  "modified": "2025-11-04T10:59:17+01:00",
+  "name": "Wahl einer*eines Beigeordneten für das Dezernat 2",
+  "paperType": "Beschlussvorlage",
+  "reference": "2025/0642",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882953"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00658560.pdf",
+      "created": "2024-05-17T11:14:35+02:00",
+      "date": "2024-05-17",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00658560.pdf",
+      "fileName": "00658560.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/658560",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659160.pdf",
+      "created": "2024-06-18T21:10:34+02:00",
+      "date": "2024-06-18",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659160.pdf",
+      "fileName": "00659160.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659160",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Abstimmumsergebnis TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00659450.pdf",
+      "created": "2024-07-08T15:42:32+02:00",
+      "date": "2024-07-08",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00659450.pdf",
+      "fileName": "00659450.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/659450",
+      "mimeType": "application/pdf",
+      "modified": "2025-03-03T14:30:18+01:00",
+      "name": "Protokoll GR 18.06.2024 TOP 12",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/86723",
+      "authoritative": true,
+      "created": "2024-05-22T13:39:23+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/32088",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/9527",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50422",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2024-05-08T11:21:26+02:00",
+  "date": "2024-05-17",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/50422",
+  "modified": "2025-03-03T14:30:52+01:00",
+  "name": "Folgeprojekt \"Innovative Pflege\" Mittelverschiebung",
+  "paperType": "Informationsvorlage",
+  "reference": "2024/0526",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

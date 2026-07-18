@@ -1,0 +1,98 @@
+{
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26542",
+      "created": "2022-02-24T09:10:25+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/68501",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6637",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Bebauungsplan \"Industriegebiet Breit, 4. Änderung\", Karlsruhe - Durlach",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26580",
+      "created": "2022-02-24T09:10:25+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/68502",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6637",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "IQ-Leitprojekt „Fahrradstadt Karlsruhe“ Radverkehrsführung in der Hertzstraße, Fortsetzung Schutzstreifen",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26581",
+      "created": "2022-02-24T09:10:25+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/68503",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6637",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "IQ-Leitprojekt „Fahrradstadt Karlsruhe“, Radroute 15, Innenstadt – Hagsfeld, hier: Teilstück zwischen Forststraße und Hirtenweg",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26584",
+      "created": "2022-02-24T09:10:25+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/68504",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6637",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "IQ-Leitprojekt „Fahrradstadt Karlsruhe“ Fahrradstraße Links der Alb, Bus-Priorisierung Belchenstraße",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "result": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/26622",
+      "created": "2022-02-24T09:10:25+01:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/68505",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6637",
+      "modified": "2025-03-03T13:33:42+01:00",
+      "name": "Bebauungsplan \"Fußballstadion im Wildpark, 1. Änderung\", Karlsruhe-Innenstadt-Ost/Oststadt",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "result": "einstimmig beschlossen",
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "created": "2021-09-30T11:54:43+02:00",
+  "end": "2022-03-10T18:30:00+01:00",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/6637",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00636021.pdf",
+    "created": "2022-02-18T08:19:39+01:00",
+    "date": "2022-02-18",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00636021.pdf",
+    "fileName": "00636021.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/636021",
+    "mimeType": "application/pdf",
+    "modified": "2025-03-03T14:30:18+01:00",
+    "name": "Tagesordnung Ausschuss/OV (öffentlich)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
+  "location": {
+    "created": "2021-09-30T11:54:43+02:00",
+    "description": "Bürgersaal, Rathaus am Marktplatz",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/6637",
+    "modified": "2025-03-03T13:33:55+01:00",
+    "type": "https://schema.oparl.org/1.1/Location"
+  },
+  "modified": "2025-03-03T13:33:55+01:00",
+  "name": "Planungsausschuss (öffentlich/nicht öffentlich)",
+  "organization": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"
+  ],
+  "start": "2022-03-10T16:30:00+01:00",
+  "type": "https://schema.oparl.org/1.1/Meeting"
+}
