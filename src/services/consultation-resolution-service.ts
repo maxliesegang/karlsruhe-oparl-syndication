@@ -1,4 +1,6 @@
 import { fetchConsultation, fetchPaper } from '../api/index.js';
+import axios from 'axios';
+import { readJsonFromFile, writeJsonToFile } from '../file-utils.js';
 import { logger } from '../logger.js';
 import { store } from '../store/index.js';
 import { Meeting } from '../types/index.js';
@@ -14,7 +16,30 @@ export interface ConsultationResolutionResult {
   missingPapers: number;
   failedConsultations: number;
   failedPapers: number;
+  deferredPapers: number;
+  deferredConsultations: number;
   unresolved: number;
+}
+
+interface PaperRetryEntry {
+  attempts: number;
+  lastAttemptAt: string;
+  nextRetryAt: string;
+  status?: number;
+  reason: string;
+}
+
+type PaperRetryLedger = Record<string, PaperRetryEntry>;
+
+const RETRY_LEDGER_FILE = 'consultation-resolution-failures.json';
+const DAY_MS = 24 * 60 * 60 * 1000;
+const AUTHORIZATION_RETRY_MS = 7 * DAY_MS;
+const NOT_FOUND_RETRY_MS = 7 * DAY_MS;
+const BOOTSTRAP_RETRY_MS = 7 * DAY_MS;
+const MAX_TRANSIENT_RETRY_MS = 7 * DAY_MS;
+
+export interface ConsultationResolutionOptions {
+  now?: Date;
 }
 
 /**
@@ -24,7 +49,18 @@ export interface ConsultationResolutionResult {
  */
 export async function resolveMissingConsultationPapers(
   meetings: Meeting[],
+  options: ConsultationResolutionOptions = {},
 ): Promise<ConsultationResolutionResult> {
+  const now = options.now ?? new Date();
+  const retryLedger =
+    (await readJsonFromFile<PaperRetryLedger>(RETRY_LEDGER_FILE)) ?? ({} as PaperRetryLedger);
+  for (const entry of Object.values(retryLedger)) {
+    if (entry.reason !== 'bootstrap') continue;
+    const minimumRetryAt = new Date(entry.lastAttemptAt).getTime() + BOOTSTRAP_RETRY_MS;
+    if (new Date(entry.nextRetryAt).getTime() < minimumRetryAt) {
+      entry.nextRetryAt = new Date(minimumRetryAt).toISOString();
+    }
+  }
   const consultationIds: string[] = [];
   let agendaItemsWithConsultation = 0;
 
@@ -48,10 +84,14 @@ export async function resolveMissingConsultationPapers(
     missingPapers: 0,
     failedConsultations: 0,
     failedPapers: 0,
+    deferredPapers: 0,
+    deferredConsultations: 0,
     unresolved: 0,
   };
 
   const attemptedPaperIds = new Set<string>();
+  const deferredPaperIds = new Set<string>();
+  const referencedPaperIds = new Set<string>();
 
   for (const consultationId of uniqueConsultationIds) {
     if (store.papers.getPaperByConsultationId(consultationId)) {
@@ -60,6 +100,7 @@ export async function resolveMissingConsultationPapers(
     }
 
     let consultation = store.consultations.getById(consultationId);
+    const consultationWasCached = !!consultation;
     if (!consultation) {
       try {
         consultation = (await fetchConsultation(consultationId)) ?? undefined;
@@ -80,19 +121,56 @@ export async function resolveMissingConsultationPapers(
       result.consultationsWithoutPaper++;
       continue;
     }
+    referencedPaperIds.add(consultation.paper);
 
-    if (attemptedPaperIds.has(consultation.paper)) continue;
+    const retryEntry = retryLedger[consultation.paper];
+    if (retryEntry && new Date(retryEntry.nextRetryAt).getTime() > now.getTime()) {
+      if (!deferredPaperIds.has(consultation.paper)) result.deferredPapers++;
+      deferredPaperIds.add(consultation.paper);
+      result.deferredConsultations++;
+      continue;
+    }
+
+    // Upgrade path for consultations cached by a run that predates the retry
+    // ledger. Defer once rather than immediately repeating hundreds of known
+    // unresolved requests; the next run after the cooldown records a status.
+    if (consultationWasCached && !retryEntry) {
+      retryLedger[consultation.paper] = createRetryEntry(now, 0, undefined, 'bootstrap');
+      result.deferredPapers++;
+      result.deferredConsultations++;
+      deferredPaperIds.add(consultation.paper);
+      continue;
+    }
+
+    if (attemptedPaperIds.has(consultation.paper)) {
+      result.deferredConsultations++;
+      continue;
+    }
     attemptedPaperIds.add(consultation.paper);
 
     try {
       const paper = await fetchPaper(consultation.paper);
       if (paper) {
         result.papersFetched++;
+        delete retryLedger[consultation.paper];
       } else {
         result.missingPapers++;
+        retryLedger[consultation.paper] = createRetryEntry(
+          now,
+          (retryEntry?.attempts ?? 0) + 1,
+          404,
+          'not-found',
+        );
       }
     } catch (error) {
       result.failedPapers++;
+      const status = axios.isAxiosError(error) ? error.response?.status : undefined;
+      retryLedger[consultation.paper] = createRetryEntry(
+        now,
+        (retryEntry?.attempts ?? 0) + 1,
+        status,
+        status === 401 || status === 403 ? 'unauthorized' : 'request-failed',
+      );
       logger.warn(`Failed to fetch paper ${consultation.paper}`, error);
     }
   }
@@ -102,6 +180,11 @@ export async function resolveMissingConsultationPapers(
       count + (store.papers.getPaperByConsultationId(consultationId) ? 0 : 1),
     0,
   );
+
+  for (const paperId of Object.keys(retryLedger)) {
+    if (!referencedPaperIds.has(paperId)) delete retryLedger[paperId];
+  }
+  await writeJsonToFile(retryLedger, RETRY_LEDGER_FILE);
 
   logger.info(
     `Consultation resolution: ${result.uniqueConsultations - result.unresolved}/${result.uniqueConsultations} resolved ` +
@@ -115,9 +198,34 @@ export async function resolveMissingConsultationPapers(
         `(${result.missingConsultations} missing consultations, ` +
         `${result.consultationsWithoutPaper} without a paper reference, ` +
         `${result.missingPapers} missing papers, ` +
-        `${result.failedConsultations + result.failedPapers} fetch failures).`,
+        `${result.failedConsultations + result.failedPapers} fetch failures, ` +
+        `${result.deferredConsultations} deferred by retry policy).`,
     );
   }
 
   return result;
+}
+
+function createRetryEntry(
+  now: Date,
+  attempts: number,
+  status: number | undefined,
+  reason: string,
+): PaperRetryEntry {
+  const retryMs =
+    reason === 'bootstrap'
+      ? BOOTSTRAP_RETRY_MS
+      : status === 401 || status === 403
+      ? AUTHORIZATION_RETRY_MS
+      : status === 404
+        ? NOT_FOUND_RETRY_MS
+        : Math.min(2 ** Math.max(0, attempts - 1) * DAY_MS, MAX_TRANSIENT_RETRY_MS);
+
+  return {
+    attempts,
+    lastAttemptAt: now.toISOString(),
+    nextRetryAt: new Date(now.getTime() + retryMs).toISOString(),
+    status,
+    reason,
+  };
 }

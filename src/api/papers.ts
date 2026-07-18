@@ -17,11 +17,10 @@ export async function fetchAllPapers(modifiedSince?: Date): Promise<void> {
     { modifiedSince, fetchAllPages: config.fetchAllPages },
   );
 
-  if (modifiedSince) {
-    fetchedPapers.forEach((paper) => store.papers.add(paper));
-  } else {
-    store.papers.replaceAll(fetchedPapers);
-  }
+  // An absent paper is not necessarily deleted: Karlsruhe may stop exposing
+  // member-only papers in the collection and return 401 for their resource.
+  // Preserve last-known metadata and remove only explicit OParl tombstones.
+  fetchedPapers.forEach((paper) => store.papers.add(paper));
 
   logger.info(`Finished fetching ${pageCount} page(s) with ${totalItems} papers.`);
 }

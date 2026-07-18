@@ -84,6 +84,7 @@ export async function fetchDataAndGenerateFeed(
         'meetings.json',
         'papers.json',
         'consultations.json',
+        'consultation-resolution-failures.json',
         'organizations.json',
         'file-contents.json',
         'paper-stadtteile.json',

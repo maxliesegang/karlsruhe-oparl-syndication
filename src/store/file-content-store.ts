@@ -52,8 +52,10 @@ class FileContentStore extends BaseStore<FileContentType> {
     existing.fileModified = nextFile.fileModified;
 
     if (fileModifiedChanged) {
-      // File version changed: old extraction is stale even if a new extraction fails.
-      this.clearExtractedText(existing);
+      // Keep the last successful extraction until the new version can actually
+      // be read. A 401/403 may mean access was withdrawn, not that the old text
+      // ceased to be useful. The differing extraction date marks it as stale.
+      this.changedFileIds.add(existing.id);
     }
 
     if (!config.extractPdfText) {
@@ -212,10 +214,10 @@ class FileContentStore extends BaseStore<FileContentType> {
     }
 
     // Load extracted text from chunks (preferred) or individual files
-    const loadedFromChunks = await this.loadFromChunks(itemMap);
-    if (!loadedFromChunks) {
-      await this.loadFromIndividualFiles(indexData, itemMap);
-    }
+    await this.loadFromChunks(itemMap);
+    // Fill gaps per item. This preserves older transcripts when a chunk set is
+    // incomplete instead of treating chunk loading as all-or-nothing.
+    await this.loadFromIndividualFiles(indexData, itemMap);
 
     // Trigger extraction for items that need it
     for (const item of itemMap.values()) {
@@ -266,7 +268,7 @@ class FileContentStore extends BaseStore<FileContentType> {
       let loaded = 0;
 
       for (const entry of indexData) {
-        if (entry.hasExtractedText) {
+        if (entry.hasExtractedText && !itemMap.get(entry.id)?.extractedText) {
           try {
             const filePath = path.join(CONTENT_DIR, `${extractFileId(entry.id)}.txt`);
             const text = await fs.readFile(filePath, 'utf8');
