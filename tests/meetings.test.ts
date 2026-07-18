@@ -2,12 +2,10 @@ import { beforeEach, describe, expect, it, vi } from 'vitest';
 
 const mocks = vi.hoisted(() => ({
   fetchPaginatedCollection: vi.fn(),
-  fetchOParlResource: vi.fn(),
 }));
 
 vi.mock('../src/api/http.js', () => ({
   fetchPaginatedCollection: mocks.fetchPaginatedCollection,
-  fetchOParlResource: mocks.fetchOParlResource,
 }));
 
 import { synchronizeMeetings } from '../src/api/meetings.js';

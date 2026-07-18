@@ -46,4 +46,11 @@ describe('isRecentFile', () => {
     expect(isRecentFile(`${year - 2}-12-31`)).toBe(true);
     expect(isRecentFile(`${year - 3}-12-31`)).toBe(false);
   });
+
+  it('treats an unparseable date as not recent', () => {
+    // The previous substring check returned true for any string containing a
+    // recent year, even when it was not a real date.
+    expect(isRecentFile('')).toBe(false);
+    expect(isRecentFile('not-a-date')).toBe(false);
+  });
 });

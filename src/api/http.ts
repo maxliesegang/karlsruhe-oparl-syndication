@@ -107,12 +107,6 @@ class RateLimitedRequestQueue {
     const percentage = ((this.completedCount / this.totalCount) * 100).toFixed(1);
     logger.debug(`Progress: ${this.completedCount}/${this.totalCount} (${percentage}%)`);
   }
-
-  /** Resets the queue statistics (useful between different fetch operations) */
-  resetStats(): void {
-    this.completedCount = 0;
-    this.totalCount = 0;
-  }
 }
 
 export const requestQueue = new RateLimitedRequestQueue();

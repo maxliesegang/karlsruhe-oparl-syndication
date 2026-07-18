@@ -1,7 +1,7 @@
 import { Meeting } from '../types/index.js';
 import { stores } from '../store/index.js';
 import { config } from '../config.js';
-import { fetchOParlResource, fetchPaginatedCollection } from './http.js';
+import { fetchPaginatedCollection } from './http.js';
 import { OPARL_PAGE_SIZE } from '../constants.js';
 import { logger } from '../logger.js';
 
@@ -23,17 +23,4 @@ export async function synchronizeMeetings(modifiedSince?: Date): Promise<void> {
   );
 
   logger.info(`Finished fetching ${pageCount} page(s) with ${totalItems} meetings.`);
-}
-
-export async function fetchAndStoreMeeting(url: string): Promise<Meeting | null> {
-  logger.debug(`Fetching meeting from: ${url}`);
-
-  const meeting = await fetchOParlResource<Meeting>(url);
-
-  if (meeting) {
-    stores.meetings.add(meeting);
-    logger.debug(`Successfully fetched meeting: ${meeting.id}`);
-  }
-
-  return meeting;
 }

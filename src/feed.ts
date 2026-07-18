@@ -78,13 +78,13 @@ function resolveAgendaItemPaperDetails(item: AgendaItem): {
   return { attachments: [...attachmentsById.values()], paperLastUpdate };
 }
 
-/** Format a short numeric 'de-DE' date, or a placeholder when the date is missing/invalid */
-function formatGermanDate(date: Date | undefined): string {
+/** Format a 'de-DE' date in the given style, or a placeholder when it is missing/invalid. */
+function formatGermanDate(date: Date | undefined, month: 'long' | '2-digit' = '2-digit'): string {
   if (!date) return 'unbekannt';
   return date.toLocaleDateString('de-DE', {
     year: 'numeric',
-    month: '2-digit',
-    day: '2-digit',
+    month,
+    day: month === 'long' ? 'numeric' : '2-digit',
   });
 }
 
@@ -116,16 +116,6 @@ function safeHttpUrl(value: string): string | undefined {
   }
 }
 
-/** Format a meeting date to 'de-DE' locale, or a placeholder when the date is missing/invalid */
-function formatGermanLongDate(date: Date | undefined): string {
-  if (!date) return 'unbekannt';
-  return date.toLocaleDateString('de-DE', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-  });
-}
-
 /** Add an agenda item to the feed. */
 function appendAgendaItem(
   feed: Feed,
@@ -144,7 +134,7 @@ function appendAgendaItem(
   const itemCreated = parseValidDate(agendaItem.created);
   const itemModified = parseValidDate(agendaItem.modified);
 
-  const meetingDay = formatGermanLongDate(parseValidDate(meeting.start));
+  const meetingDay = formatGermanDate(parseValidDate(meeting.start), 'long');
   // `date` (Atom <updated>) and `published` must be valid Dates or the Atom serializer throws.
   // Prefer the meeting's own date over the generic fallback so a date-less agenda item still
   // sorts near its meeting rather than at the epoch floor.

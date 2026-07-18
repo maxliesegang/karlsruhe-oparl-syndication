@@ -32,11 +32,17 @@ export function latestValidDate(...values: (string | Date | null | undefined)[])
 const YEARS_TO_KEEP = 3;
 
 /**
- * Checks if a date string represents a recent file.
- * Files from the last YEARS_TO_KEEP years are considered current.
+ * True when `dateString` parses to a date within the current or the preceding
+ * `YEARS_TO_KEEP - 1` calendar years (e.g. 2024–2026 when run in 2026).
+ *
+ * Parsing the date and comparing the calendar year — instead of the previous
+ * substring year-match — avoids false positives from a recent-year fragment
+ * appearing elsewhere in the string, and treats an unparseable date as not
+ * recent rather than accidentally matching.
  */
 export function isRecentFile(dateString: string): boolean {
-  const currentYear = new Date().getFullYear();
-  const recentYears = Array.from({ length: YEARS_TO_KEEP }, (_, i) => String(currentYear - i));
-  return recentYears.some((year) => dateString.includes(year));
+  const date = parseValidDate(dateString);
+  if (!date) return false;
+  const oldestYearToKeep = new Date().getFullYear() - (YEARS_TO_KEEP - 1);
+  return date.getFullYear() >= oldestYearToKeep;
 }
