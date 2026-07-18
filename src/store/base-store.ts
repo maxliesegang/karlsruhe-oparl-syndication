@@ -1,5 +1,6 @@
 import { readJsonFromFile, writeJsonToFile } from '../file-utils.js';
 import { logger } from '../logger.js';
+import { latestValidDate } from '../utils.js';
 
 interface Timestamped {
   id: string;
@@ -66,13 +67,18 @@ export abstract class BaseStore<T extends { id: string }> {
    */
   getLastModified(subtractDays = 0): Date | undefined {
     const items = this.getAllItems() as (T & Timestamped)[];
-    const allDates = items.map((item) =>
-      item.modified ? new Date(item.modified) : new Date(item.created),
-    );
 
-    if (!allDates.length) return undefined;
+    let latest: Date | undefined;
+    for (const item of items) {
+      const date = latestValidDate(item.modified, item.created);
+      if (date && (!latest || date.getTime() > latest.getTime())) {
+        latest = date;
+      }
+    }
 
-    const latestDate = new Date(Math.max(...allDates.map((date) => date.getTime())));
+    if (!latest) return undefined;
+
+    const latestDate = new Date(latest.getTime());
     if (subtractDays > 0) {
       latestDate.setDate(latestDate.getDate() - subtractDays);
     }

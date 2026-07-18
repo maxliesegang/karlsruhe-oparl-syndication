@@ -9,11 +9,23 @@ const httpClient: AxiosInstance = axios.create({
   timeout: 30000,
 });
 
+/** HTTP statuses that are safe and worth retrying (rate limiting / transient unavailability). */
+const RETRYABLE_STATUS = new Set([429, 503]);
+
 axiosRetry(httpClient, {
   retries: 3,
-  retryDelay: (retryCount) => retryCount * 1000,
+  retryDelay: (retryCount, error) => {
+    // Honor Retry-After (seconds) when the server provides it, e.g. on 429/503.
+    const retryAfter = Number(error?.response?.headers?.['retry-after']);
+    if (Number.isFinite(retryAfter) && retryAfter > 0) {
+      return retryAfter * 1000;
+    }
+    return retryCount * 1000;
+  },
   retryCondition: (error) =>
-    axiosRetry.isNetworkOrIdempotentRequestError(error) || error.code === 'ECONNABORTED',
+    axiosRetry.isNetworkOrIdempotentRequestError(error) ||
+    error.code === 'ECONNABORTED' ||
+    (error.response?.status !== undefined && RETRYABLE_STATUS.has(error.response.status)),
 });
 
 export { httpClient, correctUrl };
@@ -34,6 +46,8 @@ class RequestQueue {
   private isProcessing = false;
   private completedCount = 0;
   private totalCount = 0;
+  /** Wall-clock time of the last dispatched request; used to enforce a minimum interval. */
+  private lastRequestTime = 0;
 
   /**
    * Adds a request to the queue and returns its result when processed.
@@ -63,6 +77,15 @@ class RequestQueue {
       const item = this.queue.shift();
       if (!item) continue;
 
+      // Throttle by elapsed wall-clock time rather than queue depth. Callers typically await
+      // each request before enqueuing the next, so the queue drains to empty between requests;
+      // gating on queue length (the old behavior) therefore never delayed anything.
+      const elapsed = Date.now() - this.lastRequestTime;
+      if (elapsed < config.requestDelay) {
+        await delay(config.requestDelay - elapsed);
+      }
+      this.lastRequestTime = Date.now();
+
       try {
         const result = await item.execute();
         item.resolve(result);
@@ -72,10 +95,6 @@ class RequestQueue {
 
       this.completedCount++;
       this.logProgress();
-
-      if (this.queue.length > 0) {
-        await delay(config.requestDelay);
-      }
     }
 
     this.isProcessing = false;

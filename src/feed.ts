@@ -3,7 +3,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import { AgendaItem, AuxiliaryFile, Meeting } from './types/index.js';
 import { config } from './config.js';
-import { correctUrl } from './utils.js';
+import { correctUrl, latestValidDate, parseValidDate } from './utils.js';
 import { store } from './store/index.js';
 import { FEED_GENERATOR } from './constants.js';
 import { logger } from './logger.js';
@@ -54,10 +54,7 @@ async function fetchAgendaItemDetails(
   if (item.consultation) {
     const paper = await fetchPaperByConsultationId(item.consultation);
     if (paper) {
-      const lastUpdateDate = paper.modified || paper.created;
-      if (lastUpdateDate) {
-        paperLastUpdate = new Date(lastUpdateDate);
-      }
+      paperLastUpdate = latestValidDate(paper.modified, paper.created) ?? null;
 
       if (paper.auxiliaryFile?.length) {
         const pdfPromises = paper.auxiliaryFile.map(async (file) => formatFileDates(file));
@@ -79,38 +76,28 @@ async function fetchPaperByConsultationId(consultationId: string) {
   }
 }
 
+/** Format a short numeric 'de-DE' date, or a placeholder when the date is missing/invalid */
+function formatGermanDate(date: Date | undefined): string {
+  if (!date) return 'unbekannt';
+  return date.toLocaleDateString('de-DE', {
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  });
+}
+
 /** Format auxiliary file metadata for display */
 function formatFileDates(file: AuxiliaryFile): string {
   const correctedUrl = correctUrl(file.downloadUrl);
-  const createdDate = new Date(file.created).toLocaleDateString('de-DE', {
-    year: 'numeric',
-    month: '2-digit',
-    day: '2-digit',
-  });
-  const modifiedDate = new Date(file.modified).toLocaleDateString('de-DE', {
-    year: 'numeric',
-    month: '2-digit',
-    day: '2-digit',
-  });
+  const createdDate = formatGermanDate(parseValidDate(file.created));
+  const modifiedDate = formatGermanDate(parseValidDate(file.modified));
 
   return `<a href="${correctedUrl}">${file.name} (Erstellt am: ${createdDate}, Aktualisiert am: ${modifiedDate})</a><br>`;
 }
 
-/** Get the most recent date from various date sources (agenda item and consultation paper) */
-function getMostRecentDate(
-  itemCreated: Date,
-  itemModified: Date,
-  paperLastUpdate: Date | null,
-): Date {
-  const dates = [itemModified, itemCreated];
-  if (paperLastUpdate) {
-    dates.push(paperLastUpdate);
-  }
-  return new Date(Math.max(...dates.map((d) => d.getTime())));
-}
-
-/** Format a meeting date to 'de-DE' locale */
-function formatMeetingDayForLocale(date: Date): string {
+/** Format a meeting date to 'de-DE' locale, or a placeholder when the date is missing/invalid */
+function formatMeetingDayForLocale(date: Date | undefined): string {
+  if (!date) return 'unbekannt';
   return date.toLocaleDateString('de-DE', {
     year: 'numeric',
     month: 'long',
@@ -127,12 +114,13 @@ async function addItemToFeed(feed: Feed, meeting: Meeting, item: AgendaItem): Pr
 
   const { auxiliaryFileInfo, paperLastUpdate } = await fetchAgendaItemDetails(item);
 
-  const meetingDay = formatMeetingDayForLocale(new Date(meeting.start));
-  const mostRecentDate = getMostRecentDate(
-    new Date(item.created),
-    new Date(item.modified),
-    paperLastUpdate,
-  );
+  const itemCreated = parseValidDate(item.created);
+  const itemModified = parseValidDate(item.modified);
+
+  const meetingDay = formatMeetingDayForLocale(parseValidDate(meeting.start));
+  // `date` (Atom <updated>) and `published` must be valid Dates or the Atom serializer throws.
+  const mostRecentDate = latestValidDate(itemModified, itemCreated, paperLastUpdate) ?? new Date();
+  const publishedDate = itemCreated ?? itemModified ?? mostRecentDate;
 
   feed.addItem({
     title: item.name,
@@ -147,15 +135,31 @@ async function addItemToFeed(feed: Feed, meeting: Meeting, item: AgendaItem): Pr
       <b>Anhänge:</b><br> ${auxiliaryFileInfo}
     `,
     date: mostRecentDate,
-    published: new Date(item.created),
+    published: publishedDate,
   });
 }
 
+/** The most recent entry date in the feed, or undefined when the feed has no entries. */
+function latestEntryDate(feed: Feed): Date | undefined {
+  let latest: Date | undefined;
+  for (const item of feed.items) {
+    if (item.date && (!latest || item.date.getTime() > latest.getTime())) {
+      latest = item.date;
+    }
+  }
+  return latest;
+}
+
 /** Create the feed with metadata and meetings */
-export async function createFeed(meetings: Meeting[], newUpdated: Date): Promise<Feed> {
+export async function createFeed(meetings: Meeting[], fallbackUpdated: Date): Promise<Feed> {
   logger.info('Starting to create feed...');
-  const feed = await initializeFeed(newUpdated);
+  const feed = await initializeFeed(fallbackUpdated);
   await addMeetingsToFeed(feed, meetings);
+  // Anchor the feed-level <updated> to the newest entry rather than the run clock, so an
+  // unchanged run produces a byte-identical feed. That lets git dedupe the blob and lets
+  // subscribers' readers get a 304 instead of re-downloading the whole feed every poll.
+  // Falls back to the run time only when the feed is empty.
+  feed.options.updated = latestEntryDate(feed) ?? fallbackUpdated;
   logger.info('Finished creating feed.');
   return feed;
 }

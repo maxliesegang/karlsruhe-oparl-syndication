@@ -6,6 +6,31 @@ export function correctUrl(url: string): string {
   return url.replace('/oparl/', '/ris/oparl/');
 }
 
+/** Parses a value into a Date, returning undefined for missing or invalid dates. */
+export function parseValidDate(value: string | Date | null | undefined): Date | undefined {
+  if (value === null || value === undefined) return undefined;
+  const date = value instanceof Date ? value : new Date(value);
+  return Number.isNaN(date.getTime()) ? undefined : date;
+}
+
+/**
+ * Returns the most recent valid date from the given values, or undefined if none are valid.
+ * Uses a reduce loop (no argument spread) so it stays safe for large inputs and ignores
+ * missing or malformed dates instead of poisoning the result with NaN.
+ */
+export function latestValidDate(
+  ...values: (string | Date | null | undefined)[]
+): Date | undefined {
+  let latest: Date | undefined;
+  for (const value of values) {
+    const date = parseValidDate(value);
+    if (date && (!latest || date.getTime() > latest.getTime())) {
+      latest = date;
+    }
+  }
+  return latest;
+}
+
 const YEARS_TO_KEEP = 3;
 
 /**

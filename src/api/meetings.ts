@@ -17,11 +17,12 @@ export async function fetchAllMeetings(modifiedSince?: Date): Promise<void> {
     { modifiedSince, fetchAllPages: config.fetchAllPages },
   );
 
-  if (modifiedSince) {
-    fetchedMeetings.forEach((meeting) => store.meetings.add(meeting));
-  } else {
-    store.meetings.replaceAll(fetchedMeetings);
-  }
+  // Add-only, matching papers: an absent meeting is not necessarily deleted. Karlsruhe may
+  // stop exposing restricted meetings in the collection, and a truncated crawl can drop the
+  // tail of the list. Preserve last-known metadata (this is a complete archive) and remove
+  // only explicit OParl `deleted` tombstones, which store.add handles. A full reconciliation
+  // (modifiedSince undefined) therefore refreshes every current meeting without wiping the rest.
+  fetchedMeetings.forEach((meeting) => store.meetings.add(meeting));
 
   logger.info(`Finished fetching ${pageCount} page(s) with ${totalItems} meetings.`);
 }

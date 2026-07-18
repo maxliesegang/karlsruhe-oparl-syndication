@@ -2,6 +2,7 @@ import axios from 'axios';
 import { PDFParse } from 'pdf-parse';
 import { correctUrl } from '../utils.js';
 import { PDF_MIME_TYPE } from '../constants.js';
+import { config } from '../config.js';
 import { logger } from '../logger.js';
 
 export class PdfService {
@@ -18,6 +19,9 @@ export class PdfService {
       const response = await axios.get(correctedUrl, {
         responseType: 'arraybuffer',
         headers: { Accept: PDF_MIME_TYPE },
+        timeout: config.pdfDownloadTimeoutMs,
+        maxContentLength: config.pdfMaxContentBytes,
+        maxBodyLength: config.pdfMaxContentBytes,
       });
 
       parser = new PDFParse({ data: response.data });

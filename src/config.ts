@@ -60,4 +60,14 @@ export const config = {
     'FULL_RECONCILIATION_INTERVAL_DAYS',
     process.env.FULL_RECONCILIATION_INTERVAL_DAYS || '7',
   ),
+
+  // PDF download limits (guard against hung servers and oversized files stalling the queue)
+  pdfDownloadTimeoutMs: positiveInteger(
+    'PDF_DOWNLOAD_TIMEOUT_MS',
+    process.env.PDF_DOWNLOAD_TIMEOUT_MS || '30000',
+  ),
+  pdfMaxContentBytes: positiveInteger(
+    'PDF_MAX_CONTENT_BYTES',
+    process.env.PDF_MAX_CONTENT_BYTES || String(50 * 1024 * 1024),
+  ),
 };

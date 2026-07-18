@@ -38,6 +38,7 @@ This repository builds and publishes an Atom feed for Karlsruhe city council age
 
 ## Caching and Refresh Strategy
 
+- This repo is a **complete archive**: meetings, papers, and organizations are stored **add-only**. Fetches upsert by `id` and never wipe records that drop out of the collection (e.g. meetings/papers that become member-only and 401, or a truncated crawl that omits the tail). Records are removed **only** on an explicit OParl `deleted: true` tombstone (handled in `BaseStore.add`). A full reconciliation (`modified_since` undefined) therefore refreshes every currently-exposed object without deleting the rest.
 - Stores serialize to `docs/`; reruns are incremental thanks to `modified_since`. The `--clear-cache` flag only clears in-memory maps; it does not delete files.
 - To force a full refetch/re-extract: delete the relevant `docs/*.json` and `docs/file-contents*` directories, then run `npm run generate -- --clear-cache`.
 - Keep `docs/` under the GitHub 100 MB per-file limit; chunking exists to help, so avoid large single-file changes.

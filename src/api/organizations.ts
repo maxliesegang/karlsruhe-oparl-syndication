@@ -17,7 +17,10 @@ export async function fetchAllOrganizations(): Promise<void> {
     (organizations) => fetchedOrganizations.push(...organizations),
     { fetchAllPages: true },
   );
-  store.organizations.replaceAll(fetchedOrganizations);
+  // Add-only, matching meetings and papers: preserve dissolved or restricted organizations so
+  // historical meetings can still resolve their organization names. Remove only explicit
+  // OParl `deleted` tombstones (handled by store.add).
+  fetchedOrganizations.forEach((organization) => store.organizations.add(organization));
 
   logger.info(`Finished fetching ${pageCount} page(s) with ${totalItems} organizations.`);
 }
