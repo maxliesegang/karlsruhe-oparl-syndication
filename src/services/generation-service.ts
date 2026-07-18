@@ -21,7 +21,9 @@ interface GenerationManifest {
  * whether any step failed so the caller can decide not to mark a full
  * reconciliation as complete.
  */
-async function refreshOParlData(forceFullReconciliation: boolean): Promise<{ hadFailures: boolean }> {
+async function refreshOParlData(
+  forceFullReconciliation: boolean,
+): Promise<{ hadFailures: boolean }> {
   logger.info('Fetching data from OParl API...');
 
   const steps: Array<{ name: string; run: () => Promise<unknown> }> = [
@@ -98,12 +100,13 @@ export async function runFeedGeneration(options: { clearCache?: boolean } = {}):
     Date.now() - lastFullReconciliation >= reconciliationIntervalMs;
   const forceFullReconciliation = options.clearCache === true || reconciliationDue;
 
+  // A full reconciliation must still merge into the persisted add-only archive.
+  // Skipping the load made records that were temporarily restricted or omitted by
+  // the API look like orphans during persistence, contradicting the archive contract.
+  await stores.loadFromDisk();
+  logger.info('Loaded store data from disk');
   if (options.clearCache) {
-    stores.clear();
-    logger.info('Cache loading skipped; performing a full refresh');
-  } else {
-    await stores.loadFromDisk();
-    logger.info('Loaded store data from disk');
+    logger.info('Incremental cursors ignored; performing a full reconciliation');
   }
   if (forceFullReconciliation) {
     logger.info('Performing authoritative meeting and paper reconciliation');

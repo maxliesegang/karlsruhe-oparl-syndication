@@ -78,21 +78,19 @@ describe('HTTP pagination', () => {
     expect(result).toEqual({ pageCount: 1, totalItems: 1 });
   });
 
-  it('treats a non-collection body (no data array) as an empty terminal page', async () => {
+  it('rejects a non-collection body so reconciliation is not marked complete', async () => {
     config.requestIntervalMs = 0;
     vi.spyOn(httpClient, 'get').mockResolvedValueOnce({ data: {} }); // e.g. an HTML/error body
 
-    const pages: string[][] = [];
-    const result = await fetchPaginatedCollection<{ id: string }>(
-      'https://example.test/ris/oparl/items?limit=1000',
-      (items) => pages.push(items.map(({ id }) => id)),
-    );
-
-    expect(result).toEqual({ pageCount: 1, totalItems: 0 });
-    expect(pages).toEqual([[]]);
+    await expect(
+      fetchPaginatedCollection<{ id: string }>(
+        'https://example.test/ris/oparl/items?limit=1000',
+        () => undefined,
+      ),
+    ).rejects.toThrow('had no data array');
   });
 
-  it('stops instead of looping forever when next points back to a visited page', async () => {
+  it('rejects a pagination cycle instead of reporting an incomplete crawl as successful', async () => {
     config.requestIntervalMs = 0;
     // Every page points back to page two: a cycle the crawl must break out of.
     const get = vi.spyOn(httpClient, 'get').mockResolvedValue({
@@ -102,13 +100,12 @@ describe('HTTP pagination', () => {
       },
     });
 
-    const result = await fetchPaginatedCollection<{ id: string }>(
-      'https://example.test/ris/oparl/items?page=2',
-      () => undefined,
-    );
-
-    // First page consumed, then the repeated next URL is detected and the loop ends.
-    expect(result.pageCount).toBe(1);
+    await expect(
+      fetchPaginatedCollection<{ id: string }>(
+        'https://example.test/ris/oparl/items?page=2',
+        () => undefined,
+      ),
+    ).rejects.toThrow('Pagination cycle detected');
     expect(get).toHaveBeenCalledTimes(1);
   });
 });

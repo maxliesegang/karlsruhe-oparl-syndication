@@ -11,7 +11,23 @@ vi.mock('fs/promises', () => ({ default: fsMocks }));
 
 import { config } from '../src/config.js';
 import { buildAgendaFeed, writeRecentFeed } from '../src/feed.js';
-import type { Meeting } from '../src/types/index.js';
+import type { Meeting, OParlFile } from '../src/types/index.js';
+
+function attachment(overrides: Partial<OParlFile> = {}): OParlFile {
+  return {
+    id: 'https://example.test/files/1',
+    type: 'File',
+    name: 'Anlage',
+    fileName: 'anlage.pdf',
+    mimeType: 'application/pdf',
+    date: '2025-01-01T00:00:00Z',
+    accessUrl: 'https://example.test/files/1',
+    downloadUrl: 'https://example.test/files/1/download',
+    created: '2025-01-01T00:00:00Z',
+    modified: '2025-01-02T00:00:00Z',
+    ...overrides,
+  };
+}
 
 function meetingWithDates(created: string, modified: string, start: string): Meeting {
   return {
@@ -148,5 +164,58 @@ describe('feed identity', () => {
     const xml = feed.atom1();
     expect(xml).toContain('<published>2025-01-02T00:00:00.000Z</published>');
     expect(xml).toContain('<updated>2026-07-18T00:00:00.000Z</updated>');
+  });
+
+  it('omits agenda items that are not explicitly public', async () => {
+    const meeting = meetingWithDates(
+      '2025-01-01T00:00:00Z',
+      '2025-01-02T00:00:00Z',
+      '2025-01-03T00:00:00Z',
+    );
+    meeting.agendaItem[0].public = false;
+
+    expect((await buildAgendaFeed([meeting])).items).toHaveLength(0);
+
+    meeting.agendaItem[0].public = undefined as unknown as boolean;
+    expect((await buildAgendaFeed([meeting])).items).toHaveLength(0);
+  });
+
+  it('includes direct agenda-item attachments and uses their timestamp for updated', async () => {
+    const meeting = meetingWithDates(
+      '2025-01-01T00:00:00Z',
+      '2025-01-02T00:00:00Z',
+      '2025-01-03T00:00:00Z',
+    );
+    meeting.agendaItem[0].auxiliaryFile = [
+      attachment({ name: 'Direkte Anlage', modified: '2026-06-01T00:00:00Z' }),
+    ];
+
+    const feed = await buildAgendaFeed([meeting]);
+    expect(feed.items[0]?.date).toEqual(new Date('2026-06-01T00:00:00Z'));
+    expect(feed.atom1()).toContain('Direkte Anlage');
+  });
+
+  it('uses meeting changes for updated and escapes untrusted HTML content', async () => {
+    const meeting = meetingWithDates(
+      '2025-01-01T00:00:00Z',
+      '2026-07-01T00:00:00Z',
+      '2025-01-03T00:00:00Z',
+    );
+    meeting.name = '<img src=x onerror=alert(1)>';
+    meeting.agendaItem[0].name = '<script>alert(1)</script>';
+    meeting.agendaItem[0].auxiliaryFile = [
+      attachment({
+        name: '<b>unsafe</b>',
+        downloadUrl: 'javascript:alert(1)',
+      }),
+    ];
+
+    const feed = await buildAgendaFeed([meeting]);
+    const xml = feed.atom1();
+    expect(feed.items[0]?.date).toEqual(new Date('2026-07-01T00:00:00Z'));
+    expect(xml).not.toContain('<script>alert(1)</script>');
+    expect(xml).not.toContain('<img src=x');
+    expect(xml).not.toContain('javascript:');
+    expect(xml).toContain('&lt;script&gt;alert(1)&lt;/script&gt;');
   });
 });

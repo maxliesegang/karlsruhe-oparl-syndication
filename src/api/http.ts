@@ -156,8 +156,9 @@ export async function fetchPaginatedCollection<T>(
   while (nextUrl) {
     const url = normalizeOParlUrl(nextUrl);
     if (visitedUrls.has(url)) {
-      logger.warn(`Pagination cycle detected at ${url}; stopping after ${pageCount} page(s).`);
-      break;
+      throw new Error(
+        `Pagination cycle detected at ${url} after ${pageCount} page(s); collection is incomplete.`,
+      );
     }
     visitedUrls.add(url);
     logger.debug(`Fetching: ${url}`);
@@ -166,14 +167,13 @@ export async function fetchPaginatedCollection<T>(
       httpClient.get<OParlCollectionResponse<T>>(url),
     );
 
-    // Real OParl servers occasionally return a non-collection body (HTML error
-    // page, `{}`) with HTTP 200, or omit `links` on the final page. Treat a
-    // missing/invalid `data` array as a terminal empty page instead of crashing.
+    // An HTTP 200 with a non-collection body is still an incomplete crawl. Fail
+    // explicitly so a full reconciliation cannot be checkpointed as successful.
     const body = response.data as Partial<OParlCollectionResponse<T>> | undefined;
-    const items = Array.isArray(body?.data) ? body.data : [];
     if (!Array.isArray(body?.data)) {
-      logger.warn(`Response from ${url} had no data array; treating as a terminal page.`);
+      throw new Error(`Response from ${url} had no data array; collection is incomplete.`);
     }
+    const items = body.data;
     onPage(items);
 
     pageCount++;

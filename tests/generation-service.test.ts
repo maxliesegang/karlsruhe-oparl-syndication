@@ -61,12 +61,14 @@ describe('generation service cache handling', () => {
     vi.clearAllMocks();
   });
 
-  it('skips disk cache loading and clears memory for a requested full refresh', async () => {
+  it('loads the archive and ignores incremental cursors for a requested full reconciliation', async () => {
     await runFeedGeneration({ clearCache: true });
 
-    expect(mocks.clear).toHaveBeenCalledOnce();
-    expect(mocks.loadFromDisk).not.toHaveBeenCalled();
+    expect(mocks.clear).not.toHaveBeenCalled();
+    expect(mocks.loadFromDisk).toHaveBeenCalledOnce();
     expect(mocks.synchronizeOrganizations).toHaveBeenCalledOnce();
+    expect(mocks.synchronizeMeetings).toHaveBeenCalledWith(undefined);
+    expect(mocks.synchronizePapers).toHaveBeenCalledWith(undefined);
     expect(mocks.saveToDisk).toHaveBeenCalledOnce();
   });
 

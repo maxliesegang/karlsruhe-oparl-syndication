@@ -45,6 +45,9 @@ function createFeedContainer(updatedAt: Date): Feed {
 function appendMeetingAgendaItems(feed: Feed, meetings: Meeting[], fallbackDate: Date): void {
   for (const meeting of meetings) {
     for (const item of meeting.agendaItem ?? []) {
+      // Feed publication is intentionally opt-in: a missing flag must not expose
+      // an item whose visibility the source did not establish.
+      if (item.public !== true) continue;
       appendAgendaItem(feed, meeting, item, fallbackDate);
     }
   }
@@ -52,10 +55,13 @@ function appendMeetingAgendaItems(feed: Feed, meetings: Meeting[], fallbackDate:
 
 /** Resolve additional info for an agenda item's consultation from the local stores. */
 function resolveAgendaItemPaperDetails(item: AgendaItem): {
-  attachmentHtml: string;
+  attachments: OParlFile[];
   paperLastUpdate?: Date;
 } {
-  let attachmentHtml = '';
+  const attachmentsById = new Map<string, OParlFile>();
+  for (const file of item.auxiliaryFile ?? []) {
+    attachmentsById.set(file.id, file);
+  }
   let paperLastUpdate: Date | undefined;
 
   if (item.consultation) {
@@ -63,13 +69,13 @@ function resolveAgendaItemPaperDetails(item: AgendaItem): {
     if (paper) {
       paperLastUpdate = latestValidDate(paper.modified, paper.created);
 
-      if (paper.auxiliaryFile?.length) {
-        attachmentHtml = paper.auxiliaryFile.map(formatAttachmentLink).join('');
+      for (const file of paper.auxiliaryFile ?? []) {
+        attachmentsById.set(file.id, file);
       }
     }
   }
 
-  return { attachmentHtml, paperLastUpdate };
+  return { attachments: [...attachmentsById.values()], paperLastUpdate };
 }
 
 /** Format a short numeric 'de-DE' date, or a placeholder when the date is missing/invalid */
@@ -84,11 +90,30 @@ function formatGermanDate(date: Date | undefined): string {
 
 /** Format auxiliary file metadata for display */
 function formatAttachmentLink(file: OParlFile): string {
-  const correctedUrl = normalizeOParlUrl(file.downloadUrl);
+  const correctedUrl = safeHttpUrl(normalizeOParlUrl(file.downloadUrl));
+  if (!correctedUrl) return '';
   const createdDate = formatGermanDate(parseValidDate(file.created));
   const modifiedDate = formatGermanDate(parseValidDate(file.modified));
 
-  return `<a href="${correctedUrl}">${file.name} (Erstellt am: ${createdDate}, Aktualisiert am: ${modifiedDate})</a><br>`;
+  return `<a href="${escapeHtml(correctedUrl)}">${escapeHtml(file.name)} (Erstellt am: ${createdDate}, Aktualisiert am: ${modifiedDate})</a><br>`;
+}
+
+function escapeHtml(value: string): string {
+  return value
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#39;');
+}
+
+function safeHttpUrl(value: string): string | undefined {
+  try {
+    const url = new URL(value);
+    return url.protocol === 'http:' || url.protocol === 'https:' ? url.href : undefined;
+  } catch {
+    return undefined;
+  }
 }
 
 /** Format a meeting date to 'de-DE' locale, or a placeholder when the date is missing/invalid */
@@ -110,10 +135,11 @@ function appendAgendaItem(
 ): void {
   if (!agendaItem.number) return;
 
-  const meetingId = meeting.id.split('/').pop();
-  const agendaItemUrl = `https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-${meetingId}#top${agendaItem.number}`;
+  const meetingId = meeting.id.split('/').pop() ?? '';
+  const agendaItemUrl = `https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-${encodeURIComponent(meetingId)}#top${encodeURIComponent(agendaItem.number)}`;
 
-  const { attachmentHtml, paperLastUpdate } = resolveAgendaItemPaperDetails(agendaItem);
+  const { attachments, paperLastUpdate } = resolveAgendaItemPaperDetails(agendaItem);
+  const attachmentHtml = attachments.map(formatAttachmentLink).join('');
 
   const itemCreated = parseValidDate(agendaItem.created);
   const itemModified = parseValidDate(agendaItem.modified);
@@ -123,21 +149,28 @@ function appendAgendaItem(
   // Prefer the meeting's own date over the generic fallback so a date-less agenda item still
   // sorts near its meeting rather than at the epoch floor.
   const mostRecentDate =
-    latestValidDate(itemModified, itemCreated, paperLastUpdate) ??
+    latestValidDate(
+      itemModified,
+      itemCreated,
+      meeting.modified,
+      meeting.created,
+      paperLastUpdate,
+      ...attachments.flatMap((file) => [file.modified, file.created]),
+    ) ??
     parseValidDate(meeting.start) ??
     fallbackDate;
   const publishedDate = itemCreated ?? itemModified ?? mostRecentDate;
 
   feed.addItem({
-    title: agendaItem.name,
+    title: escapeHtml(agendaItem.name),
     id: agendaItem.id,
     link: agendaItemUrl,
     author: [{ name: meeting.name }],
-    description: agendaItem.name,
+    description: escapeHtml(agendaItem.name),
     content: `
-      <b>Sitzung:</b> ${meeting.name}<br>
+      <b>Sitzung:</b> ${escapeHtml(meeting.name)}<br>
       <b>Datum:</b> ${meetingDay}<br>
-      <b>TOP ${agendaItem.number}:</b> ${agendaItem.name}<br><br>
+      <b>TOP ${escapeHtml(agendaItem.number)}:</b> ${escapeHtml(agendaItem.name)}<br><br>
       <b>Anhänge:</b><br> ${attachmentHtml}
     `,
     date: mostRecentDate,
