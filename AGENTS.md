@@ -21,14 +21,16 @@ This repository builds and publishes an Atom feed for Karlsruhe city council age
    - `tagesordnungspunkte.xml` (or `FEED_FILENAME` override).
    - `meetings/<meetingId>.json` and `papers/<paperId>.json` — **one JSON object per record** (see below). These are the two largest, most git-churning stores.
    - `consultations.json`, `organizations.json` — kept as single monolithic files (small, low churn).
-   - `file-contents.json` (index) plus one per-record `file-contents/<fileId>.txt` file per extracted document (the single source of truth for extracted text).
+   - `file-contents/<fileId>.json` — **one metadata object per file** (see below), co-located next to its `file-contents/<fileId>.txt` (the single source of truth for extracted text). The metadata JSON never contains the extracted text.
 
-### Per-record store layout (`meetings/`, `papers/`)
+### Per-record store layout (`meetings/`, `papers/`, `file-contents/`)
 
 - `PerRecordStore` (`src/store/per-record-store.ts`) persists each record to `docs/<entity>/<recordId>.json`. `recordId` is the last path segment of the record's `id` URL (`extractRecordId`), sanitized to a safe basename (`sanitizeRecordId`); filename collisions fail loudly rather than overwrite.
 - **File format (viewer contract):** exactly one JSON object per file — the full record, not a single-element array. Serialization is canonical (`canonicalStringify`): object keys sorted recursively, 2-space indent, UTF-8, single trailing newline. This makes an unchanged record byte-identical every run so git dedupes its blob; only changed/new records are rewritten each run (dirty tracking).
 - **Deletion:** an OParl `deleted:true` tombstone removes the record; its file is unlinked by the post-write orphan sweep (any `docs/<entity>/*.json` whose id is not in the store is removed, always *after* all writes succeed).
 - **Migration:** if `docs/<entity>/` is absent but the legacy `docs/<entity>.json` exists, the store loads the legacy array, then the next persist writes the per-record files and deletes the legacy file (one-time cutover).
+
+- **`file-contents/` (metadata) — `FileContentStore`, `src/store/file-content-store.ts`:** does *not* extend `PerRecordStore` (it also owns PDF-extraction scheduling and the `changedFileIds` re-resolution signal) but mirrors the same pattern. Each file's metadata is one canonical JSON object at `docs/file-contents/<fileId>.json` with fields `{ id, downloadUrl, fileModified, lastModifiedExtractedDate?, hasExtractedText }` — **never the extracted text**, which stays in the co-located `<fileId>.txt`. `<fileId>` uses the same `sanitizeRecordId(extractRecordId(id))` basename as the .txt so a metadata record and its text share a name. Dirty tracking compares each record's canonical metadata against the exact bytes last loaded/written, so only changed metadata is rewritten. The post-write orphan sweep is scoped to `*.json` only, so sibling `.txt` files are never deleted by mistake. **Migration:** when `docs/file-contents/` holds no `*.json` files but the legacy `docs/file-contents.json` index exists, the store loads from it and the next persist writes the per-record metadata files and deletes the legacy index (one-time cutover; the directory already exists because it holds the `.txt` files).
 
 ## PDF Text Extraction
 
@@ -47,9 +49,9 @@ This repository builds and publishes an Atom feed for Karlsruhe city council age
 ## Caching and Refresh Strategy
 
 - This repo is a **complete archive**: meetings, papers, and organizations are stored **add-only**. Fetches upsert by `id` and never wipe records that drop out of the collection (e.g. meetings/papers that become member-only and 401, or a truncated crawl that omits the tail). Records are removed **only** on an explicit OParl `deleted: true` tombstone (handled in `BaseStore.add`). A full reconciliation (`modified_since` undefined) therefore refreshes every currently-exposed object without deleting the rest.
-- Stores serialize to `docs/`; reruns are incremental thanks to `modified_since`. Meetings and papers are **per-record files** (`docs/meetings/`, `docs/papers/`) so a run only rewrites the records that actually changed — this is what keeps git history small and removes the 100 MB-per-file ceiling. Consultations and organizations stay as single files. The `--clear-cache` flag only clears in-memory maps; it does not delete files.
-- To force a full refetch/re-extract: delete the relevant per-record directory (`docs/meetings/`, `docs/papers/`) or monolithic file (`docs/*.json`) plus the `docs/file-contents*` directories, then run `npm run generate -- --clear-cache`. On the next run the per-record stores rebuild the whole directory.
-- No single `docs/` file may exceed GitHub's 100 MB limit. Per-record files keep meetings/papers well under it, and extracted text lives in per-record `file-contents/<fileId>.txt` files — avoid reintroducing large single-file artifacts.
+- Stores serialize to `docs/`; reruns are incremental thanks to `modified_since`. Meetings, papers, and file-contents metadata are **per-record files** (`docs/meetings/`, `docs/papers/`, `docs/file-contents/`) so a run only rewrites the records that actually changed — this is what keeps git history small and removes the 100 MB-per-file ceiling. Consultations and organizations stay as single files. The `--clear-cache` flag only clears in-memory maps; it does not delete files.
+- To force a full refetch/re-extract: delete the relevant per-record directory (`docs/meetings/`, `docs/papers/`, `docs/file-contents/`) or monolithic file (`docs/*.json`), then run `npm run generate -- --clear-cache`. On the next run the per-record stores rebuild the whole directory.
+- No single `docs/` file may exceed GitHub's 100 MB limit. Per-record files keep meetings, papers, and file-contents metadata well under it, and extracted text lives in per-record `file-contents/<fileId>.txt` files — avoid reintroducing large single-file artifacts.
 
 ## Repo Scripts
 
