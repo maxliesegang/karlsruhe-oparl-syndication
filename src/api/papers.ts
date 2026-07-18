@@ -10,11 +10,18 @@ export async function fetchAllPapers(modifiedSince?: Date): Promise<void> {
 
   logger.info('Starting to fetch papers...');
 
+  const fetchedPapers: Paper[] = [];
   const { pageCount, totalItems } = await fetchAllPages<Paper>(
     initialUrl,
-    (papers) => papers.forEach((paper) => store.papers.add(paper)),
+    (papers) => fetchedPapers.push(...papers),
     { modifiedSince, fetchAllPages: config.fetchAllPages },
   );
+
+  if (modifiedSince) {
+    fetchedPapers.forEach((paper) => store.papers.add(paper));
+  } else {
+    store.papers.replaceAll(fetchedPapers);
+  }
 
   logger.info(`Finished fetching ${pageCount} page(s) with ${totalItems} papers.`);
 }

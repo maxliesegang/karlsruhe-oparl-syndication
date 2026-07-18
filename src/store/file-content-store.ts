@@ -3,7 +3,7 @@ import { config } from '../config.js';
 import { FileContentType } from '../types/file-content-type.js';
 import { isRecentFile } from '../utils.js';
 import { pdfExtractionQueue } from '../services/pdf-extraction-queue.js';
-import { readJsonFromFile, writeJsonToFile } from '../file-utils.js';
+import { atomicWriteFile, readJsonFromFile, writeJsonToFile } from '../file-utils.js';
 import { logger } from '../logger.js';
 import path from 'path';
 import fs from 'fs/promises';
@@ -150,7 +150,7 @@ class FileContentStore extends BaseStore<FileContentType> {
     for (const item of items) {
       if (item.extractedText) {
         const filePath = path.join(CONTENT_DIR, `${extractFileId(item.id)}.txt`);
-        await fs.writeFile(filePath, item.extractedText, 'utf8');
+        await atomicWriteFile(filePath, item.extractedText);
         count++;
       }
     }
@@ -163,13 +163,30 @@ class FileContentStore extends BaseStore<FileContentType> {
       chunks.push(items.slice(i, i + CHUNK_SIZE));
     }
 
+    const currentChunkFiles = new Set<string>();
     for (let i = 0; i < chunks.length; i++) {
+      const filename = `chunk-${i}.json`;
+      currentChunkFiles.add(filename);
       const chunkData = chunks[i].map((item) => ({
         id: item.id,
         fileId: extractFileId(item.id),
         extractedText: item.extractedText,
       }));
-      await fs.writeFile(path.join(CHUNKS_DIR, `chunk-${i}.json`), JSON.stringify(chunkData));
+      await atomicWriteFile(path.join(CHUNKS_DIR, filename), JSON.stringify(chunkData));
+    }
+
+    // Only remove surplus chunks after every current chunk has been written,
+    // so a failed write never triggers destructive cleanup.
+    const storedFiles = await fs.readdir(CHUNKS_DIR);
+    const obsoleteChunkFiles = storedFiles.filter(
+      (filename) => /^chunk-\d+\.json$/.test(filename) && !currentChunkFiles.has(filename),
+    );
+    await Promise.all(
+      obsoleteChunkFiles.map((filename) => fs.unlink(path.join(CHUNKS_DIR, filename))),
+    );
+
+    if (obsoleteChunkFiles.length > 0) {
+      logger.info(`Removed ${obsoleteChunkFiles.length} obsolete chunk files`);
     }
     logger.info(`Wrote ${chunks.length} chunk files`);
   }

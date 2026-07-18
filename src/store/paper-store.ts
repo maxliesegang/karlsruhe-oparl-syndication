@@ -53,6 +53,27 @@ class PaperStore extends BaseStore<Paper> {
     this.updatedPaperIds.add(paper.id);
   }
 
+  protected onItemRemove(paper: Paper): void {
+    this.removePaperMappings(paper.id);
+    this.updatedPaperIds.add(paper.id);
+  }
+
+  private removePaperMappings(paperId: string): void {
+    for (const consultationId of this.paperConsultations.get(paperId) ?? []) {
+      if (this.consultationPapers.get(consultationId) === paperId) {
+        this.consultationPapers.delete(consultationId);
+      }
+    }
+    this.paperConsultations.delete(paperId);
+
+    for (const fileId of this.paperFiles.get(paperId) ?? []) {
+      const paperIds = this.filePapers.get(fileId);
+      paperIds?.delete(paperId);
+      if (paperIds?.size === 0) this.filePapers.delete(fileId);
+    }
+    this.paperFiles.delete(paperId);
+  }
+
   private handleFileUpdates(paper: Paper): void {
     if (!paper.auxiliaryFile) return;
 

@@ -3,6 +3,7 @@ import { Meeting } from '../types/index.js';
 
 class MeetingStore extends BaseStore<Meeting> {
   private organizationMeetings: Map<string, Set<string>> = new Map();
+  private meetingOrganizations: Map<string, Set<string>> = new Map();
 
   getFileName(): string {
     return 'meetings.json';
@@ -13,7 +14,9 @@ class MeetingStore extends BaseStore<Meeting> {
   }
 
   protected onItemAdd(meeting: Meeting): void {
-    for (const orgId of meeting.organization) {
+    this.removeFromOrganizationIndex(meeting.id);
+    const organizationIds = new Set(meeting.organization ?? []);
+    for (const orgId of organizationIds) {
       let orgMeetings = this.organizationMeetings.get(orgId);
       if (!orgMeetings) {
         orgMeetings = new Set();
@@ -21,6 +24,24 @@ class MeetingStore extends BaseStore<Meeting> {
       }
       orgMeetings.add(meeting.id);
     }
+    this.meetingOrganizations.set(meeting.id, organizationIds);
+  }
+
+  protected onItemLoad(meeting: Meeting): void {
+    this.onItemAdd(meeting);
+  }
+
+  protected onItemRemove(meeting: Meeting): void {
+    this.removeFromOrganizationIndex(meeting.id);
+  }
+
+  private removeFromOrganizationIndex(meetingId: string): void {
+    for (const organizationId of this.meetingOrganizations.get(meetingId) ?? []) {
+      const meetingIds = this.organizationMeetings.get(organizationId);
+      meetingIds?.delete(meetingId);
+      if (meetingIds?.size === 0) this.organizationMeetings.delete(organizationId);
+    }
+    this.meetingOrganizations.delete(meetingId);
   }
 
   getMeetingsByOrganizationId(organizationId: string): Meeting[] {
@@ -31,6 +52,12 @@ class MeetingStore extends BaseStore<Meeting> {
     return Array.from(meetingIds)
       .map((id) => this.getById(id))
       .filter((m): m is Meeting => m !== undefined);
+  }
+
+  clearAllItems(): void {
+    super.clearAllItems();
+    this.organizationMeetings.clear();
+    this.meetingOrganizations.clear();
   }
 }
 

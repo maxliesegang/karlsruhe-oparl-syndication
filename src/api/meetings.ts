@@ -10,11 +10,18 @@ export async function fetchAllMeetings(modifiedSince?: Date): Promise<void> {
 
   logger.info('Starting to fetch meetings...');
 
+  const fetchedMeetings: Meeting[] = [];
   const { pageCount, totalItems } = await fetchAllPages<Meeting>(
     initialUrl,
-    (meetings) => meetings.forEach((meeting) => store.meetings.add(meeting)),
+    (meetings) => fetchedMeetings.push(...meetings),
     { modifiedSince, fetchAllPages: config.fetchAllPages },
   );
+
+  if (modifiedSince) {
+    fetchedMeetings.forEach((meeting) => store.meetings.add(meeting));
+  } else {
+    store.meetings.replaceAll(fetchedMeetings);
+  }
 
   logger.info(`Finished fetching ${pageCount} page(s) with ${totalItems} meetings.`);
 }

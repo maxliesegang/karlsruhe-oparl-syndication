@@ -52,13 +52,14 @@ All options can be set via environment variables or a `.env` file at the repo ro
 | `ORGANIZATIONS_API_URL` | Karlsruhe endpoint | OParl organizations list URL |
 | `FEED_TITLE` | `Alle Tagesordnungspunkte` | Feed title |
 | `FEED_DESCRIPTION` | — | Feed description |
-| `FEED_ID` / `FEED_LINK` | `http://localhost:8080/` | Feed identity and link |
+| `FEED_ID` / `FEED_LINK` | Public GitHub Pages URL | Feed identity and link |
 | `FEED_FILENAME` | `tagesordnungspunkte.xml` | Full feed output filename |
 | `FEED_FILENAME_RECENT` | `tagesordnungspunkte-recent.xml` | Recent feed output filename |
 | `AUTHOR_NAME` / `AUTHOR_EMAIL` / `AUTHOR_LINK` | — | Feed author |
 | `EXTRACT_PDF_TEXT` | `true` | Extract text from referenced PDFs |
 | `FETCH_ALL_PAGES` | `true` | Paginate through all API pages |
 | `REQUEST_DELAY` | `1000` | Delay between API requests (ms) |
+| `FULL_RECONCILIATION_INTERVAL_DAYS` | `7` | Days between authoritative full meeting/paper crawls |
 
 ### PDF Text Extraction
 
@@ -73,7 +74,7 @@ Papers reference auxiliary PDF files. When `EXTRACT_PDF_TEXT=true`, recent files
 Stores serialize to `docs/*.json`. Each run is incremental — only changed records are re-fetched.
 
 ```sh
-# Force a full re-fetch without clearing persisted files:
+# Ignore persisted caches and perform a full re-fetch:
 npm run generate -- --clear-cache
 
 # Full reset (re-fetches and re-extracts everything):

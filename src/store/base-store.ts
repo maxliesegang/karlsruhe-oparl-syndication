@@ -21,9 +21,31 @@ export abstract class BaseStore<T extends { id: string }> {
     // Override in subclass if needed
   }
 
+  protected onItemRemove(_item: T): void {
+    // Override in subclass if needed
+  }
+
   add(item: T): void {
+    if ((item as T & { deleted?: boolean }).deleted) {
+      this.removeById(item.id);
+      return;
+    }
     this.itemStore.set(item.id, item);
     this.onItemAdd(item);
+  }
+
+  removeById(id: string): boolean {
+    const item = this.itemStore.get(id);
+    if (!item) return false;
+    this.onItemRemove(item);
+    return this.itemStore.delete(id);
+  }
+
+  replaceAll(items: T[]): void {
+    this.clearAllItems();
+    for (const item of items) {
+      this.add(item);
+    }
   }
 
   getById(id: string): T | undefined {

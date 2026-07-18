@@ -7,6 +7,7 @@ import { correctUrl } from './utils.js';
 import { store } from './store/index.js';
 import { FEED_GENERATOR } from './constants.js';
 import { logger } from './logger.js';
+import { atomicWriteFile } from './file-utils.js';
 
 /** Initialize a new feed with given metadata */
 async function initializeFeed(newUpdated: Date): Promise<Feed> {
@@ -20,7 +21,7 @@ async function initializeFeed(newUpdated: Date): Promise<Feed> {
     generator: FEED_GENERATOR,
     copyright: config.feedCopyright,
     feedLinks: {
-      atom: `${config.feedLink}${config.feedFilename}`,
+      atom: new URL(config.feedFilename, config.feedLink).href,
     },
     author: {
       name: config.authorName,
@@ -165,14 +166,17 @@ export async function writeFeedToFile(feed: Feed): Promise<void> {
   const publicDir = path.join(import.meta.dirname, '..', 'docs');
   await fs.mkdir(publicDir, { recursive: true });
   const outputPath = path.join(publicDir, config.feedFilename);
-  await fs.writeFile(outputPath, atomFeed, { encoding: 'utf8', flag: 'w' });
+  await atomicWriteFile(outputPath, atomFeed);
   logger.info(`Feed has been saved to ${outputPath}`);
 }
 
 /** Write a trimmed feed containing only the most recent items to the file system */
 export async function writeTrimmedFeedToFile(feed: Feed, limit = 50): Promise<void> {
+  const recentFeedUrl = new URL(config.feedFilenameRecent, config.feedLink).href;
   const trimmedFeed = new Feed({
     ...feed.options,
+    id: recentFeedUrl,
+    feedLinks: { atom: recentFeedUrl },
     description: feed.options.description ?? '',
     link: feed.options.link ?? '',
     copyright: feed.options.copyright ?? '',
@@ -190,6 +194,6 @@ export async function writeTrimmedFeedToFile(feed: Feed, limit = 50): Promise<vo
   const publicDir = path.join(import.meta.dirname, '..', 'docs');
   await fs.mkdir(publicDir, { recursive: true });
   const outputPath = path.join(publicDir, config.feedFilenameRecent);
-  await fs.writeFile(outputPath, atomFeed, { encoding: 'utf8', flag: 'w' });
+  await atomicWriteFile(outputPath, atomFeed);
   logger.info(`Trimmed feed (last ${limit} items) has been saved to ${outputPath}`);
 }

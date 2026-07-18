@@ -11,11 +11,13 @@ export async function fetchAllOrganizations(): Promise<void> {
 
   logger.info('Starting to fetch organizations...');
 
+  const fetchedOrganizations: Organization[] = [];
   const { pageCount, totalItems } = await fetchAllPages<Organization>(
     initialUrl,
-    (organizations) => organizations.forEach((org) => store.organizations.add(org)),
+    (organizations) => fetchedOrganizations.push(...organizations),
     { fetchAllPages: true },
   );
+  store.organizations.replaceAll(fetchedOrganizations);
 
   logger.info(`Finished fetching ${pageCount} page(s) with ${totalItems} organizations.`);
 }
