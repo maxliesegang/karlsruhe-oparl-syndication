@@ -1,5 +1,5 @@
-import { BaseStore } from './base-store';
-import { Consultation } from '../types';
+import { BaseStore } from './base-store.js';
+import { Consultation } from '../types/index.js';
 
 class ConsultationStore extends BaseStore<Consultation> {
   getFileName(): string {

@@ -1,5 +1,5 @@
-import { BaseStore } from './base-store';
-import { Meeting } from '../types';
+import { BaseStore } from './base-store.js';
+import { Meeting } from '../types/index.js';
 
 class MeetingStore extends BaseStore<Meeting> {
   private organizationMeetings: Map<string, Set<string>> = new Map();

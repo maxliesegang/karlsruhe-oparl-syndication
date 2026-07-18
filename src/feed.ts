@@ -1,12 +1,12 @@
 import { Feed } from 'feed';
 import fs from 'fs/promises';
 import path from 'path';
-import { AgendaItem, AuxiliaryFile, Meeting } from './types';
-import { config } from './config';
-import { correctUrl } from './utils';
-import { store } from './store';
-import { FEED_GENERATOR } from './constants';
-import { logger } from './logger';
+import { AgendaItem, AuxiliaryFile, Meeting } from './types/index.js';
+import { config } from './config.js';
+import { correctUrl } from './utils.js';
+import { store } from './store/index.js';
+import { FEED_GENERATOR } from './constants.js';
+import { logger } from './logger.js';
 
 /** Initialize a new feed with given metadata */
 async function initializeFeed(newUpdated: Date): Promise<Feed> {

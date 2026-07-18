@@ -1,9 +1,9 @@
-import { Organization } from '../types';
-import { store } from '../store';
-import { config } from '../config';
-import { fetchAllPages } from './http';
-import { API_LIMIT } from '../constants';
-import { logger } from '../logger';
+import { Organization } from '../types/index.js';
+import { store } from '../store/index.js';
+import { config } from '../config.js';
+import { fetchAllPages } from './http.js';
+import { API_LIMIT } from '../constants.js';
+import { logger } from '../logger.js';
 
 // Note: Organizations API does not support modified_since parameter
 export async function fetchAllOrganizations(): Promise<void> {

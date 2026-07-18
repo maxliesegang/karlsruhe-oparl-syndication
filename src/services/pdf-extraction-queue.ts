@@ -1,5 +1,5 @@
-import { pdfService } from './pdf-service';
-import { logger } from '../logger';
+import { pdfService } from './pdf-service.js';
+import { logger } from '../logger.js';
 
 const MAX_CONCURRENT = 10;
 const MAX_QUEUE_SIZE = 1000;

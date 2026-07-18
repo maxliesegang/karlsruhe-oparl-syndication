@@ -1,10 +1,10 @@
-export { Meeting } from './meeting-type';
-export { Location } from './location-type';
-export { File } from './file-type';
-export { AgendaItem } from './agenda-item-type';
-export { Consultation } from './consultation-type';
-export { Paper } from './paper-type';
-export { Organization } from './organization-type';
+export { Meeting } from './meeting-type.js';
+export { Location } from './location-type.js';
+export { File } from './file-type.js';
+export { AgendaItem } from './agenda-item-type.js';
+export { Consultation } from './consultation-type.js';
+export { Paper } from './paper-type.js';
+export { Organization } from './organization-type.js';
 
 // AuxiliaryFile is semantically the same as File
-export type { File as AuxiliaryFile } from './file-type';
+export type { File as AuxiliaryFile } from './file-type.js';

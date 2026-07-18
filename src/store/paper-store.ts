@@ -1,7 +1,7 @@
-import { BaseStore } from './base-store';
-import { Paper } from '../types';
-import { store } from './index';
-import { FileContentType } from '../types/file-content-type';
+import { BaseStore } from './base-store.js';
+import { Paper } from '../types/index.js';
+import { store } from './index.js';
+import { FileContentType } from '../types/file-content-type.js';
 
 class PaperStore extends BaseStore<Paper> {
   private consultationPapers: Map<string, string> = new Map();

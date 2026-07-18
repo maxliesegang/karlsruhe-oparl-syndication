@@ -1,5 +1,5 @@
-import { File } from './file-type';
-import { Consultation } from './consultation-type';
+import { File } from './file-type.js';
+import { Consultation } from './consultation-type.js';
 
 export interface Paper {
   id: string;

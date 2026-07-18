@@ -1,10 +1,10 @@
-import { BaseStore } from './base-store';
-import { config } from '../config';
-import { FileContentType } from '../types/file-content-type';
-import { isRecentFile } from '../utils';
-import { pdfExtractionQueue } from '../services/pdf-extraction-queue';
-import { readJsonFromFile, writeJsonToFile } from '../file-utils';
-import { logger } from '../logger';
+import { BaseStore } from './base-store.js';
+import { config } from '../config.js';
+import { FileContentType } from '../types/file-content-type.js';
+import { isRecentFile } from '../utils.js';
+import { pdfExtractionQueue } from '../services/pdf-extraction-queue.js';
+import { readJsonFromFile, writeJsonToFile } from '../file-utils.js';
+import { logger } from '../logger.js';
 import path from 'path';
 import fs from 'fs/promises';
 

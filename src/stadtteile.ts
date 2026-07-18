@@ -44,7 +44,7 @@ function buildSearchPatterns(): SearchPattern[] {
 
   for (const stadtteil of KARLSRUHE_STADTTEILE) {
     // Full name — allow hyphen, space, or en-dash between compound parts
-    const escaped = escapeRegex(stadtteil).replace(/\\-/g, '[-\\s–]');
+    const escaped = escapeRegex(stadtteil).replace(/-/g, '[-\\s–]');
     patterns.push({
       regex: new RegExp(`\\b${escaped}\\b`, 'i'),
       stadtteil,

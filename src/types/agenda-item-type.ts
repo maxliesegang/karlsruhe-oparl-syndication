@@ -1,4 +1,4 @@
-import { File } from './file-type';
+import { File } from './file-type.js';
 
 export interface AgendaItem {
   id: string;

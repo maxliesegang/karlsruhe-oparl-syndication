@@ -1,9 +1,9 @@
-import { store } from '../store';
-import { createFeed, writeFeedToFile, writeTrimmedFeedToFile } from '../feed';
-import { fetchAllMeetings, fetchAllOrganizations, fetchAllPapers } from '../api';
-import { config } from '../config';
-import { analyzeStadtteile } from './stadtteil-service';
-import { logger } from '../logger';
+import { store } from '../store/index.js';
+import { createFeed, writeFeedToFile, writeTrimmedFeedToFile } from '../feed.js';
+import { fetchAllMeetings, fetchAllOrganizations, fetchAllPapers } from '../api/index.js';
+import { config } from '../config.js';
+import { analyzeStadtteile } from './stadtteil-service.js';
+import { logger } from '../logger.js';
 
 async function fetchAllData(): Promise<void> {
   logger.info('Fetching data from OParl API...');

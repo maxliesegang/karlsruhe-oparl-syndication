@@ -1,6 +1,6 @@
-import { Location } from './location-type';
-import { File } from './file-type';
-import { AgendaItem } from './agenda-item-type';
+import { Location } from './location-type.js';
+import { File } from './file-type.js';
+import { AgendaItem } from './agenda-item-type.js';
 
 export interface Meeting {
   id: string;

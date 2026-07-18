@@ -1,5 +1,5 @@
-import { readJsonFromFile, writeJsonToFile } from '../file-utils';
-import { logger } from '../logger';
+import { readJsonFromFile, writeJsonToFile } from '../file-utils.js';
+import { logger } from '../logger.js';
 
 interface Timestamped {
   id: string;

@@ -1,7 +1,7 @@
-import { Consultation } from '../types';
-import { store } from '../store';
-import { fetchOne } from './http';
-import { logger } from '../logger';
+import { Consultation } from '../types/index.js';
+import { store } from '../store/index.js';
+import { fetchOne } from './http.js';
+import { logger } from '../logger.js';
 
 export async function fetchConsultation(url: string): Promise<Consultation | null> {
   logger.debug(`Fetching consultation from: ${url}`);

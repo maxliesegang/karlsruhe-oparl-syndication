@@ -1,9 +1,9 @@
-import { Meeting } from '../types';
-import { store } from '../store';
-import { config } from '../config';
-import { fetchAllPages, fetchOne } from './http';
-import { API_LIMIT } from '../constants';
-import { logger } from '../logger';
+import { Meeting } from '../types/index.js';
+import { store } from '../store/index.js';
+import { config } from '../config.js';
+import { fetchAllPages, fetchOne } from './http.js';
+import { API_LIMIT } from '../constants.js';
+import { logger } from '../logger.js';
 
 export async function fetchAllMeetings(modifiedSince?: Date): Promise<void> {
   const initialUrl = `${config.allMeetingsApiUrl}?limit=${API_LIMIT}`;

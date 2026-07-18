@@ -1,8 +1,8 @@
 import axios from 'axios';
 import { PDFParse } from 'pdf-parse';
-import { correctUrl } from '../utils';
-import { PDF_MIME_TYPE } from '../constants';
-import { logger } from '../logger';
+import { correctUrl } from '../utils.js';
+import { PDF_MIME_TYPE } from '../constants.js';
+import { logger } from '../logger.js';
 
 export class PdfService {
   /**

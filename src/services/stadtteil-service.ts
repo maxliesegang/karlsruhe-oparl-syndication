@@ -1,8 +1,8 @@
-import { store } from '../store';
-import { Paper } from '../types';
-import { findStadtteile, Stadtteil } from '../stadtteile';
-import { readJsonFromFile, writeJsonToFile } from '../file-utils';
-import { logger } from '../logger';
+import { store } from '../store/index.js';
+import { Paper } from '../types/index.js';
+import { findStadtteile, Stadtteil } from '../stadtteile.js';
+import { readJsonFromFile, writeJsonToFile } from '../file-utils.js';
+import { logger } from '../logger.js';
 
 const OUTPUT_FILE = 'paper-stadtteile.json';
 const META_FILE = 'paper-stadtteile-meta.json';

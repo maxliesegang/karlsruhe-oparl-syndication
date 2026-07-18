@@ -1,8 +1,8 @@
-import { meetingStore } from './meeting-store';
-import { paperStore } from './paper-store';
-import { consultationStore } from './consultation-store';
-import { organizationStore } from './organization-store';
-import { fileContentStore } from './file-content-store';
+import { meetingStore } from './meeting-store.js';
+import { paperStore } from './paper-store.js';
+import { consultationStore } from './consultation-store.js';
+import { organizationStore } from './organization-store.js';
+import { fileContentStore } from './file-content-store.js';
 
 export const store = {
   meetings: meetingStore,

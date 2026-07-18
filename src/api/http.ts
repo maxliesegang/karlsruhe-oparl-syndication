@@ -1,8 +1,8 @@
 import axios, { AxiosInstance, AxiosResponse } from 'axios';
 import axiosRetry from 'axios-retry';
-import { config } from '../config';
-import { correctUrl } from '../utils';
-import { logger } from '../logger';
+import { config } from '../config.js';
+import { correctUrl } from '../utils.js';
+import { logger } from '../logger.js';
 
 /** Configured axios instance with retry logic */
 const httpClient: AxiosInstance = axios.create({
