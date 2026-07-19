@@ -50,7 +50,7 @@ interface PersistedFileContentMetadata {
  * canonical-serialization, dirty-tracking and orphan-sweep pattern here.
  */
 class FileContentStore extends BaseStore<FileContent> {
-  private persistedFileCount = 0;
+  private persistedRecordCount = 0;
   private changedFileIds: Set<string> = new Set();
   /**
    * Exact on-disk content of each record's metadata file, keyed by id. Lets
@@ -97,7 +97,7 @@ class FileContentStore extends BaseStore<FileContent> {
     return path.join(this.contentDirectory(), `${this.recordBasename(id)}.txt`);
   }
 
-  private toIndexEntry(item: FileContent): PersistedFileContentMetadata {
+  private toPersistedMetadata(item: FileContent): PersistedFileContentMetadata {
     return {
       id: item.id,
       downloadUrl: item.downloadUrl,
@@ -220,7 +220,7 @@ class FileContentStore extends BaseStore<FileContent> {
 
     const fileContents = this.getAll();
     logger.info(
-      `${fileContents.length - this.persistedFileCount} new items. Total: ${fileContents.length}`,
+      `${fileContents.length - this.persistedRecordCount} new items. Total: ${fileContents.length}`,
     );
 
     // Map every current record to its metadata filename, failing loudly on any
@@ -233,7 +233,7 @@ class FileContentStore extends BaseStore<FileContent> {
     // Write only the metadata records whose canonical serialization changed.
     const metadataWrites: Array<{ item: FileContent; canonical: string }> = [];
     for (const item of fileContents) {
-      const canonical = canonicalStringify(this.toIndexEntry(item));
+      const canonical = canonicalStringify(this.toPersistedMetadata(item));
       if (this.persistedMetadataById.get(item.id) === canonical) continue;
       metadataWrites.push({ item, canonical });
     }
@@ -255,7 +255,7 @@ class FileContentStore extends BaseStore<FileContent> {
     // the sibling .txt files are never touched.
     const removed = await removeOrphanJsonFiles(dir, currentJsonFiles, {
       storeName: CONTENT_DIR_NAME,
-      priorRecordCount: this.persistedFileCount,
+      priorRecordCount: this.persistedRecordCount,
     });
 
     // One-time migration cutover: once per-record metadata exists, the legacy
@@ -271,7 +271,7 @@ class FileContentStore extends BaseStore<FileContent> {
       `file-contents/: ${written} metadata written, ${removed} removed, ` +
         `${withoutExtractedTextCount}/${fileContents.length} without extracted text`,
     );
-    this.persistedFileCount = fileContents.length;
+    this.persistedRecordCount = fileContents.length;
     this.dirtyTextIds.clear();
   }
 
@@ -326,7 +326,7 @@ class FileContentStore extends BaseStore<FileContent> {
     }
 
     this.itemsById = fileContentsById;
-    this.persistedFileCount = fileContentsById.size;
+    this.persistedRecordCount = fileContentsById.size;
     logger.info(`Loaded ${fileContentsById.size} file content records`);
   }
 
@@ -370,7 +370,7 @@ class FileContentStore extends BaseStore<FileContent> {
     }
 
     this.itemsById = fileContentsById;
-    this.persistedFileCount = fileContentsById.size;
+    this.persistedRecordCount = fileContentsById.size;
     logger.info(
       `Migrating ${fileContentsById.size} records from legacy ${LEGACY_INDEX_NAME} to ${CONTENT_DIR_NAME}/`,
     );

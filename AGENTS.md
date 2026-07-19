@@ -12,7 +12,7 @@ This repository builds and publishes an Atom feed for Karlsruhe city council age
 
 ## Data Pipeline (what `generate` does)
 
-1) Load caches from `docs/*.json` and `docs/file-contents*` into in-memory stores.  
+1) Load caches into in-memory stores: the per-record dirs `docs/meetings/`, `docs/papers/`, `docs/file-contents/` (plus co-located `.txt` extracted text) and the monolithic `docs/consultations.json` / `docs/organizations.json`.  
 2) Fetch data:
    - Organizations: full crawl (no `modified_since` support).
    - Meetings & Papers: paginated fetch (`limit=1000`) with `modified_since = lastModified - 1 day`; toggle full pagination via `FETCH_ALL_PAGES` (default true). Requests run sequentially through `RequestQueue` with `REQUEST_DELAY` ms between items (default 1000) and axios-retry (3 tries).
@@ -36,15 +36,18 @@ This repository builds and publishes an Atom feed for Karlsruhe city council age
 
 - Controlled by `EXTRACT_PDF_TEXT` (default true). Only files whose `fileModified` falls within the last 3 years (`isRecentFile`) are considered.
 - Queue settings: max 10 concurrent, ~1s batch delay, capped at 1000 queued items; extractions happen while fetching and are awaited before persistence.
+- Downloads (`pdf-service.ts`) go through a retrying axios client built by `createRetryingHttpClient` (shared with the OParl API client), with a per-request timeout (`PDF_DOWNLOAD_TIMEOUT_MS`) and response-size cap (`PDF_MAX_CONTENT_BYTES`). This keeps PDF fetches off the polite sequential `requestQueue` while still retrying transient failures.
 - Failures are logged; 4xx responses stay at debug to avoid noise. To skip extraction entirely, set `EXTRACT_PDF_TEXT=false`.
 
 ## Configuration (from `src/config.ts`, dotenv-enabled)
 
 - API: `MEETINGS_API_URL`, `PAPERS_API_URL`, `ORGANIZATIONS_API_URL` (defaults to Karlsruhe endpoints).
-- Feed: `FEED_TITLE`, `FEED_DESCRIPTION`, `FEED_ID`, `FEED_LINK`, `FEED_FILENAME`, `FEED_LANGUAGE`, `FEED_COPYRIGHT`.
+- Feed: `FEED_TITLE`, `FEED_DESCRIPTION`, `FEED_ID`, `FEED_LINK`, `FEED_FILENAME`, `FEED_FILENAME_RECENT`, `FEED_LANGUAGE`, `FEED_COPYRIGHT`.
 - Author: `AUTHOR_NAME`, `AUTHOR_EMAIL`, `AUTHOR_LINK`.
 - Flags: `EXTRACT_PDF_TEXT` (default true), `FETCH_ALL_PAGES` (default true).
 - Rate limiting: `REQUEST_DELAY` (ms, default 1000).
+- Reconciliation: `FULL_RECONCILIATION_INTERVAL_DAYS` (default 7) — how often the incremental cursors are ignored for an authoritative full crawl.
+- PDF limits: `PDF_DOWNLOAD_TIMEOUT_MS` (default 30000), `PDF_MAX_CONTENT_BYTES` (default 50 MiB).
 
 ## Caching and Refresh Strategy
 
@@ -67,6 +70,7 @@ This repository builds and publishes an Atom feed for Karlsruhe city council age
 
 ## Operational Notes
 
+- HTTP: `src/api/http-client.ts` exposes `createRetryingHttpClient` — the single source of the retry policy (axios + axios-retry: 3 tries, honours `Retry-After`, retries network/timeout/429/503). `src/api/http.ts` builds the shared JSON `httpClient` and the sequential `requestQueue` (spaces API requests by `REQUEST_DELAY` ms); `PdfService` instantiates its own retrying client so bulk PDF downloads stay off that queue. Reuse the factory for any new outbound HTTP rather than re-configuring retries.
 - `normalizeOParlUrl` rewrites `/oparl/` to `/ris/oparl/`; rely on it when storing URLs.
 - `OPARL_PAGE_SIZE` is fixed at 1000; `FETCH_ALL_PAGES=false` will truncate after first page.
 - Logging lives in `src/logger.ts` with ANSI color; respects `LOG_LEVEL` env.

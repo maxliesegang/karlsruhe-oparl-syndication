@@ -1,8 +1,9 @@
 import { pdfService } from './pdf-service.js';
+import { delay } from '../utils.js';
 import { logger } from '../logger.js';
 
-const MAX_CONCURRENT = 10;
-const MAX_QUEUE_SIZE = 1000;
+const MAX_CONCURRENT_EXTRACTIONS = 10;
+const MAX_QUEUED_EXTRACTIONS = 1000;
 const BATCH_DELAY_MS = 1000;
 
 interface ExtractionItem {
@@ -21,7 +22,7 @@ class PdfExtractionQueue {
 
   /** Adds an extraction task to the queue */
   add(url: string, onSuccess: (text: string) => void): void {
-    if (this.queue.length >= MAX_QUEUE_SIZE) {
+    if (this.queue.length >= MAX_QUEUED_EXTRACTIONS) {
       logger.warn(`Extraction queue full, skipping: ${url}`);
       return;
     }
@@ -54,7 +55,7 @@ class PdfExtractionQueue {
     }
 
     this.isProcessing = true;
-    const batch = this.queue.splice(0, MAX_CONCURRENT);
+    const batch = this.queue.splice(0, MAX_CONCURRENT_EXTRACTIONS);
     logger.debug(`Processing ${batch.length} extractions. Remaining: ${this.queue.length}`);
 
     const batchPromises = batch.map(({ url, onSuccess }) => this.extractOne(url, onSuccess));
@@ -85,7 +86,5 @@ class PdfExtractionQueue {
     }
   }
 }
-
-const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 export const pdfExtractionQueue = new PdfExtractionQueue();

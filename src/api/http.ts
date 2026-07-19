@@ -1,40 +1,18 @@
 import axios, { AxiosInstance, AxiosResponse } from 'axios';
-import axiosRetry from 'axios-retry';
 import { config } from '../config.js';
-import { normalizeOParlUrl } from '../utils.js';
+import { delay, normalizeOParlUrl } from '../utils.js';
 import { logger } from '../logger.js';
+import { createRetryingHttpClient } from './http-client.js';
 
-/** Configured axios instance with retry logic */
-const httpClient: AxiosInstance = axios.create({
+/** Shared client for OParl JSON collections and resources. */
+const httpClient: AxiosInstance = createRetryingHttpClient({
   timeout: 30000,
   // Ask for JSON explicitly so a misconfigured endpoint is less likely to answer
   // with an HTML error page that would parse into a non-collection body.
   headers: { Accept: 'application/json' },
 });
 
-/** HTTP statuses that are safe and worth retrying (rate limiting / transient unavailability). */
-const RETRYABLE_STATUS_CODES = new Set([429, 503]);
-
-axiosRetry(httpClient, {
-  retries: 3,
-  retryDelay: (retryCount, error) => {
-    // Honor Retry-After (seconds) when the server provides it, e.g. on 429/503.
-    const retryAfter = Number(error?.response?.headers?.['retry-after']);
-    if (Number.isFinite(retryAfter) && retryAfter > 0) {
-      return retryAfter * 1000;
-    }
-    return retryCount * 1000;
-  },
-  retryCondition: (error) =>
-    axiosRetry.isNetworkOrIdempotentRequestError(error) ||
-    error.code === 'ECONNABORTED' ||
-    (error.response?.status !== undefined && RETRYABLE_STATUS_CODES.has(error.response.status)),
-});
-
 export { httpClient, normalizeOParlUrl };
-
-/** Delay helper */
-const delay = (ms: number): Promise<void> => new Promise((resolve) => setTimeout(resolve, ms));
 
 /**
  * A queue that processes HTTP requests sequentially with configurable delay.

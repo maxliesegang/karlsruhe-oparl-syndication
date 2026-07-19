@@ -41,23 +41,23 @@ export class PaperStore extends PerRecordStore<Paper> {
   }
 
   protected onItemLoad(paper: Paper): void {
-    this.synchronizeConsultationMappings(paper);
-    this.synchronizeFileMappings(paper);
+    this.reindexConsultations(paper);
+    this.reindexFiles(paper);
   }
 
   protected onItemAdd(paper: Paper): void {
-    this.synchronizeConsultationMappings(paper);
-    this.synchronizeFileMappings(paper);
-    this.synchronizeFileContentMetadata(paper);
+    this.reindexConsultations(paper);
+    this.reindexFiles(paper);
+    this.registerAuxiliaryFileContents(paper);
     this.updatedPaperIds.add(paper.id);
   }
 
   protected onItemRemove(paper: Paper): void {
-    this.removePaperMappings(paper.id);
+    this.removePaperFromIndexes(paper.id);
     this.updatedPaperIds.add(paper.id);
   }
 
-  private removePaperMappings(paperId: string): void {
+  private removePaperFromIndexes(paperId: string): void {
     for (const consultationId of this.consultationIdsByPaperId.get(paperId) ?? []) {
       if (this.paperIdByConsultationId.get(consultationId) === paperId) {
         this.paperIdByConsultationId.delete(consultationId);
@@ -73,7 +73,7 @@ export class PaperStore extends PerRecordStore<Paper> {
     this.fileIdsByPaperId.delete(paperId);
   }
 
-  private synchronizeFileContentMetadata(paper: Paper): void {
+  private registerAuxiliaryFileContents(paper: Paper): void {
     if (!paper.auxiliaryFile) return;
 
     const fileContentStore = stores.fileContents;
@@ -88,7 +88,7 @@ export class PaperStore extends PerRecordStore<Paper> {
     }
   }
 
-  private synchronizeConsultationMappings(paper: Paper): void {
+  private reindexConsultations(paper: Paper): void {
     const previousConsultations = this.consultationIdsByPaperId.get(paper.id) ?? new Set<string>();
     const nextConsultations = new Set(
       (paper.consultation ?? []).map((consultation) => consultation.id),
@@ -114,7 +114,7 @@ export class PaperStore extends PerRecordStore<Paper> {
     }
   }
 
-  private synchronizeFileMappings(paper: Paper): void {
+  private reindexFiles(paper: Paper): void {
     const previousFileIds = this.fileIdsByPaperId.get(paper.id) ?? new Set<string>();
     const nextFileIds = new Set((paper.auxiliaryFile ?? []).map((file) => file.id));
 

@@ -1,15 +1,11 @@
 import { Feed } from 'feed';
-import fs from 'fs/promises';
-import path from 'path';
 import { AgendaItem, OParlFile, Meeting } from './types/index.js';
 import { config } from './config.js';
 import { normalizeOParlUrl, latestValidDate, parseValidDate } from './utils.js';
 import { stores } from './store/index.js';
 import { FEED_GENERATOR } from './constants.js';
 import { logger } from './logger.js';
-import { atomicWriteFile } from './file-utils.js';
-
-const PUBLIC_DIR = path.join(import.meta.dirname, '..', 'docs');
+import { atomicWriteFile, docsPath } from './file-utils.js';
 
 /**
  * Deterministic fallback for entries (and an empty feed) that have no usable
@@ -19,8 +15,8 @@ const PUBLIC_DIR = path.join(import.meta.dirname, '..', 'docs');
  */
 const FALLBACK_DATE = new Date(0);
 
-/** Initialize a new feed with given metadata. */
-function createFeedContainer(updatedAt: Date): Feed {
+/** Initialize a new, empty feed with the given metadata. */
+function createEmptyFeed(updatedAt: Date): Feed {
   return new Feed({
     title: config.feedTitle,
     description: config.feedDescription,
@@ -116,6 +112,21 @@ function safeHttpUrl(value: string): string | undefined {
   }
 }
 
+/** Render the HTML body shown for a single agenda-item entry. */
+function renderEntryContent(
+  meeting: Meeting,
+  agendaItem: AgendaItem,
+  meetingDay: string,
+  attachmentHtml: string,
+): string {
+  return `
+      <b>Sitzung:</b> ${escapeHtml(meeting.name)}<br>
+      <b>Datum:</b> ${meetingDay}<br>
+      <b>TOP ${escapeHtml(agendaItem.number ?? '')}:</b> ${escapeHtml(agendaItem.name)}<br><br>
+      <b>Anhänge:</b><br> ${attachmentHtml}
+    `;
+}
+
 /** Add an agenda item to the feed. */
 function appendAgendaItem(
   feed: Feed,
@@ -157,12 +168,7 @@ function appendAgendaItem(
     link: agendaItemUrl,
     author: [{ name: meeting.name }],
     description: escapeHtml(agendaItem.name),
-    content: `
-      <b>Sitzung:</b> ${escapeHtml(meeting.name)}<br>
-      <b>Datum:</b> ${meetingDay}<br>
-      <b>TOP ${escapeHtml(agendaItem.number)}:</b> ${escapeHtml(agendaItem.name)}<br><br>
-      <b>Anhänge:</b><br> ${attachmentHtml}
-    `,
+    content: renderEntryContent(meeting, agendaItem, meetingDay, attachmentHtml),
     date: mostRecentDate,
     published: publishedDate,
   });
@@ -182,11 +188,11 @@ function findLatestFeedEntryDate(feed: Feed): Date | undefined {
 /** Create the feed with metadata and meetings */
 export async function buildAgendaFeed(
   meetings: Meeting[],
-  fallbackUpdatedAt: Date = FALLBACK_DATE,
+  fallbackDate: Date = FALLBACK_DATE,
 ): Promise<Feed> {
   logger.info('Starting to create feed...');
-  const feed = createFeedContainer(fallbackUpdatedAt);
-  appendMeetingAgendaItems(feed, meetings, fallbackUpdatedAt);
+  const feed = createEmptyFeed(fallbackDate);
+  appendMeetingAgendaItems(feed, meetings, fallbackDate);
   // Sort newest-first with a stable id tiebreaker so the serialized order is fully
   // deterministic (independent of readdir/Map insertion order). Without this the full
   // feed's byte output — and its git diff — depended on filesystem enumeration order.
@@ -197,7 +203,7 @@ export async function buildAgendaFeed(
   // unchanged run produces a byte-identical feed. That lets git dedupe the blob and lets
   // subscribers' readers get a 304 instead of re-downloading the whole feed every poll.
   // Falls back to the deterministic fallback only when the feed is empty.
-  feed.options.updated = findLatestFeedEntryDate(feed) ?? fallbackUpdatedAt;
+  feed.options.updated = findLatestFeedEntryDate(feed) ?? fallbackDate;
   logger.info('Finished creating feed.');
   return feed;
 }
@@ -233,8 +239,8 @@ export async function writeRecentFeed(feed: Feed, maximumItemCount = 100): Promi
 }
 
 async function writeSerializedFeed(feed: Feed, fileName: string): Promise<string> {
-  await fs.mkdir(PUBLIC_DIR, { recursive: true });
-  const outputPath = path.join(PUBLIC_DIR, fileName);
+  // atomicWriteFile creates the parent directory, so no explicit mkdir is needed.
+  const outputPath = docsPath(fileName);
   await atomicWriteFile(outputPath, feed.atom1());
   return outputPath;
 }

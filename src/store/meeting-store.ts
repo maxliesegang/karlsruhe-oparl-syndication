@@ -13,25 +13,29 @@ export class MeetingStore extends PerRecordStore<Meeting> {
   }
 
   protected onItemAdd(meeting: Meeting): void {
-    this.removeFromOrganizationIndex(meeting.id);
-    const organizationIds = new Set(meeting.organization ?? []);
-    for (const orgId of organizationIds) {
-      let orgMeetings = this.meetingIdsByOrganizationId.get(orgId);
-      if (!orgMeetings) {
-        orgMeetings = new Set();
-        this.meetingIdsByOrganizationId.set(orgId, orgMeetings);
-      }
-      orgMeetings.add(meeting.id);
-    }
-    this.organizationIdsByMeetingId.set(meeting.id, organizationIds);
+    this.reindexOrganizations(meeting);
   }
 
   protected onItemLoad(meeting: Meeting): void {
-    this.onItemAdd(meeting);
+    this.reindexOrganizations(meeting);
   }
 
   protected onItemRemove(meeting: Meeting): void {
     this.removeFromOrganizationIndex(meeting.id);
+  }
+
+  private reindexOrganizations(meeting: Meeting): void {
+    this.removeFromOrganizationIndex(meeting.id);
+    const organizationIds = new Set(meeting.organization ?? []);
+    for (const organizationId of organizationIds) {
+      let meetingIds = this.meetingIdsByOrganizationId.get(organizationId);
+      if (!meetingIds) {
+        meetingIds = new Set();
+        this.meetingIdsByOrganizationId.set(organizationId, meetingIds);
+      }
+      meetingIds.add(meeting.id);
+    }
+    this.organizationIdsByMeetingId.set(meeting.id, organizationIds);
   }
 
   private removeFromOrganizationIndex(meetingId: string): void {

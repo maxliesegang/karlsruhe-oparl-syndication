@@ -1,3 +1,8 @@
+/** Resolves after the given number of milliseconds. */
+export function delay(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 /** Corrects OParl URLs to use the /ris/oparl/ path */
 export function normalizeOParlUrl(url: string): string {
   if (url.includes('/ris/')) {

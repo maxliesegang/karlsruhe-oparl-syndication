@@ -1,11 +1,23 @@
-import axios from 'axios';
+import axios, { AxiosInstance } from 'axios';
 import { PDFParse } from 'pdf-parse';
 import { normalizeOParlUrl } from '../utils.js';
+import { createRetryingHttpClient } from '../api/http-client.js';
 import { PDF_MIME_TYPE } from '../constants.js';
 import { config } from '../config.js';
 import { logger } from '../logger.js';
 
+/** Reduces an error to a loggable shape, avoiding noisy stack/circular fields. */
+function simplifyError(error: unknown): unknown {
+  return error instanceof Error
+    ? { message: error.message, details: (error as { details?: unknown }).details }
+    : error;
+}
+
 export class PdfService {
+  // Reuse the project's retry policy so transient 429/503/network failures on a
+  // download are retried, matching how OParl collection requests behave.
+  private readonly httpClient: AxiosInstance = createRetryingHttpClient();
+
   /**
    * Extracts text from a PDF file at the given URL
    * @param url The URL of the PDF file
@@ -16,7 +28,7 @@ export class PdfService {
     try {
       const correctedUrl = normalizeOParlUrl(url);
 
-      const response = await axios.get(correctedUrl, {
+      const response = await this.httpClient.get(correctedUrl, {
         responseType: 'arraybuffer',
         headers: { Accept: PDF_MIME_TYPE },
         timeout: config.pdfDownloadTimeoutMs,
@@ -37,11 +49,7 @@ export class PdfService {
 
   private handleExtractionError(error: unknown, originalUrl: string): void {
     if (!axios.isAxiosError(error)) {
-      const simplified =
-        error instanceof Error
-          ? { message: error.message, details: (error as { details?: unknown }).details }
-          : error;
-      logger.error('PDF download failed', { url: originalUrl, error: simplified });
+      logger.error('PDF download failed', { url: originalUrl, error: simplifyError(error) });
       return;
     }
 
@@ -57,12 +65,7 @@ export class PdfService {
       return;
     }
 
-    const simplifiedError =
-      error instanceof Error
-        ? { message: error.message, details: (error as { details?: unknown }).details }
-        : error;
-
-    logger.warn('Error parsing PDF', { url, status, error: simplifiedError });
+    logger.warn('Error parsing PDF', { url, status, error: simplifyError(error) });
   }
 }
 
