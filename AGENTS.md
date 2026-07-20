@@ -65,6 +65,7 @@ This repository builds and publishes an Atom feed for Karlsruhe city council age
 - `npm run lint` / `npm run lint:fix` — ESLint (typescript-eslint).
 - `npm test` / `npm run test:watch` — run Vitest once / in watch mode.
 - `npm run smoke` — load the compiled module graph without fetching remote data.
+- `npm run validate:feed` — check the generated feeds in `docs/` before committing them.
 - `npm run format` — Prettier on `src/**/*.ts`.
 - `npm run serve` — static server for `docs/` on port 8080.
 
@@ -77,9 +78,18 @@ This repository builds and publishes an Atom feed for Karlsruhe city council age
 - Tests live in `tests/`; add regression coverage before refactoring the pipeline or store persistence logic.
 - Avoid hand-editing generated `docs/` artifacts unless debugging; regenerate instead.
 
+## Feed Validation
+
+- `npm run validate:feed` (`src/validate-feed.ts`) gates the generated feeds — both `FEED_FILENAME` and `FEED_FILENAME_RECENT` — and is what CI runs after `npm run generate`. It exits non-zero on: a missing file, malformed XML, zero entries, or an entry count below 90% of the committed version (the archive is add-only, so a large drop means a broken run).
+- The checks themselves live in `src/feed-validation.ts` as pure functions so they are unit-testable (`tests/feed-validation.test.ts`); the CLI only does file/git I/O and reporting.
+- Entries are counted from the parsed tree, not by grepping `<entry>`, so a change in how the `feed` library emits tags cannot silently zero out the drop-off guard.
+- **Control characters are checked explicitly.** XML 1.0 forbids most of them and the `feed` library passes them through unescaped, so text extracted from a PDF can produce a feed that no reader will parse. fast-xml-parser accepts these characters, so `findInvalidXmlCharacter` scans for them separately — do not drop that scan on the assumption the parser covers it.
+- Previously this ran as inline shell using `xmllint`, which broke when GitHub's runner image stopped shipping `libxml2-utils`. Keep validation in-repo rather than reintroducing a dependency on runner-provided tools.
+
 ## Safe Contribution Checklist
 
 - Install deps → run `npm run typecheck && npm run lint && npm test && npm run build && npm run smoke` before PRs.
 - After code changes that affect output, run `npm run generate` and include updated `docs/` artifacts if they are part of the deliverable.
+- After `npm run generate`, run `npm run validate:feed` before committing regenerated `docs/` artifacts.
 - Verify feed locally via `npm run serve` and open `/tagesordnungspunkte.xml`.
 - Be mindful of network load on Karlsruhe OParl; adjust `REQUEST_DELAY` if APIs appear rate-limited.
