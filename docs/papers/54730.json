@@ -55,7 +55,7 @@
       "created": "2026-07-14T08:44:57+02:00",
       "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37683",
       "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10566",
-      "modified": "2026-07-14T08:44:57+02:00",
+      "modified": "2026-07-22T09:30:00+02:00",
       "organization": [
         "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
       ],
@@ -67,10 +67,14 @@
   "created": "2026-07-13T09:05:17+02:00",
   "date": "2026-07-13",
   "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54730",
-  "modified": "2026-07-17T12:48:53+02:00",
+  "modified": "2026-07-22T13:37:37+02:00",
   "name": "Schließung zweier Wertstoffstationen Schäferstraße (Hagsfeld) und Fettweisstraße (Daxlanden) und Änderung der Öffnungszeiten der Wertstoffstationen und Schadstoffannahmestellen der Stadt Karlsruhe",
   "paperType": "Beschlussvorlage",
   "reference": "2026/0365/1",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54761",
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54766"
+  ],
   "type": "https://schema.oparl.org/1.1/Paper",
   "underDirectionOf": [
     "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882978"
