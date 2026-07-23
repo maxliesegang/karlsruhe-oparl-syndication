@@ -75,6 +75,20 @@
       "type": "https://schema.oparl.org/1.1/AgendaItem"
     }
   ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679910.pdf",
+      "created": "2026-07-23T17:04:14+02:00",
+      "date": "2026-07-23",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679910.pdf",
+      "fileName": "00679910.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679910",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-23T17:04:43+02:00",
+      "name": "Nr.24_16.06.2026_öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
   "created": "2025-10-08T14:09:37+02:00",
   "end": "2026-06-16T21:00:00+02:00",
   "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10457",
@@ -94,10 +108,10 @@
     "created": "2025-10-08T14:09:37+02:00",
     "description": "Bürgersaal, Rathaus Grünwettersbach, Am Wetterbach 40, 76228 Karlsruhe",
     "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10457",
-    "modified": "2026-06-19T09:45:31+02:00",
+    "modified": "2026-07-23T17:04:43+02:00",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-06-19T09:45:31+02:00",
+  "modified": "2026-07-23T17:04:43+02:00",
   "name": "Ortschaftsrat Wettersbach (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34965"
