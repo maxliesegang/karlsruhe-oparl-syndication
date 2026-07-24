@@ -37,6 +37,20 @@
       "type": "https://schema.oparl.org/1.1/AgendaItem"
     },
     {
+      "auxiliaryFile": [
+        {
+          "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679180.pdf",
+          "created": "2026-06-18T11:12:22+02:00",
+          "date": "2026-06-18",
+          "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679180.pdf",
+          "fileName": "00679180.pdf",
+          "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679180",
+          "mimeType": "application/pdf",
+          "modified": "2026-07-24T11:32:10+02:00",
+          "name": "ergänzende Stellungnahme zu Vorlage 2026-0324",
+          "type": "https://schema.oparl.org/1.1/File"
+        }
+      ],
       "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37309",
       "created": "2026-05-04T11:42:01+02:00",
       "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101514",
@@ -83,8 +97,20 @@
       "fileName": "00678813.pdf",
       "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678813",
       "mimeType": "application/pdf",
-      "modified": "2026-06-05T08:19:21+02:00",
+      "modified": "2026-07-24T11:32:10+02:00",
       "name": "Tagesordnung ö",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679914.pdf",
+      "created": "2026-07-24T11:25:35+02:00",
+      "date": "2026-07-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679914.pdf",
+      "fileName": "00679914.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679914",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-24T11:32:10+02:00",
+      "name": "ö Protokoll",
       "type": "https://schema.oparl.org/1.1/File"
     }
   ],
@@ -95,10 +121,10 @@
     "created": "2025-10-27T11:02:20+01:00",
     "description": "Begegnungsstätte Wolfartsweier, Rathausstr. 2a, 76228 Karlsruhe",
     "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10729",
-    "modified": "2026-06-08T16:06:33+02:00",
+    "modified": "2026-07-24T11:32:10+02:00",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-06-08T16:06:33+02:00",
+  "modified": "2026-07-24T11:32:10+02:00",
   "name": "Ortschaftsrat Wolfartsweier (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/35147"
