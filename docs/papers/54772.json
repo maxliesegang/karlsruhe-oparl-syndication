@@ -1,0 +1,69 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679942.pdf",
+      "created": "2026-07-28T07:02:08+02:00",
+      "date": "2026-07-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679942.pdf",
+      "fileName": "00679942.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679942",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-28T17:48:59+02:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679963.pdf",
+      "created": "2026-07-28T13:45:24+02:00",
+      "date": "2026-07-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679963.pdf",
+      "fileName": "00679963.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679963",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-28T17:48:59+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2026-07-28T16:17:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37740",
+      "modified": "2026-07-28T16:17:16+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54772",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102637",
+      "created": "2026-07-28T09:20:10+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37736",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10566",
+      "modified": "2026-07-28T16:16:04+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54772",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-07-28T07:01:50+02:00",
+  "date": "2026-07-28",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54772",
+  "modified": "2026-07-28T17:48:59+02:00",
+  "name": "Satzung zur Änderung der Hauptsatzung: Erweierung der Nutzungsrechte von Film- und Tonaufnahmen auf die Nutzung des eigenen Videos/Tons",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2026/0467/1",
+  "subordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54634"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882952"
+  ]
+}

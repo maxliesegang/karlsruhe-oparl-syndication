@@ -8,7 +8,7 @@
       "fileName": "00679366.pdf",
       "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679366",
       "mimeType": "application/pdf",
-      "modified": "2026-07-27T08:46:40+02:00",
+      "modified": "2026-07-28T17:48:35+02:00",
       "name": "Beschlussvorlage Livestream",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -20,7 +20,7 @@
       "fileName": "00679367.pdf",
       "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679367",
       "mimeType": "application/pdf",
-      "modified": "2026-07-27T08:46:40+02:00",
+      "modified": "2026-07-28T17:48:35+02:00",
       "name": "Anlage 1 Satzung zur Änderung der Hauptsatzung",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -32,7 +32,7 @@
       "fileName": "00679649.pdf",
       "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679649",
       "mimeType": "application/pdf",
-      "modified": "2026-07-27T08:46:40+02:00",
+      "modified": "2026-07-28T17:48:35+02:00",
       "name": "Anlage 2_Hauptsatzung_konsolidiert",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -44,8 +44,20 @@
       "fileName": "00679650.pdf",
       "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679650",
       "mimeType": "application/pdf",
-      "modified": "2026-07-27T08:46:40+02:00",
+      "modified": "2026-07-28T17:48:35+02:00",
       "name": "Anlage 3 Synopse",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679970.pdf",
+      "created": "2026-07-28T17:48:27+02:00",
+      "date": "2026-07-28",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679970.pdf",
+      "fileName": "00679970.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679970",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-28T17:48:35+02:00",
+      "name": "Abstimmungsergebnis TOP 6",
       "type": "https://schema.oparl.org/1.1/File"
     }
   ],
@@ -56,7 +68,7 @@
       "created": "2026-06-25T09:15:15+02:00",
       "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37543",
       "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10566",
-      "modified": "2026-06-30T09:08:31+02:00",
+      "modified": "2026-07-28T16:15:50+02:00",
       "organization": [
         "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
       ],
@@ -68,10 +80,13 @@
   "created": "2026-06-05T11:21:08+02:00",
   "date": "2026-06-08",
   "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54634",
-  "modified": "2026-07-27T08:46:39+02:00",
+  "modified": "2026-07-28T17:48:35+02:00",
   "name": "Satzung zur Änderung der Hauptsatzung",
   "paperType": "Beschlussvorlage",
   "reference": "2026/0467",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54772"
+  ],
   "type": "https://schema.oparl.org/1.1/Paper",
   "underDirectionOf": [
     "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/420351"
