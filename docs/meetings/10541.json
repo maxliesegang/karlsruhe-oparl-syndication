@@ -105,6 +105,20 @@
       "type": "https://schema.oparl.org/1.1/AgendaItem"
     }
   ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679988.pdf",
+      "created": "2026-07-30T12:58:54+02:00",
+      "date": "2026-07-30",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679988.pdf",
+      "fileName": "00679988.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679988",
+      "mimeType": "application/pdf",
+      "modified": "2026-07-30T12:59:15+02:00",
+      "name": "Protokoll",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
   "created": "2025-10-10T12:23:28+02:00",
   "end": "2026-06-24T18:30:00+02:00",
   "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10541",
@@ -131,7 +145,7 @@
     "subLocality": "",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-06-18T11:20:17+02:00",
+  "modified": "2026-07-30T12:59:15+02:00",
   "name": "Schulausschuss (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32806"
