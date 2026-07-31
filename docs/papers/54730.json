@@ -8,7 +8,7 @@
       "fileName": "00679703.pdf",
       "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679703",
       "mimeType": "application/pdf",
-      "modified": "2026-07-17T12:48:53+02:00",
+      "modified": "2026-07-31T10:39:53+02:00",
       "name": "Anlage 1_Aktuelle OeZ",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -20,7 +20,7 @@
       "fileName": "00679706.pdf",
       "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679706",
       "mimeType": "application/pdf",
-      "modified": "2026-07-17T12:48:53+02:00",
+      "modified": "2026-07-31T10:39:53+02:00",
       "name": "Anlage 2_Neue OeZ",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -32,7 +32,7 @@
       "fileName": "00679742.pdf",
       "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679742",
       "mimeType": "application/pdf",
-      "modified": "2026-07-17T12:48:53+02:00",
+      "modified": "2026-07-31T10:39:53+02:00",
       "name": "Beschlussvorlage",
       "type": "https://schema.oparl.org/1.1/File"
     }
@@ -40,22 +40,12 @@
   "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
   "consultation": [
     {
-      "created": "2026-07-13T09:05:17+02:00",
-      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37682",
-      "modified": "2026-07-13T09:05:17+02:00",
-      "organization": [
-        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54889"
-      ],
-      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54730",
-      "role": "Vorberatung",
-      "type": "https://schema.oparl.org/1.1/Consultation"
-    },
-    {
       "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102554",
+      "authoritative": true,
       "created": "2026-07-14T08:44:57+02:00",
       "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37683",
       "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10566",
-      "modified": "2026-07-28T09:21:15+02:00",
+      "modified": "2026-07-29T10:31:49+02:00",
       "organization": [
         "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
       ],
@@ -65,9 +55,9 @@
     }
   ],
   "created": "2026-07-13T09:05:17+02:00",
-  "date": "2026-07-13",
+  "date": "2026-07-31",
   "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54730",
-  "modified": "2026-07-27T15:44:57+02:00",
+  "modified": "2026-07-31T10:39:53+02:00",
   "name": "Schließung zweier Wertstoffstationen Schäferstraße (Hagsfeld) und Fettweisstraße (Daxlanden) und Änderung der Öffnungszeiten der Wertstoffstationen und Schadstoffannahmestellen der Stadt Karlsruhe",
   "paperType": "Beschlussvorlage",
   "reference": "2026/0365/1",
