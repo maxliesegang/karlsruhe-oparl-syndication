@@ -211,8 +211,13 @@ class FileContentStore extends BaseStore<FileContent> {
     return removed;
   }
 
-  async saveToDisk(): Promise<void> {
+  /** Wait until queued PDF work has updated the in-memory records. */
+  async waitForPendingExtractions(): Promise<void> {
     await pdfExtractionQueue.waitForCompletion();
+  }
+
+  async saveToDisk(): Promise<void> {
+    await this.waitForPendingExtractions();
     logger.info('Persisting file contents to disk');
 
     const dir = this.contentDirectory();

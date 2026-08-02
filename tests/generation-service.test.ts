@@ -4,13 +4,17 @@ const mocks = vi.hoisted(() => ({
   loadFromDisk: vi.fn(),
   clear: vi.fn(),
   saveToDisk: vi.fn(),
+  waitForPendingExtractions: vi.fn(),
   synchronizeOrganizations: vi.fn(),
   synchronizeMeetings: vi.fn(),
   synchronizePapers: vi.fn(),
-  buildAgendaFeed: vi.fn().mockResolvedValue({}),
+  buildAgendaFeedFromRecords: vi.fn().mockReturnValue({}),
+  buildAgendaItemRecords: vi.fn().mockReturnValue([]),
   writeFullFeed: vi.fn(),
   writeRecentFeed: vi.fn(),
+  writeFilteredFeeds: vi.fn(),
   updatePaperDistrictIndex: vi.fn(),
+  readPaperDistrictIndex: vi.fn().mockResolvedValue({}),
   resolveMissingConsultationPapers: vi.fn(),
   writeJsonToFile: vi.fn(),
   readJsonFromFile: vi.fn().mockResolvedValue(null),
@@ -26,6 +30,7 @@ vi.mock('../src/store/index.js', () => ({
       getAll: vi.fn().mockReturnValue([]),
     },
     papers: { getIncrementalSyncStart: vi.fn() },
+    fileContents: { waitForPendingExtractions: mocks.waitForPendingExtractions },
   },
 }));
 
@@ -36,13 +41,22 @@ vi.mock('../src/api/index.js', () => ({
 }));
 
 vi.mock('../src/feed.js', () => ({
-  buildAgendaFeed: mocks.buildAgendaFeed,
+  buildAgendaFeedFromRecords: mocks.buildAgendaFeedFromRecords,
   writeFullFeed: mocks.writeFullFeed,
   writeRecentFeed: mocks.writeRecentFeed,
 }));
 
+vi.mock('../src/filtered-feeds.js', () => ({
+  writeFilteredFeeds: mocks.writeFilteredFeeds,
+}));
+
 vi.mock('../src/services/district-index-service.js', () => ({
   updatePaperDistrictIndex: mocks.updatePaperDistrictIndex,
+  readPaperDistrictIndex: mocks.readPaperDistrictIndex,
+}));
+
+vi.mock('../src/services/agenda-item-record-service.js', () => ({
+  buildAgendaItemRecords: mocks.buildAgendaItemRecords,
 }));
 
 vi.mock('../src/file-utils.js', () => ({
@@ -55,6 +69,7 @@ vi.mock('../src/services/consultation-resolution-service.js', () => ({
 }));
 
 import { runFeedGeneration } from '../src/services/generation-service.js';
+import { config } from '../src/config.js';
 
 describe('generation service cache handling', () => {
   beforeEach(() => {
@@ -79,6 +94,31 @@ describe('generation service cache handling', () => {
     expect(mocks.loadFromDisk).toHaveBeenCalledOnce();
   });
 
+  it('waits for extraction and refreshes districts before building filtered records', async () => {
+    await runFeedGeneration();
+
+    const extractionOrder = mocks.waitForPendingExtractions.mock.invocationCallOrder[0];
+    const districtUpdateOrder = mocks.updatePaperDistrictIndex.mock.invocationCallOrder[0];
+    const districtReadOrder = mocks.readPaperDistrictIndex.mock.invocationCallOrder[0];
+    const recordBuildOrder = mocks.buildAgendaItemRecords.mock.invocationCallOrder[0];
+
+    expect(extractionOrder).toBeLessThan(districtUpdateOrder);
+    expect(districtUpdateOrder).toBeLessThan(districtReadOrder);
+    expect(districtReadOrder).toBeLessThan(recordBuildOrder);
+  });
+
+  it('caps the main feed while passing the complete record set to filtered feeds', async () => {
+    const records = Array.from({ length: config.feedMaxItemCount + 1 }, (_, id) => ({ id }));
+    mocks.buildAgendaItemRecords.mockReturnValueOnce(records);
+
+    await runFeedGeneration();
+
+    expect(mocks.buildAgendaFeedFromRecords).toHaveBeenCalledWith(
+      records.slice(0, config.feedMaxItemCount),
+    );
+    expect(mocks.writeFilteredFeeds).toHaveBeenCalledWith(records);
+  });
+
   it('still builds and persists when a fetch step fails', async () => {
     mocks.synchronizeMeetings.mockRejectedValueOnce(new Error('boom'));
 
@@ -86,7 +126,7 @@ describe('generation service cache handling', () => {
 
     // Remaining steps and persistence still run rather than the whole run aborting.
     expect(mocks.synchronizePapers).toHaveBeenCalledOnce();
-    expect(mocks.buildAgendaFeed).toHaveBeenCalledOnce();
+    expect(mocks.buildAgendaFeedFromRecords).toHaveBeenCalledOnce();
     expect(mocks.saveToDisk).toHaveBeenCalledOnce();
   });
 

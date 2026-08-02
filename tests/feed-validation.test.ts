@@ -6,6 +6,7 @@ import {
   FeedValidationError,
   findInvalidXmlCharacter,
   isEntryCountAcceptable,
+  validateFilteredFeedIndex,
   validateFeedXml,
 } from '../src/feed-validation.js';
 
@@ -118,7 +119,42 @@ describe('isEntryCountAcceptable', () => {
     expect(isEntryCountAcceptable(100, 89)).toBe(false);
   });
 
+  it('allows an intentional reduction to a configured ceiling', () => {
+    expect(isEntryCountAcceptable(18_113, 1_000, 1_000)).toBe(true);
+    expect(isEntryCountAcceptable(18_113, 999, 1_000)).toBe(false);
+  });
+
   it('derives the floor from the previous count', () => {
     expect(entryCountFloor(18105)).toBe(16294);
+  });
+});
+
+describe('validateFilteredFeedIndex', () => {
+  const descriptor = {
+    type: 'district',
+    id: 'Durlach',
+    title: 'Tagesordnungspunkte – Durlach',
+    path: 'stadtteile/durlach.xml',
+    url: 'https://example.test/stadtteile/durlach.xml',
+    entryCount: 12,
+  };
+
+  it('accepts and returns a valid index', () => {
+    expect(validateFilteredFeedIndex([descriptor])).toEqual([descriptor]);
+  });
+
+  it.each([
+    [{ ...descriptor, path: '../secret.xml' }, 'invalid path'],
+    [{ ...descriptor, url: 'ftp://example.test/stadtteile/durlach.xml' }, 'invalid URL'],
+    [{ ...descriptor, entryCount: 0 }, 'invalid entry count'],
+    [{ ...descriptor, type: 'topic' }, 'invalid feed type'],
+  ])('rejects invalid descriptors', (invalid, message) => {
+    expect(() => validateFilteredFeedIndex([invalid])).toThrow(message);
+  });
+
+  it('rejects duplicate paths', () => {
+    expect(() =>
+      validateFilteredFeedIndex([descriptor, { ...descriptor, id: 'another' }]),
+    ).toThrow('duplicate paths');
   });
 });

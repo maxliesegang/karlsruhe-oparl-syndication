@@ -1,11 +1,13 @@
 import { stores } from '../store/index.js';
-import { buildAgendaFeed, writeFullFeed, writeRecentFeed } from '../feed.js';
+import { buildAgendaFeedFromRecords, writeFullFeed, writeRecentFeed } from '../feed.js';
+import { writeFilteredFeeds } from '../filtered-feeds.js';
 import { synchronizeMeetings, synchronizeOrganizations, synchronizePapers } from '../api/index.js';
 import { config } from '../config.js';
-import { updatePaperDistrictIndex } from './district-index-service.js';
+import { readPaperDistrictIndex, updatePaperDistrictIndex } from './district-index-service.js';
 import { logger } from '../logger.js';
 import { resolveMissingConsultationPapers } from './consultation-resolution-service.js';
 import { readJsonFromFile, writeJsonToFile } from '../file-utils.js';
+import { buildAgendaItemRecords } from './agenda-item-record-service.js';
 
 interface GenerationManifest {
   version: number;
@@ -74,12 +76,15 @@ async function refreshOParlData(
 async function buildAndWriteFeeds(): Promise<void> {
   logger.info('Generating feed...');
   const meetings = stores.meetings.getAll();
-  // No run-clock argument: buildAgendaFeed uses a deterministic fallback so an unchanged
+  const districtIndex = await readPaperDistrictIndex();
+  const records = buildAgendaItemRecords(meetings, { districtIndex });
+  // No run-clock argument: feed construction uses a deterministic fallback so an unchanged
   // dataset produces a byte-identical feed (minimal git churn, working conditional GETs).
-  const feed = await buildAgendaFeed(meetings);
+  const feed = buildAgendaFeedFromRecords(records.slice(0, config.feedMaxItemCount));
   await writeFullFeed(feed);
   await writeRecentFeed(feed);
-  logger.info(`Feed saved as ${config.feedFileName} and ${config.recentFeedFileName}`);
+  await writeFilteredFeeds(records);
+  logger.info(`Main feeds saved as ${config.feedFileName} and ${config.recentFeedFileName}`);
 }
 
 /**
@@ -112,10 +117,13 @@ export async function runFeedGeneration(options: { clearCache?: boolean } = {}):
     logger.info('Performing authoritative meeting and paper reconciliation');
   }
   const { hadFailures } = await refreshOParlData(forceFullReconciliation);
+  // Refresh the enrichment before building feeds so changed papers and newly extracted
+  // text are reflected in Stadtteil categories during the same generation run.
+  await stores.fileContents.waitForPendingExtractions();
+  await updatePaperDistrictIndex();
   await buildAndWriteFeeds();
   await stores.saveToDisk();
   logger.info('Saved store data to disk');
-  await updatePaperDistrictIndex();
 
   // Only advance the reconciliation checkpoint when a full reconciliation actually
   // completed cleanly. A failed full run carries the previous timestamp forward (or
@@ -129,12 +137,15 @@ export async function runFeedGeneration(options: { clearCache?: boolean } = {}):
 
   await writeJsonToFile(
     {
-      version: 1,
+      version: 2,
       completedAt: new Date().toISOString(),
       fullReconciliationAt,
       artifacts: [
         config.feedFileName,
         config.recentFeedFileName,
+        'feed-index.json',
+        'gremien/',
+        'stadtteile/',
         'meetings/',
         'papers/',
         'consultations.json',

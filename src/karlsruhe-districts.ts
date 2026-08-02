@@ -31,6 +31,9 @@ const KARLSRUHE_DISTRICTS = [
 
 export type KarlsruheDistrict = (typeof KARLSRUHE_DISTRICTS)[number];
 
+/** Paper reference to detected Stadtteile, as stored in paper-stadtteile.json. */
+export type PaperDistrictIndex = Readonly<Record<string, readonly KarlsruheDistrict[] | undefined>>;
+
 interface DistrictSearchPattern {
   expression: RegExp;
   district: KarlsruheDistrict;

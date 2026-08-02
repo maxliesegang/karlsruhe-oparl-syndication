@@ -41,6 +41,7 @@ export const config = {
   feedCopyright: process.env.FEED_COPYRIGHT || 'Kein Copyright',
   feedFileName: process.env.FEED_FILENAME || 'tagesordnungspunkte.xml',
   recentFeedFileName: process.env.FEED_FILENAME_RECENT || 'tagesordnungspunkte-recent.xml',
+  feedMaxItemCount: parsePositiveInteger('FEED_MAX_ITEMS', process.env.FEED_MAX_ITEMS || '1000'),
 
   // Author info
   authorName: process.env.AUTHOR_NAME || 'Maximilian Liesegang',

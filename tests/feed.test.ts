@@ -5,13 +5,23 @@ const fsMocks = vi.hoisted(() => ({
   writeFile: vi.fn(),
   rename: vi.fn(),
   rm: vi.fn(),
+  readdir: vi.fn(),
+  unlink: vi.fn(),
 }));
 
 vi.mock('fs/promises', () => ({ default: fsMocks }));
 
 import { config } from '../src/config.js';
-import { buildAgendaFeed, writeRecentFeed } from '../src/feed.js';
-import type { Meeting, OParlFile } from '../src/types/index.js';
+import {
+  buildAgendaFeed,
+  buildAgendaFeedFromRecords,
+  writeRecentFeed,
+} from '../src/feed.js';
+import { slugifyFeedSegment } from '../src/filtered-feed-contract.js';
+import { buildFilteredFeedGroups, writeFilteredFeeds } from '../src/filtered-feeds.js';
+import { buildAgendaItemRecords } from '../src/services/agenda-item-record-service.js';
+import { stores } from '../src/store/index.js';
+import type { Meeting, OParlFile, Organization, Paper } from '../src/types/index.js';
 
 function attachment(overrides: Partial<OParlFile> = {}): OParlFile {
   return {
@@ -59,6 +69,7 @@ function meetingWithDates(created: string, modified: string, start: string): Mee
 describe('feed identity', () => {
   afterEach(() => {
     vi.clearAllMocks();
+    stores.clear();
   });
 
   it('uses absolute HTTPS production URLs in the default metadata', async () => {
@@ -217,5 +228,140 @@ describe('feed identity', () => {
     expect(xml).not.toContain('<img src=x');
     expect(xml).not.toContain('javascript:');
     expect(xml).toContain('&lt;script&gt;alert(1)&lt;/script&gt;');
+  });
+
+  it('builds joined records and emits organization, district and paper-type categories', () => {
+    const organizationId = 'https://example.test/organizations/42';
+    const consultationId = 'https://example.test/consultations/7';
+    const organization: Organization = {
+      id: organizationId,
+      type: 'Organization',
+      body: 'https://example.test/bodies/1',
+      name: 'Planungsausschuss',
+      shortName: 'PA',
+      startDate: '2020-01-01',
+      created: '2020-01-01T00:00:00Z',
+      modified: '2025-01-01T00:00:00Z',
+    };
+    const paper: Paper = {
+      id: 'https://example.test/papers/9',
+      type: 'Paper',
+      body: 'https://example.test/bodies/1',
+      name: 'Vorlage Durlach',
+      reference: '2025/9',
+      date: '2025-01-01',
+      paperType: 'Beschlussvorlage',
+      auxiliaryFile: [],
+      underDirectionOf: [],
+      consultation: [
+        {
+          id: consultationId,
+          type: 'Consultation',
+          agendaItem: 'https://example.test/agendaItems/1',
+          meeting: 'https://example.test/meetings/1',
+          organization: [organizationId],
+          role: 'beratend',
+          created: '2025-01-01T00:00:00Z',
+          modified: '2025-01-01T00:00:00Z',
+        },
+      ],
+      created: '2025-01-01T00:00:00Z',
+      modified: '2025-02-01T00:00:00Z',
+    };
+    stores.organizations.add(organization);
+    stores.papers.add(paper);
+
+    const meeting = meetingWithDates(
+      '2025-01-01T00:00:00Z',
+      '2025-01-02T00:00:00Z',
+      '2025-03-01T00:00:00Z',
+    );
+    meeting.organization = [organizationId];
+    meeting.agendaItem[0].consultation = consultationId;
+
+    const records = buildAgendaItemRecords([meeting], {
+      districtIndex: { '2025/9': ['Durlach'] },
+    });
+    expect(records[0]).toMatchObject({
+      paper: { id: paper.id },
+      organizations: [{ id: organizationId, name: 'Planungsausschuss' }],
+      districts: ['Durlach'],
+    });
+
+    const xml = buildAgendaFeedFromRecords(records).atom1();
+    expect(xml).toContain('term="https://example.test/organizations/42"');
+    expect(xml).toContain('term="durlach"');
+    expect(xml).toContain('term="Beschlussvorlage"');
+  });
+
+  it('writes discoverable committee and district feeds and removes stale feed files', async () => {
+    fsMocks.readdir.mockResolvedValueOnce(['42.xml', 'stale.xml']).mockResolvedValueOnce([]);
+    const meeting = meetingWithDates(
+      '2025-01-01T00:00:00Z',
+      '2025-01-02T00:00:00Z',
+      '2025-03-01T00:00:00Z',
+    );
+    meeting.organization = ['https://example.test/organizations/42'];
+    const records = buildAgendaItemRecords([meeting]);
+    records[0].organizations[0].name = 'Planungsausschuss';
+    records[0].districts = ['Südstadt'];
+
+    const descriptors = await writeFilteredFeeds(records);
+
+    expect(descriptors).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({ type: 'committee', path: 'gremien/42.xml', entryCount: 1 }),
+        expect.objectContaining({
+          type: 'district',
+          path: 'stadtteile/suedstadt.xml',
+          entryCount: 1,
+        }),
+      ]),
+    );
+    expect(fsMocks.unlink).toHaveBeenCalledWith(expect.stringMatching(/gremien\/stale\.xml$/));
+    expect(fsMocks.rename.mock.calls.map((call) => call[1])).toEqual(
+      expect.arrayContaining([
+        expect.stringMatching(/gremien\/42\.xml$/),
+        expect.stringMatching(/stadtteile\/suedstadt\.xml$/),
+        expect.stringMatching(/feed-index\.json$/),
+      ]),
+    );
+  });
+
+  it('fails before writing when filtered feed filenames collide', async () => {
+    const meeting = meetingWithDates(
+      '2025-01-01T00:00:00Z',
+      '2025-01-02T00:00:00Z',
+      '2025-03-01T00:00:00Z',
+    );
+    meeting.organization = [
+      'https://example.test/organizations/a:b',
+      'https://example.test/organizations/a?b',
+    ];
+
+    await expect(writeFilteredFeeds(buildAgendaItemRecords([meeting]))).rejects.toThrow(
+      'filename collision',
+    );
+    expect(fsMocks.writeFile).not.toHaveBeenCalled();
+  });
+
+  it('creates stable German URL slugs', () => {
+    expect(slugifyFeedSegment('Südstadt')).toBe('suedstadt');
+    expect(slugifyFeedSegment('Weiherfeld-Dammerstock')).toBe('weiherfeld-dammerstock');
+  });
+
+  it('caps each filtered feed independently', () => {
+    const meeting = meetingWithDates(
+      '2025-01-01T00:00:00Z',
+      '2025-01-02T00:00:00Z',
+      '2025-03-01T00:00:00Z',
+    );
+    meeting.organization = ['https://example.test/organizations/42'];
+    const record = buildAgendaItemRecords([meeting])[0];
+    record.districts = ['Durlach'];
+
+    const groups = buildFilteredFeedGroups([record, record, record], 2);
+    expect(groups).toHaveLength(2);
+    expect(groups.every((group) => group.records.length === 2)).toBe(true);
   });
 });

@@ -1,4 +1,9 @@
 import { XMLParser, XMLValidator } from 'fast-xml-parser';
+import {
+  FilteredFeedDescriptor,
+  FilteredFeedType,
+  isFilteredFeedPath,
+} from './filtered-feed-contract.js';
 
 /** Percentage of the previous entry count a regenerated feed must still reach. */
 export const ENTRY_COUNT_FLOOR_PERCENT = 90;
@@ -87,10 +92,81 @@ export function entryCountFloor(previousCount: number): number {
 }
 
 /**
- * The archive is add-only, so a large drop in entries means a broken run rather
- * than real data loss. A feed with no previous version has nothing to compare.
+ * A large drop below either the historical floor or a configured ceiling means
+ * a broken run. The ceiling permits an intentional one-time reduction of a
+ * previously unbounded feed while retaining the drop guard thereafter.
  */
-export function isEntryCountAcceptable(previousCount: number, newCount: number): boolean {
+export function isEntryCountAcceptable(
+  previousCount: number,
+  newCount: number,
+  maximumItemCount = Number.POSITIVE_INFINITY,
+): boolean {
   if (previousCount <= 0) return true;
-  return newCount >= entryCountFloor(previousCount);
+  return newCount >= Math.min(entryCountFloor(previousCount), maximumItemCount);
+}
+
+/** Validate and narrow the public feed-index JSON schema. */
+export function validateFilteredFeedIndex(value: unknown): FilteredFeedDescriptor[] {
+  if (!Array.isArray(value) || value.length === 0) {
+    throw new FeedValidationError('has no feeds');
+  }
+
+  const descriptors = value.map(validateFilteredFeedDescriptor);
+  const paths = descriptors.map((descriptor) => descriptor.path);
+  if (new Set(paths).size !== paths.length) {
+    throw new FeedValidationError('has duplicate paths');
+  }
+  return descriptors;
+}
+
+function validateFilteredFeedDescriptor(value: unknown): FilteredFeedDescriptor {
+  if (!value || typeof value !== 'object') {
+    throw new FeedValidationError('contains a non-object entry');
+  }
+
+  const descriptor = value as Partial<FilteredFeedDescriptor>;
+  if (descriptor.type !== 'committee' && descriptor.type !== 'district') {
+    throw new FeedValidationError('contains an invalid feed type');
+  }
+  assertNonEmptyString(descriptor.id, 'id');
+  assertNonEmptyString(descriptor.title, 'title');
+  if (typeof descriptor.path !== 'string' || !isFilteredFeedPath(descriptor.path)) {
+    throw new FeedValidationError('contains an invalid path');
+  }
+  if (!Number.isSafeInteger(descriptor.entryCount) || (descriptor.entryCount ?? 0) <= 0) {
+    throw new FeedValidationError('contains an invalid entry count');
+  }
+  assertMatchingFeedUrl(descriptor.url, descriptor.path);
+
+  return {
+    type: descriptor.type as FilteredFeedType,
+    id: descriptor.id as string,
+    title: descriptor.title as string,
+    path: descriptor.path,
+    url: descriptor.url as string,
+    entryCount: descriptor.entryCount as number,
+  };
+}
+
+function assertNonEmptyString(value: unknown, field: string): asserts value is string {
+  if (typeof value !== 'string' || value.trim().length === 0) {
+    throw new FeedValidationError(`contains an invalid ${field}`);
+  }
+}
+
+function assertMatchingFeedUrl(value: unknown, feedPath: string): asserts value is string {
+  if (typeof value !== 'string') {
+    throw new FeedValidationError('contains an invalid URL');
+  }
+  try {
+    const url = new URL(value);
+    if (
+      (url.protocol !== 'https:' && url.protocol !== 'http:') ||
+      !url.pathname.endsWith(`/${feedPath}`)
+    ) {
+      throw new Error('unexpected URL');
+    }
+  } catch {
+    throw new FeedValidationError('contains an invalid URL');
+  }
 }

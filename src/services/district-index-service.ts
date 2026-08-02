@@ -1,13 +1,17 @@
 import { stores } from '../store/index.js';
 import { Paper } from '../types/index.js';
-import { findKarlsruheDistricts, KarlsruheDistrict } from '../karlsruhe-districts.js';
+import {
+  findKarlsruheDistricts,
+  KarlsruheDistrict,
+  PaperDistrictIndex,
+} from '../karlsruhe-districts.js';
 import { readJsonFromFile, writeJsonToFile } from '../file-utils.js';
 import { logger } from '../logger.js';
 
 const DISTRICT_INDEX_FILE_NAME = 'paper-stadtteile.json';
 const PAPER_REFERENCE_INDEX_FILE_NAME = 'paper-stadtteile-meta.json';
 
-export type PaperDistrictIndex = Record<string, KarlsruheDistrict[]>;
+type MutablePaperDistrictIndex = Record<string, KarlsruheDistrict[]>;
 type PaperReferenceIndex = Record<string, string>;
 
 /** Updates Stadtteil matches incrementally for changed papers and extracted files. */
@@ -45,6 +49,11 @@ export async function updatePaperDistrictIndex(): Promise<void> {
   await writeIndexState(districtIndex, referenceIndex);
 }
 
+/** Loads the published index for feed enrichment after it has been updated. */
+export async function readPaperDistrictIndex(): Promise<PaperDistrictIndex> {
+  return (await readJsonFromFile<PaperDistrictIndex>(DISTRICT_INDEX_FILE_NAME)) ?? {};
+}
+
 /** Collects all searchable text for a paper: its name + all extracted file contents. */
 function collectSearchablePaperText(paper: Paper): string {
   const parts: string[] = [paper.name];
@@ -62,11 +71,12 @@ function collectSearchablePaperText(paper: Paper): string {
 }
 
 async function loadIndexState(): Promise<{
-  districtIndex: PaperDistrictIndex;
+  districtIndex: MutablePaperDistrictIndex;
   referenceIndex: PaperReferenceIndex;
   requiresFullRebuild: boolean;
 }> {
-  const storedDistrictIndex = await readJsonFromFile<PaperDistrictIndex>(DISTRICT_INDEX_FILE_NAME);
+  const storedDistrictIndex =
+    await readJsonFromFile<MutablePaperDistrictIndex>(DISTRICT_INDEX_FILE_NAME);
   const storedReferenceIndex = await readJsonFromFile<PaperReferenceIndex>(
     PAPER_REFERENCE_INDEX_FILE_NAME,
   );
@@ -108,7 +118,7 @@ function collectAffectedPaperIds(): Set<string> {
 
 function updatePaperDistricts(
   paper: Paper,
-  districtIndex: PaperDistrictIndex,
+  districtIndex: MutablePaperDistrictIndex,
   referenceIndex: PaperReferenceIndex,
 ): boolean {
   const previousReference = referenceIndex[paper.id];
@@ -136,7 +146,7 @@ function updatePaperDistricts(
 }
 
 function removeStalePaperEntries(
-  districtIndex: PaperDistrictIndex,
+  districtIndex: MutablePaperDistrictIndex,
   referenceIndex: PaperReferenceIndex,
 ): boolean {
   let removedAny = false;
@@ -151,7 +161,7 @@ function removeStalePaperEntries(
 }
 
 async function writeIndexState(
-  districtIndex: PaperDistrictIndex,
+  districtIndex: MutablePaperDistrictIndex,
   referenceIndex: PaperReferenceIndex,
 ): Promise<void> {
   await writeJsonToFile(districtIndex, DISTRICT_INDEX_FILE_NAME);

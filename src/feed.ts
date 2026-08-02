@@ -1,11 +1,12 @@
 import { Feed } from 'feed';
-import { AgendaItem, OParlFile, Meeting } from './types/index.js';
+import { OParlFile, Meeting } from './types/index.js';
 import { config } from './config.js';
-import { normalizeOParlUrl, latestValidDate, parseValidDate } from './utils.js';
-import { stores } from './store/index.js';
-import { FEED_GENERATOR } from './constants.js';
+import { normalizeOParlUrl, parseValidDate } from './utils.js';
+import { FEED_GENERATOR, RECENT_FEED_MAX_ITEMS } from './constants.js';
 import { logger } from './logger.js';
 import { atomicWriteFile, docsPath } from './file-utils.js';
+import { AgendaItemRecord, buildAgendaItemRecords } from './services/agenda-item-record-service.js';
+import { DISTRICT_FEED_DIRECTORY, slugifyFeedSegment } from './filtered-feed-contract.js';
 
 /**
  * Deterministic fallback for entries (and an empty feed) that have no usable
@@ -15,19 +16,40 @@ import { atomicWriteFile, docsPath } from './file-utils.js';
  */
 const FALLBACK_DATE = new Date(0);
 
+export interface FeedMetadata {
+  title: string;
+  description: string;
+  id: string;
+  link: string;
+  selfLink: string;
+}
+
+export interface BuildAgendaFeedOptions {
+  fallbackDate?: Date;
+  metadata?: FeedMetadata;
+  logProgress?: boolean;
+}
+
 /** Initialize a new, empty feed with the given metadata. */
-function createEmptyFeed(updatedAt: Date): Feed {
-  return new Feed({
+function createEmptyFeed(updatedAt: Date, metadata?: FeedMetadata): Feed {
+  const resolved = metadata ?? {
     title: config.feedTitle,
     description: config.feedDescription,
     id: config.feedId,
     link: config.feedBaseUrl,
+    selfLink: new URL(config.feedFileName, config.feedBaseUrl).href,
+  };
+  return new Feed({
+    title: resolved.title,
+    description: resolved.description,
+    id: resolved.id,
+    link: resolved.link,
     language: config.feedLanguage,
     updated: updatedAt,
     generator: FEED_GENERATOR,
     copyright: config.feedCopyright,
     feedLinks: {
-      atom: new URL(config.feedFileName, config.feedBaseUrl).href,
+      atom: resolved.selfLink,
     },
     author: {
       name: config.authorName,
@@ -35,43 +57,6 @@ function createEmptyFeed(updatedAt: Date): Feed {
       link: config.authorUrl,
     },
   });
-}
-
-/** Process all meetings and their agenda items, adding them to the feed. */
-function appendMeetingAgendaItems(feed: Feed, meetings: Meeting[], fallbackDate: Date): void {
-  for (const meeting of meetings) {
-    for (const item of meeting.agendaItem ?? []) {
-      // Feed publication is intentionally opt-in: a missing flag must not expose
-      // an item whose visibility the source did not establish.
-      if (item.public !== true) continue;
-      appendAgendaItem(feed, meeting, item, fallbackDate);
-    }
-  }
-}
-
-/** Resolve additional info for an agenda item's consultation from the local stores. */
-function resolveAgendaItemPaperDetails(item: AgendaItem): {
-  attachments: OParlFile[];
-  paperLastUpdate?: Date;
-} {
-  const attachmentsById = new Map<string, OParlFile>();
-  for (const file of item.auxiliaryFile ?? []) {
-    attachmentsById.set(file.id, file);
-  }
-  let paperLastUpdate: Date | undefined;
-
-  if (item.consultation) {
-    const paper = stores.papers.getPaperByConsultationId(item.consultation);
-    if (paper) {
-      paperLastUpdate = latestValidDate(paper.modified, paper.created);
-
-      for (const file of paper.auxiliaryFile ?? []) {
-        attachmentsById.set(file.id, file);
-      }
-    }
-  }
-
-  return { attachments: [...attachmentsById.values()], paperLastUpdate };
 }
 
 /** Format a 'de-DE' date in the given style, or a placeholder when it is missing/invalid. */
@@ -114,11 +99,11 @@ function safeHttpUrl(value: string): string | undefined {
 
 /** Render the HTML body shown for a single agenda-item entry. */
 function renderEntryContent(
-  meeting: Meeting,
-  agendaItem: AgendaItem,
+  record: AgendaItemRecord,
   meetingDay: string,
   attachmentHtml: string,
 ): string {
+  const { meeting, agendaItem } = record;
   return `
       <b>Sitzung:</b> ${escapeHtml(meeting.name)}<br>
       <b>Datum:</b> ${meetingDay}<br>
@@ -128,39 +113,14 @@ function renderEntryContent(
 }
 
 /** Add an agenda item to the feed. */
-function appendAgendaItem(
-  feed: Feed,
-  meeting: Meeting,
-  agendaItem: AgendaItem,
-  fallbackDate: Date,
-): void {
-  if (!agendaItem.number) return;
+function appendAgendaItem(feed: Feed, record: AgendaItemRecord): void {
+  const { agendaItem, meeting, attachments } = record;
 
   const meetingId = meeting.id.split('/').pop() ?? '';
   const agendaItemUrl = `https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-${encodeURIComponent(meetingId)}#top${encodeURIComponent(agendaItem.number)}`;
 
-  const { attachments, paperLastUpdate } = resolveAgendaItemPaperDetails(agendaItem);
   const attachmentHtml = attachments.map(formatAttachmentLink).join('');
-
-  const itemCreated = parseValidDate(agendaItem.created);
-  const itemModified = parseValidDate(agendaItem.modified);
-
   const meetingDay = formatGermanDate(parseValidDate(meeting.start), 'long');
-  // `date` (Atom <updated>) and `published` must be valid Dates or the Atom serializer throws.
-  // Prefer the meeting's own date over the generic fallback so a date-less agenda item still
-  // sorts near its meeting rather than at the epoch floor.
-  const mostRecentDate =
-    latestValidDate(
-      itemModified,
-      itemCreated,
-      meeting.modified,
-      meeting.created,
-      paperLastUpdate,
-      ...attachments.flatMap((file) => [file.modified, file.created]),
-    ) ??
-    parseValidDate(meeting.start) ??
-    fallbackDate;
-  const publishedDate = itemCreated ?? itemModified ?? mostRecentDate;
 
   feed.addItem({
     title: escapeHtml(agendaItem.name),
@@ -168,10 +128,41 @@ function appendAgendaItem(
     link: agendaItemUrl,
     author: [{ name: meeting.name }],
     description: escapeHtml(agendaItem.name),
-    content: renderEntryContent(meeting, agendaItem, meetingDay, attachmentHtml),
-    date: mostRecentDate,
-    published: publishedDate,
+    content: renderEntryContent(record, meetingDay, attachmentHtml),
+    date: record.updatedAt,
+    published: record.publishedAt,
+    category: buildEntryCategories(record),
   });
+}
+
+function buildEntryCategories(record: AgendaItemRecord): Array<{
+  name: string;
+  term: string;
+  scheme: string;
+}> {
+  const categories = record.organizations.map((organization) => ({
+    name: organization.name,
+    term: organization.id,
+    scheme: 'https://oparl.org/schema/1.1/Organization',
+  }));
+
+  categories.push(
+    ...record.districts.map((district) => ({
+      name: district,
+      term: slugifyFeedSegment(district),
+      scheme: new URL(`${DISTRICT_FEED_DIRECTORY}/`, config.feedBaseUrl).href,
+    })),
+  );
+
+  if (record.paper?.paperType) {
+    categories.push({
+      name: record.paper.paperType,
+      term: record.paper.paperType,
+      scheme: 'https://oparl.org/schema/1.1/Paper',
+    });
+  }
+
+  return categories;
 }
 
 /** The most recent entry date in the feed, or undefined when the feed has no entries. */
@@ -190,9 +181,20 @@ export async function buildAgendaFeed(
   meetings: Meeting[],
   fallbackDate: Date = FALLBACK_DATE,
 ): Promise<Feed> {
-  logger.info('Starting to create feed...');
-  const feed = createEmptyFeed(fallbackDate);
-  appendMeetingAgendaItems(feed, meetings, fallbackDate);
+  return buildAgendaFeedFromRecords(buildAgendaItemRecords(meetings, { fallbackDate }), {
+    fallbackDate,
+  });
+}
+
+/** Build the main feed from already joined records. */
+export function buildAgendaFeedFromRecords(
+  records: AgendaItemRecord[],
+  options: BuildAgendaFeedOptions = {},
+): Feed {
+  const fallbackDate = options.fallbackDate ?? FALLBACK_DATE;
+  if (options.logProgress !== false) logger.info('Starting to create feed...');
+  const feed = createEmptyFeed(fallbackDate, options.metadata);
+  for (const record of records) appendAgendaItem(feed, record);
   // Sort newest-first with a stable id tiebreaker so the serialized order is fully
   // deterministic (independent of readdir/Map insertion order). Without this the full
   // feed's byte output — and its git diff — depended on filesystem enumeration order.
@@ -204,7 +206,7 @@ export async function buildAgendaFeed(
   // subscribers' readers get a 304 instead of re-downloading the whole feed every poll.
   // Falls back to the deterministic fallback only when the feed is empty.
   feed.options.updated = findLatestFeedEntryDate(feed) ?? fallbackDate;
-  logger.info('Finished creating feed.');
+  if (options.logProgress !== false) logger.info('Finished creating feed.');
   return feed;
 }
 
@@ -215,7 +217,10 @@ export async function writeFullFeed(feed: Feed): Promise<void> {
 }
 
 /** Write a trimmed feed containing only the most recent items to the file system */
-export async function writeRecentFeed(feed: Feed, maximumItemCount = 100): Promise<void> {
+export async function writeRecentFeed(
+  feed: Feed,
+  maximumItemCount = RECENT_FEED_MAX_ITEMS,
+): Promise<void> {
   const recentFeedUrl = new URL(config.recentFeedFileName, config.feedBaseUrl).href;
   const recentFeed = new Feed({
     ...feed.options,
@@ -238,7 +243,7 @@ export async function writeRecentFeed(feed: Feed, maximumItemCount = 100): Promi
   logger.info(`Recent feed (last ${maximumItemCount} items) has been saved to ${outputPath}`);
 }
 
-async function writeSerializedFeed(feed: Feed, fileName: string): Promise<string> {
+export async function writeSerializedFeed(feed: Feed, fileName: string): Promise<string> {
   // atomicWriteFile creates the parent directory, so no explicit mkdir is needed.
   const outputPath = docsPath(fileName);
   await atomicWriteFile(outputPath, feed.atom1());

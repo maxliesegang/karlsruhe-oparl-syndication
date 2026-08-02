@@ -4,20 +4,33 @@ Generates and publishes Atom feeds of Karlsruhe city council agenda items from t
 
 ## Live Feeds
 
-| Feed             | URL                                                                                                                           |
-| ---------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| All agenda items | [`tagesordnungspunkte.xml`](https://maxliesegang.github.io/karlsruhe-oparl-syndication/tagesordnungspunkte.xml)               |
-| Latest 100 items | [`tagesordnungspunkte-recent.xml`](https://maxliesegang.github.io/karlsruhe-oparl-syndication/tagesordnungspunkte-recent.xml) |
+| Feed                           | URL                                                                                                                           |
+| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| Latest 1,000 items             | [`tagesordnungspunkte.xml`](https://maxliesegang.github.io/karlsruhe-oparl-syndication/tagesordnungspunkte.xml)               |
+| Latest 100 items               | [`tagesordnungspunkte-recent.xml`](https://maxliesegang.github.io/karlsruhe-oparl-syndication/tagesordnungspunkte-recent.xml) |
+| Committee and Stadtteil feeds | [`feed-index.json`](https://maxliesegang.github.io/karlsruhe-oparl-syndication/feed-index.json) |
 
-Add either URL to any RSS/Atom reader. Use the recent feed if your reader struggles with large feeds.
+Add a feed URL to any RSS/Atom reader. Use the recent feed if your reader struggles with large feeds, or choose a focused feed from the index.
 
 ## How It Works
 
 1. **Load cache** — read the persisted stores under `docs/` (per-record `meetings/`, `papers/`, `file-contents/` plus the monolithic `consultations.json` / `organizations.json`) into memory.
 2. **Fetch updates** — organizations (full crawl) + meetings and papers via paginated OParl API (`limit=1000`, `modified_since = lastModified − 1 day`).
-3. **Enrich** — resolve agenda items → consultations → papers → auxiliary files; fix OParl URLs.
-4. **Generate** — build Atom feed, write `tagesordnungspunkte.xml` (all items) and `tagesordnungspunkte-recent.xml` (latest 100 by date).
+3. **Enrich** — join agenda items → meetings → organizations → consultations → papers → auxiliary files and Stadtteil matches into shared records; fix OParl URLs.
+4. **Generate** — build the main and recent Atom feeds plus filtered feeds under `gremien/` and `stadtteile/`.
 5. **Persist** — write only the records that changed back to `docs/` for the next incremental run.
+
+### Filtered feeds and categories
+
+Every public agenda item is enriched once and then reused by all outputs. The scraper publishes:
+
+- `gremien/<organization-id>.xml` for each referenced committee or organization.
+- `stadtteile/<stadtteil-slug>.xml` for each detected Karlsruhe district.
+- `feed-index.json`, a deterministic directory containing each feed's title, URL, filter id, type, and entry count.
+
+Entries in every Atom feed also include categories for their organizations, Stadtteile, and paper type. Stadtteil assignment is based on the paper title and extracted text, so one item may occur in several district feeds.
+
+The main, committee, and Stadtteil feeds contain at most `FEED_MAX_ITEMS` entries (1,000 by default). This only limits the subscription-facing XML; the stores under `docs/` remain a complete archive. The recent feed remains fixed at 100 entries.
 
 ## Local Development
 
@@ -55,6 +68,7 @@ All options can be set via environment variables or a `.env` file at the repo ro
 | `FEED_ID` / `FEED_LINK`                        | Public GitHub Pages URL          | Feed identity and link                               |
 | `FEED_FILENAME`                                | `tagesordnungspunkte.xml`        | Full feed output filename                            |
 | `FEED_FILENAME_RECENT`                         | `tagesordnungspunkte-recent.xml` | Recent feed output filename                          |
+| `FEED_MAX_ITEMS`                               | `1000`                           | Maximum entries in main and filtered feeds           |
 | `FEED_LANGUAGE`                                | `de`                             | Feed language code                                   |
 | `FEED_COPYRIGHT`                               | `Kein Copyright`                 | Feed copyright notice                                |
 | `AUTHOR_NAME` / `AUTHOR_EMAIL` / `AUTHOR_LINK` | —                                | Feed author                                          |

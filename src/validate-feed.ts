@@ -3,11 +3,14 @@ import fs from 'fs/promises';
 import path from 'path';
 
 import { config } from './config.js';
+import { RECENT_FEED_MAX_ITEMS } from './constants.js';
+import { FILTERED_FEED_INDEX_FILENAME } from './filtered-feed-contract.js';
 import {
   countFeedEntries,
   entryCountFloor,
   FeedValidationError,
   isEntryCountAcceptable,
+  validateFilteredFeedIndex,
   validateFeedXml,
 } from './feed-validation.js';
 import { docsPath } from './file-utils.js';
@@ -51,7 +54,14 @@ function previousEntryCount(repositoryRelativePath: string): number {
   }
 }
 
-async function validateFeedFile(fileName: string): Promise<boolean> {
+async function validateFeedFile(
+  fileName: string,
+  options: {
+    compareWithPrevious?: boolean;
+    expectedEntryCount?: number;
+    maximumItemCount?: number;
+  } = {},
+): Promise<boolean> {
   const absolutePath = docsPath(fileName);
   const relativePath = path.posix.join('docs', fileName);
 
@@ -74,18 +84,39 @@ async function validateFeedFile(fileName: string): Promise<boolean> {
     throw error;
   }
 
-  const oldCount = previousEntryCount(relativePath);
-  logger.info(`${relativePath}: previous=${oldCount} new=${newCount}`);
+  const oldCount = options.compareWithPrevious === false ? 0 : previousEntryCount(relativePath);
+  const comparison = options.compareWithPrevious === false ? '' : ` previous=${oldCount}`;
+  logger.info(`${relativePath}:${comparison} new=${newCount}`);
 
   if (newCount === 0) {
     reportError(`${relativePath} has zero entries`);
     return false;
   }
 
-  if (!isEntryCountAcceptable(oldCount, newCount)) {
+  if (options.expectedEntryCount !== undefined && newCount !== options.expectedEntryCount) {
+    reportError(
+      `${relativePath} has ${newCount} entries but ${FILTERED_FEED_INDEX_FILENAME} declares ` +
+        `${options.expectedEntryCount}`,
+    );
+    return false;
+  }
+
+  if (options.maximumItemCount !== undefined && newCount > options.maximumItemCount) {
+    reportError(
+      `${relativePath} has ${newCount} entries, above the configured maximum of ` +
+        `${options.maximumItemCount}`,
+    );
+    return false;
+  }
+
+  if (!isEntryCountAcceptable(oldCount, newCount, options.maximumItemCount)) {
+    const floor = Math.min(
+      entryCountFloor(oldCount),
+      options.maximumItemCount ?? Number.POSITIVE_INFINITY,
+    );
     reportError(
       `${relativePath} entry count dropped from ${oldCount} to ${newCount} ` +
-        `(below floor of ${entryCountFloor(oldCount)}); refusing to commit`,
+        `(below floor of ${floor}); refusing to commit`,
     );
     return false;
   }
@@ -93,9 +124,53 @@ async function validateFeedFile(fileName: string): Promise<boolean> {
   return true;
 }
 
-const results = await Promise.all(
-  [config.feedFileName, config.recentFeedFileName].map(validateFeedFile),
+async function readFilteredFeedIndex() {
+  let raw: string;
+  try {
+    raw = await fs.readFile(docsPath(FILTERED_FEED_INDEX_FILENAME), 'utf8');
+  } catch {
+    reportError(`Generated feed index docs/${FILTERED_FEED_INDEX_FILENAME} is missing`);
+    return null;
+  }
+
+  let value: unknown;
+  try {
+    value = JSON.parse(raw);
+  } catch {
+    reportError(`Generated feed index docs/${FILTERED_FEED_INDEX_FILENAME} is malformed JSON`);
+    return null;
+  }
+
+  try {
+    return validateFilteredFeedIndex(value);
+  } catch (error) {
+    if (!(error instanceof FeedValidationError)) throw error;
+    reportError(`Generated feed index docs/${FILTERED_FEED_INDEX_FILENAME} ${error.message}`);
+    return null;
+  }
+}
+
+const filteredFeeds = await readFilteredFeedIndex();
+const results: boolean[] = [];
+// Validate sequentially to avoid retaining every large XML document in memory at once.
+results.push(
+  await validateFeedFile(config.feedFileName, { maximumItemCount: config.feedMaxItemCount }),
 );
+results.push(
+  await validateFeedFile(config.recentFeedFileName, {
+    maximumItemCount: RECENT_FEED_MAX_ITEMS,
+  }),
+);
+for (const descriptor of filteredFeeds ?? []) {
+  results.push(
+    await validateFeedFile(descriptor.path, {
+      compareWithPrevious: false,
+      expectedEntryCount: descriptor.entryCount,
+      maximumItemCount: config.feedMaxItemCount,
+    }),
+  );
+}
+if (!filteredFeeds) results.push(false);
 
 if (results.includes(false)) {
   process.exit(1);
