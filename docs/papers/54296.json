@@ -55,6 +55,7 @@
     },
     {
       "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/101784",
+      "authoritative": true,
       "created": "2026-05-19T10:36:36+02:00",
       "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37058",
       "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10541",
@@ -71,7 +72,7 @@
       "created": "2026-06-30T08:44:40+02:00",
       "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37644",
       "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10566",
-      "modified": "2026-07-23T06:54:49+02:00",
+      "modified": "2026-07-29T08:14:00+02:00",
       "organization": [
         "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/32130"
       ],
@@ -87,6 +88,9 @@
   "name": "Bereitstellung kostenfreier Hygieneprodukte an Schulen",
   "paperType": "Antrag",
   "reference": "2026/0158",
+  "superordinatedPaper": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54774"
+  ],
   "type": "https://schema.oparl.org/1.1/Paper",
   "underDirectionOf": [
     "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882966"
