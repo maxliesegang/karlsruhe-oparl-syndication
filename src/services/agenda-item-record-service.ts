@@ -1,4 +1,11 @@
-import { AgendaItem, Meeting, OParlFile, Organization, Paper } from '../types/index.js';
+import {
+  AgendaItem,
+  Meeting,
+  OParlFile,
+  Organization,
+  Paper,
+  PaperSummary,
+} from '../types/index.js';
 import { KarlsruheDistrict, PaperDistrictIndex } from '../karlsruhe-districts.js';
 import { stores } from '../store/index.js';
 import { latestValidDate, parseValidDate } from '../utils.js';
@@ -8,6 +15,7 @@ export interface AgendaItemRecordOptions {
   fallbackDate?: Date;
   resolvePaper?: (consultationId: string) => Paper | undefined;
   resolveOrganization?: (organizationId: string) => Organization | undefined;
+  resolvePaperSummary?: (paper: Paper) => PaperSummary | undefined;
 }
 
 /**
@@ -18,6 +26,7 @@ export interface AgendaItemRecord {
   agendaItem: AgendaItem;
   meeting: Meeting;
   paper?: Paper;
+  paperSummary?: PaperSummary;
   attachments: OParlFile[];
   organizations: OrganizationReference[];
   districts: KarlsruheDistrict[];
@@ -44,6 +53,7 @@ export function buildAgendaItemRecords(
     options.resolvePaper ?? ((id: string) => stores.papers.getPaperByConsultationId(id));
   const resolveOrganization =
     options.resolveOrganization ?? ((id: string) => stores.organizations.getById(id));
+  const resolvePaperSummary = options.resolvePaperSummary ?? (() => undefined);
   const records: AgendaItemRecord[] = [];
 
   for (const meeting of meetings) {
@@ -57,6 +67,7 @@ export function buildAgendaItemRecords(
           fallbackDate,
           resolvePaper,
           resolveOrganization,
+          resolvePaperSummary,
         ),
       );
     }
@@ -76,6 +87,7 @@ function buildRecord(
   fallbackDate: Date,
   resolvePaper: (consultationId: string) => Paper | undefined,
   resolveOrganization: (organizationId: string) => Organization | undefined,
+  resolvePaperSummary: (paper: Paper) => PaperSummary | undefined,
 ): AgendaItemRecord {
   const paper = agendaItem.consultation ? resolvePaper(agendaItem.consultation) : undefined;
   const attachmentsById = new Map<string, OParlFile>();
@@ -103,6 +115,7 @@ function buildRecord(
     agendaItem,
     meeting,
     paper,
+    paperSummary: paper ? resolvePaperSummary(paper) : undefined,
     attachments,
     organizations: [...new Set(meeting.organization ?? [])].map((id) =>
       toOrganizationReference(id, resolveOrganization(id)),

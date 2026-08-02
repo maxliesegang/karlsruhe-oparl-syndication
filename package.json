@@ -35,11 +35,14 @@
     "vitest": "^4.1.10"
   },
   "dependencies": {
+    "@ai-sdk/openai-compatible": "^3.0.20",
+    "ai": "^7.0.48",
     "axios": "^1.18.1",
     "axios-retry": "^4.5.0",
     "dotenv": "^17.4.2",
     "fast-xml-parser": "^5.10.1",
     "feed": "^6.0.0",
-    "pdf-parse": "^2.4.5"
+    "pdf-parse": "^2.4.5",
+    "zod": "^4.4.3"
   }
 }

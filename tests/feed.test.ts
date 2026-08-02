@@ -230,6 +230,33 @@ describe('feed identity', () => {
     expect(xml).toContain('&lt;script&gt;alert(1)&lt;/script&gt;');
   });
 
+  it('renders a labelled, escaped paper summary and uses it as the description', () => {
+    const records = buildAgendaItemRecords([
+      meetingWithDates(
+        '2025-01-01T00:00:00Z',
+        '2025-01-02T00:00:00Z',
+        '2025-01-03T00:00:00Z',
+      ),
+    ]);
+    records[0].paperSummary = {
+      id: 'https://example.test/papers/1',
+      sourceHash: 'sha256:test',
+      promptVersion: 'paper-de-v1',
+      provider: 'test',
+      model: 'test',
+      summary: 'Die Vorlage prüft <b>zwei</b> Varianten.',
+      keyPoints: ['Kosten: <script>alert(1)</script>'],
+      generatedAt: '2026-08-02T00:00:00Z',
+    };
+
+    const feed = buildAgendaFeedFromRecords(records);
+    const xml = feed.atom1();
+    expect(feed.items[0]?.description).toContain('Die Vorlage prüft &lt;b&gt;zwei&lt;/b&gt;');
+    expect(xml).toContain('KI-generierte Zusammenfassung');
+    expect(xml).toContain('maßgeblich sind die Originalunterlagen');
+    expect(xml).not.toContain('<script>alert(1)</script>');
+  });
+
   it('builds joined records and emits organization, district and paper-type categories', () => {
     const organizationId = 'https://example.test/organizations/42';
     const consultationId = 'https://example.test/consultations/7';

@@ -12,25 +12,26 @@ This repository builds and publishes an Atom feed for Karlsruhe city council age
 
 ## Data Pipeline (what `generate` does)
 
-1) Load caches into in-memory stores: the per-record dirs `docs/meetings/`, `docs/papers/`, `docs/file-contents/` (plus co-located `.txt` extracted text) and the monolithic `docs/consultations.json` / `docs/organizations.json`.  
-2) Fetch data:
+1. Load caches into in-memory stores: the per-record dirs `docs/meetings/`, `docs/papers/`, `docs/file-contents/` (plus co-located `.txt` extracted text), `docs/summaries/papers/`, and the monolithic `docs/consultations.json` / `docs/organizations.json`.
+2. Fetch data:
    - Organizations: full crawl (no `modified_since` support).
    - Meetings & Papers: paginated fetch (`limit=1000`) with `modified_since = lastModified - 1 day`; toggle full pagination via `FETCH_ALL_PAGES` (default true). Requests run sequentially through `RequestQueue` with `REQUEST_DELAY` ms between items (default 1000) and axios-retry (3 tries).
-3) Build feed: iterate meetings → agenda items; resolve consultations → papers → auxiliary files, normalize URLs with `normalizeOParlUrl`, compute freshest date (item/paper), and add Atom entries.
-4) Persist artifacts to `docs/`:
+3. Enrich and build feed: await extraction, refresh Stadtteil matches, optionally update current paper summaries, then iterate meetings → agenda items; resolve consultations → papers → auxiliary files, normalize URLs with `normalizeOParlUrl`, compute freshest date (item/paper), and add Atom entries.
+4. Persist artifacts to `docs/`:
    - `tagesordnungspunkte.xml` (or `FEED_FILENAME` override).
    - `meetings/<meetingId>.json` and `papers/<paperId>.json` — **one JSON object per record** (see below). These are the two largest, most git-churning stores.
    - `consultations.json`, `organizations.json` — kept as single monolithic files (small, low churn).
    - `file-contents/<fileId>.json` — **one metadata object per file** (see below), co-located next to its `file-contents/<fileId>.txt` (the single source of truth for extracted text). The metadata JSON never contains the extracted text.
+   - `summaries/papers/<paperId>.json` — one content-addressed LLM summary per public paper with usable extracted text.
 
-### Per-record store layout (`meetings/`, `papers/`, `file-contents/`)
+### Per-record store layout (`meetings/`, `papers/`, `file-contents/`, `summaries/papers/`)
 
 - `PerRecordStore` (`src/store/per-record-store.ts`) persists each record to `docs/<entity>/<recordId>.json`. `recordId` is the last path segment of the record's `id` URL (`extractRecordId`), sanitized to a safe basename (`sanitizeRecordId`); filename collisions fail loudly rather than overwrite.
 - **File format (viewer contract):** exactly one JSON object per file — the full record, not a single-element array. Serialization is canonical (`canonicalStringify`): object keys sorted recursively, 2-space indent, UTF-8, single trailing newline. This makes an unchanged record byte-identical every run so git dedupes its blob; only changed/new records are rewritten each run (dirty tracking).
-- **Deletion:** an OParl `deleted:true` tombstone removes the record; its file is unlinked by the post-write orphan sweep (any `docs/<entity>/*.json` whose id is not in the store is removed, always *after* all writes succeed).
+- **Deletion:** an OParl `deleted:true` tombstone removes the record; its file is unlinked by the post-write orphan sweep (any `docs/<entity>/*.json` whose id is not in the store is removed, always _after_ all writes succeed).
 - **Migration:** if `docs/<entity>/` is absent but the legacy `docs/<entity>.json` exists, the store loads the legacy array, then the next persist writes the per-record files and deletes the legacy file (one-time cutover).
 
-- **`file-contents/` (metadata) — `FileContentStore`, `src/store/file-content-store.ts`:** does *not* extend `PerRecordStore` (it also owns PDF-extraction scheduling and the `changedFileIds` re-resolution signal) but mirrors the same pattern. Each file's metadata is one canonical JSON object at `docs/file-contents/<fileId>.json` with fields `{ id, downloadUrl, fileModified, lastModifiedExtractedDate?, hasExtractedText }` — **never the extracted text**, which stays in the co-located `<fileId>.txt`. `<fileId>` uses the same `sanitizeRecordId(extractRecordId(id))` basename as the .txt so a metadata record and its text share a name. Dirty tracking compares each record's canonical metadata against the exact bytes last loaded/written, so only changed metadata is rewritten. The post-write orphan sweep is scoped to `*.json` only, so sibling `.txt` files are never deleted by mistake. **Migration:** when `docs/file-contents/` holds no `*.json` files but the legacy `docs/file-contents.json` index exists, the store loads from it and the next persist writes the per-record metadata files and deletes the legacy index (one-time cutover; the directory already exists because it holds the `.txt` files).
+- **`file-contents/` (metadata) — `FileContentStore`, `src/store/file-content-store.ts`:** does _not_ extend `PerRecordStore` (it also owns PDF-extraction scheduling and the `changedFileIds` re-resolution signal) but mirrors the same pattern. Each file's metadata is one canonical JSON object at `docs/file-contents/<fileId>.json` with fields `{ id, downloadUrl, fileModified, lastModifiedExtractedDate?, hasExtractedText }` — **never the extracted text**, which stays in the co-located `<fileId>.txt`. `<fileId>` uses the same `sanitizeRecordId(extractRecordId(id))` basename as the .txt so a metadata record and its text share a name. Dirty tracking compares each record's canonical metadata against the exact bytes last loaded/written, so only changed metadata is rewritten. The post-write orphan sweep is scoped to `*.json` only, so sibling `.txt` files are never deleted by mistake. **Migration:** when `docs/file-contents/` holds no `*.json` files but the legacy `docs/file-contents.json` index exists, the store loads from it and the next persist writes the per-record metadata files and deletes the legacy index (one-time cutover; the directory already exists because it holds the `.txt` files).
 
 ## PDF Text Extraction
 
@@ -39,12 +40,23 @@ This repository builds and publishes an Atom feed for Karlsruhe city council age
 - Downloads (`pdf-service.ts`) go through a retrying axios client built by `createRetryingHttpClient` (shared with the OParl API client), with a per-request timeout (`PDF_DOWNLOAD_TIMEOUT_MS`) and response-size cap (`PDF_MAX_CONTENT_BYTES`). This keeps PDF fetches off the polite sequential `requestQueue` while still retrying transient failures.
 - Failures are logged; 4xx responses stay at debug to avoid noise. To skip extraction entirely, set `EXTRACT_PDF_TEXT=false`.
 
+## LLM Paper Summaries
+
+- Controlled by `GENERATE_LLM_SUMMARIES` (default false). The scheduled workflow enables it and passes the `OPENCODE_API_KEY` repository secret as `LLM_API_KEY`; a missing key skips updates without breaking feed generation.
+- Only papers dated 2026 or later, referenced by public agenda items, and backed by current extracted text are summarized. Papers are processed newest-first and capped by `SUMMARY_MAX_ITEMS_PER_RUN` (default 100), so initial backfills remain bounded.
+- The default provider uses OpenCode Go through `@ai-sdk/openai-compatible`, model `mimo-v2.5`. Provider-specific code implements the small `PaperSummarizer` interface under `src/services/llm/`.
+- Summaries are content-addressed using a SHA-256 hash of relevant paper metadata and current attachment text. Canonical per-paper records live under `docs/summaries/papers/`; unchanged inputs never call the model again.
+- A source/hash mismatch makes the old summary ineligible for publication. If regeneration fails, the cache remains on disk for audit and retry, the stale text is omitted from feeds, and the rest of the pipeline continues.
+- Long source text is summarized in chunks of at most `SUMMARY_MAX_INPUT_CHARS` characters, followed by a synthesis request. Feed output clearly labels generated text and retains links to authoritative originals.
+- The prompt forbids calculations, treats only visibly marked form checkboxes as selected, preserves recommendation/decision status, and favors three to four strong key points. A provider-neutral numeric-grounding check permits only numeric literals present in the heading/current source, makes one corrective retry, and rejects the summary if that retry is still ungrounded.
+
 ## Configuration (from `src/config.ts`, dotenv-enabled)
 
 - API: `MEETINGS_API_URL`, `PAPERS_API_URL`, `ORGANIZATIONS_API_URL` (defaults to Karlsruhe endpoints).
 - Feed: `FEED_TITLE`, `FEED_DESCRIPTION`, `FEED_ID`, `FEED_LINK`, `FEED_FILENAME`, `FEED_FILENAME_RECENT`, `FEED_LANGUAGE`, `FEED_COPYRIGHT`.
 - Author: `AUTHOR_NAME`, `AUTHOR_EMAIL`, `AUTHOR_LINK`.
 - Flags: `EXTRACT_PDF_TEXT` (default true), `FETCH_ALL_PAGES` (default true).
+- Summaries: `GENERATE_LLM_SUMMARIES` (default false), `LLM_API_KEY`, `LLM_BASE_URL`, `LLM_MODEL`, `SUMMARY_PROMPT_VERSION`, `SUMMARY_MAX_ITEMS_PER_RUN`, `SUMMARY_MAX_INPUT_CHARS`, `SUMMARY_CONCURRENCY`, `SUMMARY_REQUEST_TIMEOUT_MS`.
 - Rate limiting: `REQUEST_DELAY` (ms, default 1000).
 - Reconciliation: `FULL_RECONCILIATION_INTERVAL_DAYS` (default 7) — how often the incremental cursors are ignored for an authoritative full crawl.
 - PDF limits: `PDF_DOWNLOAD_TIMEOUT_MS` (default 30000), `PDF_MAX_CONTENT_BYTES` (default 50 MiB).

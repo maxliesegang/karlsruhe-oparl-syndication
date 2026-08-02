@@ -5,3 +5,4 @@ export { AgendaItem } from './agenda-item.js';
 export { Consultation } from './consultation.js';
 export { Paper } from './paper.js';
 export { Organization } from './organization.js';
+export { PaperSummary, GeneratedPaperSummary } from './paper-summary.js';

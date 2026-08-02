@@ -14,6 +14,7 @@ const mocks = vi.hoisted(() => ({
   writeRecentFeed: vi.fn(),
   writeFilteredFeeds: vi.fn(),
   updatePaperDistrictIndex: vi.fn(),
+  updatePaperSummaries: vi.fn().mockResolvedValue(new Map()),
   readPaperDistrictIndex: vi.fn().mockResolvedValue({}),
   resolveMissingConsultationPapers: vi.fn(),
   writeJsonToFile: vi.fn(),
@@ -59,6 +60,10 @@ vi.mock('../src/services/agenda-item-record-service.js', () => ({
   buildAgendaItemRecords: mocks.buildAgendaItemRecords,
 }));
 
+vi.mock('../src/services/paper-summary-service.js', () => ({
+  updatePaperSummaries: mocks.updatePaperSummaries,
+}));
+
 vi.mock('../src/file-utils.js', () => ({
   writeJsonToFile: mocks.writeJsonToFile,
   readJsonFromFile: mocks.readJsonFromFile,
@@ -94,15 +99,18 @@ describe('generation service cache handling', () => {
     expect(mocks.loadFromDisk).toHaveBeenCalledOnce();
   });
 
-  it('waits for extraction and refreshes districts before building filtered records', async () => {
+  it('waits for extraction and refreshes enrichments before building filtered records', async () => {
     await runFeedGeneration();
 
     const extractionOrder = mocks.waitForPendingExtractions.mock.invocationCallOrder[0];
     const districtUpdateOrder = mocks.updatePaperDistrictIndex.mock.invocationCallOrder[0];
+    const summaryUpdateOrder = mocks.updatePaperSummaries.mock.invocationCallOrder[0];
     const districtReadOrder = mocks.readPaperDistrictIndex.mock.invocationCallOrder[0];
     const recordBuildOrder = mocks.buildAgendaItemRecords.mock.invocationCallOrder[0];
 
     expect(extractionOrder).toBeLessThan(districtUpdateOrder);
+    expect(districtUpdateOrder).toBeLessThan(summaryUpdateOrder);
+    expect(summaryUpdateOrder).toBeLessThan(recordBuildOrder);
     expect(districtUpdateOrder).toBeLessThan(districtReadOrder);
     expect(districtReadOrder).toBeLessThan(recordBuildOrder);
   });

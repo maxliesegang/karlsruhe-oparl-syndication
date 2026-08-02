@@ -3,6 +3,23 @@ export function delay(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+/** Replace characters forbidden by XML 1.0 while preserving tabs and line breaks. */
+export function replaceInvalidXmlCharacters(value: string, replacement = ' '): string {
+  let sanitized = '';
+  for (const character of value) {
+    const codePoint = character.codePointAt(0)!;
+    const valid =
+      codePoint === 0x09 ||
+      codePoint === 0x0a ||
+      codePoint === 0x0d ||
+      (codePoint >= 0x20 && codePoint <= 0xd7ff) ||
+      (codePoint >= 0xe000 && codePoint <= 0xfffd) ||
+      (codePoint >= 0x10000 && codePoint <= 0x10ffff);
+    sanitized += valid ? character : replacement;
+  }
+  return sanitized;
+}
+
 /** Corrects OParl URLs to use the /ris/oparl/ path */
 export function normalizeOParlUrl(url: string): string {
   if (url.includes('/ris/')) {

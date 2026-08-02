@@ -8,6 +8,8 @@ import { logger } from '../logger.js';
 import { resolveMissingConsultationPapers } from './consultation-resolution-service.js';
 import { readJsonFromFile, writeJsonToFile } from '../file-utils.js';
 import { buildAgendaItemRecords } from './agenda-item-record-service.js';
+import { updatePaperSummaries } from './paper-summary-service.js';
+import { PaperSummary } from '../types/index.js';
 
 interface GenerationManifest {
   version: number;
@@ -73,11 +75,14 @@ async function refreshOParlData(
   return { hadFailures: failed.length > 0 };
 }
 
-async function buildAndWriteFeeds(): Promise<void> {
+async function buildAndWriteFeeds(paperSummaries: Map<string, PaperSummary>): Promise<void> {
   logger.info('Generating feed...');
   const meetings = stores.meetings.getAll();
   const districtIndex = await readPaperDistrictIndex();
-  const records = buildAgendaItemRecords(meetings, { districtIndex });
+  const records = buildAgendaItemRecords(meetings, {
+    districtIndex,
+    resolvePaperSummary: (paper) => paperSummaries.get(paper.id),
+  });
   // No run-clock argument: feed construction uses a deterministic fallback so an unchanged
   // dataset produces a byte-identical feed (minimal git churn, working conditional GETs).
   const feed = buildAgendaFeedFromRecords(records.slice(0, config.feedMaxItemCount));
@@ -121,7 +126,13 @@ export async function runFeedGeneration(options: { clearCache?: boolean } = {}):
   // text are reflected in Stadtteil categories during the same generation run.
   await stores.fileContents.waitForPendingExtractions();
   await updatePaperDistrictIndex();
-  await buildAndWriteFeeds();
+  let paperSummaries = new Map<string, PaperSummary>();
+  try {
+    paperSummaries = await updatePaperSummaries(stores.meetings.getAll());
+  } catch (error) {
+    logger.warn('Paper summary refresh failed; continuing without LLM summaries.', error);
+  }
+  await buildAndWriteFeeds(paperSummaries);
   await stores.saveToDisk();
   logger.info('Saved store data to disk');
 
@@ -154,6 +165,7 @@ export async function runFeedGeneration(options: { clearCache?: boolean } = {}):
         'file-contents/',
         'paper-stadtteile.json',
         'paper-stadtteile-meta.json',
+        'summaries/',
       ],
     },
     'generation-manifest.json',

@@ -37,6 +37,9 @@ jobs:
 
     - name: Run generate script
       run: npm run generate
+      env:
+        GENERATE_LLM_SUMMARIES: 'true'
+        LLM_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
 
     # Rejects a malformed, empty or unexpectedly shrunken feed before it can be
     # committed. Runs in-repo (npm run validate:feed) so the same check is

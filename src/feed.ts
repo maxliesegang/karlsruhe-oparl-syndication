@@ -103,11 +103,19 @@ function renderEntryContent(
   meetingDay: string,
   attachmentHtml: string,
 ): string {
-  const { meeting, agendaItem } = record;
+  const { meeting, agendaItem, paperSummary } = record;
+  const summaryHtml = paperSummary
+    ? `<b>KI-generierte Zusammenfassung:</b> ${escapeHtml(paperSummary.summary)}${
+        paperSummary.keyPoints.length > 0
+          ? `<ul>${paperSummary.keyPoints.map((point) => `<li>${escapeHtml(point)}</li>`).join('')}</ul>`
+          : ''
+      }<small>Automatisch erstellt; maßgeblich sind die Originalunterlagen.</small><br><br>`
+    : '';
   return `
       <b>Sitzung:</b> ${escapeHtml(meeting.name)}<br>
       <b>Datum:</b> ${meetingDay}<br>
       <b>TOP ${escapeHtml(agendaItem.number ?? '')}:</b> ${escapeHtml(agendaItem.name)}<br><br>
+      ${summaryHtml}
       <b>Anhänge:</b><br> ${attachmentHtml}
     `;
 }
@@ -127,7 +135,7 @@ function appendAgendaItem(feed: Feed, record: AgendaItemRecord): void {
     id: agendaItem.id,
     link: agendaItemUrl,
     author: [{ name: meeting.name }],
-    description: escapeHtml(agendaItem.name),
+    description: escapeHtml(record.paperSummary?.summary ?? agendaItem.name),
     content: renderEntryContent(record, meetingDay, attachmentHtml),
     date: record.updatedAt,
     published: record.publishedAt,

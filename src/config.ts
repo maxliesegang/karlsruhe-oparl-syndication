@@ -20,6 +20,22 @@ function parsePositiveInteger(environmentVariable: string, value: string): numbe
   return parsed;
 }
 
+function parseNonNegativeInteger(environmentVariable: string, value: string): number {
+  const parsed = Number.parseInt(value, 10);
+  if (!Number.isFinite(parsed) || parsed < 0) {
+    throw new Error(`${environmentVariable} must be a non-negative integer: ${value}`);
+  }
+  return parsed;
+}
+
+function parseIntegerAtLeast(environmentVariable: string, value: string, minimum: number): number {
+  const parsed = Number.parseInt(value, 10);
+  if (!Number.isFinite(parsed) || parsed < minimum) {
+    throw new Error(`${environmentVariable} must be at least ${minimum}: ${value}`);
+  }
+  return parsed;
+}
+
 export const config = {
   // API endpoints
   meetingsApiUrl:
@@ -54,6 +70,33 @@ export const config = {
   // Feature flags
   extractPdfText: process.env.EXTRACT_PDF_TEXT !== 'false',
   followPagination: process.env.FETCH_ALL_PAGES !== 'false',
+  generateLlmSummaries: process.env.GENERATE_LLM_SUMMARIES === 'true',
+
+  // LLM paper summaries. The default endpoint is OpenCode Go's OpenAI-compatible API.
+  llmApiKey: process.env.LLM_API_KEY || '',
+  llmBaseUrl: parseAbsoluteUrl(
+    'LLM_BASE_URL',
+    process.env.LLM_BASE_URL || 'https://opencode.ai/zen/go/v1/',
+  ),
+  llmModel: process.env.LLM_MODEL || 'mimo-v2.5',
+  summaryPromptVersion: process.env.SUMMARY_PROMPT_VERSION || 'paper-de-v3',
+  summaryMaxItemsPerRun: parseNonNegativeInteger(
+    'SUMMARY_MAX_ITEMS_PER_RUN',
+    process.env.SUMMARY_MAX_ITEMS_PER_RUN || '100',
+  ),
+  summaryMaxInputCharacters: parseIntegerAtLeast(
+    'SUMMARY_MAX_INPUT_CHARS',
+    process.env.SUMMARY_MAX_INPUT_CHARS || '100000',
+    10_000,
+  ),
+  summaryConcurrency: parsePositiveInteger(
+    'SUMMARY_CONCURRENCY',
+    process.env.SUMMARY_CONCURRENCY || '2',
+  ),
+  summaryRequestTimeoutMs: parsePositiveInteger(
+    'SUMMARY_REQUEST_TIMEOUT_MS',
+    process.env.SUMMARY_REQUEST_TIMEOUT_MS || '60000',
+  ),
 
   // Rate limiting
   requestIntervalMs: Number.parseInt(process.env.REQUEST_DELAY || '1000', 10),
