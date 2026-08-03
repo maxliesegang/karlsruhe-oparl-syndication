@@ -95,7 +95,7 @@ export const config = {
   ),
   summaryRequestTimeoutMs: parsePositiveInteger(
     'SUMMARY_REQUEST_TIMEOUT_MS',
-    process.env.SUMMARY_REQUEST_TIMEOUT_MS || '60000',
+    process.env.SUMMARY_REQUEST_TIMEOUT_MS || '120000',
   ),
 
   // Digests (meeting previews, monthly Stadtteil/stadtweit rollups) are a

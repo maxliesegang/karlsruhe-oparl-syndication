@@ -83,7 +83,7 @@ All options can be set via environment variables or a `.env` file at the repo ro
 | `SUMMARY_MAX_ITEMS_PER_RUN`                    | `100`                            | Maximum papers generated per run                     |
 | `SUMMARY_MAX_INPUT_CHARS`                      | `100000`                         | Maximum source characters per LLM request            |
 | `SUMMARY_CONCURRENCY`                          | `2`                              | Concurrent paper-summary jobs                        |
-| `SUMMARY_REQUEST_TIMEOUT_MS`                   | `60000`                          | Per-request timeout                                  |
+| `SUMMARY_REQUEST_TIMEOUT_MS`                   | `120000`                         | Per-request timeout                                  |
 | `REQUEST_DELAY`                                | `1000`                           | Delay between API requests (ms)                      |
 | `FULL_RECONCILIATION_INTERVAL_DAYS`            | `7`                              | Days between authoritative full meeting/paper crawls |
 | `PDF_DOWNLOAD_TIMEOUT_MS`                      | `30000`                          | Per-PDF download timeout (ms)                        |
