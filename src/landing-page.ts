@@ -44,7 +44,9 @@ const DATA_ARTIFACTS: readonly DataArtifact[] = [
   {
     path: 'paper-stadtteile.json',
     description:
-      'Erkannte Stadtteile je Vorlage, geschlüsselt nach Aktenzeichen (z. B. 2026/0580).',
+      'Erkannte Stadtteile je Vorlage, getrennt nach "primary" (Vorlage handelt davon, ' +
+      'speist die Stadtteil-Feeds) und "mentioned" (nur beiläufig genannt). Schlüssel ist ' +
+      'der Dateiname unter papers/.',
   },
   {
     path: 'papers/',
@@ -79,11 +81,6 @@ const DATA_ARTIFACTS: readonly DataArtifact[] = [
   {
     path: 'generation-manifest.json',
     description: 'Laufzeitprotokoll des letzten Durchlaufs.',
-    internal: true,
-  },
-  {
-    path: 'paper-stadtteile-meta.json',
-    description: 'Hilfsindex für die inkrementelle Stadtteil-Erkennung.',
     internal: true,
   },
   {

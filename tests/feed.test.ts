@@ -325,7 +325,7 @@ describe('feed identity', () => {
     meeting.agendaItem[0].consultation = consultationId;
 
     const records = buildAgendaItemRecords([meeting], {
-      districtIndex: { '2025/9': ['Durlach'] },
+      resolvePaperDistricts: () => ['Durlach'],
     });
     expect(records[0]).toMatchObject({
       paper: { id: paper.id },

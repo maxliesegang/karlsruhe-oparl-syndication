@@ -20,7 +20,7 @@ This repository builds and publishes an Atom feed for Karlsruhe city council age
 4. Persist artifacts to `docs/`:
    - `tagesordnungspunkte.xml` (or `FEED_FILENAME` override).
    - `meetings/<meetingId>.json` and `papers/<paperId>.json` — **one JSON object per record** (see below). These are the two largest, most git-churning stores.
-   - `consultations.json`, `organizations.json` — kept as single monolithic files (small, low churn).
+   - `consultations.json`, `organizations.json`, `paper-stadtteile.json`, `paper-submitters.json` — kept as single monolithic files (small, low churn).
    - `file-contents/<fileId>.json` — **one metadata object per file** (see below), co-located next to its `file-contents/<fileId>.txt` (the single source of truth for extracted text). The metadata JSON never contains the extracted text.
    - `summaries/papers/<paperId>.json` — one content-addressed LLM summary per public paper with usable extracted text.
    - `index.html` — the GitHub Pages landing page, **generated** (see below).
@@ -49,6 +49,33 @@ This repository builds and publishes an Atom feed for Karlsruhe city council age
 - Downloads (`pdf-service.ts`) go through a retrying axios client built by `createRetryingHttpClient` (shared with the OParl API client), with a per-request timeout (`PDF_DOWNLOAD_TIMEOUT_MS`) and response-size cap (`PDF_MAX_CONTENT_BYTES`). This keeps PDF fetches off the polite sequential `requestQueue` while still retrying transient failures.
 - Failures are logged; 4xx responses stay at debug to avoid noise. To skip extraction entirely, set `EXTRACT_PDF_TEXT=false`.
 
+## Stadtteil Detection
+
+- `src/karlsruhe-districts.ts` matches district names; `src/services/district-index-service.ts` maintains the index and publishes `docs/paper-stadtteile.json`.
+- **Matching is a single combined alternation**, not one regex per name. It is ~4.5x faster over the archive's 290 MB of extracted text (1.2 s vs 5.2 s for a full rebuild) and it yields match positions, which everything below is built on. Alternatives are sorted longest-first because regex alternation is leftmost-first, not longest-match — that is what makes `Innenstadt-Ost` win over `Innenstadt`. Don't split this back into per-name `test()` calls.
+- **Presence is not relevance.** Administration papers carry consultation and distribution lists naming most Ortschaften at once; under plain presence-matching those lists put the five small Bergdörfer near the top of the archive-wide ranking and gave 84 papers all 27 districts. `classifyPaperDistricts` therefore grades evidence:
+  - **primary** — the consulting committee is an Ortschaftsrat/Ortsverwaltung for it, the title names it, an attachment names it within the first 1500 chars, or it recurs (≥2×) in the body.
+  - **mentioned** — a single passing occurrence deep in one attachment. 38% of all detected pairs before this rule. Published for viewers, kept out of every feed.
+  - **dropped** — occurs only inside an enumeration window (≥8 distinct districts within 400 chars).
+- **Only `primary` reaches the feeds.** `AgendaItemRecord.districts` is primary-only, so the district feeds and Atom categories carry it and nothing else. `mentioned` exists solely in `paper-stadtteile.json`. Measured on the full archive: 14,004 papers → 6,803 with a primary district (13,961 primary pairs) + 5,536 mentioned pairs, in **1.2 s**.
+- **The Ortschaftsrat signal is free and beats every text heuristic.** `paper.consultation[].organization` is already on the paper record; `Ortschaftsrat Durlach` consulting a paper attributes 3,134 papers without reading a character of PDF. `findDistrictsForAuthority` restricts this to names starting `Ortschaftsrat`/`Ortsverwaltung` so an ordinary committee cannot claim a district by coincidence.
+- **`Innenstadt` is a synthetic 28th entry**, not an official Stadtteil. 1,828 texts say plain "Innenstadt" and never qualify it; mapping those to both official halves would inflate two feeds with papers concerning neither.
+- **Aliases** cover Ortsteile and the joint Ortschaft Wettersbach (→ Grünwettersbach + Palmbach, 1,465 texts). `Aue` is deliberately absent — it is an ordinary German word; only `Durlach-Aue` is unambiguous.
+- **Adjectival forms carry a street-name guard.** `Durlacher`/`Rüppurrer`/… appear in ~2,000 texts without the base name, but their most frequent use is streets leading _to_ a district from outside it (`Durlacher Allee` is Oststadt, `Rüppurrer Straße` is Südstadt, `Mühlburger Feld` is Nordweststadt). The guard is a lookahead for street/area heads; keep it when adding a form, and keep the forms listed rather than derived — they are irregular (`Daxlanden` → `Daxlander`, `Grünwinkel` → `Grünwinkler`).
+- **Known gap:** PDF extraction sometimes glues a district name to the following digits (`Innenstadt-Ost160,12` in a statistics table). The trailing `\b` then fails and the row does not match. Left alone deliberately — relaxing the boundary costs far more precision than the handful of tables is worth.
+- The index is **incremental** (changed papers + papers whose attachment text changed), unlike the full-rebuild submitter index; a version mismatch on the stored file forces a full rebuild. Serialized with `canonicalStringify`, so an unchanged archive produces byte-identical output.
+- When re-tuning, measure against `docs/` before and after. `tests/karlsruhe-districts.test.ts` pins the matcher and the grading rules; `tests/district-index-service.test.ts` pins the index shape and the incremental paths.
+
+### `docs/paper-stadtteile.json` (viewer contract)
+
+- Shape: `{ version, districts: ["<district>"], papers: { "<recordId>": { primary?: [...], mentioned?: [...] } } }`.
+- **Keyed by the paper's record basename** — the same `<recordId>` as `docs/papers/<recordId>.json`, matching `paper-submitters.json`. Version 1 keyed on `paper.reference`, which is not unique, so one paper of every colliding pair silently overwrote the other.
+- `districts` publishes the **full** registry, not only what was seen this run, so a viewer's filter list stays stable.
+- Empty `primary`/`mentioned` keys are omitted; a paper with neither is left out entirely.
+- Bump `PAPER_DISTRICT_INDEX_VERSION` on any shape change — an unrecognised version triggers a full rebuild rather than a merge.
+- `paper-stadtteile-meta.json` is **gone**. It existed only to remember which `reference` a paper last had; a basename never changes. The first run after the cutover unlinks it.
+- `generation-service.ts` passes the index `updatePaperDistrictIndex` returned straight into `createDistrictResolver`, so the published file and the feed categories cannot drift. Keep that wiring — a re-read of the file would reintroduce the drift.
+
 ## LLM Paper Summaries
 
 - Controlled by `GENERATE_LLM_SUMMARIES` (default false). The scheduled workflow enables it and passes the `OPENCODE_API_KEY` repository secret as `LLM_API_KEY`; a missing key skips updates without breaking feed generation.
@@ -76,7 +103,7 @@ This repository builds and publishes an Atom feed for Karlsruhe city council age
 - Written by `src/services/paper-submitter-index-service.ts`. Shape: `{ version, factions: { "<factionId>": "<display name>" }, papers: { "<recordId>": ["<factionId>"] } }`.
 - `factions` publishes the **full** registry, not only the factions seen this run, so a viewer's filter list stays stable when a faction files nothing. Every id in a `papers` value resolves against it.
 - **Keyed by the paper's record basename** — the same `<recordId>` as `docs/papers/<recordId>.json` — so a viewer can look a paper up by the filename it already reads. `recordBasename` guarantees that key exists and is unique.
-- **Never key this on `paper.reference`.** References are _not_ unique: `2019/1012` belongs to both `papers/ag/394` and `papers/vo/38195` in the current archive. `paper-stadtteile.json` does key on reference and therefore loses one of those two papers' districts — don't copy that shape here.
+- **Never key this on `paper.reference`.** References are _not_ unique: `2019/1012` belongs to both `papers/ag/394` and `papers/vo/38195` in the current archive. `paper-stadtteile.json` used to key on reference and lost one of those two papers' districts; it now keys on the record basename too.
 - The value is the bare faction-id array. Version 2 also carried `paper` (the OParl id URL) and `reference` per entry; both were dropped in version 3 because `docs/papers/<recordId>.json` already holds them authoritatively and a viewer reads that record anyway for title and date. Duplicating them created a second copy that can go stale (`reference` does change — see `district-index-service`) and inflated the file from ~810 KB to no purpose; the slim shape is ~185 KB for the same 4,341 papers. Note the id URL is _not_ reconstructible from `<recordId>` alone (papers live under both `papers/ag/` and `papers/vo/`) — read the paper record for it.
 - Papers with no detected submitter are **omitted**, not stored as an empty array.
 - Bump `PAPER_SUBMITTER_INDEX_VERSION` on any shape change so the viewer can detect an index it does not understand.
@@ -105,6 +132,7 @@ This repository builds and publishes an Atom feed for Karlsruhe city council age
 ## Repo Scripts
 
 - `npm run generate` — primary pipeline (`tsx`).
+- `npm run generate:no-summaries` — the same pipeline with `--no-summaries`, which forces the LLM step off regardless of `GENERATE_LLM_SUMMARIES`. **Use this whenever you regenerate `docs/` to check a change** — the local `.env` enables summaries, so a plain `npm run generate` bills the provider for up to `SUMMARY_MAX_ITEMS_PER_RUN` papers and adds ~20 minutes to the run. Cached summaries still reach the feed; only the refresh is skipped. Reserve `npm run generate` for the scheduled workflow or when you are deliberately working on summaries.
 - `npm run build` — compile TypeScript to `dist/`.
 - `npm start` — run compiled build.
 - `npm run typecheck` — TS type-only.

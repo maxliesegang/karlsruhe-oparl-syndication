@@ -14,9 +14,9 @@ const mocks = vi.hoisted(() => ({
   writeRecentFeed: vi.fn(),
   writeFilteredFeeds: vi.fn().mockResolvedValue([]),
   writeLandingPage: vi.fn(),
-  updatePaperDistrictIndex: vi.fn(),
+  updatePaperDistrictIndex: vi.fn().mockResolvedValue({ version: 2, districts: [], papers: {} }),
   updatePaperSummaries: vi.fn().mockResolvedValue(new Map()),
-  readPaperDistrictIndex: vi.fn().mockResolvedValue({}),
+  createDistrictResolver: vi.fn().mockReturnValue(() => []),
   buildPaperSubmitterIndex: vi.fn().mockReturnValue({ version: 1, papers: {} }),
   writePaperSubmitterIndex: vi.fn(),
   createSubmitterResolver: vi.fn().mockReturnValue(() => []),
@@ -61,8 +61,9 @@ vi.mock('../src/landing-page.js', () => ({
 }));
 
 vi.mock('../src/services/district-index-service.js', () => ({
+  PAPER_DISTRICT_INDEX_FILE_NAME: 'paper-stadtteile.json',
   updatePaperDistrictIndex: mocks.updatePaperDistrictIndex,
-  readPaperDistrictIndex: mocks.readPaperDistrictIndex,
+  createDistrictResolver: mocks.createDistrictResolver,
 }));
 
 vi.mock('../src/services/paper-submitter-index-service.js', () => ({
@@ -121,14 +122,17 @@ describe('generation service cache handling', () => {
     const extractionOrder = mocks.waitForPendingExtractions.mock.invocationCallOrder[0];
     const districtUpdateOrder = mocks.updatePaperDistrictIndex.mock.invocationCallOrder[0];
     const summaryUpdateOrder = mocks.updatePaperSummaries.mock.invocationCallOrder[0];
-    const districtReadOrder = mocks.readPaperDistrictIndex.mock.invocationCallOrder[0];
     const recordBuildOrder = mocks.buildAgendaItemRecords.mock.invocationCallOrder[0];
 
     expect(extractionOrder).toBeLessThan(districtUpdateOrder);
     expect(districtUpdateOrder).toBeLessThan(summaryUpdateOrder);
     expect(summaryUpdateOrder).toBeLessThan(recordBuildOrder);
-    expect(districtUpdateOrder).toBeLessThan(districtReadOrder);
-    expect(districtReadOrder).toBeLessThan(recordBuildOrder);
+
+    // The feed resolver is built from the very index update just returned, not from a
+    // re-read of the published file, so the artifact and the feed cannot disagree.
+    expect(mocks.createDistrictResolver).toHaveBeenCalledWith(
+      await mocks.updatePaperDistrictIndex.mock.results[0].value,
+    );
 
     // The submitter index must be built after extraction (so newly extracted
     // letterheads are seen) and reused for the records, so the published artifact
@@ -169,6 +173,20 @@ describe('generation service cache handling', () => {
     });
     const manifest = mocks.writeJsonToFile.mock.calls[0]?.[0] as { artifacts: string[] };
     expect(manifest.artifacts).toContain('index.html');
+  });
+
+  it('skips every provider call when summaries are disabled for the run', async () => {
+    // `npm run generate:no-summaries` must not bill the LLM provider while an agent
+    // regenerates docs/ to check an unrelated artifact.
+    await runFeedGeneration({ generateSummaries: false });
+
+    expect(mocks.updatePaperSummaries).toHaveBeenCalledWith([], { enabled: false });
+  });
+
+  it('leaves the configured summary setting alone when the run does not override it', async () => {
+    await runFeedGeneration();
+
+    expect(mocks.updatePaperSummaries).toHaveBeenCalledWith([], { enabled: undefined });
   });
 
   it('still builds and persists when a fetch step fails', async () => {

@@ -12,6 +12,7 @@
     "start": "node dist/index.js",
     "smoke": "node --input-type=module --eval \"await Promise.all([import('./dist/api/http.js'), import('./dist/feed.js')])\"",
     "generate": "tsx src/index.ts",
+    "generate:no-summaries": "tsx src/index.ts --no-summaries",
     "validate:feed": "tsx src/validate-feed.ts",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "eslint src/ tests/",

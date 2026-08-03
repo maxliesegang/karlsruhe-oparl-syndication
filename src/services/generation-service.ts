@@ -4,7 +4,12 @@ import { writeFilteredFeeds } from '../filtered-feeds.js';
 import { LANDING_PAGE_FILENAME, writeLandingPage } from '../landing-page.js';
 import { synchronizeMeetings, synchronizeOrganizations, synchronizePapers } from '../api/index.js';
 import { config } from '../config.js';
-import { readPaperDistrictIndex, updatePaperDistrictIndex } from './district-index-service.js';
+import {
+  createDistrictResolver,
+  PAPER_DISTRICT_INDEX_FILE_NAME,
+  PaperDistrictIndex,
+  updatePaperDistrictIndex,
+} from './district-index-service.js';
 import { logger } from '../logger.js';
 import { resolveMissingConsultationPapers } from './consultation-resolution-service.js';
 import { readJsonFromFile, writeJsonToFile } from '../file-utils.js';
@@ -82,16 +87,20 @@ async function refreshOParlData(
   return { hadFailures: failed.length > 0 };
 }
 
-async function buildAndWriteFeeds(paperSummaries: Map<string, PaperSummary>): Promise<void> {
+async function buildAndWriteFeeds(
+  paperSummaries: Map<string, PaperSummary>,
+  districtIndex: PaperDistrictIndex,
+): Promise<void> {
   logger.info('Generating feed...');
   const meetings = stores.meetings.getAll();
-  const districtIndex = await readPaperDistrictIndex();
   // Built once and used for both the published artifact and the feeds, so a viewer
   // reading docs/paper-submitters.json can never disagree with the feed categories.
   const submitterIndex = buildPaperSubmitterIndex();
   await writePaperSubmitterIndex(submitterIndex);
   const records = buildAgendaItemRecords(meetings, {
-    districtIndex,
+    // The same in-memory index that was just published, rather than a re-read of the
+    // file, so the artifact and the feed categories cannot drift apart.
+    resolvePaperDistricts: createDistrictResolver(districtIndex),
     resolvePaperSummary: (paper) => paperSummaries.get(paper.id),
     resolvePaperSubmitters: createSubmitterResolver(submitterIndex),
   });
@@ -115,7 +124,18 @@ async function buildAndWriteFeeds(paperSummaries: Map<string, PaperSummary>): Pr
  * 3. Generate and save the feed
  * 4. Persist updated data to disk
  */
-export async function runFeedGeneration(options: { clearCache?: boolean } = {}): Promise<void> {
+export interface FeedGenerationOptions {
+  clearCache?: boolean;
+  /**
+   * Overrides `GENERATE_LLM_SUMMARIES` for this run. `false` skips every provider
+   * call — and the billing that comes with it — while the rest of the pipeline runs
+   * normally and already-cached summaries still reach the feed. Left undefined, the
+   * configured value applies.
+   */
+  generateSummaries?: boolean;
+}
+
+export async function runFeedGeneration(options: FeedGenerationOptions = {}): Promise<void> {
   const previousManifest = await readJsonFromFile<GenerationManifest>('generation-manifest.json');
   const reconciliationIntervalMs = config.fullReconciliationIntervalDays * 24 * 60 * 60 * 1000;
   const lastFullReconciliation = previousManifest?.fullReconciliationAt
@@ -141,14 +161,16 @@ export async function runFeedGeneration(options: { clearCache?: boolean } = {}):
   // Refresh the enrichment before building feeds so changed papers and newly extracted
   // text are reflected in Stadtteil categories during the same generation run.
   await stores.fileContents.waitForPendingExtractions();
-  await updatePaperDistrictIndex();
+  const districtIndex = await updatePaperDistrictIndex();
   let paperSummaries = new Map<string, PaperSummary>();
   try {
-    paperSummaries = await updatePaperSummaries(stores.meetings.getAll());
+    paperSummaries = await updatePaperSummaries(stores.meetings.getAll(), {
+      enabled: options.generateSummaries,
+    });
   } catch (error) {
     logger.warn('Paper summary refresh failed; continuing without LLM summaries.', error);
   }
-  await buildAndWriteFeeds(paperSummaries);
+  await buildAndWriteFeeds(paperSummaries, districtIndex);
   await stores.saveToDisk();
   logger.info('Saved store data to disk');
 
@@ -180,8 +202,7 @@ export async function runFeedGeneration(options: { clearCache?: boolean } = {}):
         'consultation-resolution-failures.json',
         'organizations.json',
         'file-contents/',
-        'paper-stadtteile.json',
-        'paper-stadtteile-meta.json',
+        PAPER_DISTRICT_INDEX_FILE_NAME,
         PAPER_SUBMITTER_INDEX_FILE_NAME,
         'summaries/',
       ],

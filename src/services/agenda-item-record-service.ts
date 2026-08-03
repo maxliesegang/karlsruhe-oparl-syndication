@@ -6,7 +6,7 @@ import {
   Paper,
   PaperSummary,
 } from '../types/index.js';
-import { KarlsruheDistrict, PaperDistrictIndex } from '../karlsruhe-districts.js';
+import { KarlsruheDistrict } from '../karlsruhe-districts.js';
 import {
   createMemoizedPaperSubmitterResolver,
   FactionId,
@@ -16,7 +16,7 @@ import { stores } from '../store/index.js';
 import { latestValidDate, parseValidDate } from '../utils.js';
 
 export interface AgendaItemRecordOptions {
-  districtIndex?: PaperDistrictIndex;
+  resolvePaperDistricts?: (paper: Paper) => KarlsruheDistrict[];
   fallbackDate?: Date;
   resolvePaper?: (consultationId: string) => Paper | undefined;
   resolveOrganization?: (organizationId: string) => Organization | undefined;
@@ -35,6 +35,11 @@ export interface AgendaItemRecord {
   paperSummary?: PaperSummary;
   attachments: OParlFile[];
   organizations: OrganizationReference[];
+  /**
+   * Districts the paper is *about*. Weaker "named in passing" matches are kept out
+   * of every feed and live only in `docs/paper-stadtteile.json`, so a Stadtteil
+   * subscriber is not sent every citywide paper that lists the Ortschaften.
+   */
   districts: KarlsruheDistrict[];
   /** Factions that submitted the paper; empty for administration papers. */
   submitters: FactionId[];
@@ -51,7 +56,7 @@ export interface OrganizationReference {
 const FALLBACK_DATE = new Date(0);
 
 interface ResolvedRecordOptions {
-  districtIndex: PaperDistrictIndex;
+  resolvePaperDistricts: (paper: Paper) => KarlsruheDistrict[];
   fallbackDate: Date;
   resolvePaper: (consultationId: string) => Paper | undefined;
   resolveOrganization: (organizationId: string) => Organization | undefined;
@@ -65,7 +70,7 @@ interface ResolvedRecordOptions {
  */
 function resolveOptions(options: AgendaItemRecordOptions): ResolvedRecordOptions {
   return {
-    districtIndex: options.districtIndex ?? {},
+    resolvePaperDistricts: options.resolvePaperDistricts ?? (() => []),
     fallbackDate: options.fallbackDate ?? FALLBACK_DATE,
     resolvePaper:
       options.resolvePaper ?? ((id: string) => stores.papers.getPaperByConsultationId(id)),
@@ -108,7 +113,7 @@ function buildRecord(
   options: ResolvedRecordOptions,
 ): AgendaItemRecord {
   const {
-    districtIndex,
+    resolvePaperDistricts,
     fallbackDate,
     resolvePaper,
     resolveOrganization,
@@ -146,7 +151,7 @@ function buildRecord(
     organizations: [...new Set(meeting.organization ?? [])].map((id) =>
       toOrganizationReference(id, resolveOrganization(id)),
     ),
-    districts: paper?.reference ? [...(districtIndex[paper.reference] ?? [])] : [],
+    districts: paper ? [...resolvePaperDistricts(paper)] : [],
     submitters: paper ? resolvePaperSubmitters(paper) : [],
     updatedAt,
     publishedAt: itemCreated ?? itemModified ?? updatedAt,
