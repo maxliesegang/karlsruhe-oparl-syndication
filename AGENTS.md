@@ -62,6 +62,7 @@ This repository builds and publishes an Atom feed for Karlsruhe city council age
 - **`Innenstadt` is a synthetic 28th entry**, not an official Stadtteil. 1,828 texts say plain "Innenstadt" and never qualify it; mapping those to both official halves would inflate two feeds with papers concerning neither.
 - **Aliases** cover Ortsteile and the joint Ortschaft Wettersbach (→ Grünwettersbach + Palmbach, 1,465 texts). `Aue` is deliberately absent — it is an ordinary German word; only `Durlach-Aue` is unambiguous.
 - **Adjectival forms carry a street-name guard.** `Durlacher`/`Rüppurrer`/… appear in ~2,000 texts without the base name, but their most frequent use is streets leading _to_ a district from outside it (`Durlacher Allee` is Oststadt, `Rüppurrer Straße` is Südstadt, `Mühlburger Feld` is Nordweststadt). The guard is a lookahead for street/area heads; keep it when adding a form, and keep the forms listed rather than derived — they are irregular (`Daxlanden` → `Daxlander`, `Grünwinkel` → `Grünwinkler`).
+- **Known gap — `primary` is not the same as "about this Stadtteil".** A paper whose `primary` evidence names five or more districts is a city-wide matter enumerated per location, not a local one. The count distribution has a clear knee: of the papers carrying a primary district, 113 name one, 23 name two, 11 name three, 9 name four, and past that the counts thin into a tail reaching 24. The 2026-07 `Schließung zweier Wertstoffstationen` Beschlussvorlage claims **seven** districts because the comparison table lists other stations twice each — so it currently appears in seven district feeds, five of which it does not concern. Tolerable in a feed (one entry among hundreds), not tolerable in anything that summarizes a district. Measured, not theorized; see `src/spike/README.md`.
 - **Known gap:** PDF extraction sometimes glues a district name to the following digits (`Innenstadt-Ost160,12` in a statistics table). The trailing `\b` then fails and the row does not match. Left alone deliberately — relaxing the boundary costs far more precision than the handful of tables is worth.
 - The index is **incremental** (changed papers + papers whose attachment text changed), unlike the full-rebuild submitter index; a version mismatch on the stored file forces a full rebuild. Serialized with `canonicalStringify`, so an unchanged archive produces byte-identical output.
 - When re-tuning, measure against `docs/` before and after. `tests/karlsruhe-districts.test.ts` pins the matcher and the grading rules; `tests/district-index-service.test.ts` pins the index shape and the incremental paths.
@@ -118,6 +119,7 @@ This repository builds and publishes an Atom feed for Karlsruhe city council age
 - Author: `AUTHOR_NAME`, `AUTHOR_EMAIL`, `AUTHOR_LINK`.
 - Flags: `EXTRACT_PDF_TEXT` (default true), `FETCH_ALL_PAGES` (default true).
 - Summaries: `GENERATE_LLM_SUMMARIES` (default false), `LLM_API_KEY`, `LLM_BASE_URL`, `LLM_MODEL`, `SUMMARY_PROMPT_VERSION`, `SUMMARY_MAX_ITEMS_PER_RUN`, `SUMMARY_MAX_INPUT_CHARS`, `SUMMARY_CONCURRENCY`, `SUMMARY_REQUEST_TIMEOUT_MS`.
+- Digests (**spike only** — read by `src/spike/`, not by `npm run generate`): `DIGEST_MODEL` (default `mimo-v2.5-pro`), `DIGEST_REQUEST_TIMEOUT_MS` (default 900000). Deliberately separate from `LLM_MODEL`/`SUMMARY_REQUEST_TIMEOUT_MS`: digests are ~90 calls a month against ~3,000 paper summaries, so a stronger and much slower model is affordable there and nowhere else.
 - Rate limiting: `REQUEST_DELAY` (ms, default 1000).
 - Reconciliation: `FULL_RECONCILIATION_INTERVAL_DAYS` (default 7) — how often the incremental cursors are ignored for an authoritative full crawl.
 - PDF limits: `PDF_DOWNLOAD_TIMEOUT_MS` (default 30000), `PDF_MAX_CONTENT_BYTES` (default 50 MiB).
@@ -142,6 +144,7 @@ This repository builds and publishes an Atom feed for Karlsruhe city council age
 - `npm run validate:feed` — check the generated feeds in `docs/` before committing them.
 - `npm run format` — Prettier on `src/**/*.ts`.
 - `npm run serve` — static server for `docs/` on port 8080.
+- `npm run spike:digests` — **parked spike**, not part of the pipeline; see `src/spike/README.md`. Writes to `spike-output/` (gitignored) and never to `docs/`. Use `--dry-run` to inspect selection and coverage without spending anything.
 
 ## Operational Notes
 

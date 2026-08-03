@@ -98,6 +98,25 @@ export const config = {
     process.env.SUMMARY_REQUEST_TIMEOUT_MS || '60000',
   ),
 
+  // Digests (meeting previews, monthly Stadtteil/stadtweit rollups) are a
+  // separate model budget from per-paper summaries and default to a stronger
+  // model. There are ~90 digest calls a month against ~3,000 paper summaries, so
+  // the cost difference is marginal, while the task — selecting and framing the
+  // politically significant items out of a month's papers — is the one that
+  // rewards capability. Stronger models on this endpoint are also far slower, so
+  // the timeout is its own setting rather than a reuse of the summary one.
+  //
+  // The generous default is deliberate. Latency here is dominated by provider
+  // jitter rather than input size — a 17 KiB pool completed in 87s while an 11 KiB
+  // one exceeded 300s on the same model — and digests are a handful of calls a
+  // month on a scheduled workflow, so waiting is nearly free while a timeout costs
+  // the whole digest until the next run.
+  digestModel: process.env.DIGEST_MODEL || 'mimo-v2.5-pro',
+  digestRequestTimeoutMs: parsePositiveInteger(
+    'DIGEST_REQUEST_TIMEOUT_MS',
+    process.env.DIGEST_REQUEST_TIMEOUT_MS || '900000',
+  ),
+
   // Rate limiting
   requestIntervalMs: Number.parseInt(process.env.REQUEST_DELAY || '1000', 10),
   fullReconciliationIntervalDays: parsePositiveInteger(
