@@ -2,11 +2,12 @@ import { Feed } from 'feed';
 import { OParlFile, Meeting } from './types/index.js';
 import { config } from './config.js';
 import { normalizeOParlUrl, parseValidDate } from './utils.js';
-import { FEED_GENERATOR, RECENT_FEED_MAX_ITEMS } from './constants.js';
+import { FEED_GENERATOR, RECENT_FEED_MAX_ITEMS, SUBMITTER_CATEGORY_SCHEME } from './constants.js';
 import { logger } from './logger.js';
 import { atomicWriteFile, docsPath } from './file-utils.js';
 import { AgendaItemRecord, buildAgendaItemRecords } from './services/agenda-item-record-service.js';
 import { DISTRICT_FEED_DIRECTORY, slugifyFeedSegment } from './filtered-feed-contract.js';
+import { getFactionName } from './paper-submitters.js';
 
 /**
  * Deterministic fallback for entries (and an empty feed) that have no usable
@@ -103,7 +104,11 @@ function renderEntryContent(
   meetingDay: string,
   attachmentHtml: string,
 ): string {
-  const { meeting, agendaItem, paperSummary } = record;
+  const { meeting, agendaItem, paperSummary, submitters } = record;
+  const submitterHtml =
+    submitters.length > 0
+      ? `<b>Antragstellende Fraktion${submitters.length > 1 ? 'en' : ''}:</b> ${escapeHtml(submitters.map(getFactionName).join(', '))}<br><br>`
+      : '';
   const summaryHtml = paperSummary
     ? `<b>KI-generierte Zusammenfassung:</b> ${escapeHtml(paperSummary.summary)}${
         paperSummary.keyPoints.length > 0
@@ -114,7 +119,8 @@ function renderEntryContent(
   return `
       <b>Sitzung:</b> ${escapeHtml(meeting.name)}<br>
       <b>Datum:</b> ${meetingDay}<br>
-      <b>TOP ${escapeHtml(agendaItem.number ?? '')}:</b> ${escapeHtml(agendaItem.name)}<br><br>
+      <b>TOP ${escapeHtml(agendaItem.number ?? '')}:</b> ${escapeHtml(agendaItem.name)}<br>
+      ${submitterHtml}
       ${summaryHtml}
       <b>Anhänge:</b><br> ${attachmentHtml}
     `;
@@ -159,6 +165,16 @@ function buildEntryCategories(record: AgendaItemRecord): Array<{
       name: district,
       term: slugifyFeedSegment(district),
       scheme: new URL(`${DISTRICT_FEED_DIRECTORY}/`, config.feedBaseUrl).href,
+    })),
+  );
+
+  // term is the stable faction id, label the display name — so a subscriber's
+  // filter survives a rename of the printed faction name.
+  categories.push(
+    ...record.submitters.map((submitter) => ({
+      name: getFactionName(submitter),
+      term: submitter,
+      scheme: SUBMITTER_CATEGORY_SCHEME,
     })),
   );
 

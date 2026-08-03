@@ -1,6 +1,7 @@
 import { stores } from '../store/index.js';
 import { buildAgendaFeedFromRecords, writeFullFeed, writeRecentFeed } from '../feed.js';
 import { writeFilteredFeeds } from '../filtered-feeds.js';
+import { LANDING_PAGE_FILENAME, writeLandingPage } from '../landing-page.js';
 import { synchronizeMeetings, synchronizeOrganizations, synchronizePapers } from '../api/index.js';
 import { config } from '../config.js';
 import { readPaperDistrictIndex, updatePaperDistrictIndex } from './district-index-service.js';
@@ -8,6 +9,12 @@ import { logger } from '../logger.js';
 import { resolveMissingConsultationPapers } from './consultation-resolution-service.js';
 import { readJsonFromFile, writeJsonToFile } from '../file-utils.js';
 import { buildAgendaItemRecords } from './agenda-item-record-service.js';
+import {
+  buildPaperSubmitterIndex,
+  createSubmitterResolver,
+  PAPER_SUBMITTER_INDEX_FILE_NAME,
+  writePaperSubmitterIndex,
+} from './paper-submitter-index-service.js';
 import { updatePaperSummaries } from './paper-summary-service.js';
 import { PaperSummary } from '../types/index.js';
 
@@ -79,16 +86,25 @@ async function buildAndWriteFeeds(paperSummaries: Map<string, PaperSummary>): Pr
   logger.info('Generating feed...');
   const meetings = stores.meetings.getAll();
   const districtIndex = await readPaperDistrictIndex();
+  // Built once and used for both the published artifact and the feeds, so a viewer
+  // reading docs/paper-submitters.json can never disagree with the feed categories.
+  const submitterIndex = buildPaperSubmitterIndex();
+  await writePaperSubmitterIndex(submitterIndex);
   const records = buildAgendaItemRecords(meetings, {
     districtIndex,
     resolvePaperSummary: (paper) => paperSummaries.get(paper.id),
+    resolvePaperSubmitters: createSubmitterResolver(submitterIndex),
   });
   // No run-clock argument: feed construction uses a deterministic fallback so an unchanged
   // dataset produces a byte-identical feed (minimal git churn, working conditional GETs).
   const feed = buildAgendaFeedFromRecords(records.slice(0, config.feedMaxItemCount));
   await writeFullFeed(feed);
   await writeRecentFeed(feed);
-  await writeFilteredFeeds(records);
+  const filteredFeeds = await writeFilteredFeeds(records);
+  // The landing page is generated from what this run actually wrote, so a newly
+  // published feed or artifact can never go unlinked the way it did while the page
+  // was hand-maintained.
+  await writeLandingPage({ filteredFeeds, fullFeedEntryCount: feed.items.length });
   logger.info(`Main feeds saved as ${config.feedFileName} and ${config.recentFeedFileName}`);
 }
 
@@ -152,6 +168,7 @@ export async function runFeedGeneration(options: { clearCache?: boolean } = {}):
       completedAt: new Date().toISOString(),
       fullReconciliationAt,
       artifacts: [
+        LANDING_PAGE_FILENAME,
         config.feedFileName,
         config.recentFeedFileName,
         'feed-index.json',
@@ -165,6 +182,7 @@ export async function runFeedGeneration(options: { clearCache?: boolean } = {}):
         'file-contents/',
         'paper-stadtteile.json',
         'paper-stadtteile-meta.json',
+        PAPER_SUBMITTER_INDEX_FILE_NAME,
         'summaries/',
       ],
     },

@@ -16,8 +16,8 @@ Add a feed URL to any RSS/Atom reader. Use the recent feed if your reader strugg
 
 1. **Load cache** — read the persisted stores under `docs/` (per-record `meetings/`, `papers/`, `file-contents/`, `summaries/papers/` plus the monolithic `consultations.json` / `organizations.json`) into memory.
 2. **Fetch updates** — organizations (full crawl) + meetings and papers via paginated OParl API (`limit=1000`, `modified_since = lastModified − 1 day`).
-3. **Enrich** — join agenda items → meetings → organizations → consultations → papers → auxiliary files, update Stadtteil matches, and optionally refresh cached LLM paper summaries; fix OParl URLs.
-4. **Generate** — build the main and recent Atom feeds plus filtered feeds under `gremien/` and `stadtteile/`.
+3. **Enrich** — join agenda items → meetings → organizations → consultations → papers → auxiliary files, update Stadtteil matches, attribute motions to their submitting faction, and optionally refresh cached LLM paper summaries; fix OParl URLs.
+4. **Generate** — build the main and recent Atom feeds, the filtered feeds under `gremien/` and `stadtteile/`, and the `index.html` landing page that links them.
 5. **Persist** — write only the records that changed back to `docs/` for the next incremental run.
 
 ### Filtered feeds and categories
@@ -27,8 +27,9 @@ Every public agenda item is enriched once and then reused by all outputs. The sc
 - `gremien/<organization-id>.xml` for each referenced committee or organization.
 - `stadtteile/<stadtteil-slug>.xml` for each detected Karlsruhe district.
 - `feed-index.json`, a deterministic directory containing each feed's title, URL, filter id, type, and entry count.
+- `index.html`, a landing page listing every feed above and every published data file. It is generated from what the run actually wrote — do not hand-edit it; change `src/landing-page.ts` instead.
 
-Entries in every Atom feed also include categories for their organizations, Stadtteile, and paper type. Stadtteil assignment is based on the paper title and extracted text, so one item may occur in several district feeds.
+Entries in every Atom feed also include categories for their organizations, Stadtteile, paper type, and — for motions — the submitting faction. Stadtteil assignment is based on the paper title and extracted text, so one item may occur in several district feeds.
 
 The main, committee, and Stadtteil feeds contain at most `FEED_MAX_ITEMS` entries (1,000 by default). This only limits the subscription-facing XML; the stores under `docs/` remain a complete archive. The recent feed remains fixed at 100 entries.
 
@@ -124,6 +125,25 @@ GENERATE_LLM_SUMMARIES=true LLM_API_KEY=... npm run generate
 
 Every feed summary is labelled as automatically generated and links remain available to the
 authoritative original documents.
+
+### Submitting faction (Antragsteller)
+
+Motions (Antrag, Anfrage, Änderungs-/Ergänzungsantrag, Haushalt) are attributed to the council
+faction that filed them. The OParl API exposes no faction entity at all, so the faction is read
+from the letterhead of the paper's own PDFs, using the text that PDF extraction already produced —
+no extra downloads. Papers originating in the administration (Beschlussvorlage, Informationsvorlage)
+are deliberately not attributed, since they often _respond_ to a motion.
+
+Coverage since 2024: Antrag 95%, Anfrage 92%, Haushalt 91%, Änderungs-/Ergänzungsantrag 99%;
+remaining gaps are mostly papers whose PDFs have not been extracted yet.
+
+Results are published two ways:
+
+- `docs/paper-submitters.json` — `{ version, factions: { "<factionId>": "<display name>" }, papers: { "<recordId>": ["<factionId>"] } }`, keyed by the same `<recordId>` as `docs/papers/<recordId>.json`, which is where the paper's OParl id, reference, title and date come from. Papers with no detected submitter are omitted; `factions` always lists the full registry so a filter UI stays stable.
+- An Atom `<category scheme="https://github.com/karlsruhe-oparl-syndication/schema/submitter">` per faction, with `term` set to the stable faction id and `label` to the display name, plus an "Antragstellende Fraktion(en)" line in the entry body.
+
+Faction ids (`gruene`, `cdu`, `die-linke`, …) are this project's own, since there is no OParl id to
+borrow. They are treated as a public contract and never renamed or reused.
 
 ### Caching
 

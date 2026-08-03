@@ -7,6 +7,11 @@ import {
   PaperSummary,
 } from '../types/index.js';
 import { KarlsruheDistrict, PaperDistrictIndex } from '../karlsruhe-districts.js';
+import {
+  createMemoizedPaperSubmitterResolver,
+  FactionId,
+  PaperSubmitterResolver,
+} from '../paper-submitters.js';
 import { stores } from '../store/index.js';
 import { latestValidDate, parseValidDate } from '../utils.js';
 
@@ -16,6 +21,7 @@ export interface AgendaItemRecordOptions {
   resolvePaper?: (consultationId: string) => Paper | undefined;
   resolveOrganization?: (organizationId: string) => Organization | undefined;
   resolvePaperSummary?: (paper: Paper) => PaperSummary | undefined;
+  resolvePaperSubmitters?: PaperSubmitterResolver<Paper>;
 }
 
 /**
@@ -30,6 +36,8 @@ export interface AgendaItemRecord {
   attachments: OParlFile[];
   organizations: OrganizationReference[];
   districts: KarlsruheDistrict[];
+  /** Factions that submitted the paper; empty for administration papers. */
+  submitters: FactionId[];
   updatedAt: Date;
   publishedAt: Date;
 }
@@ -42,34 +50,48 @@ export interface OrganizationReference {
 
 const FALLBACK_DATE = new Date(0);
 
+interface ResolvedRecordOptions {
+  districtIndex: PaperDistrictIndex;
+  fallbackDate: Date;
+  resolvePaper: (consultationId: string) => Paper | undefined;
+  resolveOrganization: (organizationId: string) => Organization | undefined;
+  resolvePaperSummary: (paper: Paper) => PaperSummary | undefined;
+  resolvePaperSubmitters: PaperSubmitterResolver<Paper>;
+}
+
+/**
+ * Submitters are parsed from extracted PDF text, and the same paper is consulted by
+ * several agenda items, so the result is memoized for the lifetime of one build.
+ */
+function resolveOptions(options: AgendaItemRecordOptions): ResolvedRecordOptions {
+  return {
+    districtIndex: options.districtIndex ?? {},
+    fallbackDate: options.fallbackDate ?? FALLBACK_DATE,
+    resolvePaper:
+      options.resolvePaper ?? ((id: string) => stores.papers.getPaperByConsultationId(id)),
+    resolveOrganization:
+      options.resolveOrganization ?? ((id: string) => stores.organizations.getById(id)),
+    resolvePaperSummary: options.resolvePaperSummary ?? (() => undefined),
+    resolvePaperSubmitters:
+      options.resolvePaperSubmitters ??
+      createMemoizedPaperSubmitterResolver(
+        (fileId) => stores.fileContents.getById(fileId)?.extractedText,
+      ),
+  };
+}
+
 /** Build deterministic, public agenda-item records from the archived stores. */
 export function buildAgendaItemRecords(
   meetings: Meeting[],
   options: AgendaItemRecordOptions = {},
 ): AgendaItemRecord[] {
-  const districtIndex = options.districtIndex ?? {};
-  const fallbackDate = options.fallbackDate ?? FALLBACK_DATE;
-  const resolvePaper =
-    options.resolvePaper ?? ((id: string) => stores.papers.getPaperByConsultationId(id));
-  const resolveOrganization =
-    options.resolveOrganization ?? ((id: string) => stores.organizations.getById(id));
-  const resolvePaperSummary = options.resolvePaperSummary ?? (() => undefined);
+  const resolved = resolveOptions(options);
   const records: AgendaItemRecord[] = [];
 
   for (const meeting of meetings) {
     for (const agendaItem of meeting.agendaItem ?? []) {
       if (agendaItem.public !== true || !agendaItem.number) continue;
-      records.push(
-        buildRecord(
-          meeting,
-          agendaItem,
-          districtIndex,
-          fallbackDate,
-          resolvePaper,
-          resolveOrganization,
-          resolvePaperSummary,
-        ),
-      );
+      records.push(buildRecord(meeting, agendaItem, resolved));
     }
   }
 
@@ -83,12 +105,16 @@ export function buildAgendaItemRecords(
 function buildRecord(
   meeting: Meeting,
   agendaItem: AgendaItem,
-  districtIndex: PaperDistrictIndex,
-  fallbackDate: Date,
-  resolvePaper: (consultationId: string) => Paper | undefined,
-  resolveOrganization: (organizationId: string) => Organization | undefined,
-  resolvePaperSummary: (paper: Paper) => PaperSummary | undefined,
+  options: ResolvedRecordOptions,
 ): AgendaItemRecord {
+  const {
+    districtIndex,
+    fallbackDate,
+    resolvePaper,
+    resolveOrganization,
+    resolvePaperSummary,
+    resolvePaperSubmitters,
+  } = options;
   const paper = agendaItem.consultation ? resolvePaper(agendaItem.consultation) : undefined;
   const attachmentsById = new Map<string, OParlFile>();
 
@@ -121,6 +147,7 @@ function buildRecord(
       toOrganizationReference(id, resolveOrganization(id)),
     ),
     districts: paper?.reference ? [...(districtIndex[paper.reference] ?? [])] : [],
+    submitters: paper ? resolvePaperSubmitters(paper) : [],
     updatedAt,
     publishedAt: itemCreated ?? itemModified ?? updatedAt,
   };

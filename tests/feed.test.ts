@@ -12,11 +12,8 @@ const fsMocks = vi.hoisted(() => ({
 vi.mock('fs/promises', () => ({ default: fsMocks }));
 
 import { config } from '../src/config.js';
-import {
-  buildAgendaFeed,
-  buildAgendaFeedFromRecords,
-  writeRecentFeed,
-} from '../src/feed.js';
+import { SUBMITTER_CATEGORY_SCHEME } from '../src/constants.js';
+import { buildAgendaFeed, buildAgendaFeedFromRecords, writeRecentFeed } from '../src/feed.js';
 import { slugifyFeedSegment } from '../src/filtered-feed-contract.js';
 import { buildFilteredFeedGroups, writeFilteredFeeds } from '../src/filtered-feeds.js';
 import { buildAgendaItemRecords } from '../src/services/agenda-item-record-service.js';
@@ -232,11 +229,7 @@ describe('feed identity', () => {
 
   it('renders a labelled, escaped paper summary and uses it as the description', () => {
     const records = buildAgendaItemRecords([
-      meetingWithDates(
-        '2025-01-01T00:00:00Z',
-        '2025-01-02T00:00:00Z',
-        '2025-01-03T00:00:00Z',
-      ),
+      meetingWithDates('2025-01-01T00:00:00Z', '2025-01-02T00:00:00Z', '2025-01-03T00:00:00Z'),
     ]);
     records[0].paperSummary = {
       id: 'https://example.test/papers/1',
@@ -255,6 +248,31 @@ describe('feed identity', () => {
     expect(xml).toContain('KI-generierte Zusammenfassung');
     expect(xml).toContain('maßgeblich sind die Originalunterlagen');
     expect(xml).not.toContain('<script>alert(1)</script>');
+  });
+
+  it('emits the submitting factions as categories and in the entry body', () => {
+    const records = buildAgendaItemRecords([
+      meetingWithDates('2025-01-01T00:00:00Z', '2025-01-02T00:00:00Z', '2025-03-01T00:00:00Z'),
+    ]);
+    records[0].submitters = ['gruene', 'die-linke'];
+
+    const xml = buildAgendaFeedFromRecords(records).atom1();
+    expect(xml).toContain(`scheme="${SUBMITTER_CATEGORY_SCHEME}"`);
+    // term carries the stable id, label the display name.
+    expect(xml).toContain('label="GRÜNE" scheme');
+    expect(xml).toContain('term="gruene"');
+    expect(xml).toContain('term="die-linke"');
+    expect(xml).toContain('Antragstellende Fraktionen:');
+    expect(xml).toContain('GRÜNE, Die Linke');
+  });
+
+  it('omits the faction line for administration papers', () => {
+    const records = buildAgendaItemRecords([
+      meetingWithDates('2025-01-01T00:00:00Z', '2025-01-02T00:00:00Z', '2025-03-01T00:00:00Z'),
+    ]);
+
+    expect(records[0].submitters).toEqual([]);
+    expect(buildAgendaFeedFromRecords(records).atom1()).not.toContain('Antragstellende Fraktion');
   });
 
   it('builds joined records and emits organization, district and paper-type categories', () => {

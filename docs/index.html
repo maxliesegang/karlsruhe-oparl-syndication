@@ -98,6 +98,90 @@
       }
       .copy-btn:hover { color: var(--fg); }
       .copy-btn.copied { color: green; }
+      section {
+        margin-bottom: 2rem;
+      }
+      section > h2 {
+        font-size: 1.1rem;
+        font-weight: 700;
+        margin-bottom: 0.25rem;
+      }
+      section > p {
+        color: var(--muted);
+        font-size: 0.875rem;
+        margin-bottom: 1rem;
+      }
+      details {
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 0.75rem 1rem;
+      }
+      summary {
+        cursor: pointer;
+        font-size: 0.9rem;
+        font-weight: 600;
+      }
+      details h3 {
+        font-size: 0.8rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--muted);
+        margin: 1rem 0 0.25rem;
+      }
+      .feed-list {
+        list-style: none;
+        font-size: 0.875rem;
+      }
+      .feed-list li {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 0.15rem 0;
+      }
+      .feed-list a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+      .feed-list a:hover {
+        color: var(--accent-hover);
+        text-decoration: underline;
+      }
+      .feed-list .count {
+        color: var(--muted);
+        font-size: 0.8rem;
+        font-variant-numeric: tabular-nums;
+        white-space: nowrap;
+      }
+      .data-list {
+        list-style: none;
+      }
+      .data-list li {
+        border-top: 1px solid var(--border);
+        padding: 0.6rem 0;
+      }
+      .data-list a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+      .data-list a:hover {
+        text-decoration: underline;
+      }
+      .data-list code {
+        font-size: 0.85rem;
+      }
+      .data-list p {
+        color: var(--muted);
+        font-size: 0.8rem;
+      }
+      .badge {
+        border: 1px solid var(--border);
+        border-radius: 4px;
+        color: var(--muted);
+        font-size: 0.7rem;
+        padding: 0.05rem 0.35rem;
+        vertical-align: 0.1em;
+      }
       footer {
         color: var(--muted);
         font-size: 0.8rem;
@@ -118,22 +202,322 @@
       <div class="feeds">
         <div class="feed-card">
           <h2>Alle Tagesordnungspunkte</h2>
-          <p>Vollständiger Feed mit allen gespeicherten Einträgen.</p>
+          <p>Vollständiger Feed mit 1.000 Einträgen (höchstens 1.000).</p>
           <div class="feed-url">
-            <a href="tagesordnungspunkte.xml" id="url-full">tagesordnungspunkte.xml</a>
-            <button class="copy-btn" onclick="copyUrl('url-full', this)">Kopieren</button>
+            <a href="tagesordnungspunkte.xml">tagesordnungspunkte.xml</a>
+            <button class="copy-btn" onclick="copyUrl(this)">Kopieren</button>
           </div>
         </div>
 
         <div class="feed-card">
-          <h2>Neueste 50 Tagesordnungspunkte</h2>
-          <p>Kompakter Feed mit den 50 zuletzt aktualisierten Einträgen – empfohlen für RSS-Reader.</p>
+          <h2>Neueste 100 Tagesordnungspunkte</h2>
+          <p>Kompakter Feed mit den 100 zuletzt aktualisierten Einträgen – empfohlen für RSS-Reader.</p>
           <div class="feed-url">
-            <a href="tagesordnungspunkte-recent.xml" id="url-recent">tagesordnungspunkte-recent.xml</a>
-            <button class="copy-btn" onclick="copyUrl('url-recent', this)">Kopieren</button>
+            <a href="tagesordnungspunkte-recent.xml">tagesordnungspunkte-recent.xml</a>
+            <button class="copy-btn" onclick="copyUrl(this)">Kopieren</button>
           </div>
         </div>
       </div>
+
+      <section>
+        <h2>Gefilterte Feeds</h2>
+        <p>
+          Je ein Feed pro Gremium und pro Stadtteil (56 insgesamt).
+          Maschinenlesbar als <a href="feed-index.json"><code>feed-index.json</code></a>.
+        </p>
+        <details>
+          <summary>Alle 56 Feeds anzeigen</summary>
+          <h3>Gremien (29)</h3>
+          <ul class="feed-list">
+            <li>
+              <a href="gremien/53137.xml">53137</a>
+              <span class="count">12</span>
+            </li>
+            <li>
+              <a href="gremien/54872.xml">54872</a>
+              <span class="count">1</span>
+            </li>
+            <li>
+              <a href="gremien/41797.xml">Ausschuss für öffentliche Einrichtungen</a>
+              <span class="count">111</span>
+            </li>
+            <li>
+              <a href="gremien/48728.xml">Ausschuss für Umwelt und Gesundheit</a>
+              <span class="count">167</span>
+            </li>
+            <li>
+              <a href="gremien/50069.xml">Ausschuss für Wirtschaft und Wissenschaft</a>
+              <span class="count">23</span>
+            </li>
+            <li>
+              <a href="gremien/54833.xml">Bäderausschuss</a>
+              <span class="count">49</span>
+            </li>
+            <li>
+              <a href="gremien/31180.xml">Bauausschuss</a>
+              <span class="count">503</span>
+            </li>
+            <li>
+              <a href="gremien/54856.xml">Betriebsausschuss &quot;Eigenbetrieb Fußballstadion im Wildpark&quot;</a>
+              <span class="count">5</span>
+            </li>
+            <li>
+              <a href="gremien/54889.xml">Betriebsausschuss Eigenbetrieb Abfallwirtschaft und Stadtreinigung</a>
+              <span class="count">50</span>
+            </li>
+            <li>
+              <a href="gremien/32130.xml">Gemeinderat</a>
+              <span class="count">1.000</span>
+            </li>
+            <li>
+              <a href="gremien/54902.xml">Gemeinderat - Beratungen zum DHH</a>
+              <span class="count">619</span>
+            </li>
+            <li>
+              <a href="gremien/54847.xml">Gestaltungsbeirat</a>
+              <span class="count">24</span>
+            </li>
+            <li>
+              <a href="gremien/28964.xml">Haupt- und Finanzausschuss</a>
+              <span class="count">770</span>
+            </li>
+            <li>
+              <a href="gremien/39759.xml">Integrationsausschuss</a>
+              <span class="count">81</span>
+            </li>
+            <li>
+              <a href="gremien/36218.xml">Jugendhilfeausschuss</a>
+              <span class="count">266</span>
+            </li>
+            <li>
+              <a href="gremien/29599.xml">Kulturausschuss</a>
+              <span class="count">112</span>
+            </li>
+            <li>
+              <a href="gremien/40333.xml">Ortschaftsrat Durlach</a>
+              <span class="count">1.000</span>
+            </li>
+            <li>
+              <a href="gremien/33695.xml">Ortschaftsrat Grötzingen</a>
+              <span class="count">1.000</span>
+            </li>
+            <li>
+              <a href="gremien/34322.xml">Ortschaftsrat Hohenwettersbach</a>
+              <span class="count">228</span>
+            </li>
+            <li>
+              <a href="gremien/34531.xml">Ortschaftsrat Neureut</a>
+              <span class="count">460</span>
+            </li>
+            <li>
+              <a href="gremien/34764.xml">Ortschaftsrat Stupferich</a>
+              <span class="count">443</span>
+            </li>
+            <li>
+              <a href="gremien/34965.xml">Ortschaftsrat Wettersbach</a>
+              <span class="count">762</span>
+            </li>
+            <li>
+              <a href="gremien/35147.xml">Ortschaftsrat Wolfartsweier</a>
+              <span class="count">537</span>
+            </li>
+            <li>
+              <a href="gremien/31211.xml">Personalausschuss</a>
+              <span class="count">5</span>
+            </li>
+            <li>
+              <a href="gremien/38449.xml">Planungsausschuss</a>
+              <span class="count">319</span>
+            </li>
+            <li>
+              <a href="gremien/32806.xml">Schulausschuss</a>
+              <span class="count">126</span>
+            </li>
+            <li>
+              <a href="gremien/33195.xml">Sozialausschuss</a>
+              <span class="count">115</span>
+            </li>
+            <li>
+              <a href="gremien/33575.xml">Sportausschuss</a>
+              <span class="count">36</span>
+            </li>
+            <li>
+              <a href="gremien/39355.xml">Umlegungsausschuss</a>
+              <span class="count">1</span>
+            </li>
+          </ul>
+          <h3>Stadtteile (27)</h3>
+          <ul class="feed-list">
+            <li>
+              <a href="stadtteile/beiertheim-bulach.xml">Beiertheim-Bulach</a>
+              <span class="count">506</span>
+            </li>
+            <li>
+              <a href="stadtteile/daxlanden.xml">Daxlanden</a>
+              <span class="count">635</span>
+            </li>
+            <li>
+              <a href="stadtteile/durlach.xml">Durlach</a>
+              <span class="count">1.000</span>
+            </li>
+            <li>
+              <a href="stadtteile/groetzingen.xml">Grötzingen</a>
+              <span class="count">1.000</span>
+            </li>
+            <li>
+              <a href="stadtteile/gruenwettersbach.xml">Grünwettersbach</a>
+              <span class="count">723</span>
+            </li>
+            <li>
+              <a href="stadtteile/gruenwinkel.xml">Grünwinkel</a>
+              <span class="count">516</span>
+            </li>
+            <li>
+              <a href="stadtteile/hagsfeld.xml">Hagsfeld</a>
+              <span class="count">639</span>
+            </li>
+            <li>
+              <a href="stadtteile/hohenwettersbach.xml">Hohenwettersbach</a>
+              <span class="count">836</span>
+            </li>
+            <li>
+              <a href="stadtteile/innenstadt-ost.xml">Innenstadt-Ost</a>
+              <span class="count">338</span>
+            </li>
+            <li>
+              <a href="stadtteile/innenstadt-west.xml">Innenstadt-West</a>
+              <span class="count">312</span>
+            </li>
+            <li>
+              <a href="stadtteile/knielingen.xml">Knielingen</a>
+              <span class="count">788</span>
+            </li>
+            <li>
+              <a href="stadtteile/muehlburg.xml">Mühlburg</a>
+              <span class="count">760</span>
+            </li>
+            <li>
+              <a href="stadtteile/neureut.xml">Neureut</a>
+              <span class="count">1.000</span>
+            </li>
+            <li>
+              <a href="stadtteile/nordstadt.xml">Nordstadt</a>
+              <span class="count">455</span>
+            </li>
+            <li>
+              <a href="stadtteile/nordweststadt.xml">Nordweststadt</a>
+              <span class="count">395</span>
+            </li>
+            <li>
+              <a href="stadtteile/oberreut.xml">Oberreut</a>
+              <span class="count">613</span>
+            </li>
+            <li>
+              <a href="stadtteile/oststadt.xml">Oststadt</a>
+              <span class="count">585</span>
+            </li>
+            <li>
+              <a href="stadtteile/palmbach.xml">Palmbach</a>
+              <span class="count">568</span>
+            </li>
+            <li>
+              <a href="stadtteile/rintheim.xml">Rintheim</a>
+              <span class="count">585</span>
+            </li>
+            <li>
+              <a href="stadtteile/rueppurr.xml">Rüppurr</a>
+              <span class="count">633</span>
+            </li>
+            <li>
+              <a href="stadtteile/stupferich.xml">Stupferich</a>
+              <span class="count">906</span>
+            </li>
+            <li>
+              <a href="stadtteile/suedstadt.xml">Südstadt</a>
+              <span class="count">943</span>
+            </li>
+            <li>
+              <a href="stadtteile/suedweststadt.xml">Südweststadt</a>
+              <span class="count">435</span>
+            </li>
+            <li>
+              <a href="stadtteile/waldstadt.xml">Waldstadt</a>
+              <span class="count">551</span>
+            </li>
+            <li>
+              <a href="stadtteile/weiherfeld-dammerstock.xml">Weiherfeld-Dammerstock</a>
+              <span class="count">356</span>
+            </li>
+            <li>
+              <a href="stadtteile/weststadt.xml">Weststadt</a>
+              <span class="count">466</span>
+            </li>
+            <li>
+              <a href="stadtteile/wolfartsweier.xml">Wolfartsweier</a>
+              <span class="count">1.000</span>
+            </li>
+          </ul>
+        </details>
+      </section>
+
+      <section>
+        <h2>Daten</h2>
+        <p>
+          Alle Feeds entstehen aus diesen Dateien. Sie liegen unter derselben Adresse und können
+          direkt weiterverwendet werden. Mit <em>intern</em> markierte Dateien gehören zur
+          Pipeline-Buchhaltung – ihr Format kann sich jederzeit ändern.
+        </p>
+        <ul class="data-list">
+          <li>
+            <a href="feed-index.json"><code>feed-index.json</code></a>
+            <p>Verzeichnis aller gefilterten Feeds mit Titel, URL, Typ und Eintragszahl.</p>
+          </li>
+          <li>
+            <a href="paper-submitters.json"><code>paper-submitters.json</code></a>
+            <p>Antragstellende Fraktion(en) je Vorlage, plus das vollständige Fraktionsverzeichnis. Schlüssel ist der Dateiname unter papers/, dort stehen Titel, Datum und Aktenzeichen.</p>
+          </li>
+          <li>
+            <a href="paper-stadtteile.json"><code>paper-stadtteile.json</code></a>
+            <p>Erkannte Stadtteile je Vorlage, geschlüsselt nach Aktenzeichen (z. B. 2026/0580).</p>
+          </li>
+          <li>
+            <code>papers/</code>
+            <p>Eine JSON-Datei je Vorlage, unverändert aus der OParl-API: papers/&lt;id&gt;.json, wobei &lt;id&gt; das letzte Segment der OParl-URL ist.</p>
+          </li>
+          <li>
+            <code>meetings/</code>
+            <p>Eine JSON-Datei je Sitzung inklusive Tagesordnungspunkten: meetings/&lt;id&gt;.json.</p>
+          </li>
+          <li>
+            <code>file-contents/</code>
+            <p>Je Anhang eine Metadaten-Datei file-contents/&lt;id&gt;.json und der extrahierte PDF-Text als gleichnamige .txt-Datei.</p>
+          </li>
+          <li>
+            <code>summaries/papers/</code>
+            <p>Maschinell erzeugte Kurzfassungen je Vorlage (LLM, mit Quell-Hash): summaries/papers/&lt;id&gt;.json.</p>
+          </li>
+          <li>
+            <a href="consultations.json"><code>consultations.json</code></a>
+            <p>Beratungsfolgen, die Tagesordnungspunkte mit Vorlagen verbinden.</p>
+          </li>
+          <li>
+            <a href="organizations.json"><code>organizations.json</code></a>
+            <p>Gremien und Ämter, auf die Sitzungen verweisen.</p>
+          </li>
+          <li>
+            <a href="generation-manifest.json"><code>generation-manifest.json</code></a> <span class="badge">intern</span>
+            <p>Laufzeitprotokoll des letzten Durchlaufs.</p>
+          </li>
+          <li>
+            <a href="paper-stadtteile-meta.json"><code>paper-stadtteile-meta.json</code></a> <span class="badge">intern</span>
+            <p>Hilfsindex für die inkrementelle Stadtteil-Erkennung.</p>
+          </li>
+          <li>
+            <a href="consultation-resolution-failures.json"><code>consultation-resolution-failures.json</code></a> <span class="badge">intern</span>
+            <p>Wiederholungszustand für Vorlagen, die die API nicht herausgibt.</p>
+          </li>
+        </ul>
+      </section>
 
       <footer>
         Datenquelle: <a href="https://sitzungskalender.karlsruhe.de">Stadtrats-Informationssystem Karlsruhe</a> ·
@@ -142,8 +526,8 @@
     </main>
 
     <script>
-      function copyUrl(id, btn) {
-        const a = document.getElementById(id);
+      function copyUrl(btn) {
+        const a = btn.parentElement.querySelector('a');
         navigator.clipboard.writeText(a.href).then(() => {
           btn.textContent = 'Kopiert!';
           btn.classList.add('copied');
