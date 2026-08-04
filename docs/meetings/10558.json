@@ -53,6 +53,20 @@
       "type": "https://schema.oparl.org/1.1/AgendaItem"
     }
   ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00680043.pdf",
+      "created": "2026-08-04T11:44:20+02:00",
+      "date": "2026-08-04",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00680043.pdf",
+      "fileName": "00680043.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/680043",
+      "mimeType": "application/pdf",
+      "modified": "2026-08-04T11:44:32+02:00",
+      "name": "Protokoll öffentl.",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
   "created": "2025-10-10T13:10:29+02:00",
   "end": "2026-07-15T18:30:00+02:00",
   "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10558",
@@ -79,7 +93,7 @@
     "subLocality": "",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-07-08T06:19:22+02:00",
+  "modified": "2026-08-04T11:44:32+02:00",
   "name": "Sozialausschuss (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33195"
