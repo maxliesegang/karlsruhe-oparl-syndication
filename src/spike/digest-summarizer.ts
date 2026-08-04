@@ -9,7 +9,7 @@
 import { createOpenAICompatible } from '@ai-sdk/openai-compatible';
 import { generateText, Output } from 'ai';
 import { z } from 'zod';
-import { replaceInvalidXmlCharacters } from '../utils.js';
+import { replaceInvalidXmlCharacters } from '../xml-text.js';
 import { DigestBody } from './digest-types.js';
 
 export const DIGEST_PROMPT_VERSION = 'digest-de-v4';

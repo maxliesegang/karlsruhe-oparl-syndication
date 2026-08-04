@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { buildPaperSummarySource, splitSummarySource } from '../src/services/paper-summary-input.js';
+import { buildPaperSummarySource, splitPaperSummarySource } from '../src/services/paper-summary-source.js';
 import { FileContent } from '../src/types/file-content.js';
 import { OParlFile, Paper } from '../src/types/index.js';
 
@@ -62,7 +62,7 @@ describe('paper summary input', () => {
   });
 
   it('splits long text without exceeding the requested size', () => {
-    const chunks = splitSummarySource('eins\n\nzwei\n\n' + 'x'.repeat(15), 10);
+    const chunks = splitPaperSummarySource('eins\n\nzwei\n\n' + 'x'.repeat(15), 10);
     expect(chunks.length).toBeGreaterThan(1);
     expect(chunks.every((chunk) => chunk.length <= 10)).toBe(true);
   });

@@ -1,8 +1,8 @@
 import { createHash } from 'node:crypto';
-import { canonicalStringify } from '../file-utils.js';
+import { canonicalStringify } from '../docs-files.js';
 import { FileContent } from '../types/file-content.js';
 import { Paper } from '../types/index.js';
-import { replaceInvalidXmlCharacters } from '../utils.js';
+import { replaceInvalidXmlCharacters } from '../xml-text.js';
 
 const INPUT_FORMAT_VERSION = 1;
 
@@ -70,7 +70,7 @@ function normalizeSourceText(value: string): string {
 }
 
 /** Split large sources on paragraph boundaries, with a hard limit for giant paragraphs. */
-export function splitSummarySource(text: string, maximumCharacters: number): string[] {
+export function splitPaperSummarySource(text: string, maximumCharacters: number): string[] {
   if (text.length <= maximumCharacters) return text ? [text] : [];
 
   const chunks: string[] = [];

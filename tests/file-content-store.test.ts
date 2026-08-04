@@ -2,7 +2,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import fs from 'fs/promises';
 import os from 'os';
 import path from 'path';
-import { canonicalStringify } from '../src/file-utils.js';
+import { canonicalStringify } from '../src/docs-files.js';
 
 // The store schedules PDF extraction on load/add via the extraction queue.
 // Stub the queue so tests never touch the network and can assert scheduling.

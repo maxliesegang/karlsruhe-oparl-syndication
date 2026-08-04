@@ -13,7 +13,7 @@ vi.mock('fs/promises', () => ({ default: fsMocks }));
 
 import {
   buildPaperSubmitterIndex,
-  createSubmitterResolver,
+  createPaperSubmitterResolver,
   PAPER_SUBMITTER_INDEX_FILE_NAME,
   writePaperSubmitterIndex,
 } from '../src/services/paper-submitter-index-service.js';
@@ -117,7 +117,7 @@ describe('paper submitter index', () => {
   it('resolves submitters for the feed from the same index', () => {
     stores.papers.add(buildPaper());
     addExtractedText('Antrag: CDU, SPD');
-    const resolve = createSubmitterResolver(buildPaperSubmitterIndex());
+    const resolve = createPaperSubmitterResolver(buildPaperSubmitterIndex());
 
     expect(resolve({ id: 'https://web1.karlsruhe.de/oparl/bodies/0001/papers/ag/99' })).toEqual([
       'cdu',

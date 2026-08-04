@@ -1,6 +1,6 @@
 export const COMMITTEE_FEED_DIRECTORY = 'gremien';
 export const DISTRICT_FEED_DIRECTORY = 'stadtteile';
-export const FILTERED_FEED_INDEX_FILENAME = 'feed-index.json';
+export const FILTERED_FEED_INDEX_FILE_NAME = 'feed-index.json';
 
 export type FilteredFeedType = 'committee' | 'district';
 

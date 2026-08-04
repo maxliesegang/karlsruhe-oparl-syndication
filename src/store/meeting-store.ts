@@ -1,9 +1,10 @@
 import { PerRecordStore } from './per-record-store.js';
 import { Meeting } from '../types/index.js';
+import { ReferenceIndex } from './reference-index.js';
 
 export class MeetingStore extends PerRecordStore<Meeting> {
-  private meetingIdsByOrganizationId: Map<string, Set<string>> = new Map();
-  private organizationIdsByMeetingId: Map<string, Set<string>> = new Map();
+  /** Organization id -> meetings held by it. */
+  private readonly organizationIndex = new ReferenceIndex();
 
   readonly storageFileName = 'meetings.json';
   readonly recordDirectoryName = 'meetings';
@@ -13,54 +14,28 @@ export class MeetingStore extends PerRecordStore<Meeting> {
   }
 
   protected onItemAdd(meeting: Meeting): void {
-    this.reindexOrganizations(meeting);
+    this.organizationIndex.setReferences(meeting.id, meeting.organization ?? []);
   }
 
   protected onItemLoad(meeting: Meeting): void {
-    this.reindexOrganizations(meeting);
+    this.organizationIndex.setReferences(meeting.id, meeting.organization ?? []);
   }
 
   protected onItemRemove(meeting: Meeting): void {
-    this.removeFromOrganizationIndex(meeting.id);
-  }
-
-  private reindexOrganizations(meeting: Meeting): void {
-    this.removeFromOrganizationIndex(meeting.id);
-    const organizationIds = new Set(meeting.organization ?? []);
-    for (const organizationId of organizationIds) {
-      let meetingIds = this.meetingIdsByOrganizationId.get(organizationId);
-      if (!meetingIds) {
-        meetingIds = new Set();
-        this.meetingIdsByOrganizationId.set(organizationId, meetingIds);
-      }
-      meetingIds.add(meeting.id);
-    }
-    this.organizationIdsByMeetingId.set(meeting.id, organizationIds);
-  }
-
-  private removeFromOrganizationIndex(meetingId: string): void {
-    for (const organizationId of this.organizationIdsByMeetingId.get(meetingId) ?? []) {
-      const meetingIds = this.meetingIdsByOrganizationId.get(organizationId);
-      meetingIds?.delete(meetingId);
-      if (meetingIds?.size === 0) this.meetingIdsByOrganizationId.delete(organizationId);
-    }
-    this.organizationIdsByMeetingId.delete(meetingId);
+    this.organizationIndex.removeReferrer(meeting.id);
   }
 
   getMeetingsByOrganizationId(organizationId: string): Meeting[] {
-    const meetingIds = this.meetingIdsByOrganizationId.get(organizationId);
-    if (!meetingIds) {
-      return [];
-    }
+    const meetingIds = this.organizationIndex.getReferrers(organizationId);
+    if (!meetingIds) return [];
     return Array.from(meetingIds)
       .map((id) => this.getById(id))
-      .filter((m): m is Meeting => m !== undefined);
+      .filter((meeting): meeting is Meeting => meeting !== undefined);
   }
 
   clear(): void {
     super.clear();
-    this.meetingIdsByOrganizationId.clear();
-    this.organizationIdsByMeetingId.clear();
+    this.organizationIndex.clear();
   }
 }
 

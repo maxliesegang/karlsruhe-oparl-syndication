@@ -22,17 +22,12 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { config } from '../config.js';
 import { slugifyFeedSegment } from '../filtered-feed-contract.js';
-import {
-  canonicalStringify,
-  docsPath,
-  extractRecordId,
-  sanitizeRecordId,
-} from '../file-utils.js';
+import { canonicalStringify, docsPath, recordBasename } from '../docs-files.js';
 import { logger } from '../logger.js';
 import {
   PAPER_DISTRICT_INDEX_FILE_NAME,
   PaperDistrictIndex,
-} from '../services/district-index-service.js';
+} from '../services/paper-district-index-service.js';
 import { stores } from '../store/index.js';
 import { Paper, PaperSummary } from '../types/index.js';
 import { findUngroundedNumericLiterals } from '../services/llm/summary-grounding.js';
@@ -63,7 +58,7 @@ interface Options {
   month: string;
   district?: string;
   limit: number;
-  outDir: string;
+  outputDirectory: string;
   model: string;
   cityWide: boolean;
 }
@@ -255,8 +250,12 @@ async function main(): Promise<void> {
     }
   }
 
-  await writeOutput(options.outDir, results, planned.map((entry) => entry.target));
-  logger.info(`Wrote ${results.length} digest(s) to ${options.outDir}/`);
+  await writeOutput(
+    options.outputDirectory,
+    results,
+    planned.map((entry) => entry.target),
+  );
+  logger.info(`Wrote ${results.length} digest(s) to ${options.outputDirectory}/`);
 }
 
 type ToRecord = (base: DigestRecordBase) => Digest;
@@ -325,25 +324,29 @@ function reportPlan(targets: DigestTarget[]): void {
 }
 
 async function writeOutput(
-  outDir: string,
+  outputDirectory: string,
   digests: Digest[],
   targets: DigestTarget[],
 ): Promise<void> {
-  await fs.mkdir(path.join(outDir, 'digests'), { recursive: true });
+  await fs.mkdir(path.join(outputDirectory, 'digests'), { recursive: true });
   for (const digest of digests) {
     await fs.writeFile(
-      path.join(outDir, 'digests', `${basename(digest)}.json`),
+      path.join(outputDirectory, 'digests', `${basename(digest)}.json`),
       `${canonicalStringify(digest)}\n`,
       'utf8',
     );
   }
-  await fs.writeFile(path.join(outDir, 'report.md'), renderReport(digests, targets), 'utf8');
+  await fs.writeFile(
+    path.join(outputDirectory, 'report.md'),
+    renderReport(digests, targets),
+    'utf8',
+  );
 }
 
 function basename(digest: Digest): string {
   switch (digest.kind) {
     case 'meeting':
-      return `meeting-${sanitizeRecordId(extractRecordId(digest.meetingId))}-${digest.lead}`;
+      return `meeting-${recordBasename(digest.meetingId)}-${digest.lead}`;
     case 'citywide':
       return `stadtweit-${digest.month}`;
     case 'district':
@@ -400,7 +403,11 @@ function digestTitle(digest: Digest): string {
 
 function parseOptions(argv: string[]): Options {
   const flag = (name: string): string | undefined =>
-    argv.find((entry) => entry.startsWith(`--${name}=`))?.split('=').slice(1).join('=');
+    argv
+      .find((entry) => entry.startsWith(`--${name}=`))
+      ?.split('=')
+      .slice(1)
+      .join('=');
 
   const now = flag('now') ? new Date(flag('now')!) : new Date();
   if (Number.isNaN(now.getTime())) throw new Error(`Invalid --now: ${flag('now')}`);
@@ -415,7 +422,7 @@ function parseOptions(argv: string[]): Options {
     month: flag('month') ?? previousMonth(now),
     district: flag('district'),
     limit: Number(flag('limit') ?? 6),
-    outDir: flag('out') ?? 'spike-output',
+    outputDirectory: flag('out') ?? 'spike-output',
     model: flag('model') ?? config.digestModel,
     // Fallback shape: Stadtteil papers only, no shared stadtweit section.
     cityWide: !argv.includes('--no-citywide'),

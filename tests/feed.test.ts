@@ -13,7 +13,7 @@ vi.mock('fs/promises', () => ({ default: fsMocks }));
 
 import { config } from '../src/config.js';
 import { SUBMITTER_CATEGORY_SCHEME } from '../src/constants.js';
-import { buildAgendaFeed, buildAgendaFeedFromRecords, writeRecentFeed } from '../src/feed.js';
+import { buildAgendaFeedFromMeetings, buildAgendaFeed, writeRecentFeed } from '../src/feed.js';
 import { slugifyFeedSegment } from '../src/filtered-feed-contract.js';
 import { buildFilteredFeedGroups, writeFilteredFeeds } from '../src/filtered-feeds.js';
 import { buildAgendaItemRecords } from '../src/services/agenda-item-record-service.js';
@@ -75,12 +75,12 @@ describe('feed identity', () => {
     expect(new URL(config.authorUrl).protocol).toBe('https:');
     expect(config.feedId).not.toContain('localhost');
 
-    const feed = await buildAgendaFeed([], new Date('2026-07-18T12:00:00Z'));
+    const feed = await buildAgendaFeedFromMeetings([], new Date('2026-07-18T12:00:00Z'));
     expect(() => feed.atom1()).not.toThrow();
   });
 
   it('gives the recent feed its own id and self link', async () => {
-    const fullFeed = await buildAgendaFeed([], new Date('2026-07-18T12:00:00Z'));
+    const fullFeed = await buildAgendaFeedFromMeetings([], new Date('2026-07-18T12:00:00Z'));
 
     await writeRecentFeed(fullFeed);
 
@@ -96,7 +96,7 @@ describe('feed identity', () => {
   });
 
   it('serializes without throwing when an agenda item has invalid or empty dates', async () => {
-    const feed = await buildAgendaFeed(
+    const feed = await buildAgendaFeedFromMeetings(
       [meetingWithDates('not-a-date', '', 'also-broken')],
       new Date('2026-07-18T12:00:00Z'),
     );
@@ -105,7 +105,7 @@ describe('feed identity', () => {
 
   it('uses the supplied fallback date for entries with no valid dates', async () => {
     const fallback = new Date('2026-04-05T12:00:00.000Z');
-    const feed = await buildAgendaFeed(
+    const feed = await buildAgendaFeedFromMeetings(
       [meetingWithDates('', 'not-a-date', 'also-broken')],
       fallback,
     );
@@ -115,7 +115,7 @@ describe('feed identity', () => {
   });
 
   it('anchors the feed-level updated to the newest entry, not the run clock', async () => {
-    const feed = await buildAgendaFeed(
+    const feed = await buildAgendaFeedFromMeetings(
       [meetingWithDates('2020-01-01T00:00:00Z', '2024-05-06T00:00:00Z', '2024-05-10T00:00:00Z')],
       new Date('2026-07-18T12:00:00Z'), // run time must not leak into the feed metadata
     );
@@ -126,7 +126,7 @@ describe('feed identity', () => {
   });
 
   it('falls back to the provided date for the feed-level updated when empty', async () => {
-    const feed = await buildAgendaFeed([], new Date('2026-07-18T12:00:00Z'));
+    const feed = await buildAgendaFeedFromMeetings([], new Date('2026-07-18T12:00:00Z'));
     const header = feed.atom1();
     expect(header).toContain('<updated>2026-07-18T12:00:00.000Z</updated>');
   });
@@ -146,7 +146,7 @@ describe('feed identity', () => {
     newer.id = 'https://example.test/meetings/2';
     newer.agendaItem![0].id = 'https://example.test/agendaItems/2';
 
-    const feed = await buildAgendaFeed([older, newer]);
+    const feed = await buildAgendaFeedFromMeetings([older, newer]);
     expect(feed.items.map((i) => i.id)).toEqual([
       'https://example.test/agendaItems/2',
       'https://example.test/agendaItems/1',
@@ -159,13 +159,13 @@ describe('feed identity', () => {
       '2025-03-04T00:00:00Z',
       '2025-03-10T00:00:00Z',
     );
-    const first = (await buildAgendaFeed([meeting])).atom1();
-    const second = (await buildAgendaFeed([meeting])).atom1();
+    const first = (await buildAgendaFeedFromMeetings([meeting])).atom1();
+    const second = (await buildAgendaFeedFromMeetings([meeting])).atom1();
     expect(first).toBe(second);
   });
 
   it('uses the item created date as published when valid', async () => {
-    const feed = await buildAgendaFeed(
+    const feed = await buildAgendaFeedFromMeetings(
       [meetingWithDates('2025-01-02T00:00:00Z', '2026-07-18T00:00:00Z', '2026-07-20T00:00:00Z')],
       new Date('2026-07-18T12:00:00Z'),
     );
@@ -182,10 +182,10 @@ describe('feed identity', () => {
     );
     meeting.agendaItem[0].public = false;
 
-    expect((await buildAgendaFeed([meeting])).items).toHaveLength(0);
+    expect((await buildAgendaFeedFromMeetings([meeting])).items).toHaveLength(0);
 
     meeting.agendaItem[0].public = undefined as unknown as boolean;
-    expect((await buildAgendaFeed([meeting])).items).toHaveLength(0);
+    expect((await buildAgendaFeedFromMeetings([meeting])).items).toHaveLength(0);
   });
 
   it('includes direct agenda-item attachments and uses their timestamp for updated', async () => {
@@ -198,7 +198,7 @@ describe('feed identity', () => {
       attachment({ name: 'Direkte Anlage', modified: '2026-06-01T00:00:00Z' }),
     ];
 
-    const feed = await buildAgendaFeed([meeting]);
+    const feed = await buildAgendaFeedFromMeetings([meeting]);
     expect(feed.items[0]?.date).toEqual(new Date('2026-06-01T00:00:00Z'));
     expect(feed.atom1()).toContain('Direkte Anlage');
   });
@@ -218,7 +218,7 @@ describe('feed identity', () => {
       }),
     ];
 
-    const feed = await buildAgendaFeed([meeting]);
+    const feed = await buildAgendaFeedFromMeetings([meeting]);
     const xml = feed.atom1();
     expect(feed.items[0]?.date).toEqual(new Date('2026-07-01T00:00:00Z'));
     expect(xml).not.toContain('<script>alert(1)</script>');
@@ -242,7 +242,7 @@ describe('feed identity', () => {
       generatedAt: '2026-08-02T00:00:00Z',
     };
 
-    const feed = buildAgendaFeedFromRecords(records);
+    const feed = buildAgendaFeed(records);
     const xml = feed.atom1();
     expect(feed.items[0]?.description).toContain('Die Vorlage prüft &lt;b&gt;zwei&lt;/b&gt;');
     expect(xml).toContain('KI-generierte Zusammenfassung');
@@ -256,7 +256,7 @@ describe('feed identity', () => {
     ]);
     records[0].submitters = ['gruene', 'die-linke'];
 
-    const xml = buildAgendaFeedFromRecords(records).atom1();
+    const xml = buildAgendaFeed(records).atom1();
     expect(xml).toContain(`scheme="${SUBMITTER_CATEGORY_SCHEME}"`);
     // term carries the stable id, label the display name.
     expect(xml).toContain('label="GRÜNE" scheme');
@@ -272,7 +272,7 @@ describe('feed identity', () => {
     ]);
 
     expect(records[0].submitters).toEqual([]);
-    expect(buildAgendaFeedFromRecords(records).atom1()).not.toContain('Antragstellende Fraktion');
+    expect(buildAgendaFeed(records).atom1()).not.toContain('Antragstellende Fraktion');
   });
 
   it('builds joined records and emits organization, district and paper-type categories', () => {
@@ -333,7 +333,7 @@ describe('feed identity', () => {
       districts: ['Durlach'],
     });
 
-    const xml = buildAgendaFeedFromRecords(records).atom1();
+    const xml = buildAgendaFeed(records).atom1();
     expect(xml).toContain('term="https://example.test/organizations/42"');
     expect(xml).toContain('term="durlach"');
     expect(xml).toContain('term="Beschlussvorlage"');

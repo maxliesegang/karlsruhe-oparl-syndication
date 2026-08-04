@@ -2,11 +2,11 @@ import { config } from '../config.js';
 import { logger } from '../logger.js';
 import { stores } from '../store/index.js';
 import { GeneratedPaperSummary, Meeting, Paper, PaperSummary } from '../types/index.js';
-import { latestValidDate } from '../utils.js';
+import { latestValidDate } from '../dates.js';
 import { OpenCodePaperSummarizer } from './llm/opencode-paper-summarizer.js';
 import { PaperSummarizer } from './llm/paper-summarizer.js';
 import { findUngroundedNumericLiterals } from './llm/summary-grounding.js';
-import { buildPaperSummarySource, splitSummarySource } from './paper-summary-input.js';
+import { buildPaperSummarySource, splitPaperSummarySource } from './paper-summary-source.js';
 
 const SUMMARY_BACKFILL_START = Date.UTC(2026, 0, 1);
 
@@ -158,7 +158,7 @@ async function summarizeSource(
   sourceText: string,
   maximumInputCharacters: number,
 ): Promise<GeneratedPaperSummary> {
-  const chunks = splitSummarySource(sourceText, maximumInputCharacters);
+  const chunks = splitPaperSummarySource(sourceText, maximumInputCharacters);
   const partials: GeneratedPaperSummary[] = [];
   for (const chunk of chunks) {
     partials.push(
@@ -181,7 +181,7 @@ async function summarizeSource(
           `Teil ${index + 1}:\n${partial.summary}\nKernpunkte: ${partial.keyPoints.join('; ')}`,
       )
       .join('\n\n');
-    const groups = splitSummarySource(combined, maximumInputCharacters);
+    const groups = splitPaperSummarySource(combined, maximumInputCharacters);
     const nextLevel: GeneratedPaperSummary[] = [];
     for (const group of groups) {
       nextLevel.push(

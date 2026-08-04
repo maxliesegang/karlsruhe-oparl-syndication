@@ -1,28 +1,28 @@
 import { BaseStore } from './base-store.js';
 import { config } from '../config.js';
 import { FileContent } from '../types/file-content.js';
-import { isRecentFile } from '../utils.js';
+import { isRecentFileDate } from '../dates.js';
 import { pdfExtractionQueue } from '../services/pdf-extraction-queue.js';
-import { atomicWriteFile, canonicalStringify, docsPath } from '../file-utils.js';
+import { atomicWriteFile, canonicalStringify, docsPath, recordBasename } from '../docs-files.js';
 import { logger } from '../logger.js';
 import path from 'path';
 import fs from 'fs/promises';
 import {
-  indexRecordFileNames,
+  buildRecordFileNameIndex,
   mapInBatches,
-  readJsonFileNames,
-  recordBasename,
+  listJsonFileNames,
+  readLegacyRecordArray,
   removeOrphanJsonFiles,
 } from './record-files.js';
 
 /** Directory holding the per-record metadata (.json) and extracted text (.txt). */
-const CONTENT_DIR_NAME = 'file-contents';
+const FILE_CONTENT_DIRECTORY = 'file-contents';
 /** Legacy monolithic index, migrated to per-record files then deleted. */
-const LEGACY_INDEX_NAME = 'file-contents.json';
+const LEGACY_INDEX_FILE_NAME = 'file-contents.json';
 // Obsolete: extracted text used to be duplicated into bulk-load chunk files.
 // Per-record files (CONTENT_DIR) are now the single source of truth; this
 // directory is removed on the next persist. See AGENTS.md.
-const OBSOLETE_CHUNKS_NAME = 'file-contents-chunks';
+const OBSOLETE_CHUNKS_DIRECTORY = 'file-contents-chunks';
 
 /**
  * Metadata record persisted per file as `docs/file-contents/<fileId>.json`,
@@ -69,32 +69,32 @@ class FileContentStore extends BaseStore<FileContent> {
     super();
   }
 
-  readonly storageFileName = LEGACY_INDEX_NAME;
+  readonly storageFileName = LEGACY_INDEX_FILE_NAME;
 
   private contentDirectory(): string {
-    return this.baseDir ? path.join(this.baseDir, CONTENT_DIR_NAME) : docsPath(CONTENT_DIR_NAME);
+    return this.baseDir
+      ? path.join(this.baseDir, FILE_CONTENT_DIRECTORY)
+      : docsPath(FILE_CONTENT_DIRECTORY);
   }
 
   private legacyIndexPath(): string {
-    return this.baseDir ? path.join(this.baseDir, LEGACY_INDEX_NAME) : docsPath(LEGACY_INDEX_NAME);
-  }
-
-  private obsoleteChunksDir(): string {
     return this.baseDir
-      ? path.join(this.baseDir, OBSOLETE_CHUNKS_NAME)
-      : docsPath(OBSOLETE_CHUNKS_NAME);
+      ? path.join(this.baseDir, LEGACY_INDEX_FILE_NAME)
+      : docsPath(LEGACY_INDEX_FILE_NAME);
   }
 
-  private recordBasename(id: string): string {
-    return recordBasename(id);
+  private obsoleteChunksDirectory(): string {
+    return this.baseDir
+      ? path.join(this.baseDir, OBSOLETE_CHUNKS_DIRECTORY)
+      : docsPath(OBSOLETE_CHUNKS_DIRECTORY);
   }
 
   private metadataPath(id: string): string {
-    return path.join(this.contentDirectory(), `${this.recordBasename(id)}.json`);
+    return path.join(this.contentDirectory(), `${recordBasename(id)}.json`);
   }
 
   private textPath(id: string): string {
-    return path.join(this.contentDirectory(), `${this.recordBasename(id)}.txt`);
+    return path.join(this.contentDirectory(), `${recordBasename(id)}.txt`);
   }
 
   private toPersistedMetadata(item: FileContent): PersistedFileContentMetadata {
@@ -180,7 +180,7 @@ class FileContentStore extends BaseStore<FileContent> {
   }
 
   private scheduleExtractionIfNeeded(file: FileContent): void {
-    if (!isRecentFile(file.fileModified)) {
+    if (!isRecentFileDate(file.fileModified)) {
       this.clearExtractedText(file);
       return;
     }
@@ -230,8 +230,8 @@ class FileContentStore extends BaseStore<FileContent> {
 
     // Map every current record to its metadata filename, failing loudly on any
     // collision rather than silently overwriting one record with another.
-    const currentJsonFiles = indexRecordFileNames(
-      CONTENT_DIR_NAME,
+    const currentJsonFiles = buildRecordFileNameIndex(
+      FILE_CONTENT_DIRECTORY,
       fileContents.map((item) => item.id),
     );
 
@@ -259,7 +259,7 @@ class FileContentStore extends BaseStore<FileContent> {
     // interrupted write never triggers destructive deletion. Scoped to *.json so
     // the sibling .txt files are never touched.
     const removed = await removeOrphanJsonFiles(dir, currentJsonFiles, {
-      storeName: CONTENT_DIR_NAME,
+      storeName: FILE_CONTENT_DIRECTORY,
       priorRecordCount: this.persistedRecordCount,
     });
 
@@ -267,7 +267,7 @@ class FileContentStore extends BaseStore<FileContent> {
     // monolithic index is obsolete. force:true makes this a no-op when absent.
     await fs.rm(this.legacyIndexPath(), { force: true });
     // Drop the now-obsolete bulk-load chunk directory (idempotent once gone).
-    await fs.rm(this.obsoleteChunksDir(), { recursive: true, force: true });
+    await fs.rm(this.obsoleteChunksDirectory(), { recursive: true, force: true });
 
     const withoutExtractedTextCount = fileContents.filter(
       (f) => !f.lastModifiedExtractedDate,
@@ -292,7 +292,7 @@ class FileContentStore extends BaseStore<FileContent> {
 
   async loadFromDisk(): Promise<void> {
     const dir = this.contentDirectory();
-    const metadataFiles = await readJsonFileNames(dir);
+    const metadataFiles = await listJsonFileNames(dir);
 
     if (metadataFiles && metadataFiles.length > 0) {
       await this.loadFromPerRecordFiles(dir, metadataFiles);
@@ -303,36 +303,16 @@ class FileContentStore extends BaseStore<FileContent> {
   }
 
   private async loadFromPerRecordFiles(dir: string, metadataFiles: string[]): Promise<void> {
-    const fileContentsById = new Map<string, FileContent>();
-    const idsWithText = new Set<string>();
-
     const loadedMetadata = await mapInBatches(metadataFiles, async (filename) => {
       const raw = await fs.readFile(path.join(dir, filename), 'utf8');
       const entry = JSON.parse(raw) as PersistedFileContentMetadata;
-      return { entry, raw };
-    });
-    for (const { entry, raw } of loadedMetadata) {
-      fileContentsById.set(entry.id, {
-        id: entry.id,
-        downloadUrl: entry.downloadUrl,
-        fileModified: entry.fileModified,
-        lastModifiedExtractedDate: entry.lastModifiedExtractedDate,
-        extractedText: undefined,
-      });
       // Snapshot the exact on-disk bytes so an unchanged record is not rewritten.
       this.persistedMetadataById.set(entry.id, raw);
-      if (entry.hasExtractedText) idsWithText.add(entry.id);
-    }
+      return entry;
+    });
 
-    await this.loadTextForItems(fileContentsById, idsWithText);
-
-    for (const item of fileContentsById.values()) {
-      this.onItemLoad(item);
-    }
-
-    this.itemsById = fileContentsById;
-    this.persistedRecordCount = fileContentsById.size;
-    logger.info(`Loaded ${fileContentsById.size} file content records`);
+    const count = await this.hydrate(loadedMetadata);
+    logger.info(`Loaded ${count} file content records`);
   }
 
   /**
@@ -341,23 +321,33 @@ class FileContentStore extends BaseStore<FileContent> {
    * writes every per-record file and deletes the legacy index. One-time cutover.
    */
   private async migrateFromLegacyIndex(): Promise<void> {
-    let raw: string;
-    try {
-      raw = await fs.readFile(this.legacyIndexPath(), 'utf8');
-    } catch (error) {
-      if ((error as NodeJS.ErrnoException).code === 'ENOENT') {
-        logger.info('No file contents found. Starting fresh.');
-        return;
-      }
-      throw error;
+    const legacyMetadata = await readLegacyRecordArray<PersistedFileContentMetadata>(
+      this.legacyIndexPath(),
+    );
+    if (!legacyMetadata) {
+      logger.info('No file contents found. Starting fresh.');
+      return;
     }
 
-    const legacyMetadata = JSON.parse(raw) as unknown;
-    if (!Array.isArray(legacyMetadata)) return;
+    // persistedMetadataById is left empty on purpose, so the next persist writes
+    // every per-record file and then deletes the legacy index.
+    const count = await this.hydrate(legacyMetadata);
+    logger.info(
+      `Migrating ${count} records from legacy ${LEGACY_INDEX_FILE_NAME} to ${FILE_CONTENT_DIRECTORY}/`,
+    );
+  }
 
+  /**
+   * Turns persisted metadata into the in-memory records, attaches the co-located
+   * extracted text, and schedules any re-extraction. Shared by the per-record
+   * load and the legacy migration, which differ only in where the metadata came
+   * from. Returns the number of records now held.
+   */
+  private async hydrate(entries: readonly PersistedFileContentMetadata[]): Promise<number> {
     const fileContentsById = new Map<string, FileContent>();
     const idsWithText = new Set<string>();
-    for (const entry of legacyMetadata as PersistedFileContentMetadata[]) {
+
+    for (const entry of entries) {
       fileContentsById.set(entry.id, {
         id: entry.id,
         downloadUrl: entry.downloadUrl,
@@ -376,9 +366,7 @@ class FileContentStore extends BaseStore<FileContent> {
 
     this.itemsById = fileContentsById;
     this.persistedRecordCount = fileContentsById.size;
-    logger.info(
-      `Migrating ${fileContentsById.size} records from legacy ${LEGACY_INDEX_NAME} to ${CONTENT_DIR_NAME}/`,
-    );
+    return fileContentsById.size;
   }
 
   private async loadTextForItems(

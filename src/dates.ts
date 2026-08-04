@@ -1,32 +1,4 @@
-/** Resolves after the given number of milliseconds. */
-export function delay(ms: number): Promise<void> {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
-/** Replace characters forbidden by XML 1.0 while preserving tabs and line breaks. */
-export function replaceInvalidXmlCharacters(value: string, replacement = ' '): string {
-  let sanitized = '';
-  for (const character of value) {
-    const codePoint = character.codePointAt(0)!;
-    const valid =
-      codePoint === 0x09 ||
-      codePoint === 0x0a ||
-      codePoint === 0x0d ||
-      (codePoint >= 0x20 && codePoint <= 0xd7ff) ||
-      (codePoint >= 0xe000 && codePoint <= 0xfffd) ||
-      (codePoint >= 0x10000 && codePoint <= 0x10ffff);
-    sanitized += valid ? character : replacement;
-  }
-  return sanitized;
-}
-
-/** Corrects OParl URLs to use the /ris/oparl/ path */
-export function normalizeOParlUrl(url: string): string {
-  if (url.includes('/ris/')) {
-    return url;
-  }
-  return url.replace('/oparl/', '/ris/oparl/');
-}
+/** Date parsing and comparison shared across the pipeline. */
 
 /** Parses a value into a Date, returning undefined for missing or invalid dates. */
 export function parseValidDate(value: string | Date | null | undefined): Date | undefined {
@@ -55,14 +27,15 @@ const YEARS_TO_KEEP = 3;
 
 /**
  * True when `dateString` parses to a date within the current or the preceding
- * `YEARS_TO_KEEP - 1` calendar years (e.g. 2024–2026 when run in 2026).
+ * `YEARS_TO_KEEP - 1` calendar years (e.g. 2024–2026 when run in 2026). This is
+ * the window in which an attachment's PDF text is worth extracting and keeping.
  *
  * Parsing the date and comparing the calendar year — instead of the previous
  * substring year-match — avoids false positives from a recent-year fragment
  * appearing elsewhere in the string, and treats an unparseable date as not
  * recent rather than accidentally matching.
  */
-export function isRecentFile(dateString: string): boolean {
+export function isRecentFileDate(dateString: string): boolean {
   const date = parseValidDate(dateString);
   if (!date) return false;
   const oldestYearToKeep = new Date().getFullYear() - (YEARS_TO_KEEP - 1);

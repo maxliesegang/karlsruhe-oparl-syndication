@@ -1,4 +1,4 @@
-import { atomicWriteFile, canonicalStringify, docsPath } from '../file-utils.js';
+import { atomicWriteFile, canonicalStringify, docsPath, recordBasename } from '../docs-files.js';
 import { logger } from '../logger.js';
 import {
   createMemoizedPaperSubmitterResolver,
@@ -6,7 +6,7 @@ import {
   listFactions,
   PaperSubmitterResolver,
 } from '../paper-submitters.js';
-import { indexRecordFileNames, recordBasename } from '../store/record-files.js';
+import { buildRecordFileNameIndex } from '../store/record-files.js';
 import { stores } from '../store/index.js';
 import { Paper } from '../types/index.js';
 
@@ -30,7 +30,7 @@ export const PAPER_SUBMITTER_INDEX_VERSION = 3 as const;
  * URL and `reference` for consumers joining on those, which was dropped: both are
  * already in `docs/papers/<recordId>.json`, which a viewer must read anyway for the
  * title and date, so duplicating them here only created a second copy that can go
- * stale (a paper's `reference` does change — `district-index-service` handles it).
+ * stale (a paper's `reference` does change — `paper-district-index-service` handles it).
  * It also cut the published file from ~810 KB to ~185 KB.
  *
  * Do not key this on `paper.reference` the way `paper-stadtteile.json` does:
@@ -62,7 +62,7 @@ export interface PaperSubmitterIndex {
 export function buildPaperSubmitterIndex(): PaperSubmitterIndex {
   const papers: Record<string, FactionId[]> = {};
   const archivedPapers = stores.papers.getAll();
-  indexRecordFileNames(
+  buildRecordFileNameIndex(
     'paper submitter index',
     archivedPapers.map((paper) => paper.id),
   );
@@ -99,7 +99,7 @@ export async function writePaperSubmitterIndex(index: PaperSubmitterIndex): Prom
 }
 
 /** Feed-side lookup, so the published index and the feed cannot disagree. */
-export function createSubmitterResolver(
+export function createPaperSubmitterResolver(
   index: PaperSubmitterIndex,
 ): PaperSubmitterResolver<Pick<Paper, 'id'>> {
   return (paper) => index.papers[recordBasename(paper.id)] ?? [];

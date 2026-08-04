@@ -1,6 +1,7 @@
 import axios, { AxiosInstance, AxiosResponse } from 'axios';
 import { config } from '../config.js';
-import { delay, normalizeOParlUrl } from '../utils.js';
+import { delay } from '../async.js';
+import { normalizeOParlUrl } from '../oparl-url.js';
 import { logger } from '../logger.js';
 import { createRetryingHttpClient } from './http-client.js';
 

@@ -3,8 +3,8 @@ import fs from 'fs/promises';
 import path from 'path';
 
 import { config } from './config.js';
-import { RECENT_FEED_MAX_ITEMS } from './constants.js';
-import { FILTERED_FEED_INDEX_FILENAME } from './filtered-feed-contract.js';
+import { RECENT_FEED_MAX_ITEM_COUNT } from './constants.js';
+import { FILTERED_FEED_INDEX_FILE_NAME } from './filtered-feed-contract.js';
 import {
   countFeedEntries,
   entryCountFloor,
@@ -13,7 +13,7 @@ import {
   validateFilteredFeedIndex,
   validateFeedXml,
 } from './feed-validation.js';
-import { docsPath } from './file-utils.js';
+import { docsPath } from './docs-files.js';
 import { logger } from './logger.js';
 
 /**
@@ -95,7 +95,7 @@ async function validateFeedFile(
 
   if (options.expectedEntryCount !== undefined && newCount !== options.expectedEntryCount) {
     reportError(
-      `${relativePath} has ${newCount} entries but ${FILTERED_FEED_INDEX_FILENAME} declares ` +
+      `${relativePath} has ${newCount} entries but ${FILTERED_FEED_INDEX_FILE_NAME} declares ` +
         `${options.expectedEntryCount}`,
     );
     return false;
@@ -127,9 +127,9 @@ async function validateFeedFile(
 async function readFilteredFeedIndex() {
   let raw: string;
   try {
-    raw = await fs.readFile(docsPath(FILTERED_FEED_INDEX_FILENAME), 'utf8');
+    raw = await fs.readFile(docsPath(FILTERED_FEED_INDEX_FILE_NAME), 'utf8');
   } catch {
-    reportError(`Generated feed index docs/${FILTERED_FEED_INDEX_FILENAME} is missing`);
+    reportError(`Generated feed index docs/${FILTERED_FEED_INDEX_FILE_NAME} is missing`);
     return null;
   }
 
@@ -137,7 +137,7 @@ async function readFilteredFeedIndex() {
   try {
     value = JSON.parse(raw);
   } catch {
-    reportError(`Generated feed index docs/${FILTERED_FEED_INDEX_FILENAME} is malformed JSON`);
+    reportError(`Generated feed index docs/${FILTERED_FEED_INDEX_FILE_NAME} is malformed JSON`);
     return null;
   }
 
@@ -145,7 +145,7 @@ async function readFilteredFeedIndex() {
     return validateFilteredFeedIndex(value);
   } catch (error) {
     if (!(error instanceof FeedValidationError)) throw error;
-    reportError(`Generated feed index docs/${FILTERED_FEED_INDEX_FILENAME} ${error.message}`);
+    reportError(`Generated feed index docs/${FILTERED_FEED_INDEX_FILE_NAME} ${error.message}`);
     return null;
   }
 }
@@ -158,7 +158,7 @@ results.push(
 );
 results.push(
   await validateFeedFile(config.recentFeedFileName, {
-    maximumItemCount: RECENT_FEED_MAX_ITEMS,
+    maximumItemCount: RECENT_FEED_MAX_ITEM_COUNT,
   }),
 );
 for (const descriptor of filteredFeeds ?? []) {

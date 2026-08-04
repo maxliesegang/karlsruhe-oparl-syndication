@@ -1,18 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { normalizeOParlUrl, isRecentFile, latestValidDate, parseValidDate } from '../src/utils.js';
-
-describe('normalizeOParlUrl', () => {
-  it('adds the RIS path to legacy OParl URLs', () => {
-    expect(normalizeOParlUrl('https://example.test/oparl/bodies/1')).toBe(
-      'https://example.test/ris/oparl/bodies/1',
-    );
-  });
-
-  it('leaves corrected URLs unchanged', () => {
-    const url = 'https://example.test/ris/oparl/bodies/1';
-    expect(normalizeOParlUrl(url)).toBe(url);
-  });
-});
+import { isRecentFileDate, latestValidDate, parseValidDate } from '../src/dates.js';
 
 describe('parseValidDate', () => {
   it('parses valid ISO strings', () => {
@@ -38,19 +25,19 @@ describe('latestValidDate', () => {
   });
 });
 
-describe('isRecentFile', () => {
+describe('isRecentFileDate', () => {
   it('accepts the current year and the preceding two years', () => {
     const year = new Date().getFullYear();
 
-    expect(isRecentFile(`${year}-01-01`)).toBe(true);
-    expect(isRecentFile(`${year - 2}-12-31`)).toBe(true);
-    expect(isRecentFile(`${year - 3}-12-31`)).toBe(false);
+    expect(isRecentFileDate(`${year}-01-01`)).toBe(true);
+    expect(isRecentFileDate(`${year - 2}-12-31`)).toBe(true);
+    expect(isRecentFileDate(`${year - 3}-12-31`)).toBe(false);
   });
 
   it('treats an unparseable date as not recent', () => {
     // The previous substring check returned true for any string containing a
     // recent year, even when it was not a real date.
-    expect(isRecentFile('')).toBe(false);
-    expect(isRecentFile('not-a-date')).toBe(false);
+    expect(isRecentFileDate('')).toBe(false);
+    expect(isRecentFileDate('not-a-date')).toBe(false);
   });
 });

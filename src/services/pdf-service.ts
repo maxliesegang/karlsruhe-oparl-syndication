@@ -1,6 +1,6 @@
 import axios, { AxiosInstance } from 'axios';
 import { PDFParse } from 'pdf-parse';
-import { normalizeOParlUrl } from '../utils.js';
+import { normalizeOParlUrl } from '../oparl-url.js';
 import { createRetryingHttpClient } from '../api/http-client.js';
 import { PDF_MIME_TYPE } from '../constants.js';
 import { config } from '../config.js';

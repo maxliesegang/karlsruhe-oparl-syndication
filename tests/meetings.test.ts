@@ -4,7 +4,7 @@ const mocks = vi.hoisted(() => ({
   fetchPaginatedCollection: vi.fn(),
 }));
 
-vi.mock('../src/api/http.js', () => ({
+vi.mock('../src/api/oparl-client.js', () => ({
   fetchPaginatedCollection: mocks.fetchPaginatedCollection,
 }));
 

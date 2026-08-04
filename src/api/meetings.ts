@@ -1,7 +1,7 @@
 import { Meeting } from '../types/index.js';
 import { stores } from '../store/index.js';
 import { config } from '../config.js';
-import { fetchPaginatedCollection } from './http.js';
+import { fetchPaginatedCollection } from './oparl-client.js';
 import { OPARL_PAGE_SIZE } from '../constants.js';
 import { logger } from '../logger.js';
 

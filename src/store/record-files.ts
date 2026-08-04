@@ -1,6 +1,6 @@
 import fs from 'fs/promises';
 import path from 'path';
-import { extractRecordId, sanitizeRecordId } from '../file-utils.js';
+import { recordFileName } from '../docs-files.js';
 import { logger } from '../logger.js';
 
 /** Keeps bulk filesystem work fast without exhausting the process file limit. */
@@ -36,21 +36,12 @@ export async function mapInBatches<T, R>(
   return results;
 }
 
-/** Returns the stable, filesystem-safe basename used by all per-record stores. */
-export function recordBasename(id: string): string {
-  return sanitizeRecordId(extractRecordId(id));
-}
-
-export function recordFileName(id: string, extension = 'json'): string {
-  return `${recordBasename(id)}.${extension}`;
-}
-
 /**
  * Builds a filename-to-id index and rejects lossy sanitization collisions before
  * any writes occur. Keeping this rule shared prevents stores from subtly
  * disagreeing about which records are safe to persist.
  */
-export function indexRecordFileNames(
+export function buildRecordFileNameIndex(
   storeName: string,
   ids: Iterable<string>,
 ): Map<string, string> {
@@ -72,7 +63,7 @@ export function indexRecordFileNames(
 }
 
 /** Lists JSON records, or null when the directory does not exist. */
-export async function readJsonFileNames(directory: string): Promise<string[] | null> {
+export async function listJsonFileNames(directory: string): Promise<string[] | null> {
   try {
     const entries = await fs.readdir(directory);
     return entries.filter((entry) => entry.endsWith('.json'));
@@ -80,6 +71,25 @@ export async function readJsonFileNames(directory: string): Promise<string[] | n
     if ((error as NodeJS.ErrnoException).code === 'ENOENT') return null;
     throw error;
   }
+}
+
+/**
+ * Reads a legacy monolithic `docs/<entity>.json` array for the one-time cutover
+ * to per-record files. Returns null when the file is absent (nothing to migrate)
+ * or does not hold an array, so both callers treat "no legacy data" identically
+ * instead of each re-deriving the ENOENT and shape checks.
+ */
+export async function readLegacyRecordArray<T>(filePath: string): Promise<T[] | null> {
+  let raw: string;
+  try {
+    raw = await fs.readFile(filePath, 'utf8');
+  } catch (error) {
+    if ((error as NodeJS.ErrnoException).code === 'ENOENT') return null;
+    throw error;
+  }
+
+  const parsed = JSON.parse(raw) as unknown;
+  return Array.isArray(parsed) ? (parsed as T[]) : null;
 }
 
 /**

@@ -1,6 +1,6 @@
-import { readJsonFromFile, writeJsonToFile } from '../file-utils.js';
+import { readJsonFromDocs, writeJsonToDocs } from '../docs-files.js';
 import { logger } from '../logger.js';
-import { latestValidDate } from '../utils.js';
+import { latestValidDate } from '../dates.js';
 
 interface Timestamped {
   id: string;
@@ -92,11 +92,11 @@ export abstract class BaseStore<T extends { id: string }> {
     logger.info(
       `${this.storageFileName}: ${added} added (${this.persistedItemCount} -> ${newSize})`,
     );
-    await writeJsonToFile(data, this.storageFileName);
+    await writeJsonToDocs(data, this.storageFileName);
   }
 
   async loadFromDisk(): Promise<void> {
-    const data = await readJsonFromFile(this.storageFileName);
+    const data = await readJsonFromDocs(this.storageFileName);
     if (data && Array.isArray(data)) {
       this.persistedItemCount = data.length;
       this.itemsById = new Map(

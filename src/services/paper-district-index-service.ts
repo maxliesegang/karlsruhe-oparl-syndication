@@ -7,10 +7,16 @@ import {
   DistrictClassification,
   findDistrictsForAuthority,
   KarlsruheDistrict,
-  listKarlsruheDistricts,
+  listDistricts,
 } from '../karlsruhe-districts.js';
-import { atomicWriteFile, canonicalStringify, docsPath, readJsonFromFile } from '../file-utils.js';
-import { indexRecordFileNames, recordBasename } from '../store/record-files.js';
+import {
+  atomicWriteFile,
+  canonicalStringify,
+  docsPath,
+  readJsonFromDocs,
+  recordBasename,
+} from '../docs-files.js';
+import { buildRecordFileNameIndex } from '../store/record-files.js';
 import { logger } from '../logger.js';
 
 export const PAPER_DISTRICT_INDEX_FILE_NAME = 'paper-stadtteile.json';
@@ -69,7 +75,7 @@ export async function updatePaperDistrictIndex(): Promise<PaperDistrictIndex> {
   const archivedPapers = stores.papers.getAll();
   // Rejects two papers whose ids sanitize to one filename before either can
   // overwrite the other's districts, matching the per-record stores' guarantee.
-  indexRecordFileNames(
+  buildRecordFileNameIndex(
     'paper district index',
     archivedPapers.map((paper) => paper.id),
   );
@@ -90,7 +96,7 @@ export async function updatePaperDistrictIndex(): Promise<PaperDistrictIndex> {
 
   const index: PaperDistrictIndex = {
     version: PAPER_DISTRICT_INDEX_VERSION,
-    districts: listKarlsruheDistricts(),
+    districts: listDistricts(),
     papers,
   };
 
@@ -118,7 +124,7 @@ export async function writePaperDistrictIndex(index: PaperDistrictIndex): Promis
 }
 
 /** Feed-side lookup, so the published index and the feed cannot disagree. */
-export function createDistrictResolver(
+export function createPaperDistrictResolver(
   index: PaperDistrictIndex,
 ): (paper: Pick<Paper, 'id'>) => KarlsruheDistrict[] {
   return (paper) => index.papers[recordBasename(paper.id)]?.primary ?? [];
@@ -128,7 +134,7 @@ async function loadIndexState(): Promise<{
   papers: Record<string, PaperDistrictEntry>;
   requiresFullRebuild: boolean;
 }> {
-  const stored = await readJsonFromFile<Partial<PaperDistrictIndex>>(
+  const stored = await readJsonFromDocs<Partial<PaperDistrictIndex>>(
     PAPER_DISTRICT_INDEX_FILE_NAME,
   );
 

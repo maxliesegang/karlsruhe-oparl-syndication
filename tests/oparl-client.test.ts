@@ -4,7 +4,7 @@ import {
   fetchPaginatedCollection,
   formatOParlDateQueryValue,
   httpClient,
-} from '../src/api/http.js';
+} from '../src/api/oparl-client.js';
 
 describe('HTTP pagination', () => {
   const originalInterval = config.requestIntervalMs;

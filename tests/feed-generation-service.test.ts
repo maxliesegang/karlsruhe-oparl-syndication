@@ -8,7 +8,7 @@ const mocks = vi.hoisted(() => ({
   synchronizeOrganizations: vi.fn(),
   synchronizeMeetings: vi.fn(),
   synchronizePapers: vi.fn(),
-  buildAgendaFeedFromRecords: vi.fn().mockReturnValue({ items: [] }),
+  buildAgendaFeed: vi.fn().mockReturnValue({ items: [] }),
   buildAgendaItemRecords: vi.fn().mockReturnValue([]),
   writeFullFeed: vi.fn(),
   writeRecentFeed: vi.fn(),
@@ -16,13 +16,13 @@ const mocks = vi.hoisted(() => ({
   writeLandingPage: vi.fn(),
   updatePaperDistrictIndex: vi.fn().mockResolvedValue({ version: 2, districts: [], papers: {} }),
   updatePaperSummaries: vi.fn().mockResolvedValue(new Map()),
-  createDistrictResolver: vi.fn().mockReturnValue(() => []),
+  createPaperDistrictResolver: vi.fn().mockReturnValue(() => []),
   buildPaperSubmitterIndex: vi.fn().mockReturnValue({ version: 1, papers: {} }),
   writePaperSubmitterIndex: vi.fn(),
-  createSubmitterResolver: vi.fn().mockReturnValue(() => []),
+  createPaperSubmitterResolver: vi.fn().mockReturnValue(() => []),
   resolveMissingConsultationPapers: vi.fn(),
-  writeJsonToFile: vi.fn(),
-  readJsonFromFile: vi.fn().mockResolvedValue(null),
+  writeJsonToDocs: vi.fn(),
+  readJsonFromDocs: vi.fn().mockResolvedValue(null),
 }));
 
 vi.mock('../src/store/index.js', () => ({
@@ -46,7 +46,7 @@ vi.mock('../src/api/index.js', () => ({
 }));
 
 vi.mock('../src/feed.js', () => ({
-  buildAgendaFeedFromRecords: mocks.buildAgendaFeedFromRecords,
+  buildAgendaFeed: mocks.buildAgendaFeed,
   writeFullFeed: mocks.writeFullFeed,
   writeRecentFeed: mocks.writeRecentFeed,
 }));
@@ -56,21 +56,21 @@ vi.mock('../src/filtered-feeds.js', () => ({
 }));
 
 vi.mock('../src/landing-page.js', () => ({
-  LANDING_PAGE_FILENAME: 'index.html',
+  LANDING_PAGE_FILE_NAME: 'index.html',
   writeLandingPage: mocks.writeLandingPage,
 }));
 
-vi.mock('../src/services/district-index-service.js', () => ({
+vi.mock('../src/services/paper-district-index-service.js', () => ({
   PAPER_DISTRICT_INDEX_FILE_NAME: 'paper-stadtteile.json',
   updatePaperDistrictIndex: mocks.updatePaperDistrictIndex,
-  createDistrictResolver: mocks.createDistrictResolver,
+  createPaperDistrictResolver: mocks.createPaperDistrictResolver,
 }));
 
 vi.mock('../src/services/paper-submitter-index-service.js', () => ({
   PAPER_SUBMITTER_INDEX_FILE_NAME: 'paper-submitters.json',
   buildPaperSubmitterIndex: mocks.buildPaperSubmitterIndex,
   writePaperSubmitterIndex: mocks.writePaperSubmitterIndex,
-  createSubmitterResolver: mocks.createSubmitterResolver,
+  createPaperSubmitterResolver: mocks.createPaperSubmitterResolver,
 }));
 
 vi.mock('../src/services/agenda-item-record-service.js', () => ({
@@ -81,16 +81,16 @@ vi.mock('../src/services/paper-summary-service.js', () => ({
   updatePaperSummaries: mocks.updatePaperSummaries,
 }));
 
-vi.mock('../src/file-utils.js', () => ({
-  writeJsonToFile: mocks.writeJsonToFile,
-  readJsonFromFile: mocks.readJsonFromFile,
+vi.mock('../src/docs-files.js', () => ({
+  writeJsonToDocs: mocks.writeJsonToDocs,
+  readJsonFromDocs: mocks.readJsonFromDocs,
 }));
 
 vi.mock('../src/services/consultation-resolution-service.js', () => ({
   resolveMissingConsultationPapers: mocks.resolveMissingConsultationPapers,
 }));
 
-import { runFeedGeneration } from '../src/services/generation-service.js';
+import { runFeedGeneration } from '../src/services/feed-generation-service.js';
 import { config } from '../src/config.js';
 
 describe('generation service cache handling', () => {
@@ -130,7 +130,7 @@ describe('generation service cache handling', () => {
 
     // The feed resolver is built from the very index update just returned, not from a
     // re-read of the published file, so the artifact and the feed cannot disagree.
-    expect(mocks.createDistrictResolver).toHaveBeenCalledWith(
+    expect(mocks.createPaperDistrictResolver).toHaveBeenCalledWith(
       await mocks.updatePaperDistrictIndex.mock.results[0].value,
     );
 
@@ -141,7 +141,7 @@ describe('generation service cache handling', () => {
     expect(extractionOrder).toBeLessThan(submitterBuildOrder);
     expect(submitterBuildOrder).toBeLessThan(recordBuildOrder);
     expect(mocks.writePaperSubmitterIndex).toHaveBeenCalledWith({ version: 1, papers: {} });
-    expect(mocks.createSubmitterResolver).toHaveBeenCalledWith({ version: 1, papers: {} });
+    expect(mocks.createPaperSubmitterResolver).toHaveBeenCalledWith({ version: 1, papers: {} });
   });
 
   it('caps the main feed while passing the complete record set to filtered feeds', async () => {
@@ -150,7 +150,7 @@ describe('generation service cache handling', () => {
 
     await runFeedGeneration();
 
-    expect(mocks.buildAgendaFeedFromRecords).toHaveBeenCalledWith(
+    expect(mocks.buildAgendaFeed).toHaveBeenCalledWith(
       records.slice(0, config.feedMaxItemCount),
     );
     expect(mocks.writeFilteredFeeds).toHaveBeenCalledWith(records);
@@ -161,7 +161,7 @@ describe('generation service cache handling', () => {
       { type: 'committee', id: 'gr/1', title: 'A', path: 'gremien/1.xml', url: 'u', entryCount: 3 },
     ];
     mocks.writeFilteredFeeds.mockResolvedValueOnce(descriptors);
-    mocks.buildAgendaFeedFromRecords.mockReturnValueOnce({ items: [{}, {}] });
+    mocks.buildAgendaFeed.mockReturnValueOnce({ items: [{}, {}] });
 
     await runFeedGeneration();
 
@@ -171,7 +171,7 @@ describe('generation service cache handling', () => {
       filteredFeeds: descriptors,
       fullFeedEntryCount: 2,
     });
-    const manifest = mocks.writeJsonToFile.mock.calls[0]?.[0] as { artifacts: string[] };
+    const manifest = mocks.writeJsonToDocs.mock.calls[0]?.[0] as { artifacts: string[] };
     expect(manifest.artifacts).toContain('index.html');
   });
 
@@ -196,7 +196,7 @@ describe('generation service cache handling', () => {
 
     // Remaining steps and persistence still run rather than the whole run aborting.
     expect(mocks.synchronizePapers).toHaveBeenCalledOnce();
-    expect(mocks.buildAgendaFeedFromRecords).toHaveBeenCalledOnce();
+    expect(mocks.buildAgendaFeed).toHaveBeenCalledOnce();
     expect(mocks.saveToDisk).toHaveBeenCalledOnce();
   });
 
@@ -205,7 +205,7 @@ describe('generation service cache handling', () => {
 
     await runFeedGeneration({ clearCache: true }); // clearCache forces full reconciliation
 
-    const manifest = mocks.writeJsonToFile.mock.calls[0]?.[0] as {
+    const manifest = mocks.writeJsonToDocs.mock.calls[0]?.[0] as {
       fullReconciliationAt?: string;
     };
     // A failed full reconciliation must not advance the checkpoint, so the next run retries.

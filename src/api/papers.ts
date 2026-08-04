@@ -1,7 +1,7 @@
 import { Paper } from '../types/index.js';
 import { stores } from '../store/index.js';
 import { config } from '../config.js';
-import { fetchOParlResource, fetchPaginatedCollection } from './http.js';
+import { fetchOParlResource, fetchPaginatedCollection } from './oparl-client.js';
 import { OPARL_PAGE_SIZE } from '../constants.js';
 import { logger } from '../logger.js';
 

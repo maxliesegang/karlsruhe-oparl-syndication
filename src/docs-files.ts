@@ -44,6 +44,21 @@ export function sanitizeRecordId(recordId: string): string {
 }
 
 /**
+ * The stable, filesystem-safe basename an OParl record is published under.
+ *
+ * This is the published join key: `docs/papers/<basename>.json`, the keys of
+ * `paper-submitters.json` and `paper-stadtteile.json`, and the filtered feed
+ * filenames all derive from it, so every producer must compute it the same way.
+ */
+export function recordBasename(id: string): string {
+  return sanitizeRecordId(extractRecordId(id));
+}
+
+export function recordFileName(id: string, extension = 'json'): string {
+  return `${recordBasename(id)}.${extension}`;
+}
+
+/**
  * Replace a file atomically by writing its complete contents to a temporary
  * sibling first. Keeping the temporary file in the destination directory
  * ensures the final rename stays on the same filesystem.
@@ -65,12 +80,12 @@ export async function atomicWriteFile(filePath: string, data: string): Promise<v
   }
 }
 
-export async function writeJsonToFile<T>(data: T, filename: string): Promise<void> {
+export async function writeJsonToDocs<T>(data: T, filename: string): Promise<void> {
   const filePath = path.join(DOCS_DIR, filename);
   await atomicWriteFile(filePath, JSON.stringify(data, null, 2));
 }
 
-export async function readJsonFromFile<T>(filename: string): Promise<T | null> {
+export async function readJsonFromDocs<T>(filename: string): Promise<T | null> {
   const filePath = path.join(DOCS_DIR, filename);
   try {
     const data = await fs.readFile(filePath, 'utf8');

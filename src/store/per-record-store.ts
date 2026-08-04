@@ -1,13 +1,13 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { BaseStore } from './base-store.js';
-import { atomicWriteFile, canonicalStringify, docsPath } from '../file-utils.js';
+import { atomicWriteFile, canonicalStringify, docsPath, recordFileName } from '../docs-files.js';
 import { logger } from '../logger.js';
 import {
-  indexRecordFileNames,
+  buildRecordFileNameIndex,
   mapInBatches,
-  readJsonFileNames,
-  recordFileName,
+  listJsonFileNames,
+  readLegacyRecordArray,
   removeOrphanJsonFiles,
 } from './record-files.js';
 
@@ -50,10 +50,6 @@ export abstract class PerRecordStore<T extends { id: string }> extends BaseStore
       : docsPath(this.storageFileName);
   }
 
-  private recordFileName(item: T): string {
-    return recordFileName(item.id);
-  }
-
   override add(item: T): void {
     if ((item as T & { deleted?: boolean }).deleted) {
       // Tombstone: BaseStore.add routes this to removeById.
@@ -90,7 +86,7 @@ export abstract class PerRecordStore<T extends { id: string }> extends BaseStore
 
     // Map every current record to its filename, failing loudly on any collision
     // rather than silently overwriting one record with another.
-    const currentFiles = indexRecordFileNames(
+    const currentFiles = buildRecordFileNameIndex(
       this.recordDirectoryName,
       items.map((item) => item.id),
     );
@@ -98,7 +94,7 @@ export abstract class PerRecordStore<T extends { id: string }> extends BaseStore
     // Write only the records that changed this run.
     const dirtyItems = items.filter((item) => this.dirtyIds.has(item.id));
     await mapInBatches(dirtyItems, (item) =>
-      atomicWriteFile(path.join(dir, this.recordFileName(item)), canonicalStringify(item)),
+      atomicWriteFile(path.join(dir, recordFileName(item.id)), canonicalStringify(item)),
     );
     const written = dirtyItems.length;
 
@@ -128,10 +124,10 @@ export abstract class PerRecordStore<T extends { id: string }> extends BaseStore
 
   override async loadFromDisk(): Promise<void> {
     const dir = this.recordsDirectory();
-    const files = await readJsonFileNames(dir);
+    const files = await listJsonFileNames(dir);
 
     // Only treat the per-record directory as authoritative when it actually holds
-    // records. An existing-but-empty directory (readJsonFileNames returns []) must
+    // records. An existing-but-empty directory (listJsonFileNames returns []) must
     // still fall through to legacy migration; otherwise we would load zero records
     // and the next persist would delete the legacy file, wiping the archive. This
     // mirrors FileContentStore.loadFromDisk.
@@ -158,20 +154,10 @@ export abstract class PerRecordStore<T extends { id: string }> extends BaseStore
    * the full per-record layout and deletes the legacy file. One-time cutover.
    */
   private async migrateFromLegacyFile(): Promise<void> {
-    let raw: string;
-    try {
-      raw = await fs.readFile(this.legacyFilePath(), 'utf8');
-    } catch (error) {
-      if ((error as NodeJS.ErrnoException).code === 'ENOENT') {
-        return;
-      }
-      throw error;
-    }
+    const data = await readLegacyRecordArray<T>(this.legacyFilePath());
+    if (!data) return;
 
-    const data = JSON.parse(raw) as unknown;
-    if (!Array.isArray(data)) return;
-
-    for (const item of data as T[]) {
+    for (const item of data) {
       this.itemsById.set(item.id, item);
       this.onItemLoad(item);
       this.dirtyIds.add(item.id);

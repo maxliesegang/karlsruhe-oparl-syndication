@@ -2,9 +2,9 @@ import { describe, expect, it } from 'vitest';
 import {
   classifyPaperDistricts,
   findDistrictsForAuthority,
-  findKarlsruheDistrictMentions,
-  findKarlsruheDistricts,
-  listKarlsruheDistricts,
+  findDistrictMentions,
+  findDistricts,
+  listDistricts,
 } from '../src/karlsruhe-districts.js';
 
 /** The distribution list that made 84 papers land in all 27 district feeds. */
@@ -13,9 +13,9 @@ const ORTSCHAFTEN_DISTRIBUTION_LIST =
   'Grötzingen, Stupferich, Hohenwettersbach, Wolfartsweier, Grünwettersbach, ' +
   'Palmbach, Neureut, Durlach';
 
-describe('findKarlsruheDistricts', () => {
+describe('findDistricts', () => {
   it('finds full names with alternate compound separators', () => {
-    expect(findKarlsruheDistricts('Treffen in Innenstadt West und Beiertheim–Bulach')).toEqual([
+    expect(findDistricts('Treffen in Innenstadt West und Beiertheim–Bulach')).toEqual([
       'Beiertheim-Bulach',
       'Innenstadt-West',
     ]);
@@ -23,62 +23,62 @@ describe('findKarlsruheDistricts', () => {
 
   it('maps distinctive compound-name parts without duplicates', () => {
     expect(
-      findKarlsruheDistricts('Weiherfeld liegt bei Dammerstock. Weiherfeld bleibt genannt.'),
+      findDistricts('Weiherfeld liegt bei Dammerstock. Weiherfeld bleibt genannt.'),
     ).toEqual(['Weiherfeld-Dammerstock']);
   });
 
   it('does not match words that only contain a district name', () => {
-    expect(findKarlsruheDistricts('Die Durlacher Allee')).toEqual([]);
+    expect(findDistricts('Die Durlacher Allee')).toEqual([]);
   });
 
   it('prefers the qualified half over the synthetic Innenstadt parent', () => {
-    expect(findKarlsruheDistricts('Sanierung Innenstadt-Ost')).toEqual(['Innenstadt-Ost']);
+    expect(findDistricts('Sanierung Innenstadt-Ost')).toEqual(['Innenstadt-Ost']);
   });
 
   it('maps an unqualified Innenstadt to the synthetic parent', () => {
     // 1.8k extracted texts never say which half; a parent keeps them addressable.
-    expect(findKarlsruheDistricts('Verkehrsversuch in der Innenstadt')).toEqual(['Innenstadt']);
+    expect(findDistricts('Verkehrsversuch in der Innenstadt')).toEqual(['Innenstadt']);
   });
 
   it('resolves the joint Ortschaft Wettersbach to both of its Stadtteile', () => {
-    expect(findKarlsruheDistricts('Sitzung in Wettersbach')).toEqual([
+    expect(findDistricts('Sitzung in Wettersbach')).toEqual([
       'Grünwettersbach',
       'Palmbach',
     ]);
   });
 
   it('maps Ortsteile and Siedlungen to their Stadtteil', () => {
-    expect(findKarlsruheDistricts('Spielplatz im Bergwald')).toEqual(['Wolfartsweier']);
-    expect(findKarlsruheDistricts('Gewerbegebiet Killisfeld')).toEqual(['Durlach']);
-    expect(findKarlsruheDistricts('Heidenstückersiedlung')).toEqual(['Rüppurr']);
+    expect(findDistricts('Spielplatz im Bergwald')).toEqual(['Wolfartsweier']);
+    expect(findDistricts('Gewerbegebiet Killisfeld')).toEqual(['Durlach']);
+    expect(findDistricts('Heidenstückersiedlung')).toEqual(['Rüppurr']);
   });
 
   describe('adjectival forms', () => {
     it('counts as the district when it is not a street name', () => {
-      expect(findKarlsruheDistricts('Der Grötzinger Ortschaftsrat tagt')).toEqual(['Grötzingen']);
-      expect(findKarlsruheDistricts('Die Rüppurrer Grundschule')).toEqual(['Rüppurr']);
+      expect(findDistricts('Der Grötzinger Ortschaftsrat tagt')).toEqual(['Grötzingen']);
+      expect(findDistricts('Die Rüppurrer Grundschule')).toEqual(['Rüppurr']);
     });
 
     it('is ignored in the street names that carry it away from the district', () => {
       // Durlacher Allee is in the Oststadt, Rüppurrer Straße in the Südstadt, and
       // Mühlburger Feld is a quarter of the Nordweststadt.
-      expect(findKarlsruheDistricts('Rüppurrer Str. 12, Durlacher Tor')).toEqual([]);
-      expect(findKarlsruheDistricts('Baustelle Mühlburger Feld')).toEqual([]);
-      expect(findKarlsruheDistricts('Anwohner der Neureuter Straße')).toEqual([]);
+      expect(findDistricts('Rüppurrer Str. 12, Durlacher Tor')).toEqual([]);
+      expect(findDistricts('Baustelle Mühlburger Feld')).toEqual([]);
+      expect(findDistricts('Anwohner der Neureuter Straße')).toEqual([]);
     });
   });
 });
 
-describe('findKarlsruheDistrictMentions', () => {
+describe('findDistrictMentions', () => {
   it('flags a distribution list rather than reporting it as subject matter', () => {
-    const mentions = findKarlsruheDistrictMentions(ORTSCHAFTEN_DISTRIBUTION_LIST);
+    const mentions = findDistrictMentions(ORTSCHAFTEN_DISTRIBUTION_LIST);
 
     expect(mentions.length).toBeGreaterThan(8);
     expect(mentions.every((mention) => mention.inEnumeration)).toBe(true);
   });
 
   it('leaves an ordinary sentence unflagged', () => {
-    const mentions = findKarlsruheDistrictMentions('Der Radweg verbindet Durlach und Grötzingen.');
+    const mentions = findDistrictMentions('Der Radweg verbindet Durlach und Grötzingen.');
 
     expect(mentions.map((mention) => mention.district)).toEqual(['Durlach', 'Grötzingen']);
     expect(mentions.some((mention) => mention.inEnumeration)).toBe(false);
@@ -167,9 +167,9 @@ describe('classifyPaperDistricts', () => {
   });
 });
 
-describe('listKarlsruheDistricts', () => {
+describe('listDistricts', () => {
   it('publishes the full registry sorted and deduplicated', () => {
-    const districts = listKarlsruheDistricts();
+    const districts = listDistricts();
 
     expect(districts).toHaveLength(28); // 27 official Stadtteile + synthetic Innenstadt
     expect(districts).toEqual([...districts].sort());

@@ -12,12 +12,12 @@ const fsMocks = vi.hoisted(() => ({
 vi.mock('fs/promises', () => ({ default: fsMocks }));
 
 import {
-  createDistrictResolver,
+  createPaperDistrictResolver,
   PAPER_DISTRICT_INDEX_FILE_NAME,
   PAPER_DISTRICT_INDEX_VERSION,
   PaperDistrictIndex,
   updatePaperDistrictIndex,
-} from '../src/services/district-index-service.js';
+} from '../src/services/paper-district-index-service.js';
 import { stores } from '../src/store/index.js';
 import type { FileContent } from '../src/types/file-content.js';
 import type { Organization, Paper } from '../src/types/index.js';
@@ -231,7 +231,7 @@ describe('paper district index', () => {
   it('resolves only primary districts for the feed', async () => {
     stores.papers.add(buildPaper({ name: 'Spielplatzsanierung Rintheim' }));
     addExtractedText(`${'x'.repeat(5000)} wie zuvor in Oberreut umgesetzt.`);
-    const resolve = createDistrictResolver(await updatePaperDistrictIndex());
+    const resolve = createPaperDistrictResolver(await updatePaperDistrictIndex());
 
     // Oberreut is only mentioned in passing, so a Stadtteil subscriber is not sent it.
     expect(resolve({ id: PAPER_ID })).toEqual(['Rintheim']);

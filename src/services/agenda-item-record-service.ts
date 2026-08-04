@@ -6,6 +6,7 @@ import {
   Paper,
   PaperSummary,
 } from '../types/index.js';
+import { EPOCH_FALLBACK_DATE } from '../constants.js';
 import { KarlsruheDistrict } from '../karlsruhe-districts.js';
 import {
   createMemoizedPaperSubmitterResolver,
@@ -13,7 +14,7 @@ import {
   PaperSubmitterResolver,
 } from '../paper-submitters.js';
 import { stores } from '../store/index.js';
-import { latestValidDate, parseValidDate } from '../utils.js';
+import { latestValidDate, parseValidDate } from '../dates.js';
 
 export interface AgendaItemRecordOptions {
   resolvePaperDistricts?: (paper: Paper) => KarlsruheDistrict[];
@@ -53,8 +54,6 @@ export interface OrganizationReference {
   organization?: Organization;
 }
 
-const FALLBACK_DATE = new Date(0);
-
 interface ResolvedRecordOptions {
   resolvePaperDistricts: (paper: Paper) => KarlsruheDistrict[];
   fallbackDate: Date;
@@ -71,7 +70,7 @@ interface ResolvedRecordOptions {
 function resolveOptions(options: AgendaItemRecordOptions): ResolvedRecordOptions {
   return {
     resolvePaperDistricts: options.resolvePaperDistricts ?? (() => []),
-    fallbackDate: options.fallbackDate ?? FALLBACK_DATE,
+    fallbackDate: options.fallbackDate ?? EPOCH_FALLBACK_DATE,
     resolvePaper:
       options.resolvePaper ?? ((id: string) => stores.papers.getPaperByConsultationId(id)),
     resolveOrganization:

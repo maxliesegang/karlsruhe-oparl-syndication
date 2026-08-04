@@ -6,8 +6,8 @@ const mocks = vi.hoisted(() => {
     consultations,
     fetchAndStoreConsultation: vi.fn(),
     fetchAndStorePaper: vi.fn(),
-    readJsonFromFile: vi.fn(),
-    writeJsonToFile: vi.fn(),
+    readJsonFromDocs: vi.fn(),
+    writeJsonToDocs: vi.fn(),
   };
 });
 
@@ -16,9 +16,9 @@ vi.mock('../src/api/index.js', () => ({
   fetchAndStorePaper: mocks.fetchAndStorePaper,
 }));
 
-vi.mock('../src/file-utils.js', () => ({
-  readJsonFromFile: mocks.readJsonFromFile,
-  writeJsonToFile: mocks.writeJsonToFile,
+vi.mock('../src/docs-files.js', () => ({
+  readJsonFromDocs: mocks.readJsonFromDocs,
+  writeJsonToDocs: mocks.writeJsonToDocs,
 }));
 
 vi.mock('../src/store/index.js', () => ({
@@ -42,7 +42,7 @@ describe('consultation paper retry policy', () => {
   beforeEach(() => {
     vi.clearAllMocks();
     mocks.consultations.clear();
-    mocks.readJsonFromFile.mockResolvedValue(null);
+    mocks.readJsonFromDocs.mockResolvedValue(null);
     mocks.fetchAndStoreConsultation.mockImplementation(async (id: string) => {
       const consultation = { id, paper: paperId };
       mocks.consultations.set(id, consultation);
@@ -57,13 +57,13 @@ describe('consultation paper retry policy', () => {
     });
 
     const first = await resolveMissingConsultationPapers([meeting], { now: NOW });
-    const ledger = mocks.writeJsonToFile.mock.calls[0]?.[0];
+    const ledger = mocks.writeJsonToDocs.mock.calls[0]?.[0];
 
     expect(first.failedPapers).toBe(1);
     expect(ledger[paperId]).toMatchObject({ attempts: 1, status: 401, reason: 'unauthorized' });
     expect(ledger[paperId].nextRetryAt).toBe('2026-07-25T12:00:00.000Z');
 
-    mocks.readJsonFromFile.mockResolvedValue(ledger);
+    mocks.readJsonFromDocs.mockResolvedValue(ledger);
     const second = await resolveMissingConsultationPapers([meeting], {
       now: new Date('2026-07-19T12:00:00.000Z'),
     });
@@ -77,7 +77,7 @@ describe('consultation paper retry policy', () => {
     mocks.consultations.set(consultationId, { id: consultationId, paper: paperId });
 
     const result = await resolveMissingConsultationPapers([meeting], { now: NOW });
-    const ledger = mocks.writeJsonToFile.mock.calls[0]?.[0];
+    const ledger = mocks.writeJsonToDocs.mock.calls[0]?.[0];
 
     expect(mocks.fetchAndStorePaper).not.toHaveBeenCalled();
     expect(result.deferredPapers).toBe(1);

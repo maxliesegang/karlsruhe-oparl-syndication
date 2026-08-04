@@ -1,4 +1,4 @@
-import { runFeedGeneration } from './services/generation-service.js';
+import { runFeedGeneration } from './services/feed-generation-service.js';
 
 /**
  * `--no-summaries` forces the LLM step off for this run regardless of

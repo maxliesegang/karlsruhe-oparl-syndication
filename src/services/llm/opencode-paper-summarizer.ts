@@ -2,7 +2,7 @@ import { createOpenAICompatible } from '@ai-sdk/openai-compatible';
 import { generateText, Output } from 'ai';
 import { z } from 'zod';
 import { GeneratedPaperSummary } from '../../types/index.js';
-import { replaceInvalidXmlCharacters } from '../../utils.js';
+import { replaceInvalidXmlCharacters } from '../../xml-text.js';
 import { PaperSummarizer, PaperSummaryRequest } from './paper-summarizer.js';
 
 export interface OpenCodePaperSummarizerOptions {

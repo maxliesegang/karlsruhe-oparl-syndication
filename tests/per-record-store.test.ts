@@ -3,7 +3,7 @@ import fs from 'fs/promises';
 import os from 'os';
 import path from 'path';
 import { PerRecordStore } from '../src/store/per-record-store.js';
-import { canonicalStringify } from '../src/file-utils.js';
+import { canonicalStringify } from '../src/docs-files.js';
 import { PaperStore } from '../src/store/paper-store.js';
 import { MeetingStore } from '../src/store/meeting-store.js';
 import { Meeting, Paper } from '../src/types/index.js';

@@ -9,8 +9,8 @@
 
 import { createHash } from 'node:crypto';
 import { slugifyFeedSegment } from '../filtered-feed-contract.js';
-import { canonicalStringify, extractRecordId, sanitizeRecordId } from '../file-utils.js';
-import { PaperDistrictIndex } from '../services/district-index-service.js';
+import { canonicalStringify, recordBasename } from '../docs-files.js';
+import { PaperDistrictIndex } from '../services/paper-district-index-service.js';
 import { stores } from '../store/index.js';
 import { Meeting, Paper, PaperSummary } from '../types/index.js';
 import { DigestTarget, MeetingDigestLead } from './digest-types.js';
@@ -275,10 +275,6 @@ function findPaperByRecordBasename(recordId: string): Paper | undefined {
   return paperBasenameIndex.get(recordId);
 }
 
-function recordBasename(id: string): string {
-  return sanitizeRecordId(extractRecordId(id));
-}
-
 /**
  * OParl meeting names carry a session-visibility suffix — "Gemeinderat
  * (öffentlich/nicht öffentlich)". It describes the sitting's record, not the
@@ -286,7 +282,9 @@ function recordBasename(id: string): string {
  * asked of the prompt, since it is a fixed, mechanical suffix.
  */
 export function committeeName(name: string): string {
-  return name.replace(/\s*\((?:öffentlich|nicht öffentlich)(?:\/(?:nicht )?öffentlich)?\)\s*$/i, '').trim();
+  return name
+    .replace(/\s*\((?:öffentlich|nicht öffentlich)(?:\/(?:nicht )?öffentlich)?\)\s*$/i, '')
+    .trim();
 }
 
 function monthOf(date: string | undefined): string {

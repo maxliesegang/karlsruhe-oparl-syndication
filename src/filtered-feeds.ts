@@ -4,19 +4,13 @@ import { config } from './config.js';
 import {
   COMMITTEE_FEED_DIRECTORY,
   DISTRICT_FEED_DIRECTORY,
-  FILTERED_FEED_INDEX_FILENAME,
+  FILTERED_FEED_INDEX_FILE_NAME,
   FilteredFeedDescriptor,
   FilteredFeedType,
   slugifyFeedSegment,
 } from './filtered-feed-contract.js';
-import { buildAgendaFeedFromRecords, FeedMetadata, writeSerializedFeed } from './feed.js';
-import {
-  atomicWriteFile,
-  canonicalStringify,
-  docsPath,
-  extractRecordId,
-  sanitizeRecordId,
-} from './file-utils.js';
+import { buildAgendaFeed, FeedMetadata, writeFeedFile } from './feed.js';
+import { atomicWriteFile, canonicalStringify, docsPath, recordBasename } from './docs-files.js';
 import { logger } from './logger.js';
 import { AgendaItemRecord, OrganizationReference } from './services/agenda-item-record-service.js';
 
@@ -40,15 +34,15 @@ export async function writeFilteredFeeds(
   // bounded memory is more valuable here than opening every output concurrently.
   for (const group of groups) {
     const metadata = createFeedMetadata(group);
-    const feed = buildAgendaFeedFromRecords(group.records, { metadata, logProgress: false });
-    await writeSerializedFeed(feed, group.path);
+    const feed = buildAgendaFeed(group.records, { metadata, logProgress: false });
+    await writeFeedFile(feed, group.path);
   }
 
   await removeOrphanFeedFiles(COMMITTEE_FEED_DIRECTORY, groups);
   await removeOrphanFeedFiles(DISTRICT_FEED_DIRECTORY, groups);
 
   const descriptors = groups.map(toDescriptor);
-  await atomicWriteFile(docsPath(FILTERED_FEED_INDEX_FILENAME), canonicalStringify(descriptors));
+  await atomicWriteFile(docsPath(FILTERED_FEED_INDEX_FILE_NAME), canonicalStringify(descriptors));
   logger.info(`Generated ${descriptors.length} filtered feed(s).`);
   return descriptors;
 }
@@ -86,7 +80,7 @@ function buildCommitteeGroups(records: AgendaItemRecord[], maximumItemCount: num
     id: organization.id,
     title: `Tagesordnungspunkte – ${organization.name}`,
     description: `Öffentliche Tagesordnungspunkte des Gremiums ${organization.name}`,
-    path: `${COMMITTEE_FEED_DIRECTORY}/${organizationFeedBasename(organization.id)}.xml`,
+    path: `${COMMITTEE_FEED_DIRECTORY}/${recordBasename(organization.id)}.xml`,
     records: groupRecords,
   }));
 }
@@ -109,10 +103,6 @@ function buildDistrictGroups(records: AgendaItemRecord[], maximumItemCount: numb
     path: `${DISTRICT_FEED_DIRECTORY}/${slugifyFeedSegment(district)}.xml`,
     records: groupRecords,
   }));
-}
-
-function organizationFeedBasename(id: string): string {
-  return sanitizeRecordId(extractRecordId(id));
 }
 
 function createFeedMetadata(group: FeedGroup): FeedMetadata {

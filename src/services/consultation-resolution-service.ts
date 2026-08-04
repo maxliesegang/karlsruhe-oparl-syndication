@@ -1,6 +1,6 @@
 import { fetchAndStoreConsultation, fetchAndStorePaper } from '../api/index.js';
 import axios from 'axios';
-import { readJsonFromFile, writeJsonToFile } from '../file-utils.js';
+import { readJsonFromDocs, writeJsonToDocs } from '../docs-files.js';
 import { logger } from '../logger.js';
 import { stores } from '../store/index.js';
 import { Meeting } from '../types/index.js';
@@ -53,7 +53,7 @@ export async function resolveMissingConsultationPapers(
 ): Promise<ConsultationResolutionResult> {
   const now = options.now ?? new Date();
   const retryLedger =
-    (await readJsonFromFile<PaperRetryLedger>(RETRY_LEDGER_FILE)) ?? ({} as PaperRetryLedger);
+    (await readJsonFromDocs<PaperRetryLedger>(RETRY_LEDGER_FILE)) ?? ({} as PaperRetryLedger);
   for (const entry of Object.values(retryLedger)) {
     if (entry.reason !== 'bootstrap') continue;
     const minimumRetryAt = new Date(entry.lastAttemptAt).getTime() + BOOTSTRAP_RETRY_MS;
@@ -184,7 +184,7 @@ export async function resolveMissingConsultationPapers(
   for (const paperId of Object.keys(retryLedger)) {
     if (!referencedPaperIds.has(paperId)) delete retryLedger[paperId];
   }
-  await writeJsonToFile(retryLedger, RETRY_LEDGER_FILE);
+  await writeJsonToDocs(retryLedger, RETRY_LEDGER_FILE);
 
   logger.info(
     `Consultation resolution: ${result.uniqueConsultations - result.unresolved}/${result.uniqueConsultations} resolved ` +

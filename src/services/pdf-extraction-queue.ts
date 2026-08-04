@@ -1,5 +1,5 @@
 import { pdfService } from './pdf-service.js';
-import { delay } from '../utils.js';
+import { delay } from '../async.js';
 import { logger } from '../logger.js';
 
 const MAX_CONCURRENT_EXTRACTIONS = 10;

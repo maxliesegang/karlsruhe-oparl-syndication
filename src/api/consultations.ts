@@ -1,6 +1,6 @@
 import { Consultation } from '../types/index.js';
 import { stores } from '../store/index.js';
-import { fetchOParlResource } from './http.js';
+import { fetchOParlResource } from './oparl-client.js';
 import { logger } from '../logger.js';
 
 export async function fetchAndStoreConsultation(url: string): Promise<Consultation | null> {

@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 
 import { buildLandingPage } from '../src/landing-page.js';
-import { RECENT_FEED_MAX_ITEMS } from '../src/constants.js';
+import { RECENT_FEED_MAX_ITEM_COUNT } from '../src/constants.js';
 import { FilteredFeedDescriptor } from '../src/filtered-feed-contract.js';
 
 function descriptor(overrides: Partial<FilteredFeedDescriptor> = {}): FilteredFeedDescriptor {
@@ -74,7 +74,7 @@ describe('landing page', () => {
     // the recent feed moved to 100 entries.
     const html = buildLandingPage(input);
 
-    expect(html).toContain(`Neueste ${RECENT_FEED_MAX_ITEMS} Tagesordnungspunkte`);
+    expect(html).toContain(`Neueste ${RECENT_FEED_MAX_ITEM_COUNT} Tagesordnungspunkte`);
     expect(html).not.toContain('Neueste 50 ');
   });
 

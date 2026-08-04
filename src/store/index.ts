@@ -5,38 +5,46 @@ import { organizationStore } from './organization-store.js';
 import { fileContentStore } from './file-content-store.js';
 import { paperSummaryStore } from './paper-summary-store.js';
 
-export const stores = {
+/**
+ * Minimal contract the lifecycle helpers below need. Declaring it here keeps
+ * `stores` from having to name every store three times (load, save, clear) —
+ * adding a store used to mean editing three parallel lists, and forgetting one
+ * silently dropped it from persistence.
+ */
+interface PersistableStore {
+  loadFromDisk(): Promise<void>;
+  saveToDisk(): Promise<void>;
+  clear(): void;
+}
+
+const registry = {
   meetings: meetingStore,
   papers: paperStore,
   consultations: consultationStore,
   organizations: organizationStore,
   fileContents: fileContentStore,
   paperSummaries: paperSummaryStore,
+} as const;
 
-  async saveToDisk() {
-    await this.meetings.saveToDisk();
-    await this.papers.saveToDisk();
-    await this.consultations.saveToDisk();
-    await this.organizations.saveToDisk();
-    await this.fileContents.saveToDisk();
-    await this.paperSummaries.saveToDisk();
+/**
+ * Ordered so cross-store side effects fire predictably: papers register their
+ * auxiliary files with the file-content store as they load, so papers must be
+ * hydrated before file contents.
+ */
+const all: readonly PersistableStore[] = Object.values(registry);
+
+export const stores = {
+  ...registry,
+
+  async saveToDisk(): Promise<void> {
+    for (const store of all) await store.saveToDisk();
   },
 
-  async loadFromDisk() {
-    await this.meetings.loadFromDisk();
-    await this.papers.loadFromDisk();
-    await this.consultations.loadFromDisk();
-    await this.organizations.loadFromDisk();
-    await this.fileContents.loadFromDisk();
-    await this.paperSummaries.loadFromDisk();
+  async loadFromDisk(): Promise<void> {
+    for (const store of all) await store.loadFromDisk();
   },
 
   clear(): void {
-    this.meetings.clear();
-    this.papers.clear();
-    this.consultations.clear();
-    this.organizations.clear();
-    this.fileContents.clear();
-    this.paperSummaries.clear();
+    for (const store of all) store.clear();
   },
 };

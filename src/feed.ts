@@ -1,21 +1,20 @@
 import { Feed } from 'feed';
 import { OParlFile, Meeting } from './types/index.js';
 import { config } from './config.js';
-import { normalizeOParlUrl, parseValidDate } from './utils.js';
-import { FEED_GENERATOR, RECENT_FEED_MAX_ITEMS, SUBMITTER_CATEGORY_SCHEME } from './constants.js';
+import { parseValidDate } from './dates.js';
+import { normalizeOParlUrl } from './oparl-url.js';
+import {
+  EPOCH_FALLBACK_DATE,
+  FEED_GENERATOR,
+  RECENT_FEED_MAX_ITEM_COUNT,
+  SUBMITTER_CATEGORY_SCHEME,
+} from './constants.js';
+import { escapeHtml, safeHttpUrl } from './html.js';
 import { logger } from './logger.js';
-import { atomicWriteFile, docsPath } from './file-utils.js';
+import { atomicWriteFile, docsPath } from './docs-files.js';
 import { AgendaItemRecord, buildAgendaItemRecords } from './services/agenda-item-record-service.js';
 import { DISTRICT_FEED_DIRECTORY, slugifyFeedSegment } from './filtered-feed-contract.js';
 import { getFactionName } from './paper-submitters.js';
-
-/**
- * Deterministic fallback for entries (and an empty feed) that have no usable
- * date. Using a fixed epoch instead of the run clock keeps the XML byte-stable
- * across runs — a date-less entry no longer churns every run, and it cannot push
- * the feed-level <updated> to "now" and defeat conditional-GET/304 for readers.
- */
-const FALLBACK_DATE = new Date(0);
 
 export interface FeedMetadata {
   title: string;
@@ -78,24 +77,6 @@ function formatAttachmentLink(file: OParlFile): string {
   const modifiedDate = formatGermanDate(parseValidDate(file.modified));
 
   return `<a href="${escapeHtml(correctedUrl)}">${escapeHtml(file.name)} (Erstellt am: ${createdDate}, Aktualisiert am: ${modifiedDate})</a><br>`;
-}
-
-function escapeHtml(value: string): string {
-  return value
-    .replaceAll('&', '&amp;')
-    .replaceAll('<', '&lt;')
-    .replaceAll('>', '&gt;')
-    .replaceAll('"', '&quot;')
-    .replaceAll("'", '&#39;');
-}
-
-function safeHttpUrl(value: string): string | undefined {
-  try {
-    const url = new URL(value);
-    return url.protocol === 'http:' || url.protocol === 'https:' ? url.href : undefined;
-  } catch {
-    return undefined;
-  }
 }
 
 /** Render the HTML body shown for a single agenda-item entry. */
@@ -201,21 +182,21 @@ function findLatestFeedEntryDate(feed: Feed): Date | undefined {
 }
 
 /** Create the feed with metadata and meetings */
-export async function buildAgendaFeed(
+export async function buildAgendaFeedFromMeetings(
   meetings: Meeting[],
-  fallbackDate: Date = FALLBACK_DATE,
+  fallbackDate: Date = EPOCH_FALLBACK_DATE,
 ): Promise<Feed> {
-  return buildAgendaFeedFromRecords(buildAgendaItemRecords(meetings, { fallbackDate }), {
+  return buildAgendaFeed(buildAgendaItemRecords(meetings, { fallbackDate }), {
     fallbackDate,
   });
 }
 
 /** Build the main feed from already joined records. */
-export function buildAgendaFeedFromRecords(
+export function buildAgendaFeed(
   records: AgendaItemRecord[],
   options: BuildAgendaFeedOptions = {},
 ): Feed {
-  const fallbackDate = options.fallbackDate ?? FALLBACK_DATE;
+  const fallbackDate = options.fallbackDate ?? EPOCH_FALLBACK_DATE;
   if (options.logProgress !== false) logger.info('Starting to create feed...');
   const feed = createEmptyFeed(fallbackDate, options.metadata);
   for (const record of records) appendAgendaItem(feed, record);
@@ -236,14 +217,14 @@ export function buildAgendaFeedFromRecords(
 
 /** Write the feed to the file system */
 export async function writeFullFeed(feed: Feed): Promise<void> {
-  const outputPath = await writeSerializedFeed(feed, config.feedFileName);
+  const outputPath = await writeFeedFile(feed, config.feedFileName);
   logger.info(`Feed has been saved to ${outputPath}`);
 }
 
 /** Write a trimmed feed containing only the most recent items to the file system */
 export async function writeRecentFeed(
   feed: Feed,
-  maximumItemCount = RECENT_FEED_MAX_ITEMS,
+  maximumItemCount = RECENT_FEED_MAX_ITEM_COUNT,
 ): Promise<void> {
   const recentFeedUrl = new URL(config.recentFeedFileName, config.feedBaseUrl).href;
   const recentFeed = new Feed({
@@ -263,11 +244,11 @@ export async function writeRecentFeed(
     recentFeed.addItem(item);
   }
 
-  const outputPath = await writeSerializedFeed(recentFeed, config.recentFeedFileName);
+  const outputPath = await writeFeedFile(recentFeed, config.recentFeedFileName);
   logger.info(`Recent feed (last ${maximumItemCount} items) has been saved to ${outputPath}`);
 }
 
-export async function writeSerializedFeed(feed: Feed, fileName: string): Promise<string> {
+export async function writeFeedFile(feed: Feed, fileName: string): Promise<string> {
   // atomicWriteFile creates the parent directory, so no explicit mkdir is needed.
   const outputPath = docsPath(fileName);
   await atomicWriteFile(outputPath, feed.atom1());

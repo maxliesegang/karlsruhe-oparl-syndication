@@ -1,11 +1,12 @@
 import { config } from './config.js';
-import { RECENT_FEED_MAX_ITEMS } from './constants.js';
-import { FILTERED_FEED_INDEX_FILENAME, FilteredFeedDescriptor } from './filtered-feed-contract.js';
-import { atomicWriteFile, docsPath } from './file-utils.js';
+import { RECENT_FEED_MAX_ITEM_COUNT } from './constants.js';
+import { FILTERED_FEED_INDEX_FILE_NAME, FilteredFeedDescriptor } from './filtered-feed-contract.js';
+import { atomicWriteFile, docsPath } from './docs-files.js';
+import { escapeHtml } from './html.js';
 import { logger } from './logger.js';
 
 /** Landing page for the published GitHub Pages site. */
-export const LANDING_PAGE_FILENAME = 'index.html';
+export const LANDING_PAGE_FILE_NAME = 'index.html';
 
 export interface LandingPageInput {
   /** Descriptors returned by `writeFilteredFeeds`, so the page lists exactly the
@@ -32,7 +33,7 @@ interface DataArtifact {
 
 const DATA_ARTIFACTS: readonly DataArtifact[] = [
   {
-    path: FILTERED_FEED_INDEX_FILENAME,
+    path: FILTERED_FEED_INDEX_FILE_NAME,
     description: 'Verzeichnis aller gefilterten Feeds mit Titel, URL, Typ und Eintragszahl.',
   },
   {
@@ -94,14 +95,6 @@ const FEED_TYPE_HEADINGS: Record<FilteredFeedDescriptor['type'], string> = {
   committee: 'Gremien',
   district: 'Stadtteile',
 };
-
-function escapeHtml(value: string): string {
-  return value
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;');
-}
 
 /** German thousands separator, so "1.000 Einträge" reads naturally on the page. */
 function formatCount(value: number): string {
@@ -177,7 +170,7 @@ function renderDataArtifact(artifact: DataArtifact): string {
  * it never gained a link to any artifact added after it was committed.
  */
 export function buildLandingPage(input: LandingPageInput): string {
-  const recentEntryCount = Math.min(input.fullFeedEntryCount, RECENT_FEED_MAX_ITEMS);
+  const recentEntryCount = Math.min(input.fullFeedEntryCount, RECENT_FEED_MAX_ITEM_COUNT);
   const filteredFeeds = [...input.filteredFeeds].sort((a, b) => a.path.localeCompare(b.path));
 
   return `<!doctype html>
@@ -390,7 +383,7 @@ ${renderFeedCard(
 )}
 
 ${renderFeedCard(
-  `Neueste ${formatCount(RECENT_FEED_MAX_ITEMS)} Tagesordnungspunkte`,
+  `Neueste ${formatCount(RECENT_FEED_MAX_ITEM_COUNT)} Tagesordnungspunkte`,
   `Kompakter Feed mit den ${formatCount(recentEntryCount)} zuletzt aktualisierten Einträgen – ` +
     'empfohlen für RSS-Reader.',
   config.recentFeedFileName,
@@ -401,7 +394,7 @@ ${renderFeedCard(
         <h2>Gefilterte Feeds</h2>
         <p>
           Je ein Feed pro Gremium und pro Stadtteil (${formatCount(filteredFeeds.length)} insgesamt).
-          Maschinenlesbar als <a href="${FILTERED_FEED_INDEX_FILENAME}"><code>${FILTERED_FEED_INDEX_FILENAME}</code></a>.
+          Maschinenlesbar als <a href="${FILTERED_FEED_INDEX_FILE_NAME}"><code>${FILTERED_FEED_INDEX_FILE_NAME}</code></a>.
         </p>
         <details>
           <summary>Alle ${formatCount(filteredFeeds.length)} Feeds anzeigen</summary>
@@ -447,9 +440,9 @@ ${DATA_ARTIFACTS.map(renderDataArtifact).join('\n')}
 }
 
 export async function writeLandingPage(input: LandingPageInput): Promise<void> {
-  await atomicWriteFile(docsPath(LANDING_PAGE_FILENAME), buildLandingPage(input));
+  await atomicWriteFile(docsPath(LANDING_PAGE_FILE_NAME), buildLandingPage(input));
   logger.info(
-    `Generated ${LANDING_PAGE_FILENAME} linking ${input.filteredFeeds.length} filtered feed(s) ` +
+    `Generated ${LANDING_PAGE_FILE_NAME} linking ${input.filteredFeeds.length} filtered feed(s) ` +
       `and ${DATA_ARTIFACTS.length} data artifact(s)`,
   );
 }

@@ -1,22 +1,22 @@
 import { stores } from '../store/index.js';
-import { buildAgendaFeedFromRecords, writeFullFeed, writeRecentFeed } from '../feed.js';
+import { buildAgendaFeed, writeFullFeed, writeRecentFeed } from '../feed.js';
 import { writeFilteredFeeds } from '../filtered-feeds.js';
-import { LANDING_PAGE_FILENAME, writeLandingPage } from '../landing-page.js';
+import { LANDING_PAGE_FILE_NAME, writeLandingPage } from '../landing-page.js';
 import { synchronizeMeetings, synchronizeOrganizations, synchronizePapers } from '../api/index.js';
 import { config } from '../config.js';
 import {
-  createDistrictResolver,
+  createPaperDistrictResolver,
   PAPER_DISTRICT_INDEX_FILE_NAME,
   PaperDistrictIndex,
   updatePaperDistrictIndex,
-} from './district-index-service.js';
+} from './paper-district-index-service.js';
 import { logger } from '../logger.js';
 import { resolveMissingConsultationPapers } from './consultation-resolution-service.js';
-import { readJsonFromFile, writeJsonToFile } from '../file-utils.js';
+import { readJsonFromDocs, writeJsonToDocs } from '../docs-files.js';
 import { buildAgendaItemRecords } from './agenda-item-record-service.js';
 import {
   buildPaperSubmitterIndex,
-  createSubmitterResolver,
+  createPaperSubmitterResolver,
   PAPER_SUBMITTER_INDEX_FILE_NAME,
   writePaperSubmitterIndex,
 } from './paper-submitter-index-service.js';
@@ -100,13 +100,13 @@ async function buildAndWriteFeeds(
   const records = buildAgendaItemRecords(meetings, {
     // The same in-memory index that was just published, rather than a re-read of the
     // file, so the artifact and the feed categories cannot drift apart.
-    resolvePaperDistricts: createDistrictResolver(districtIndex),
+    resolvePaperDistricts: createPaperDistrictResolver(districtIndex),
     resolvePaperSummary: (paper) => paperSummaries.get(paper.id),
-    resolvePaperSubmitters: createSubmitterResolver(submitterIndex),
+    resolvePaperSubmitters: createPaperSubmitterResolver(submitterIndex),
   });
   // No run-clock argument: feed construction uses a deterministic fallback so an unchanged
   // dataset produces a byte-identical feed (minimal git churn, working conditional GETs).
-  const feed = buildAgendaFeedFromRecords(records.slice(0, config.feedMaxItemCount));
+  const feed = buildAgendaFeed(records.slice(0, config.feedMaxItemCount));
   await writeFullFeed(feed);
   await writeRecentFeed(feed);
   const filteredFeeds = await writeFilteredFeeds(records);
@@ -136,7 +136,7 @@ export interface FeedGenerationOptions {
 }
 
 export async function runFeedGeneration(options: FeedGenerationOptions = {}): Promise<void> {
-  const previousManifest = await readJsonFromFile<GenerationManifest>('generation-manifest.json');
+  const previousManifest = await readJsonFromDocs<GenerationManifest>('generation-manifest.json');
   const reconciliationIntervalMs = config.fullReconciliationIntervalDays * 24 * 60 * 60 * 1000;
   const lastFullReconciliation = previousManifest?.fullReconciliationAt
     ? new Date(previousManifest.fullReconciliationAt).getTime()
@@ -184,13 +184,13 @@ export async function runFeedGeneration(options: FeedGenerationOptions = {}): Pr
     ? new Date().toISOString()
     : previousManifest?.fullReconciliationAt;
 
-  await writeJsonToFile(
+  await writeJsonToDocs(
     {
       version: 2,
       completedAt: new Date().toISOString(),
       fullReconciliationAt,
       artifacts: [
-        LANDING_PAGE_FILENAME,
+        LANDING_PAGE_FILE_NAME,
         config.feedFileName,
         config.recentFeedFileName,
         'feed-index.json',

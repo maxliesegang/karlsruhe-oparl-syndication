@@ -1,7 +1,7 @@
 /**
  * Detection of Karlsruhe Stadtteile in paper titles and extracted PDF text.
  *
- * Matching is deliberately two-staged. {@link findKarlsruheDistrictMentions}
+ * Matching is deliberately two-staged. {@link findDistrictMentions}
  * reports *where* every name occurs; {@link classifyPaperDistricts} decides which
  * of those occurrences actually make a paper about a district. Plain "is the name
  * present anywhere" is far too loose: administration papers carry consultation and
@@ -54,7 +54,7 @@ const KARLSRUHE_DISTRICTS = [
 export type KarlsruheDistrict = (typeof KARLSRUHE_DISTRICTS)[number];
 
 /** Published so a viewer can render a stable filter list. */
-export function listKarlsruheDistricts(): KarlsruheDistrict[] {
+export function listDistricts(): KarlsruheDistrict[] {
   return [...KARLSRUHE_DISTRICTS].sort();
 }
 
@@ -215,7 +215,7 @@ export interface DistrictMention {
 }
 
 /** Every district name occurrence in one document, in order of appearance. */
-export function findKarlsruheDistrictMentions(text: string): DistrictMention[] {
+export function findDistrictMentions(text: string): DistrictMention[] {
   const mentions: DistrictMention[] = [];
   districtExpression.lastIndex = 0;
 
@@ -259,10 +259,8 @@ function markEnumerations(mentions: DistrictMention[]): void {
  * only need presence (organization names, tests); paper classification should use
  * {@link classifyPaperDistricts}, which weighs where the mention occurred.
  */
-export function findKarlsruheDistricts(text: string): KarlsruheDistrict[] {
-  return [
-    ...new Set(findKarlsruheDistrictMentions(text).map((mention) => mention.district)),
-  ].sort();
+export function findDistricts(text: string): KarlsruheDistrict[] {
+  return [...new Set(findDistrictMentions(text).map((mention) => mention.district))].sort();
 }
 
 /**
@@ -275,7 +273,7 @@ export function findKarlsruheDistricts(text: string): KarlsruheDistrict[] {
  */
 export function findDistrictsForAuthority(organizationName: string): KarlsruheDistrict[] {
   if (!DISTRICT_AUTHORITY_NAME.test(organizationName)) return [];
-  return findKarlsruheDistricts(organizationName);
+  return findDistricts(organizationName);
 }
 
 export interface DistrictClassificationInput {
@@ -323,12 +321,12 @@ export function classifyPaperDistricts(input: DistrictClassificationInput): Dist
   for (const district of input.structural ?? []) entry(district).structural = true;
 
   // A title is too short to enumerate, so every hit in it counts.
-  for (const mention of findKarlsruheDistrictMentions(input.title ?? '')) {
+  for (const mention of findDistrictMentions(input.title ?? '')) {
     entry(mention.district).title++;
   }
 
   for (const body of input.bodies ?? []) {
-    for (const mention of findKarlsruheDistrictMentions(body)) {
+    for (const mention of findDistrictMentions(body)) {
       if (mention.inEnumeration) continue;
       const found = entry(mention.district);
       found.body++;
