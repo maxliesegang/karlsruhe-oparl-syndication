@@ -47,6 +47,20 @@
       "type": "https://schema.oparl.org/1.1/AgendaItem"
     }
   ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00680006.pdf",
+      "created": "2026-08-03T13:50:33+02:00",
+      "date": "2026-08-03",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00680006.pdf",
+      "fileName": "00680006.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/680006",
+      "mimeType": "application/pdf",
+      "modified": "2026-08-03T13:50:44+02:00",
+      "name": "Protokoll 17.06.2026, Öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
   "created": "2025-11-27T16:32:20+01:00",
   "end": "2026-06-17T00:00:00+02:00",
   "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10769",
@@ -66,10 +80,10 @@
     "created": "2025-11-27T16:32:20+01:00",
     "description": "Bürgersaal im Rathaus Hohenwettersbach",
     "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10769",
-    "modified": "2026-06-09T14:06:09+02:00",
+    "modified": "2026-08-03T13:50:44+02:00",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-06-09T14:06:09+02:00",
+  "modified": "2026-08-03T13:50:44+02:00",
   "name": "Ortschaftsrat Hohenwettersbach (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34322"
