@@ -1,13 +1,15 @@
 {
-  "generatedAt": "2026-08-05T04:48:37.532Z",
+  "generatedAt": "2026-08-05T06:28:22.882Z",
   "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54584",
   "keyPoints": [
-    "Die Varianten V1 und V2 mit Radfahrstreifen in Seitenlage führen nach den Simulationsergebnissen zu erheblichen Kapazitätsdefiziten und steigenden Rückstaulängen, insbesondere in Richtung Süden und Osten.",
-    "Nur in Variante V0 ist eine zukünftige Reduzierung der Umlaufzeit von 100 auf 90 Sekunden zur Verbesserung der Wartezeiten für Fuß- und Radverkehr perspektivisch möglich."
+    "Variante V0 führt bei leistungsstarken, aber noch akzeptablen Rückstausituationen; der Knotenpunkt liegt an der Leistungsfähigkeitsgrenze, ohne größere Überstauungen.",
+    "Varianten V1 und V2 (Radfahrstreifen in Seitenlage) führen zu erheblichen Kapazitätsdefiziten, stetig steigenden Rückstaulängen (insbesondere in Richtung Süden und Osten) und einer verschlechterten Koordinierung mit dem südlichen Nachbarknotenpunkt K324.",
+    "In Variante V0 wäre perspektivisch eine Reduzierung der Signalumlaufzeit auf 90 Sekunden und damit kürzere Wartezeiten für Fuß- und Radverkehr möglich.",
+    "Für den Fuß- und Radverkehr sind die Wartezeiten in allen Varianten hoch; wesentliche Unterschiede zwischen den Varianten gibt es hier nicht."
   ],
   "model": "mimo-v2.5",
-  "promptVersion": "paper-de-v4",
+  "promptVersion": "paper-de-v5",
   "provider": "opencode-go",
   "sourceHash": "sha256:50a22c1e369fd60b467c6ca03e124291c73d3a08eb02a890b653514090656be0",
-  "summary": "Der Planungsausschuss hat am 9. Juli 2026 die Ergebnisse der Verkehrsuntersuchung zum Umbau der Kreuzung Kriegs-/Brauer-/Reinhold-Frank-Straße zur Kenntnis genommen. Die Untersuchung vergleicht drei Varianten der Radverkehrsführung mittels Simulation. Die von der Stadtverwaltung bevorzugte Variante V0 (Radfahrstreifen in Mittellage) hält die Knotenpunkte an der Leistungsfähigkeitsgrenze, ermöglicht aber eine bessere Koordinierung der Lichtsignalanlagen."
+  "summary": "Der Planungsausschuss hat am 9. Juli 2026 das Ergebnis der Verkehrsuntersuchung zum Umbau der Kreuzung Kriegs-/Brauer-/Reinhold-Frank-Straße zur Kenntnis genommen. Die Untersuchung vergleicht drei Varianten (V0, V1, V2) der Radverkehrsführung und stellt fest, dass nur die von der Stadtverwaltung vorgeschlagene Variante V0 (Radfahrstreifen in Mittellage) die Leistungsfähigkeit des Knotenpunktes in der Abendspitze noch gewährleisten würde."
 }
