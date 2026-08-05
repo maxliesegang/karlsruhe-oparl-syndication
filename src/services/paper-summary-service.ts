@@ -23,6 +23,12 @@ export interface PaperSummaryUpdateOptions {
   maximumInputCharacters?: number;
   concurrency?: number;
   summarizer?: PaperSummarizer;
+  /** Restrict generation to these exact OParl paper ids, bypassing the archive backfill cutoff. */
+  paperIds?: ReadonlySet<string>;
+  /** Regenerate selected papers even when their content-addressed cache is current. */
+  regenerate?: boolean;
+  /** Propagate a provider failure to a targeted CLI instead of failing open. */
+  throwOnFailure?: boolean;
   now?: () => Date;
 }
 
@@ -47,7 +53,9 @@ export async function updatePaperSummaries(
   const concurrency = options.concurrency ?? config.summaryConcurrency;
   const enabled = options.enabled ?? config.generateLlmSummaries;
   const apiKey = options.apiKey ?? config.llmApiKey;
-  const paperSources = collectPublicPaperSources(meetings);
+  const paperSources = collectPublicPaperSources(meetings).filter(
+    ({ paper }) => !options.paperIds || options.paperIds.has(paper.id),
+  );
   const current = collectCurrentSummaries(paperSources, promptVersion);
 
   if (!enabled) {
@@ -72,8 +80,10 @@ export async function updatePaperSummaries(
       timeoutMs: config.summaryRequestTimeoutMs,
     });
   const candidates = paperSources
-    .filter(({ paper }) => !current.has(paper.id))
-    .filter(({ paper }) => isEligibleForSummaryBackfill(paper))
+    .filter(({ paper }) => options.regenerate || !current.has(paper.id))
+    .filter(
+      ({ paper }) => options.paperIds?.has(paper.id) || isEligibleForSummaryBackfill(paper),
+    )
     .filter(({ source }) => source.hasExtractedText)
     .map((candidate) => ({
       ...candidate,
@@ -120,6 +130,7 @@ export async function updatePaperSummaries(
           current.set(paper.id, summary);
           succeeded++;
         } catch (error) {
+          if (options.throwOnFailure) throw error;
           failed++;
           logger.warn(`Could not summarize paper ${paper.id}; retrying next run.`, error);
         }

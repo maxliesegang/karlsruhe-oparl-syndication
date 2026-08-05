@@ -183,6 +183,34 @@ describe('paper summary service', () => {
     expect(current.has(paper.id)).toBe(false);
   });
 
+  it('regenerates an explicitly selected older paper', async () => {
+    stores.papers.add({ ...structuredClone(paper), date: '2023-08-10' });
+    const summarize = vi
+      .fn()
+      .mockResolvedValue({ summary: 'Gezielte Zusammenfassung.', keyPoints: [] });
+    const summarizer: PaperSummarizer = {
+      providerName: 'test-provider',
+      model: 'selected-model',
+      summarize,
+    };
+    const options = {
+      enabled: true,
+      summarizer,
+      promptVersion: 'test-v1',
+      maximumItems: 1,
+      maximumInputCharacters: 100_000,
+      concurrency: 1,
+      paperIds: new Set([paper.id]),
+      regenerate: true,
+    };
+
+    await updatePaperSummaries([meeting], options);
+    await updatePaperSummaries([meeting], options);
+
+    expect(summarize).toHaveBeenCalledTimes(2);
+    expect(stores.paperSummaries.getById(paper.id)?.model).toBe('selected-model');
+  });
+
   it('does not publish a stale cache entry when regeneration fails', async () => {
     const successful: PaperSummarizer = {
       providerName: 'test-provider',

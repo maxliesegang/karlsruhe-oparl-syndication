@@ -123,6 +123,13 @@ The scheduled workflow expects an `OPENCODE_API_KEY` repository secret. For a lo
 GENERATE_LLM_SUMMARIES=true LLM_API_KEY=... npm run generate
 ```
 
+To regenerate exactly one paper (reference, RIS-style `.html` name, record basename, or full OParl
+id) with a chosen model, including papers older than the normal 2026 backfill window:
+
+```sh
+npm run summarize -- --paper 2023-0905 --model deepseek-v4-pro
+```
+
 Every feed summary is labelled as automatically generated and links remain available to the
 authoritative original documents.
 

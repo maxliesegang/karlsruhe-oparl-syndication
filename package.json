@@ -13,6 +13,7 @@
     "smoke": "node --input-type=module --eval \"await Promise.all([import('./dist/api/oparl-client.js'), import('./dist/feed.js')])\"",
     "generate": "tsx src/index.ts",
     "generate:no-summaries": "tsx src/index.ts --no-summaries",
+    "summarize": "tsx src/summarize-paper.ts",
     "validate:feed": "tsx src/validate-feed.ts",
     "spike:digests": "tsx src/spike/run-digests.ts",
     "format": "prettier --write \"src/**/*.ts\"",
