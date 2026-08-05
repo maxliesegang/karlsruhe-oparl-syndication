@@ -126,6 +126,35 @@ describe('paper summary service', () => {
       promptVersion: 'test-v1',
     });
     expect(reused.get(paper.id)).toEqual(generated.get(paper.id));
+    expect(summarize.mock.calls[0]?.[0].contextText).toContain('ÖFFENTLICHER BERATUNGSVERLAUF');
+  });
+
+  it('regenerates the whole summary when a public consultation result arrives', async () => {
+    const resultMeeting = structuredClone(meeting);
+    const summarize = vi
+      .fn()
+      .mockResolvedValueOnce({ summary: 'Der Gemeinderat soll entscheiden.', keyPoints: [] })
+      .mockResolvedValueOnce({
+        summary: 'Der Gemeinderat hat den Umbau einstimmig beschlossen.',
+        keyPoints: [],
+      });
+    const options = {
+      enabled: true,
+      summarizer: { providerName: 'test-provider', model: 'test-model', summarize },
+      promptVersion: 'test-v1',
+      maximumItems: 10,
+      maximumInputCharacters: 100_000,
+      concurrency: 1,
+    };
+
+    await updatePaperSummaries([resultMeeting], options);
+    resultMeeting.agendaItem[0].result = 'einstimmig beschlossen';
+    resultMeeting.agendaItem[0].modified = '2026-08-02T00:00:00Z';
+    const refreshed = await updatePaperSummaries([resultMeeting], options);
+
+    expect(summarize).toHaveBeenCalledTimes(2);
+    expect(summarize.mock.calls[1]?.[0].contextText).toContain('Ergebnis: einstimmig beschlossen');
+    expect(refreshed.get(paper.id)?.summary).toContain('hat den Umbau einstimmig beschlossen');
   });
 
   it('only backfills summaries for papers dated 2026 or later', async () => {

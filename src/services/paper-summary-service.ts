@@ -6,7 +6,12 @@ import { latestValidDate } from '../dates.js';
 import { OpenCodePaperSummarizer } from './llm/opencode-paper-summarizer.js';
 import { PaperSummarizer } from './llm/paper-summarizer.js';
 import { findUngroundedNumericLiterals } from './llm/summary-grounding.js';
-import { buildPaperSummarySource, splitPaperSummarySource } from './paper-summary-source.js';
+import {
+  buildPaperSummarySource,
+  PaperSummaryConsultationContext,
+  PaperSummarySource,
+  splitPaperSummarySource,
+} from './paper-summary-source.js';
 
 const SUMMARY_BACKFILL_START = Date.UTC(2026, 0, 1);
 
@@ -19,6 +24,12 @@ export interface PaperSummaryUpdateOptions {
   concurrency?: number;
   summarizer?: PaperSummarizer;
   now?: () => Date;
+}
+
+interface PublicPaperSummarySource {
+  paper: Paper;
+  source: PaperSummarySource;
+  sourceTimestamp: number;
 }
 
 /**
@@ -36,8 +47,8 @@ export async function updatePaperSummaries(
   const concurrency = options.concurrency ?? config.summaryConcurrency;
   const enabled = options.enabled ?? config.generateLlmSummaries;
   const apiKey = options.apiKey ?? config.llmApiKey;
-  const papers = collectPublicPapers(meetings);
-  const current = collectCurrentSummaries(papers, promptVersion);
+  const paperSources = collectPublicPaperSources(meetings);
+  const current = collectCurrentSummaries(paperSources, promptVersion);
 
   if (!enabled) {
     logger.info(`LLM summaries disabled; using ${current.size} current cached summary(s).`);
@@ -60,12 +71,19 @@ export async function updatePaperSummaries(
       model: config.llmModel,
       timeoutMs: config.summaryRequestTimeoutMs,
     });
-  const candidates = papers
-    .filter((paper) => !current.has(paper.id))
-    .filter(isEligibleForSummaryBackfill)
-    .map((paper) => ({ paper, source: sourceFor(paper) }))
+  const candidates = paperSources
+    .filter(({ paper }) => !current.has(paper.id))
+    .filter(({ paper }) => isEligibleForSummaryBackfill(paper))
     .filter(({ source }) => source.hasExtractedText)
-    .sort((a, b) => paperTimestamp(b.paper) - paperTimestamp(a.paper))
+    .map((candidate) => ({
+      ...candidate,
+      refreshesCachedSummary: !!stores.paperSummaries.getById(candidate.paper.id),
+    }))
+    .sort(
+      (a, b) =>
+        Number(b.refreshesCachedSummary) - Number(a.refreshesCachedSummary) ||
+        b.sourceTimestamp - a.sourceTimestamp,
+    )
     .slice(0, maximumItems);
 
   if (candidates.length === 0) {
@@ -84,6 +102,7 @@ export async function updatePaperSummaries(
           const generated = await summarizeSource(
             summarizer,
             source.heading,
+            source.contextText,
             source.text,
             maximumInputCharacters,
           );
@@ -114,37 +133,75 @@ export async function updatePaperSummaries(
   return current;
 }
 
-function collectPublicPapers(meetings: Meeting[]): Paper[] {
-  const papers = new Map<string, Paper>();
+function collectPublicPaperSources(meetings: Meeting[]): PublicPaperSummarySource[] {
+  const papers = new Map<
+    string,
+    { paper: Paper; contextsByAgendaItemId: Map<string, PaperSummaryConsultationContext> }
+  >();
   for (const meeting of meetings) {
     for (const agendaItem of meeting.agendaItem ?? []) {
       if (agendaItem.public !== true || !agendaItem.number || !agendaItem.consultation) continue;
       const paper = stores.papers.getPaperByConsultationId(agendaItem.consultation);
-      if (paper) papers.set(paper.id, paper);
+      if (!paper) continue;
+      let entry = papers.get(paper.id);
+      if (!entry) {
+        entry = { paper, contextsByAgendaItemId: new Map() };
+        papers.set(paper.id, entry);
+      }
+      const consultation = (paper.consultation ?? []).find(
+        (candidate) => candidate.id === agendaItem.consultation,
+      );
+      entry.contextsByAgendaItemId.set(agendaItem.id, {
+        consultationId: agendaItem.consultation,
+        consultationRole: consultation?.role ?? '',
+        consultationAuthoritative: consultation?.authoritative,
+        consultationModified: consultation?.modified ?? '',
+        meetingId: meeting.id,
+        meetingName: meeting.name,
+        meetingStart: meeting.start,
+        agendaItemId: agendaItem.id,
+        agendaItemNumber: agendaItem.number,
+        agendaItemName: agendaItem.name,
+        agendaItemResult: agendaItem.result,
+        agendaItemModified: agendaItem.modified,
+      });
     }
   }
-  return [...papers.values()];
+  return [...papers.values()].map(({ paper, contextsByAgendaItemId }) => {
+    const contexts = [...contextsByAgendaItemId.values()];
+    return {
+      paper,
+      source: sourceFor(paper, contexts),
+      sourceTimestamp:
+        latestValidDate(
+          paper.modified,
+          paper.created,
+          paper.date,
+          ...contexts.flatMap((context) => [
+            context.agendaItemModified,
+            context.consultationModified,
+            context.meetingStart,
+          ]),
+        )?.getTime() ?? 0,
+    };
+  });
 }
 
 function collectCurrentSummaries(
-  papers: Paper[],
+  paperSources: PublicPaperSummarySource[],
   promptVersion: string,
 ): Map<string, PaperSummary> {
   const current = new Map<string, PaperSummary>();
-  for (const paper of papers) {
+  for (const { paper, source } of paperSources) {
     const cached = stores.paperSummaries.getById(paper.id);
     if (!cached || cached.promptVersion !== promptVersion) continue;
-    if (cached.sourceHash === sourceFor(paper).sourceHash) current.set(paper.id, cached);
+    if (cached.sourceHash === source.sourceHash) current.set(paper.id, cached);
   }
   return current;
 }
 
-function sourceFor(paper: Paper) {
-  return buildPaperSummarySource(paper, (fileId) => stores.fileContents.getById(fileId));
-}
-
-function paperTimestamp(paper: Paper): number {
-  return latestValidDate(paper.modified, paper.created, paper.date)?.getTime() ?? 0;
+function sourceFor(paper: Paper, contexts: PaperSummaryConsultationContext[]) {
+  return buildPaperSummarySource(paper, (fileId) => stores.fileContents.getById(fileId), contexts);
 }
 
 function isEligibleForSummaryBackfill(paper: Paper): boolean {
@@ -155,6 +212,7 @@ function isEligibleForSummaryBackfill(paper: Paper): boolean {
 async function summarizeSource(
   summarizer: PaperSummarizer,
   heading: string,
+  contextText: string,
   sourceText: string,
   maximumInputCharacters: number,
 ): Promise<GeneratedPaperSummary> {
@@ -164,6 +222,7 @@ async function summarizeSource(
     partials.push(
       await summarizeWithNumericGrounding(summarizer, {
         heading,
+        contextText,
         sourceText: chunk,
         partial: false,
       }),
@@ -187,6 +246,7 @@ async function summarizeSource(
       nextLevel.push(
         await summarizeWithNumericGrounding(summarizer, {
           heading,
+          contextText,
           sourceText: group,
           partial: true,
         }),
@@ -201,7 +261,7 @@ async function summarizeWithNumericGrounding(
   summarizer: PaperSummarizer,
   request: Parameters<PaperSummarizer['summarize']>[0],
 ): Promise<GeneratedPaperSummary> {
-  const source = `${request.heading}\n${request.sourceText}`;
+  const source = `${request.heading}\n${request.contextText}\n${request.sourceText}`;
   const firstAttempt = await summarizer.summarize(request);
   const ungrounded = findUngroundedNumericLiterals(firstAttempt, source);
   if (ungrounded.length === 0) return firstAttempt;

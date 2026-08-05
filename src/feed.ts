@@ -90,6 +90,9 @@ function renderEntryContent(
     submitters.length > 0
       ? `<b>Antragstellende Fraktion${submitters.length > 1 ? 'en' : ''}:</b> ${escapeHtml(submitters.map(getFactionName).join(', '))}<br><br>`
       : '';
+  const proceduralStatusHtml = agendaItem.result?.trim()
+    ? `<b>Beratungsstand dieser Sitzung:</b> ${escapeHtml(agendaItem.result.trim())}<br><br>`
+    : '';
   const summaryHtml = paperSummary
     ? `<b>KI-generierte Zusammenfassung:</b> ${escapeHtml(paperSummary.summary)}${
         paperSummary.keyPoints.length > 0
@@ -101,6 +104,7 @@ function renderEntryContent(
       <b>Sitzung:</b> ${escapeHtml(meeting.name)}<br>
       <b>Datum:</b> ${meetingDay}<br>
       <b>TOP ${escapeHtml(agendaItem.number ?? '')}:</b> ${escapeHtml(agendaItem.name)}<br>
+      ${proceduralStatusHtml}
       ${submitterHtml}
       ${summaryHtml}
       <b>Anhänge:</b><br> ${attachmentHtml}
@@ -116,13 +120,17 @@ function appendAgendaItem(feed: Feed, record: AgendaItemRecord): void {
 
   const attachmentHtml = attachments.map(formatAttachmentLink).join('');
   const meetingDay = formatGermanDate(parseValidDate(meeting.start), 'long');
+  const summaryDescription = record.paperSummary?.summary ?? agendaItem.name;
+  const description = agendaItem.result?.trim()
+    ? `Beratungsstand: ${agendaItem.result.trim()} – ${summaryDescription}`
+    : summaryDescription;
 
   feed.addItem({
     title: escapeHtml(agendaItem.name),
     id: agendaItem.id,
     link: agendaItemUrl,
     author: [{ name: meeting.name }],
-    description: escapeHtml(record.paperSummary?.summary ?? agendaItem.name),
+    description: escapeHtml(description),
     content: renderEntryContent(record, meetingDay, attachmentHtml),
     date: record.updatedAt,
     published: record.publishedAt,

@@ -1,5 +1,9 @@
 import { describe, expect, it } from 'vitest';
-import { buildPaperSummarySource, splitPaperSummarySource } from '../src/services/paper-summary-source.js';
+import {
+  buildPaperSummarySource,
+  PaperSummaryConsultationContext,
+  splitPaperSummarySource,
+} from '../src/services/paper-summary-source.js';
 import { FileContent } from '../src/types/file-content.js';
 import { OParlFile, Paper } from '../src/types/index.js';
 
@@ -41,6 +45,21 @@ function content(text: string, extractedFor = file.modified): FileContent {
   };
 }
 
+const consultationContext: PaperSummaryConsultationContext = {
+  consultationId: 'https://example.test/consultations/1',
+  consultationRole: 'Entscheidung',
+  consultationAuthoritative: true,
+  consultationModified: '2026-02-02T00:00:00Z',
+  meetingId: 'https://example.test/meetings/1',
+  meetingName: 'Gemeinderat',
+  meetingStart: '2026-02-01T15:30:00Z',
+  agendaItemId: 'https://example.test/agendaItems/1',
+  agendaItemNumber: '1',
+  agendaItemName: 'Neue Straßenbahn',
+  agendaItemResult: 'einstimmig beschlossen',
+  agendaItemModified: '2026-02-02T00:00:00Z',
+};
+
 describe('paper summary input', () => {
   it('is deterministic and changes its hash when current text changes', () => {
     const first = buildPaperSummarySource(paper, () => content('Inhalt A'));
@@ -59,6 +78,65 @@ describe('paper summary input', () => {
 
     expect(source.hasExtractedText).toBe(false);
     expect(source.text).not.toContain('Veralteter Inhalt');
+  });
+
+  it('invalidates for a changed result but not timestamp-only metadata changes', () => {
+    const first = buildPaperSummarySource(paper, () => content('Inhalt'), [consultationContext]);
+    const timestampOnly = buildPaperSummarySource(paper, () => content('Inhalt'), [
+      {
+        ...consultationContext,
+        consultationModified: '2026-02-03T00:00:00Z',
+        agendaItemModified: '2026-02-03T00:00:00Z',
+      },
+    ]);
+    const changedResult = buildPaperSummarySource(paper, () => content('Inhalt'), [
+      { ...consultationContext, agendaItemResult: 'mehrheitlich abgelehnt' },
+    ]);
+
+    expect(first.contextText).toContain('Ergebnis: einstimmig beschlossen');
+    expect(timestampOnly.sourceHash).toBe(first.sourceHash);
+    expect(changedResult.sourceHash).not.toBe(first.sourceHash);
+  });
+
+  it('ignores order-only changes in consultations and attachments', () => {
+    const secondFile: OParlFile = {
+      ...file,
+      id: 'https://example.test/files/2',
+      name: 'Anlage.pdf',
+      downloadUrl: 'https://example.test/files/2/download',
+    };
+    const laterContext: PaperSummaryConsultationContext = {
+      ...consultationContext,
+      consultationId: 'https://example.test/consultations/2',
+      meetingId: 'https://example.test/meetings/2',
+      meetingStart: '2026-03-01T15:30:00Z',
+      agendaItemId: 'https://example.test/agendaItems/2',
+      agendaItemResult: 'Kenntnisnahme',
+    };
+    const resolveContent = (id: string): FileContent => {
+      const resolvedFile = id === file.id ? file : secondFile;
+      return {
+        id,
+        downloadUrl: resolvedFile.downloadUrl,
+        fileModified: resolvedFile.modified,
+        lastModifiedExtractedDate: resolvedFile.modified,
+        extractedText: id === file.id ? 'Inhalt A' : 'Inhalt B',
+      };
+    };
+    const ordered = buildPaperSummarySource(
+      { ...paper, auxiliaryFile: [file, secondFile] },
+      resolveContent,
+      [consultationContext, laterContext],
+    );
+    const reordered = buildPaperSummarySource(
+      { ...paper, auxiliaryFile: [secondFile, file] },
+      resolveContent,
+      [laterContext, consultationContext],
+    );
+
+    expect(reordered.sourceHash).toBe(ordered.sourceHash);
+    expect(reordered.contextText).toBe(ordered.contextText);
+    expect(reordered.text).toBe(ordered.text);
   });
 
   it('splits long text without exceeding the requested size', () => {

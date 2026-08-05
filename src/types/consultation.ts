@@ -6,6 +6,7 @@ export interface Consultation {
   meeting: string;
   organization: string[];
   role: string;
+  authoritative?: boolean;
   created: string;
   modified: string;
 }

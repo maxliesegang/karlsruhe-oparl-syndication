@@ -51,6 +51,8 @@ describe('OpenCode paper summary normalization', () => {
     await expect(
       summarizer.summarize({
         heading: 'Beschlussvorlage – 2026/1 – Marktplatz',
+        contextText:
+          'ÖFFENTLICHER BERATUNGSVERLAUF (chronologisch)\n- Sitzung: 2026-08-01 | Gemeinderat\n  Ergebnis: einstimmig beschlossen',
         sourceText: 'Die Kosten betragen zwei Millionen Euro.',
         partial: false,
         numericLiteralsToCorrect: ['7.889'],
@@ -78,7 +80,8 @@ describe('OpenCode paper summary normalization', () => {
     expect(request.messages[0]?.content).toContain(
       'Die Verwaltung empfiehlt, den Antrag abzulehnen',
     );
-    expect(request.messages[0]?.content).toContain('höchstens vier Kernaussagen');
+    expect(request.messages[0]?.content).toContain('darf nicht nur in keyPoints erscheinen');
     expect(request.messages[1]?.content).toContain('7.889');
+    expect(request.messages[1]?.content).toContain('einstimmig beschlossen');
   });
 });

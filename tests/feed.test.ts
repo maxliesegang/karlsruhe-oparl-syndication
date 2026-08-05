@@ -250,6 +250,21 @@ describe('feed identity', () => {
     expect(xml).not.toContain('<script>alert(1)</script>');
   });
 
+  it('renders the agenda-item result deterministically in content and description', () => {
+    const meeting = meetingWithDates(
+      '2025-01-01T00:00:00Z',
+      '2025-01-02T00:00:00Z',
+      '2025-01-03T00:00:00Z',
+    );
+    meeting.agendaItem[0].result = 'einstimmig beschlossen';
+    const feed = buildAgendaFeed(buildAgendaItemRecords([meeting]));
+    const xml = feed.atom1();
+
+    expect(feed.items[0]?.description).toContain('Beratungsstand: einstimmig beschlossen');
+    expect(xml).toContain('Beratungsstand dieser Sitzung:');
+    expect(xml).toContain('einstimmig beschlossen');
+  });
+
   it('emits the submitting factions as categories and in the entry body', () => {
     const records = buildAgendaItemRecords([
       meetingWithDates('2025-01-01T00:00:00Z', '2025-01-02T00:00:00Z', '2025-03-01T00:00:00Z'),

@@ -79,7 +79,7 @@ export const config = {
     process.env.LLM_BASE_URL || 'https://opencode.ai/zen/go/v1/',
   ),
   llmModel: process.env.LLM_MODEL || 'mimo-v2.5',
-  summaryPromptVersion: process.env.SUMMARY_PROMPT_VERSION || 'paper-de-v3',
+  summaryPromptVersion: process.env.SUMMARY_PROMPT_VERSION || 'paper-de-v4',
   summaryMaxItemsPerRun: parseNonNegativeInteger(
     'SUMMARY_MAX_ITEMS_PER_RUN',
     process.env.SUMMARY_MAX_ITEMS_PER_RUN || '100',
