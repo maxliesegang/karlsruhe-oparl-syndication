@@ -81,6 +81,18 @@ describe('OpenCode paper summary normalization', () => {
       'Die Verwaltung empfiehlt, den Antrag abzulehnen',
     );
     expect(request.messages[0]?.content).toContain('darf nicht nur in keyPoints erscheinen');
+    expect(request.messages[0]?.content).toContain(
+      '„vorberaten mit Änderungen“: Das Gremium hat die Vorlage mit Änderungen vorberaten',
+    );
+    expect(request.messages[0]?.content).toContain(
+      'Behaupte nicht, es habe dem ursprünglichen Antrag zugestimmt',
+    );
+    expect(request.messages[0]?.content).toContain(
+      'ein Ergebnis ist in den bereitgestellten Daten nicht veröffentlicht',
+    );
+    expect(request.messages[0]?.content).toContain(
+      'Gib reine Angaben wie „Nein“, „nicht relevant“',
+    );
     expect(request.messages[1]?.content).toContain('7.889');
     expect(request.messages[1]?.content).toContain('einstimmig beschlossen');
   });

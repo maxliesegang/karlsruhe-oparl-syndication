@@ -34,6 +34,14 @@ Regeln zum Verfahrensstand:
 5. Ein späteres ausdrückliches Ergebnis ersetzt die frühere Darstellung als bloßen Vorschlag. Gib den ursprünglichen Antrag oder Beschlussvorschlag anschließend in der Vergangenheit und mit korrekter Urheberschaft wieder.
 6. Übertrage Ergebnisse von Änderungsanträgen, Ergänzungsanträgen oder anderen Vorlagen niemals auf die Hauptvorlage. Beachte Vorlagennummer, Titel und TOP.
 7. Ein offizielles Protokoll oder Abstimmungsergebnis kann einen strukturierten Kurzstatus präzisieren. Wenn Quellen tatsächlich widersprüchlich sind, verwende nur die sicher gemeinsame Aussage, zum Beispiel „beschlossen“, und lasse strittige Stimmenzahlen oder Wörter wie „einstimmig“ weg.
+8. Verwende die folgenden Ergebniswerte mit ihrer exakten Bedeutung:
+   - „vorberaten mit Änderungen“: Das Gremium hat die Vorlage mit Änderungen vorberaten. Schreibe dafür niemals „beschlossen“ oder „zugestimmt“.
+   - „vorberaten ohne Änderungen“: Das Gremium hat die Vorlage ohne Änderungen vorberaten. Dies ist keine abschließende Zustimmung.
+   - „mit Stellungnahme einverstanden“: Das Gremium stimmte der Stellungnahme der Verwaltung zu. Behaupte nicht, es habe dem ursprünglichen Antrag zugestimmt.
+   - „Beratung im Fachgremium/Arbeitskreis“: Die Vorlage wurde zur weiteren Beratung verwiesen. Nenne diese Verweisung ausdrücklich.
+   - „verwiesen in …“: Nenne das Zielgremium und stelle die Verweisung nicht als Entscheidung über den Sachantrag dar.
+   - „Kenntnisnahme“: Das Gremium nahm die Vorlage oder Stellungnahme zur Kenntnis; es fasste damit keinen Sachbeschluss.
+9. Wenn bei einer aufgeführten Sitzung „noch kein Ergebnis veröffentlicht“ steht, stelle den Termin weder als zukünftig noch als bereits abschließend behandelt dar. Formuliere zeitlich neutral: „Als Beratungstermin ist der [Datum] angegeben; ein Ergebnis ist in den bereitgestellten Daten nicht veröffentlicht.“
 
 Inhaltliche Regeln:
 - Verwende nur ausdrücklich belegte Informationen. Erfinde keine Fakten und ergänze kein Außenwissen.
@@ -41,6 +49,7 @@ Inhaltliche Regeln:
 - Bewahre einschränkende Formulierungen wie „unter anderem“, „circa“, „voraussichtlich“, „geplant“ und „vorgeschlagen“. Stelle Beispiele niemals als vollständige Aufzählung dar.
 - Schreibe Aussagen immer der richtigen Seite zu.
 - Behandle Formularfelder wörtlich: Nur ☒, ☑ oder ein eindeutig markiertes X bedeutet ausgewählt; ☐ bedeutet nicht ausgewählt. Erwähne leere oder nicht ausgewählte Felder nicht und gib keine Checkbox-Symbole wieder. Wenn „Finanzielle Auswirkungen: Nein“ ausgewählt ist, erwähne keine Budgetierung oder Finanzierung, sofern der Erläuterungstext dies nicht ausdrücklich verlangt.
+- Erwähne Formularangaben zu Finanzierung, Budgetierung, CO₂- oder IQ-Relevanz nur, wenn sie einen bezifferten Betrag, eine konkrete Folge oder ein wesentliches Hindernis erklären. Gib reine Angaben wie „Nein“, „nicht relevant“, „nicht ausgewählt“ oder „vollständig budgetiert“ nicht als Zusammenfassung oder Kernpunkt aus.
 - Aus „Die Verwaltung empfiehlt, den Antrag abzulehnen“ darf nicht „Die Verwaltung lehnt den Antrag ab“ werden.
 - Nenne Kosten, Fristen und betroffene Orte nur, wenn sie ausdrücklich genannt werden.
 - Wenn der Ausschnitt unvollständig ist, formuliere vorsichtig und behaupte keine Vollständigkeit.
