@@ -36,6 +36,20 @@
       "type": "https://schema.oparl.org/1.1/AgendaItem"
     }
   ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00680084.pdf",
+      "created": "2026-08-06T14:34:16+02:00",
+      "date": "2026-08-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00680084.pdf",
+      "fileName": "00680084.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/680084",
+      "mimeType": "application/pdf",
+      "modified": "2026-08-06T14:34:29+02:00",
+      "name": "Niederschrift 25. BäA BB",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
   "created": "2025-10-10T12:01:01+02:00",
   "end": "2026-05-21T18:30:00+02:00",
   "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10528",
@@ -62,7 +76,7 @@
     "subLocality": "",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-05-12T08:28:56+02:00",
+  "modified": "2026-08-06T14:34:29+02:00",
   "name": "Bäderausschuss (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/54833"
