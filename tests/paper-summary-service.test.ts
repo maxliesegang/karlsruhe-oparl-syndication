@@ -126,18 +126,15 @@ describe('paper summary service', () => {
       promptVersion: 'test-v1',
     });
     expect(reused.get(paper.id)).toEqual(generated.get(paper.id));
-    expect(summarize.mock.calls[0]?.[0].contextText).toContain('ÖFFENTLICHER BERATUNGSVERLAUF');
+    expect(summarize.mock.calls[0]?.[0].contextText).toContain('BETEILIGTE GREMIEN');
   });
 
-  it('regenerates the whole summary when a public consultation result arrives', async () => {
+  it('does not spend a model call when a public consultation result arrives', async () => {
     const resultMeeting = structuredClone(meeting);
-    const summarize = vi
-      .fn()
-      .mockResolvedValueOnce({ summary: 'Der Gemeinderat soll entscheiden.', keyPoints: [] })
-      .mockResolvedValueOnce({
-        summary: 'Der Gemeinderat hat den Umbau einstimmig beschlossen.',
-        keyPoints: [],
-      });
+    const summarize = vi.fn().mockResolvedValue({
+      summary: 'Die Verwaltung schlägt den Umbau des Marktplatzes vor.',
+      keyPoints: [],
+    });
     const options = {
       enabled: true,
       summarizer: { providerName: 'test-provider', model: 'test-model', summarize },
@@ -152,9 +149,11 @@ describe('paper summary service', () => {
     resultMeeting.agendaItem[0].modified = '2026-08-02T00:00:00Z';
     const refreshed = await updatePaperSummaries([resultMeeting], options);
 
-    expect(summarize).toHaveBeenCalledTimes(2);
-    expect(summarize.mock.calls[1]?.[0].contextText).toContain('Ergebnis: einstimmig beschlossen');
-    expect(refreshed.get(paper.id)?.summary).toContain('hat den Umbau einstimmig beschlossen');
+    // A summary describes the paper, so the outcome cannot invalidate it. The feed
+    // renders `agendaItem.result` per sitting instead.
+    expect(summarize).toHaveBeenCalledOnce();
+    expect(summarize.mock.calls[0]?.[0].contextText).not.toContain('einstimmig beschlossen');
+    expect(refreshed.get(paper.id)?.summary).toContain('schlägt den Umbau');
   });
 
   it('only backfills summaries for papers dated 2026 or later', async () => {

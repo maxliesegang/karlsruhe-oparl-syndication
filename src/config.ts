@@ -79,7 +79,8 @@ export const config = {
     process.env.LLM_BASE_URL || 'https://opencode.ai/zen/go/v1/',
   ),
   llmModel: process.env.LLM_MODEL || 'mimo-v2.5',
-  summaryPromptVersion: process.env.SUMMARY_PROMPT_VERSION || 'paper-de-v5',
+  // v6 summarizes substance only; the feed renders each meeting's own result.
+  summaryPromptVersion: process.env.SUMMARY_PROMPT_VERSION || 'paper-de-v7',
   summaryMaxItemsPerRun: parseNonNegativeInteger(
     'SUMMARY_MAX_ITEMS_PER_RUN',
     process.env.SUMMARY_MAX_ITEMS_PER_RUN || '100',

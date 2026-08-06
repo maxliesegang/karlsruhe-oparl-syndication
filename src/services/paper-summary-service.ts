@@ -81,9 +81,7 @@ export async function updatePaperSummaries(
     });
   const candidates = paperSources
     .filter(({ paper }) => options.regenerate || !current.has(paper.id))
-    .filter(
-      ({ paper }) => options.paperIds?.has(paper.id) || isEligibleForSummaryBackfill(paper),
-    )
+    .filter(({ paper }) => options.paperIds?.has(paper.id) || isEligibleForSummaryBackfill(paper))
     .filter(({ source }) => source.hasExtractedText)
     .map((candidate) => ({
       ...candidate,
@@ -163,17 +161,11 @@ function collectPublicPaperSources(meetings: Meeting[]): PublicPaperSummarySourc
         (candidate) => candidate.id === agendaItem.consultation,
       );
       entry.contextsByAgendaItemId.set(agendaItem.id, {
-        consultationId: agendaItem.consultation,
         consultationRole: consultation?.role ?? '',
-        consultationAuthoritative: consultation?.authoritative,
         consultationModified: consultation?.modified ?? '',
         meetingId: meeting.id,
         meetingName: meeting.name,
         meetingStart: meeting.start,
-        agendaItemId: agendaItem.id,
-        agendaItemNumber: agendaItem.number,
-        agendaItemName: agendaItem.name,
-        agendaItemResult: agendaItem.result,
         agendaItemModified: agendaItem.modified,
       });
     }

@@ -93,8 +93,11 @@ function renderEntryContent(
   const proceduralStatusHtml = agendaItem.result?.trim()
     ? `<b>Beratungsstand dieser Sitzung:</b> ${escapeHtml(agendaItem.result.trim())}<br><br>`
     : '';
+  // The summary describes the paper, not this sitting: one paper is consulted by
+  // several bodies, so a status sentence here would show a later meeting's outcome
+  // on an earlier entry. `proceduralStatusHtml` above carries the per-meeting result.
   const summaryHtml = paperSummary
-    ? `<b>KI-generierte Zusammenfassung:</b> ${escapeHtml(paperSummary.summary)}${
+    ? `<b>KI-generierte Zusammenfassung der Vorlage:</b> ${escapeHtml(paperSummary.summary)}${
         paperSummary.keyPoints.length > 0
           ? `<ul>${paperSummary.keyPoints.map((point) => `<li>${escapeHtml(point)}</li>`).join('')}</ul>`
           : ''

@@ -46,17 +46,11 @@ function content(text: string, extractedFor = file.modified): FileContent {
 }
 
 const consultationContext: PaperSummaryConsultationContext = {
-  consultationId: 'https://example.test/consultations/1',
   consultationRole: 'Entscheidung',
-  consultationAuthoritative: true,
   consultationModified: '2026-02-02T00:00:00Z',
   meetingId: 'https://example.test/meetings/1',
   meetingName: 'Gemeinderat',
   meetingStart: '2026-02-01T15:30:00Z',
-  agendaItemId: 'https://example.test/agendaItems/1',
-  agendaItemNumber: '1',
-  agendaItemName: 'Neue Straßenbahn',
-  agendaItemResult: 'einstimmig beschlossen',
   agendaItemModified: '2026-02-02T00:00:00Z',
 };
 
@@ -80,22 +74,43 @@ describe('paper summary input', () => {
     expect(source.text).not.toContain('Veralteter Inhalt');
   });
 
-  it('invalidates for a changed result but not timestamp-only metadata changes', () => {
+  it('renders consulting bodies as scope only, never a procedural status', () => {
+    const source = buildPaperSummarySource(paper, () => content('Inhalt'), [consultationContext]);
+
+    expect(source.contextText).toContain('BETEILIGTE GREMIEN');
+    expect(source.contextText).toContain('- Gemeinderat | Rolle: Entscheidung');
+    expect(source.contextText).not.toMatch(/Ergebnis|beschlossen|Sitzung:|TOP/);
+  });
+
+  it('is stable under scheduling churn so a result never spends a model call', () => {
     const first = buildPaperSummarySource(paper, () => content('Inhalt'), [consultationContext]);
-    const timestampOnly = buildPaperSummarySource(paper, () => content('Inhalt'), [
+    // A published result, a moved sitting and a second sitting of the same body all
+    // reach the feed through `agendaItem.result`; none of them changes the substance.
+    const churned = buildPaperSummarySource(paper, () => content('Inhalt'), [
       {
         ...consultationContext,
         consultationModified: '2026-02-03T00:00:00Z',
         agendaItemModified: '2026-02-03T00:00:00Z',
+        meetingStart: '2026-03-09T15:30:00Z',
+      },
+      {
+        ...consultationContext,
+        meetingId: 'https://example.test/meetings/2',
+        meetingStart: '2026-04-01T15:30:00Z',
       },
     ]);
-    const changedResult = buildPaperSummarySource(paper, () => content('Inhalt'), [
-      { ...consultationContext, agendaItemResult: 'mehrheitlich abgelehnt' },
+
+    expect(churned.sourceHash).toBe(first.sourceHash);
+  });
+
+  it('invalidates when a newly involved body widens the scope', () => {
+    const first = buildPaperSummarySource(paper, () => content('Inhalt'), [consultationContext]);
+    const widened = buildPaperSummarySource(paper, () => content('Inhalt'), [
+      consultationContext,
+      { ...consultationContext, meetingName: 'Ortschaftsrat Durlach', consultationRole: 'Anhörung' },
     ]);
 
-    expect(first.contextText).toContain('Ergebnis: einstimmig beschlossen');
-    expect(timestampOnly.sourceHash).toBe(first.sourceHash);
-    expect(changedResult.sourceHash).not.toBe(first.sourceHash);
+    expect(widened.sourceHash).not.toBe(first.sourceHash);
   });
 
   it('ignores order-only changes in consultations and attachments', () => {
@@ -107,11 +122,10 @@ describe('paper summary input', () => {
     };
     const laterContext: PaperSummaryConsultationContext = {
       ...consultationContext,
-      consultationId: 'https://example.test/consultations/2',
+      consultationRole: 'Anhörung',
       meetingId: 'https://example.test/meetings/2',
+      meetingName: 'Ortschaftsrat Durlach',
       meetingStart: '2026-03-01T15:30:00Z',
-      agendaItemId: 'https://example.test/agendaItems/2',
-      agendaItemResult: 'Kenntnisnahme',
     };
     const resolveContent = (id: string): FileContent => {
       const resolvedFile = id === file.id ? file : secondFile;
@@ -137,6 +151,41 @@ describe('paper summary input', () => {
     expect(reordered.sourceHash).toBe(ordered.sourceHash);
     expect(reordered.contextText).toBe(ordered.contextText);
     expect(reordered.text).toBe(ordered.text);
+  });
+
+  it('strips the template scheduling table and checkbox form from the model input', () => {
+    const source = buildPaperSummarySource(paper, () =>
+      content(
+        [
+          'Gremien Termin TOP Ö / N Zuständigkeit',
+          'Gemeinderat 28.07.2026 33 Ö Entscheidung',
+          'Erläuterungen',
+          'Finanzielle Auswirkungen Ja ☐ Nein ☒',
+          'Die Strecke wird ausgebaut.',
+        ].join('\n'),
+      ),
+    );
+
+    expect(source.text).toContain('Die Strecke wird ausgebaut.');
+    expect(source.text).not.toContain('Gemeinderat 28.07.2026');
+    expect(source.text).not.toMatch(/[☐☒☑]/);
+  });
+
+  it('hoists the administration abstract into the context sent with every chunk', () => {
+    const source = buildPaperSummarySource(
+      paper,
+      () => content('Kurzfassung\nDer Gemeinderat beschließt den Ausbau.\nErläuterungen\nDetails.'),
+      [consultationContext],
+    );
+
+    expect(source.contextText).toContain('KURZFASSUNG DER VERWALTUNG');
+    expect(source.contextText).toContain('Der Gemeinderat beschließt den Ausbau.');
+  });
+
+  it('omits the abstract section when no document carries one', () => {
+    const source = buildPaperSummarySource(paper, () => content('Nur Fließtext.'));
+
+    expect(source.contextText).not.toContain('KURZFASSUNG');
   });
 
   it('splits long text without exceeding the requested size', () => {
