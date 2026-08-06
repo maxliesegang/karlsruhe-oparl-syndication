@@ -81,9 +81,9 @@ All options can be set via environment variables or a `.env` file at the repo ro
 | `LLM_MODEL`                                    | `mimo-v2.5`                      | Model used for summaries                             |
 | `SUMMARY_PROMPT_VERSION`                       | `paper-de-v3`                    | Cache-busting prompt version                         |
 | `SUMMARY_MAX_ITEMS_PER_RUN`                    | `100`                            | Maximum papers generated per run                     |
-| `SUMMARY_MAX_INPUT_CHARS`                      | `100000`                         | Maximum source characters per LLM request            |
+| `SUMMARY_MAX_INPUT_CHARS`                      | `400000`                         | Maximum source characters per LLM request            |
 | `SUMMARY_CONCURRENCY`                          | `2`                              | Concurrent paper-summary jobs                        |
-| `SUMMARY_REQUEST_TIMEOUT_MS`                   | `120000`                         | Per-request timeout                                  |
+| `SUMMARY_REQUEST_TIMEOUT_MS`                   | `240000`                         | Per-request timeout                                  |
 | `REQUEST_DELAY`                                | `1000`                           | Delay between API requests (ms)                      |
 | `FULL_RECONCILIATION_INTERVAL_DAYS`            | `7`                              | Days between authoritative full meeting/paper crawls |
 | `PDF_DOWNLOAD_TIMEOUT_MS`                      | `30000`                          | Per-PDF download timeout (ms)                        |

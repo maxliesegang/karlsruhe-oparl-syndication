@@ -84,18 +84,43 @@ export const config = {
     'SUMMARY_MAX_ITEMS_PER_RUN',
     process.env.SUMMARY_MAX_ITEMS_PER_RUN || '100',
   ),
+  // Not limited by the model's context window: mimo-v2.5 accepts 1M tokens, and even
+  // the largest paper in the archive (1.4M chars, ~450-550k tokens) would fit. 400k
+  // characters is roughly 130-160k tokens of German PDF text (German words and
+  // extracted tables tokenize badly, ~2.5-3 chars/token).
+  //
+  // The limit is set by payoff and by request duration instead. Measured over the 356
+  // papers dated 2026+ that carry extracted text: p90 is 44k chars, p95 is 71k, only
+  // 10 papers exceed 100k and only 4 exceed 400k. So this is deep in diminishing
+  // returns already — going higher would recover a two-digit-at-best number of the
+  // Haushalt and statistics documents in the tail, where chunk-then-synthesize beats
+  // one giant request whose middle gets skimmed anyway: an accepted context length is
+  // not a flat-recall context length, and the grounding check catches fabricated
+  // numbers but not omitted ones. Keep this in step with summaryRequestTimeoutMs:
+  // prefill is linear in input, the largest single request has to finish inside that
+  // timeout, and a timeout is a hard failure where chunking merely degrades.
   summaryMaxInputCharacters: parseIntegerAtLeast(
     'SUMMARY_MAX_INPUT_CHARS',
-    process.env.SUMMARY_MAX_INPUT_CHARS || '100000',
+    process.env.SUMMARY_MAX_INPUT_CHARS || '400000',
     10_000,
   ),
   summaryConcurrency: parsePositiveInteger(
     'SUMMARY_CONCURRENCY',
     process.env.SUMMARY_CONCURRENCY || '2',
   ),
+  // Derived from request duration, not from summaryMaxInputCharacters — chars and
+  // milliseconds are unrelated units, so a matching pair of numbers would be a
+  // coincidence rather than a ratio to maintain. 240000 ms (4 min) covers a full
+  // 400k-char request (~130-160k tokens of prefill, which normally completes in one to
+  // three minutes on this endpoint) with room for provider jitter, while staying short
+  // enough to bound the run: worst case is summaryMaxItemsPerRun / summaryConcurrency
+  // batches at this timeout, ~3.3 h at the defaults (100 / 2) against GitHub's 6 h job
+  // ceiling. A job killed at that ceiling publishes no feed at all, whereas a summary
+  // timeout is fail-open and retried next run — so if requests get slower, lower
+  // summaryMaxItemsPerRun rather than raising this.
   summaryRequestTimeoutMs: parsePositiveInteger(
     'SUMMARY_REQUEST_TIMEOUT_MS',
-    process.env.SUMMARY_REQUEST_TIMEOUT_MS || '120000',
+    process.env.SUMMARY_REQUEST_TIMEOUT_MS || '240000',
   ),
 
   // Digests (meeting previews, monthly Stadtteil/stadtweit rollups) are a
