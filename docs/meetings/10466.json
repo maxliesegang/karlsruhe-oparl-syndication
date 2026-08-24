@@ -53,6 +53,20 @@
       "type": "https://schema.oparl.org/1.1/AgendaItem"
     }
   ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00676957.pdf",
+      "created": "2026-03-06T13:07:33+01:00",
+      "date": "2026-03-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00676957.pdf",
+      "fileName": "00676957.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/676957",
+      "mimeType": "application/pdf",
+      "modified": "2026-08-24T13:02:04+02:00",
+      "name": "Niederschrift ö",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
   "created": "2025-10-10T09:20:26+02:00",
   "end": "2026-01-22T18:30:00+01:00",
   "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10466",
@@ -79,7 +93,7 @@
     "subLocality": "",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-08-21T12:57:39+02:00",
+  "modified": "2026-08-24T12:07:29+02:00",
   "name": "Planungsausschuss (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/38449"

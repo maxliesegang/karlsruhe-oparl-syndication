@@ -133,6 +133,20 @@
       "type": "https://schema.oparl.org/1.1/AgendaItem"
     }
   ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00680452.pdf",
+      "created": "2026-08-24T08:57:29+02:00",
+      "date": "2026-08-24",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00680452.pdf",
+      "fileName": "00680452.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/680452",
+      "mimeType": "application/pdf",
+      "modified": "2026-08-24T08:58:47+02:00",
+      "name": "2026-07-15_Niederschrift_öffentlich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
   "created": "2025-08-29T16:22:54+02:00",
   "end": "2026-07-15T00:00:00+02:00",
   "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10443",
@@ -152,10 +166,10 @@
     "created": "2025-08-29T16:22:54+02:00",
     "description": "Herbert-Schweizer-Haus Begegnungsstätte Grötzingen, Niddastraße 9, 76229 Karlsruhe",
     "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10443",
-    "modified": "2026-07-13T10:58:19+02:00",
+    "modified": "2026-08-24T08:58:47+02:00",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-07-13T10:58:19+02:00",
+  "modified": "2026-08-24T08:58:47+02:00",
   "name": "Ortschaftsrat Grötzingen (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
