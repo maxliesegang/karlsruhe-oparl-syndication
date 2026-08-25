@@ -1,4 +1,63 @@
 {
+  "agendaItem": [
+    {
+      "created": "2026-08-25T13:33:50+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102958",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10750",
+      "modified": "2026-08-25T13:35:31+02:00",
+      "name": "Sachstand Glasfaserausbau in Karlsruhe mit Blick auf Neureut",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37792",
+      "created": "2026-08-25T13:32:52+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102953",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10750",
+      "modified": "2026-08-25T13:35:31+02:00",
+      "name": "Nachhaltiges Parkraumkonzept Stadt Karlsruhe",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37853",
+      "created": "2026-08-25T13:32:52+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102954",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10750",
+      "modified": "2026-08-25T14:52:06+02:00",
+      "name": "Antrag der FDP / FÜR KA – Ortschaftsratsfraktion, auf Einführung einer regelmäßigen Sportler- und Ehrenamtsehrung durch die Ortsverwaltung und den Ortschaftsrat im Sitzungssaal des Rathauses",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-08-25T13:34:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102959",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10750",
+      "modified": "2026-08-25T13:35:31+02:00",
+      "name": "Bekanntgaben",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-08-25T13:34:38+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102960",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10750",
+      "modified": "2026-08-25T13:35:31+02:00",
+      "name": "Anfragen und Anregungen aus dem Ortschaftsrat",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
   "created": "2025-11-07T08:59:54+01:00",
   "end": "2026-09-15T00:00:00+02:00",
   "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10750",
@@ -6,10 +65,10 @@
     "created": "2025-11-07T08:59:54+01:00",
     "description": "Sitzungssaal Rathaus Neureut",
     "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10750",
-    "modified": "2025-11-07T09:02:53+01:00",
+    "modified": "2026-08-25T13:41:34+02:00",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2025-11-07T09:02:53+01:00",
+  "modified": "2026-08-25T13:41:34+02:00",
   "name": "Ortschaftsrat Neureut (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34531"
