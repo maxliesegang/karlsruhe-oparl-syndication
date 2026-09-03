@@ -8,7 +8,7 @@
       "fileName": "00679592.pdf",
       "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679592",
       "mimeType": "application/pdf",
-      "modified": "2026-08-25T07:53:06+02:00",
+      "modified": "2026-09-03T13:32:46+02:00",
       "name": "Antrag",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -20,7 +20,7 @@
       "fileName": "00679823.pdf",
       "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679823",
       "mimeType": "application/pdf",
-      "modified": "2026-08-25T07:53:06+02:00",
+      "modified": "2026-09-03T13:32:45+02:00",
       "name": "Stellungnahme zum Antrag",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -32,7 +32,7 @@
       "fileName": "00680524.pdf",
       "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/680524",
       "mimeType": "application/pdf",
-      "modified": "2026-08-25T07:53:06+02:00",
+      "modified": "2026-09-03T13:32:45+02:00",
       "name": "Protokoll GR 28.07.2026 TOP 38",
       "type": "https://schema.oparl.org/1.1/File"
     }
@@ -52,12 +52,25 @@
       "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54719",
       "role": "Kenntnisnahme",
       "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102735",
+      "created": "2026-08-07T14:59:49+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37754",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10569",
+      "modified": "2026-08-31T11:21:57+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54719",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
     }
   ],
   "created": "2026-07-07T10:43:45+02:00",
   "date": "2026-07-07",
   "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54719",
-  "modified": "2026-08-25T07:53:06+02:00",
+  "modified": "2026-09-03T13:32:45+02:00",
   "name": "Klimatisierung öffentlicher Gebäude zum Schutz vulnerabler Gruppen",
   "paperType": "Antrag",
   "reference": "2026/0541",

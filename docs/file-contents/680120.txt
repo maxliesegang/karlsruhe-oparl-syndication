@@ -1,0 +1,153 @@
+Gedruckt auf 100 Prozent Recyclingpapier
+Stadt Karlsruhe
+Tiefbauamt
+Stadtentwässerung
+Stand: Juli 2026
+Abb. 1 schematische Darstellung PCS7 Prozessleitsystem Verbrennungslinie 1
+Konzeptbeschluss
+Klärwerk Karlsruhe, Verbrennungslinie 1,
+Überführung der Prozessleittechnik von Simatic S5 auf
+Simatic PCS 7
+konzeptionelle Darstellung
+
+-- 1 of 7 --
+
+2 | Stadt Karlsruhe | Tiefbauamt | Stadtentwässerung | Anlage Konzeptbeschluss VEB1 PLS S5 auf PCS 7 | konzeptionelle Darstellung
+Inhaltsverzeichnis
+Handlungsfeld Klärschlammbehandlung........................................................................................ 3
+Bedarfsgrund............................................................................................................................................ 4
+Bedarfsumfang ......................................................................................................................................... 5
+Konzeptionelle Darstellung des Vorhabens ................................................................................... 6
+Standort ................................................................................................................................................... 6
+Konzept ................................................................................................................................................... 7
+
+-- 2 of 7 --
+
+3 | Stadt Karlsruhe | Tiefbauamt | Stadtentwässerung | Anlage Konzeptbeschluss VEB1 PLS S5 auf PCS 7 | konzeptionelle Darstellung
+Handlungsfeld Klärschlammbehandlung
+Abb. 2 Schaubild Klärschlammbehandlung
+Ein wesentliches Handlungsfeld im Betrieb der Kläranlage ist die Klärschlammbehandlung. In
+diesem Prozess wird der aus der Abwasserreinigung entnommene Klärschlamm verwertet.
+Die aktuelle Klärschlammbehandlung umfasst die Schlammentwässerung, Schlammtrocknung
+und anschließend eine thermische Verwertung über zwei Verbrennungslinien. Im Regelbetrieb
+läuft kontinuierlich eine Verbrennungslinie, während die zweite für Revisionsarbeiten
+bereitsteht oder gewartet wird.
+Die Verbrennungslinie 2 wurde kürzlich ertüchtigt. Da diese nun in einen stabilen Betrieb
+übergegangen ist, besteht nun die Möglichkeit umfangreichere Maßnahmen an der
+Verbrennungslinie 1 umzusetzen. Die Verbrennungslinie 1 soll noch ca. 10-15 Jahre weiter
+betrieben werden.
+Ein wichtiger Bestandteil für den Betrieb einer Verbrennungslinie ist ein entsprechendes
+Prozessleitsystem, um wesentliche Prozessschritte zu überwachen und zu automatisieren.
+Über diverse Sensoren werden kontinuierlich Daten erfasst und analysiert. In der Leitwarte
+werden betriebsrelevante Daten visualisiert, um eine Steuerung durch das Betriebspersonal zu
+ermöglichen.
+
+-- 3 of 7 --
+
+4 | Stadt Karlsruhe | Tiefbauamt | Stadtentwässerung | Anlage Konzeptbeschluss VEB1 PLS S5 auf PCS 7 | konzeptionelle Darstellung
+Bedarfsgrund
+Die Verbrennungslinie 1 besteht noch aus speicherprogrammierbaren Steuerungen der
+Simatic Produktreihe S5 von der Firma Siemens. Die Abkündigung durch die Herstellerfirma
+erfolgte bereits sukzessive seit 2003.
+Eine Abkündigung des Systems bedeutet das offizielle Ende des Produktlebenszyklus. Der
+Support, Reparaturen und die Bereitstellung von Original-Ersatzteilen über den Hersteller
+werden dadurch komplett eingestellt.
+Ab 2003 wurden bereits die Hauptkomponenten abgekündigt, welche in der
+Verbrennungslinie 1 verbaut sind. Seit dem Oktober 2020 ist nun offiziell die gesamte
+Systemreihe Simatic S5 von Siemens abgekündigt.
+Die Zwischenzeit, seit der finalen Abkündigung und dem Übergang der Verbrennungslinie 2
+in den stabilen Betrieb, konnte noch überbrückt werden. Ein sicherer Weiterbetrieb für ca. 10-
+15 Jahre ist ohne die Überführung des Prozessleitsystems auf das neue System Simatic PCS 7
+der Firma Siemens allerdings als betriebskritisch zu bewerten.
+Außerdem ermöglicht der Tausch der Steuerungseinrichtungen und die Anpassungen der
+Messtechnik die beiden Verbrennungslinien des Klärwerks auf einen gemeinsamen Stand zu
+bringen.
+Das Leitsystem der Kläranlage bzw. der Verbrennungslinie 2 ist bereits auf das
+Steuerungssystem Simatic PCS 7 der Firma Siemens angepasst.
+Zum aktuellen Zeitpunkt ist die Verbrennungslinie 1 nur durch mehrere provisorische
+Koppelsteuerungen des Types S7-400 in das PCS 7 Leitsystem integriert, sodass eine
+Steuerung beider Anlagen über ein einziges System ermöglicht wird.
+Ein weiterer großer Vorteil liegt darin, dass Softwareupdates zukünftig während dem
+laufenden Betrieb eingespielt werden können. Vorher war eine Aktualisierung des Systems
+nur außer Betrieb möglich.
+
+-- 4 of 7 --
+
+5 | Stadt Karlsruhe | Tiefbauamt | Stadtentwässerung | Anlage Konzeptbeschluss VEB1 PLS S5 auf PCS 7 | konzeptionelle Darstellung
+Bedarfsumfang
+Das Vorhaben umfasst keine größeren baulichen Veränderungen. Die Arbeiten erfolgen im
+Bestand an den Anlagen der Verbrennungslinie 1.
+Es werden die abgekündigten S5 Komponenten, Ein- und Ausgangskarten sowie CPUs, gegen
+S7-Komponenten, CPUs und dezentrale Ein- Ausgabebaugruppen ersetzt.
+Außerdem werden alle Hardware-Regler durch Software-Regler ersetzt.
+Folgende Vorgaben werden berücksichtigt:
+▪ Die bestehenden Hardware-Regler und Hardware-Zähler für Betriebsstunden,
+Medienflüsse und ähnliches werden durch in der Anwendersoftware implementierte
+Zähler ersetzt.
+▪ Die Vor-Ort-Bedienstellen in der Anlage (konventionelle Taster/ Leuchter oder
+Bedienpanel) bleiben erhalten.
+▪ Nicht mehr am Markt verfügbare Leittechnik-Komponenten werden ersetzt.
+▪ Die bestehenden einzelverdrahteten bzw. als Hardware implementierte Verriegelungen
+werden durch entsprechende Funktionen und Signalverbindungen in der
+Anwendersoftware ersetzt, sofern es sich nicht um Sicherheitsfunktionen handelt.
+▪ Das vorhandene Archivierungssystem TIBS wird auch nach Umrüstung der
+Verbrennungslinie 1 verwendet. Das Archivierungssystem greift dann direkt auf die Daten
+auf den OS-Servern zu.
+▪ Nach erfolgter Umrüstung nicht mehr benötigte Leittechnik und speicherprogrammierbare
+Steuerungs- (SPS) Komponenten werden demontiert. Das schließt die nicht mehr
+benötigten Regler in der Zentralwarte ein.
+
+-- 5 of 7 --
+
+6 | Stadt Karlsruhe | Tiefbauamt | Stadtentwässerung | Anlage Konzeptbeschluss VEB1 PLS S5 auf PCS 7 | konzeptionelle Darstellung
+Konzeptionelle Darstellung des Vorhabens
+Standort
+Abb. 3 Lagebild Klärwerk, Verbrennungslinie 1 (VEB1) Abb. 4 Luftbild VEB1
+Auf der Abbildung ist der Standort der Verbrennungslinie 1 (VEB1) markiert. Die
+Komponenten der Prozessleittechnik werden innerhalb der bestehenden Verbrennungslinie 1
+installiert.
+Der Planungsraum ist in Abbildung 4 dargestellt. Die roten Linien grenzen ungefähr den
+Aufgabenbereich ab.
+Im oberen Bereich befindet sich die Verbrennungslinie 1 mit der Rauchgasreinigung. Im
+unteren Bereich der roten Markierung befindet sich die Schlammannahme im Kellergeschoss.
+Die Verbrennungslinie 2 steht in unmittelbarer Nähe weiter unten im Bild. Die Leitwarte
+befindet sich links außerhalb des Bildes im Verwaltungsgebäude.
+
+-- 6 of 7 --
+
+7 | Stadt Karlsruhe | Tiefbauamt | Stadtentwässerung | Anlage Konzeptbeschluss VEB1 PLS S5 auf PCS 7 | konzeptionelle Darstellung
+Konzept
+Zum aktuellen Planungstand soll die Implementierung des Simatic PCS 7 Systems über eine
+zentrale und redundante Central Processing Unit (CPU) realisiert werden. Ziel der Maßnahme
+ist es, die Betriebssicherheit, Ausfallsicherheit und Effizienz der Anlage zu erhöhen, sowie den
+weiteren Betrieb der Verbrennungslinie für ca. 10- 15 Jahren zu ermöglichen.
+Die zentrale CPU ist das Herzstück des Prozessleitsystems. Um einen Ausfall der gesamten
+Verbrennungslinie bei einem Ausfall der CPU zu verhindern, muss diese redundant realisiert
+werden.
+Das bedeutet, dass die CPU in zweifacher Ausführung realisiert wird. Ein Master-CPU steuert
+die Anlage aktiv, während eine zweite Standby-CPU parallel mitläuft und das exakt gleiche
+Programm im Hintergrund mitrechnet, aber keine Befehle nach außen kommuniziert. Die
+beiden CPUs sind über ein Synchronisationskabel verbunden. Die Master-CPU schickt am
+Ende jedes Rechenzyklus (tausendfach pro Sekunde) ihren aktuellen Zustand an die Standby-
+CPU. Sobald die Master-CPU ausfällt bemerkt die Standby-CPU dies sofort und übernimmt
+unmittelbar die aktive Rolle, sodass die restliche Anlage von der Störung nicht beeinflusst
+wird.
+In den auf der Anlage bereits im Bestand verteilten Automatisierungsschränken wird die
+bisherige Automatisierungstechnik ausgetauscht. Dort werden sogenannte ET200-Stationen
+installiert, die über ein mindestens einfehlertolerantes Bus-System (Profinet) an die zentrale
+CPU angebunden werden.
+Die ET200-Stationen fungieren als dezentrales Bindeglied zwischen der Feld-Sensorik und der
+zentralen CPU. Anstatt alle Sensoren aufwendig über weite Strecken einzeln zu verkabeln,
+bündeln die Stationen die Signale direkt vor Ort. Die Datenübertragung zur Leitwarte erfolgt
+anschließend effizient über jeweils ein einziges Kabel.
+Die Ausführung als einfehlertolerantes System bedeutet, dass das System weiterhin
+funktionsfähig bleibt auch wenn eine Störung bei einem Kabel auftritt.
+Die in der Verbrennungslinie 1 bereits verbauten Messsonden für Temperatur, Druck,
+Durchfluss etc., sowie sämtliche Ventile und Motoren bleiben physisch erhalten. Sie müssen
+nicht kostenintensiv ersetzt werden, sondern werden lediglich auf die neuen
+Automatisierungsgeräte umgeklemmt.
+Nur die Schlammannahme und das Aschesilo, welche von beiden Verbrennungslinien genutzt
+werden, erhalten eigene dezentrale Speicherprogrammierbare Steuerungen (SPS).
+
+-- 7 of 7 --
+

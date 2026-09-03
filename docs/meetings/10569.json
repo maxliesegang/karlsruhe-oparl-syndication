@@ -1,7 +1,113 @@
 {
+  "agendaItem": [
+    {
+      "created": "2026-08-07T15:03:43+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102742",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10569",
+      "modified": "2026-08-07T15:03:43+02:00",
+      "name": "Liegenschaftsamt",
+      "number": "",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37499",
+      "created": "2026-08-07T14:59:49+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102734",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10569",
+      "modified": "2026-08-31T11:21:57+02:00",
+      "name": "Ehrung von Hedwig Lachmann und Gustav Landauer durch eine Straßenbenennung",
+      "number": "1",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-08-07T14:59:49+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102731",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10569",
+      "modified": "2026-08-26T11:44:25+02:00",
+      "name": "Amt für Hochbau und Gebäudewirtschaft",
+      "number": "",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37756",
+      "created": "2026-08-07T14:59:49+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102737",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10569",
+      "modified": "2026-08-31T11:21:57+02:00",
+      "name": "Gebäude für Klimawandel ausstatten",
+      "number": "2",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-08-07T15:07:16+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102743",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10569",
+      "modified": "2026-08-26T11:44:25+02:00",
+      "name": "Umwelt- und Arbeitsschutz",
+      "number": "",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37754",
+      "created": "2026-08-07T14:59:49+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102735",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10569",
+      "modified": "2026-08-31T11:21:57+02:00",
+      "name": "Klimatisierung öffentlicher Gebäude zum Schutz vulnerabler Gruppen",
+      "number": "3",
+      "order": 6,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-08-07T14:59:49+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102730",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10569",
+      "modified": "2026-08-26T11:44:25+02:00",
+      "name": "Tiefbauamt",
+      "number": "",
+      "order": 7,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37702",
+      "created": "2026-08-07T14:59:49+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102736",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10569",
+      "modified": "2026-08-31T11:21:57+02:00",
+      "name": "Konzeptbeschluss: Klärwerk Karlsruhe, Verbrennungslinie 1, Überführung der Prozessleittechnik von Simatic S5 auf Simatic PCS 7",
+      "number": "4",
+      "order": 8,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
   "created": "2025-10-10T13:26:32+02:00",
   "end": "2026-09-17T18:30:00+02:00",
   "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10569",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00680638.pdf",
+    "created": "2026-08-31T13:31:49+02:00",
+    "date": "2026-08-31",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00680638.pdf",
+    "fileName": "00680638.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/680638",
+    "mimeType": "application/pdf",
+    "modified": "2026-09-03T12:22:26+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
   "location": {
     "created": "2022-12-12T11:11:26+01:00",
     "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/rm/67907",
@@ -13,7 +119,7 @@
     "subLocality": "",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-09-02T17:17:53+02:00",
+  "modified": "2026-09-03T12:22:26+02:00",
   "name": "Bauausschuss (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/31180"
