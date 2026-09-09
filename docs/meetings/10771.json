@@ -1,15 +1,98 @@
 {
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37794",
+      "created": "2026-09-02T10:15:17+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/103059",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10771",
+      "modified": "2026-09-02T10:15:41+02:00",
+      "name": "Nachhaltiges Parkraumkonzept Stadt Karlsruhe",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37460",
+      "created": "2026-08-06T14:10:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102723",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10771",
+      "modified": "2026-09-02T10:15:41+02:00",
+      "name": "Verbesserung des Radwegenetzes in den Höhenstadtteilen (betr. Hohenwettersbach)",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37763",
+      "created": "2026-08-06T14:10:45+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102724",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10771",
+      "modified": "2026-09-02T10:15:41+02:00",
+      "name": "Urbaner Waldgarten",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-08-06T14:13:11+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102725",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10771",
+      "modified": "2026-09-02T10:15:41+02:00",
+      "name": "Bekanntgabe nichtöffentlich gefasster Beschlüsse",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-08-06T14:14:21+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102726",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10771",
+      "modified": "2026-09-02T10:15:41+02:00",
+      "name": "Mitteilungen der Ortsverwaltung",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-08-06T14:14:39+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102727",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10771",
+      "modified": "2026-09-02T10:15:17+02:00",
+      "name": "Anregungen aus dem Ortschaftsrat",
+      "number": "6",
+      "order": 6,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
   "created": "2025-11-27T16:33:27+01:00",
   "end": "2026-09-16T00:00:00+02:00",
   "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10771",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00680664.pdf",
+    "created": "2026-09-02T11:33:26+02:00",
+    "date": "2026-09-02",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00680664.pdf",
+    "fileName": "00680664.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/680664",
+    "mimeType": "application/pdf",
+    "modified": "2026-09-09T11:20:10+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
   "location": {
     "created": "2025-11-27T16:33:27+01:00",
     "description": "Bürgersaal im Rathaus Hohenwettersbach",
     "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/si/10771",
-    "modified": "2026-09-08T19:51:34+02:00",
+    "modified": "2026-09-09T11:20:10+02:00",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-09-08T19:51:34+02:00",
+  "modified": "2026-09-09T11:20:10+02:00",
   "name": "Ortschaftsrat Hohenwettersbach (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/34322"
