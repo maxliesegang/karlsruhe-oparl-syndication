@@ -1,7 +1,92 @@
 {
+  "agendaItem": [
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37787",
+      "created": "2026-08-24T11:46:05+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102915",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10570",
+      "modified": "2026-08-24T11:54:48+02:00",
+      "name": "Rahmenvereinbarung über die kostenstellenbezogene Lieferung von Tintenpatronen und Toner für die Stadt Karlsruhe",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-08-24T11:48:55+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102930",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10570",
+      "modified": "2026-09-04T08:35:16+02:00",
+      "name": "Sachstand Integriertes Stadtentwicklungskonzept Karlsruhe 2040 (mündlicher Bericht)",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37557",
+      "created": "2026-08-24T11:46:05+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102914",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10570",
+      "modified": "2026-09-04T08:35:16+02:00",
+      "name": "Anschlussregelung für ein dauerhaftes Verbot der Straßenprostitution",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37751",
+      "created": "2026-08-24T11:46:05+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102916",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10570",
+      "modified": "2026-09-04T08:35:16+02:00",
+      "name": "Annahme des Angebots von Zuwendungen",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37492",
+      "created": "2026-08-24T11:46:05+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102911",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10570",
+      "modified": "2026-09-04T08:35:16+02:00",
+      "name": "Vergabe der Reinigungsleistungen für die Carl-Hofer-Schule (Adlerstraße 29+Markgrafenstraße 29, 76133 Karlsruhe) und der Uhlandschule (Schützenstraße 29+31+35, 76137 Karlsruhe)",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37495",
+      "created": "2026-08-24T11:46:05+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102912",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10570",
+      "modified": "2026-09-04T08:35:16+02:00",
+      "name": "Vergabe der Reinigungsleistungen für die Oberwaldschule (Grazer Straße 9+25, 76227 Karlsruhe) und der Werner-von-Siemens-Schule (Kurt-Schumacher-Straße 1+Anebosweg 2, 76187 Karlsruhe) und dem Verwaltungsgebäude Tiefbauamt (Ottostraße 15, 762",
+      "number": "6",
+      "order": 6,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
   "created": "2025-10-10T13:27:48+02:00",
   "end": "2026-09-22T18:30:00+02:00",
   "id": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10570",
+  "invitation": {
+    "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00680778.pdf",
+    "created": "2026-09-10T08:18:42+02:00",
+    "date": "2026-09-10",
+    "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00680778.pdf",
+    "fileName": "00680778.pdf",
+    "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/680778",
+    "mimeType": "application/pdf",
+    "modified": "2026-09-10T08:53:31+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
   "location": {
     "created": "2022-12-12T11:11:26+01:00",
     "id": "https://web1.karlsruhe.de/oparl/bodies/0001/locations/rm/67907",
@@ -13,7 +98,7 @@
     "subLocality": "",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-09-09T14:40:20+02:00",
+  "modified": "2026-09-10T08:53:31+02:00",
   "name": "Haupt- und Finanzausschuss (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"

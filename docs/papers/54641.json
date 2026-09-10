@@ -8,8 +8,20 @@
       "fileName": "00678942.pdf",
       "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678942",
       "mimeType": "application/pdf",
-      "modified": "2026-08-25T07:55:10+02:00",
+      "modified": "2026-09-10T08:26:12+02:00",
       "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00678952.pdf",
+      "created": "2026-06-10T10:21:40+02:00",
+      "date": "2026-06-10",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00678952.pdf",
+      "fileName": "00678952.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/678952",
+      "mimeType": "application/pdf",
+      "modified": "2026-09-10T08:26:12+02:00",
+      "name": "Stellungnahme Antrag",
       "type": "https://schema.oparl.org/1.1/File"
     },
     {
@@ -20,7 +32,7 @@
       "fileName": "00680526.pdf",
       "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/680526",
       "mimeType": "application/pdf",
-      "modified": "2026-08-25T07:55:10+02:00",
+      "modified": "2026-09-10T08:26:12+02:00",
       "name": "Protokoll GR 28.07.2026 TOP 40",
       "type": "https://schema.oparl.org/1.1/File"
     }
@@ -40,12 +52,25 @@
       "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54641",
       "role": "Kenntnisnahme",
       "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102914",
+      "created": "2026-08-24T11:46:05+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37557",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10570",
+      "modified": "2026-09-04T08:35:16+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54641",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
     }
   ],
   "created": "2026-06-10T08:14:49+02:00",
   "date": "2026-06-10",
   "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54641",
-  "modified": "2026-09-09T13:10:31+02:00",
+  "modified": "2026-09-10T08:26:12+02:00",
   "name": "Anschlussregelung für ein dauerhaftes Verbot der Straßenprostitution",
   "paperType": "Antrag",
   "reference": "2026/0474",
