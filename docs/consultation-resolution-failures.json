@@ -1762,5 +1762,12 @@
     "nextRetryAt": "2026-09-14T18:38:00.808Z",
     "status": 401,
     "reason": "unauthorized"
+  },
+  "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54733": {
+    "attempts": 1,
+    "lastAttemptAt": "2026-09-11T17:35:51.049Z",
+    "nextRetryAt": "2026-09-18T17:35:51.049Z",
+    "status": 401,
+    "reason": "unauthorized"
   }
 }

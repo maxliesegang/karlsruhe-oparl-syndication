@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679552.pdf",
+      "created": "2026-07-06T07:41:39+02:00",
+      "date": "2026-07-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679552.pdf",
+      "fileName": "00679552.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679552",
+      "mimeType": "application/pdf",
+      "modified": "2026-09-11T15:55:55+02:00",
+      "name": "Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679553.pdf",
+      "created": "2026-07-06T07:44:29+02:00",
+      "date": "2026-07-06",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679553.pdf",
+      "fileName": "00679553.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679553",
+      "mimeType": "application/pdf",
+      "modified": "2026-09-11T15:55:55+02:00",
+      "name": "Stellungnahme Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/102509",
+      "created": "2026-07-06T07:50:24+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37656",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10444",
+      "modified": "2026-09-04T15:34:09+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54711",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-07-06T07:40:57+02:00",
+  "date": "2026-07-06",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54711",
+  "modified": "2026-09-11T15:55:55+02:00",
+  "name": "Prüfung einer möglichen Wiederfreigabe des Fußwegs auf der Halbinsel im nordöstlichen Bereich des Baggersees Grötzingen (Antrag CDU-Fraktion)",
+  "paperType": "Antrag",
+  "reference": "2026/0533",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}
