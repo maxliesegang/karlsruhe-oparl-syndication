@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679727.pdf",
+      "created": "2026-07-14T08:31:12+02:00",
+      "date": "2026-07-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679727.pdf",
+      "fileName": "00679727.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679727",
+      "mimeType": "application/pdf",
+      "modified": "2026-09-14T11:15:58+02:00",
+      "name": "Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/a/00679728.pdf",
+      "created": "2026-07-14T08:32:06+02:00",
+      "date": "2026-07-14",
+      "downloadUrl": "https://web1.karlsruhe.de/oparl/bodies/0001/downloadfiles/00679728.pdf",
+      "fileName": "00679728.pdf",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/files/679728",
+      "mimeType": "application/pdf",
+      "modified": "2026-09-14T11:15:58+02:00",
+      "name": "Stellungnahme Antrag Grötzingen",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web1.karlsruhe.de/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web1.karlsruhe.de/oparl/bodies/0001/agendaitems/103050",
+      "created": "2026-09-01T08:49:49+02:00",
+      "id": "https://web1.karlsruhe.de/oparl/bodies/0001/consultations/37685",
+      "meeting": "https://web1.karlsruhe.de/oparl/bodies/0001/meetings/10444",
+      "modified": "2026-09-04T15:34:09+02:00",
+      "organization": [
+        "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/gr/33695"
+      ],
+      "paper": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54733",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-07-14T08:30:20+02:00",
+  "date": "2026-07-14",
+  "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54733",
+  "modified": "2026-09-14T11:15:58+02:00",
+  "name": "Situation Hort- und Kitaplätze in Grötzingen ab September 2026 (Antrag SPD-Fraktion)",
+  "paperType": "Antrag",
+  "reference": "2026/0551",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web1.karlsruhe.de/oparl/bodies/0001/organizations/at/882958"
+  ]
+}
