@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-08-25T15:07:34.959Z",
+  "generatedAt": "2026-09-14T07:29:35.819Z",
   "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54525",
   "keyPoints": [
-    "Die Investitionskosten für das GMKW werden mit 65 Millionen Euro veranschlagt; nach dem StromVKG wäre eine maximale Förderung von 119 Millionen Euro über 15 Jahre möglich.",
-    "Die CO₂-Emissionen des GMKW werden auf unter 3 Prozent der Gesamtemissionen von Karlsruhe geschätzt, wobei sich die Betriebsstunden im StromVKG-Regime gegenüber dem KWKG-Regime um etwa 1000 Stunden pro Jahr reduzieren.",
-    "Die Entscheidung über die Teilnahme an der ersten StromVKG-Auktion am 8. September 2026 steht noch aus; hierfür sind Sicherheiten in Millionenhöhe zu hinterlegen."
+    "Das immissionsschutzrechtliche Genehmigungsverfahren beim Regierungspräsidium Karlsruhe läuft; der Genehmigungsantrag wurde im Januar 2026 eingereicht, die Entscheidung wird für November 2026 erwartet, Einwände aus der öffentlichen Auslegung gelten nach Auskunft von Stadtwerken und Gutachter als fachlich beantwortet.",
+    "Für die Fernwärme-Transformation planen die Stadtwerke Investitionen von ca. 350–380 Mio. € in den kommenden 15 Jahren, mit dem Ziel, bis 2040 rund 50 % des Karlsruher Wärmemarkts (ca. 1.200 GWh/a) über Fernwärme zu versorgen und bis 2035 CO₂-neutrale Fernwärme zu erreichen.",
+    "Die geplante große Flusswärmepumpe (ab 2031 ca. 100 MW, Ausbau nach 2035 auf ca. 200 MW) soll den Großteil der Wärme aus regenerativem Strom erzeugen; das GMKW ergänzt sie in Zeiten der Dunkelflaute als molekülbasierte Wärmeerzeugung.",
+    "Die Teilnahme an der ersten StromVKG-Auktion setzt fristgerechte Gremienentscheidungen und Sicherheiten in Millionenhöhe voraus; die Auktionsrandbedingungen sollen am 21.07.2026 veröffentlicht werden, weitere Auktionen sind für den 08.09.2026 und 22.12.2026 vorgesehen."
   ],
-  "model": "mimo-v2.5",
+  "model": "glm-5.3-flash",
   "promptVersion": "paper-de-v7",
   "provider": "opencode-go",
   "sourceHash": "sha256:816990ac1bc1f5baaa5bb9855eb6a991bc6083f6ab87086f43124c94e82ea6af",
-  "summary": "Die Vorlage informiert über die Option eines 50-MW-Gasmotorenkraftwerks (GMKW) der Stadtwerke Karlsruhe am Heizkraftwerk West als Baustein der klimaneutralen Fernwärmeversorgung. Das Kraftwerk soll ab 2029 Wärme und Strom erzeugen, ist H₂-ready ausgelegt und könnte eine Förderung nach dem neuen StromVKG erhalten, die wirtschaftlich vorteilhafter als die bisherige KWKG-Förderung wäre."
+  "summary": "Die Informationsvorlage der Stadtwerke Karlsruhe erläutert ein geplantes Gasmotorenkraftwerk (GMKW) mit rund 54 MW elektrischer und etwa gleich hoher thermischer Leistung am Standort Heizkraftwerk West, das als flexibel regelbarer Baustein der Fernwärmetransformation bis 2040 dient. Die Anlage mit zwölf Gasmotorenaggregaten soll H2-ready ausgelegt werden und ist für eine Inbetriebnahme bis Ende 2029 vorgesehen; die Investitionskosten sind mit 65 Mio. € veranschlagt. Die wirtschaftliche Tragfähigkeit setzt eine Förderung voraus: Neben der auslaufenden KWKG-Förderung (maximal 63 Mio. €) eröffnet das StromVKG eine Förderung von bis zu 119 Mio. € über 15 Jahre, die auf der Vorhaltung von Langzeitkapazitäten statt auf Betriebsstunden basiert. Die Stadtwerke prüfen daher die Teilnahme an der ersten StromVKG-Auktion und sehen darin wirtschaftliche Vorteile sowie geringere CO₂-Emissionen (ca. 35.000 statt 60.000 Tonnen pro Jahr, unter 3 % der Gesamtemissionen Karlsruhes)."
 }

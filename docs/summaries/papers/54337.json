@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-08-06T09:40:36.014Z",
+  "generatedAt": "2026-09-14T07:38:38.993Z",
   "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54337",
   "keyPoints": [
-    "Die technischen Hürden resultieren aus der Komplexität der Zusammenarbeit mit verschiedenen Leitstellensystemherstellern und einer neuen Schnittstelle, die bei den Lieferanten zu unvorhersehbaren Herausforderungen führten.",
-    "Die von KVV öffentlich in Aussicht gestellten Fehlerbehebungsfristen konnten nicht eingehalten werden, weil die kleineren Problemfelder aufgrund ihrer gegenseitigen Abhängigkeiten nacheinander analysiert und behoben werden mussten.",
-    "Für eine vollständige und fehlerfreie Funktion aller DFI-Anlagen kann kein konkretes Datum garantiert werden, da bei dem hochkomplexen System mit Daten aus mehreren Quellen immer wieder Fehler auftreten können."
+    "Seit der Systemumstellung Ende November 2025 sind von über 700 Anzeigern der VBK und AVG rund 20 gestört; in den sieben Haltestellen des Stadtbahntunnels fehlen weiterhin Informationen zur Traktionsstärke und Barrierefreiheit.",
+    "Die von KVV-Seite in Aussicht gestellten Fristen zur Fehlerbehebung (Ende Januar bzw. Ende Februar 2026) konnten nicht eingehalten werden, da die voneinander abhängigen Probleme nacheinander analysiert und behoben werden mussten.",
+    "Für eine vollständige und fehlerfreie Funktion aller DFI-Anlagen nennt die Verwaltung kein verbindliches Datum; zur Fehlererkennung wird eine wöchentliche Auswertung der Fahrzeug- und Fahrgastinformationsdaten durchgeführt.",
+    "Verlorenes Fahrgastvertrauen soll laut Stellungnahme vor allem durch gute Betriebsqualität und verlässliche Fahrgastinformation an den stationären Anzeigern zurückgewonnen werden."
   ],
-  "model": "mimo-v2.5",
+  "model": "glm-5.3-flash",
   "promptVersion": "paper-de-v7",
   "provider": "opencode-go",
   "sourceHash": "sha256:90d5d22d5f317e9169a76f4065e7f480767536669c880f05d839571c1200d4dd",
-  "summary": "Die Anfrage thematisiert anhaltende Störungen und Ausfälle der digitalen Fahrgastinformationsanzeiger (DFI) an Haltestellen im Karlsruher Stadtgebiet seit November 2025. Die Verwaltung gibt in ihrer Stellungnahme an, dass von über 700 Anzeigern der VBK und AVG aktuell rund 20 gestört sind und weitere Informationen wie Traktionsstärke fehlen. Ein verbindliches Datum für die vollständige Fehlerbehebung wird nicht genannt, da die Probleme auf eine komplexe Migration mit mehreren Dienstleistern zurückzuführen sind."
+  "summary": "Die Anfrage thematisiert seit Ende November 2025 anhaltende Störungen der digitalen Fahrgastinformationsanzeiger (DFI) im Karlsruher Stadtgebiet und stellt der Verwaltung sieben Fragen, unter anderem zur Zahl der betroffenen Anzeiger, zu den technischen Ursachen, zur Verantwortung des Dienstleisters Lumino und zu einem verbindlichen Termin für die vollständige Fehlerbehebung. In ihrer Stellungnahme führt die Verwaltung aus, dass von über 700 Anzeigern der VBK und AVG rund 20 gestört seien; die Tunnelanzeiger zeigten zwar alle Fahrten, es fehlten jedoch Angaben zur Traktionsstärke und Barrierefreiheit, und Doppeltraktionen würden doppelt angezeigt. Als Ursachen werden Komplexitäten bei der Zusammenarbeit dreier Lieferanten (Lumino, ETC, INIT) und der Umstellung auf eine neue Schnittstelle genannt; ein konkretes Datum für eine vollständige und fehlerfreie Funktion kann die Verwaltung nicht garantieren. Weitergehende Forderungen, etwa Regressansprüche, würden juristisch geprüft."
 }

@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-08-06T06:17:08.876Z",
+  "generatedAt": "2026-09-14T07:32:37.960Z",
   "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54635",
   "keyPoints": [
-    "Die Zahl der Pflegebedürftigen in Karlsruhe ist bis Ende 2023 auf 15.199 gestiegen, wobei die Versorgung mit 83,4% überwiegend im häuslichen Bereich stattfindet.",
-    "Für das Jahr 2040 werden 16.717 Pflegebedürftige prognostiziert, was einem Anstieg von 10% gegenüber 2023 entspricht.",
-    "Die Zahl der ambulanten Pflegedienste hat sich auf 66 erhöht, während die Anzahl der vollstationären Pflegeheime auf 33 und deren Plätze auf 2.394 zurückgegangen sind."
+    "Ende 2023 waren in Karlsruhe 15.199 Menschen pflegebedürftig; 12.677 davon (83,4 Prozent) wurden vorwiegend zu Hause versorgt, während die Zahl der vollstationär Versorgten auf 2.522 sank.",
+    "Die Versorgungslandschaft umfasst Stand März 2026 unter anderem 66 ambulante Pflegedienste (+13 gegenüber 2024), 19 ambulant betreute Wohngemeinschaften mit 114 Plätzen sowie 45 teil- und vollstationäre Pflegeeinrichtungen mit 2.579 Plätzen (minus 198 gegenüber 2024).",
+    "Die Prognosekennzahlen sehen bis 2040 einen Anstieg auf 16.717 Pflegebedürftige (+10 Prozent gegenüber 2023), davon 2.788 in vollstationärer Versorgung.",
+    "Der Bericht basiert auf der amtlichen Pflegestatistik (Jahresende 2017 bis 2023), Daten zur Hilfe zur Pflege nach SGB XII bis 2024 sowie verwaltungsintern erhobenen Versorgungsdaten (Stand März 2026)."
   ],
-  "model": "mimo-v2.5",
+  "model": "glm-5.3-flash",
   "promptVersion": "paper-de-v7",
   "provider": "opencode-go",
   "sourceHash": "sha256:d4e9661fb68561e5581b1076a4c3ff0b92aaffebae45dcf6b3dab836545dd040",
-  "summary": "Die Vorlage stellt den Pflege-Monitor 2026 der Stadt Karlsruhe vor, der die Entwicklung der Pflegebedürftigkeit, der Versorgungsangebote und der demografischen Strukturen in Karlsruhe auf Grundlage aktueller Statistiken analysiert und prognostiziert. Der Bericht dient als datengestützte Grundlage für die Fortschreibung des Aktionsprogramms Pflege. Er zeigt unter anderem einen deutlichen Anstieg der Pflegebedürftigen auf 15.199 Personen im Jahr 2023 und prognostiziert einen weiteren Anstieg bis 2040."
+  "summary": "Die Informationsvorlage der Sozial- und Jugendbehörde legt den Pflege-Monitor 2026 der Stadt Karlsruhe vor, eine Fortschreibung des erstmals 2024 veröffentlichten Berichts zur Pflege- und Versorgungssituation. Der Bericht dokumentiert unter anderem, dass Ende 2023 in Karlsruhe 15.199 Pflegebedürftige gezählt wurden – ein Anstieg um 11,5 Prozent gegenüber 2021 –, wobei 83,4 Prozent von ihnen vorwiegend zu Hause versorgt werden. Eine Status-Quo-Prognose des Amtes für Stadtentwicklung geht bis 2040 von rund 16.717 Pflegebedürftigen aus. Der Pflege-Monitor soll als datengestützte Grundlage für die Fortschreibung des Aktionsprogramms Pflege durch den Arbeitsausschuss Ältere Generation dienen und künftig regelmäßig fortgeschrieben werden."
 }

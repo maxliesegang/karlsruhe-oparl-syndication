@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-08-25T15:12:13.197Z",
+  "generatedAt": "2026-09-14T07:30:26.496Z",
   "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54634",
   "keyPoints": [
-    "Die Änderung regelt die Zulässigkeit von Liveübertragungen und Videoaufzeichnungen für öffentliche Sitzungen des Gemeinderates, mit einer Öffnungsklausel für Entscheidungen der Ortschaftsräte vor Ort.",
-    "Es werden Speicher- und Löschfristen festgelegt: Aufzeichnungen werden einen Tag nach der nächsten Gemeinderatssitzung gelöscht, um Datenschutz und Datenminimierung zu gewährleisten.",
-    "Die jährlichen Kosten für die Beauftragung einer Produktionsfirma betragen 20.000 Euro, einmalige Hardwarekosten belaufen sich auf 5.000 Euro; die Gesamtkosten für einen geplanten Fünfjahreszeitraum betragen 105.000 Euro."
+    "Die geprüften Alternativen für Streaming und Speicherung über städtische Infrastruktur oder die Plattform PeerTube wurden wegen erheblichen zusätzlichen personellen und finanziellen Aufwands als nicht realisierbar beurteilt.",
+    "Die finanziellen Auswirkungen wurden bereits in einer früheren Vorlage behandelt: jährlich 20.000 Euro für die Livestream-Produktion durch eine externe Firma sowie einmalig 5.000 Euro für Hardware; bei geplanter fünfjähriger Vergabe ergeben sich Gesamtkosten von 105.000 Euro.",
+    "Für die Satzungsänderung ist die Mehrheit der Stimmen aller Mitglieder des Gemeinderates erforderlich; eine Anpassung der Geschäftsordnung, insbesondere zur Differenzierung von Aufnahmen innerhalb und außerhalb der neuen Regelung, soll nach der Sommerpause folgen.",
+    "Datenschutzrechtlich wird eine kurze Speicherdauer empfohlen; ohne wirksame Einwilligung von sachkundigen Einwohnern, Verwaltungsmitarbeitenden oder anderen Teilnehmenden sollen deren Film- und Tonaufnahmen unterbleiben."
   ],
-  "model": "mimo-v2.5",
+  "model": "glm-5.3-flash",
   "promptVersion": "paper-de-v7",
   "provider": "opencode-go",
   "sourceHash": "sha256:a95ab3ddeaf27f403a879a8d52e046f79a705b7016601d1c6a194a86419c498f",
-  "summary": "Die Vorlage schlägt eine Änderung der Hauptsatzung der Stadt Karlsruhe vor, um die rechtlichen Grundlagen für die Liveübertragung und Aufzeichnung öffentlicher Sitzungen des Gemeinderates zu schaffen. Die digitale Bereitstellung soll über städtische Internetseiten erfolgen, wobei Videoaufzeichnungen jeweils einen Tag nach der nächsten Sitzung gelöscht werden. Die Maßnahme dient der Stärkung der demokratischen Teilhabe und wird als notwendig angesehen, um dem öffentlichen Informationsauftrag und dem Transparenzprinzip zu entsprechen."
+  "summary": "Die Beschlussvorlage schlägt eine Änderung der Hauptsatzung der Stadt Karlsruhe vor, um Liveübertragungen und Videoaufzeichnungen öffentlicher Gemeinderatssitzungen rechtlich zu ermöglichen. Der neue Regelungsteil sieht unter anderem vor, dass die oder der Sitzungsvorsitzende über Aufnahmen entscheidet, dass Aufzeichnungen jeweils einen Tag nach der nächsten Gemeinderatssitzung gelöscht werden und dass für Personen ohne Gemeinderatsmandat eine vorherige Einwilligung erforderlich ist. Für die Ortschaftsräte ist eine Öffnungsklausel vorgesehen, wonach diese selbst über die Zulässigkeit von Aufnahmen entscheiden. Ziel ist der Start des Livestreams mit Videoaufzeichnung im September 2026."
 }
