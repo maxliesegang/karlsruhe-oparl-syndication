@@ -160,6 +160,30 @@ describe('paper district index', () => {
     expect(index.papers['99']).toEqual({ primary: ['Rintheim'], mentioned: ['Oberreut'] });
   });
 
+  it('does not promote a location from a plan drawing when the proposal is available', async () => {
+    const DRAWING_ID = 'https://web1.karlsruhe.de/oparl/bodies/0001/files/679842';
+    stores.papers.add(
+      buildPaper({
+        name: 'Bebauungsplan Karlsruhe-Südstadt',
+        auxiliaryFile: [
+          { id: FILE_ID, name: 'Beschlussvorlage' },
+          { id: DRAWING_ID, name: 'Planzeichnung' },
+        ] as Paper['auxiliaryFile'],
+      }),
+    );
+    addExtractedText('Die Planung betrifft die Südstadt.');
+    stores.fileContents.add({
+      id: DRAWING_ID,
+      downloadUrl: 'https://example.invalid/679842.pdf',
+      fileModified: '2026-07-22T00:00:00+02:00',
+      extractedText: 'Knielingen. Knielingen. Knielingen.',
+    } as FileContent);
+
+    const index = await updatePaperDistrictIndex();
+
+    expect(index.papers['99']).toEqual({ primary: ['Südstadt'], mentioned: ['Knielingen'] });
+  });
+
   it('publishes the full district registry, not only the districts seen this run', async () => {
     stores.papers.add(buildPaper({ name: 'Neubau Turnhalle Hagsfeld' }));
 
@@ -194,6 +218,20 @@ describe('paper district index', () => {
   it('rebuilds in full when the stored index predates the current shape', async () => {
     // The version 1 file was an unversioned reference-keyed map.
     fsMocks.readFile.mockResolvedValue(JSON.stringify({ '2026/0580': ['Durlach'] }));
+    stores.papers.add(buildPaper({ name: 'Spielplatz Neureut', auxiliaryFile: [] }));
+    stores.papers.drainUpdatedPaperIds();
+
+    const index = await updatePaperDistrictIndex();
+
+    expect(index.papers).toEqual({ '99': { primary: ['Neureut'] } });
+  });
+
+  it('rebuilds version 2 entries after a semantic classifier change', async () => {
+    fsMocks.readFile.mockResolvedValue(JSON.stringify({
+      version: 2,
+      districts: ['Durlach'],
+      papers: { '99': { primary: ['Durlach'] } },
+    }));
     stores.papers.add(buildPaper({ name: 'Spielplatz Neureut', auxiliaryFile: [] }));
     stores.papers.drainUpdatedPaperIds();
 

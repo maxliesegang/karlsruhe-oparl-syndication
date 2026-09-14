@@ -17,6 +17,7 @@
     "models": "tsx src/list-models.ts",
     "validate:feed": "tsx src/validate-feed.ts",
     "spike:digests": "tsx src/spike/run-digests.ts",
+    "audit:districts": "node --import tsx src/spike/audit-district-classifier.ts",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "eslint src/ tests/",
     "lint:fix": "eslint src/ tests/ --fix",

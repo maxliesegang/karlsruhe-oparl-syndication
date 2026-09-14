@@ -3,7 +3,7 @@ import fs from 'fs/promises';
 import { stores } from '../store/index.js';
 import { Paper } from '../types/index.js';
 import {
-  classifyPaperDistricts,
+  classifyPaperSources,
   DistrictClassification,
   findDistrictsForAuthority,
   KarlsruheDistrict,
@@ -26,7 +26,11 @@ export const PAPER_DISTRICT_INDEX_FILE_NAME = 'paper-stadtteile.json';
  * shape change so a viewer can detect an index it does not understand; a version
  * this build does not recognise triggers a full rebuild rather than a merge.
  */
-export const PAPER_DISTRICT_INDEX_VERSION = 2 as const;
+// Version 5 also treats a proposed new-hours annex as evidence of affected
+// station locations. Earlier versions can contain stale matches after either
+// source-priority correction, so a version change forces a full reclassification.
+// A semantic rule change needs a rebuild even when the JSON shape stays the same.
+export const PAPER_DISTRICT_INDEX_VERSION = 5 as const;
 
 /**
  * Districts detected for one paper, split by how strong the evidence is.
@@ -156,15 +160,15 @@ async function loadIndexState(): Promise<{
  * downloads or re-extracts a PDF.
  */
 function classifyPaper(paper: Paper): DistrictClassification {
-  const bodies: string[] = [];
+  const attachments: Array<{ name: string; text: string }> = [];
   for (const file of paper.auxiliaryFile ?? []) {
     const extractedText = stores.fileContents.getById(file.id)?.extractedText;
-    if (extractedText) bodies.push(extractedText);
+    if (!extractedText) continue;
+    attachments.push({ name: file.name ?? '', text: extractedText });
   }
-
-  return classifyPaperDistricts({
+  return classifyPaperSources({
     title: paper.name,
-    bodies,
+    attachments,
     structural: findConsultingDistricts(paper),
   });
 }

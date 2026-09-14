@@ -1,9 +1,11 @@
 import { describe, expect, it } from 'vitest';
 import {
   classifyPaperDistricts,
+  classifyPaperSources,
   findDistrictsForAuthority,
   findDistrictMentions,
   findDistricts,
+  isSubstantiveDocumentName,
   listDistricts,
 } from '../src/karlsruhe-districts.js';
 
@@ -22,9 +24,9 @@ describe('findDistricts', () => {
   });
 
   it('maps distinctive compound-name parts without duplicates', () => {
-    expect(
-      findDistricts('Weiherfeld liegt bei Dammerstock. Weiherfeld bleibt genannt.'),
-    ).toEqual(['Weiherfeld-Dammerstock']);
+    expect(findDistricts('Weiherfeld liegt bei Dammerstock. Weiherfeld bleibt genannt.')).toEqual([
+      'Weiherfeld-Dammerstock',
+    ]);
   });
 
   it('does not match words that only contain a district name', () => {
@@ -41,10 +43,7 @@ describe('findDistricts', () => {
   });
 
   it('resolves the joint Ortschaft Wettersbach to both of its Stadtteile', () => {
-    expect(findDistricts('Sitzung in Wettersbach')).toEqual([
-      'Grünwettersbach',
-      'Palmbach',
-    ]);
+    expect(findDistricts('Sitzung in Wettersbach')).toEqual(['Grünwettersbach', 'Palmbach']);
   });
 
   it('maps Ortsteile and Siedlungen to their Stadtteil', () => {
@@ -82,6 +81,15 @@ describe('findDistrictMentions', () => {
 
     expect(mentions.map((mention) => mention.district)).toEqual(['Durlach', 'Grötzingen']);
     expect(mentions.some((mention) => mention.inEnumeration)).toBe(false);
+  });
+});
+
+describe('isSubstantiveDocumentName', () => {
+  it('recognises older proposal labels without treating annexes or minutes as proposals', () => {
+    expect(isSubstantiveDocumentName('TOP 6 ANTRAG SPD - Radverkehr')).toBe(true);
+    expect(isSubstantiveDocumentName('Vorl.Nr. 281_Änderung Hauptsatzung')).toBe(true);
+    expect(isSubstantiveDocumentName('Anlage 1_Beschlussvorlage Vergleichstabelle')).toBe(false);
+    expect(isSubstantiveDocumentName('Protokoll GR Antrag TOP 3')).toBe(false);
   });
 });
 
@@ -148,6 +156,17 @@ describe('classifyPaperDistricts', () => {
     expect(classifyPaperDistricts({ bodies: [body] })).toEqual({ primary: [], mentioned: [] });
   });
 
+  it('ignores office names in a citywide administrative inventory', () => {
+    const offices =
+      'Ortsverwaltung Grötzingen ja\nOrtsverwaltung Hohenwettersbach ja\n' +
+      'Ortsverwaltung Neureut ja\nOrtsverwaltung Stupferich ja\n' +
+      'Ortsverwaltung Wettersbach ja\nStadtamt Durlach ja';
+    expect(classifyPaperDistricts({ bodies: [offices, offices] })).toEqual({
+      primary: [],
+      mentioned: [],
+    });
+  });
+
   it('keeps a district that is both the subject and in the distribution list', () => {
     const result = classifyPaperDistricts({
       title: 'Neubau Turnhalle Grötzingen',
@@ -164,6 +183,103 @@ describe('classifyPaperDistricts', () => {
       primary: ['Palmbach'],
       mentioned: [],
     });
+  });
+
+  it('keeps locations found only in supplementary material searchable, but out of feeds', () => {
+    expect(
+      classifyPaperDistricts({
+        title: 'Bebauungsplan Karlsruhe-Südstadt',
+        bodies: ['Die Planung betrifft die Südstadt.'],
+        supportingBodies: ['Kompensationsfläche in Knielingen. Knielingen ist im Plan markiert.'],
+      }),
+    ).toEqual({ primary: ['Südstadt'], mentioned: ['Knielingen'] });
+  });
+
+  it('promotes a place supported once by the proposal and again by an annex', () => {
+    expect(
+      classifyPaperDistricts({
+        bodies: [`${'x'.repeat(5000)} Die Parkanlagen in der Oststadt werden erweitert.`],
+        supportingBodies: ['Die Oststadt ist im Umweltbericht beschrieben.'],
+      }),
+    ).toEqual({ primary: ['Oststadt'], mentioned: [] });
+  });
+
+  it('retains a substantive multi-site report even when it names many districts', () => {
+    expect(
+      classifyPaperDistricts({
+        bodies: ['Die Förderung betrifft Stadtteilhäuser in Oberreut und Daxlanden.'],
+      }),
+    ).toEqual({ primary: ['Daxlanden', 'Oberreut'], mentioned: [] });
+  });
+
+  it('keeps the only specific district when the title says plain Innenstadt', () => {
+    expect(
+      classifyPaperSources({
+        title: 'Bebauungsplan Innenstadt',
+        attachments: [
+          {
+            name: 'TOP 2 - Markgrafenstraße',
+            text: 'Das Plangebiet liegt im Sanierungsgebiet Innenstadt-Ost.',
+          },
+        ],
+      }),
+    ).toEqual({ primary: ['Innenstadt', 'Innenstadt-Ost'], mentioned: [] });
+  });
+
+  it('uses annex evidence for a generic title with no specific locality', () => {
+    expect(
+      classifyPaperSources({
+        title: 'Konzeptbeschluss Vogesenschule',
+        attachments: [
+          { name: 'Beschlussvorlage', text: 'Der Neubau der Schule wird beschlossen.' },
+          { name: 'Anlage 1 Präsentation', text: 'Die Schule steht in Mühlburg.' },
+        ],
+      }),
+    ).toEqual({ primary: ['Mühlburg'], mentioned: [] });
+  });
+
+  it('keeps directly affected sites in an annex despite other Ortschaftsrat consultations', () => {
+    expect(
+      classifyPaperSources({
+        title: 'Rückbau von Spielanlagen als Instrument zur Qualitätssicherung',
+        structural: ['Grötzingen', 'Stupferich'],
+        attachments: [
+          {
+            name: 'Beschlussvorlage',
+            text: 'Nach Anhörung der Ortschaftsräte Grötzingen und Stupferich.',
+          },
+          {
+            name: 'Anlage Anlagenübersicht',
+            text: 'Rückbau Spielplätze: Mühlburg Lindenplatz; Hagsfeld Alte Bach.',
+          },
+        ],
+      }),
+    ).toEqual({ primary: ['Grötzingen', 'Hagsfeld', 'Mühlburg', 'Stupferich'], mentioned: [] });
+  });
+
+  it('treats proposed new opening hours as local evidence, not the current comparison table', () => {
+    expect(
+      classifyPaperSources({
+        title: 'Schließung Hagsfeld und Daxlanden und Änderung der Öffnungszeiten',
+        attachments: [
+          { name: 'Anlage 1_Aktuelle OeZ', text: 'Grötzingen. Durlach.' },
+          { name: 'Anlage 2_Neue OeZ', text: 'Grötzingen: 9:30 bis 17 Uhr.' },
+          { name: 'Beschlussvorlage', text: 'Schließung der Stationen Hagsfeld und Daxlanden.' },
+        ],
+      }),
+    ).toEqual({ primary: ['Daxlanden', 'Grötzingen', 'Hagsfeld'], mentioned: ['Durlach'] });
+  });
+
+  it('does not read Neue Mitte as a proposed-state annex', () => {
+    expect(
+      classifyPaperSources({
+        title: 'Planungs-Szenarien Neue Mitte Stupferich',
+        attachments: [
+          { name: 'Informationsvorlage', text: 'Die Planung betrifft Stupferich.' },
+          { name: 'Anlage Planungs-Szenarien Neue Mitte', text: 'Grötzingen. Grünwettersbach.' },
+        ],
+      }),
+    ).toEqual({ primary: ['Stupferich'], mentioned: ['Grötzingen', 'Grünwettersbach'] });
   });
 });
 

@@ -53,6 +53,30 @@ const KARLSRUHE_DISTRICTS = [
 
 export type KarlsruheDistrict = (typeof KARLSRUHE_DISTRICTS)[number];
 
+/** OParl file labels are inconsistent, especially in older records. Recognise the
+ * document kind anywhere in the label while excluding explicit supporting kinds. */
+export function isSubstantiveDocumentName(name: string): boolean {
+  if (
+    /^(?:Anlage|Protokoll|Niederschrift|Abstimmung|Planzeichnung|Fachbeitrag|Umweltbericht)(?:\b|_)/i.test(
+      name,
+    )
+  )
+    return false;
+  return /(?:^|[\s_:-])(?:Beschlussvorlage|Informationsvorlage|Änderungsantrag|Ergänzungsantrag|Antrag|Anfrage|Stellungnahme|STN|Vorlage|Vorl\.Nr\.)(?=$|[\s_.:-])/i.test(
+    name,
+  );
+}
+
+/** Proposed new opening hours identify affected station locations; current-hours
+ * comparisons do not. Keep this narrow: "Neue Mitte" is a place name, not a
+ * proposed-state signal. */
+function isNewHoursAnnexName(name: string): boolean {
+  return (
+    /^(?:Anlage)(?:\b|_)/i.test(name) &&
+    /(?:^|[\s_])neu(?:e|en)?[\s_]+(?:OeZ|Öffnungszeiten|Betriebszeiten)(?=$|[\s_:-])/i.test(name)
+  );
+}
+
 /** Published so a viewer can render a stable filter list. */
 export function listDistricts(): KarlsruheDistrict[] {
   return [...KARLSRUHE_DISTRICTS].sort();
@@ -130,6 +154,10 @@ const ENUMERATION_MIN_DISTINCT_DISTRICTS = 8;
 const LEAD_TEXT_CHARS = 1500;
 /** Below this, a body-only district is a passing reference rather than a subject. */
 const PRIMARY_MIN_BODY_MENTIONS = 2;
+/** Office inventories name the district of each Ortsverwaltung without making
+ * the citywide administrative topic a local matter. */
+const ADMINISTRATIVE_OFFICE_PREFIX = /(?:Ortsverwaltung|Stadtamt)\s*$/i;
+const ADMINISTRATIVE_INVENTORY_MIN_OFFICES = 5;
 
 /** Committees whose name identifies the district they speak for. */
 const DISTRICT_AUTHORITY_NAME = /^(?:Ortschaftsrat|Ortsverwaltung)\b/;
@@ -281,6 +309,10 @@ export interface DistrictClassificationInput {
   title?: string;
   /** Extracted text of the paper's attachments, one entry per file. */
   bodies?: readonly string[];
+  /** Supplementary files (maps, tables, minutes). Their names are searchable, but
+   * they cannot alone establish that a paper is about a district when a substantive
+   * document is available. */
+  supportingBodies?: readonly string[];
   /** Districts asserted by the record itself; always primary. */
   structural?: Iterable<KarlsruheDistrict>;
 }
@@ -290,6 +322,44 @@ export interface DistrictClassification {
   primary: KarlsruheDistrict[];
   /** Named in passing only. Published for viewers, kept out of the feeds. */
   mentioned: KarlsruheDistrict[];
+}
+
+export interface DistrictAttachment {
+  name: string;
+  text: string;
+}
+
+/** Use an explicit locality in the title to distinguish the
+ * paper's own documents from supplementary maps, tables and minutes. When the
+ * title is generic, all attachments remain eligible; the only specific place
+ * may occur in an annex. A consultation cannot anchor this decision: an
+ * Ortschaftsrat may be consulted on a citywide proposal whose annex lists many
+ * directly affected sites. Plain Innenstadt is too broad to anchor one half. */
+export function classifyPaperSources(input: {
+  title?: string;
+  attachments?: readonly DistrictAttachment[];
+  structural?: Iterable<KarlsruheDistrict>;
+}): DistrictClassification {
+  const structural = [...(input.structural ?? [])];
+  const anchor = classifyPaperDistricts({ title: input.title });
+  const hasSpecificAnchor = anchor.primary.some((district) => district !== 'Innenstadt');
+  const substantive: string[] = [];
+  const supporting: string[] = [];
+  const newHours: string[] = [];
+  for (const attachment of input.attachments ?? []) {
+    if (isSubstantiveDocumentName(attachment.name)) substantive.push(attachment.text);
+    else {
+      supporting.push(attachment.text);
+      if (isNewHoursAnnexName(attachment.name)) newHours.push(attachment.text);
+    }
+  }
+  const useSourcePriority = hasSpecificAnchor && substantive.length > 0;
+  return classifyPaperDistricts({
+    title: input.title,
+    bodies: useSourcePriority ? [...substantive, ...newHours] : [...substantive, ...supporting],
+    supportingBodies: useSourcePriority ? supporting : [],
+    structural,
+  });
 }
 
 interface DistrictEvidence {
@@ -326,11 +396,28 @@ export function classifyPaperDistricts(input: DistrictClassificationInput): Dist
   }
 
   for (const body of input.bodies ?? []) {
-    for (const mention of findDistrictMentions(body)) {
+    const mentions = findDistrictMentions(body);
+    const isOfficeName = (index: number): boolean =>
+      ADMINISTRATIVE_OFFICE_PREFIX.test(body.slice(Math.max(0, index - 32), index));
+    // Wettersbach expands to two districts at one offset; count office names,
+    // not expanded districts, so that alias cannot trip the threshold early.
+    const officeOffsets = new Set(
+      mentions.filter((mention) => isOfficeName(mention.index)).map((mention) => mention.index),
+    );
+    const isOfficeInventory = officeOffsets.size >= ADMINISTRATIVE_INVENTORY_MIN_OFFICES;
+    for (const mention of mentions) {
       if (mention.inEnumeration) continue;
+      if (isOfficeInventory && isOfficeName(mention.index)) continue;
       const found = entry(mention.district);
       found.body++;
       if (mention.index < LEAD_TEXT_CHARS) found.lead++;
+    }
+  }
+
+  const supporting = new Set<KarlsruheDistrict>();
+  for (const body of input.supportingBodies ?? []) {
+    for (const mention of findDistrictMentions(body)) {
+      if (!mention.inEnumeration) supporting.add(mention.district);
     }
   }
 
@@ -341,12 +428,17 @@ export function classifyPaperDistricts(input: DistrictClassificationInput): Dist
       found.structural ||
       found.title > 0 ||
       found.lead > 0 ||
-      found.body >= PRIMARY_MIN_BODY_MENTIONS
+      found.body >= PRIMARY_MIN_BODY_MENTIONS ||
+      (found.body > 0 && supporting.has(district))
     ) {
       primary.push(district);
     } else if (found.body > 0) {
       mentioned.push(district);
     }
+  }
+
+  for (const district of supporting) {
+    if (!primary.includes(district) && !mentioned.includes(district)) mentioned.push(district);
   }
 
   return { primary: primary.sort(), mentioned: mentioned.sort() };
