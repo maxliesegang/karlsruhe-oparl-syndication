@@ -267,6 +267,31 @@ describe('paper summary service', () => {
     expect(stores.paperSummaries.getById(paper.id)).toEqual(cached);
   });
 
+  it('stamps the model a summarizer reports instead of its primary one', async () => {
+    // What a fallback to a second model produces; the record must not claim the
+    // configured model wrote it.
+    const summarize = vi.fn().mockResolvedValue({
+      summary: 'Die Verwaltung schl\u00e4gt den Umbau vor.',
+      keyPoints: [],
+      provider: 'opencode-go',
+      model: 'mimo-v2.5',
+    });
+
+    const current = await updatePaperSummaries([meeting], {
+      enabled: true,
+      summarizer: { providerName: 'test-provider', model: 'glm-5.3-flash', summarize },
+      promptVersion: 'test-v4',
+      maximumItems: 10,
+      maximumInputCharacters: 100_000,
+      concurrency: 1,
+    });
+
+    expect(current.get(paper.id)).toMatchObject({
+      provider: 'opencode-go',
+      model: 'mimo-v2.5',
+    });
+  });
+
   it('retries once when a generated number is absent from the source', async () => {
     const summarize = vi
       .fn()

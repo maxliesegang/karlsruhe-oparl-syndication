@@ -11,6 +11,11 @@ export interface OpenCodePaperSummarizerOptions {
   baseUrl: string;
   model: string;
   timeoutMs: number;
+  /**
+   * Model to try once after `model` has returned nothing three times. Same
+   * provider, same key — only a second model id. Leave unset to fail instead.
+   */
+  fallbackModel?: string;
   fetch?: typeof globalThis.fetch;
 }
 
@@ -90,6 +95,8 @@ export class OpenCodePaperSummarizer implements PaperSummarizer {
   readonly providerName = 'opencode-go';
   readonly model: string;
   private readonly languageModel: ReturnType<ReturnType<typeof createOpenAICompatible>>;
+  private readonly fallbackModel?: string;
+  private readonly fallbackLanguageModel?: ReturnType<ReturnType<typeof createOpenAICompatible>>;
   private readonly timeoutMs: number;
 
   constructor(options: OpenCodePaperSummarizerOptions) {
@@ -102,6 +109,10 @@ export class OpenCodePaperSummarizer implements PaperSummarizer {
       fetch: options.fetch,
     });
     this.languageModel = provider(options.model);
+    if (options.fallbackModel && options.fallbackModel !== options.model) {
+      this.fallbackModel = options.fallbackModel;
+      this.fallbackLanguageModel = provider(options.fallbackModel);
+    }
   }
 
   async summarize(request: PaperSummaryRequest): Promise<GeneratedPaperSummary> {
@@ -116,7 +127,11 @@ export class OpenCodePaperSummarizer implements PaperSummarizer {
     let lastEmptyResponse: unknown;
     for (let attempt = 1; attempt <= MAX_EMPTY_RESPONSE_ATTEMPTS; attempt++) {
       try {
-        const output = await this.requestSummaryObject(prompt, request.sessionId);
+        const output = await this.requestSummaryObject(
+          this.languageModel,
+          prompt,
+          request.sessionId,
+        );
         return normalizeGeneratedPaperSummary(summarySchema.parse(output));
       } catch (error) {
         if (!isEmptyResponse(error)) throw error;
@@ -126,14 +141,38 @@ export class OpenCodePaperSummarizer implements PaperSummarizer {
         );
       }
     }
-    throw lastEmptyResponse;
+
+    // Some inputs come back empty however often they are re-requested, and a
+    // different model answers them: mimo-v2.5 summarized papers/54641 while
+    // glm-5.3-flash returned nothing four times. Without this the paper stays
+    // in the feed with no summary at all until some later run happens to
+    // succeed. The record names the model that answered, so a fallback text is
+    // visible as such rather than silently attributed to the primary model.
+    if (!this.fallbackLanguageModel || !this.fallbackModel) throw lastEmptyResponse;
+    logger.info(
+      `${this.model} returned nothing for ${request.sessionId} after ${MAX_EMPTY_RESPONSE_ATTEMPTS} attempts; falling back to ${this.fallbackModel}.`,
+    );
+    const output = await this.requestSummaryObject(
+      this.fallbackLanguageModel,
+      prompt,
+      request.sessionId,
+    );
+    return {
+      ...normalizeGeneratedPaperSummary(summarySchema.parse(output)),
+      provider: this.providerName,
+      model: this.fallbackModel,
+    };
   }
 
   /** One request. Throws when the response carries no usable object. */
-  private async requestSummaryObject(prompt: string, sessionId: string): Promise<unknown> {
+  private async requestSummaryObject(
+    languageModel: ReturnType<ReturnType<typeof createOpenAICompatible>>,
+    prompt: string,
+    sessionId: string,
+  ): Promise<unknown> {
     try {
       const { output } = await generateText({
-        model: this.languageModel,
+        model: languageModel,
         system: SYSTEM_PROMPT,
         prompt,
         temperature: 0,

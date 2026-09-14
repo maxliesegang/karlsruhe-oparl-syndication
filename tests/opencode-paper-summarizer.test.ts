@@ -104,7 +104,9 @@ describe('OpenCode paper summary normalization', () => {
       'Beginne niemals mit einem Gremium und einem Verfahrensverb',
     );
     expect(request.messages[0]?.content).toContain('Der erste Satz nennt das konkrete Anliegen');
-    expect(request.messages[0]?.content).not.toMatch(/vorberaten mit Änderungen|Verfahrensstand nennen/);
+    expect(request.messages[0]?.content).not.toMatch(
+      /vorberaten mit Änderungen|Verfahrensstand nennen/,
+    );
     expect(request.messages[1]?.content).toContain('7.889');
     expect(request.messages[1]?.content).toContain('Rolle: Entscheidung');
     // The correction retry names the conversion failure mode explicitly: every
@@ -272,15 +274,17 @@ describe('OpenCode empty-response retry', () => {
       .fn()
       .mockResolvedValueOnce(completion(''))
       .mockResolvedValueOnce(
-        completion('{"summary":"Die Vorlage schl\u00e4gt einen Umbau vor.","keyPoints":["Ein Punkt"]}'),
+        completion(
+          '{"summary":"Die Vorlage schl\u00e4gt einen Umbau vor.","keyPoints":["Ein Punkt"]}',
+        ),
       );
 
-    await expect(summarizerWith(fetchMock as never).summarize({ ...retryRequest })).resolves.toEqual(
-      {
-        summary: 'Die Vorlage schl\u00e4gt einen Umbau vor.',
-        keyPoints: ['Ein Punkt'],
-      },
-    );
+    await expect(
+      summarizerWith(fetchMock as never).summarize({ ...retryRequest }),
+    ).resolves.toEqual({
+      summary: 'Die Vorlage schl\u00e4gt einen Umbau vor.',
+      keyPoints: ['Ein Punkt'],
+    });
     expect(fetchMock).toHaveBeenCalledTimes(2);
   });
 
@@ -288,7 +292,9 @@ describe('OpenCode empty-response retry', () => {
     // A fresh Response per call: a Response body can only be read once.
     const fetchMock = vi.fn().mockImplementation(() => Promise.resolve(completion('')));
 
-    await expect(summarizerWith(fetchMock as never).summarize({ ...retryRequest })).rejects.toThrow();
+    await expect(
+      summarizerWith(fetchMock as never).summarize({ ...retryRequest }),
+    ).rejects.toThrow();
     expect(fetchMock).toHaveBeenCalledTimes(3);
   });
 
@@ -296,13 +302,102 @@ describe('OpenCode empty-response retry', () => {
     const fetchMock = vi
       .fn()
       .mockResolvedValue(
-        completion('<think>kurz nachgedacht</think>{"summary":"Eine Zusammenfassung.","keyPoints":[]}'),
+        completion(
+          '<think>kurz nachgedacht</think>{"summary":"Eine Zusammenfassung.","keyPoints":[]}',
+        ),
       );
 
-    await expect(summarizerWith(fetchMock as never).summarize({ ...retryRequest })).resolves.toEqual({
+    await expect(
+      summarizerWith(fetchMock as never).summarize({ ...retryRequest }),
+    ).resolves.toEqual({
       summary: 'Eine Zusammenfassung.',
       keyPoints: [],
     });
     expect(fetchMock).toHaveBeenCalledTimes(1);
+  });
+});
+
+describe('OpenCode fallback model', () => {
+  const good = '{"summary":"Die Vorlage schl\u00e4gt einen Umbau vor.","keyPoints":["Ein Punkt"]}';
+
+  function fallbackSummarizer(fetchMock: typeof globalThis.fetch): OpenCodePaperSummarizer {
+    return new OpenCodePaperSummarizer({
+      apiKey: 'test-key',
+      baseUrl: 'https://opencode.example/zen/go/v1/',
+      model: 'deepseek-v4-flash',
+      fallbackModel: 'mimo-v2.5',
+      timeoutMs: 1_000,
+      fetch: fetchMock,
+    });
+  }
+
+  function modelsOf(fetchMock: ReturnType<typeof vi.fn>): string[] {
+    return fetchMock.mock.calls.map(
+      (call) => (JSON.parse(String(call[1]?.body)) as { model: string }).model,
+    );
+  }
+
+  it('answers with the fallback model once the primary returned nothing three times', async () => {
+    const fetchMock = vi
+      .fn()
+      .mockImplementationOnce(() => Promise.resolve(completion('')))
+      .mockImplementationOnce(() => Promise.resolve(completion('')))
+      .mockImplementationOnce(() => Promise.resolve(completion('')))
+      .mockImplementationOnce(() => Promise.resolve(completion(good)));
+
+    // The record must name the model that answered, not the configured one.
+    await expect(
+      fallbackSummarizer(fetchMock as never).summarize({ ...retryRequest }),
+    ).resolves.toEqual({
+      summary: 'Die Vorlage schl\u00e4gt einen Umbau vor.',
+      keyPoints: ['Ein Punkt'],
+      provider: 'opencode-go',
+      model: 'mimo-v2.5',
+    });
+    expect(modelsOf(fetchMock)).toEqual([
+      'deepseek-v4-flash',
+      'deepseek-v4-flash',
+      'deepseek-v4-flash',
+      'mimo-v2.5',
+    ]);
+  });
+
+  it('does not reach for the fallback while the primary model answers', async () => {
+    const fetchMock = vi.fn().mockImplementation(() => Promise.resolve(completion(good)));
+
+    const result = await fallbackSummarizer(fetchMock as never).summarize({ ...retryRequest });
+
+    // No model field: the caller stamps the summarizer's primary model.
+    expect(result.model).toBeUndefined();
+    expect(modelsOf(fetchMock)).toEqual(['deepseek-v4-flash']);
+  });
+
+  it('fails when the fallback model also returns nothing', async () => {
+    const fetchMock = vi.fn().mockImplementation(() => Promise.resolve(completion('')));
+
+    await expect(
+      fallbackSummarizer(fetchMock as never).summarize({ ...retryRequest }),
+    ).rejects.toThrow();
+    expect(modelsOf(fetchMock)).toEqual([
+      'deepseek-v4-flash',
+      'deepseek-v4-flash',
+      'deepseek-v4-flash',
+      'mimo-v2.5',
+    ]);
+  });
+
+  it('ignores a fallback that repeats the primary model', async () => {
+    const fetchMock = vi.fn().mockImplementation(() => Promise.resolve(completion('')));
+    const summarizer = new OpenCodePaperSummarizer({
+      apiKey: 'test-key',
+      baseUrl: 'https://opencode.example/zen/go/v1/',
+      model: 'deepseek-v4-flash',
+      fallbackModel: 'deepseek-v4-flash',
+      timeoutMs: 1_000,
+      fetch: fetchMock as never,
+    });
+
+    await expect(summarizer.summarize({ ...retryRequest })).rejects.toThrow();
+    expect(fetchMock).toHaveBeenCalledTimes(3);
   });
 });

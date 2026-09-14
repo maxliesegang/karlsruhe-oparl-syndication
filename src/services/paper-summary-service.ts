@@ -78,6 +78,7 @@ export async function updatePaperSummaries(
       apiKey,
       baseUrl: config.llmBaseUrl,
       model: config.llmModel,
+      fallbackModel: config.llmFallbackModel,
       timeoutMs: config.summaryRequestTimeoutMs,
     });
   const candidates = paperSources
@@ -120,8 +121,10 @@ export async function updatePaperSummaries(
             id: paper.id,
             sourceHash: source.sourceHash,
             promptVersion,
-            provider: summarizer.providerName,
-            model: summarizer.model,
+            // A summarizer that fell back to a second model reports the model
+            // that answered; otherwise its primary one is the right stamp.
+            provider: generated.provider ?? summarizer.providerName,
+            model: generated.model ?? summarizer.model,
             summary: generated.summary,
             keyPoints: generated.keyPoints,
             generatedAt: (options.now?.() ?? new Date()).toISOString(),

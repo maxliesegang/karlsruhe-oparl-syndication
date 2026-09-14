@@ -27,6 +27,8 @@ const summarizer = new OpenCodePaperSummarizer({
   apiKey: config.llmApiKey,
   baseUrl: config.llmBaseUrl,
   model: options.model,
+  // A targeted run names its model deliberately, so it must not quietly answer
+  // with a different one.
   timeoutMs: config.summaryRequestTimeoutMs,
 });
 

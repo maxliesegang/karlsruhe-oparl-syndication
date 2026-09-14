@@ -82,6 +82,11 @@ export const config = {
   // what was measured. glm-5.3-flash answers a whole paper in ~4 s against
   // mimo-v2.5's ~18 s at equal or better grounding.
   llmModel: process.env.LLM_MODEL || 'glm-5.3-flash',
+  // Tried once after the primary model has returned nothing three times, so a
+  // paper that one model cannot answer still gets a summary. Set empty to fail
+  // instead; every record names the model that actually answered.
+  llmFallbackModel:
+    process.env.LLM_FALLBACK_MODEL === undefined ? 'mimo-v2.5' : process.env.LLM_FALLBACK_MODEL,
   // v6 summarizes substance only; the feed renders each meeting's own result.
   summaryPromptVersion: process.env.SUMMARY_PROMPT_VERSION || 'paper-de-v7',
   summaryMaxItemsPerRun: parseNonNegativeInteger(
