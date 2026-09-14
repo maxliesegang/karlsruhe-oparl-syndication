@@ -127,6 +127,35 @@ describe('paper summary service', () => {
     });
     expect(reused.get(paper.id)).toEqual(generated.get(paper.id));
     expect(summarize.mock.calls[0]?.[0].contextText).toContain('BETEILIGTE GREMIEN');
+    expect(summarize.mock.calls[0]?.[0].sessionId).toBe('karlsruhe-paper-summary-1');
+  });
+
+  it('sends one stable session id for every chunk and the corrective retry', async () => {
+    addCurrentText(
+      `Die Verwaltung schlägt einen Umbau für 2 Millionen Euro vor. ${'Weitere Ausführungen. '.repeat(60)}`,
+    );
+    const summarize = vi
+      .fn()
+      .mockResolvedValueOnce({ summary: 'Teil eins kostet 7.889 Euro.', keyPoints: [] })
+      .mockResolvedValue({ summary: 'Die Verwaltung schlägt einen Umbau vor.', keyPoints: [] });
+    const summarizer: PaperSummarizer = {
+      providerName: 'test-provider',
+      model: 'test-model',
+      summarize,
+    };
+
+    await updatePaperSummaries([meeting], {
+      enabled: true,
+      summarizer,
+      promptVersion: 'test-v3',
+      maximumItems: 10,
+      maximumInputCharacters: 400,
+      concurrency: 1,
+    });
+
+    const sessionIds = summarize.mock.calls.map((call) => call[0].sessionId as string);
+    expect(sessionIds.length).toBeGreaterThan(2);
+    expect(new Set(sessionIds)).toEqual(new Set(['karlsruhe-paper-summary-1']));
   });
 
   it('does not spend a model call when a public consultation result arrives', async () => {

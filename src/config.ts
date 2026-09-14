@@ -78,7 +78,10 @@ export const config = {
     'LLM_BASE_URL',
     process.env.LLM_BASE_URL || 'https://opencode.ai/zen/go/v1/',
   ),
-  llmModel: process.env.LLM_MODEL || 'mimo-v2.5',
+  // `npm run models` lists what the endpoint currently serves; AGENTS.md records
+  // what was measured. glm-5.3-flash answers a whole paper in ~4 s against
+  // mimo-v2.5's ~18 s at equal or better grounding.
+  llmModel: process.env.LLM_MODEL || 'glm-5.3-flash',
   // v6 summarizes substance only; the feed renders each meeting's own result.
   summaryPromptVersion: process.env.SUMMARY_PROMPT_VERSION || 'paper-de-v7',
   summaryMaxItemsPerRun: parseNonNegativeInteger(

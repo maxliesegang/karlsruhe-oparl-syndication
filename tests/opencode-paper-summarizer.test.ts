@@ -52,6 +52,7 @@ describe('OpenCode paper summary normalization', () => {
 
     await expect(
       summarizer.summarize({
+        sessionId: 'karlsruhe-paper-1',
         heading: 'Beschlussvorlage – 2026/1 – Marktplatz',
         contextText:
           'BETEILIGTE GREMIEN (nur Kontext zur Einordnung, kein Verfahrensstand)\n- Gemeinderat | Rolle: Entscheidung',
@@ -66,6 +67,11 @@ describe('OpenCode paper summary normalization', () => {
 
     expect(String(fetchMock.mock.calls[0]?.[0])).toBe(
       'https://opencode.example/zen/go/v1/chat/completions',
+    );
+    // OpenCode Go answers a request without this header with HTTP 400
+    // `MissingSessionID`, which stopped every summary run in September 2026.
+    expect(new Headers(fetchMock.mock.calls[0]?.[1]?.headers).get('x-opencode-session')).toBe(
+      'karlsruhe-paper-1',
     );
     const request = JSON.parse(String(fetchMock.mock.calls[0]?.[1]?.body)) as {
       model: string;
@@ -140,6 +146,7 @@ describe('OpenCode paper summary normalization', () => {
 
     await expect(
       summarizer.summarize({
+        sessionId: 'karlsruhe-paper-1',
         heading: 'Beschlussvorlage – 2026/1 – Marktplatz',
         contextText: '',
         sourceText: 'Die Kosten betragen zwei Millionen Euro.',
@@ -189,6 +196,7 @@ describe('OpenCode paper summary tolerance', () => {
 
     await expect(
       summarizer.summarize({
+        sessionId: 'karlsruhe-paper-1',
         heading: 'Beschlussvorlage – 2026/1 – Marktplatz',
         contextText: '',
         sourceText: 'Text.',

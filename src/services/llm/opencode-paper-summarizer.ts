@@ -18,6 +18,9 @@ export interface OpenCodePaperSummarizerOptions {
 // into unparseable ones. Only generated tokens are billed, so the slack is free.
 const MAX_OUTPUT_TOKENS = 1600;
 
+/** Conversation id header OpenCode Go requires on every request. */
+const SESSION_HEADER = 'x-opencode-session';
+
 const summarySchema = z.object({
   summary: z.string().min(1).describe('Zwei bis vier kurze deutsche Sätze.'),
   // Deliberately unbounded: `normalizeGeneratedPaperSummary` slices to four.
@@ -108,6 +111,11 @@ export class OpenCodePaperSummarizer implements PaperSummarizer {
         maxOutputTokens: MAX_OUTPUT_TOKENS,
         maxRetries: 3,
         timeout: this.timeoutMs,
+        // OpenCode Go answers a request without this header with HTTP 400
+        // `MissingSessionID`, which axios-retry cannot help with. It is per
+        // request rather than per client so every chunk and retry of one paper
+        // shares a session while different papers stay separate conversations.
+        headers: { [SESSION_HEADER]: request.sessionId },
         // OpenCode's compatible endpoint supports JSON mode. Validate the returned
         // value locally with Zod instead of claiming provider-side JSON Schema support.
         output: Output.json(),

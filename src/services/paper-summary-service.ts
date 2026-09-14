@@ -1,4 +1,5 @@
 import { config } from '../config.js';
+import { recordBasename } from '../docs-files.js';
 import { logger } from '../logger.js';
 import { stores } from '../store/index.js';
 import { GeneratedPaperSummary, Meeting, Paper, PaperSummary } from '../types/index.js';
@@ -109,6 +110,7 @@ export async function updatePaperSummaries(
         try {
           const generated = await summarizeSource(
             summarizer,
+            sessionIdFor(paper),
             source.heading,
             source.contextText,
             source.text,
@@ -136,6 +138,15 @@ export async function updatePaperSummaries(
     );
   }
 
+  if (succeeded === 0 && failed > 0) {
+    // A summary failure is deliberately fail-open, so a provider that rejects
+    // every request (an expired key, a changed contract) otherwise shows up only
+    // as per-paper warnings and the feed keeps publishing without new summaries.
+    logger.error(
+      `All ${failed} paper summary attempt(s) failed this run; no summary was generated. ` +
+        `Check the provider configuration (${summarizer.providerName}, ${summarizer.model}).`,
+    );
+  }
   logger.info(
     `Paper summaries: ${succeeded} generated, ${failed} failed, ${current.size} current.`,
   );
@@ -212,8 +223,17 @@ function isEligibleForSummaryBackfill(paper: Paper): boolean {
   return !Number.isNaN(paperDate.getTime()) && paperDate.getTime() >= SUMMARY_BACKFILL_START;
 }
 
+/**
+ * Provider conversation id for a paper: stable across runs, chunks, reduction
+ * levels and corrective retries, so the repeated prompt prefix stays cacheable.
+ */
+function sessionIdFor(paper: Paper): string {
+  return `karlsruhe-paper-${recordBasename(paper.id)}`;
+}
+
 async function summarizeSource(
   summarizer: PaperSummarizer,
+  sessionId: string,
   heading: string,
   contextText: string,
   sourceText: string,
@@ -224,6 +244,7 @@ async function summarizeSource(
   for (const chunk of chunks) {
     partials.push(
       await summarizeWithNumericGrounding(summarizer, {
+        sessionId,
         heading,
         contextText,
         sourceText: chunk,
@@ -248,6 +269,7 @@ async function summarizeSource(
     for (const group of groups) {
       nextLevel.push(
         await summarizeWithNumericGrounding(summarizer, {
+          sessionId,
           heading,
           contextText,
           sourceText: group,
