@@ -14,6 +14,12 @@ export interface LandingPageInput {
   filteredFeeds: FilteredFeedDescriptor[];
   /** Entries in the main feed after `FEED_MAX_ITEMS` capping. */
   fullFeedEntryCount: number;
+  /**
+   * Entries in the meeting-preview feed. Zero while `GENERATE_MEETING_DIGESTS` is
+   * off and nothing has been generated yet; the card is then left off the page
+   * rather than linking an empty feed.
+   */
+  meetingDigestEntryCount: number;
 }
 
 /**
@@ -70,6 +76,12 @@ const DATA_ARTIFACTS: readonly DataArtifact[] = [
     description:
       'Maschinell erzeugte Kurzfassungen je Vorlage (LLM, mit Quell-Hash): ' +
       'summaries/papers/<id>.json.',
+  },
+  {
+    path: 'digests/meetings/',
+    description:
+      'Je Sitzung und Vorlaufzeit eine KI-generierte Vorschau (mit Quell-Hash): ' +
+      'digests/meetings/<Sitzungs-id>-week.json bzw. -day.json.',
   },
   {
     path: 'consultations.json',
@@ -388,6 +400,17 @@ ${renderFeedCard(
     'empfohlen für RSS-Reader.',
   config.recentFeedFileName,
 )}
+${
+  input.meetingDigestEntryCount > 0
+    ? `
+${renderFeedCard(
+  'Sitzungsvorschau',
+  `KI-generierte Vorschau auf anstehende öffentliche Sitzungen, jeweils eine Woche vorher ` +
+    `und am Vortag (${formatCount(input.meetingDigestEntryCount)} Einträge).`,
+  config.meetingDigestFeedFileName,
+)}`
+    : ''
+}
       </div>
 
       <section>

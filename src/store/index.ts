@@ -4,6 +4,7 @@ import { consultationStore } from './consultation-store.js';
 import { organizationStore } from './organization-store.js';
 import { fileContentStore } from './file-content-store.js';
 import { paperSummaryStore } from './paper-summary-store.js';
+import { meetingDigestStore } from './meeting-digest-store.js';
 
 /**
  * Minimal contract the lifecycle helpers below need. Declaring it here keeps
@@ -24,6 +25,7 @@ const registry = {
   organizations: organizationStore,
   fileContents: fileContentStore,
   paperSummaries: paperSummaryStore,
+  meetingDigests: meetingDigestStore,
 } as const;
 
 /**

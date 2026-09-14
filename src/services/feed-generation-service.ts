@@ -21,7 +21,9 @@ import {
   writePaperSubmitterIndex,
 } from './paper-submitter-index-service.js';
 import { updatePaperSummaries } from './paper-summary-service.js';
-import { PaperSummary } from '../types/index.js';
+import { updateMeetingDigests } from './meeting-digest-service.js';
+import { writeMeetingDigestFeed } from '../meeting-digest-feed.js';
+import { MeetingDigest, PaperSummary } from '../types/index.js';
 
 interface GenerationManifest {
   version: number;
@@ -90,6 +92,7 @@ async function refreshOParlData(
 async function buildAndWriteFeeds(
   paperSummaries: Map<string, PaperSummary>,
   districtIndex: PaperDistrictIndex,
+  meetingDigests: MeetingDigest[],
 ): Promise<void> {
   logger.info('Generating feed...');
   const meetings = stores.meetings.getAll();
@@ -110,10 +113,15 @@ async function buildAndWriteFeeds(
   await writeFullFeed(feed);
   await writeRecentFeed(feed);
   const filteredFeeds = await writeFilteredFeeds(records);
+  const digestFeed = await writeMeetingDigestFeed(meetingDigests);
   // The landing page is generated from what this run actually wrote, so a newly
   // published feed or artifact can never go unlinked the way it did while the page
   // was hand-maintained.
-  await writeLandingPage({ filteredFeeds, fullFeedEntryCount: feed.items.length });
+  await writeLandingPage({
+    filteredFeeds,
+    fullFeedEntryCount: feed.items.length,
+    meetingDigestEntryCount: digestFeed.items.length,
+  });
   logger.info(`Main feeds saved as ${config.feedFileName} and ${config.recentFeedFileName}`);
 }
 
@@ -170,7 +178,17 @@ export async function runFeedGeneration(options: FeedGenerationOptions = {}): Pr
   } catch (error) {
     logger.warn('Paper summary refresh failed; continuing without LLM summaries.', error);
   }
-  await buildAndWriteFeeds(paperSummaries, districtIndex);
+  // Composed from the summaries the step above certified as current, so a preview
+  // can never carry text the feed itself suppresses as stale.
+  let meetingDigests: MeetingDigest[] = [];
+  try {
+    meetingDigests = await updateMeetingDigests(stores.meetings.getAll(), paperSummaries, {
+      enabled: options.generateSummaries === false ? false : undefined,
+    });
+  } catch (error) {
+    logger.warn('Meeting digest refresh failed; continuing without previews.', error);
+  }
+  await buildAndWriteFeeds(paperSummaries, districtIndex, meetingDigests);
   await stores.saveToDisk();
   logger.info('Saved store data to disk');
 
@@ -205,6 +223,8 @@ export async function runFeedGeneration(options: FeedGenerationOptions = {}): Pr
         PAPER_DISTRICT_INDEX_FILE_NAME,
         PAPER_SUBMITTER_INDEX_FILE_NAME,
         'summaries/',
+        config.meetingDigestFeedFileName,
+        'digests/meetings/',
       ],
     },
     'generation-manifest.json',

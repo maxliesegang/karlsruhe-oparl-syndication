@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
+import { config } from '../src/config.js';
 import { buildLandingPage } from '../src/landing-page.js';
 import { RECENT_FEED_MAX_ITEM_COUNT } from '../src/constants.js';
 import { FilteredFeedDescriptor } from '../src/filtered-feed-contract.js';
@@ -28,6 +29,7 @@ const input = {
     }),
   ],
   fullFeedEntryCount: 1000,
+  meetingDigestEntryCount: 0,
 };
 
 describe('landing page', () => {
@@ -82,6 +84,19 @@ describe('landing page', () => {
     const html = buildLandingPage({ ...input, fullFeedEntryCount: 7 });
 
     expect(html).toContain('den 7 zuletzt aktualisierten Einträgen');
+  });
+
+  it('leaves the preview card off the page while no preview is published', () => {
+    // GENERATE_MEETING_DIGESTS defaults off, so the feed file exists but is empty.
+    // Linking it then would advertise a feed with nothing in it.
+    expect(buildLandingPage(input)).not.toContain('Sitzungsvorschau');
+  });
+
+  it('links the preview feed once previews exist', () => {
+    const html = buildLandingPage({ ...input, meetingDigestEntryCount: 4 });
+
+    expect(html).toContain('Sitzungsvorschau');
+    expect(html).toContain(config.meetingDigestFeedFileName);
   });
 
   it('escapes feed titles', () => {

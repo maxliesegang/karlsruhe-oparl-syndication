@@ -31,7 +31,7 @@ export interface BuildAgendaFeedOptions {
 }
 
 /** Initialize a new, empty feed with the given metadata. */
-function createEmptyFeed(updatedAt: Date, metadata?: FeedMetadata): Feed {
+export function createEmptyFeed(updatedAt: Date, metadata?: FeedMetadata): Feed {
   const resolved = metadata ?? {
     title: config.feedTitle,
     description: config.feedDescription,

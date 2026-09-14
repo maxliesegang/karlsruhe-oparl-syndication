@@ -25,7 +25,7 @@ export interface OpenCodePaperSummarizerOptions {
 const MAX_OUTPUT_TOKENS = 1600;
 
 /** Conversation id header OpenCode Go requires on every request. */
-const SESSION_HEADER = 'x-opencode-session';
+export const SESSION_HEADER = 'x-opencode-session';
 
 /**
  * The provider intermittently answers 200 with nothing usable, and it is not the
@@ -204,7 +204,7 @@ export class OpenCodePaperSummarizer implements PaperSummarizer {
  * Whether the provider returned nothing this client can use: an empty response,
  * or a response whose text held no balanced JSON object for `salvageJsonObject`.
  */
-function isEmptyResponse(error: unknown): boolean {
+export function isEmptyResponse(error: unknown): boolean {
   return NoOutputGeneratedError.isInstance(error) || NoObjectGeneratedError.isInstance(error);
 }
 

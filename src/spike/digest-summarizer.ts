@@ -9,6 +9,12 @@
 import { createOpenAICompatible } from '@ai-sdk/openai-compatible';
 import { generateText, Output } from 'ai';
 import { z } from 'zod';
+import { logger } from '../logger.js';
+import {
+  SESSION_HEADER,
+  isEmptyResponse,
+  salvageJsonObject,
+} from '../services/llm/opencode-paper-summarizer.js';
 import { replaceInvalidXmlCharacters } from '../xml-text.js';
 import { DigestBody } from './digest-types.js';
 
@@ -27,9 +33,26 @@ export interface DigestRequest {
   kind: DigestKind;
   heading: string;
   sourceText: string;
+  /**
+   * Conversation id for the `x-opencode-session` header. Required for the same
+   * reason it is on `PaperSummaryRequest`: OpenCode Go answers a request without
+   * it with a non-retryable HTTP 400 `MissingSessionID`. One digest's corrective
+   * retry shares a session; different digests stay separate conversations.
+   */
+  sessionId: string;
   /** Numeric literals the deterministic grounding check rejected last attempt. */
   numericLiteralsToCorrect?: string[];
 }
+
+/**
+ * Same budget as the per-paper client. The digest object is smaller, but the
+ * reasoning preamble that truncated responses into unparseable ones counts
+ * against this too, and only generated tokens are billed.
+ */
+const MAX_OUTPUT_TOKENS = 1600;
+
+/** See `MAX_EMPTY_RESPONSE_ATTEMPTS` in the per-paper client. */
+const MAX_EMPTY_RESPONSE_ATTEMPTS = 3;
 
 const digestSchema = z.object({
   overview: z.string().min(1).describe('Zwei bis vier kurze deutsche Sätze.'),
@@ -103,18 +126,51 @@ export class OpenCodeDigestSummarizer {
     const correction = request.numericLiteralsToCorrect?.length
       ? `\n\nKORREKTURHINWEIS: Dein vorheriger Entwurf enthielt diese nicht im Quelltext belegten Zahlen: ${request.numericLiteralsToCorrect.join(', ')}. Erstelle den Text vollständig neu und lasse unbelegte oder berechnete Werte weg.`
       : '';
-    const { output } = await generateText({
-      model: this.languageModel,
-      system: SYSTEM_PROMPTS[request.kind],
-      prompt: `${request.heading}${correction}\n\nQUELLTEXT BEGINN\n${request.sourceText}\nQUELLTEXT ENDE`,
-      temperature: 0,
-      maxOutputTokens: 900,
-      maxRetries: 3,
-      timeout: this.timeoutMs,
-      output: Output.json(),
-    });
+    const prompt = `${request.heading}${correction}\n\nQUELLTEXT BEGINN\n${request.sourceText}\nQUELLTEXT ENDE`;
 
-    return normalizeDigestBody(digestSchema.parse(output));
+    let lastEmptyResponse: unknown;
+    for (let attempt = 1; attempt <= MAX_EMPTY_RESPONSE_ATTEMPTS; attempt++) {
+      try {
+        const output = await this.requestDigestObject(request.kind, prompt, request.sessionId);
+        return normalizeDigestBody(digestSchema.parse(output));
+      } catch (error) {
+        if (!isEmptyResponse(error)) throw error;
+        lastEmptyResponse = error;
+        logger.debug(
+          `Empty response for ${request.sessionId} (attempt ${attempt}/${MAX_EMPTY_RESPONSE_ATTEMPTS}); requesting again.`,
+        );
+      }
+    }
+    throw lastEmptyResponse;
+  }
+
+  /** One request. Throws when the response carries no usable object. */
+  private async requestDigestObject(
+    kind: DigestKind,
+    prompt: string,
+    sessionId: string,
+  ): Promise<unknown> {
+    try {
+      const { output } = await generateText({
+        model: this.languageModel,
+        system: SYSTEM_PROMPTS[kind],
+        prompt,
+        temperature: 0,
+        maxOutputTokens: MAX_OUTPUT_TOKENS,
+        maxRetries: 3,
+        timeout: this.timeoutMs,
+        headers: { [SESSION_HEADER]: sessionId },
+        output: Output.json(),
+      });
+      return output;
+    } catch (error) {
+      // A reasoning or code-fence preamble makes the SDK reject a response whose
+      // object is right there in the text. The spike's provider table recorded
+      // three models as "fail against Output.json()" without this.
+      const salvaged = salvageJsonObject(error);
+      if (salvaged === undefined) throw error;
+      return salvaged;
+    }
   }
 }
 

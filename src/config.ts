@@ -140,16 +140,30 @@ export const config = {
   // rewards capability. Stronger models on this endpoint are also far slower, so
   // the timeout is its own setting rather than a reuse of the summary one.
   //
-  // The generous default is deliberate. Latency here is dominated by provider
-  // jitter rather than input size — a 17 KiB pool completed in 87s while an 11 KiB
-  // one exceeded 300s on the same model — and digests are a handful of calls a
-  // month on a scheduled workflow, so waiting is nearly free while a timeout costs
-  // the whole digest until the next run.
+  // The generous default is deliberate: a timeout costs the whole digest until the
+  // next run, while waiting costs nearly nothing on a handful of calls a day. It is
+  // far above the observed worst case — re-measured 2026-09-14, the largest input in
+  // the archive (103 KiB, the 28 July Gemeinderat) finished in 45s and district-sized
+  // pools in 7-11s. Earlier measurements of 87-300s on the same model were provider
+  // jitter that has not recurred; trim this only once a longer series confirms that.
   digestModel: process.env.DIGEST_MODEL || 'mimo-v2.5-pro',
   digestRequestTimeoutMs: parsePositiveInteger(
     'DIGEST_REQUEST_TIMEOUT_MS',
     process.env.DIGEST_REQUEST_TIMEOUT_MS || '900000',
   ),
+
+  // Meeting previews. Off by default: they spend the provider budget on every run
+  // that has a sitting due, and the feed is complete without them.
+  generateMeetingDigests: process.env.GENERATE_MEETING_DIGESTS === 'true',
+  meetingDigestPromptVersion: process.env.MEETING_DIGEST_PROMPT_VERSION || 'meeting-de-v1',
+  // One sitting due at one lead time is one call. A busy council day can put several
+  // committees on the same date, so this bounds a run the way SUMMARY_MAX_ITEMS_PER_RUN
+  // bounds the summary step.
+  meetingDigestMaxItemsPerRun: parseNonNegativeInteger(
+    'MEETING_DIGEST_MAX_ITEMS_PER_RUN',
+    process.env.MEETING_DIGEST_MAX_ITEMS_PER_RUN || '8',
+  ),
+  meetingDigestFeedFileName: process.env.MEETING_DIGEST_FEED_FILENAME || 'sitzungsvorschau.xml',
 
   // Rate limiting
   requestIntervalMs: Number.parseInt(process.env.REQUEST_DELAY || '1000', 10),

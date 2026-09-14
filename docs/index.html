@@ -217,6 +217,15 @@
             <button class="copy-btn" onclick="copyUrl(this)">Kopieren</button>
           </div>
         </div>
+
+        <div class="feed-card">
+          <h2>Sitzungsvorschau</h2>
+          <p>KI-generierte Vorschau auf anstehende öffentliche Sitzungen, jeweils eine Woche vorher und am Vortag (2 Einträge).</p>
+          <div class="feed-url">
+            <a href="sitzungsvorschau.xml">sitzungsvorschau.xml</a>
+            <button class="copy-btn" onclick="copyUrl(this)">Kopieren</button>
+          </div>
+        </div>
       </div>
 
       <section>
@@ -499,6 +508,10 @@
           <li>
             <code>summaries/papers/</code>
             <p>Maschinell erzeugte Kurzfassungen je Vorlage (LLM, mit Quell-Hash): summaries/papers/&lt;id&gt;.json.</p>
+          </li>
+          <li>
+            <code>digests/meetings/</code>
+            <p>Je Sitzung und Vorlaufzeit eine KI-generierte Vorschau (mit Quell-Hash): digests/meetings/&lt;Sitzungs-id&gt;-week.json bzw. -day.json.</p>
           </li>
           <li>
             <a href="consultations.json"><code>consultations.json</code></a>

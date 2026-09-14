@@ -16,6 +16,8 @@ const mocks = vi.hoisted(() => ({
   writeLandingPage: vi.fn(),
   updatePaperDistrictIndex: vi.fn().mockResolvedValue({ version: 2, districts: [], papers: {} }),
   updatePaperSummaries: vi.fn().mockResolvedValue(new Map()),
+  updateMeetingDigests: vi.fn().mockResolvedValue([]),
+  writeMeetingDigestFeed: vi.fn().mockResolvedValue({ items: [] }),
   createPaperDistrictResolver: vi.fn().mockReturnValue(() => []),
   buildPaperSubmitterIndex: vi.fn().mockReturnValue({ version: 1, papers: {} }),
   writePaperSubmitterIndex: vi.fn(),
@@ -49,6 +51,14 @@ vi.mock('../src/feed.js', () => ({
   buildAgendaFeed: mocks.buildAgendaFeed,
   writeFullFeed: mocks.writeFullFeed,
   writeRecentFeed: mocks.writeRecentFeed,
+}));
+
+vi.mock('../src/services/meeting-digest-service.js', () => ({
+  updateMeetingDigests: mocks.updateMeetingDigests,
+}));
+
+vi.mock('../src/meeting-digest-feed.js', () => ({
+  writeMeetingDigestFeed: mocks.writeMeetingDigestFeed,
 }));
 
 vi.mock('../src/filtered-feeds.js', () => ({
@@ -150,9 +160,7 @@ describe('generation service cache handling', () => {
 
     await runFeedGeneration();
 
-    expect(mocks.buildAgendaFeed).toHaveBeenCalledWith(
-      records.slice(0, config.feedMaxItemCount),
-    );
+    expect(mocks.buildAgendaFeed).toHaveBeenCalledWith(records.slice(0, config.feedMaxItemCount));
     expect(mocks.writeFilteredFeeds).toHaveBeenCalledWith(records);
   });
 
@@ -170,6 +178,7 @@ describe('generation service cache handling', () => {
     expect(mocks.writeLandingPage).toHaveBeenCalledWith({
       filteredFeeds: descriptors,
       fullFeedEntryCount: 2,
+      meetingDigestEntryCount: 0,
     });
     const manifest = mocks.writeJsonToDocs.mock.calls[0]?.[0] as { artifacts: string[] };
     expect(manifest.artifacts).toContain('index.html');

@@ -90,6 +90,7 @@ async function main(): Promise<void> {
         target: candidate.target,
         request: {
           kind: 'meeting',
+          sessionId: digestSessionId(candidate.target.key),
           heading: candidate.target.heading,
           sourceText: candidate.target.sourceText,
         },
@@ -122,6 +123,7 @@ async function main(): Promise<void> {
         target: cityWideTarget,
         request: {
           kind: 'citywide',
+          sessionId: digestSessionId(cityWideTarget.key),
           heading: cityWideTarget.heading,
           sourceText: cityWideTarget.sourceText,
         },
@@ -145,6 +147,7 @@ async function main(): Promise<void> {
         target: candidate.target,
         request: {
           kind: 'district',
+          sessionId: digestSessionId(candidate.target.key),
           heading: candidate.target.heading,
           sourceText: candidate.target.sourceText,
         },
@@ -259,6 +262,11 @@ async function main(): Promise<void> {
 }
 
 type ToRecord = (base: DigestRecordBase) => Digest;
+
+/** Namespaced like the per-paper `karlsruhe-paper-<basename>` session ids. */
+function digestSessionId(key: string): string {
+  return `karlsruhe-digest-${key}`;
+}
 
 /**
  * Same two-attempt numeric grounding the per-paper summaries use. It matters more
