@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-09-03T17:36:32.467Z",
+  "generatedAt": "2026-09-14T13:37:38.164Z",
   "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54742",
   "keyPoints": [
-    "Die Gesamtkosten werden auf ca. 1.700.000 Euro geschätzt, mit jährlichen kalkulatorischen Folgekosten von ca. 150.000 Euro.",
-    "Durch die Umrüstung sollen beide Verbrennungslinien auf einen einheitlichen technischen Stand gebracht werden, was Wartungsaufwand und Ersatzteilhaltung vereinfacht.",
-    "Ein Ausfall der Verbrennungslinie 1 ohne dieses Projekt würde bei Stillstand der zweiten Linie zu Kosten von ca. 200.000 Euro pro Woche für externe Entsorgungslösungen führen."
+    "Die S5-Steuerungen sind seit 2003 sukzessive, die gesamte Systemreihe seit Oktober 2020 vollständig vom Hersteller abgekündigt; Ersatzteile sind kaum noch verfügbar und extrem kostenintensiv.",
+    "Ohne Umrüstung wäre bei Ausfall der Verbrennungslinie 2 ein Entsorgungsengpass drohend; eine externe mobile Vorentwässerung mit Abtransport zu Fremdverbrennungsanlagen würde ca. 200.000 Euro pro Woche kosten (Stand 2023).",
+    "Geplant ist eine redundante zentrale CPU, dezentrale ET200-Stationen mit einfehlertolerantem Profinet-Bus sowie der Ersatz von Hardware-Reglern durch Software-Regler; Messsonden, Ventile, Motoren und Vor-Ort-Bedienstellen bleiben erhalten.",
+    "Zeitplan: Ausschreibungen im 1. Quartal 2027, Ausführungsbeginn im 2. Quartal 2027, Inbetriebnahme im 1. Quartal 2028; die Finanzierung soll voraussichtlich über den Wirtschaftsplan des zukünftigen Eigenbetriebs Stadtentwässerung erfolgen."
   ],
-  "model": "mimo-v2.5",
+  "model": "glm-5.3-flash",
   "promptVersion": "paper-de-v7",
   "provider": "opencode-go",
   "sourceHash": "sha256:5b04e6b7d52a44d559f43acb810660fd83bab1852f2ac262bd9db51f583553a2",
-  "summary": "Die Vorlage schlägt die Modernisierung der veralteten Prozessleittechnik auf der Verbrennungslinie 1 im Klärwerk Karlsruhe vor. Das bestehende, herstellerseitig abgekündigte System Simatic S5 soll auf das aktuelle Leitsystem Simatic PCS 7 überführt werden, um einen sicheren Weiterbetrieb für die geplante Nutzungsdauer von weiteren 10 bis 15 Jahren zu gewährleisten. Die Maßnahme soll 2027 beginnen und 2028 in Betrieb gehen."
+  "summary": "Die Vorlage der Stadtentwässerung schlägt die Umrüstung der Prozessleittechnik der Verbrennungslinie 1 im Klärwerk Karlsruhe vom abgekündigten Siemens-System Simatic S5 auf das aktuelle Leitsystem Simatic PCS 7 vor, um den sicheren Weiterbetrieb für rund 10 bis 15 Jahre zu sichern. Die Verwaltung empfiehlt die Weiterführung des Vorhabens gemäß der dargestellten Variante und beantragt die Freigabe zur weiteren Planung und Realisierung in eigener Zuständigkeit. Der Gesamtaufwand wird auf ca. 1.700.000 Euro beziffert, die jährlichen kalkulatorischen Folgekosten auf ca. 150.000 Euro; die Kosten sind gebührenfähig."
 }
