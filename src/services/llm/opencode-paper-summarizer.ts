@@ -1,6 +1,7 @@
 import { createOpenAICompatible } from '@ai-sdk/openai-compatible';
-import { generateText, NoObjectGeneratedError, Output } from 'ai';
+import { generateText, NoObjectGeneratedError, NoOutputGeneratedError, Output } from 'ai';
 import { z } from 'zod';
+import { logger } from '../../logger.js';
 import { GeneratedPaperSummary } from '../../types/index.js';
 import { replaceInvalidXmlCharacters } from '../../xml-text.js';
 import { PaperSummarizer, PaperSummaryRequest } from './paper-summarizer.js';
@@ -20,6 +21,17 @@ const MAX_OUTPUT_TOKENS = 1600;
 
 /** Conversation id header OpenCode Go requires on every request. */
 const SESSION_HEADER = 'x-opencode-session';
+
+/**
+ * The provider intermittently answers 200 with nothing usable, and it is not the
+ * input: with glm-5.3-flash this hit 5.4% of papers on 2026-09-14, including
+ * `papers/54547` hours after the same model summarized the same text. A plain
+ * second request healed 42 of 56 such papers, so spend it here instead of
+ * leaving the paper to the next scheduled run. Only responses that carry nothing
+ * are retried — a schema or grounding rejection is a different failure and stays
+ * one request.
+ */
+const MAX_EMPTY_RESPONSE_ATTEMPTS = 3;
 
 const summarySchema = z.object({
   summary: z.string().min(1).describe('Zwei bis vier kurze deutsche Sätze.'),
@@ -101,9 +113,26 @@ export class OpenCodePaperSummarizer implements PaperSummarizer {
       : '';
     const prompt = `${qualifier}${correction}\n\nVorlage: ${request.heading}\n\nSTRUKTURIERTER KONTEXT BEGINN\n${request.contextText}\nSTRUKTURIERTER KONTEXT ENDE\n\nDOKUMENTTEXT BEGINN\n${request.sourceText}\nDOKUMENTTEXT ENDE`;
 
-    let output: unknown;
+    let lastEmptyResponse: unknown;
+    for (let attempt = 1; attempt <= MAX_EMPTY_RESPONSE_ATTEMPTS; attempt++) {
+      try {
+        const output = await this.requestSummaryObject(prompt, request.sessionId);
+        return normalizeGeneratedPaperSummary(summarySchema.parse(output));
+      } catch (error) {
+        if (!isEmptyResponse(error)) throw error;
+        lastEmptyResponse = error;
+        logger.debug(
+          `Empty response for ${request.sessionId} (attempt ${attempt}/${MAX_EMPTY_RESPONSE_ATTEMPTS}); requesting again.`,
+        );
+      }
+    }
+    throw lastEmptyResponse;
+  }
+
+  /** One request. Throws when the response carries no usable object. */
+  private async requestSummaryObject(prompt: string, sessionId: string): Promise<unknown> {
     try {
-      ({ output } = await generateText({
+      const { output } = await generateText({
         model: this.languageModel,
         system: SYSTEM_PROMPT,
         prompt,
@@ -115,22 +144,29 @@ export class OpenCodePaperSummarizer implements PaperSummarizer {
         // `MissingSessionID`, which axios-retry cannot help with. It is per
         // request rather than per client so every chunk and retry of one paper
         // shares a session while different papers stay separate conversations.
-        headers: { [SESSION_HEADER]: request.sessionId },
+        headers: { [SESSION_HEADER]: sessionId },
         // OpenCode's compatible endpoint supports JSON mode. Validate the returned
         // value locally with Zod instead of claiming provider-side JSON Schema support.
         output: Output.json(),
-      }));
+      });
+      return output;
     } catch (error) {
       // The model sometimes wraps its JSON in a reasoning or code-fence preamble,
       // which the SDK's strict parse rejects outright. The object is right there
       // in the rejected text, so recover it rather than spending another request.
       const salvaged = salvageJsonObject(error);
       if (salvaged === undefined) throw error;
-      output = salvaged;
+      return salvaged;
     }
-
-    return normalizeGeneratedPaperSummary(summarySchema.parse(output));
   }
+}
+
+/**
+ * Whether the provider returned nothing this client can use: an empty response,
+ * or a response whose text held no balanced JSON object for `salvageJsonObject`.
+ */
+function isEmptyResponse(error: unknown): boolean {
+  return NoOutputGeneratedError.isInstance(error) || NoObjectGeneratedError.isInstance(error);
 }
 
 /**

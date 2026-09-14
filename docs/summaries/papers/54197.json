@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-08-07T04:25:55.968Z",
+  "generatedAt": "2026-09-14T14:26:06.658Z",
   "id": "https://web1.karlsruhe.de/oparl/bodies/0001/papers/vo/54197",
   "keyPoints": [
-    "Der Antrag fordert für Zone 1 einen Kfz-Stellplatzwert von 0,5 und für Zone 2 von 0,7 pro Wohneinheit gemäß dem ursprünglichen Satzungsentwurf.",
-    "Die Verwaltung hat den Kfz-Stellplatzschlüssel in den Zonen 1 und 2 jeweils um 0,1 erhöht, da aktuellere Daten auf einen höheren Bedarf hindeuten.",
-    "Die Verwaltung empfiehlt die Ablehnung, da ein Verzicht auf die aktuellere Bedarfsermittlung die Argumentation einer statistisch belegten Notwendigkeit für die bisherigen Werte nicht aufrechterhalten ließe."
+    "Geforderte Werte: Zone 1 mit 0,5 und Zone 2 mit 0,7 Kfz-Stellplätzen pro Wohneinheit gemäß Entwurfsfassung vom 04.10.2024.",
+    "Die Verwaltung hatte die Schlüssel in beiden Zonen jeweils um 0,1 erhöht und den Abschlag für Kleinstwohnungen auf 25 % des Zonenwerts reduziert.",
+    "Die Verwaltung warnt, dass zu knapp bemessene Stellplätze, etwa bei konzentrierten Kleinstwohnungsstandorten, Parkdruck in den öffentlichen Raum verlagern könnten.",
+    "Die Verwaltung empfiehlt ausdrücklich, den Antrag abzulehnen."
   ],
-  "model": "mimo-v2.5",
+  "model": "glm-5.3-flash",
   "promptVersion": "paper-de-v7",
   "provider": "opencode-go",
   "sourceHash": "sha256:55c50bb2e9e2f38679e3e7d273f6959ccf7addf0d74d1b232c6e1daac4fb96cd",
-  "summary": "Der Änderungsantrag der Grünen fordert, die vorgeschlagenen Kfz-Stellplatzverpflichtungen für Wohnungen in den Zonen 1 und 2 auf die ursprünglichen, niedrigeren Werte von 0,5 bzw. 0,7 Stellplätzen pro Wohneinheit zu senken. Begründet wird dies damit, dass die aktuelle SrV-Erhebung von 2023 nur eine Momentaufnahme sei, die Zulassungszahlen privater Pkw in Karlsruhe bereits zurückgingen und der weitere Ausbau von Carsharing sowie die Ausweitung von Bewohnerparkzonen die erhöhten Werte nicht erforderlich machten. Die Verwaltung empfiehlt hingegen, den Antrag abzulehnen, da der methodische Ansatz einer statistisch belegten Bedarfsorientation mit aktuellen Daten gewährleiste, dass relevante Auswirkungen auf den öffentlichen Raum vermieden werden."
+  "summary": "Der Änderungsantrag der GRÜNE-Fraktion verlangt, bei der Stellplatzsatzung die minimalen Grundwerte aus dem ursprünglichen Satzungsentwurf von Oktober 2024 beizubehalten, also 0,5 Kfz-Stellplätze pro Wohneinheit in Zone 1 und 0,7 in Zone 2. Zur Begründung verweist der Antrag auf die SrV-Verkehrserhebung 2023 als Momentaufnahme, rückläufige Pkw-Zulassungszahlen in Karlsruhe sowie den geplanten Ausbau von Carsharing und Bewohnerparkzonen. Die Verwaltung empfiehlt die Ablehnung des Antrags, da neuere kleinräumige Daten mehr andernorts zugelassene Pkw und bei Einpersonenhaushalten steigenden Pkw-Besitz zeigen und die Auswirkungen von Carsharing und Bewohnerparkzonen derzeit nicht belastbar bestimmbar seien."
 }

@@ -232,3 +232,77 @@ describe('salvaging an unparseable response', () => {
     expect(salvageJsonObject(new Error('network'))).toBeUndefined();
   });
 });
+
+function completion(content: string): Response {
+  return new Response(
+    JSON.stringify({
+      id: 'completion-retry',
+      created: 1,
+      model: 'deepseek-v4-flash',
+      choices: [{ index: 0, finish_reason: 'stop', message: { role: 'assistant', content } }],
+      usage: { prompt_tokens: 100, completion_tokens: 20, total_tokens: 120 },
+    }),
+    { status: 200, headers: { 'Content-Type': 'application/json' } },
+  );
+}
+
+function summarizerWith(fetchMock: typeof globalThis.fetch): OpenCodePaperSummarizer {
+  return new OpenCodePaperSummarizer({
+    apiKey: 'test-key',
+    baseUrl: 'https://opencode.example/zen/go/v1/',
+    model: 'deepseek-v4-flash',
+    timeoutMs: 1_000,
+    fetch: fetchMock,
+  });
+}
+
+const retryRequest = {
+  sessionId: 'karlsruhe-paper-1',
+  heading: 'Beschlussvorlage \u2013 2026/1 \u2013 Marktplatz',
+  contextText: '',
+  sourceText: 'Text.',
+  partial: false,
+} as const;
+
+describe('OpenCode empty-response retry', () => {
+  it('requests again when the provider returns no usable content', async () => {
+    // The observed failure: HTTP 200, no content at all. Measured at 5.4% of
+    // papers with glm-5.3-flash and independent of the input.
+    const fetchMock = vi
+      .fn()
+      .mockResolvedValueOnce(completion(''))
+      .mockResolvedValueOnce(
+        completion('{"summary":"Die Vorlage schl\u00e4gt einen Umbau vor.","keyPoints":["Ein Punkt"]}'),
+      );
+
+    await expect(summarizerWith(fetchMock as never).summarize({ ...retryRequest })).resolves.toEqual(
+      {
+        summary: 'Die Vorlage schl\u00e4gt einen Umbau vor.',
+        keyPoints: ['Ein Punkt'],
+      },
+    );
+    expect(fetchMock).toHaveBeenCalledTimes(2);
+  });
+
+  it('gives up after three empty responses so the paper is retried next run', async () => {
+    // A fresh Response per call: a Response body can only be read once.
+    const fetchMock = vi.fn().mockImplementation(() => Promise.resolve(completion('')));
+
+    await expect(summarizerWith(fetchMock as never).summarize({ ...retryRequest })).rejects.toThrow();
+    expect(fetchMock).toHaveBeenCalledTimes(3);
+  });
+
+  it('does not spend a retry on a response the salvage path can parse', async () => {
+    const fetchMock = vi
+      .fn()
+      .mockResolvedValue(
+        completion('<think>kurz nachgedacht</think>{"summary":"Eine Zusammenfassung.","keyPoints":[]}'),
+      );
+
+    await expect(summarizerWith(fetchMock as never).summarize({ ...retryRequest })).resolves.toEqual({
+      summary: 'Eine Zusammenfassung.',
+      keyPoints: [],
+    });
+    expect(fetchMock).toHaveBeenCalledTimes(1);
+  });
+});
