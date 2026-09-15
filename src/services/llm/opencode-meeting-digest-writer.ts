@@ -11,8 +11,8 @@ import { MeetingDigestRequest, MeetingDigestWriter } from './meeting-digest-writ
  * Deliberately larger than the per-paper client's 1600. Copying that number was a
  * mistake: a digest is not smaller output. Six highlights of up to 500 characters
  * plus a four-sentence overview is several times a paper summary's two-to-four
- * short key points, and `DIGEST_MODEL` defaults to a reasoning model whose
- * preamble counts against the same budget. Measured on the 2026-09-15
+ * short key points, and a reasoning model's preamble counts against the same
+ * budget. Measured on the 2026-09-15
  * Ortschaftsrat previews at 1600: one fit in four highlights, the other was cut
  * mid-word in its second. Only generated tokens are billed, so the slack is free.
  */

@@ -91,7 +91,14 @@ export async function updateMeetingDigests(
     new OpenCodeMeetingDigestWriter({
       apiKey,
       baseUrl: config.llmBaseUrl,
-      model: config.digestModel,
+      // LLM_MODEL, not DIGEST_MODEL: a meeting preview reads only per-paper summaries
+      // that the expensive step already grounded, so it is a rewrite of clean short
+      // text rather than the month-wide selection job DIGEST_MODEL was chosen for.
+      // The monthly rollup spike keeps DIGEST_MODEL. The digest cache is keyed on
+      // promptVersion + digestSourceHash and not on the model, exactly like the paper
+      // summaries, so switching here leaves existing previews in place; each record
+      // names the model that wrote it.
+      model: config.llmModel,
       timeoutMs: config.digestRequestTimeoutMs,
     });
 

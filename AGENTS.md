@@ -107,11 +107,22 @@ This repository builds and publishes an Atom feed for Karlsruhe city council age
 
 ## Meeting Previews (Sitzungsvorschau)
 
-- Controlled by `GENERATE_MEETING_DIGESTS` (default **false**). One generated preview per
+- Controlled by `GENERATE_MEETING_DIGESTS` (default **true**; set `=false` to opt out). One generated preview per
   upcoming public sitting at each of two lead times — `week` (7 days out) and `day` (1 day
   before) — composed from the per-paper summaries its public agenda items consult. No PDF is
   read and no OParl call is made: a preview costs one model call over text the expensive
-  per-paper step already paid for.
+  per-paper step already paid for. That is what makes the default safe to leave on: the
+  step is capped at `MEETING_DIGEST_MAX_ITEMS_PER_RUN`, does nothing at all on a day with
+  no sitting due at a lead time, and skips itself without failing the run when
+  `LLM_API_KEY` is absent. `--no-summaries` forces it off along with the summaries it
+  composes, so `npm run generate:no-summaries` still costs nothing.
+- **Previews run on `LLM_MODEL`, not `DIGEST_MODEL`.** A preview only rewrites a handful of
+  per-paper summaries that the expensive step already grounded, so it does not need the
+  stronger model that the monthly rollup spike's month-wide selection job does. They still
+  share `DIGEST_REQUEST_TIMEOUT_MS` with that spike. The preview cache is keyed on
+  `promptVersion` + `digestSourceHash` and **not** on the model, exactly like the paper
+  summaries, so a model switch leaves the existing previews in place and each record names
+  the model that actually wrote it.
 - **Composed only from summaries the summary step certified current this run.**
   `updateMeetingDigests` takes the `Map` that `updatePaperSummaries` returns, not the store.
   A summary whose `sourceHash` no longer matches is ineligible for publication, and reading
@@ -198,8 +209,8 @@ v7 also fixes the lede. Every v6 summary opened with a reworded entry title (“
 - Author: `AUTHOR_NAME`, `AUTHOR_EMAIL`, `AUTHOR_LINK`.
 - Flags: `EXTRACT_PDF_TEXT` (default true), `FETCH_ALL_PAGES` (default true).
 - Summaries: `GENERATE_LLM_SUMMARIES` (default false), `LLM_API_KEY`, `LLM_BASE_URL`, `LLM_MODEL`, `LLM_FALLBACK_MODEL` (default `mimo-v2.5`; set empty to disable), `SUMMARY_PROMPT_VERSION`, `SUMMARY_MAX_ITEMS_PER_RUN`, `SUMMARY_MAX_INPUT_CHARS`, `SUMMARY_CONCURRENCY`, `SUMMARY_REQUEST_TIMEOUT_MS`.
-- Meeting previews: `GENERATE_MEETING_DIGESTS` (default false), `MEETING_DIGEST_PROMPT_VERSION`, `MEETING_DIGEST_MAX_ITEMS_PER_RUN` (default 8), `MEETING_DIGEST_FEED_FILENAME` (default `sitzungsvorschau.xml`). They share `DIGEST_MODEL` and `DIGEST_REQUEST_TIMEOUT_MS` with the parked digest spike.
-- Digests (**spike only** — read by `src/spike/`, not by `npm run generate`): `DIGEST_MODEL` (default `mimo-v2.5-pro`), `DIGEST_REQUEST_TIMEOUT_MS` (default 900000). Deliberately separate from `LLM_MODEL`/`SUMMARY_REQUEST_TIMEOUT_MS`: digests are ~90 calls a month against ~3,000 paper summaries, so a stronger and much slower model is affordable there and nowhere else.
+- Meeting previews: `GENERATE_MEETING_DIGESTS` (default true), `MEETING_DIGEST_PROMPT_VERSION`, `MEETING_DIGEST_MAX_ITEMS_PER_RUN` (default 8), `MEETING_DIGEST_FEED_FILENAME` (default `sitzungsvorschau.xml`). They use `LLM_MODEL` and share only `DIGEST_REQUEST_TIMEOUT_MS` with the parked digest spike.
+- Monthly rollup digests (**spike only** — read by `src/spike/`, not by `npm run generate`): `DIGEST_MODEL` (default `mimo-v2.5-pro`), plus `DIGEST_REQUEST_TIMEOUT_MS` (default 900000), which the meeting previews also use. `DIGEST_MODEL` is deliberately separate from `LLM_MODEL`: the rollups are ~90 calls a month against ~3,000 paper summaries, so a stronger and much slower model is affordable there and nowhere else.
 - Rate limiting: `REQUEST_DELAY` (ms, default 1000).
 - Reconciliation: `FULL_RECONCILIATION_INTERVAL_DAYS` (default 7) — how often the incremental cursors are ignored for an authoritative full crawl.
 - PDF limits: `PDF_DOWNLOAD_TIMEOUT_MS` (default 30000), `PDF_MAX_CONTENT_BYTES` (default 50 MiB).

@@ -137,13 +137,17 @@ export const config = {
     process.env.SUMMARY_REQUEST_TIMEOUT_MS || '240000',
   ),
 
-  // Digests (meeting previews, monthly Stadtteil/stadtweit rollups) are a
-  // separate model budget from per-paper summaries and default to a stronger
-  // model. There are ~90 digest calls a month against ~3,000 paper summaries, so
-  // the cost difference is marginal, while the task — selecting and framing the
-  // politically significant items out of a month's papers — is the one that
-  // rewards capability. Stronger models on this endpoint are also far slower, so
-  // the timeout is its own setting rather than a reuse of the summary one.
+  // The monthly Stadtteil/stadtweit rollup spike's model budget, separate from
+  // per-paper summaries and defaulting to a stronger model. There are ~90 rollup
+  // calls a month against ~3,000 paper summaries, so the cost difference is
+  // marginal, while the task — selecting and framing the politically significant
+  // items out of a whole month's papers — is the one that rewards capability.
+  // Stronger models on this endpoint are also far slower, so the timeout is its own
+  // setting rather than a reuse of the summary one.
+  //
+  // Meeting previews no longer read DIGEST_MODEL; they run on LLM_MODEL, because a
+  // preview only rewrites a handful of already-grounded per-paper summaries for one
+  // sitting. They still share the timeout below.
   //
   // The generous default is deliberate: a timeout costs the whole digest until the
   // next run, while waiting costs nearly nothing on a handful of calls a day. It is
@@ -157,9 +161,13 @@ export const config = {
     process.env.DIGEST_REQUEST_TIMEOUT_MS || '900000',
   ),
 
-  // Meeting previews. Off by default: they spend the provider budget on every run
-  // that has a sitting due, and the feed is complete without them.
-  generateMeetingDigests: process.env.GENERATE_MEETING_DIGESTS === 'true',
+  // Meeting previews. On by default, like PDF extraction and pagination: a preview
+  // costs one LLM_MODEL call over text the per-paper summary step already paid for,
+  // it is capped at meetingDigestMaxItemsPerRun, and only runs at all on a day that
+  // has a sitting due at a lead time. Set GENERATE_MEETING_DIGESTS=false to opt out.
+  // A missing LLM_API_KEY still skips the step without failing the run, and
+  // `--no-summaries` forces it off along with the summaries it composes.
+  generateMeetingDigests: process.env.GENERATE_MEETING_DIGESTS !== 'false',
   meetingDigestPromptVersion: process.env.MEETING_DIGEST_PROMPT_VERSION || 'meeting-de-v1',
   // One sitting due at one lead time is one call. A busy council day can put several
   // committees on the same date, so this bounds a run the way SUMMARY_MAX_ITEMS_PER_RUN
