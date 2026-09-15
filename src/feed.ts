@@ -2,7 +2,6 @@ import { Feed } from 'feed';
 import { OParlFile, Meeting } from './types/index.js';
 import { config } from './config.js';
 import { parseValidDate } from './dates.js';
-import { normalizeOParlUrl } from './oparl-url.js';
 import {
   EPOCH_FALLBACK_DATE,
   FEED_GENERATOR,
@@ -71,12 +70,12 @@ function formatGermanDate(date: Date | undefined, month: 'long' | '2-digit' = '2
 
 /** Format auxiliary file metadata for display */
 function formatAttachmentLink(file: OParlFile): string {
-  const correctedUrl = safeHttpUrl(normalizeOParlUrl(file.downloadUrl));
-  if (!correctedUrl) return '';
+  const downloadUrl = safeHttpUrl(file.downloadUrl);
+  if (!downloadUrl) return '';
   const createdDate = formatGermanDate(parseValidDate(file.created));
   const modifiedDate = formatGermanDate(parseValidDate(file.modified));
 
-  return `<a href="${escapeHtml(correctedUrl)}">${escapeHtml(file.name)} (Erstellt am: ${createdDate}, Aktualisiert am: ${modifiedDate})</a><br>`;
+  return `<a href="${escapeHtml(downloadUrl)}">${escapeHtml(file.name)} (Erstellt am: ${createdDate}, Aktualisiert am: ${modifiedDate})</a><br>`;
 }
 
 /** Render the HTML body shown for a single agenda-item entry. */

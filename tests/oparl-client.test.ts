@@ -21,7 +21,7 @@ describe('HTTP pagination', () => {
       .mockResolvedValueOnce({
         data: {
           data: [{ id: 'one' }],
-          links: { next: 'https://example.test/oparl/items?page=2' },
+          links: { next: 'https://example.test/ris/oparl/items?page=2' },
         },
       })
       .mockResolvedValueOnce({
@@ -46,7 +46,7 @@ describe('HTTP pagination', () => {
     const get = vi.spyOn(httpClient, 'get').mockResolvedValue({
       data: {
         data: [{ id: 'one' }],
-        links: { next: 'https://example.test/oparl/items?page=2' },
+        links: { next: 'https://example.test/ris/oparl/items?page=2' },
       },
     });
     const modifiedSince = new Date('2026-07-18T10:15:30.123Z');

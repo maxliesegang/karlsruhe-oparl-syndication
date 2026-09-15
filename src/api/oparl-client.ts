@@ -1,7 +1,6 @@
 import axios, { AxiosInstance, AxiosResponse } from 'axios';
 import { config } from '../config.js';
 import { delay } from '../async.js';
-import { normalizeOParlUrl } from '../oparl-url.js';
 import { logger } from '../logger.js';
 import { createRetryingHttpClient } from './http-client.js';
 
@@ -13,7 +12,7 @@ const httpClient: AxiosInstance = createRetryingHttpClient({
   headers: { Accept: 'application/json' },
 });
 
-export { httpClient, normalizeOParlUrl };
+export { httpClient };
 
 /**
  * A queue that processes HTTP requests sequentially with configurable delay.
@@ -127,7 +126,7 @@ export async function fetchPaginatedCollection<T>(
   const visitedUrls = new Set<string>();
 
   while (nextUrl) {
-    const url = normalizeOParlUrl(nextUrl);
+    const url = nextUrl;
     if (visitedUrls.has(url)) {
       throw new Error(
         `Pagination cycle detected at ${url} after ${pageCount} page(s); collection is incomplete.`,
@@ -167,12 +166,8 @@ export async function fetchPaginatedCollection<T>(
  * Returns null if the resource is not found (404).
  */
 export async function fetchOParlResource<T>(url: string): Promise<T | null> {
-  const correctedUrl = normalizeOParlUrl(url);
-
   try {
-    const response = await requestQueue.add<AxiosResponse<T>>(() =>
-      httpClient.get<T>(correctedUrl),
-    );
+    const response = await requestQueue.add<AxiosResponse<T>>(() => httpClient.get<T>(url));
     return response.data;
   } catch (error) {
     if (axios.isAxiosError(error) && error.response?.status === 404) {

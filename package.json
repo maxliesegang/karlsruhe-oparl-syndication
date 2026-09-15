@@ -16,6 +16,7 @@
     "summarize": "tsx src/summarize-paper.ts",
     "models": "tsx src/list-models.ts",
     "validate:feed": "tsx src/validate-feed.ts",
+    "migrate:host": "tsx src/migrate-oparl-host.ts",
     "spike:digests": "tsx src/spike/run-digests.ts",
     "audit:districts": "node --import tsx src/spike/audit-district-classifier.ts",
     "format": "prettier --write \"src/**/*.ts\"",

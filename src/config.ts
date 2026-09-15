@@ -38,13 +38,18 @@ function parseIntegerAtLeast(environmentVariable: string, value: string, minimum
 
 export const config = {
   // API endpoints
+  // web2 mirrors the requested path prefix into every id, sub-collection link
+  // and downloadUrl it emits, so the URLs it returns are reachable as given.
+  // web1 serves the same data but always emits them without the `/ris/` the
+  // server requires, which is why the pipeline used to rewrite every URL.
+  // Keep the `/ris/oparl/` prefix here: it is what the responses inherit.
   meetingsApiUrl:
-    process.env.MEETINGS_API_URL || 'https://web1.karlsruhe.de/oparl/bodies/0001/meetings',
+    process.env.MEETINGS_API_URL || 'https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings',
   papersApiUrl:
-    process.env.PAPERS_API_URL || 'https://web1.karlsruhe.de/ris/oparl/bodies/0001/papers',
+    process.env.PAPERS_API_URL || 'https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers',
   organizationsApiUrl:
     process.env.ORGANIZATIONS_API_URL ||
-    'https://web1.karlsruhe.de/ris/oparl/bodies/0001/organizations',
+    'https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations',
 
   // Feed metadata
   feedTitle: process.env.FEED_TITLE || 'Alle Tagesordnungspunkte',

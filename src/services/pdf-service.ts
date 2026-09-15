@@ -1,6 +1,5 @@
 import axios, { AxiosInstance } from 'axios';
 import { PDFParse } from 'pdf-parse';
-import { normalizeOParlUrl } from '../oparl-url.js';
 import { createRetryingHttpClient } from '../api/http-client.js';
 import { PDF_MIME_TYPE } from '../constants.js';
 import { config } from '../config.js';
@@ -26,9 +25,7 @@ export class PdfService {
   public async extractTextFromPdf(url: string): Promise<string | undefined> {
     let parser: PDFParse | undefined;
     try {
-      const correctedUrl = normalizeOParlUrl(url);
-
-      const response = await this.httpClient.get(correctedUrl, {
+      const response = await this.httpClient.get(url, {
         responseType: 'arraybuffer',
         headers: { Accept: PDF_MIME_TYPE },
         timeout: config.pdfDownloadTimeoutMs,

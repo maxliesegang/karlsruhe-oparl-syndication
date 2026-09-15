@@ -16,7 +16,7 @@ This repository builds and publishes an Atom feed for Karlsruhe city council age
 2. Fetch data:
    - Organizations: full crawl (no `modified_since` support).
    - Meetings & Papers: paginated fetch (`limit=1000`) with `modified_since = lastModified - 1 day`; toggle full pagination via `FETCH_ALL_PAGES` (default true). Requests run sequentially through `RequestQueue` with `REQUEST_DELAY` ms between items (default 1000) and axios-retry (3 tries).
-3. Enrich and build feed: await extraction, refresh Stadtteil matches, optionally update current paper summaries, then iterate meetings → agenda items; resolve consultations → papers → auxiliary files, normalize URLs with `normalizeOParlUrl`, compute freshest date (item/paper), and add Atom entries.
+3. Enrich and build feed: await extraction, refresh Stadtteil matches, optionally update current paper summaries, then iterate meetings → agenda items; resolve consultations → papers → auxiliary files, compute freshest date (item/paper), and add Atom entries.
 4. Persist artifacts to `docs/`:
    - `tagesordnungspunkte.xml` (or `FEED_FILENAME` override).
    - `meetings/<meetingId>.json` and `papers/<paperId>.json` — **one JSON object per record** (see below). These are the two largest, most git-churning stores.
@@ -193,7 +193,7 @@ v7 also fixes the lede. Every v6 summary opened with a reworded entry title (“
 
 ## Configuration (from `src/config.ts`, dotenv-enabled)
 
-- API: `MEETINGS_API_URL`, `PAPERS_API_URL`, `ORGANIZATIONS_API_URL` (defaults to Karlsruhe endpoints).
+- API: `MEETINGS_API_URL`, `PAPERS_API_URL`, `ORGANIZATIONS_API_URL` (defaults to the Karlsruhe **web2** endpoints under `/ris/oparl/` — see Operational Notes).
 - Feed: `FEED_TITLE`, `FEED_DESCRIPTION`, `FEED_ID`, `FEED_LINK`, `FEED_FILENAME`, `FEED_FILENAME_RECENT`, `FEED_LANGUAGE`, `FEED_COPYRIGHT`.
 - Author: `AUTHOR_NAME`, `AUTHOR_EMAIL`, `AUTHOR_LINK`.
 - Flags: `EXTRACT_PDF_TEXT` (default true), `FETCH_ALL_PAGES` (default true).
@@ -223,6 +223,7 @@ v7 also fixes the lede. Every v6 summary opened with a reworded entry title (“
 - `npm run smoke` — load the compiled module graph without fetching remote data.
 - `npm run models` — list the model ids the configured LLM endpoint serves, marking the one `LLM_MODEL` selects. Needs `LLM_API_KEY`; read-only, no summaries generated.
 - `npm run validate:feed` — check the generated feeds in `docs/` before committing them.
+- `npm run migrate:host` — **one-off, already applied**: rewrites stored ids from the web1 host to web2 (`--dry-run` to count first, `--docs-dir` to run against a copy). Kept in the tree as the documented precedent for an id-shape migration; it is a no-op once the archive is migrated.
 - `npm run format` — Prettier on `src/**/*.ts`.
 - `npm run serve` — static server for `docs/` on port 8080.
 - `npm run spike:digests` — **parked spike**, not part of the pipeline; see `src/spike/README.md`. Writes to `spike-output/` (gitignored) and never to `docs/`. Use `--dry-run` to inspect selection and coverage without spending anything.
@@ -255,7 +256,9 @@ Small modules that exist so two producers cannot drift apart. Reuse them rather 
 ## Operational Notes
 
 - HTTP: `src/api/http-client.ts` exposes `createRetryingHttpClient` — the single source of the retry policy (axios + axios-retry: 3 tries, honours `Retry-After`, retries network/timeout/429/503). `src/api/oparl-client.ts` builds the shared JSON `httpClient` and the sequential `requestQueue` (spaces API requests by `REQUEST_DELAY` ms); `PdfService` instantiates its own retrying client so bulk PDF downloads stay off that queue. Reuse the factory for any new outbound HTTP rather than re-configuring retries.
-- `normalizeOParlUrl` rewrites `/oparl/` to `/ris/oparl/`; rely on it when storing URLs.
+- **Use `web2.karlsruhe.de/ris/oparl/…` and store URLs exactly as the API returns them.** web2 mirrors the requested path prefix into every id, sub-collection link, `links.next` and `downloadUrl` it emits, so its URLs are reachable as given. `web1` serves the same data (identical record ids) but always emits URLs *without* the `/ris/` its own server requires — every one of them 404s. `normalizeOParlUrl` existed solely to patch that and is **gone**; don't reintroduce a URL rewrite, switch hosts instead. (`web6` serves no OParl at all.)
+- **Stored ids are host-qualified, so a host switch is an archive migration, not a config change.** Stores key on the full `id` URL and the archive is add-only, so pointing at a new host without rewriting `docs/` leaves two records per object, both sanitizing to the same basename — `buildRecordFileNameIndex` then fails the run on a filename collision. `src/migrate-oparl-host.ts` is the worked example: a literal prefix swap inside already-canonical JSON (so key order and formatting survive and the diff is one line per URL), verified per file by re-serializing with `canonicalStringify`. It touches `*.json` only — the `.txt` extracted text is PDF prose and a few of those files legitimately quote unrelated `web1.karlsruhe.de` pages.
+- **A host switch changes every Atom `<entry><id>`**, which is `agendaItem.id` ([`feed.ts`](src/feed.ts)) and is what readers dedupe on: subscribers see the whole archive as unread once. That is the real cost of the web1→web2 move, not the code.
 - `OPARL_PAGE_SIZE` is fixed at 1000; `FETCH_ALL_PAGES=false` will truncate after first page.
 - Logging lives in `src/logger.ts` with ANSI color; respects `LOG_LEVEL` env.
 - Tests live in `tests/`; add regression coverage before refactoring the pipeline or store persistence logic.
