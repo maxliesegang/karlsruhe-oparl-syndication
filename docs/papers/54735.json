@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00679736.pdf",
+      "created": "2026-07-14T12:49:31+02:00",
+      "date": "2026-07-14",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00679736.pdf",
+      "fileName": "00679736.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679736",
+      "mimeType": "application/pdf",
+      "modified": "2026-09-17T13:06:02+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103016",
+      "created": "2026-08-26T08:53:40+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37687",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10574",
+      "modified": "2026-09-14T14:42:02+02:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54735",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-07-14T12:49:07+02:00",
+  "date": "2026-07-14",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54735",
+  "modified": "2026-09-17T13:06:02+02:00",
+  "name": "Direktvergabe Reinigungsleistungen an KVD",
+  "paperType": "Antrag",
+  "reference": "2026/0553",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

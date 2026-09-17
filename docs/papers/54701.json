@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00679392.pdf",
+      "created": "2026-06-26T08:04:57+02:00",
+      "date": "2026-06-26",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00679392.pdf",
+      "fileName": "00679392.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679392",
+      "mimeType": "application/pdf",
+      "modified": "2026-09-17T12:49:27+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00679396.pdf",
+      "created": "2026-06-26T08:22:28+02:00",
+      "date": "2026-06-26",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00679396.pdf",
+      "fileName": "00679396.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679396",
+      "mimeType": "application/pdf",
+      "modified": "2026-09-17T12:49:27+02:00",
+      "name": "Mitgliederliste des Sanierungsbeirates Gewerbegebiet Grünwinkel",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102979",
+      "created": "2026-08-26T08:43:30+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37632",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10574",
+      "modified": "2026-08-26T08:44:20+02:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54701",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-06-26T08:03:15+02:00",
+  "date": "2026-06-26",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54701",
+  "modified": "2026-09-17T12:49:27+02:00",
+  "name": "Umbesetzung Mitglieder im Sanierungsbeirat Gewerbegebiet Grünwinkel",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0524",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/882980"
+  ]
+}
