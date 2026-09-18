@@ -1,7 +1,115 @@
 {
+  "agendaItem": [
+    {
+      "auxiliaryFile": [
+        {
+          "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00680900.pdf",
+          "created": "2026-09-18T12:01:05+02:00",
+          "date": "2026-09-18",
+          "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00680900.pdf",
+          "fileName": "00680900.pdf",
+          "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680900",
+          "mimeType": "application/pdf",
+          "modified": "2026-09-18T14:13:32+02:00",
+          "name": "Präsentation: Analyse der Notfallversorgungsrealität in Karlsruhe",
+          "type": "https://schema.oparl.org/1.1/File"
+        }
+      ],
+      "created": "2026-08-05T11:40:06+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102717",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10575",
+      "modified": "2026-09-18T12:01:11+02:00",
+      "name": "Notfallversorgungsrealitäten in Karlsruhe",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-08-05T11:40:32+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102718",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10575",
+      "modified": "2026-09-01T15:15:43+02:00",
+      "name": "Telemedizinische Angebote der Kassenärztlichen Vereinigung",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-08-05T12:46:48+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102721",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10575",
+      "modified": "2026-09-01T15:15:43+02:00",
+      "name": "Evaluation des Beratungszentrums der Karlsruher Energie- und Klimaschutzagentur (KEK)",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37753",
+      "created": "2026-08-05T11:35:25+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102714",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10575",
+      "modified": "2026-09-03T10:20:46+02:00",
+      "name": "Klimatisierung öffentlicher Gebäude zum Schutz vulnerabler Gruppen",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37755",
+      "created": "2026-08-05T11:35:25+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102715",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10575",
+      "modified": "2026-09-03T10:21:37+02:00",
+      "name": "Gebäude für Klimawandel ausstatten",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37891",
+      "created": "2026-09-03T10:26:58+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103062",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10575",
+      "modified": "2026-09-03T10:29:40+02:00",
+      "name": "Einrichtung von Kältepools in der Alb im Stadtkreis Karlsruhe zur Förderung des Fischbestands und der allgemeinen Biodiversität",
+      "number": "6",
+      "order": 6,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-08-05T11:35:24+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102712",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10575",
+      "modified": "2026-09-03T10:27:08+02:00",
+      "name": "Verschiedenes",
+      "number": "7",
+      "order": 7,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
   "created": "2025-10-10T13:33:06+02:00",
   "end": "2026-09-30T18:30:00+02:00",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10575",
+  "invitation": {
+    "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00680674.pdf",
+    "created": "2026-09-03T10:34:00+02:00",
+    "date": "2026-09-03",
+    "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00680674.pdf",
+    "fileName": "00680674.pdf",
+    "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680674",
+    "mimeType": "application/pdf",
+    "modified": "2026-09-18T14:13:32+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
   "location": {
     "created": "2022-12-12T11:11:26+01:00",
     "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/locations/rm/67907",
@@ -13,7 +121,7 @@
     "subLocality": "",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-09-08T20:04:33+02:00",
+  "modified": "2026-09-18T14:13:32+02:00",
   "name": "Ausschuss für Umwelt und Gesundheit (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/48728"
