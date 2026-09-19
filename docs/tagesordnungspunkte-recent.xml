@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://maxliesegang.github.io/karlsruhe-oparl-syndication/tagesordnungspunkte-recent.xml</id>
     <title>Alle Tagesordnungspunkte</title>
-    <updated>2026-09-19T06:50:49.000Z</updated>
+    <updated>2026-09-19T07:09:43.000Z</updated>
     <generator>Custom TypeScript Atom Feed Generator</generator>
     <author>
         <name>Maximilian Liesegang</name>
@@ -13,6 +13,31 @@
     <link rel="self" href="https://maxliesegang.github.io/karlsruhe-oparl-syndication/tagesordnungspunkte-recent.xml"/>
     <subtitle>Feed der Tagesordnungspunkte aus den Sitzungen aller Karlsruher Gremien</subtitle>
     <rights>Kein Copyright</rights>
+    <entry>
+        <title type="html"><![CDATA[Mehr Sicherheit im öffentlichen Raum]]></title>
+        <id>https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102457</id>
+        <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-10566#top39"/>
+        <updated>2026-09-19T07:09:43.000Z</updated>
+        <summary type="html"><![CDATA[Beratungsstand: Beratung im Fachgremium/Arbeitskreis – Die CDU-Gemeinderatsfraktion beantragt ein Konzept der Stadtverwaltung zur Videoüberwachung überirdischer Nahverkehrshaltestellen in der Innenstadt, insbesondere an vom Vandalismus betroffenen Bereichen wie Europaplatz, Mühlburger Tor und Bahnhofsvorplatz, gestaffelt nach Priorität auf Basis der beim KVV entstandenen Schäden. Zudem soll ein Konzept zur Videoüberwachung der förmlich als gefährliche Orte eingestuften Bereiche „Erweiterte Amalienstraße“ und „Erweiterter Marktplatz/Schlossplatz“ gemeinsam mit dem Polizeipräsidium erarbeitet werden. Schließlich fordert der Antrag, dass sich Karlsruhe beim Land Baden-Württemberg als Pilotstandort für intelligente Videoüberwachung nach dem Vorbild des Mannheimer Modells bewirbt.]]></summary>
+        <content type="html"><![CDATA[
+      <b>Sitzung:</b> Gemeinderat (öffentlich/nicht öffentlich)<br>
+      <b>Datum:</b> 28. Juli 2026<br>
+      <b>TOP 39:</b> Mehr Sicherheit im öffentlichen Raum<br>
+      <b>Beratungsstand dieser Sitzung:</b> Beratung im Fachgremium/Arbeitskreis<br><br>
+      <b>Antragstellende Fraktion:</b> CDU<br><br>
+      <b>KI-generierte Zusammenfassung der Vorlage:</b> Die CDU-Gemeinderatsfraktion beantragt ein Konzept der Stadtverwaltung zur Videoüberwachung überirdischer Nahverkehrshaltestellen in der Innenstadt, insbesondere an vom Vandalismus betroffenen Bereichen wie Europaplatz, Mühlburger Tor und Bahnhofsvorplatz, gestaffelt nach Priorität auf Basis der beim KVV entstandenen Schäden. Zudem soll ein Konzept zur Videoüberwachung der förmlich als gefährliche Orte eingestuften Bereiche „Erweiterte Amalienstraße“ und „Erweiterter Marktplatz/Schlossplatz“ gemeinsam mit dem Polizeipräsidium erarbeitet werden. Schließlich fordert der Antrag, dass sich Karlsruhe beim Land Baden-Württemberg als Pilotstandort für intelligente Videoüberwachung nach dem Vorbild des Mannheimer Modells bewirbt.<ul><li>Rechtsgrundlagen sind der neu gefasste § 18 LDSG (präventive Zwecke) und § 44 Abs. 3 PolG (Kriminalitätsbekämpfung an gefährlichen Orten); vorgesehen ist ein gezielter, räumlich begrenzter Einsatz statt einer flächendeckenden Überwachung.</li><li>Zur Begründung verweist der Antrag auf die Polizeiliche Kriminalstatistik: In der Innenstadt-West ereigneten sich 2025 laut Angaben 3.343 von 22.891 Straftaten, die Aufklärungsquote bei Straßenkriminalität liegt demnach nur bei 17,7 Prozent.</li><li>An den beiden gefährlichen Orten gilt seit dem 21. Januar 2026 ein Waffen- und Messerverbot; nach Kenntnis der Antragsteller findet dort bislang keine Videoüberwachung statt.</li><li>Der Antrag beruft sich unter anderem auf den Koalitionsvertrag von GRÜNEN und CDU auf Landesebene, der die Ausweitung der intelligenten Videoüberwachung an zwei weiteren Pilotstandorten vorsieht.</li></ul><small>Automatisch erstellt; maßgeblich sind die Originalunterlagen.</small><br><br>
+      <b>Anhänge:</b><br> <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00678659.pdf">Antrag (Erstellt am: 27.05.2026, Aktualisiert am: 17.07.2026)</a><br>
+    ]]></content>
+        <author>
+            <name>Gemeinderat (öffentlich/nicht öffentlich)</name>
+        </author>
+        <category label="Gemeinderat" scheme="https://oparl.org/schema/1.1/Organization" term="https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"/>
+        <category label="Innenstadt" scheme="https://maxliesegang.github.io/karlsruhe-oparl-syndication/stadtteile/" term="innenstadt"/>
+        <category label="Innenstadt-West" scheme="https://maxliesegang.github.io/karlsruhe-oparl-syndication/stadtteile/" term="innenstadt-west"/>
+        <category label="CDU" scheme="https://github.com/karlsruhe-oparl-syndication/schema/submitter" term="cdu"/>
+        <category label="Antrag" scheme="https://oparl.org/schema/1.1/Paper" term="Antrag"/>
+        <published>2026-06-30T12:18:39.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Einrichtung von Kältepools in der Alb im Stadtkreis Karlsruhe zur Förderung des Fischbestands und der allgemeinen Biodiversität]]></title>
         <id>https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103060</id>
@@ -600,31 +625,6 @@
         </author>
         <category label="Ortschaftsrat Stupferich" scheme="https://oparl.org/schema/1.1/Organization" term="https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/34764"/>
         <published>2026-09-08T10:20:53.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mehr Sicherheit im öffentlichen Raum]]></title>
-        <id>https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102457</id>
-        <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-10566#top39"/>
-        <updated>2026-09-18T11:37:08.000Z</updated>
-        <summary type="html"><![CDATA[Beratungsstand: Beratung im Fachgremium/Arbeitskreis – Die CDU-Gemeinderatsfraktion beantragt ein Konzept der Stadtverwaltung zur Videoüberwachung überirdischer Nahverkehrshaltestellen in der Innenstadt, insbesondere an vom Vandalismus betroffenen Bereichen wie Europaplatz, Mühlburger Tor und Bahnhofsvorplatz, gestaffelt nach Priorität auf Basis der beim KVV entstandenen Schäden. Zudem soll ein Konzept zur Videoüberwachung der förmlich als gefährliche Orte eingestuften Bereiche „Erweiterte Amalienstraße“ und „Erweiterter Marktplatz/Schlossplatz“ gemeinsam mit dem Polizeipräsidium erarbeitet werden. Schließlich fordert der Antrag, dass sich Karlsruhe beim Land Baden-Württemberg als Pilotstandort für intelligente Videoüberwachung nach dem Vorbild des Mannheimer Modells bewirbt.]]></summary>
-        <content type="html"><![CDATA[
-      <b>Sitzung:</b> Gemeinderat (öffentlich/nicht öffentlich)<br>
-      <b>Datum:</b> 28. Juli 2026<br>
-      <b>TOP 39:</b> Mehr Sicherheit im öffentlichen Raum<br>
-      <b>Beratungsstand dieser Sitzung:</b> Beratung im Fachgremium/Arbeitskreis<br><br>
-      <b>Antragstellende Fraktion:</b> CDU<br><br>
-      <b>KI-generierte Zusammenfassung der Vorlage:</b> Die CDU-Gemeinderatsfraktion beantragt ein Konzept der Stadtverwaltung zur Videoüberwachung überirdischer Nahverkehrshaltestellen in der Innenstadt, insbesondere an vom Vandalismus betroffenen Bereichen wie Europaplatz, Mühlburger Tor und Bahnhofsvorplatz, gestaffelt nach Priorität auf Basis der beim KVV entstandenen Schäden. Zudem soll ein Konzept zur Videoüberwachung der förmlich als gefährliche Orte eingestuften Bereiche „Erweiterte Amalienstraße“ und „Erweiterter Marktplatz/Schlossplatz“ gemeinsam mit dem Polizeipräsidium erarbeitet werden. Schließlich fordert der Antrag, dass sich Karlsruhe beim Land Baden-Württemberg als Pilotstandort für intelligente Videoüberwachung nach dem Vorbild des Mannheimer Modells bewirbt.<ul><li>Rechtsgrundlagen sind der neu gefasste § 18 LDSG (präventive Zwecke) und § 44 Abs. 3 PolG (Kriminalitätsbekämpfung an gefährlichen Orten); vorgesehen ist ein gezielter, räumlich begrenzter Einsatz statt einer flächendeckenden Überwachung.</li><li>Zur Begründung verweist der Antrag auf die Polizeiliche Kriminalstatistik: In der Innenstadt-West ereigneten sich 2025 laut Angaben 3.343 von 22.891 Straftaten, die Aufklärungsquote bei Straßenkriminalität liegt demnach nur bei 17,7 Prozent.</li><li>An den beiden gefährlichen Orten gilt seit dem 21. Januar 2026 ein Waffen- und Messerverbot; nach Kenntnis der Antragsteller findet dort bislang keine Videoüberwachung statt.</li><li>Der Antrag beruft sich unter anderem auf den Koalitionsvertrag von GRÜNEN und CDU auf Landesebene, der die Ausweitung der intelligenten Videoüberwachung an zwei weiteren Pilotstandorten vorsieht.</li></ul><small>Automatisch erstellt; maßgeblich sind die Originalunterlagen.</small><br><br>
-      <b>Anhänge:</b><br> <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00678659.pdf">Antrag (Erstellt am: 27.05.2026, Aktualisiert am: 17.07.2026)</a><br>
-    ]]></content>
-        <author>
-            <name>Gemeinderat (öffentlich/nicht öffentlich)</name>
-        </author>
-        <category label="Gemeinderat" scheme="https://oparl.org/schema/1.1/Organization" term="https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"/>
-        <category label="Innenstadt" scheme="https://maxliesegang.github.io/karlsruhe-oparl-syndication/stadtteile/" term="innenstadt"/>
-        <category label="Innenstadt-West" scheme="https://maxliesegang.github.io/karlsruhe-oparl-syndication/stadtteile/" term="innenstadt-west"/>
-        <category label="CDU" scheme="https://github.com/karlsruhe-oparl-syndication/schema/submitter" term="cdu"/>
-        <category label="Antrag" scheme="https://oparl.org/schema/1.1/Paper" term="Antrag"/>
-        <published>2026-06-30T12:18:39.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Fragen und Anregungen der Einwohnerinnen und Einwohner]]></title>
