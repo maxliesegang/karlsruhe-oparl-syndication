@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://maxliesegang.github.io/karlsruhe-oparl-syndication/stadtteile/innenstadt.xml</id>
     <title>Tagesordnungspunkte – Innenstadt</title>
-    <updated>2026-09-21T07:30:14.000Z</updated>
+    <updated>2026-09-21T09:53:52.000Z</updated>
     <generator>Custom TypeScript Atom Feed Generator</generator>
     <author>
         <name>Maximilian Liesegang</name>
@@ -13,6 +13,30 @@
     <link rel="self" href="https://maxliesegang.github.io/karlsruhe-oparl-syndication/stadtteile/innenstadt.xml"/>
     <subtitle>Öffentliche Tagesordnungspunkte mit Bezug zum Stadtteil Innenstadt</subtitle>
     <rights>Kein Copyright</rights>
+    <entry>
+        <title type="html"><![CDATA[Umsetzung des Entsiegelungskonzepts]]></title>
+        <id>https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103002</id>
+        <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-10574#top29"/>
+        <updated>2026-09-21T09:53:52.000Z</updated>
+        <summary type="html"><![CDATA[Die Anfrage der GRÜNE-Fraktion richtet sich an die Verwaltung und fragt nach, wie das Entsiegelungskonzept bei konkreten Baustellen in Karlsruhe angewendet wurde. Sie bezieht sich auf das Entsiegelungskonzept, das der Gemeinderat am 27.01.2026 beschlossen hat, und nennt beispielhaft Baustellen in der Innenstadt (Seminarstraße, Akademiestraße, Herrenstraße) sowie im restlichen Stadtgebiet (u. a. Brunnenhausstraße, Oberwaldstraße, Lessingstraße, Uhlandstraße). Gefragt wird unter anderem, ob und mit welchem Ergebnis die Entsiegelungsmodule S (Sickerflächen), M (Sickerrinnen), L (Staudenbeete) und XL (Baumstandorte) geprüft wurden, welche Hinderungsgründe bestanden und wie das Zusammenspiel der beteiligten Akteure wie Vorhabensträger, Stadtplanungsamt, Tiefbauamt und Netzservice GmbH organisiert ist.]]></summary>
+        <content type="html"><![CDATA[
+      <b>Sitzung:</b> Gemeinderat (öffentlich/nicht öffentlich)<br>
+      <b>Datum:</b> 29. September 2026<br>
+      <b>TOP 29:</b> Umsetzung des Entsiegelungskonzepts<br>
+      
+      <b>Antragstellende Fraktion:</b> GRÜNE<br><br>
+      <b>KI-generierte Zusammenfassung der Vorlage:</b> Die Anfrage der GRÜNE-Fraktion richtet sich an die Verwaltung und fragt nach, wie das Entsiegelungskonzept bei konkreten Baustellen in Karlsruhe angewendet wurde. Sie bezieht sich auf das Entsiegelungskonzept, das der Gemeinderat am 27.01.2026 beschlossen hat, und nennt beispielhaft Baustellen in der Innenstadt (Seminarstraße, Akademiestraße, Herrenstraße) sowie im restlichen Stadtgebiet (u. a. Brunnenhausstraße, Oberwaldstraße, Lessingstraße, Uhlandstraße). Gefragt wird unter anderem, ob und mit welchem Ergebnis die Entsiegelungsmodule S (Sickerflächen), M (Sickerrinnen), L (Staudenbeete) und XL (Baumstandorte) geprüft wurden, welche Hinderungsgründe bestanden und wie das Zusammenspiel der beteiligten Akteure wie Vorhabensträger, Stadtplanungsamt, Tiefbauamt und Netzservice GmbH organisiert ist.<ul><li>Die Anfrage nennt konkrete Baustellen, darunter Leitungs- und Fernwärmearbeiten in der Seminarstraße, Akademiestraße, Herrenstraße, Brunnenhausstraße, Oberwaldstraße, Lessingstraße und Uhlandstraße.</li><li>Gefragt wird, welche Entsiegelungsmodule (S, M, L, XL) geprüft wurden, welche Maßnahmen umgesetzt wurden und welche Hinderungsgründe festgestellt wurden.</li><li>Die Anfrage thematisiert auch die Zuständigkeiten und den Prozess bei der Prüfung der Umsetzbarkeit sowie den Austausch mit Bevölkerung, Vereinen und Gewerbe zur Übernahme von Patenschaften für die Pflege entsiegelter Flächen.</li><li>Zur Begründung wird auf den Klimawandel verwiesen: Entsiegelung und Begrünung schützen vor Hitze, verbessern die Aufenthaltsqualität und entlasten die Entwässerungsinfrastruktur im Sinne der Schwammstadt.</li></ul><small>Automatisch erstellt; maßgeblich sind die Originalunterlagen.</small><br><br>
+      <b>Anhänge:</b><br> <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00679440.pdf">Anfrage (Erstellt am: 30.06.2026, Aktualisiert am: 17.09.2026)</a><br>
+    ]]></content>
+        <author>
+            <name>Gemeinderat (öffentlich/nicht öffentlich)</name>
+        </author>
+        <category label="Gemeinderat" scheme="https://oparl.org/schema/1.1/Organization" term="https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"/>
+        <category label="Innenstadt" scheme="https://maxliesegang.github.io/karlsruhe-oparl-syndication/stadtteile/" term="innenstadt"/>
+        <category label="GRÜNE" scheme="https://github.com/karlsruhe-oparl-syndication/schema/submitter" term="gruene"/>
+        <category label="Anfrage" scheme="https://oparl.org/schema/1.1/Paper" term="Anfrage"/>
+        <published>2026-08-26T06:43:31.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mehr Sicherheit im öffentlichen Raum]]></title>
         <id>https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102457</id>
@@ -198,30 +222,6 @@
         <category label="CDU" scheme="https://github.com/karlsruhe-oparl-syndication/schema/submitter" term="cdu"/>
         <category label="Antrag" scheme="https://oparl.org/schema/1.1/Paper" term="Antrag"/>
         <published>2026-08-26T06:43:30.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Umsetzung des Entsiegelungskonzepts]]></title>
-        <id>https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103002</id>
-        <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-10574#top29"/>
-        <updated>2026-09-17T11:38:34.000Z</updated>
-        <summary type="html"><![CDATA[Die Anfrage der GRÜNE-Fraktion richtet sich an die Verwaltung und fragt nach, wie das Entsiegelungskonzept bei konkreten Baustellen in Karlsruhe angewendet wurde. Sie bezieht sich auf das Entsiegelungskonzept, das der Gemeinderat am 27.01.2026 beschlossen hat, und nennt beispielhaft Baustellen in der Innenstadt (Seminarstraße, Akademiestraße, Herrenstraße) sowie im restlichen Stadtgebiet (u. a. Brunnenhausstraße, Oberwaldstraße, Lessingstraße, Uhlandstraße). Gefragt wird unter anderem, ob und mit welchem Ergebnis die Entsiegelungsmodule S (Sickerflächen), M (Sickerrinnen), L (Staudenbeete) und XL (Baumstandorte) geprüft wurden, welche Hinderungsgründe bestanden und wie das Zusammenspiel der beteiligten Akteure wie Vorhabensträger, Stadtplanungsamt, Tiefbauamt und Netzservice GmbH organisiert ist.]]></summary>
-        <content type="html"><![CDATA[
-      <b>Sitzung:</b> Gemeinderat (öffentlich/nicht öffentlich)<br>
-      <b>Datum:</b> 29. September 2026<br>
-      <b>TOP 29:</b> Umsetzung des Entsiegelungskonzepts<br>
-      
-      <b>Antragstellende Fraktion:</b> GRÜNE<br><br>
-      <b>KI-generierte Zusammenfassung der Vorlage:</b> Die Anfrage der GRÜNE-Fraktion richtet sich an die Verwaltung und fragt nach, wie das Entsiegelungskonzept bei konkreten Baustellen in Karlsruhe angewendet wurde. Sie bezieht sich auf das Entsiegelungskonzept, das der Gemeinderat am 27.01.2026 beschlossen hat, und nennt beispielhaft Baustellen in der Innenstadt (Seminarstraße, Akademiestraße, Herrenstraße) sowie im restlichen Stadtgebiet (u. a. Brunnenhausstraße, Oberwaldstraße, Lessingstraße, Uhlandstraße). Gefragt wird unter anderem, ob und mit welchem Ergebnis die Entsiegelungsmodule S (Sickerflächen), M (Sickerrinnen), L (Staudenbeete) und XL (Baumstandorte) geprüft wurden, welche Hinderungsgründe bestanden und wie das Zusammenspiel der beteiligten Akteure wie Vorhabensträger, Stadtplanungsamt, Tiefbauamt und Netzservice GmbH organisiert ist.<ul><li>Die Anfrage nennt konkrete Baustellen, darunter Leitungs- und Fernwärmearbeiten in der Seminarstraße, Akademiestraße, Herrenstraße, Brunnenhausstraße, Oberwaldstraße, Lessingstraße und Uhlandstraße.</li><li>Gefragt wird, welche Entsiegelungsmodule (S, M, L, XL) geprüft wurden, welche Maßnahmen umgesetzt wurden und welche Hinderungsgründe festgestellt wurden.</li><li>Die Anfrage thematisiert auch die Zuständigkeiten und den Prozess bei der Prüfung der Umsetzbarkeit sowie den Austausch mit Bevölkerung, Vereinen und Gewerbe zur Übernahme von Patenschaften für die Pflege entsiegelter Flächen.</li><li>Zur Begründung wird auf den Klimawandel verwiesen: Entsiegelung und Begrünung schützen vor Hitze, verbessern die Aufenthaltsqualität und entlasten die Entwässerungsinfrastruktur im Sinne der Schwammstadt.</li></ul><small>Automatisch erstellt; maßgeblich sind die Originalunterlagen.</small><br><br>
-      <b>Anhänge:</b><br> <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00679440.pdf">Anfrage (Erstellt am: 30.06.2026, Aktualisiert am: 17.09.2026)</a><br>
-    ]]></content>
-        <author>
-            <name>Gemeinderat (öffentlich/nicht öffentlich)</name>
-        </author>
-        <category label="Gemeinderat" scheme="https://oparl.org/schema/1.1/Organization" term="https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"/>
-        <category label="Innenstadt" scheme="https://maxliesegang.github.io/karlsruhe-oparl-syndication/stadtteile/" term="innenstadt"/>
-        <category label="GRÜNE" scheme="https://github.com/karlsruhe-oparl-syndication/schema/submitter" term="gruene"/>
-        <category label="Anfrage" scheme="https://oparl.org/schema/1.1/Paper" term="Anfrage"/>
-        <published>2026-08-26T06:43:31.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Umsetzung des Leitfadens “Verwaltungspraxis gastronomische Sondernutzungen auf öffentlichen Parkständen” – Zwischenfazit und aktuelle Betrachtung zur zukünftigen Entwicklung der Karlsruher Außengastronomie]]></title>
