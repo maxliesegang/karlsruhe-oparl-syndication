@@ -13,6 +13,18 @@
       "type": "https://schema.oparl.org/1.1/File"
     },
     {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00678234.pdf",
+      "created": "2026-05-08T13:00:07+02:00",
+      "date": "2026-07-16",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00678234.pdf",
+      "fileName": "00678234.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678234",
+      "mimeType": "application/pdf",
+      "modified": "2026-09-24T11:46:30+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
       "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00679630.pdf",
       "created": "2026-07-07T14:51:11+02:00",
       "date": "2026-07-07",
@@ -39,6 +51,19 @@
       ],
       "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54508",
       "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102322",
+      "created": "2026-06-24T10:10:44+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37467",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10579",
+      "modified": "2026-08-10T15:55:54+02:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/41797"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54508",
+      "role": "Behandlung",
       "type": "https://schema.oparl.org/1.1/Consultation"
     }
   ],
