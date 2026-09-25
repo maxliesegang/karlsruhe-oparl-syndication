@@ -14,10 +14,24 @@
       "type": "https://schema.oparl.org/1.1/AgendaItem"
     },
     {
+      "auxiliaryFile": [
+        {
+          "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681070.pdf",
+          "created": "2026-09-25T10:42:23+02:00",
+          "date": "2026-09-25",
+          "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681070.pdf",
+          "fileName": "00681070.pdf",
+          "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681070",
+          "mimeType": "application/pdf",
+          "modified": "2026-09-25T10:42:37+02:00",
+          "name": "Präsentation HFA 22.09.26 neu",
+          "type": "https://schema.oparl.org/1.1/File"
+        }
+      ],
       "created": "2026-08-24T11:48:55+02:00",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102930",
       "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10570",
-      "modified": "2026-09-23T07:16:00+02:00",
+      "modified": "2026-09-25T10:42:28+02:00",
       "name": "Sachstand Integriertes Stadtentwicklungskonzept Karlsruhe 2040 (mündlicher Bericht)",
       "number": "2",
       "order": 2,
@@ -89,7 +103,7 @@
     "fileName": "00680778.pdf",
     "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680778",
     "mimeType": "application/pdf",
-    "modified": "2026-09-23T06:59:40+02:00",
+    "modified": "2026-09-25T10:42:33+02:00",
     "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
     "type": "https://schema.oparl.org/1.1/File"
   },
@@ -104,7 +118,7 @@
     "subLocality": "",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-09-23T07:25:12+02:00",
+  "modified": "2026-09-25T10:42:37+02:00",
   "name": "Haupt- und Finanzausschuss (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/28964"
@@ -117,7 +131,7 @@
     "fileName": "00680990.pdf",
     "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680990",
     "mimeType": "application/pdf",
-    "modified": "2026-09-23T07:25:12+02:00",
+    "modified": "2026-09-25T10:42:37+02:00",
     "name": "Anwesenheit (Protokoll)",
     "type": "https://schema.oparl.org/1.1/File"
   },
