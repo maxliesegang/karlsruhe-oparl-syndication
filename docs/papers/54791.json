@@ -1,4 +1,42 @@
 {
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00680070.pdf",
+      "created": "2026-08-06T08:36:31+02:00",
+      "date": "2026-08-06",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00680070.pdf",
+      "fileName": "00680070.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680070",
+      "mimeType": "application/pdf",
+      "modified": "2026-09-25T07:06:06+02:00",
+      "name": "Visualiserung Staudenbeet",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00680074.pdf",
+      "created": "2026-08-06T09:37:14+02:00",
+      "date": "2026-08-06",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00680074.pdf",
+      "fileName": "00680074.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680074",
+      "mimeType": "application/pdf",
+      "modified": "2026-09-25T07:06:06+02:00",
+      "name": "Bisheriger Planentwurf",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00680322.pdf",
+      "created": "2026-08-19T12:02:30+02:00",
+      "date": "2026-08-19",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00680322.pdf",
+      "fileName": "00680322.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680322",
+      "mimeType": "application/pdf",
+      "modified": "2026-09-25T07:06:06+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
   "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
   "consultation": [
     {
@@ -18,10 +56,13 @@
   "created": "2026-08-05T08:10:16+02:00",
   "date": "2026-08-05",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54791",
-  "modified": "2026-09-16T12:52:22+02:00",
+  "modified": "2026-09-25T07:06:06+02:00",
   "name": "Sachstand und weiteres Vorgehen Bernhardusplatz",
   "paperType": "Beschlussvorlage",
   "reference": "2026/0601",
+  "superordinatedPaper": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54959"
+  ],
   "type": "https://schema.oparl.org/1.1/Paper",
   "underDirectionOf": [
     "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/882984"
