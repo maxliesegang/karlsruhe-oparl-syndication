@@ -18,6 +18,7 @@ import {
   buildPaperSubmitterIndex,
   createPaperSubmitterResolver,
   PAPER_SUBMITTER_INDEX_FILE_NAME,
+  PaperSubmitterIndex,
   writePaperSubmitterIndex,
 } from './paper-submitter-index-service.js';
 import { updatePaperSummaries } from './paper-summary-service.js';
@@ -92,13 +93,11 @@ async function refreshOParlData(
 async function buildAndWriteFeeds(
   paperSummaries: Map<string, PaperSummary>,
   districtIndex: PaperDistrictIndex,
+  submitterIndex: PaperSubmitterIndex,
   meetingDigests: MeetingDigest[],
 ): Promise<void> {
   logger.info('Generating feed...');
   const meetings = stores.meetings.getAll();
-  // Built once and used for both the published artifact and the feeds, so a viewer
-  // reading docs/paper-submitters.json can never disagree with the feed categories.
-  const submitterIndex = buildPaperSubmitterIndex();
   await writePaperSubmitterIndex(submitterIndex);
   const records = buildAgendaItemRecords(meetings, {
     // The same in-memory index that was just published, rather than a re-read of the
@@ -170,6 +169,10 @@ export async function runFeedGeneration(options: FeedGenerationOptions = {}): Pr
   // text are reflected in Stadtteil categories during the same generation run.
   await stores.fileContents.waitForPendingExtractions();
   const districtIndex = await updatePaperDistrictIndex();
+  // Built once and used for the published artifact, the feeds and the meeting
+  // previews, so a viewer reading docs/paper-submitters.json can never disagree
+  // with a feed category or with what a preview names as the submitter.
+  const submitterIndex = buildPaperSubmitterIndex();
   let paperSummaries = new Map<string, PaperSummary>();
   try {
     paperSummaries = await updatePaperSummaries(stores.meetings.getAll(), {
@@ -184,11 +187,13 @@ export async function runFeedGeneration(options: FeedGenerationOptions = {}): Pr
   try {
     meetingDigests = await updateMeetingDigests(stores.meetings.getAll(), paperSummaries, {
       enabled: options.generateSummaries === false ? false : undefined,
+      resolvePaperDistricts: createPaperDistrictResolver(districtIndex),
+      resolvePaperSubmitters: createPaperSubmitterResolver(submitterIndex),
     });
   } catch (error) {
     logger.warn('Meeting digest refresh failed; continuing without previews.', error);
   }
-  await buildAndWriteFeeds(paperSummaries, districtIndex, meetingDigests);
+  await buildAndWriteFeeds(paperSummaries, districtIndex, submitterIndex, meetingDigests);
   await stores.saveToDisk();
   logger.info('Saved store data to disk');
 

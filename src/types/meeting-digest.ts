@@ -2,9 +2,12 @@
 export type MeetingDigestLead = 'week' | 'day';
 
 export interface MeetingDigestBody {
-  /** Two to four sentences framing the whole sitting. */
+  /**
+   * At most two sentences about the sitting as a whole, or empty when there is
+   * nothing to say beyond the highlights — forcing one produced filler.
+   */
   overview: string;
-  /** Three to six concrete points, each traceable to one agenda item. */
+  /** One to six points, each traceable to one agenda item or a group of routine ones. */
   highlights: string[];
 }
 
@@ -33,6 +36,9 @@ export interface MeetingDigest extends MeetingDigestBody {
   generatedAt: string;
   /** Papers whose summary fed this preview, by record basename. */
   sourcePapers: string[];
-  /** Public, numbered agenda items that had no current summary to contribute. */
+  /**
+   * Public, numbered agenda items that had no current summary to contribute. The
+   * model sees them by title and procedure only; the feed tells the reader so.
+   */
   uncoveredCount: number;
 }

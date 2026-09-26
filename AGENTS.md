@@ -155,12 +155,31 @@ This repository builds and publishes an Atom feed for Karlsruhe city council age
 - Numeric grounding reuses `findUngroundedNumericLiterals` unchanged: one corrective retry,
   then the preview is dropped and retried next run. Failures are fail-open per sitting; a run
   whose attempts all fail logs at **error**, matching the summary step.
-- **Known open issue: the "one point per Vorlage" prompt rule does not hold on small agendas.**
-  The 2026-09-15 Ortschaftsrat Neureut preview emitted three points for `TOP 2` and two for
-  `TOP 3` out of two papers. Nothing stated was wrong and the procedural voice was correct, so
-  this is a shape complaint, not a grounding one. Whether to enforce it deterministically
-  (dedupe by TOP number) or relax the rule for thin agendas is undecided — a two-paper sitting
-  arguably *should* yield more than two points.
+- **v2 (`meeting-de-v2`) gives the model the procedure, not just the summaries.** v1 composed only
+  the per-paper summaries, which the agenda feed already shows, and asked for one point per
+  Vorlage — so it paraphrased the TOPs and padded the overview (“Entscheidungen stehen noch aus”).
+  Worse, with no role in the input it inferred one from “Die Beschlussvorlage schlägt vor …” and
+  called the Parkraumkonzept “zur Entscheidung” in four Ortschaftsräte that only took note of it.
+  Each TOP block now carries `Rolle dieses Gremiums`, the full `Beratungsfolge` (every consulting
+  body in sitting order with its role and the literal OParl `result` of past sittings), primary
+  Stadtteile and submitting factions, all from data already in memory. The prompt asks what is
+  decided *here*, what is routine, and where a controversy shows; it may group routine items,
+  skip TOPs, and return an empty overview. It may cite another body's past result only with body
+  and date — this sitting still has none.
+- **Paperless TOPs go in by title; standing slots do not.** An item with no current summary is
+  included as title plus procedure (“Keine Kurzfassung verfügbar.”) and counted in
+  `uncoveredCount`, which the feed now states in the entry. `isStandingAgendaItem` drops
+  Mitteilungen/Bekanntgaben/Verschiedenes/the council's own question round/section headings so
+  they don't inflate that count; residents' question time is deliberately kept. A sitting with
+  no summarized item still gets no preview.
+- **`MAX_OUTPUT_TOKENS` is 12000 because of reasoning, not output.** At 4000 the v2 prompt spent the
+  entire budget reasoning on the six-item 2026-09-22 HFA agenda and emitted no text, three
+  attempts running; at 12000 it answered in ~155 s. Only generated tokens are billed.
+- **Stored text is cut at a sentence, never mid-word.** v1's `slice(0, 500)` published three of six
+  previews ending “… gesichert s”; `truncateAtSentence` skips abbreviations and day ordinals
+  (“31. März”) and falls back to a word cut with “…”.
+- `feed-generation-service.ts` builds the submitter index once, before the previews, and hands the
+  same district and submitter resolvers to the previews and the feeds.
 
 ### The document template does the work the prompt used to argue about (`paper-document-template.ts`)
 
@@ -209,7 +228,7 @@ v7 also fixes the lede. Every v6 summary opened with a reworded entry title (“
 - Author: `AUTHOR_NAME`, `AUTHOR_EMAIL`, `AUTHOR_LINK`.
 - Flags: `EXTRACT_PDF_TEXT` (default true), `FETCH_ALL_PAGES` (default true).
 - Summaries: `GENERATE_LLM_SUMMARIES` (default false), `LLM_API_KEY`, `LLM_BASE_URL`, `LLM_MODEL`, `LLM_FALLBACK_MODEL` (default `mimo-v2.5`; set empty to disable), `SUMMARY_PROMPT_VERSION`, `SUMMARY_MAX_ITEMS_PER_RUN`, `SUMMARY_MAX_INPUT_CHARS`, `SUMMARY_CONCURRENCY`, `SUMMARY_REQUEST_TIMEOUT_MS`.
-- Meeting previews: `GENERATE_MEETING_DIGESTS` (default true), `MEETING_DIGEST_PROMPT_VERSION`, `MEETING_DIGEST_MAX_ITEMS_PER_RUN` (default 8), `MEETING_DIGEST_FEED_FILENAME` (default `sitzungsvorschau.xml`). They use `LLM_MODEL` and share only `DIGEST_REQUEST_TIMEOUT_MS` with the parked digest spike.
+- Meeting previews: `GENERATE_MEETING_DIGESTS` (default true), `MEETING_DIGEST_PROMPT_VERSION` (default `meeting-de-v2`), `MEETING_DIGEST_MAX_ITEMS_PER_RUN` (default 8), `MEETING_DIGEST_FEED_FILENAME` (default `sitzungsvorschau.xml`). They use `LLM_MODEL` and share only `DIGEST_REQUEST_TIMEOUT_MS` with the parked digest spike.
 - Monthly rollup digests (**spike only** — read by `src/spike/`, not by `npm run generate`): `DIGEST_MODEL` (default `mimo-v2.5-pro`), plus `DIGEST_REQUEST_TIMEOUT_MS` (default 900000), which the meeting previews also use. `DIGEST_MODEL` is deliberately separate from `LLM_MODEL`: the rollups are ~90 calls a month against ~3,000 paper summaries, so a stronger and much slower model is affordable there and nowhere else.
 - Rate limiting: `REQUEST_DELAY` (ms, default 1000).
 - Reconciliation: `FULL_RECONCILIATION_INTERVAL_DAYS` (default 7) — how often the incremental cursors are ignored for an authoritative full crawl.

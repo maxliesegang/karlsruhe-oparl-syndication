@@ -1,7 +1,10 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { config } from '../src/config.js';
 import { MeetingDigestWriter } from '../src/services/llm/meeting-digest-writer.js';
-import { updateMeetingDigests } from '../src/services/meeting-digest-service.js';
+import {
+  isStandingAgendaItem,
+  updateMeetingDigests,
+} from '../src/services/meeting-digest-service.js';
 import { stores } from '../src/store/index.js';
 import { Meeting, Paper, PaperSummary } from '../src/types/index.js';
 
@@ -257,4 +260,145 @@ describe('meeting digest service', () => {
     });
     expect(digests).toHaveLength(1);
   });
+
+  it("gives the model the role of this sitting and the paper's whole Beratungsfolge", async () => {
+    // meeting-de-v1 saw only the summary and announced a Kenntnisnahme as
+    // “zur Entscheidung”, because “Die Beschlussvorlage schlägt vor …” read that way.
+    stores.organizations.add({
+      id: 'https://example.test/organizations/gr',
+      type: 'Organization',
+      name: 'Gemeinderat',
+    } as never);
+    stores.organizations.add({
+      id: 'https://example.test/organizations/pa',
+      type: 'Organization',
+      name: 'Planungsausschuss',
+    } as never);
+    const earlier: Meeting = {
+      ...structuredClone(meeting),
+      id: 'https://example.test/meetings/499',
+      name: 'Planungsausschuss (öffentlich)',
+      start: '2026-07-20T16:00:00Z',
+      agendaItem: [
+        {
+          ...meeting.agendaItem![0],
+          id: 'https://example.test/agendaItems/earlier',
+          meeting: 'https://example.test/meetings/499',
+          result: 'mehrheitlich beschlossen',
+        },
+      ],
+    };
+    const current = structuredClone(meeting);
+    current.name = 'Ortschaftsrat Neureut (öffentlich)';
+    stores.meetings.add(earlier);
+    stores.meetings.add(current);
+    stores.papers.add({
+      ...structuredClone(paper),
+      consultation: [
+        {
+          ...paper.consultation![0],
+          id: 'https://example.test/consultations/final',
+          agendaItem: 'https://example.test/agendaItems/final',
+          meeting: undefined as never,
+          organization: ['https://example.test/organizations/gr'],
+          role: 'Entscheidung',
+        },
+        { ...paper.consultation![0], role: 'Kenntnisnahme' },
+        {
+          ...paper.consultation![0],
+          id: 'https://example.test/consultations/earlier',
+          agendaItem: 'https://example.test/agendaItems/earlier',
+          meeting: 'https://example.test/meetings/499',
+          organization: ['https://example.test/organizations/pa'],
+          role: 'Vorberatung',
+        },
+      ],
+    });
+
+    const { writer, write } = createWriter();
+    await updateMeetingDigests([current], new Map([[paper.id, summary]]), {
+      enabled: true,
+      writer,
+      now: weekBefore,
+      resolvePaperDistricts: () => ['Neureut'],
+      resolvePaperSubmitters: () => ['cdu'],
+    });
+
+    const source: string = write.mock.calls[0][0].sourceText;
+    expect(source).toContain('Rolle dieses Gremiums: Kenntnisnahme');
+    expect(source).toContain(
+      'Beratungsfolge: Planungsausschuss 20.07.2026 (Vorberatung, Ergebnis: mehrheitlich beschlossen); ' +
+        'Ortschaftsrat Neureut 08.08.2026 (Kenntnisnahme, diese Sitzung); ' +
+        'Gemeinderat Termin offen (Entscheidung)',
+    );
+    expect(source).toContain('Stadtteile: Neureut');
+    expect(source).toContain('Antragstellende Fraktion(en): CDU');
+    expect(source).toContain('Kurzfassung: Die Vorlage schlägt den Umbau des Marktplatzes vor.');
+  });
+
+  it('shows an item without a summary by title only', async () => {
+    const withExtraItem = structuredClone(meeting);
+    withExtraItem.agendaItem!.push({
+      ...withExtraItem.agendaItem![0],
+      id: 'https://example.test/agendaItems/digest-2',
+      number: '2',
+      order: 2,
+      name: 'Sachstand Glasfaserausbau (mündlicher Bericht)',
+      consultation: undefined,
+    });
+
+    const { writer, write } = createWriter();
+    await updateMeetingDigests([withExtraItem], new Map([[paper.id, summary]]), {
+      enabled: true,
+      writer,
+      now: weekBefore,
+    });
+    expect(write.mock.calls[0][0].sourceText).toContain(
+      '--- TOP 2 – Sachstand Glasfaserausbau (mündlicher Bericht) ---\nKeine Kurzfassung verfügbar.',
+    );
+  });
+
+  it('leaves standing agenda slots out of the input and the uncovered count', async () => {
+    const withStandingItem = structuredClone(meeting);
+    withStandingItem.agendaItem!.push({
+      ...withStandingItem.agendaItem![0],
+      id: 'https://example.test/agendaItems/digest-2',
+      number: '2',
+      order: 2,
+      name: 'Mitteilungen der Ortsverwaltung',
+      consultation: undefined,
+    });
+
+    const { writer, write } = createWriter();
+    const digests = await updateMeetingDigests([withStandingItem], new Map([[paper.id, summary]]), {
+      enabled: true,
+      writer,
+      now: weekBefore,
+    });
+    expect(digests[0].uncoveredCount).toBe(0);
+    expect(write.mock.calls[0][0].sourceText).not.toContain('Mitteilungen');
+  });
+});
+
+describe('isStandingAgendaItem', () => {
+  it.each([
+    'Mitteilungen der Ortsverwaltung',
+    'Bekanntgabe nichtöffentlich gefasster Beschlüsse',
+    'Bekanntgaben',
+    'Verschiedenes',
+    'Anfragen und Anregungen aus dem Ortschaftsrat',
+    'Mündliche Anfragen',
+    'Anregungen aus dem Ortschaftsrat',
+    '- a b g e s e t z t -',
+    'ANTRÄGE',
+    'Anträge, die im Ausschuss behandelt werden:',
+  ])('matches %s', (name) => expect(isStandingAgendaItem(name)).toBe(true));
+
+  it.each([
+    'Fragen und Anregungen der Einwohnerinnen und Einwohner',
+    'Bürgerfragestunde',
+    'Sachstand Glasfaserausbau in Karlsruhe mit Blick auf Neureut',
+    'Mündlicher Bericht zum Bauvorhaben Schloss Augustenburg',
+    'Blutspenderehrung 2026',
+  ])('keeps %s', (name) => expect(isStandingAgendaItem(name)).toBe(false));
 });

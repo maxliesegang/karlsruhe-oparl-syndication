@@ -3,7 +3,17 @@ import { config } from '../config.js';
 import { canonicalStringify, recordBasename } from '../docs-files.js';
 import { logger } from '../logger.js';
 import { stores } from '../store/index.js';
-import { Meeting, MeetingDigest, MeetingDigestLead, Paper, PaperSummary } from '../types/index.js';
+import { KarlsruheDistrict } from '../karlsruhe-districts.js';
+import { FactionId, getFactionName } from '../paper-submitters.js';
+import {
+  AgendaItem,
+  Consultation,
+  Meeting,
+  MeetingDigest,
+  MeetingDigestLead,
+  Paper,
+  PaperSummary,
+} from '../types/index.js';
 import { MeetingDigestWriter } from './llm/meeting-digest-writer.js';
 import { OpenCodeMeetingDigestWriter } from './llm/opencode-meeting-digest-writer.js';
 import { findUngroundedNumericLiterals } from './llm/summary-grounding.js';
@@ -14,7 +24,7 @@ export const MEETING_DIGEST_LEADS: Record<MeetingDigestLead, number> = { week: 7
 const DAY_MS = 24 * 60 * 60 * 1000;
 
 /** Bumped on any prompt or composed-input change; an older record is regenerated. */
-const INPUT_FORMAT_VERSION = 1;
+const INPUT_FORMAT_VERSION = 2;
 
 export interface MeetingDigestUpdateOptions {
   enabled?: boolean;
@@ -25,6 +35,16 @@ export interface MeetingDigestUpdateOptions {
   /** Regenerate selected sittings even when their content-addressed cache is current. */
   regenerate?: boolean;
   now?: () => Date;
+  /** Primary Stadtteile per paper — the same resolver the feeds use. */
+  resolvePaperDistricts?: (paper: Paper) => KarlsruheDistrict[];
+  /** Submitting factions per paper — the same resolver the feeds use. */
+  resolvePaperSubmitters?: (paper: Paper) => FactionId[];
+}
+
+/** Paper-level context rendered next to each summary; see `renderAgendaItemBlock`. */
+interface PaperContextResolvers {
+  resolvePaperDistricts: (paper: Paper) => KarlsruheDistrict[];
+  resolvePaperSubmitters: (paper: Paper) => FactionId[];
 }
 
 interface MeetingDigestTarget {
@@ -56,7 +76,10 @@ export async function updateMeetingDigests(
   const apiKey = options.apiKey ?? config.llmApiKey;
   const now = options.now?.() ?? new Date();
 
-  const targets = selectMeetingDigestTargets(meetings, now, paperSummaries, promptVersion);
+  const targets = selectMeetingDigestTargets(meetings, now, paperSummaries, promptVersion, {
+    resolvePaperDistricts: options.resolvePaperDistricts ?? (() => []),
+    resolvePaperSubmitters: options.resolvePaperSubmitters ?? (() => []),
+  });
   // Every stored preview reaches the feed, not only the ones due this run: a
   // sitting is due at a lead time for one day, while its preview stays useful
   // until the sitting happens.
@@ -170,6 +193,10 @@ export function selectMeetingDigestTargets(
   now: Date,
   paperSummaries: Map<string, PaperSummary>,
   promptVersion: string,
+  resolvers: PaperContextResolvers = {
+    resolvePaperDistricts: () => [],
+    resolvePaperSubmitters: () => [],
+  },
 ): MeetingDigestTarget[] {
   const targets: MeetingDigestTarget[] = [];
   for (const [lead, days] of Object.entries(MEETING_DIGEST_LEADS) as [
@@ -180,7 +207,13 @@ export function selectMeetingDigestTargets(
     for (const meeting of meetings) {
       const start = new Date(meeting.start);
       if (Number.isNaN(start.getTime()) || dayNumber(start) !== dueDay) continue;
-      const target = buildMeetingDigestTarget(meeting, lead, paperSummaries, promptVersion);
+      const target = buildMeetingDigestTarget(
+        meeting,
+        lead,
+        paperSummaries,
+        promptVersion,
+        resolvers,
+      );
       if (target) targets.push(target);
     }
   }
@@ -192,15 +225,18 @@ function buildMeetingDigestTarget(
   lead: MeetingDigestLead,
   paperSummaries: Map<string, PaperSummary>,
   promptVersion: string,
+  resolvers: PaperContextResolvers,
 ): MeetingDigestTarget | undefined {
   const blocks: string[] = [];
   const sourcePapers: string[] = [];
+  let coveredCount = 0;
   let uncoveredCount = 0;
 
   for (const agendaItem of [...(meeting.agendaItem ?? [])].sort(
     (a, b) => (a.order ?? 0) - (b.order ?? 0),
   )) {
-    if (agendaItem.public !== true) continue;
+    if (agendaItem.public !== true || !agendaItem.number) continue;
+    if (!agendaItem.consultation && isStandingAgendaItem(agendaItem.name)) continue;
     const paper = agendaItem.consultation
       ? stores.papers.getPaperByConsultationId(agendaItem.consultation)
       : undefined;
@@ -208,17 +244,22 @@ function buildMeetingDigestTarget(
     // is ineligible for publication, and composing it here would reintroduce
     // through the digest exactly the text the feed suppresses.
     const summary = paper ? paperSummaries.get(paper.id) : undefined;
-    if (!summary || !agendaItem.number) {
+    if (summary) {
+      coveredCount++;
+      sourcePapers.push(recordBasename(paper!.id));
+    } else {
       // Counted, not skipped silently: this statistic is how a reader of the
       // record judges how much of the sitting the preview could see.
       uncoveredCount++;
-      continue;
     }
-    sourcePapers.push(recordBasename(paper!.id));
-    blocks.push(renderAgendaItemBlock(agendaItem.number, agendaItem.name, paper!, summary));
+    // An item without a summary still goes in by title and procedure. Leaving it
+    // out made half of some agendas invisible — the HFA preview of 2026-09-22 saw
+    // two of six items and nothing told the reader so.
+    blocks.push(renderAgendaItemBlock(agendaItem, meeting, paper, summary, resolvers));
   }
 
-  if (blocks.length === 0) return undefined;
+  // Titles alone give the model nothing to weigh; such a sitting gets no preview.
+  if (coveredCount === 0) return undefined;
 
   const heading = `${committeeName(meeting.name)} am ${formatGermanDate(meeting.start)}`;
   const sourceText = blocks.join('\n\n');
@@ -230,7 +271,7 @@ function buildMeetingDigestTarget(
     sourceText,
     sourceHash: digestSourceHash(heading, sourceText, lead, promptVersion),
     sourcePapers,
-    coveredCount: blocks.length,
+    coveredCount,
     uncoveredCount,
   };
 }
@@ -287,20 +328,108 @@ async function writeWithGrounding(writer: MeetingDigestWriter, target: MeetingDi
   return corrected;
 }
 
+/**
+ * One agenda item as the model sees it. The summary alone describes the paper,
+ * which the agenda feed already shows; what only a sitting-level preview can add
+ * is where this sitting stands in the paper's procedure. Version 1 omitted that,
+ * so the model inferred the role from “Die Beschlussvorlage schlägt vor …” and
+ * announced the Parkraumkonzept as “zur Entscheidung” in Ortschaftsräte that
+ * only took note of it — the Gemeinderat decides.
+ */
 function renderAgendaItemBlock(
-  agendaNumber: string,
-  agendaName: string | undefined,
-  paper: Paper,
-  summary: PaperSummary,
+  agendaItem: AgendaItem,
+  meeting: Meeting,
+  paper: Paper | undefined,
+  summary: PaperSummary | undefined,
+  resolvers: PaperContextResolvers,
 ): string {
-  const title = [`TOP ${agendaNumber}`, paper.paperType, paper.reference, agendaName || paper.name]
+  const title = [
+    `TOP ${agendaItem.number}`,
+    paper?.paperType,
+    paper?.reference,
+    agendaItem.name || paper?.name,
+  ]
     .filter(Boolean)
     .join(' – ');
-  return [
-    `--- ${title} ---`,
-    summary.summary,
-    ...summary.keyPoints.map((point) => `- ${point}`),
-  ].join('\n');
+  const lines = [`--- ${title} ---`];
+  if (paper) {
+    const consultations = paper.consultation ?? [];
+    const ownRole = consultations.find(
+      (consultation) =>
+        consultation.agendaItem === agendaItem.id || consultation.id === agendaItem.consultation,
+    )?.role;
+    if (ownRole) lines.push(`Rolle dieses Gremiums: ${ownRole}`);
+    const path = describeConsultationPath(consultations, meeting.id);
+    if (path) lines.push(`Beratungsfolge: ${path}`);
+    const districts = resolvers.resolvePaperDistricts(paper);
+    if (districts.length > 0) lines.push(`Stadtteile: ${districts.join(', ')}`);
+    const submitters = resolvers.resolvePaperSubmitters(paper);
+    if (submitters.length > 0) {
+      lines.push(`Antragstellende Fraktion(en): ${submitters.map(getFactionName).join(', ')}`);
+    }
+  }
+  if (summary) {
+    lines.push(
+      `Kurzfassung: ${summary.summary}`,
+      ...summary.keyPoints.map((point) => `- ${point}`),
+    );
+  } else {
+    lines.push('Keine Kurzfassung verfügbar.');
+  }
+  return lines.join('\n');
+}
+
+/**
+ * The paper's whole path through the committees, in sitting order, with the
+ * recorded OParl result of every sitting that has one. The result is the literal
+ * string, never a paraphrase — the same value the agenda feed renders as the
+ * Beratungsstand — so a split vote elsewhere reaches the model as a fact rather
+ * than as something it would have to infer from PDF prose.
+ */
+function describeConsultationPath(consultations: Consultation[], currentMeetingId: string) {
+  const steps = consultations.map((consultation) => {
+    const meeting = consultation.meeting
+      ? stores.meetings.getById(consultation.meeting)
+      : undefined;
+    const start = meeting ? new Date(meeting.start) : undefined;
+    const body =
+      consultation.organization.map((id) => stores.organizations.getById(id)?.name).find(Boolean) ??
+      (meeting ? committeeName(meeting.name) : 'Gremium unbekannt');
+    const result = meeting?.agendaItem?.find((item) => item.id === consultation.agendaItem)?.result;
+    const details = [
+      consultation.role,
+      consultation.meeting === currentMeetingId ? 'diese Sitzung' : undefined,
+      result ? `Ergebnis: ${result}` : undefined,
+    ].filter(Boolean);
+    const date =
+      start && !Number.isNaN(start.getTime()) ? formatNumericDate(start) : 'Termin offen';
+    return {
+      time: start && !Number.isNaN(start.getTime()) ? start.getTime() : Number.POSITIVE_INFINITY,
+      text: `${body} ${date} (${details.join(', ')})`,
+    };
+  });
+  return steps
+    .sort((a, b) => a.time - b.time || a.text.localeCompare(b.text))
+    .map((step) => step.text)
+    .join('; ');
+}
+
+/**
+ * Paperless agenda slots that recur at every sitting and carry nothing to preview:
+ * announcements, “Verschiedenes”, the council's own question round, withdrawn
+ * items and section headings (“ANTRÄGE”, “Anträge, die im Ausschuss behandelt
+ * werden:”). Counted as uncovered they made the feed claim that three of six
+ * Hohenwettersbach items lacked a summary when all three real ones had one. The
+ * residents' question time is deliberately *not* matched: that a resident can
+ * speak is worth announcing even without content.
+ */
+export function isStandingAgendaItem(name: string | undefined): boolean {
+  const title = (name ?? '').trim();
+  if (!title) return true;
+  if (title.endsWith(':') || title === title.toLocaleUpperCase('de-DE')) return true;
+  return /^(?:mitteilungen\b|bekanntgaben?\b|verschiedenes$|sonstiges$|(?:mündliche\s+)?anfragen\b(?!.*einwohner)|mündliche fragen$|anregungen aus\b|-\s*a\s*b\s*g\s*e\s*s\s*e\s*t\s*z\s*t\s*-$)/i.test(
+    title,
+  );
 }
 
 /** Stable per-sitting conversation id, matching `karlsruhe-paper-<basename>`. */
@@ -321,6 +450,15 @@ export function committeeName(name: string): string {
 
 function dayNumber(date: Date): number {
   return Math.floor(date.getTime() / DAY_MS);
+}
+
+function formatNumericDate(date: Date): string {
+  return date.toLocaleDateString('de-DE', {
+    day: '2-digit',
+    month: '2-digit',
+    year: 'numeric',
+    timeZone: 'Europe/Berlin',
+  });
 }
 
 function formatGermanDate(value: string): string {

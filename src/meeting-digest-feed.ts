@@ -55,21 +55,29 @@ function appendMeetingDigest(feed: Feed, digest: MeetingDigest): void {
     digest.highlights.length > 0
       ? `<ul>${digest.highlights.map((point) => `<li>${escapeHtml(point)}</li>`).join('')}</ul>`
       : '';
+  const overviewHtml = digest.overview ? `<p>${escapeHtml(digest.overview)}</p>` : '';
+  // Said outright, because a preview that silently knows half the agenda reads as
+  // if it had seen all of it.
+  const coverageHtml =
+    digest.uncoveredCount > 0 ? `<p><small>${coverageNote(digest.uncoveredCount)}</small></p>` : '';
 
   feed.addItem({
     title: `Vorschau (${LEAD_LABELS[digest.lead]}): ${committee}`,
     id: `${digest.meetingId}#vorschau-${digest.lead}`,
     link: meetingUrl,
     date,
-    description: digest.overview,
+    // The overview may be empty by design; the Atom <summary> then falls back to
+    // the first point rather than going blank.
+    description: digest.overview || digest.highlights[0] || committee,
     content: `
       <b>Sitzung:</b> ${escapeHtml(committee)}<br>
       <b>Datum:</b> ${formatGermanDate(date)}<br><br>
-      ${escapeHtml(digest.overview)}
+      ${overviewHtml}
       ${highlightsHtml}
-      <small>Automatisch erstellt aus den Kurzfassungen der Vorlagen; maßgeblich sind die
-      Originalunterlagen. Die Sitzung hat zum Zeitpunkt der Erstellung noch nicht
-      stattgefunden.</small>
+      ${coverageHtml}
+      <small>Automatisch erstellt aus den Kurzfassungen der Vorlagen und ihrer
+      Beratungsfolge; maßgeblich sind die Originalunterlagen. Die Sitzung hat zum
+      Zeitpunkt der Erstellung noch nicht stattgefunden.</small>
     `,
   });
 }
@@ -89,6 +97,12 @@ function latestEntryDate(feed: Feed): Date | undefined {
     if (item.date && (!latest || item.date.getTime() > latest.getTime())) latest = item.date;
   }
   return latest;
+}
+
+function coverageNote(uncoveredCount: number): string {
+  return uncoveredCount === 1
+    ? 'Für einen öffentlichen Tagesordnungspunkt lag keine Kurzfassung vor; die Vorschau kennt von ihm nur Titel und Verfahren.'
+    : `Für ${uncoveredCount} öffentliche Tagesordnungspunkte lag keine Kurzfassung vor; die Vorschau kennt von ihnen nur Titel und Verfahren.`;
 }
 
 function formatGermanDate(date: Date): string {

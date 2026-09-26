@@ -168,7 +168,7 @@ export const config = {
   // A missing LLM_API_KEY still skips the step without failing the run, and
   // `--no-summaries` forces it off along with the summaries it composes.
   generateMeetingDigests: process.env.GENERATE_MEETING_DIGESTS !== 'false',
-  meetingDigestPromptVersion: process.env.MEETING_DIGEST_PROMPT_VERSION || 'meeting-de-v1',
+  meetingDigestPromptVersion: process.env.MEETING_DIGEST_PROMPT_VERSION || 'meeting-de-v2',
   // One sitting due at one lead time is one call. A busy council day can put several
   // committees on the same date, so this bounds a run the way SUMMARY_MAX_ITEMS_PER_RUN
   // bounds the summary step.

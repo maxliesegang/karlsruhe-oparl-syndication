@@ -5,6 +5,7 @@ import {
   TruncatedDigestResponseError,
   isRetryableResponse,
   normalizeMeetingDigestBody,
+  truncateAtSentence,
 } from '../src/services/llm/opencode-meeting-digest-writer.js';
 import { MeetingDigest } from '../src/types/index.js';
 
@@ -83,6 +84,23 @@ describe('meeting digest feed', () => {
     });
   });
 
+  it('renders an empty overview without a blank summary', () => {
+    // meeting-de-v2 may leave the overview empty rather than write filler; the
+    // Atom <summary> then falls back to the first point.
+    const [item] = buildMeetingDigestFeed([{ ...digest, overview: '' }]).items;
+    expect(item.description).toBe('TOP 1: Der Umbau steht zur Beratung an.');
+    expect(item.content).not.toContain('<p></p>');
+  });
+
+  it('tells the reader how much of the agenda had no summary', () => {
+    const [none] = buildMeetingDigestFeed([digest]).items;
+    expect(none.content).not.toContain('keine Kurzfassung');
+    const [some] = buildMeetingDigestFeed([{ ...digest, uncoveredCount: 4 }]).items;
+    expect(some.content).toContain(
+      'Für 4 öffentliche Tagesordnungspunkte lag keine Kurzfassung vor',
+    );
+  });
+
   it('produces an empty but valid feed when nothing is published', () => {
     const xml = buildMeetingDigestFeed([]).atom1();
     expect(xml).toContain('<feed xmlns="http://www.w3.org/2005/Atom">');
@@ -112,5 +130,54 @@ describe('isRetryableResponse', () => {
 
   it('does not retry an unrelated failure', () => {
     expect(isRetryableResponse(new Error('timeout'))).toBe(false);
+  });
+});
+
+describe('truncateAtSentence', () => {
+  it('keeps a text within the limit unchanged', () => {
+    expect(truncateAtSentence('Kurz.', 500)).toBe('Kurz.');
+  });
+
+  it('cuts at the last whole sentence instead of mid-word', () => {
+    // meeting-de-v1 sliced at 500 characters and published “… gesichert s”.
+    const text =
+      'TOP 1: Die Verwaltung schlägt das Parkraumkonzept vor. ' +
+      'Die Projektstellen sind derzeit nur bis Februar bzw. März 2027 gesichert.';
+    expect(truncateAtSentence(text, 100)).toBe(
+      'TOP 1: Die Verwaltung schlägt das Parkraumkonzept vor.',
+    );
+  });
+
+  it('does not treat a day ordinal as a sentence end', () => {
+    const text =
+      'TOP 3: Die Verwaltung unterstützt das Anliegen. Das Verbot soll bis zum 31. März 2027 verlängert werden, sagt sie.';
+    expect(truncateAtSentence(text, 90)).not.toMatch(/31\.$/);
+  });
+
+  it('prefers a word cut with an ellipsis over discarding most of the window', () => {
+    // A sentence end in the first half would throw away more than it keeps.
+    const text =
+      'TOP 1: Kurz. Die Projektstellen sind derzeit nur bis Februar 2027 gesichert und werden geprüft.';
+    const result = truncateAtSentence(text, 60);
+    expect(result).toBe('TOP 1: Kurz. Die Projektstellen sind derzeit nur bis…');
+  });
+
+  it('does not treat an abbreviation or a date as a sentence end', () => {
+    const text =
+      'Die Stellen sind bis 31.07.2026 bzw. ca. März gesichert und werden danach geprüft';
+    const result = truncateAtSentence(text, 70);
+    expect(result.endsWith('…')).toBe(true);
+    expect(result).not.toMatch(/bzw\.$|ca\.$/);
+    expect(result.length).toBeLessThanOrEqual(70);
+  });
+
+  it('bounds normalized highlights at a sentence boundary', () => {
+    const sentence = 'Die Vorlage schlägt eine längere Maßnahme mit vielen Einzelheiten vor. ';
+    const [highlight] = normalizeMeetingDigestBody({
+      overview: '',
+      highlights: [`TOP 1: ${sentence.repeat(10)}`],
+    }).highlights;
+    expect(highlight.length).toBeLessThanOrEqual(500);
+    expect(highlight.endsWith('vor.')).toBe(true);
   });
 });
