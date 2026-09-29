@@ -1,0 +1,58 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681224.pdf",
+      "created": "2026-09-29T11:56:31+02:00",
+      "date": "2026-09-29",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681224.pdf",
+      "fileName": "00681224.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681224",
+      "mimeType": "application/pdf",
+      "modified": "2026-09-29T15:32:54+02:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681229.pdf",
+      "created": "2026-09-29T13:52:29+02:00",
+      "date": "2026-09-29",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681229.pdf",
+      "fileName": "00681229.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681229",
+      "mimeType": "application/pdf",
+      "modified": "2026-09-29T15:32:54+02:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103512",
+      "created": "2026-09-29T11:56:45+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38045",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10574",
+      "modified": "2026-09-29T11:56:54+02:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55005",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-09-29T11:55:23+02:00",
+  "date": "2026-09-29",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55005",
+  "modified": "2026-09-29T15:32:54+02:00",
+  "name": "Priorisierung der Maßnahmen in den Karlsruher Sanierungsgebieten: Kein Verkauf der Festhalle Durlach ohne tragfähige Ersatzlösung",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2026/0447/1",
+  "subordinatedPaper": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54614"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/882980"
+  ]
+}

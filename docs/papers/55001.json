@@ -1,0 +1,57 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681218.pdf",
+      "created": "2026-09-29T11:33:01+02:00",
+      "date": "2026-09-29",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681218.pdf",
+      "fileName": "00681218.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681218",
+      "mimeType": "application/pdf",
+      "modified": "2026-09-29T15:11:27+02:00",
+      "name": "Änderungs-/Ergänzungsantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2026-09-29T15:47:00+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38050",
+      "modified": "2026-09-29T15:47:00+02:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/34764"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55001",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103510",
+      "created": "2026-09-29T11:46:52+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38041",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10574",
+      "modified": "2026-09-29T11:47:00+02:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55001",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-09-29T11:30:38+02:00",
+  "date": "2026-09-29",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55001",
+  "modified": "2026-09-29T15:47:18+02:00",
+  "name": "Anpassung der Nutzungsentgelte für die durch die OV Stupferich zur Verfügung gestellten Räumlichkeiten im Gemeindezentrum Stupferich",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2026/0489/1",
+  "subordinatedPaper": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54659"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/882957"
+  ]
+}
