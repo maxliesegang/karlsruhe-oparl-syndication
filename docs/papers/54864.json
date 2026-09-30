@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00680413.pdf",
+      "created": "2026-08-20T13:07:22+02:00",
+      "date": "2026-08-20",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00680413.pdf",
+      "fileName": "00680413.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680413",
+      "mimeType": "application/pdf",
+      "modified": "2026-09-30T07:40:34+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102824",
+      "created": "2026-08-21T07:19:20+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37834",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10577",
+      "modified": "2026-08-21T07:21:48+02:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54864",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-08-20T13:04:01+02:00",
+  "date": "2026-08-20",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54864",
+  "modified": "2026-09-30T07:40:34+02:00",
+  "name": "Projekt Partnerschaft für Demokratie Karlsruhe",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0672",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

@@ -8,19 +8,45 @@
       "fileName": "00679977.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679977",
       "mimeType": "application/pdf",
-      "modified": "2026-09-17T13:06:48+02:00",
+      "modified": "2026-09-30T07:42:45+02:00",
       "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00680161.pdf",
+      "created": "2026-08-13T10:53:01+02:00",
+      "date": "2026-08-13",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00680161.pdf",
+      "fileName": "00680161.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680161",
+      "mimeType": "application/pdf",
+      "modified": "2026-09-30T07:42:45+02:00",
+      "name": "Stellungnahme Antrag",
       "type": "https://schema.oparl.org/1.1/File"
     }
   ],
   "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
   "consultation": [
     {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102818",
+      "created": "2026-08-21T07:19:20+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37748",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10577",
+      "modified": "2026-08-21T07:22:22+02:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54776",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
       "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102995",
+      "authoritative": true,
       "created": "2026-08-26T08:43:30+02:00",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37741",
       "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10574",
-      "modified": "2026-09-29T11:56:54+02:00",
+      "modified": "2026-09-30T08:31:32+02:00",
       "organization": [
         "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
       ],
@@ -32,7 +58,7 @@
   "created": "2026-07-29T09:24:37+02:00",
   "date": "2026-07-29",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54776",
-  "modified": "2026-09-29T08:17:23+02:00",
+  "modified": "2026-09-30T07:42:45+02:00",
   "name": "Platz der Kinderrechte",
   "paperType": "Antrag",
   "reference": "2026/0586",

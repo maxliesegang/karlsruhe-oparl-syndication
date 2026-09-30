@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00680362.pdf",
+      "created": "2026-08-20T09:12:14+02:00",
+      "date": "2026-08-20",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00680362.pdf",
+      "fileName": "00680362.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680362",
+      "mimeType": "application/pdf",
+      "modified": "2026-09-30T07:36:32+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00680659.pdf",
+      "created": "2026-09-01T16:11:16+02:00",
+      "date": "2026-09-01",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00680659.pdf",
+      "fileName": "00680659.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680659",
+      "mimeType": "application/pdf",
+      "modified": "2026-09-30T07:36:32+02:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102819",
+      "created": "2026-08-21T07:19:20+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37822",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10577",
+      "modified": "2026-08-21T07:21:48+02:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54854",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-08-20T09:09:14+02:00",
+  "date": "2026-08-20",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54854",
+  "modified": "2026-09-30T07:36:32+02:00",
+  "name": "Jugendhilfe-Monitor 2026",
+  "paperType": "Informationsvorlage",
+  "reference": "2026/0662",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/882967"
+  ]
+}

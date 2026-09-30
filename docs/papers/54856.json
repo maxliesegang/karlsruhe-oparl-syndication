@@ -1,0 +1,66 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00680775.pdf",
+      "created": "2026-09-10T07:07:26+02:00",
+      "date": "2026-09-10",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00680775.pdf",
+      "fileName": "00680775.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680775",
+      "mimeType": "application/pdf",
+      "modified": "2026-09-30T07:37:09+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681092.pdf",
+      "created": "2026-09-25T14:43:27+02:00",
+      "date": "2026-09-25",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681092.pdf",
+      "fileName": "00681092.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681092",
+      "mimeType": "application/pdf",
+      "modified": "2026-09-30T07:37:09+02:00",
+      "name": "Anlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2026-09-23T11:00:58+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37980",
+      "modified": "2026-09-23T11:00:58+02:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32806"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54856",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102820",
+      "created": "2026-08-21T07:19:20+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37825",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10577",
+      "modified": "2026-08-21T07:21:48+02:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/36218"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54856",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-08-20T09:26:37+02:00",
+  "date": "2026-08-20",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54856",
+  "modified": "2026-09-30T07:37:09+02:00",
+  "name": "Entwicklung einer Bedarfsplanung Schulsozialarbeit",
+  "paperType": "Informationsvorlage",
+  "reference": "2026/0664",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/882967"
+  ]
+}
