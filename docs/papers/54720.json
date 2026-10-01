@@ -8,8 +8,20 @@
       "fileName": "00679593.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679593",
       "mimeType": "application/pdf",
-      "modified": "2026-09-17T13:05:25+02:00",
+      "modified": "2026-10-01T07:37:13+02:00",
       "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00679654.pdf",
+      "created": "2026-07-08T10:40:48+02:00",
+      "date": "2026-07-08",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00679654.pdf",
+      "fileName": "00679654.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679654",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-01T07:37:13+02:00",
+      "name": "Stellungnahme Antrag",
       "type": "https://schema.oparl.org/1.1/File"
     }
   ],
@@ -28,12 +40,25 @@
       "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54720",
       "role": "Kenntnisnahme",
       "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103191",
+      "created": "2026-09-15T08:14:50+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37673",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10582",
+      "modified": "2026-10-01T08:30:57+02:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54720",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
     }
   ],
   "created": "2026-07-07T10:46:40+02:00",
   "date": "2026-07-07",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54720",
-  "modified": "2026-09-17T13:05:25+02:00",
+  "modified": "2026-10-01T07:37:13+02:00",
   "name": "Konsequentes Handeln gegen Autoposing",
   "paperType": "Antrag",
   "reference": "2026/0542",

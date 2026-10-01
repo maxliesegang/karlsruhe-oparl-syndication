@@ -8,8 +8,20 @@
       "fileName": "00678659.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678659",
       "mimeType": "application/pdf",
-      "modified": "2026-07-17T07:17:27+02:00",
+      "modified": "2026-10-01T07:36:18+02:00",
       "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00678687.pdf",
+      "created": "2026-05-27T15:03:09+02:00",
+      "date": "2026-05-27",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00678687.pdf",
+      "fileName": "00678687.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678687",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-01T07:36:18+02:00",
+      "name": "Stellungnahme Antrag",
       "type": "https://schema.oparl.org/1.1/File"
     }
   ],
@@ -28,12 +40,25 @@
       "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54606",
       "role": "Kenntnisnahme",
       "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103188",
+      "created": "2026-09-15T08:14:50+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37504",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10582",
+      "modified": "2026-10-01T08:30:57+02:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54606",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
     }
   ],
   "created": "2026-05-27T10:33:06+02:00",
   "date": "2026-05-27",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54606",
-  "modified": "2026-09-25T11:37:07+02:00",
+  "modified": "2026-10-01T07:36:18+02:00",
   "name": "Mehr Sicherheit im öffentlichen Raum",
   "paperType": "Antrag",
   "reference": "2026/0439",

@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00680173.pdf",
+      "created": "2026-08-14T10:06:11+02:00",
+      "date": "2026-08-14",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00680173.pdf",
+      "fileName": "00680173.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680173",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-01T07:35:38+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00680866.pdf",
+      "created": "2026-09-16T16:42:13+02:00",
+      "date": "2026-09-16",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00680866.pdf",
+      "fileName": "00680866.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680866",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-01T07:35:38+02:00",
+      "name": "Faktenblatt der Fachgruppe ProstSchG",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103195",
+      "created": "2026-09-15T08:14:50+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37747",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10582",
+      "modified": "2026-10-01T08:30:57+02:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54781",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-07-30T11:04:24+02:00",
+  "date": "2026-07-30",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54781",
+  "modified": "2026-10-01T07:35:38+02:00",
+  "name": "Sachstandsbericht Prostitution",
+  "paperType": "Informationsvorlage",
+  "reference": "2026/0591",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/882964"
+  ]
+}

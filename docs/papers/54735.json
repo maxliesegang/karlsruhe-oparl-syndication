@@ -8,8 +8,20 @@
       "fileName": "00679736.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679736",
       "mimeType": "application/pdf",
-      "modified": "2026-09-17T13:06:02+02:00",
+      "modified": "2026-10-01T07:39:39+02:00",
       "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00679931.pdf",
+      "created": "2026-07-27T10:17:15+02:00",
+      "date": "2026-07-27",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00679931.pdf",
+      "fileName": "00679931.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679931",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-01T07:39:39+02:00",
+      "name": "Stellungnahme Antrag",
       "type": "https://schema.oparl.org/1.1/File"
     }
   ],
@@ -28,12 +40,25 @@
       "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54735",
       "role": "Kenntnisnahme",
       "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103192",
+      "created": "2026-09-15T08:14:50+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37733",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10582",
+      "modified": "2026-10-01T08:30:57+02:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54735",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
     }
   ],
   "created": "2026-07-14T12:49:07+02:00",
   "date": "2026-07-14",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54735",
-  "modified": "2026-09-17T13:06:02+02:00",
+  "modified": "2026-10-01T07:39:39+02:00",
   "name": "Direktvergabe Reinigungsleistungen an KVD",
   "paperType": "Antrag",
   "reference": "2026/0553",
