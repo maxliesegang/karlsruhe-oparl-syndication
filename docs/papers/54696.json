@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00679347.pdf",
+      "created": "2026-06-25T08:04:46+02:00",
+      "date": "2026-06-25",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00679347.pdf",
+      "fileName": "00679347.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679347",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-02T10:56:03+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102347",
+      "created": "2026-06-25T08:38:06+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37621",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10721",
+      "modified": "2026-09-28T07:54:34+02:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54696",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-06-25T08:04:27+02:00",
+  "date": "2026-06-25",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54696",
+  "modified": "2026-10-02T10:56:03+02:00",
+  "name": "Umbesetzung des Ausschusses für Planung, Bauwesen und Umwelt (Ausschuss II)",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0519",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/882956"
+  ]
+}

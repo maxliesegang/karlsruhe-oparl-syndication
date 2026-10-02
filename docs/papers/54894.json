@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00680636.pdf",
+      "created": "2026-08-31T13:22:56+02:00",
+      "date": "2026-08-31",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00680636.pdf",
+      "fileName": "00680636.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680636",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-02T10:56:30+02:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103182",
+      "created": "2026-09-14T10:08:11+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37877",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10721",
+      "modified": "2026-09-28T07:54:34+02:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/40333"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54894",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-08-31T13:16:29+02:00",
+  "date": "2026-08-31",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54894",
+  "modified": "2026-10-02T10:56:30+02:00",
+  "name": "Kultursommer 2027",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0701",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/882956"
+  ]
+}
