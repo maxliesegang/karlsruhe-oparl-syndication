@@ -1,14 +1,38 @@
 {
   "agendaItem": [
     {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38054",
+      "created": "2026-10-01T09:58:23+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103560",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10585",
+      "modified": "2026-10-01T11:26:49+02:00",
+      "name": "Potenzialanalyse für mehr Wohnungsbau durch Aufstockung eingschossiger Immobilien bis 2035",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38055",
+      "created": "2026-10-01T09:58:23+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103561",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10585",
+      "modified": "2026-10-01T11:26:52+02:00",
+      "name": "Potenzialanalyse für mehr Wohnungsbau durch Aufstockung eingschossiger Immobilien bis 2035 -",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
       "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37862",
       "created": "2026-08-27T14:04:50+02:00",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103031",
       "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10585",
-      "modified": "2026-08-27T14:04:57+02:00",
+      "modified": "2026-10-01T11:26:52+02:00",
       "name": "Zusagen einlösen: SG Rüppurr muss in die Priorität 1",
-      "number": "1",
-      "order": 1,
+      "number": "3",
+      "order": 3,
       "public": true,
       "type": "https://schema.oparl.org/1.1/AgendaItem"
     },
@@ -17,10 +41,10 @@
       "created": "2026-08-19T14:45:19+02:00",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102802",
       "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10585",
-      "modified": "2026-08-27T14:04:57+02:00",
+      "modified": "2026-10-01T11:26:52+02:00",
       "name": "Entwicklungsgebiet \"Am Gänsberg\" in Karlsruhe - Stupferich",
-      "number": "2",
-      "order": 2,
+      "number": "4",
+      "order": 4,
       "public": true,
       "type": "https://schema.oparl.org/1.1/AgendaItem"
     },
@@ -29,29 +53,31 @@
       "created": "2026-08-19T14:45:20+02:00",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102803",
       "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10585",
-      "modified": "2026-09-04T07:47:25+02:00",
+      "modified": "2026-10-01T11:26:52+02:00",
       "name": "Nachhaltiges Parkraumkonzept Stadt Karlsruhe",
-      "number": "3",
-      "order": 3,
+      "number": "5",
+      "order": 5,
       "public": true,
       "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681288.pdf",
+      "created": "2026-10-01T13:52:53+02:00",
+      "date": "2026-10-01",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681288.pdf",
+      "fileName": "00681288.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681288",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-02T10:08:40+02:00",
+      "name": "Nachtrag zur Tagesordnung öffentlich 15.10.2026",
+      "type": "https://schema.oparl.org/1.1/File"
     }
   ],
   "created": "2025-10-10T13:51:25+02:00",
   "end": "2026-10-15T18:30:00+02:00",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10585",
-  "invitation": {
-    "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681003.pdf",
-    "created": "2026-09-23T11:35:56+02:00",
-    "date": "2026-09-23",
-    "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681003.pdf",
-    "fileName": "00681003.pdf",
-    "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681003",
-    "mimeType": "application/pdf",
-    "modified": "2026-09-25T08:39:26+02:00",
-    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
-    "type": "https://schema.oparl.org/1.1/File"
-  },
   "location": {
     "created": "2022-12-12T11:11:26+01:00",
     "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/locations/rm/67907",
@@ -63,7 +89,7 @@
     "subLocality": "",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-09-25T08:39:26+02:00",
+  "modified": "2026-10-02T10:08:40+02:00",
   "name": "Planungsausschuss (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/38449"

@@ -1,4 +1,66 @@
 {
+  "agendaItem": [
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37858",
+      "created": "2026-09-28T10:28:23+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103476",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10732",
+      "modified": "2026-09-28T10:39:53+02:00",
+      "name": "Vorstellung der Baumaßnahme Radweg L 623",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37796",
+      "created": "2026-08-21T09:44:18+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102825",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10732",
+      "modified": "2026-10-01T11:13:59+02:00",
+      "name": "Nachhaltiges Parkraumkonzept Stadt Karlsruhe",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-09-28T10:29:16+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103477",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10732",
+      "modified": "2026-10-01T11:13:59+02:00",
+      "name": "Mitteilungen der Verwaltung",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-09-28T10:30:14+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103478",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10732",
+      "modified": "2026-10-01T11:14:23+02:00",
+      "name": "Mündliche Anfragen",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681117.pdf",
+      "created": "2026-09-28T11:00:53+02:00",
+      "date": "2026-09-28",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681117.pdf",
+      "fileName": "00681117.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681117",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-01T11:12:21+02:00",
+      "name": "Tagesordnung ö",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
   "created": "2025-10-27T11:05:28+01:00",
   "end": "2026-10-06T00:00:00+02:00",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10732",
@@ -6,10 +68,10 @@
     "created": "2025-10-27T11:05:28+01:00",
     "description": "Begegnungsstätte Wolfartsweier, Rathausstr. 2a, 76228 Karlsruhe",
     "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/locations/si/10732",
-    "modified": "2026-09-29T19:08:20+02:00",
+    "modified": "2026-10-01T11:12:20+02:00",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-09-29T19:08:20+02:00",
+  "modified": "2026-10-01T11:12:20+02:00",
   "name": "Ortschaftsrat Wolfartsweier (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/35147"
