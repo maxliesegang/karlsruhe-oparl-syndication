@@ -593,10 +593,36 @@
       "type": "https://schema.oparl.org/1.1/AgendaItem"
     },
     {
+      "auxiliaryFile": [
+        {
+          "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681339.pdf",
+          "created": "2026-10-05T09:04:23+02:00",
+          "date": "2026-10-05",
+          "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681339.pdf",
+          "fileName": "00681339.pdf",
+          "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681339",
+          "mimeType": "application/pdf",
+          "modified": "2026-10-05T09:05:17+02:00",
+          "name": "29.09.2026",
+          "type": "https://schema.oparl.org/1.1/File"
+        },
+        {
+          "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681340.pdf",
+          "created": "2026-10-05T09:04:38+02:00",
+          "date": "2026-10-05",
+          "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681340.pdf",
+          "fileName": "00681340.pdf",
+          "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681340",
+          "mimeType": "application/pdf",
+          "modified": "2026-10-05T09:05:17+02:00",
+          "name": "Protokoll GR 29.09.2026 TOP 38",
+          "type": "https://schema.oparl.org/1.1/File"
+        }
+      ],
       "created": "2026-08-26T08:43:31+02:00",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103013",
       "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10574",
-      "modified": "2026-09-29T11:56:54+02:00",
+      "modified": "2026-10-05T09:04:39+02:00",
       "name": "Bekanntgabe nichtöffentlich gefasster Beschlüsse",
       "number": "38",
       "order": 47,
@@ -604,10 +630,24 @@
       "type": "https://schema.oparl.org/1.1/AgendaItem"
     },
     {
+      "auxiliaryFile": [
+        {
+          "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681341.pdf",
+          "created": "2026-10-05T09:04:51+02:00",
+          "date": "2026-10-05",
+          "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681341.pdf",
+          "fileName": "00681341.pdf",
+          "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681341",
+          "mimeType": "application/pdf",
+          "modified": "2026-10-05T09:05:17+02:00",
+          "name": "Protokoll GR 29.09.2026 TOP 39",
+          "type": "https://schema.oparl.org/1.1/File"
+        }
+      ],
       "created": "2026-08-26T08:43:31+02:00",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103014",
       "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10574",
-      "modified": "2026-09-29T11:56:54+02:00",
+      "modified": "2026-10-05T09:04:52+02:00",
       "name": "Mitteilungen des Bürgermeisteramtes",
       "number": "39",
       "order": 48,
@@ -641,7 +681,7 @@
     "subLocality": "",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-09-30T08:40:56+02:00",
+  "modified": "2026-10-05T09:05:17+02:00",
   "name": "Gemeinderat (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
@@ -654,7 +694,7 @@
     "fileName": "00681244.pdf",
     "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681244",
     "mimeType": "application/pdf",
-    "modified": "2026-09-30T08:40:56+02:00",
+    "modified": "2026-10-05T09:05:17+02:00",
     "name": "Anwesenheit (Protokoll)",
     "type": "https://schema.oparl.org/1.1/File"
   },
