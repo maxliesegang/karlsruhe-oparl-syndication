@@ -1790,5 +1790,12 @@
     "nextRetryAt": "2026-10-10T17:54:04.748Z",
     "status": 401,
     "reason": "unauthorized"
+  },
+  "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55001": {
+    "attempts": 1,
+    "lastAttemptAt": "2026-10-06T19:20:10.208Z",
+    "nextRetryAt": "2026-10-13T19:20:10.208Z",
+    "status": 401,
+    "reason": "unauthorized"
   }
 }

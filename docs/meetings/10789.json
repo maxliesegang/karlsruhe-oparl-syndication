@@ -1,15 +1,98 @@
 {
+  "agendaItem": [
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37649",
+      "created": "2026-10-01T09:47:44+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103551",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10789",
+      "modified": "2026-10-01T15:47:31+02:00",
+      "name": "Entwicklungsgebiet \"Am Gänsberg\" in Karlsruhe - Stupferich",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-10-01T10:18:32+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103563",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10789",
+      "modified": "2026-10-01T15:47:31+02:00",
+      "name": "Kriminalstatistik für das Jahr 2025",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38050",
+      "created": "2026-10-01T09:47:44+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103550",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10789",
+      "modified": "2026-10-01T15:47:31+02:00",
+      "name": "Anpassung der Nutzungsentgelte für die durch die OV Stupferich zur Verfügung gestellten Räumlichkeiten im Gemeindezentrum Stupferich",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38009",
+      "created": "2026-10-01T09:47:44+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103552",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10789",
+      "modified": "2026-10-01T15:47:31+02:00",
+      "name": "Zukunftspapier der Ortsverwaltungen",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-10-01T10:18:44+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103564",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10789",
+      "modified": "2026-10-01T15:47:31+02:00",
+      "name": "Mitteilungen der Verwaltung",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-10-01T10:18:48+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103565",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10789",
+      "modified": "2026-10-01T15:47:31+02:00",
+      "name": "Verschiedenes",
+      "number": "6",
+      "order": 6,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
   "created": "2025-12-08T11:18:56+01:00",
   "end": "2026-10-14T00:00:00+02:00",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10789",
+  "invitation": {
+    "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681290.pdf",
+    "created": "2026-10-01T15:58:18+02:00",
+    "date": "2026-10-01",
+    "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681290.pdf",
+    "fileName": "00681290.pdf",
+    "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681290",
+    "mimeType": "application/pdf",
+    "modified": "2026-10-06T16:15:20+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
   "location": {
     "created": "2025-12-08T11:18:56+01:00",
     "description": "Sitzungssaal Rathaus Stupferich",
     "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/locations/si/10789",
-    "modified": "2026-10-05T10:33:23+02:00",
+    "modified": "2026-10-06T16:15:20+02:00",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-10-05T10:33:23+02:00",
+  "modified": "2026-10-06T16:15:20+02:00",
   "name": "Ortschaftsrat Stupferich (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/34764"
