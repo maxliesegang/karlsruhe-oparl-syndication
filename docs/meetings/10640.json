@@ -1,7 +1,69 @@
 {
+  "agendaItem": [
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37976",
+      "created": "2026-09-28T11:50:05+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103486",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10640",
+      "modified": "2026-09-28T11:51:08+02:00",
+      "name": "Wohnhochhaus Beiertheimer Allee 2 - WHK 2",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37977",
+      "created": "2026-09-28T11:50:05+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103487",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10640",
+      "modified": "2026-09-28T11:51:14+02:00",
+      "name": "Abbruch Kirche und Neubau Wohngebäude Wißmannstraße 2",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38016",
+      "created": "2026-09-28T11:50:05+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103484",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10640",
+      "modified": "2026-09-28T11:51:14+02:00",
+      "name": "Dammerstock Aufstockung Nürnberger Straße 5a",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37732",
+      "created": "2026-09-28T11:50:05+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103485",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10640",
+      "modified": "2026-09-28T11:51:14+02:00",
+      "name": "Wärmespeicher HKW West",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
   "created": "2025-10-11T19:36:30+02:00",
   "end": "2026-11-20T00:00:00+01:00",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10640",
+  "invitation": {
+    "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00680918.pdf",
+    "created": "2026-09-21T11:55:02+02:00",
+    "date": "2026-09-28",
+    "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00680918.pdf",
+    "fileName": "00680918.pdf",
+    "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680918",
+    "mimeType": "application/pdf",
+    "modified": "2026-10-07T16:53:58+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
   "location": {
     "created": "2022-12-29T15:25:20+01:00",
     "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/locations/rm/67923",
@@ -13,7 +75,7 @@
     "subLocality": "",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-10-06T13:15:56+02:00",
+  "modified": "2026-10-07T16:53:58+02:00",
   "name": "Gestaltungsbeirat (öffentlich/nichtöffentlich)",
   "organization": [
     "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/54847"
