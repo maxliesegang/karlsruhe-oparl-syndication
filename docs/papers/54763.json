@@ -8,7 +8,7 @@
       "fileName": "00679841.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679841",
       "mimeType": "application/pdf",
-      "modified": "2026-09-03T12:10:31+02:00",
+      "modified": "2026-10-08T11:38:37+02:00",
       "name": "Antrag",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -20,7 +20,7 @@
       "fileName": "00679895.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679895",
       "mimeType": "application/pdf",
-      "modified": "2026-09-03T12:10:31+02:00",
+      "modified": "2026-10-08T11:38:37+02:00",
       "name": "Stellungnahme Antrag",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -32,24 +32,13 @@
       "fileName": "00680525.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680525",
       "mimeType": "application/pdf",
-      "modified": "2026-09-03T12:10:31+02:00",
+      "modified": "2026-10-08T11:38:37+02:00",
       "name": "Protokoll GR 28.07.2026 TOP 38",
       "type": "https://schema.oparl.org/1.1/File"
     }
   ],
   "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
   "consultation": [
-    {
-      "created": "2026-09-18T12:15:56+02:00",
-      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37953",
-      "modified": "2026-09-21T07:33:24+02:00",
-      "organization": [
-        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
-      ],
-      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54763",
-      "role": "Entscheidung",
-      "type": "https://schema.oparl.org/1.1/Consultation"
-    },
     {
       "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102579",
       "authoritative": true,
@@ -89,12 +78,25 @@
       "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54763",
       "role": "Behandlung",
       "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103704",
+      "created": "2026-10-08T10:51:04+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37953",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10588",
+      "modified": "2026-10-08T10:51:04+02:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54763",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
     }
   ],
   "created": "2026-07-22T07:08:28+02:00",
   "date": "2026-07-22",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54763",
-  "modified": "2026-09-03T12:10:31+02:00",
+  "modified": "2026-10-08T11:38:37+02:00",
   "name": "Gebäude für Klimawandel ausstatten",
   "paperType": "Antrag",
   "reference": "2026/0580",

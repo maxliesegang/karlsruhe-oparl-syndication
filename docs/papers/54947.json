@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00680931.pdf",
+      "created": "2026-09-22T07:08:28+02:00",
+      "date": "2026-09-22",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00680931.pdf",
+      "fileName": "00680931.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680931",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-08T11:41:49+02:00",
+      "name": "Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681004.pdf",
+      "created": "2026-09-23T13:41:29+02:00",
+      "date": "2026-09-23",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681004.pdf",
+      "fileName": "00681004.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681004",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-08T11:41:49+02:00",
+      "name": "Stellungnahme Anfrage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103329",
+      "created": "2026-09-22T09:56:33+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37965",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10588",
+      "modified": "2026-10-08T10:51:04+02:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54947",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-09-22T07:07:58+02:00",
+  "date": "2026-09-22",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54947",
+  "modified": "2026-10-08T11:41:49+02:00",
+  "name": "Veröffentlichung Mietspiegel",
+  "paperType": "Anfrage",
+  "reference": "2026/0751",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/882965"
+  ]
+}

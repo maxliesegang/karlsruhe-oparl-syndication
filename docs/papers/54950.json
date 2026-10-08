@@ -1,0 +1,54 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00680949.pdf",
+      "created": "2026-09-22T11:22:46+02:00",
+      "date": "2026-09-22",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00680949.pdf",
+      "fileName": "00680949.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680949",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-08T12:13:07+02:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2026-10-08T09:12:10+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38089",
+      "modified": "2026-10-08T09:12:10+02:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54950",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103702",
+      "created": "2026-10-08T09:12:28+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37968",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10588",
+      "modified": "2026-10-08T10:51:04+02:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54950",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-09-22T11:21:30+02:00",
+  "date": "2026-09-22",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54950",
+  "modified": "2026-10-08T12:13:07+02:00",
+  "name": "Gesamtkonzept klimaangepasster Marktplatz",
+  "paperType": "Antrag",
+  "reference": "2026/0754",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/883000"
+  ]
+}

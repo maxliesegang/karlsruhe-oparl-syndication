@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-09-30T08:14:15.100Z",
+  "generatedAt": "2026-10-08T19:44:02.989Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54861",
   "keyPoints": [
-    "Die Fallquote wird auf 30 Vormundschaften pro VZÄ festgelegt, obwohl die Personalbemessung 23 VZÁ als sachgerecht empfiehlt.",
-    "Der Personalbedarf steigt auf 6,39 VZÄ bei einem aktuellen Personalbestand von 4,35 VZÄ.",
-    "Die Anpassung erfolgt im Rahmen gesetzlicher Änderungen und increaseder Fallkomplexität, wobei die Gegenfinanzierung intern organisiert wird."
+    "Fachlich ermittelte Fallquote: 23 Vormundschaften je Vollzeitäquivalent; vorgeschlagen werden pauschal 30 je Vollzeitäquivalent.",
+    "Grundlage ist die durchschnittliche Fallzahl von 166 Vormundschaften pro Jahr (Januar 2023 bis Juni 2026), darunter durchschnittlich 44 Fälle unbegleiteter minderjähriger Ausländerinnen und Ausländer.",
+    "Gesamtpersonalbedarf 6,39 Vollzeitäquivalente (inklusive 10 Prozent Zuschlag für Rüst- und Nebenzeiten und 0,3 Vollzeitäquivalente fallunspezifischer Bedarf) gegenüber 4,35 vorhandenen Vollzeitäquivalenten.",
+    "Die Gegenfinanzierung ist im Erläuterungsteil dargestellt; die Umsetzung erfolgt im Rahmen vorhandener Personalressourcen."
   ],
-  "model": "mimo-v2.5",
+  "model": "glm-5.3-flash",
   "promptVersion": "paper-de-v7",
   "provider": "opencode-go",
-  "sourceHash": "sha256:b64b7d587a415fa9ed1cdab3415df80623edd11fcaf7d6200f5c5af0fc601620",
-  "summary": "Die Vorlage schlägt vor, die Fallquote für Amtsvormundschaften auf 30 Vormundschaften je Vollzeitäquivalent (VZÄ) anzupassen, um den gestiegenen gesetzlichen Anforderungen und der zunehmenden Komplexität der Fälle zu begegnen. Eine Personalbemessung hatte 23 VZÄ als fachlich angemessen ergeben, doch aufgrund der aktuellen Haushaltslage wird eine reduzierte Quote vorgeschlagen. Der sich ergebende Mehrbedarf an Personal soll durch interne Stellenverschiebungen innerhalb vorhandener Ressourcen gedeckt werden."
+  "sourceHash": "sha256:d5410f2f85cf1b63a600bd70098f1c85c530dbe68d19f730a966cfdede95771c",
+  "summary": "Die Vorlage schlägt vor, die Fallquote der Amtsvormundschaften und Amtspflegschaften pauschal auf 30 Vormundschaften je Vollzeitäquivalent festzusetzen. Eine Organisationsbetrachtung des Personal- und Organisationsamts hatte als fachlich sachgerechten Wert 23 Vormundschaften je Vollzeitäquivalent ermittelt; der höhere Wert wird wegen der Haushaltslage gewählt. Damit sind nicht alle fachlichen Standards umsetzbar, das gesetzlich erforderliche Maß wie monatliche Besuchskontakte soll jedoch erfüllt werden. Der daraus resultierende Gesamtpersonalbedarf von 6,39 Vollzeitäquivalenten steht einem vorhandenen Personalbestand von 4,35 Vollzeitäquivalenten gegenüber; der Mehrbedarf soll teilweise durch interne Stellenverschiebungen ausgeglichen werden."
 }
