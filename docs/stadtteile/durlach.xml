@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://maxliesegang.github.io/karlsruhe-oparl-syndication/stadtteile/durlach.xml</id>
     <title>Tagesordnungspunkte – Durlach</title>
-    <updated>2026-10-09T07:52:11.000Z</updated>
+    <updated>2026-10-09T16:23:03.000Z</updated>
     <generator>Custom TypeScript Atom Feed Generator</generator>
     <author>
         <name>Maximilian Liesegang</name>
@@ -13,6 +13,31 @@
     <link rel="self" href="https://maxliesegang.github.io/karlsruhe-oparl-syndication/stadtteile/durlach.xml"/>
     <subtitle>Öffentliche Tagesordnungspunkte mit Bezug zum Stadtteil Durlach</subtitle>
     <rights>Kein Copyright</rights>
+    <entry>
+        <title type="html"><![CDATA[Öffentliche Sitzgelegenheiten in Karlsruhe]]></title>
+        <id>https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103438</id>
+        <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-10588#top21"/>
+        <updated>2026-10-09T16:23:03.000Z</updated>
+        <summary type="html"><![CDATA[Die Anfrage der SPD fragt bei der Stadt Karlsruhe nach, ob eine gesamtstädtische Übersicht oder ein Konzept zu öffentlichen Sitzgelegenheiten existiert und nach welchen Kriterien neue Standorte insbesondere in Wohnquartieren gewählt werden. Angefragt wird auch, ob in bestimmten Stadtteilen – namentlich der Südweststadt und dem Altstadtring in Durlach – ein besonderer Mangel besteht und ob die Bedürfnisse älterer und mobilitätseingeschränkter Personen berücksichtigt werden. Zudem wird nach Prüfung kleinerer Grünflächen und Restflächen für zusätzliche Sitzgelegenheiten sowie nach vorhandenem Budget oder Sponsoren- und Fördermöglichkeiten gefragt.]]></summary>
+        <content type="html"><![CDATA[
+      <b>Sitzung:</b> Gemeinderat (öffentlich/nicht öffentlich)<br>
+      <b>Datum:</b> 20. Oktober 2026<br>
+      <b>TOP 21:</b> Öffentliche Sitzgelegenheiten in Karlsruhe<br>
+      
+      <b>Antragstellende Fraktion:</b> SPD<br><br>
+      <b>KI-generierte Zusammenfassung der Vorlage:</b> Die Anfrage der SPD fragt bei der Stadt Karlsruhe nach, ob eine gesamtstädtische Übersicht oder ein Konzept zu öffentlichen Sitzgelegenheiten existiert und nach welchen Kriterien neue Standorte insbesondere in Wohnquartieren gewählt werden. Angefragt wird auch, ob in bestimmten Stadtteilen – namentlich der Südweststadt und dem Altstadtring in Durlach – ein besonderer Mangel besteht und ob die Bedürfnisse älterer und mobilitätseingeschränkter Personen berücksichtigt werden. Zudem wird nach Prüfung kleinerer Grünflächen und Restflächen für zusätzliche Sitzgelegenheiten sowie nach vorhandenem Budget oder Sponsoren- und Fördermöglichkeiten gefragt.<ul><li>Öffentliche Sitzgelegenheiten sollen als barrierefreier Bestandteil der Stadtentwicklung besonders älteren und mobilitätseingeschränkten Personen die Wege im Quartier erleichtern.</li><li>Aus Gesprächen in verschiedenen Stadtteilen entsteht laut Anfrage der Eindruck, dass die Versorgung sehr unterschiedlich ist und in einzelnen Wohnquartieren längere Abschnitte ohne Rastmöglichkeiten bestehen.</li><li>Angefragt wird ausdrücklich die Situation in der Südweststadt und am Altstadtring in Durlach.</li><li>Die Anfrage zielt zunächst auf einen Überblick über bestehende Strukturen, Versorgungslücken und weitere Planung ab.</li></ul><small>Automatisch erstellt; maßgeblich sind die Originalunterlagen.</small><br><br>
+      <b>Anhänge:</b><br> <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00680961.pdf">Anfrage (Erstellt am: 22.09.2026, Aktualisiert am: 08.10.2026)</a><br>
+    ]]></content>
+        <author>
+            <name>Gemeinderat (öffentlich/nicht öffentlich)</name>
+        </author>
+        <category label="Gemeinderat" scheme="https://oparl.org/schema/1.1/Organization" term="https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"/>
+        <category label="Durlach" scheme="https://maxliesegang.github.io/karlsruhe-oparl-syndication/stadtteile/" term="durlach"/>
+        <category label="Südweststadt" scheme="https://maxliesegang.github.io/karlsruhe-oparl-syndication/stadtteile/" term="suedweststadt"/>
+        <category label="SPD" scheme="https://github.com/karlsruhe-oparl-syndication/schema/submitter" term="spd"/>
+        <category label="Anfrage" scheme="https://oparl.org/schema/1.1/Paper" term="Anfrage"/>
+        <published>2026-09-22T11:51:43.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Nachhaltiges Parkraumkonzept Stadt Karlsruhe]]></title>
         <id>https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103314</id>
@@ -43,31 +68,6 @@
         <category label="Wolfartsweier" scheme="https://maxliesegang.github.io/karlsruhe-oparl-syndication/stadtteile/" term="wolfartsweier"/>
         <category label="Beschlussvorlage" scheme="https://oparl.org/schema/1.1/Paper" term="Beschlussvorlage"/>
         <published>2026-09-22T07:56:33.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Öffentliche Sitzgelegenheiten in Karlsruhe]]></title>
-        <id>https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103438</id>
-        <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-10588#top21"/>
-        <updated>2026-10-09T07:52:11.000Z</updated>
-        <summary type="html"><![CDATA[Die Anfrage der SPD fragt bei der Stadt Karlsruhe nach, ob eine gesamtstädtische Übersicht oder ein Konzept zu öffentlichen Sitzgelegenheiten existiert und nach welchen Kriterien neue Standorte insbesondere in Wohnquartieren gewählt werden. Angefragt wird auch, ob in bestimmten Stadtteilen – namentlich der Südweststadt und dem Altstadtring in Durlach – ein besonderer Mangel besteht und ob die Bedürfnisse älterer und mobilitätseingeschränkter Personen berücksichtigt werden. Zudem wird nach Prüfung kleinerer Grünflächen und Restflächen für zusätzliche Sitzgelegenheiten sowie nach vorhandenem Budget oder Sponsoren- und Fördermöglichkeiten gefragt.]]></summary>
-        <content type="html"><![CDATA[
-      <b>Sitzung:</b> Gemeinderat (öffentlich/nicht öffentlich)<br>
-      <b>Datum:</b> 20. Oktober 2026<br>
-      <b>TOP 21:</b> Öffentliche Sitzgelegenheiten in Karlsruhe<br>
-      
-      <b>Antragstellende Fraktion:</b> SPD<br><br>
-      <b>KI-generierte Zusammenfassung der Vorlage:</b> Die Anfrage der SPD fragt bei der Stadt Karlsruhe nach, ob eine gesamtstädtische Übersicht oder ein Konzept zu öffentlichen Sitzgelegenheiten existiert und nach welchen Kriterien neue Standorte insbesondere in Wohnquartieren gewählt werden. Angefragt wird auch, ob in bestimmten Stadtteilen – namentlich der Südweststadt und dem Altstadtring in Durlach – ein besonderer Mangel besteht und ob die Bedürfnisse älterer und mobilitätseingeschränkter Personen berücksichtigt werden. Zudem wird nach Prüfung kleinerer Grünflächen und Restflächen für zusätzliche Sitzgelegenheiten sowie nach vorhandenem Budget oder Sponsoren- und Fördermöglichkeiten gefragt.<ul><li>Öffentliche Sitzgelegenheiten sollen als barrierefreier Bestandteil der Stadtentwicklung besonders älteren und mobilitätseingeschränkten Personen die Wege im Quartier erleichtern.</li><li>Aus Gesprächen in verschiedenen Stadtteilen entsteht laut Anfrage der Eindruck, dass die Versorgung sehr unterschiedlich ist und in einzelnen Wohnquartieren längere Abschnitte ohne Rastmöglichkeiten bestehen.</li><li>Angefragt wird ausdrücklich die Situation in der Südweststadt und am Altstadtring in Durlach.</li><li>Die Anfrage zielt zunächst auf einen Überblick über bestehende Strukturen, Versorgungslücken und weitere Planung ab.</li></ul><small>Automatisch erstellt; maßgeblich sind die Originalunterlagen.</small><br><br>
-      <b>Anhänge:</b><br> <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00680961.pdf">Anfrage (Erstellt am: 22.09.2026, Aktualisiert am: 08.10.2026)</a><br>
-    ]]></content>
-        <author>
-            <name>Gemeinderat (öffentlich/nicht öffentlich)</name>
-        </author>
-        <category label="Gemeinderat" scheme="https://oparl.org/schema/1.1/Organization" term="https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"/>
-        <category label="Durlach" scheme="https://maxliesegang.github.io/karlsruhe-oparl-syndication/stadtteile/" term="durlach"/>
-        <category label="Südweststadt" scheme="https://maxliesegang.github.io/karlsruhe-oparl-syndication/stadtteile/" term="suedweststadt"/>
-        <category label="SPD" scheme="https://github.com/karlsruhe-oparl-syndication/schema/submitter" term="spd"/>
-        <category label="Anfrage" scheme="https://oparl.org/schema/1.1/Paper" term="Anfrage"/>
-        <published>2026-09-22T11:51:43.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Nachhaltiges Parkraumkonzept Stadt Karlsruhe]]></title>
