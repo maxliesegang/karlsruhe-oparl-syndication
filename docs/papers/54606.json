@@ -8,7 +8,7 @@
       "fileName": "00678659.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678659",
       "mimeType": "application/pdf",
-      "modified": "2026-10-01T07:36:18+02:00",
+      "modified": "2026-10-14T09:25:38+02:00",
       "name": "Antrag",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -20,24 +20,13 @@
       "fileName": "00678687.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678687",
       "mimeType": "application/pdf",
-      "modified": "2026-10-01T07:36:18+02:00",
+      "modified": "2026-10-14T09:25:38+02:00",
       "name": "Stellungnahme Antrag",
       "type": "https://schema.oparl.org/1.1/File"
     }
   ],
   "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
   "consultation": [
-    {
-      "created": "2026-10-14T07:02:11+02:00",
-      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38125",
-      "modified": "2026-10-14T07:02:11+02:00",
-      "organization": [
-        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
-      ],
-      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54606",
-      "role": "Entscheidung",
-      "type": "https://schema.oparl.org/1.1/Consultation"
-    },
     {
       "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102457",
       "authoritative": true,
@@ -65,12 +54,25 @@
       "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54606",
       "role": "Behandlung",
       "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103872",
+      "created": "2026-10-14T09:18:24+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38125",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10588",
+      "modified": "2026-10-14T09:18:30+02:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54606",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
     }
   ],
   "created": "2026-05-27T10:33:06+02:00",
   "date": "2026-05-27",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54606",
-  "modified": "2026-10-01T07:36:18+02:00",
+  "modified": "2026-10-14T09:25:38+02:00",
   "name": "Mehr Sicherheit im öffentlichen Raum",
   "paperType": "Antrag",
   "reference": "2026/0439",
