@@ -1,15 +1,99 @@
 {
+  "agendaItem": [
+    {
+      "created": "2026-07-03T11:34:50+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102504",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10445",
+      "modified": "2026-08-26T08:19:14+02:00",
+      "name": "Fragen und Anregungen der Einwohnerinnen und Einwohner",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38078",
+      "created": "2026-08-11T08:50:51+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102748",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10445",
+      "modified": "2026-10-06T08:32:19+02:00",
+      "name": "Änderung der Benutzungsordnung der Begegnungsstätte Grötzingen",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37779",
+      "created": "2026-08-27T11:30:20+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103030",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10445",
+      "modified": "2026-09-21T12:01:02+02:00",
+      "name": "Verschlankung der ortschaftsrätlichen Gremien als Beitrag zur Haushaltsstabilisierung",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38010",
+      "created": "2026-08-24T14:29:52+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102933",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10445",
+      "modified": "2026-10-01T07:20:31+02:00",
+      "name": "Zukunftspapier der Ortsverwaltungen",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37859",
+      "created": "2026-08-26T08:19:07+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102973",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10445",
+      "modified": "2026-09-21T12:01:02+02:00",
+      "name": "Pflege des Jüdischen Friedhofs in Grötzingen (Antrag SPD-Fraktion)",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-07-03T11:35:04+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102505",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10445",
+      "modified": "2026-09-21T12:01:02+02:00",
+      "name": "Mitteilungen der Ortsverwaltung",
+      "number": "6",
+      "order": 6,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
   "created": "2025-08-29T16:24:04+02:00",
   "end": "2026-10-21T00:00:00+02:00",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10445",
+  "invitation": {
+    "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681398.pdf",
+    "created": "2026-10-06T08:33:54+02:00",
+    "date": "2026-10-06",
+    "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681398.pdf",
+    "fileName": "00681398.pdf",
+    "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681398",
+    "mimeType": "application/pdf",
+    "modified": "2026-10-12T07:11:12+02:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
   "location": {
     "created": "2025-08-29T16:24:04+02:00",
     "description": "Begegnungsstätte Grötzingen, Niddastraße 9, 76229 Karlsruhe",
     "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/locations/si/10445",
-    "modified": "2026-10-08T17:21:33+02:00",
+    "modified": "2026-10-12T11:13:09+02:00",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-10-08T17:21:33+02:00",
+  "modified": "2026-10-12T11:13:09+02:00",
   "name": "Ortschaftsrat Grötzingen (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/33695"

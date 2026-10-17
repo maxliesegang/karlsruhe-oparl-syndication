@@ -5,11 +5,12 @@
       "created": "2026-08-20T10:57:55+02:00",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102806",
       "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10731",
-      "modified": "2026-08-25T14:41:27+02:00",
+      "modified": "2026-10-12T11:29:55+02:00",
       "name": "Zusammensetzung des Ortschaftsrats: Nachrücken und Verpflichtung von Frau Manuela Reichmann, Bündnis 90 / Die Grünen",
       "number": "1",
       "order": 1,
       "public": true,
+      "result": "einstimmig beschlossen",
       "type": "https://schema.oparl.org/1.1/AgendaItem"
     },
     {
@@ -17,11 +18,12 @@
       "created": "2026-08-20T10:58:36+02:00",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102807",
       "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10731",
-      "modified": "2026-08-25T14:41:27+02:00",
+      "modified": "2026-10-12T11:30:05+02:00",
       "name": "Umbesetzung der Pflegschaft Kindertagesstätte Katze",
       "number": "2",
       "order": 2,
       "public": true,
+      "result": "einstimmig beschlossen",
       "type": "https://schema.oparl.org/1.1/AgendaItem"
     },
     {
@@ -80,8 +82,20 @@
       "fileName": "00680556.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680556",
       "mimeType": "application/pdf",
-      "modified": "2026-09-09T13:16:55+02:00",
+      "modified": "2026-10-12T11:32:46+02:00",
       "name": "Tagesordnung ö",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681579.pdf",
+      "created": "2026-10-12T11:32:37+02:00",
+      "date": "2026-10-12",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681579.pdf",
+      "fileName": "00681579.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681579",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-12T11:32:46+02:00",
+      "name": "Protokoll ö",
       "type": "https://schema.oparl.org/1.1/File"
     }
   ],
@@ -92,10 +106,10 @@
     "created": "2025-10-27T11:03:34+01:00",
     "description": "Begegnungsstätte Wolfartsweier, Rathausstr. 2a, 76228 Karlsruhe",
     "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/locations/si/10731",
-    "modified": "2026-09-14T13:52:16+02:00",
+    "modified": "2026-10-12T11:32:46+02:00",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-09-14T13:52:16+02:00",
+  "modified": "2026-10-12T11:32:46+02:00",
   "name": "Ortschaftsrat Wolfartsweier (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/35147"
