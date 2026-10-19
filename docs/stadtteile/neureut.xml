@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://maxliesegang.github.io/karlsruhe-oparl-syndication/stadtteile/neureut.xml</id>
     <title>Tagesordnungspunkte – Neureut</title>
-    <updated>2026-10-16T14:04:56.000Z</updated>
+    <updated>2026-10-19T06:20:03.000Z</updated>
     <generator>Custom TypeScript Atom Feed Generator</generator>
     <author>
         <name>Maximilian Liesegang</name>
@@ -13,6 +13,30 @@
     <link rel="self" href="https://maxliesegang.github.io/karlsruhe-oparl-syndication/stadtteile/neureut.xml"/>
     <subtitle>Öffentliche Tagesordnungspunkte mit Bezug zum Stadtteil Neureut</subtitle>
     <rights>Kein Copyright</rights>
+    <entry>
+        <title type="html"><![CDATA[Dammerstock Aufstockung Nürnberger Straße 5a]]></title>
+        <id>https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103484</id>
+        <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-10640#top3"/>
+        <updated>2026-10-19T06:20:03.000Z</updated>
+        <summary type="html"><![CDATA[Dammerstock Aufstockung Nürnberger Straße 5a]]></summary>
+        <content type="html"><![CDATA[
+      <b>Sitzung:</b> Gestaltungsbeirat (öffentlich/nichtöffentlich)<br>
+      <b>Datum:</b> 20. November 2026<br>
+      <b>TOP 3:</b> Dammerstock Aufstockung Nürnberger Straße 5a<br>
+      
+      
+      
+      <b>Anhänge:</b><br> <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681248.pdf">Informationsvorlage (Erstellt am: 30.09.2026, Aktualisiert am: 19.10.2026)</a><br><a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681262.pdf">Vorläufige_Präsentation_Stand_260928 (Erstellt am: 30.09.2026, Aktualisiert am: 19.10.2026)</a><br>
+    ]]></content>
+        <author>
+            <name>Gestaltungsbeirat (öffentlich/nichtöffentlich)</name>
+        </author>
+        <category label="Gestaltungsbeirat" scheme="https://oparl.org/schema/1.1/Organization" term="https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/54847"/>
+        <category label="Neureut" scheme="https://maxliesegang.github.io/karlsruhe-oparl-syndication/stadtteile/" term="neureut"/>
+        <category label="Weiherfeld-Dammerstock" scheme="https://maxliesegang.github.io/karlsruhe-oparl-syndication/stadtteile/" term="weiherfeld-dammerstock"/>
+        <category label="Informationsvorlage" scheme="https://oparl.org/schema/1.1/Paper" term="Informationsvorlage"/>
+        <published>2026-09-28T09:50:05.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Zukunftspapier der Ortsverwaltungen]]></title>
         <id>https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103574</id>
@@ -13596,29 +13620,6 @@
         <category label="Palmbach" scheme="https://maxliesegang.github.io/karlsruhe-oparl-syndication/stadtteile/" term="palmbach"/>
         <category label="Stupferich" scheme="https://maxliesegang.github.io/karlsruhe-oparl-syndication/stadtteile/" term="stupferich"/>
         <category label="Waldstadt" scheme="https://maxliesegang.github.io/karlsruhe-oparl-syndication/stadtteile/" term="waldstadt"/>
-        <category label="Beschlussvorlage" scheme="https://oparl.org/schema/1.1/Paper" term="Beschlussvorlage"/>
-        <published>2016-10-12T07:08:40.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Neureuter Hauptstraße]]></title>
-        <id>https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/29628</id>
-        <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-2945#top1"/>
-        <updated>2025-03-03T13:30:52.000Z</updated>
-        <summary type="html"><![CDATA[Neureuter Hauptstraße]]></summary>
-        <content type="html"><![CDATA[
-      <b>Sitzung:</b> Planungsausschuss<br>
-      <b>Datum:</b> 21. Juni 2012<br>
-      <b>TOP 1:</b> Neureuter Hauptstraße<br>
-      
-      
-      
-      <b>Anhänge:</b><br> <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00033470.pdf">Neureuter Hauptstraße (Erstellt am: 12.10.2016, Aktualisiert am: 03.03.2025)</a><br>
-    ]]></content>
-        <author>
-            <name>Planungsausschuss</name>
-        </author>
-        <category label="Planungsausschuss" scheme="https://oparl.org/schema/1.1/Organization" term="https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/38449"/>
-        <category label="Neureut" scheme="https://maxliesegang.github.io/karlsruhe-oparl-syndication/stadtteile/" term="neureut"/>
         <category label="Beschlussvorlage" scheme="https://oparl.org/schema/1.1/Paper" term="Beschlussvorlage"/>
         <published>2016-10-12T07:08:40.000Z</published>
     </entry>

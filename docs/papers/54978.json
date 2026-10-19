@@ -1,0 +1,58 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681248.pdf",
+      "created": "2026-09-30T11:30:56+02:00",
+      "date": "2026-09-30",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681248.pdf",
+      "fileName": "00681248.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681248",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-19T08:20:03+02:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681262.pdf",
+      "created": "2026-09-30T16:12:49+02:00",
+      "date": "2026-09-30",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681262.pdf",
+      "fileName": "00681262.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681262",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-19T08:20:03+02:00",
+      "name": "Vorläufige_Präsentation_Stand_260928",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103484",
+      "created": "2026-09-28T11:50:05+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38016",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10640",
+      "modified": "2026-09-28T11:51:14+02:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/54847"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54978",
+      "role": "Beratung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-09-28T11:47:14+02:00",
+  "date": "2026-09-28",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54978",
+  "modified": "2026-10-19T08:20:03+02:00",
+  "name": "Dammerstock Aufstockung Nürnberger Straße 5a",
+  "paperType": "Informationsvorlage",
+  "reference": "2026/0376/1",
+  "subordinatedPaper": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54541"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/882980"
+  ]
+}
