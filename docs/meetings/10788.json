@@ -47,6 +47,20 @@
       "type": "https://schema.oparl.org/1.1/AgendaItem"
     }
   ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681777.pdf",
+      "created": "2026-10-19T13:28:33+02:00",
+      "date": "2026-10-19",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681777.pdf",
+      "fileName": "00681777.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681777",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-19T13:28:40+02:00",
+      "name": "Niederschrift 20. ORatSitzung öffentlich 16.09.2026",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
   "created": "2025-12-08T11:18:17+01:00",
   "end": "2026-09-16T00:00:00+02:00",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10788",
@@ -66,10 +80,10 @@
     "created": "2025-12-08T11:18:17+01:00",
     "description": "Sitzungssaal Rathaus Stupferich",
     "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/locations/si/10788",
-    "modified": "2026-09-18T13:59:32+02:00",
+    "modified": "2026-10-19T13:28:40+02:00",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-09-18T13:59:32+02:00",
+  "modified": "2026-10-19T13:28:40+02:00",
   "name": "Ortschaftsrat Stupferich (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/34764"
