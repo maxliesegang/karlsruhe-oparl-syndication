@@ -8,7 +8,7 @@
       "fileName": "00680149.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680149",
       "mimeType": "application/pdf",
-      "modified": "2026-10-08T11:28:49+02:00",
+      "modified": "2026-10-20T18:15:39+02:00",
       "name": "Beschlussvorlage",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -20,8 +20,20 @@
       "fileName": "00680150.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680150",
       "mimeType": "application/pdf",
-      "modified": "2026-10-08T11:28:49+02:00",
+      "modified": "2026-10-20T18:15:39+02:00",
       "name": "Anlage Wirtschaftsplan TSK 2027",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681876.pdf",
+      "created": "2026-10-20T18:15:35+02:00",
+      "date": "2026-10-20",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681876.pdf",
+      "fileName": "00681876.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681876",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-20T18:15:39+02:00",
+      "name": "Abstimmungsergebnis TOP 7",
       "type": "https://schema.oparl.org/1.1/File"
     }
   ],
@@ -29,10 +41,11 @@
   "consultation": [
     {
       "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103443",
+      "authoritative": true,
       "created": "2026-09-23T07:11:52+02:00",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37750",
       "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10588",
-      "modified": "2026-10-15T08:47:42+02:00",
+      "modified": "2026-10-20T17:47:56+02:00",
       "organization": [
         "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
       ],
@@ -44,7 +57,7 @@
   "created": "2026-07-31T11:26:38+02:00",
   "date": "2026-07-31",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54782",
-  "modified": "2026-10-16T08:51:34+02:00",
+  "modified": "2026-10-20T18:15:39+02:00",
   "name": "Festsetzung des Wirtschaftsplans 2027 des Eigenbetriebs \"Team Sauberes Karlsruhe - Abfallwirtschaft und Stadtreinigung\"",
   "paperType": "Beschlussvorlage",
   "reference": "2026/0592",

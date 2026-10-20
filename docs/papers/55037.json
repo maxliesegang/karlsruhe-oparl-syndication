@@ -8,8 +8,20 @@
       "fileName": "00681542.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681542",
       "mimeType": "application/pdf",
-      "modified": "2026-10-20T08:35:42+02:00",
+      "modified": "2026-10-20T18:14:42+02:00",
       "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681874.pdf",
+      "created": "2026-10-20T18:14:39+02:00",
+      "date": "2026-10-20",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681874.pdf",
+      "fileName": "00681874.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681874",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-20T18:14:42+02:00",
+      "name": "Abstimmungsergebnis TOP 5.1",
       "type": "https://schema.oparl.org/1.1/File"
     }
   ],
@@ -17,10 +29,11 @@
   "consultation": [
     {
       "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103714",
+      "authoritative": true,
       "created": "2026-10-09T09:48:38+02:00",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38094",
       "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10588",
-      "modified": "2026-10-15T08:47:43+02:00",
+      "modified": "2026-10-20T17:48:33+02:00",
       "organization": [
         "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
       ],
@@ -32,7 +45,7 @@
   "created": "2026-10-09T08:19:38+02:00",
   "date": "2026-10-09",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55037",
-  "modified": "2026-10-20T08:35:42+02:00",
+  "modified": "2026-10-20T18:14:42+02:00",
   "name": "Beschaffung von Servern für die Stadtverwaltung Karlsruhe",
   "paperType": "Beschlussvorlage",
   "reference": "2026/0831",

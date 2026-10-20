@@ -8,7 +8,7 @@
       "fileName": "00680615.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680615",
       "mimeType": "application/pdf",
-      "modified": "2026-10-14T07:36:36+02:00",
+      "modified": "2026-10-20T18:24:33+02:00",
       "name": "Anlage Einziehung P3",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -20,8 +20,20 @@
       "fileName": "00681165.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681165",
       "mimeType": "application/pdf",
-      "modified": "2026-10-14T07:36:36+02:00",
+      "modified": "2026-10-20T18:24:33+02:00",
       "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681885.pdf",
+      "created": "2026-10-20T18:24:30+02:00",
+      "date": "2026-10-20",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681885.pdf",
+      "fileName": "00681885.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681885",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-20T18:24:33+02:00",
+      "name": "Abstimmungsergebnis TOP 11",
       "type": "https://schema.oparl.org/1.1/File"
     }
   ],
@@ -29,10 +41,11 @@
   "consultation": [
     {
       "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103320",
+      "authoritative": true,
       "created": "2026-09-22T09:56:33+02:00",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37865",
       "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10588",
-      "modified": "2026-10-15T08:47:42+02:00",
+      "modified": "2026-10-20T17:46:14+02:00",
       "organization": [
         "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
       ],
@@ -44,7 +57,7 @@
   "created": "2026-08-28T07:27:03+02:00",
   "date": "2026-08-28",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54887",
-  "modified": "2026-10-14T07:36:36+02:00",
+  "modified": "2026-10-20T18:24:33+02:00",
   "name": "Einziehung der öffentlich gewidmeten Verkehrsfläche Parkplatz P3 in der Straße „Hinterm Hauptbahnhof“",
   "paperType": "Beschlussvorlage",
   "reference": "2026/0694",

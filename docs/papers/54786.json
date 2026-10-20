@@ -8,7 +8,7 @@
       "fileName": "00680091.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680091",
       "mimeType": "application/pdf",
-      "modified": "2026-10-14T07:35:50+02:00",
+      "modified": "2026-10-20T18:16:06+02:00",
       "name": "Beschlussvorlage Förderprogramm Starkregenvorsorge",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -20,8 +20,20 @@
       "fileName": "00680092.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680092",
       "mimeType": "application/pdf",
-      "modified": "2026-10-14T07:35:50+02:00",
+      "modified": "2026-10-20T18:16:06+02:00",
       "name": "Anlage Förderrichtlinie Starkregenberatung 20260720",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681877.pdf",
+      "created": "2026-10-20T18:16:02+02:00",
+      "date": "2026-10-20",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681877.pdf",
+      "fileName": "00681877.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681877",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-20T18:16:06+02:00",
+      "name": "Abstimmungsergebnis TOP 8",
       "type": "https://schema.oparl.org/1.1/File"
     }
   ],
@@ -29,10 +41,11 @@
   "consultation": [
     {
       "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103316",
+      "authoritative": true,
       "created": "2026-09-22T09:56:33+02:00",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37761",
       "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10588",
-      "modified": "2026-10-15T08:47:42+02:00",
+      "modified": "2026-10-20T17:47:36+02:00",
       "organization": [
         "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
       ],
@@ -44,10 +57,13 @@
   "created": "2026-08-03T14:26:45+02:00",
   "date": "2026-08-03",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54786",
-  "modified": "2026-10-14T07:35:50+02:00",
+  "modified": "2026-10-20T18:16:06+02:00",
   "name": "Förderprogramm Starkregenvorsorge",
   "paperType": "Beschlussvorlage",
   "reference": "2026/0596",
+  "superordinatedPaper": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55084"
+  ],
   "type": "https://schema.oparl.org/1.1/Paper",
   "underDirectionOf": [
     "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/882975"
