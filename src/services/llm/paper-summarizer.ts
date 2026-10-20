@@ -16,6 +16,8 @@ export interface PaperSummaryRequest {
   partial: boolean;
   /** Numeric literals rejected by the deterministic grounding check on the previous attempt. */
   numericLiteralsToCorrect?: string[];
+  /** References to numbered parts of the paper ("Ziffer 2") found on the previous attempt. */
+  itemReferencesToCorrect?: string[];
 }
 
 export interface PaperSummarizer {

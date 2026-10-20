@@ -349,4 +349,52 @@ describe('paper summary service', () => {
     expect(current.has(paper.id)).toBe(false);
     expect(stores.paperSummaries.getById(paper.id)).toBeUndefined();
   });
+
+  it('retries once when a summary refers to numbered paper items', async () => {
+    const summarize = vi
+      .fn()
+      .mockResolvedValueOnce({
+        summary: 'Die Verwaltung empfiehlt, Ziffer 2 abzulehnen.',
+        keyPoints: [],
+      })
+      .mockResolvedValueOnce({
+        summary: 'Die Verwaltung empfiehlt, den Umbau abzulehnen.',
+        keyPoints: [],
+      });
+
+    const current = await updatePaperSummaries([meeting], {
+      enabled: true,
+      summarizer: { providerName: 'test-provider', model: 'test-model', summarize },
+      promptVersion: 'test-v2',
+      maximumItems: 10,
+      maximumInputCharacters: 100_000,
+      concurrency: 1,
+    });
+
+    expect(summarize).toHaveBeenCalledTimes(2);
+    expect(summarize.mock.calls[1]?.[0]).toMatchObject({ itemReferencesToCorrect: ['Ziffer 2'] });
+    expect(summarize.mock.calls[1]?.[0]).not.toHaveProperty('numericLiteralsToCorrect');
+    expect(current.get(paper.id)?.summary).toBe('Die Verwaltung empfiehlt, den Umbau abzulehnen.');
+  });
+
+  it('keeps a summary whose corrective retry still refers to numbered items', async () => {
+    const summarize = vi
+      .fn()
+      .mockResolvedValue({
+        summary: 'Die Verwaltung empfiehlt, Ziffer 2 abzulehnen.',
+        keyPoints: [],
+      });
+
+    const current = await updatePaperSummaries([meeting], {
+      enabled: true,
+      summarizer: { providerName: 'test-provider', model: 'test-model', summarize },
+      promptVersion: 'test-v2',
+      maximumItems: 10,
+      maximumInputCharacters: 100_000,
+      concurrency: 1,
+    });
+
+    expect(summarize).toHaveBeenCalledTimes(2);
+    expect(current.get(paper.id)?.summary).toBe('Die Verwaltung empfiehlt, Ziffer 2 abzulehnen.');
+  });
 });

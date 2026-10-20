@@ -7,6 +7,7 @@ import { latestValidDate } from '../dates.js';
 import { OpenCodePaperSummarizer } from './llm/opencode-paper-summarizer.js';
 import { PaperSummarizer } from './llm/paper-summarizer.js';
 import { findUngroundedNumericLiterals } from './llm/summary-grounding.js';
+import { findItemReferences } from './llm/summary-item-references.js';
 import {
   buildPaperSummarySource,
   PaperSummaryConsultationContext,
@@ -246,7 +247,7 @@ async function summarizeSource(
   const partials: GeneratedPaperSummary[] = [];
   for (const chunk of chunks) {
     partials.push(
-      await summarizeWithNumericGrounding(summarizer, {
+      await summarizeWithOutputChecks(summarizer, {
         sessionId,
         heading,
         contextText,
@@ -271,7 +272,7 @@ async function summarizeSource(
     const nextLevel: GeneratedPaperSummary[] = [];
     for (const group of groups) {
       nextLevel.push(
-        await summarizeWithNumericGrounding(summarizer, {
+        await summarizeWithOutputChecks(summarizer, {
           sessionId,
           heading,
           contextText,
@@ -285,26 +286,36 @@ async function summarizeSource(
   return level[0];
 }
 
-async function summarizeWithNumericGrounding(
+async function summarizeWithOutputChecks(
   summarizer: PaperSummarizer,
   request: Parameters<PaperSummarizer['summarize']>[0],
 ): Promise<GeneratedPaperSummary> {
   const source = `${request.heading}\n${request.contextText}\n${request.sourceText}`;
   const firstAttempt = await summarizer.summarize(request);
   const ungrounded = findUngroundedNumericLiterals(firstAttempt, source);
-  if (ungrounded.length === 0) return firstAttempt;
+  const itemReferences = findItemReferences(firstAttempt);
+  if (ungrounded.length === 0 && itemReferences.length === 0) return firstAttempt;
 
   logger.debug(
-    `Retrying summary after rejecting ungrounded numeric literal(s): ${ungrounded.join(', ')}`,
+    `Retrying summary after rejecting ungrounded numeric literal(s) [${ungrounded.join(', ')}] / item reference(s) [${itemReferences.join(', ')}]`,
   );
   const corrected = await summarizer.summarize({
     ...request,
-    numericLiteralsToCorrect: ungrounded,
+    ...(ungrounded.length > 0 ? { numericLiteralsToCorrect: ungrounded } : {}),
+    ...(itemReferences.length > 0 ? { itemReferencesToCorrect: itemReferences } : {}),
   });
   const stillUngrounded = findUngroundedNumericLiterals(corrected, source);
   if (stillUngrounded.length > 0) {
     throw new Error(
       `Summary contains numeric literal(s) absent from its source: ${stillUngrounded.join(', ')}`,
+    );
+  }
+  // Unlike an invented number, a leftover "Ziffer 2" is unclear but not false,
+  // so it does not cost the paper its summary.
+  const stillReferenced = findItemReferences(corrected);
+  if (stillReferenced.length > 0) {
+    logger.warn(
+      `Summary for ${request.sessionId} still references numbered paper items: ${stillReferenced.join(', ')}`,
     );
   }
   return corrected;

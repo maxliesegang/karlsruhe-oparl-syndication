@@ -119,10 +119,15 @@ export class OpenCodePaperSummarizer implements PaperSummarizer {
     const qualifier = request.partial
       ? 'Der Quelltext besteht aus Teilzusammenfassungen einer längeren Vorlage.'
       : 'Der Quelltext ist ein Ausschnitt oder der vollständige Text der Vorlage.';
-    const correction = request.numericLiteralsToCorrect?.length
+    const numericCorrection = request.numericLiteralsToCorrect?.length
       ? `\n\nKORREKTURHINWEIS: Dein vorheriger Entwurf enthielt diese nicht im Quelltext belegten Zahlen: ${request.numericLiteralsToCorrect.join(', ')}. Erstelle die Zusammenfassung vollständig neu. Häufigste Ursache ist das Umrechnen: aus „21.240.000 Euro“ darf nicht „21,24 Millionen Euro“ werden und aus „8.200.000 Euro“ nicht „8,2 Mio. Euro“. Schreibe jeden Betrag genau in der Schreibweise des Quelltextes oder lass ihn weg. Lass ebenso alle addierten, geschätzten oder in Prozent umgerechneten Werte weg.`
       : '';
-    const prompt = `${qualifier}${correction}\n\nVorlage: ${request.heading}\n\nSTRUKTURIERTER KONTEXT BEGINN\n${request.contextText}\nSTRUKTURIERTER KONTEXT ENDE\n\nDOKUMENTTEXT BEGINN\n${request.sourceText}\nDOKUMENTTEXT ENDE`;
+    // A retry hint rather than a SYSTEM_PROMPT rule, so it needs no prompt-version
+    // bump and does not regenerate the whole cached archive.
+    const itemReferenceCorrection = request.itemReferencesToCorrect?.length
+      ? `\n\nKORREKTURHINWEIS: Dein vorheriger Entwurf verwies auf nummerierte Teile der Vorlage (${request.itemReferencesToCorrect.join(', ')}). Das Publikum sieht nur deine Zusammenfassung, deren Kernaussagen als Liste erscheinen; ein Verweis wie „Ziffer 2“ ist dort nicht auflösbar und wird leicht auf die falsche Kernaussage bezogen. Erstelle die Zusammenfassung vollständig neu und nenne statt Nummer oder Position jeweils den Inhalt: statt „empfiehlt, die Ziffern 1 und 3 als erledigt zu betrachten und Ziffer 2 abzulehnen“ etwa „empfiehlt, die Forderungen nach einer Aktionswoche und nach Unterstützung der Bundesratsinitiative als erledigt zu betrachten und den Pilotbetrieb eines Lärmblitzers abzulehnen“.`
+      : '';
+    const prompt = `${qualifier}${numericCorrection}${itemReferenceCorrection}\n\nVorlage: ${request.heading}\n\nSTRUKTURIERTER KONTEXT BEGINN\n${request.contextText}\nSTRUKTURIERTER KONTEXT ENDE\n\nDOKUMENTTEXT BEGINN\n${request.sourceText}\nDOKUMENTTEXT ENDE`;
 
     let lastEmptyResponse: unknown;
     for (let attempt = 1; attempt <= MAX_EMPTY_RESPONSE_ATTEMPTS; attempt++) {
