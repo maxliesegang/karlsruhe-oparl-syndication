@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-14T07:33:17.499Z",
+  "generatedAt": "2026-10-21T07:13:36.467Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54584",
   "keyPoints": [
-    "Der Umbau sieht vor, Dreiecksinseln zurückzubauen, den rechtsab- und -einbiegenden Kfz-Verkehr in die Signalisierung zu integrieren und die Lichtsignalanlage an K323 barrierefrei zu erneuern; dafür entfallen je Richtung ein Fahrstreifen der Kriegsstraße.",
-    "In den Varianten V1 und V2 treten in mehreren Zufahrten Qualitätsstufen E/F mit stetig ansteigenden Rückstaulängen auf; eine sporadische Überstauung des Karoline-Luise-Tunnels kann nicht ausgeschlossen werden.",
-    "Für Fuß- und Radverkehr ergeben sich zwischen den Varianten keine wesentlichen Wartezeitunterschiede; eine Reduzierung der Umlaufzeit in der Spitzenstunde ist laut Untersuchung nur in Variante V0 realistisch umsetzbar.",
-    "Die Untersuchung basiert auf Zähldaten vom November 2022 und betrachtet die Abendspitzenstunde (16 bis 17 Uhr); Sicherheits-, städtebauliche und verkehrsregulierende Aspekte sind nicht Teil der Betrachtung."
+    "Die Vorlage nennt als Gründe für die reduzierte Kapazität den Entfall von zwei Fahrstreifen entlang der Kriegsstraße sowie die Signalisierung der rechtsab- und -einbiegenden Verkehre mit längeren Fußgängerfurten und Räumzeiten.",
+    "Die Variante mit Radfahrstreifen rechts neben den Rechtsab- beziehungsweise -einbiegefahrstreifen zeigt in der Simulation unter anderem eine maximale Rückstaulänge von rund 370 Metern aus westlicher Zufahrt und eine stetig steigende Rückstaubildung Richtung Süden und Osten.",
+    "Nur bei Radfahrstreifen in Mittellage hält der Gutachter eine Reduzierung der Umlaufzeit von 100 auf 90 Sekunden in den Hauptverkehrszeiten und damit um 10 Sekunden kürzere Wartezeiten für möglich.",
+    "Grundlage der Simulation sind Verkehrszählungen aus dem November 2022 für die Abendspitze von 16:00 bis 17:00 Uhr, wobei die Verkehrsmengen aus Norden um 20 Prozent erhöht angesetzt wurden; der Umbau ist für 2026 und 2027 vorgesehen."
   ],
-  "model": "glm-5.3-flash",
-  "promptVersion": "paper-de-v7",
+  "model": "mimo-v2.6-pro",
+  "promptVersion": "paper-de-v8",
   "provider": "opencode-go",
-  "sourceHash": "sha256:718cb14a530697965879dc9e8718d79704edea08f9517c045d186369259c1e70",
-  "summary": "Die Informationsvorlage stellt eine Verkehrsuntersuchung zum geplanten Umbau der Kreuzung Kriegs-/Brauer-/Reinhold-Frank-Straße (K323) und der südlich gelegenen Kreuzung Brauerstraße/Gartenstraße (K324) vor, die für 2026 und 2027 geplant ist. Mit einer mikroskopischen Verkehrsflusssimulation wurden drei Markierungsvarianten für die Lage der Radfahrstreifen verglichen: Radfahrstreifen in Mittellage zwischen den Kfz-Fahrstreifen (V0), in Seitenlage am Gehweg (V1) sowie eine Teile-Seitenlage (V2). Dem Ergebnis zufolge arbeitet der Knotenpunkt in Variante V0 an der Leistungsfähigkeitsgrenze, aber ohne größere Rückstaus, während die Varianten V1 und V2 Kapazitätsdefizite mit Rückstauen insbesondere Richtung Brauerstraße und Karoline-Luise-Tunnel sowie eine schlechtere Koordinierung der beiden nah beieinander liegenden Knotenpunkte verursachen würden. Die Stadtverwaltung empfiehlt daher die Markierungslösung gemäß Variante V0, die zudem perspektivisch eine Umlaufzeitreduzierung von 100 auf 90 Sekunden und damit kürzere Wartezeiten für Fuß- und Radverkehr ermöglicht."
+  "sourceHash": "sha256:e6c368c264fa91e5a06fa402d6a36b770cf52018207ffb448914ed895463c7ea",
+  "summary": "Die Vorlage stellt eine mikroskopische Verkehrsuntersuchung zu den geplanten Umbauten der Knotenpunkte Kriegsstraße/Brauerstraße/Reinhold-Frank-Straße und Brauerstraße/Gartenstraße vor. Die Verwaltung empfiehlt die Markierungsvariante mit Radfahrstreifen in Mittellage, weil die Varianten mit Radfahrstreifen in Seitenlage den Knotenpunkt nicht mehr ausreichend leistungsfähig lassen."
 }

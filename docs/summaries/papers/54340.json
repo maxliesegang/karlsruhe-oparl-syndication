@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-14T07:38:45.917Z",
+  "generatedAt": "2026-10-21T07:36:10.966Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54340",
   "keyPoints": [
-    "Von den über 700 Anzeigern der VBK und AVG sind laut Verwaltung rund 20 gestört; die übrigen Probleme etwa bei Traktionsstärke, Barrierefreiheit und Doppeltraktionsanzeigen seien im Wesentlichen gelöst.",
-    "Die Störungen bestehen seit der Leitsystemumstellung, die der KVV am 21. November 2025 in einer Pressemitteilung mit kurzzeitigen Ausfällen der Fahrgastinformation angekündigt hatte.",
-    "Die Verwaltung führt an, dass trotz eines umfangreichen Testprogramms mit unter anderem 22 Testfahrten zwischen April und November 2025 nicht alle betrieblichen Rahmenbedingungen vorab geprüft werden konnten.",
-    "Die Schnittstellenanpassungen verursachten laut Verwaltung keine zusätzlichen externen Kosten, da sie Bestandteil der ursprünglichen Aufträge an die Dienstleister sind; ein Student des KIT bietet zwischenzeitlich eine kostenlose Website mit Echtzeit-Abfahrtsdaten an."
+    "Laut Stellungnahme bestanden Herausforderungen bei der Schnittstelle zu den Haltestellenanzeigern und der Datenqualität, die bis auf Angaben zur Traktionsstärke, zur Barrierefreiheit und zur Anzeige von Doppeltraktionen als zwei Fahrten im Wesentlichen gelöst sind.",
+    "Von über 700 Anzeigern der VBK und AVG seien rund 20 gestört; größere Ausfälle der letzten Wochen gehen nach Angaben der Stellungnahme nicht auf die Systemumstellung zurück.",
+    "Vor der Inbetriebnahme sei ein Testprogramm mit unter anderem 22 Testfahrten zwischen April und November 2025 absolviert worden; bestimmte Aspekte ließen sich erst im realen Betrieb prüfen.",
+    "Durch die Schnittstellenanpassungen seien keine zusätzlichen externen Kosten entstanden, da diese Arbeiten Teil des ursprünglichen Initialauftrags seien; für eine vollständig fehlerfreie Funktion könne kein Datum genannt werden."
   ],
-  "model": "glm-5.3-flash",
-  "promptVersion": "paper-de-v7",
+  "model": "mimo-v2.6-pro",
+  "promptVersion": "paper-de-v8",
   "provider": "opencode-go",
-  "sourceHash": "sha256:bec7f8669e559b7ac688b56d1627a2cb4ecb5fba5cf73db28dee433be10eca82",
-  "summary": "Die Anfrage der Fraktion FDP/FW richtet sechs Fragen an die Verwaltung zu den seit Monaten gestörten digitalen Fahrgastanzeigern an Karlsruher Haltestellen nach der Umstellung des Leitsystems der AVG. Die Verwaltung erklärt die Störungen mit Herausforderungen bei der Schnittstellenanpassung und Datenqualität, nennt keine zusätzlichen externen Kosten und kann für eine vollständige Fehlerbehebung kein Datum nennen. Auf die Kritik an der Kommunikation räumt sie ein, diese sei teils als nicht ausreichend proaktiv wahrgenommen worden, und kündigt eine interne Aufarbeitung des Kommunikationsansatzes an."
+  "sourceHash": "sha256:aa97dc22286eac52f0c30c302c774f135b0b8d84c76f44ccf5a6fb96f60cbccb",
+  "summary": "Die Anfrage fragt nach den Gründen für monatelange Ausfälle und Falschanzeigen der digitalen Fahrgastinformationsanzeiger an Karlsruher Haltestellen seit der Leitsystemumstellung und verlangt Auskunft zu Kosten, Zeitplan und Kommunikation des KVV. Die Stellungnahme der VBK führt aus, dass die Schnittstellenprobleme im Wesentlichen gelöst sind, nennt aber keinen Termin für eine vollständige Behebung."
 }

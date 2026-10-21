@@ -1,13 +1,15 @@
 {
-  "generatedAt": "2026-09-30T08:18:46.543Z",
+  "generatedAt": "2026-10-21T06:44:31.665Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55002",
   "keyPoints": [
-    "Die Umlandgemeinden werden laut Verwaltung an Betriebskosten inklusive Abschreibungen und Zinsen beteiligt, eine Beteiligung an reinen Investitionskosten wird nicht explizit bestätigt.",
-    "Die CDU kritisiert, dass die EU-Kommunalabwasserrichtlinie nicht die einzelnen Klärwerke zur Eigenstromerzeugung verpflichte und der Eigenstromversorgungsgrad in Baden-Württemberg bereits bei 43 Prozent liege."
+    "Die Anfrage bestreitet, dass die EU-Kommunalabwasserrichtlinie den Bau der Anlage zwingend erfordert, und verweist auf einen Eigenstromversorgungsgrad von 43 Prozent in Baden-Württemberg gegenüber einer erst in knapp zehn Jahren zu erfüllenden 40-Prozent-Marke.",
+    "Nach Angaben der Verwaltung war 2023 mit 80 Mio. € nur die Größenordnung für generelle Kosten einer Faulungsanlage genannt; die nunmehr genannten 115 Mio. € beruhen auf der Entwurfsplanung.",
+    "Varianten mit unterschiedlicher Zahl an Faultürmen wurden diskutiert, wobei die Verwaltung die Variante mit vier Faultürmen als verfahrenstechnisch und baugrundtechnisch am besten geeignet ansieht und Kostenoptimierungen in den Planungsschritten berücksichtigt.",
+    "Ettlingen, Malsch, Rheinstetten-Forchheim und der Abwasserverband Beierbach werden laut Verwaltung an den Betriebskosten inklusive Abschreibungen und Zinsen nach eingeleiteter Schmutzfracht und Abwassermenge beteiligt; über eine Beteiligung an den Investitionskosten enthält die Stellungnahme keine Angabe."
   ],
-  "model": "mimo-v2.5",
-  "promptVersion": "paper-de-v7",
+  "model": "mimo-v2.6-pro",
+  "promptVersion": "paper-de-v8",
   "provider": "opencode-go",
-  "sourceHash": "sha256:195bda0b41d09530f4052178b751af1e3b84705e73353b7a90fb82c3d4dafee3",
-  "summary": "Die Vorlage enthält eine Ergänzungsanfrage der Fraktion CDU zum Neubau einer Faulungsanlage am Klärwerk Karlsruhe. Gefragt wird nach der Erklärung des Kostenanstiegs von 80 Millionen Euro (2023) auf 115,5 Millionen Euro, nach Möglichkeiten zur Kostenreduzierung durch einen anfänglichen Bau von nur zwei statt vier Faultürmen sowie nach der Beteiligung der angeschlossenen Umlandgemeinden Ettlingen, Malsch, Rheinstetten-Forchheim und des Abwasserverbands Beierbach an den Investitionskosten. Die Verwaltung erklärt den Kostenanstieg mit detaillierterer Planung, Bodenverhältnissen, Schnittstellen zum Bestandsbau und allgemeinen Kostensteigerungen und gibt an, dass die Variante mit vier Faultürmen als verfahrenstechnisch und baugrundtechnisch am besten geeignet identifiziert wurde."
+  "sourceHash": "sha256:38af9a9e7719ca43683fed221d119902ffb3ef2e855543d924cf99ad17606c43",
+  "summary": "Die Anfrage der CDU-Fraktion verlangt Auskunft über den Kostenanstieg der geplanten Faulungsanlage am Klärwerk Karlsruhe von 80,0 auf 115,5 Millionen Euro, über Kostensenkung durch zunächst nur zwei statt vier Faultürme und über die Beteiligung angeschlossener Umlandgemeinden an den Investitionskosten. Das Tiefbauamt führt die Steigerung mit Bodenverhältnissen, Schnittstellen zum Bauen im Bestand und allgemeinen Kostensteigerungen aus und hält die Variante mit vier Faultürmen für die geeignetste."
 }

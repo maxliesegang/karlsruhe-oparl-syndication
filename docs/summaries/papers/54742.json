@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-14T13:37:38.164Z",
+  "generatedAt": "2026-10-21T06:49:05.900Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54742",
   "keyPoints": [
-    "Die S5-Steuerungen sind seit 2003 sukzessive, die gesamte Systemreihe seit Oktober 2020 vollständig vom Hersteller abgekündigt; Ersatzteile sind kaum noch verfügbar und extrem kostenintensiv.",
-    "Ohne Umrüstung wäre bei Ausfall der Verbrennungslinie 2 ein Entsorgungsengpass drohend; eine externe mobile Vorentwässerung mit Abtransport zu Fremdverbrennungsanlagen würde ca. 200.000 Euro pro Woche kosten (Stand 2023).",
-    "Geplant ist eine redundante zentrale CPU, dezentrale ET200-Stationen mit einfehlertolerantem Profinet-Bus sowie der Ersatz von Hardware-Reglern durch Software-Regler; Messsonden, Ventile, Motoren und Vor-Ort-Bedienstellen bleiben erhalten.",
-    "Zeitplan: Ausschreibungen im 1. Quartal 2027, Ausführungsbeginn im 2. Quartal 2027, Inbetriebnahme im 1. Quartal 2028; die Finanzierung soll voraussichtlich über den Wirtschaftsplan des zukünftigen Eigenbetriebs Stadtentwässerung erfolgen."
+    "Die abgekündigten S5-Komponenten wie CPUs und Ein- und Ausgangskarten werden durch S7-Komponenten sowie dezentrale ET200-Stationen ersetzt; Hardware-Regler und -Zähler gehen in die Anwendersoftware über, vorhandene Ventile, Motoren und Messsonden bleiben erhalten.",
+    "Geplant ist eine zentrale, redundante CPU und ein mindestens einfehlertolerantes Profinet-Bussystem; nur die von beiden Verbrennungslinien genutzte Schlammannahme und das Aschesilo erhalten eigene dezentrale Steuerungen.",
+    "Der Gesamtaufwand von ca. 1.700.000 Euro setzt sich unter anderem aus Baukosten von 1.000.000 Euro, Bauneben- und Bauverwaltungskosten sowie Baupreissteigerungen und einem Ansatz für Unvorhergesehenes zusammen; jährliche kalkulatorische Folgekosten betragen ca. 150.000 Euro.",
+    "Der Ausführungszeitplan sieht Ausschreibungen im 1. Quartal 2027, Ausführungsbeginn im 2. Quartal 2027 und Inbetriebnahme im 1. Quartal 2028 vor; ohne Umrüstung stünde bei Ausfall der Verbrennungslinie 2 ein Entsorgungsengpass mit rund 200.000 Euro Kosten pro Woche für mobile Vorentwässerung und Fremdverbrennung im Raum (Stand 2023)."
   ],
-  "model": "glm-5.3-flash",
-  "promptVersion": "paper-de-v7",
+  "model": "mimo-v2.6-pro",
+  "promptVersion": "paper-de-v8",
   "provider": "opencode-go",
-  "sourceHash": "sha256:5b04e6b7d52a44d559f43acb810660fd83bab1852f2ac262bd9db51f583553a2",
-  "summary": "Die Vorlage der Stadtentwässerung schlägt die Umrüstung der Prozessleittechnik der Verbrennungslinie 1 im Klärwerk Karlsruhe vom abgekündigten Siemens-System Simatic S5 auf das aktuelle Leitsystem Simatic PCS 7 vor, um den sicheren Weiterbetrieb für rund 10 bis 15 Jahre zu sichern. Die Verwaltung empfiehlt die Weiterführung des Vorhabens gemäß der dargestellten Variante und beantragt die Freigabe zur weiteren Planung und Realisierung in eigener Zuständigkeit. Der Gesamtaufwand wird auf ca. 1.700.000 Euro beziffert, die jährlichen kalkulatorischen Folgekosten auf ca. 150.000 Euro; die Kosten sind gebührenfähig."
+  "sourceHash": "sha256:5175b43a4913b38dda4abd1c319ceb92302d751afa5312cba0ad401f15c1c107",
+  "summary": "Die Vorlage schlägt vor, die Prozessleittechnik der Verbrennungslinie 1 am Klärwerk Karlsruhe von Simatic S5 auf Simatic PCS 7 zu überführen, um die herstellerseitig abgekündigte Steuerungstechnik zu ersetzen und den Weiterbetrieb über rund 10 bis 15 Jahre abzusichern. Die Verwaltung empfiehlt die Weiterführung des Vorhabens bei einem Gesamtaufwand von ca. 1.700.000 Euro."
 }

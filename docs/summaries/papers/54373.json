@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-14T07:44:04.772Z",
+  "generatedAt": "2026-10-21T07:56:47.405Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54373",
   "keyPoints": [
-    "Der Antrag verlangt eine Ausnahme von der geplanten Gebührenerhöhung für Tagestickets im Bereich von Krankenhäusern, Altersheimen und vergleichbaren Einrichtungen in Tarifzone 2.",
-    "Aktuell kostet ein Tagesticket im Krankenhausbereich 10 Euro, im übrigen Stadtgebiet 15 Euro; eine Erhöhung um 50 Prozent würde 15 bzw. 22,50 Euro bedeuten.",
-    "Laut Verwaltung stünden 20 der 34 Parkscheinautomaten mit Tagesticket-Ausgabe in Krankenheimnähe, ein weiterer ist einem Altersheim am Gustav-Heller-Platz zuzuordnen.",
-    "Ein Verzicht auf die Erhöhung würde die erwarteten Mehreinnahmen laut Verwaltung um ca. 100.000 Euro jährlich mindern; beim Altersheim-Automaten wäre der Verlust mit unter 3.000 Euro gering."
+    "Im Stadtgebiet gibt es 34 Parkscheinautomaten mit Tagestickets, davon 20 im Bereich der Krankenhäuser und einer, der einem Altersheim zugeordnet werden kann (Gustav-Heller-Platz).",
+    "Aktuell kostet ein Tagesticket im Krankenhausbereich 10 Euro und im übrigen Stadtgebiet 15 Euro; der dem Altersheim zugeordnete Automat verlangt ebenfalls 15 Euro.",
+    "Bei einer geplanten Erhöhung um 50 Prozent stiegen die Tagestickets bei Krankenhäusern auf 15 Euro und die übrigen auf 22,50 Euro, wobei die Krankenhausstellplätze begünstigt blieben.",
+    "Der Verzicht auf die Erhöhung im Altersheim-Bereich läge unter 3.000 Euro, da dieser Automat wegen kostenfreier Parkplätze im Umfeld derzeit weniger stark ausgelastet ist."
   ],
-  "model": "glm-5.3-flash",
-  "promptVersion": "paper-de-v7",
+  "model": "mimo-v2.6-pro",
+  "promptVersion": "paper-de-v8",
   "provider": "opencode-go",
-  "sourceHash": "sha256:a2448c64120c48d4ebbd454bc18fda4b8204aea67c12779fcf57035442feef61",
-  "summary": "Ein Änderungsantrag der FDP/FW-Fraktion zur Parkgebührensatzung fordert, dass in Tarifzone 2 an Krankenhäusern, Altersheimen und vergleichbaren Einrichtungen keine Gebührenerhöhung für Tagestickets vorgenommen wird. Zur Begründung heißt es, die Preise stellten für Besucherinnen und Besucher, die Angehörige besuchen oder pflegen, bereits eine erhebliche finanzielle Belastung dar, sodass weitere Erhöhungen unzumutbar seien. Die Verwaltung rechnet vor, dass 20 Parkscheinautomaten im Bereich der Krankenhäuser stehen und die Tagesticket-Einnahmen dort 2025 etwa 200.000 Euro betrugen; ohne Erhöhung würden die geplanten Mehreinnahmen um rund 100.000 Euro jährlich verringert."
+  "sourceHash": "sha256:d9ef76077a197ac4df4464be792a2ccca4a7c631a738adc9de3b88bc3f5cccc3",
+  "summary": "Der Änderungsantrag fordert, dass die Tagestickets im Bereich von Krankenhäusern sowie Altersheimen und vergleichbaren Einrichtungen nicht teurer werden, weil die Preise für Besucherinnen und Besucher, die ihre Angehörigen pflegen, bereits eine ökonomische Belastung darstellen. Die Verwaltung beziffert den jährlichen Einnahmeverlust bei den Krankenhäusern auf etwa 100.000 Euro."
 }

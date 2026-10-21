@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-14T07:41:33.471Z",
+  "generatedAt": "2026-10-21T07:46:52.067Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54297",
   "keyPoints": [
-    "Die Verwaltung führt an, dass die E-Akte zunächst Mehraufwand verursacht, langfristig aber personelle und finanzielle Einsparungen etwa durch weniger Papier-, Druck- und Archivierungskosten möglich sind.",
-    "Unterlagen ab 1990 können nach einer Dienstanweisung nachträglich eingescannt werden; Unterlagen vor 1990 sind dem Stadtarchiv in Papierform zu übergeben.",
-    "Für den Behördenaustausch nutzt die Stadt Karlsruhe 44 besondere elektronische Behördenpostfächer, die ohne Fax und ohne qualifizierte elektronische Signatur funktionieren.",
-    "Die Nutzung des Dokument-Management-Systems ist freiwillig, weshalb bestehende Dateisysteme parallel weiterverwendet werden."
+    "Das System enaio wird unter anderem für Vorgangsbearbeitung, E-Posteingang, Freigabeworkflows und spezielle Akten wie Projekt-, Gebäude- und Personalakten eingesetzt; bei mehreren Ämtern und Ortsverwaltungen ist die Einführung einzelner Komponenten geplant.",
+    "Der Nachscan papierlicher Unterlagen erfolgt schrittweise nach Priorität; laut Dienstanweisung können Dokumente ab dem Jahr 1990 eingescannt werden, ältere Unterlagen gehen an das Stadtarchiv.",
+    "Als Hürden nennt die Stellungnahme begrenzte Personalressourcen, die freiwillige Nutzung des Systems mit parallelen Dateisystemen sowie fehlende Schnittstellen zu Fachverfahren, die aus finanziellen Gründen nur mit niedriger Priorität verfolgt werden.",
+    "Das besondere elektronische Behördenpostfach wird mit 44 Postfächern genutzt; Fax bleibt laut Stellungnahme etwa bei Schriftformerfordernissen, in der Kommunikation mit Gerichten und Kanzleien sowie als Ausfalllösung relevant."
   ],
-  "model": "glm-5.3-flash",
-  "promptVersion": "paper-de-v7",
+  "model": "mimo-v2.6-pro",
+  "promptVersion": "paper-de-v8",
   "provider": "opencode-go",
-  "sourceHash": "sha256:87785feaaad9971c600711a9c91213ae00e6a87a4b653b58454ef7c0ee9e415c",
-  "summary": "Die Anfrage der Fraktion Volt verlangt einen Überblick über den Stand der E-Akten-Nutzung und den Einsatz von Faxgeräten in der Karlsruher Stadtverwaltung. Die Verwaltung antwortet, dass das Dokument-Management-System enaio in den meisten Dienststellen eingeführt ist, einige Bereiche aber noch in der Einführung stehen, und listet 262 bei einem Dienstleister gelistete Faxnummern auf. Als Hürden für den weiteren Ausbau werden fehlende Schnittstellen zu Fachverfahren, begrenzte personelle Kapazitäten und die Freiwilligkeit der Nutzung genannt; Faxgeräte bleiben vor allem wegen Schriftformerfordernissen, externer Kommunikationsgewohnheiten und als Ausfall-Lösung in Gebrauch."
+  "sourceHash": "sha256:417ef55effa8f88c4440eee352bf10ffd8d71241726cadabb728ec1ab154c204",
+  "summary": "Die Anfrage fragt, welche Ämter der Stadtverwaltung bereits mit E-Akten arbeiten, welche Prozesse damit abgebildet werden und wo noch Faxgeräte genutzt werden. Die Stellungnahme der IT beziffert 262 Faxnummern bei einem Dienstleister und benennt Hürden für den weiteren Ausbau der E-Akte."
 }

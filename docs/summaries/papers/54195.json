@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-09-14T13:41:53.456Z",
+  "generatedAt": "2026-10-21T08:03:51.344Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54195",
   "keyPoints": [
-    "Der Antrag sieht vor: Taktreduktion der Tram an Sonntagmorgen (210.000 €/Jahr), Entfall des Tram-3-Schulverstärkers (420.000 €/Jahr), Entfall der Bus-47A-Verstärkerfahrten (144.000 €/Jahr), Samstags-Einstellung der Buslinie 71 (16.000 €/Jahr) sowie Taktreduktion der Buslinien 62 und 70 an Samstagen, Sonn- und Feiertagen (140.000 € bzw. 92.000 €/Jahr).",
-    "Die angestrebte Gesamteinsparung von 1.022.000 € pro Jahr liegt deutlich unter den im Einsparkonzept genannten 5,95 Mio. € pro Jahr.",
-    "Die Verwaltung empfiehlt die Ablehnung des Antrags; nach ihrer Einschätzung wirken sich die Einsparungen bei der Linie 71 nur aus, wenn auch die Samstagsfahrten der Linie 72 entfallen."
+    "Vorgeschlagen sind unter anderem eine Taktreduktion der Tram am Sonntagmorgen, der Entfall der Schulverstärker der Linie 3 sowie der Verstärkerfahrten des Busses 47A in der Hauptverkehrszeit.",
+    "Die Buslinie 71 soll samstags entfallen, die Linien 62 und 70 sollen an Samstagen, Sonn- und Feiertagen im 30-Minuten-Takt statt im 20-Minuten-Takt fahren.",
+    "Das vollständige Einsparkonzept der Verkehrsbetriebe Karlsruhe sieht demgegenüber Einsparungen von 5,95 Mio. Euro pro Jahr vor.",
+    "Die Stellungnahme weist darauf hin, dass die Einstellung der Samstagsfahrten der Linie 71 nur zu den genannten Einsparungen führt, wenn auch die Samstagsfahrten der Linie 72 entfallen, da beide in einem gemeinsamen Umlauf betrieben werden; für schwächer frequentierte Busse hält der Antrag eine Umstellung auf Anruf-Linien-Taxis für denkbar."
   ],
-  "model": "glm-5.3-flash",
-  "promptVersion": "paper-de-v7",
+  "model": "mimo-v2.6-pro",
+  "promptVersion": "paper-de-v8",
   "provider": "opencode-go",
-  "sourceHash": "sha256:61c9b47d21aaf0b4090629ea222ceea3dca654bc6b5172b65867b43a27b41ae4",
-  "summary": "Die VOLT-Fraktion schlägt in einem Änderungsantrag zum Einsparkonzept der Verkehrsbetriebe Karlsruhe vor, in einer ersten Stufe nur sechs ausgewählte Einsparmaßnahmen umzusetzen – darunter Taktreduktionen bei Tram und Bus sowie den Entfall von Verstärkerfahrten – mit einer Gesamteinsparung von 1.022.000 Euro pro Jahr. Zur Begründung führt die Fraktion an, dass die Attraktivität des ÖPNV trotz Haushaltskonsolidierung nicht zu stark leiden dürfe; zudem hält sie bei schwach frequentierten Buslinien die Umstellung auf Anruf-Linien-Taxen für denkbar. Die Verwaltung empfiehlt, den Antrag abzulehnen, und weist darauf hin, dass die vorgeschlagene Samstags-Einstellung der Linie 71 nur Einsparungen bringe, wenn auch die Samstagsfahrten der gemeinsam betriebenen Linie 72 entfielen."
+  "sourceHash": "sha256:c8f43625972425c04df462d5489d636ee5621de7495699f9122a8813cc9333d6",
+  "summary": "Der Änderungsantrag will das VBK-Einsparkonzept in der ersten Stufe auf sechs Maßnahmen im Tram- und Busverkehr begrenzen, um die Attraktivität des ÖPNVs und besonders die stark frequentierten Samstagstrams zu erhalten. Die Verwaltung empfiehlt, den Antrag abzulehnen."
 }

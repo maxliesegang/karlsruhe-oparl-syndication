@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-14T07:45:19.359Z",
+  "generatedAt": "2026-10-21T07:59:42.409Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54209",
   "keyPoints": [
-    "Die Anfrage fragt nach der Gefahr geplanter Netzabschaltungen für Karlsruhe am 11. und 12.01.2026, nach getroffenen und verfügbaren Gegenmaßnahmen sowie nach Ursachen und Konsequenzen des Brown Outs in Neulußheim.",
-    "Laut Stellungnahme bestand für Karlsruher Stadtteile keine Gefahr einer Netzabtrennung, da das Überwachungssystem ASBW des Übertragungsnetzbetreibers TransnetBW keine Strommangellage meldete.",
-    "Die Stadtwerke Karlsruhe Netze GmbH sieht keinen Zusammenhang zwischen der Störung in Neulußheim und der Erzeugungs- oder Netzsituation im Raum Karlsruhe und kann zu Störungen in fremden Netzgebieten keine Aussagen treffen.",
-    "Im Falle einer Strommangellage wäre das Karlsruher Netzunternehmen nach § 13.2 EnWG an die Anweisungen des Übertragungsnetzbetreibers gebunden und würde nach Notfallplänen handeln."
+    "Der Antrag schildert die Wiederinbetriebnahme des Blocks 7 des Rheinhafendampfkraftwerks aus der Netzreserve am Nachmittag des 11.01.2026 und verknüpft die Strommangellage mit dem Ausfall von Windkraft und Photovoltaik in der Dunkelflaute.",
+    "Laut Stellungnahme gab es über das Awareness System Baden-Württemberg des Übertragungsnetzbetreibers TransnetBW an den beiden Tagen keinen Hinweis auf eine Strommangellage, sodass Abschaltungen in Karlsruher Stadtteilen nicht drohten.",
+    "Nach Angaben der SWKN mussten im genannten Zeitraum keine besonderen Maßnahmen für Stromversorgung, Erdgas oder Fernwärme getroffen werden; im Fall einer Mangellage wäre sie nach EnWG § 13.2 an Anweisungen des Übertragungsnetzbetreibers gebunden und würde nach Notfallplänen handeln.",
+    "Zur Störung in Neulußheim im Rhein-Neckar-Kreis könne die SWKN keine Aussagen treffen; für Krisensituationen im Stromnetz existiere ein mit TransnetBW abgestimmter Kommunikationsplan, der hier nicht zur Anwendung kam."
   ],
-  "model": "glm-5.3-flash",
-  "promptVersion": "paper-de-v7",
+  "model": "mimo-v2.6-pro",
+  "promptVersion": "paper-de-v8",
   "provider": "opencode-go",
-  "sourceHash": "sha256:61539294d82802e84e1241c5664709e283326bf1189ce4d2a04c1483496b5921",
-  "summary": "Die Anfrage der AfD-Fraktion richtet acht Fragen an die Verwaltung, ob es am 11. und 12.01.2026 infolge einer Strommangellage (Dunkelflaute) auch für Karlsruher Stadtteile eine Gefahr geplanter Stromabschaltungen gab und welche Lehren aus dem mehrstündigen Stromausfall in Neulußheim zu ziehen sind. In der Stellungnahme der Stadtwerke Karlsruhe Netze GmbH heißt es, dass über das Überwachungssystem des Übertragungsnetzbetreibers kein Hinweis auf eine Strommangellage vorlag und die Karlsruher Versorgung mit Strom, Erdgas und Fernwärme stabil war. Die Störung in Neulußheim wird als lokal begrenzter, vermutlich technisch bedingter Einzelfall bewertet, der aus Sicht der Stadtwerke keiner gesonderten Betrachtung bedarf; für echte Krisensituationen existieren abgestimmte Kommunikationspläne mit dem Übertragungsnetzbetreiber."
+  "sourceHash": "sha256:d63f3ca82b78ab91039b1334d79d536ef498867c27d4029b9d7f6968e84b0a75",
+  "summary": "Die Anfrage erkundigt sich danach, ob an den Tagen um den 11. und 12. Januar 2026 für Karlsruher Stadtteile die Gefahr geplanter Stromabschaltungen bestand und welche Ursachen hinter dem Brown Out in Neulußheim stecken. Die Stellungnahme der Stadtwerke Karlsruhe Netze GmbH verneint eine Strommangellage in Karlsruhe und bewertet den Vorfall in Neulußheim als lokale technische Störung ohne Zusammenhang zur Karlsruher Versorgungssituation."
 }

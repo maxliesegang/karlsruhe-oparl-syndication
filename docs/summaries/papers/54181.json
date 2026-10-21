@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-14T07:45:47.277Z",
+  "generatedAt": "2026-10-21T08:00:38.139Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54181",
   "keyPoints": [
-    "Der Bahnhof Durlach ist nach dem Hauptbahnhof der zweitbedeutendste Bahnhof Karlsruhes; sein Einzugsbereich umfasst neben Durlach auch das östliche Stadtgebiet, benachbarte Ortsteile, Weingarten und das Pfinztal.",
-    "Im Regelfahrplan 2026 halten laut DB nur noch zwei Fernverkehrszüge: ein IC ab 06:56 Richtung Stuttgart und ein ICE ab 18:15 Richtung Basel.",
-    "Die DB führt den Wegfall auf Nachfragerückgang durch Homeoffice und Wechsel zum Deutschlandticket zurück; jeder Fernverkehrshalt in Durlach kostet im Schnitt rund fünf Minuten Fahrzeit und kann Anschlüsse am Karlsruher Hauptbahnhof gefährden.",
-    "Pendler nach dem Wegfall des ICE 1672 (ab 7:09) müssen nun in Heidelberg umsteigen und sind deutlich länger unterwegs."
+    "Betroffen sind unter anderem der morgendliche ICE 1672 um 7:09 nach Darmstadt/Frankfurt und die Gegenrichtung ICE 1671 mit Ankunft 18:45 in Durlach; Pendler müssen nun in Heidelberg umsteigen.",
+    "Im Fahrplan 2026 verbleiben mit IC 2363 ab 06:56 nach Stuttgart und ICE 1064 aus Stuttgart mit Ankunft 18:13 zwei Fernverkehrsverbindungen, die vor allem auf Pendler nach Stuttgart ausgerichtet sind.",
+    "Die Deutsche Bahn nennt für das entfallende Zugpaar ICE 1671/1672 jeweils nur vier Ein- beziehungsweise Aussteiger und verweist auf Nachfragerückgang, Homeoffice und Umstieg vieler Reisender auf das Deutschlandticket.",
+    "Nach Angaben der Deutschen Bahn bedeutet jeder Fernverkehrshalt in Durlach rund fünf Minuten längere Fahrzeit und kann am Karlsruher Hauptbahnhof das Erreichen von Anschlüssen gefährden."
   ],
-  "model": "glm-5.3-flash",
-  "promptVersion": "paper-de-v7",
+  "model": "mimo-v2.6-pro",
+  "promptVersion": "paper-de-v8",
   "provider": "opencode-go",
-  "sourceHash": "sha256:ac257aa2739b0a29b5a49858497ffddc5bbc24e20af41d0afc7fd40950636e81",
-  "summary": "Die Fraktion B'90/Die Grünen im Ortschaftsrat Durlach beantragt, dass das Stadtamt Durlach gegenüber der DB Fernverkehr sein Missfallen über die schlechter werdenden Fernverkehrsverbindungen am Bahnhof Durlach äußert. Nach dem Wegfall des Zugpaars ICE 1671/1672 (Hamburg–Binz, u.a. für Pendler Richtung Darmstadt/Frankfurt) verkehren im Fahrplan 2026 nur noch zwei Fernverkehrszüge in Durlach. Die Deutsche Bahn begründet den Verzicht auf zusätzliche Halte in ihrer Stellungnahme mit stark gesunkener Nachfrage – beim entfallenden Zugpaar mit durchschnittlich nur vier Ein- bzw. Aussteigern – sowie mit der guten Anbindung über den Karlsruher Hauptbahnhof."
+  "sourceHash": "sha256:ccbe695e7bcc95e3532fe70f5f1d9779c3ccc357b1d20863140c9fd3fa7f5703",
+  "summary": "Der Antrag fordert, dass das Stadtamt Durlach gegenüber DB Fernverkehr sein Missfallen über die sinkende Zahl der Fernverkehrshalte am Bahnhof Durlach äußert. Die Deutsche Bahn verweist auf sehr geringe Fahrgastzahlen und erklärt, keine alternativen Halte für das entfallende Zugpaar einzuplanen."
 }

@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-10-13T20:10:01.143Z",
+  "generatedAt": "2026-10-21T06:30:44.159Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54808",
   "keyPoints": [
-    "Der Antrag nennt als Vorbilder Härtefallregelungen unter anderem in Köln und Berlin; der Nachweis soll per Eigenerklärung des Gastes erfolgen.",
-    "Zur Begründung wird angeführt, dass Karlsruhe mit der zweimonatigen Kappungsgrenze im Landes- und Bundesvergleich ein Ausreißer ist.",
-    "Die Verwaltung verweist auf bestehende Befreiungen, etwa für Kinder und Jugendliche, und auf Billigkeitsmaßnahmen nach §§ 163, 227 AO für atypische Einzelfälle."
+    "Der Nachweis für neue Befreiungen soll durch Eigenerklärung des Gastes erfolgen, bei hitzebedingten Aufenthalten soll eine amtliche Feststellung des Deutschen Wetterdienstes wie etwa eine Hitzewarnung genügen; Beherbergungsbetriebe sollen keinen bürokratischen Mehrwand haben.",
+    "Als Vorbilder nennt der Antrag Härtefallregelungen in Köln und Berlin sowie die Regelung in Heidelberg, wo längere Aufenthalte bereits ab der sechsten Übernachtung nicht mehr besteuert werden.",
+    "Die Verwaltung hält zusätzliche Befreiungstatbestände für unvereinbar mit dem bewusst schlanken, bürokratiearmen Verfahren und verweist für atypische Härtefälle auf Billigkeitsmaßnahmen nach § 163 und § 227 der Abgabenordnung.",
+    "Zur geplanten Verkürzung des Besteuerungszeitraums führt die Verwaltung aus, dass auch längere Gäste Infrastruktur in Anspruch nehmen, und verweist bei mehr als zwei Monaten ununterbrochener Belegung auf eine mögliche Zweitwohnungsteuer."
   ],
-  "model": "glm-5.3-flash",
-  "promptVersion": "paper-de-v7",
+  "model": "mimo-v2.6-pro",
+  "promptVersion": "paper-de-v8",
   "provider": "opencode-go",
-  "sourceHash": "sha256:272a6071ab98d09a53b24ed19dd0d327c9aeff7cab307855298192e4ee4edb77",
-  "summary": "Die CDU-Gemeinderatsfraktion beantragt eine Änderung der Karlsruher Übernachtungsteuersatzung: Hotelübernachtungen wegen vorübergehender Unbewohnbarkeit der Wohnung oder amtlich festgestellter Extremwetterlagen (z. B. Hitze) sowie Übernachtungen von Menschen mit Behinderung und deren notwendigen Begleitpersonen sollen steuerfrei bleiben. Zudem soll die Steuer bei ununterbrochenen Aufenthalten im selben Betrieb statt bis zu zwei Monaten nur für die ersten fünf Tage erhoben werden, wie etwa in Heidelberg. Die Verwaltung empfiehlt die Ablehnung, da zusätzliche Befreiungstatbestände den bewusst schlanken Vollzug verkomplizieren würden und für Härtefälle bereits die Billigkeitsregelungen der Abgabenordnung zur Verfügung stehen; auch die zweimonatige Kappungsgrenze soll aus Gründen der Steuergerechtigkeit bestehen bleiben."
+  "sourceHash": "sha256:10d12c6d3e2bf7dafecff5dce04495e20b13a6cc3cce6d2c7b64bb6e26975823",
+  "summary": "Der Antrag will die Karlsruher Übernachtungssteuer anpassen: Übernachtungen wegen Unbewohnbarkeit der Wohnung oder amtlich festgestellter Extremwetterlagen sowie von Menschen mit Behinderung und ihren Begleitpersonen sollen befreit werden. Zudem soll die Steuer bei ununterbrochenem Aufenthalt im selben Betrieb nur noch die ersten fünf Tage gelten; die Verwaltung empfiehlt, abzulehnen."
 }
