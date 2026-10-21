@@ -39,13 +39,15 @@ export const SESSION_HEADER = 'x-opencode-session';
 const MAX_EMPTY_RESPONSE_ATTEMPTS = 3;
 
 const summarySchema = z.object({
-  summary: z.string().min(1).describe('Zwei bis vier kurze deutsche Sätze.'),
+  summary: z.string().min(1).describe('Ein bis zwei kurze deutsche Sätze.'),
   // Deliberately unbounded: `normalizeGeneratedPaperSummary` slices to four.
   // A fifth key point is a prompt overshoot, not a malformed response — failing
   // the whole paper on it discards a usable summary for nothing.
   keyPoints: z
     .array(z.string())
-    .describe('Zwei bis vier kurze, ausdrücklich im Quelltext belegte Kernaussagen.'),
+    .describe(
+      'Bis zu vier kurze, ausdrücklich belegte Kernaussagen ohne Wiederholung der Zusammenfassung.',
+    ),
 });
 
 const SYSTEM_PROMPT = `Du fasst den INHALT einer öffentlichen kommunalpolitischen Vorlage aus Karlsruhe zusammen.
@@ -84,10 +86,15 @@ Inhaltliche Regeln:
 - Schreibe ausschließlich idiomatisches, grammatikalisch korrektes Deutsch ohne englische Wörter.
 
 Antworte ausschließlich als JSON-Objekt mit genau diesen Feldern:
-{"summary":"zwei bis vier kurze deutsche Sätze","keyPoints":["zwei bis vier kurze Kernaussagen"]}
-Die Zusammenfassung muss eigenständig verständlich sein und ohne den Titel auskommen. Der erste Satz nennt das konkrete Anliegen der Vorlage, nicht den Verfahrensstand und nicht den umformulierten Titel.
+{"summary":"ein bis zwei kurze deutsche Sätze","keyPoints":["bis zu vier kurze Kernaussagen"]}
+
+Aufteilung zwischen Zusammenfassung und Kernaussagen:
+- Die Zusammenfassung ist die Vorschau im Feedreader. Sie besteht aus höchstens zwei kurzen Sätzen mit zusammen höchstens 400 Zeichen; verbinde keine Teilsätze mit Semikolon, um mehr unterzubringen. Sie nennt nur das Wesentliche: was konkret vorgeschlagen, gefordert oder gefragt wird und – sofern vorhanden – die Haltung der Verwaltung, ohne Zahlenreihen.
+- Die Zusammenfassung muss eigenständig verständlich sein und ohne den Titel auskommen. Der erste Satz nennt das konkrete Anliegen der Vorlage, nicht den Verfahrensstand und nicht den umformulierten Titel.
+- Einzelheiten gehören in die Kernaussagen: Beträge, Mengen, Fristen, Orte, Begründungen. Jede Kernaussage bringt eine Information, die in der Zusammenfassung noch nicht steht. Wiederhole keine Zahl, keinen Ort und keine Aussage aus der Zusammenfassung.
+- Bevorzuge in den Kernaussagen konkrete Auswirkungen, Kosten, Fristen und betroffene Orte, sofern ausdrücklich belegt. Jede Kernaussage ist ein vollständiger Satz mit Schlusspunkt.
+- Bei dünner Quellenlage sind weniger Kernaussagen oder eine leere Liste richtig: Steht alles Belegte schon in der Zusammenfassung, gib "keyPoints": [] zurück. Fülle die Liste niemals mit Angaben auf, die nur Titel, Vorlagenart, Dienststelle oder Unterzeichnende wiedergeben.
 Verweise nicht auf Bezeichnungen, die du nicht erklärst („Variante C“, „Modell 2“): nenne die Sache oder erläutere die Bezeichnung kurz.
-Die Kernaussagen ergänzen die Zusammenfassung, ohne sie zu wiederholen. Bevorzuge konkrete Auswirkungen, Kosten, Fristen und betroffene Orte, sofern ausdrücklich belegt. Bei dünner Quellenlage sind weniger als zwei Kernaussagen zulässig.
 Verwende kein Markdown und keine HTML-Tags.`;
 
 /** OpenCode Go client built on the OpenAI-compatible adapter recommended by OpenCode. */

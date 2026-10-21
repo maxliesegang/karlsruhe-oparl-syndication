@@ -5,7 +5,25 @@ import { Paper } from '../types/index.js';
 import { replaceInvalidXmlCharacters } from '../xml-text.js';
 import { findTemplateAbstract, stripTemplateBoilerplate } from './paper-document-template.js';
 
-const INPUT_FORMAT_VERSION = 4;
+const INPUT_FORMAT_VERSION = 5;
+
+/**
+ * Minutes and vote tallies attached after a sitting: `Protokoll GR … TOP 9`,
+ * `Abstimmungsergebnis TOP 15`. They record what a body did, which a summary must
+ * not state, and they change nothing about what the paper proposes — yet arriving
+ * after each sitting they changed the source hash and caused about half of all
+ * regenerations (Sept–Oct 2026), each a mere rewording. The labels are typed by
+ * hand and misspelled freely (`Abtimmungsergebnis`, `Abstimnungsergebnis`,
+ * `Absilmmungsergebnis`), hence the loose `Ab[st]…m[mn]` rather than a word list;
+ * `Abstimmungsvereinbarung` is a contract annex and stays. An `Anlage` named
+ * `…Protokoll…` is the paper's own material (a hearing record), not minutes.
+ */
+const MEETING_RECORD_ATTACHMENT_PATTERN =
+  /Protokoll|Niederschrift|\bAb[st](?!\w*vereinbarung)\w*m[mn]\w*/i;
+
+export function isMeetingRecordAttachment(name: string | undefined): boolean {
+  return !!name && !/^Anlage/i.test(name) && MEETING_RECORD_ATTACHMENT_PATTERN.test(name);
+}
 
 /**
  * The public consultation facts a summary may depend on. Deliberately narrow: a
@@ -34,7 +52,8 @@ export interface PaperSummarySource {
 /**
  * Produces the exact, deterministic source used for cache invalidation and LLM input.
  * Stale extraction text is excluded: its extraction timestamp must match the file
- * version for which it was downloaded. Each attachment's text is run through
+ * version for which it was downloaded. Minutes and vote tallies are left out
+ * (`isMeetingRecordAttachment`). Each attachment's text is run through
  * `stripTemplateBoilerplate`, and the administration's own `Kurzfassung` is hoisted
  * into `contextText`.
  */
@@ -44,6 +63,7 @@ export function buildPaperSummarySource(
   consultationContexts: PaperSummaryConsultationContext[] = [],
 ): PaperSummarySource {
   const attachments = (paper.auxiliaryFile ?? [])
+    .filter((file) => !isMeetingRecordAttachment(file.name))
     .map((file) => {
       const content = resolveFileContent(file.id);
       const extractedTextIsCurrent =

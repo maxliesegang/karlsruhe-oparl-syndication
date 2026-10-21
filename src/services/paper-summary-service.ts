@@ -17,6 +17,26 @@ import {
 
 const SUMMARY_BACKFILL_START = Date.UTC(2026, 0, 1);
 
+/**
+ * Share of a run's summaries the fallback model may write before the run warns.
+ * A fallback answer looks like success, so without this a primary model that has
+ * stopped answering stays invisible: glm-5.3-flash left 59 of ~100 October 2026
+ * summaries to mimo-v2.5 while this repo still described the fallback as a
+ * one-paper-a-month event.
+ */
+const FALLBACK_WARNING_SHARE = 0.2;
+
+/**
+ * Below this much source text the summary already says everything the paper
+ * does, and every model tried pads the key points anyway — with the title, the
+ * presenting office or the signatories (`papers/54395`, `papers/54549`) — even
+ * when the prompt allows an empty list. Measured 2026-10-21: the 8 summarized
+ * sources under 1,000 characters all had filler key points only; at ~1,200 a
+ * list of grants with amounts already has real details to carry.
+ */
+const THIN_SOURCE_MAXIMUM_CHARACTERS = 1000;
+const FALLBACK_WARNING_MINIMUM_COUNT = 3;
+
 export interface PaperSummaryUpdateOptions {
   enabled?: boolean;
   apiKey?: string;
@@ -105,6 +125,7 @@ export async function updatePaperSummaries(
   logger.info(`Generating up to ${candidates.length} paper summary(s)...`);
   let succeeded = 0;
   let failed = 0;
+  let answeredByFallback = 0;
   for (let offset = 0; offset < candidates.length; offset += concurrency) {
     const batch = candidates.slice(offset, offset + concurrency);
     await Promise.all(
@@ -127,12 +148,14 @@ export async function updatePaperSummaries(
             provider: generated.provider ?? summarizer.providerName,
             model: generated.model ?? summarizer.model,
             summary: generated.summary,
-            keyPoints: generated.keyPoints,
+            keyPoints:
+              source.text.length < THIN_SOURCE_MAXIMUM_CHARACTERS ? [] : generated.keyPoints,
             generatedAt: (options.now?.() ?? new Date()).toISOString(),
           };
           stores.paperSummaries.add(summary);
           current.set(paper.id, summary);
           succeeded++;
+          if (summary.model !== summarizer.model) answeredByFallback++;
         } catch (error) {
           if (options.throwOnFailure) throw error;
           failed++;
@@ -152,8 +175,17 @@ export async function updatePaperSummaries(
     );
   }
   logger.info(
-    `Paper summaries: ${succeeded} generated, ${failed} failed, ${current.size} current.`,
+    `Paper summaries: ${succeeded} generated (${answeredByFallback} by fallback), ${failed} failed, ${current.size} current.`,
   );
+  if (
+    answeredByFallback >= FALLBACK_WARNING_MINIMUM_COUNT &&
+    answeredByFallback > succeeded * FALLBACK_WARNING_SHARE
+  ) {
+    logger.warn(
+      `${answeredByFallback} of ${succeeded} paper summaries came from the fallback model, ` +
+        `not ${summarizer.model}; the primary model is failing. Re-measure it or switch LLM_MODEL.`,
+    );
+  }
   return current;
 }
 

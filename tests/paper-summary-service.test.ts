@@ -1,5 +1,6 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { config } from '../src/config.js';
+import { logger } from '../src/logger.js';
 import { PaperSummarizer } from '../src/services/llm/paper-summarizer.js';
 import { updatePaperSummaries } from '../src/services/paper-summary-service.js';
 import { stores } from '../src/store/index.js';
@@ -292,6 +293,77 @@ describe('paper summary service', () => {
     });
   });
 
+  it('publishes no key points for a source too thin to have details beyond the summary', async () => {
+    const current = await updatePaperSummaries([meeting], {
+      enabled: true,
+      summarizer: {
+        providerName: 'test-provider',
+        model: 'test-model',
+        summarize: vi.fn().mockResolvedValue({
+          summary: 'Die Verwaltung schlägt einen Umbau für 2 Millionen Euro vor.',
+          keyPoints: ['Die Vorlage stammt von der Verwaltung.'],
+        }),
+      },
+      promptVersion: 'test-v6',
+      maximumItems: 10,
+      maximumInputCharacters: 100_000,
+      concurrency: 1,
+    });
+
+    expect(current.get(paper.id)?.keyPoints).toEqual([]);
+  });
+
+  it('warns when the fallback model writes a large share of a run', async () => {
+    // Three papers on one agenda, each answered by the fallback rather than the
+    // primary model — what glm-5.3-flash produced for weeks without a trace.
+    const papers = [1, 2, 3].map((index) => {
+      const paperFile = { ...file, id: `${file.id}-${index}` };
+      stores.fileContents.add({
+        id: paperFile.id,
+        downloadUrl: paperFile.downloadUrl,
+        fileModified: paperFile.modified,
+        lastModifiedExtractedDate: paperFile.modified,
+        extractedText: `Die Verwaltung schlägt Maßnahme ${index} vor.`,
+      });
+      return {
+        ...structuredClone(paper),
+        id: `${paper.id}-${index}`,
+        auxiliaryFile: [paperFile],
+        consultation: [{ ...paper.consultation![0], id: `${consultationId}-${index}` }],
+      };
+    });
+    for (const added of papers) stores.papers.add(added);
+    const busyMeeting: Meeting = {
+      ...meeting,
+      agendaItem: papers.map((added, index) => ({
+        ...meeting.agendaItem![0],
+        id: `${meeting.agendaItem![0].id}-${index}`,
+        consultation: added.consultation![0].id,
+      })),
+    };
+    const warn = vi.spyOn(logger, 'warn').mockImplementation(() => undefined);
+
+    await updatePaperSummaries([busyMeeting], {
+      enabled: true,
+      summarizer: {
+        providerName: 'test-provider',
+        model: 'primary-model',
+        summarize: vi.fn().mockResolvedValue({
+          summary: 'Die Verwaltung schlägt eine Maßnahme vor.',
+          keyPoints: [],
+          model: 'fallback-model',
+        }),
+      },
+      promptVersion: 'test-v5',
+      maximumItems: 10,
+      maximumInputCharacters: 100_000,
+      concurrency: 1,
+    });
+
+    expect(warn).toHaveBeenCalledWith(expect.stringContaining('3 of 3 paper summaries'));
+    warn.mockRestore();
+  });
+
   it('retries once when a generated number is absent from the source', async () => {
     const summarize = vi
       .fn()
@@ -378,12 +450,10 @@ describe('paper summary service', () => {
   });
 
   it('keeps a summary whose corrective retry still refers to numbered items', async () => {
-    const summarize = vi
-      .fn()
-      .mockResolvedValue({
-        summary: 'Die Verwaltung empfiehlt, Ziffer 2 abzulehnen.',
-        keyPoints: [],
-      });
+    const summarize = vi.fn().mockResolvedValue({
+      summary: 'Die Verwaltung empfiehlt, Ziffer 2 abzulehnen.',
+      keyPoints: [],
+    });
 
     const current = await updatePaperSummaries([meeting], {
       enabled: true,

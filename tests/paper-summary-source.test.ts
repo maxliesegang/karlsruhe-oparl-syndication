@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import {
   buildPaperSummarySource,
+  isMeetingRecordAttachment,
   PaperSummaryConsultationContext,
   splitPaperSummarySource,
 } from '../src/services/paper-summary-source.js';
@@ -55,6 +56,55 @@ const consultationContext: PaperSummaryConsultationContext = {
 };
 
 describe('paper summary input', () => {
+  it('leaves minutes and vote tallies out, so their arrival never spends a model call', () => {
+    const minutes: OParlFile = {
+      ...file,
+      id: 'https://example.test/files/2',
+      name: 'Protokoll GR 29.09.2026 TOP 15',
+    };
+    const tally: OParlFile = {
+      ...file,
+      id: 'https://example.test/files/3',
+      name: 'Abtimmungsergebnis TOP 15',
+    };
+    const resolve = (id: string) =>
+      id === file.id ? content('Inhalt') : { ...content('Einstimmig beschlossen.'), id };
+    const before = buildPaperSummarySource(paper, resolve);
+    const after = buildPaperSummarySource(
+      { ...paper, auxiliaryFile: [file, minutes, tally] },
+      resolve,
+    );
+
+    expect(after).toEqual(before);
+    expect(after.text).not.toContain('beschlossen');
+  });
+
+  it('recognises minutes labels despite the typos they are entered with', () => {
+    for (const name of [
+      'Protokoll HFA 22.09.2026 TOP 5',
+      '2026-07-14_Protokollauszug_TOP 3',
+      'Abstimmungsergebnis TOP 6 Änderunsantrag GRÜNE',
+      'Abstimmunngergebnis TOP 2',
+      'Absilmmungsergebnis TOP 4.1',
+      'Abstimnungsergebnis TOP 7',
+      'Abstimmungsergbenis TOP 3.2',
+      'Abstimmung TOP 9',
+      'DHH Abstimmungsergebnis Top 1',
+    ]) {
+      expect(isMeetingRecordAttachment(name), name).toBe(true);
+    }
+    for (const name of [
+      'Beschlussvorlage',
+      'Stellungnahme Antrag',
+      'Anlage 3 Abwägungsergebnis',
+      'Anlage 2 Abstimmungsvereinbarung',
+      'Anlage_1_K100_Protokoll_öffentliche Begutachtung',
+      'Abkommen mit der Partnerstadt',
+    ]) {
+      expect(isMeetingRecordAttachment(name), name).toBe(false);
+    }
+  });
+
   it('is deterministic and changes its hash when current text changes', () => {
     const first = buildPaperSummarySource(paper, () => content('Inhalt A'));
     const again = buildPaperSummarySource(paper, () => content('Inhalt A'));
@@ -107,7 +157,11 @@ describe('paper summary input', () => {
     const first = buildPaperSummarySource(paper, () => content('Inhalt'), [consultationContext]);
     const widened = buildPaperSummarySource(paper, () => content('Inhalt'), [
       consultationContext,
-      { ...consultationContext, meetingName: 'Ortschaftsrat Durlach', consultationRole: 'Anhörung' },
+      {
+        ...consultationContext,
+        meetingName: 'Ortschaftsrat Durlach',
+        consultationRole: 'Anhörung',
+      },
     ]);
 
     expect(widened.sourceHash).not.toBe(first.sourceHash);

@@ -84,38 +84,40 @@ export const config = {
     process.env.LLM_BASE_URL || 'https://opencode.ai/zen/go/v1/',
   ),
   // `npm run models` lists what the endpoint currently serves; AGENTS.md records
-  // what was measured. glm-5.3-flash answers a whole paper in ~4 s against
-  // mimo-v2.5's ~18 s at equal or better grounding.
-  llmModel: process.env.LLM_MODEL || 'glm-5.3-flash',
+  // what was measured. mimo-v2.6-pro answered 33 of 34 bake-off papers (p50 ~18 s)
+  // on 2026-10-21, while glm-5.3-flash, the previous default, returned nothing on
+  // most requests and left 59 of ~100 October summaries to the fallback.
+  llmModel: process.env.LLM_MODEL || 'mimo-v2.6-pro',
   // Tried once after the primary model has returned nothing three times, so a
   // paper that one model cannot answer still gets a summary. Set empty to fail
-  // instead; every record names the model that actually answered.
+  // instead; every record names the model that actually answered. qwen3.8-flash
+  // answered 15 of 15 bake-off papers on 2026-10-21, including the three the
+  // primary had left empty that day, and comes from a different model family
+  // than the primary: mimo-v2.5 had returned nothing on two of those right
+  // after mimo-v2.6-pro did. It is slow (p50 131 s), which is acceptable only
+  // because it answers the rare paper the primary cannot.
   llmFallbackModel:
-    process.env.LLM_FALLBACK_MODEL === undefined ? 'mimo-v2.5' : process.env.LLM_FALLBACK_MODEL,
+    process.env.LLM_FALLBACK_MODEL === undefined ? 'qwen3.8-flash' : process.env.LLM_FALLBACK_MODEL,
   // v6 summarizes substance only; the feed renders each meeting's own result.
-  summaryPromptVersion: process.env.SUMMARY_PROMPT_VERSION || 'paper-de-v7',
+  // v8 shortens the summary to a two-sentence preview and moves details into
+  // key points that must not repeat it.
+  summaryPromptVersion: process.env.SUMMARY_PROMPT_VERSION || 'paper-de-v8',
   summaryMaxItemsPerRun: parseNonNegativeInteger(
     'SUMMARY_MAX_ITEMS_PER_RUN',
     process.env.SUMMARY_MAX_ITEMS_PER_RUN || '100',
   ),
-  // Not limited by the model's context window: mimo-v2.5 accepts 1M tokens, and even
-  // the largest paper in the archive (1.4M chars, ~450-550k tokens) would fit. 400k
-  // characters is roughly 130-160k tokens of German PDF text (German words and
-  // extracted tables tokenize badly, ~2.5-3 chars/token).
-  //
-  // The limit is set by payoff and by request duration instead. Measured over the 356
-  // papers dated 2026+ that carry extracted text: p90 is 44k chars, p95 is 71k, only
-  // 10 papers exceed 100k and only 4 exceed 400k. So this is deep in diminishing
-  // returns already — going higher would recover a two-digit-at-best number of the
-  // Haushalt and statistics documents in the tail, where chunk-then-synthesize beats
-  // one giant request whose middle gets skimmed anyway: an accepted context length is
-  // not a flat-recall context length, and the grounding check catches fabricated
-  // numbers but not omitted ones. Keep this in step with summaryRequestTimeoutMs:
+  // Not limited by the model's context window, and only by payoff and request
+  // duration. Measured over the 356 papers dated 2026+ that carry extracted text: p90
+  // is 44k chars, p95 is 71k and only 10 papers exceed 100k, so this affects only the
+  // Haushalt and statistics tail, where chunk-then-synthesize beats one giant request
+  // whose middle gets skimmed anyway. Keep this in step with summaryRequestTimeoutMs:
   // prefill is linear in input, the largest single request has to finish inside that
-  // timeout, and a timeout is a hard failure where chunking merely degrades.
+  // timeout, and a timeout is a hard failure where chunking merely degrades. It was
+  // 400k until mimo-v2.6-pro became the default: that model answered a 222k-char
+  // paper in 30 s but timed out at 240 s on a 355k-char one.
   summaryMaxInputCharacters: parseIntegerAtLeast(
     'SUMMARY_MAX_INPUT_CHARS',
-    process.env.SUMMARY_MAX_INPUT_CHARS || '400000',
+    process.env.SUMMARY_MAX_INPUT_CHARS || '150000',
     10_000,
   ),
   summaryConcurrency: parsePositiveInteger(
@@ -125,8 +127,7 @@ export const config = {
   // Derived from request duration, not from summaryMaxInputCharacters — chars and
   // milliseconds are unrelated units, so a matching pair of numbers would be a
   // coincidence rather than a ratio to maintain. 240000 ms (4 min) covers a full
-  // 400k-char request (~130-160k tokens of prefill, which normally completes in one to
-  // three minutes on this endpoint) with room for provider jitter, while staying short
+  // 150k-char request (~30 s on mimo-v2.6-pro) with ample room for provider jitter, while staying short
   // enough to bound the run: worst case is summaryMaxItemsPerRun / summaryConcurrency
   // batches at this timeout, ~3.3 h at the defaults (100 / 2) against GitHub's 6 h job
   // ceiling. A job killed at that ceiling publishes no feed at all, whereas a summary
