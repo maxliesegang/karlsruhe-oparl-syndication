@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://maxliesegang.github.io/karlsruhe-oparl-syndication/stadtteile/innenstadt.xml</id>
     <title>Tagesordnungspunkte – Innenstadt</title>
-    <updated>2026-10-22T14:13:33.000Z</updated>
+    <updated>2026-10-23T10:59:59.000Z</updated>
     <generator>Custom TypeScript Atom Feed Generator</generator>
     <author>
         <name>Maximilian Liesegang</name>
@@ -13,6 +13,30 @@
     <link rel="self" href="https://maxliesegang.github.io/karlsruhe-oparl-syndication/stadtteile/innenstadt.xml"/>
     <subtitle>Öffentliche Tagesordnungspunkte mit Bezug zum Stadtteil Innenstadt</subtitle>
     <rights>Kein Copyright</rights>
+    <entry>
+        <title type="html"><![CDATA[Nachhaltiges Parkraumkonzept Stadt Karlsruhe]]></title>
+        <id>https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104085</id>
+        <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-10588#top10.1"/>
+        <updated>2026-10-23T10:59:59.000Z</updated>
+        <summary type="html"><![CDATA[Beratungsstand: teilweise abgelehnt – Der Änderungsantrag der CDU-Fraktion verlangt, das Parkraumkonzept bis auf Weiteres zurückzustellen und stattdessen Bebauungspläne für neuen Wohnraum voranzutreiben; zugleich schlägt er zehn Anpassungen vor, etwa bei Bewohnerparken, Parkgebühren, Park-and-Ride und Fahrradparken. Die Verwaltung empfiehlt, die Zurückstellung abzulehnen, da in der Hauptvorlage kein zusätzliches Personal entschieden werde.]]></summary>
+        <content type="html"><![CDATA[
+      <b>Sitzung:</b> Gemeinderat (öffentlich/nicht öffentlich)<br>
+      <b>Datum:</b> 20. Oktober 2026<br>
+      <b>TOP 10.1:</b> Nachhaltiges Parkraumkonzept Stadt Karlsruhe<br>
+      <b>Beratungsstand dieser Sitzung:</b> teilweise abgelehnt<br><br>
+      <b>Antragstellende Fraktion:</b> CDU<br><br>
+      <b>KI-generierte Zusammenfassung der Vorlage:</b> Der Änderungsantrag der CDU-Fraktion verlangt, das Parkraumkonzept bis auf Weiteres zurückzustellen und stattdessen Bebauungspläne für neuen Wohnraum voranzutreiben; zugleich schlägt er zehn Anpassungen vor, etwa bei Bewohnerparken, Parkgebühren, Park-and-Ride und Fahrradparken. Die Verwaltung empfiehlt, die Zurückstellung abzulehnen, da in der Hauptvorlage kein zusätzliches Personal entschieden werde.<ul><li>Der Bewohnerparkausweis kostet seit 2026 360 Euro; weitere Bewohnerparkzonen sollen nur bei gesicherter Kontrolle ausgewiesen werden, über jede weitere Ausweisung soll der Gemeinderat entscheiden.</li><li>Künftige Gebührenanpassungen sollen nur mit Haushaltszwängen begründet und vorab durch eine Evaluation der letzten Erhöhung begleitet werden; der Exkurs zu wirksamen und angemessenen Parkgebühren soll entfallen.</li><li>Wenn Parkplätze durch Gehwegparken, Carsharing-Stellplätze oder Ladezonen entfallen, soll in der jeweiligen Beschlussvorlage eine Stellplatzbilanz mit Kompensationsmöglichkeiten stehen.</li><li>Aus haushalterischen Gründen sollen Überdachungen für Fahrradstellplätze vorerst zurückgestellt werden, wofür im Antrag 35.000 Euro für die Überdachung von 5 Anlehnbügeln genannt sind; die Verwaltung lehnt zusätzlich die geplante Willkommenskampagne aus Gründen der Nachhaltigkeit ab.</li></ul><small>Automatisch erstellt; maßgeblich sind die Originalunterlagen.</small><br><br>
+      <b>Anhänge:</b><br> <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681807.pdf">Änderungs-/Ergänzungsantrag (Erstellt am: 20.10.2026, Aktualisiert am: 20.10.2026)</a><br><a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681848.pdf">Stellungnahme CDU Änderungsantrag (Erstellt am: 20.10.2026, Aktualisiert am: 20.10.2026)</a><br><a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681882.pdf">Abstimmungsergebnis TOP 10.1 Ziff. 1 (Erstellt am: 20.10.2026, Aktualisiert am: 20.10.2026)</a><br>
+    ]]></content>
+        <author>
+            <name>Gemeinderat (öffentlich/nicht öffentlich)</name>
+        </author>
+        <category label="Gemeinderat" scheme="https://oparl.org/schema/1.1/Organization" term="https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"/>
+        <category label="Innenstadt" scheme="https://maxliesegang.github.io/karlsruhe-oparl-syndication/stadtteile/" term="innenstadt"/>
+        <category label="CDU" scheme="https://github.com/karlsruhe-oparl-syndication/schema/submitter" term="cdu"/>
+        <category label="Änderungs-/Ergänzungsantrag" scheme="https://oparl.org/schema/1.1/Paper" term="Änderungs-/Ergänzungsantrag"/>
+        <published>2026-10-20T06:47:26.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Gesamtkonzept klimaangepasster Marktplatz]]></title>
         <id>https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103702</id>
@@ -217,30 +241,6 @@
         <category label="Wolfartsweier" scheme="https://maxliesegang.github.io/karlsruhe-oparl-syndication/stadtteile/" term="wolfartsweier"/>
         <category label="Beschlussvorlage" scheme="https://oparl.org/schema/1.1/Paper" term="Beschlussvorlage"/>
         <published>2026-09-22T07:56:33.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nachhaltiges Parkraumkonzept Stadt Karlsruhe]]></title>
-        <id>https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104085</id>
-        <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-10588#top10.1"/>
-        <updated>2026-10-21T10:11:54.000Z</updated>
-        <summary type="html"><![CDATA[Beratungsstand: teilweise abgelehnt – Der Änderungsantrag der CDU-Fraktion verlangt, das Parkraumkonzept bis auf Weiteres zurückzustellen und stattdessen Bebauungspläne für neuen Wohnraum voranzutreiben; zugleich schlägt er zehn Anpassungen vor, etwa bei Bewohnerparken, Parkgebühren, Park-and-Ride und Fahrradparken. Die Verwaltung empfiehlt, die Zurückstellung abzulehnen, da in der Hauptvorlage kein zusätzliches Personal entschieden werde.]]></summary>
-        <content type="html"><![CDATA[
-      <b>Sitzung:</b> Gemeinderat (öffentlich/nicht öffentlich)<br>
-      <b>Datum:</b> 20. Oktober 2026<br>
-      <b>TOP 10.1:</b> Nachhaltiges Parkraumkonzept Stadt Karlsruhe<br>
-      <b>Beratungsstand dieser Sitzung:</b> teilweise abgelehnt<br><br>
-      <b>Antragstellende Fraktion:</b> CDU<br><br>
-      <b>KI-generierte Zusammenfassung der Vorlage:</b> Der Änderungsantrag der CDU-Fraktion verlangt, das Parkraumkonzept bis auf Weiteres zurückzustellen und stattdessen Bebauungspläne für neuen Wohnraum voranzutreiben; zugleich schlägt er zehn Anpassungen vor, etwa bei Bewohnerparken, Parkgebühren, Park-and-Ride und Fahrradparken. Die Verwaltung empfiehlt, die Zurückstellung abzulehnen, da in der Hauptvorlage kein zusätzliches Personal entschieden werde.<ul><li>Der Bewohnerparkausweis kostet seit 2026 360 Euro; weitere Bewohnerparkzonen sollen nur bei gesicherter Kontrolle ausgewiesen werden, über jede weitere Ausweisung soll der Gemeinderat entscheiden.</li><li>Künftige Gebührenanpassungen sollen nur mit Haushaltszwängen begründet und vorab durch eine Evaluation der letzten Erhöhung begleitet werden; der Exkurs zu wirksamen und angemessenen Parkgebühren soll entfallen.</li><li>Wenn Parkplätze durch Gehwegparken, Carsharing-Stellplätze oder Ladezonen entfallen, soll in der jeweiligen Beschlussvorlage eine Stellplatzbilanz mit Kompensationsmöglichkeiten stehen.</li><li>Aus haushalterischen Gründen sollen Überdachungen für Fahrradstellplätze vorerst zurückgestellt werden, wofür im Antrag 35.000 Euro für die Überdachung von 5 Anlehnbügeln genannt sind; die Verwaltung lehnt zusätzlich die geplante Willkommenskampagne aus Gründen der Nachhaltigkeit ab.</li></ul><small>Automatisch erstellt; maßgeblich sind die Originalunterlagen.</small><br><br>
-      <b>Anhänge:</b><br> <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681807.pdf">Änderungs-/Ergänzungsantrag (Erstellt am: 20.10.2026, Aktualisiert am: 20.10.2026)</a><br><a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681848.pdf">Stellungnahme CDU Änderungsantrag (Erstellt am: 20.10.2026, Aktualisiert am: 20.10.2026)</a><br><a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681882.pdf">Abstimmungsergebnis TOP 10.1 Ziff. 1 (Erstellt am: 20.10.2026, Aktualisiert am: 20.10.2026)</a><br>
-    ]]></content>
-        <author>
-            <name>Gemeinderat (öffentlich/nicht öffentlich)</name>
-        </author>
-        <category label="Gemeinderat" scheme="https://oparl.org/schema/1.1/Organization" term="https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"/>
-        <category label="Innenstadt" scheme="https://maxliesegang.github.io/karlsruhe-oparl-syndication/stadtteile/" term="innenstadt"/>
-        <category label="CDU" scheme="https://github.com/karlsruhe-oparl-syndication/schema/submitter" term="cdu"/>
-        <category label="Änderungs-/Ergänzungsantrag" scheme="https://oparl.org/schema/1.1/Paper" term="Änderungs-/Ergänzungsantrag"/>
-        <published>2026-10-20T06:47:26.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Nachhaltiges Parkraumkonzept Stadt Karlsruhe]]></title>

@@ -1,4 +1,76 @@
 {
+  "agendaItem": [
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38143",
+      "created": "2026-10-20T13:55:23+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104104",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10733",
+      "modified": "2026-10-20T14:02:12+02:00",
+      "name": "Satzung der Stadt Karlsruhe über Gebühren für das Friedhofs-und Bestattungswesen (Friedhofsgebührensatzung)",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38213",
+      "created": "2026-10-21T15:26:58+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104148",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10733",
+      "modified": "2026-10-21T15:27:14+02:00",
+      "name": "Neufassung der Benutzungsordnung für Schulräume, Schulhöfe und schulische Außensportanlagen der Stadt Karlsruhe nebst Neufassung der Entgeltordnung gemäß Anlage 1 – gültig ab 01.08.2027",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38013",
+      "created": "2026-10-20T13:57:26+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104106",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10733",
+      "modified": "2026-10-21T15:27:14+02:00",
+      "name": "Zukunftspapier der Ortsverwaltungen",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38104",
+      "created": "2026-10-20T13:58:13+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104107",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10733",
+      "modified": "2026-10-21T15:27:14+02:00",
+      "name": "Maßnahmen zur Reaktivierung von Dorfgaststätten - hier Gasthaus Schwanen in Wolfartsweier",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-10-20T14:01:03+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104109",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10733",
+      "modified": "2026-10-21T15:27:14+02:00",
+      "name": "Mitteilungen der Verwaltung",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-10-20T14:01:33+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104110",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10733",
+      "modified": "2026-10-21T15:27:14+02:00",
+      "name": "Mündliche Anfragen",
+      "number": "6",
+      "order": 6,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
   "created": "2025-10-27T11:06:10+01:00",
   "end": "2026-11-03T00:00:00+01:00",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10733",
@@ -6,10 +78,10 @@
     "created": "2025-10-27T11:06:10+01:00",
     "description": "Begegnungsstätte Wolfartsweier, Rathausstr. 2a, 76228 Karlsruhe",
     "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/locations/si/10733",
-    "modified": "2026-10-22T15:51:32+02:00",
+    "modified": "2026-10-23T14:30:34+02:00",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-10-22T15:51:32+02:00",
+  "modified": "2026-10-23T14:30:34+02:00",
   "name": "Ortschaftsrat Wolfartsweier (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/35147"
