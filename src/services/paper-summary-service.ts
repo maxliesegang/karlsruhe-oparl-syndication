@@ -133,7 +133,7 @@ export async function updatePaperSummaries(
         try {
           const generated = await summarizeSource(
             summarizer,
-            sessionIdFor(paper),
+            buildPaperSummarySessionId(paper),
             source.heading,
             source.contextText,
             source.text,
@@ -263,7 +263,7 @@ function isEligibleForSummaryBackfill(paper: Paper): boolean {
  * Provider conversation id for a paper: stable across runs, chunks, reduction
  * levels and corrective retries, so the repeated prompt prefix stays cacheable.
  */
-function sessionIdFor(paper: Paper): string {
+export function buildPaperSummarySessionId(paper: Paper): string {
   return `karlsruhe-paper-${recordBasename(paper.id)}`;
 }
 

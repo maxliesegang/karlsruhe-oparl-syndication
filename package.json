@@ -14,6 +14,7 @@
     "generate": "tsx src/index.ts",
     "generate:no-summaries": "tsx src/index.ts --no-summaries",
     "summarize": "tsx src/summarize-paper.ts",
+    "summarize:backfill": "tsx src/backfill-paper-summaries.ts",
     "models": "tsx src/list-models.ts",
     "validate:feed": "tsx src/validate-feed.ts",
     "migrate:host": "tsx src/migrate-oparl-host.ts",

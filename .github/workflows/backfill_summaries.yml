@@ -1,0 +1,82 @@
+name: Backfill Paper Summaries
+
+# Manually started: spends LLM budget on papers older than the scheduled run's
+# 2026 cutoff. Reads only the committed archive (no OParl fetch, no PDF download)
+# and commits docs/summaries/papers/; the next scheduled feed run renders them.
+on:
+  workflow_dispatch:
+    inputs:
+      since:
+        description: 'Earliest paper date to summarize (YYYY-MM-DD); newest papers go first'
+        required: true
+        default: '2025-01-01'
+      max_items:
+        description: 'Maximum papers to summarize in this run'
+        required: true
+        default: '200'
+      concurrency:
+        description: 'Parallel summary requests'
+        required: true
+        default: '3'
+
+# One backfill at a time. It runs in its own group rather than the feed's so a
+# long backfill does not hold back the scheduled feed; the two touch disjoint
+# summary files, so the rebase before pushing resolves cleanly.
+concurrency:
+  group: summary-backfill
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v7
+      with:
+        fetch-depth: 0  # The rebase before pushing needs the merge base
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v7
+      with:
+        node-version: '24'
+
+    - name: Install dependencies
+      run: npm ci
+
+    # The script saves after every round of 20 papers. The step limit sits below the
+    # job limit and GitHub's 6 h ceiling so a slow provider still leaves time to
+    # commit what was finished; a job killed at the ceiling would discard all of it.
+    - name: Backfill summaries
+      timeout-minutes: 320
+      run: npm run summarize:backfill -- --since "$SINCE" --max-items "$MAX_ITEMS"
+      env:
+        SINCE: ${{ inputs.since }}
+        MAX_ITEMS: ${{ inputs.max_items }}
+        SUMMARY_CONCURRENCY: ${{ inputs.concurrency }}
+        LLM_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
+
+    # Also after a failed or timed-out backfill step: finished summaries are paid for.
+    - name: Commit and push if changes
+      if: ${{ !cancelled() }}
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add docs/summaries/papers
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+          exit 0
+        fi
+        count=$(git diff --staged --name-only | wc -l | tr -d ' ')
+        git commit -m "Backfill $count paper summaries since $SINCE"
+        # A scheduled feed run may push meanwhile; retry the rebase a few times.
+        for attempt in 1 2 3; do
+          git pull --rebase origin "$(git rev-parse --abbrev-ref HEAD)" && git push && exit 0
+          sleep 30
+        done
+        exit 1
+      env:
+        SINCE: ${{ inputs.since }}
