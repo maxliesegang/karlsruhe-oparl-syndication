@@ -169,6 +169,8 @@ export async function updatePaperSummaries(
     // A summary failure is deliberately fail-open, so a provider that rejects
     // every request (an expired key, a changed contract) otherwise shows up only
     // as per-paper warnings and the feed keeps publishing without new summaries.
+    // The scheduled workflow greps for "attempt(s) failed this run" to fail the
+    // run after publishing; keep that phrase when rewording.
     logger.error(
       `All ${failed} paper summary attempt(s) failed this run; no summary was generated. ` +
         `Check the provider configuration (${summarizer.providerName}, ${summarizer.model}).`,

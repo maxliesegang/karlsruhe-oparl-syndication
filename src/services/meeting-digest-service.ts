@@ -171,6 +171,7 @@ export async function updateMeetingDigests(
   if (succeeded === 0 && failed > 0) {
     // Fail-open like the summary step, so a provider contract change would
     // otherwise surface only as per-digest warnings while the feed keeps publishing.
+    // The scheduled workflow greps for "attempt(s) failed this run"; keep that phrase.
     logger.error(
       `All ${failed} meeting digest attempt(s) failed this run. ` +
         `Check the provider configuration (${writer.providerName}, ${writer.model}).`,

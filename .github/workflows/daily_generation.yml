@@ -35,8 +35,13 @@ jobs:
     - name: Validate project
       run: npm run typecheck && npm run lint && npm test && npm run build && npm run smoke
 
+    # The output is kept so the last step can detect an LLM outage. Summaries are
+    # fail-open, so an expired key otherwise leaves every run green while no summary
+    # is written: that happened from 2026-10-22 until it was noticed on 2026-10-24.
     - name: Run generate script
-      run: npm run generate
+      run: |
+        set -o pipefail
+        npm run generate 2>&1 | tee "$RUNNER_TEMP/generate.log"
       env:
         GENERATE_LLM_SUMMARIES: 'true'
         LLM_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
@@ -63,3 +68,13 @@ jobs:
         fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    # Runs after the commit, so the feed is still published; it only turns the run
+    # red (and triggers GitHub's failure notification) when every LLM request of a
+    # step failed, which means the provider or key is broken, not a single paper.
+    - name: Fail on LLM outage
+      run: |
+        if grep -E "attempt\(s\) failed this run" "$RUNNER_TEMP/generate.log"; then
+          echo "::error::Every LLM request of a step failed; check the OPENCODE_API_KEY secret and the provider."
+          exit 1
+        fi
