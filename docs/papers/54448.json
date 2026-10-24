@@ -40,6 +40,17 @@
   "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
   "consultation": [
     {
+      "created": "2026-10-19T12:06:14+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38174",
+      "modified": "2026-10-19T12:08:15+02:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54448",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
       "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/101549",
       "authoritative": true,
       "created": "2026-05-05T16:14:51+02:00",
@@ -96,10 +107,11 @@
     },
     {
       "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103560",
+      "authoritative": true,
       "created": "2026-10-01T09:58:23+02:00",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38054",
       "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10585",
-      "modified": "2026-10-01T11:26:49+02:00",
+      "modified": "2026-10-19T12:14:28+02:00",
       "organization": [
         "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/38449"
       ],
