@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00680779.pdf",
+      "created": "2026-09-10T09:20:05+02:00",
+      "date": "2026-09-10",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00680779.pdf",
+      "fileName": "00680779.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680779",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-26T06:36:07+01:00",
+      "name": "Anlage Risikomanagement",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00680888.pdf",
+      "created": "2026-09-18T08:00:04+02:00",
+      "date": "2026-09-18",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00680888.pdf",
+      "fileName": "00680888.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680888",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-26T06:36:07+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103594",
+      "created": "2026-10-02T15:45:25+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37886",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10596",
+      "modified": "2026-10-20T11:37:17+02:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54898",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-09-01T14:10:55+02:00",
+  "date": "2026-09-01",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54898",
+  "modified": "2026-10-26T06:36:07+01:00",
+  "name": "Konzeptbeschluss: Kanalnetz Karlsruhe, Kanalauswechslung Jakob-Dörr-Straße",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0704",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/882983"
+  ]
+}
