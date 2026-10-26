@@ -1790,5 +1790,19 @@
     "nextRetryAt": "2026-11-02T07:22:47.750Z",
     "status": 401,
     "reason": "unauthorized"
+  },
+  "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55059": {
+    "attempts": 1,
+    "lastAttemptAt": "2026-10-26T19:46:50.267Z",
+    "nextRetryAt": "2026-11-02T19:46:50.267Z",
+    "status": 401,
+    "reason": "unauthorized"
+  },
+  "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54886": {
+    "attempts": 1,
+    "lastAttemptAt": "2026-10-26T19:46:50.267Z",
+    "nextRetryAt": "2026-11-02T19:46:50.267Z",
+    "status": 401,
+    "reason": "unauthorized"
   }
 }

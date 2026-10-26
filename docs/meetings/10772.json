@@ -1,15 +1,99 @@
 {
+  "agendaItem": [
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37957",
+      "created": "2026-10-15T14:28:16+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104008",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10772",
+      "modified": "2026-10-15T14:28:16+02:00",
+      "name": "Agri-Photovoltaikanlage Rippertfeld",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38142",
+      "created": "2026-10-15T14:28:16+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104009",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10772",
+      "modified": "2026-10-15T14:28:16+02:00",
+      "name": "Satzung der Stadt Karlsruhe über Gebühren für das Friedhofs-und Bestattungswesen (Friedhofsgebührensatzung)",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38012",
+      "created": "2026-10-15T14:28:16+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104010",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10772",
+      "modified": "2026-10-15T14:28:16+02:00",
+      "name": "Zukunftspapier der Ortsverwaltungen",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38141",
+      "created": "2026-10-15T14:28:16+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104011",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10772",
+      "modified": "2026-10-15T14:28:16+02:00",
+      "name": "Annahme der Schenkung der Firma Michelin-Reifenwerke des Kunstwerkes „Equilibre“ der Künstlerin Ulrike Israel an die Stadt Karlsruhe zur Errichtung im Lustgarten Hohenwettersbach",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-10-15T16:11:12+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104016",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10772",
+      "modified": "2026-10-15T16:11:12+02:00",
+      "name": "Mitteilungen der Ortsverwaltung",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-10-15T16:11:32+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104017",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10772",
+      "modified": "2026-10-15T16:11:32+02:00",
+      "name": "Anregungen aus dem Ortschaftsrat",
+      "number": "6",
+      "order": 6,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
   "created": "2025-11-27T16:34:07+01:00",
   "end": "2026-10-28T00:00:00+01:00",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10772",
+  "invitation": {
+    "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681731.pdf",
+    "created": "2026-10-15T16:17:28+02:00",
+    "date": "2026-10-15",
+    "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681731.pdf",
+    "fileName": "00681731.pdf",
+    "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681731",
+    "mimeType": "application/pdf",
+    "modified": "2026-10-26T15:28:20+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
   "location": {
     "created": "2025-11-27T16:34:07+01:00",
     "description": "Bürgersaal im Rathaus Hohenwettersbach",
     "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/locations/si/10772",
-    "modified": "2026-10-21T10:05:59+02:00",
+    "modified": "2026-10-26T15:28:20+01:00",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-10-21T10:05:59+02:00",
+  "modified": "2026-10-26T15:28:20+01:00",
   "name": "Ortschaftsrat Hohenwettersbach (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/34322"
