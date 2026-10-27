@@ -187,12 +187,12 @@
       "created": "2026-09-22T09:56:33+02:00",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103314",
       "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10588",
-      "modified": "2026-10-20T17:43:26+02:00",
+      "modified": "2026-10-27T13:30:51+01:00",
       "name": "Nachhaltiges Parkraumkonzept Stadt Karlsruhe",
       "number": "10",
       "order": 15,
       "public": true,
-      "result": "erledigt",
+      "result": "verwiesen in Fachausschuss",
       "type": "https://schema.oparl.org/1.1/AgendaItem"
     },
     {
@@ -424,10 +424,24 @@
       "type": "https://schema.oparl.org/1.1/AgendaItem"
     },
     {
+      "auxiliaryFile": [
+        {
+          "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00682082.pdf",
+          "created": "2026-10-27T13:23:24+01:00",
+          "date": "2026-10-27",
+          "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00682082.pdf",
+          "fileName": "00682082.pdf",
+          "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/682082",
+          "mimeType": "application/pdf",
+          "modified": "2026-10-27T13:37:54+01:00",
+          "name": "Protokoll GR 20.10.2026 TOP 22",
+          "type": "https://schema.oparl.org/1.1/File"
+        }
+      ],
       "created": "2026-09-22T09:56:34+02:00",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103330",
       "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10588",
-      "modified": "2026-10-20T18:25:54+02:00",
+      "modified": "2026-10-27T13:23:26+01:00",
       "name": "Bekanntgabe nichtöffentlich gefasster Beschlüsse",
       "number": "22",
       "order": 34,
@@ -436,16 +450,44 @@
       "type": "https://schema.oparl.org/1.1/AgendaItem"
     },
     {
+      "auxiliaryFile": [
+        {
+          "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00682083.pdf",
+          "created": "2026-10-27T13:23:41+01:00",
+          "date": "2026-10-27",
+          "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00682083.pdf",
+          "fileName": "00682083.pdf",
+          "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/682083",
+          "mimeType": "application/pdf",
+          "modified": "2026-10-27T13:37:54+01:00",
+          "name": "Protokoll GR 20.10.2026 TOP 23",
+          "type": "https://schema.oparl.org/1.1/File"
+        }
+      ],
       "created": "2026-09-22T09:56:34+02:00",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103331",
       "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10588",
-      "modified": "2026-10-20T18:26:05+02:00",
+      "modified": "2026-10-27T13:23:41+01:00",
       "name": "Mitteilungen des Bürgermeisteramtes",
       "number": "23",
       "order": 35,
       "public": true,
       "result": "Kenntnisnahme",
       "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00682086.pdf",
+      "created": "2026-10-27T13:24:53+01:00",
+      "date": "2026-10-27",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00682086.pdf",
+      "fileName": "00682086.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/682086",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-27T13:37:54+01:00",
+      "name": "Protokoll GR  20.10.26 Sitzungseröffnung",
+      "type": "https://schema.oparl.org/1.1/File"
     }
   ],
   "created": "2025-10-10T14:04:17+02:00",
@@ -474,11 +516,23 @@
     "subLocality": "",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-10-26T06:44:51+01:00",
+  "modified": "2026-10-27T13:37:54+01:00",
   "name": "Gemeinderat (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
   ],
+  "resultsProtocol": {
+    "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00682080.pdf",
+    "created": "2026-10-27T09:58:31+01:00",
+    "date": "2026-10-27",
+    "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00682080.pdf",
+    "fileName": "00682080.pdf",
+    "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/682080",
+    "mimeType": "application/pdf",
+    "modified": "2026-10-27T13:37:54+01:00",
+    "name": "Anwesenheit (Protokoll)",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
   "start": "2026-10-20T15:30:00+02:00",
   "type": "https://schema.oparl.org/1.1/Meeting"
 }
