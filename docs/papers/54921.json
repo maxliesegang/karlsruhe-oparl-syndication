@@ -1,0 +1,70 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681420.pdf",
+      "created": "2026-10-06T11:20:53+02:00",
+      "date": "2026-10-06",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681420.pdf",
+      "fileName": "00681420.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681420",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-28T14:36:20+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681425.pdf",
+      "created": "2026-10-06T11:31:43+02:00",
+      "date": "2026-10-06",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681425.pdf",
+      "fileName": "00681425.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681425",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-28T14:36:20+01:00",
+      "name": "Zustandsnoten",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00682159.pdf",
+      "created": "2026-10-28T13:13:18+01:00",
+      "date": "2026-10-28",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00682159.pdf",
+      "fileName": "00682159.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/682159",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-28T14:36:20+01:00",
+      "name": "Bericht",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103592",
+      "created": "2026-10-02T15:45:25+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37915",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10596",
+      "modified": "2026-10-20T11:37:17+02:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/31180"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54921",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-09-09T11:19:32+02:00",
+  "date": "2026-09-09",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54921",
+  "modified": "2026-10-28T14:36:20+01:00",
+  "name": "Fachstrategie Brücken",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0146/1",
+  "subordinatedPaper": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54283"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/882983"
+  ]
+}
