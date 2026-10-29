@@ -12,6 +12,9 @@ export interface Paper {
   auxiliaryFile: OParlFile[];
   underDirectionOf: string[];
   consultation: Consultation[];
+  /** Set on ~3% of papers, always symmetric with `subordinatedPaper` on the other side. */
+  superordinatedPaper?: string[];
+  subordinatedPaper?: string[];
   created: string;
   modified: string;
 }

@@ -56,6 +56,21 @@ const DATA_ARTIFACTS: readonly DataArtifact[] = [
       'der Dateiname unter papers/.',
   },
   {
+    path: 'paper-relations.json',
+    description:
+      'Verbindungen zwischen Vorlagen: zitierte Vorlagennummern, Änderungsanträge, ' +
+      'OParl-Verknüpfungen und gleichlautende Titel, je mit Grund. Keine Ähnlichkeitssuche. ' +
+      'Gleichlautende Titel sind heuristische Hinweise. ' +
+      'Schlüssel ist der Dateiname unter papers/.',
+  },
+  {
+    path: 'paper-similar.json',
+    description:
+      'Thematisch ähnliche Vorlagen: bis zu drei Empfehlungen je Vorlage, nach Ähnlichkeit ' +
+      'sortiert. Automatisch ermittelt, keine bestätigten Verknüpfungen oder Verfahrenshistorie. ' +
+      'Schlüssel und Werte sind die Dateinamen unter papers/ ohne .json.',
+  },
+  {
     path: 'papers/',
     description:
       'Eine JSON-Datei je Vorlage, unverändert aus der OParl-API: papers/<id>.json, ' +

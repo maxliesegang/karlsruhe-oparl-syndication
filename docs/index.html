@@ -494,6 +494,14 @@
             <p>Erkannte Stadtteile je Vorlage, getrennt nach &quot;primary&quot; (Vorlage handelt davon, speist die Stadtteil-Feeds) und &quot;mentioned&quot; (nur beiläufig genannt). Schlüssel ist der Dateiname unter papers/.</p>
           </li>
           <li>
+            <a href="paper-relations.json"><code>paper-relations.json</code></a>
+            <p>Verbindungen zwischen Vorlagen: zitierte Vorlagennummern, Änderungsanträge, OParl-Verknüpfungen und gleichlautende Titel, je mit Grund. Keine Ähnlichkeitssuche. Gleichlautende Titel sind heuristische Hinweise. Schlüssel ist der Dateiname unter papers/.</p>
+          </li>
+          <li>
+            <a href="paper-similar.json"><code>paper-similar.json</code></a>
+            <p>Thematisch ähnliche Vorlagen: bis zu drei Empfehlungen je Vorlage, nach Ähnlichkeit sortiert. Automatisch ermittelt, keine bestätigten Verknüpfungen oder Verfahrenshistorie. Schlüssel und Werte sind die Dateinamen unter papers/ ohne .json.</p>
+          </li>
+          <li>
             <code>papers/</code>
             <p>Eine JSON-Datei je Vorlage, unverändert aus der OParl-API: papers/&lt;id&gt;.json, wobei &lt;id&gt; das letzte Segment der OParl-URL ist.</p>
           </li>

@@ -53,7 +53,13 @@ describe('landing page', () => {
   it('links the published data artifacts and marks the internal ones', () => {
     const html = buildLandingPage(input);
 
-    for (const path of ['feed-index.json', 'paper-submitters.json', 'paper-stadtteile.json']) {
+    for (const path of [
+      'feed-index.json',
+      'paper-submitters.json',
+      'paper-stadtteile.json',
+      'paper-relations.json',
+      'paper-similar.json',
+    ]) {
       expect(html).toContain(`href="${path}"`);
     }
     // Served but not a consumer contract — the page must say so rather than imply

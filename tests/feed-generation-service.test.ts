@@ -22,6 +22,10 @@ const mocks = vi.hoisted(() => ({
   buildPaperSubmitterIndex: vi.fn().mockReturnValue({ version: 1, papers: {} }),
   writePaperSubmitterIndex: vi.fn(),
   createPaperSubmitterResolver: vi.fn().mockReturnValue(() => []),
+  buildPaperRelationIndex: vi.fn().mockReturnValue({ version: 1, papers: {} }),
+  writePaperRelationIndex: vi.fn(),
+  buildPaperSimilarityIndex: vi.fn().mockReturnValue({ version: 3, papers: {} }),
+  writePaperSimilarityIndex: vi.fn(),
   resolveMissingConsultationPapers: vi.fn(),
   writeJsonToDocs: vi.fn(),
   readJsonFromDocs: vi.fn().mockResolvedValue(null),
@@ -81,6 +85,18 @@ vi.mock('../src/services/paper-submitter-index-service.js', () => ({
   buildPaperSubmitterIndex: mocks.buildPaperSubmitterIndex,
   writePaperSubmitterIndex: mocks.writePaperSubmitterIndex,
   createPaperSubmitterResolver: mocks.createPaperSubmitterResolver,
+}));
+
+vi.mock('../src/services/paper-relation-index-service.js', () => ({
+  PAPER_RELATION_INDEX_FILE_NAME: 'paper-relations.json',
+  buildPaperRelationIndex: mocks.buildPaperRelationIndex,
+  writePaperRelationIndex: mocks.writePaperRelationIndex,
+}));
+
+vi.mock('../src/services/paper-similarity-index-service.js', () => ({
+  PAPER_SIMILARITY_INDEX_FILE_NAME: 'paper-similar.json',
+  buildPaperSimilarityIndex: mocks.buildPaperSimilarityIndex,
+  writePaperSimilarityIndex: mocks.writePaperSimilarityIndex,
 }));
 
 vi.mock('../src/services/agenda-item-record-service.js', () => ({
@@ -162,6 +178,23 @@ describe('generation service cache handling', () => {
 
     expect(mocks.buildAgendaFeed).toHaveBeenCalledWith(records.slice(0, config.feedMaxItemCount));
     expect(mocks.writeFilteredFeeds).toHaveBeenCalledWith(records);
+  });
+
+  it('publishes similarity using the exact relation index built after extraction and advertises both artifacts', async () => {
+    await runFeedGeneration();
+    const relations = mocks.buildPaperRelationIndex.mock.results[0].value;
+    expect(mocks.buildPaperRelationIndex).toHaveBeenCalledOnce();
+    expect(mocks.writePaperRelationIndex).toHaveBeenCalledWith(relations);
+    expect(mocks.buildPaperSimilarityIndex).toHaveBeenCalledWith(relations);
+    expect(mocks.writePaperSimilarityIndex).toHaveBeenCalledWith(
+      mocks.buildPaperSimilarityIndex.mock.results[0].value,
+    );
+    expect(mocks.waitForPendingExtractions.mock.invocationCallOrder[0]).toBeLessThan(
+      mocks.buildPaperRelationIndex.mock.invocationCallOrder[0],
+    );
+    const manifest = mocks.writeJsonToDocs.mock.calls[0][0] as { artifacts: string[] };
+    expect(manifest.artifacts).toContain('paper-relations.json');
+    expect(manifest.artifacts).toContain('paper-similar.json');
   });
 
   it('generates the landing page from the feeds this run actually wrote', async () => {

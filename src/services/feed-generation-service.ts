@@ -21,6 +21,16 @@ import {
   PaperSubmitterIndex,
   writePaperSubmitterIndex,
 } from './paper-submitter-index-service.js';
+import {
+  buildPaperRelationIndex,
+  PAPER_RELATION_INDEX_FILE_NAME,
+  writePaperRelationIndex,
+} from './paper-relation-index-service.js';
+import {
+  buildPaperSimilarityIndex,
+  PAPER_SIMILARITY_INDEX_FILE_NAME,
+  writePaperSimilarityIndex,
+} from './paper-similarity-index-service.js';
 import { updatePaperSummaries } from './paper-summary-service.js';
 import { updateMeetingDigests } from './meeting-digest-service.js';
 import { writeMeetingDigestFeed } from '../meeting-digest-feed.js';
@@ -173,6 +183,10 @@ export async function runFeedGeneration(options: FeedGenerationOptions = {}): Pr
   // previews, so a viewer reading docs/paper-submitters.json can never disagree
   // with a feed category or with what a preview names as the submitter.
   const submitterIndex = buildPaperSubmitterIndex();
+  // Published only; nothing in the feeds reads it yet.
+  const relationIndex = buildPaperRelationIndex();
+  await writePaperRelationIndex(relationIndex);
+  await writePaperSimilarityIndex(buildPaperSimilarityIndex(relationIndex));
   let paperSummaries = new Map<string, PaperSummary>();
   try {
     paperSummaries = await updatePaperSummaries(stores.meetings.getAll(), {
@@ -227,6 +241,8 @@ export async function runFeedGeneration(options: FeedGenerationOptions = {}): Pr
         'file-contents/',
         PAPER_DISTRICT_INDEX_FILE_NAME,
         PAPER_SUBMITTER_INDEX_FILE_NAME,
+        PAPER_RELATION_INDEX_FILE_NAME,
+        PAPER_SIMILARITY_INDEX_FILE_NAME,
         'summaries/',
         config.meetingDigestFeedFileName,
         'digests/meetings/',

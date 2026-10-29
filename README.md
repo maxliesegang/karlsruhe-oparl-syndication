@@ -33,6 +33,17 @@ Entries in every Atom feed also include categories for their organizations, Stad
 
 The main, committee, and Stadtteil feeds contain at most `FEED_MAX_ITEMS` entries (1,000 by default). This only limits the subscription-facing XML; the stores under `docs/` remain a complete archive. The recent feed remains fixed at 100 entries.
 
+### Related and similar papers
+
+Every generation publishes two complementary indexes for archive viewers:
+
+- `paper-relations.json`: `{ version: 1, papers: { "<id>": { "<otherId>": ["<reason>"] } } }`. Reasons distinguish OParl parent/child links, reference families, citations (`cites` / `cited-by`) and matching titles (`same-title`). Matching titles are heuristic evidence, not a confirmed procedural history.
+- `paper-similar.json`: `{ version: 3, papers: { "<id>": ["<otherId>", ...] } }`. Up to three automatically selected topical recommendations, strongest first. Keys and values are the basenames of `papers/<id>.json`; read that record for the title, reference, date and authoritative source links.
+
+Similarity uses original attachment text, with substantive documents ahead of annexes and budget forms removed. It excludes explicit relations, the query's own title/reference family, routine appointment paperwork and mismatching parcel numbers. Recommendations need title-anchored topic evidence; each target family appears at most once. Missing keys mean no recommendation passed these conservative rules. Lists need not be reciprocal and do not claim completeness or a shared proceeding. Numeric scores are not part of the public contract.
+
+Both files are linked from the generated landing page. They are data indexes for viewers; Atom entries retain their existing content. Offline quality tools are `npm run audit:similarity`, `npm run review:similarity`, and `npm run compare:similarity`; the comparison preserves original labels and records assistant judgments separately from human review.
+
 ## Local Development
 
 **Requirements:** Node.js ≥ 24 (see `.node-version`), npm
