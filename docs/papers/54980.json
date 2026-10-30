@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681372.pdf",
+      "created": "2026-10-05T12:21:35+02:00",
+      "date": "2026-10-05",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681372.pdf",
+      "fileName": "00681372.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681372",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-30T11:41:10+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103499",
+      "created": "2026-09-28T14:08:40+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38018",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10590",
+      "modified": "2026-10-29T09:33:06+01:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/29599"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54980",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-09-28T13:41:04+02:00",
+  "date": "2026-09-28",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54980",
+  "modified": "2026-10-30T11:41:10+01:00",
+  "name": "Einstellung Medienbus",
+  "paperType": "Informationsvorlage",
+  "reference": "2026/0781",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/882963"
+  ]
+}
