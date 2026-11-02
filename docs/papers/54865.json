@@ -1,0 +1,65 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00680976.pdf",
+      "created": "2026-09-22T13:51:33+02:00",
+      "date": "2026-09-22",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00680976.pdf",
+      "fileName": "00680976.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680976",
+      "mimeType": "application/pdf",
+      "modified": "2026-11-02T08:11:50+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2026-09-22T13:51:00+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37973",
+      "modified": "2026-11-02T08:06:21+01:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54865",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "created": "2026-10-02T17:09:19+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38069",
+      "modified": "2026-11-02T08:06:08+01:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54865",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104117",
+      "created": "2026-10-21T07:35:43+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37972",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10461",
+      "modified": "2026-10-21T07:37:09+02:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/34965"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54865",
+      "role": "Anhörung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-08-20T13:21:06+02:00",
+  "date": "2026-09-22",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54865",
+  "modified": "2026-11-02T08:11:50+01:00",
+  "name": "Entscheidung über den Rückbau des Pavillons Zur Dorfwies 1a",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0673",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

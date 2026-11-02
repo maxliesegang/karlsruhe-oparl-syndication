@@ -1,7 +1,80 @@
 {
+  "agendaItem": [
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37999",
+      "created": "2026-10-05T09:22:43+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103598",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10610",
+      "modified": "2026-10-19T14:59:28+02:00",
+      "name": "Jahresbericht der Staatsangehörigkeitsbehörde",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38003",
+      "created": "2026-10-05T09:22:04+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103597",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10610",
+      "modified": "2026-10-28T09:51:19+01:00",
+      "name": "Institutionsübergreifende Berichterstattung zur sprachlichen und beruflichen Förderung neuzugewanderter Kinder und Jugendlicher in Karlsruhe",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38004",
+      "created": "2026-10-19T14:59:00+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104033",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10610",
+      "modified": "2026-10-28T09:51:19+01:00",
+      "name": "Sprachmittlung im Gesundheitswesen",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38005",
+      "created": "2026-10-05T13:13:50+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103618",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10610",
+      "modified": "2026-10-28T09:51:19+01:00",
+      "name": "Finanzielle Förderung von Projekten/Verlängerung von Projekten (Sprache schafft Chancen/PIAzA)",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-10-05T13:14:12+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103619",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10610",
+      "modified": "2026-10-28T09:51:19+01:00",
+      "name": "Mitteilungen Bürgermeisteramt",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
   "created": "2025-10-10T14:41:32+02:00",
   "end": "2026-11-12T18:30:00+01:00",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10610",
+  "invitation": {
+    "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681793.pdf",
+    "created": "2026-10-19T15:00:32+02:00",
+    "date": "2026-10-19",
+    "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681793.pdf",
+    "fileName": "00681793.pdf",
+    "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681793",
+    "mimeType": "application/pdf",
+    "modified": "2026-11-02T10:36:28+01:00",
+    "name": "Tagesordnung (ö/nö) für Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
   "location": {
     "created": "2022-12-29T15:24:53+01:00",
     "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/locations/rm/67922",
@@ -13,7 +86,7 @@
     "subLocality": "",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-10-23T14:00:52+02:00",
+  "modified": "2026-11-02T13:52:39+01:00",
   "name": "Integrationsausschuss (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/39759"
