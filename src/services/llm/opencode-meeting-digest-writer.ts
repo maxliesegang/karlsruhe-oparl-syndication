@@ -8,8 +8,8 @@ import { SESSION_HEADER, isEmptyResponse, salvageJsonObject } from './opencode-p
 import { MeetingDigestRequest, MeetingDigestWriter } from './meeting-digest-writer.js';
 
 /**
- * Deliberately larger than the per-paper client's 1600. Copying that number was a
- * mistake: a digest is not smaller output. Six highlights of up to 500 characters
+ * Was deliberately larger than the per-paper client's former 1600, which was a
+ * mistake to copy: a digest is not smaller output. Six highlights of up to 500 characters
  * plus a four-sentence overview is several times a paper summary's two-to-four
  * short key points, and a reasoning model's preamble counts against the same
  * budget. Measured on the 2026-09-15

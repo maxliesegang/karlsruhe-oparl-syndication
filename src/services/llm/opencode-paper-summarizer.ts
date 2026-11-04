@@ -19,10 +19,21 @@ export interface OpenCodePaperSummarizerOptions {
   fetch?: typeof globalThis.fetch;
 }
 
-// The JSON object itself needs a few hundred tokens; the rest is headroom for a
-// reasoning preamble, which counts against this budget and truncated responses
-// into unparseable ones. Only generated tokens are billed, so the slack is free.
-const MAX_OUTPUT_TOKENS = 1600;
+/**
+ * A runaway guard, not a budget: no paper's summary may be worse or empty because
+ * of it. The JSON object itself needs a few hundred tokens, but a reasoning
+ * model's preamble counts against this limit, and a model cut off mid-reasoning
+ * returns nothing — which reads as the provider's "empty response" and costs
+ * three attempts plus the fallback model. Only generated tokens are billed, so
+ * the slack is free; spend is bounded per run (`SUMMARY_MAX_ITEMS_PER_RUN`,
+ * `LLM_BUDGET_MINUTES`, quota pacing), never per request.
+ *
+ * Raised from 1600 on 2026-11-04. In a 20-paper test of citation-carrying key
+ * points, 4 papers came back empty at 4000; at 8000 three of them answered and
+ * `papers/54089` (34k characters, four attachments) needed 16000 and 173 s.
+ * The meeting previews hit the same cliff at 4000 (see the digest writer).
+ */
+const MAX_OUTPUT_TOKENS = 16000;
 
 /** Conversation id header OpenCode Go requires on every request. */
 export const SESSION_HEADER = 'x-opencode-session';
