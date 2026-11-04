@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T06:57:44.623Z",
+  "generatedAt": "2026-11-04T22:44:57.298Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54632",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679556",
+      "page": 1,
+      "quote": "Diese Laufzeit variiert zwischen 6 Jahren (450.000 Euro) und 10 Jahren (750.000 Euro)"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679412",
+      "page": 3,
+      "quote": "Nach 3 Jahren und 6 Monaten müssen sich alle Vertragsparteien darüber einigen, ob das FVS um weitere 4 Jahre verlängert wird"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679556",
+      "page": 2,
+      "quote": "Die Hochschulen übernehmen künftig den Hauptanteil der Finanzierung, was angesichts ihrer starken Nutzergruppe sachgerecht ist"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679556",
+      "page": 2,
+      "quote": "Die Haushaltsmittel in Höhe von 75.000 Euro pro Jahr sind in der Mittelfrist zunächst bis zum Jahr 2030 im PSP-Element 1.610.51.10.07.01 eingeplant"
+    }
+  ],
   "keyPoints": [
-    "Die vorgesehene Vertragslaufzeit beträgt 6 Jahre mit 450.000 Euro Gesamtaufwendungen; nach einer Einigung über eine Verlängerung um 4 Jahre wären es 10 Jahre mit 750.000 Euro.",
-    "Nach 3 Jahren und 6 Monaten soll eine Einigung über die Verlängerung der Laufzeit herbeigeführt werden; eine ordentliche Kündigung ist laut Vertragsentwurf nicht vorgesehen.",
-    "Die Hochschulen sollen künftig den Hauptanteil der Finanzierung übernehmen, um die finanzielle Beteiligung der Stadt zu reduzieren; die Mittel von 75.000 Euro jährlich sind zunächst bis zum Jahr 2030 eingeplant.",
-    "Der Betrieb ist mit einer Flexzone in der Kernstadt von Karlsruhe und virtuellen Stationen außerhalb geplant, wobei das System auch auf weitere Gemeinden im KVV-Verbundgebiet ausgedehnt werden kann."
+    "Je nach Laufzeit des Vertrages ergeben sich für den städtischen Haushalt Gesamtaufwendungen von 450.000 Euro bei 6 Jahren oder 750.000 Euro bei 10 Jahren.",
+    "Nach Ablauf von 3 Jahren und 6 Monaten ist eine Einigung über eine Verlängerung um weitere 4 Jahre vorgesehen; andernfalls endet der Vertrag nach 6 Jahren.",
+    "Die Hochschulen sollen künftig den Hauptanteil der Finanzierung tragen, weil Studierende zu den stärksten Nutzergruppen zählen.",
+    "Die Haushaltsmittel sind in der Mittelfrist zunächst bis zum Jahr 2030 im genannten PSP-Element eingeplant."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:a836ad2a532a199e52fa56d08c48bd8204007c60c2c54df92bd8967483a674c1",
-  "summary": "Die Vorlage schlägt vor, das Fahrradverleihsystem ab März 2027 mit einem jährlichen Zuschuss der Stadt von 75.000 Euro fortzuführen und den Karlsruher Verkehrsverbund mit der Ausschreibung zu beauftragen. Zugrunde liegt eine Vereinbarung mit dem KVV, für die ein Haushaltssperrvermerk aufgehoben werden soll."
+  "summary": "Die Vorlage schlägt vor, das bezuschusste Fahrradverleihsystem in Karlsruhe ab März 2027 über eine Vereinbarung mit dem Karlsruher Verkehrsverbund fortzuführen. Der städtische Zuschuss soll jährlich 75.000 Euro betragen, der entsprechende Sperrvermerk dafür für die Vertragslaufzeit aufgehoben werden."
 }

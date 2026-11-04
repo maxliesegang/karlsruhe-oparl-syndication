@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T06:55:41.281Z",
+  "generatedAt": "2026-11-04T22:44:57.298Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54653",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679698",
+      "page": 1,
+      "quote": "Im INZ des SKK werden an Werktagen durchschnittlich rund 180 bis 220 Patientinnen und Patienten behandelt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679698",
+      "page": 1,
+      "quote": "Täglich werden 150 - 170 Patientinnen und Patienten in der ZNA der ViDia Kliniken behandelt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679698",
+      "page": 1,
+      "quote": "Ihr Anteil liegt bei etwa 40 bis 50 % aller behandelten Patientinnen und Patienten"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679698",
+      "page": 2,
+      "quote": "Schwere Notfälle müssen daher nicht zugunsten leichter Erkrankungen zurückgestellt werden"
+    }
+  ],
   "keyPoints": [
-    "Im Integrierten Notfallzentrum des Städtischen Klinikums werden an Werktagen durchschnittlich rund 180 bis 220 Patientinnen und Patienten behandelt, an Wochenenden etwa 150 bis 170 bei reduzierter Personalbesetzung.",
-    "Ambulant versorgbare Fälle machen dort rund 40 bis 50 Prozent aus, bei den ViDia Kliniken etwa 45 bis 55 Prozent; an Wochenenden und Feiertagen nimmt ihr Anteil zu, ohne dass dies gesondert erfasst wird.",
-    "Verbale Beleidigungen und Gewaltandrohungen gehören laut Stellungnahme regelmäßig zum Arbeitsalltag in der Patientenaufnahme, eine quantitative Auswertung der vergangenen fünf Jahre liegt nicht vor.",
-    "Als vorrangiger Handlungsbedarf werden der weitere Ausbau der sektorenübergreifenden digitalen Vernetzung, etwa über die geplante Plattform MEDICUS und einen digitalen Bettennachweis, sowie eine bessere regionale Patientensteuerung genannt."
+    "Im Integrierten Notfallzentrum des Städtischen Klinikums werden an Werktagen durchschnittlich rund 180 bis 220 Patientinnen und Patienten behandelt, an Wochenenden etwa 150 bis 170 – bei reduzierter Personalbesetzung.",
+    "In der Notaufnahme der ViDia Kliniken werden täglich 150 bis 170 Patientinnen und Patienten behandelt, ohne Differenzierung nach Werktag und Wochenende.",
+    "Der Anteil ambulant versorgbarer Fälle liegt im Städtischen Klinikum bei etwa 40 bis 50 Prozent, bei den ViDia Kliniken bei etwa 45 bis 55 Prozent.",
+    "Durch die prioritätsorientierte Triage müssen schwere Notfälle nicht zugunsten leichter Erkrankungen zurückstehen; aus den ausgewerteten Daten ergeben sich laut Stellungnahme keine belastbaren Hinweise auf Verschlechterungen durch Wartezeiten."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:bc60456bbccf1ed7511eb582e2107c585bafff645dd36feeefa38130fa8a506c",
-  "summary": "Die Anfrage erkundigt sich nach Auslastung, Personalsituation, Gewaltvorfällen und digitaler Vernetzung der Notaufnahmen im Städtischen Klinikum und in den ViDia Kliniken. Die Stellungnahme beziffert hohe Patientenzahlen bei großem Anteil ambulant behandelbarer Fälle und nennt den Ausbau der digitalen Patientensteuerung als vorrangigen Handlungsbedarf."
+  "summary": "Die Anfrage will Zahlen und Hintergründe zu Auslastung, Personalsituation, Gewaltvorfällen und Steuerungsmaßnahmen in den Zentralen Notaufnahmen des Städtischen Klinikums und der ViDia Kliniken. Die Stellungnahme beziffert Patientenströme und den Anteil leichter Fälle, schildert dauerhaft hohe Belastung und Übergriffe und nennt den Ausbau der sektorenübergreifenden digitalen Vernetzung als künftigen Schwerpunkt."
 }

@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T06:59:34.835Z",
+  "generatedAt": "2026-11-04T22:44:57.298Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54597",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678617",
+      "page": 3,
+      "quote": "Über die verbleibende Vorgartenfläche wird mit den Käufern eine Nutzungsvereinbarung abgeschlossen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678617",
+      "page": 2,
+      "quote": "Im Rahmen des Verkaufes werden öffentliche Leitungen, die auf den betreffenden Flächen verlaufen, dinglich gesichert, damit diese weiterhin zugänglich wären"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678617",
+      "page": 3,
+      "quote": "bereits ohne Erlaubnis in Weiherfeld aufgebauten Wärmepumpen auf solchen städtischen Flächen erhalten den Entwurf eines Kaufvertrages"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678617",
+      "page": 3,
+      "quote": "Vermögensgegenstände dürfen in der Regel nur zu ihrem vollen Wert nach § 92 Gemeindeordnung veräußert werden"
+    }
+  ],
   "keyPoints": [
-    "Die betroffenen Flächen sind im Bebauungsplan als Straßenfläche ausgewiesen, wurden aber bisher als Vorgärten genutzt; ohne Zustimmung der Stadt aufgestellte Wärmepumpen bestehen dort bereits.",
-    "Die Verkaufsbreite ist auf bis zu 1,50 m begrenzt, damit künftige städtische Planungen wie Verkehrsflächen oder Radwege nicht unmöglich werden; die Restflächen bleiben in städtischem Eigentum.",
-    "Auf den verkauften Flächen verlaufende öffentliche Leitungen sollen dinglich gesichert bleiben, und über die verbleibende Vorgartenfläche sind Nutzungsvereinbarungen mit den Käufern vorgesehen.",
-    "Der Verkauf soll in der Regel zum vollen Verkehrswert nach § 92 Gemeindeordnung erfolgen; Kosten für Gutachtenerstellung und Vermessung sowie die Kaufpreise sind als finanzielle Auswirkungen genannt, aber nicht beziffert."
+    "Der Eigentümer wird über die verbleibende Vorgartenfläche mit den Käufern eine Nutzungsvereinbarung abgeschlossen.",
+    "Öffentliche Leitungen auf den verkauften Flächen sollen dinglich gesichert werden, damit sie weiterhin zugänglich bleiben.",
+    "Auch die Eigentümer von Wärmepumpen, die bereits ohne Erlaubnis auf städtischen Flächen aufgestellt wurden, sollen einen Kaufvertragsentwurf erhalten.",
+    "Die Vorlage weist darauf hin, dass der Verkauf regelmäßig zum vollen Wert, also zum Verkehrswert, erfolgen muss."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:1b70fa9668c41ed0745e11f9086dd0bf6fff08c974247175c05d8dff17519a31",
-  "summary": "Die Vorlage schlägt vor, anfragenden Grundstückseigentümern in Weiherfeld einen von der Hauswand aus rund 1,50 Meter breiten Streifen der städtischen Vorgartenflächen zum Kauf anzubieten, damit dort Wärmepumpen errichtet werden können. Die Verwaltung plante die Umsetzung als Pilotprojekt und wollte die Verträge abschließen, sofern die Aufstellung auf dem eigenen Grundstück nicht möglich ist."
+  "summary": "Die Vorlage schlägt vor, im Stadtteil Weiherfeld als Pilotprojekt von als Vorgärten genutzten städtischen Flächen einen rund 1,50 Meter breiten Streifen an die anfragenden Grundstückseigentümer zu verkaufen, damit diese dort Wärmepumpen errichten können. Die nicht verkauften Restflächen sollen für künftige Planungen der Stadt erhalten bleiben."
 }

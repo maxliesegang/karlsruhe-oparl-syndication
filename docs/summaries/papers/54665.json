@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:00:29.311Z",
+  "generatedAt": "2026-11-04T22:44:57.298Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54665",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679216",
+      "page": 3,
+      "quote": "sechs zuschlagbaren Lose für die maximale Vertragslaufzeit von drei Jahren: Gesamtauftragswert: 6.423.708,13 Euro/brutto für drei Jahre"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679216",
+      "page": 2,
+      "quote": "Option auf Vertragsverlängerung um 12 Monate, sofern die Verträge nicht bis zum 31. August 2027"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679216",
+      "page": 2,
+      "quote": "13.04.2026 gingen für Los 1 vier Angebote, für Los 2, 3, 5 und 6 ging jeweils 1 Angebot ein"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679216",
+      "page": 3,
+      "quote": "Es wird vorgeschlagen, das Angebot der Firma Postcon Konsolidierungs GmbH, Meerscheidtstraße 10, 14050 Berlin"
+    }
+  ],
   "keyPoints": [
-    "Der Vertragszeitraum ist vom 1. September 2026 bis 31. August 2028 mit einer einmaligen Verlängerungsoption um 12 Monate, sofern bis zum 31. August 2027 nicht schriftlich gekündigt wird.",
-    "Der Gesamtauftragswert der zuschlagbaren Lose beträgt 6.423.708,13 Euro brutto für die maximale Laufzeit von drei Jahren; es besteht keine Abnahmeverpflichtung, abgerechnet wird nach den tatsächlich aufgegebenen Sendungsmengen.",
-    "Für Los 4 (Pakete) ging kein Angebot ein; hierzu ist ein gesonderter Aufhebungsbeschluss vorgesehen.",
-    "Eine Preissteigerung von 13 Prozent soll aus dem laufenden Budget gedeckt werden, da rückläufige Sendungsmengen durch Digitalisierung erwartet werden; das Hauptament plant weitere Maßnahmen zur Senkung des Postaufkommens."
+    "Der Gesamtauftragswert der sechs zuschlagbaren Lose für die maximale Vertragslaufzeit von drei Jahren wird mit 6.423.708,13 Euro brutto beziffert.",
+    "Die einmalige Verlängerungsoption greift nur, wenn die Stadt die Verträge nicht bis zum 31. August 2027 schriftlich kündigt.",
+    "Für Los 1 gingen vier Angebote ein, für die Lose 2, 3, 5 und 6 jeweils nur ein Angebot.",
+    "Für das Los mit nationalen Brief-, Postkarten- und Einschreibesendungen ist die Postcon Konsolidierungs GmbH in Berlin vorgesehen."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:289c9bb9739481e43e131283e125de4bea3fa4660f310e2fe828e52bb804f281",
-  "summary": "Die Vorlage schlägt vor, die externen Postdienstleistungen der Stadt Karlsruhe für Briefe, Pakete und Wahlunterlagen an die Bieter Postcon Konsolidierungs GmbH und Deutsche Post AG bzw. Deutsche Post InHausServices GmbH zu vergeben und den Zuschlag zu erteilen. Für die Paketzustellung ist kein Angebot eingegangen."
+  "summary": "Die Vorlage schlägt vor, die externen Postdienstleistungen der Stadt für den Zeitraum vom 1. September 2026 bis 31. August 2028 mit einmaliger Option auf Vertragsverlängerung um 12 Monate zu vergeben und die Zuschläge auf die Angebote von Postcon Konsolidierungs und der Deutschen Post zu erteilen. Für Paketsendungen ist kein Angebot eingegangen."
 }

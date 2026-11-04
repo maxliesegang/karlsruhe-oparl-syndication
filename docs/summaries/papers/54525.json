@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:00:32.178Z",
+  "generatedAt": "2026-11-04T22:44:57.298Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54525",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679551",
+      "page": 3,
+      "quote": "Für das GMKW ist eine elektrische Leistung von rund 54 MW mit etwa gleich hoher thermischer Auskopplung vorgesehen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679551",
+      "page": 6,
+      "quote": "die derzeit mit 65 Mio.€ veranschlagten Investitionskosten sowie die laufenden Betriebskosten decken zu können"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679551",
+      "page": 6,
+      "quote": "eine maximale Förderung von 119 Mio.€ über den Verpflichtungszeitraum für die Bereitstellung von Langzeitkapzitäten von 15 Jahren"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679551",
+      "page": 6,
+      "quote": "Aus dem KWKG ergibt sich eine Maximalförderung von in Summe 63 Mio.€, die nur im Falle von 2.500 Betriebsstunden im Jahr"
+    }
+  ],
   "keyPoints": [
-    "Die Investitionskosten für das als H₂-ready ausgelegte Kraftwerk aus zwölf Gasmotorenaggregaten werden derzeit mit 65 Mio. € veranschlagt, eine Inbetriebnahme ist bis Ende 2029 geplant.",
-    "Nach dem Entwurf des StromVKG wären über einen Verpflichtungszeitraum von 15 Jahren maximal 119 Mio. € Förderung möglich, während die KWKG-Förderung auf zusammen 63 Mio. € begrenzt wäre.",
-    "Im Erdgasbetrieb fielen je nach Förderregime rund 35.000 oder rund 60.000 Tonnen CO₂ pro Jahr an; der im StromVKG vorgesehene Südbonus soll die Zuschlagschancen in den Auktionen erhöhen.",
-    "Für die gesamte Zielarchitektur der Fernwärmeplanen die Stadtwerke in den kommenden 15 Jahren rund 350 bis 380 Mio. € Investitionen, wobei alle verfügbaren Fördermöglichkeiten genutzt werden sollen."
+    "Für das geplante Kraftwerk ist eine elektrische Leistung von rund 54 MW bei etwa gleich hoher thermischer Auskopplung vorgesehen, aufgebaut aus zwölf Gasmotorenaggregaten.",
+    "Die Investitionskosten werden derzeit mit 65 Mio. € veranschlagt, die zusammen mit den laufenden Betriebskosten durch Förderung gedeckt werden müssen.",
+    "Nach dem aktuellen Gesetzentwurf kämen als Förderung nach dem StromVKG maximal 119 Mio. € über einen Verpflichtungszeitraum von 15 Jahren infrage.",
+    "Die Förderung nach dem KWKG ist dagegen auf in Summe 63 Mio. € begrenzt und nur bei Ausschöpfung der Höchstbetriebsstunden erreichbar."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:2c41f776a73d67feb0e869d2baa3fecb39d31e38467e23ce95d86308d98aa3c3",
-  "summary": "Die Vorlage informiert über ein geplantes Gasmotorenkraftwerk am Heizkraftwerk West mit rund 54 MW elektrischer Leistung und über Fördermöglichkeiten nach dem StromVKG. Danach könnten Förderhöhe und Wirtschaftlichkeit deutlich besser ausfallen als bei einer Förderung nach KWKG, zudem ließen sich die Betriebsstunden und damit die CO₂-Emissionen senken."
+  "summary": "Die Vorlage informiert über ein geplantes Gasmotorenkraftwerk am Heizkraftwerk West, das Fernwärme und Strom liefern und nach derzeitigem Plan bis Ende 2029 in Betrieb gehen soll. Sie stellt Fördermöglichkeiten nach dem StromVKG gegenüber dem KWKG dar, die die Wirtschaftlichkeit deutlich verbessern und die Betriebsstunden senken könnten."
 }

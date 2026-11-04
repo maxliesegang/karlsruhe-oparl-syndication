@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:00:49.283Z",
+  "generatedAt": "2026-11-04T22:44:57.298Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54652",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679114",
+      "page": 2,
+      "quote": "Die Kappungsgrenze betrifft jeden konkreten AAB-Tatbestand, nicht alle AAB-Entscheidungen zusammen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679114",
+      "page": 2,
+      "quote": "Aufgrund der neuen Obergrenze würde also voraussichtlich keine Mindereinnahmen gegenüber den letzten Jahren zu erwarten sein"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679114",
+      "page": 2,
+      "quote": "Die Gebühr darf nicht außer Verhältnis zum maßgeblichen Verwaltungsaufwand stehen (Äquivalenzprinzip)"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679114",
+      "page": 3,
+      "quote": "die großen Projekte mit einer hypothetischen Befreiungsgebühr von bis zu 1 Mio. € aus wirtschaftlichen Gründen nicht mehr realisierbar wären"
+    }
+  ],
   "keyPoints": [
-    "Die Kappungsgrenze von 50.000 Euro gilt je einzelnen Gebührentatbestand; werden für ein Bauvorhaben mehrere bauplanungsrechtliche Befreiungen benötigt, können die Gebühren insgesamt darüber liegen.",
-    "Nach stichprobenartiger Prüfung der jüngeren Befreiungspraxis sind dem Bauordnungsamt keine Fälle bekannt, in denen für einzelne Befreiungstatbestände mehr als 50.000 Euro festgesetzt wurden, sodass voraussichtlich keine Mindereinnahmen zu erwarten sind.",
-    "Bei großen Projekten wären hypothetische Befreiungsgebühren von bis zu 1 Mio. € aus wirtschaftlichen Gründen nicht mehr realisierbar gewesen; als Alternative stünde oft ein aufwendiges Bebauungsplanverfahren, das die Kapazitäten der Verwaltung belastet.",
-    "Die Änderung umfasst die Gebührenziffer 12.3 im Gebührenverzeichnis und soll am 1. September 2026 in Kraft treten."
+    "Die Obergrenze gilt je einzelnen Tatbestand, sodass bei einem Bauvorhaben mit mehreren erforderlichen Befreiungen die Gebühren insgesamt darüber liegen können.",
+    "Nach stichprobenartiger Prüfung der jüngeren Befreiungspraxis erwartet das Bauordnungsamt keine Mindereinnahmen.",
+    "Die Gebühren für Befreiungen sollen den wirtschaftlichen Vorteil beziehungsweise die Wertsteigerung der Immobilie abbilden, dürfen aber den Verwaltungsaufwand nicht übersteigen.",
+    "Ohne die Kappung wären große Projekte mit einer hypothetischen Befreiungsgebühr von bis zu 1 Mio. € wirtschaftlich nicht mehr realisierbar."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:5fa6ee0f41e47a0d7c53643cb74efc37c5a44929bf41f0b5e90201f27eccd7ec",
-  "summary": "Die Vorlage schlägt vor, die Verwaltungsgebührensatzung der Stadt Karlsruhe so zu ändern, dass für Befreiungen, Ausnahmen und Abweichungen im Baurecht je Gebührentatbestand eine Höchstgebühr von 50.000 Euro gilt. Damit sollen unter dem Bauturbo ermöglichte Bauvorhaben nicht durch eine am Bodenrichtwert bemessene Befreiungsgebühr wirtschaftlich untragbar werden."
+  "summary": "Die Vorlage legt eine Änderung der Verwaltungsgebührensatzung samt Gebührenverzeichnis vor, die für Ausnahmen, Abweichungen und Befreiungen im Baurecht eine Obergrenze von 50.000 Euro je Tatbestand einführt. Begründet wird dies mit dem Bauturbo, durch den Kommunen schneller Wohnraum schaffen können, und mit dem Äquivalenzprinzip."
 }

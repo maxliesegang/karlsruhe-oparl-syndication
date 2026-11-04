@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T06:55:32.452Z",
+  "generatedAt": "2026-11-04T22:44:57.298Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54705",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679429",
+      "page": 1,
+      "quote": "Im gesamten Kalenderjahr 2025 wurden lediglich 2.285 Kinder geboren, was die niedrigste Geburtenzahl seit 1985 darstellt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679667",
+      "page": 2,
+      "quote": "zum Schuljahr 2028/29 schulpflichtig; ab 2032/33 werden die geburtenschwachen Jahrgänge die weiterführenden Schulen erreichen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679667",
+      "page": 1,
+      "quote": "Eine pauschale Reduzierung von Betreuungskapazitäten erfolgt daher nicht"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679667",
+      "page": 1,
+      "quote": "Die Verwaltung erstellt derzeit eine Informationsvorlage für den Jugendhilfeausschuss"
+    }
+  ],
   "keyPoints": [
-    "Im Kalenderjahr 2025 wurden in Karlsruhe 2.285 Kinder geboren, die niedrigste Geburtenzahl seit 1985; im vierten Quartal 2025 lag sie 20,0 Prozent unter dem Durchschnitt von 2020 bis 2022 und 24,4 Prozent unter dem Mittelwert von 2017 bis 2019.",
-    "Der Geburtsjahrgang 2022 wird grundsätzlich zum Schuljahr 2028/29 schulpflichtig, ab 2032/33 erreichen die geburtenschwachen Jahrgänge die weiterführenden Schulen; eine kurzfristige Reduzierung der Grundschulkapazitäten wird daher nicht für angezeigt gehalten.",
-    "Besonders deutliche Rückgänge bei den Geburtenzahlen nennt die Stellungnahme für Hohenwettersbach, Weiherfeld, Mühlburg, Grünwettersbach, Südweststadt, Oststadt, Nordstadt und Südstadt, während die Zahlen in Beiertheim-Bulach, Oberreut, Rintheim, Knielingen, Stupferich und Daxlanden auf oder über dem Niveau der Jahre 2014 bis 2017 liegen.",
-    "Die Verwaltung arbeitet an einer Informationsvorlage für den Jugendhilfeausschuss zum bisherigen und weiteren Vorgehen und strebt eine jährlich fortgeschriebene, kleinräumige und szenariobasierte Planung an."
+    "Der Anfrage zufolge wurden im Kalenderjahr 2025 so wenige Kinder geboren wie seit 1985 nicht mehr.",
+    "Die Stellungnahme verweist darauf, dass der Rückgang die Schulen zeitversetzt erreicht: Die geburtenschwachen Jahrgänge sollen die weiterführenden Schulen erst ab 2032/33 erreichen.",
+    "Eine pauschale Reduzierung von Betreuungskapazitäten wird laut Stellungnahme nicht vorgenommen; Entscheidungen sollen standortbezogen und auf Grundlage aktueller Prognosen fallen.",
+    "Der Jugendhilfeausschuss soll laut Stellungnahme in einer Informationsvorlage über das bisherige und weitere Vorgehen unterrichtet werden."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:1c1161f0e9b33a8d9c8ba67f18e1d410b3780e29baf6c913e49a4ff3f11da495",
-  "summary": "Die Anfrage erkundigt sich danach, wie sich der anhaltende Rückgang der Geburtenzahlen auf die Bedarfsplanung für städtische Kindertagesstätten und Schulen auswirkt, welche Anpassungen bereits vorgenommen wurden und wie sich die Entwicklung auf die einzelnen Stadtteile verteilt. Die Stellungnahme führt aus, dass die rückläufigen Zahlen kontinuierlich in die Planung einfließen, eine pauschale Reduzierung von Kapazitäten aber nicht vorgesehen ist."
+  "summary": "Die Anfrage fragt, wie die rückläufigen Geburtenzahlen in die Bedarfsplanung für städtische Kitas und Schulen einfließen und wie sich die Entwicklung auf die Karlsruher Stadtteile verteilt. Die Verwaltung führt aus, dass sie die Entwicklung fortlaufend einbezieht, hält pauschale Kapazitätskürzungen aber derzeit nicht für sachgerecht."
 }

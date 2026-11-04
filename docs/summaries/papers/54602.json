@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T08:52:18.091Z",
+  "generatedAt": "2026-11-04T22:44:57.298Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54602",
-  "keyPoints": [
-    "Das rund 7,2 Hektar große Plangebiet im Kraftwerksareal der EnBW wird mit rund 1.440 MW Feuerungswärmeleistung als Versorgungsfläche mit der Zweckbestimmung „Kraftwerk“ festgesetzt.",
-    "Im Durchführungsvertrag verpflichtet sich die EnBW zu Emissionsgrenzen von 384 t Stickoxiden und 77 t Ammoniak jährlich sowie zur Fertigstellung bis spätestens 31.12.2031; umlegbare Bearbeitungskosten betragen 37.267,33 €, Rechtsanwaltskosten bis zu 150.000 € netto trägt die Vorhabenträgerin.",
-    "Ein Generalvertrag verpflichtet den Betreiber zur Umstellung auf Wasserstoff, sobald dieser verfügbar und preisparitätisch ist, andernfalls soll die Umrüstpflicht nach 20 Jahren entfallen; zudem soll RDK 9 ab 2035 bilanziell klimaneutral betrieben werden.",
-    "Aus Naturschutzsicht wurde die Betroffenheit mehrerer Natura-2000-Gebiete sowie der Wechselkröte gerügt; für den Bau sind Reptilienschutzzäune, zwei kleine Ausgleichsgewässer und rund 7.100 m² Wildbienenfläche vorgesehen, während etwa 45 Bäume gefällt werden."
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679386",
+      "page": 8,
+      "quote": "das Vorhaben spätestens sechs Monate nach Bestandskraft der immissionsschutzrechtlichen Genehmigung zu beginnen und spätestens zum 31.12.2031 fertig zu stellen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679386",
+      "page": 8,
+      "quote": "eine Jahresfracht von 384 t/a Stickoxide als NO2 und eine Jahresfracht von 77 t/a NH3 (Ammoniak) im Drei-Jahres-Mittel einzuhalten"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679386",
+      "page": 8,
+      "quote": "diesen nach der gesicherten Inbetriebnahme von Block 9 zur Stilllegung bei der Bundesnetzagentur anzumelden"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679333",
+      "page": 13,
+      "quote": "Eine Höhenstaffelung vom 65, 40 und 25 m auf der Fläche entspricht der anlagentechnischen Nutzung"
+    }
   ],
-  "model": "mimo-v2.6-flash",
-  "promptVersion": "paper-de-v8",
+  "keyPoints": [
+    "Der Vorhabenträger soll das Vorhaben spätestens sechs Monate nach Bestandskraft der immissionsschutzrechtlichen Genehmigung beginnen und bis zum 31.12.2031 fertig stellen; unterbleibt die Fertigstellung binnen acht Jahren nach Baubeginn, besteht eine Rückbauverpflichtung.",
+    "Vertraglich vorgesehen sind strafbewehrte Emissionsgrenzwerte von 384 t/a Stickoxide als NO2 und 77 t/a Ammoniak im Drei-Jahres-Mittel.",
+    "Nach der gesicherten Inbetriebnahme von Block 9 soll Kohleblock 8 bei der Bundesnetzagentur zur Stilllegung angemeldet werden, Block 7 soll endgültig stillgelegt werden.",
+    "Für das rund 7,2 Hektar große Plangebiet am Rheinhafen sind Gebäudehöhen von 65 Metern für die Gasturbine, 40 Metern für die Dampfturbine und 25 Metern für die übrige Baufläche vorgesehen."
+  ],
+  "model": "mimo-v2.6-pro",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:03c86d7472ee3b3995cfeecc7d928b99195ed39fd4c56da6cf0e538f1cd5da08",
-  "summary": "Die Vorlage schlägt den Aufstellungsbeschluss für einen vorhabenbezogenen Bebauungsplan vor, der am Rheinhafen in Karlsruhe-Daxlanden den Neubau des wasserstofffähigen Gas- und Dampfkraftwerksblocks RDK 9 als Ersatz für den Kohleblock RDK 8 ermöglichen soll. Die Verwaltung empfiehlt, den Plan im Regelverfahren aufzustellen, und der Umweltbericht kommt zu dem Ergebnis, dass keine erheblichen nachteiligen Umweltauswirkungen zu erwarten sind."
+  "summary": "Die Vorlage schlägt vor, für das wasserstofffähige Gas- und Dampfkraftwerk RDK 9 am Karlsruher Rheinhafen einen vorhabenbezogenen Bebauungsplan aufzustellen, den Entwurf öffentlich auszulegen und mit der EnBW Durchführungs- und Generalvertrag zu Kohleblockstilllegung sowie Emissions- und Klimaschutzverpflichtungen abzuschließen. Die Verwaltung betreibt das Verfahren mit hoher Priorität, damit der Vorhabenträger an einer StromVKG-Auktion teilnehmen kann."
 }
