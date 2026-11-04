@@ -1,4 +1,3 @@
-import { OParlFile } from '../types/index.js';
 import { stripTemplateBoilerplate } from './paper-document-template.js';
 
 /** Similarity-only cleanup. Do not change summary input hashes for a retrieval experiment. */
@@ -19,22 +18,4 @@ export function stripSimilarityBoilerplate(text: string): string {
     }
   }
   return stripTemplateBoilerplate(text).trim();
-}
-
-/** Explicit annex labels beat words such as "Satzungsbeschluss" embedded in them. */
-export function similarityAttachmentPriority(file: OParlFile): 0 | 1 | 2 {
-  const name = file.name ?? '';
-  if (
-    /(?:Anlage(?:\b|_)|synopse|lageplan|planzeichnung|umweltbericht|festsetzungen|fachbeitrag|präsentation)/i.test(
-      name,
-    )
-  )
-    return 2;
-  if (
-    /(?:^|[\s_:-])(?:Beschlussvorlage|Informationsvorlage|Änderungsantrag|Ergänzungsantrag|Antrag|Anfrage|Stellungnahme|STN|Vorlage|Satzungsbeschluss|Auslegungsbeschluss|Aufstellungsbeschluss)(?=$|[\s_.:-])/i.test(
-      name,
-    )
-  )
-    return 0;
-  return 1;
 }

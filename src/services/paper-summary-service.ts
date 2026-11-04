@@ -2,7 +2,13 @@ import { config } from '../config.js';
 import { recordBasename } from '../docs-files.js';
 import { logger } from '../logger.js';
 import { stores } from '../store/index.js';
-import { GeneratedPaperSummary, Meeting, Paper, PaperSummary } from '../types/index.js';
+import {
+  GeneratedPaperSummary,
+  Meeting,
+  Paper,
+  PaperSummary,
+  PaperSummaryKeyPointSource,
+} from '../types/index.js';
 import { latestValidDate } from '../dates.js';
 import { LlmRunBudget } from '../llm-budget.js';
 import { runLlmWorkQueue } from '../llm-work-queue.js';
@@ -11,6 +17,7 @@ import { OpenCodePaperSummarizer } from './llm/opencode-paper-summarizer.js';
 import { PaperSummarizer } from './llm/paper-summarizer.js';
 import { findUngroundedNumericLiterals } from './llm/summary-grounding.js';
 import { findItemReferences } from './llm/summary-item-references.js';
+import { findKeyPointSource, KeyPointSourceDocument } from './llm/summary-key-point-sources.js';
 import {
   buildPaperSummarySource,
   PaperSummaryConsultationContext,
@@ -151,6 +158,8 @@ export async function updatePaperSummaries(
   let succeeded = 0;
   let failed = 0;
   let answeredByFallback = 0;
+  let keyPointCount = 0;
+  let linkedKeyPointCount = 0;
   await runLlmWorkQueue(candidates, {
     label: 'paper summary',
     concurrency,
@@ -174,12 +183,19 @@ export async function updatePaperSummaries(
           provider: generated.provider ?? summarizer.providerName,
           model: generated.model ?? summarizer.model,
           summary: generated.summary,
-          keyPoints: source.text.length < THIN_SOURCE_MAXIMUM_CHARACTERS ? [] : generated.keyPoints,
+          ...withKeyPointSources(
+            source.text.length < THIN_SOURCE_MAXIMUM_CHARACTERS
+              ? { summary: generated.summary, keyPoints: [] }
+              : generated,
+            source.documents,
+          ),
           generatedAt: now.toISOString(),
         };
         stores.paperSummaries.add(summary);
         current.set(paper.id, summary);
         succeeded++;
+        keyPointCount += summary.keyPoints.length;
+        linkedKeyPointCount += summary.keyPointSources?.filter(Boolean).length ?? 0;
         if (summary.model !== summarizer.model) answeredByFallback++;
       } catch (error) {
         if (options.throwOnFailure) throw error;
@@ -201,7 +217,8 @@ export async function updatePaperSummaries(
     );
   }
   logger.info(
-    `Paper summaries: ${succeeded} generated (${answeredByFallback} by fallback), ${failed} failed, ${current.size} current.`,
+    `Paper summaries: ${succeeded} generated (${answeredByFallback} by fallback), ${failed} failed, ${current.size} current; ` +
+      `${linkedKeyPointCount} of ${keyPointCount} new key points linked to their source.`,
   );
   if (
     answeredByFallback >= FALLBACK_WARNING_MINIMUM_COUNT &&
@@ -370,10 +387,18 @@ async function summarizeSource(
     const combined = level
       .map(
         (partial, index) =>
-          `Teil ${index + 1}:\n${partial.summary}\nKernpunkte: ${partial.keyPoints.join('; ')}`,
+          `Teil ${index + 1}:\n${partial.summary}\nKernpunkte:\n${renderPartialKeyPoints(partial)}`,
       )
       .join('\n\n');
     const groups = splitPaperSummarySource(combined, maximumInputCharacters);
+    // Each level must shrink, or this loops — and spends a request per group —
+    // forever. It cannot shrink when the partials themselves are each about half
+    // the input limit; fail the paper (retried next run) rather than spin.
+    if (groups.length >= level.length) {
+      throw new Error(
+        `Summary reduction does not converge: ${level.length} partial(s) still need ${groups.length} request(s) at ${maximumInputCharacters} characters.`,
+      );
+    }
     const nextLevel: GeneratedPaperSummary[] = [];
     for (const group of groups) {
       nextLevel.push(
@@ -389,6 +414,40 @@ async function summarizeSource(
     level = nextLevel;
   }
   return level[0];
+}
+
+/**
+ * A partial's key points for the reduction request. Each carries its quote as a
+ * `Beleg`, which the prompt tells the model to pass on unchanged — the reduction
+ * input holds no document text, so without this a chunked paper's key points
+ * could not be linked to a source.
+ */
+function renderPartialKeyPoints(partial: GeneratedPaperSummary): string {
+  return partial.keyPoints
+    .map((point, index) => {
+      const quote = partial.keyPointQuotes?.[index];
+      return quote ? `- ${point} (Beleg: „${quote}“)` : `- ${point}`;
+    })
+    .join('\n');
+}
+
+/**
+ * Locate each key point's quote in the attachments. The field is left out when
+ * nothing was found, so a summary without sources looks like one written before
+ * `paper-de-v9` rather than carrying a column of nulls.
+ */
+function withKeyPointSources(
+  generated: GeneratedPaperSummary,
+  documents: readonly KeyPointSourceDocument[],
+): Pick<PaperSummary, 'keyPoints' | 'keyPointSources'> {
+  const sources = generated.keyPoints.map((_, index): PaperSummaryKeyPointSource | null => {
+    const quote = generated.keyPointQuotes?.[index];
+    return (quote && findKeyPointSource(quote, documents)) || null;
+  });
+  return {
+    keyPoints: generated.keyPoints,
+    ...(sources.some(Boolean) ? { keyPointSources: sources } : {}),
+  };
 }
 
 async function summarizeWithOutputChecks(

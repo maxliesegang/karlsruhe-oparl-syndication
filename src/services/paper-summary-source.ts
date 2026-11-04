@@ -3,6 +3,7 @@ import { canonicalStringify } from '../docs-files.js';
 import { FileContent } from '../types/file-content.js';
 import { Paper } from '../types/index.js';
 import { replaceInvalidXmlCharacters } from '../xml-text.js';
+import { KeyPointSourceDocument } from './llm/summary-key-point-sources.js';
 import { findTemplateAbstract, stripTemplateBoilerplate } from './paper-document-template.js';
 
 const INPUT_FORMAT_VERSION = 5;
@@ -47,6 +48,12 @@ export interface PaperSummarySource {
   contextText: string;
   text: string;
   hasExtractedText: boolean;
+  /**
+   * Each attachment's full current text, page markers included, for locating the
+   * quote behind a key point. Not hashed and not sent: it is the same text the
+   * model saw, before `stripTemplateBoilerplate`, which only removes lines.
+   */
+  documents: KeyPointSourceDocument[];
 }
 
 /**
@@ -76,6 +83,7 @@ export function buildPaperSummarySource(
       return {
         id: file.id,
         name: file.name,
+        normalized,
         abstract: normalized ? findTemplateAbstract(normalized) : '',
         extractedText: stripTemplateBoilerplate(normalized).trim(),
       };
@@ -111,6 +119,13 @@ export function buildPaperSummarySource(
     contextText,
     text,
     hasExtractedText: text.length > 0,
+    documents: attachments
+      .filter((attachment) => attachment.normalized)
+      .map((attachment) => ({
+        file: attachment.id,
+        name: attachment.name,
+        text: attachment.normalized,
+      })),
   };
 }
 

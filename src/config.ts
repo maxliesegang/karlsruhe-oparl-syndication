@@ -101,7 +101,7 @@ export const config = {
   // v6 summarizes substance only; the feed renders each meeting's own result.
   // v8 shortens the summary to a two-sentence preview and moves details into
   // key points that must not repeat it.
-  summaryPromptVersion: process.env.SUMMARY_PROMPT_VERSION || 'paper-de-v8',
+  summaryPromptVersion: process.env.SUMMARY_PROMPT_VERSION || 'paper-de-v9',
   // The oldest prompt version whose summaries may still be published until they are
   // regenerated (see prompt-versions.ts). Decide it with every bump: leave it for a
   // style change, raise it when old texts would now be wrong. v7 is the floor

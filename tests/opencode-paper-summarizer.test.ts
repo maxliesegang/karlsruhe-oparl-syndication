@@ -401,3 +401,78 @@ describe('OpenCode fallback model', () => {
     expect(fetchMock).toHaveBeenCalledTimes(3);
   });
 });
+
+describe('OpenCode key point quotes', () => {
+  function respondWith(content: unknown): typeof globalThis.fetch {
+    return vi.fn().mockResolvedValue(
+      new Response(
+        JSON.stringify({
+          id: 'completion-quotes',
+          created: 1,
+          model: 'mimo-v2.6-pro',
+          choices: [
+            {
+              index: 0,
+              finish_reason: 'stop',
+              message: { role: 'assistant', content: JSON.stringify(content) },
+            },
+          ],
+          usage: { prompt_tokens: 100, completion_tokens: 20, total_tokens: 120 },
+        }),
+        { status: 200, headers: { 'Content-Type': 'application/json' } },
+      ),
+    );
+  }
+
+  function summarizeWith(fetchMock: typeof globalThis.fetch) {
+    return new OpenCodePaperSummarizer({
+      apiKey: 'test-key',
+      baseUrl: 'https://opencode.example/zen/go/v1/',
+      model: 'mimo-v2.6-pro',
+      timeoutMs: 1_000,
+      fetch: fetchMock,
+    }).summarize({
+      sessionId: 'karlsruhe-paper-1',
+      heading: 'Beschlussvorlage – 2026/1 – Marktplatz',
+      contextText: '',
+      sourceText: 'Text.',
+      partial: false,
+    });
+  }
+
+  it('separates key point texts from their quotes, index-aligned', async () => {
+    await expect(
+      summarizeWith(
+        respondWith({
+          summary: 'Die Vorlage schlägt einen Umbau vor.',
+          keyPoints: [
+            {
+              text: 'Der Umbau kostet zwei Millionen Euro.',
+              quote: 'Die Kosten betragen zwei Millionen Euro.',
+            },
+            // A plain string is still a key point; it just gets no source.
+            'Der Platz erhält neue Bänke.',
+          ],
+        }),
+      ),
+    ).resolves.toEqual({
+      summary: 'Die Vorlage schlägt einen Umbau vor.',
+      keyPoints: ['Der Umbau kostet zwei Millionen Euro.', 'Der Platz erhält neue Bänke.'],
+      keyPointQuotes: ['Die Kosten betragen zwei Millionen Euro.', ''],
+    });
+  });
+
+  it('keeps quotes aligned when an empty key point is dropped', () => {
+    expect(
+      normalizeGeneratedPaperSummary({
+        summary: 'Zusammenfassung.',
+        keyPoints: ['  ', 'Zweiter Punkt.'],
+        keyPointQuotes: ['Zitat zum leeren Punkt', '  Zitat   zum zweiten Punkt '],
+      }),
+    ).toEqual({
+      summary: 'Zusammenfassung.',
+      keyPoints: ['Zweiter Punkt.'],
+      keyPointQuotes: ['Zitat zum zweiten Punkt'],
+    });
+  });
+});

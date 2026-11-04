@@ -89,8 +89,8 @@ const DATA_ARTIFACTS: readonly DataArtifact[] = [
   {
     path: 'summaries/papers/',
     description:
-      'Maschinell erzeugte Kurzfassungen je Vorlage (LLM, mit Quell-Hash): ' +
-      'summaries/papers/<id>.json.',
+      'Maschinell erzeugte Kurzfassungen je Vorlage (LLM, mit Quell-Hash und, ab paper-de-v9, ' +
+      'der Fundstelle jedes Kernpunkts – Anhang, Seite, Zitat): summaries/papers/<id>.json.',
   },
   {
     path: 'digests/meetings/',

@@ -1,7 +1,5 @@
-import {
-  similarityAttachmentPriority,
-  stripSimilarityBoilerplate,
-} from './services/paper-similarity-source.js';
+import { attachmentDocumentPriority } from './paper-attachment-priority.js';
+import { stripSimilarityBoilerplate } from './services/paper-similarity-source.js';
 import { isMeetingRecordAttachment } from './services/paper-summary-source.js';
 import { OParlFile, Paper } from './types/index.js';
 
@@ -59,12 +57,11 @@ export function buildPaperSimilarityText(
     .filter((file) => !isMeetingRecordAttachment(file.name))
     .sort(
       (a, b) =>
-        similarityAttachmentPriority(a) - similarityAttachmentPriority(b) ||
-        a.id.localeCompare(b.id),
+        attachmentDocumentPriority(a) - attachmentDocumentPriority(b) || a.id.localeCompare(b.id),
     )
     .map((file) => ({ file, text: stripSimilarityBoilerplate(getExtractedText(file) ?? '') }))
     .filter(({ text }) => /[a-zäöüß]{3}/i.test(text));
-  const own = sources.filter(({ file }) => similarityAttachmentPriority(file) === 0);
+  const own = sources.filter(({ file }) => attachmentDocumentPriority(file) === 0);
   let body: string;
   if (own.length > 0) {
     const primary = own
@@ -72,7 +69,7 @@ export function buildPaperSimilarityText(
       .join('\n')
       .slice(0, SIMILARITY_BODY_CHARACTER_LIMIT - SIMILARITY_SUPPORTING_CHARACTER_LIMIT);
     const supporting = sources
-      .filter(({ file }) => similarityAttachmentPriority(file) !== 0)
+      .filter(({ file }) => attachmentDocumentPriority(file) !== 0)
       .map(({ text }) => text)
       .join('\n');
     // A paper with no supporting text can use the entire budget for its own files.

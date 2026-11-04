@@ -1,5 +1,5 @@
 import { Feed } from 'feed';
-import { OParlFile, Meeting } from './types/index.js';
+import { OParlFile, Meeting, PaperSummaryKeyPointSource } from './types/index.js';
 import { config } from './config.js';
 import { DISPLAY_TIME_ZONE, parseValidDate } from './dates.js';
 import {
@@ -79,6 +79,27 @@ function formatAttachmentLink(file: OParlFile): string {
   return `<a href="${escapeHtml(downloadUrl)}">${escapeHtml(file.name)} (Erstellt am: ${createdDate}, Aktualisiert am: ${modifiedDate})</a><br>`;
 }
 
+/**
+ * Link a key point to the attachment page its quote was found on. `accessUrl`,
+ * not `downloadUrl`: Karlsruhe serves the latter with `Content-Disposition:
+ * attachment`, so the browser saves the file and ignores `#page=`.
+ */
+function formatKeyPointSourceLink(
+  source: PaperSummaryKeyPointSource | null | undefined,
+  attachments: OParlFile[],
+): string {
+  if (!source) return '';
+  const file = attachments.find((attachment) => attachment.id === source.file);
+  if (!file) return '';
+  const accessUrl = safeHttpUrl(file.accessUrl);
+  const url = accessUrl
+    ? `${accessUrl}${source.page ? `#page=${source.page}` : ''}`
+    : safeHttpUrl(file.downloadUrl);
+  if (!url) return '';
+  const label = `${file.name || 'Dokument'}${accessUrl && source.page ? `, S. ${source.page}` : ''}`;
+  return ` <small>(Quelle: <a href="${escapeHtml(url)}">${escapeHtml(label)}</a>)</small>`;
+}
+
 /** Render the HTML body shown for a single agenda-item entry. */
 function renderEntryContent(
   record: AgendaItemRecord,
@@ -99,7 +120,15 @@ function renderEntryContent(
   const summaryHtml = paperSummary
     ? `<b>KI-generierte Zusammenfassung der Vorlage:</b> ${escapeHtml(paperSummary.summary)}${
         paperSummary.keyPoints.length > 0
-          ? `<ul>${paperSummary.keyPoints.map((point) => `<li>${escapeHtml(point)}</li>`).join('')}</ul>`
+          ? `<ul>${paperSummary.keyPoints
+              .map(
+                (point, index) =>
+                  `<li>${escapeHtml(point)}${formatKeyPointSourceLink(
+                    paperSummary.keyPointSources?.[index],
+                    record.attachments,
+                  )}</li>`,
+              )
+              .join('')}</ul>`
           : ''
       }<small>Automatisch erstellt; maßgeblich sind die Originalunterlagen.</small><br><br>`
     : '';

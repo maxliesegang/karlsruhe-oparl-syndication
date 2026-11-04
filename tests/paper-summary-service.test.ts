@@ -633,3 +633,148 @@ describe('paper summary service', () => {
     expect(current.get(paper.id)?.summary).toBe('Die Verwaltung empfiehlt, Ziffer 2 abzulehnen.');
   });
 });
+
+describe('paper summary key point sources', () => {
+  // Over THIN_SOURCE_MAXIMUM_CHARACTERS, so key points are kept.
+  const filler = 'Weitere Ausführungen zur Gestaltung des Platzes. '.repeat(25);
+  const text = [
+    'Die Verwaltung schlägt vor, den Marktplatz bis Ende 2027 umzubauen.',
+    filler,
+    '-- 1 of 2 --',
+    'Die Kosten des Umbaus betragen nach aktueller Schätzung 2 Millionen Euro.',
+    '-- 2 of 2 --',
+  ].join('\n');
+  const options = {
+    enabled: true,
+    promptVersion: 'test-v1',
+    maximumItems: 10,
+    maximumInputCharacters: 100_000,
+    concurrency: 1,
+  };
+
+  beforeEach(() => {
+    stores.clear();
+    config.extractPdfText = false;
+    stores.papers.add(structuredClone(paper));
+    addCurrentText(text);
+  });
+
+  afterEach(() => {
+    stores.clear();
+    config.extractPdfText = originalExtractPdfText;
+  });
+
+  it('links each key point to the file and page its quote was found on', async () => {
+    const summarize = vi.fn().mockResolvedValue({
+      summary: 'Die Verwaltung schlägt den Umbau des Marktplatzes vor.',
+      keyPoints: ['Der Umbau soll 2 Millionen Euro kosten.', 'Der Platz erhält neue Bänke.'],
+      keyPointQuotes: [
+        'Die Kosten des Umbaus betragen nach aktueller Schätzung 2 Millionen Euro.',
+        'Auf dem Platz werden zwölf neue Bänke aufgestellt und beleuchtet.',
+      ],
+    });
+
+    const current = await updatePaperSummaries([meeting], {
+      ...options,
+      summarizer: { providerName: 'test-provider', model: 'test-model', summarize },
+    });
+
+    const summary = current.get(paper.id)!;
+    // The published key points stay plain strings; sources sit beside them.
+    expect(summary.keyPoints).toEqual([
+      'Der Umbau soll 2 Millionen Euro kosten.',
+      'Der Platz erhält neue Bänke.',
+    ]);
+    expect(summary.keyPointSources).toEqual([
+      {
+        file: file.id,
+        page: 2,
+        quote: 'Die Kosten des Umbaus betragen nach aktueller Schätzung 2 Millionen Euro',
+      },
+      // An invented quote gets no link rather than a wrong one.
+      null,
+    ]);
+    expect(summary).not.toHaveProperty('keyPointQuotes');
+  });
+
+  it('leaves the field out when no quote could be located', async () => {
+    const summarize = vi.fn().mockResolvedValue({
+      summary: 'Die Verwaltung schlägt den Umbau des Marktplatzes vor.',
+      keyPoints: ['Der Umbau soll 2 Millionen Euro kosten.'],
+    });
+
+    const current = await updatePaperSummaries([meeting], {
+      ...options,
+      summarizer: { providerName: 'test-provider', model: 'test-model', summarize },
+    });
+
+    expect(current.get(paper.id)).not.toHaveProperty('keyPointSources');
+  });
+
+  it('carries chunk quotes through the reduction so a chunked paper still links', async () => {
+    const quote = 'Die Kosten des Umbaus betragen nach aktueller Schätzung 2 Millionen Euro.';
+    const summarize = vi.fn().mockImplementation(async (request) =>
+      request.partial
+        ? {
+            summary: 'Die Verwaltung schlägt den Umbau des Marktplatzes vor.',
+            keyPoints: ['Der Umbau ist nach aktueller Schätzung teuer.'],
+            // The prompt tells the model to pass the chunk's Beleg on unchanged.
+            keyPointQuotes: [quote],
+          }
+        : {
+            summary: 'Teil der Vorlage.',
+            keyPoints: ['Der Umbau ist nach aktueller Schätzung teuer.'],
+            keyPointQuotes: [quote],
+          },
+    );
+
+    const current = await updatePaperSummaries([meeting], {
+      ...options,
+      // Two chunks; their partials fit one reduction request.
+      maximumInputCharacters: 1000,
+      summarizer: { providerName: 'test-provider', model: 'test-model', summarize },
+    });
+
+    const reduction = summarize.mock.calls.find(([request]) => request.partial)?.[0];
+    expect(reduction?.sourceText).toContain(
+      `- Der Umbau ist nach aktueller Schätzung teuer. (Beleg: „${quote}“)`,
+    );
+    expect(current.get(paper.id)?.keyPointSources?.[0]).toMatchObject({ file: file.id, page: 2 });
+  });
+});
+
+describe('paper summary reduction', () => {
+  beforeEach(() => {
+    stores.clear();
+    config.extractPdfText = false;
+    stores.papers.add(structuredClone(paper));
+    addCurrentText(
+      `Die Verwaltung schlägt einen Umbau vor. ${'Weitere Ausführungen. '.repeat(60)}`,
+    );
+  });
+
+  afterEach(() => {
+    stores.clear();
+    config.extractPdfText = originalExtractPdfText;
+  });
+
+  it('fails the paper instead of looping when a reduction level cannot shrink', async () => {
+    // Every partial is longer than half the limit, so no two fit one request.
+    const summarize = vi.fn().mockResolvedValue({
+      summary: `Die Verwaltung schlägt einen Umbau vor. ${'Mehr Text. '.repeat(25)}`,
+      keyPoints: [],
+    });
+
+    const current = await updatePaperSummaries([meeting], {
+      enabled: true,
+      summarizer: { providerName: 'test-provider', model: 'test-model', summarize },
+      promptVersion: 'test-v1',
+      maximumItems: 10,
+      maximumInputCharacters: 400,
+      concurrency: 1,
+    });
+
+    expect(current.has(paper.id)).toBe(false);
+    expect(summarize.mock.calls.length).toBeLessThan(10);
+  });
+});

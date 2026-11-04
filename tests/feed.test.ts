@@ -276,6 +276,35 @@ describe('feed identity', () => {
     expect(xml).not.toContain('<script>alert(1)</script>');
   });
 
+  it('links a key point to the inline PDF page its quote was found on', () => {
+    const records = buildAgendaItemRecords([
+      meetingWithDates('2025-01-01T00:00:00Z', '2025-01-02T00:00:00Z', '2025-01-03T00:00:00Z'),
+    ]);
+    records[0].attachments = [attachment({ name: 'Stellungnahme <Verwaltung>' })];
+    records[0].paperSummary = {
+      id: 'https://example.test/papers/1',
+      sourceHash: 'sha256:test',
+      promptVersion: 'paper-de-v9',
+      provider: 'test',
+      model: 'test',
+      summary: 'Die Vorlage schlägt einen Umbau vor.',
+      keyPoints: ['Der Umbau kostet zwei Millionen Euro.', 'Der Platz erhält neue Bänke.'],
+      keyPointSources: [
+        { file: 'https://example.test/files/1', page: 2, quote: 'Die Kosten betragen …' },
+        null,
+      ],
+      generatedAt: '2026-08-02T00:00:00Z',
+    };
+
+    const content = buildAgendaFeed(records).items[0]?.content ?? '';
+    // accessUrl, not downloadUrl: the latter is served as an attachment, which
+    // makes the browser save the file and ignore #page.
+    expect(content).toContain(
+      '<li>Der Umbau kostet zwei Millionen Euro. <small>(Quelle: <a href="https://example.test/files/1#page=2">Stellungnahme &lt;Verwaltung&gt;, S. 2</a>)</small></li>',
+    );
+    expect(content).toContain('<li>Der Platz erhält neue Bänke.</li>');
+  });
+
   it('renders the agenda-item result deterministically in content and description', () => {
     const meeting = meetingWithDates(
       '2025-01-01T00:00:00Z',
