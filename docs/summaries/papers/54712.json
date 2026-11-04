@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T06:47:31.574Z",
+  "generatedAt": "2026-11-04T20:45:51.218Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54712",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679555",
+      "page": 2,
+      "quote": "Eine stadtteilbezogene Auswertung der Gewerbesteuererträge ist jedoch nur eingeschränkt möglich"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679555",
+      "page": 2,
+      "quote": "im Rahmen der steuerlichen Veranlagung keine Daten über den tatsächlichen Sitz einer Betriebsstätte oder deren räumliche Zuordnung innerhalb des Stadtgebiets erhoben werden"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679555",
+      "page": 3,
+      "quote": "2025 357.025.222,66 € 5.269.279,00 € 1,48 %"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679555",
+      "page": 2,
+      "quote": "Die von diesem Personenkreis generierten Gewerbesteuererträge sind nicht beziffer- oder einschätzbar und nicht in der Übersicht enthalten"
+    }
+  ],
   "keyPoints": [
-    "Bei der steuerlichen Veranlagung werden Sitz und Lage der Betriebsstätten innerhalb des Stadtgebiets nicht erfasst, sodass die Gewerbesteuer einzelnen Stadtteilen nicht eindeutig zugeordnet werden kann.",
-    "Die Auswertung basiert auf Steuerpflichtigen mit Postleitzahl in Grötzingen; abweichende Zustellanschriften können sowohl falsche Zuordnungen als auch Ausfälle bewirken.",
-    "Für die Haushaltsjahre 2020 bis 2025 weist die Übersicht für die identifizierten Fälle Grötzinger Ertragsanteile zwischen 1,33 Prozent und 1,97 Prozent des Karlsruher Gewerbesteueraufkommens aus.",
-    "Für das laufende Haushaltsjahr 2026 liegen laut Stellungnahme noch keine aussagekräftigen und belastbaren Daten vor."
+    "Eine stadtteilbezogene Auswertung der Gewerbesteuererträge ist laut Stadtkämmerei nur eingeschränkt möglich.",
+    "Im Besteuerungsverfahren werden keine Daten über den tatsächlichen Sitz einer Betriebsstätte oder deren räumliche Zuordnung innerhalb des Stadtgebiets erhoben.",
+    "Die Auswertung basiert auf Steuerpflichtigen mit Postleitzahl im Stadtteil Grötzingen; für 2025 weist die Übersicht einen Ertrag von 5.269.279,00 Euro und einen Anteil von 1,48 Prozent aus.",
+    "Abweichende Zustellanschriften können zu falschen Zuordnungen führen, wodurch Gewerbesteuererträge nicht erfasster Betriebe nicht in der Übersicht enthalten sind."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:059d8044acc0873d529e183964a998418b68bf9d896e4ba31479d46373b9a3e5",
-  "summary": "Der Antrag der CDU-Fraktion bittet die Ortsverwaltung Grötzingen, bei den zuständigen Stellen der Stadt Karlsruhe eine aggregierte Aufschlüsselung der Gewerbesteuereinnahmen aus Grötzingen für die vergangenen und das laufende Haushaltsjahr zu erfragen, ohne Rückschlüsse auf einzelne Unternehmen. Die Stellungnahme der Stadtkämmerei führt aus, dass eine belastbare stadtteilbezogene Zuordnung nicht möglich ist, und legt eine anhand der Postleitzahl erstellte Auswertung vor."
+  "summary": "Der Antrag lässt die Ortsverwaltung Grötzingen bei den zuständigen Stellen der Stadt Karlsruhe eine aggregierte Aufschlüsselung der aus Grötzingen stammenden Gewerbesteuereinnahmen für vergangene und das laufende Haushaltsjahr anfragen, unter Wahrung des Steuergeheimnisses. Die Stadtkämmerei legt eine Übersicht der anhand der Postleitzahl identifizierbaren Fälle für 2020 bis 2025 vor und weist auf erhebliche methodische Einschränkungen hin."
 }

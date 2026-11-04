@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-21T06:44:31.665Z",
+  "generatedAt": "2026-11-04T20:45:51.218Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55002",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681235",
+      "page": 2,
+      "quote": "Es handelte sich bei den damaligen Gesamtkosten von 80 Mio. € um die Größenordnung für die generellen Kosten einer Faulungsanlage"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681220",
+      "page": 1,
+      "quote": "Schließlich verpflichtet die EU-Richtlinie nicht die einzelnen Klärwerke, sondern die Mitgliedsstaaten auf nationaler Ebene"
+    },
+    null,
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681220",
+      "page": 1,
+      "quote": "der Photovoltaik-Anlagen (Gesamtertragspotential ca. 15,2 MWp) auf dem Klärwerk-Gelände"
+    }
+  ],
   "keyPoints": [
-    "Die Anfrage bestreitet, dass die EU-Kommunalabwasserrichtlinie den Bau der Anlage zwingend erfordert, und verweist auf einen Eigenstromversorgungsgrad von 43 Prozent in Baden-Württemberg gegenüber einer erst in knapp zehn Jahren zu erfüllenden 40-Prozent-Marke.",
-    "Nach Angaben der Verwaltung war 2023 mit 80 Mio. € nur die Größenordnung für generelle Kosten einer Faulungsanlage genannt; die nunmehr genannten 115 Mio. € beruhen auf der Entwurfsplanung.",
-    "Varianten mit unterschiedlicher Zahl an Faultürmen wurden diskutiert, wobei die Verwaltung die Variante mit vier Faultürmen als verfahrenstechnisch und baugrundtechnisch am besten geeignet ansieht und Kostenoptimierungen in den Planungsschritten berücksichtigt.",
-    "Ettlingen, Malsch, Rheinstetten-Forchheim und der Abwasserverband Beierbach werden laut Verwaltung an den Betriebskosten inklusive Abschreibungen und Zinsen nach eingeleiteter Schmutzfracht und Abwassermenge beteiligt; über eine Beteiligung an den Investitionskosten enthält die Stellungnahme keine Angabe."
+    "Die Kosten von 80 Millionen Euro aus dem Jahr 2023 waren laut Verwaltung eine Größenordnungsangabe ohne detaillierte Informationen.",
+    "Der Antrag bezweifelt, dass die EU-Kommunalabwasserrichtlinie den Bau der Anlage zwingend vorschreibt, da sich die Verpflichtung auf die Mitgliedsstaaten beziehe.",
+    "Als Beleg nennt der Antrag einen Eigenstromversorgungsgrad in Baden-Württemberg von 43 Prozent im letzten Jahr und damit oberhalb der erst in knapp zehn Jahren geltenden 40-Prozent-Marke.",
+    "Der Antrag verweist auf den geplanten Photovoltaik-Ausbau auf dem Klärwerksgelände mit einem Gesamtertragspotential von circa 15,2 MWp."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:38af9a9e7719ca43683fed221d119902ffb3ef2e855543d924cf99ad17606c43",
-  "summary": "Die Anfrage der CDU-Fraktion verlangt Auskunft über den Kostenanstieg der geplanten Faulungsanlage am Klärwerk Karlsruhe von 80,0 auf 115,5 Millionen Euro, über Kostensenkung durch zunächst nur zwei statt vier Faultürme und über die Beteiligung angeschlossener Umlandgemeinden an den Investitionskosten. Das Tiefbauamt führt die Steigerung mit Bodenverhältnissen, Schnittstellen zum Bauen im Bestand und allgemeinen Kostensteigerungen aus und hält die Variante mit vier Faultürmen für die geeignetste."
+  "summary": "Der Antrag stellt drei Fragen zur geplanten Faulungsanlage am Klärwerk Karlsruhe: zur Kostensteigerung von 80,0 auf 115,5 Millionen Euro, zu Einsparungen durch den Bau von zunächst nur zwei statt vier Faultürmen und zur Beteiligung der angeschlossenen Umlandgemeinden an den Investitionskosten. Die Verwaltung führt aus, dass die höheren Kosten aus detaillierterer Planung, Bodenverhältnissen und Baupreissteigerungen resultieren, und hält die Variante mit vier Faultürmen für die geeignetste."
 }

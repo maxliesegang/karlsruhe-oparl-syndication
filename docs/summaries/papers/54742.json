@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-21T06:49:05.900Z",
+  "generatedAt": "2026-11-04T20:45:51.218Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54742",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680152",
+      "page": 2,
+      "quote": "Die Kosten hierfür würden ca. 200.000 Euro pro Woche (Stand 2023) betragen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680152",
+      "page": 2,
+      "quote": "Für die bestehende Technik sind Ersatzteile auf dem freien Markt nahezu nicht mehr verfügbar und im Beschaffungsfall extrem kostenintensiv"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680120",
+      "page": 7,
+      "quote": "Die in der Verbrennungslinie 1 bereits verbauten Messsonden für Temperatur, Druck, Durchfluss etc., sowie sämtliche Ventile und Motoren bleiben physisch erhalten"
+    },
+    null
+  ],
   "keyPoints": [
-    "Die abgekündigten S5-Komponenten wie CPUs und Ein- und Ausgangskarten werden durch S7-Komponenten sowie dezentrale ET200-Stationen ersetzt; Hardware-Regler und -Zähler gehen in die Anwendersoftware über, vorhandene Ventile, Motoren und Messsonden bleiben erhalten.",
-    "Geplant ist eine zentrale, redundante CPU und ein mindestens einfehlertolerantes Profinet-Bussystem; nur die von beiden Verbrennungslinien genutzte Schlammannahme und das Aschesilo erhalten eigene dezentrale Steuerungen.",
-    "Der Gesamtaufwand von ca. 1.700.000 Euro setzt sich unter anderem aus Baukosten von 1.000.000 Euro, Bauneben- und Bauverwaltungskosten sowie Baupreissteigerungen und einem Ansatz für Unvorhergesehenes zusammen; jährliche kalkulatorische Folgekosten betragen ca. 150.000 Euro.",
-    "Der Ausführungszeitplan sieht Ausschreibungen im 1. Quartal 2027, Ausführungsbeginn im 2. Quartal 2027 und Inbetriebnahme im 1. Quartal 2028 vor; ohne Umrüstung stünde bei Ausfall der Verbrennungslinie 2 ein Entsorgungsengpass mit rund 200.000 Euro Kosten pro Woche für mobile Vorentwässerung und Fremdverbrennung im Raum (Stand 2023)."
+    "Ohne die Umrüstung wäre der sichere Weiterbetrieb der Verbrennungslinie 1 betriebskritisch; bei Ausfall müssten externe Vorentwässerung und Abtransport zu Fremdverbrennungsanlagen beauftragt werden.",
+    "Für die bestehende Technik sind Ersatzteile auf dem freien Markt nahezu nicht mehr verfügbar und im Beschaffungsfall extrem kostenintensiv.",
+    "Geplant ist eine zentrale, redundant ausgeführte Steuerung mit dezentralen ET200-Stationen; vorhandene Sensoren, Ventile und Motoren bleiben erhalten und werden nur umgeklemmt.",
+    "Als jährliche Folgekosten nennt die Vorlage etwa 150.000 Euro an kalkulatorischen Kosten, die gebührenfähig sind."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:5175b43a4913b38dda4abd1c319ceb92302d751afa5312cba0ad401f15c1c107",
-  "summary": "Die Vorlage schlägt vor, die Prozessleittechnik der Verbrennungslinie 1 am Klärwerk Karlsruhe von Simatic S5 auf Simatic PCS 7 zu überführen, um die herstellerseitig abgekündigte Steuerungstechnik zu ersetzen und den Weiterbetrieb über rund 10 bis 15 Jahre abzusichern. Die Verwaltung empfiehlt die Weiterführung des Vorhabens bei einem Gesamtaufwand von ca. 1.700.000 Euro."
+  "summary": "Die Vorlage schlägt vor, die Steuerungstechnik der Verbrennungslinie 1 am Klärwerk Karlsruhe vom herstellerseitig abgekündigten System Simatic S5 auf Simatic PCS 7 zu überführen und so den Weiterbetrieb über rund 10 bis 15 Jahre abzusichern. Die Verwaltung empfiehlt die Weiterführung des Vorhabens, dessen Gesamtaufwand auf ca. 1.700.000 Euro geschätzt ist."
 }

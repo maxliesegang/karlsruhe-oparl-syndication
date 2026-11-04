@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T06:42:43.704Z",
+  "generatedAt": "2026-11-04T20:45:51.218Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54959",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681024",
+      "page": 2,
+      "quote": "Das GBA geht in der überschlägigen Kalkulation von einer Beckengröße von 49 qm aus (ca. 7 x 7 m)"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681024",
+      "page": 2,
+      "quote": "Überschlägig ergibt sich ein Betrag zwischen 350.000 und 400.000 Euro"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681024",
+      "page": 1,
+      "quote": "Im Ergebnishaushalt stehen die Folgekosten nicht zur Verfügung"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681024",
+      "page": 2,
+      "quote": "müsste als Kompensation für den neuen Brunnen mindestens ein anderer Brunnen stillgelegt werden"
+    }
+  ],
   "keyPoints": [
-    "Überschlägig kalkuliert das Gartenbauamt für das Wasserbecken mit Natursteineinfassung, Betonstahlbodenplatte, großer Düse und Technikinstallation eine Größe von etwa 49 Quadratmetern und Kosten zwischen 350.000 und 400.000 Euro.",
-    "Das Becken müsste neu geplant und ausgeschrieben werden, was realistisch eine Verzögerung bis ins neue Jahr sowie eine Arbeitsunterbrechung auf der Baustelle bedeutet.",
-    "Die Folgekosten für das Brunnenbecken mit Fontäne beziffert die Verwaltung auf etwa 25.000 Euro jährlich; ohne zusätzliche Mittel im Ergebnishaushalt müsste mindestens ein anderer Brunnen stillgelegt werden.",
-    "Zuvor musste die Ausschreibung der Sanitärtechnik aufgehoben werden, weil das einzige Angebot 67 Prozent über der Kostenschätzung lag; die Staudenbeet-Variante wurde in der Sommerpause mit dem Bürgerverein abgestimmt, wobei die bereits verlegten Wasser- und Abwasserleitungen eine spätere Nachrüstung offenhalten."
+    "Für das Wasserbecken wird überschlägig eine Beckengröße von 49 Quadratmetern (ca. 7 x 7 Meter) zugrunde gelegt.",
+    "Die überschlägige Kalkulation des Beckens mit Graniteinfassung, Betonstahlbodenplatte, Düse und Technikinstallation ergibt einen Betrag zwischen 350.000 und 400.000 Euro.",
+    "Beim Becken mit Fontäne fallen Folgekosten von ca. 25.000 Euro pro Jahr an, die im Ergebnishaushalt nicht zur Verfügung stehen.",
+    "Ohne zusätzliche Mittel müsste demnach mindestens ein anderer Brunnen stillgelegt werden, um die Folgekosten auszugleichen."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:00dc72919f7fe054c4a11e19fde79ef8efacc6c83db107989812634a83eaac60",
-  "summary": "Der Änderungsantrag fordert auf dem Bernhardusplatz statt der geplanten Fontänenfläche ein großes Wasserbecken mit einer kräftigen Fontäne, um das Kleinklima an heißen Tagen zu verbessern. Das Gartenbauamt empfiehlt dagegen wegen der gesamtwirtschaftlichen Lage und nötiger Stelleneinsparungen auf einen Brunnen zu verzichten und ein extensives Staudenbeet mit drei schattenspendenden Großgehölzen anzulegen."
+  "summary": "Der Antrag fordert am Bernhardusplatz statt der geplanten Fontänenfläche ein großes Wasserbecken mit einer kräftigen Fontäne zur Verbesserung des Kleinklimas. Das Gartenbauamt empfiehlt stattdessen aus finanziellen Gründen ein extensives Staudenbeet mit drei schattenspendenden Großgehölzen."
 }

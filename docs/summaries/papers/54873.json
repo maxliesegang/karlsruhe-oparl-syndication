@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T06:39:29.379Z",
+  "generatedAt": "2026-11-04T20:45:51.218Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54873",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680462",
+      "page": 2,
+      "quote": "ist zur Verbesserung der Eigenkapitalquote (derzeit ca. 6,7%) die Einbehaltung des Jahresüberschusses 2024 und der Folgejahre vorgesehen (Thesaurierung)"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680464",
+      "page": 13,
+      "quote": "Zudem sollte der Gemeinderat darüber entscheiden, ob zumindest ein Teil der bisherigen Gewinnvorträge in Höhe von 7.042 T€"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680464",
+      "page": 9,
+      "quote": "Der Mietausfall beläuft sich für das Geschäftsjahr 2024 in den Gebäudeteilen A und E auf ca. 850 T€"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680464",
+      "page": 13,
+      "quote": "Die Vorgabe des § 12 Abs. 2 EigBG ist damit zum Bilanzstichtag nicht erfüllt"
+    }
+  ],
   "keyPoints": [
-    "Die Bilanzsumme zum 31.12.2024 beträgt 149.782.598,42 Euro bei einem Eigenkapital von 10.016.764,66 Euro; die Eigenkapitalquote liegt damit deutlich unter dem als angemessen betrachteten Wert von 30 Prozent.",
-    "Durch Leerstand auf dem Pfizer-Areal, insbesondere in den Gebäuden A und E, entstanden 2024 Mindereinnahmen von rund 850 Tausend Euro; die Leerstandsquote dort liegt bei etwa 23 Prozent.",
-    "Das Rechnungsprüfungsamt sieht keine Bedenken gegen Feststellung und Entlastung, empfiehlt aber abweichend davon, den Überschuss zumindest teilweise zur Haushaltskonsolidierung zu nutzen und auch über die Gewinnvorträge von rund 7,0 Millionen Euro zu entscheiden.",
-    "Der Prüfungsbericht nennt unter anderem die Prüfung eines Betriebsausschusses, ein Flächen- und Entwicklungskonzept für das Immobilienportfolio, die Neuausschreibung des Wachdienstes (rund 640 Tausend Euro jährlich) sowie steigende Zinsaufwendungen ab 2030 als Risiko."
+    "Die Einbehaltung des Jahresüberschusses dient laut Vorlage der Verbesserung der Eigenkapitalquote, die derzeit bei rund 6,7 Prozent liegt.",
+    "Das Rechnungsprüfungsamt regt zusätzlich an, auch über eine Verwendung der bisherigen Gewinnvorträge von 7.042 T€ zugunsten des Haushalts zu entscheiden.",
+    "Leerstände in den Gebäudeteilen A und E des Pfizer-Areals führten im Geschäftsjahr 2024 zu Mietausfällen von etwa 850 Tausend Euro.",
+    "Die Eigenkapitalausstattung erfüllt laut Prüfungsbericht die Vorgabe einer angemessenen Ausstattung zum Bilanzstichtag nicht."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:d8b50226cc176cee6c996aae4eb10e989d0563130a561c25fddcb14731231480",
-  "summary": "Die Vorlage schlägt vor, den vom Rechnungsprüfungsamt geprüften Jahresabschluss 2024 des Eigenbetriebs Gewerbeflächen festzustellen, dessen Jahresüberschuss von 974.802,91 Euro auf neue Rechnung vorzutragen und der Betriebsleitung Entlastung zu erteilen. Die Einbehaltung des Überschusses auch der Folgejahre soll die Eigenkapitalquote von derzeit rund 6,7 Prozent verbessern."
+  "summary": "Die Vorlage schlägt vor, den vom Rechnungsprüfungsamt geprüften Jahresabschluss 2024 des Eigenbetriebs Gewerbeflächen festzustellen, den Jahresüberschuss von 974.802,91 Euro auf neue Rechnung vorzutragen und der Betriebsleitung Entlastung zu erteilen. Der Prüfungsbericht hat keine Bedenken, empfiehlt aber abweichend, den Überschuss zumindest teilweise zur Haushaltskonsolidierung zu verwenden."
 }

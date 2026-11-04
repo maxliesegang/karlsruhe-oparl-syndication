@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T06:38:32.024Z",
+  "generatedAt": "2026-11-04T20:45:51.218Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54744",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680302",
+      "page": 3,
+      "quote": "Anhand der Kostenschätzung könnte die voraussichtliche Förderung bis zu ca. 27.000.000 Euro brutto betragen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680302",
+      "page": 3,
+      "quote": "generiert, je nach Strompreisniveau, jährliche Einsparungen von ca. 2.000.000 Euro"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680302",
+      "page": 2,
+      "quote": "Je nach Betriebsweise ist eine klimafreundliche Stromerzeugung von bis zu 9.800.000 kWh möglich"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680302",
+      "page": 3,
+      "quote": "Nach derzeitigem Planungsstand ist, vorbehaltlich der Erteilung eines Baubeschlusses, die Vergabe der Bauleistungen Mitte 2029 geplant, sodass die Bauphase 2030 bis 2032 erfolgen kann"
+    }
+  ],
   "keyPoints": [
-    "Der Standort ist in unmittelbarer Nähe der bestehenden Verbrennungslinien 1 und 2 geplant; zuvor wurden fünf mögliche Standorte auf dem Klärwerksgelände untersucht.",
-    "Vorgesehen sind vier Faultürme mit jeweils 3.000 m³ Fassungsvermögen, zwei Gasspeicher mit jeweils 3.000 m³ sowie eine Energiezentrale mit drei Blockheizkraftwerken; die Stromerzeugung kann je nach Betriebsweise bis zu 9.800.000 kWh betragen.",
-    "Der Gesamtaufwand wird auf ca. 115.500.000 Euro geschätzt, eine Förderung von bis zu ca. 27.000.000 Euro ist prognostiziert, die kalkulatorischen Folgekosten betragen ca. 7.700.000 Euro jährlich und die Kosten sind gebührenfähig.",
-    "Der Baubeschluss soll nach Abschluss der Entwurfsplanung in der zweiten Jahreshälfte 2027 vorgelegt werden, die Vergabe der Bauleistungen ist für Mitte 2029 und die Bauphase für 2030 bis 2032 geplant; bis dahin sind weitere Ingenieurleistungen von voraussichtlich ca. 1.200.000 Euro erforderlich."
+    "Die voraussichtliche Förderung durch den Bund könnte demnach bis zu ca. 27.000.000 Euro brutto betragen.",
+    "Die Eigenstromerzeugung soll den externen Strombezug des Klärwerks um ca. 50 Prozent senken und jährliche Einsparungen bringen.",
+    "Je nach Betriebsweise hält die Vorlage eine klimafreundliche Stromerzeugung von bis zu 9.800.000 kWh für möglich.",
+    "Nach derzeitigem Planungsstand soll die Vergabe der Bauleistungen Mitte 2029 erfolgen, die Bauphase ist für 2030 bis 2032 vorgesehen."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:210e2cc9bf6963d54dba4a1cd768be26e6891b4e832fd59e0cd861d7f7d16b19",
-  "summary": "Die Vorlage schlägt vor, auf dem Gelände des Klärwerks Karlsruhe eine Faulungsanlage mit vier Faultürmen, Schlammeindickungsgebäude und Energiezentrale zu errichten, um die ab 2027 geltenden EU-Vorgaben zur Eigenstromerzeugung zu erfüllen und die Schlammbehandlung zu entkoppeln. Die Verwaltung empfiehlt die Fortführung der Planung auf Grundlage der abgeschlossenen Vorentwurfsplanung."
+  "summary": "Die Vorlage schlägt vor, auf dem Gelände des Klärwerks Karlsruhe eine neue Faulungsanlage mit vier Faultürmen, maschineller Schlammeindickung, Gasspeichern und Blockheizkraftwerken zu errichten. Ziel ist die Erfüllung der ab 2027 in deutsches Recht übergehenden EU-Kommunalabwasserrichtlinie; die Verwaltung empfiehlt die Fortführung des Vorhabens mit einem Gesamtaufwand von ca. 115.500.000 Euro."
 }

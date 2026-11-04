@@ -1,14 +1,25 @@
 {
-  "generatedAt": "2026-10-21T06:32:44.603Z",
+  "generatedAt": "2026-11-04T20:45:51.218Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54944",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680924",
+      "page": 2,
+      "quote": "Das Forstamt bekam für die Waldpädagogik mehrere Zuwendungen in Höhe von insgesamt 1.305,82 Euro"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680924",
+      "page": 2,
+      "quote": "Das Kulturamt erhielt für das Tollhaus e.V., Tempel e.V. und KOHI e.V. Zuwendungen in Höhe von insgesamt 3.059,23 Euro"
+    }
+  ],
   "keyPoints": [
     "Das Forstamt erhielt für die Waldpädagogik mehrere Zuwendungen in Höhe von insgesamt 1.305,82 Euro.",
-    "Das Kulturamt erhielt für die Vereine Tollhaus e.V., Tempel e.V. und KOHI e.V. Zuwendungen in Höhe von insgesamt 3.059,23 Euro.",
-    "Auf dem Spendenkonto „Karlsruhe hilft“ sind im September 2026 keine Zuwendungen eingegangen."
+    "Das Kulturamt erhielt Zuwendungen für das Tollhaus e.V., den Tempel e.V. und den KOHI e.V. in Höhe von insgesamt 3.059,23 Euro."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:1033695091c33238a806c96624cd555a6e74cab9caaa40eebe39e0f550bf9d53",
-  "summary": "Die Vorlage schlägt vor, die der Stadtkämmerei im September 2026 angezeigten Zuwendungsangebote mit einem Gesamtwert von 4.365,05 Euro anzunehmen. Die Erläuterungen führen die Einzelzuwendungen nach Ämtern und Zwecken auf."
+  "summary": "Die Vorlage schlägt vor, die der Stadtkämmerei im September 2026 angezeigten Zuwendungsangebote anzunehmen. Die Verwaltung gibt einen Gesamtwert von 4.365,05 Euro an und weist darauf hin, dass auf dem Spendenkonto „Karlsruhe hilft“ keine Zuwendungen eingegangen sind."
 }

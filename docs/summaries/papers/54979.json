@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T08:06:21.081Z",
+  "generatedAt": "2026-11-04T20:45:51.218Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54979",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681127",
+      "page": 2,
+      "quote": "Der primäre Treiber ist der Ablauf des regulären SAP-Supports für die alten ERP-Systeme Ende 2027"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681127",
+      "page": 2,
+      "quote": "Die Stadt Karlsruhe arbeitet derzeit mit mehreren Buchungskreisen und mehreren Kostenrechnungskreisen, die der Anzahl der Teilhaushalte entsprechen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681127",
+      "page": 3,
+      "quote": "wurde das ursprünglich für August/September 2025 angekündigte Angebot der Komm.ONE erst im September 2026 zur Verfügung gestellt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681127",
+      "page": 3,
+      "quote": "Vor dem „Go live“ (Echtlauf) wird dieser Prozess zunächst in drei Testmigrationen"
+    }
+  ],
   "keyPoints": [
-    "Der reguläre SAP-Support für die alten ERP-Systeme läuft Ende 2027 aus; die Einführung durch die Komm.ONE ist nach dem Stand der Vorbereitungen für Oktober 2028 vorgesehen.",
-    "Karlsruhe arbeitet derzeit mit mehreren Buchungs- und Kostenrechnungskreisen entsprechend der Anzahl der Teilhaushalte und gilt innerhalb der Komm.ONE als Sonderstruktur.",
-    "Das ursprünglich für August/September 2025 angekündigte Angebot der Komm.ONE lag erst im September 2026 vor; aktuell steht der Übergang in die Phase „Explore“ an.",
-    "Für 2026 ist ein Mittelabruf von etwa 360.000 Euro vorgesehen; die notwendigen Mittel sind für 2026 und 2027 im Doppelhaushalt 2026/2027 eingeplant."
+    "Der Antrieb für die Umstellung ist das Ende des regulären SAP-Supports für die alten ERP-Systeme Ende 2027.",
+    "Karlsruhe nutzt derzeit mehrere Buchungs- und Kostenrechnungskreise entsprechend der Anzahl der Teilhaushalte und gilt in der Komm.ONE damit als Sonderstruktur.",
+    "Als Ursache für zeitliche Verschiebungen im Projektverlauf werden Verzögerungen durch die Komm.ONE genannt, deren angekündigtes Angebot erst im September 2026 vorlag.",
+    "Vor dem Echtlauf ist die Transformation der Geschäftsprozesse und Stammdaten zunächst in drei Testmigrationen zu simulieren."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:19d05a739f162f9b5864027156b002246f3b9c92ca2ca6630fffbdfd4a2af52e",
-  "summary": "Die Vorlage informiert über den Sachstand und die weitere Planung der Umstellung des Rechnungswesens auf SAP S/4HANA mit geplantem Echtlauf im Oktober 2028. Im Zuge der Migration sollen die bisherigen Buchungs- und Kostenrechnungskreise auf jeweils einen Kreis vereinheitlicht werden; die Kosten der Komm.ONE betragen insgesamt 3.306.824 Euro über 3 Jahre."
+  "summary": "Die Vorlage informiert über den Stand der Umstellung des Rechnungswesens auf SAP S/4HANA, die für Oktober 2028 geplant ist. Sie beschreibt die geplante Zusammenführung der mehreren Buchungs- und Kostenrechnungskreise auf jeweils einen sowie die von Komm.ONE berechneten Projektkosten."
 }

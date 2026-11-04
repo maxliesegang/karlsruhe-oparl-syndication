@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T06:41:07.420Z",
+  "generatedAt": "2026-11-04T20:45:51.218Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54599",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679879",
+      "page": 2,
+      "quote": "Zwei Drittel der Befragten (64 %) halten sich täglich oder mehrmals pro Woche dort auf"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679881",
+      "page": 15,
+      "quote": "Über 90 % der Befragten fällt sehr häufig oder zumindest oft Alkoholkonsum außerhalb der Gastronomie auf"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679881",
+      "page": 14,
+      "quote": "Bei Dunkelheit sinkt das Sicherheitsgefühl deutlich: Nur 14 % fühlen sich dann sehr sicher und 32 % eher sicher"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679879",
+      "page": 3,
+      "quote": "Gleichwohl kann mit der aktuell bewilligten personellen Ausstattung von 1,5 VZÄ nur in einem begrenzten Zeitraum Streetwork geleistet"
+    }
+  ],
   "keyPoints": [
-    "Befragte nennen als Störfaktoren unter anderem Alkoholkonsum außerhalb der Gastronomie, Drogenkonsum, Lärm und Schmutz; 31 Prozent mögen den Platz laut Erhebung nicht.",
-    "Das Forschungsteam empfiehlt unter anderem verlässliches Streetwork, Quartierspolizeikräfte, eine räumliche Entzerrung am östlichen Werderplatz, einen überdachten Treffpunkt am Platz sowie einen Drogenkonsumraum mit Inhalationsplätzen.",
-    "Alleinige Repression oder Vertreibung gelten in der Erhebung als nicht nachhaltig; gefordert wird stattdessen ein integrierter, partizipativer Ansatz mit Harm Reduction, sozialer Integration und aktiver Konfliktregelung.",
-    "Eine Aufstockung des Streetwork umfasst aktuell 1,5 Vollzeitstellen für die gesamte Innenstadt; als offen gelten unter anderem eine erneute Bedarfserhebung in der Szene und die Unsicherheit, ob räumliche Entzerrung zur Beruhigung des Platzes führt."
+    "Der Platz wird nach der Erhebung von der Mehrheit der Befragten regelmäßig genutzt und überwiegend positiv oder neutral bewertet.",
+    "Direkte Anwohnende nennen als häufigste Störfaktoren unter anderem Alkoholkonsum außerhalb der Gastronomie, Geschrei, Müll und beschmierte Hauswände.",
+    "Das Sicherheitsgefühl der direkt am Platz Wohnenden lässt nach Einbruch der Dunkelheit deutlich nach.",
+    "Für das Streetwork des Diakonischen Werkes sind 1,5 Vollzeitstellen bewilligt, was nur einen begrenzten Zeitraum abdeckt; eine Aufstockung wird als sinnvoll bezeichnet."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:d47c3db1d1d1e22e16b6e54364d0aa6e670b767b072180551a6962182cc24e6a",
-  "summary": "Die Vorlage informiert über eine wissenschaftliche Erhebung zu Nutzungskonflikten am Werderplatz in der Alten Südstadt und stellt die daraus abgeleiteten Handlungsempfehlungen eines Forschungsteams mit den Stellungnahmen der beteiligten Stellen dar. Die Verwaltung bewertet das empfohlene Platzmanagement fachlich positiv, hält dessen Einrichtung wegen fehlender personeller und räumlicher Kapazitäten sowie der angespannten Haushaltslage derzeit jedoch nicht für darstellbar."
+  "summary": "Die Vorlage legt die Ergebnisse einer wissenschaftlichen Erhebung zu Nutzungskonflikten am Werderplatz vor und ordnet die daraus abgeleiteten Handlungsempfehlungen fachlich ein. Prioritär empfohlen werden ein Stadtteilbüro mit Platzmanagement, regelmäßiges Streetwork, Quartierspolizist*innen und eine Umgestaltung des östlichen Platzteils; ein allparteiliches Platzmanagement scheitert derzeit an fehlenden Kapazitäten und der Haushaltslage."
 }

@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-11-03T20:31:39.524Z",
+  "generatedAt": "2026-11-04T20:45:51.218Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54603",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678646",
+      "page": 3,
+      "quote": "Laufende Kosten entstünden durch den Personaleinsatz und den regelmäßigen Kauf von Futtermitteln"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678646",
+      "page": 3,
+      "quote": "bislang wurde zudem lediglich ein Bauwagen vom Tiefbauamt in Aussicht gestellt; weitere müssten zusätzlich erworben werden"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678646",
+      "page": 3,
+      "quote": "die Reduzierung des Budgets für das Stadttaubenkonzept von 75.000 Euro/Jahr auf 33.000 Euro/Jahr (vgl. HHS4_GR25)"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678646",
+      "page": 2,
+      "quote": "Über das Karlsruher Stadtgebiet sind fünf dieser Einrichtungen verteilt (Stadt Ulm und Stadt Freiburg jeweils drei)"
+    }
+  ],
   "keyPoints": [
-    "Genannt werden einmalige Ausstattungskosten von 10.000 Euro je Wagen (30.000 Euro), Futterkosten von 12.300 Euro sowie Personalkosten von 50.700 Euro.",
-    "Die Verwaltung verweist auf die Haushaltslage, die Kürzung des Budgets für das Stadttaubenkonzept von 75.000 Euro auf 33.000 Euro pro Jahr und auf den Abbau von Stellen im Eigenbetrieb.",
-    "Aus Sicht der Verwaltung wäre die Maßnahme wenig wirksam, solange illegale Fütterung und Nistmöglichkeiten außerhalb der Schläge bestehen; in Durlach existiert seit 2017 ein betreuter Taubenschlag in der Karlsburg.",
-    "Der Antrag will nach etwa zwölf Monaten eine Auswertung von Taubenpopulation und Verschmutzungen in den genannten und angrenzenden Stadtteilen und einen Bericht im zuständigen Ausschuss des Eigenbetriebs."
+    "Für den Ausbau und die Ausstattung der Wagen sowie für Futter und Personal entstünden laut Verwaltung einmalige und laufende Kosten.",
+    "Zudem sei bislang lediglich ein Bauwagen vom Tiefbauamt in Aussicht gestellt, weitere müssten zusätzlich erworben werden.",
+    "Für das Stadttaubenkonzept sind 33.000 Euro/Jahr vorgesehen, zuvor waren es 75.000 Euro/Jahr.",
+    "Karlsruhe wendet das Augsburger Modell nach Angaben der Verwaltung bereits seit Jahrzehnten mit fünf Einrichtungen an, die von Ehrenamtlichen betreut werden."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:5cdd07e465a5d520837765e989227e3cd5fcffc1bab58fe0740c4a04b12f6634",
-  "summary": "Der Antrag schlägt vor, drei ausgemusterte Bauwagen zu mobilen Taubenschlägen umzubauen und in Waldstadt, Mühlburg und Durlach aufzustellen, um Taubenkot-Verschmutzungen zu verringern. Dafür sollen zwei halbe Stellen im Team Sauberes Karlsruhe für Fütterung, Eieraustausch und Pflege zuständig sein; die Verwaltung empfiehlt, den Antrag abzulehnen."
+  "summary": "Der Antrag fordert, drei ausgemusterte Bauwagen zu mobilen Taubenschlägen umzubauen und in Waldstadt, Mühlburg und Durlach aufzustellen, betreut durch zwei halbe Stellen des Teams Sauberes Karlsruhe. Die Verwaltung empfiehlt die Ablehnung, da illegale Fütterung und Nistplätze die Ursache seien und weder Mittel noch Personal verfügbar sind."
 }
