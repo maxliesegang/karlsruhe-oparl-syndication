@@ -10,6 +10,8 @@ import {
   PaperDistrictIndex,
   updatePaperDistrictIndex,
 } from './paper-district-index-service.js';
+import { createLlmDeadline, LlmRunBudget } from '../llm-budget.js';
+import { fetchOpenCodeUsage } from './llm/opencode-usage.js';
 import { logger } from '../logger.js';
 import { resolveMissingConsultationPapers } from './consultation-resolution-service.js';
 import { readJsonFromDocs, writeJsonToDocs } from '../docs-files.js';
@@ -150,6 +152,13 @@ export interface FeedGenerationOptions {
    * configured value applies.
    */
   generateSummaries?: boolean;
+  /**
+   * Work on the committed archive only: no OParl request and no PDF download. The
+   * enrichment, LLM and render steps run as usual, and the sync cursors and the
+   * reconciliation checkpoint stay where they are. For checking a change locally
+   * without loading Karlsruhe's servers.
+   */
+  skipFetch?: boolean;
 }
 
 export async function runFeedGeneration(options: FeedGenerationOptions = {}): Promise<void> {
@@ -161,7 +170,12 @@ export async function runFeedGeneration(options: FeedGenerationOptions = {}): Pr
   const reconciliationDue =
     !Number.isFinite(lastFullReconciliation) ||
     Date.now() - lastFullReconciliation >= reconciliationIntervalMs;
-  const forceFullReconciliation = options.clearCache === true || reconciliationDue;
+  const forceFullReconciliation =
+    !options.skipFetch && (options.clearCache === true || reconciliationDue);
+  if (options.skipFetch) {
+    // Loading the stores would otherwise schedule extraction for files that lack text.
+    config.extractPdfText = false;
+  }
 
   // A full reconciliation must still merge into the persisted add-only archive.
   // Skipping the load made records that were temporarily restricted or omitted by
@@ -174,7 +188,12 @@ export async function runFeedGeneration(options: FeedGenerationOptions = {}): Pr
   if (forceFullReconciliation) {
     logger.info('Performing authoritative meeting and paper reconciliation');
   }
-  const { hadFailures } = await refreshOParlData(forceFullReconciliation);
+  let hadFailures = false;
+  if (options.skipFetch) {
+    logger.info('Skipping the OParl fetch; working on the committed archive.');
+  } else {
+    ({ hadFailures } = await refreshOParlData(forceFullReconciliation));
+  }
   // Refresh the enrichment before building feeds so changed papers and newly extracted
   // text are reflected in Stadtteil categories during the same generation run.
   await stores.fileContents.waitForPendingExtractions();
@@ -187,10 +206,12 @@ export async function runFeedGeneration(options: FeedGenerationOptions = {}): Pr
   const relationIndex = buildPaperRelationIndex();
   await writePaperRelationIndex(relationIndex);
   await writePaperSimilarityIndex(buildPaperSimilarityIndex(relationIndex));
+  const llmBudget = createRunLlmBudget();
   let paperSummaries = new Map<string, PaperSummary>();
   try {
     paperSummaries = await updatePaperSummaries(stores.meetings.getAll(), {
       enabled: options.generateSummaries,
+      budget: llmBudget,
     });
   } catch (error) {
     logger.warn('Paper summary refresh failed; continuing without LLM summaries.', error);
@@ -201,6 +222,7 @@ export async function runFeedGeneration(options: FeedGenerationOptions = {}): Pr
   try {
     meetingDigests = await updateMeetingDigests(stores.meetings.getAll(), paperSummaries, {
       enabled: options.generateSummaries === false ? false : undefined,
+      budget: llmBudget,
       resolvePaperDistricts: createPaperDistrictResolver(districtIndex),
       resolvePaperSubmitters: createPaperSubmitterResolver(submitterIndex),
     });
@@ -251,4 +273,20 @@ export async function runFeedGeneration(options: FeedGenerationOptions = {}): Pr
     'generation-manifest.json',
   );
   logger.info('Published generation manifest');
+}
+
+/**
+ * One budget for every LLM step of this run (see `LlmRunBudget`): the time budget
+ * starts now, and the account's quota is read from the OpenCode usage endpoint, only
+ * once a step actually wants to send a request.
+ */
+function createRunLlmBudget(): LlmRunBudget {
+  const apiKey = config.llmApiKey;
+  return new LlmRunBudget({
+    deadline: createLlmDeadline(config.llmBudgetMinutes),
+    readUsage: apiKey
+      ? () => fetchOpenCodeUsage({ apiKey, baseUrl: config.llmBaseUrl })
+      : undefined,
+    marginPercent: config.llmArchiveMarginPercent,
+  });
 }

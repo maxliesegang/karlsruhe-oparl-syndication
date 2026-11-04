@@ -14,7 +14,7 @@ import {
 /**
  * Persists each record to its own `docs/<entity>/<recordId>.json` file instead
  * of one monolithic array. Because the whole archive is committed to git and
- * regenerated twice daily, per-record files let git store a new blob only for
+ * regenerated several times a day, per-record files let git store a new blob only for
  * records that actually changed, eliminating the history bloat that came from
  * rewriting a multi-megabyte file every run.
  *

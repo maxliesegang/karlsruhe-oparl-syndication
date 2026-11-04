@@ -203,6 +203,32 @@ describe('feed identity', () => {
     expect(feed.atom1()).toContain('Direkte Anlage');
   });
 
+  it("renders attachment dates in Karlsruhe's timezone, whatever the machine's", async () => {
+    const originalTimeZone = process.env.TZ;
+    // Ten hours behind UTC: a machine-local rendering would show both dates a day early.
+    process.env.TZ = 'Pacific/Honolulu';
+    try {
+      const meeting = meetingWithDates(
+        '2025-01-01T00:00:00Z',
+        '2025-01-02T00:00:00Z',
+        '2025-01-03T00:00:00Z',
+      );
+      meeting.agendaItem[0].auxiliaryFile = [
+        attachment({
+          // 00:30 the next day in Karlsruhe: CEST (+2) in September, CET (+1) in March.
+          created: '2024-09-19T22:30:00Z',
+          modified: '2025-03-03T23:30:00Z',
+        }),
+      ];
+
+      const xml = (await buildAgendaFeedFromMeetings([meeting])).atom1();
+      expect(xml).toContain('Erstellt am: 20.09.2024, Aktualisiert am: 04.03.2025');
+    } finally {
+      if (originalTimeZone === undefined) delete process.env.TZ;
+      else process.env.TZ = originalTimeZone;
+    }
+  });
+
   it('uses meeting changes for updated and escapes untrusted HTML content', async () => {
     const meeting = meetingWithDates(
       '2025-01-01T00:00:00Z',

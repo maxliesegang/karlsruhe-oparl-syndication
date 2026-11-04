@@ -1,7 +1,7 @@
 import { Feed } from 'feed';
 import { config } from './config.js';
 import { EPOCH_FALLBACK_DATE } from './constants.js';
-import { parseValidDate } from './dates.js';
+import { DISPLAY_TIME_ZONE, parseValidDate } from './dates.js';
 import { createEmptyFeed, writeFeedFile } from './feed.js';
 import { escapeHtml } from './html.js';
 import { logger } from './logger.js';
@@ -106,5 +106,10 @@ function coverageNote(uncoveredCount: number): string {
 }
 
 function formatGermanDate(date: Date): string {
-  return date.toLocaleDateString('de-DE', { year: 'numeric', month: 'long', day: 'numeric' });
+  return date.toLocaleDateString('de-DE', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    timeZone: DISPLAY_TIME_ZONE,
+  });
 }

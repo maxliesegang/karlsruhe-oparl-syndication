@@ -1,6 +1,9 @@
 import { createHash } from 'node:crypto';
 import { config } from '../config.js';
 import { canonicalStringify, recordBasename } from '../docs-files.js';
+import { DISPLAY_TIME_ZONE } from '../dates.js';
+import { LlmRunBudget } from '../llm-budget.js';
+import { runLlmWorkQueue } from '../llm-work-queue.js';
 import { logger } from '../logger.js';
 import { stores } from '../store/index.js';
 import { KarlsruheDistrict } from '../karlsruhe-districts.js';
@@ -34,6 +37,8 @@ export interface MeetingDigestUpdateOptions {
   writer?: MeetingDigestWriter;
   /** Regenerate selected sittings even when their content-addressed cache is current. */
   regenerate?: boolean;
+  /** The run's shared LLM budget; previews are essential, so only time and an exhausted quota stop them. */
+  budget?: LlmRunBudget;
   now?: () => Date;
   /** Primary Stadtteile per paper — the same resolver the feeds use. */
   resolvePaperDistricts?: (paper: Paper) => KarlsruheDistrict[];
@@ -141,32 +146,40 @@ export async function updateMeetingDigests(
   logger.info(`Generating up to ${candidates.length} meeting digest(s)...`);
   let succeeded = 0;
   let failed = 0;
-  for (const target of candidates) {
-    try {
-      const body = await writeWithGrounding(writer, target);
-      const digest: MeetingDigest = {
-        ...body,
-        id: target.id,
-        meetingId: target.meeting.id,
-        meetingName: target.meeting.name,
-        meetingStart: target.meeting.start,
-        lead: target.lead,
-        sourceHash: target.sourceHash,
-        promptVersion,
-        provider: writer.providerName,
-        model: writer.model,
-        generatedAt: now.toISOString(),
-        sourcePapers: target.sourcePapers,
-        uncoveredCount: target.uncoveredCount,
-      };
-      stores.meetingDigests.add(digest);
-      published.set(digest.id, digest);
-      succeeded++;
-    } catch (error) {
-      failed++;
-      logger.warn(`Could not generate meeting digest ${target.id}; retrying next run.`, error);
-    }
-  }
+  await runLlmWorkQueue(
+    candidates.map((target) => ({ target, essential: true })),
+    {
+      label: 'meeting digest',
+      concurrency: 1,
+      budget: options.budget,
+      work: async ({ target }) => {
+        try {
+          const body = await writeWithGrounding(writer, target);
+          const digest: MeetingDigest = {
+            ...body,
+            id: target.id,
+            meetingId: target.meeting.id,
+            meetingName: target.meeting.name,
+            meetingStart: target.meeting.start,
+            lead: target.lead,
+            sourceHash: target.sourceHash,
+            promptVersion,
+            provider: writer.providerName,
+            model: writer.model,
+            generatedAt: now.toISOString(),
+            sourcePapers: target.sourcePapers,
+            uncoveredCount: target.uncoveredCount,
+          };
+          stores.meetingDigests.add(digest);
+          published.set(digest.id, digest);
+          succeeded++;
+        } catch (error) {
+          failed++;
+          logger.warn(`Could not generate meeting digest ${target.id}; retrying next run.`, error);
+        }
+      },
+    },
+  );
 
   if (succeeded === 0 && failed > 0) {
     // Fail-open like the summary step, so a provider contract change would
@@ -458,12 +471,17 @@ function formatNumericDate(date: Date): string {
     day: '2-digit',
     month: '2-digit',
     year: 'numeric',
-    timeZone: 'Europe/Berlin',
+    timeZone: DISPLAY_TIME_ZONE,
   });
 }
 
 function formatGermanDate(value: string): string {
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) return value;
-  return date.toLocaleDateString('de-DE', { day: '2-digit', month: 'long', year: 'numeric' });
+  return date.toLocaleDateString('de-DE', {
+    day: '2-digit',
+    month: 'long',
+    year: 'numeric',
+    timeZone: DISPLAY_TIME_ZONE,
+  });
 }

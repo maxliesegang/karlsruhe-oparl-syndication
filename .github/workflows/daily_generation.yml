@@ -1,13 +1,26 @@
 name: Feed Generation
 
+# The whole pipeline in one job: fetch → enrich → LLM (time-budgeted) → render →
+# commit. There is no separate backfill: capacity a run has left over after the
+# recent papers summarizes the archive, newest first.
 on:
   schedule:
-    - cron: '0 2 * * *'  # Runs at 02:00 UTC every day
-    - cron: '0 14 * * *'  # Runs at 14:00 UTC every day
-  workflow_dispatch:  # Allows manual triggering
+    # Every 4 h at an odd minute: GitHub delays crons on the full hour by hours
+    # (the former 02:00 run started between 07:51 and 09:32).
+    - cron: '17 */4 * * *'
+  workflow_dispatch:
+    inputs:
+      max_items:
+        description: 'Maximum paper summaries this run (cost cap)'
+        required: true
+        default: '100'
+      llm_budget_minutes:
+        description: 'Minutes this run may spend on LLM work (time cap)'
+        required: true
+        default: '45'
 
-# Never let a manual run and a scheduled run push concurrently; the loser would
-# fail on a non-fast-forward. Queue them instead of cancelling so no run is lost.
+# This is the only workflow that writes to main. Runs queue instead of overlapping;
+# queued, not cancelled, so no run is lost.
 concurrency:
   group: feed-generation
   cancel-in-progress: false
@@ -15,6 +28,9 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    # Backstop only: the LLM budget is what keeps a run short. Stays below GitHub's
+    # 6 h ceiling so a hung run fails visibly instead of being killed silently.
+    timeout-minutes: 330
     permissions:
       contents: write  # This gives the job permission to push changes
 
@@ -43,6 +59,8 @@ jobs:
         set -o pipefail
         npm run generate 2>&1 | tee "$RUNNER_TEMP/generate.log"
       env:
+        SUMMARY_MAX_ITEMS_PER_RUN: ${{ inputs.max_items || '100' }}
+        LLM_BUDGET_MINUTES: ${{ inputs.llm_budget_minutes || '45' }}
         GENERATE_LLM_SUMMARIES: 'true'
         LLM_API_KEY: ${{ secrets.OPENCODE_API_KEY }}
 
@@ -62,7 +80,7 @@ jobs:
           echo "No changes to commit"
         else
           git commit -m "Auto-generate feed - $dateFormatted"
-          # Reconcile with any push that landed while this run was working.
+          # Only this workflow writes to main, but a human push may have landed.
           git pull --rebase --autostash origin "$(git rev-parse --abbrev-ref HEAD)"
           git push
         fi

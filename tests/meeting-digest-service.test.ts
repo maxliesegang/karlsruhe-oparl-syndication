@@ -1,5 +1,6 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { config } from '../src/config.js';
+import { LlmRunBudget } from '../src/llm-budget.js';
 import { MeetingDigestWriter } from '../src/services/llm/meeting-digest-writer.js';
 import {
   isStandingAgendaItem,
@@ -119,6 +120,19 @@ describe('meeting digest service', () => {
     // and is stripped before the model ever sees it.
     expect(write.mock.calls[0][0].heading).toBe('Gemeinderat am 08. August 2026');
     expect(write.mock.calls[0][0].sessionId).toBe('karlsruhe-meeting-500-week');
+  });
+
+  it('writes no preview once the shared LLM deadline has passed', async () => {
+    const { writer, write } = createWriter();
+    const digests = await updateMeetingDigests([meeting], new Map([[paper.id, summary]]), {
+      enabled: true,
+      writer,
+      now: weekBefore,
+      budget: new LlmRunBudget({ deadline: new Date(Date.now() - 1) }),
+    });
+
+    expect(write).not.toHaveBeenCalled();
+    expect(digests).toHaveLength(0);
   });
 
   it('reuses a cached preview instead of calling the model again', async () => {

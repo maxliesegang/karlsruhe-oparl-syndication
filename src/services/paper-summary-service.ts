@@ -4,6 +4,9 @@ import { logger } from '../logger.js';
 import { stores } from '../store/index.js';
 import { GeneratedPaperSummary, Meeting, Paper, PaperSummary } from '../types/index.js';
 import { latestValidDate } from '../dates.js';
+import { LlmRunBudget } from '../llm-budget.js';
+import { runLlmWorkQueue } from '../llm-work-queue.js';
+import { isPublishablePromptVersion } from '../prompt-versions.js';
 import { OpenCodePaperSummarizer } from './llm/opencode-paper-summarizer.js';
 import { PaperSummarizer } from './llm/paper-summarizer.js';
 import { findUngroundedNumericLiterals } from './llm/summary-grounding.js';
@@ -15,7 +18,7 @@ import {
   splitPaperSummarySource,
 } from './paper-summary-source.js';
 
-const SUMMARY_BACKFILL_START = Date.UTC(2026, 0, 1);
+const DAY_MS = 24 * 60 * 60 * 1000;
 
 /**
  * Share of a run's summaries the fallback model may write before the run warns.
@@ -45,8 +48,18 @@ export interface PaperSummaryUpdateOptions {
   maximumInputCharacters?: number;
   concurrency?: number;
   summarizer?: PaperSummarizer;
-  /** Restrict generation to these exact OParl paper ids, bypassing the archive backfill cutoff. */
+  /** Restrict generation to these exact OParl paper ids. */
   paperIds?: ReadonlySet<string>;
+  /** Oldest prompt version still publishable; see `isPublishablePromptVersion`. */
+  minimumPromptVersion?: string;
+  /** Papers whose latest sitting is within this many days are summarized first. */
+  windowDays?: number;
+  /**
+   * The run's shared LLM budget: time and account quota (see `LlmRunBudget`). Papers
+   * in the window are essential; archive papers run only on spare quota. Without
+   * one the step is unlimited, which is what tests and targeted runs want.
+   */
+  budget?: LlmRunBudget;
   /** Regenerate selected papers even when their content-addressed cache is current. */
   regenerate?: boolean;
   /** Propagate a provider failure to a targeted CLI instead of failing open. */
@@ -58,12 +71,24 @@ interface PublicPaperSummarySource {
   paper: Paper;
   source: PaperSummarySource;
   sourceTimestamp: number;
+  /** Start of the latest sitting that consults the paper; the paper date without one. */
+  latestSittingTime: number;
+}
+
+interface SummaryCandidate extends PublicPaperSummarySource {
+  /** Latest sitting inside the window: current feed content, never paced. */
+  essential: boolean;
+  /** A summary is published already; this run would only upgrade its prompt version. */
+  upgrade: boolean;
+  /** The stored summary is hidden because its source changed. */
+  replacesHiddenSummary: boolean;
 }
 
 /**
- * Refresh summaries for papers used by public agenda items and return only cache
- * entries that match current source content. Individual provider failures are
- * fail-open: the normal feed run continues and retries them next time.
+ * Refresh summaries for papers used by public agenda items and return the
+ * publishable ones: current source content and a prompt version at or above the
+ * minimum. Individual provider failures are fail-open: the normal feed run
+ * continues and retries them next time.
  */
 export async function updatePaperSummaries(
   meetings: Meeting[],
@@ -78,7 +103,11 @@ export async function updatePaperSummaries(
   const paperSources = collectPublicPaperSources(meetings).filter(
     ({ paper }) => !options.paperIds || options.paperIds.has(paper.id),
   );
-  const current = collectCurrentSummaries(paperSources, promptVersion);
+  const minimumPromptVersion = options.minimumPromptVersion ?? config.summaryMinimumPromptVersion;
+  const now = options.now?.() ?? new Date();
+  const windowDays = options.windowDays ?? config.summaryWindowDays;
+  const windowStart = now.getTime() - windowDays * DAY_MS;
+  const current = collectPublishableSummaries(paperSources, promptVersion, minimumPromptVersion);
 
   if (!enabled) {
     logger.info(`LLM summaries disabled; using ${current.size} current cached summary(s).`);
@@ -102,68 +131,63 @@ export async function updatePaperSummaries(
       fallbackModel: config.llmFallbackModel,
       timeoutMs: config.summaryRequestTimeoutMs,
     });
-  const candidates = paperSources
-    .filter(({ paper }) => options.regenerate || !current.has(paper.id))
-    .filter(({ paper }) => options.paperIds?.has(paper.id) || isEligibleForSummaryBackfill(paper))
-    .filter(({ source }) => source.hasExtractedText)
-    .map((candidate) => ({
-      ...candidate,
-      refreshesCachedSummary: !!stores.paperSummaries.getById(candidate.paper.id),
-    }))
-    .sort(
-      (a, b) =>
-        Number(b.refreshesCachedSummary) - Number(a.refreshesCachedSummary) ||
-        b.sourceTimestamp - a.sourceTimestamp,
-    )
-    .slice(0, maximumItems);
+  const candidates = selectSummaryCandidates(paperSources, current, {
+    promptVersion,
+    windowStart,
+    regenerate: options.regenerate === true,
+  }).slice(0, maximumItems);
 
   if (candidates.length === 0) {
     logger.info('No paper summaries need updating.');
     return current;
   }
 
-  logger.info(`Generating up to ${candidates.length} paper summary(s)...`);
+  const essentialCount = candidates.filter(({ essential }) => essential).length;
+  logger.info(
+    `Generating up to ${candidates.length} paper summary(s) ` +
+      `(${essentialCount} within ${windowDays} days, ` +
+      `${candidates.length - essentialCount} archive backfill)...`,
+  );
   let succeeded = 0;
   let failed = 0;
   let answeredByFallback = 0;
-  for (let offset = 0; offset < candidates.length; offset += concurrency) {
-    const batch = candidates.slice(offset, offset + concurrency);
-    await Promise.all(
-      batch.map(async ({ paper, source }) => {
-        try {
-          const generated = await summarizeSource(
-            summarizer,
-            buildPaperSummarySessionId(paper),
-            source.heading,
-            source.contextText,
-            source.text,
-            maximumInputCharacters,
-          );
-          const summary: PaperSummary = {
-            id: paper.id,
-            sourceHash: source.sourceHash,
-            promptVersion,
-            // A summarizer that fell back to a second model reports the model
-            // that answered; otherwise its primary one is the right stamp.
-            provider: generated.provider ?? summarizer.providerName,
-            model: generated.model ?? summarizer.model,
-            summary: generated.summary,
-            keyPoints:
-              source.text.length < THIN_SOURCE_MAXIMUM_CHARACTERS ? [] : generated.keyPoints,
-            generatedAt: (options.now?.() ?? new Date()).toISOString(),
-          };
-          stores.paperSummaries.add(summary);
-          current.set(paper.id, summary);
-          succeeded++;
-          if (summary.model !== summarizer.model) answeredByFallback++;
-        } catch (error) {
-          if (options.throwOnFailure) throw error;
-          failed++;
-          logger.warn(`Could not summarize paper ${paper.id}; retrying next run.`, error);
-        }
-      }),
-    );
-  }
+  await runLlmWorkQueue(candidates, {
+    label: 'paper summary',
+    concurrency,
+    budget: options.budget,
+    work: async ({ paper, source }) => {
+      try {
+        const generated = await summarizeSource(
+          summarizer,
+          buildPaperSummarySessionId(paper),
+          source.heading,
+          source.contextText,
+          source.text,
+          maximumInputCharacters,
+        );
+        const summary: PaperSummary = {
+          id: paper.id,
+          sourceHash: source.sourceHash,
+          promptVersion,
+          // A summarizer that fell back to a second model reports the model
+          // that answered; otherwise its primary one is the right stamp.
+          provider: generated.provider ?? summarizer.providerName,
+          model: generated.model ?? summarizer.model,
+          summary: generated.summary,
+          keyPoints: source.text.length < THIN_SOURCE_MAXIMUM_CHARACTERS ? [] : generated.keyPoints,
+          generatedAt: now.toISOString(),
+        };
+        stores.paperSummaries.add(summary);
+        current.set(paper.id, summary);
+        succeeded++;
+        if (summary.model !== summarizer.model) answeredByFallback++;
+      } catch (error) {
+        if (options.throwOnFailure) throw error;
+        failed++;
+        logger.warn(`Could not summarize paper ${paper.id}; retrying next run.`, error);
+      }
+    },
+  });
 
   if (succeeded === 0 && failed > 0) {
     // A summary failure is deliberately fail-open, so a provider that rejects
@@ -224,6 +248,10 @@ function collectPublicPaperSources(meetings: Meeting[]): PublicPaperSummarySourc
     return {
       paper,
       source: sourceFor(paper, contexts),
+      latestSittingTime:
+        latestValidDate(...contexts.map((context) => context.meetingStart))?.getTime() ??
+        latestValidDate(paper.date)?.getTime() ??
+        0,
       sourceTimestamp:
         latestValidDate(
           paper.modified,
@@ -239,26 +267,69 @@ function collectPublicPaperSources(meetings: Meeting[]): PublicPaperSummarySourc
   });
 }
 
-function collectCurrentSummaries(
+/**
+ * Papers that need a model call, most important first. The order is the whole
+ * scheduling policy, so it lives in one comparator:
+ *
+ * 1. latest sitting inside the window (current feed content) before the archive;
+ * 2. nothing publishable before an upgrade of a text that is still shown;
+ * 3. a hidden stale text before a paper that never had one;
+ * 4. newest sitting, then newest source change, first.
+ *
+ * So the feed's current entries are covered first and spare capacity backfills the
+ * archive, newest first — there is no separate backfill mode.
+ */
+function selectSummaryCandidates(
+  paperSources: PublicPaperSummarySource[],
+  publishable: Map<string, PaperSummary>,
+  options: { promptVersion: string; windowStart: number; regenerate: boolean },
+): SummaryCandidate[] {
+  const candidates: SummaryCandidate[] = [];
+  for (const paperSource of paperSources) {
+    if (!paperSource.source.hasExtractedText) continue;
+    const cached = stores.paperSummaries.getById(paperSource.paper.id);
+    const isPublished = publishable.has(paperSource.paper.id);
+    const isCurrent = isPublished && cached?.promptVersion === options.promptVersion;
+    if (isCurrent && !options.regenerate) continue;
+    candidates.push({
+      ...paperSource,
+      essential: paperSource.latestSittingTime >= options.windowStart,
+      upgrade: isPublished,
+      replacesHiddenSummary: !!cached && !isPublished,
+    });
+  }
+  return candidates.sort(
+    (a, b) =>
+      Number(b.essential) - Number(a.essential) ||
+      Number(a.upgrade) - Number(b.upgrade) ||
+      Number(b.replacesHiddenSummary) - Number(a.replacesHiddenSummary) ||
+      b.latestSittingTime - a.latestSittingTime ||
+      b.sourceTimestamp - a.sourceTimestamp,
+  );
+}
+
+/**
+ * A changed source always hides a summary — it may describe content that is gone.
+ * An older prompt version hides it only below the minimum; see prompt-versions.ts.
+ */
+function collectPublishableSummaries(
   paperSources: PublicPaperSummarySource[],
   promptVersion: string,
+  minimumPromptVersion: string,
 ): Map<string, PaperSummary> {
-  const current = new Map<string, PaperSummary>();
+  const publishable = new Map<string, PaperSummary>();
   for (const { paper, source } of paperSources) {
     const cached = stores.paperSummaries.getById(paper.id);
-    if (!cached || cached.promptVersion !== promptVersion) continue;
-    if (cached.sourceHash === source.sourceHash) current.set(paper.id, cached);
+    if (!cached || cached.sourceHash !== source.sourceHash) continue;
+    if (isPublishablePromptVersion(cached.promptVersion, promptVersion, minimumPromptVersion)) {
+      publishable.set(paper.id, cached);
+    }
   }
-  return current;
+  return publishable;
 }
 
 function sourceFor(paper: Paper, contexts: PaperSummaryConsultationContext[]) {
   return buildPaperSummarySource(paper, (fileId) => stores.fileContents.getById(fileId), contexts);
-}
-
-function isEligibleForSummaryBackfill(paper: Paper): boolean {
-  const paperDate = new Date(paper.date);
-  return !Number.isNaN(paperDate.getTime()) && paperDate.getTime() >= SUMMARY_BACKFILL_START;
 }
 
 /**

@@ -2,6 +2,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { config } from '../src/config.js';
 import { logger } from '../src/logger.js';
 import { PaperSummarizer } from '../src/services/llm/paper-summarizer.js';
+import { LlmRunBudget } from '../src/llm-budget.js';
 import { updatePaperSummaries } from '../src/services/paper-summary-service.js';
 import { stores } from '../src/store/index.js';
 import { Meeting, OParlFile, Paper } from '../src/types/index.js';
@@ -82,6 +83,51 @@ function addCurrentText(text: string): void {
     lastModifiedExtractedDate: file.modified,
     extractedText: text,
   });
+}
+
+const archivePaperId = 'https://example.test/papers/summary-archive';
+
+/** A second public paper, consulted at one sitting, sharing the main paper's file. */
+function addArchivePaper({
+  paperDate,
+  sittingStart,
+}: {
+  paperDate: string;
+  sittingStart: string;
+}): Meeting {
+  const archiveConsultationId = 'https://example.test/consultations/summary-archive';
+  const archiveAgendaItemId = 'https://example.test/agendaItems/summary-archive';
+  const archiveMeetingId = 'https://example.test/meetings/summary-archive';
+  stores.papers.add({
+    ...structuredClone(paper),
+    id: archivePaperId,
+    name: 'Sanierung der Stadthalle',
+    reference: '2024/7',
+    date: paperDate,
+    consultation: [
+      {
+        ...structuredClone(paper.consultation![0]),
+        id: archiveConsultationId,
+        agendaItem: archiveAgendaItemId,
+        meeting: archiveMeetingId,
+      },
+    ],
+  });
+  return {
+    ...structuredClone(meeting),
+    id: archiveMeetingId,
+    start: sittingStart,
+    end: sittingStart,
+    agendaItem: [
+      {
+        ...structuredClone(meeting.agendaItem![0]),
+        id: archiveAgendaItemId,
+        meeting: archiveMeetingId,
+        name: 'Sanierung der Stadthalle',
+        consultation: archiveConsultationId,
+      },
+    ],
+  };
 }
 
 describe('paper summary service', () => {
@@ -186,30 +232,149 @@ describe('paper summary service', () => {
     expect(refreshed.get(paper.id)?.summary).toContain('schlägt den Umbau');
   });
 
-  it('only backfills summaries for papers dated 2026 or later', async () => {
-    stores.papers.add({
-      ...structuredClone(paper),
-      date: '2025-12-31',
-      created: '2026-01-02T00:00:00Z',
-      modified: '2026-07-02T00:00:00Z',
+  it('summarizes papers whose latest sitting is in the window before archive backfill', async () => {
+    // The window paper is old but back on a recent agenda; the archive paper is
+    // newer but was last discussed long ago. The sitting decides, not the paper date.
+    stores.papers.add({ ...structuredClone(paper), date: '2023-01-01' });
+    const archiveMeeting = addArchivePaper({
+      paperDate: '2026-07-01',
+      sittingStart: '2024-03-01T10:00:00Z',
     });
     const summarize = vi.fn().mockResolvedValue({ summary: 'Zusammenfassung.', keyPoints: [] });
-
-    const current = await updatePaperSummaries([meeting], {
+    const options = {
       enabled: true,
-      summarizer: {
-        providerName: 'test-provider',
-        model: 'test-model',
-        summarize,
-      },
+      summarizer: { providerName: 'test-provider', model: 'test-model', summarize },
+      promptVersion: 'test-v1',
+      maximumItems: 1,
+      maximumInputCharacters: 100_000,
+      concurrency: 1,
+      now: () => new Date('2026-08-02T00:00:00Z'),
+    };
+
+    const first = await updatePaperSummaries([meeting, archiveMeeting], options);
+    expect(summarize).toHaveBeenCalledOnce();
+    expect([...first.keys()]).toEqual([paper.id]);
+
+    // Capacity left over in a later run backfills the archive.
+    const second = await updatePaperSummaries([meeting, archiveMeeting], options);
+    expect(summarize).toHaveBeenCalledTimes(2);
+    expect(second.has(archivePaperId)).toBe(true);
+  });
+
+  it('pauses archive backfill, not current papers, when account usage leaves no room', async () => {
+    const archiveMeeting = addArchivePaper({
+      paperDate: '2024-01-01',
+      sittingStart: '2024-03-01T10:00:00Z',
+    });
+    const summarize = vi.fn().mockResolvedValue({ summary: 'Zusammenfassung.', keyPoints: [] });
+    const current = await updatePaperSummaries([meeting, archiveMeeting], {
+      enabled: true,
+      summarizer: { providerName: 'test-provider', model: 'test-model', summarize },
+      promptVersion: 'test-v1',
+      maximumItems: 10,
+      maximumInputCharacters: 100_000,
+      concurrency: 2,
+      now: () => new Date('2026-08-02T00:00:00Z'),
+      // Unknown usage: the endpoint failed or changed shape.
+      budget: new LlmRunBudget({ readUsage: async () => undefined }),
+    });
+
+    expect(summarize).toHaveBeenCalledOnce();
+    expect(current.has(paper.id)).toBe(true);
+    expect(current.has(archivePaperId)).toBe(false);
+  });
+
+  it('starts no request at all once a usage window is exhausted', async () => {
+    const summarize = vi.fn().mockResolvedValue({ summary: 'Zusammenfassung.', keyPoints: [] });
+    const readUsage = vi.fn().mockResolvedValue({
+      windows: [{ name: 'rolling', percent: 100, status: 'ok' }],
+    });
+    await updatePaperSummaries([meeting], {
+      enabled: true,
+      summarizer: { providerName: 'test-provider', model: 'test-model', summarize },
       promptVersion: 'test-v1',
       maximumItems: 10,
       maximumInputCharacters: 100_000,
       concurrency: 1,
+      budget: new LlmRunBudget({ readUsage }),
+    });
+
+    expect(readUsage).toHaveBeenCalledOnce();
+    expect(summarize).not.toHaveBeenCalled();
+  });
+
+  it('keeps publishing a summary above the minimum version and upgrades it', async () => {
+    const summarize = vi.fn().mockResolvedValue({ summary: 'Zusammenfassung.', keyPoints: [] });
+    const options = {
+      enabled: true,
+      summarizer: { providerName: 'test-provider', model: 'test-model', summarize },
+      maximumItems: 10,
+      maximumInputCharacters: 100_000,
+      concurrency: 1,
+      minimumPromptVersion: 'test-v1',
+    };
+    await updatePaperSummaries([meeting], { ...options, promptVersion: 'test-v1' });
+
+    // A style bump to v2: until the upgrade runs, the v1 text stays visible.
+    const beforeUpgrade = await updatePaperSummaries([meeting], {
+      ...options,
+      promptVersion: 'test-v2',
+      enabled: false,
+    });
+    expect(beforeUpgrade.get(paper.id)?.promptVersion).toBe('test-v1');
+
+    const afterUpgrade = await updatePaperSummaries([meeting], {
+      ...options,
+      promptVersion: 'test-v2',
+    });
+    expect(summarize).toHaveBeenCalledTimes(2);
+    expect(afterUpgrade.get(paper.id)?.promptVersion).toBe('test-v2');
+  });
+
+  it('withdraws a summary below the minimum version at once', async () => {
+    const summarize = vi.fn().mockResolvedValue({ summary: 'Zusammenfassung.', keyPoints: [] });
+    const options = {
+      summarizer: { providerName: 'test-provider', model: 'test-model', summarize },
+      maximumItems: 10,
+      maximumInputCharacters: 100_000,
+      concurrency: 1,
+    };
+    await updatePaperSummaries([meeting], { ...options, enabled: true, promptVersion: 'test-v1' });
+
+    // A correctness bump raises the minimum past v1: nothing is published until regenerated.
+    const current = await updatePaperSummaries([meeting], {
+      ...options,
+      enabled: false,
+      promptVersion: 'test-v3',
+      minimumPromptVersion: 'test-v2',
+    });
+    expect(current.has(paper.id)).toBe(false);
+    expect(stores.paperSummaries.getById(paper.id)?.promptVersion).toBe('test-v1');
+  });
+
+  it('starts no request once the LLM deadline has passed and keeps cached summaries', async () => {
+    const summarize = vi.fn().mockResolvedValue({ summary: 'Zusammenfassung.', keyPoints: [] });
+    const options = {
+      enabled: true,
+      summarizer: { providerName: 'test-provider', model: 'test-model', summarize },
+      promptVersion: 'test-v1',
+      maximumItems: 10,
+      maximumInputCharacters: 100_000,
+      concurrency: 1,
+    };
+    await updatePaperSummaries([meeting], { ...options, promptVersion: 'test-v0' });
+    summarize.mockClear();
+
+    const current = await updatePaperSummaries([meeting], {
+      ...options,
+      budget: new LlmRunBudget({ deadline: new Date(Date.now() - 1) }),
     });
 
     expect(summarize).not.toHaveBeenCalled();
+    // The test-v0 record is not current for test-v1, so nothing is published; the
+    // stored record is kept for the next run rather than removed.
     expect(current.has(paper.id)).toBe(false);
+    expect(stores.paperSummaries.getById(paper.id)?.promptVersion).toBe('test-v0');
   });
 
   it('regenerates an explicitly selected older paper', async () => {

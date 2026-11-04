@@ -94,7 +94,11 @@ All options can be set via environment variables or a `.env` file at the repo ro
 | `SUMMARY_MAX_ITEMS_PER_RUN`                    | `100`                            | Maximum papers generated per run                     |
 | `SUMMARY_MAX_INPUT_CHARS`                      | `400000`                         | Maximum source characters per LLM request            |
 | `SUMMARY_CONCURRENCY`                          | `2`                              | Concurrent paper-summary jobs                        |
-| `SUMMARY_REQUEST_TIMEOUT_MS`                   | `240000`                         | Per-request timeout                                  |
+| `SUMMARY_REQUEST_TIMEOUT_MS`                   | `900000`                         | Per-request timeout (hang protection only)           |
+| `LLM_BUDGET_MINUTES`                           | `45`                             | Wall-clock LLM budget per run, shared by all steps   |
+| `SUMMARY_WINDOW_DAYS`                          | `400`                            | Latest sitting this recent → summarized first        |
+| `SUMMARY_MINIMUM_PROMPT_VERSION`               | `paper-de-v7`                    | Oldest prompt version still published                |
+| `LLM_ARCHIVE_MARGIN_PERCENT`                   | `10`                             | Margin of the archive's linear quota pacing line     |
 | `REQUEST_DELAY`                                | `1000`                           | Delay between API requests (ms)                      |
 | `FULL_RECONCILIATION_INTERVAL_DAYS`            | `7`                              | Days between authoritative full meeting/paper crawls |
 | `PDF_DOWNLOAD_TIMEOUT_MS`                      | `30000`                          | Per-PDF download timeout (ms)                        |
@@ -111,15 +115,20 @@ Papers reference auxiliary PDF files. When `EXTRACT_PDF_TEXT=true`, recent files
 
 ### LLM paper summaries
 
-When `GENERATE_LLM_SUMMARIES=true`, public agenda items with papers dated 2026 or later and
-extracted attachment text receive a concise German summary. Summaries are generated once per
+When `GENERATE_LLM_SUMMARIES=true`, public agenda items whose paper has extracted attachment
+text receive a concise German summary. Papers whose latest sitting is within `SUMMARY_WINDOW_DAYS`
+(400) come first; capacity a run has left over backfills older papers, newest first, while the
+OpenCode account's weekly and monthly usage is below an even spread over the window
+(`LLM_ARCHIVE_MARGIN_PERCENT`). Summaries are generated once per
 paper, reused across agenda items and stored as canonical per-record JSON under
 `docs/summaries/papers/`.
 
 Cache validity is based on a SHA-256 hash of the paper metadata and current extracted text.
 Changed sources are regenerated; a stale summary is never published while regeneration is
 failing. Long inputs are summarized in chunks and synthesized. Provider failures do not stop
-the normal feed run, and `SUMMARY_MAX_ITEMS_PER_RUN` bounds gradual archive backfills.
+the normal feed run; `SUMMARY_MAX_ITEMS_PER_RUN` and `LLM_BUDGET_MINUTES` bound each run.
+After a prompt change, older summaries stay published while they are regenerated, as long as
+their version is at least `SUMMARY_MINIMUM_PROMPT_VERSION`.
 
 The prompt forbids derived calculations, preserves qualifiers, interprets only visibly selected
 checkboxes, and requires clear attribution of requests, administrative recommendations, proposals,
@@ -135,7 +144,7 @@ GENERATE_LLM_SUMMARIES=true LLM_API_KEY=... npm run generate
 ```
 
 To regenerate exactly one paper (reference, RIS-style `.html` name, record basename, or full OParl
-id) with a chosen model, including papers older than the normal 2026 backfill window:
+id) with a chosen model, regardless of its place in the queue:
 
 ```sh
 npm run summarize -- --paper 2023-0905 --model deepseek-v4-pro

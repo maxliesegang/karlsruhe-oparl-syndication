@@ -80,7 +80,8 @@ export abstract class BaseStore<T extends { id: string }> {
 
     const latestDate = new Date(latest.getTime());
     if (lookbackDays > 0) {
-      latestDate.setDate(latestDate.getDate() - lookbackDays);
+      // UTC: a local-time day is 23 or 25 hours across a DST change.
+      latestDate.setUTCDate(latestDate.getUTCDate() - lookbackDays);
     }
     return latestDate;
   }

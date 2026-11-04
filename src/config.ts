@@ -102,6 +102,27 @@ export const config = {
   // v8 shortens the summary to a two-sentence preview and moves details into
   // key points that must not repeat it.
   summaryPromptVersion: process.env.SUMMARY_PROMPT_VERSION || 'paper-de-v8',
+  // The oldest prompt version whose summaries may still be published until they are
+  // regenerated (see prompt-versions.ts). Decide it with every bump: leave it for a
+  // style change, raise it when old texts would now be wrong. v7 is the floor
+  // because v5 stated one sitting's outcome on every other sitting's entry and v6
+  // still opened in decision voice from the scheduling table; v8 only shortened.
+  summaryMinimumPromptVersion: process.env.SUMMARY_MINIMUM_PROMPT_VERSION || 'paper-de-v7',
+  // Papers whose latest sitting is at most this many days old are summarized first;
+  // older ones only with capacity a run has left over. Measured from the sitting,
+  // not the paper date, so an old Vorlage back on the agenda counts as current.
+  summaryWindowDays: parsePositiveInteger(
+    'SUMMARY_WINDOW_DAYS',
+    process.env.SUMMARY_WINDOW_DAYS || '400',
+  ),
+  // Safety margin, in percentage points, of the archive pacing line (see
+  // llm-budget.ts): weekly and monthly usage may reach (100 + m) x elapsed share - m,
+  // i.e. nothing right after a reset and everything just before the next one; the
+  // rolling 5 h window gets a flat 100 - m. Current papers are not paced.
+  llmArchiveMarginPercent: parseNonNegativeInteger(
+    'LLM_ARCHIVE_MARGIN_PERCENT',
+    process.env.LLM_ARCHIVE_MARGIN_PERCENT || '10',
+  ),
   summaryMaxItemsPerRun: parseNonNegativeInteger(
     'SUMMARY_MAX_ITEMS_PER_RUN',
     process.env.SUMMARY_MAX_ITEMS_PER_RUN || '100',
@@ -124,18 +145,22 @@ export const config = {
     'SUMMARY_CONCURRENCY',
     process.env.SUMMARY_CONCURRENCY || '2',
   ),
-  // Derived from request duration, not from summaryMaxInputCharacters — chars and
-  // milliseconds are unrelated units, so a matching pair of numbers would be a
-  // coincidence rather than a ratio to maintain. 240000 ms (4 min) covers a full
-  // 150k-char request (~30 s on mimo-v2.6-pro) with ample room for provider jitter, while staying short
-  // enough to bound the run: worst case is summaryMaxItemsPerRun / summaryConcurrency
-  // batches at this timeout, ~3.3 h at the defaults (100 / 2) against GitHub's 6 h job
-  // ceiling. A job killed at that ceiling publishes no feed at all, whereas a summary
-  // timeout is fail-open and retried next run — so if requests get slower, lower
-  // summaryMaxItemsPerRun rather than raising this.
+  // Wall-clock minutes one run may spend on LLM work (summaries, then meeting
+  // previews). Each step starts no new request after it; the rest waits for the next
+  // run. This bounds the run time; SUMMARY_MAX_ITEMS_PER_RUN bounds the cost. A
+  // normal scheduled run needs a few minutes, so 45 only matters on a bad day — a
+  // slow provider or a prompt bump that invalidates the cache.
+  llmBudgetMinutes: parsePositiveInteger(
+    'LLM_BUDGET_MINUTES',
+    process.env.LLM_BUDGET_MINUTES || '45',
+  ),
+  // Only catches a hung request; the run is bounded by llmBudgetMinutes. Covers the
+  // SDK's own retries too (a numeric `timeout` is a total). It used to be 240000 and
+  // doubled as the run's time budget, which never held: one paper can send chunks x
+  // reduction levels x empty-response retries x a corrective retry.
   summaryRequestTimeoutMs: parsePositiveInteger(
     'SUMMARY_REQUEST_TIMEOUT_MS',
-    process.env.SUMMARY_REQUEST_TIMEOUT_MS || '240000',
+    process.env.SUMMARY_REQUEST_TIMEOUT_MS || '900000',
   ),
 
   // The monthly Stadtteil/stadtweit rollup spike's model budget, separate from

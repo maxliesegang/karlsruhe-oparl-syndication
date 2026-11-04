@@ -118,6 +118,7 @@ vi.mock('../src/services/consultation-resolution-service.js', () => ({
 
 import { runFeedGeneration } from '../src/services/feed-generation-service.js';
 import { config } from '../src/config.js';
+import { LlmRunBudget } from '../src/llm-budget.js';
 
 describe('generation service cache handling', () => {
   beforeEach(() => {
@@ -222,13 +223,49 @@ describe('generation service cache handling', () => {
     // regenerates docs/ to check an unrelated artifact.
     await runFeedGeneration({ generateSummaries: false });
 
-    expect(mocks.updatePaperSummaries).toHaveBeenCalledWith([], { enabled: false });
+    expect(mocks.updatePaperSummaries).toHaveBeenCalledWith(
+      [],
+      expect.objectContaining({ enabled: false }),
+    );
   });
 
   it('leaves the configured summary setting alone when the run does not override it', async () => {
     await runFeedGeneration();
 
-    expect(mocks.updatePaperSummaries).toHaveBeenCalledWith([], { enabled: undefined });
+    expect(mocks.updatePaperSummaries).toHaveBeenCalledWith(
+      [],
+      expect.objectContaining({ enabled: undefined }),
+    );
+  });
+
+  it('gives summaries and previews one shared LLM budget', async () => {
+    await runFeedGeneration();
+
+    const summaryBudget = mocks.updatePaperSummaries.mock.calls[0][1].budget;
+    const digestBudget = mocks.updateMeetingDigests.mock.calls[0][2].budget;
+    // The same instance: previews get what the summaries left of the time and quota,
+    // not a fresh budget of their own.
+    expect(summaryBudget).toBeInstanceOf(LlmRunBudget);
+    expect(digestBudget).toBe(summaryBudget);
+  });
+
+  it('skips the fetch and PDF extraction and keeps the reconciliation checkpoint for an archive-only run', async () => {
+    const originalExtractPdfText = config.extractPdfText;
+    try {
+      await runFeedGeneration({ skipFetch: true });
+
+      expect(mocks.synchronizeOrganizations).not.toHaveBeenCalled();
+      expect(mocks.synchronizeMeetings).not.toHaveBeenCalled();
+      expect(mocks.synchronizePapers).not.toHaveBeenCalled();
+      expect(mocks.resolveMissingConsultationPapers).not.toHaveBeenCalled();
+      expect(config.extractPdfText).toBe(false);
+      // No crawl happened, so a due reconciliation must stay due.
+      const manifest = mocks.writeJsonToDocs.mock.calls[0][0] as { fullReconciliationAt?: string };
+      expect(manifest.fullReconciliationAt).toBeUndefined();
+      expect(mocks.writeFullFeed).toHaveBeenCalled();
+    } finally {
+      config.extractPdfText = originalExtractPdfText;
+    }
   });
 
   it('still builds and persists when a fetch step fails', async () => {

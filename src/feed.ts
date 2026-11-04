@@ -1,7 +1,7 @@
 import { Feed } from 'feed';
 import { OParlFile, Meeting } from './types/index.js';
 import { config } from './config.js';
-import { parseValidDate } from './dates.js';
+import { DISPLAY_TIME_ZONE, parseValidDate } from './dates.js';
 import {
   EPOCH_FALLBACK_DATE,
   FEED_GENERATOR,
@@ -65,6 +65,7 @@ function formatGermanDate(date: Date | undefined, month: 'long' | '2-digit' = '2
     year: 'numeric',
     month,
     day: month === 'long' ? 'numeric' : '2-digit',
+    timeZone: DISPLAY_TIME_ZONE,
   });
 }
 
