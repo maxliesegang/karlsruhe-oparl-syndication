@@ -9,9 +9,14 @@ import { PaperRelationIndex } from './paper-relation-index-service.js';
 export const PAPER_SIMILARITY_INDEX_FILE_NAME = 'paper-similar.json';
 
 /** Bump on any shape **or scoring** change, so a viewer can detect an index it does not understand. */
-export const PAPER_SIMILARITY_INDEX_VERSION = 3 as const;
+export const PAPER_SIMILARITY_INDEX_VERSION = 4 as const;
 
-export const PAPER_SIMILARITY_MAXIMUM_NEIGHBOR_COUNT = 3;
+/**
+ * Five since version 4 (2026-11-04). Ranks 4–5 are less precise than 1–3 on the
+ * development sample (22/26 useful vs 47/48), and no score floor separates their
+ * misses, so the same guards apply to every slot. See similarity-top-five-review.md.
+ */
+export const PAPER_SIMILARITY_MAXIMUM_NEIGHBOR_COUNT = 5;
 
 /**
  * Conservative floor, combined with title evidence, routine-paper exclusions
@@ -26,8 +31,9 @@ export const PAPER_SIMILARITY_MINIMUM_SCORE = 0.1;
  * keyed by record basename like the other indexes. Papers explicitly related in
  * `paper-relations.json` are left out of each other's list: that index already
  * names them, with a reason, and "ähnlich" must not repeat a stronger statement.
- * Lists are directed, may contain fewer than three ids, and omit papers with no
- * eligible recommendation. Version 3 adds precision guards and family diversity.
+ * Lists are directed, may contain fewer than five ids, and omit papers with no
+ * eligible recommendation. Version 3 adds precision guards and family diversity;
+ * version 4 raises the maximum from three to five.
  *
  * Scores are deliberately not published. Every new paper shifts the idf of every
  * term, so a score would change in the fourth decimal on every run and the whole

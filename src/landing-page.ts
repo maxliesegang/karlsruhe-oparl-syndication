@@ -66,7 +66,7 @@ const DATA_ARTIFACTS: readonly DataArtifact[] = [
   {
     path: 'paper-similar.json',
     description:
-      'Thematisch ähnliche Vorlagen: bis zu drei Empfehlungen je Vorlage, nach Ähnlichkeit ' +
+      'Thematisch ähnliche Vorlagen: bis zu fünf Empfehlungen je Vorlage, nach Ähnlichkeit ' +
       'sortiert. Automatisch ermittelt, keine bestätigten Verknüpfungen oder Verfahrenshistorie. ' +
       'Schlüssel und Werte sind die Dateinamen unter papers/ ohne .json.',
   },

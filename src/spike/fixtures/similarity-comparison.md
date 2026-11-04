@@ -1,10 +1,10 @@
 # Similarity input comparison
 
-Scoring version 1 → 3; same 14132 papers, 30 query papers and 150 reviewed pairs. Corpus SHA-256: `41ab8d6f2eaef14c69ea164ce02d82f4b8e9a5df930e4c82f8f08fc913c3b4a5`.
+Scoring version 1 → 4; same 14132 papers, 30 query papers and 150 reviewed pairs. Corpus SHA-256: `41ab8d6f2eaef14c69ea164ce02d82f4b8e9a5df930e4c82f8f08fc913c3b4a5`.
 
 The [original review](similarity-review.md), labels, reviewer provenance and ordering are unchanged. Scores/ranks below are recomputed against the full corpus. New pairs have **no inherited judgment**. Existing assistant labels remain provisional; this is a development sample, not a held-out quality estimate.
 
-Summary metrics incorporate 32 separately recorded [v2 follow-up judgments](similarity-pending-review.md) and [publication judgments](similarity-publication-review.md), adding 31 pairs and resolving only blank/uncertain originals. Original resolved labels always take precedence; conflicting resolved judgments cause an error. The frozen-pair table below preserves the original labels for audit.
+Summary metrics incorporate 44 separately recorded [v2 follow-up judgments](similarity-pending-review.md) and [publication judgments](similarity-publication-review.md), adding 43 pairs and resolving only blank/uncertain originals. Original resolved labels always take precedence; conflicting resolved judgments cause an error. The frozen-pair table below preserves the original labels for audit.
 
 Threshold held at 0.1; the same numeric threshold is not necessarily calibrated across representations. Precision below includes **judged pairs only**. Unresolved/new results are counted separately and must be reviewed before claiming overall precision.
 
@@ -12,10 +12,12 @@ Threshold held at 0.1; the same numeric threshold is not necessarily calibrated 
 |---|---:|---:|---:|---:|---|---|
 | Before, top 1 | 27 | 19 | 8 | 0 | 70% (19/27) | 19/30 |
 | Before, top 3 | 73 | 43 | 30 | 0 | 59% (43/73) | 20/30 |
+| Before, top 5 | 117 | 64 | 52 | 1 | 55% (64/116) | 22/30 |
 | After, top 1 | 19 | 19 | 0 | 0 | 100% (19/19) | 19/30 |
 | After, top 3 | 48 | 47 | 1 | 0 | 98% (47/48) | 19/30 |
+| After, top 5 | 76 | 70 | 6 | 0 | 92% (70/76) | 19/30 |
 
-Original useful pairs still in top 3 above threshold: 43 → 36. Original unhelpful pairs still in top 3 above threshold: 30 → 0. These are retention counts within the old sample, not recall over all relevant papers.
+Original useful pairs still in top 5 above threshold: 64 → 45. Original unhelpful pairs still in top 5 above threshold: 52 → 1. These are retention counts within the old sample, not recall over all relevant papers.
 
 ## Re-scoring the frozen pairs
 
@@ -213,6 +215,36 @@ Passage sharing title words (context only) — TOP 4 BZ\_Knielingen:
 
 </details>
 
+- 0.112519 · t (assistant, follow-up review) · 49069: Verhandlungen mit evangelischer Kirche Karlsruhe aufnehmen: Gemeindehäuser für die Stadtteile erhalten
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/49069.json)
+- Antrag: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00650044.pdf>) · [extracted text](../../../docs/file-contents/650044.txt)
+- Stellungnahme Antrag: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00650334.pdf>) · [extracted text](../../../docs/file-contents/650334.txt)
+
+Original content section — Antrag:
+> Gedruckt auf 100 Prozent Recyclingpapier Vorlage Nr.: 2023/0963 TOP 5 Eingang: 22.08.2023 Verhandlungen mit der evangelischer Kirche Karlsruhe aufnehmen: Gemeindehäuser für die Stadtteile erhalten Antrag: SPD Gremium Termin Öffentlichkeitsstatus Zuständigkeit Gemeinderat 19.09.2023 öffentlich Kenntnisnahme Hauptausschuss 17.10.2023 öffentlich Beratung 1. Die Stadtverwaltung geht frühzeitig mit der evangelischen Kirche Karlsruhe über ihre zukünftig freiwerdenden Liegenschaften und Grundstücke in Verhandlungen. Das Hauptziel dieser Gespräche ist es, die Standorte der Gemeindezentren zu erhalten und sie in Stadtteilzentren und / oder in andere dringend benötigte soziale Einrichtungen umzuwandeln. Es wird angestrebt, der evangelischen Kirchengemeinde die Möglichkeit einzuräumen, die Räumlichkeiten gegen eine angemessene Gebühr für ihre gemeindliche Arbeit mitzunutzen. 2. Im Bestreben nach wirtschaftlicher Effizienz beabsichtigt die Stadtverwaltung, die sozialen Einrichtungen möglichst effe…
+
+Passage sharing title words (context only) — Stellungnahme Antrag:
+> usetzen. Zudem besteht ein Letter of Intent zwischen der Stadt Karlsruhe und der Evangelischen Kirche, wonach in Wolfartsweier, nach Umbau der alten Aussegnungshalle das bisherige Gemeindezentrum dort verortet werden soll. Im Gegenzug könnte die Stadt das bisherige Grundstück des Gemeindezentrums erwerben, mit dem Ziel Wohnraum zu schaffen. Die Evangelische Kirche hat einen mehrjährigen Prozess aufgesetzt, indem der jeweilige Verkauf der Gemeindehäuser einer Einzelbetrachtung unterzogen wurde. Dieser Prozess ist mittlerweile abgeschlossen. Auf den dortigen Ergebnissen aufbauend werden zeitnah weitere Gespräche zwischen der Stadtverwaltung und der Evangelischen Kirche stattfinden. Die Überleg…
+
+
+</details>
+
+- 0.107236 · n (assistant, follow-up review) · 47131: Fortbestand Reallabor Passagehof
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/47131.json)
+
+**No usable original text. Judge from the linked PDF, or use `?`.**
+
+
+</details>
+
 ### 50120: Teilerneuerung der Lärmschutzwand Geroldsäcker
 
 <details><summary>Original query sources</summary>
@@ -257,6 +289,34 @@ Original content section — TOP 2 SSP Mühlburg:
 
 Original content section — Hagsfelder Brücke:
 > Der Gemeinderat genehmigt nach Vorberatung im Bauausschuss die Vergabe folgender Arbeiten: Sanierung der Hagsfelder Brücke Vergabe der Tiefbauarbeiten an die Firma b+s bauwerkserhaltung GmbH, Bietigheim zum Angebot vom 04.12.2014 abschließend mit 1.220.499 € Die Verwaltung wird ermächtigt, den Zuschlag zu erteilen. Finanzielle Auswirkungen nein ja Gesamtkosten der Maßnahme Einzahlungen/Erträge (Zuschüsse u. Ä.) Finanzierung durch städtischen Haushalt Jährliche laufende Belastung (Folgekosten mit kalkulatori- schen Kosten abzügl. Folgeer- träge und Folgeeinsparungen) 2.060.000 € Haushaltsmittel stehen in voller Höhe zur Verfügung Kontierungsobjekt: Projekt: 7.661030. Kontenart: 78720000 Ergänzende Erläuterungen: ISEK Karlsruhe 2020 - relevant nein ja Handlungsfeld: (bitte auswählen) Anhörung Ortschaftsrat (§ 70 Abs. 1 GemO) nein ja durchgeführt am Abstimmung mit städtischen Gesellschaften nein ja abgestimmt mit Ergänzende Erläuterungen Seite 2 1.1 Kurzbeschreibung des Bauvorhabens und d…
+
+
+</details>
+
+- 0.086993 · **new, unreviewed** · 38491: Kita Egon-Eiermann-Allee, Neubau - Vergabe von Tischler-, Beschlag- und Verglasungsarbeiten (Holz-Aluminium-Fenster) · below threshold
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/38491.json)
+- TOP 1 Kita Egon-Eiermann-Allee: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00615219.pdf>) · [extracted text](../../../docs/file-contents/615219.txt)
+
+Original opening — TOP 1 Kita Egon-Eiermann-Allee:
+> Beratungsfolge dieser Vorlage Gremium Termin TOP ö nö Ergebnis Bauausschuss 12.03.2020 1 X Beschluss Der Bauausschuss genehmigt die Vergabe folgender Arbeiten: Kita Egon-Eiermann-Allee, Neubau Tischler-, Beschlag- und Verglasungsarbeiten (Holz-Aluminium Fenster) an die Firma: Erich Schillinger, Oberwolfach Auftragssumme: 586.270,16 € Die Verwaltung wird ermächtigt, den Zuschlag zu erteilen. Finanzielle Auswirkungen Gesamtkosten der Maßnahme Einzahlungen/Erträge (Zuschüsse u. Ä.) Jährliche laufende Belastung (Folgekosten mit kalkulatorischen Kosten abzügl. Folgeerträge und Folgeeinsparungen) Ja Nein 8.000.000 € zzgl. PV- Anlage 100.000 € ca. 970.000 € beantragt 105.490 € Haushaltsmittel sind dauerhaft im Budget vorhanden Ja Kontenart 78710000, PSP-Element 7.884635.700 Nein Die Finanzierung wird auf Dauer wie folgt sichergestellt und ist in den ergänzenden Erläuterungen auszuführen: Durch Wegfall bestehender Aufgaben (Aufgabenkritik) Umschichtungen innerhalb des Dezernates Der Gemeindera…
+
+
+</details>
+
+- 0.081506 · **new, unreviewed** · 39754: Schulzentrum Neureut, Umbau und Modernisierung NWT Räume, Verwaltung mit Brandschutz und WC-Anlagen Vergabe von Elektro-, Sicherheits- und Informationstechnische Anlagen · below threshold
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/39754.json)
+- Schulzentrum Neureut NWT-Räume: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00617589.pdf>) · [extracted text](../../../docs/file-contents/617589.txt)
+
+Original opening — Schulzentrum Neureut NWT-Räume:
+> Beratungsfolge dieser Vorlage Gremium Termin TOP ö nö Ergebnis Bauausschuss 14.05.2020 2 x Beschluss Der Bauausschuss genehmigt die Vergabe folgender Arbeiten: Schulzentrum Neureut, Umbau und Modernisierung NWT-Räume und Verwaltung mit Brandschutz und WC-Anlagen Elektro-, Sicherheits- und Informationstechnische Anlagen an die Firma: Protech, Karlsruhe Auftragssumme: 1.488.509,37 € Die Verwaltung wird ermächtigt, den Zuschlag zu erteilen. Finanzielle Auswirkungen Gesamtkosten der Maßnahme Einzahlungen/Erträge (Zuschüsse u. Ä.) Jährliche laufende Belastung (Folgekosten mit kalkulatorischen Kosten abzügl. Folgeerträge und Folgeeinsparungen) Ja Nein 16.680.000 € keine 652.200 € Haushaltsmittel sind dauerhaft im Budget vorhanden Ja Kontenart 78710000, PSP-Element 7.882344.700 Nein Die Finanzierung wird auf Dauer wie folgt sichergestellt und ist in den ergänzenden Erläuterungen auszuführen: Durch Wegfall bestehender Aufgaben (Aufgabenkritik) Umschichtungen innerhalb des Dezernates Der Gemein…
 
 
 </details>
@@ -306,6 +366,26 @@ Passage sharing title words (context only) — TOP 6 Bebauungsplan KIT Campus S�
 
 </details>
 
+- 0.160797 · t (assistant, follow-up review) · 35886: Bebauungsplan "KIT Campus Süd/Adenauerring", Karlsruhe-Oststadt: Satzungsbeschluss gemäß § 10 des Baugesetzbuches (BauGB)
+
+- 0.157718 · t (assistant, follow-up review) · 35900: Neuer Rahmenplan für das Areal KIT-Campus-Süd östlich des Adenauerrings
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/35900.json)
+- Stellungnahme TOP 4.2: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00600249.pdf>) · [extracted text](../../../docs/file-contents/600249.txt)
+- GRÜNE KIT: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00600126.pdf>) · [extracted text](../../../docs/file-contents/600126.txt)
+
+Original Kurzfassung — Stellungnahme TOP 4.2:
+> wie Die Stadtverwaltung sieht von der Neufassung des Rahmenplans für das Areal KIT-Campus-Süd östlich des Adenauerrings ab und empfiehlt, den Antrag abzulehnen.
+
+Passage sharing title words (context only) — Stellungnahme TOP 4.2:
+> errengemeinschaft spezifisch zuge- schnitten ist, bildet der Angebotsbebauungsplan eine mögliche Entwicklungsper- spektive unabhängig von einem bestimmten Investor ab. Bei dem zum Satzungsbeschluss vorgestellte Bebauungsplan sind dies die Entwick- lungsinteressen des Karlsruher Instituts für Technologie und ist aus dem räumli- chen Entwicklungsbedarf der prosperierenden Universität mit international wach- sendem Ruf und Studierendenzahl begründet. Das Projekt der räumlichen Erweiterung des KIT Campus Süd, das seit der Über- nahme des Areals der früheren Kinderklinik im Jahr 2005 seitens des Karlsruher In- stituts für Technologie avisiert und universitätsintern entwickelt wurde, konnte im Jah…
+
+
+</details>
+
 ### 50329: Sachstand zur Umsetzung des Energieleitplans
 
 <details><summary>Original query sources</summary>
@@ -336,6 +416,39 @@ Original Kurzfassung — Informationsvorlage:
 
 Original opening — TOP 9, Stellungnahme Klimaziele erreichen - Ausbau Fernwärme Netz in Durlach:
 > Gremium Termin TOP ö nö Ortschaftsrat Durlach 19.04.2023 9 x Die Fernwärme ist eines der größten Umweltprojekte in Karlsruhe. Durch die Nutzung werden in Karlsruhe weit mehr als 100.000 t CO 2 eingespart. Das Interesse der Karlsruher Bürger\*innen an der umweltfreundlichen Fernwärme der Stadtwerke Karlsruhe ist sehr hoch, und es sind bereits ca. 30 Wohn- und Geschäftsgebäude mit einer thermischen Leistung von insgesamt 14,72 MW bzw. 14.175 kW (Stand 12/2022) im Stadtteil Durlach an das Fernwärmenetz angeschlossen. Auch aufgrund der aktuellen und geplanten Gesetze zur Wärmeversorgung von Gebäuden ist die Nachfrage ungebrochen. Die hohe Nachfrage führte mittlerweile dazu, dass das Netz in Durlach inzwischen an seiner Kapazitätsgrenze angelangt ist. Um die Kapazitätsgrenze in Durlach deutlich anzuheben, beabsichtigen die Stadtwerke eine zweite Fernwärme-Versorgungsleitung nach Durlach zu bauen und gegebenenfalls die bestehende zu vergrößern. Die entsprechenden Planungen dazu sind angestoße…
+
+
+</details>
+
+- 0.100809 · t (assistant, follow-up review) · 49838: Informationsveranstaltung „Kaltes Nahwärmenetz“
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/49838.json)
+- Antrag Grötzingen: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00654994.pdf>) · [extracted text](../../../docs/file-contents/654994.txt)
+- Stellungnahme Antrag Grötzingen: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00655667.pdf>) · [extracted text](../../../docs/file-contents/655667.txt)
+
+Original content section — Antrag Grötzingen:
+> Gedruckt auf 100 Prozent Recyclingpapier Vorlage Nr.: 2023/1415 Eingang: 12.12.2023 Informationsveranstaltung „Kaltes Nahwärmenetz“ (Antrag der GLG-Ortschaftsratsfraktion) Ortschaftsrat Grötzingen 31.01.2024 6 Ö Entscheidung Der Entwurf des vom Gemeinderat am 28. November 2023 beschlossenen Energieleitplans mit integrierter kommunaler Wärmeplanung ist auf der Website der Stadt veröffentlicht. Fast ganz Grötzingen ist darin als Gebiet mit dezentraler Wärmeversorgung ausgewiesen. Nur „Grötzingen Alte Häldenweg“ und „Grötzingen / Im Speitel“ sind Ausnahmen, weil sie auf den Seiten 128 und 129 unter „Weitere Maßnahmen zur Prüfung der Machbarkeit für ausgewählte Eignungsgebiete“ aufgeführt sind. Vorgesehen ist ein „Kaltes Nahwärmenetz“. Damit sollen Wärmepumpen, die Wärme indirekt dem Baggersee anstatt der Umgebungsluft entziehen, forciert werden. Und es ist angemerkt: Ein Pilotprojekt im Ort könnte mehrere, weitere potenzielle Nahwärmegebiete nach sich ziehen. Das „Kalte Nahwärmenetz“ ist…
+
+
+</details>
+
+- 0.100384 · t (assistant, follow-up review) · 49623: Einrichtung einer Koordinierungsstelle zur Vereinfachung des Fernwärme- und Energieleitungsausbaus
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/49623.json)
+- Antrag: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00652650.pdf>) · [extracted text](../../../docs/file-contents/652650.txt)
+- Stellungnahme: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00655314.pdf>) · [extracted text](../../../docs/file-contents/655314.txt)
+
+Original content section — Antrag:
+> Gedruckt auf 100 Prozent Recyclingpapier Vorlage Nr.: 2023/1231 Eingang: 24.10.2023 Einrichtung einer Koordinierungsstelle zur Vereinfachung des Fernwärme- und Energieleitungsausbaus Antrag: SPD Die Stadtverwaltung richtet aus bestehenden Personalressourcen eine ämterübergreifende Koordinierungsstelle „Fernwärme- und Energieleitungsausbau“ ein, welche das Ziel verfolgt, die notwendigen Planungsverfahren effizienter und zielgerichteter zu gestalten und damit zu beschleunigen. Begründung Der Energie- und Wärmeleitplan Karlsruhe, welcher im November 2023 im Gemeinderat beschlossen werden soll, zeigt auf, dass neben wirtschaftlichen und physikalischen Faktoren, auch die Geschwindigkeit der Planungsverfahren einen wesentlichen Einfluss auf die Umsetzung der ambitionierten Ziele hat. Die SPD-Fraktion sieht durch die Einrichtung einer amtsübergreifenden Koordinierungsstelle „Fernwärme- und Energieleitungsausbau“ Potential, die notwendigen Abstimmungen innerhalb der Planungsverfahren, in Abspr…
+
+Passage sharing title words (context only) — Stellungnahme:
+> enden Formate Lösungswege geprüft werden. Finanzielle Auswirkungen CO 2 -Relevanz: Auswirkung auf den Klimaschutz Abstimmung mit städtischen Gesellschaften – 2 – Erläuterungen Die Umsetzung des Energieleitplans bedeutet einen erheblichen Netzausbau insbesondere der Sparten Fernwärme und Strom. Die hierfür vorgesehene Zeitvorgaben können voraussichtlich nur unter Bereitstellung zusätzlicher personeller und finanzieller Ressourcen sowohl beim Vorhabenträger Stadtwerke Karlsruhe, als auch bei den beteiligten Ämtern erreicht werden. Insofern wären zusätzliche Personalstellen aus Sicht der Verwaltung zur Koordinierung und Umsetzung der Aufgabe grundsätzlich zu begrüßen. Hierbei sind jedoch die fo…
 
 
 </details>
@@ -373,6 +486,44 @@ Original content section — TOP 6, Antrag:
 
 Passage sharing title words (context only) — TOP 6, Antrag:
 > B‘90/Die Grünen-OR-Fraktion vom: 03.01.2010 Gremium: Termin: TOP: Verantwortlich: Ortschaftsrat Durlach 24.02.10 6 öffentlich Bürgerservice und Sicherheit Lärm-/ Verkehrssituation Rittnertstraße Bei der Vorstellung der Lärmkartierung Durlach im OR am 24. September 2008 wurde von der Verwaltung festgestellt, dass: „In der Ortsdurchfahrt B 3 (im Bereich der Marstallstraße und Grötzingerstraße) und der Rittnertstraße bei einer Geschwindigkeitsreduzierung auf 30 km/h (in der Nacht) Entlastungen um knapp 3 dBA erreicht werden könnten.“ Bei der Sitzung des OR Durlach am 10.12.2008 wurde mitgeteilt, dass bei einer möglichen Minderung des Lärmpegels um mindestens 2,1dBA eine Geschwindigkeitsreduzier…
+
+
+</details>
+
+- 0.131282 · n (assistant, follow-up review) · 36759: Erweiterung Tempo 30 in der Grötzinger Straße
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/36759.json)
+- TOP 4 ANFRAGE B\_90 - Tempo 30 Grötzinger Strasse: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00606000.pdf>) · [extracted text](../../../docs/file-contents/606000.txt)
+- TOP 4 STELLUNGNAHME B\_90 - Tempo 30 Grötzinger Straße: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00606001.pdf>) · [extracted text](../../../docs/file-contents/606001.txt)
+
+Original content section — TOP 4 ANFRAGE B\_90 - Tempo 30 Grötzinger Strasse:
+> Kann das Ordnungs- und Bürgeramt prüfen, ob in der Grötzinger Straße zwischen Alter Weingartener Straße und der B3 auch Tempo 30 angeordnet werden kann. unterzeichnet von: Ralf Köster Martin Pötzsche Dr. Heike Puzicha-Martz Dietmar Maier Dr. Ulrich Wagner
+
+Passage sharing title words (context only) — TOP 4 ANFRAGE B\_90 - Tempo 30 Grötzinger Strasse:
+> lach ANFRAGE B‘90/Die Grünen OR-Fraktion vom: 14.10.2018 eingegangen am: 14.10.2018 Gremium: Termin: TOP: Verantwortlich: Ortschaftsrat Durlach 14.11.2018 4 öffentlich Dez. 2 / OA Erweiterung Tempo 30 in der Grötzinger Straße Seit einigen Monaten gilt in der Gymnasiumstraße sowie fast auf der gesamten B3 in Durlach ein Tempolimit von 30 km/h. Auch in der Pfinzstraße., über die Blumentorstraße bis zum Beginn der Grötzinger Straße gilt nun Tempo 30. Ausgerechnet das kurze Stück der Grötzinger Straße zwischen Alter Weingartener Straße und der B3 erlaubt weiterhin Tempo 50. Dies erscheint wenig sinnvoll, da gerade hier durch ÖPNV Nutzer und die Schülerinnen und Schüler des Markgrafen Gymnasiums…
+
+
+</details>
+
+- 0.128269 · t (assistant, follow-up review) · 21438: Antrag + Anfrage GRÜNE: Lärmbelästigung Rittnertstraße durch LKW und Traktoren
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/21438.json)
+- 10.12.08, TOP 7, Anfrage: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00012540.pdf>) · [extracted text](../../../docs/file-contents/12540.txt)
+- 10.12.08, TOP 7, Antrag: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00012541.pdf>) · [extracted text](../../../docs/file-contents/12541.txt)
+- 10.12.08, TOP 7, STELLUNGNAHME zum Antrag: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00012542.pdf>) · [extracted text](../../../docs/file-contents/12542.txt)
+- 10.12.08, TOP 7, STELLUNGNAHME zur Anfrage: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00012543.pdf>) · [extracted text](../../../docs/file-contents/12543.txt)
+
+Original content section — 10.12.08, TOP 7, Anfrage:
+> Laut einem vorliegenden Schreiben kommt es in der Rittnertstr. seit geraumer Zeit in den Nachtstunden zu verstärkter Ruhestörung durch LWK und Traktoren, welche offensichtlich von und zu einem Zuckermais anbauenden landwirtschaftlichen Betrieb zwischen Durlach und Stupferich unterwegs sind. Diese zusätzliche Lärmbelastung soll sich bis zu 9 Monate im Jahr ergeben. Hierzu haben wir folgende Fragen: Anfrage: Wie hoch ist die Verkehrsbelastung durch diesen Betrieb insgesamt und wie hoch in den Nachtstunden? In welche Pflanz- und Erntephasen fällt ggfs. das Verkehrsaufkommen. Kann die Verwaltung angesichts der gerade vorgestellten Lärmsituation eventuell Einfluss nehmen, um die Situation zu entschärfen? gez. Ralf Köster Dr. Heike Puzicha-Martz Dietmar Maier Winnie Kratzmeier-Fürst Dr. Ulrich W agner
+
+Passage sharing title words (context only) — 10.12.08, TOP 7, Anfrage:
+> n vom: 20. Oktober 2008 eingegangen: 27. Oktober 2008 Gremium: Termin: TOP: Verantwortlich: Ortschaftsrat 10.12.08 7 öffentlich Bürgerservice und Sicherheit Thema: Lärmbelästigung Rittnertstraße durch LKW und Traktoren Begründung: Laut einem vorliegenden Schreiben kommt es in der Rittnertstr. seit geraumer Zeit in den Nachtstunden zu verstärkter Ruhestörung durch LWK und Traktoren, welche offensichtlich von und zu einem Zuckermais anbauenden landwirtschaftlichen Betrieb zwischen Durlach und Stupferich unterwegs sind. Diese zusätzliche Lärmbelastung soll sich bis zu 9 Monate im Jahr ergeben. Hierzu haben wir folgende Fragen: Anfrage: Wie hoch ist die Verkehrsbelastung durch diesen Betrieb ins…
 
 
 </details>
@@ -441,6 +592,40 @@ Passage sharing title words (context only) — Änderungsantrag:
 
 </details>
 
+- 0.091351 · **new, unreviewed** · 36242: Vergabe von Grundstücken der Stadt und ihrer Gesellschaften grundsätzlich im Erbbaurecht statt Verkauf · below threshold
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/36242.json)
+- Stellungnahme TOP 31: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00603086.pdf>) · [extracted text](../../../docs/file-contents/603086.txt)
+- KULT Vergabe von Grundstücken: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00603044.pdf>) · [extracted text](../../../docs/file-contents/603044.txt)
+
+Original Kurzfassung — Stellungnahme TOP 31:
+> Die Stadt vergibt Flächen für Vereine, Parkhäuser/ Tiefgaragen und auf dem Großmarkt auf- grund der spezifischen Situation bzw. Lage schon seit Jahrzehnten ausschließlich im Wege des Erbbaurechts. Bei den übrigen Gewerbeflächen und den Wohnbauflächen haben die Grund- stücksinteressenten entsprechend den gültigen Vergaberichtlinien ein Wahlrecht. An Flächen der KVVH GmbH im Rheinhafen werden ebenfalls nur Erbbaurechte bestellt. Die Karlsruher Fächer GmbH vergibt ihre Grundstücke weder im Wege des Erbbaurechtes noch veräußert sie diese. Gegebenenfalls bebaut sie die Grundstücke selbst und überlässt Grundstü- cke bzw. Gebäude auf Mietbasis. Kerngeschäft der Volkswohnung GmbH ist die Bereitstellung von Wohnraum auf Mietbasis. Verkauf von Wohnraum bzw. Gewerbeflächen ist nachrangig und dient in erster Linie der Kapi- talbeschaffung. Die bisherige Handhabung hat sich sowohl bei der Stadt als auch bei den Gesellschaften be- währt und soll deshalb grundsätzlich beibehalten werden.
+
+Passage sharing title words (context only) — Stellungnahme TOP 31:
+> er Fächer GmbH vergibt ihre Grundstücke weder im Wege des Erbbaurechtes noch veräußert sie diese. Gegebenenfalls bebaut sie die Grundstücke selbst und überlässt Grundstü- cke bzw. Gebäude auf Mietbasis. Kerngeschäft der Volkswohnung GmbH ist die Bereitstellung von Wohnraum auf Mietbasis. Verkauf von Wohnraum bzw. Gewerbeflächen ist nachrangig und dient in erster Linie der Kapi- talbeschaffung. Die bisherige Handhabung hat sich sowohl bei der Stadt als auch bei den Gesellschaften be- währt und soll deshalb grundsätzlich beibehalten werden. Finanzielle Auswirkungen (bitte ankreuzen) x nein ja Gesamtkosten der Maßnahme Einzahlungen/Erträge (Zuschüsse u. Ä.) Finanzierung durch städtischen Hausha…
+
+
+</details>
+
+- 0.082908 · **new, unreviewed** · 29276: Lammstraße 7, Technisches Rathaus - Fassadensanierung entlang der Kaiserstraße: Genehmigung von apl. Aufwendungen/Auszahlungen · below threshold
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/29276.json)
+- Fassadensanierung Techn.Rathaus: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00043601.pdf>) · [extracted text](../../../docs/file-contents/43601.txt)
+- Anlage 1 Techn.Rathaus: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00043602.pdf>) · [extracted text](../../../docs/file-contents/43602.txt)
+- Anlage 2 Techn.Rathaus: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00043603.pdf>)
+
+Original content section — Fassadensanierung Techn.Rathaus:
+> Der Hauptausschuss nimmt nach Vorberatung im Bauausschuss von der Projektvorstellung Kenntnis und erklärt sich mit den Gesamtkosten von 616.000 € einverstanden. Der Gemeinderat genehmigt die außerplanmäßigen Aufwendungen/Auszahlungen bei PSP- Element 7.880217.700.300 in Höhe von 616.000 € für das Haushaltsjahr 2012. Finanzielle Auswirkungen nein ja Gesamtkosten der Maßnahme Einzahlungen/Erträge (Zuschüsse u. Ä.) Finanzierung durch städtischen Haushalt Jährliche laufende Belastung (Folgekosten mit kalkulatori- schen Kosten abzügl. Folgeer- träge und Folgeeinsparungen) 616.000 € 306.000 € 310.000 € Haushaltsmittel stehen in voller Höhe zur Verfügung Kontierungsobjekt: Kostenstelle: 7.880217.700.300 Kontenart: 78710000 Ergänzende Erläuterungen: Siehe Antrag auf Genehmigung von Mehraufwendungen/-auszahlungen Karlsruhe Masterplan 2015 - relevant nein ja Handlungsfeld: Anhörung Ortschaftsrat (§ 70 Abs. 1 GemO) nein ja durchgeführt am Abstimmung mit städtischen Gesellschaften nein ja abgestim…
+
+
+</details>
+
 ### 50436: Bebauungsplanverfahren „Durlacher Allee, Güterumgehungsbahn Karlsruhe 4210, Durlacher Allee 106 (Alter Gleisbauhof) und Ostring", Oststadt
 
 <details><summary>Original query sources</summary>
@@ -480,6 +665,36 @@ Passage sharing title words (context only) — Anlage 1 BPlan Tullastraße:
 
 - 0.145066 · t (assistant) · 26728: Interfraktioneller Antrag FDP, KAL: Entwicklungsachse Durlacher Allee/Stadteingang Ost
 
+- 0.132065 · n (assistant, follow-up review) · 26898: Bebauungsplan "Östlich Ostring zwischen Haid-und-Neu-Straße und Mannheimer Straße, Karlsruhe-Rintheim hier: Aufstellungsbeschluss gem. § 2 Abs. 1 BAuGB
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/26898.json)
+- TOP 4 - Aufstellungsb\_oestl\_Ostring: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00005641.pdf>) · [extracted text](../../../docs/file-contents/5641.txt)
+- TOP 4 - Übersichtsplan: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00005642.pdf>) · [extracted text](../../../docs/file-contents/5642.txt)
+
+Original content section — TOP 4 - Aufstellungsb\_oestl\_Ostring:
+> Der Planungsausschuss der Stadt Karlsruhe beschließt gemäß § 2 Abs. 1 BauGB, den Bebauungsplan „Östlich Ostring zwischen Haid-und-Neu-Straße und Mannheimer Straße“, Karlsruhe-Rintheim aufzustellen. Januar 2011 Finanzielle Auswirkungen nein ja Gesamtkosten der Maßnahme Einzahlungen/Erträge (Zuschüsse u. Ä.) Finanzierung durch städtischen Haushalt Jährliche laufende Belastung (Folgekosten mit kalkulatori- schen Kosten abzügl. Folgeer- träge und Folgeeinsparungen) Haushaltsmittel stehen in voller Höhe zur Verfügung Kontierungsobjekt: Kostenstelle: Kontenart: Ergänzende Erläuterungen: Karlsruhe Masterplan 2015 - relevant nein ja Handlungsfeld: Anhörung Ortschaftsrat (§ 70 Abs. 1 GemO) nein ja durchgeführt am Abstimmung mit städtischen Gesellschaften nein ja abgestimmt mit Januar 2011 I. Der Bebauungspläne Nr. 278 „Rintheimer Feld“ von 1960 bzw. Nr. 339 „Rintheimer Feld (Änderung)“ von 1967 weisen den ca. 2,8 ha großen Bereich als Fläche für Er- werbsgärtnereien aus. Im Zusammenhang mit der…
+
+
+</details>
+
+- 0.124757 · n (assistant, follow-up review) · 37321: Ochsentor/Nordöstlicher Altstadtrand Durlach, hier: Aufstellungsbeschluss gem. § 2, Abs. 1, Baugesetzbuch
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/37321.json)
+- TOP 7 Ochsentor\_Nordöstlicher Rand Altstadt Durlach, Beschlussvorlage: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00609200.pdf>) · [extracted text](../../../docs/file-contents/609200.txt)
+- TOP 7 Anlage 1 Ochsentor\_Nordöstlicher Rand Altstadt Durlach-Aufstellungsbeschluss-A4: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00609201.pdf>) · [extracted text](../../../docs/file-contents/609201.txt)
+
+Original content section — TOP 7 Ochsentor\_Nordöstlicher Rand Altstadt Durlach, Beschlussvorlage:
+> Der Ortschaftsrat Durlach schlägt dem Planungsausschuss vor, gemäß § 2 Absatz 1 BauGB, den Bebauungsplan „Ochsentor/Nordöstlicher Altstadtrand Durlach“ in Karlsruhe-Durlach aufzustel- len und zu beschließen. Weiterhin empfiehlt der Ortschaftsrat dem Planungsausschuss der Stadt Karlsruhe zu beschlie- ßen, dass er nach § 13 a Abs. 2 Nr. 1 i. V. m. § 13 Abs. 2 Satz 1 Nr. 1 BauGB auf eine frühzeiti- ge Beteiligung der Öffentlichkeit im Sinne des § 3 Abs. 1 BauGB verzichtet und stattdessen gem. § 13 a Abs. 3 Satz 1 Nr. 2 BauGB der Öffentlichkeit beim Stadtplanungsamt innerhalb einer bestimmten Frist Gelegenheit zur Information und zur Äußerung gibt. Finanzielle Auswirkungen Gesamtkosten der Maß- nahme Einzahlungen/Erträge (Zuschüsse u. Ä.) Jährliche laufende Belastung (Folgekosten mit kalkulatorischen Kosten abzügl. Fol- geerträge und Folgeeinsparungen) Ja Nein Haushaltsmittel sind dauerhaft im Budget vorhanden Ja Nein Die Finanzierung wird auf Dauer wie folgt sichergestellt und ist in den…
+
+
+</details>
+
 ### 50450: Transparenz in der Umsetzung des Rechtsanspruchs für Grundschulkinder Forderung nach FAQ zum Schulkind-Bildungs- und Betreuungssystem (SKIBB)
 
 <details><summary>Original query sources</summary>
@@ -516,6 +731,10 @@ Passage sharing title words (context only) — Stellungnahme Antrag:
 </details>
 
 - 0.236059 · s (assistant) · 41582: Strategie: Rechtsanspruch auf ganztägige Bildungs- und Betreuungsangebote für Grundschulkinder ab dem Schuljahr 2026/27
+
+- 0.232770 · s (assistant) · 50491: Informationen zur Zukunft der Horte und der Rechtsanspruch auf Ganztagesschulen
+
+- 0.221309 · s (assistant) · 48914: Delegation Rechtsanspruch Ganztagsbetreuung für Kinder im Grundschulalter
 
 ### 50618: Wahl gemeinderätlicher Ausschussmitglieder
 
@@ -585,6 +804,25 @@ Original Kurzfassung — GR Vorlage\_WasserV\_Alb-Pfinz-Hügelland\_2024:
 
 - 0.729258 · t (assistant) · 33932: Bestellung der Vertreter und Vertreterinnen der Stadt Karlsruhe in den Zweckverband für die Wasserversorgung des Hügellandes zwischen Alb und Pfinz
 
+- 0.706060 · t (assistant) · 40835: Vertretung der Stadt Karlsruhe in der Verbandsversammlung des Zweckverbands für die Wasserversorgung des Hügellandes zwischen Alb und Pfinz: Umbesetzung nach dem Ausscheiden von drei Mitgliedern des Ortschaftsrats Wettersbach
+
+- 0.703526 · t (assistant, follow-up review) · 33536: Bestellung der Vertreter und Vertreterinnen der Stadt Karlsruhe im Zweckverband für die Wasserversorgung des Hügellandes zwischen Alb und Pfinz
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/33536.json)
+- Zweckverband Wasserversorgung: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00148234.pdf>) · [extracted text](../../../docs/file-contents/148234.txt)
+
+Original content section — Zweckverband Wasserversorgung:
+> Siehe Beschluss Seite 3 Finanzielle Auswirkungen nein ja Gesamtkosten der Maßnahme Einzahlungen/Erträge (Zuschüsse u. Ä.) Finanzierung durch städtischen Haushalt Jährliche laufende Belastung (Folgekosten mit kalkulatori- schen Kosten abzügl. Folgeer- träge und Folgeeinsparungen) Kontierungsobjekt: Kontenart: Ergänzende Erläuterungen: ISEK Karlsruhe 2020 - relevant nein ja Handlungsfeld: Anhörung Ortschaftsrat (§ 70 Abs. 1 GemO) nein ja durchgeführt am Abstimmung mit städtischen Gesellschaften nein ja abgestimmt mit Ergänzende Erläuterungen Seite 2 Die Stadt Karlsruhe ist Mitglied des Zweckverbands für die Wasserversorgung des Hügellandes zwischen Alb und Pfinz, dem die Wasserlieferung u. a. für die Karlsruher Ortschaften Hohen- wettersbach, Stupferich und Wettersbach obliegt. Die Stadt entsendet nach der Satzung des Zweckverbandes 8 Vertreter in die Verbandsversammlung. Geborenes Mitglied ist der Oberbür- germeister, der im Falle der Verhinderung durch seinen allgemeinen Stellvertreter…
+
+Passage sharing title words (context only) — Zweckverband Wasserversorgung:
+> 2. Plenarsitzung Gemeinderat Termin: Vorlage Nr.: TOP: Verantwortlich: 23.09.2014 2014/0078 6 öffentlich Dez. 1 Bestellung der Vertreter und Vertreterinnen der Stadt Karlsruhe im Zweckverband für die Wasserversorgung des Hügellandes zwischen Alb und Pfinz Beratungsfolge dieser Vorlage am TOP ö nö Ergebnis Gemeinderat 23.09.2014 6 so gewählt Antrag an den Gemeinderat / Ausschuss Siehe Beschluss Seite 3 Finanzielle Auswirkungen nein ja Gesamtkosten der Maßnahme Einzahlungen/Erträge (Zuschüsse u. Ä.) Finanzierung durch städtischen Haushalt Jährliche laufende Belastung (Folgekosten mit kalkulatori- schen Kosten abzügl. Folgeer- träge und Folgeeinsparungen) Kontierungsobjekt: Kontenart: Ergänzen…
+
+
+</details>
+
 ### 50879: Verpflichtung der neu- und wiedergewählten Ortschaftsrätinnen und Ortschafsträte
 
 <details><summary>Original query sources</summary>
@@ -619,6 +857,26 @@ Original Kurzfassung — Beschlussvorlage:
 - 0.729172 · s (assistant) · 36572: Fortführung der ergänzenden Vereinbarung zum KVV-Gesellschaftsvertrag über die Finanzierung der Verbundorganisation sowie der verbundbedingten Lasten des KVV für die Jahre 2019 und 2020
 
 - 0.728353 · s (assistant) · 40137: Fortführung der ergänzenden Vereinbarung zum KVV-Gesellschaftsvertrag über die Finanzierung der Verbundorganisation sowie der verbundbedingten Lasten des KVV für die Jahre 2021 und 2022
+
+- 0.386308 · s (assistant) · 17537: Karlsruher Verkehrsverbund GmbH (KVV): Ergänzende Vereinbarung zum KVV-Gesellschaftsvertrag
+
+- 0.267191 · t (assistant, follow-up review) · 51359: Karlsruher Verkehrsverbund GmbH - gemeinsame Absichtserklärung der Gesellschafter zur Erweiterung des Verbundgebiets
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/51359.json)
+- Beschlussvorlage: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00663477.pdf>) · [extracted text](../../../docs/file-contents/663477.txt)
+- Anlage Absichtserklärung Erweiterung KVV: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00663478.pdf>) · [extracted text](../../../docs/file-contents/663478.txt)
+
+Original Kurzfassung — Beschlussvorlage:
+> 1. Der Gemeinderat nimmt den Bericht über die bisherigen Gespräche und Tätigkeiten zum potentiellen Betritt der Neugesellschafter zum Karlsruher Verkehrsverbund (KVV) zur Kenntnis und ermächtigt den Vertreter der Stadt Karlsruhe in der Gesellschafterversammlung der Karlsruher Verkehrsverbund GmbH, die Gesellschafterrechte der Stadt Karlsruhe mit dem Ziel der Umsetzung des Beitritts der Neugesellschafter auszuüben. Der Gemeinderat ist mit einer Verminderung des Anteils der Stadt Karlsruhe einverstanden, welche zum Verlust der Mehrheit der Stadt Karlsruhe in der Gesellschafterversammlung führt. 2. Der Gemeinderat ermächtigt den Vertreter der Stadt Karlsruhe in der Gesellschafterversammlung des KVV, die als Anlage beigefügte gemeinsame Absichtserklärung zur KVV-Verbundgebietserweiterung (Letter of Intent - LoI) zu unterzeichnen. 3. Eine Entscheidung über die zukünftige Anzahl und Verteilung der Aufsichtsratsmandate erfolgt erst im Rahmen der Anpassung des Gesellschaftsvertrags des KVV. Vo…
+
+Passage sharing title words (context only) — Beschlussvorlage:
+> iterung (Letter of Intent - LoI) zu unterzeichnen. 3. Eine Entscheidung über die zukünftige Anzahl und Verteilung der Aufsichtsratsmandate erfolgt erst im Rahmen der Anpassung des Gesellschaftsvertrags des KVV. Vor einer Abstimmung in der Gesellschafterversammlung des KVV wird dem Gemeinderat die zukünftige Anzahl und Verteilung der Aufsichtsratsmandate zur Entscheidung vorgelegt. Finanzielle Auswirkungen CO 2 -Relevanz: Auswirkung auf den Klimaschutz Abstimmung mit städtischen Gesellschaften abgestimmt mit KVV – 2 – Erläuterungen Die Karlsruher Verkehrsverbund GmbH (KVV) wurde 1994 als Aufgabenträgerverbund gegründet und hat in den Folgejahren die Weiterentwicklung des ÖPNV insbesondere mit…
+
+
+</details>
 
 ### 51278: Auswirkungen eines fehlenden Bundeshaushaltes auf Karlsruhe
 
@@ -671,6 +929,38 @@ Passage sharing title words (context only) — TOP 18 GRÜNE:
 
 </details>
 
+- 0.063018 · **new, unreviewed** · 36077: IT-moderne Schule: Konzept zur Digitalisierung der Karlsruher Schulen · below threshold
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/36077.json)
+- IT-moderne Schule: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00601448.pdf>) · [extracted text](../../../docs/file-contents/601448.txt)
+- Anlage IT-Konzept Kosten Zusammenstellung: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00601447.pdf>) · [extracted text](../../../docs/file-contents/601447.txt)
+
+Original content section — IT-moderne Schule:
+> Der Gemeinderat beschließt nach Vorberatung im Schulbeirat das Konzept zur Digitalisierung der Karlsruher Schulen und beauftragt die Verwaltung, die erforderlichen Budgets bei der Erstel- lung des Haushaltsplan-Entwurfs zu berücksichtigen. Finanzielle Auswirkungen (bitte ankreuzen) x nein ja Gesamtkosten der Maßnahme Einzahlungen/Erträge (Zuschüsse u. Ä.) Finanzierung durch städtischen Haushalt Jährliche laufende Belastung (Folgekosten mit kalkulatori- schen Kosten abzügl. Folgeer- träge und Folgeeinsparungen) siehe Anlage : einmalig (Investitionen): 14.570.389 Euro verteilt auf 5 Jahre jährlich (Investitionen): 2.580.000 Euro jährlich (Betriebskosten): 165.644 Euro Mögliche Förderpro- gramme vom Land und vom Bund. Zurzeit nicht bezifferbar. einmalig (Investitionen): 14.570.389 Euro jährlich (Investitionen): 2.580.000 Euro jährlich (Betriebskosten): 165.644 Euro jährlich (Investitionen): 2.580.000 Euro jährlich (Betriebskosten): 165.644 Euro Haushaltsmittel stehen teilweise zur Verfügu…
+
+
+</details>
+
+- 0.056896 · **new, unreviewed** · 50987: Änderung in der Besetzung des Ausschusses für Umwelt und Gesundheit auf Wunsch der Volt-Gemeinderatsfraktion · below threshold
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/50987.json)
+- Beschlussvorlage: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00660954.pdf>) · [extracted text](../../../docs/file-contents/660954.txt)
+
+Original Kurzfassung — Beschlussvorlage:
+> Der Gemeinderat beschließt einvernehmlich die Umbesetzung im Ausschuss für Umwelt und Gesundheit.
+
+Passage sharing title words (context only) — Beschlussvorlage:
+> t und Gesundheit auf Wunsch der Volt-Gemeinderatsfraktion Kurzfassung Der Gemeinderat beschließt einvernehmlich die Umbesetzung im Ausschuss für Umwelt und Gesundheit. Finanzielle Auswirkungen CO 2 -Relevanz: Auswirkung auf den Klimaschutz Abstimmung mit städtischen Gesellschaften – 2 – Erläuterungen Die Volt-Gemeinderatsfraktion teilte mit Mail vom 13. September 2024 mit, dass künftig Stadtrat Fabian Gaukel anstatt Stadtrat Kiên Nguyen als ordentliches Mitglied für die Zählgemeinschaft Volt + Die PARTEI in den Ausschuss für Umwelt und Gesundheit eintritt. Stadtrat Kiên Nguyen rückt in den Vertreterpool der Zählgemeinschaft nach. Die Gemeindeordnung für Baden-Württemberg sieht in § 40 Abs. 1…
+
+
+</details>
+
 ### 51361: Annahme des Angebots von Zuwendungen
 
 <details><summary>Original query sources</summary>
@@ -718,6 +1008,22 @@ Original content section — Änderungs-/Ergänzungsantrag:
 
 Passage sharing title words (context only) — Änderungs-/Ergänzungsantrag:
 > Gedruckt auf 100 Prozent Recyclingpapier Erneuerung der Turmbergbahn SPD-Gemeinderatsfraktion Vorlage Nr.: 2020/1208 Gremium Termin TOP ö nö Gemeinderat 20. Oktober 2020 4 Im Rahmen der Erneuerung und Verlängerung der Turmbergbahn wird im Bereich der jetzigen Talstation ein Haltepunkt der Turmbergbahn als sogenannte Mittelstation eingerichtet, die als Bedarfshaltestelle ausgestaltet werden kann. Begründung: Die Verwaltung hat bestätigt, dass eine Mittelstation technisch möglich ist. Da die eine Verlängerung der Turmbergbahn bis zur Talsohle des Turmbergs für die Markgrafenstadt eine große Attraktivitätssteigerung bedeutet, sollte nicht nur eine durchgängige Fahrt auf den Turmberg ohne Umstei…
+
+
+</details>
+
+- 0.076857 · t (assistant) · 46625: Erneuerung der Turmbergbahn - Beauftragung zur Einleitung des Planfeststellungsverfahrens · below threshold
+
+- 0.067513 · **new, unreviewed** · 47890: Bauvorhaben Seniorenheim Haus am Turmberg · below threshold
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/47890.json)
+- TOP 5 Anfrage Bauvorhaben Seniorenheim Haus am Turmberg: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00643792.pdf>)
+- TOP 5 Stellungnahme Bauvorhaben Seniorenheim Haus am Turmberg: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00643793.pdf>)
+
+**No usable original text. Judge from the linked PDF, or use `?`.**
 
 
 </details>
@@ -776,6 +1082,41 @@ Passage sharing title words (context only) — Informationsvorlage:
 
 </details>
 
+- 0.050675 · **new, unreviewed** · 32144: Karlsruhe aus Sicht der Region 2012 · below threshold
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/32144.json)
+- Karlsruhe aus Sicht der Region: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00033092.pdf>) · [extracted text](../../../docs/file-contents/33092.txt)
+- Anlage Karlsruhe aus Sicht der Region: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00590816.pdf>) · [extracted text](../../../docs/file-contents/590816.txt)
+
+Original content section — Karlsruhe aus Sicht der Region:
+> Der Gemeinderat nimmt den Ergebnisbericht der Regionsumfrage „Karlsruhe aus Sicht der Region 2012“ zur Kenntnis. Die Stadtmarketing Karlsruhe GmbH wird beauftragt, in Kooperation mit der KASIG, der KMK, der AG Innenstadt und weiteren Ämtern und Gesellschaften geeignete Maßnahmen zu koordinieren, um insbesondere trotz des Innenstadtumbaus die Beeinträchtigungen so gering wie möglich zu halten und die Attraktivität der City zu stärken. Finanzielle Auswirkungen nein ja Gesamtkosten der Maßnahme Einzahlungen/Erträge (Zuschüsse u. Ä.) Finanzierung durch städtischen Haushalt Jährliche laufende Belastung (Folgekosten mit kalkulatori- schen Kosten abzügl. Folgeer- träge und Folgeeinsparungen) Kontierungsobjekt: Kontenart: Ergänzende Erläuterungen: ISEK Karlsruhe 2020 - relevant nein ja Handlungsfeld: Anhörung Ortschaftsrat (§ 70 Abs. 1 GemO) nein ja durchgeführt am: Abstimmung mit städtischen Gesellschaften nein ja abgestimmt mit: Ergänzende Erläuterungen Seite 2 Die Stadt Karlsruhe weist star…
+
+Passage sharing title words (context only) — Karlsruhe aus Sicht der Region:
+> STADT KARLSRUHE Der Oberbürgermeister Gremium: 50. Plenarsitzung Gemeinderat Termin: Vorlage Nr.: TOP: Verantwortlich: 14.05.2013 1403 2 öffentlich Dez. 2 Karlsruhe aus Sicht der Region 2012 Beratungsfolge dieser Vorlage am TOP ö nö Ergebnis Hauptausschuss 07.05.2013 3 Gemeinderat 14.05.2013 2 Antrag an den Gemeinderat / Ausschuss Der Gemeinderat nimmt den Ergebnisbericht der Regionsumfrage „Karlsruhe aus Sicht der Region 2012“ zur Kenntnis. Die Stadtmarketing Karlsruhe GmbH wird beauftragt, in Kooperation mit der KASIG, der KMK, der AG Innenstadt und weiteren Ämtern und Gesellschaften geeignete Maßnahmen zu koordinieren, um insbesondere trotz des Innenstadtumbaus die Beeinträchtigungen so…
+
+
+</details>
+
+- 0.050325 · **new, unreviewed** · 36257: Ergebnisse der Wohnraumstudie der Region Mittlerer Oberrhein · below threshold
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/36257.json)
+- TOP 4 Ergebnisse Wohnraumstudie in der Region Mittlerer Oberrhein: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00604770.pdf>) · [extracted text](../../../docs/file-contents/604770.txt)
+
+Original content section — TOP 4 Ergebnisse Wohnraumstudie in der Region Mittlerer Oberrhein:
+> Der Hauptausschuss nimmt die Ergebnisse der Wohnraumstudie des Regionalverbands Mittlerer Oberrhein „Wohnverhältnisse und Umzugsabsichten in der Region Mittlerer Oberrhein“ und die sich daraus ergebende Auswertung für den Stadtkreis Karlsruhe zur Kenntnis. Finanzielle Auswirkungen Gesamtkosten der Maß- nahme Einzahlungen/Erträge (Zuschüsse u. Ä.) Jährliche laufende Belastung (Folgekosten mit kalkulatorischen Kosten abzügl. Fol- geerträge und Folgeeinsparungen) Ja Nein 100.000 Euro in 2017/2018 15.000 Euro Land BW 56.000 Euro RVMO – Haushaltsmittel sind dauerhaft im Budget vorhanden Ja Nein Die Finanzierung wird auf Dauer wie folgt sichergestellt und ist in den ergänzenden Erläuterungen auszuführen: Durch Wegfall bestehender Aufgaben (Aufgabenkritik) Umschichtungen innerhalb des Dezernates Der Gemeinderat beschließt die Maßnahme im gesamtstädtischen Interesse und stimmt einer Etatisierung in den Folgejahren zu X Nein Ja Korridorthema: Anhörung Ortschaftsrat (§ 70 Abs. 1 GemO) X Nein Ja…
+
+Passage sharing title words (context only) — TOP 4 Ergebnisse Wohnraumstudie in der Region Mittlerer Oberrhein:
+> Stadt Karlsruhe Der Oberbürgermeister BESCHLUSSVORLAGE Vorlage Nr.: Verantwortlich: 2018/0210 Dez. 2 Ergebnisse der Wohnraumstudie in der Region Mittlerer Oberrhein Beratungsfolge dieser Vorlage Gremium Termin TOP ö nö Ergebnis Hauptausschuss 11.09.2018 4 X Beschlussantrag Der Hauptausschuss nimmt die Ergebnisse der Wohnraumstudie des Regionalverbands Mittlerer Oberrhein „Wohnverhältnisse und Umzugsabsichten in der Region Mittlerer Oberrhein“ und die sich daraus ergebende Auswertung für den Stadtkreis Karlsruhe zur Kenntnis. Finanzielle Auswirkungen Gesamtkosten der Maß- nahme Einzahlungen/Erträge (Zuschüsse u. Ä.) Jährliche laufende Belastung (Folgekosten mit kalkulatorischen Kosten abzügl.…
+
+
+</details>
+
 ### 51623: Haushaltssperre 2025 Stadt Karlsruhe
 
 <details><summary>Original query sources</summary>
@@ -796,6 +1137,36 @@ Original Kurzfassung — Stellungnahme Antrag Grötzingen:
 - 0.200633 · t (human) · 39849: Verfügung einer Haushaltssperre
 
 - 0.147426 · t (human) · 54346: Haushaltswirtschaftliche Sperre 2026
+
+- 0.140520 · t (assistant, follow-up review) · 23076: (66. Plenarsitzung): Doppelhaushalt 2009/2010: Haushaltswirtschaftliche Sperre für 2009
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/23076.json)
+- Haushaltswirtsch.Sperre: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00010268.pdf>) · [extracted text](../../../docs/file-contents/10268.txt)
+- Anlage\_Haushaltswirtschaftliche Sperre: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00010269.pdf>)
+
+Original content section — Haushaltswirtsch.Sperre:
+> Der Gemeinderat nimmt die Gesetzmäßigkeit der beschlossenen Haushaltssatzung für die Haushaltsjahre 2009 und 2010 unter den aufgeführten Einschränkungen bzw. Auflagen zur Kenntnis. Der Gemeinderat - genehmigt die als Anlage beigefügte haushaltswirtschaftliche Sperre vom 22.07.2009 für das Jahr 2009 und - beauftragt die Verwaltung, zeitnah ein Haushaltskonsolidierungskonzept vorzulegen, um die in der Genehmigung des Regierungspräsidiums geforderten Konsolidie- rungsmaßnahmen für die Haushaltsjahre 2010 sowie 2011 - 2013 umzusetzen. Finanzielle Auswirkungen nein ja Gesamtaufwand der Maßnahme Einnahmen (Zuschüsse u. Ä.) Finanzierung durch städtischen Haushalt Jährliche laufende Belastung (Folgekosten mit kalkulatori- schen Kosten abzügl. Folgeer- träge und Folgeeinsparungen) siehe Anlage Karlsruhe Masterplan 2015 - relevant nein ja Handlungsfeld: Anhörung Ortschaftsrat (§ 70 Abs. 1 GemO) nein ja durchgeführt am Abstimmung mit städtischen Gesellschaften nein ja abgestimmt mit Ergänzende Er…
+
+
+</details>
+
+- 0.131784 · s (assistant, follow-up review) · 51492: Haushaltssicherung Stadt Karlsruhe: Haushaltswirtschaftliche Sperre
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/51492.json)
+- Beschlussvorlage: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00664464.pdf>) · [extracted text](../../../docs/file-contents/664464.txt)
+- Anlage 1 Haushaltswirtschaftliche Sperre: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00664465.pdf>) · [extracted text](../../../docs/file-contents/664465.txt)
+
+Original Kurzfassung — Beschlussvorlage:
+> Der Gemeinderat nimmt die Unterrichtung gemäß § 28 Absatz 2 Nr.1 Gemeindehaushaltsverordnung (GemHVO) über die voraussichtliche wesentliche Verschlechterung des Planergebnisses 2025 zur Kenntnis und beschließt eine haushaltswirtschaftliche Sperre gemäß § 29 GemHVO für das Haushaltsjahr 2025 entsprechend der Anlage 1.
+
+
+</details>
 
 ### 51633: Baugebiet "Zukunft Nord" - Sachstandsinformation
 
@@ -832,6 +1203,44 @@ Original Kurzfassung — Informationsvorlage:
 
 Original content section — BPlan Erzbergerstraße Auslegungsbeschluss:
 > Der Gemeinderat beschließt die Fortführung des Bebauungsplanverfahrens „Westlich der Erzbergerstraße zwischen New-York-Straße und Lilienthalstraße“, Karlsruhe-Nordstadt, mit der Auslegung des Bebauungs- planentwurfs gemäß § 3 Abs. 2 BauGB. Der Auslegung ist grundsätzlich der Bebauungsplanentwurf vom 20. August 2018 in der Fassung vom 8. September 2021 zugrunde zu legen. Änderungen und Ergänzungen, die die Grundzüge der Planung nicht berühren, kann das Bürgermeisteramt noch in den Bebauungsplanentwurf aufnehmen und zu diesem Zweck gegebenenfalls die öffentliche Auslegung des Bebauungsplanentwurfs wiederholen. Finanzielle Auswirkungen der Maßnahme Einzahlungen \| Erträge (Zuschüsse und Ähnliches) Jährliche laufende Belastung (Folgekosten mit kalkulatorischen Kosten abzüglich Folgeerträge und Folgeeinsparungen) ca. 38 Mio. € ca. 19 Mio. € Haushaltsmittel sind dauerhaft im Budget vorhanden ergänzenden Erläuterungen auszuführen: x Umschichtungen innerhalb des Dezernates Der Gemeinderat besch…
+
+
+</details>
+
+- 0.255494 · s (assistant, follow-up review) · 51563: Grundstücksvergabekonzept für das „Quartier Zukunft Nord (nördlicher Teil)“ – Auswahlkriterien für die Baufelder 4 und 5
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/51563.json)
+- Beschlussvorlage: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00664852.pdf>) · [extracted text](../../../docs/file-contents/664852.txt)
+- Anlage 2: Luftbild: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00665534.pdf>) · [extracted text](../../../docs/file-contents/665534.txt)
+- Anlage 1: Lageplan: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00665536.pdf>) · [extracted text](../../../docs/file-contents/665536.txt)
+
+Original Kurzfassung — Beschlussvorlage:
+> Der Gemeinderat beschließt nach Vorberatung des Haupt- und Finanzausschusses für das Grundstücksvergabekonzept „Quartier Zukunft Nord (nördlicher Teil)“ die in den Erläuterungen näher ausgeführten Auswahlkriterien (Zulassungsvoraussetzungen, Bewertungskriterien, Umsetzungssicherung) für die Baufelder 4 und 5.
+
+Passage sharing title words (context only) — Beschlussvorlage:
+> Beschlussvorlage Gedruckt auf 100 Prozent Recyclingpapier Vorlage Nr.: 2025/0141 Verantwortlich: Dez. 4 Dienststelle: Liegenschaftsamt Grundstücksvergabekonzept für das „Quartier Zukunft Nord (nördlicher Teil)“ – Auswahlkriterien für die Baufelder 4 und 5 Kurzfassung Der Gemeinderat beschließt nach Vorberatung des Haupt- und Finanzausschusses für das Grundstücksvergabekonzept „Quartier Zukunft Nord (nördlicher Teil)“ die in den Erläuterungen näher ausgeführten Auswahlkriterien (Zulassungsvoraussetzungen, Bewertungskriterien, Umsetzungssicherung) für die Baufelder 4 und 5. Finanzielle Auswirkungen CO 2 -Relevanz: Auswirkung auf den Klimaschutz Korridorthema: Wirtschafts- und Wissenschaftsstad…
+
+
+</details>
+
+- 0.251382 · s (assistant, follow-up review) · 37286: Anordnung der Umlegung gemäß § 46 Baugesetzbuch (BauGB) zur Verwirklichung des Bebauungsplanes "Westlich der Erzbergerstraße zwischen New-York-Straße und Lilienthalstraße" in Karlsruhe-Nordstadt
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/37286.json)
+- TOP 27 Umlegung Erzbergerstraße: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00609535.pdf>) · [extracted text](../../../docs/file-contents/609535.txt)
+- Anlage Umlegung Erzbergerstraße Plan: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00609305.pdf>) · [extracted text](../../../docs/file-contents/609305.txt)
+- Anlage Umlegung Erzbergerstraße: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00609306.pdf>) · [extracted text](../../../docs/file-contents/609306.txt)
+
+Original content section — TOP 27 Umlegung Erzbergerstraße:
+> Aufgrund von § 46 BauGB in Verbindung mit § 47 Abs. 2 BauGB wird die Umlegung zur Ver- wirklichung des Bebauungsplanes „Westlich der Erzbergerstraße zwischen New-York-Straße und Lilienthalstraße“ angeordnet. Die Durchführung der Umlegung obliegt dem ständigen Um- legungsausschuss. Das Umlegungsgebiet umfasst den Bereich westlich der Erzbergerstraße zwischen New-York- Straße und Lilienthalstraße. Das ca. 26,4 ha große Umlegungsgebiet soll weitgehend der Ab- grenzung des Bebauungsplanes entsprechen. Finanzielle Auswirkungen Gesamtkosten der Maß- nahme Einzahlungen/Erträge (Zuschüsse u. Ä.) Jährliche laufende Belastung (Folgekosten mit kalkulatorischen Kosten abzügl. Fol- geerträge und Folgeeinsparungen) Ja Nein Haushaltsmittel sind dauerhaft im Budget vorhanden Ja Nein Die Finanzierung wird auf Dauer wie folgt sichergestellt und ist in den ergänzenden Erläuterungen auszuführen: Durch Wegfall bestehender Aufgaben (Aufgabenkritik) Umschichtungen innerhalb des Dezernates Der Gemeinderat bes…
+
+Passage sharing title words (context only) — Anlage Umlegung Erzbergerstraße:
+> Erörterung mit den Eigentümern      Anhörung der Eigentümer Öffentliche Bekannt- machung / Offenlage 20.07.2017 14.05.2019 24.10.2018 Umlegung "Westlich der Erzbergerstraße - Zukunft Nord" bis 02.10.2018 14.05.2019…
 
 
 </details>
@@ -901,6 +1310,35 @@ Original content section — Antrag Grötzingen:
 
 </details>
 
+- 0.063590 · **new, unreviewed** · 29689: Beteiligung der Stadt Karlsruhe als Gründungsstifterin an der KIT-Stiftung · below threshold
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/29689.json)
+- KIT-Stiftung: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00021621.pdf>) · [extracted text](../../../docs/file-contents/21621.txt)
+
+Original content section — KIT-Stiftung:
+> 1. Der Gemeinderat stimmt - nach Vorberatung im Hauptausschuss - einer Beteiligung der Stadt Karlsruhe als Gründungsstifterin von 25.000 € an der zu errichtenden KIT- Stiftung zu. 2. Der Gemeinderat stimmt - nach Vorberatung im Hauptausschuss - einer außerplanmäßigen Ausgabe in Höhe von 25.000 € bei der Kontierung 1.410.28.10.01.04, Plankonto 73180000 zu. Die Deckung erfolgt bei PSP-Element 1.200.61.10.01.31.11, Plankonto 31110000 (Schlüsselzuweisungen) aufgrund von Mehreinnahmen. Finanzielle Auswirkungen nein ja Gesamtkosten der Maßnahme Einzahlungen/Erträge (Zuschüsse u. Ä.) Finanzierung durch städtischen Haushalt Jährliche laufende Belastung (Folgekosten mit kalkulatori- schen Kosten abzügl. Folgeer- träge und Folgeeinsparungen) 25.000 Euro 0 25.000 Euro 0 Haushaltsmittel stehen in voller Höhe zur Verfügung Kontierungsobjekt: Kostenstelle: 1.410.28.10.01.04 Kontenart: 73180000 Ergänzende Erläuterungen: Es ist vorgesehen, dass die TechnologieRegion Karlsruhe sich ebenso mit 25.000 Eu…
+
+
+</details>
+
+- 0.060349 · **new, unreviewed** · 34298: Quartier Zukunft - Labor Stadt · below threshold
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/34298.json)
+- Quartier Zukunft: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00588685.pdf>) · [extracted text](../../../docs/file-contents/588685.txt)
+- Anlage Quartier Zukunft: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00588686.pdf>) · [extracted text](../../../docs/file-contents/588686.txt)
+
+Original content section — Quartier Zukunft:
+> Im Rahmen des Projekts „Quartier Zukunft – Labor Stadt“ des Karlsruher Instituts für Technolo- gie (KIT) wurde ein Bürgerforum durchgeführt, bei dem Bürgerinnen und Bürger der Oststadt Ideen für die nachhaltige Entwicklung ihres Stadtteils entwickelt haben. Die Ergebnisse wurden in einem Bürgerprogramm zusammengefasst. Einzelne Vorschläge der Bürgerinnen und Bürger wurden bereits umgesetzt. Die entstandenen Aktivitäten und Arbeitsgruppen werden vom KIT im Rahmen des neuen Unterprojekts „Reallabor 131 – KIT findet Stadt“ weiter begleitet. Der Hauptausschuss nimmt die Ausführungen zur Kenntnis. Finanzielle Auswirkungen nein ja Gesamtkosten der Maßnahme Einzahlungen/Erträge (Zuschüsse u. Ä.) Finanzierung durch städtischen Haushalt Jährliche laufende Belastung (Folgekosten mit kalkulatori- schen Kosten abzügl. Folgeer- träge und Folgeeinsparungen) Haushaltsmittel stehen (bitte auswählen) Kontierungsobjekt: (bitte auswählen) Kontenart: Ergänzende Erläuterungen: ISEK Karlsruhe 2020 - relevan…
+
+
+</details>
+
 ### 51859: Beigeordnetenwahl Dezernat 4 und Funktion der oder des Ersten Beigeordneten - Stellenausschreibung, Wahlverfahren und Festlegung des Termins für die Beigeordnetenwahl und der gesonderten Wahl der oder des Ersten Beigeordneten
 
 <details><summary>Original query sources</summary>
@@ -936,6 +1374,10 @@ Original content section — Beschlussvorlage:
 
 - 0.652105 · t (assistant) · 48768: Vergabe freigestellter Schülerverkehre für Sonderpädagogische Bildungs- und Beratungszentren und Schulkindergärten in Karlsruhe für das Schuljahr 2023/2024
 
+- 0.618784 · t (assistant) · 50464: Vergabe freigestellter Schülerverkehre für Sonderpädagogische Bildungs- und Beratungszentren und Schulkindergärten in Karlsruhe ab dem Schuljahr 2024/2025
+
+- 0.613841 · s (assistant) · 35522: Vergabe freigestellter Schülerverkehre für sonderpädagogische Bildungs- und Beratungszentren (SBBZ) und einen Schulkindergarten in Karlsruhe und Karlsbad-Langensteinbach für die Schuljahre 2017/2018 bis 2020/2021
+
 ### 52166: Verkehrssituation in der Erbprinzenstraße zwischen Ludwigsplatz und Ecke Herrenstraße/Erbprinzenstraße
 
 <details><summary>Original query sources</summary>
@@ -959,6 +1401,23 @@ Original content section — Anfrage:
 - 0.134234 · t (assistant) · 47517: Fahrradroute Sophienstraße - Herrenstraße - Erbprinzenstraße vorbereiten und ausweisen
 
 - 0.123860 · t (assistant) · 49181: Satzung zur Änderung der Satzung über Sondernutzungen in den Fußgängerbereichen
+
+- 0.122066 · t (assistant) · 376: Ergänzungsantrag: Autofreie Südliche Waldstraße
+
+- 0.108792 · t (assistant, follow-up review) · 36073: Radwegekonzept - Berliner Platz/Herren-/Sophienstraße
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/36073.json)
+- Stellungnahme TOP 21: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00601840.pdf>) · [extracted text](../../../docs/file-contents/601840.txt)
+- FW Radwegekonzept: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00601841.pdf>) · [extracted text](../../../docs/file-contents/601841.txt)
+
+Original opening — Stellungnahme TOP 21:
+> Gremium Termin TOP ö nö Ergebnis Gemeinderat 20.03.2018 21 x A) Derzeit benutzen Fahrradfahrer den Fußgängerweg am Berliner Platz an der Einzel- handelszeile im nördlichen Bereich. Ein ausgewiesener Radweg ist nicht vorhanden. Laut Medienberichten ist dies eine unfallträchtige Stelle und muss umgehend ent- schärft werden. Wann ist mit einer Entflechtung des Fußgänger- und Radverkehrs zu rechnen? Auf Grund der geringen Platzverhältnisse durch das Baufeld der KASIG-Baustelle am Berliner Platz ist der Bereich vor den dortigen Geschäften als reiner Fußweg ausgeschildert. Die ent- sprechenden Verkehrszeichen sind deutlich aufgestellt. Für den Radverkehr ist eine Umlei- tungsstrecke über die Englerstraße - Zirkel ausgewiesen. Auch diese Beschilderung ist ein- deutig aufgestellt. Eine Entflechtung der Verkehrsarten im dortigen Bereich ist also bereits vorhanden. Da bekannt ist, dass Radfahrende aus Gewohnheit und Bequemlichkeit trotz der aufgestellten Beschilderung den kürzesten Weg wählen, w…
+
+
+</details>
 
 ### 52252: Ergebnisse der Vorstudie "Circular Economy in Karlsruhe" und Strategieauftrag
 
@@ -997,6 +1456,36 @@ Original content section — Antrag:
 
 </details>
 
+- 0.044685 · **new, unreviewed** · 38322: Antrag der SPD-Ortschaftsratsfraktion vom 16.09.2019, Potenziale für Solarenergie in Neureut nutzen · below threshold
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/38322.json)
+- TOP\_1\_SPD\_Solarenergie, aktuell: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00614531.pdf>)
+
+**No usable original text. Judge from the linked PDF, or use `?`.**
+
+
+</details>
+
+- 0.042295 · **new, unreviewed** · 51964: Beschaffung der Microsoft-Lizenzen für die Stadtverwaltung · below threshold
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/51964.json)
+- Beschlussvorlage: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00667405.pdf>) · [extracted text](../../../docs/file-contents/667405.txt)
+
+Original Kurzfassung — Beschlussvorlage:
+> 1. Der Haupt- und Finanzausschuss empfiehlt dem Gemeinderat, die Beschaffung der Microsoft- Lizenzen in der On-Premise-Variante zu beschließen 2. Der Gemeinderat beschließt die Beschaffung der Microsoft-Lizenzen in der On-Premise- Variante
+
+Passage sharing title words (context only) — Beschlussvorlage:
+> untersuchte im vergangenen Halbjahr die Umstellung auf die Cloud-Version der Microsoft-Produkte aus technischer, organisatorischer, rechtlicher und finanzieller Sicht im Projekt „Vorstudie M365“. Das Projekt Vorstudie M365 hat ergeben, dass ein Umstieg auf die Cloud-Lizenzierung aus technischer und organisatorischer Sicht durchaus sinnvoll erscheint. In Anbetracht der aktuellen Haushaltslage kann jedoch nur die Beibehaltung des Status Quo empfohlen werden. Zum 1. Januar 2026 laufen die aktuellen Verträge für die Lizenzierung der Microsoft-Produkte aus. Aktueller ProVitako-Vertragspartner für Enterprise-Agreement-Produkte ist die Firma Crayon Deutschland GmbH. Diese hat Preise für die Lizenz…
+
+
+</details>
+
 ### 52297: Festsetzung des Wirtschaftsplans 2026 des Eigenbetriebs "Fußballstadion im Wildpark"
 
 <details><summary>Original query sources</summary>
@@ -1017,6 +1506,10 @@ Original Kurzfassung — Festsetzung des Wirtschaftsplans 2026 des Eigenbetriebs
 - 0.661642 · t (assistant) · 49322: Festsetzung des Wirtschaftsplans 2024 des Eigenbetriebs "Fußballstadion im Wildpark"
 
 - 0.578167 · t (assistant) · 47033: Festsetzung des Wirtschaftsplans 2023 des Eigenbetriebs Fußballstadion im Wildpark
+
+- 0.572137 · n (assistant) · 47684: Festsetzung des Wirtschaftsplans 2023 des Eigenbetriebs "Team Sauberes Karlsruhe - Abfallwirtschaft und Stadtreinigung"
+
+- 0.507890 · t (assistant) · 41849: Festsetzung des Wirtschaftsplans 2022 des Eigenbetriebs "Fußballstadion im Wildpark"
 
 ### 52813: HHS4\_V250 Ambiente- und Freizeitflächenbeleuchtung erhalten
 
@@ -1079,6 +1572,35 @@ Original content section — Informationsvorlage:
 
 </details>
 
+- 0.121989 · t (assistant, follow-up review) · 40619: Aufnahme von Flächen in Wolfartsweier in die Gesamtkonzeption zur Umsetzung von Calisthenics-Anlagen
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/40619.json)
+- TOP3\_ORS\_Antrag\_SPD\_Calisthetics: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00622184.pdf>) · [extracted text](../../../docs/file-contents/622184.txt)
+
+Original content section — TOP3\_ORS\_Antrag\_SPD\_Calisthetics:
+> Der Ortschaftsrat beschließt die Ortsverwaltung und die zuständigen Fachämter der Stadtverwaltung zu beauftragen, im Rahmen der stadtweiten Gesamtkonzeption „Calisthenics- Anlagen“ zu prüfen, ob auch Flächen in Wolfartsweier für den Bau neuer Anlagen geeignet sind. Sachverhalt/Begründung: Bewegung und Sport im Freien hat in den vergangen Jahren an Beliebtheit zugenommen. Die derzeitige Corona-Pandemie, welche sportliche Betätigung in geschlossenen Räumen stark begrenzt oder sogar ausschließt, verstärkt den Bedarf an Sportangeboten im Freien. Die Nutzung sogenannter Calisthenics-Anlagen erfreuen sich zunehmender Beliebtheit, weshalb in Karlsruhe auch die ersten Sportstätten in Betrieb genommen wurden. Solche Anlagen sind in gleicher Weise für junge, aber auch älteren Menschen geeignet um sich eigenständig im Freien sportlich zu betätigen. Der Gemeinderat der Stadt Karlsruhe hat in seiner Sitzung am 17. November 2020 die Stadtverwaltung beauftragt, eine Gesamtkonzeption für Calisthenics-…
+
+
+</details>
+
+- 0.105813 · t (assistant, follow-up review) · 38182: Beleuchtung der Calisthenics-Anlage in der Südstadt
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/38182.json)
+- Anfrage: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00613047.pdf>) · [extracted text](../../../docs/file-contents/613047.txt)
+- Stellungnahme TOP 37: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00614998.pdf>) · [extracted text](../../../docs/file-contents/614998.txt)
+
+Original content section — Anfrage:
+> In der Südstadt wird im Bereich Rankestraße/Luisenstraße eine weitere attraktive, vielfältige und offen zugängliche Calisthenics-Anlage entstehen, die sowohl Kinder und Jugendliche als auch Ältere anspricht. Diese sollte auch in der dunkleren Jahreszeit abends bis 20:30 Uhr nutzbar sein. Dazu wäre eine intelligente Bedarfsbeleuchtung der Anlage notwendig, was vor Ort auf breite Unterstützung in der Bevölkerung stößt. Angesichts der Innenstadtlage dürften die technischen Voraussetzungen hierfür vorhanden sein. Mit einer intelligenten Beleuchtung mit Bewegungsmelder und maximaler Beleuchtung bis 20:30 Uhr wäre die Nutzungsmöglichkeit der Anlage deutlich verbessert Unterzeichnet von: Parsa Marvi Irene Moser Michael Zeh
+
+
+</details>
+
 ### 52903: HHS4\_GR8 - Reduzierung der Bezuschussung von Stadtteilhäusern (Reinigung, Mietkosten, Südwerk und nicht verausgabtes Budget) - SÜDWERK - Rücknahme Kürzung
 
 <details><summary>Original query sources</summary>
@@ -1130,6 +1652,47 @@ Passage sharing title words (context only) — Beschlussvorlage\_Stadtteilhaus\_
 
 </details>
 
+- 0.090649 · **new, unreviewed** · 50400: Antrag auf Förderung als Stadtteilhaus "Sozial-Kulturelles Zentrum (SKZ)" im Ökumenischen Gemeindezentrum in Oberreut · below threshold
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/50400.json)
+- Beschlussvorlage\_Stadtteilhaus\_Oberreut: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00658157.pdf>) · [extracted text](../../../docs/file-contents/658157.txt)
+- Anlage\_1\_SKZ\_Förderantrag\_geschützt: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00658151.pdf>) · [extracted text](../../../docs/file-contents/658151.txt)
+- Anlage\_2\_SKZ\_Nutzungskonzept: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00658152.pdf>) · [extracted text](../../../docs/file-contents/658152.txt)
+- Anlage\_3\_ÖGZ\_Grundriss(UG): [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00658153.pdf>) · [extracted text](../../../docs/file-contents/658153.txt)
+- Anlage\_4\_SKZ\_Belegungsplan: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00658154.pdf>) · [extracted text](../../../docs/file-contents/658154.txt)
+- Anlage\_5\_SKZ\_Entwurf\_Mietvertrag: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00658155.pdf>) · [extracted text](../../../docs/file-contents/658155.txt)
+
+Original Kurzfassung — Beschlussvorlage\_Stadtteilhaus\_Oberreut:
+> Der Gemeinderat nimmt nach Vorberatung im Hauptausschuss das Konzept für ein Stadtteilhaus „Sozial-Kulturelles Zentrum (SKZ)“ zur Kenntnis und beschließt, dem Ökumenischen Gemeindezentrum Oberreut ab Juli 2024 einen Zuschuss in Höhe von monatlich 2.379,60 Euro (28.555,20 Euro pro Jahr) entsprechend der Förderrichtlinie Stadtteilhäuser zu gewähren.
+
+Passage sharing title words (context only) — Anlage\_2\_SKZ\_Nutzungskonzept:
+> ......................................................15-17 8 Finanzplan.....................................................................................................17 8.1 Mietkosten................................................................................................17 8.2 Betriebskosten..........................................................................................17 8.3 Reinigungskosten.......................................................................................17 8.4 Reparaturkosten........................................................................................17 8.5 Personal....................................................................…
+
+
+</details>
+
+- 0.085075 · **new, unreviewed** · 54578: Auswirkungen der Zuschusskürzungen bei der Raumförderung für Stadtteilhäuser · below threshold
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/54578.json)
+- Beschlussvorlage: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00678490.pdf>) · [extracted text](../../../docs/file-contents/678490.txt)
+- Anlage1\_Synopse Förderrichtlinie Stadtteilhäuser alt neu: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00678943.pdf>) · [extracted text](../../../docs/file-contents/678943.txt)
+- Anlage2\_Fördergrundsätze für Stadtteilhäuser: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00678944.pdf>) · [extracted text](../../../docs/file-contents/678944.txt)
+
+Original Kurzfassung — Beschlussvorlage:
+> Der Gemeinderat nimmt nach Vorberatung im Haupt- und Finanzausschuss den Bericht zu den Auswirkungen der individuellen, haushälterisch bedingten Zuschusskürzungen bei den Karlsruher Stadtteilhäuser rückwirkend ab 1. Januar 2026 zur Kenntnis und beschließt die damit einhergehenden inhaltlichen Änderungen in den Grundsätzen der Förderung von Stadtteilhäusern in der Stadt Karlsruhe.
+
+Passage sharing title words (context only) — Beschlussvorlage:
+> n alle Stadtteilhäuser ab einer Größe von 200 m² eine weitere Kürzung der Reinigungskostenpauschale um 20 %. Die pauschale Förderung von 15.000 Euro für das Bürgerzentrum Südstadt Südwerk wurde gänzlich eingestellt. Beschluss: Antrag an den Gemeinderat Der Gemeinderat nimmt nach Vorberatung im Haupt- und Finanzausschuss den Bericht zu den Auswirkungen der individuellen, haushälterisch bedingten Zuschusskürzungen bei den Karlsruher Stadtteilhäuser rückwirkend ab 1. Januar 2026 zur Kenntnis und beschließt die damit einhergehenden inhaltlichen Änderungen in den Grundsätzen der Förderung von Stadtteilhäusern in der Stadt Karlsruhe. -- 4 of 4 --…
+
+
+</details>
+
 ### 54339: Grünwinkel: Weiterentwicklung WestBahnHub - Teileinziehung
 
 <details><summary>Original query sources</summary>
@@ -1162,6 +1725,44 @@ Original content section — Beschlussvorlage:
 
 Passage sharing title words (context only) — Beschlussvorlage:
 > Beschlussvorlage Gedruckt auf 100 Prozent Recyclingpapier Vorlage Nr.: 2023/0518 Verantwortlich: Dez. 6 Dienststelle: TBA Teileinziehung Passagehof zur Nutzung als Fußgängerbereich Beratungsfolge dieser Vorlage Gremium Termin TOP ö nö Ergebnis Hauptausschuss 11.07.2023 22 x Gemeinderat 18.07.2023 23 x Beschlussantrag 1. Der Gemeinderat beschließt nach Vorberatung im Hauptausschuss die (Teil-)Einziehung der in Anlage 1 dargestellten Teilfläche des Passagehofes und Umwidmung der Fläche als beschränkt öffentlicher Weg zur Nutzung als Fußgängerbereich). 2. Der Gemeinderat erklärt sein Einvernehmen mit der Ausweisung des Passagehofs als Fußgängerzone gemäß Zeichen 242.1 Straßenverkehrsordnung (St…
+
+
+</details>
+
+- 0.057801 · **new, unreviewed** · 37244: Einleitung vorbereitender Untersuchungen zur Vorbereitung von Sanierungsmaßnahmen für das Gebiet "Gewerbegebiet Grünwinkel" sowie Satzung über besonderes Vorkaufsrecht für das Quartier "Umfeld Bahnhof West" · below threshold
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/37244.json)
+- Einleitung VU Gewerbegebiet Grünwinkel: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00609231.pdf>) · [extracted text](../../../docs/file-contents/609231.txt)
+- Anlage 1\_Gruenwinkel\_VU\_A3: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00609215.pdf>) · [extracted text](../../../docs/file-contents/609215.txt)
+- Anlage 2\_Grünwinkel Vorkaufsrechtssatzung: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00609216.pdf>) · [extracted text](../../../docs/file-contents/609216.txt)
+- Anlage 3 Abgrenzungsplan zu Anlage 2\_Gruenwinkel\_VKS\_A3: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00609217.pdf>) · [extracted text](../../../docs/file-contents/609217.txt)
+
+Original content section — Einleitung VU Gewerbegebiet Grünwinkel:
+> Der Gemeinderat beschließt 1. die Einleitung der vorbereitenden Untersuchungen zur Vorbereitung von Sanierungsmaß- nahmen nach § 141 BauGB für das Untersuchungsgebiet "Gewerbegebiet Grünwinkel " (Anlage 1) sowie 2. die aus der Anlage 2 ersichtliche Satzung über ein besonderes Vorkaufsrecht für das Quar- tier "Umfeld Bahnhof West" (Abgrenzungsplan zu Anlage 2) nach § 25 Abs. 1 Ziff. 2 BauGB. Finanzielle Auswirkungen Gesamtkosten der Maß- nahme Einzahlungen/Erträge (Zuschüsse u. Ä.) Jährliche laufende Belastung (Folgekosten mit kalkulatorischen Kosten abzügl. Fol- geerträge und Folgeeinsparungen) Ja Nein 50.000 Euro ggf. zzgl. Erwerbskosten bei Vorkaufsrechtsausübung bei Aufnahme in ein Sanierungsprogramm sind die Kosten des Vorjahres zu 60% förderfähig ggf. 15.000 Euro Haushaltsmittel sind dauerhaft im Budget vorhanden Ja Nein Die Finanzierung wird auf Dauer wie folgt sichergestellt und ist in den ergänzenden Erläuterungen auszuführen: Durch Wegfall bestehender Aufgaben (Aufgabenkritik)…
+
+Passage sharing title words (context only) — Einleitung VU Gewerbegebiet Grünwinkel:
+> ster BESCHLUSSVORLAGE Vorlage Nr.: Verantwortlich: 2019/0335 Dez. 6 Einleitung vorbereitender Untersuchungen zur Vorbereitung von Sanierungsmaßnahmen für das Gebiet „Gewerbegebiet Grünwinkel“ sowie Satzung über besonderes Vorkaufsrecht für das Quartier „Umfeld Bahnhof West“ Beratungsfolge dieser Vorlage Gremium Termin TOP ö nö Ergebnis Hauptausschuss 07.05.2019 10 X Vorberaten Planungsausschuss 09.05.2019 10 X Vorberaten Gemeinderat 14.05.2019 5 X zugestimmt Beschlussantrag Der Gemeinderat beschließt 1. die Einleitung der vorbereitenden Untersuchungen zur Vorbereitung von Sanierungsmaß- nahmen nach § 141 BauGB für das Untersuchungsgebiet "Gewerbegebiet Grünwinkel " (Anlage 1) sowie 2. die au…
+
+
+</details>
+
+- 0.056715 · **new, unreviewed** · 48821: Weiterentwicklung Karlstraße auf Basis des Reallabors: Übergeordnete Planung · below threshold
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/48821.json)
+- Änderungs-/Ergänzungsantrag: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00648443.pdf>) · [extracted text](../../../docs/file-contents/648443.txt)
+- Stellungnahme Antrag: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00648509.pdf>) · [extracted text](../../../docs/file-contents/648509.txt)
+
+Original content section — Änderungs-/Ergänzungsantrag:
+> Eine vom motorisierten Verkehr beruhigte Innenstadt ist ein Wunsch vieler Fußgängerinnen und Fußgänger, die sich zwischen Europaplatz, Kaiserstraße und Ludwigsplatz bewegen. Dabei muss aber auch in Zukunft der Anlieferungsverkehr, sowie die Anfahrt der Praxen vor Ort berücksichtigt werden. Wie der Bürgerverein zurecht fordert, müssen die Maßnahmen, wie in der Karlstraße als bekannte Nord-Süd-Achse, in ein Gesamtkonzept für die Karlsruher Innenstadt gefasst werden. Dieses kann in Zukunft für die Umsetzung weiterer Maßnahmen berücksichtigt werden und bietet Perspektiven und Wege für alle Formen der Mobilität für eine zukunftsfähige, erreichbare Innenstadt. Unterzeichnet: Jürgen Wenzel Friedemann Kalmbach Petra Lorenz
+
+Passage sharing title words (context only) — Änderungs-/Ergänzungsantrag:
+> Ergänzungsantrag Gedruckt auf 100 Prozent Recyclingpapier FW\|FÜR-Gemeinderatsfraktion Eingang: 23.06.2023 Vorlage Nr.: 2023/0386/2 Weiterentwicklung Karlstraße auf Basis des Reallabors: Übergeordnete Planung Gremium Termin TOP ö nö Gemeinderat 27.06.2023 16.2 x Hauptausschuss 12.09.2023 5.3 X Gemeinderat 19.09.2023 16.3 x Die Stadtverwaltung erstellt eine Rahmenplanung für den motorisierten Individualverkehr in der Innenstadt, in dem Verkehrsberuhigungsmaßnahmen, sowie weitere Umgestaltungen der Straßen und Verkehrsangebote, sowie die autofreie Innenstadt in ein Gesamtkonzept gefasst wird. Begründung Eine vom motorisierten Verkehr beruhigte Innenstadt ist ein Wunsch vieler Fußgängerinnen und…
 
 
 </details>
@@ -1203,6 +1804,39 @@ Passage sharing title words (context only) — Fortschreibung:
 </details>
 
 - 0.059702 · t (assistant) · 40570: Erneuerung der Strategie der Wirtschaftsförderung der Stadt Karlsruhe mit dem Schwerpunkt Klimaneutralität und Kreislaufwirtschaft · below threshold
+
+- 0.058189 · **new, unreviewed** · 51487: Kulturkonzept – Struktur und Vorgehensweise zur Fortführung des Konzepts 2025, Status quo · below threshold
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/51487.json)
+- Vorlage: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00667652.pdf>) · [extracted text](../../../docs/file-contents/667652.txt)
+- Anlage Kulturkonzept 2025 der Stadt Karlsruhe: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00667662.pdf>) · [extracted text](../../../docs/file-contents/667662.txt)
+
+Original Kurzfassung — Vorlage:
+> Das Kulturkonzept 2015–2025 (siehe Anlage) wurde in einem intensiven Beteiligungsprozess (2012– 2014) mit rund 250 Akteur\*innen entwickelt und am 20. Mai 2014 vom Gemeinderat einstimmig verabschiedet. Es legt klare Ziele, Handlungsfelder und Maßnahmen fest, um das kulturelle Angebot zu stärken, Vielfalt zu fördern und die Zusammenarbeit in Karlsruhe zu verbessern. Aufgrund aktueller gesellschaftlicher Herausforderungen soll das Konzept nun im Rahmen der Weiterentwicklung bis 2035 überprüft und angepasst werden. Ziel ist es, bewährte Elemente zu bewahren, neue Schwerpunkte wie Digitalisierung, Nachhaltigkeit und gesellschaftlichen Zusammenhalt zu integrieren sowie die kulturelle Infrastruktur weiter zu stärken. Die Weiterentwicklung erfolgt transparent und unter breiter Beteiligung aller relevanten Akteurinnen und Akteuren. Eine detaillierte Evaluierung durch das Kulturamt hat bereits ein hohes Maß an bereits umgesetzten Maßnahmen des Kulturkonzeptes 2025 bestätigt.
+
+
+</details>
+
+- 0.053901 · **new, unreviewed** · 41599: Klimaanpassungsstrategie 2021: Strategieentwicklung: Klimaanpassung und Katastrophenschutz · below threshold
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/41599.json)
+- Änderungs-/Ergänzungsantrag: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00627147.pdf>) · [extracted text](../../../docs/file-contents/627147.txt)
+- STN CDU Strategieentwicklung\_Klimaanpassung und Katastrophenschutz\_final: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00627184.pdf>) · [extracted text](../../../docs/file-contents/627184.txt)
+
+Original content section — Änderungs-/Ergänzungsantrag:
+> Im Sommer 2021 sind die Auswirkungen der weltweiten und durch den Menschen herbeigeführten Klimakrise insbesondere in Rheinland-Pfalz und Nordrhein-Westfalen durch Überflutungen und zahlreiche Todesfälle zutage getreten. Die CDU-Gemeinderatsfraktion unterstützt das „Klimaschutzkonzept 2030“ der Stadt Karlsruhe und setzt sich für das Ziel „Klimaneutralität bis 2050“ ein. Nicht verleugnen lässt sich jedoch, dass der städtische Anteil an globalen Klimaschutzmaßnahmen marginal ist. Weiterhin gilt laut Aussagen von renommierten Klimaforschern wie Mojib Latif, dass sich die Klimakrise trotz der weltweiten Bemühungen zum Schutz des Klimas in absehbarer Zeit nicht beenden oder umkehren lässt. Vielmehr werden wir uns damit abfinden müssen, uns an Extremwetterereignisse wie Hitze- und Dürreperioden sowie Stürme und Starkniederschläge zu gewöhnen. Insofern erachten wir es neben den Anstrengungen zur Reduktion von Treibhausgasemissionen als wichtig, die Anpassung an die Klimakrise bestmöglich und…
+
+Passage sharing title words (context only) — Änderungs-/Ergänzungsantrag:
+> Änderungsantrag Gedruckt auf 100 Prozent Recyclingpapier CDU-Gemeinderatsfraktion Eingang: 22.07.2021 Vorlage Nr.: 2021/0770/1 Klimaanpassungsstrategie 2021: Strategieentwicklung: Klimaanpassung und Katastrophenschutz Gremium Termin TOP ö nö Gemeinderat 27.07.2021 13.1 x Die CDU-Gemeinderatsfraktion Karlsruhe beantragt: 1. Die Stadtverwaltung legt dar, wie die Katastrophenvorsorge der Stadt Karlsruhe auf extreme Wetterereignisse vorbereitet ist und welche Sofortmaßnahmen im Fall von Überflutungen von Stadtgebieten ergriffen werden. Zudem ermittelt die Stadtverwaltung, welchem Gefahrenrisiko insbesondere die Bebauung in Hanglage – beispielsweise in den Bergdörfern – mit Blick auf Starkregener…
+
+
+</details>
 
 ### 54797: Verschlankung der ortschaftsrätlichen Gremien als Beitrag zur Haushaltsstabilisierung
 
@@ -1261,6 +1895,36 @@ Passage sharing title words (context only) — 1007 Stellungnahme DHH:
 
 Original Kurzfassung — Beschlussvorlage Wolfartsweier:
 > Der Ortschaftsrat Wolfartsweier kann gem. § 32 Abs. 1 der Geschäftsordnung des Ortschaftsrates Wolfartsweier beratende Ausschüsse bilden. Die Zahl der Ausschussmitglieder wird durch einen gesonderten Beschluss des Ortschaftsrates festgelegt.
+
+
+</details>
+
+- 0.054201 · **new, unreviewed** · 38098: Arbeitskreis Baggersee · below threshold
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/38098.json)
+- TOP 8 Vorlage 42 MfG-Antrag\_Arbeitskreis Baggersee: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00612794.pdf>) · [extracted text](../../../docs/file-contents/612794.txt)
+- TOP 8 Vorlage 42 StN MfG-Antrag\_Arbeitskreis Baggersee: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00612795.pdf>) · [extracted text](../../../docs/file-contents/612795.txt)
+
+Original opening — TOP 8 Vorlage 42 MfG-Antrag\_Arbeitskreis Baggersee:
+> Gremium Termin TOP ö nö Ortschaftsrat Grötzingen 11.12.2019 8 x q In der Ortschaftsratssitzung vom Oktober wurde unser Antrag zu Änderungen in der Rechtsver- ordnung des Baggersees zwar auf die Tagesordnung genommen, wir erhielten jedoch den Hin- weis, dass eine Behandlung und Diskussion im Arbeitskreis Baggersee zu erfolgen habe. Die Sitzung des Arbeitskreises würde zeitnah im November stattfinden. In der letzten Sitzung ha- ben sie nun mitgeteilt, dass wegen Terminschwierigkeiten von Fachämtern eine Sitzung erst im März 2020 stattfinden soll. Diese Verschiebung ist nicht hinnehmbar. Die MfG Fraktion bittet daher um Mitteilung folgender Fragen: Welche Fachämter haben die Verschiebung des Termins verursacht? Warum wurde der Termin nicht langfristig terminiert? Die MfG Fraktion beantragt zudem: Der Ortschaftsrat diskutiert zunächst vorab die anstehenden Themen zum Baggersee in einer öffentlichen Sitzung im Januar 2020.
+
+
+</details>
+
+- 0.050011 · **new, unreviewed** · 52802: Kennzeichnung von Pflichtaufgaben und Freiwilligen Aufgaben auf Beschlussvorlagen · below threshold
+
+<details><summary>Original candidate sources</summary>
+
+
+[Paper record](../../../docs/papers/52802.json)
+- Antrag CDU\_003: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00672369.pdf>) · [extracted text](../../../docs/file-contents/672369.txt)
+- 1002 Stellungnahme DHH: [PDF](<https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00674876.pdf>) · [extracted text](../../../docs/file-contents/674876.txt)
+
+Original content section — Antrag CDU\_003:
+> Kommunen übernehmen vielfältige Aufgaben, dazu gehören Pflichtaufgaben nach Weisung, weisungsfreie Pflichtaufgaben und Freiwillige Aufgaben. Angesichts der prekären Haushaltslage und der unbedingten Ziel- vorgabe, die Haushaltsaufsicht durch das Regierungspräsidium zu verhindern, müssen Verwaltung und Ge- meinderat kritisch Auf- und Ausgaben hinterfragen. Daher gilt es mehr als je zuvor, sämtliche Übererfüllungen gesetzlicher Standards zu identifizieren und zu reduzieren. Zwei Beispiele aus der jüngsten Vergangenheit zeigen, wie gesetzliche Standards in Karlsruhe übererfüllt wer- den: Beim öffentlichen Bauen werden gesetzliche Standards auch trotz der drohenden Haushaltsaufsicht noch freiwillig um mindestens 30 Prozent übererfüllt. Bei der Ganztagesbetreuung hat der Gemeinderat mit SKiBB ein Konzept auf den Weg gebracht, das die gesetzliche Vorgabe jährlich um mindestens 30,0 Millionen Euro übersteigt – und zwar ohne, dass wir bei den Themen Infrastruktur oder Personal schritthalten kö…
 
 
 </details>

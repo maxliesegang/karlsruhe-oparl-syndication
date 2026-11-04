@@ -40,6 +40,7 @@ const REPORT_FILE = `${ROOT}/similarity-comparison.md`;
 const FOLLOW_UP_FILES = [
   `${ROOT}/similarity-pending-review.md`,
   `${ROOT}/similarity-publication-review.md`,
+  `${ROOT}/similarity-top-five-review.md`,
 ];
 
 interface QueryScores {
@@ -153,7 +154,9 @@ function renderComparison(
     ['Before', baseline],
     ['After', current],
   ] as const) {
-    for (const count of [1, PAPER_SIMILARITY_MAXIMUM_NEIGHBOR_COUNT]) {
+    // Top 3 stays as a row: it was the published maximum until scoring v4, so the
+    // cost of the two extra slots remains visible next to the full list.
+    for (const count of new Set([1, 3, PAPER_SIMILARITY_MAXIMUM_NEIGHBOR_COUNT])) {
       const stats = summarizeRecommendations(
         snapshot.queries,
         evaluated,

@@ -8,6 +8,7 @@ import { canonicalStringify } from '../src/docs-files.js';
 import { stores } from '../src/store/index.js';
 import {
   buildPaperSimilarityIndex,
+  PAPER_SIMILARITY_MAXIMUM_NEIGHBOR_COUNT,
   writePaperSimilarityIndex,
 } from '../src/services/paper-similarity-index-service.js';
 import { Paper } from '../src/types/index.js';
@@ -42,11 +43,11 @@ describe('published paper similarity index', () => {
     for (const paper of papers) stores.papers.add(paper);
     const relations = { version: 1 as const, papers: { '1': { '4': ['cites' as const] } } };
     const index = buildPaperSimilarityIndex(relations);
-    expect(index.version).toBe(3);
+    expect(index.version).toBe(4);
     expect(index.papers['1']).toHaveLength(1);
     expect(['2', '3']).toContain(index.papers['1'][0]);
     for (const [id, neighbors] of Object.entries(index.papers)) {
-      expect(neighbors.length).toBeLessThanOrEqual(3);
+      expect(neighbors.length).toBeLessThanOrEqual(PAPER_SIMILARITY_MAXIMUM_NEIGHBOR_COUNT);
       expect(neighbors).not.toContain(id);
     }
     const bytes = canonicalStringify(index);
@@ -58,6 +59,37 @@ describe('published paper similarity index', () => {
       expect.stringContaining('/docs/paper-similar.json'),
       bytes,
     );
+  });
+  it('publishes up to five neighbours, best first, and cuts the sixth', () => {
+    expect(PAPER_SIMILARITY_MAXIMUM_NEIGHBOR_COUNT).toBe(5);
+    // Each candidate shares fewer title terms with the query than the one before,
+    // so the ranking is strict and the sixth is the one that must be dropped.
+    const shared = [
+      'stadthalle',
+      'sanierung',
+      'brandschutz',
+      'bühnentechnik',
+      'lüftung',
+      'akustik',
+    ];
+    const query = makePaper('q', shared.join(' '));
+    const candidates = shared.map((_, i) =>
+      makePaper(
+        `c${i}`,
+        `${shared.slice(0, shared.length - i).join(' ')} Gutachten${i}`,
+        `2026/1${i}`,
+      ),
+    );
+    for (const paper of [
+      query,
+      ...candidates,
+      ...Array.from({ length: 80 }, (_, i) =>
+        makePaper(`filler-${i}`, `Unrelated${'x'.repeat(i + 1)}`),
+      ),
+    ])
+      stores.papers.add(paper);
+    const index = buildPaperSimilarityIndex({ version: 1, papers: {} });
+    expect(index.papers['q']).toEqual(['c0', 'c1', 'c2', 'c3', 'c4']);
   });
   it('refuses colliding record basenames instead of merging different papers', () => {
     stores.papers.add(makePaper('99', 'Stadthalle Sanierung'));
