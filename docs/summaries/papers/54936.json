@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T06:26:47.098Z",
+  "generatedAt": "2026-11-04T19:53:16.813Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54936",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680897",
+      "page": 1,
+      "quote": "2023 3291 2024 2243 2025 7038 2026 5741"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680897",
+      "page": 1,
+      "quote": "Das Team Sauberes Karlsruhe (TSK) erfasst die aufgrund von Fehlbefüllungen nicht durchgeführten Leerungen von Abfallbehältern nicht stadtteilbezogen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680897",
+      "page": 2,
+      "quote": "Eine gesonderte beziehungsweise standardisierte Sanktionsmaßnahme für Wohnobjekte, bei denen wiederholt Fehlbefüllung festgestellt werden, ist nicht vorgesehen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680897",
+      "page": 2,
+      "quote": "Diese sind für die Bioabfallsammlung des TSK ebenfalls nicht zugelassen, da sie unter den Bedingungen der nachfolgenden Behandlung nicht zuverlässig vollständig abgebaut werden"
+    }
+  ],
   "keyPoints": [
-    "Aufgrund von Fehlbefüllungen nicht geleerte Abfallsammelbehälter wurden für 2023 mit 3.291, für 2024 mit 2.243, für 2025 mit 7.038 und bislang für 2026 mit 5.741 erfasst; eine Aufschlüsselung nach Stadtteilen ist laut Stellungnahme nicht möglich.",
-    "Der Fremdstoffanteil im Karlsruher Bioabfall lag vor den verstärkten Kontrollen bei über fünf Gewichtsprozent, die aktuelle Chargenanalyse weist 0,59 Gewichtsprozent Gesamtfremdstoffgehalt aus, davon 0,40 Gewichtsprozent Kunststoff.",
-    "Über die KA-Feedback-App gingen 2023 2.081 und 2025 3.176 Meldungen ein, rund 69 Prozent betrafen wilden Müll; rund 93 Prozent wurden behoben, im Schnitt nach 1,5 Kalendertagen.",
-    "Im Innenstadtbereich innerhalb von Zirkel, Kriegsstraße, Durlacher Tor und Karlstraße erfolgt eine dauerhafte Komplettreinigung, in den übrigen Stadtteilen eine bedarfsorientierte Reinigung; eine Erhöhung des Reinigungsintervalls nennt die Stellungnahme wegen Stellenbesetzungssperre und Einspardruck als nicht möglich."
+    "Wegen Fehlbefüllung nicht geleerte Abfallsammelbehälter sind von 3291 im Jahr 2023 und 2243 im Jahr 2024 auf 7038 im Jahr 2025 gestiegen; 2026 sind es bislang 5741.",
+    "Eine stadtteilbezogene Erfassung der nicht durchgeführten Leerungen findet nicht statt, sodass keine Aufschlüsselung nach Stadtteilen möglich ist.",
+    "Für wiederholt fehlbefüllte Wohnobjekte sieht das TSK keine standardisierte Sanktionsmaßnahme vor, sondern bietet bei Bedarf eine Beratung zur richtigen Abfalltrennung an.",
+    "Auch als kompostierbar oder biologisch abbaubar gekennzeichnete Tüten sind in der Karlsruher Bioabfallsammlung nicht zugelassen."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:f07569b129c1bbbcd5ffe6e33a0ec48fd486fccea24cba47a698e7539e886db3",
-  "summary": "Die Anfrage von Die Linke will unter anderem wissen, wie oft Mülltonnen wegen Fehlbefüllungen nicht geleert werden, wie mit nicht-kompostierbaren Tüten im Biomüll umgegangen wird und wie oft die Straßenreinigung erfolgt. Die Stellungnahme des Team Sauberes Karlsruhe nennt stark gestiegene Zahlen nicht geleerter Behälter, eine deutlich verbesserte Bioabfallqualität und die Grenzen der Reinigungskapazitäten."
+  "summary": "Die Anfrage erkundigt sich nach nicht geleerten Tonnen wegen Fehlbefüllungen, der Bioabfallqualität, beschädigten Behältern sowie Straßenreinigung und Schmutzmeldungen in Karlsruhe. Das Team Sauberes Karlsruhe nennt gestiegene Nichtleerungen, eine verbesserte Bioabfallqualität durch verschärfte Kontrollen und eine bedarfsorientierte Reinigung."
 }

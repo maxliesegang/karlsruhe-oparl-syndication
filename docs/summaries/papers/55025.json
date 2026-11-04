@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T06:23:24.992Z",
+  "generatedAt": "2026-11-04T19:53:16.813Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55025",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681389",
+      "page": 2,
+      "quote": "Erst mit dieser Bestätigung der Ortsverwaltung kommt ein Mietvertrag und damit eine verbindliche Buchung der Räumlichkeit zustande"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681389",
+      "page": 2,
+      "quote": "mit Ausnahme von Großveranstaltungen mit über 200 Teilnehmenden und vorbehaltlich anderer spezialgesetzlicher Anforderungen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681536",
+      "page": 1,
+      "quote": "Für eine sachgerechte Bearbeitung ist ein Antrag mindestens sieben Tage vor der begehrten Überlassung zu stellen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681536",
+      "page": 1,
+      "quote": "Die Räumlichkeiten der Begegnungsstätte dürfen grundsätzlich montags bis freitags in der Zeit von 9:00 Uhr bis 22:00 Uhr überlassen werden"
+    }
+  ],
   "keyPoints": [
-    "Künftig sollen einfache Reservierungsanfragen über ein Online-Formular auf der Webseite der Stadt Karlsruhe gestellt werden, wobei ein Mietvertrag erst mit der elektronischen Bestätigung der Ortsverwaltung zustande kommt.",
-    "Anträge sollen mindestens sieben Tage vor der gewünschten Nutzung gestellt werden; die Räume sind montags bis freitags von 9:00 Uhr bis 22:00 Uhr buchbar.",
-    "Verträge in mehrfacher Ausfertigung sollen entfallen, ausgenommen sind Großveranstaltungen mit über 200 Teilnehmenden.",
-    "Der Zutritt ist künftig über einen auf die gebuchten Räume und Zeiten programmierten Transponderschlüssel geregelt; die neue Benutzungsordnung soll am 01.11.2026 in Kraft treten."
+    "Ein verbindliches Nutzungsverhältnis soll erst durch die elektronische Bestätigung der Ortsverwaltung zustande kommen, nicht schon durch die Anfrage.",
+    "Verträge in mehrfacher Ausfertigung sollen künftig entfallen, ausgenommen sind Großveranstaltungen mit über 200 Teilnehmenden und spezialgesetzliche Anforderungen.",
+    "Ein Antrag ist mindestens sieben Tage vor der gewünschten Überlassung zu stellen, möglich über das Online-Antragssystem oder per E-Mail.",
+    "Zur Verfügung stehen laut der Neufassung die Räume Saal, Foyer, Augustraum, Niddaraum, Grezzoraum und Künstlerraum; überlassen werden dürfen sie grundsätzlich montags bis freitags von 9:00 Uhr bis 22:00 Uhr."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:6b1e3e669215acf30cf35630c690de8d1bbdbcddb953ce192e621bd0d59dd0d7",
-  "summary": "Die Vorlage schlägt eine Änderung und Neufassung der Benutzungsordnung der Begegnungsstätte Grötzingen vor, um die Raumbuchung künftig über ein Online-Formular abzuwickeln. Dazu werden formale Schriftformerfordernisse ersetzt und zugleich Regelungen zu Haftung, Hausrecht, Technik, Zutritt und Datenschutz präzisiert."
+  "summary": "Die Vorlage schlägt eine Änderung und Neufassung der Benutzungsordnung der Begegnungsstätte Grötzingen vor, damit Räume künftig über ein Online-Formular beantragt werden können. Ziel ist die Entbürokratisierung der Buchung; zugleich wurden die Regeln unter anderem zu Haftung, Hausrecht, Zutritt, Datenschutz und technischen Einrichtungen überarbeitet."
 }

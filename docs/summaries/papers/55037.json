@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T06:27:25.377Z",
+  "generatedAt": "2026-11-04T19:53:16.813Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55037",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681542",
+      "page": 2,
+      "quote": "Die bislang für die Citrix-Umgebung eingesetzten Serversysteme der Stadtverwaltung Karlsruhe haben hinsichtlich Ihres aktuellen Einsatzzweckes die Grenzen ihrer technischen Leistungsfähigkeit erreicht"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681542",
+      "page": 2,
+      "quote": "Neben Videokonferenzen soll bspw. auch flächendeckend Softphone-Telefonie in der Stadtverwaltung hierüber bereitgestellt werden"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681542",
+      "page": 2,
+      "quote": "Der Preis beläuft sich aktuell auf 2.455.360 EUR brutto, das Angebot ist bis zum 27. Oktober 2026 gültig"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681542",
+      "page": 2,
+      "quote": "Daher erhält die IT-Kommission den Vorgang im Nachgang (am 11. November 2026) zur Kenntnis"
+    }
+  ],
   "keyPoints": [
-    "Die benötigten Mittel stehen im Teilhaushalt 1700 zur Verfügung; die Ausstattung wurde auf das Nötigste reduziert, um die Beschaffung aus dem diesjährigen Investitionsbudget zu finanzieren.",
-    "Für 2027 ist die Nachrüstung von Grafikkarten vorgesehen, die auf geschätzte 250.000 EUR brutto kommen und bislang nicht in den Gesamtkosten enthalten sind.",
-    "Der Kaufpreis enthält 36 Monate Service; ab 2030 schätzt die IT Folgekosten von circa 50.000 EUR brutto pro Jahr, die im Ergebnishaushalt zu verorten sind.",
-    "Nach der Umstellung sollen die alten Server im städtischen Rechenzentrum weniger hardwareintensiven Aufgaben zugeordnet werden; die IT-Kommission soll den Vorgang am 11. November 2026 im Nachgang erhalten."
+    "Die bisherigen Serversysteme für die Citrix-Umgebung haben laut Vorlage die Grenzen ihrer technischen Leistungsfähigkeit erreicht und müssen ersetzt werden.",
+    "Neben Videokonferenzen soll künftig auch flächendeckend Softphone-Telefonie über die Systeme bereitgestellt werden, was leistungsfähigere Hardware erfordert.",
+    "Das Angebot des Rahmenvertragspartners über die insgesamt 32 Server ist bis zum 27. Oktober 2026 gültig.",
+    "Wegen der kurzen Bindefrist und der Termine der IT-Kommission ist eine übliche Vorberatung dort nicht möglich; der Vorgang soll ihr am 11. November 2026 im Nachgang vorgelegt werden."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:458802f99f3757010918b7c0c4d2d0101555e6c27b7642ab64a6df66fb69ae60",
-  "summary": "Die Vorlage schlägt vor, 32 Dell-Server für die Citrix-Umgebung der Stadtverwaltung über den Rahmenvertrag der civillent GmbH (Komm.ONE) zu beschaffen und den Angebotspreis von 2.455.360 EUR brutto kurzfristig zu sichern. Begründet wird dies mit dem Leistungsende der Bestandsserver und stark steigenden Preisen für IT-Hardware, insbesondere für Speicherprodukte."
+  "summary": "Die Vorlage schlägt vor, 32 Dell-Server für die Citrix-Umgebung der Stadtverwaltung über den Rahmenvertrag der Civillent GmbH für 2.455.360 EUR brutto zu beschaffen, weil die Bestandsserver an der Leistungsgrenze sind. Als Grund für ein beschleunigtes Vorgehen nennt sie stark gestiegene Hardwarepreise und ein Angebot, das nur bis zum 27. Oktober 2026 gilt."
 }
