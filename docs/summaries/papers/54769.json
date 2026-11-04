@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-24T17:18:27.644Z",
+  "generatedAt": "2026-11-04T13:30:55.461Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54769",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681511",
+      "page": 2,
+      "quote": "Der geplante Wärmespeicher hat nach derzeitigen Planungen einen Durchmesser von 30 Metern und orientiert sich an der Höhe des bestehenden Kesselhauses mit 65 Metern"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681511",
+      "page": 1,
+      "quote": "So soll auf der Freifläche (ehemals Kohlelager, im Luftbild lila gekennzeichnet) des HKW-West ein neuer Wärmespeicher errichtet werden"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681511",
+      "page": 2,
+      "quote": "Für das Vorhaben ist keine Änderung des Bebauungsplans erforderlich. Der Wärmespeicher soll über einen Bauantrag zur Genehmigung kommen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681511",
+      "page": 2,
+      "quote": "Das HKW-West ist die Zentrale für die Fernwärmeversorgung der Stadt Karlsruhe. Von diesem Standort aus wird der Betrieb des Fernwärmenetzes koordiniert"
+    }
+  ],
   "keyPoints": [
-    "Der Wärmespeicher ist auf dem ehemaligen Kohlelager des HKW-West an der Honsellstraße 35 geplant; die Höhe orientiert sich am bestehenden Kesselhaus mit rund 65 Metern.",
-    "Das Vorhaben liegt innerhalb des rechtskräftigen Bebauungsplans 364 „Mühlburg-West“; eine Änderung des Bebauungsplans ist laut Vorlage nicht erforderlich.",
-    "Der Standort ist im Flächennutzungsplan 2030 des Nachbarschaftsverbands Karlsruhe als Versorgungsfläche für Elektrizität und Fernwärme dargestellt.",
-    "Das HKW-West dient als Zentrale der Fernwärmeversorgung Karlsruhes und steuert Einspeisungen unter anderem aus der Raffinerie MiRO und dem Rheinhafen-Dampfkraftwerk."
+    "Der geplante Wärmespeicher hat einen Durchmesser von 30 Metern und eine Höhe von 65 Metern, die sich am bestehenden Kesselhaus orientiert.",
+    "Vorgesehen ist die Freifläche des früheren Kohlelagers auf dem Betriebsgelände an der Honsellstraße 35 in Mühlburg.",
+    "Das Vorhaben liegt innerhalb des rechtskräftigen Bebauungsplans 364 „Mühlburg-West“ und soll ohne dessen Änderung über einen Bauantrag genehmigt werden.",
+    "Das Heizkraftwerk West ist die Zentrale für die Fernwärmeversorgung der Stadt Karlsruhe und steuert unter anderem Einspeisungen von MiRO und EnBW AG."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:00e0718296a1f9e1b48d4ca1aac90c7f2580573e11aa7a05915c290c80ae3e07",
-  "summary": "Die Vorlage informiert über den geplanten Neubau eines Wärmespeichers der Stadtwerke Karlsruhe auf der Freifläche des Heizkraftwerks West in Mühlburg. Der Speicher mit einem Durchmesser von 30 Metern und einer Höhe von 65 Metern soll Lastspitzen der Fernwärmeversorgung abfedern und über einen Bauantrag genehmigt werden."
+  "summary": "Die Vorlage informiert über den geplanten Neubau eines Wärmespeichers der Stadtwerke Karlsruhe auf dem Gelände des Heizkraftwerks West in Mühlburg. Der Speicher soll Lastspitzen der Fernwärmeversorgung abfedern; eine Bebauungsplanänderung ist laut Vorlage nicht erforderlich, die Genehmigung soll über einen Bauantrag erfolgen."
 }

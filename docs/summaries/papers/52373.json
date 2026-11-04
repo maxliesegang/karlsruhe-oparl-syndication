@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-11-04T13:30:55.461Z",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52373",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670425",
+      "quote": "Die Hardware des Prozessleitsystems wurde zuletzt im Jahr 2019 modernisiert und befindet sich inzwischen am Ende ihrer Lebensdauer"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670425",
+      "quote": "Um den Herstellersupport wieder sicherzustellen, ist eine Migration von PCS7 Version 9.0 auf die aktuelle Version 10.0 zwingend erforderlich"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670424",
+      "quote": "Eine Vergabe an einen anderen Anbieter würde eine vollständige Neuanalyse der Infrastruktur erfordern"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670424",
+      "quote": "die Laufzeit dieser öffentlichen Aufträge darf in der Regel drei Jahre nicht überschreiten"
+    }
+  ],
+  "keyPoints": [
+    "Die Hardware des Prozessleitsystems wurde zuletzt 2019 modernisiert und ist am Ende ihrer Lebensdauer, die Software seit der Modernisierung 2021 nicht mehr auf dem aktuellen Stand und wird von Siemens nicht weiter unterstützt.",
+    "Um den Herstellersupport zurückzugewinnen, ist laut Vorlage die Migration von PCS7 Version 9.0 auf Version 10.0 zwingend erforderlich; dabei müssen sowohl Hard- als auch Software erneuert werden.",
+    "Die Beauftragung des bisherigen Auftragnehmers wird damit begründet, dass dieser die bestehende Leittechnik und Virtualisierungsumgebung installiert hat und ein Anbieterwechsel eine vollständige Neuanalyse mit Mehrkosten und möglichen Betriebsunterbrechungen erfordern würde.",
+    "Die ausnahmsweise Zulässigkeit des Verhandlungsverfahrens ohne Teilnahmewettbewerb wird mit zusätzlichen Lieferleistungen des ursprünglichen Auftragnehmers nach § 14 Abs. 4 Nummer 5 VgV begründet; die Laufzeit solcher Aufträge darf in der Regel drei Jahre nicht überschreiten."
+  ],
+  "model": "mimo-v2.6-pro",
+  "promptVersion": "paper-de-v9",
+  "provider": "opencode-go",
+  "sourceHash": "sha256:5d54d554b92d91fdda69e57ee96c7f9a43c2f20ec23f5945376df0a173e54eb9",
+  "summary": "Die Vorlage schlägt vor, die Migration der ESXI-Server und der Prozessleittechnik PCS7 auf Version 10 im Klärwerk Karlsruhe im Verhandlungsverfahren ohne Teilnahmewettbewerb an die Firma BN Automation aus Ilmenau zu vergeben. Angebotssumme ist 830.401 Euro; die Verwaltung soll ermächtigt werden, den Zuschlag zu erteilen."
+}
