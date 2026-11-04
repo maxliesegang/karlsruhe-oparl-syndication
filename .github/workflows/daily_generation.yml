@@ -71,6 +71,7 @@ jobs:
       run: npm run validate:feed
 
     - name: Commit and push if changes
+      id: commit
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
@@ -83,6 +84,7 @@ jobs:
           # Only this workflow writes to main, but a human push may have landed.
           git pull --rebase --autostash origin "$(git rev-parse --abbrev-ref HEAD)"
           git push
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
         fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -96,3 +98,19 @@ jobs:
           echo "::error::Every LLM request of a step failed; check the OPENCODE_API_KEY secret and the provider."
           exit 1
         fi
+
+    # Tells karlsruhe-oparl-viewer to rebuild instead of it guessing when this run
+    # has finished. GITHUB_TOKEN cannot trigger workflows in another repository, so
+    # this uses a fine-grained PAT scoped to the viewer repo with "Contents: read
+    # and write". `!cancelled()` sends it even when the LLM-outage check failed,
+    # because the feed was still pushed. The viewer keeps a daily cron as a safety
+    # net, so a failed dispatch (e.g. an expired token) turns this run red but
+    # delays the site by at most a day.
+    - name: Notify viewer
+      if: ${{ !cancelled() && steps.commit.outputs.pushed == 'true' }}
+      run: |
+        gh api repos/maxliesegang/karlsruhe-oparl-viewer/dispatches \
+          -f event_type=syndication-updated \
+          -f "client_payload[sha]=$(git rev-parse HEAD)"
+      env:
+        GH_TOKEN: ${{ secrets.VIEWER_DISPATCH_TOKEN }}
