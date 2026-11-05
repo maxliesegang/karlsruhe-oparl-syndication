@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:11:27.038Z",
+  "generatedAt": "2026-11-05T00:59:15.127Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54635",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679247",
+      "page": 4,
+      "quote": "Dieser Zuwachs geht auf die gestiegene Zahl an Personen zurück, die vorwiegend zu Hause versorgt werden"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679247",
+      "page": 11,
+      "quote": "Das entspricht einem Anstieg um 10 Prozent beziehungsweise 1.518 Pflegebedürftige gegenüber 2023"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679247",
+      "page": 16,
+      "quote": "sinkt danach bis zum Jahr 2026 auf derzeit 2.579 voll- und teilstationäre Plätze (- 198 Plätze)"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679247",
+      "page": 12,
+      "quote": "Konkret schrumpft die Altersgruppe der 45- bis unter 65-Jährigen seit dem Jahr 2023 um 1.403 Personen beziehungsweise 1,8 Prozent"
+    }
+  ],
   "keyPoints": [
-    "Ende Dezember 2023 waren in Karlsruhe 15.199 Personen pflegebedürftig, um 11,5 Prozent mehr als 2021; 12.677 davon wurden vorwiegend zu Hause versorgt.",
-    "Für das Jahr 2040 werden 16.717 Pflegebedürftige prognostiziert, darunter 2.788 Personen in vollstationärer Versorgung.",
-    "Stand März 2026 sind 66 ambulante Pflegedienste, 45 Pflegeeinrichtungen mit 2.579 Plätzen sowie 19 ambulant betreute Wohngemeinschaften mit 114 Plätzen gemeldet.",
-    "Mit dem zum 1. März 2026 in Kraft getretenen Teilhabe- und Pflegequalitätsgesetz ist die Heimaufsicht nicht mehr für ambulant betreute Wohngemeinschaften zuständig, was die künftige Pflegeberichterstattung beeinflusst."
+    "Der Zuwachs bei den Pflegebedürftigen gegenüber dem Berichtsjahr 2021 geht überwiegend auf Personen zurück, die zu Hause versorgt werden.",
+    "Für 2040 wird mit einem Anstieg der Pflegebedürftigen um 1.518 Personen gegenüber 2023 gerechnet.",
+    "Zwischen März 2024 und März 2026 ging die Zahl der voll- und teilstationären Pflegeplätze um 198 auf derzeit 2.579 zurück.",
+    "Das Potenzial pflegender Angehöriger in der Altersgruppe der 45- bis unter 65-Jährigen schrumpfte seit 2023 deutlich."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:7f965342b7fa3630d3742e187d8554d6bd386df01afd6a181cc3ccbf8f7b6656",
-  "summary": "Die Vorlage legt den Pflege-Monitor 2026 als Fortschreibung der erstmals 2024 veröffentlichten Pflegeberichterstattung der Stadt Karlsruhe vor. Der Bericht dokumentiert Pflege- und Bevölkerungsdaten, die lokale Versorgungssituation und Prognosen und soll als datengestützte Grundlage für die Fortschreibung des Aktionsprogramms Pflege dienen."
+  "summary": "Die Vorlage stellt den Pflege-Monitor 2026 vor, die Fortschreibung des erstmals 2024 veröffentlichten Berichts zur Pflege- und Versorgungssituation in Karlsruhe. Der Bericht bündelt Pflegekennzahlen, Vorausberechnungen und die sozialräumliche Versorgungskette und dient als datengestützte Grundlage für eine Fortschreibung des Aktionsprogramms Pflege."
 }

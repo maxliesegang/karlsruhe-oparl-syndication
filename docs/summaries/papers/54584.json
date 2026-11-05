@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:13:36.467Z",
+  "generatedAt": "2026-11-05T00:59:15.127Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54584",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679473",
+      "page": 2,
+      "quote": "Gründe für die im Vergleich zur bisherigen Situation verringerte Kapazität sind zum einen der Entfall von zwei Fahrstreifen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679473",
+      "page": 2,
+      "quote": "nicht mehr ausreichend leistungsfähig wäre und bei Umsetzung Rückstausituationen insbesondere in Richtung Süden (Brauerstraße) und Osten (Karoline-Luise-Tunnel) zu erwarten sind"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679473",
+      "page": 2,
+      "quote": "bietet gemäß der Verkehrsuntersuchung keine ausreichende Leistungsfähigkeit und eine ähnliche Verkehrsqualität beider Knotenpunkte wie die Variante V1"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679473",
+      "page": 2,
+      "quote": "allerdings nicht darüber und somit ohne größere und längere Rückstausituationen"
+    }
+  ],
   "keyPoints": [
-    "Die Vorlage nennt als Gründe für die reduzierte Kapazität den Entfall von zwei Fahrstreifen entlang der Kriegsstraße sowie die Signalisierung der rechtsab- und -einbiegenden Verkehre mit längeren Fußgängerfurten und Räumzeiten.",
-    "Die Variante mit Radfahrstreifen rechts neben den Rechtsab- beziehungsweise -einbiegefahrstreifen zeigt in der Simulation unter anderem eine maximale Rückstaulänge von rund 370 Metern aus westlicher Zufahrt und eine stetig steigende Rückstaubildung Richtung Süden und Osten.",
-    "Nur bei Radfahrstreifen in Mittellage hält der Gutachter eine Reduzierung der Umlaufzeit von 100 auf 90 Sekunden in den Hauptverkehrszeiten und damit um 10 Sekunden kürzere Wartezeiten für möglich.",
-    "Grundlage der Simulation sind Verkehrszählungen aus dem November 2022 für die Abendspitze von 16:00 bis 17:00 Uhr, wobei die Verkehrsmengen aus Norden um 20 Prozent erhöht angesetzt wurden; der Umbau ist für 2026 und 2027 vorgesehen."
+    "Die verringerte Kapazität gegenüber der bisherigen Situation führt die Verwaltung auf den Entfall von zwei Fahrstreifen entlang der Kriegsstraße sowie auf die Signalisierung der rechtsab- und -einbiegenden Verkehre zurück.",
+    "Bei der im Antrag vorgesehenen Variante V1 mit Radfahrstreifen rechts neben den Abbiegefahrstreifen in drei Zufahrten wären Rückstaus insbesondere Richtung Süden und Osten zu erwarten.",
+    "Auch die Variante V2 mit einem Teil der Radfahrstreifen in Seitenlage bietet laut Untersuchung keine ausreichende Leistungsfähigkeit.",
+    "Die Variante V0 würde an der Leistungsfähigkeitsgrenze betrieben, jedoch ohne größere und längere Rückstausituationen."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:e6c368c264fa91e5a06fa402d6a36b770cf52018207ffb448914ed895463c7ea",
-  "summary": "Die Vorlage stellt eine mikroskopische Verkehrsuntersuchung zu den geplanten Umbauten der Knotenpunkte Kriegsstraße/Brauerstraße/Reinhold-Frank-Straße und Brauerstraße/Gartenstraße vor. Die Verwaltung empfiehlt die Markierungsvariante mit Radfahrstreifen in Mittellage, weil die Varianten mit Radfahrstreifen in Seitenlage den Knotenpunkt nicht mehr ausreichend leistungsfähig lassen."
+  "summary": "Die Vorlage stellt eine mikroskopische Verkehrsuntersuchung zu den geplanten Umbauten der Knotenpunkte Kriegsstraße/Brauerstraße/Reinhold-Frank-Straße und Brauerstraße/Gartenstraße in den Jahren 2026 und 2027 vor. Danach bleibt nur die von der Verwaltung vorgeschlagene Markierungsvariante mit Radfahrstreifen in Mittellage ausreichend leistungsfähig, weshalb die Verwaltung diese Lösung empfiehlt."
 }

@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:05:47.464Z",
+  "generatedAt": "2026-11-05T00:59:15.127Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54520",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678167",
+      "page": 10,
+      "quote": "Für das Jahr 2025 ist darauf hinzuweisen, dass sich die hohe Zahl der Antragseingänge durch eine Änderung am Prozess ergibt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678167",
+      "page": 10,
+      "quote": "Der aktuelle Bestand offener Einbürgerungsverfahren beträgt aktuell 3.576 Fälle"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678167",
+      "page": 11,
+      "quote": "Als Bearbeitungsdauer wird der Zeitraum vom Antragseingang bis zum Abschluss des Verfahrens zugrunde gelegt, welche im Jahr 2025 rund 17 Monate betrug"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678167",
+      "page": 4,
+      "quote": "Jahr Personen mit Mehrstaatigkeit 2022 186 2023 321 2024 548 2025 991"
+    }
+  ],
   "keyPoints": [
-    "Die durchschnittliche Bearbeitungsdauer eines Einbürgerungsverfahrens betrug 2025 rund 17 Monate.",
-    "Die personelle Ausstattung der zuständigen Stelle stieg auf 12,87 Vollzeitäquivalente im Jahr 2025.",
-    "Seit dem 27. Juni 2024 ist die Aufgabe der bisherigen Staatsangehörigkeit keine Einbürgerungsvoraussetzung mehr; für 2025 sind 991 Personen mit Mehrstaatigkeit ausgewiesen.",
-    "Die Einbürgerungsgebühr beträgt grundsätzlich 255 Euro, für ein miteinzubürgerndes minderjähriges Kind 51 Euro; eine produktbezogene Vollkostenrechnung liegt laut Stellungnahme nicht vor."
+    "Der sprunghafte Anstieg der Antragseingänge auf 3.297 Fälle im Jahr 2025 wird auf eine Änderung des Antragsprozesses zurückgeführt.",
+    "Der Bestand offener Einbürgerungsverfahren bei der Stadt Karlsruhe wird mit 3.576 Fällen beziffert.",
+    "Die durchschnittliche Bearbeitungsdauer eines Einbürgerungsverfahrens betrug im Jahr 2025 rund 17 Monate.",
+    "Die Zahl der Einbürgerungen, bei denen zum Verfahrensabschluss Mehrstaatigkeit erfasst war, stieg von 186 im Jahr 2022 auf 991 im Jahr 2025."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:c0f2c44aed2095bed23e4a4d7736f342c7d84a71cc83da583cacd71995b0fdcd",
-  "summary": "Die Anfrage verlangt von der Verwaltung Auskünfte zu Einbürgerungen in Karlsruhe für die Jahre 2015 bis 2025 – unter anderem nach bisheriger Staatsangehörigkeit, Antragszahlen, Mehrstaatigkeit, Bearbeitungsdauer, Personal und Kosten. Die Stellungnahme weist für 2025 einen deutlichen Anstieg aus und nennt 3576 noch offene Verfahren."
+  "summary": "Die Anfrage verlangt für Karlsruhe eine Aufschlüsselung der Einbürgerungen der Jahre 2015 bis 2025 nach bisheriger Staatsangehörigkeit, zu Mehrstaatigkeit, Antragszahlen, Bearbeitungsdauer, Personal, Kosten und zur Prüfung gesetzlicher Voraussetzungen. Die Stellungnahme liefert die Statistiken und erläutert unter anderem die Folgen der Reform des Staatsangehörigkeitsrechts."
 }

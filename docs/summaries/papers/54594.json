@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:07:32.738Z",
+  "generatedAt": "2026-11-05T00:59:15.127Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54594",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678601",
+      "page": 1,
+      "quote": "Die FDP-Fraktion beantragt heute eine Evaluation dieser Maßnahme und bittet um Darstellung folgender Fakten in öffentlicher Sitzung des Ortschaftsrates"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678770",
+      "page": 2,
+      "quote": "Durch die Umsetzung des Provisoriums sind keine legalen Parkmöglichkeiten entfallen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678770",
+      "page": 2,
+      "quote": "im Bereich der Auer Straße 27 zusätzliche Parkmöglichkeiten angeboten werden"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678770",
+      "page": 2,
+      "quote": "Die Stadtverwaltung hat vereinzelte Rückmeldung direkt nach Umsetzung des Provisoriums erhalten"
+    }
+  ],
   "keyPoints": [
-    "Das Provisorium aus Bauteilen sollte insbesondere den Schulweg zur nahegelegenen Pestalozzischule sicherer gestalten; der Antrag will dazu Rückmeldungen der Schulgemeinschaft wissen.",
-    "Laut Verwaltung sind durch das Provisorium keine legalen Parkmöglichkeiten entfallen, da im Knotenpunktsbereich zuvor bereits nicht geparkt werden durfte.",
-    "Ein geplanter Umbau im Zuge des Sanierungsgebietes „Durlach Stadteingang“ soll durch die Umwandlung von Längs- in Senkrechtparkplätze in der Auer Straße 27 zusätzliche Parkmöglichkeiten schaffen.",
-    "Wann der Umbau umgesetzt wird, hängt laut Verwaltung von den verfügbaren Haushaltsmitteln und Kapazitäten ab; eine Umsetzung in den kommenden Jahren wird angestrebt."
+    "Zusätzlich zur Neugestaltung oder zum Rückbau fordert der Antrag eine Evaluation der Maßnahme mit einer öffentlichen Darstellung von Fakten im Ortschaftsrat.",
+    "Nach Angaben der Verwaltung sind durch das Provisorium keine legalen Parkmöglichkeiten entfallen, da im Knotenpunktsbereich bereits zuvor das Parken untersagt war.",
+    "Für die Zeit nach dem Umbau sind durch die Umwandlung von Längsparkplätzen in Senkrechtparkplätze in der Auer Straße zusätzliche Parkmöglichkeiten vorgesehen.",
+    "Zur Wahrnehmung der Kreuzungsänderung durch die Schulgemeinschaft liegen der Verwaltung nur vereinzelte Rückmeldungen vor, aus denen keine Tendenz abgeleitet werden konnte."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:6cd62ba72d02ef7b1810b55498460f852a94eb9345e39e78529f44c1c56e7b40",
-  "summary": "Der Antrag fordert eine dauerhafte Neugestaltung des Kreuzungsbereichs Auer Straße, Schinnrainstraße und Bleichstraße in Durlach oder den Rückbau des dortigen Provisoriums aus dem Jahr 2024 sowie eine Evaluation der Maßnahme. Die Verwaltung hält das Provisorium bis zum Umbau des Knotenpunkts für erforderlich, sieht von weiteren Befragungen ab und empfiehlt, den Antrag als erledigt anzusehen."
+  "summary": "Der Antrag fordert eine dauerhafte Neugestaltung des Kreuzungsbereichs Auer Straße, Schinnrainstraße und Bleichstraße in Durlach oder den Rückbau der dortigen provisorischen Verkehrsflächen aus dem Jahr 2024. Die Verwaltung hält das Provisorium als Übergangslösung bis zum geplanten Umbau im Sanierungsgebiet Durlach Stadteingang für erforderlich und weitere Untersuchungen für nicht notwendig."
 }

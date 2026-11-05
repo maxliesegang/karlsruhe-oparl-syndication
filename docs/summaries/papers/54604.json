@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:13:51.316Z",
+  "generatedAt": "2026-11-05T00:59:15.127Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54604",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678784",
+      "page": 4,
+      "quote": "Vor diesem Hintergrund hat die Stadt Karlsruhe bislang kein eigenes Kataster potenzieller Zufluchtsorte erstellt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678784",
+      "page": 4,
+      "quote": "Hierzu zählen wie oben beschrieben beispielsweise U-Strab-Haltestellen, Tiefgaragen, größere Kellerräume oder vergleichbare bauliche Anlagen, die im Alltag anderen Nutzungen dienen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678784",
+      "page": 4,
+      "quote": "Notfallmeldestellen dienen hierbei insbesondere dem Absetzen von Notrufen bei Ausfall regulärer Kommunikationswege. Die Notfalltreffpunkte sind darüber hinaus als allgemeine Anlaufstellen für die Bevölkerung in Krisenlagen vorgesehen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678784",
+      "page": 5,
+      "quote": "Der Ausbau der Krisenkommunikationsinfrastruktur ist darüber hinaus Bestandteil des im Jahr 2025 verabschiedeten Katastrophenschutzbedarfsplans der Stadt Karlsruhe. Die Umsetzung der entsprechenden Maßnahmen, für die auch bereits Finanzmittel bereitstehen"
+    }
+  ],
   "keyPoints": [
-    "Ein eigenes Kataster für ad-hoc schutzgebende Bauten wie U-Strab-Haltestellen oder Tiefgaragen existiert nicht; die Stadt hält ein vorgreifendes Tätigwerden ohne bundeseinheitliche Bewertungskriterien für nicht zweckmäßig, der Bund kündigt ein digitales, an NINA angebundenes Schutzraumkataster an.",
-    "Für den Ausfall von Strom und Mobilfunk sind Notfallmeldestellen und Notfalltreffpunkte geplant; im Katastrophenschutzbedarfsplan von 2025 sind Maßnahmen wie Satellitentelefonie, zweiter Telefonieprovider und Glasfaseranbindung vorgesehen, wofür Finanzmittel bereitstehen.",
-    "Ein wie in Israel gedachtes, digital in Echtzeit verzahntes Netzwerk aus Kliniken, Rettungsdienst und zivilen Ersthelfern besteht nicht; betrieben wird bereits eine Ersthelfer-App der ILS Karlsruhe, zusätzlich ist ein landesweiter digitaler Versorgungsnachweis geplant.",
-    "Für freiwillige Helfer und Vereine gibt es die Bevölkerungsschutzrunde und geplante Einbindung von Bürgervereinen bei Notfalltreffpunkten; ein Konzept für Spontanhelfer fehlt noch, und eine zusätzliche Fördermittelbereitstellung für die neuen Bundesaufgaben ist der Stadt nicht bekannt."
+    "Die Stadt hat kein eigenes Kataster potenzieller Zufluchtsorte angelegt, da bundeseinheitliche Kriterien zur Eignung und Bewertung solcher Objekte bislang fehlen.",
+    "Nach Ankündigungen des Bundes sollen Dual-Use-Objekte wie U-Strab-Haltestellen, Tiefgaragen und größere Kellerräume künftig als öffentliche Zufluchtsorte betrachtet werden.",
+    "Für die Kommunikation mit der Bevölkerung bei Strom- oder Mobilfunkausfall werden Konzepte für Notfallmeldestellen und Notfalltreffpunkte entwickelt, die an den Digitalfunk BOS angebunden werden sollen.",
+    "Der Ausbau der Krisenkommunikationsinfrastruktur ist Teil des im Jahr 2025 verabschiedeten Katastrophenschutzbedarfsplans, für den bereits Finanzmittel bereitstehen und dessen Umsetzung das städtische IT-Amt federführend begleitet."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:014348b44287d5d6ad4164f7568ad63fdfe82e68ad21e90124dce37886d5de48",
-  "summary": "Die Anfrage erkundigt sich, wie Karlsruhe den Bevölkerungsschutz vernetzter und resilienter aufstellen will – etwa zu Krisenstab, Schutzraum-Kataster, Ausfallkommunikation, Einbindung der Bevölkerung und Fördermitteln. Die Branddirektion schildert bestehende Strukturen wie Integrierte Leitstelle, Verwaltungsstab und Katastrophenschutzbedarfsplan und benennt mehrere Punkte mit noch offenem Umsetzungsstand."
+  "summary": "Die Anfrage erkundigt sich nach der Vernetzung der Einsatzkräfte im Krisenfall, einem Kataster für Schutzräume, redundanter Kommunikation bei Blackout, der Aktivierung der Bevölkerung und Fördermitteln. Die Verwaltung beschreibt bestehende Strukturen, sieht aber bei Schutzraum-Erfassung, Einbindung von Spontanhelfern und Personal weiteren Bedarf, für den bislang keine Mittel von Bund oder Land bekannt sind."
 }

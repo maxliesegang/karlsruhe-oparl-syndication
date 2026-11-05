@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:24:25.584Z",
+  "generatedAt": "2026-11-05T00:59:15.127Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54465",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677787",
+      "page": 2,
+      "quote": "\"nach dem 1. Januar 2025\" gemäß § 10 GEIG eine Pflicht ohne Bedingung einer Baumaßnahme bei mehr als 20 vorhandenen Stellplätzen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677787",
+      "page": 2,
+      "quote": "Von dieser Regelung betroffen sind beispielsweise eine sehr geringe Zahl städtischer Schulen, Sporthallen, Veranstaltungsgebäude und Einrichtungen der TSK"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677787",
+      "page": 2,
+      "quote": "Dies ist im Bereich des langsameren Ladens mit Wechselstrom ab einem täglichen Umsatz von mindestens 40 – 60 Kilowattstunden Energie pro Ladepunkt allgemein erwartbar"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677787",
+      "page": 2,
+      "quote": "Dies schließt viele Schulen aus, da sich deren Parkplätze für Mitarbeitende oft in Binnenlage der Grundstücke befinden"
+    }
+  ],
   "keyPoints": [
-    "Nach dem Gesetz zur gebäudeintegrierten Lade- und Leitungsinfrastruktur besteht seit dem 1. Januar 2025 ohne Baumaßnahme die Pflicht, bei mehr als 20 Stellplätzen einen Ladepunkt anzubieten; betroffen sind unter anderem einzelne städtische Schulen, Sporthallen, Einrichtungen von TSK, TBA und GBA sowie wenige Bürogebäude.",
-    "Der freiwillige, über die gesetzlichen Pflichten hinausgehende Ausbau kann aus Gründen der Haushaltslage nicht umgesetzt werden, wobei eine Umsetzung ohne Haushaltsmittel geprüft wird.",
-    "Für ein wirtschaftliches Betreibermodell mit Drittinvestoren wird ein Mindestumsatz von 40 bis 60 Kilowattstunden pro Ladepunkt und Tag genannt; dieser setzt häufig eine ergänzende entgeltliche Nutzung durch die Öffentlichkeit voraus, was viele Schulparkplätze in Binnenlage ausschließt.",
-    "Bei positivem Prüfergebnis ist ein Pilotprojekt und anschließend möglichst ein Paket mehrerer Standorte geplant."
+    "Kommunen sind nach dem GEIG verpflichtet, Ladeinfrastruktur vorzurüsten; seit 2025 gilt unabhängig von Baumaßnahmen eine Angebots-Pflicht für einen Ladepunkt bei mehr als 20 vorhandenen Stellplätzen.",
+    "Betroffen sind laut Stellungnahme nur eine sehr geringe Zahl städtischer Schulen, Sporthallen, Veranstaltungsgebäude sowie weniger Bürogebäude.",
+    "Für eine wirtschaftliche Bewirtschaftung wird beim Wechselstrom-Laden ein täglicher Umsatz von mindestens 40 bis 60 Kilowattstunden je Ladepunkt als erforderlich angesehen.",
+    "Damit dieser Umsatz erreicht wird, sollen die Ladepunkte zusätzlich zur Nutzung durch Mitarbeitende der entgeltlichen Öffentlichkeit dienen; viele Schulstandorte eignen sich dafür nicht."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:392d04f35681c8fdd2eeb05d13f429ab49908073e607e8e75dfc1d234561fbe8",
-  "summary": "Der Antrag der GRÜNE-Fraktion will die Ladeinfrastruktur für städtische Mitarbeitende am Arbeitsplatz ausbauen, unter anderem über eine Direktvergabe von Flächen an die Fächer GmbH und einen Modellversuch auf einem Schulparkplatz. Die Verwaltung will die Prüfung auf die gesetzlichen Pflichten nach dem Gebäude-Elektromobilitätsinfrastruktur-Gesetz beschränken und eine Umsetzung über die Fächer GmbH nur bei mindestens kostenneutraler Wirtschaftlichkeit."
+  "summary": "Der Antrag fordert einen Ausbau der E-Ladeinfrastruktur für städtische Mitarbeitende am Arbeitsplatz, unter anderem durch eine geprüfte Direktvergabe von Flächen an die Fächer GmbH und einen Modellversuch auf einem Schulparkplatz. Die Verwaltung will das über die gesetzlichen Pflichten hinausgehende Vorhaben aus Haushaltsgründen nur umsetzen, wenn es für Stadt und Fächer GmbH mindestens kostenneutral ist."
 }

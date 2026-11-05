@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:09:08.382Z",
+  "generatedAt": "2026-11-05T00:59:15.127Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54560",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679058",
+      "page": 2,
+      "quote": "Straßen von übergeordneter Bedeutung wie die Pulverhausstraße in Beiertheim-Bulach sollen daher von der Nachtabsenkung ausgenommen werden"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679058",
+      "page": 2,
+      "quote": "Unfallhäufungslinien oder Unfallhäufungsstellen werden ebenfalls von der Nachtabsenkung ausgenommen, genauso wie bekannte Gefahrenstellen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679058",
+      "page": 2,
+      "quote": "Außerdem ausgenommen werden Brücken, Tunnel/ Unterführungen, Fußgängerüberwege, Treppenanlagen oder Gleisquerungen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679058",
+      "page": 2,
+      "quote": "Außerdem können nur neue reduzierfähige LED-Leuchten gedimmt werden"
+    }
+  ],
   "keyPoints": [
-    "Rund ein Drittel der Leuchten in Beiertheim-Bulach sollen absenkbar sein; das ergibt prognostiziert rund 16 Megawattstunden und rund 3.700 Euro Einsparung pro Jahr bei 0,23 Euro pro Kilowattstunde.",
-    "Das für 2026 in den Meldungen zur Haushaltssicherung angesetzte Einsparpotenzial von 50.000 Euro kann laut Vorlage nicht mehr erreicht werden, weil nur Beiertheim-Bulach umgestellt wird.",
-    "Stadtweit werden ab voraussichtlich 2050 rund 1,3 Gigawattstunden und rund 300.000 Euro Einsparung pro Jahr erwartet, langfristig rund 590 Tonnen CO2-Äquivalent jährlich gegenüber rund sieben Tonnen in Beiertheim-Bulach.",
-    "Ausgenommen bleiben unter anderem Straßen übergeordneter Bedeutung wie die Pulverhausstraße, Abschnitte der Zustandsklasse 5, Unfallhäufungsstellen, Brücken und Fußgängerüberwege; gedimmt werden kann zudem nur über Schaltkreise und nur mit neuen reduzierfähigen LED-Leuchten."
+    "Von der Nachtabsenkung ausgenommen sind unter anderem Straßen von übergeordneter Verkehrsbedeutung, sofern dadurch die normativen Anforderungen unterschritten würden.",
+    "Auch Unfallhäufungslinien, Unfallhäufungsstellen und bekannte Gefahrenstellen bleiben von der Absenkung ausgenommen.",
+    "Ebenfalls ausgenommen werden Brücken, Unterführungen, Fußgängerüberwege, Treppenanlagen und Gleisquerungen.",
+    "Betriebstechnisch erfolgt die Absenkung nicht pro Leuchte, sondern über Schaltschränke und Schaltkreise; zudem können nur neue reduzierfähige LED-Leuchten gedimmt werden, weshalb die Umsetzung teils erst später möglich ist."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:10554ad7bdec0cb8a9e5ac926ce18ceb96cd51b9fb041985f21b9e5e0d5b4bcc",
-  "summary": "Die Vorlage schlägt vor, die Straßenbeleuchtung in Karlsruhe in den Nachtstunden von 22 bis 6 Uhr auf 50 Prozent der Lichtleistung abzusenken – zunächst nach einem mit Versicherungsverband und Juristischem Dienst abgestimmten Konzept für Beiertheim-Bulach, danach für die übrigen Stadtteile. Das Tiefbauamt verweist auf Energie- und Kosteneinsparung sowie Natur- und Artenschutz und will so zugleich das Haftungsrisiko reduzieren."
+  "summary": "Die Vorlage schlägt vor, die Straßenbeleuchtung in den Nachtstunden auf 50 Prozent der Lichtleistung abzusenken, zunächst im Stadtteil Beiertheim-Bulach und anschließend in den übrigen Stadtteilen Karlsruhes. Das Tiefbauamt erarbeitete das Konzept gemeinsam mit dem Badischen Gemeinde-Versicherungs-Verband, wobei bestimmte Straßenabschnitte und Bereiche ausgenommen bleiben."
 }
