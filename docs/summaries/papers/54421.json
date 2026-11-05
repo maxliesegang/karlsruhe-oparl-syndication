@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:33:06.200Z",
+  "generatedAt": "2026-11-05T12:29:33.823Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54421",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677503",
+      "page": 1,
+      "quote": "Für den Erlass und die Änderung von Satzungen ist nach der Gemeindeordnung Baden-Württemberg ausschließlich der Gemeinderat zuständig"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677503",
+      "page": 1,
+      "quote": "Eine Erhöhung zum 01.01.2027 erfolgt daher nicht, was entsprechend auch für die Aufwandsentschädigungen der Ortschaftsräte gilt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677503",
+      "page": 2,
+      "quote": "besteht für die einzelnen Mitglieder die Möglichkeit, freiwillig auf die ihnen zustehende Aufwandsentschädigung ganz oder teilweise zu verzichten"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677503",
+      "page": 2,
+      "quote": "Durch eine freiwillige Kürzung oder einen individuellen Verzicht auf Aufwandsentschädigungen eingesparte Mittel kämen nicht automatisch Projekten in der Ortschaft zugute"
+    }
+  ],
   "keyPoints": [
-    "Änderungen der Entschädigungssatzung, auch der Verzicht auf Anpassungen, sind ausschließlich Sache des Gemeinderats; der Ortschaftsrat kann nur empfehlen oder anregen.",
-    "Eine zum 01.01.2027 vorgesehene Erhöhung der Aufwandsentschädigungen ist bereits nicht mehr vorgesehen, nachdem auf die Anpassung zur Mitte der Amtsperiode verzichtet wurde.",
-    "Jedes Mitglied kann freiwillig ganz oder teilweise auf seine Aufwandsentschädigung verzichten; rechtlich wirksam ist allein die individuelle Erklärung gegenüber der Verwaltung.",
-    "Eingesparte Mittel aus Kürzungen kämen nicht automatisch Projekten in Grötzingen zugute, da die Mittel im Haushaltsplan 2026/2027 zweckgebunden veranschlagt sind."
+    "Für Änderungen der Entschädigungssätze und einen Verzicht auf Anpassungen ist ausschließlich der Gemeinderat zuständig, eine verbindliche Nullrunde kann der Ortschaftsrat nicht selbst beschließen.",
+    "Die Stellungnahme weist darauf hin, dass bereits auf die zur Mitte der Amtsperiode vorgesehene Anpassung verzichtet wurde und daher keine Erhöhung zum 01.01.2027 erfolgt.",
+    "Ein Verzicht auf die Aufwandsentschädigung kann nur von den einzelnen Mitgliedern freiwillig und individuell gegenüber der Verwaltung erklärt werden.",
+    "Eingesparte Mittel aus einer Kürzung kämen nicht automatisch Projekten in der Ortschaft zugute."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:7ed70f7fa00783e6f32e39cca052c4fa771e92a4b7b2caeeaf85a472d1603fb5",
-  "summary": "Die Anfrage fragt, ob der Ortschaftsrat Grötzingen auf Anpassungen der Aufwandsentschädigungen verzichten oder eine befristete Kürzung beschließen kann und ob ersparte Mittel Projekten vor Ort zugutekommen. Die Stellungnahme verneint eine eigene Entscheidungsbefugnis, verweist auf den bereits erklärten Verzicht des Gemeinderats auf eine Anpassung und auf die Möglichkeit individueller Verzichtserklärungen."
+  "summary": "Die Anfrage erkundigt sich, ob der Ortschaftsrat Grötzingen für die laufende Amtsperiode auf satzungsgemäße Anpassungen der Aufwandsentschädigung verzichten oder sie befristet senken kann. Die Stellungnahme der Ortsverwaltung führt aus, dafür sei ausschließlich der Gemeinderat zuständig, ein individueller Verzicht der Mitglieder sei aber möglich und eingesparte Mittel kämen nicht automatisch Projekten in Grötzingen zugute."
 }

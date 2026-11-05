@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:27:05.839Z",
+  "generatedAt": "2026-11-05T12:29:33.823Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54491",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678744",
+      "page": 3,
+      "quote": "Von den 1.975 Schüler*innen haben 101 – unabhängig vom Schultyp - die Schule ohne Hauptschulabschluss verlassen, dies entspricht 5,1% der Jugendlichen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678744",
+      "page": 5,
+      "quote": "In der vorliegenden Verbleibsstatistik wurden 779 Daten gemeldet, daher können wir zu weiteren 201 Schulabgänger*innen keine Aussagen zum Verbleib treffen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678744",
+      "page": 10,
+      "quote": "Zusammenfassend lässt sich festhalten, dass im Schuljahr 2023/24 mindestens 302 Jugendliche – rund 25 % – den Übergangsbereich an beruflichen Schulen ohne Zeugnis verlassen haben"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678744",
+      "page": 7,
+      "quote": "Im Juni 2025 konnte durch die systematische Nachverfolgung des geschäftsführenden Schulleiters die Zahl der Jugendlichen, bei denen der Verbleib unbekannt ist, auf 27 reduziert werden"
+    }
+  ],
   "keyPoints": [
-    "Im Schuljahr 2024/25 verließen 101 Jugendliche die allgemeinbildenden Schulen ohne Hauptschulabschluss, was 5,1% von 1.975 Schulabgänger*innen entspricht.",
-    "Im Schuljahr 2023/24 verließen mindestens 302 Jugendliche den Übergangsbereich der beruflichen Schulen ohne Zeugnis; bei den Berufskollegs wird ein Abbruch- oder Abgangsanteil von rund 34% genannt.",
-    "2025 lösten 601 der 5.256 bei HWK und IHK gemeldeten Auszubildenden ihre Ausbildung vorzeitig auf, und Ende August 2025 galten 248 Ausbildungsplatzsuchende als unversorgt.",
-    "Geplant sind unter anderem eine vollständige Verbleibserfassung an allgemeinbildenden Schulen ab dem Schuljahr 2025/26, ein auszubauendes Datenmonitoring sowie eine jährliche Fortschreibung des Berichts."
+    "Im Schuljahr 2024/25 verließen 101 von 1.975 Schulabgänger*innen die allgemeinbildenden Schulen ohne Hauptschulabschluss, ein neuer Höchststand seit den Corona-Jahren.",
+    "Für 201 Schulabgänger*innen ohne Gymnasien können mangels gemeldeter Daten keine Angaben zum Verbleib gemacht werden, da nur 11 von 15 Schulen Rückmeldung gaben.",
+    "Im Übergangsbereich der beruflichen Schulen verließen im Schuljahr 2023/24 mindestens 302 Jugendliche die Schule ohne Zeugnis, ihr weiterer Verbleib ist außer bei AVdual nicht dokumentiert.",
+    "Durch Nachverfolgung und das digitale Übergabetool sank die Zahl berufsschulpflichtiger Jugendlicher mit unklarem Verbleib von 176 im September 2024 auf 27 im Juni 2025."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:fdee12cb50d2797c5870d54d4ceae76d8461678ab060de3ff05cc1cc5e60434f",
-  "summary": "Die Vorlage stellt einen datenbasierten Bericht des Regionalen Übergangsmanagements zur Situation am Übergang Schule-Beruf in Karlsruhe vor und zeigt, an welchen Stellen Jugendliche ohne Anschluss zu bleiben drohen. Als vordringlichen Schritt benennt sie die Verbesserung der Datengrundlagen, um daraus gezielte Maßnahmen ableiten zu können."
+  "summary": "Der Bericht des Regionalen Übergangsmanagements fasst datenbasiert zusammen, an welchen Stellen in Karlsruhe Jugendliche beim Übergang Schule-Beruf den Anschluss verlieren. Er benennt Lücken in der Datenlage und schlägt vor, die Datengrundlagen zu optimieren und den Bericht jährlich fortzuschreiben."
 }

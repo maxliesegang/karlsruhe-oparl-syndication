@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-24T08:34:43.289Z",
+  "generatedAt": "2026-11-05T12:29:33.823Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54058",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676536",
+      "page": 1,
+      "quote": "Das Gebäude der alten Garnisonskirche im Stadtteil Knielingen unterliegt einer zunehmenden Verwitterung und Verwahrlosung"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676536",
+      "page": 1,
+      "quote": "Es wurde jedoch kein Investor gefunden, der in dieser Größenordnung in das jetzt noch denkmalgeschützte Gebäude investieren würde"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676481",
+      "page": 2,
+      "quote": "Ein Abriss und die Schaffung von neuem Wohnraum ist für die Volkswohnung nach aktueller Einschätzung und Aussage des Landesamtes für Denkmalpflege perspektivisch nicht möglich"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676481",
+      "page": 2,
+      "quote": "Nach der Inserierung auf der Website der Volkswohnung und einem bekannten Immobilienportal haben sich mehrere Interessenten bei der Volkswohnung gemeldet"
+    }
+  ],
   "keyPoints": [
-    "Der Bau verwittert und verwahrloscht zunehmend; eine Sanierung des einfachen Holzbaus gilt als zu kostspielig und aufwändig, eine Nutzung ist nach Ansicht des Antrags derzeit nicht möglich.",
-    "Die Fläche wurde bereits zwei Mal ausgeschrieben, ohne dass ein Investor für die Sanierung des denkmalgeschützten Gebäudes gefunden wurde, so der Antrag.",
-    "Laut Stellungnahme ist ein Abriss nach Aussage des Landesamtes für Denkmalpflege perspektivisch nicht möglich; ein Verkauf an einen Interessenten mit Nutzungs- und Sanierungskonzept sei derzeit die beste Alternative.",
-    "Nach dem nicht zustande gekommenen Verkauf wurde eine erneute Vermarktung eingeleitet, bei der sich mehrere Interessenten meldeten; scheitert auch diese Ausschreibung, will die Volkswohnung eine Abbruchgenehmigung beantragen, deren Erteilung offen ist."
+    "Der Antrag begründet die Forderung mit dem zunehmenden Verfall des Gebäudes und der fehlenden Nutzbarkeit.",
+    "Trotz bereits zweimaliger Ausschreibung der Fläche durch die Volkswohnung habe sich kein Investor für das denkmalgeschützte Gebäude gefunden.",
+    "Die Stellungnahme führt aus, dass ein Abriss und neuer Wohnraum nach Einschätzung der Volkswohnung und des Landesamtes für Denkmalpflege perspektivisch nicht möglich seien; ein Verkauf mit Sanierungskonzept gelte derzeit als beste Alternative.",
+    "Nach einer erneuten Inserierung auf der Website der Volkswohnung und einem Immobilienportal hätten sich mehrere Interessenten gemeldet."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:4c1766a342092470c417af9ffcf6efb80fe91182800ecca9831c42a3c3d51a1a",
-  "summary": "Der Antrag verlangt, dass die Volkswohnung GmbH beim Denkmalamt einen Abrissantrag für die denkmalgeschützte Garnisonskirche in Knielingen stellt, um dort Wohnraum zu schaffen. Die Verwaltung empfiehlt stattdessen, den Antrag angesichts abgestimmter Verkaufsabsichten als erledigt zu betrachten."
+  "summary": "Der Antrag fordert, dass die Volkswohnung GmbH beim Denkmalamt einen Abriss der denkmalgeschützten Garnisonskirche in Knielingen beantragt, um die Fläche für Wohnraum nachzunutzen. Die Stellungnahme der Verwaltung empfiehlt, den Antrag wegen der derzeit abgestimmten Verkaufsabsichten nicht weiter zu verfolgen."
 }

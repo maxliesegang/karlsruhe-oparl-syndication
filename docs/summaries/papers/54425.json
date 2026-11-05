@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:13:17.551Z",
+  "generatedAt": "2026-11-05T12:29:33.823Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54425",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678104",
+      "page": 2,
+      "quote": "Ein Teil des Grundstücks soll über einen Pachtvertrag über 30 Jahre der Photovoltaik-Nutzung zukommen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678104",
+      "page": 2,
+      "quote": "einen Stromertrag von etwa 37.400 MWh pro Jahr, was in etwa dem Stromverbrauch von 10.700 Drei-Personen-Haushalten entspricht"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678104",
+      "page": 2,
+      "quote": "Als Pufferspeicher sind acht Speichercontainer vorgesehen, mit einer Gesamtkapazität von 36 MWh"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678104",
+      "page": 3,
+      "quote": "Die Anlage ist daher in Stupferich – insbesondere im Bereich des Gegenhangs im Südosten der Ortschaft – aus den oberen Stockwerken deutlich sichtbar"
+    }
+  ],
   "keyPoints": [
-    "Der Standort erfüllt nicht die Voraussetzungen für eine baurechtliche Privilegierung im Außenbereich, weshalb ein Bebauungsplan sowie eine Einzeländerung des Flächennutzungsplans nötig sind.",
-    "Nach einer mit dem Vorhabenträger abgestimmten Reduzierung von etwa 29 auf 23 Hektar sind laut Projektträger rund 37.400 MWh Strom pro Jahr sowie acht Speichercontainer mit zusammen 36 MWh geplant; das Grundstück soll über einen 30 Jahre laufenden Pachtvertrag genutzt und anschließend vollständig zurückgebaut werden.",
-    "Für die Stadt sind in den ersten 20 Jahren rund 32.000 Euro Gewerbesteuer pro Jahr geschätzt, zudem bietet der Vorhabenträger eine freiwillige Abgabe von 0,2 Cent je eingespeister Kilowattstunde an, was bis zu 75.000 Euro pro Jahr entspricht; die Kosten für Gutachten und das Bebauungsplanverfahren soll der Vorhabenträger tragen.",
-    "Wegen knapper Kapazitäten ist ein Beginn erst in der Kategorie gewünschter Start 2026/2027 vorgesehen, wobei Blendwirkung sowie Natur- und Artenschutz erst im Bebauungsplanverfahren zu behandeln sind und die Eingrünung die Hanglage-bedingte Sichtbarkeit nicht vollständig abschirmt."
+    "Ein Teil des Grundstücks soll für 30 Jahre verpachtet werden, danach ist die Anlage vollständig zurückzubauen.",
+    "Laut Projektträger erzielt die Anlage einen Stromertrag von etwa 37.400 MWh pro Jahr, was etwa dem Verbrauch von 10.700 Drei-Personen-Haushalten entspricht.",
+    "Als Pufferspeicher sind acht Speichercontainer mit einer Gesamtkapazität von 36 MWh geplant.",
+    "Wegen der Hanglage bleibt die Anlage in Stupferich aus den oberen Stockwerken deutlich sichtbar, die geplanten Eingrünungen reichen zur vollständigen Abschirmung nicht aus."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:123a0fd19adb659ecf54ba5070d128d5dc1774f562772c4abd1b9ae65295c302",
-  "summary": "Die Vorlage schlägt vor, im Gewann Rippertfeld an der Grenze Hohenwettersbachs zu Stupferich ein vorhabenbezogenes Bebauungsplanverfahren mit Durchführungsvertrag für eine Freiflächen-Photovoltaikanlage mit Batteriespeicher einzuleiten. Die Verwaltung empfiehlt dies, weist aber auf die deutliche Sichtbarkeit der Anlage aus Stupferich hin."
+  "summary": "Die Vorlage schlägt vor, im Gewann Rippertfeld südöstlich von Hohenwettersbach ein vorhabenbezogenes Bebauungsplanverfahren für eine rund 23 Hektar große Freiflächen-Photovoltaikanlage mit Batteriespeicher einzuleiten. Da der Standort baurechtlich nicht privilegiert ist, ist zusätzlich eine Einzeländerung des Flächennutzungsplans erforderlich, und ein Durchführungsvertrag mit dem Investor ist vorgesehen."
 }

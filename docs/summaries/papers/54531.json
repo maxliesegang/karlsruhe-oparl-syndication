@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:30:28.395Z",
+  "generatedAt": "2026-11-05T12:29:33.823Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54531",
-  "keyPoints": [],
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678445",
+      "page": 2,
+      "quote": "Stadtamt Durlach erhielt drei Zuwendungen in Höhe von insgesamt 100.500,00 Euro"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678445",
+      "page": 2,
+      "quote": "Die Stadtkämmerei bekam drei Zuwendungen in Höhe von insgesamt 55.000,00 Euro"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678445",
+      "page": 2,
+      "quote": "Darunter befinden sich zahlreiche Spenden an KOHI e.V., Tollhaus e.V. sowie Kunstmuseum"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/678445",
+      "page": 2,
+      "quote": "Das Gartenbauamt bekam eine Zuwendung in Höhe von 15.000,00 Euro"
+    }
+  ],
+  "keyPoints": [
+    "Der mit Abstand größte Einzelposten geht an das Stadtamt Durlach mit drei Zuwendungen über insgesamt 100.500,00 Euro.",
+    "Auch die Stadtkämmerei selbst erhielt drei Zuwendungen in Höhe von insgesamt 55.000,00 Euro.",
+    "Für das Kulturamt sind mehrere Zuwendungen über insgesamt 32.659,55 Euro verzeichnet, darunter zahlreiche Spenden an KOHI e.V., Tollhaus e.V. sowie Kunstmuseum.",
+    "Das Gartenbauamt erhielt eine einzelne Zuwendung in Höhe von 15.000,00 Euro."
+  ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:76e5c63a2aa5f8461ea5173efab7e1717632953958e226c50d846050147ea13e",
-  "summary": "Die Vorlage schlägt vor, die der Stadtkämmerei zwischen April und Mai 2026 angezeigten Zuwendungsangebote im Gesamtwert von 210.873,18 Euro anzunehmen. Sie führt die jeweiligen Empfängerämter und Einrichtungen mit den zugehörigen Beträgen auf."
+  "summary": "Die Vorlage schlägt vor, die der Stadtkämmerei zwischen April und Mai 2026 angezeigten Zuwendungsangebote über insgesamt 210.873,18 Euro anzunehmen. Die Mittel verteilen sich auf mehrere städtische Ämter und Einrichtungen."
 }

@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:30:02.721Z",
+  "generatedAt": "2026-11-05T12:29:33.823Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54358",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677157",
+      "page": 1,
+      "quote": "Gesamtkosten: 150.000 € THH IT Jährliche/r Budgetbedarf/Folgekosten: 100.000 €"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677157",
+      "page": 3,
+      "quote": "Klimamessung: aktuell werden (insbesondere für das Umweltamt) mit insgesamt 110 Klimasensoren im Stadtgebiet aktuelle Klimadaten erhoben"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677157",
+      "page": 3,
+      "quote": "Das Team Sauberes Karlsruhe nutzt Ultraschallsensoren zur Überwachung des Füllstandes an insgesamt 40 Alttextilbehältern"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677157",
+      "page": 3,
+      "quote": "das Tiefbauamt nutzt 70 Sensoren, um die Parkplatzbelegung (Behindertenparkplätze, Ladezonen) in Echtzeit zu messen"
+    }
+  ],
   "keyPoints": [
-    "Genannt werden Gesamtkosten von 150.000 Euro aus dem THH IT sowie ein jährlicher Budgetbedarf beziehungsweise Folgekosten von 100.000 Euro.",
-    "Im Stadtgebiet sind unter anderem 110 Klimasensoren, 40 Ultraschallsensoren an Alttextilbehältern, 10 Bodenfeuchte-Messstellen und 70 Sensoren zur Parkraumüberwachung im Einsatz; seit 2025 wird das Projekt Cyclesense zur mobilen Feinstaubmessung unterstützt.",
-    "Die Urbane Datenplattform wird gemeinsam mit der Stadt Freiburg mithilfe von Bundesfördermitteln entwickelt und soll künftig das Open-Data-Portal der Stadt Karlsruhe ersetzen; zu ihrer Grundlage wird eine Datenstrategie erarbeitet.",
-    "Realisiert sind Planungszwillinge für die Bauvorhaben Zukunft Nord und Stuttgarter Straße sowie Fachzwillinge für Klimaschutz und Klimaanpassung; die Karlsruhe.App verzeichnet über 30.000 Downloads."
+    "Für die Vorlage sind Gesamtkosten von 150.000 Euro sowie ein jährlicher Budgetbedarf beziehungsweise Folgekosten von 100.000 Euro angegeben.",
+    "Für das Umweltamt werden im Stadtgebiet mit insgesamt 110 Klimasensoren aktuelle Klimadaten erhoben.",
+    "Das Team Sauberes Karlsruhe überwacht den Füllstand an insgesamt 40 Alttextilbehältern per Ultraschallsensor, um die Tourenplanung für die Leerung zu optimieren.",
+    "Das Tiefbauamt misst die Belegung von Behindertenparkplätzen und Ladezonen mit 70 Sensoren in Echtzeit."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:6d07f6ab1ac68bd7c50a9f1f427e3796cbba55f95b8b6cfa03ac7781998ff168",
-  "summary": "Die Vorlage gibt einen Sachstand zu den Smart-City-Aktivitäten der Stadtverwaltung Karlsruhe und schlägt vor, die Ausführungen zur Kenntnis zu nehmen. Sie beschreibt die Bausteine Sensor-Infrastruktur, Urbane Datenplattform, Digitaler Zwilling, Karlsruhe.App und karlsruhe.digital."
+  "summary": "Die Vorlage fasst den Stand der Smart-City-Aktivitäten der Stadtverwaltung zusammen, darunter den Ausbau der Sensor-Infrastruktur, die geplante Urbane Datenplattform, Digitale Zwillinge und die Karlsruhe.App. Sie schlägt vor, die Ausführungen zur Kenntnis zu nehmen."
 }

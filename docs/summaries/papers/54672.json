@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:24:45.960Z",
+  "generatedAt": "2026-11-05T12:29:33.823Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54672",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679235",
+      "page": 1,
+      "quote": "Die Verwaltung weist in der vorliegenden Beschlussvorlage explizit auf „unscharfe Projektkosten bei einzelnen Projekten“ hin"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679243",
+      "page": 1,
+      "quote": "Eine Erhöhung des Puffers erscheint nicht notwendig, da bereits in den Projektkosten grundsätzlich Unvorhergesehenes und Baupreisentwicklungen berücksichtigt sind"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679243",
+      "page": 1,
+      "quote": "Dies entspricht der Vorgehensweise, die die kommunalen Landesverbände empfehlen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679235",
+      "page": 1,
+      "quote": "Es belastet die Mitarbeitenden unnötig, wenn Projekte trotz unzureichender finanzieller Rücklagen vollständig ausgearbeitet werden, am Ende aber nicht realisierbar sind"
+    }
+  ],
   "keyPoints": [
-    "Der Antrag verweist auf in der Hauptvorlage benannte unscharfe Projektkosten sowie auf strukturelle und inflationäre Entwicklungen im Bausektor und hält einen Puffer von mindestens 20 Prozent für erforderlich.",
-    "Der Antrag wirft ein, dass Mitarbeitende Projekte bei unzureichenden Rücklagen vollständig ausarbeiten, die am Ende nicht realisierbar seien; Leitgrundsatz sei Qualität vor Masse.",
-    "Nach Auffassung des Antrags können Maßnahmen aus dem Bereich für nachrückende Vorhaben jederzeit nachrücken, sobald sich bei laufenden Projekten Kostensicherheit einstellt.",
-    "Die Verwaltung führt aus, dass derzeit 90 Prozent der zugewiesenen Mittel beplant und 10 Prozent als zentraler Puffer zurückgestellt sind, was der Empfehlung der kommunalen Landesverbände entspreche; eine Erhöhung lasse weitere Projekte hintanstehen."
+    "Der Antrag verweist auf unscharfe Projektkosten bei einzelnen Vorhaben und auf strukturelle sowie inflationäre Entwicklungen im Bausektor.",
+    "Die Verwaltung führt an, dass Unvorhergesehenes und Baupreisentwicklungen bereits grundsätzlich in den Projektkosten berücksichtigt sind.",
+    "Nach Angaben der Stellungnahme entspricht das Zurückstellen eines Teils der Mittel der Vorgehensweise der kommunalen Landesverbände.",
+    "Der Antrag rügt, dass Mitarbeitende belastet werden, wenn Vorhaben ausgearbeitet, am Ende aber nicht realisierbar sind."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:1d57508cd33b33c253507c5bac356dacbc9fc56dfa5abe2586dcba871ec52634",
-  "summary": "Der Änderungsantrag fordert, den Sicherheitsabschlag bei der Belegung der LuKIFG-Fördermittel der Stadt Karlsruhe von rund 10 auf 20 Prozent zu erhöhen und über das Limit hinausgehende Maßnahmen in einen Bereich für nachrückende Projekte zu verschieben. Die Verwaltung empfiehlt, den Antrag abzulehnen."
+  "summary": "Der Antrag verlangt, den Sicherheitsabschlag bei der Belegung der LuKIFG-Fördermittel von rund 10 auf 20 Prozent zu erhöhen und Maßnahmen, die über das Limit hinausgehen, in den Bereich für nachrückende Projekte zu verschieben. Die Verwaltung empfiehlt, den Antrag abzulehnen, weil ein höherer Puffer weitere Projekte zurückstellen würde."
 }

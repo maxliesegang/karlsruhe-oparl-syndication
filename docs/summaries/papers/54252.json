@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:31:45.858Z",
+  "generatedAt": "2026-11-05T12:29:33.823Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54252",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676474",
+      "page": 2,
+      "quote": "kalkuliert er nun mit 20,50 Euro pro Bett, was einer Erhöhung von einem Euro gegenüber der vorhergehenden Vereinbarung von 19,50 Euro entspricht"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676474",
+      "page": 2,
+      "quote": "Da auf die letzten begrenzten Ausschreibungen kein Angebot mit mehreren Einzelzimmern einging, wird auf eine Ausschreibung verzichtet"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676475",
+      "page": 1,
+      "quote": "In allen Einzelzimmern stehen Singleküchen zur Verfügung, die weiteren Zimmer teilen sich eine neu eingerichtete Küche"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676474",
+      "page": 2,
+      "quote": "Für Bedarfsgemeinschaften beträgt die Gebühr ab der zweiten Person für jede weitere Person 250 Euro pro Monat"
+    }
+  ],
   "keyPoints": [
-    "Die Unterkunft bietet 20 Betten in 16 Einzeln- und 2 Doppelzimmern; die geplante Laufzeit ist vom 1. August 2026 bis 31. Juli 2031.",
-    "Der Vertragspartner kalkuliert nun 20,50 Euro pro Bett, eine Erhöhung von einem Euro gegenüber der vorhergehenden Vereinbarung; der Gesamtaufwand steigt gegenüber bisher 702.000 Euro um 36.000 Euro.",
-    "Das Angebot gilt weiterhin als preiswerter als die Kosten der zuletzt abgeschlossenen Verträge für Belegrechte zur Unterbringung von Obdachlosen.",
-    "Die Aufwendungen und Erträge sollen im Doppelhaushalt 2026/2027 vollständig budgetiert sein, sodass keine ungeplanten Mehrbelastungen entstehen."
+    "Der Angebotspreis steigt gegenüber der vorhergehenden Vereinbarung um einen Euro je Bett; das Angebot gilt weiterhin als preiswerter als die zuletzt abgeschlossenen Verträge für Belegrechte.",
+    "Von einer Ausschreibung wird abgesehen, weil bei den letzten begrenzten Ausschreibungen kein Angebot mit mehreren Einzelzimmern einging.",
+    "Die Unterkunft umfasst 16 Einzelzimmer und zwei Doppelzimmer; in den Einzelzimmern stehen Singleküchen zur Verfügung, die übrigen Zimmer teilen sich eine neu eingerichtete Küche.",
+    "Für Bedarfsgemeinschaften fällt ab der zweiten Person eine reduzierte Benutzungsgebühr an."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:d9111956c78193f00da2448696befdb85b7f8ae30f52d0fd62945c6d1f61dbe0",
-  "summary": "Die Vorlage schlägt vor, die Belegungsvereinbarung für eine Obdachlosenunterkunft in der Hardeckstraße in Karlsruhe um fünf Jahre zu verlängern und dafür Gesamtbelegungskosten von 738.000 Euro zu bewilligen. Da auf frühere Ausschreibungen kein Angebot mit mehreren Einzelzimmern einging, soll ohne erneute Ausschreibung vergeben werden."
+  "summary": "Die Vorlage schlägt vor, die Belegungsvereinbarung für eine Obdachlosenunterkunft in der Hardeckstraße mit 20 Betten um fünf Jahre zu verlängern, ohne eine erneute Ausschreibung durchzuführen. Der Vertragspartner bietet die Fortführung bei gleicher Platzzahl an; die Belegungskosten für die Laufzeit sind mit 738.000 Euro veranschlagt."
 }

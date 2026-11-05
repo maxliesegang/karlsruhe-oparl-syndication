@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:38:53.859Z",
+  "generatedAt": "2026-11-05T12:29:33.823Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54399",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677841",
+      "page": 5,
+      "quote": "Ende 2025 hat die DG der Stadt mitgeteilt, dass der geplante Ausbau abgesagt wird"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677841",
+      "page": 3,
+      "quote": "bis Ende des ersten Quartals 2026 alle Baumaßnahmen inklusive Kabelarbeiten abzuschließen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677847",
+      "page": 3,
+      "quote": "Insbesondere schneiden Großstädte im Scoring-Modell des Bundesförderprogramms schlecht ab und haben daher geringe Chancen auf Förderung"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677841",
+      "page": 2,
+      "quote": "Über die Möglichkeit, Glasfaser bis ins Gebäude zu erhalten (FTTB/H), verfügen bisher knapp 35 Prozent"
+    }
+  ],
   "keyPoints": [
-    "Der geförderte Ausbau im Rheinhafen soll Ende des ersten Quartals 2026 abgeschlossen werden, die Bausumme für die drei Fördergebiete beläuft sich auf 11.874.011,24 Euro bei einem Eigenanteil der Stadt von 10 Prozent.",
-    "Die Deutsche Glasfaser sagte den geplanten Ausbau unter anderem der Höhenstadtteile Ende 2025 ab; nach Einschätzung der Verwaltung ist dadurch das Ziel eines flächendeckenden Glasfasernetzes bis 2030 zunehmend gefährdet.",
-    "Parallel verlegte Netze mehrerer Anbieter belasten die Bürgerschaft; dem dient ein Kooperationsvertrag zwischen SWK und Telekom von Juli 2025 für Rüppurr und Nordweststadt.",
-    "Aus der Bürgerschaft liegen laut Stellungnahme unter anderem Klagen über Druck und falsche Aussagen bei Vertragswerbung sowie über zahlreiche Baustellen beim parallelen Ausbau vor."
+    "Die Deutsche Glasfaser hat Ende 2025 ihren geplanten Ausbau in zahlreichen Stadtteilen abgesagt; als Gründe nennt die Verwaltung hohe Bau- und Zinskosten, niedrige Anschlussquoten und die städtischen Genehmigungsvorgaben.",
+    "Der geförderte Glasfaserausbau im Rheinhafen soll bis Ende des ersten Quartals 2026 abgeschlossen werden; Bausumme, Fördersumme und Eigenmittel der drei Fördergebiete sind im Sachstandsbericht ausgewiesen.",
+    "Weitere Fördermittel hält die Verwaltung für begrenzt, da Großstädte im Scoring-Modell des Bundesförderprogramms schlecht abschneiden und bestehende Kabelnetze eine Förderung des jeweiligen Gebiets ausschließen.",
+    "Bislang verfügen knapp 35 Prozent des Stadtgebiets über Glasfaser bis ins Gebäude, während rund 95 Prozent Gigabitbandbreiten überwiegend über Kabelnetze nutzen können."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:6bce2156a91feb7b180280f2e85cd4d0e03288d638af6a4f6c82aa878cb4da58",
-  "summary": "Die Anfrage will unter anderem wissen, welche Stadtteile bereits erschlossen oder im Ausbau sind, warum sich der Glasfaserausbau verzögert und welche Rolle die Stadtwerke dabei spielen. Die Verwaltung verweist auf den Sachstandsbericht und führt unter anderem hohe Bau- und Zinskosten sowie die Absage der Deutschen Glasfaser als Hemmnisse an."
+  "summary": "Die Anfrage der SPD-Fraktion will den Ausbaustand nach Stadtteilen, Ursachen für Verzögerungen, eine gesamtstädtische Strategie und die Rolle der Stadtwerke beim Glasfaserausbau wissen. Die Verwaltung verweist auf den Sachstandsbericht, benennt hohe Bau- und Zinskosten, niedrige Anschlussquoten und Förderausschlüsse für Großstädte als Hemmnisse und sieht das Ziel eines flächendeckenden Netzes bis 2030 zunehmend gefährdet."
 }

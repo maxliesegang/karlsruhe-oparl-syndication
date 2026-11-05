@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-24T08:34:29.897Z",
+  "generatedAt": "2026-11-05T12:29:33.823Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52264",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/669421",
+      "page": 3,
+      "quote": "Die Spielplatzablöse pro Quadratmeter basiert auf den tatsächlichen Kosten für Herstellung / Sanierung und den Betrieb öffentlicher Spielplätze in Karlsruhe"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/669421",
+      "page": 3,
+      "quote": "Pflege- und Wartungskosten (pauschal 20% der Baukosten, jährlich 53 EUR; Summe über 15 Jahre): 795 EUR/m²"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/669421",
+      "page": 3,
+      "quote": "in wie weit Bauherrschaften von der neuen Möglichkeit der Landesbauordnung Gebrauch machen werden, kann eine Prognose über die zu erzielenden Beträge nicht gemacht werden"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/669424",
+      "page": 2,
+      "quote": "Der Ablösebetrag wird mit der Erteilung der ersten Baufreigabe des Vorhabens fällig und ist an die Stadt zu zahlen"
+    }
+  ],
   "keyPoints": [
-    "Die Höhe ergibt sich aus einer Kalkulation des Gartenbauamtes: Baukosten von 265 Euro, Planungskosten von 53 Euro sowie Pflege-, Wartungs- und Prüfkosten von 795 Euro je Quadratmeter über 15 Jahre ergeben 1.113 Euro, auf Hundert abgerundet.",
-    "Grundlage ist die seit dem 28. Juni 2025 geltende Landesbauordnung, die Bauherren eine monetäre Ablöse anstelle der Herstellung eines Spielplatzes ermöglicht.",
-    "Die beigefügte Vertragsmuster sieht vor, dass der Betrag mit der ersten Baufreigabe fällig wird, bei Zahlungsverzug mit fünf Prozentpunkten über dem BGB-Basiszinssatz verzinst wird und auf Antrag erstattet wird, wenn die Spielplatzfläche doch hergestellt wird.",
-    "Die Stadt übernimmt durch die Ablöse keine Verpflichtung, neue Spielplätze zu errichten, und die Bauherrschaft erhält keinen Anspruch auf die Nutzung der kommunalen Einrichtungen."
+    "Der Ablösebetrag wurde aus den tatsächlichen Kosten für Herstellung, Sanierung und Betrieb öffentlicher Spielplätze in Karlsruhe kalkuliert, darunter Baukosten von 265 Euro je Quadratmeter.",
+    "Die Kalkulation berücksichtigt unter anderem Pflege- und Wartungskosten über einen Zeitraum von 15 Jahren.",
+    "Über die zu erwartenden Einnahmen aus den Ablösezahlungen kann laut Vorlage keine Prognose abgegeben werden.",
+    "Der Ablösebetrag wird mit der ersten Baufreigabe des Vorhabens fällig; bei verspäteter Zahlung sind Verzugszinsen in Höhe von fünf Prozentpunkten über dem BGB-Basiszinssatz vorgesehen."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:190b5f87d4701b3ebbac38f28fa4db8bace55b95315cbf3b9e985a920fa910f5",
-  "summary": "Die Vorlage schlägt vor, den Ablösebetrag für nicht hergestellte Kinderspielplätze nach § 9 Absatz 4 der Landesbauordnung auf 1.100 Euro je Quadratmeter festzulegen. Das Geld soll für Errichtung, Ausbau und Ausnahmefälle die Instandhaltung kommunaler Spielplätze verwendet werden, wobei eine Prognose über die Einnahmen laut Verwaltung nicht möglich ist."
+  "summary": "Die Vorlage schlägt vor, die Ablöse für die nach Landesbauordnung bestehende Kinderspielplatzpflicht auf 1.100 Euro je Quadratmeter nicht nachgewiesener Spielplatzfläche festzulegen. Der Betrag soll bei betroffenen Bauvorhaben an die Stadt gezahlt und für kommunale Spielplätze verwendet werden; ein Mustervertrag für die Ablösung ist beigefügt."
 }

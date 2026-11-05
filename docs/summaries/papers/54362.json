@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:35:05.793Z",
+  "generatedAt": "2026-11-05T12:29:33.823Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54362",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677122",
+      "page": 1,
+      "quote": "Dies führt insbesondere bei Stau oder hohem Verkehrsaufkommen zu problematischen Verkehrssituationen, da zunächst eingefädelt werden muss, um kurz darauf wieder auszufahren"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677122",
+      "page": 1,
+      "quote": "Auf der Gegenfahrbahn in Richtung Basel existiert auf dem entsprechenden Streckenabschnitt bereits eine durchgehende Fahrbahn"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677709",
+      "page": 2,
+      "quote": "Ausschlaggebend hierfür ist insbesondere die nicht ausreichende Gesamtquerschnittsbreite von 15,75 m"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677709",
+      "page": 2,
+      "quote": "auch der vorhandene Standstreifen im Zwischenbereich mit 3,00 m Breite nicht ausreichend dimensioniert, um die Anforderungen an einen vollwertigen Fahrstreifen (3,75 m) einschließlich der notwendigen Markierungen"
+    }
+  ],
   "keyPoints": [
-    "Der Standstreifen ist auf dem betroffenen rund 400 Meter langen Abschnitt laut Antrag umzuwandeln, damit Verkehrsteilnehmende, die kurz darauf wieder abfahren, nicht erst in den fließenden Verkehr einfädeln müssen.",
-    "Die Verkehrsbehörde der Autobahn GmbH nennt eine Gesamtquerschnittsbreite von 15,75 Metern als unzureichend; der Standstreifen misst im Zwischenbereich 3,00 Meter, ein vollwertiger Fahrstreifen bräuchte 3,75 Meter samt Markierungen und Sicherheitsräumen.",
-    "Die Verwaltung erläutert, dass ein zusätzlicher Fahrstreifen nur nach Erweiterung des Fahrbahnquerschnitts denkbar wäre; finanzielle Auswirkungen werden nicht benannt.",
-    "Auf der Gegenfahrbahn in Richtung Basel existiert der Vorlage zufolge auf dem entsprechenden Streckenabschnitt bereits eine durchgehende Fahrbahn."
+    "Die CDU-Fraktion begründet den Antrag damit, dass sich Verkehrsteilnehmende trotz baldigen Ausfahrens an Karlsruhe-Nord in den fließenden Verkehr einfädeln müssen, was bei Stau zu Konflikten führt.",
+    "Auf der Gegenfahrbahn in Richtung Basel existiert der Angabe zufolge bereits eine durchgehende Fahrbahn auf dem entsprechenden Streckenabschnitt.",
+    "Die Verkehrsbehörde der Autobahn GmbH hält eine Umnutzung des Standstreifens für nicht umsetzbar, weil die Gesamtquerschnittsbreite 15,75 Meter beträgt und die Mindestbreiten für Markierung und Verkehrsführung nicht eingehalten werden können.",
+    "Der vorhandene Standstreifen ist mit 3,00 Meter Breite zu schmal für einen vollwertigen Fahrstreifen, für den 3,75 Meter einschließlich Markierungen und Sicherheitsräumen erforderlich wären."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:70b3f8b6e58e94b1595f9c7f1637ddfe64c31e325b1f76eea31d2a054a3a3751",
-  "summary": "Der Antrag der CDU-Fraktion verlangt eine Prüfung, ob der Standstreifen der BAB 5 in Fahrtrichtung Frankfurt zwischen der Anschlussstelle Karlsruhe-Durlach (44) und Karlsruhe-Nord (43) in eine reguläre Fahrspur umgewandelt werden kann. Die Verwaltung verweist auf die ablehnende Haltung der Autobahn GmbH, die den Fahrbahnquerschnitt für zu schmal hält und der keinem solchen Vorhaben zustimmt."
+  "summary": "Der Antrag lässt prüfen, ob der rund 400 Meter lange Seitenstreifen der BAB5 zwischen Karlsruhe-Durlach und Karlsruhe-Nord in eine reguläre Fahrspur umgewandelt werden kann. Die Verwaltung weist darauf hin, dass die Autobahn GmbH dies wegen eines zu schmalen Fahrbahnquerschnitts ablehnt."
 }

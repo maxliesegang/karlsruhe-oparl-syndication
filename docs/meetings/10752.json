@@ -1,14 +1,25 @@
 {
   "agendaItem": [
     {
+      "created": "2026-11-04T09:35:04+01:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104491",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10752",
+      "modified": "2026-11-05T08:15:06+01:00",
+      "name": "Klärwerk Karlsruhe, Schlammbehandlungszentrum, Neubau einer Faulungsanlage",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
       "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38147",
       "created": "2026-11-02T09:18:29+01:00",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104448",
       "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10752",
-      "modified": "2026-11-02T09:18:56+01:00",
-      "name": "Satzung der Stadt Karlsruhe über Gebühren für das Friedhofs-und Bestattungswesen (Friedhofsgebührensatzung)",
-      "number": "1",
-      "order": 1,
+      "modified": "2026-11-05T08:15:31+01:00",
+      "name": "Satzung der Stadt Karlsruhe über Gebühren für das Friedhofs- und Bestattungswesen (Friedhofsgebührensatzung)",
+      "number": "2",
+      "order": 2,
       "public": true,
       "type": "https://schema.oparl.org/1.1/AgendaItem"
     },
@@ -17,10 +28,10 @@
       "created": "2026-11-02T09:18:29+01:00",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104449",
       "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10752",
-      "modified": "2026-11-02T09:18:56+01:00",
+      "modified": "2026-11-04T09:37:17+01:00",
       "name": "Teilentwidmung des ehemaligen Friedhofs Neureut Nord (Hermann-Meinzer-Park)",
-      "number": "2",
-      "order": 2,
+      "number": "3",
+      "order": 3,
       "public": true,
       "type": "https://schema.oparl.org/1.1/AgendaItem"
     },
@@ -29,10 +40,32 @@
       "created": "2026-11-02T09:18:29+01:00",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104450",
       "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10752",
-      "modified": "2026-11-02T09:18:56+01:00",
+      "modified": "2026-11-04T09:37:17+01:00",
       "name": "Neufassung der Benutzungsordnung für Schulräume, Schulhöfe und schulische Außensportanlagen der Stadt Karlsruhe nebst Neufassung der Entgeltordnung gemäß Anlage 1 – gültig ab 01.08.2027",
-      "number": "3",
-      "order": 3,
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-11-04T09:35:57+01:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104492",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10752",
+      "modified": "2026-11-04T10:53:50+01:00",
+      "name": "Bekanntgaben",
+      "number": "5",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-11-04T09:36:28+01:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104493",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10752",
+      "modified": "2026-11-04T10:53:50+01:00",
+      "name": "Anfragen und Anregungen aus dem Ortschaftsrat",
+      "number": "6",
+      "order": 6,
       "public": true,
       "type": "https://schema.oparl.org/1.1/AgendaItem"
     }
@@ -40,14 +73,26 @@
   "created": "2025-11-07T09:07:59+01:00",
   "end": "2026-11-17T00:00:00+01:00",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10752",
+  "invitation": {
+    "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00682286.pdf",
+    "created": "2026-11-05T08:12:55+01:00",
+    "date": "2026-11-05",
+    "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00682286.pdf",
+    "fileName": "00682286.pdf",
+    "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/682286",
+    "mimeType": "application/pdf",
+    "modified": "2026-11-05T09:07:36+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
   "location": {
     "created": "2025-11-07T09:07:59+01:00",
     "description": "Sitzungssaal Rathaus Neureut",
     "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/locations/si/10752",
-    "modified": "2025-11-07T09:08:13+01:00",
+    "modified": "2026-11-05T09:07:35+01:00",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2025-11-07T09:08:13+01:00",
+  "modified": "2026-11-05T09:07:35+01:00",
   "name": "Ortschaftsrat Neureut (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/34531"

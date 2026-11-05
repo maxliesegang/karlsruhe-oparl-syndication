@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:34:49.205Z",
+  "generatedAt": "2026-11-05T12:29:33.823Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54245",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676430",
+      "page": 1,
+      "quote": "Der Mitgliedsbeitrag belief sich zuletzt auf 2.618 Euro p.a"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676430",
+      "page": 3,
+      "quote": "Die Ergebnisverbesserung beläuft sich durch Ausgabereduktion auf 2.618 Euro p.a. ab 1.1.2027"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676430",
+      "page": 1,
+      "quote": "Da Anträge auf Mitgliedschaften dem Gemeinderat zur Beschlussfassung vorgelegt werden, wird auch eine Kündigung von Mitgliedschaften vor dem Vollzug durch die Verwaltung zur Beschlussfassung vorgelegt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676430",
+      "page": 3,
+      "quote": "Zur Umsetzung der Haushaltsicherungsmaßnahmen im Ausgabebereich des Ergebnishaushaltes wird das Stadtplanungsamt ermächtigt"
+    }
+  ],
   "keyPoints": [
     "Der Mitgliedsbeitrag belief sich zuletzt auf 2.618 Euro pro Jahr.",
-    "Die Kündigung muss zur Mitte des Jahres 2026 ausgesprochen werden, damit die Mitgliedschaft zum 31.12.2026 endet.",
-    "Ab dem 1.1.2027 wird durch die Ausgabereduktion eine Ergebnisverbesserung von 2.618 Euro pro Jahr erwartet.",
-    "Da Mitgliedschaften dem Gemeinderat zur Beschlussfassung vorgelegt werden, wird auch die Kündigung vor ihrem Vollzug dort vorgelegt."
+    "Die Ergebnisverbesserung durch die Ausgabereduktion soll ab dem 1.1.2027 eintreten.",
+    "Da Mitgliedschaftsanträge dem Gemeinderat zur Beschlussfassung vorgelegt werden, soll auch die Kündigung vor dem Vollzug durch die Verwaltung dort vorgelegt werden.",
+    "Die Ermächtigung des Stadtplanungsamtes zur Kündigung wird als Teil der Haushaltsicherungsmaßnahmen im Ausgabebereich des Ergebnishaushaltes begründet."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:c42096801108e027217737639ad25d6902a2560d0e9b1b46bffde0fdd572e756",
-  "summary": "Die Vorlage schlägt vor, die Mitgliedschaft des Stadtplanungsamtes bei der DGNB e.V. zum Ende des Jahres 2026 zu kündigen, um die Einsparvorgaben im Ergebnishaushalt des Amtes umzusetzen. Die Verwaltung empfiehlt, das Stadtplanungsamt zur fristgerechten Kündigung der Mitgliedschaft zu ermächtigen."
+  "summary": "Die Vorlage schlägt vor, die Mitgliedschaft des Stadtplanungsamtes bei der DGNB e.V. zum 31.12.2026 fristgerecht zu kündigen, um die Einsparvorgaben im Ergebnishaushalt des Amtes umzusetzen. Die Verwaltung weist darauf hin, dass die Kündigung bereits zur Mitte des Jahres 2026 ausgesprochen werden muss."
 }

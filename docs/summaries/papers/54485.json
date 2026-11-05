@@ -1,15 +1,31 @@
 {
-  "generatedAt": "2026-10-21T07:43:17.250Z",
+  "generatedAt": "2026-11-05T12:29:33.823Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54485",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677925",
+      "page": 1,
+      "quote": "Es liegt ein Gemeinderatsbeschluss vor, nachdem die Stadt Karlsruhe weiterhin Hundekotbeutel kostenlos zur Verfügung stellt. Haushaltsmittel wurden hierfür eingeplant"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677925",
+      "page": 2,
+      "quote": "Nach Freigabe des Haushalts wurden bereits neue Hundekotbeutel bestellt. Wolfartsweier hat derzeit noch einen Vorrat an Hundekotbeuteln"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677925",
+      "page": 2,
+      "quote": "In Wolfartsweier werden jährlich ca. 60.000 Hundekotbeutel verbraucht"
+    }
+  ],
   "keyPoints": [
-    "Anlass ist eine Mitteilung, wonach die von der Stadt bereitgestellten Hundekotbeutel nur noch bis zum Aufbrauchen der Bestände ausgegeben werden und Hundehalter ihre Beutel künftig selbst mitbringen sollen.",
-    "Die Anfrage verweist darauf, dass die niedrigschwellige Möglichkeit der Beutelmitnahme nach Einschätzung vieler Bürgerinnen und Bürger dazu beigetragen hat, die Zahl liegengebliebener Hundehinterlassenschaften im öffentlichen Raum zu reduzieren.",
-    "Die Stellungnahme nennt einen Gemeinderatsbeschluss, wonach die Stadt weiterhin kostenlos Hundekotbeutel bereitstellt; hierfür sind Haushaltsmittel eingeplant, der Haushalt wurde im März 2026 genehmigt und neue Beutel sind bereits bestellt.",
-    "In Wolfartsweier ist noch ein Vorrat an Hundekotbeuteln vorhanden, der bis zur neuen Lieferung ausreichen sollte; als Jahresverbrauch werden dort rund 60.000 Hundekotbeutel genannt."
+    "Der Haushalt der Stadt Karlsruhe wurde im März 2026 genehmigt, und für die Hundekotbeutel wurden Haushaltsmittel eingeplant.",
+    "Nach der Haushaltsfreigabe wurden bereits neue Hundekotbeutel bestellt, und der Vorrat in Wolfartsweier sollte bis zur neuen Lieferung ausreichen.",
+    "In Wolfartsweier werden jährlich ca. 60.000 Hundekotbeutel verbraucht."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:b445c77abe6afcf7e2b4c403f8d4f9914d2e7b2a380b500a5872c053ababad63",
-  "summary": "Die Anfrage der Fraktion Bündnis 90/Die Grünen erkundigt sich, ob die Ortsverwaltung Wolfartsweier die Hundekotbeutelspender im Ort künftig weiter befüllt, sofern Hundehalterinnen und Hundehalter die Beutel selbst organisieren. Die Stellungnahme führt aus, dass die Stadt weiterhin kostenlos Hundekotbeutel bereitstellt und der Bedarf dort derzeit gedeckt ist."
+  "summary": "Die Anfrage will wissen, ob die Ortsverwaltung die Hundekotbeutelspender in Wolfartsweier weiterhin befüllt, sofern Bürgerinnen und Bürger die Beutel organisieren, und wie hoch der Jahresverbrauch ausfällt. Die Stellungnahme verweist auf einen Gemeinderatsbeschluss, wonach die Stadt die Beutel weiterhin kostenlos bereitstellt."
 }

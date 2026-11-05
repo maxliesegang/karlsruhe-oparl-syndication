@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:35:59.831Z",
+  "generatedAt": "2026-11-05T12:29:33.823Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54300",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677390",
+      "page": 1,
+      "quote": "In der folgenden Übersicht ist die Gesamtfläche, die Anzahl der Grabstätten sowie die jeweilige Auslastungsquote auf den Friedhöfen der Stadt dargestellt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677390",
+      "page": 2,
+      "quote": "Eine signifikante Zu- oder Abnahme der Bestattungszahlen ist gegenwärtig nicht absehbar"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677390",
+      "page": 2,
+      "quote": "Der Anteil der Sargbestattungen ist in den vergangenen Jahren deutlich zurückgegangen und liegt aktuell bei lediglich rund 20 Prozent"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677390",
+      "page": 2,
+      "quote": "In Karlsruhe werden jährlich etwa 120 Anfragen für Beisetzungen auf einem Stadtteilfriedhof der Stadt gestellt"
+    }
+  ],
   "keyPoints": [
-    "Die Stellungnahme enthält eine Übersicht zu Gesamtfläche, Anzahl der Grabstätten, belegter Fläche und Belegungsquote der einzelnen Friedhöfe sowie eine Gesamtzeile.",
-    "Die Verwaltung erwartet mittelfristig keine signifikante Zu- oder Abnahme der Bestattungszahlen; der Anteil der Sargbestattungen liegt demgegenüber aktuell bei rund 20 Prozent, rund 80 Prozent entfallen auf Feuerbestattungen.",
-    "Jährlich gehen etwa 120 Anfragen für Beisetzungen auf einem Stadtteilfriedhof ein, bei denen die Verstorbenen dort nicht zuletzt gemeldet waren; mit wenigen Ausnahmen konnte bisher entsprochen werden.",
-    "Ausnahmen werden im Einzelfall bei berechtigten Gründen wie bestehenden Familiengräbern oder persönlichen Verbindungen zum Stadtteil genehmigt; auf den zu über 90 Prozent belegten Stadtteilfriedhöfen hält die Verwaltung die jetzige Regelung für unabdingbar."
+    "Die Stellungnahme enthält eine Übersicht zur Gesamtfläche, zur Anzahl der Grabstätten und zur Auslastungsquote der einzelnen Friedhöfe der Stadt.",
+    "Die Verwaltung hält die Zahl der neu vergebenen Grabstätten langfristig für gleichbleibend.",
+    "Der Anteil der Sargbestattungen ist deutlich gesunken, während Feuerbestattungen den Großteil ausmachen.",
+    "Pro Jahr gehen rund 120 Anfragen für Beisetzungen auf einem Stadtteilfriedhof ein, obwohl die Verstorbenen dort zuletzt nicht ihren letzten Wohnsitz hatten."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:e18b06d677ad6a9e22646a2981f8c7d4e9c3ff2db12fda58058028a0d443135c",
-  "summary": "Die Anfrage fragt nach Grabstättenzahlen, Auslastung und künftiger Belegungsentwicklung der Karlsruher Stadtteilfriedhöfe sowie nach Ausnahmegenehmigungen für Beisetzungen ohne Wohnsitz im jeweiligen Stadtteil. Das Friedhofs- und Bestattungsamt bewertet eine entsprechende Erweiterung der Friedhofssatzung kritisch und verweist auf die bewährte Einzelfallregelung."
+  "summary": "Die Anfrage der SPD erfragt Grabstättenzahlen, Auslastung und die künftige Belegungsentwicklung auf den Karlsruher Stadtteilfriedhöfen sowie die Folgen einer erweiterten Zulassung von Beisetzungen für dort zuletzt nicht gemeldete Verstorbene. Die Verwaltung bewertet eine solche Satzungsänderung kritisch und verweist auf bewährte Ausnahmeregelungen im Einzelfall."
 }

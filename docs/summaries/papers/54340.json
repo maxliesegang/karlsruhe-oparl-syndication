@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:36:10.966Z",
+  "generatedAt": "2026-11-05T12:29:33.823Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54340",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677621",
+      "page": 1,
+      "quote": "Darüber hinaus sind von den über 700 Anzeigern der VBK und AVG rund 20 Anzeiger gestört. Hier stehen aber die Informationen selbstverständlich über die Onlinemedien zur Verfügung"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677621",
+      "page": 1,
+      "quote": "Sowohl in diesem Bereich als auch bei der Qualität der angelieferten Daten bestanden Herausforderungen, die bis auf die Information zur Traktionsstärke und zur Barrierefreiheit"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677621",
+      "page": 1,
+      "quote": "Vor der Inbetriebnahme wurde ein umfangreiches Testprogramm absolviert und u.a. 22 Testfahrten im Zeitraum von April bis November 2025 durchgeführt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677621",
+      "page": 1,
+      "quote": "Der Anbieter des digitalen Anzeigesystems wurde nicht verändert. Die AVG hat ein neues Betriebsleitsystem eingeführt, um die Zugangsvoraussetzungen für Eisenbahnverkehrsunternehmen"
+    }
+  ],
   "keyPoints": [
-    "Laut Stellungnahme bestanden Herausforderungen bei der Schnittstelle zu den Haltestellenanzeigern und der Datenqualität, die bis auf Angaben zur Traktionsstärke, zur Barrierefreiheit und zur Anzeige von Doppeltraktionen als zwei Fahrten im Wesentlichen gelöst sind.",
-    "Von über 700 Anzeigern der VBK und AVG seien rund 20 gestört; größere Ausfälle der letzten Wochen gehen nach Angaben der Stellungnahme nicht auf die Systemumstellung zurück.",
-    "Vor der Inbetriebnahme sei ein Testprogramm mit unter anderem 22 Testfahrten zwischen April und November 2025 absolviert worden; bestimmte Aspekte ließen sich erst im realen Betrieb prüfen.",
-    "Durch die Schnittstellenanpassungen seien keine zusätzlichen externen Kosten entstanden, da diese Arbeiten Teil des ursprünglichen Initialauftrags seien; für eine vollständig fehlerfreie Funktion könne kein Datum genannt werden."
+    "Die Stellungnahme gibt an, dass bei den über 700 Anzeigern der VBK und AVG rund 20 Anzeiger gestört sind und die Informationen zusätzlich über die Onlinemedien bereitstehen.",
+    "Als Ursache werden Herausforderungen bei der anzupassenden Schnittstelle zu den Haltestellenanzeigern und bei der Qualität der angelieferten Daten genannt.",
+    "Vor der Inbetriebnahme habe es ein umfangreiches Testprogramm mit unter anderem 22 Testfahrten von April bis November 2025 gegeben, das aber nicht alle betrieblichen Rahmenbedingungen abbilden konnte.",
+    "Der Anbieter des digitalen Anzeigesystems sei nicht gewechselt worden; eingeführt wurde ein neues Betriebsleitsystem, um die Zugangsvoraussetzungen bei DB InfraGO zu erfüllen."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:aa97dc22286eac52f0c30c302c774f135b0b8d84c76f44ccf5a6fb96f60cbccb",
-  "summary": "Die Anfrage fragt nach den Gründen für monatelange Ausfälle und Falschanzeigen der digitalen Fahrgastinformationsanzeiger an Karlsruher Haltestellen seit der Leitsystemumstellung und verlangt Auskunft zu Kosten, Zeitplan und Kommunikation des KVV. Die Stellungnahme der VBK führt aus, dass die Schnittstellenprobleme im Wesentlichen gelöst sind, nennt aber keinen Termin für eine vollständige Behebung."
+  "summary": "Die Anfrage der FDP|FW erkundigt sich nach den seit Monaten fehlerhaften digitalen Fahrgastinformationsanzeigen an den Karlsruher Haltestellen nach der Leitsystemumstellung der AVG und verlangt Ursachen, Kosten und einen Zeitplan für die Behebung. Die Stellungnahme nennt die Schnittstellenanpassung als Hauptproblem, verspricht aber für eine vollständig fehlerfreie Funktion kein Datum."
 }
