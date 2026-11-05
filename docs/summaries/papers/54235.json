@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:57:30.189Z",
+  "generatedAt": "2026-11-05T22:08:22.191Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54235",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676557",
+      "page": 1,
+      "quote": "Eine Betrachtung des Kosten-Nutzen-Verhältnisses wurde für das Projekt nicht durchgeführt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676557",
+      "page": 1,
+      "quote": "Bei der Folgekostenberechnung handelt es sich um eine kombinierte Berechnung, die sowohl die kalkulatorischen Kosten, als auch die jährlichen Unterhaltungskosten beinhaltet"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676557",
+      "page": 1,
+      "quote": "Darin enthalten sind jährliche Unterhaltungskosten in Höhe von 120.000 €"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676557",
+      "page": 1,
+      "quote": "Zur Sperrung des Bahnüberganges für den allgemeinen Verkehr gibt es bereits Baurecht"
+    }
+  ],
   "keyPoints": [
-    "Eine Kosten-Nutzen-Betrachtung wurde für das Projekt nicht durchgeführt; Grundlage ist der Gemeinderatsbeschluss zur einbahnigen Umfahrung, wobei die günstigere Brückenvariante nicht beschlossen wurde.",
-    "Die Folgekosten von 3,8 Mio. EUR sind eine kombinierte Berechnung aus kalkulatorischen Kosten und jährlichen Unterhaltungskosten, darunter 120.000 € im Jahr; angesetzt werden 70 Jahre Nutzungsdauer für das Bauwerk und 30 Jahre für die Straße.",
-    "Das Risiko erfolgreicher Klagen gegen die Sperrungen von Herdweg und Bahnübergang wird als gering eingeschätzt; für den Bahnübergang besteht bereits Baurecht, die Sperrung des Herdweges setzt die fertiggestellte Umfahrung voraus.",
-    "Ohne Mittel in den Haushalten 2028/2029 kann es zu keiner Vergabe kommen und das Zeitfenster der DB InfraGo von Januar bis Juni 2031 für den Einbau der Unterführung würde nicht gehalten; einen Plan B gibt es laut Stellungnahme nicht."
+    "Eine Betrachtung des Kosten-Nutzen-Verhältnisses wurde für das Projekt nicht durchgeführt; in der Beschlussvorlage zur Vorzugsvariante seien jedoch verkehrliche Entlastung und geschätzte Kosten genannt.",
+    "Die Folgekosten von 3,8 Mio. EUR sind eine kombinierte Berechnung aus kalkulatorischen Kosten und jährlichen Unterhaltungskosten, wobei die Gesamtkosten jährlich abgeschrieben werden.",
+    "Als jährliche Unterhaltungskosten nennt die Stellungnahme einen Betrag von 120.000 Euro.",
+    "Für die Sperrung des Bahnübergangs Herdweg besteht nach Angaben der Verwaltung bereits Baurecht; die Sperrung des Herdweges soll erst nach Fertigstellung der Umfahrung erfolgen."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:584c07098fd091c3e6c8e29a3a812c40128014d0c97774f4e2903a9b77d038f7",
-  "summary": "Eine interfraktionelle Anfrage von GRÜNE, Linker und KAL stellt acht Fragen zur geplanten Umfahrung Hagsfeld, etwa zu Kosten-Nutzen-Verhältnis, Klagerisiken der geplanten Sperrungen, Alternativen und CO2-Bewertung. Die Stellungnahme der Verwaltung beziffert unter anderem die Folgekosten und ordnet Risiken und Handlungsspielräume ein."
+  "summary": "Die interfraktionelle Anfrage von GRÜNE, Die Linke und KAL fragt unter anderem nach Kosten-Nutzen-Verhältnis, Folgekosten, Klagerisiken und Alternativen zur geplanten einbahnigen Umfahrungsstraße für Hagsfeld und Rintheim. Die Verwaltung nennt kein Kosten-Nutzen-Verhältnis, sieht das Klagerisiko als gering an und erklärt, dass es keinen Plan B bei fehlenden Haushaltsmitteln gibt."
 }

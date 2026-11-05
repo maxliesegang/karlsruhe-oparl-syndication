@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:45:24.089Z",
+  "generatedAt": "2026-11-05T22:08:22.191Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54331",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677035",
+      "page": 3,
+      "quote": "liegen je nach Ausbaustandard (inklusive Lichtplanung, Stromanschluss, Schalttechnik, Genehmigungsverfahren) voraussichtlich zwischen 30.000 und 40.000 Euro"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677035",
+      "page": 3,
+      "quote": "Als Alternative kommen Solar-Leuchten in Betracht, deren voraussichtliche Kosten zwischen 15.000 und 20.000 Euro liegen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677035",
+      "page": 2,
+      "quote": "ist auf Grundlage eines vergleichbaren Projekts mit Kosten in der Größenordnung von circa 20.000 Euro zu rechnen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677035",
+      "page": 2,
+      "quote": "Erforderlich wären zudem: - ein eigener Netzanschluss - eine Kabeltrasse von circa 100 Metern Länge sowie - ein Schaltschrank mit Zähler"
+    }
+  ],
   "keyPoints": [
-    "Nach Einschätzung des Gartenbauamtes wäre eine erneute schalltechnische Prüfung nötig, da Wohnhäuser rund 30 Meter entfernt liegen und mit erheblichen Anwohnendenkonflikten zu rechnen ist; zusätzliches Licht werde als Lichtverschmutzung und Beeinträchtigung von Tierarten bewertet.",
-    "Die Stadtwerke verweisen darauf, dass für solche Anlagen keine eigene Norm existiert, und halten für eine regelkonforme Beleuchtung mindestens zwei bis drei Masten mit eigener Netzanschluss-Technik für erforderlich; allein die elektrotechnische Installation läge bei circa 20.000 Euro.",
-    "Für eine dauerhafte regelkonforme Beleuchtung werden voraussichtlich 30.000 bis 40.000 Euro genannt, für eine nach Ansicht der Stadtwerke nicht ausreichende Solarvariante 15.000 bis 20.000 Euro; die jährlichen Folgekosten sind laut Vorlage noch zu klären.",
-    "Der Antrag verweist darauf, dass die Anlage ab etwa 17 Uhr in völliger Dunkelheit liegt und unter anderem Schülerinnen und Schüler des Gymnasiums Neureut sie für das Training nutzen könnten."
+    "Eine regelkonforme, dauerhafte Beleuchtung wird je nach Ausbaustandard voraussichtlich auf 30.000 bis 40.000 Euro geschätzt.",
+    "Solar-Leuchten kämen mit voraussichtlich 15.000 bis 20.000 Euro günstiger, die Stadtwerke lehnen sie für öffentliche Freizeitanlagen jedoch ab.",
+    "Für die elektrotechnische Installation und Materiallieferung ohne Tiefbau- und Folgekosten wird von circa 20.000 Euro ausgegangen.",
+    "Technisch wären unter anderem ein eigener Netzanschluss, eine rund 100 Meter lange Kabeltrasse sowie ein Schaltschrank mit Zähler erforderlich."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:230d038713eba1993d7f95eac5ef7cc0f60e3ea49c4cd3f388ffed67fff1538f",
-  "summary": "Die SPD-Ortschaftsratsfraktion Neureut fordert, für die Calisthenics-Anlage im Karl-Hubbuch-Weg eine einfache Beleuchtung mit Bewegungsmelder zur Sicherheit in den dunklen Wintermonaten zu prüfen. Die Ortsverwaltung Neureut hat die Möglichkeit untersucht und empfiehlt aus baurechtlichen, umweltrechtlichen und finanziellen Gründen davon abzusehen."
+  "summary": "Der Antrag der SPD-Ortschaftsratsfraktion fordert die Prüfung einer Beleuchtung der Calisthenics-Anlage im Karl-Hubbuch-Weg in Neureut, weil die Anlage im Winter ab etwa 17 Uhr in Dunkelheit liegt und aus Sicherheitsgründen Licht erwünscht ist. Die Ortsverwaltung Neureut empfiehlt nach Prüfung, darauf aus baurechtlichen, umweltrechtlichen und finanziellen Gründen zu verzichten und die Nutzung auf die genehmigten Zeiten zu beschränken."
 }

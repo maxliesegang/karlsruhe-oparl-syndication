@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-21T07:46:46.105Z",
+  "generatedAt": "2026-11-05T22:08:22.191Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54257",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677460",
+      "page": 1,
+      "quote": "Aktuell beträgt der Anteil im Niederspannungsnetz in Wolfartsweier 73 % Kabel (entspricht rund 18,7 km) und 27 % Freileitung (entspricht rund 6,8 km)"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677460",
+      "page": 1,
+      "quote": "Verkabelt oder teilweise verkabelt sind folgende Straßen (mit Länge in Metern)"
+    },
+    null,
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677460",
+      "page": 2,
+      "quote": "Für die restlichen 3 km Freileitungsgebiet existiert derzeit noch keine konkrete Planung"
+    }
+  ],
   "keyPoints": [
-    "Im Niederspannungsnetz von Wolfartsweier sind laut Stellungnahme 73 Prozent, rund 18,7 km, verkabelt; 27 Prozent, rund 6,8 km, sind noch Freileitung.",
-    "Für weitere 3,7 km Freileitung besteht eine konkrete Planung mit Umsetzung voraussichtlich in den kommenden zwei bis drei Jahren, im Gebiet von der Hellenstraße bis einschließlich zur Schlossbergstraße.",
-    "Für die restlichen 3 km Freileitungsgebiet gibt es noch keine konkrete Planung; eine Umrüstung wird voraussichtlich spätestens in den nächsten fünf bis zehn Jahren erwartet.",
-    "Die Auswahl der Umrüstungsgebiete richtet sich nach Erneuerungsbedarf der Leitungen, Baukapazitäten sowie Synergieeffekten bei Mitverlegung in anderen geplanten Infrastrukturprojekten."
+    "Im Niederspannungsnetz von Wolfartsweier sind derzeit 73 Prozent als Kabel und 27 Prozent als Freileitung ausgeführt.",
+    "Die Stellungnahme benennt die bereits verkabelten und die noch über Freileitung versorgten Straßenzüge jeweils mit Längenangaben in Metern.",
+    "Die geplante Umrüstung umfasst 3,7 km im Bereich von der Hellenstraße bis einschließlich zur Schlossbergstraße.",
+    "Für die restlichen Freileitungsabschnitte besteht noch keine konkrete Planung."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:4ccb17c438ed7984ba63575882e1a28f91bfa18fe3ed9dfb4304122555fca974",
-  "summary": "Die Anfrage der SPD- und CDU-Ortschaftsratsfraktion erkundigt sich nach dem Stand und der Zeitplanung für die Umstellung der Stromversorgung von Dachständern auf Erdkabel in Wolfartsweier. Die Stellungnahme der Stadtwerke nennt den aktuellen Verkabelungsstand, bereits umgerüstete und noch freileitungsmäßig versorgte Straßen sowie eine Planung für weitere Umrüstungen."
+  "summary": "Die Anfrage der SPD- und CDU-Ortschaftsratsfraktion erkundigt sich nach dem Stand und der Zeitplanung der Umstellung der Stromversorgung von Dachständern auf Erdkabel in Wolfartsweier. Die Stellungnahme der Stadtwerke führt aus, dass ein weiterer Teilabschnitt voraussichtlich in den kommenden zwei bis drei Jahren verkabelt wird, für den Rest ist eine Umsetzung erst in fünf bis zehn Jahren zu erwarten."
 }

@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:46:52.067Z",
+  "generatedAt": "2026-11-05T22:08:22.191Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54297",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676930",
+      "page": 2,
+      "quote": "Das Dokument-Management-System (DMS) enaio wird in unserer Verwaltung für dokumentenbasierte Verwaltungsprozesse eingesetzt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676930",
+      "page": 3,
+      "quote": "Ziel ist, alle dokumentenbasierten Verwaltungsprozesse elektronisch abzubilden, von Vorgangsbearbeitung, Posteingang und Workflows bis hin zu spezialisierten Prozessen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676930",
+      "page": 4,
+      "quote": "Gemäß der Dienstanweisung Dokumentenmanagement können alle Unterlagen ab dem Jahr 1990 theoretisch nachträglich eingescannt werden"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676930",
+      "page": 4,
+      "quote": "Zudem ist die Nutzung des DMS freiwillig, wodurch bestehende Dateisysteme weiterhin parallel verwendet werden"
+    }
+  ],
   "keyPoints": [
-    "Das System enaio wird unter anderem für Vorgangsbearbeitung, E-Posteingang, Freigabeworkflows und spezielle Akten wie Projekt-, Gebäude- und Personalakten eingesetzt; bei mehreren Ämtern und Ortsverwaltungen ist die Einführung einzelner Komponenten geplant.",
-    "Der Nachscan papierlicher Unterlagen erfolgt schrittweise nach Priorität; laut Dienstanweisung können Dokumente ab dem Jahr 1990 eingescannt werden, ältere Unterlagen gehen an das Stadtarchiv.",
-    "Als Hürden nennt die Stellungnahme begrenzte Personalressourcen, die freiwillige Nutzung des Systems mit parallelen Dateisystemen sowie fehlende Schnittstellen zu Fachverfahren, die aus finanziellen Gründen nur mit niedriger Priorität verfolgt werden.",
-    "Das besondere elektronische Behördenpostfach wird mit 44 Postfächern genutzt; Fax bleibt laut Stellungnahme etwa bei Schriftformerfordernissen, in der Kommunikation mit Gerichten und Kanzleien sowie als Ausfalllösung relevant."
+    "Das Dokument-Management-System enaio deckt Vorgangsbearbeitung, Posteingang, Freigabeworkflows sowie spezielle Akten wie Projekt-, Gebäude- und Personalakten ab; bei mehreren Ämtern und Ortsverwaltungen ist die Einführung noch in Planung.",
+    "Perspektivisch sollen alle dokumentenbasierten Verwaltungsprozesse elektronisch abgebildet und die bestehenden E-Aktenprozesse stadtweit ausgerollt werden.",
+    "Beim Nachscan können Unterlagen ab dem Jahr 1990 laut Dienstanweisung Dokumentenmanagement nachträglich erfasst werden; ältere Unterlagen gehen in Papierform an das Stadtarchiv, und ein Abschlussterm für den Nachscan wird nicht genannt.",
+    "Der E-Akte-Rollout wird unter anderem durch begrenzte personelle Kapazitäten, die Freiwilligkeit der Nutzung und fehlende Schnittstellen zu Fachverfahren behindert; für Schnittstellen wird wegen der finanziellen Situation nur eine sehr niedrige Priorität angegeben."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:417ef55effa8f88c4440eee352bf10ffd8d71241726cadabb728ec1ab154c204",
-  "summary": "Die Anfrage fragt, welche Ämter der Stadtverwaltung bereits mit E-Akten arbeiten, welche Prozesse damit abgebildet werden und wo noch Faxgeräte genutzt werden. Die Stellungnahme der IT beziffert 262 Faxnummern bei einem Dienstleister und benennt Hürden für den weiteren Ausbau der E-Akte."
+  "summary": "Die Anfrage erkundigt sich nach dem Stand der E-Akte-Nutzung in den städtischen Ämtern, nach Einsparpotenzialen und Hürden beim Rollout sowie nach dem verbleibenden Faxgebrauch. Die Stellungnahme der IT beschreibt das System enaio als etabliert, nennt 262 Faxnummern und führt aus, dass das Fax wegen Drittanbietern und Schriftformerfordernissen vorerst nicht entbehrlich ist."
 }

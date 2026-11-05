@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-21T07:45:19.276Z",
+  "generatedAt": "2026-11-05T22:08:22.191Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54352",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677040",
+      "page": 1,
+      "quote": "Im Schuljahr 2025/26 besuchen 46 Kinder und Jugendliche aus Hohenwettersbach diese Schule"
+    },
+    null,
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677040",
+      "page": 1,
+      "quote": "fehlt eine schnelle Direktverbindung wenigstens zu Schulbeginn in der 1. Stunde nach Rüppurr"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677273",
+      "page": 1,
+      "quote": "Es gibt in Karlsruhe Schulfahrten im „klassischen“ Sinne nur zu Sporteinrichtungen und Schwimmbädern und diese werden durch das Oberschulamt beauftragt und auch entsprechend bezahlt"
+    }
+  ],
   "keyPoints": [
-    "Ohne weiterführende Schule im Stadtteil müssen alle Kinder ab der 5. Klasse aus Hohenwettersbach auswärts zur Schule fahren.",
-    "Im Schuljahr 2025/26 besuchen 46 Kinder und Jugendliche aus Hohenwettersbach das Max-Planck-Gymnasium in Rüppurr.",
-    "Der Schulweg nach Rüppurr über Hauptbahnhof und S 1 dauert laut der Anfrage 45 bis 50 Minuten, mit dem Auto 15 Minuten.",
-    "Die VBK erläutert, dass Schulfahrten im klassischen Sinne nur zu Sporteinrichtungen und Schwimmbädern laufen und diese vom Oberschulamt beauftragt und bezahlt werden."
+    "Im Schuljahr 2025/26 besuchen 46 Kinder und Jugendliche aus Hohenwettersbach das Max-Planck-Gymnasium in Rüppurr; die Zahl der Hohenwettersbacher auf der benachbarten Realschule konnte das dortige Rektorat nicht nennen.",
+    "Der Schulweg nach Rüppurr erfordert laut der Anfrage einen Umweg über den Hauptbahnhof und den Ostendorfplatz mit zusätzlichem Fußweg und dauert so deutlich länger als die Fahrt mit dem Auto.",
+    "Die Anfrage führt aus, dass einzelne Schulbusse nach Durlach nicht mehr voll besetzt sind, während eine schnelle Direktverbindung nach Rüppurr fehlt.",
+    "Nach Angaben der VBK werden klassische Schulfahrten in Karlsruhe nur zu Sporteinrichtungen und Schwimmbädern angeboten und vom Oberschulamt beauftragt und bezahlt."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:6cb7d29b96d5d2b63f0bce288f73e811ee6c518c7f2592b26b05a4b61b352fb1",
-  "summary": "Die Anfrage bittet die VBK, die Auslastung und Fahrtziele der Schulbusse von Hohenwettersbach zu überprüfen und das Angebot anzupassen, insbesondere eine schnelle Direktverbindung zum Max-Planck-Gymnasium in Rüppurr einzurichten. Die VBK verweist darauf, dass sie nur mit ausdrücklicher Bestellung durch das Oberschulamt eine zusätzliche Fahrt anbieten kann."
+  "summary": "Die Anfrage bittet die VBK, die Schulbusverbindungen von Hohenwettersbach auf Auslastung und Fahrtziele zu überprüfen und eine schnelle Direktverbindung zu den Schulen in Rüppurr einzurichten. Die VBK weist darauf hin, dass dafür eine ausdrückliche Bestellung durch das Oberschulamt erforderlich ist und sie ohne eine solche keine zusätzliche Fahrt anbieten kann."
 }

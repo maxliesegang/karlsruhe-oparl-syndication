@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:46:50.403Z",
+  "generatedAt": "2026-11-05T22:08:22.191Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54271",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676575",
+      "page": 1,
+      "quote": "Diese werden hauptsächlich für das Altstadtfest benötigt, können aber auch bei einer Vielzahl anderer Veranstaltungen zur Absicherung öffentlicher Plätze eingesetzt werden"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676575",
+      "page": 2,
+      "quote": "Der maximale Mietzeitraum beträgt acht Wochen zu einem Preis in Höhe von 320 € zzgl. MwSt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676575",
+      "page": 2,
+      "quote": "Liefer- und Abholgebühren werden zusätzlich berechnet. Die Container werden leer zur Verfügung gestellt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676575",
+      "page": 2,
+      "quote": "Durch die Vermietung an Kommunen, Vereine und private Veranstalter können zusätzliche Erträge für das Stadtamt Durlach generiert werden"
+    }
+  ],
   "keyPoints": [
-    "Die Container wurden im vergangenen Jahr für 6.850 Euro beschafft und werden hauptsächlich für das Altstadtfest sowie für die Absicherung öffentlicher Plätze bei weiteren Veranstaltungen benötigt.",
-    "Sie sollen leer und wahlweise zur Selbstabholung oder mit Lieferung angeboten werden, wobei Liefer- und Abholgebühren zusätzlich berechnet werden.",
-    "Die Verladepauschale von 118 Euro pro angefangene Stunde ergibt sich aus dem externen Stundensatz von 59 Euro je Mitarbeiter im Bereich Gartenbau, da zwei Mitarbeiter benötigt werden.",
-    "Der Vereinsrabatt gilt nicht für die Verladepauschale und die Liefer- sowie Abholkosten; über die voraussichtlichen Erträge lässt sich laut Vorlage noch keine seriöse Aussage treffen."
+    "Die Container werden hauptsächlich für das Altstadtfest benötigt, daneben aber auch bei einer Vielzahl anderer Veranstaltungen eingesetzt.",
+    "Der Mietzeitraum ist auf längstens acht Wochen pro Einheit begrenzt, was einem Entgelt von 320 Euro zzgl. MwSt. entspricht.",
+    "Zur Selbstabholung oder Lieferung angeboten werden die Container leer, Liefer- und Abholgebühren kommen zusätzlich dazu.",
+    "Mit der Vermietung sollen zusätzliche Erträge für das Stadtamt Durlach erzielt werden, die zur Haushaltssicherung beitragen."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:d7781a237060bd2cfb75bce2e2c029ac15fc91bf71222ee1c0207362eaee824c",
-  "summary": "Die Vorlage schlägt vor, die 50 IBC-Container des Stadtamts Durlach zur Absicherung von Veranstaltungen zu vermieten: 40 Euro zuzüglich Mehrwertsteuer pro Container und angefangene Woche bei höchstens acht Wochen Mietdauer, dazu 118 Euro zuzüglich Mehrwertsteuer pro angefangene Stunde für Verladen sowie An- und Abtransport. Für Vereine ist ein Abschlag von 50 Prozent auf das Mietentgelt vorgesehen, die Verwaltung soll die Vermietungen umsetzen."
+  "summary": "Die Vorlage schlägt vor, die 50 vom Stadtamt Durlach beschafften IBC-Container zur Absicherung öffentlicher Plätze an Kommunen, Vereine und private Veranstalter zu vermieten. Vorgesehen sind 40 Euro zzgl. MwSt. pro Woche und Einheit sowie eine Verlade- und Transportpauschale von 118 Euro zzgl. MwSt. pro angefangene Stunde, wobei Vereine 50 Prozent Mietrabatt erhalten sollen."
 }

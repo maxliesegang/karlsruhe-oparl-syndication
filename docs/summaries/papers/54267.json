@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:45:36.377Z",
+  "generatedAt": "2026-11-05T22:08:22.191Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54267",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677597",
+      "page": 2,
+      "quote": "Im weiteren Verlauf der Bauausführung wurde zudem festgestellt, dass der verbleibende öffentliche Gehweg vor den Gebäuden lediglich eine Restbreite von ca. 0,80 m aufweist"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677597",
+      "page": 2,
+      "quote": "Damit könnte der Gehweg auf eine Breite von ca. 1,60 m bis 1,80 m erweitert werden"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677597",
+      "page": 2,
+      "quote": "Dies entspricht der geplanten Fahrbahnbreite im Bereich der künftig barrierefrei auszubauenden Bushaltestelle auf Höhe Steinkreuzstraße 20"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677597",
+      "page": 2,
+      "quote": "Die genannten Abmessungen stellen keinen endgültigen Endausbau der Steinkreuzstraße dar und stehen einer zukünftigen Umplanung der Steinkreuzstraße nicht entgegen"
+    }
+  ],
   "keyPoints": [
-    "Der verbleibende Gehweg vor den Gebäuden weist nur eine Restbreite von ca. 0,80 m auf, womit barrierefreie Erreichbarkeit von Gebäuden und Haltestelle nicht mehr gewährleistet ist.",
-    "Eine Bordsteinversetzung würde die Fahrbahnbreite auf ca. 6,20 m reduzieren und den Gehweg auf ca. 1,60 m bis 1,80 m erweitern.",
-    "Die Arbeiten sind erst im Herbst 2026 möglich, bis dahin bleibt die Baustellensituation bestehen.",
-    "Ein umfangreicher Endausbau der Steinkreuzstraße ist nicht vorgesehen, die Maßnahme steht einer späteren Umplanung nicht entgegen."
+    "Der verbleibende Gehweg vor den Gebäuden weist nur eine Restbreite von etwa 0,80 Metern auf und erfüllt damit die Mindestanforderungen an einen Gehweg nicht.",
+    "Eine Versetzung des Bordsteins würde die Fahrbahnbreite auf etwa 6,20 Meter reduzieren und den Gehweg auf etwa 1,60 bis 1,80 Meter verbreitern.",
+    "Die geplante Fahrbahnbreite entspräche der Breite im Bereich der künftig barrierefrei auszubauenden Bushaltestelle auf Höhe Steinkreuzstraße 20.",
+    "Die festgelegten Abmessungen sollen einem späteren Umbau der Steinkreuzstraße nicht im Wege stehen."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:411931fbc645376cde8296ebdb5114ce82710711257171d67c4b3065d759db1c",
-  "summary": "Die Vorlage informiert über die Instandsetzung von Fahrbahnschäden in der Steinkreuzstraße 16–18 in Wolfartsweier, die bei einer privaten Baumaßnahme entstanden sind und vom Vorhabenträger zu beseitigen sind. Zugleich soll geprüft werden, ob durch Versetzung des Bordsteins der zu schmale Gehweg verbreitert werden kann; für die Stadt Karlsruhe soll dies nach derzeitigem Stand kostenneutral sein."
+  "summary": "Die Vorlage informiert über Fahrbahnschäden in der Steinkreuzstraße 16–18, die im Zuge eines privaten Neubaus entstanden sind und vom Vorhabenträger zu beseitigen sind. Zugleich wird geprüft, ob der zu schmale Gehweg durch Versetzung des Bordsteins verbreitert werden kann, wobei ein Endausbau der Straße nicht stattfindet und die Maßnahme nach derzeitigem Stand für die Stadt kostenneutral sein soll."
 }

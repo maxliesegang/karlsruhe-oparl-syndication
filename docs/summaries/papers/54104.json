@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-24T08:35:51.601Z",
+  "generatedAt": "2026-11-05T22:08:22.191Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54104",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675958",
+      "page": 2,
+      "quote": "Stichprobe: 25.000 zufällig ausgewählte Einwohner*innen aus dem Melderegister"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677603",
+      "page": 4,
+      "quote": "3.000 vollständige und auswertbare Rückmeldungen (Rücklaufquote 12 %)"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675958",
+      "page": 3,
+      "quote": "Kulturelle Teilhabe hängt nicht primär von Einkommen oder Bildung ab"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675958",
+      "page": 3,
+      "quote": "Zeitmangel, Wegstrecke und fehlende Begleitung sind zentrale Hürden und sollten systematisch in der Angebotsplanung berücksichtigt werden"
+    }
+  ],
   "keyPoints": [
-    "Erhebungszeitraum war der 24. Februar bis 21. April 2025; 25.000 zufällig ausgewählte Einwohner*innen wurden angeschrieben, 3.000 Fragebögen wurden vollständig ausgefüllt, was einer Rücklaufquote von circa 12 Prozent entspricht.",
-    "Die Daten wurden über eine explorative, KI-gestützte Clusteranalyse ausgewertet und ergaben vier Bevölkerungsgruppen, unter anderem kulturell distanzierte Gruppen mit geringer Motivation und Gruppen mit hohem Aktivierungspotenzial trotz knapper Budgets.",
-    "Als zentrale Erkenntnis benennt die Vorlage, dass kulturelle Teilhabe nicht primär von Einkommen oder Bildung abhängt, sondern von Motivation, emotionaler Resonanz und sozialer Einbindung; Zeitmangel, Wegstrecke und fehlende Begleitung gelten als zentrale Hürden.",
-    "Die Handlungsempfehlungen schlagen vor, Ressourcen stärker auf die motivierteren Gruppen zu konzentrieren und für kulturfernere Gruppen experimentelle Einstiegsformate zu testen; die Aussagekraft des Modells soll durch regelmäßige Wiederholungen der Erhebung steigen."
+    "Befragt wurden 25.000 zufällig aus dem Melderegister ausgewählte Einwohner*innen in den Altersgruppen 18 bis 26, 27 bis 60 und ab 61 Jahren.",
+    "Auswertbar waren 3.000 vollständige Rückmeldungen, was einer Rücklaufquote von 12 Prozent entspricht.",
+    "Als zentrale Erkenntnis wird benannt, dass kulturelle Teilhabe nicht primär von Einkommen oder Bildung abhängt.",
+    "Zeitmangel, Wegstrecke und fehlende Begleitung gelten als zentrale Hürden, die in der Angebotsplanung berücksichtigt werden sollen."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:f8fd183d84ab7146eb0cf779af3c5f3cfff970604e7527173ad0bb3beda55a39",
-  "summary": "Die Vorlage stellt die Ergebnisse einer gemeinsam mit der Hochschule für Angewandte Wissenschaften Kiel durchgeführten Befragung dazu vor, warum Teile der Karlsruher Bevölkerung Kulturangebote nicht nutzen. Sie leitet Handlungsempfehlungen für Einrichtungen ab, etwa mehr Gruppenformate, dezentrale Angebote und einfachere Programmkommunikation."
+  "summary": "Die Vorlage informiert über eine empirische Untersuchung des Kulturamts mit der Hochschule für Angewandte Wissenschaften Kiel zu den Gründen für den Nichtbesuch von Kulturangeboten und leitet daraus Handlungsempfehlungen für die Angebotsplanung ab. Demnach bestimmen Motivation, emotionale Resonanz und soziale Einbindung die Teilhabe stärker als Einkommen oder Bildung."
 }

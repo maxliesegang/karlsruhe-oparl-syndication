@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:47:58.506Z",
+  "generatedAt": "2026-11-05T22:08:22.191Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54206",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677102",
+      "page": 1,
+      "quote": "Eine zentrale Erfassung der Klimaschutzausgaben für die Stadtverwaltung liegt für diesen Zeitraum nicht vor"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677102",
+      "page": 1,
+      "quote": "wurden für den Haushalt 2021 erstmals auch Mittel für die Umsetzung von Klimaschutzmaßnahmen in einem zentralen Klimaschutzbudget durch den Gemeinderat bereitgestellt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677102",
+      "page": 5,
+      "quote": "Insgesamt arbeiten damit rund 40 Personalstellen an der Umsetzung von Klimaschutzmaßnahmen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/677102",
+      "page": 9,
+      "quote": "Die Treibhausgasminderung der Stadt Karlsruhe beträgt von 2014 bis 2024 kumuliert: 4.009.471 t CO2-äq"
+    }
+  ],
   "keyPoints": [
-    "Bis 2020 existierte kein zentrales Klimaschutzbudget, die Maßnahmen liefen über die Teilhaushalte der Dienststellen; eine zentrale Erfassung der Klimaschutzausgaben liegt für diesen Zeitraum nicht vor, sodass nur der verwaltungsinterne Klimaschutzfonds ausgewiesen werden kann.",
-    "Ab 2021 wird der KSK-Sammelansatz geführt, für 2025 mit 10.774.130 Euro im Ergebnishaushalt und 20.654.140 Euro im Finanzhaushalt; insgesamt arbeiten rund 40 Personalstellen an der Umsetzung von Klimaschutzmaßnahmen.",
-    "Die Treibhausgasminderung der Stadt Karlsruhe von 2014 bis 2024 wird kumuliert mit 4.009.471 t CO2-äq angegeben, rund 100.000 t CO2-äq über dem Soll-Wert des Absenkpfads aus dem Klimaschutzkonzept 2030.",
-    "Die Verwaltung beziffert Vermeidungskosten von 18,31 Euro je Tonne CO2 als untere Grenze auf Basis von 73.394.862 Euro Klimaschutzausgaben und hält eine Ableitung globaler Temperaturänderungen für fachlich nicht vertretbar."
+    "Für die Jahre 2014 bis 2020 liegt keine zentrale Erfassung der Klimaschutzausgaben der Stadtverwaltung vor.",
+    "Erst für den Haushalt 2021 wurde ein zentrales Klimaschutzbudget eingerichtet, aus dem alle Ämter Maßnahmen finanzieren können.",
+    "Nach Schaffung von 30 und weiteren 10,25 Stellen sind insgesamt rund 40 Personalstellen mit Klimaschutzmaßnahmen befasst.",
+    "Die Treibhausgasminderung der Stadt Karlsruhe für 2014 bis 2024 gibt die Verwaltung kumuliert mit 4.009.471 t CO2-äq an."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:ee25f318c52f75214829c03e9bfac372a58b89407fef56cfdb2ecc981e91aad8",
-  "summary": "Die Anfrage verlangt eine detaillierte Darstellung der städtischen Klimaschutzausgaben für 2014 bis 2024 sowie 2025 einschließlich Wirkungs- und Wirtschaftlichkeitsbetrachtung. Die Stellungnahme der Verwaltung weist die Mittel aus Klimaschutzfonds und zentralem Klimaschutzbudget aus und beziffert berechnete Vermeidungskosten, weist aber auf fehlende zentrale Erfassungen zu Folge- und Fördermittelkosten hin."
+  "summary": "Die Anfrage verlangt eine vollständige Aufstellung der städtischen Klimaschutzausgaben von 2014 bis 2025 samt CO2-Wirkung, Fördermitteln und Kosten je vermiedener Tonne. Die Verwaltung beziffert die Mittelabflüsse aus Klimaschutzfonds und zentralem Klimaschutzbudget und hält eine Wirkungsabschätzung auf die globale Temperatur für fachlich nicht vertretbar."
 }

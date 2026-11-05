@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:47:08.487Z",
+  "generatedAt": "2026-11-05T22:08:22.191Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54258",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676988",
+      "page": 1,
+      "quote": "Es wurden in den letzten fünf Jahren 556 Sozialwohnungen im Rahmen der Neubauförderung fertiggestellt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676988",
+      "page": 1,
+      "quote": "Im gleichen Zeitraum wurden zudem 382 Bestandwohnungen durch den Erwerb von Miet- und Belegungsbindungen als Sozialwohnungen gebunden"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676988",
+      "page": 2,
+      "quote": "Aktuell befinden sich 199 geförderte Sozialwohnungen im Bau"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676988",
+      "page": 4,
+      "quote": "Im Haushalt 2026/2027 sind jeweils 2,5 Millionen Euro für KaWoF eingeplant"
+    }
+  ],
   "keyPoints": [
-    "Im selben Zeitraum wurden zusätzlich 382 Bestandwohnungen durch Erwerb von Miet- und Belegungsbindungen gebunden; 199 geförderte Sozialwohnungen befinden sich im Bau und sollen voraussichtlich in den nächsten zwei Jahren fertiggestellt werden.",
-    "Die KaWoF-Zuschüsse lagen zwischen 900.300 Euro (2025) und 3.219.600 Euro (2021); für den Haushalt 2026/2027 sind jeweils 2,5 Millionen Euro eingeplant, laufende Mietzuschüsse gibt es nach Angaben der Stellungnahme nicht.",
-    "Der Festbetrag für berücksichtigungsfähige Baukosten wurde im Januar 2026 auf 5.250 Euro je Quadratmeter Wohnfläche erhöht; die ortsübliche Vergleichsmiete der Neubauwohnungen liegt zwischen 12,15 und 16,90 Euro je Quadratmeter, die Sozialmiete muss mindestens 33 Prozent darunter liegen.",
-    "Zum KAI führt die Stellungnahme aus: In 15 Bebauungsplanverfahren war es anzuwenden, in den zwölf bisher fertiggestellten Verfahren wurden über 550 sozial geförderte Wohnungen bereitgestellt, Ablösezahlungen kamen nicht vor."
+    "Zwischen 2021 und 2025 wurden 556 sozial gebundene Wohnungen im Neubau fertiggestellt.",
+    "Im gleichen Zeitraum kamen zusätzlich 382 Bestandwohnungen durch den Erwerb von Miet- und Belegungsbindungen als Sozialwohnungen hinzu.",
+    "Aktuell befinden sich 199 geförderte Sozialwohnungen im Bau, die laut Stellungnahme voraussichtlich innerhalb der nächsten zwei Jahre fertiggestellt werden.",
+    "Für das Karlsruher Wohnraumförderungsprogramm sind im Haushalt 2026/2027 jeweils 2,5 Millionen Euro eingeplant; die Jahresbeträge der Vergangenheit lagen zwischen 900.300 und 3.219.600 Euro."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:0e129f5bee9805c040b1bc27a43d77e05966a34c55a102d6cc86db03140034e5",
-  "summary": "Die Anfrage verlangt Auskunft zum sozialen Wohnungsbau in Karlsruhe: realisierte und geplante Wohnungen, Bau- und Mietkosten, Subventionen, Vergabekriterien sowie die Wirkung des Innenentwicklungskonzepts KAI. Die Stellungnahme beziffert unter anderem 556 in den Jahren 2021 bis 2025 fertiggestellte Sozialwohnungen und erklärt, dass die Stadt nur komplementär zur Landesförderung fördert."
+  "summary": "Die Anfrage fordert eine vollständige Offenlegung von Bauleistung, Kosten, Mieten, Fördermitteln, Vergabekriterien und der Wirkung des Karlsruher Innenentwicklungskonzepts im sozialen Wohnungsbau. Die Stellungnahme nennt die Zahlen zu Neubau und Bestandsbindungen und stellt klar, dass die Förderung als einmaliger Zuschuss statt als laufende Mietsubvention erfolgt."
 }
