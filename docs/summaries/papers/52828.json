@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T08:59:40.913Z",
+  "generatedAt": "2026-11-06T16:01:23.079Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52828",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672439",
+      "quote": "führt jedoch langfristig zu deutlich höheren Gesamtkosten, da über einen wesentlich längeren Zeitraum Zinsen anfallen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672439",
+      "quote": "Durch eine Tilgungsrate von etwa 4 % pro Jahr bzw. eine maximale Laufzeit von 25 Jahren"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674771",
+      "quote": "In der aktuellen finanziellen Lage der Stadt Karlsruhe würde dies jedoch dazu führen, dass an anderer Stelle die benötigte Liquidität fehlen würde"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674771",
+      "quote": "wird die Verwaltung bei zukünftigen Darlehen wieder zu einer höheren Tilgungsleistung pro Darlehen zurückkehren"
+    }
+  ],
   "keyPoints": [
-    "Die längeren Laufzeiten führen nach Ansicht des Antrags über den längeren Zeitraum zu deutlich höheren Gesamtkosten und verlagern Belastungen in die Zukunft.",
-    "Als Ziel nennt der Antrag eine Tilgungsrate von etwa 4 Prozent pro Jahr beziehungsweise eine maximale Laufzeit von 25 Jahren.",
-    "Die Verwaltung führt aus, dass eine höhere jährliche Tilgung aktuell die Liquidität an anderer Stelle fehlen ließe, was durch zusätzliche Ausgabenkürzungen oder Steuererhöhungen ausgeglichen werden müsste.",
-    "Für den Fall einer verbesserten Haushaltslage kündigt die Verwaltung an, bei künftigen Darlehen wieder zu einer höheren Tilgungsleistung zurückzukehren."
+    "Der Antrag begründet die Forderung damit, dass die längeren Laufzeiten über den längeren Zinszeitraum deutlich höhere Gesamtkosten verursachen.",
+    "Als Zielwert nennt der Antrag eine Tilgungsrate von etwa 4 % pro Jahr beziehungsweise eine maximale Laufzeit von 25 Jahren.",
+    "Die Stellungnahme führt aus, dass eine höhere jährliche Tilgung in der aktuellen Lage der Stadt an anderer Stelle Liquidität fehlen ließe.",
+    "Als Ausgleich nennt die Verwaltung zusätzliche Ausgabenkürzungen oder Steuererhöhungen und kündigt für den Fall einer verbesserten Haushaltslage eine Rückkehr zu höherer Tilgung bei künftigen Darlehen an."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:25cf58b7d1b6856cdf70335f2bf46def95bf1ad113f6155cd57e88713415dcd8",
-  "summary": "Der Antrag fordert, dass die Stadtverwaltung darlegt, wie die aktuell auf 40 bis 50 Jahre verlängerten Kreditlaufzeiten wieder auf höchstens 25 Jahre zurückgeführt werden können, und künftig grundsätzlich wieder Darlehen mit dieser Laufzeit aufnimmt. Die Verwaltung hält eine höhere Tilgung zwar für wünschenswert, empfiehlt aber wegen der aktuellen finanziellen Lage, den Antrag abzulehnen."
+  "summary": "Der Antrag fordert, dass die Stadtverwaltung darlegt, wie die verlängerten Kreditlaufzeiten von 40 bis 50 Jahren auf maximal 25 Jahre zurückgeführt werden können, und künftig wieder Darlehen mit dieser Laufzeit aufnimmt. Die Verwaltung empfiehlt, den Antrag abzulehnen."
 }

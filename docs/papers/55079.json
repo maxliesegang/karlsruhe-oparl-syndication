@@ -1,0 +1,54 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681739.pdf",
+      "created": "2026-10-16T10:10:45+02:00",
+      "date": "2026-10-16",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681739.pdf",
+      "fileName": "00681739.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681739",
+      "mimeType": "application/pdf",
+      "modified": "2026-11-06T12:30:31+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2026-10-16T10:05:21+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38166",
+      "modified": "2026-10-30T09:41:54+01:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55079",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104163",
+      "created": "2026-10-22T11:16:32+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38164",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10605",
+      "modified": "2026-11-04T15:36:22+01:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55079",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-10-16T10:00:33+02:00",
+  "date": "2026-10-16",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55079",
+  "modified": "2026-11-06T12:30:31+01:00",
+  "name": "Lärmaktionsplan - Ergänzung von Maßnahmen zur Geschwindigkeitsbegrenzung in der Karlstraße und Brauerstraße",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0869",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/882975"
+  ]
+}

@@ -1,7 +1,67 @@
 {
+  "agendaItem": [
+    {
+      "created": "2026-10-14T11:42:30+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103882",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10605",
+      "modified": "2026-10-22T11:17:41+02:00",
+      "name": "Das Biodiversitätskonzept der Stadt Karlsruhe - Aktuelles zur Umsetzung",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38164",
+      "created": "2026-10-22T11:16:32+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104163",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10605",
+      "modified": "2026-11-04T15:36:22+01:00",
+      "name": "Lärmaktionsplan - Ergänzung von Maßnahmen zur Geschwindigkeitsbegrenzung in der Karlstraße und Brauerstraße",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37896",
+      "created": "2026-11-04T15:36:51+01:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104504",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10605",
+      "modified": "2026-11-04T15:37:20+01:00",
+      "name": "Ambulante psychotherapeutische Versorgung in Karlsruhe - Berichtsauftrag und Datengrundlage",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "created": "2026-10-14T11:41:44+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103879",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10605",
+      "modified": "2026-11-04T15:36:58+01:00",
+      "name": "Verschiedenes",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
   "created": "2025-10-10T14:32:42+02:00",
   "end": "2026-11-17T18:30:00+01:00",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10605",
+  "invitation": {
+    "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00682242.pdf",
+    "created": "2026-11-03T15:35:26+01:00",
+    "date": "2026-11-03",
+    "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00682242.pdf",
+    "fileName": "00682242.pdf",
+    "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/682242",
+    "mimeType": "application/pdf",
+    "modified": "2026-11-06T12:37:23+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
   "location": {
     "created": "2022-12-12T11:11:26+01:00",
     "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/locations/rm/67907",
@@ -13,7 +73,7 @@
     "subLocality": "",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-11-05T16:16:54+01:00",
+  "modified": "2026-11-06T12:37:23+01:00",
   "name": "Ausschuss für Umwelt und Gesundheit (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/48728"

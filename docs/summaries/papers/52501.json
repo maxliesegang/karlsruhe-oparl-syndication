@@ -1,15 +1,30 @@
 {
-  "generatedAt": "2026-10-24T09:18:21.497Z",
+  "generatedAt": "2026-11-06T16:01:23.079Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52501",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674631",
+      "quote": "aus Rentabilitätsgründen 1981 an den KVBW abgegeben; inzwischen Pflichtmitgliedschaft 56.272.737,63 nein"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674631",
+      "quote": "Gesetzliche Unfallversicherung: Absicherung der Kosten für Arbeitsunfälle und Berufskrankheiten 2.055.348,63 nein"
+    },
+    null,
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674631",
+      "quote": "(0,75 Euro pro Einwohner pro Jahr) 232.000,00 Ja 12 Monate zum Geschäftsjahresende"
+    }
+  ],
   "keyPoints": [
-    "Die Übersicht reicht von kommunalen Spitzenverbänden und Versorgungsträgern über Schul-, Kultur-, Feuerwehr-, Grünflächen- und Wirtschaftsverbände bis hin zu Mitgliedschaften einzelner Ortsvereine und Schulen.",
-    "Die höchsten ausgewiesenen jährlichen Beträge entfallen mit 56.272.737,63 Euro auf den Kommunalen Versorgungsverband Baden-Württemberg, mit 23.817.986,05 Euro auf die Zusatzversorgungskasse des Kommunalen Versorgungsverbandes und mit 2.055.348,63 Euro auf die Unfallkasse Baden-Württemberg.",
-    "Ein Teil der Mitgliedschaften ist als Pflicht- oder Verpflichtungsmitgliedschaft nicht kündbar, andere lassen sich mit Fristen von einem Monat bis zu zwölf Monaten beenden.",
-    "Für einzelne Mitgliedschaften wird ein Austritt, eine Nichtweiterführung oder eine Streichung als Sparmaßnahme genannt, während mehrere Fachämter die Beibehaltung bestimmter Mitgliedschaften empfehlen."
+    "Die Pflichtmitgliedschaft im Kommunalen Versorgungsverband Baden-Württemberg ist in der Übersicht mit jährlichen Kosten von 56.272.737,63 Euro beziffert.",
+    "Die gesetzliche Unfallversicherung über die Unfallkasse Baden-Württemberg verursacht laut der Liste 2.055.348,63 Euro und ist nicht kündbar.",
+    "Ein Austritt aus der Zusatzversorgungskasse des Kommunalen Versorgungsverbandes würde einen Ausgleichsbetrag vermutlich in Milliardenhöhe auslösen.",
+    "Die Beteiligung an der TechnologieRegion Karlsruhe GmbH ist mit 232.000,00 Euro jährlich ausgewiesen, entsprechend 0,75 Euro pro Einwohner und Jahr."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:be2dac145776dd8ac4cc50d7ffac39ed23fd032358e67f98b0d58b18abc087b3",
-  "summary": "Die Anfrage der Wählergruppe für Karlsruhe verlangt eine Übersicht über alle Vereins-, Verbands- und Organisationsmitgliedschaften der Stadt sowie deren Nutzung, jährliche Kosten und Mehrwert. Die Verwaltung beantwortet dies mit einer tabellarischen Liste, die je Mitgliedschaft Beiträge, Vorteile und Kündigungsfristen ausweist."
+  "summary": "Die Anfrage der Wählergruppe für Karlsruhe verlangt eine tabellarische Übersicht über alle Mitgliedschaften der Stadt in Vereinen, Verbänden und vergleichbaren Zusammenschlüssen samt aktivem Engagement, Jahreskosten und Nutzen. Die Verwaltung führt aus, dass eine Abfrage bei den Dienststellen erfolgt ist, und belegt die Übersicht mit einer Liste der Mitgliedschaften samt Beiträgen und Kündigungsfristen."
 }

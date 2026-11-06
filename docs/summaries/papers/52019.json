@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T09:18:37.836Z",
+  "generatedAt": "2026-11-06T16:01:23.079Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52019",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/667725",
+      "quote": "kommunalen Aufgabenträger im Rahmen der Datenermittlung für die Zuweisung der § 15 ÖPNVG-Mittel ab dem Jahr 2025 die Fahrgastzahlen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/667725",
+      "quote": "dem bereits vorhandenen und mandantenfähigen regionalen Hintergrundsystem des Verkehrsverbunds Rhein-Neckar (VRN)"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/667725",
+      "quote": "Daher entfallen auf die Stadt Karlsruhe als Aufgabenträgerin nur jährliche Kosten in Höhe von ca. 20.000 Euro (vor Förderung)"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/667725",
+      "quote": "verbleibt bei der Stadt Karlsruhe voraussichtlich nur noch eine jährliche Belastung in einer Größenordnung von max. 5.000 Euro"
+    }
+  ],
   "keyPoints": [
-    "Der KVV soll die Ermittlung, Hochrechnung, Qualitätskontrolle und Weiterleitung der Fahrgastzähldaten übernehmen und die Kosten zwischen Verkehrsverbund Rhein-Neckar und den Aufgabenträgern verrechnen.",
-    "Verpflichtend ist die Erhebung der Fahrgastzahlen ab dem Jahr 2025 nach der ÖPNV-Verordnung, damit die Verbundfördermittel des Landes gesichert werden; die Kosten werden aus dem Ansatz für den Verlustausgleich der KVV beglichen.",
-    "Die jährliche Vergütung an den Verkehrsverbund Rhein-Neckar beträgt je nach Zahl der erfassten Fahrzeuge zwischen 52.500 und 67.500 Euro zuzüglich Umsatzsteuer; zunächst ist eine Lizenz für 100 Fahrzeuge geplant, erweiterbar auf bis zu 500.",
-    "Die Vereinbarungen beginnen am 01.01.2026, laufen auf unbestimmte Zeit und sind mit Fristen von sechs Monaten beziehungsweise einem Jahr zum Jahresende kündbar; VBK und AVG nutzen bereits eigene lokale Hintergrundsysteme und müssen ihre Daten nur aufbereiten."
+    "Grundlage ist die Verpflichtung der Aufgabenträger, Fahrgastzahlen ab dem Jahr 2025 landesweit vergleichbar zu erheben, wofür automatische Fahrgastzählsysteme als wirtschaftlichste Lösung gelten.",
+    "Da der KVV kein eigenes regionales Hintergrundsystem betreibt, sollen sich die baden-württembergischen Aufgabenträger dem mandantenfähigen System des Verkehrsverbunds Rhein-Neckar anschließen.",
+    "Für die Stadt Karlsruhe fallen demnach jährliche Kosten in Höhe von ca. 20.000 Euro vor Förderung an, die aus dem Ansatz für den Verlustausgleich der Karlsruher Verkehrsverbund GmbH beglichen werden.",
+    "Soweit die vom KVV erwartete Landesförderung bewilligt wird, verbleibt voraussichtlich nur noch eine jährliche Belastung in einer Größenordnung von maximal 5.000 Euro."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:0ec317c2107c61a4546af3c8fb29a18582f3ed4badb07ac2feee08f186b5c035",
-  "summary": "Die Vorlage schlägt vor, drei Vereinbarungen zum Aufbau und Betrieb eines regionalen Hintergrundsystems für automatische Fahrgastzählung abzuschließen, an das sich die Karlsruher Aufgabenträger über den KVV an das System des Verkehrsverbunds Rhein-Neckar anbinden. Für die Stadt Karlsruhe fallen dafür jährlich rund 20.000 Euro vor Förderung an, nach bewilligter Landesförderung voraussichtlich höchstens 5.000 Euro."
+  "summary": "Die Vorlage schlägt vor, drei Vereinbarungen zum Aufbau eines regionalen AFZS-Hintergrundsystems beim Verkehrsverbund Rhein-Neckar abzuschließen und den KVV mit der operativen Fahrgastzählung zu beauftragen. Die Verwaltung empfiehlt die Zustimmung; ab 2026 werden Kosten in einer Größenordnung von maximal 5.000 Euro jährlich erwartet."
 }

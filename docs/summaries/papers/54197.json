@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-21T08:03:24.706Z",
+  "generatedAt": "2026-11-06T16:01:23.079Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54197",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676115",
+      "quote": "stellt nur eine Momentaufnahme dar, während die Zulassungszahlen privater Pkw in Karlsruhe bereits zurückgehen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676115",
+      "quote": "In Kombination mit dem geplanten weiteren Ausbau von Carsharing und der Ausweitung von Bewohnerparkzonen müssen die Werte im Vergleich zum ursprünglichen Satzungsentwurf nicht erhöht werden"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676154",
+      "quote": "wurde daher für den Satzungsbeschluss der Kfz-Stellplatzschlüssel in den Zonen 1 und 2 jeweils um 0,1 erhöht"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676154",
+      "quote": "Die Effekte der im Antrag genannten Maßnahmen (Carsharing-Ausbau, Ausweitung Bewohnerparkzonen) auf den Pkw-Besitz der Karlsruher*innen lassen sich derzeit nicht belastbar bestimmen"
+    }
+  ],
   "keyPoints": [
-    "Der Antrag verweist darauf, dass die SrV-Erhebung von 2023 nur eine Momentaufnahme darstelle und die Pkw-Zulassungszahlen in Karlsruhe bereits zurückgingen.",
-    "Carsharing-Ausbau und die geplante Ausweitung von Bewohnerparkzonen sprechen aus Sicht des Antrags gegen höhere Stellplatzwerte.",
-    "Die Verwaltung stützt sich auf aktuellere kleinteilige SrV-Daten, nach denen in den zentralen Zonen mehr andernorts zugelassene Pkw vorhanden sind als angenommen, und hatte den Schlüssel in beiden Zonen jeweils um 0,1 erhöht sowie den Abschlag für Kleinstwohnungen auf 25 Prozent abgesenkt.",
-    "Die Effekte von Carsharing-Ausbau und Bewohnerparkzonen auf den Pkw-Besitz lassen sich nach Auffassung der Verwaltung derzeit nicht belastbar bestimmen."
+    "Der Antrag begründet die niedrigeren Werte damit, dass die Verkehrserhebung SrV 2023 nur eine Momentaufnahme darstellt und die Pkw-Zulassungen in Karlsruhe zurückgehen.",
+    "Der Antrag verweist zusätzlich auf den geplanten Ausbau von Carsharing und die Ausweitung von Bewohnerparkzonen.",
+    "Die Verwaltung hatte den Stellplatzschlüssel in beiden Zonen jeweils um 0,1 erhöht und den Abschlag für Kleinstwohnungen auf 25 Prozent des Zonenwerts abgemindert.",
+    "Die Verwaltung hält die Wirkungen von Carsharing-Ausbau und ausgeweiteten Bewohnerparkzonen auf den Pkw-Besitz derzeit nicht für belastbar bestimmbar."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:8f824df96afb67cdfcf82aec82f2eb4a8b0f5a5d3ca3b059ab5aae78b199d2b6",
-  "summary": "Der Änderungsantrag fordert, die Zahl der Kfz-Stellplätze je Wohneinheit in den Zonen 1 und 2 wieder auf die niedrigeren Grundwerte des ursprünglichen Satzungsentwurfs festzulegen. Die Verwaltung empfiehlt, den Antrag abzulehnen."
+  "summary": "Der Änderungsantrag will für die Stellplatzsatzung die niedrigeren Grundwerte aus dem ursprünglichen Satzungsentwurf anwenden, nämlich 0,5 Stellplätze je Wohneinheit in Zone 1 und 0,7 in Zone 2. Die Verwaltung empfiehlt, den Antrag abzulehnen."
 }

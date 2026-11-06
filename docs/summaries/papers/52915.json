@@ -1,15 +1,23 @@
 {
-  "generatedAt": "2026-10-24T09:08:26.279Z",
+  "generatedAt": "2026-11-06T16:01:23.079Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52915",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674976",
+      "quote": "Die vorgeschlagene Maßnahme ist bereits in der Beschlussvorlage mit der Nummer 2025/1155 berücksichtigt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674976",
+      "quote": "Seite HH-Plan Produktgruppe Kontierungsobjekt Plankonto/FiPo 196 4210-400 1.400.42.10.01.01.63 43000000"
+    }
+  ],
   "keyPoints": [
-    "Der Antrag richtet sich an den Doppelhaushalt 2026/2027 und stammt von der AfD-Gemeinderatsfraktion.",
-    "Als Begründung wird angeführt, dass man auch weiterhin die Unterstützung des Reitinstituts für erforderlich hält.",
-    "Für die Beschlussvorlage 2025/1155 ist eine Vorberatung im Haupt- und Finanzausschuss am 9. Dezember 2025 vorgesehen.",
-    "Die Stellungnahme ordnet die Entscheidung über den Antrag der Abstimmung über die Beschlussvorlage 2025/1155 im Rahmen der Haushaltsberatungen zu."
+    "Die vorgeschlagene Maßnahme ist nach Angaben der Stellungnahme bereits in der Beschlussvorlage mit der Nummer 2025/1155 berücksichtigt.",
+    "Der Antrag ist dem Teilhaushalt 4000 zugeordnet und betrifft Sachaufwendungen im Zusammenhang mit Leistungen an Zuschussempfänger."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:cfeccd50c6c11b7f85edea7512e0cfec0753440b06407b37c3d41b371fcb4f7e",
-  "summary": "Der Antrag fordert, auf eine Kürzung des Zuschusses für das Reitinstitut von Neindorf im Teilhaushalt 4000 zu verzichten, da die Unterstützung weiterhin für erforderlich gehalten wird. Die Stellungnahme führt aus, dass die Maßnahme bereits in der Beschlussvorlage 2025/1155 berücksichtigt ist."
+  "summary": "Der Antrag schlägt vor, im Doppelhaushalt 2026/2027 auf die Kürzung des Zuschusses für das Reitinstitut von Neindorf zu verzichten, da die Unterstützung weiterhin für erforderlich gehalten wird. Die Stellungnahme führt aus, dass die Maßnahme bereits in einer anderen Beschlussvorlage berücksichtigt ist und die Entscheidung deren Abstimmung folgt."
 }

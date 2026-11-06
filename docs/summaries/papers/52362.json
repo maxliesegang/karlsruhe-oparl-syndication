@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T09:18:22.490Z",
+  "generatedAt": "2026-11-06T16:01:23.079Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52362",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670205",
+      "quote": "Die vorhandene Liquidität reicht nicht mehr aus, um die Kosten für die Jahresabschlussprüfung zu decken"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670205",
+      "quote": "Bei einem jährlichen Cash-Abfluss von ca. 7.000 €, wäre die Volkswohnung Bauträger GmbH in 2026 zahlungsunfähig"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670205",
+      "quote": "Nach § 12 Abs. 2 UmwStG bleibt der Verschmelzungsverlust außer Ansatz, d.h. es findet steuerlich keine Berücksichtigung statt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670205",
+      "quote": "als nicht mehr mit § 102 Abs. 1 GemO vereinbar angesehen werden und damit auch nicht mehr ausübbar sein"
+    }
+  ],
   "keyPoints": [
-    "Zum 31.12.2024 verfügte die Gesellschaft lediglich über liquide Mittel in Höhe von 6.920,92 Euro; bei einem jährlichen Mittelabfluss von etwa 7.000 Euro reicht das Vermögen für die Kosten der Jahresabschlussprüfung nicht mehr aus.",
-    "Die Gesellschaft wurde 1994 zur Übernahme und Vermarktung der Wohnsiedlung Klein-Kanada auf der Gemarkung Hügelsheim gegründet und dient seit 2012 als Vorratsgesellschaft, wobei steuerliche Verlustvorträge genutzt werden.",
-    "Nach Einschätzung des Steuerbersaters bleibt der aus der Verschmelzung resultierende Verlust nach § 12 Abs. 2 UmwStG steuerlich außer Ansatz.",
-    "Der Vertragsentwurf sieht die Vermögensübertragung mit Wirkung zum Ablauf des 31.12.2025 vor; die Kosten der Verschmelzung trägt die Volkswohnung GmbH, eigenes Personal hat die übertragende Gesellschaft nicht."
+    "Die vorhandene Liquidität der Volkswohnung Bauträger GmbH reicht laut Vorlage nicht mehr aus, um die Kosten für die Jahresabschlussprüfung zu decken.",
+    "Bei einem jährlichen Cash-Abfluss von etwa 7.000 Euro wäre die Gesellschaft im Jahr 2026 zahlungsunfähig.",
+    "Der aus der Verschmelzung entstehende Verlust findet nach der Stellungnahme des Steuerberaters steuerlich keine Berücksichtigung.",
+    "Wegen der seit 2012 ruhenden Geschäftstätigkeit hält die Vorlage es für möglich, dass einzelne Tätigkeiten wie das Bauträgergeschäft nicht mehr mit der Gemeindeordnung vereinbar und damit nicht mehr ausübbar sind."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:542cc7bd9e170c2a53d024c6a3d6de659a052ba449be8cb8ff9027cf70d03b78",
-  "summary": "Die Vorlage schlägt vor, die seit 2012 nicht mehr operativ tätige Volkswohnung Bauträger GmbH im Wege einer Verschmelzung durch Aufnahme auf die Volkswohnung GmbH zu übertragen und den städtischen Vertreter in der Gesellschafterversammlung zu ermächtigen, dem beigefügten Vertragsentwurf zuzustimmen. Die Verwaltung empfiehlt diesen Schritt, weil die Gesellschaft sonst voraussichtlich im Jahr 2026 zahlungsunfähig wäre."
+  "summary": "Die Vorlage schlägt vor, die seit 2012 nicht mehr operative Volkswohnung Bauträger GmbH im Wege eines Upstream Mergers mit Wirkung zum Ablauf des 31.12.2025 auf die Volkswohnung GmbH zu verschmelzen. Als Grund wird genannt, dass die Liquidität der Gesellschaft für die Jahresabschlussprüfung nicht mehr ausreicht; die Verwaltung empfiehlt die Verschmelzung und eine Ermächtigung des städtischen Vertreters in der Gesellschafterversammlung zum Vertragsabschluss."
 }

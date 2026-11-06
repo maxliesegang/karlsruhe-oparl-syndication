@@ -8,8 +8,20 @@
       "fileName": "00680633.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680633",
       "mimeType": "application/pdf",
-      "modified": "2026-11-04T15:36:02+01:00",
+      "modified": "2026-11-06T12:24:28+01:00",
       "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00680643.pdf",
+      "created": "2026-08-31T15:42:02+02:00",
+      "date": "2026-08-31",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00680643.pdf",
+      "fileName": "00680643.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680643",
+      "mimeType": "application/pdf",
+      "modified": "2026-11-06T12:24:28+01:00",
+      "name": "Stellungnahme Antrag",
       "type": "https://schema.oparl.org/1.1/File"
     },
     {
@@ -20,7 +32,7 @@
       "fileName": "00681349.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681349",
       "mimeType": "application/pdf",
-      "modified": "2026-11-04T15:36:02+01:00",
+      "modified": "2026-11-06T12:24:28+01:00",
       "name": "Protokoll GR 29.09.2026 TOP 28",
       "type": "https://schema.oparl.org/1.1/File"
     }
@@ -40,12 +52,25 @@
       "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54892",
       "role": "Kenntnisnahme",
       "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104504",
+      "created": "2026-11-04T15:36:51+01:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37896",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10605",
+      "modified": "2026-11-04T15:37:20+01:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54892",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
     }
   ],
   "created": "2026-08-31T12:43:16+02:00",
   "date": "2026-08-31",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54892",
-  "modified": "2026-11-04T15:36:02+01:00",
+  "modified": "2026-11-06T12:24:28+01:00",
   "name": "Ambulante psychotherapeutische Versorgung in Karlsruhe - Berichtsauftrag und Datengrundlage",
   "paperType": "Antrag",
   "reference": "2026/0699",

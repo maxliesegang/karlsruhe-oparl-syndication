@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T09:18:35.978Z",
+  "generatedAt": "2026-11-06T16:01:23.079Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52545",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671261",
+      "quote": "Die Zahl der ordnungsrechtlich untergebrachten wohnungslosen Menschen in Karlsruhe befindet sich auf einem konstanten Niveau mit derzeit 620 Personen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671261",
+      "quote": "Die bisherigen Unterkünfte stehen nicht mehr zur Verfügung. Der Bedarf besteht unverändert fort"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671261",
+      "quote": "Der Einzel-Bettenpreis beträgt bei Anlage 1 pro Tag 22 Euro und 23 Euro bei Anlage 2 und 3"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671617",
+      "quote": "Die Erhöhung auf 60 Betten ab Februar 2026 ergibt sich durch einen weiteren auslaufenden Vertrag"
+    }
+  ],
   "keyPoints": [
-    "Der Bettenpreis pro Tag liegt bei 22 Euro für die Unterkunft in der Sachsenstraße sowie bei 23 Euro für die Unterkünfte in der G.-Braun-Straße und in Marien- und Pfinztalstraße; die Verwaltung stuft diese Preise als mittleres Niveau ein.",
-    "In der Sachsenstraße sind 60 Betten in 30 Doppelzimmern über fünf Jahre geplant, zunächst jedoch nur 29 Betten im Januar 2026, mit Gesamtkosten von 2.315.940 Euro und geplanten Gebühreneinnahmen von 1.403.600 Euro.",
-    "Die Unterkunft in der G.-Braun-Straße umfasst 10 Betten bei Kosten von 186.300 Euro über zwei Jahre; die beiden ehemaligen Ukrainer-Unterkünfte in Marien- und Pfinztalstraße bieten 20 Betten als Übergangslösung für neun Monate bei Kosten von 124.200 Euro.",
-    "Derzeit sind 620 ordnungsrechtlich untergebrachte wohnungslose Menschen in Karlsruhe registriert; die Platzvergabe erfolgte an die drei preiswertesten Anbieter unter den bekannten Vertragspartnern."
+    "Derzeit sind 620 Menschen in Karlsruhe ordnungsrechtlich untergebracht, die Zahl wird als konstant beschrieben.",
+    "Die bisherigen Unterkünfte stehen nicht mehr zur Verfügung, die neu vergebenen Belegrechte gingen an die drei preiswertesten Anbieter.",
+    "Der Einzel-Bettenpreis pro Tag beträgt bei der Vereinbarung für die Sachsenstraße 22 Euro und bei den beiden übrigen 23 Euro.",
+    "Für die Unterkunft in der Sachsenstraße sind zunächst 29 Betten geplant, ab Februar 2026 dann 60 Betten."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:51df9a4a4f8edf17df1a80cf6863febc2adf7b262144bfa69fc0d73f972755bd",
-  "summary": "Die Vorlage schlägt vor, drei Belegungsvereinbarungen zur Unterbringung obdachloser Menschen in Karlsruhe abzuschließen, weil mehrere bestehende Belegrechte Anfang 2026 auslaufen und der Bedarf fortbesteht. Die Verwaltung empfiehlt den Vertragsschluss mit Gesamtbelegungskosten von 2.626.440 Euro und weist darauf hin, dass die Mittel im Doppelhaushalt 2026/2027 vollständig vorgesehen sind."
+  "summary": "Die Vorlage schlägt vor, drei Belegungsvereinbarungen für die Unterbringung obdachloser Menschen in Karlsruhe abzuschließen, weil drei bestehende Verträge Anfang 2026 auslaufen und der Bedarf unverändert fortbesteht. Die Verwaltung empfiehlt, die Vereinbarungen mit den drei preiswertesten Anbietern und Gesamtbelegungskosten von 2.626.440 Euro zu schließen."
 }

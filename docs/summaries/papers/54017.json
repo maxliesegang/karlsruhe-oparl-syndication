@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T09:11:12.173Z",
+  "generatedAt": "2026-11-06T16:01:23.079Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54017",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675195",
+      "quote": "Die Zuwendungen, die der Stadtkämmerei von November 2025 bis Dezember 2025 angezeigt wurden, umfassen einen Gesamtwert von 143.881,04 Euro"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675195",
+      "quote": "Der Zoologischer Stadtgarten erhielt mehrere Zuwendungen in Höhe von insgesamt 50.176,64 Euro"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675195",
+      "quote": "Darunter befinden sich zahlreiche Spenden an das Kulturhaus Mikado e.V., Tollhaus e.V. sowie NUN e.V"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675195",
+      "quote": "Das Forstamt bekam für die Waldpädagogik Karlsruhe Zuwendungen in Höhe von insgesamt 1.231,33 Euro"
+    }
+  ],
   "keyPoints": [
-    "Die Zuwendungen umfassen laut Vorlage einen Gesamtwert von 143.881,04 Euro.",
-    "Darunter fallen unter anderem 87.111,07 Euro für das Kulturamt mit zahlreichen Spenden an das Kulturhaus Mikado e.V., Tollhaus e.V. sowie NUN e.V. und 50.176,64 Euro für den Zoologischen Stadtgarten.",
-    "Die Ortsverwaltung Neureut erhielt eine Spende in Höhe von 1.500,00 Euro, das Forstamt für die Waldpädagogik Karlsruhe Zuwendungen in Höhe von insgesamt 1.231,33 Euro.",
-    "Auf dem Spendenkonto „Karlsruhe hilft“ sind im Zeitraum vom 17. November 2025 bis zum 16. Dezember 2025 keine Zuwendungen eingegangen."
+    "Die angezeigten Zuwendungen umfassen laut Erläuterung einen Gesamtwert von 143.881,04 Euro.",
+    "Der Zoologische Stadtgarten erhielt mehrere Zuwendungen in Höhe von insgesamt 50.176,64 Euro.",
+    "Beim Kulturamt beliefen sich die Zuwendungen auf insgesamt 87.111,07 Euro, darunter zahlreiche Spenden an Kulturhaus Mikado e.V., Tollhaus e.V. sowie NUN e.V.",
+    "Das Forstamt bekam für die Waldpädagogik Karlsruhe Zuwendungen in Höhe von insgesamt 1.231,33 Euro."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:c91bb784c539c80ad33aea3599efd1aa592d59a044f925897655433a303f74d6",
-  "summary": "Die Vorlage schlägt vor, die der Stadtkämmerei von November bis Dezember 2025 angezeigten Zuwendungsangebote anzunehmen. Die Verwaltung weist zusätzlich auf eine nachträglich korrigierte Spende an den Zoologischen Stadtgarten hin, deren Restbetrag gesondert angezeigt werden soll."
+  "summary": "Die Vorlage schlägt vor, die der Stadtkämmerei von November bis Dezember 2025 angezeigten Zuwendungen anzunehmen, darunter Spenden unter anderem an den Zoologischen Stadtgarten und mehrere Kulturträger. Zudem wird der korrigierte Betrag einer bereits zuvor angezeigten Firmenspende nachgemeldet."
 }

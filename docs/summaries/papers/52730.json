@@ -1,15 +1,28 @@
 {
-  "generatedAt": "2026-10-24T09:02:19.180Z",
+  "generatedAt": "2026-11-06T16:01:23.079Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52730",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672129",
+      "quote": "2026 2027 2028 2029 2030 - 50.000 € 50.000 € 50.000 € 50.000 €"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672129",
+      "quote": "um die bislang pauschal eingeplante Ergebnisverbesserung von 80 Millionen Euro im Doppelhaushalt 2026/2027 zu konkretisieren"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672129",
+      "quote": "sind im Rahmen der Haushaltsberatungen zu entscheiden, sofern sie nicht bereits zuvor beschlossen wurden"
+    }
+  ],
   "keyPoints": [
-    "Die Maßnahme ist Teil der 4. Stufe der Haushaltssicherung, mit der die bislang pauschal eingeplante Ergebnisverbesserung von 80 Millionen Euro konkretisiert werden soll.",
-    "Zuständig für die Ausarbeitung ist das Gartenbauamt im Dezernat 5.",
-    "Das Gesamtpaket wurde in einer Informationsvorlage mit der Nummer 2025/1078 dargestellt; gemeinderatszuständige Maßnahmen sollen im Rahmen der Haushaltsberatungen entschieden werden, soweit sie nicht bereits zuvor beschlossen wurden.",
-    "Für 2026 ist kein Einsparpotenzial ausgewiesen, für die Jahre 2027 bis 2030 jeweils 50.000 Euro."
+    "Als Einsparpotential der Gebühreneinführung wird ab 2027 jährlich 50.000 Euro ausgewiesen, während für 2026 kein Betrag angegeben ist.",
+    "Die Maßnahme dient dazu, eine bislang pauschal eingeplante Ergebnisverbesserung von 80 Millionen Euro zu konkretisieren.",
+    "Zu entscheiden sind die Maßnahmen im Rahmen der Haushaltsberatungen, sofern darüber nicht bereits zuvor befunden wurde."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:874058e501a3e0f53f3127e11603402f2b7fcefd67d50cff2971c2dc5c1605cc",
-  "summary": "Die Vorlage schlägt vor, für die Bearbeitung von Baumfällanträgen nach der Baumschutzsatzung eine Verwaltungsgebühr einzuführen. Die Maßnahme gehört zu einem Paket zur Konkretisierung der Ergebnisverbesserung im Doppelhaushalt 2026/2027 und soll ab 2027 ein Einsparpotenzial von jährlich 50.000 Euro erbringen."
+  "summary": "Die Vorlage schlägt vor, für die Bearbeitung von Baumfällanträgen nach der Baumschutzsatzung eine Verwaltungsgebühr einzuführen. Die Maßnahme gehört zum Paket der Haushaltssicherung und soll die Ergebnisverbesserung im Doppelhaushalt 2026/2027 konkretisieren."
 }

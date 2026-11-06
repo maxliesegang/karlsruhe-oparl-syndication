@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T09:17:21.714Z",
+  "generatedAt": "2026-11-06T16:01:23.079Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52708",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672101",
+      "quote": "die Verschiebung des Baujahrs von 2024 auf 2026"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672101",
+      "quote": "deutlich verkürzt werden auf 2 Wochen dauernde Hauptarbeiten"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672101",
+      "quote": "Die Brücken selbst werden vollständig im Werk vorgefertigt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672101",
+      "quote": "Entsprechende bilaterale Abstimmungen mit den städtischen Stellen (Umweltamt, Wasserbehörde, Baukoordinator, Tiefbauamt, Verkehrsbetriebe) sind erfolgt"
+    }
+  ],
   "keyPoints": [
-    "Das Projekt dient laut Stellungnahme allein der Erneuerung der über 100 Jahre alten Brücken; die Gleise bleiben unverändert liegen und die Strecke erfährt keine Kapazitätserhöhung.",
-    "Die Brücken werden vollständig im Werk vorgertig, wodurch die 2021 geplanten monatelangen lärmintensiven Arbeiten auf zwei Wochen Hauptarbeiten schrumpfen.",
-    "Wegen der reduzierten Betroffenheiten wurde der Planfeststellungsantrag zurückgezogen; die Erneuerung erfolgt nun planrechtsfrei nach bilateralen Abstimmungen unter anderem mit Umweltamt, Wasserbehörde, Baukoordinator, Tiefbauamt und Verkehrsbetrieben.",
-    "Vorarbeiten sollen im Februar 2026 beginnen, die Hauptarbeiten sind für den Zeitraum 29.08.2026 bis 11.09.2026 geplant; unmittelbar vom Baulärm betroffene Anlieger will die DB individuell ansprechen und mit Ersatzwohnraum anbieten."
+    "Das Baujahr wurde gegenüber der Planung von 2021 von 2024 auf 2026 verschoben.",
+    "Die 2021 geplanten monatelangen, lärmintensiven Arbeiten vor Ort sollen durch eine Umplanung auf zwei Wochen Hauptarbeiten verkürzt werden.",
+    "Die Brücken sollen vollständig im Werk vorgefertigt werden.",
+    "Wegen der reduzierten Betroffenheiten wurde der Antrag auf Planfeststellung zurückgezogen; die Erneuerung erfolgt nun als planrechtsfreie Maßnahme, zu der bilaterale Abstimmungen mit städtischen Stellen erfolgten."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:72242266398d4d603084ca7f1abadd5d797353eb2c1c0ce7b7d16b0d6ff62193",
-  "summary": "Die Anfrage fragt nach dem aktuellen Stand des von DB Netz geplanten Austauschs der Eisenbahnüberführung über die Pfinz am Bahnhof Durlach, zu dem seit der Vorstellung 2021 keine Rückmeldung erfolgt sei. Die von DB InfraGO AG übermittelte Stellungnahme nennt eine Verschiebung des Baujahrs von 2024 auf 2026 und eine Umplanung, durch die die Vor-Ort-Arbeiten deutlich verkürzt werden."
+  "summary": "Die CDU-Ortschaftsratsfraktion fragt nach dem Stand des DB-Projekts zum Austausch der Eisenbahnüberführung über die Pfinz am Durlacher Bahnhof, weil seit der Vorstellung 2021 nichts geschehen sei und eine Verzögerung nicht kommuniziert wurde. Die DB InfraGO AG nennt eine Verschiebung des Baubeginns, stark verkürzte Vor-Ort-Arbeiten und ein planrechtsfreies Vorgehen."
 }

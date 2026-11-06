@@ -1,15 +1,28 @@
 {
-  "generatedAt": "2026-10-24T10:30:24.128Z",
+  "generatedAt": "2026-11-06T16:01:23.079Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54006",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674054",
+      "quote": "Da unser Grötzinger Friedhof im Außenbereich gelegen ist, verstärkt sich das Problem unter Umständen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674055",
+      "quote": "Die Linie 22 fährt Montag bis Samstag tagsüber im 30-Minuten-Takt. Hierbei wird die Haltestelle Gustav-Hofmann-Straße regelmäßig bedient"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674055",
+      "quote": "Von dieser Haltestelle aus beträgt der Fußweg bis zum Friedhof Grötzingen ca. 300 Meter"
+    }
+  ],
   "keyPoints": [
-    "Laut Stellungnahme fährt die Linie 22 Montag bis Samstag tagsüber im 30-Minuten-Takt und bedient regelmäßig die Haltestelle Gustav-Hofmann-Straße.",
-    "Von dieser Haltestelle beträgt der Fußweg bis zum Friedhof Grötzingen laut Stellungnahme circa 300 Meter.",
-    "Der Antrag begründet das Anliegen mit der Erreichbarkeit des im Außenbereich gelegenen Friedhofs für ältere und mobilitätseingeschränkte Menschen.",
-    "Der Antrag sieht vor, die erarbeiteten Vorschläge mit dem Ortschaftsrat abzustimmen und diesen zu informieren."
+    "Der Antrag begründet das Anliegen damit, dass der Grötzinger Friedhof im Außenbereich liegt und der Weg dorthin für ältere und mobilitätseingeschränkte Menschen eine Herausforderung darstellen kann.",
+    "Nach Angaben der Stellungnahme fährt die Linie 22 Montag bis Samstag tagsüber im 30-Minuten-Takt und bedient regelmäßig die Haltestelle Gustav-Hofmann-Straße.",
+    "Die Entfernung von der Haltestelle Gustav-Hofmann-Straße bis zum Friedhof Grötzingen beträgt laut Stellungnahme etwa 300 Meter zu Fuß."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:2ad1d88ff95c0b9f693a43401edc02881045405783c446b323e5c85672c9eac8",
-  "summary": "Der interfraktionelle Antrag fordert, die KVV zu beauftragen, Vorschläge zu erarbeiten, wie der Grötzinger Friedhof als Haltestelle in die Buslinie 22 integriert werden kann. Die Stellungnahme führt aus, dass die VBK eine Änderung ablehnt, weil die Anbindung aus ihrer Sicht ausreichend ist."
+  "summary": "Der Antrag fordert, die KVV zu beauftragen, Vorschläge zu erarbeiten, wie der Friedhof Grötzingen als Haltestelle in die Buslinie 22 integriert werden kann, und diese mit dem Ortschaftsrat abzustimmen. Die VBK lehnt eine Änderung ab, weil der Friedhof von der Haltestelle Gustav-Hofmann-Straße aus zu Fuß erreichbar ist."
 }

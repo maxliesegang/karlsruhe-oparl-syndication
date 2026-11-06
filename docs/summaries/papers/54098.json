@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T08:39:13.662Z",
+  "generatedAt": "2026-11-06T16:01:23.079Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54098",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675657",
+      "quote": "Die Fragestunde findet mind. zweimal im Jahr statt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675657",
+      "quote": "Die Fragestunde findet in der Regel zu Beginn der öffentlichen Sitzungen statt. Ihre Dauer soll 30 Minuten nicht überschreiten"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675657",
+      "quote": "Fragen, Anregungen und Vorschläge müssen kurz gefaßt sein und sollen die Dauer von drei Minuten nicht überschreiten"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675657",
+      "quote": "Kann zu einer Frage nicht sofort Stellung genommen werden, so wird die Stellungnahme in der folgenden Fragestunde abgegeben"
+    }
+  ],
   "keyPoints": [
-    "Die Verwaltung empfiehlt, die geänderte Geschäftsordnung des Ortschaftsrates Wolfartsweier zu beschließen, wobei die konkrete Neufassung des § 25 im vorliegenden Ausschnitt nicht sichtbar ist.",
-    "§ 25 sieht vor, dass die Fragestunde mindestens zweimal im Jahr stattfindet und in der Regel zu Beginn öffentlicher Sitzungen angesetzt wird.",
-    "Die Dauer der Fragestunde soll 30 Minuten nicht überschreiten, einzelne Fragen, Anregungen und Vorschläge sollen höchstens drei Minuten dauern.",
-    "Zu den vorgebrachten Punkten nimmt der Vorsitzende Stellung; unter bestimmten Voraussetzungen kann davon abgesehen werden."
+    "Die Fragestunde soll mindestens zweimal im Jahr stattfinden.",
+    "Sie ist zu Beginn der öffentlichen Sitzungen vorgesehen und soll eine Dauer von 30 Minuten nicht überschreiten.",
+    "Fragen, Anregungen und Vorschläge sollen kurz gefasst sein und je höchstens drei Minuten dauern.",
+    "Der Vorsitzende nimmt zu den vorgebrachten Punkten Stellung, andernfalls erfolgt die Stellungnahme in der folgenden Fragestunde."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:1da858fdf4c3a1fe01512aa2c94d972ca5a95d3b4c9e61fa57a03e3b76254fea",
-  "summary": "Die Vorlage schlägt eine Änderung der Geschäftsordnung des Ortschaftsrates Wolfartsweier vor, die sich auf § 25 zur Fragestunde bezieht. Diese Regelung erlaubt Einwohnern, in öffentlichen Sitzungen Fragen zu Ortschaftsangelegenheiten zu stellen oder Anregungen und Vorschläge zu unterbreiten."
+  "summary": "Die Vorlage schlägt vor, die Geschäftsordnung des Ortschaftsrates Wolfartsweier zu ändern; betroffen ist § 25 zur Fragestunde. Danach sollen Einwohnerinnen und Einwohner in Sitzungen Fragen stellen sowie Anregungen und Vorschläge vorbringen können."
 }

@@ -1,14 +1,28 @@
 {
-  "generatedAt": "2026-10-24T09:08:45.992Z",
+  "generatedAt": "2026-11-06T16:01:23.079Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52677",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672049",
+      "quote": "Einsparpotential der Maßnahme 2026 2027 2028 2029 2030 10.000 € 10.000 € 10.000 € 10.000 € 10.000 €"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672049",
+      "quote": "Im Rahmen der 4. Stufe der Haushaltssicherung hat die Verwaltung konkrete Maßnahmen erarbeitet, um die bislang pauschal eingeplante Ergebnisverbesserung von 80 Millionen Euro"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672049",
+      "quote": "sind im Rahmen der Haushaltsberatungen zu entscheiden, sofern sie nicht bereits zuvor beschlossen wurden"
+    }
+  ],
   "keyPoints": [
-    "Das gesamte Maßnahmenpaket konkretisiert eine bislang pauschal veranschlagte Ergebnisverbesserung von 80 Millionen Euro und wurde mit der Informationsvorlage Nr. 2025/1078 bereitgestellt.",
-    "Die Maßnahme fällt in die Zuständigkeit des Gemeinderates und ist im Rahmen der Haushaltsberatungen zu entscheiden, sofern sie nicht bereits zuvor beschlossen wurde.",
-    "Zuständig federführend ist das Schul- und Sportamt (Dezernat 3)."
+    "Die Maßnahme Kürzung der Leistungssportförderung soll ein Einsparpotential von 10.000 Euro je Jahr von 2026 bis 2030 bringen.",
+    "Die Maßnahme ist Teil eines Gesamtpakets von Einsparungen, das im Rahmen der 4. Stufe der Haushaltssicherung erarbeitet und mit einer Informationsvorlage bekannt gegeben wurde.",
+    "Für Maßnahmen in der Zuständigkeit des Gemeinderates sieht die Vorlage eine Entscheidung im Rahmen der Haushaltsberatungen vor, sofern sie nicht bereits zuvor beschlossen wurden."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:f0b6a9eba12281584d268e00651f3584f8274554bd8bbc696086176c63e363b3",
-  "summary": "Die Vorlage schlägt vor, die Leistungssportförderung zu kürzen, um im Rahmen der 4. Stufe der Haushaltssicherung die pauschal eingeplante Ergebnisverbesserung im Doppelhaushalt 2026/2027 zu konkretisieren. Das Einsparpotenzial der Maßnahme liegt für jedes Jahr von 2026 bis 2030 bei 10.000 Euro."
+  "summary": "Die Vorlage schlägt vor, die Leistungssportförderung zu kürzen, um die im Doppelhaushalt 2026/2027 bislang pauschal eingeplante Ergebnisverbesserung zu konkretisieren. Sie ist Teil eines Maßnahmenpakets der 4. Stufe der Haushaltssicherung."
 }
