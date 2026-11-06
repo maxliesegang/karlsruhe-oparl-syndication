@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T10:06:00.019Z",
+  "generatedAt": "2026-11-06T21:35:58.547Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54042",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674351",
+      "quote": "- 420 Euro bei einer Fahrzeuglänge zwischen 4,31 und 4,79 m"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674351",
+      "quote": "Die Grundlage der Berechnung ist dabei immer das größte anzumeldende Fahrzeug, sofern mehrere Fahrzeuge über einen Ausweis beantragt werden"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674351",
+      "quote": "Wir rechnen mit Mehreinnahmen von 166.000 € im Gegensatz zum Verwaltungsvorschlag"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674351",
+      "quote": "- 25 % der Autos fallen in die günstigste bzw. teuerste Kategorie und 50 % in die mittlere Kategorie"
+    }
+  ],
   "keyPoints": [
-    "Die Staffelung unterscheidet Fahrzeuge unter 4,31 m Länge (360 Euro), zwischen 4,31 und 4,79 m (420 Euro) und über 4,79 m (480 Euro); bei mehreren Fahrzeugen je Ausweis ist die Länge des größten Fahrzeugs maßgeblich.",
-    "Erwartet werden 166.000 Euro Mehreinnahmen pro Jahr gegenüber dem Verwaltungsvorschlag, berechnet für 2.777 Ausweise bei einer Verteilung von 25 Prozent in der günstigsten und teuersten sowie 50 Prozent in der mittleren Kategorie.",
-    "Die Verwaltung sieht die Fahrzeuggröße als wenig geeignetes Differenzierungsmerkmal, da markierte Stellplätze allen Fahrzeugen dieselbe Fläche bieten, und hält eine gebührenrechtlich belastbare Staffelung sowie die zusätzliche Ungleichbehandlung für problematisch.",
-    "Die Ausweise betreffen nur Teile der Innenstadt und der Innenstadt Durlachs; der Antrag verweist zusätzlich auf die Notwendigkeit, die Parkzonen auszuweiten, damit Nachbarstraßen weniger zugeparkt werden."
+    "Die mittlere Gebührenstufe ist für Fahrzeuge mit einer Länge zwischen 4,31 und 4,79 Metern vorgesehen.",
+    "Bei mehreren über einen Ausweis beantragten Fahrzeugen soll jeweils das größte Fahrzeug maßgeblich sein.",
+    "Der Antrag rechnet im Vergleich zum Verwaltungsvorschlag mit Mehreinnahmen von 166.000 Euro.",
+    "Der Berechnung liegt die Annahme von 2.777 ausgestellten Ausweisen zugrunde, verteilt auf 25 Prozent günstigste und teuerste sowie 50 Prozent mittlere Kategorie."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:97d0c6bb6e53c60624545b87bff3d0fe1c1e7d304648db652eb06e8bde72be27",
-  "summary": "Der Antrag schlägt vor, die jährliche Gebühr für Bewohnerparkausweise je nach Fahrzeuglänge auf 360, 420 oder 480 Euro zu staffeln und dadurch Mehreinnahmen zu erzielen. Die Verwaltung empfiehlt, den Antrag abzulehnen und die Gebühr stattdessen einheitlich auf 360 Euro anzuheben."
+  "summary": "Die Vorlage verlangt, die jährliche Gebühr für Bewohnerparkausweise je nach Fahrzeuglänge in drei Stufen von 360 bis 480 Euro festzulegen. Die Verwaltung empfiehlt, den Antrag abzulehnen und die Gebühr stattdessen einheitlich auf 360 Euro anzuheben."
 }

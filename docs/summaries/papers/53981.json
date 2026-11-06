@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T10:03:27.569Z",
+  "generatedAt": "2026-11-06T21:35:58.547Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/53981",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/673859",
+      "quote": "1. Filmboard, 2. Centre Culturel Francais Allemande, 3. KV Tempel, 4. Panorama e.V"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674983",
+      "quote": "-1.520 -1.520 -1.520 -1.520 -1.520"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/673859",
+      "quote": "beabsichtigt sie bei der institutionellen Förderung im Kulturbereich nur eine Kürzung von 8,7% vorzunehmen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674983",
+      "quote": "während kleinere Träger*innen der quasi-institutionellen Förderung flexibler auf Drittmittel ausweichen können"
+    }
+  ],
   "keyPoints": [
-    "Betroffen sind die Empfänger der institutionellen Förderung Sonstige 3: Filmboard, Centre Culturel Francais Allemande, KV Tempel und Panorama e. V.",
-    "Die Änderungen an den Sachaufwendungen sind für 2026 und 2027 mit jeweils -7.420, -18.240, -9.610 und -10.190 Euro veranschlagt; für Panorama e. V. weist die Stellungnahme -1.520 Euro je Jahr für 2026 bis 2030 aus.",
-    "Der Antrag begründet die höhere Kürzung unter anderem mit geplanten Mehrbelastungen für Bürgerinnen und Bürger, etwa einer Erhöhung der Bäder-Eintritte um 25 Prozent und einer Verdoppelung der Parkgebühren.",
-    "Die Stellungnahme führt aus, dass bereits die vorgesehenen 8,7 Prozent Einsparungen die Kulturinstitutionen durch hohe Personalanteile an ihre Grenzen brächten und weitergehende Kürzungen nur über Stellenabbau oder gravierende Programmänderungen umsetzbar wären."
+    "Der Antrag richtet sich unter anderem an das Filmboard, das Centre Culturel Francais Allemande, den KV Tempel und Panorama e. V.",
+    "Für Panorama e. V. weist die Stellungnahme eine Reduzierung der Sachaufwendungen von 1.520 Euro für jedes der Jahre 2026 bis 2030 aus.",
+    "Die Begründung des Antrags sieht keinen Anlass für eine unterschiedliche Kürzungshöhe zwischen quasi-institutioneller und institutioneller Förderung.",
+    "Die Verwaltung führt aus, dass kleinere Träger der quasi-institutionellen Förderung eher Drittmittel erschließen können als die großen Einrichtungen."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:d693f10711725b247ea20acc9cedd01adef0bc289c694e035c6f331c566ac74b",
-  "summary": "Der Antrag fordert, die Zuschüsse im Bereich institutioneller Kulturförderung für Empfänger mit Fördersummen zwischen 80.000 und 1 Million Euro pro Jahr um 10 Prozent statt der vorgesehenen 8,7 Prozent zu kürzen. Die Verwaltung empfiehlt, davon abzusehen und den Antrag abzulehnen."
+  "summary": "Der Antrag verlangt bei der institutionellen Kulturförderung für Zuschüsse zwischen 80.000 und 1 Million Euro pro Jahr eine Kürzung um 10 Prozent statt der von der Stadt vorgesehenen 8,7 Prozent, betroffen ist unter anderem Panorama e. V. Die Verwaltung empfiehlt, davon abzusehen, weil die betroffenen Einrichtungen solche Einschnitte nur über Stellenabbau oder gravierende Programmänderungen umsetzen könnten."
 }

@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T09:59:58.690Z",
+  "generatedAt": "2026-11-06T21:35:58.547Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52821",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672415",
+      "quote": "wird dahingehend modifiziert, dass die Parkgebühren nicht um 100 Prozent, sondern nur um 50 Prozent angehoben werden"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674877",
+      "quote": "betragen derzeit in der Tarifzone 1 vier Euro pro Stunde und in der Tarifzone 2 zwei Euro pro Stunde"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672415",
+      "quote": "insbesondere auch vor dem Hintergrund stagnierender Besucherfrequenzen in der Innenstadt, die als auswärtige Besucherinnen und Besucher auf ein Auto angewiesen sind"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674877",
+      "quote": "Zur Anpassung der Parkgebühren ist eine Änderung der Satzung der Stadt Karlsruhe über Parkgebühren (Parkgebührensatzung) notwendig"
+    }
+  ],
   "keyPoints": [
-    "Der Haushaltssicherungsmaßnahme HHS4_GR78 waren Erträge von jeweils 5.250.000 Euro für 2026 und 2027 zugrunde gelegt; der Antrag meldet demgegenüber eine Reduzierung der Erträge um jeweils 2.625.000 Euro an.",
-    "Die Stellungnahme weist die Gebührenreduzierung mit -2.625.000 Euro je Jahr für die Jahre 2026 bis 2030 aus.",
-    "Die Gebühren für Stellplätze im öffentlichen Straßenraum wurden zuletzt 2021 angepasst und betragen derzeit vier Euro pro Stunde in der Tarifzone 1 und zwei Euro pro Stunde in der Tarifzone 2.",
-    "Für die Anpassung der Parkgebühren ist eine Änderung der Parkgebührensatzung erforderlich; die Verwaltung verweist zudem auf Projekte zur nachhaltigen Parkraumbewirtschaftung und auf Klimaschutzziele, zu denen die Gebührenerhöhung aus ihrer Sicht wesentlich beiträgt."
+    "Die Änderung betrifft die Maßnahme zur Anhebung der Parkgebühren bei mittels Parkschein-Automaten bewirtschafteten öffentlichen Stellplätzen.",
+    "Die Parkgebühren im öffentlichen Straßenraum wurden zuletzt 2021 angepasst.",
+    "Als Begründung führt der Antrag unter anderem stagnierende Besucherfrequenzen in der Innenstadt an.",
+    "Für eine Anpassung der Gebühren ist laut Stellungnahme eine Änderung der Parkgebührensatzung erforderlich."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:9fc705f017d1e7b36e2e124aaa46a084c536d5509766ba7f1a88256824e67789",
-  "summary": "Der Antrag schlägt vor, die geplante Verdopplung der Parkgebühren an Parkschein-Automaten auf eine Erhöhung um nur 50 Prozent zu begrenzen. Als Begründung werden die bereits hohen Karlsruher Gebühren und stagnierende Besucherfrequenzen in der Innenstadt genannt, während die Verwaltung empfiehlt, den Antrag abzulehnen."
+  "summary": "Statt der geplanten Verdopplung der Parkgebühren an Parkschein-Automaten sollen die Gebühren nur um 50 Prozent steigen; die entsprechende Haushaltssicherungsmaßnahme wird dadurch verringert. Die Verwaltung empfiehlt, den Antrag abzulehnen."
 }

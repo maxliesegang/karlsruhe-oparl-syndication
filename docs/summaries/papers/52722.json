@@ -1,15 +1,28 @@
 {
-  "generatedAt": "2026-10-24T09:59:56.870Z",
+  "generatedAt": "2026-11-06T21:35:58.547Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52722",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672119",
+      "quote": "5.250.000 € 5.250.000 € 5.250.000 € 5.250.000 € 5.250.000 €"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672119",
+      "quote": "um die bislang pauschal eingeplante Ergebnisverbesserung von 80 Millionen Euro im Doppelhaushalt 2026/2027 zu konkretisieren"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672119",
+      "quote": "Das gesamte Maßnahmenpaket wurde dem Gemeinderat mit der Informationsvorlage Nr. 2025/1078 zur Kenntnis gegeben"
+    }
+  ],
   "keyPoints": [
-    "Die Maßnahme konkretisiert im Rahmen der 4. Stufe der Haushaltssicherung einen pauschal eingeplanten Ergebnisbeitrag von 80 Millionen Euro im Doppelhaushalt 2026/2027.",
-    "Als Einsparpotential werden für die Jahre 2026 bis 2030 jeweils 5.250.000 Euro ausgewiesen.",
-    "Das Tiefbauamt ist die verantwortliche Dienststelle der Vorlage.",
-    "Zuständigkeitsrelevante Maßnahmen des Gesamtpakets sind im Rahmen der Haushaltsberatungen zu entscheiden, sofern nicht bereits zuvor beschlossen."
+    "Für die Gebührenerhöhung wird ein Einsparpotential von 5.250.000 Euro jährlich für die Jahre 2026 bis 2030 ausgewiesen.",
+    "Die Maßnahme dient dazu, die pauschal eingeplante Ergebnisverbesserung von 80 Millionen Euro im Doppelhaushalt 2026/2027 zu konkretisieren.",
+    "Das gesamte Maßnahmenpaket der Haushaltssicherung wurde in einer separaten Informationsvorlage dargestellt."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:b6a180efdd712ebd97858546abfb07da2c7c628b5ade391b361bf5ae0b64f637",
-  "summary": "Die Vorlage schlägt vor, die Parkgebühren an öffentlichen Stellplätzen mit Parkscheinautomaten zu verdoppeln. Sie gehört zu einem Paket von Maßnahmen der Haushaltssicherung und soll jährlich 5.250.000 Euro einsparen."
+  "summary": "Die Vorlage schlägt vor, die Parkgebühren an öffentlichen Stellplätzen mit Parkscheinautomaten zu verdoppeln. Sie reiht die Gebührenerhöhung in die vierte Stufe der Haushaltssicherung ein, mit der eine bislang pauschal eingeplante Ergebnisverbesserung konkretisiert werden soll."
 }
