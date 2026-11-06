@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:59:42.409Z",
+  "generatedAt": "2026-11-06T06:57:21.861Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54209",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676461",
+      "page": 1,
+      "quote": "gab es über das ASBW (Awareness System BW*) des Übertragungsnetzbetreibers Transnet BW keinen Hinweis auf eine Strommangellage"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676190",
+      "page": 2,
+      "quote": "dass es zur Sicherstellung der Stromversorgung in Karlsruhe und der Region aus der sogenannten Netzreserve heraus wiederangefahren wurde"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676190",
+      "page": 2,
+      "quote": "wie nach Berichten Betroffener am 12.01.2026 von 01:16 bis 05:17 Uhr Neulußheim"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676461",
+      "page": 1,
+      "quote": "Es mussten in dem genannten Zeitraum keine besonderen Maßnahmen - weder für die Stromversorgung noch für den Bezug von Erdgas und Fernwärme - getroffen werden"
+    }
+  ],
   "keyPoints": [
-    "Der Antrag schildert die Wiederinbetriebnahme des Blocks 7 des Rheinhafendampfkraftwerks aus der Netzreserve am Nachmittag des 11.01.2026 und verknüpft die Strommangellage mit dem Ausfall von Windkraft und Photovoltaik in der Dunkelflaute.",
-    "Laut Stellungnahme gab es über das Awareness System Baden-Württemberg des Übertragungsnetzbetreibers TransnetBW an den beiden Tagen keinen Hinweis auf eine Strommangellage, sodass Abschaltungen in Karlsruher Stadtteilen nicht drohten.",
-    "Nach Angaben der SWKN mussten im genannten Zeitraum keine besonderen Maßnahmen für Stromversorgung, Erdgas oder Fernwärme getroffen werden; im Fall einer Mangellage wäre sie nach EnWG § 13.2 an Anweisungen des Übertragungsnetzbetreibers gebunden und würde nach Notfallplänen handeln.",
-    "Zur Störung in Neulußheim im Rhein-Neckar-Kreis könne die SWKN keine Aussagen treffen; für Krisensituationen im Stromnetz existiere ein mit TransnetBW abgestimmter Kommunikationsplan, der hier nicht zur Anwendung kam."
+    "Laut Stellungnahme gab es über das Überwachungssystem des Übertragungsnetzbetreibers keinen Hinweis auf eine Strommangellage.",
+    "Die Anfrage führt aus, dass Block 7 des Rheinhafendampfkraftwerks aus der Netzreserve wieder in Betrieb genommen wurde.",
+    "Nach Angaben der Anfrage wurde Neulußheim im Zeitraum von 01:16 bis 05:17 Uhr vom Stromnetz getrennt.",
+    "Für Stromversorgung, Erdgas und Fernwärme seien in dem Zeitraum keine besonderen Maßnahmen erforderlich gewesen."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:d63f3ca82b78ab91039b1334d79d536ef498867c27d4029b9d7f6968e84b0a75",
-  "summary": "Die Anfrage erkundigt sich danach, ob an den Tagen um den 11. und 12. Januar 2026 für Karlsruher Stadtteile die Gefahr geplanter Stromabschaltungen bestand und welche Ursachen hinter dem Brown Out in Neulußheim stecken. Die Stellungnahme der Stadtwerke Karlsruhe Netze GmbH verneint eine Strommangellage in Karlsruhe und bewertet den Vorfall in Neulußheim als lokale technische Störung ohne Zusammenhang zur Karlsruher Versorgungssituation."
+  "summary": "Die Anfrage erkundigt sich, ob Karlsruher Stadtteile am 11. und 12. Januar 2026 von geplanten Stromabtrennungen bedroht waren und was die Ursache des mehrstündigen Stromausfalls in Neulußheim war. Die Stellungnahme der Stadtwerke Karlsruhe Netze sieht für Karlsruhe keine Gefahr und bewertet den Vorfall als lokale technische Störung und Einzelfall."
 }

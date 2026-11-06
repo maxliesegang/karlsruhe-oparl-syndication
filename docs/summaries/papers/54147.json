@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T08:00:20.707Z",
+  "generatedAt": "2026-11-06T06:57:21.861Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54147",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675814",
+      "page": 2,
+      "quote": "welche sich auf das Amt für Stadtentwicklung (eine Vollzeitstelle), das Bauordnungsamt (eine Vollzeitstelle) sowie das Liegenschaftsamt (eine halbe Vollzeitstelle) aufteilen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675814",
+      "page": 2,
+      "quote": "Auch das damit verbundene Allgemeine Vorkaufsrecht gem. § 24 Absatz 1 Satz 1 Nr. 4 kommt im Gebiet „Alte Südstadt“ nicht mehr zur Anwendung"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675814",
+      "page": 2,
+      "quote": "können in den beteiligten Ämtern nicht durch den Personalbestand aufgefangen werden"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675815",
+      "page": 1,
+      "quote": "Diese Satzung tritt am Tag nach ihrer Bekanntmachung in Kraft"
+    }
+  ],
   "keyPoints": [
-    "Der Vollzug der Satzung war über 2,5 Vollzeitstellen beim Amt für Stadtentwicklung, dem Bauordnungsamt und dem Liegenschaftsamt abgebildet, für die im Doppelhaushalt 2026/2027 eine Besetzungssperre vorgesehen ist; die Stellen sind zwischenzeitlich nicht mehr besetzt.",
-    "Die Verwaltung führt aus, dass die umfangreichen Beratungs-, Prüfungs- und Umsetzungsarbeiten rund um die Antragstellung nicht durch den verbleibenden Personalbestand aufgefangen werden können.",
-    "Mit der Aufhebung bedürfen Rückbau, Änderung, Nutzungsänderung baulicher Anlagen sowie die Begründung von Wohnungseigentum oder Teileigentum im Gebiet Alte Südstadt keiner gesonderten Genehmigung mehr nach § 172 Abs. 1 Satz 1 Nr. 2 und Satz 4 BauGB; auch das allgemeine Vorkaufsrecht nach § 24 Abs. 1 Satz 1 Nr. 4 BauGB findet dort keine Anwendung mehr.",
-    "Die vorgesehene Aufhebungssatzung sieht vor, dass sie am Tag nach ihrer Bekanntmachung in Kraft tritt; die Erhaltungssatzung war am 31. Mai 2022 beschlossen und im Sommer 2025 evaluiert worden."
+    "Die für den Vollzug der Satzung im Haushalt vorgesehenen 2,5 Vollzeitstellen verteilen sich auf drei Ämter und sind zwischenzeitlich nicht mehr besetzt.",
+    "Neben der Genehmigungspflicht nach § 172 BauGB entfällt auch das Allgemeine Vorkaufsrecht im Gebiet der Alten Südstadt.",
+    "Die Verwaltung führt aus, dass die umfangreichen Beratungs-, Prüfungs- und Umsetzungsarbeiten bei Antragstellungen in den beteiligten Ämtern nicht durch den Personalbestand aufgefangen werden können.",
+    "Die vorgesehene Aufhebungssatzung soll am Tag nach ihrer Bekanntmachung in Kraft treten."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:67e2807063841946b2fed00e85903fa90bdcf83103c308f9d375c50491daf8cd",
-  "summary": "Die Vorlage schlägt vor, die Soziale Erhaltungssatzung für die Alte Südstadt durch eine Aufhebungssatzung formell außer Kraft zu setzen. Grund ist die im Zuge der Haushaltssicherung beschlossene Besetzungssperre für die mit dem Vollzug befassten Stellen, die den Verzicht auf die Satzung notwendig mache."
+  "summary": "Die Vorlage schlägt vor, die Soziale Erhaltungssatzung für die Alte Südstadt durch eine Aufhebungssatzung zu beenden, nachdem die dafür vorgesehenen Stellen von der Besetzungssperre erfasst sind. Danach wären Rückbau, Änderung oder Nutzungsänderung von Gebäuden sowie die Begründung von Wohnungseigentum dort nicht mehr gesondert genehmigungspflichtig, auch das Vorkaufsrecht entfiele."
 }

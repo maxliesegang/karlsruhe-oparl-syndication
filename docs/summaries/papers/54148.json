@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:56:30.503Z",
+  "generatedAt": "2026-11-06T06:57:21.861Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54148",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675785",
+      "page": 1,
+      "quote": "Die Umsetzung der Ladeinfrastruktur refinanziert sich durch die Nutzung, sodass sie für die Stadt Karlsruhe kostenneutral erfolgt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676448",
+      "page": 2,
+      "quote": "Im Stadtkreis Karlsruhe sind derzeit circa 250 Taxilizenzen vergeben"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676448",
+      "page": 1,
+      "quote": "Eine Ladeinfrastruktur käme nur beim Taxigewerbe in Betracht, da Mietwagen nach Beendigung eines Auftrags der Rückkehrpflicht zum Betriebssitz unterliegen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676448",
+      "page": 2,
+      "quote": "Das Personenbeförderungsgesetz enthält keine Rechtsgrundlage, aufgrund derer die Erteilung von Taxilizenzen oder die Zulassung von Taxen von der Antriebsart abhängig gemacht werden kann"
+    }
+  ],
   "keyPoints": [
-    "Ladeinfrastruktur kommt laut Verwaltung nur für das Taxigewerbe in Betracht, da Mietwagen nach Auftragsende der Rückkehrpflicht zum Betriebssitz unterliegen und sich nicht im öffentlichen Verkehrsraum bereithalten dürfen.",
-    "Im Stadtkreis Karlsruhe sind derzeit circa 250 Taxilizenzen vergeben; die Verwaltung erklärt sich bereit, das Thema mit den Taxibetrieben aufzugreifen.",
-    "Schnellladesäulen bestehen bereits am Hauptbahnhof Süd, weitere fünf Schnelllade-Standorte sind im Ausbau, teils nahe Taxiständen: Südliche Hildapromenade und Kühler Krug in der Weststadt, Bahnhof Grötzingen, Badnerlandhalle in Neureut sowie Wilhelm-Leuschner-Straße in Oberreut.",
-    "Das Personenbeförderungsgesetz bietet keine Rechtsgrundlage, die Zulassung von Taxen von der Antriebsart abhängig zu machen; ein Umstieg wäre nur freiwillig möglich, und für eine Ladestruktur an Taxihalteplätzen fielen erhebliche Kosten an, deren Übernahme vorab geklärt werden müsste."
+    "Der Antrag geht davon aus, dass sich die Ladeinfrastruktur durch die Nutzung refinanziert und für die Stadt Karlsruhe kostenneutral bleibt oder von den Unternehmen selbst umgesetzt wird.",
+    "Im Stadtkreis Karlsruhe sind derzeit circa 250 Taxilizenzen vergeben.",
+    "Für Mietwagen käme eine Ladeinfrastruktur nicht in Betracht, weil diese nach Beendigung eines Auftrags zu ihrem Betriebssitz zurückkehren müssen.",
+    "Der Verwaltung zufolge fehlt im Personenbeförderungsgesetz eine Grundlage, um Taxilizenzen oder die Zulassung von Taxen von der Antriebsart abhängig zu machen."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:e1824eb69c498cb91ef18122a08b2e906826aaa0d93243e73e14b6fc50d6cb7e",
-  "summary": "Der Antrag der GRÜNE fordert, die nötige Ladeinfrastruktur für den Umstieg der Karlsruher Taxi- und Mietwagenbetriebe auf Elektrofahrzeuge mit den Unternehmen abzustimmen und die Elektrisierung bei der Vergabe neuer Lizenzen ab 2028 zur Pflicht zu machen. Die Verwaltung hält eine solche Verpflichtung mangels gesetzlicher Grundlage derzeit nicht für möglich und empfiehlt, die Ladeinfrastrukturfrage weiter zu erörtern und den Verpflichtungsteil abzulehnen."
+  "summary": "Der Antrag fordert, dass sich die Verwaltung mit den Karlsruher Taxi- und Mietwagenunternehmen über die für den Umstieg auf Elektrofahrzeuge nötige Ladeinfrastruktur abstimmt und dass ab 2028 neue Lizenzen nur noch für E-Fahrzeuge vergeben werden. Die Verwaltung hält eine solche Zulassungspflicht mangels gesetzlicher Grundlage für nicht umsetzbar und empfiehlt, diese Vorgabe abzulehnen."
 }

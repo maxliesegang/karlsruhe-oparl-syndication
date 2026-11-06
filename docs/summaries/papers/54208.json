@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:59:41.226Z",
+  "generatedAt": "2026-11-06T06:57:21.861Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54208",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676697",
+      "page": 1,
+      "quote": "Das Karlsruher Netz befindet sich in einem guten Zustand"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676697",
+      "page": 2,
+      "quote": "Die großen Anteile bei den zwischen 1950 und 2000 errichteten Haupt- (HW) und Versorgungsleitungen (VW) wurden im Zuge der Erschließung großer Neubaugebiete errichtet"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676697",
+      "page": 3,
+      "quote": "Von 2021 bis 2024 wurden im Schnitt 8,6 Mio. Euro pro Jahr in die Erneuerung des Wassernetzes investiert"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676697",
+      "page": 3,
+      "quote": "Die Investitionen werden vollständig von den Stadtwerken getragen und über Abschreibungen und Zinsen im Wasserpreis berücksichtigt"
+    }
+  ],
   "keyPoints": [
-    "Das Netz umfasst zum 01.01.2025 rund 920,76 Kilometer Haupt- und Versorgungsleitungen sowie 412,94 Kilometer Anschlussleitungen; große Anteile entstanden zwischen 1950 und 2000 im Zuge von Neubaugebieten und der Anbindung der Wasserwerke Hardtwald und Rheinwald.",
-    "Die Schadensraten der Jahre 2022 bis 2024 liegen laut Stellungnahme insgesamt im niedrigen Bereich; in Stupferich, Grünwettersbach und Durlach im unteren mittleren Bereich, in Hohenwettersbach traten keine Rohrbrüche an Haupt- und Versorgungsleitungen auf.",
-    "Von 2021 bis 2024 wurden im Schnitt 8,6 Mio. Euro pro Jahr investiert, für 2025 waren 10,4 Mio. Euro im Wirtschaftsplan vorgesehen und für 2026 bis 2028 sind im Schnitt 12,6 Mio. Euro geplant; die Kosten sollen über den Wasserpreis umgelegt werden.",
-    "Das Leitungsnetz wird vorwiegend zustandsabhängig erneuert, wobei auch Fremdbaumaßnahmen wie Gleiserneuerungen oder Straßensanierungen genutzt werden; die Ausführung erfolgt durch die Stadtwerke Netzservice per Inhouse-Vergabe oder nach Ausschreibung durch Fremdfirmen."
+    "Das Karlsruher Trinkwassernetz wird als guter Zustand eingestuft; nur in Stupferich, Grünwettersbach und Durlach liegen die Schadensraten der Haupt- und Versorgungsleitungen im unteren mittleren Bereich.",
+    "Der Großteil der Haupt- und Versorgungsleitungen wurde zwischen 1950 und 1999 verlegt, insbesondere im Zuge der Erschließung großer Neubaugebiete und der Anbindung der Wasserwerke Hardtwald und Rheinwald.",
+    "Zwischen 2021 und 2024 wurden im Schnitt 8,6 Mio. Euro pro Jahr in die Erneuerung des Wassernetzes investiert, für 2026 bis 2028 sind jährlich im Schnitt 12,6 Mio. Euro in den Wirtschaftsplänen vorgesehen.",
+    "Die Investitionen werden laut Stellungnahme vollständig von den Stadtwerken getragen und über Abschreibungen und Zinsen im Wasserpreis berücksichtigt."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:cd5ee3a2b261947b6a23806b50997ee47c4e8d9e7ee8a40bcd132786c057c9fc",
-  "summary": "Die Anfrage fragt nach Zustand, Schadensraten, Erneuerungsmaßnahmen, Kosten und Austauschstrategie des Trinkwasserverteilungsnetzes in den Karlsruher Stadtteilen. Die Stellungnahme der Stadtwerke bewertet das Netz als gut und nennt eine geplante jährliche Erneuerung von rund 10 Kilometern Leitungsnetz sowie rund 300 Hausanschlussleitungen."
+  "summary": "Die Anfrage fragt nach Zustand, Alter, Rohrbrüchen, Erneuerungsstrategie und Kosten des Trinkwasserverteilungsnetzes in allen Karlsruher Stadtteilen. Die Stellungnahme der Stadtwerke bewertet das Netz als gut, beziffert die Investitionen und beschreibt eine zustandsabhängige Erneuerungsstrategie."
 }

@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-21T08:02:48.745Z",
+  "generatedAt": "2026-11-06T06:57:21.861Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54138",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675825",
+      "page": 2,
+      "quote": "Das Kulturamt erhielt mehrere Zuwendungen in Höhe von insgesamt 66.851,99 Euro. Darunter befinden sich zahlreiche Spenden an KOHI e.V"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675825",
+      "page": 2,
+      "quote": "Die Sozial- und Jugendbehörde erhielt auch mehrere Zuwendungen in Höhe von insgesamt 5.967,27 Euro. Das Schul- und Sportamt bekam Zuwendungen in Höhe von insgesamt 5.950,00 Euro"
+    },
+    null,
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675825",
+      "page": 2,
+      "quote": "Der Zoologischer Stadtgarten erhielt mehrere Zuwendungen in Höhe von insgesamt 1.389,00 Euro"
+    }
+  ],
   "keyPoints": [
-    "Das Kulturamt erhielt mit 66.851,99 Euro den größten Teil der Zuwendungen, darunter zahlreiche Spenden an KOHI e.V., Tollhaus e.V. sowie NUN e.V.",
-    "Weitere Zuwendungen entfielen unter anderem auf den Zoologischen Stadtgarten mit 1.389,00 Euro, die Sozial- und Jugendbehörde mit 5.967,27 Euro, das Schul- und Sportamt mit 5.950,00 Euro, die Ortsverwaltung Wettersbach mit 155,00 Euro und die Waldpädagogik Karlsruhe mit 967,86 Euro.",
-    "Auf dem Spendenkonto „Karlsruhe hilft“ sind in dem Zeitraum keine Zuwendungen eingegangen.",
-    "Die Spende des Vereins für die Geschichte von Wolfartsweier e.V. an die Ortsverwaltung Wolfartsweier für Stelen im Projekt „Stickelpfad“ betrug tatsächlich 13.634,53 Euro statt der angezeigten 17.000 Euro, sodass sich der damals ausgewiesene Gesamtwert von 59.201,44 Euro um 3.365,47 Euro reduziert."
+    "Den größten Einzelposten stellt das Kulturamt mit insgesamt 66.851,99 Euro, darunter zahlreiche Spenden an KOHI e.V., Tollhaus e.V. sowie NUN e.V.",
+    "Die Sozial- und Jugendbehörde erhielt Zuwendungen in Höhe von insgesamt 5.967,27 Euro, das Schul- und Sportamt solche in Höhe von insgesamt 5.950,00 Euro.",
+    "Das Forstamt erhielt für die Waldpädagogik Karlsruhe insgesamt 967,86 Euro, die Ortsverwaltung Wettersbach eine Zuwendung in Höhe von 155,00 Euro.",
+    "Auch der Zoologische Stadtgarten erhielt mehrere Zuwendungen in Höhe von insgesamt 1.389,00 Euro."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:f93fd5328c3e5c3633ba0ffb48d996983908d0ad1ba692529a1fb6906e928fa3",
-  "summary": "Die Vorlage schlägt vor, die der Stadtkämmerei zwischen Dezember 2025 und Januar 2026 angezeigten Zuwendungsangebote im Gesamtwert von 81.281,12 Euro anzunehmen. Zudem wird die tatsächliche Höhe einer bereits 2025 angenommenen Spende für den Wolfartsweierer Stickelpfad korrigiert."
+  "summary": "Die Vorlage schlägt vor, die der Stadtkämmerei von Dezember 2025 bis Januar 2026 angezeigten Zuwendungsangebote im Gesamtwert von 81.281,12 Euro anzunehmen. Zugleich wird eine zuvor angezeigte Spende für den Stickelpfad in Wolfartsweier von 17.000 Euro auf tatsächlich überwiesene 13.634,53 Euro korrigiert."
 }

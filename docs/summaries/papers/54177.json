@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T08:00:03.096Z",
+  "generatedAt": "2026-11-06T06:57:21.861Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54177",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675952",
+      "page": 1,
+      "quote": "der ES catering GmbH, Weingarten für die Lose 1 bis 6, 8, 10, 11, 13 und 15"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675952",
+      "page": 2,
+      "quote": "bis maximal zum Schuljahr 2029/2030 für die Lose 3 bis 7"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675952",
+      "page": 5,
+      "quote": "Aufwendungen in Höhe von 2.074.459,38 Euro brutto für Catererleistungen, denen zu erwartende Einnahmen in Höhe von 2.367.970,00 Euro"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675952",
+      "page": 5,
+      "quote": "Der Kostendeckungsgrad des Mittagsessens liegt damit weiterhin bei maximal 50 Prozent"
+    }
+  ],
   "keyPoints": [
-    "Die Vergabe erfolgt in 15 Losen; für die Grundschul- und weiterführenden Standorte ohne Gymnasien sind zwei Verlängerungen um je ein Schuljahr bis maximal 2028/2029, für die neun Gymnasien und das Schulzentrum Neureut drei Verlängerungen bis maximal 2029/2030 vorgesehen.",
-    "Vorgeschlagene Zuschlagserteilung: ES catering GmbH (Weingarten) für die Lose 1 bis 6, 8, 10, 11, 13 und 15, El Tucano GmbH & Co. KG (Wiesbaden) für die Lose 7 und 9 sowie JJ Gastroservices GmbH (Baden-Baden) für die Lose 12 und 14.",
-    "Im offenen Verfahren gingen Angebote von vier Firmen ein; ein Angebot für Los 9 wurde wegen Überschreitens der Preisobergrenze von 4,67 Euro netto pro Menü von der Wertung ausgeschlossen, für Warmanlieferung gelten Obergrenzen von 5,00 beziehungsweise 6,00 Euro netto pro Menü.",
-    "Die Anlieferung soll mit Ausnahme der Lose 12 und 14 CO2-frei mit Elektrofahrzeugen erfolgen; erstmals ist ein saisonaler Obst- und Gemüseanteil von 50 Prozent verpflichtend vorgesehen."
+    "Der Zuschlag ist für die Lose 1 bis 6, 8, 10, 11, 13 und 15 an die ES catering GmbH, für die Lose 7 und 9 an die El Tucano GmbH & Co. KG sowie für die Lose 12 und 14 an die JJ Gastroservices GmbH vorgesehen.",
+    "Für die Lose 3 bis 7 mit den Gymnasien und dem Schulzentrum Neureut ist die längste Laufzeit bis maximal zum Schuljahr 2029/2030 vorgesehen.",
+    "Für Catererleistungen sind 2.074.459,38 Euro brutto veranschlagt, denen zu erwartende Einnahmen aus Elternentgelten von 2.367.970,00 Euro gegenüberstehen.",
+    "Der Kostendeckungsgrad des Mittagsessens soll weiterhin bei maximal 50 Prozent liegen."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:eb9d613874f4fcb82243924ad12c3f2d96671c68a33a403ed0afddd26c9a2214",
-  "summary": "Die Vorlage schlägt vor, die Lieferung von Mittagsverpflegung für 20 Schulmensen in Karlsruhe für das Schuljahr 2026/2027 an drei Cateringfirmen zu vergeben, mit Optionen auf Vertragsverlängerung. Für das erste Schuljahr sind Aufwendungen von 2.074.459,38 Euro brutto gegenüber erwarteten Einnahmen aus Elternentgelten von 2.367.970,00 Euro veranschlagt."
+  "summary": "Die Vorlage schlägt vor, die Lieferung der Mittagsverpflegung für 20 Karlsruher Schulmensen für das Schuljahr 2026/2027 losweise an drei Caterer zu vergeben. Je nach Schulform sollen die Verträge um bis zu zwei oder drei weitere Schuljahre verlängerbar sein."
 }

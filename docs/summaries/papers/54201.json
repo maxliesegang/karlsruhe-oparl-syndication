@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T08:01:25.408Z",
+  "generatedAt": "2026-11-06T06:57:21.861Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54201",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676275",
+      "page": 2,
+      "quote": "Die Frühjahrszählung ergab mit 340.342 gezählten Passantinnen und Passanten zudem einen neuen Höchstwert seit der Frühjahrszählung 2010"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676275",
+      "page": 2,
+      "quote": "Im Herbst lagen die Frequenzen mit 317.979 Zählfällen +5,4 % über den Frequenzen der Herbstzählung 2024"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676275",
+      "page": 2,
+      "quote": "Die Donnerstagszählung, stellvertretend für Werktage, ergab für das Frühjahr 2025 149.803 und für den Herbst 2025 131.647 Zählfälle"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676275",
+      "page": 2,
+      "quote": "Bei schlechten Wetterbedingungen lag die Frequenz im Herbst 2025 -7,1% niedriger im Vergleich zum Vorjahr"
+    }
+  ],
   "keyPoints": [
-    "Am Samstag der Frühjahrszählung wurden 340.342 gezählte Passantinnen und Passanten ermittelt, was +31,3 Prozent gegenüber der Vorjahreszählung entspricht und den höchsten Stand seit der Frühjahrszählung 2010 bedeutet.",
-    "Bei der Herbstzählung wurden samstags 317.979 Zählfälle gezählt, +5,4 Prozent gegenüber der Herbstzählung 2024, bei der Donnerstagszählung lag der Wert mit 131.647 Zählfällen unter schlechten Wetterbedingungen 7,1 Prozent unter dem Vorjahr.",
-    "Auffällige Frequenzanstiege gegenüber dem Durchschnitt der letzten fünf Jahre verzeichneten unter anderem die Kaiserstraße zwischen Lammstraße und Marktplatz (+77 Prozent im Frühjahr) sowie der südliche Eingang des Einkaufszentrums Ettlinger Tor (+109,3 Prozent im Herbst).",
-    "Im Rahmen der Haushaltsstabilisierung haben sich die beteiligten Dienststellen auf eine Reduktion der Zählstellen verständigt, um das Innenstadtmonitoring auf zentrale Bereiche zu fokussieren; eine Automatisierung der Zählungen erscheint angesichts der Haushaltslage unrealistisch."
+    "Die samstägliche Frühjahrszählung 2025 erreichte mit 340.342 gezählten Personen den höchsten Wert seit der Frühjahrszählung 2010 und lag um 31,3 Prozent über der Vorjahreszählung.",
+    "An den Herbstsamstagen wurden 317.979 Zählfälle gezählt, das sind 5,4 Prozent mehr als bei der Herbstzählung 2024.",
+    "Die stellvertretend für Werktage erhobenen Donnerstagszählungen ergaben im Frühjahr 2025 149.803 und im Herbst 2025 131.647 Zählfälle.",
+    "Im Herbst lag der Donnerstagswert unter schlechten Wetterbedingungen 7,1 Prozent unter dem Vorjahr, während das Frühjahr einen leichten Anstieg um 3,9 Prozent verzeichnete."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:0d04e6b75cd5e539283e2a6c4de187d2fd5e985f79486a23f48957ec66445d4a",
-  "summary": "Die Vorlage informiert über die Fußgängerfrequenzzählungen in der Karlsruher Innenstadt an zwei Tagen im Mai und im Oktober 2025. Die samstäglichen Zählwerte stiegen gegenüber dem Vorjahr deutlich, die Donnerstagsfrequenz im Herbst ging dagegen zurück."
+  "summary": "Die Vorlage informiert über die Fußgängerfrequenzzählungen im Mai und Oktober 2025 in der Karlsruher Innenstadt: An den Samstagen stiegen die Frequenzen deutlich an, die Donnerstagswerte lagen im Herbst schlechtwetterbedingt unter dem Vorjahr. Aus Haushaltsgründen sollen künftig weniger Zählstellen erhoben werden."
 }

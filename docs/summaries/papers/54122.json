@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T08:03:20.214Z",
+  "generatedAt": "2026-11-06T06:57:21.861Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54122",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675616",
+      "page": 2,
+      "quote": "Aus der Mitte des Ortschaftsrates Wettersbach kam der Wunsch auf, die Realisierung von Mitfahrbänken in Wettersbach zu prüfen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675616",
+      "page": 2,
+      "quote": "Optimal ist ein Strecke zwischen 3 und 10 km"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675616",
+      "page": 2,
+      "quote": "Hier wäre eine Kooperation mit den Höhenstadtteilen denkbar"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675616",
+      "page": 2,
+      "quote": "kann sie dabei helfen, weggefallene Infrastruktur (VBK-Einsparkonzept) zumindest teilweise zu kompensieren"
+    }
+  ],
   "keyPoints": [
-    "Zusammengetragen wurden unter anderem Standortvorschläge wie der Kirchstaig, der Pavillon in der Neuen Dorfmitte, die Heinz-Barth-Schule und eine Tankstelle in Grünwettersbach sowie der Edeka-Parkplatz und die Talstraße in Palmbach; für zwei Vorschläge in Hohenwettersbach wird angemerkt, dass keine Zuständigkeit als Ortschaftsrat besteht.",
-    "Die Kosten sollen aus eigenen Mitteln der Ortsverwaltung getragen werden; die Gelder stehen im DHH 2026/27 derzeit nicht zur Verfügung.",
-    "Als Finanzierungsmöglichkeit wird Sponsoring genannt, wobei ortsansässige Firmen oder Vereine Komponenten bereitstellen und dafür auch Werbung auf der Bank machen könnten.",
-    "Die Nutzung erfolgt auf eigene Verantwortung und Gefahr, wird vor Vollendung des 18. Lebensjahres nicht empfohlen, und Schadensersatzforderungen sollen über die Kfz-Haftpflichtversicherung des mitnehmenden Fahrzeugs abgedeckt sein."
+    "Anlass der Vorlage ist der Wunsch aus dem Ortschaftsrat Wettersbach, Mitfahrbänke im Ort zu prüfen.",
+    "Für die Anbindung eines Ortsteils an ein benachbartes Ziel hält die Vorlage eine Strecke von 3 bis 10 Kilometern für optimal.",
+    "Als weiteres Konzept wird eine Verbindung mehrerer Orte oder Ortsteile untereinander beschrieben, wobei eine Kooperation mit den Höhenstadtteilen als möglich genannt wird.",
+    "Eine Mitfahrbank soll teilweise weggefallene Infrastruktur kompensieren können, etwa eine entfallene Buslinie oder eine geschlossene Bankfiliale."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:cec6e23927ad9064e233a440123418a4af5e385e513be6cc19e01281ffb795bd",
-  "summary": "Die Vorlage schlägt vor, in den Stadtteilen Grünwettersbach und Palmbach jeweils mindestens eine möglichst bereits vorhandene Sitzgelegenheit als Mitfahrbank auszuweisen, über die spontane Mitfahrgelegenheiten für kurze Strecken vermittelt werden sollen. Die Standorte sollen dabei konkret festgelegt werden."
+  "summary": "Die Vorlage schlägt vor, in Grünwettersbach und Palmbach jeweils mindestens eine möglichst bereits vorhandene Sitzgelegenheit als Mitfahrbank auszuweisen, über die man spontan Mitfahrgelegenheiten für kurze Strecken finden kann. Da die Ortsverwaltung die Kosten selbst tragen muss und im DHH 2026/27 keine Gelder zur Verfügung stehen, wird Sponsoring als Finanzierung angeregt."
 }

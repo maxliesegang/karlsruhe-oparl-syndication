@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-24T08:40:04.894Z",
+  "generatedAt": "2026-11-06T06:57:21.861Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54118",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675675",
+      "page": 1,
+      "quote": "Stand 9. Januar 2026 wurden 96 Karten an Berechtigte, die im Leistungsbezug der Stadt Karlsruhe als untere Aufnahmebehörde stehen, ausgehändigt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675675",
+      "page": 1,
+      "quote": "Alle bisher im Leistungsbezug der Stadt Karlsruhe stehenden Berechtigten haben ihre Bezahlkarte erhalten"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675675",
+      "page": 1,
+      "quote": "Sofern der Lebensunterhalt überwiegend (mehr als 50 Prozent) und regelmäßig (mindestens drei Monate) aus Erwerbseinkommen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675675",
+      "page": 1,
+      "quote": "Es entstehen keine zusätzlichen Aufwendungen auf kommunaler Seite durch die Implementierung und Anwendung der Bezahlkarte"
+    }
+  ],
   "keyPoints": [
-    "Stand 9. Januar 2026 seien 96 Karten an Berechtigte im Leistungsbezug der Stadt Karlsruhe als untere Aufnahmebehörde ausgehändigt worden; alle bisher Berechtigten hätten ihre Karte erhalten. Die Zahl der Karteninhaber*innen in der LEA sei der Stadtverwaltung nicht bekannt.",
-    "Das Land Baden-Württemberg stelle das Bezahlkartensystem der Firma secupay AG kostenfrei zur Verfügung und trage die Kosten des Vergabeverfahrens, eine einmalige Bereitstellungspauschale sowie alle Rechnungen der Firma.",
-    "Der Barabhebebetrag liege bundeseinheitlich bei 50 Euro je Person, könne aber im Einzelfall im Ermessen der Leistungsbehörde abgewichen werden; bislang sei keine Abweichung von der Bargeldobergrenze erfolgt.",
-    "Überweisungen und Lastschriften seien nur an zuvor freigegebene IBANs möglich, einzelne Händlerkategorien seien ausgeschlossen; der Onlinehandel sei prinzipiell zugelassen, Bargeld könne bei über 11.000 Einzelhändlern und rund 53.000 Bankautomaten kostenfrei abgehoben werden, Beschwerden seien nur wenige bekannt."
+    "Stand 9. Januar 2026 waren 96 Karten an Leistungsberechtigte der Stadt Karlsruhe als untere Aufnahmebehörde ausgehändigt; die Zahl der Karteninhaber*innen in der LEA ist der Stadtverwaltung nicht bekannt.",
+    "Für die bereits im Leistungsbezug stehenden Berechtigten gilt die Ausgabe der Bezahlkarte als abgeschlossen.",
+    "Grundsätzlich sollen alle Leistungsberechtigten nach dem Asylbewerberleistungsgesetz eine Bezahlkarte erhalten; bei überwiegendem Erwerbseinkommen können die Leistungen auch auf ein Konto überwiesen werden.",
+    "Auf kommunaler Seite seien durch Einführung und Anwendung des Systems keine zusätzlichen Kosten und kein Mehraufwand entstanden."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:218cb87fdcbfc441edec20261457115a178cf0a80deb3639d09fa3c38c0f796e",
-  "summary": "Die Anfrage von Die Linke erkundigt sich nach Verbreitung, Kosten, Bargeldobergrenze und Einschränkungen der Bezahlkarte für Leistungsbeziehende nach dem Asylbewerberleistungsgesetz in Karlsruhe. Die Stellungnahme nennt 96 ausgegebene Karten, keine kommunalen Mehrkosten und eine Regel-Bargeldgrenze von 50 Euro je Person."
+  "summary": "Die Anfrage erkundigt sich nach Verbreitung, Kosten und Einschränkungen der Bezahlkarte für Geflüchtete in Karlsruhe und will ihre Auswirkungen fortlaufend überwachen. Die Stellungnahme beziffert den Ausgabestand, verneint kommunale Mehrkosten und erläutert Bargeldgrenze und Akzeptanzmöglichkeiten."
 }

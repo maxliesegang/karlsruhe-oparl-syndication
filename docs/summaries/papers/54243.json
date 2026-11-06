@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:58:48.914Z",
+  "generatedAt": "2026-11-06T06:57:21.861Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54243",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676408",
+      "page": 2,
+      "quote": "Der Bund fördert 50 Prozent der förderfähigen Kosten, das Land seinerseits 40 Prozent"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676408",
+      "page": 5,
+      "quote": "Ende 2025 hat die DG der Stadt mitgeteilt, dass der geplante Ausbau abgesagt wird"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676408",
+      "page": 5,
+      "quote": "Die Hauptgründe für den Rückzug sind die hohen Bau- und Zinskosten sowie die niedrigen Anschlussquoten im Rahmen der Nachfragebündelung"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676408",
+      "page": 5,
+      "quote": "diesem Rahmen ist der Ausbau von rund 20.000 Wohneinheiten in den kommenden Jahren geplant"
+    }
+  ],
   "keyPoints": [
-    "Stand Juni 2025 haben rund 95 Prozent der Bürgerinnen und Bürger sowie Unternehmen Gigabitbandbreiten, größtenteils über Kabelnetze; Glasfaser bis ins Gebäude besteht bisher für knapp 35 Prozent.",
-    "Für den Ausbau im Rheinhafen sind drei Förderanträge mit einer Bausumme von 11.874.011,24 Euro gestellt worden, darunter Fördersummen von 10.579.120,00 Euro; Bund und Land fördern 50 beziehungsweise 40 Prozent der förderfähigen Kosten, der Eigenanteil der Stadt liegt bei 10 Prozent.",
-    "Die Deutsche Glasfaser hat Ende 2025 ihren geplanten Ausbau in zahlreichen Stadtteilen abgesagt; als Gründe nennt sie hohe Bau- und Zinskosten, niedrige Anschlussquoten und die städtischen Genehmigungsvorgaben, die die Stadt wegen der Sicherung der Leitungsinfrastruktur beibehalten will.",
-    "Der mehrfache Ausbau derselben Gebiete durch verschiedene Betreiber wird als belastend und wenig ressourcenschonend beschrieben; ein Kooperationsvertrag zwischen SWK und Telekom vom Juli 2025 soll ihn in Rüppurr und der Nordweststadt vermeiden."
+    "Der geförderte Glasfaserausbau im Rheinhafen wird je zur Hälfte beziehungsweise zu 40 Prozent von Bund und Land getragen, der verbleibende Eigenanteil wird vom Tiefbauamt erbracht.",
+    "Die Deutsche Glasfaser hat ihren geplanten Ausbau unter anderem in den Höhenstadtteilen Hohenwettersbach, Palmbach, Grünwettersbach und Stupferich abgesagt.",
+    "Als Gründe für den Rückzug nennt der Bericht hohe Bau- und Zinskosten, niedrige Anschlussquoten sowie die städtischen Vorgaben für Genehmigungsverfahren.",
+    "Die Stadtwerke Karlsruhe planen in Kooperation mit Unternehmen der Wohnungswirtschaft den Ausbau von rund 20.000 Wohneinheiten in den kommenden Jahren."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:5d8ff4436974cc136b20241e9587318967ad2dba1a7584af94b97c442e1b7f20",
-  "summary": "Die Vorlage berichtet über den Stand des Breitbandausbaus in Karlsruhe und stellt die laufenden Glasfaservorhaben der Netzbetreiber in den Stadtteilen vor. Das geförderte Glasfasernetz im Rheinhafen soll Ende des ersten Quartals 2026 fertiggestellt werden."
+  "summary": "Der Sachstandsbericht schildert den Stand des Breitbandausbaus in Karlsruhe: Rund 95 Prozent der Haushalte und Unternehmen nutzen Gigabitbandbreiten, die Glasfaserversorgung liegt bei knapp 35 Prozent. Der geförderte Ausbau im Rheinhafen soll Ende des ersten Quartals 2026 abgeschlossen werden, während die Deutsche Glasfaser ihren geplanten Ausbau abgesagt hat."
 }

@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T08:00:38.139Z",
+  "generatedAt": "2026-11-06T06:57:21.861Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54181",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675976",
+      "page": 1,
+      "quote": "Diese Pendler sind nun deutlich länger unterwegs und müssen in Heidelberg umsteigen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675976",
+      "page": 1,
+      "quote": "sondern auch das östliche Stadtgebiet von Karlsruhe (z.B. Oststadt, Rintheim, Waldstadt), die benachbarten Ortsteile und auch Weingarten sowie das Pfinztal"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675976",
+      "page": 1,
+      "quote": "Im aktuellen Fahrplan verkehren in Durlach nur noch zwei Fernverkehrszüge: morgens 06:56 ein IC Karlsruhe – Stuttgart"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676599",
+      "page": 2,
+      "quote": "So wird Karlsruhe-KA-Durlach im Regelfahrplan 2026 mit zwei Fernverkehrsverbindungen bedient, welche primär auf die Bedürfnisse"
+    }
+  ],
   "keyPoints": [
-    "Betroffen sind unter anderem der morgendliche ICE 1672 um 7:09 nach Darmstadt/Frankfurt und die Gegenrichtung ICE 1671 mit Ankunft 18:45 in Durlach; Pendler müssen nun in Heidelberg umsteigen.",
-    "Im Fahrplan 2026 verbleiben mit IC 2363 ab 06:56 nach Stuttgart und ICE 1064 aus Stuttgart mit Ankunft 18:13 zwei Fernverkehrsverbindungen, die vor allem auf Pendler nach Stuttgart ausgerichtet sind.",
-    "Die Deutsche Bahn nennt für das entfallende Zugpaar ICE 1671/1672 jeweils nur vier Ein- beziehungsweise Aussteiger und verweist auf Nachfragerückgang, Homeoffice und Umstieg vieler Reisender auf das Deutschlandticket.",
-    "Nach Angaben der Deutschen Bahn bedeutet jeder Fernverkehrshalt in Durlach rund fünf Minuten längere Fahrzeit und kann am Karlsruher Hauptbahnhof das Erreichen von Anschlüssen gefährden."
+    "Die als Pendlerverbindungen genutzten ICE 1671 und 1672 entfallen, sodass die Betroffenen nun in Heidelberg umsteigen und deutlich länger unterwegs sind.",
+    "Der Einzugsbereich des Bahnhofs reicht über Durlach hinaus unter anderem in die Oststadt, nach Rintheim, in die Waldstadt, nach Weingarten und ins Pfinztal.",
+    "Laut Antrag verbleiben im aktuellen Fahrplan mit einem IC morgens und einem ICE abends nur noch zwei Fernverkehrszüge in Durlach.",
+    "Die Deutsche Bahn AG nennt für den Regelfahrplan 2026 zwei Verbindungen, die vor allem auf Pendler in Richtung Stuttgart ausgerichtet sind."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:ccbe695e7bcc95e3532fe70f5f1d9779c3ccc357b1d20863140c9fd3fa7f5703",
-  "summary": "Der Antrag fordert, dass das Stadtamt Durlach gegenüber DB Fernverkehr sein Missfallen über die sinkende Zahl der Fernverkehrshalte am Bahnhof Durlach äußert. Die Deutsche Bahn verweist auf sehr geringe Fahrgastzahlen und erklärt, keine alternativen Halte für das entfallende Zugpaar einzuplanen."
+  "summary": "Der Antrag verlangt, dass das Stadtamt Durlach gegenüber DB Fernverkehr sein Missfallen über die abnehmenden Fernverkehrsverbindungen am Bahnhof Durlach äußert. Die Deutsche Bahn AG verweist auf stark gesunkene Fahrgastzahlen im Pendlerverkehr und hält zusätzliche oder wiederkehrende Halte nicht für gerechtfertigt."
 }

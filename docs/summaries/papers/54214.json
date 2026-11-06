@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T07:59:02.145Z",
+  "generatedAt": "2026-11-06T06:57:21.861Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54214",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676255",
+      "page": 3,
+      "quote": "kann die Anlage mit einem Jahresertrag von 2.000.000 kWh in etwa 10% des Strombedarfs des Klärwerks klimafreundlich und vor Ort erzeugen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676457",
+      "page": 1,
+      "quote": "Jährliche/r Budgetbedarf/Folgekosten: 300.000 Euro (kalkulatorische Kosten) Gesamteinzahlung: 7.000.000 Euro Jährlicher Ertrag: 428.000 Euro"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676457",
+      "page": 3,
+      "quote": "Die erforderlichen Mittel sind bei dem Projekt 7.740221 (Klimaschutzmaßnahmen im Klärwerk) im DHH 2026/2027 veranschlagt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676254",
+      "page": 1,
+      "quote": "Dezember 2027 • Baufertigstellung ▪Inbetriebnahme ▪Abnahmen ▪Mängelbeseitigung April 2028 • Bauübergabe ▪Nutzungsaufnahme"
+    }
+  ],
   "keyPoints": [
-    "Die Gesamtkosten für den ersten Bauabschnitt belaufen sich auf 7.000.000 Euro, hinzu kommen kalkulatorische Folgekosten von 300.000 Euro im Jahr; die Mittel sind im Doppelhaushalt 2026/2027 beim Projekt 7.740 veranschlagt.",
-    "Vorbehaltlich einer Mittelzusage ist eine Bezuschussung über das Sondervermögen für Infrastruktur und Klimaneutralität des Bundes in Höhe von 7.000.000 Euro geplant; die Kosten sind gebührenfähig.",
-    "Der Zeitplan sieht die Bauausführung im zweiten Halbjahr 2027, die Baufertigstellung im Dezember 2027 und die Bauübergabe im April 2028 vor.",
-    "Die Anlage soll den Jahresertrag von 2.000.000 kWh erzeugen und jährlich rund 900 Tonnen CO2 einsparen; die Tragkonstruktion aus Stahl überspannt den Kanal, ohne zusätzliche Flächen zu versiegeln."
+    "Der Jahresertrag der Anlage wird mit 2.000.000 kWh angegeben, was nach den Ausführungen rund 10 Prozent des Strombedarfs des Klärwerks entspricht.",
+    "Die Vorlage weist kalkulatorische Folgekosten von 300.000 Euro jährlich und einen jährlichen Ertrag von 428.000 Euro aus.",
+    "Die erforderlichen Mittel sind beim Projekt 7.740221 für Klimaschutzmaßnahmen im Klärwerk im Doppelhaushalt 2026/2027 veranschlagt.",
+    "Der Ausführungszeitplan sieht die Baufertigstellung mit Inbetriebnahme und Abnahmen für Dezember 2027 und die Bauübergabe mit Nutzungsaufnahme für April 2028 vor."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:a7833f50ce31d0ca5f27ebe01311e52ebf27e9f9dcb730ddffbeb3a6fef92bad",
-  "summary": "Die Vorlage schlägt vor, den ersten Bauabschnitt einer Photovoltaikanlage über dem rund 350 Meter langen Ablaufkanal des Klärwerks Karlsruhe zu errichten und die Verwaltung mit der Realisierung zu betrauen. Die Anlage soll 2.000 kWp erreichen, rund zehn Prozent des Strombedarfs des Klärwerks decken und vollständig vor Ort genutzt werden."
+  "summary": "Die Vorlage schlägt vor, auf einem rund 350 Meter langen Teilstück des Ablaufkanals am Klärwerk eine Photovoltaikanlage mit 2.000 kWp Leistung zu errichten, deren Solarstrom vollständig vor Ort eigengenutzt werden kann. Die Verwaltung beziffert die Gesamtkosten auf 7.000.000 Euro und weist auf eine vorbehaltliche Bezuschussung durch ein Bundes-Sondervermögen hin."
 }

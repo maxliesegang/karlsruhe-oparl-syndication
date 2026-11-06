@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-24T08:38:53.175Z",
+  "generatedAt": "2026-11-06T06:57:21.861Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52664",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675802",
+      "page": 3,
+      "quote": "Im Ergebnis der Markterhebung wurden jährliche Gesamtkosten von ca. 20.000 Euro ermittelt. Geplant ist eine Verhandlungsvergabe mit fünfjähriger Laufzeit"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675802",
+      "page": 3,
+      "quote": "Ergänzend ist ein leistungsstärkerer PC erforderlich (einmalige Kosten ca. 5.000 Euro)"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675802",
+      "page": 2,
+      "quote": "Für die konkrete Umsetzung ist die Anpassung der Hauptsatzung erforderlich, um unter anderem folgende Punkte normativ zu regeln"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675802",
+      "page": 1,
+      "quote": "Die Aufzeichnungen der Gemeinde werden jeweils einen Tag nach der Folgesitzung sowohl aus dem öffentlichen Abruf als auch intern gelöscht"
+    }
+  ],
   "keyPoints": [
-    "Die jährlichen Kosten belaufen sich laut Markterkundung auf circa 20.000 Euro, hinzu kommen einmalig circa 5.000 Euro für einen leistungsstärkeren PC; für fünf Jahre sind 105.000 Euro veranschlagt, die Mittel sollen außerplanmäßig bereitgestellt werden.",
-    "Geplant ist eine Verhandlungsvergabe mit fünfjähriger Laufzeit; genutzt werden soll die vorhandene Ausstattung im Bürgersaal, das Streaming erfolgt in HD-Qualität.",
-    "Die Aufzeichnungen sollen jeweils einen Tag nach der Folgesitzung aus dem öffentlichen Abruf und intern gelöscht werden, damit die Veröffentlichung funktional an die physische Teilnahme vor Ort gekoppelt bleibt.",
-    "Als Bedenken werden fehlende Personalressourcen im Presse- und Informationsamt sowie im Hauptamt und die angespannte Haushaltssituation genannt; eine Ausweitung auf weitere Gremien ist nicht vorgesehen."
+    "Die Markterkundung weist jährliche Gesamtkosten von etwa 20.000 Euro aus; geplant ist eine Verhandlungsvergabe mit fünfjähriger Laufzeit.",
+    "Für die Technik sind einmalig etwa 5.000 Euro für einen leistungsstärkeren Rechner vorgesehen.",
+    "Für die Umsetzung ist eine Anpassung der Hauptsatzung erforderlich, die unter anderem Zulässigkeit der Übertragung, Speicher- und Löschfristen, Einwilligungslösungen und die Öffnungsklausel für Ortschaftsräte normativ regeln soll.",
+    "Die Aufzeichnungen sollen nur kurz verfügbar bleiben und jeweils einen Tag nach der Folgesitzung gelöscht werden."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:a15c51b1b1e085052f54d628daf004fae926d5ddd3e692d40953a4e243d5bede",
-  "summary": "Die Vorlage schlägt vor, die öffentlichen Gemeinderatssitzungen ab 2026 per Livestream zu übertragen und die technische Umsetzung an eine externe Agentur zu vergeben. Die Hauptsatzung soll dafür angepasst werden, Aufzeichnungen sollen zeitnah gelöscht werden, und der bisherige Liveticker entfällt."
+  "summary": "Die Vorlage schlägt vor, die öffentlichen Gemeinderatssitzungen ab 2026 live zu übertragen und die Umsetzung einer externen Agentur zu überlassen. Dazu soll die Hauptsatzung angepasst werden, unter anderem um eine Öffnungsklausel für die Ortschaftsräte; der bisherige Liveticker soll entfallen."
 }

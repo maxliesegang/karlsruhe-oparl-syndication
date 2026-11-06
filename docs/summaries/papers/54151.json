@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-21T08:00:05.755Z",
+  "generatedAt": "2026-11-06T06:57:21.861Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54151",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675804",
+      "page": 1,
+      "quote": "Von den 52 analysierten Städten in der bundesweiten Betrachtung wird für Karlsruhe sogar der größte Heizkostenanstieg mit einer Steigerung von 21 Prozent gegenüber 2024 erwartet"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675804",
+      "page": 1,
+      "quote": "Hier wird mit einer Steigerung gegenüber 2024 um 14,2 Prozent gerechnet (Vergleich Bundesdurchschnitt: Steigerung um 8,6 Prozent)"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676479",
+      "page": 1,
+      "quote": "Während 2024 etwa 740,2 GWh an Fernwärme abgenommen wurden, waren es im Jahr 2025 rund 770,2 GWh (+ 4 %; vorläufige Annahme)"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/676479",
+      "page": 1,
+      "quote": "musste der Arbeitspreis im Erdgas – aufgrund gestiegener Netzentgelte – um rd. 16% zum 01.03.2025 erhöht werden"
+    }
+  ],
   "keyPoints": [
-    "Für Baden-Württemberg wird für 2025 ein Heizkostenanstieg um 14,2 Prozent gegenüber 2024 prognostiziert, im Bundesdurchschnitt um 8,6 Prozent; unter 52 analysierten Städten wird für Karlsruhe mit 21 Prozent der größte Anstieg erwartet.",
-    "Der Fernwärmeabsatz stieg nach vorläufigen Annahmen von rund 740,2 auf 770,2 GWh, während der Erdgasverbrauch um 2,7 Prozent sank; zugleich wurde der Erdgas-Arbeitspreis zum 01.03.2025 wegen gestiegener Netzentgelte um rund 16 Prozent erhöht.",
-    "Die Stadtwerke beschaffen Gas über Tranchen mit über einjähriger Vorlaufzeit und legen den Durchschnittspreis jeweils für sechs Monate fest; diese risikoaverse Strategie solle Planungssicherheit schaffen, das Temperaturrisiko auslagern und extreme Preissprünge abfedern.",
-    "Der Fernwärme-Arbeitspreis wurde zum 01.04.2025 um rund 11 Prozent abgesenkt und bleibt zum 01.04.2026 voraussichtlich konstant; die Fernwärmepreise werden jährlich zum 1. April über Preisänderungsklauseln angepasst, und bis 2035 soll die Fernwärme vollständig CO2-neutral erzeugt werden."
+    "Für Karlsruhe wird 2025 der größte Heizkostenanstieg unter 52 bundesweit untersuchten Städten erwartet.",
+    "Für Baden-Württemberg wird eine Steigerung um 14,2 Prozent gegenüber 2024 prognostiziert, im Bundesdurchschnitt liegt die erwartete Steigerung bei 8,6 Prozent.",
+    "Die Fernwärmeabnahme stieg 2025 vorläufigen Annahmen zufolge um rund 4 Prozent, während der Erdgasverbrauch leicht zurückging.",
+    "Der Arbeitspreis im Erdgas wurde zum 1. März 2025 um rund 16 Prozent erhöht, was die Stellungnahme auf gestiegene Netzentgelte zurückführt."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:c872ecdb868f6754356931c3a73ff48204709f6d696e0ea52cb90fefbdda9a77",
-  "summary": "Die Anfrage von FDP|FW verlangt eine Erklärung und Einordnung des für 2025 prognostizierten, bundesweit größten Heizkostenanstiegs in Karlsruhe sowie eine Überprüfung des Gaseinkaufs der Stadtwerke auf mögliche Fehler. Die Stellungnahme der Stadtwerke führt den Anstieg auf Kälte und Marktbedingungen zurück, verteidigt die Beschaffung in Tranchen und verweist auf eine Senkung des Fernwärmepreises."
+  "summary": "Die Anfrage verlangt eine Erklärung für den gegenüber dem Bundesdurchschnitt überdurchschnittlichen Anstieg der Heizkosten in Karlsruhe im Jahr 2025 und will mögliche Fehler beim Gaseinkauf der Stadtwerke geklärt sehen. Die Stellungnahme führt den Anstieg auf kältere Witterung und Marktbedingungen zurück und verteidigt die Beschaffung in Tranchen."
 }
