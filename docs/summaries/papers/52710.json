@@ -1,14 +1,28 @@
 {
-  "generatedAt": "2026-10-24T10:11:40.037Z",
+  "generatedAt": "2026-11-07T06:08:35.422Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52710",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672103",
+      "quote": "Im Rahmen der 4. Stufe der Haushaltssicherung hat die Verwaltung konkrete Maßnahmen erarbeitet"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672103",
+      "quote": "2026 2027 2028 2029 2030 95.000 € 97.800 € 100.800 € 103.800 € 106.900 €"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672103",
+      "quote": "sind im Rahmen der Haushaltsberatungen zu entscheiden, sofern sie nicht bereits zuvor beschlossen wurden"
+    }
+  ],
   "keyPoints": [
-    "Das Einsparpotenzial wird für 2026 mit 95.000 € und für 2027 mit 97.800 € ausgewiesen, für 2028 mit 100.800 €, für 2029 mit 103.800 € und für 2030 mit 106.900 €.",
-    "Die Stellenstreichung ist Teil eines Maßnahmenpakets der Verwaltung, das mit der Informationsvorlage Nr. 2025/1078 vorgestellt wurde.",
-    "Maßnahmen des Pakets, die in die Zuständigkeit des Gemeinderates fallen, sollen im Rahmen der Haushaltsberatungen entschieden werden, sofern sie nicht bereits zuvor beschlossen wurden."
+    "Die Maßnahme ist Teil der vierten Stufe der Haushaltssicherung, mit der die Verwaltung konkretisierte Einsparungen erarbeitet.",
+    "Das Einsparpotenzial der Maßnahme wird je Haushaltsjahr beziffert und liegt 2026 bei 95.000 Euro sowie 2027 bei 97.800 Euro, 2028 bei 100.800 Euro, 2029 bei 103.800 Euro und 2030 bei 106.900 Euro.",
+    "Gemeindenahe Maßnahmen des Pakets sind im Rahmen der Haushaltsberatungen zu entscheiden, sofern darüber nicht bereits zuvor befunden wurde."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:cc26a32afc3cb5a83471cf1af6c69458ad667813b798c2e118e9ce32bb288259",
-  "summary": "Die Vorlage schlägt vor, im Förderprogramm KlimaBonus eine Vollzeitstelle zu streichen, und zwar in Absprache mit dem Umweltamt. Die Maßnahme dient dazu, die im Doppelhaushalt 2026/2027 pauschal eingeplante Ergebnisverbesserung von 80 Millionen Euro im Rahmen der 4. Stufe der Haushaltssicherung zu konkretisieren."
+  "summary": "Die Vorlage schlägt vor, eine Stelle im Förderprogramm KlimaBonus zu streichen – in Absprache mit dem Umweltamt –, um die im Doppelhaushalt 2026/2027 pauschal geplante Ergebnisverbesserung zu konkretisieren. Das zugehörige Einsparpotenzial steigt von 2026 bis 2030 schrittweise an."
 }

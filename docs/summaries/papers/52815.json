@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T10:16:45.958Z",
+  "generatedAt": "2026-11-07T06:08:35.422Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52815",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674972",
+      "quote": "Diese setzen sich aus 5.400 Euro für den Gemeinderat (THH 1000) und 2.400 Euro für die Ortschaftsräte (THH 1500) zusammen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674972",
+      "quote": "Die von VOLT im Antrag vorgenommene Berechnung der aktuellen Ausgaben in Höhe von 11.550 Euro kann nicht nachvollzogen werden"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674972",
+      "quote": "Die beantragte Aufstockung des Ansatzes würde den Haushalt nach aktuellem Stand mit zusätzlich 17.200 Euro pro Jahr belasten"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672403",
+      "quote": "werden hierfür aktuell auf Antrag, mit Nachweis, pauschal 150 Euro monatlich ausgezahlt"
+    }
+  ],
   "keyPoints": [
-    "Der An- und Abreise zur Sitzung sollen jeweils pauschal 30 Minuten in die Erstattung einbezogen werden.",
-    "Nach der Karlsruher Entschädigungssatzung werden Betreuungskosten derzeit auf Antrag und Nachweis pauschal mit 150 Euro monatlich ausgezahlt.",
-    "Die Verwaltung beziffert die tatsächlichen aktuellen Aufwendungen auf 7.800 Euro jährlich, davon 5.400 Euro für den Gemeinderat und 2.400 Euro für die Ortschaftsräte, und kann die im Antrag genannten 11.550 Euro nicht nachvollziehen.",
-    "Der Antrag verweist darauf, dass eine vollständige Erstattung auch für sonstige Betreuungskosten im Ehrenamt wegen der Haushaltslage nicht gefordert wird; aktuell nutzen 3 Gemeinderats- und 4 Ortschaftsratsmitglieder die Betreuungsentschädigung."
+    "Die Verwaltung weist die tatsächlichen Aufwendungen derzeit mit 7.800 Euro aus, davon 5.400 Euro für den Gemeinderat und 2.400 Euro für die Ortschaftsräte.",
+    "Die im Antrag genannten aktuellen Ausgaben von 11.550 Euro können nach Angaben der Verwaltung nicht nachvollzogen werden.",
+    "Die beantragte Aufstockung würde den Haushalt nach Angaben der Verwaltung zusätzlich mit 17.200 Euro pro Jahr belasten.",
+    "Nach der Karlsruher Entschädigungssatzung werden Betreuungskosten derzeit auf Antrag und mit Nachweis pauschal mit 150 Euro monatlich ausgezahlt."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:719cb0b93eb85952cf0d66a6736b86ab4ca349f6b1bcfa3e03d695ff82209fb5",
-  "summary": "Der Antrag fordert, dass die Stadt Karlsruhe künftig alle während gesetzlich verpflichtender Sitzungen entstehenden Kinderbetreuungskosten auf Nachweis bis zu einem Bruttostundenlohn von 20 Euro erstattet und den Jahresansatz auf 25.000 Euro erhöht. Die Verwaltung empfiehlt, den Antrag abzulehnen, weil die zusätzlich anfallenden 17.200 Euro pro Jahr angesichts der Finanzlage nicht finanzierbar seien."
+  "summary": "Der Antrag fordert die vollständige Erstattung nachgewiesener Kinderbetreuungskosten von Gemeinde- und Ortschaftsratsmitgliedern bei verpflichtenden Sitzungen, begrenzt auf 20 Euro Bruttostundenlohn je Stunde sowie je 30 Minuten An- und Abreise. Die Verwaltung hält die Aufstockung auf 25.000 Euro jährlich für nicht finanzierbar und empfiehlt die Ablehnung."
 }

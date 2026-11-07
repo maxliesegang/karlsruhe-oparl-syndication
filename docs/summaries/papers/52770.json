@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T10:13:41.381Z",
+  "generatedAt": "2026-11-07T06:08:35.422Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52770",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672289",
+      "quote": "Die Projektstellen laufen Ende 2026 aus; da die Mittel für eine Erweiterung der Botlandschaft nicht existieren"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672289",
+      "quote": "wie z.B. bei der Migration zur Ablösung von Lotus Notes, die bei externer Vergabe ca. 40.000 € gekostet hätte"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672289",
+      "quote": "daher fordern wir eine halbe Stelle für den Betrieb, sowie der Weiterentwicklung des Konzepts"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674827",
+      "quote": "im Doppelhaushaltsplan 2026/2027 aus Sicht der Verwaltung nicht finanzierbar"
+    }
+  ],
   "keyPoints": [
-    "Die Bots automatisieren regelmäßige manuelle Arbeit und Datenmigration; die Migration zur Ablösung von Lotus Notes hätte extern laut Antrag circa 40.000 Euro gekostet.",
-    "Die halbe Stelle ist im Teilhaushalt 1700 – IT-Amt als Stellenveränderung für die Jahre 2027 bis 2030 jeweils mit 0,5 vorgesehen.",
-    "Die Stellungnahme verweist darauf, dass zusätzliche Aufwendungen im Bereich freiwillige Leistungen und Pflichtaufgaben ohne Weisung nicht finanzierbar seien.",
-    "Mit der Stelle soll das Konzept weiterentwickelt werden, damit das Projekt im Doppelhaushalt 2028/2029 wieder erweitert beziehungsweise ausgerollt werden kann."
+    "Die beiden Projektstellen zur Konzeption und zum Betrieb der RPA-Bots im IT-Amt und im POA laufen Ende 2026 aus, ein Betrieb durch das IT-Amt zusätzlich sei nicht leistbar.",
+    "Als Beispiel für Kosteneinsparungen nennt die Vorlage die Migration zur Ablösung von Lotus Notes.",
+    "Die geforderte Stelle soll den Betrieb der Bots und die Weiterentwicklung des Konzepts sichern, damit das Projekt im Doppelhaushalt 2028/2029 wieder erweitert werden kann.",
+    "Die Verwaltung begründet ihre ablehnende Haltung mit der aktuellen Finanzlage und der erwarteten finanziellen Entwicklung."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:3168f45c70d0a3e956b7ea431f001beeab5f6f577b0d973921971030b4afe18c",
-  "summary": "Der Antrag fordert eine halbe Stelle im IT-Amt ab 2027 für den Betrieb und die Weiterentwicklung der RPA-Bot-Infrastruktur, weil die beiden bisherigen Projektstellen Ende 2026 auslaufen und der Bot-Betrieb nicht zusätzlich vom IT-Amt geleistet werden kann. Angesichts der Finanzlage hält die Verwaltung zusätzliche Aufwendungen für nicht finanzierbar und empfiehlt, den Antrag abzulehnen."
+  "summary": "Der Antrag fordert eine halbe Stelle für den Betrieb und die Weiterentwicklung der RPA-Bot-Infrastruktur, weil die beiden bestehenden Projektstellen Ende 2026 auslaufen. Die Verwaltung empfiehlt, den Antrag abzulehnen, weil zusätzliche Aufwendungen im Doppelhaushaltsplan 2026/2027 aus ihrer Sicht nicht finanzierbar sind."
 }
