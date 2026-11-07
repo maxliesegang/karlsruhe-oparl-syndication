@@ -1,15 +1,23 @@
 {
-  "generatedAt": "2026-10-24T11:02:07.912Z",
+  "generatedAt": "2026-11-07T14:59:05.976Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54030",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674813",
+      "quote": "Auf Grund der dargestellten aktuellen Finanzlage und der erwarteten finanziellen Entwicklung sind zusätzliche Aufwendungen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674813",
+      "quote": "zusätzliche Aufwendungen und Zuschüsse in den Bereichen „freiwillige Leistungen“ und „Pflichtaufgaben ohne Weisung“ im Doppelhaushaltsplan 2026/2027"
+    }
+  ],
   "keyPoints": [
-    "Die Stellungnahme weist zum Antrag einen Aufwand von 35.000 Euro für 2026 und 35.000 Euro für 2027 aus.",
-    "Der Antrag verweist auf die komplette Streichung und ordnet die Maßnahme dem Teilhaushalt 6700 zu.",
-    "Die Verwaltung verweist auf die aktuelle Finanzlage und die erwartete finanzielle Entwicklung.",
-    "Zusätzliche Aufwendungen und Zuschüsse im Bereich freiwillige Leistungen und Pflichtaufgaben ohne Weisung hält die Verwaltung für nicht finanzierbar."
+    "Die Stellungnahme verweist auf die aktuelle Finanzlage und die erwartete finanzielle Entwicklung als Begründung dafür, dass freiwillige Leistungen im Doppelhaushaltsplan 2026/2027 nicht zusätzlich belastet werden können.",
+    "Die Verwaltung bezweifelt die Finanzierbarkeit zusätzlicher Aufwendungen und Zuschüsse ausdrücklich auch für Pflichtaufgaben ohne Weisung im Doppelhaushaltsplan 2026/2027."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:ad740e528b364855b5b1f6218ac37844c8372b281475ca6d2afeba8c68f4ce38",
-  "summary": "Der Antrag wendet sich gegen die vollständige Streichung der städtischen Weihnachtsbäume und fordert, auch künftig an mehreren Orten in Karlsruhe jenseits des Marktplatzes Bäume aufzustellen. Die Verwaltung empfiehlt, den Antrag abzulehnen, weil im Doppelhaushaltsplan 2026/2027 hierfür keine Mittel finanzierbar seien."
+  "summary": "Der Antrag fordert, die städtische Aufstellung von Weihnachtsbäumen auch künftig an mehreren Orten in Karlsruhe jenseits des Marktplatzes beizubehalten, statt sie vollständig zu streichen. Die Verwaltung empfiehlt, den Antrag abzulehnen, weil die dafür nötigen zusätzlichen Mittel aus ihrer Sicht nicht finanzierbar sind."
 }

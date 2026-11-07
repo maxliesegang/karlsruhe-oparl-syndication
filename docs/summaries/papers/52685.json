@@ -1,15 +1,28 @@
 {
-  "generatedAt": "2026-10-24T11:04:48.185Z",
+  "generatedAt": "2026-11-07T14:59:05.976Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52685",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672060",
+      "quote": "um die bislang pauschal eingeplante Ergebnisverbesserung von 80 Millionen Euro im Doppelhaushalt 2026/2027 zu konkretisieren"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672060",
+      "quote": "Das gesamte Maßnahmenpaket wurde dem Gemeinderat mit der Informationsvorlage Nr. 2025/1078 zur Kenntnis gegeben"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672060",
+      "quote": "sind im Rahmen der Haushaltsberatungen zu entscheiden, sofern sie nicht bereits zuvor beschlossen wurden"
+    }
+  ],
   "keyPoints": [
-    "Das Einsparpotenzial der Streichung wird für die Jahre 2026 bis 2030 mit jeweils 650.000 Euro beziffert.",
-    "Hintergrund ist die 4. Stufe der Haushaltssicherung, mit der die Verwaltung eine bislang pauschal vorgesehene Ergebnisverbesserung von 80 Millionen Euro im Doppelhaushalt 2026/2027 auf einzelne Maßnahmen herunterbrechen will.",
-    "Das gesamte Maßnahmenpaket wurde in einer Informationsvorlage dargestellt; Maßnahmen in der Zuständigkeit des Gemeinderates sind im Rahmen der Haushaltsberatungen zu entscheiden, sofern sie nicht bereits zuvor beschlossen wurden.",
-    "Zuständig für die Vorlage ist das Schul- und Sportamt."
+    "Die Maßnahme gehört zur 4. Stufe der Haushaltssicherung und dient der Konkretisierung einer bislang pauschal eingeplanten Ergebnisverbesserung im Doppelhaushalt 2026/2027.",
+    "Das gesamte Maßnahmenpaket wurde dem Gemeinderat zuvor in einer Informationsvorlage zur Kenntnis gegeben.",
+    "Vorgesehen ist, dass nicht bereits zuvor beschlossene Maßnahmen aus diesem Paket im Rahmen der Haushaltsberatungen entschieden werden."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:40214ac0a16efd71bffc21255604328eb824cac561d3a831dd7c2ff7edccda5e",
-  "summary": "Die Vorlage schlägt vor, den Übungsleiter*innenzuschuss aus den Sportförderungsrichtlinien zu streichen. Die Maßnahme gehört zu einem Paket der Verwaltung, mit dem eine pauschal eingeplante Ergebnisverbesserung im Doppelhaushalt 2026/2027 konkretisiert werden soll."
+  "summary": "Die Vorlage schlägt vor, den Übungsleiter*innenzuschuss der Sportförderungsrichtlinien im Zuge der Haushaltssicherung zu streichen. Das Schul- und Sportamt weist ein Einsparpotenzial von 650.000 Euro pro Jahr von 2026 bis 2030 aus."
 }

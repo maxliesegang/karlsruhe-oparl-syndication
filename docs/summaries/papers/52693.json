@@ -1,15 +1,23 @@
 {
-  "generatedAt": "2026-10-24T10:24:24.129Z",
+  "generatedAt": "2026-11-07T14:59:05.976Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52693",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672072",
+      "quote": "2026 2027 2028 2029 2030 - 264.236 € 264.276 € 290.700 € 290.700 €"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672072",
+      "quote": "Das gesamte Maßnahmenpaket wurde dem Gemeinderat mit der Informationsvorlage Nr. 2025/1078 zur Kenntnis gegeben"
+    }
+  ],
   "keyPoints": [
-    "Als Einsparpotential werden 2027 264.236 Euro, 2028 264.276 Euro sowie 2029 und 2030 jeweils 290.700 Euro ausgewiesen, für 2026 ist kein Betrag genannt.",
-    "Das Maßnahmenpaket wurde in den jeweiligen Fachausschüssen vorgestellt und mit einer separaten Informationsvorlage zur Kenntnis gegeben.",
-    "Gemeinderatszuständige Maßnahmen sollen im Rahmen der Haushaltsberatungen entschieden werden, sofern sie nicht bereits zuvor beschlossen wurden.",
-    "Der Vorlage liegt die vierte Stufe der Haushaltssicherung zugrunde."
+    "Als Einsparpotential der Gebührenerhöhung werden für 2027 264.236 Euro, für 2028 264.276 Euro sowie für 2029 und 2030 jeweils 290.700 Euro ausgewiesen; für 2026 ist keine Einsparung genannt.",
+    "Die Gebührenerhöhung gehört zu einem Maßnahmenpaket, das in einer gesonderten Informationsvorlage mit der Nummer 2025/1078 dargestellt wurde."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:fd7f7f320ab7b3a3894c576cbd8e78f258a8e4cc2207afe438bd7a5796a90cb6",
-  "summary": "Die Vorlage schlägt vor, die Gebühren des Badischen Konservatoriums ab 2027 um 10 Prozent zu erhöhen. Die Maßnahme gehört zu einem Paket, mit dem die bislang pauschal geplante Ergebnisverbesserung von 80 Millionen Euro im Doppelhaushalt 2026/2027 konkretisiert werden soll."
+  "summary": "Die Vorlage schlägt vor, die Gebühren des Badischen Konservatoriums ab 2027 um zehn Prozent zu erhöhen. Die Maßnahme dient dazu, die im Doppelhaushalt 2026/2027 bislang pauschal eingeplante Ergebnisverbesserung im Rahmen der 4. Stufe der Haushaltssicherung zu konkretisieren."
 }

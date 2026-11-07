@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T10:27:05.039Z",
+  "generatedAt": "2026-11-07T14:59:05.976Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/53987",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674923",
+      "quote": "Aufwand (in Euro) 2026 2027 2028 2029 2030 -25.000 -25.000 -25.000 -25.000 -25.000"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/673897",
+      "quote": "Während die Stadt plant, sämtliche Projektförderungen im Kulturbereich zu streichen, ist die Projektförderung im Bereich UNESCO City of Media Arts davon ausgenommen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674923",
+      "quote": "Das Projekt UNESCO City of Media Arts ist kein Projekt im Sinne der Projektförderung des Kulturamtes, sondern ein Projekt der Stadt Karlsruhe"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674923",
+      "quote": "Dieses Projekt wird aus den Erträgen der City Tax gegenfinanziert"
+    }
+  ],
   "keyPoints": [
-    "Die Verwaltung führt aus, dass es sich nicht um ein Projekt der Projektförderung des Kulturamtes handelt, sondern um ein Projekt der Stadt Karlsruhe, das die Verpflichtungen aus der Aufnahme in den UNESCO-Verbund im Jahr 2019 erfüllt.",
-    "Die Stellungnahme weist die Minderung mit 25.000 Euro je Jahr für die Jahre 2026 bis 2030 aus.",
-    "Das Projekt wird nach Angaben der Verwaltung aus den Erträgen der City Tax gegenfinanziert.",
-    "Die Mitteländerung ist dem Teilhaushalt 4100, Seite 223 des Haushaltsplans, zugeordnet."
+    "Die Stellungnahme weist den Aufwand in den Jahren 2026 bis 2030 jeweils mit minus 25.000 Euro aus, der Antrag nennt diesen Betrag für 2026 und 2027.",
+    "Der Antrag begründet die Kürzung damit, dass die übrigen Projektförderungen im Kulturbereich gestrichen werden sollen, die UNESCO-Förderung aber ausgenommen bleibt.",
+    "Die Verwaltung sieht darin kein Projekt der Projektförderung des Kulturamtes, sondern ein Projekt der Stadt Karlsruhe, mit dem nach der Aufnahme in den UNESCO-Verbund im Jahr 2019 Verpflichtungen erfüllt werden.",
+    "Die Finanzierung des Projekts erfolgt laut Stellungnahme aus den Erträgen der City Tax."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:58218517c08c2aaf1d1314a958ab274fc93e3cc65b39179da6099c35afcbe830",
-  "summary": "Der Antrag streicht für den Doppelhaushalt 2026/2027 die Sachaufwendungen für das Projekt UNESCO City of Media Arts um jeweils 25.000 Euro, weil die Ausnahme dieses Vorhabens von der geplanten Streichung aller Kulturprojektförderungen eine unzulässige Ungleichbehandlung darstelle. Die Verwaltung empfiehlt, den Antrag abzulehnen."
+  "summary": "Der Antrag sieht vor, die Sachaufwendungen für das städtische UNESCO-Projekt City of Media Arts zu kürzen, weil die Förderung gegenüber anderen wegfallenden Projektförderungen im Kulturbereich ungleich behandelt werde. Die Verwaltung empfiehlt, den Antrag abzulehnen."
 }
