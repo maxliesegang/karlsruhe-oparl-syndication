@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-10-24T11:35:50.524Z",
+  "generatedAt": "2026-11-07T20:19:26.347Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52490",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670908",
+      "page": 1,
+      "quote": "Zu Schulanfangs- und -endzeiten kommt es an der Heinz-Barth-Grundschule auch aufgrund der benachbarten Kita zu einem erhöhten Verkehrsaufkommen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670907",
+      "page": 2,
+      "quote": "Die Einrichtung einer Schulstraße erfordert ein mehrmonatiges und aufwendiges straßenrechtliches Verfahren nach dem Straßengesetz Baden-Württemberg (StrG)"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670907",
+      "page": 2,
+      "quote": "Da die baulichen Voraussetzungen für einen verkehrsberuhigten Bereich nicht vorliegen, wäre ein vollständiger Umbau der Straße erforderlich"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670907",
+      "page": 2,
+      "quote": "Neben der Schaffung einer ausreichend tiefen Aufstellfläche am westlichen Fahrbahnrand muss auch die Beleuchtung nach StVO und der Richtlinien für Fußgängerüberwege hergestellt werden"
+    }
+  ],
   "keyPoints": [
-    "Für einen Fußgängerüberweg veranschlagt die Verwaltung Kosten von ca. 50.000,- bis 60.000,- Euro, eine Realisierung wäre frühestens im Doppelhaushalt 2028/29 möglich, sofern Mittel zur Verfügung stehen.",
-    "Eine Schulstraße erfordert ein mehrmonatiges straßenrechtliches Verfahren nach dem Straßengesetz Baden-Württemberg; ohne Umbau wie Schranken sei eine Sperrung nicht zu erwarten.",
-    "Ein verkehrsberuhigter Bereich würde einen vollständigen Umbau der Straße erfordern und ließe Kinder sich die Fahrbahn mit Elterntaxis und Linienbus teilen.",
-    "Beim Fußgängerüberweg wären unter anderem eine tiefe Aufstellfläche am westlichen Fahrbahnrand sowie eine Beleuchtung mit großem Fundament nötig; eine mögliche Kollision mit bestehenden Leitungen ist noch zu prüfen."
+    "Als Anlass wird ein erhöhtes Verkehrsaufkommen zu Schulanfangs- und -endzeiten durch die benachbarte Kita genannt, das insbesondere jüngere Schüler gefährdet.",
+    "Die Einrichtung einer Schulstraße wird als mehrmonatiges und aufwendiges Verfahren beschrieben, das ohne bauliche Umbauten wie Schranken voraussichtlich nicht akzeptiert würde.",
+    "Für einen verkehrsberuhigten Bereich fehlen laut Verwaltung die baulichen Voraussetzungen, sodass ein vollständiger Umbau der Straße erforderlich wäre.",
+    "Beim Fußgängerüberweg wären neben einer tieferen Aufstellfläche am westlichen Fahrbahnrand auch Beleuchtung nach StVO sowie ein Peitschenausleger mit großem Fundament nötig, dessen Konflikt mit bestehenden Leitungen noch zu prüfen ist."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:4296775c611512eb54588635c0140f8686132f68c1e62fdc3742bc55108c7399",
-  "summary": "Der Antrag fordert Maßnahmen für einen sicheren Schulweg im Nahbereich der Heinz-Barth-Grundschule an der Esslinger Straße in Wettersbach, etwa eine Schulstraße, einen verkehrsberuhigten Bereich oder einen Fußgängerüberweg. Die Verwaltung hält eine Schulstraße und einen verkehrsberuhigten Bereich für nicht sinnvoll umsetzbar und empfiehlt zu prüfen, ob ein Fußgängerüberweg straßenverkehrsrechtlich und technisch möglich ist."
+  "summary": "Der Antrag fordert Maßnahmen für einen sicheren Schulweg im Nahbereich der Heinz-Barth-Grundschule in Wettersbach, etwa eine Schulstraße, einen verkehrsberuhigten Bereich oder einen Fußgängerüberweg. Die Verwaltung lehnt einen verkehrsberuhigten Bereich ab und empfiehlt zu prüfen, ob ein Fußgängerüberweg über die Esslinger Straße straßenverkehrsrechtlich und technisch möglich ist."
 }

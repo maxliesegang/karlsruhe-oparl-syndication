@@ -1,13 +1,33 @@
 {
-  "generatedAt": "2026-10-24T11:28:23.347Z",
+  "generatedAt": "2026-11-07T20:19:26.347Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54063",
-  "keyPoints": [
-    "Die Verwaltung begründet dies mit einer Prüfung durch den Zentralen Juristischen Dienst.",
-    "Ortschaftsräte, auf deren Gemarkung Stadtteilfriedhöfe liegen, sollen vor der Beschlussfassung im Gemeinderat informiert werden."
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674539",
+      "quote": "beträgt die Unterdeckung im gebührenfähigen Bereich nach der vorliegenden Gebührenkalkulation für das Jahr 2026 -534.280,46 Euro"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674539",
+      "quote": "die Einbeziehung der Kostenunter- und überdeckungen der Jahre 2021 bis 2024 in Höhe des saldierten Teilbetrages von -315.283,79 Euro"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674539",
+      "quote": "Ausgenommen hiervon waren die Grabnutzungsrechts- und Bestattungsgebühren bei der Bestattung von Kindern bis 10 Jahren"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674539",
+      "quote": "erhöhen sich daher von 120 Euro auf 130 Euro und für die Nutzung der Trauerhallen von 338 Euro auf 365 Euro"
+    }
   ],
-  "model": "qwen3.8-flash",
-  "promptVersion": "paper-de-v8",
+  "keyPoints": [
+    "Für 2026 weist die Gebührenkalkulation eine Unterdeckung im gebührenfähigen Bereich von -534.280,46 Euro aus, unter anderem weil der Kostendeckungsgrad bei den Nutzungsrechtsgebühren für Reihengräber, Wahlgräber und Kolumbarien rund 90 Prozent betragen soll.",
+    "Die Verwaltung schlägt vor, die Kostenunter- und überdeckungen der Jahre 2021 bis 2024 in Höhe des saldierten Teilbetrages von -315.283,79 Euro in die Gebührenkalkulation 2026 einzubeziehen, während über einen saldierten Restbetrag von -367.689,81 Euro im Rahmen künftiger Gebührenanpassungen entschieden werden soll.",
+    "Die Grabnutzungsrechts- und Bestattungsgebühren bei der Bestattung von Kindern bis 10 Jahren sollen auch künftig nicht erhoben werden.",
+    "Die Gebühren für die Benutzung der Leichenhallen sollen von 120 auf 130 Euro steigen, die für die Nutzung der Trauerhallen von 338 auf 365 Euro."
+  ],
+  "model": "mimo-v2.6-pro",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:3c974cfa45c88293823f4571d43cb71126b2fd62dbb67efe1957f7e145654088",
-  "summary": "Die Vorlage stellt eine geplante Änderung der Friedhofsgebührensatzung vor. Nach Darstellung der Verwaltung ist eine förmliche Anhörung der Ortschaftsräte nicht mehr erforderlich."
+  "summary": "Die Vorlage informiert über eine geplante Änderung der Friedhofsgebührensatzung, durch die sich die Gebühren für Grabnutzung und Bestattungen zum 1. Januar 2026 erhöhen sollen. Statt angehört zu werden, sollen die Ortschaftsräte, auf deren Gemarkung Stadtteilfriedhöfe liegen, vor der Entscheidung im Gemeinderat hierüber in Kenntnis gesetzt werden."
 }

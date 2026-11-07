@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T09:21:46.038Z",
+  "generatedAt": "2026-11-07T20:19:26.347Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52537",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672238",
+      "quote": "Die Zahl der leistungsberechtigten Personen ist von 2022 bis 2024 um 16,4 Prozent auf 2.742 Personen gestiegen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672238",
+      "quote": "Stärker ist der Anstieg von 2023 auf 2024 (15 Millionen Euro beziehungsweise 19,3 Prozent mehr)"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672238",
+      "quote": "Die Zahl der Menschen mit seelischer Behinderung nimmt hingegen zwischen 2022 und 2024 viel stärker zu (um 197 Personen beziehungsweise 22 Prozent)"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672238",
+      "quote": "Demgegenüber ist die Zahl der leistungsberechtigten Personen mit Assistenzleistungen in besonderer Wohnform seit 2022 um 4 Prozent gesunken"
+    }
+  ],
   "keyPoints": [
-    "Ende 2024 nahmen 2.742 Menschen in Karlsruhe Teilhabeleistungen nach SGB IX in Anspruch, 16,4 Prozent mehr als 2022.",
-    "Der Bruttoaufwand stieg 2024 auf 94.139.289 Euro beziehungsweise 19,3 Prozent gegenüber dem Vorjahr; rund 19 Millionen Euro entfallen auf Kinder und Jugendliche.",
-    "Ende 2024 erhielten 974 Menschen Assistenzleistungen im eigenen Wohnraum sowie im Sozialraum und 505 lebten in besonderen Wohnformen; 626 Personen arbeiteten in Werkstätten.",
-    "Der Ausblick verweist auf eine KVJS-Analyse, nach der in den nächsten Jahren mit einem überproportionalen Anstieg der Ausgaben zu rechnen ist; die Kommunale Behindertenbeauftragte trägt die Vorlage mit."
+    "Ende 2024 nahmen 2.742 Menschen in Karlsruhe Teilhabeleistungen nach dem SGB IX in Anspruch; seit 2022 ist dies ein Anstieg um 16,4 Prozent.",
+    "Der finanzielle Bruttoaufwand stieg nach einem Plus von 13,1 Prozent im Jahr 2023 im Folgejahr um 19,3 Prozent an.",
+    "Besonders stark wuchs die Gruppe der Menschen mit seelischer Behinderung, während die Zahl der Personen mit geistiger und/oder körperlicher Behinderung kaum zunahm.",
+    "Die Zahl der Menschen mit Assistenzleistungen in besonderen Wohnformen ist dagegen rückläufig, während die Versorgung im eigenen Wohnraum und Sozialraum ausgebaut wird."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:9c3495e12029e1aab324073103aebe06a43e4c0cb3ef35609a6880f1319b11bb",
-  "summary": "Die Vorlage legt den Teilhabe-Monitor 2025 zur Eingliederungshilfe in Karlsruhe vor und schlägt vor, ihn zur Kenntnis zu nehmen. Der Bericht zeigt eine wachsende Zahl leistungsberechtigter Menschen bei stark steigendem finanziellen Aufwand und benennt unter anderem Bürokratie und Fachkräftemangel als Herausforderungen."
+  "summary": "Der Bericht fasst die Entwicklung der Eingliederungshilfe in Karlsruhe von 2022 bis 2024 zusammen und zeigt einen kräftigen Anstieg der Aufwendungen bei moderat wachsenden Fallzahlen. Der Ausblick benennt weitere Herausforderungen wie Bürokratieaufwand und Fach- und Arbeitskräftemangel."
 }

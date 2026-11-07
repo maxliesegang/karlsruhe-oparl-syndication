@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T11:28:31.231Z",
+  "generatedAt": "2026-11-07T20:19:26.347Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54009",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674645",
+      "quote": "Die Baumaßnahme „Umbau Kreuzung Kriegsstraße/ Reinhold-Frank-Straße/Brauerstraße“ wurde im Gemeinderat am 25. November 2025 aufgrund eines Änderungsantrages der „die GRÜNEN-Fraktion“ diskutiert"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674645",
+      "quote": "Für das Projekt „Umbau Kreuzung Kriegs- /Brauer- /Reinhold-Frank-Straße wurde mit Vorlage 2025/0938 der Baubeschluss gefasst"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674645",
+      "quote": "Ebenfalls werden Optionen vorgestellt, die als Basis für die weiteren Detailprüfungen dienen können, und eine Kostenschätzung für die zusätzlichen Prüfaufträge"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674645",
+      "quote": "Die Ergebnisse dieser Detailprüfungen könnten im ersten Quartal 2026 vorgestellt werden"
+    }
+  ],
   "keyPoints": [
-    "Ein Änderungsantrag der GRÜNEN-Fraktion hatte gefordert, den geplanten Radfahrstreifen in Mittellage an den Fahrbahnrand zu verlegen. Die Verwaltung führt dazu aus, dass dies objektiv sicher nur durch eine getrennte Signalisierung möglich ist.",
-    "Vorgestellt werden neben der fachlichen Einschätzung auch die Auswirkungen einer entsprechenden Signalsteuerung, Optionen als Basis für weitere Detailprüfungen und eine Kostenschätzung für die zusätzlichen Prüfaufträge.",
-    "Ergebnisse der Detailprüfungen könnten im ersten Quartal 2026 vorgestellt werden.",
-    "Die Ausschreibung zum Projekt ist nicht betroffen."
+    "Der Änderungsantrag zur Verlegung des Radfahrstreifens stammt von der Grünen-Fraktion.",
+    "Für den Umbau der Kreuzung liegt bereits ein Baubeschluss aus einer früheren Vorlage vor.",
+    "Die Vorlage nennt Optionen als Grundlage weiterer Detailprüfungen sowie eine Kostenschätzung für die zusätzlichen Prüfaufträge.",
+    "Ergebnisse der Detailprüfungen könnten voraussichtlich im ersten Quartal 2026 vorgestellt werden."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:6b67ca7c947a4feba509c83021ddffb80da23447a676f5189651221f3cb8f65b",
-  "summary": "Die Vorlage stellt die Planung zum Umbau der Kreuzung Kriegs-, Brauer- und Reinhold-Frank-Straße erneut vor und legt erste Einschätzungen der Verwaltung zur Leistungsfähigkeit des Knotens dar. Sie bittet um Rückmeldung zum weiteren Vorgehen, insbesondere zur Vergabe zusätzlicher Prüfaufträge."
+  "summary": "Die Vorlage stellt die Planung des Umbaus der Kreuzung vor und prüft, ob der geplante Radfahrstreifen in Mittellage an den Fahrbahnrand verlegt werden kann. Die Verwaltung hält dies nur mit getrennter Signalisierung für sicher möglich und bittet um Rückmeldung, ob zusätzliche Prüfaufträge vergeben werden."
 }

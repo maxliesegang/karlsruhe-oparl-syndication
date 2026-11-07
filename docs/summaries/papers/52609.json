@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T11:36:17.579Z",
+  "generatedAt": "2026-11-07T20:19:26.347Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52609",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671833",
+      "quote": "Der Planfeststellungsbeschluss wurde im April 2023 erteilt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671833",
+      "quote": "Derzeit wird der Finanzierungsantrag überarbeitet (aktuelle Kostenentwicklungen) und dann beim Ministerium eingereicht"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671833",
+      "quote": "und bis Ende 2026 die Ausschreibung veröffentlicht. Mit dem Bau soll 2027 begonnen werden"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671833",
+      "quote": "eine Gesamtfertigstellung ist spätestens in 2028 vorgesehen. Zu den genauen Bauzeiten finden derzeit Abstimmungen"
+    }
+  ],
   "keyPoints": [
+    "Der Planfeststellungsbeschluss für den barrierefreien Ausbau liegt seit April 2023 vor.",
     "Der Finanzierungsantrag wird wegen aktueller Kostenentwicklungen überarbeitet und dann beim Ministerium eingereicht.",
-    "Ausführungsplanung, Aufzugsplanung und Ausschreibungsunterlagen der Bauleistungen werden erstellt; die Ausschreibung soll bis Ende 2026 veröffentlicht werden.",
-    "Zu den möglichen Sperrpausen in 2027/28 laufen derzeit Abstimmungen mit dem Bahnbetrieb von VBK und AVG.",
-    "Die ursprünglich für 2025/2026 geplante Umsetzung wurde von der DB InfraGO aus baubetrieblichen und logistischen Gründen wegen der Parallelmaßnahme Erneuerung der Pfinzbrücken abgelehnt."
+    "Die Ausschreibung der Bauleistungen soll bis Ende 2026 veröffentlicht werden, der Baubeginn ist für 2027 vorgesehen.",
+    "Eine Gesamtfertigstellung ist spätestens in 2028 vorgesehen, wobei zu den Bauzeiten noch über mögliche Sperrpausen in 2027/28 abgestimmt wird."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:50afe17052b7623c731046e699e4257ec75bfbcc3384aee81133c7f16d660fe1",
-  "summary": "Die Anfrage fragt nach dem aktuellen Sachstand des Planfeststellungsverfahrens für den barrierefreien Ausbau der Gleise 11 und 12 im Bahnhof Durlach. Die Stellungnahme der VBK führt aus, dass der Planfeststellungsbeschluss im April 2023 erteilt wurde und der Bau für 2027 mit Gesamtfertigstellung spätestens 2028 vorgesehen ist."
+  "summary": "Die Anfrage der CDU-Ortschaftsratsfraktion fragt nach dem Sachstand des Planfeststellungsverfahrens für den barrierefreien Ausbau der Gleise 11 und 12 im Bahnhof Durlach. Die Stellungnahme der VBK nennt einen erteilten Planfeststellungsbeschluss und einen gegenüber ursprünglichen Plänen verschobenen Bauablauf."
 }

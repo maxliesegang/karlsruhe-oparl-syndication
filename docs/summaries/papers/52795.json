@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T11:15:45.028Z",
+  "generatedAt": "2026-11-07T20:19:26.347Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52795",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672346",
+      "quote": "Die Einführung einer Gebühr von 20 Euro für die Erteilung von Wohnberechtigungsscheinen würde den städtischen Haushalt um 28.000,00 € entlasten"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672350",
+      "quote": "Die Fehlsumme i. H. v. 28.000 EUR kann durch höhere Gebühren in anderen Bereichen des Liegenschaftsamts sozialverträglich ausgeglichen werden"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672350",
+      "quote": "Der Wohnberechtigungsschein garantiert keinen öffentlich geförderten Wohnraum, er weist lediglich die Berechtigung zur Inanspruchnahme aus"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674997",
+      "quote": "Auf diese Weise soll möglichst vermieden werden, dass diese individuellen Verwaltungsleistungen steuerfinanziert werden und somit zu Lasten der Allgemeinheit gehen"
+    }
+  ],
   "keyPoints": [
-    "Die geplante Gebühr von 20 Euro je Wohnberechtigungsschein sollte den städtischen Haushalt um 28.000 Euro jährlich ab 2027 entlasten.",
-    "Der Wohnberechtigungsschein verschafft Menschen mit geringem Einkommen Zugang zu preisgünstigem, öffentlich gefördertem Wohnraum, der in Karlsruhe ohnehin nicht ausreichend zur Verfügung steht.",
-    "Ein Antrag schlägt vor, die Fehlsumme von 28.000 Euro durch sozialverträglich erhöhte Gebühren in anderen Bereichen des Liegenschaftsamts auszugleichen.",
-    "Die Stellungnahme verweist auf § 78 Absatz 2 der Gemeindeordnung, wonach die Gebühr der Gegenwert für eine individuell vorteilhafte Verwaltungsleistung ist."
+    "Der im Raum stehende Gebührenvorschlag von 20 Euro je Wohnberechtigungsschein würde den städtischen Haushalt um 28.000,00 Euro entlasten.",
+    "Der Antrag Die Linke schlägt vor, die entstehende Fehlsumme über höhere Gebühren in anderen Bereichen des Liegenschaftsamts auszugleichen.",
+    "Einer der Anträge führt aus, dass der Wohnberechtigungsschein keinen geförderten Wohnraum sichert, sondern nur die Berechtigung zur Inanspruchnahme belegt, und hält die Gebühr deshalb als Einnahmequelle für unredlich.",
+    "Die Verwaltung begründet ihre Ablehnungsempfehlung unter anderem damit, dass individuelle Verwaltungsleistungen nicht steuerfinanziert zu Lasten der Allgemeinheit gehen sollen."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:e5c1f9f9001a13c790ab4cb7f6d3dd4eda1e9dd0ac47523855aa8b6f033a947f",
-  "summary": "Mehrere Fraktionen beantragen, im Teilhaushalt 6200 des Liegenschaftsamts auf eine Gebühr für die Ausstellung von Wohnberechtigungsscheinen zu verzichten, weil einkommensschwache Haushalte dadurch zusätzlich belastet würden. Die Verwaltung empfiehlt, den Antrag abzulehnen."
+  "summary": "Mehrere Fraktionen beantragen zum Doppelhaushalt 2026/2027, im Teilhaushalt 6200 auf eine Ausstellungsgebühr für Wohnberechtigungsscheine zu verzichten, damit einkommensschwache Haushalte beim Zugang zu bezahlbarem Wohnraum nicht zusätzlich belastet werden. Die Verwaltung empfiehlt die Ablehnung und verweist darauf, dass individuelle Verwaltungsleistungen dem Gebührenprinzip unterliegen."
 }

@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T09:16:20.329Z",
+  "generatedAt": "2026-11-07T20:19:26.347Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54088",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675140",
+      "quote": "1. Große Fraktionen ab dreizehn Mandate: 12.600 Euro ab neun Mandate: 10.800 Euro"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675140",
+      "quote": "2. Mittlere Fraktionen fünf bis acht Mandate: 9.000 Euro 3. Kleine Fraktionen drei oder vier Mandate: 7.200 Euro"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675140",
+      "quote": "4. Fraktionslose Gemeinderatsmitglieder zwei Mandate oder Einzelmandat: 3.600 Euro"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/675141",
+      "quote": "ab dreizehn Mandate: 14.000 Euro ab neun Mandate: 12.000 Euro"
+    }
+  ],
   "keyPoints": [
-    "Der jährliche Pro-Kopf-Betrag je Gemeinderatsmitglied geht von 1.200 Euro auf 1.000 Euro zurück.",
-    "Der Sockelbetrag beträgt künftig für große Fraktionen ab dreizehn Mandaten 12.600 Euro und für fraktionslose Gemeinderatsmitglieder 3.600 Euro.",
-    "Nach den Erläuterungen ergibt sich bei der derzeitigen Zusammensetzung des Gemeinderats eine Einsparung von rund 18.000 Euro pro Jahr.",
-    "Die Änderungen der Fraktionsfinanzierungssatzung sollen zum 1. Januar 2026 in Kraft treten."
+    "Für große Fraktionen sind künftig Sockelbeträge von 12.600 Euro ab dreizehn Mandaten und 10.800 Euro ab neun Mandaten vorgesehen.",
+    "Für mittlere Fraktionen mit fünf bis acht Mandaten sind 9.000 Euro, für kleine Fraktionen mit drei oder vier Mandaten 7.200 Euro vorgesehen.",
+    "Fraktionslose Gemeinderatsmitglieder mit zwei Mandaten oder als Einzelmandat sollen einen Sockelbetrag von 3.600 Euro erhalten.",
+    "Bisher galten Sockelbeträge von 14.000 Euro für große Fraktionen ab dreizehn Mandaten und 12.000 Euro ab neun Mandaten."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:bd9748bc48e8c173220c3d8d404c298badde30c7901848fdda01a287f1ea9f5a",
-  "summary": "Die Vorlage schlägt vor, das Sachkostenbudget der Fraktionen und fraktionslosen Gemeinderatsmitglieder als Beitrag zur Haushaltssicherung zu reduzieren. Die Sockelbeträge sollen um zehn Prozent gekürzt und der jährliche Pro-Kopf-Betrag je Gemeinderatsmitglied gesenkt werden."
+  "summary": "Die Vorlage schlägt vor, das Sachkostenbudget der Gemeinderatsfraktionen und fraktionslosen Mitglieder als Beitrag zur Haushaltssicherung zu kürzen: Die Sockelbeträge sollen um zehn Prozent sinken, der Pro-Kopf-Betrag je Gemeinderatsmitglied von 1.200 auf 1.000 Euro. Die Verwaltung empfiehlt, die Änderungssatzung mit Wirkung zum 1. Januar 2026 zu beschließen."
 }

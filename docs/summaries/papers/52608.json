@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T11:23:50.361Z",
+  "generatedAt": "2026-11-07T20:19:26.347Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52608",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671831",
+      "quote": "Die geplanten Anlagenhöhen von RDK9 bewegen sich auf 60 Metern, was das Kesselhaus betrifft, und 120 Metern"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671831",
+      "quote": "Durch das neu geplante Kesselhaus mit einer Höhe von 60 Metern Höhe ist nach derzeitigem Planrecht das Bauvorhaben nicht genehmigungsfähig"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671831",
+      "quote": "Die elektrische Leistung der Anlage wird bei ca. 850 MW und die mögliche Wärmeauskopplung bei bis zu 220 MW liegen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671831",
+      "quote": "so dass sie nach einer Umrüstung ab der zweiten Hälfte der 2030er Jahre mit Wasserstoff betrieben werden kann"
+    }
+  ],
   "keyPoints": [
-    "Der Schornstein der neuen Anlage ist nach orientierender Berechnung etwa 120 Meter hoch, die Wärmeauskopplung soll bis zu 220 MW betragen und der Kühlturm sowie die Netzanbindung sollen weiter genutzt werden.",
-    "Die zunächst mit Erdgas betriebene Anlage ist wasserstofffähig ausgelegt und soll nach Umrüstung ab der zweiten Hälfte der 2030er Jahre mit Wasserstoff betrieben werden können.",
-    "Der Gestaltungsbeirat empfiehlt eine Gestaltung in Anlehnung an RDK8, etwa mit reliefierten metallischen Fassadenelementen in hellsilbriger Tönung und abgerundeten Traufkanten.",
-    "Ergänzend schlägt der Gestaltungsbeirat eine extensive Dachbegrünung mit Photovoltaikanlage samt Verschattungsanalysen sowie bodengebundene Fassadenbegrünung oder standortgerechte Laubbäume vor; für den Aufstellungs- und Auslegungsbeschluss nennt der Projektzeitplan Juni/Juli 2026."
+    "Das geplante Kesselhaus von RDK9 ist 60 Meter hoch, der Schornstein etwa 120 Meter hoch; geltendes Planrecht setzt die Bauhöhe derzeit auf 35 Meter fest.",
+    "Nach geltendem Planrecht wäre das Bauvorhaben nicht genehmigungsfähig, und eine bauordnungsrechtliche Befreiung wurde als nicht möglich eingestuft, weil die Grundzüge der Planung berührt sind.",
+    "Geplant ist eine elektrische Leistung von rund 850 MW und eine mögliche Wärmeauskopplung von bis zu 220 MW.",
+    "Die zunächst mit Erdgas betriebene Anlage soll nach einer Umrüstung ab der zweiten Hälfte der 2030er Jahre mit Wasserstoff betrieben werden können."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:800ee65144174e5fb47b386a4541fab2d71591f57f54bb0fdd1339c909811d32",
-  "summary": "Die Vorlage informiert über das von der EnBW geplante Gas- und Dampfkraftwerk RDK9 auf dem Kraftwerksgelände im Daxlandener Rheinhafen, das eine elektrische Leistung von rund 850 MW haben soll. Da die geplante Kesselhaushöhe von 60 Metern die festgesetzte Bauhöhe von 35 Metern übersteigt, hält die Verwaltung dafür einen vorhabenbezogenen Bebauungsplan für erforderlich, dessen Verfahren sie eingeleitet hat."
+  "summary": "Die Vorlage informiert über die von der EnBW geplante wasserstofffähige Gas- und Dampfturbinenanlage RDK9 auf dem Kraftwerksgelände im Daxlandener Rheinhafen, die wegen der überschrittenen Bauhöhenbegrenzung über einen vorhabenbezogenen Bebauungsplan ermöglicht werden soll. Der Gestaltungsbeirat empfiehlt eine gestalterische Anlehnung an den Nachbarblock RDK8 sowie Dachbegrünung mit Photovoltaik."
 }

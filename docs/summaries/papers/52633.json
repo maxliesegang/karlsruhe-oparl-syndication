@@ -1,15 +1,28 @@
 {
-  "generatedAt": "2026-10-24T11:22:36.287Z",
+  "generatedAt": "2026-11-07T20:19:26.347Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52633",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671941",
+      "quote": "um die bislang pauschal eingeplante Ergebnisverbesserung von 80 Millionen Euro im Doppelhaushalt 2026/2027 zu konkretisieren"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671941",
+      "quote": "Nähere Erläuterungen zum Sachverhalt werden dem Gemeinderat mit der gemeinsam aufgerufenen Beschlussvorlage 2025/0985 vorgelegt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671941",
+      "quote": "sind im Rahmen der Haushaltsberatungen zu entscheiden, sofern sie nicht bereits zuvor beschlossen wurden"
+    }
+  ],
   "keyPoints": [
-    "Das Einsparpotenzial der Maßnahme wird mit 18.000 Euro für jedes der Jahre 2026 bis 2030 beziffert.",
-    "Die Maßnahme ist Teil des Maßnahmenpakets der 4. Stufe der Haushaltssicherung, das auf eine Ergebnisverbesserung von 80 Millionen Euro im Doppelhaushalt 2026/2027 zielt.",
-    "Nähere Erläuterungen zum Sachverhalt enthält die gemeinsam aufgerufene Beschlussvorlage Nr. 2025/0985.",
-    "Das Gesamtpaket wurde dem Gemeinderat mit der Informationsvorlage Nr. 2025/1078 vorgelegt; Maßnahmen in der Zuständigkeit des Gemeinderates sind im Rahmen der Haushaltsberatungen zu entscheiden."
+    "Die Maßnahme dient der Konkretisierung einer im Doppelhaushalt 2026/2027 pauschal eingeplanten Ergebnisverbesserung.",
+    "Nähere Erläuterungen zum Sachverhalt sind einer weiteren Beschlussvorlage zu entnehmen.",
+    "Der Beschlussvorschlag ordnet die Maßnahme den Haushaltsberatungen zu, sofern nicht bereits zuvor eine Entscheidung getroffen wurde."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:898919bada92c32c277b4c568fc1408330d209d6c896fef360e90423dd84d6a7",
-  "summary": "Die Vorlage schlägt vor, die Zuschüsse an die Gemeinderatsfraktionen zu kürzen. Die Maßnahme gehört zum vierten Stufe der Haushaltssicherung und dient der Konkretisierung der im Doppelhaushalt 2026/2027 pauschal eingeplanten Ergebnisverbesserung."
+  "summary": "Die Vorlage schlägt vor, die Zuschüsse an die Gemeinderatsfraktionen im Rahmen der 4. Stufe der Haushaltssicherung zu kürzen. Das Einsparpotenzial wird für 2026 bis 2030 mit jeweils 18.000 Euro beziffert."
 }

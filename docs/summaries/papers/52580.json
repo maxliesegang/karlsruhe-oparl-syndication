@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T11:37:56.229Z",
+  "generatedAt": "2026-11-07T20:19:26.347Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52580",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671599",
+      "quote": "Im Schuljahr 2025/2026 besuchen insgesamt 2.939 Schüler die acht öffentlichen Schulen in Durlach, verteilt auf 145 Klassen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671599",
+      "quote": "im Vergleich zum Vorjahr 39 Schüler weniger die Schulen besuchen, allerdings in zwei Klassen mehr"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671599",
+      "quote": "Der festgestellte Sanierungs- und Modernisierungsbedarf tendiert aufgrund der Kosten eher Richtung Neubau"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671599",
+      "quote": "Für die bevorstehende Heizperiode 2025/26 wird es nicht möglich sein, das gesamte Gebäude vollumfänglich zu beheizen"
+    }
+  ],
   "keyPoints": [
-    "Im Schuljahr 2025/2026 besuchen 2.939 Schülerinnen und Schüler in 145 Klassen die Durlacher Schulen, 39 Schüler weniger als im Vorjahr, wobei die Zahl der VKL-Schüler um 23 stieg.",
-    "Für die sanierungsbedürftige Schule am Turmberg tendiert der Bedarf wegen der Kosten eher Richtung Neubau; Planungen für einen Ersatzneubau neben der Gewerbeschule Durlach laufen, ein Ergebnis liegt noch nicht vor.",
-    "Nach dem Heizungsausfall im Pfinzbau Durlach wird das Gebäude in der Heizperiode 2025/26 nicht vollständig beheizt; Unterrichtsräume der Heinrich-Meidinger-Schule und der Gewerbeschule werden vom Süd- in den Nordflügel verlegt.",
-    "Die Modernisierung der Schloss-Schule ist abgeschlossen, die Außenanlagen sollen bis April 2026 fertig sein, und Räume des Markgrafen-Gymnasiums sollen im September 2026 in Betrieb gehen."
+    "Im Schuljahr 2025/2026 besuchen 2.939 Schülerinnen und Schüler die acht öffentlichen Schulen in Durlach, verteilt auf 145 Klassen.",
+    "Gegenüber dem Vorjahr gehen die Schülerzahlen zurück, während die Zahl der Klassen steigt, weil mehr Schüler internationale Vorbereitungsklassen besuchen.",
+    "Wegen der Kosten tendiert der Sanierungs- und Modernisierungsbedarf der Schule am Turmberg eher Richtung Neubau auf einem Grundstück neben der Gewerbeschule Durlach.",
+    "Durch eine Leckage in einem Heizkessel ist der Pfinzbau Durlach in der Heizperiode 2025/26 nicht vollständig beheizbar, der Südflügel wird nur frostschutztemperiert."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:6715f97782ee815f7c430066a9746af42802840be667a2c7f2cc9aa4ebbe66bb",
-  "summary": "Der Bericht informiert über Schülerzahlen, Übergangsverhalten, ergänzende Betreuung, Baumaßnahmen und die IT-Ausstattung an den acht öffentlichen Schulen in Durlach. Er schildert unter anderem den Ausfall der Heizungsanlage im Pfinzbau und den Stand der Schulbauvorhaben; finanzielle Auswirkungen bestehen laut Vorlage keine."
+  "summary": "Der Bericht schildert die Lage der acht Durlacher Schulen zu Schülerzahlen, Übergangsverhalten, ergänzender Betreuung, Baumaßnahmen und IT-Ausstattung und weist auf den Heizungsausfall im Pfinzbau sowie den Flächenmangel am Markgrafen-Gymnasium hin. Für die Schule am Turmberg wird ein Ersatzneubau geprüft, finanzielle Auswirkungen sieht der Bericht keine."
 }

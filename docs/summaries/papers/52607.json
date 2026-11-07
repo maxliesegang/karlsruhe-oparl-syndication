@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T09:15:22.454Z",
+  "generatedAt": "2026-11-07T20:19:26.347Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52607",
-  "keyPoints": [
-    "Die Vorlage gibt eine Gesamtergebnisverbesserung von circa 79,7 Millionen Euro in 2026 und circa 84,0 Millionen Euro in 2027 an.",
-    "Konkrete Maßnahmen sind die Reduktion der Bauunterhaltung bei städtischen Gebäuden um 7.650.000 Euro in 2026 und 2027 sowie die Erhöhung der Parkgebühren bei Parkscheinautomaten um 100 Prozent mit 5.250.000 Euro in 2026 und 2027.",
-    "Die Vorlage unterscheidet zwischen Maßnahmen im Zuständigkeitsbereich der Verwaltung und Maßnahmen, die einer politischen Festlegung bedürfen.",
-    "Nicht plausible, tiefer zu prüfende oder zurückgezogene Maßnahmen werden mit Vorschlagssummen von 2.971.493 Euro in 2026 und 2.881.432 Euro in 2027 aufgeführt."
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674575",
+      "quote": "Anlage 4 gibt einen Überblick über alle Maßnahmen, die nicht plausibel sind, tieferer Prüfung bedürfen oder zurückgezogen wurden"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674575",
+      "quote": "Der eingesparte Anteil beträgt in 2026 10.800 Euro und in 2027 1.800 Euro"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674580",
+      "quote": "Da der Sammelansatz für das Klimaschutzkonzept 2030 im THH 3100 die mit Abstand größte Haushaltsposition darstellt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674577",
+      "quote": "Erhöhung der Parkgebühren bei mittels Parkscheinautomaten bewirtschafteten öffentlichen Stellplätzen um 100%"
+    }
   ],
-  "model": "qwen3.8-flash",
-  "promptVersion": "paper-de-v8",
+  "keyPoints": [
+    "Eine gesonderte Übersicht weist Maßnahmen aus, die als nicht plausibel gelten, tieferer Prüfung bedürfen oder zurückgezogen wurden.",
+    "Als einzige Maßnahme ohne Vorberatung wird die Nichtbesetzung von Stellenanteilen der Bürgerdienste in Durlach im Teilhaushalt Friedhof- und Bestattungsamt vorgestellt.",
+    "Die Reduzierung des Sammelansatzes Klimaschutzkonzept 2030 ist mit 5.665.853 Euro für 2026 und 5.667.728 Euro für 2027 beziffert.",
+    "Zu den vorgeschlagenen Maßnahmen in Gemeinderatszuständigkeit gehört eine Verdopplung der Parkgebühren an Parkscheinautomaten mit 5.250.000 Euro je Haushaltsjahr."
+  ],
+  "model": "mimo-v2.6-pro",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:624096a3c6a61efd848cba1fd050aefbb01effd69694690d4233faa09d10f5e2",
-  "summary": "Die Vorlage stellt die aktualisierten Maßnahmen der vierten Stufe der Haushaltssicherung in Karlsruhe vor, mit denen die Verwaltung die pauschal eingeplante Ergebnisverbesserung für den Doppelhaushalt 2026/2027 konkretisiert. Sie umfasst unter anderem Personalreduzierungen, Zuschusskürzungen sowie Gebührenerhöhungen."
+  "summary": "Die Vorlage legt die finale Auflistung der Haushaltssicherungsmaßnahmen der Stufe 4 für den Doppelhaushalt 2026/2027 vor, die die Verwaltung seit September weiter geprüft und angepasst hat. Sie schlägt die Kenntnisnahme der Maßnahmen in Verwaltungs- und Gemeinderatszuständigkeit vor, die zusammen circa 79,7 Mio. Euro (2026) und circa 84,0 Mio. Euro (2027) Ergebnisverbesserung bewirken."
 }

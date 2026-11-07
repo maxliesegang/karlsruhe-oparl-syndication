@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T09:16:12.781Z",
+  "generatedAt": "2026-11-07T20:19:26.347Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52752",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672189",
+      "quote": "12.5.1 Erteilung einer Baugenehmigung: Erhöhung von 6 ‰ der Baukosten auf 7 ‰"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672189",
+      "quote": "12.5.2 Vereinfachtes Baugenehmigungsverfahren: Erhöhung von 5,2 ‰ der Baukosten auf 6 ‰"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672189",
+      "quote": "Baugenehmigung erst nach Beginn der Bauarbeiten oder Nutzungsänderung erteilt, so verdreifacht sich die Baugenehmigungsgebühr, soweit keine Teilbaugenehmigung erteilt wurde"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672199",
+      "quote": "Die Gebühren sollen im Zuge der Haushaltssicherung (HHS4_GR70) auf 39 € erhöht werden, dies entspricht einem Gebührenanstieg in Höhe von rd. 34,5 %"
+    }
+  ],
   "keyPoints": [
-    "Baulastenauszug und Erschließungsbescheinigungen sollen je Flurstück statt je Grundstück 39 Euro statt bisher 29 Euro kosten, was einem Anstieg von rund 34,5 Prozent entspricht.",
-    "Sanierungsrechtliche Genehmigungen und Negativzeugnisse nach §§ 144, 145 BauGB sollen je Urkundennummer 149 Euro statt bisher 99 Euro betragen, rund 50 Prozent mehr.",
-    "Die Baugenehmigung soll 7 Promille statt 6 Promille der Baukosten kosten, das vereinfachte Verfahren 6 Promille statt 5,2 Promille, jeweils mindestens 432 Euro.",
-    "Neu ist ein Gebührentatbestand: Wird eine Baugenehmigung erst nach Beginn der Bauarbeiten oder Nutzungsänderung erteilt, verdreifacht sich die Gebühr bis zu 300 Prozent, sofern keine Teilbaugenehmigung erteilt wurde."
+    "Für die Erteilung einer Baugenehmigung ist ein Gebührensatz von 7 Promille der Baukosten statt bisher 6 Promille vorgesehen, bei einem Mindestbetrag von 432 Euro.",
+    "Im vereinfachten Baugenehmigungsverfahren soll der Satz von 5,2 auf 6 Promille der Baukosten steigen.",
+    "Neu aufgenommen wird ein Gebührentatbestand, nach dem sich die Gebühr verdreifacht, wenn die Baugenehmigung erst nach Baubeginn erteilt wird; so soll ein Bußgeldverfahren entfallen.",
+    "Beim Auszug aus dem Baulastenbuch sowie bei den Bescheinigungen nach dem Erschließungsbeitragsrecht ist ein Anstieg von 29 auf 39 Euro je Flurstück vorgesehen, was rund 34,5 Prozent entspricht."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:4a434f1c3bbb0dd90f99fff56dd2433bcca1a98070894f9ff83524bcd6a2a401",
-  "summary": "Die Vorlage schlägt eine Änderung der Verwaltungsgebührensatzung samt Gebührenverzeichnis vor, die zum 1. Januar 2026 in Kraft treten soll. Erhöht werden unter anderem die Gebühren des Liegenschaftsamts für Baulasten- und Erschließungsauskünfte sowie die Baugenehmigungsgebühren; die Verwaltung begründet dies mit der Haushaltssicherung und gestiegenen Bearbeitungszeiten."
+  "summary": "Die Vorlage schlägt eine Änderung der Verwaltungsgebührensatzung samt Gebührenverzeichnis vor, die zum 1. Januar 2026 gelten soll. Konkret steigen die Gebühren des Liegenschaftsamts und des Bauordnungsamts, was die Verwaltung mit Haushaltssicherungsmaßnahmen und dem Ziel voller Kostendeckung begründet."
 }

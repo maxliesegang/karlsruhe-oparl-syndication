@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T09:15:50.906Z",
+  "generatedAt": "2026-11-07T20:19:26.347Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52480",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671330",
+      "quote": "Durch die Änderungen der Kostensätze können voraussichtlich Mehreinnahmen in Höhe von 10.000 Euro erzielt werden"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671330",
+      "quote": "die Entschädigungszahlung für die Leistung der Brandsicherheitswache für Mitglieder der Freiwilligen Feuerwehr ab dem 1. Januar 2026 angehoben werden"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671330",
+      "quote": "der alte Feuerwehrkran nach über 20 Jahren durch ein neues Modell ersetzt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671330",
+      "quote": "für alle Kostensätze im Kostenersatzverzeichnis die Spalte „Kostenersatz nach Maßgabe des § 34 FwG mit Umsatzsteuer in Euro“ ergänzt"
+    }
+  ],
   "keyPoints": [
-    "Der Satz für die Brandsicherheitswache soll von 37,00 auf 38,60 Euro je Stunde und Person steigen, weil die Entschädigungszahlungen für Mitglieder der Freiwilligen Feuerwehr ab dem 1. Januar 2026 angehoben werden.",
-    "Der Stundensatz des Feuerwehrkrans soll von 326,10 auf 462,80 Euro ohne Umsatzsteuer steigen, da der alte Kran nach über 20 Jahren durch ein neues Modell ersetzt wurde und sich die Kalkulation dadurch verändert.",
-    "Wegen der Preisangabenverordnung wird im Kostenersatzverzeichnis für alle Kostensätze eine zusätzliche Spalte mit den Beträgen inklusive Umsatzsteuer ergänzt.",
-    "Durch die geänderten Kostensätze sind voraussichtlich Mehreinnahmen von 10.000 Euro jährlich zu erwarten."
+    "Durch die Änderungen der Kostensätze erwartet die Verwaltung voraussichtlich Mehreinnahmen in Höhe von 10.000 Euro.",
+    "Für die Leistung der Brandsicherheitswache durch Mitglieder der Freiwilligen Feuerwehr ist eine höhere Entschädigungszahlung ab dem 1. Januar 2026 vorgesehen, was die Kalkulation der Kostensätze für die Brandsicherheitswache beeinflusst.",
+    "Der über 20 Jahre alte Feuerwehrkran wurde durch ein neues Modell ersetzt, wodurch sich die Berechnungsgrundlage für den Fahrzeugstundensatz des Krans ändert.",
+    "Für alle Kostensätze ist eine zusätzliche Spalte mit dem Kostenersatz einschließlich Umsatzsteuer vorgesehen, da die Preisangabenverordnung die Ausweisung beider Beträge in Satzungen verlangt."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:514f16e7a6b13459f7531034098aefa804a93753790fb5a5307c4632ea6a14c8",
-  "summary": "Die Vorlage schlägt eine Änderung der Karlsruher Satzung über den Kostenersatz für die Gemeindefeuerwehr samt Kostenersatzverzeichnis vor, die am 1. Januar 2026 in Kraft treten soll. Angepasst werden unter anderem die Sätze für die Brandsicherheitswache und den Feuerwehrkran; zusätzlich sollen alle Kostensätze künftig auch mit Umsatzsteuer ausgewiesen werden."
+  "summary": "Die Vorlage schlägt vor, das der Kostensatzung über die Erhebung von Kostenersatz für die Gemeindefeuerwehr zugehörige Kostenersatzverzeichnis zu überarbeiten und die Kostensätze anzupassen. Auslöser sind eine höhere Entschädigung für Brandsicherheitswachen der Freiwilligen Feuerwehr und der Austausch des Feuerwehrkrans."
 }

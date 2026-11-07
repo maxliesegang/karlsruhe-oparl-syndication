@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T11:13:01.478Z",
+  "generatedAt": "2026-11-07T20:19:26.347Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/53966",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/673809",
+      "quote": "1. Kammertheater, 2. Sandkorn, 3. Literarische Gesellschaft, 4. Badischer Kunstverein, 5.Tollhaus"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/673809",
+      "quote": "oder einer Verdoppelung der Parkgebühren, halten wir die beantragte Kürzung in Höhe von 10% für vertretbar"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/673809",
+      "quote": "Für institutionelle Förderungen oberhalb einer Million pro Jahr siehe separaten Antrag"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/674861",
+      "quote": "Bereits die vorgesehenen 8,7 Prozent Einsparungen bringen die betroffenen Kulturinstitutionen an ihre Grenzen"
+    }
+  ],
   "keyPoints": [
-    "Der Antrag nennt Kammertheater, Sandkorn, Literarische Gesellschaft, Badischer Kunstverein und Tollhaus und weist für 2026 und 2027 jeweils Kürzungen der Sachaufwendungen in Höhe von 27.870, 23.820, 26.200, 28.650 sowie 25.840 Euro aus.",
-    "Die Differenzierung zwischen 10 Prozent bei der quasi-institutionellen und 8,7 Prozent bei der institutionellen Förderung hält der Antrag bei Beträgen zwischen 80.000 und 1 Million Euro pro Jahr für nicht gerechtfertigt.",
-    "Als Begründung für die Vertretbarkeit verweist der Antrag auf geplante Mehrbelastungen der Bürger, unter anderem eine Erhöhung der Bäder-Eintritte um 25 Prozent und eine Verdoppelung der Parkgebühren.",
-    "Die Verwaltung führt aus, bereits die 8,7 Prozent seien wegen hoher Personalanteile nur über Stellenabbau oder gravierende Programmänderungen umsetzbar; weitergehende Kürzungen wären für die großen Einrichtungen nicht tragfähig, wobei kleinere Träger der quasi-institutionellen Förderung flexibler auf Drittmittel ausweichen könnten."
+    "Der Antrag bezieht sich unter anderem auf das Kammertheater, das Sandkorn, die Literarische Gesellschaft, den Badischen Kunstverein und das Tollhaus.",
+    "Die Antragsteller halten eine Kürzung von 10 Prozent für vertretbar, weil die Stadt die Bürger durch höhere Bäder-Eintritte und Parkgebühren zusätzlich belaste.",
+    "Für Förderungen oberhalb von einer Million Euro jährlich verweist der Antrag auf ein separates Vorhaben.",
+    "Die Stellungnahme führt aus, dass schon die geplanten 8,7 Prozent die Kulturinstitutionen an ihre Grenzen brächten."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:b0592ec5cfbb10884ad08a45eb9023c937c7e093c5bf5d6e321bc698089f29a8",
-  "summary": "Der Antrag fordert, im Doppelhaushalt 2026/2027 die institutionelle Kulturförderung bei Empfängern mit Zuschüssen zwischen 80.000 und 1 Million Euro pro Jahr um 10 statt um 8,7 Prozent zu kürzen. Die Verwaltung empfiehlt, von einer Erhöhung der Kürzung abzusehen und den Antrag abzulehnen."
+  "summary": "Der Antrag sieht vor, die Zuschüsse der institutionellen Kulturförderung an Empfänger mit jährlich 80.000 bis 1 Million Euro in den Haushaltsjahren 2026 und 2027 nicht nur um 8,7, sondern um 10 Prozent zu kürzen. Die Verwaltung empfiehlt abzulehnen, weil die bereits vorgesehenen Einsparungen die betroffenen Einrichtungen an ihre Grenzen brächten."
 }
