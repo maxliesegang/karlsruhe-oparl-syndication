@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T11:39:06.800Z",
+  "generatedAt": "2026-11-07T23:45:54.107Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52599",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671768",
+      "quote": "somit wird die erforderliche Mindestfahrbahnbreite von 3.05 m nicht eingehalten"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671768",
+      "quote": "Rettungsfahrzeuge und Müllfahrzeuge müssen sich regelmäßig durch die enge Straße quälen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671768",
+      "quote": "Erschwerend für die Anwohner ist, dass die Parkflächen im „Batzenhofweg“ nicht markiert sind und parkende Fahrzeuge Garagen- und Hofeinfahrten zuparken"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671768",
+      "quote": "Durch eine naheliegende Arztpraxis hat sich der Parkdruck im Bereich Lindenstraße/Batzenhofweg nachweislich erhöht"
+    }
+  ],
   "keyPoints": [
-    "Nach aktuellem Stand ist das Parken im „Batzenhofweg“ nicht zulässig; abgestellte Fahrzeuge stehen unrechtmäßig auf dem Gehweg oder verengen die Fahrbahn so, dass die erforderliche Mindestfahrbahnbreite nicht eingehalten wird.",
-    "Die Verkehrsüberwachung ahndet derzeit weder das verbotswidrige Gehwegparken noch das Unterschreiten der Restfahrbahnbreite.",
-    "Da die Parkflächen nicht markiert sind, parken Fahrzeuge Garagen- und Hofeinfahrten zu; der Parkdruck im Bereich Lindenstraße/Batzenhofweg hat sich durch eine nahegelegene Arztpraxis nachweislich erhöht.",
-    "In der „Lindenstraße“, deren Verlängerung der Batzenhofweg ist, wurden bereits Parkbuchten eingezeichnet, um den Bewohnern das Ein- und Ausfahren zu ermöglichen."
+    "Derzeit ist das Parken im „Batzenhofweg“ nicht zulässig; abgestellte Fahrzeuge stehen unrechtmäßig auf dem Gehweg oder auf der Fahrbahn, wobei die Mindestfahrbahnbreite unterschritten wird.",
+    "Rettungs- und Müllfahrzeuge haben regelmäßig Schwierigkeiten, sich durch die enge Straße zu bewegen.",
+    "Da die Parkflächen nicht markiert sind, blockieren parkende Fahrzeuge Garagen- und Hofeinfahrten der Anwohner.",
+    "Eine nahegelegene Arztpraxis hat den Parkdruck im Bereich Lindenstraße/Batzenhofweg nachweislich erhöht."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:ba838d2de5b40bcf7484b99bb81244049ed1f61dc5739c9be9038e4216ee95aa",
-  "summary": "Die Vorlage schlägt vor, den Gehweg im Hohenwettersbacher „Batzenhofweg“ aufzugeben und das Parken dort vollständig in markierten Parkflächen entlang der Straße zuzulassen. Begründet wird dies mit der Enge der Straße, die Rettungs- und Müllfahrzeuge behindert, sowie mit zugeparkten Garagen- und Hofeinfahrten."
+  "summary": "Die Vorlage schlägt vor, den Gehweg im „Batzenhofweg\" aufzugeben und das Parken entlang der Straße stattdessen vollständig in markierten Parkflächen zuzulassen. Begründet wird dies mit der sehr engen Fahrbahn, dem unerlaubten Gehwegparken und einem durch eine nahegelegene Arztpraxis gestiegenen Parkdruck."
 }

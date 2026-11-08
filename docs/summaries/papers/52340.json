@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T11:42:36.305Z",
+  "generatedAt": "2026-11-07T23:45:54.107Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52340",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670663",
+      "quote": "Bei einer Prävalenz von 0,7% und einer Bevölkerung von 309.643 für die Stadt Karlsruhe kann von einer absoluten Zahl an Betroffenen von ME/CSF von ca. 2.179 ausgegangen werden"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670663",
+      "quote": "Am SRH-Klinikum Langensteinbach ist eine Post-Covid-Ambulanz eingerichtet"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670663",
+      "quote": "Im Städtischen Klinikum Karlsruhe gibt es keine Strukturen zur speziellen Behandlung von ME/CFS"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670663",
+      "quote": "Bisher ist dort jedoch keine Suche nach Fachkenntnissen zu Post Covid/Postviralen Syndromen oder ME/CFS möglich"
+    }
+  ],
   "keyPoints": [
-    "Eine Erhebung oder Studie zu Fallzahlen ist nicht geplant; bei einer bundesweiten Prävalenz von 0,7 Prozent wird die Zahl der Betroffenen für das Stadtgebiet auf circa 2.179 und für den Landkreis auf circa 3.190 geschätzt.",
-    "Die Anfrage führt aus, dass die Ambulanz Heidelberg seit dem 20.12.2024 geschlossen ist und die Warteliste am SRH-Klinikum Langensteinbach seit Längerem geschlossen ist, sodass faktisch nur die Ambulanz Mannheim für Neuaufnahmen zur Verfügung steht.",
-    "Die Sicherstellung der hausärztlichen Versorgung liegt bei der Kassenärztlichen Vereinigung; die kommunalen Aktivitäten seit der Kommunalen Gesundheitskonferenz 2022 betreffen allgemein die hausärztliche Versorgung, nicht spezielle Krankheitsbilder.",
-    "Ein 2023 begonnenes Karlsruher Versorgungsnetzwerk zu Post-COVID wurde mangels Interesse wieder eingestellt, und das E-Learning-Angebot „Post-AIM"
+    "Ohne eigene Erhebung nennt die Stellungnahme aus der bundesweiten Prävalenz abgeleitete Schätzwerte für Stadt und Landkreis Karlsruhe.",
+    "Als einzige spezialisierte Anlaufstelle in der Region wird eine Post-Covid-Ambulanz im SRH-Klinikum Langensteinbach benannt.",
+    "Im Städtischen Klinikum Karlsruhe bestehen laut Stellungnahme keine Behandlungsstrukturen für ME/CFS.",
+    "Für die Suche nach Ärzt*innen mit ME/CFS-Expertise wird die Kassenärztliche Vereinigung als zuständig benannt, deren Arztsuche aber keine solche Spezialisierung erfasst."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:1f8db3b67edb804947503fcbd3d3e66cff72ccb755cde0a76be76247df35e35d",
-  "summary": "Die Anfrage fragt nach Fallzahlen, spezialisierten Anlaufstellen und ärztlicher Versorgung für Betroffene von ME/CFS, Long-COVID und Post-COVID in Karlsruhe und will wissen, ob die Stadt eine bessere Versorgung anstrebt. Die Verwaltung nennt keine erhobenen Fallzahlen, keine ME/CFS-Strukturen im Städtischen Klinikum und keine Pläne für ein eigenes Versorgungszentrum, verweist auf Zuständigkeiten der Kassenärztlichen Vereinigung und auf bestehende Informationsangebote im Netz."
+  "summary": "Die Anfrage erkundigt sich nach Fallzahlen, ärztlicher Versorgung, Anlaufstellen und Unterstützungsmaßnahmen für Betroffene von ME/CFS sowie Long- und Post-COVID in Karlsruhe. Die Stellungnahme führt aus, dass weder Zahlen noch spezialisierte Strukturen vorliegen, eine Erhebung oder ein lokales Versorgungszentrum nicht geplant sind."
 }

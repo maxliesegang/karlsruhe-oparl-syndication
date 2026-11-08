@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T11:42:09.669Z",
+  "generatedAt": "2026-11-07T23:45:54.107Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52400",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670829",
+      "quote": "Zum Stichtag 26.09.2025 wurden der SWKN insgesamt 3.665 private Ladepunkte gemeldet"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670829",
+      "quote": "Von den 3.665 entfallen 3.313 auf die Kategorie „Normalladepunkt“ (bis 22 kW) und 352 auf die Kategorie Schnellladepunkt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670829",
+      "quote": "Die gesamte Anmeldeleistung beträgt derzeit etwa 55 MW (55.000 kW)"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670829",
+      "quote": "In der Praxis zeigt sich leider, dass dieser Pflicht seitens der Betreiber oder Errichter der LIS oft nicht nachgekommen wird"
+    }
+  ],
   "keyPoints": [
-    "Von den 3.665 gemeldeten Ladepunkten sind 3.313 Normalladepunkte bis 22 kW und 352 Schnellladepunkte; die gesamte Anmeldeleistung beträgt etwa 55 MW (55.000 kW).",
-    "Die netzwirksame gleichzeitige Leistung liegt laut Stellungnahme deutlich darunter, da die Ladepunkte nicht alle gleichzeitig genutzt werden.",
-    "Der Netzausbauplan prognostiziert nicht die Zahl der Ladepunkte, sondern die Anzahl der Elektrofahrzeuge, weil ein Ladepunkt ohne angeschlossenes Fahrzeug keine Leistung bezieht.",
-    "Bisher gab es keine Ablehnungen von Anträgen auf private Ladepunkte; in der Niederspannung sind Ablehnungen gemäß §14a EnWG nicht mehr zulässig, weshalb zu Netzengpässen und deren Beseitigung keine Angaben gemacht werden."
+    "Zum Stichtag 26.09.2025 waren der SWKN insgesamt 3.665 private Ladepunkte gemeldet.",
+    "Danach entfallen 3.313 Ladepunkte auf die Kategorie Normalladepunkt bis 22 kW und 352 auf die Kategorie Schnellladepunkt.",
+    "Die gesamte Anmeldeleistung liegt derzeit etwa bei 55 MW, wobei die gleichzeitig wirkende Leistung laut Stellungnahme deutlich darunter liegt.",
+    "Die statistischen Angaben gelten laut Stellungnahme nur unter Vorbehalt, weil Betreiber oder Errichter die Meldepflicht oft nicht erfüllen."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:1df8d4f203aa15ce261b12544608ba479b195f41572afeb2073193117dc9603a",
-  "summary": "Die Anfrage verlangt Auskunft über private Wallboxen und nicht öffentlich zugängliche Ladestellen in Karlsruhe, unter anderem zu Bestand, Anschlussleistung, Entwicklung seit 2019, Prognosen bis 2030 und 2035 sowie zu möglichen Netzengpässen. Die Stellungnahme der Stadtwerke nennt zum Stichtag 26.09.2025 insgesamt 3.665 gemeldete private Ladepunkte und weist darauf hin, dass die Meldepflicht gegenüber dem Verteilnetzbetreiber in der Praxis oft nicht eingehalten wird."
+  "summary": "Die Anfrage verlangt Auskunft über private Wallboxen und nicht öffentlich zugängliche Ladestellen in Karlsruhe, unter anderem zu Bestand, Anschlussleistung, Antragszahlen und möglichen Netzengpässen seit 2019. Die Stellungnahme der Stadtwerke stützt sich auf den gemeldeten Bestand und weist darauf hin, dass Meldepflichten häufig nicht erfüllt werden."
 }

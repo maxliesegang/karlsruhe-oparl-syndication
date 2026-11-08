@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T11:30:10.402Z",
+  "generatedAt": "2026-11-07T23:45:54.107Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52496",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670925",
+      "quote": "Erträge 10.393.006 Euro Aufwendungen 8.612.977 Euro Jahresüberschuss 1.780.029 Euro"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670925",
+      "quote": "3 Liquiditätsplan einschließlich Finanzplanung Einnahmen 15.185.029 Euro Ausgaben 14.950.000 Euro"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670925",
+      "quote": "2 Gesamtbetrag der vorgesehenen Kreditaufnahmen (Kreditermächtigung) 10.000.000 Euro"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670925",
+      "quote": "4 Gesamtbetrag der Verpflichtungsermächtigungen 10.000.000 Euro 5 Der Höchstbetrag der Kassenkredite 10.000.000 Euro"
+    }
+  ],
   "keyPoints": [
-    "Der Erfolgsplan weist Erträge von 10.393.006 Euro, Aufwendungen von 8.612.977 Euro und einen Jahresüberschuss von 1.780.029 Euro aus.",
-    "Vorgesehen sind Kreditermächtigungen sowie Verpflichtungsermächtigungen von jeweils 10.000.000 Euro und ein Höchstbetrag der Kassenkredite von 10.000.000 Euro.",
-    "Der Liquiditätsplan einschließlich Finanzplanung sieht Einnahmen von 15.185.029 Euro und Ausgaben von 14.950.000 Euro vor.",
-    "Zu den Aufgaben des Eigenbetriebs zählen unter anderem die Ausübung von Vorkaufsrechten, der Erwerb und die Entwicklung von Grundstücken sowie Vermietung, Verpachtung und Bewirtschaftung."
+    "Der Erfolgsplan weist Erträge von 10.393.006 Euro und Aufwendungen von 8.612.977 Euro aus, was einem Jahresüberschuss von 1.780.029 Euro entspricht.",
+    "Für den Liquiditätsplan einschließlich Finanzplanung sind Einnahmen von 15.185.029 Euro und Ausgaben von 14.950.000 Euro veranschlagt.",
+    "Der Gesamtbetrag der vorgesehenen Kreditaufnahmen ist mit einer Kreditermächtigung von 10.000.000 Euro angesetzt.",
+    "Sowohl die Verpflichtungsermächtigungen als auch der Höchstbetrag der Kassenkredite sind mit jeweils 10.000.000 Euro vorgesehen."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:ba4734a818a3c202afe415f5e07f5f23d12809ca7c9a4214615e6fdf232c257b",
-  "summary": "Die Vorlage schlägt vor, den Wirtschaftsplan 2026 des Eigenbetriebs Gewerbeflächen für das Wirtschaftsjahr 2026 festzusetzen, einschließlich mittelfristiger Finanzplanung und der dargestellten Festsetzungen. Der Eigenbetrieb bevorratet Gewerbe- und Industriegrundstücke im Karlsruher Stadtgebiet."
+  "summary": "Die Vorlage schlägt vor, den Wirtschaftsplan 2026 des Eigenbetriebs Gewerbeflächen einschließlich der mittelfristigen Finanzplanung festzusetzen. Der Betrieb der Stadt Karlsruhe bevorratet, erwirbt und entwickelt Gewerbe- und Industriegrundstücke im Stadtgebiet und legt darin seine Erträge, Aufwendungen sowie Kredit- und Verpflichtungsermächtigungen für 2026 fest."
 }

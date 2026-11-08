@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T11:29:56.314Z",
+  "generatedAt": "2026-11-07T23:45:54.107Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52444",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671055",
+      "quote": "Dies dient lediglich als Information für das Gremium und bedarf keiner formalen Überführung in den neuen Prozessablauf"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671055",
+      "quote": "Die Planungen der Vorhaben werden über die vorhandenen Planungskonten abgedeckt, sodass ein Konzeptbeschluss hier keine finanziellen Auswirkungen nach sich zieht"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671055",
+      "quote": "werden diese Vorhaben lediglich bis zur geringsten sinnvollen Planungsreife gebracht bzw. verbleiben in dieser"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671055",
+      "quote": "steht diese Ermächtigung unter dem Vorbehalt der Aufnahme der notwendigen (weiteren) Mittel in den Haushalt"
+    }
+  ],
   "keyPoints": [
-    "Nicht haushaltsbasierte Planungsvorhaben werden nur bis zur geringsten sinnvollen Planungsreife gebracht und verbleiben in Wartestellung, bis eine Finanzierung möglich wird; ein Baubeschluss wird erst dann angestrebt.",
-    "Der Konzeptbeschluss zieht keine finanziellen Auswirkungen nach sich, da die Planungen über vorhandene Planungskonten abgedeckt werden; für die Baubeschlüsse entstehen laut Vorlage keine neuen finanziellen Auswirkungen.",
-    "Zu den überzuleitenden Vorhaben zählen unter anderem die Energieerzeugung und -infrastruktur im Klärwerk Karlsruhe mit einem Gesamtkostenrahmen von 10 Mio. € sowie der Kanalbau in der Herrenalber Straße mit 4,5 Mio. Euro.",
-    "Eine Übersicht über Maßnahmen zwischen 500.000 und 1 Mio. Euro dient laut Vorlage lediglich als Information und bedarf keiner formalen Überführung in den neuen Prozessablauf."
+    "Die im Kostenrahmen zwischen 500.000 und 1 Mio. Euro liegenden Maßnahmen werden nur zur Information aufgeführt und dienen keiner formalen Überführung.",
+    "Für die Konzeptbeschlüsse sind laut Vorlage keine finanziellen Auswirkungen verbunden, weil die Planungen über vorhandene Planungskonten abgedeckt werden.",
+    "Vorhaben, die nicht im Haushalt enthalten sind, sollen nur bis zur geringsten sinnvollen Planungsreife gebracht und dann in Wartestellung gehalten werden.",
+    "Für noch nicht oder nicht vollständig im Haushalt berücksichtigte Vorhaben ist die Ermächtigung der Verwaltung an die spätere Aufnahme der Mittel in den Haushalt gebunden."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:7707aa9b9fa4b1d875b71465429fc9a70815983b25a159e271a0ac28c03d3a7c",
-  "summary": "Die Vorlage schlägt vor, die laufenden Bauprojekte des Tiefbauamtes in einem Sammelverfahren formal in die neue Vorgehensweise nach der Richtlinie \"Bauprozesse\" zu überleiten – je nach Bearbeitungsstand durch einen Konzeptbeschluss für Vorhaben in Planung oder einen Baubeschluss für Vorhaben in Ausführung. Letztere sollen von der Verwaltung eigenständig umgesetzt werden, teils unter dem Vorbehalt der Aufnahme in den Haushalt."
+  "summary": "Die Vorlage schlägt vor, die laufenden Bauprojekte des Tiefbauamtes formell in das Verfahren der Richtlinie Bauprozesse zu überleiten – je nach Bearbeitungsstand durch einen Sammel-Konzeptbeschluss oder einen Sammel-Baubeschluss, teils unter Finanzierungsvorbehalt. Der vorgesehene Beschluss ermächtigt die Verwaltung, die Vorhaben in eigener Zuständigkeit weiterzuplanen bzw. zu realisieren."
 }

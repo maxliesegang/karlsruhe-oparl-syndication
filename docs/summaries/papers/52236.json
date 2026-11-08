@@ -1,15 +1,30 @@
 {
-  "generatedAt": "2026-10-24T11:29:50.364Z",
+  "generatedAt": "2026-11-07T23:45:54.107Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52236",
+  "keyPointSources": [
+    null,
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671244",
+      "quote": "Die elektrische Leistung der Anlage wird bei ca. 850 MW und die mögliche Wärmeauskopplung bei bis zu 220 MW liegen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670142",
+      "quote": "durch den Treppenturm mit geplanten 60 Metern Höhe ist nach derzeitigem Planrecht das Bauvorhaben nicht genehmigungsfähig"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670142",
+      "quote": "was in Summe etwa 30.000,00 Euro an Gutachterkosten verursacht, die aus dem dafür vorgesehenen Budget des Stadtplanungsamts stammen"
+    }
+  ],
   "keyPoints": [
-    "Der Bauhöhenbegrenzung von 35 Metern im geltenden Planrecht stehen das geplante Kesselhaus mit 54 Metern und ein Treppenturm mit 60 Metern gegenüber, weshalb ein neuer Bebauungsplan erforderlich ist.",
-    "Die Anlage soll eine elektrische Leistung von ca. 850 MW und eine Wärmeauskopplung von bis zu 220 MW erreichen, zunächst mit Erdgas laufen und ab 2035 wasserstoffbetrieben werden können.",
-    "Die Vorhabenträgerin strebt Planreife für 2026 an, um an einer Auktion nach dem geplanten Kraftwerkssicherheitsgesetz teilnehmen zu können; der Satzungsbeschluss ist für den Jahresbeginn 2027 vorgesehen.",
-    "Der im Ergänzungsantrag geforderten zeitlich gestaffelten Begrenzung der Betriebsvolllaststunden unter Erdgas- bzw. LNG-Einsatz soll im LoI nicht entsprochen werden, da dies die Wirtschaftlichkeit in Frage stelle."
+    "Die geplante Anlage soll auf Teilflächen zweier Flurstücke im östlichen Bereich der bestehenden Kohlehalde entstehen.",
+    "Geplant sind eine elektrische Leistung von etwa 850 MW und eine mögliche Wärmeauskopplung von bis zu 220 MW.",
+    "Ein neuer Bebauungsplan ist nötig, weil die derzeit festgesetzte Bauhöhe von 35 Metern für Kesselhaus und Treppenturm nicht ausreicht und eine Befreiung als nicht möglich eingestuft wurde.",
+    "Für eigene, der Neutralität dienende Gutachter veranschlagt die Vorlage etwa 30.000 Euro, die aus dem Budget des Stadtplanungsamts stammen sollen."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:e692a12a11a9947369bc43b2a0d73dba26f5f8671ca231e60de3a8188ff9d27d",
-  "summary": "Die Vorlage schlägt vor, das vorhabenbezogene Bebauungsplanverfahren für eine neue Gas- und Dampfturbinenanlage (RDK9) auf dem Kraftwerksgelände Rheinhafen-Dampfkraftwerk fortzuführen und eine nicht rechtsverbindliche Absichtserklärung mit der EnBW abzuschließen, auf deren Basis städtebauliche Verträge verhandelt werden sollen. Die Verwaltung beziffert die von der Stadt zu tragenden Gutachterkosten auf etwa 30.000 Euro."
+  "summary": "Die Vorlage schlägt vor, das vorhabenbezogene Bebauungsplanverfahren für eine neue wasserstofffähige Gas- und Dampfturbinenanlage auf dem Gelände des Rheinhafen-Dampfkraftwerks fortzuführen und die ausgehandelte, nicht rechtsverbindliche Absichtserklärung mit der EnBW abzuschließen. Diese soll als Grundlage für die Verhandlung städtebaulicher Verträge dienen."
 }

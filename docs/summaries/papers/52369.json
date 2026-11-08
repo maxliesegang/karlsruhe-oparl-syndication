@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T11:33:28.246Z",
+  "generatedAt": "2026-11-07T23:45:54.107Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52369",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670056",
+      "quote": "Die Änderungen für tiefbauspezifische Leistungen liegen zwischen +2,86 % und +27,42%"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670056",
+      "quote": "Für die Ermittlung der neuen Einheitssätze wurden im Wettbewerb entstandene Preise aus abgeschlossenen Bauverträgen der vergangenen Monate zugrunde gelegt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670372",
+      "quote": "Die Kostensteigerung beträgt in diesem angenommenen Fall + 10,72 %"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670372",
+      "quote": "Das Beispiel kann nicht ohne weiteres auf andere Gebiete übertragen werden, da dort in aller Regel andere Strukturen vorgegeben sind durch"
+    }
+  ],
   "keyPoints": [
-    "Die Erhöhungen bei tiefbauspezifischen Leistungen liegen zwischen +2,86 % und +27,42 %, im Mittel um rund +11,72 %.",
-    "Grundlage der neuen Einheitssätze sind im Wettbewerb entstandene Preise aus abgeschlossenen Bauverträgen der vergangenen Monate.",
-    "Der Einheitssatz für die Herstellung der Straßenbeleuchtung bleibt mit 135,40 Euro/m unverändert.",
-    "An einer Beispielrechnung für ein ausgewähltes Erschließungsgebiet steigt der auf einen typischen Bauplatz entfallende Erschließungskostenanteil von 23.923 auf 26.487 Euro, was einer Steigerung von +10,72 % entspricht; die Gegebenheiten anderer Gebiete können abweichen."
+    "Die Anpassungen bei den tiefbauspezifischen Leistungen bewegen sich je Position zwischen 2,86 und 27,42 Prozent.",
+    "Als Grundlage der neuen Einheitssätze dienen im Wettbewerb zustande gekommene Preise aus kürzlich abgeschlossenen Bauverträgen.",
+    "In der Beispielrechnung führen die künftigen Sätze für einen typischen Bauplatz von 600 Quadratmetern Grundstücksfläche mit 420 Quadratmetern Geschossfläche zu einer Kostensteigerung von 10,72 Prozent.",
+    "Die Beispielrechnung ist laut Vorlage nicht ohne Weiteres auf andere Erschließungsgebiete übertragbar."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:f5583d3aa3978052ea79fa83d7f32ec19aa9ed2e2f562a0cb7779a305f082882",
-  "summary": "Die Vorlage schlägt vor, die Einheitssätze in der Karlsruher Erschließungsbeitrags- und Kostenerstattungssatzung an die Kosten- und Preisentwicklung anzupassen und eine neue Tabelle XXI einzufügen. Für tiefbauspezifische Leistungen sind Erhöhungen vorgesehen, die Änderungssatzung soll zum 1. Januar 2026 in Kraft treten."
+  "summary": "Die Vorlage schlägt vor, die Einheitssätze der Karlsruher Erschließungsbeitragssatzung an die Kosten- und Preisentwicklung anzupassen. Die Sätze sollen für ab dem 1. Januar 2026 hergestellte Teile von Erschließungsanlagen gelten, wobei sich die tiefbauspezifischen Sätze im Mittel um rund 11,72 Prozent erhöhen und der Satz für die Straßenbeleuchtung unverändert bleibt."
 }

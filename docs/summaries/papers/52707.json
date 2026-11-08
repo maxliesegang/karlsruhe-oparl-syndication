@@ -1,15 +1,30 @@
 {
-  "generatedAt": "2026-10-24T11:36:01.241Z",
+  "generatedAt": "2026-11-07T23:45:54.107Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52707",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672464",
+      "quote": "Zentral ist hierbei der hohe elektrische Wirkungsgrad (über 60%) der Anlage"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672464",
+      "quote": "würde eine Betriebsstundenbegrenzung für RDK 9 gerade nicht den beabsichtigten Klimaschutzeffekt bringen"
+    },
+    null,
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/672463",
+      "quote": "Die Verwaltung strebt hierzu strafbewährte Umsetzungsfristen nach Vorliegen der technischen und tatsächlichen Verfügbarkeit"
+    }
+  ],
   "keyPoints": [
-    "Die EnBW plant RDK9 als GuD-Anlage im Mittellastbereich; eine Betriebsstundenbegrenzung gelte als wirtschaftlich und klimabilanztechnisch nicht darstellbar, da sonst CO2-intensivere Kraftwerke einspringen könnten.",
-    "Eine Kompensation der Scope-1- und Scope-2-Emissionen sei vertraglich darstellbar, im Letter of Intent aber erst ab der geplanten Umstellung auf Wasserstoff vorgesehen; eine Kompensation ab Inbetriebnahme lehnt die EnBW ab.",
-    "Die EnBW strebt eine Begrenzung der Vorkettenemissionen auf den Status quo des pipelinegebundenen Erdgasmixes an; ein exakter Wert soll Gegenstand der Verhandlungen sein, wobei die von der Stadt beauftragten Sachverständigen strukturierte Lieferverträge für eine bilanzielle Absenkung der Vorkettenemissionen für geeignet halten.",
-    "Als Zieldatum der Wasserstoffumstellung nennt der Letter of Intent den 1. Januar 2035; die Verwaltung strebt strafbewehrte Umsetzungsfristen an, die von der tatsächlichen Verfügbarkeit regenerativ erzeugten Wasserstoffs am Netzverknüpfungspunkt in Karlsruhe abhängen."
+    "Die EnBW begründet den von ihr geplanten Mittellastbetrieb mit dem hohen elektrischen Wirkungsgrad der Gas- und Dampfturbinenanlage von über 60 Prozent.",
+    "Die EnBW führt aus, dass eine Betriebsstundenbegrenzung zu einem vermehrten Einsatz CO2-intensiverer anderer Kraftwerke führen würde.",
+    "Beim Erdgas strebt die EnBW statt des im Antrag genannten Grenzwerts für Vorkettenemissionen eine Begrenzung auf den bisherigen pipelinegebundenen Erdgasmix an; ein exakter Wert soll noch verhandelt werden.",
+    "Für die Umstellung auf Wasserstoff ist in der Absichtserklärung ein Zieldatum vorgesehen; die Verwaltung strebt strafbewährte Umsetzungsfristen an, die von der tatsächlichen Verfügbarkeit regenerativ erzeugten Wasserstoffs abhängen."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:ba3c666dfbcb31942039e3d695f8baa000650380c4187532a4ae310fffecfa07",
-  "summary": "Der Änderungsantrag der GRÜNE-Fraktion verlangt, das geplante Kraftwerk RDK9 am Rheinhafen als Spitzenlastkraftwerk mit höchstens 1.000 Betriebsstunden pro Jahr zu konzipieren, seine Scope-1- und Scope-2-Emissionen ab Betriebsbeginn zu kompensieren, die Vorkettenemissionen des Erdgases zu begrenzen und einen verbindlichen Zeitplan zur Umstellung auf grünen Wasserstoff zu vereinbaren. Die Verwaltung hält viele Forderungen für bereits im Letter of Intent angelegt oder nicht darstellbar und empfiehlt, den Antrag als erledigt zu betrachten."
+  "summary": "Der Änderungsantrag fordert für das geplante Kraftwerk RDK9 im Rheinhafen einen klimaneutralen Betrieb: höchstens 1.000 Betriebsstunden pro Jahr, Kompensation der Scope-1- und Scope-2-Emissionen, geringe Vorkettenemissionen beim Erdgas und ein verbindlicher Zeitplan für grünen Wasserstoff. Die Verwaltung sieht dies teils im Letter of Intent als angelegt, teils als nicht darstellbar."
 }

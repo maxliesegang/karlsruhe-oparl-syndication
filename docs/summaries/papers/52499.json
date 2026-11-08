@@ -1,15 +1,30 @@
 {
-  "generatedAt": "2026-10-24T11:41:18.045Z",
+  "generatedAt": "2026-11-07T23:45:54.107Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52499",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670988",
+      "quote": "Die antragstellenden Kommunen können hierbei 75% ihrer anfallenden Planungs- und Vorbereitungskosten für die Einführung des Mobilitätspasses erstattet bekommen (max. 1 Mio. Euro je Antragsteller)"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670988",
+      "quote": "Die Antragstellung durch die jeweilige Kommune hat bis zum 16.11.2025 zu erfolgen, der Gremienbeschluss mit der erforderlichen Absichtserklärung kann bis zum 10.12.2025 nachgereicht werden"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670988",
+      "quote": "Die Verwaltung schätzt, dass hierfür ca. 2 Jahre Vorlaufzeit benötigt werden"
+    },
+    null
+  ],
   "keyPoints": [
-    "Das Verkehrsministerium Baden-Württemberg erstattet 75 Prozent der Planungs- und Vorbereitungskosten, höchstens 1 Million Euro je Antragsteller, darunter auch 75 Prozent interner Personalkosten für eine Stelle bis Entgeltgruppe 13 bis zum Ende des Bewilligungszeitraums am 31.12.2027.",
-    "Der Förderantrag ist bis zum 16.11.2025 einzureichen, der erforderliche Gremienbeschluss mit Absichtserklärung kann bis zum 10.12.2025 nachgereicht werden.",
-    "Die Verwaltung schätzt für die Erstellung einer Abgabensatzung und technischer Lösungen rund zwei Jahre Vorlaufzeit; die finanziellen Auswirkungen sind noch nicht bezifferbar, da Beitragshöhe, Befreiungen und zusätzlicher Personalbedarf offen sind.",
-    "Nicht eingelöste Mobilitätsguthaben verbleiben der Stadt und dürfen laut Verkehrsministerium auch zur Verhinderung von Angebotskürzungen im ÖPNV verwendet werden, etwa um eine Reduzierung auf einen 20-Minuten-Takt bei der TRAM abzuwenden."
+    "Das Land erstattet 75 Prozent der anfallenden Planungs- und Vorbereitungskosten, höchstens 1 Mio. Euro je Antragsteller, wobei auch 75 Prozent interner Personalkosten bis zur Entgeltgruppe 13 förderfähig sind.",
+    "Der Förderantrag ist bis zum 16.11.2025 einzureichen, der Beschluss mit der Absichtserklärung kann bis zum 10.12.2025 nachgereicht werden.",
+    "Für die Erstellung einer Abgabensatzung und technischer Lösungen zur Erhebung der Abgabe und Vergabe des Mobilitätsguthabens veranschlagt die Verwaltung rund zwei Jahre Vorlaufzeit.",
+    "Die Einnahmen aus dem Mobilitätspass dürfen laut Verkehrsministerium auch dazu dienen, einschneidende Angebotskürzungen im ÖPNV zu verhindern, etwa eine umfassende Reduzierung auf einen 20-Minuten-Takt bei der TRAM."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:4f8466eb749162408550614479a69be624b4a19527e09e32ca7cccd2d14a3e69",
-  "summary": "Die Vorlage schlägt vor, die Absichtserklärung zur Einführung des Mobilitätspasses in Karlsruhe abzugeben und die Verwaltung zur Beantragung einer landesweiten Anschubförderung zu ermächtigen. Für die weitere Planung sollen die Varianten des Einwohner*innenbeitrags und des Kfz-Halter*innenbeitrags vertieft geprüft werden, ohne dass damit eine Verpflichtung zur Einführung verbunden ist."
+  "summary": "Die Stadt Karlsruhe soll die für eine Anschubförderung des Verkehrsministeriums Baden-Württemberg erforderliche Absichtserklärung zur Einführung des Mobilitätspasses abgeben, damit die Verwaltung den Förderantrag stellen kann. Eine Verpflichtung zur Einführung ist damit nicht verbunden, vertieft geprüft werden sollen die Varianten Einwohner*innenbeitrag und Kfz-Halter*innenbeitrag."
 }

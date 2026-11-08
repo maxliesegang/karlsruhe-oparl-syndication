@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T11:40:24.147Z",
+  "generatedAt": "2026-11-07T23:45:54.107Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52401",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670338",
+      "page": 2,
+      "quote": "Die 89 Sporthallen werden den 198 Vereinen für Training, Wettkampf und Veranstaltungen sowie den 96 Schulen für den Schulsport zur Verfügung gestellt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670338",
+      "page": 2,
+      "quote": "Die aktuelle Hallenverwaltungssoftware SKUBIS ist mittlerweile veraltet und nicht mehr zukunftsfähig (veralteter Programmiercode)"
+    },
+    null,
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/670338",
+      "page": 2,
+      "quote": "Transparente Belegung der Sporthallen durch übersichtliche Darstellung (z. B. Kalenderansicht)"
+    }
+  ],
   "keyPoints": [
-    "Die neue Software soll unter anderem Online-Buchungsanfragen, einen einsehbaren Belegungskalender, digitale Kommunikation und Schnittstellen zu Programmen wie ENAIO, IntelliVerband und DATEV ermöglichen.",
-    "Der Auftrag ging nach einem Vergabeverfahren Anfang 2024 an die Fa. VENUZLE GmbH; es handelt sich um eine zu 80 Prozent Standardsoftware, die an die Bedarfe der Stadt Karlsruhe angepasst wird.",
-    "Für die Übertragung der Daten aus SKUBIS ist rund eine Woche eingeplant, in der keine Hallenbuchungen möglich sind; danach ist ein Support des Schul- und Sportamts für die Vereine vorgesehen.",
-    "Die Vorlage weist darauf hin, dass sich für Sportvereine in Einzelfällen Änderungen ergeben können und die Umstellung für Vereine wie Verwaltungsmitarbeitende Herausforderungen mit sich bringt."
+    "Die Schul- und Sporthallen werden für 198 Vereine und 96 Schulen zur Verfügung gestellt; die Belegungen werden bislang händisch eingetragen.",
+    "Als Grund für die Ablösung wird genannt, dass die bisherige Software SKUBIS veraltet und nicht mehr zukunftsfähig ist und nicht weiterentwickelt wird.",
+    "Die Gesamtkosten der Maßnahme beziffert die Vorlage mit 87.581 EUR.",
+    "Die Software soll unter anderem eine transparente Belegungsdarstellung, eine medienbruchfreie Kommunikation mit den Akteuren und Schnittstellen zu anderen Programmen ermöglichen."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:8e780a43651634a0d685b0c392d1eb20352ea033d294362ff7633a700a648037",
-  "summary": "Die Vorlage informiert über die Ablösung der veralteten Hallenverwaltungssoftware SKUBIS durch die Software VENUZLE der gleichnamigen Firma aus Graz für die Karlsruher Sporthallen. Der Produktivbetrieb ist für den 7. November 2025 vorgesehen, die Gesamtkosten belaufen sich auf 87.581 EUR."
+  "summary": "Die Vorlage informiert über die Einführung einer neuen Hallenverwaltungssoftware der Fa. Venuzle GmbH aus Graz, die die veraltete Software SKUBIS ablösen soll. Vorgesehen ist der Produktivbetrieb ab dem 7. November 2025, wobei die Datenübertragung aus SKUBIS eine Woche dauern und Hallenbuchungen in dieser Zeit nicht möglich sein sollen."
 }

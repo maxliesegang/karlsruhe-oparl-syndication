@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T11:40:48.915Z",
+  "generatedAt": "2026-11-07T23:45:54.107Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/51796",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/668882",
+      "quote": "Aktuell ist der Medienbus noch in einem betriebsfähigen Zustand, jedoch mehren sich die notwendigen Reparaturen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/668882",
+      "quote": "Die Anschaffungsdauer ab Planungsbeginn beträgt 2 Jahre, Lieferung und Mittelabfluss sind für 2028 anzunehmen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/668882",
+      "quote": "Anschaffungskosten einmalig: Medienbus, elektrisch angetrieben: 1.190.000 Euro inklusive Mehrwertsteuer"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/668882",
+      "quote": "die einmaligen Neubeschaffungskosten etwa gleichwertig zu einem neuen großen Medienbus, die jährlichen laufenden Kosten aufgrund des erhöhten Personalbedarfs jedoch verdoppelt"
+    }
+  ],
   "keyPoints": [
-    "Der aktuelle Medienbus befindet sich im 23. Betriebsjahr, die Reparaturen mehren sich und ein Totalausfall ist nicht auszuschließen; die planmäßige Ersatzbeschaffung ist für 2025 vorgesehen, Lieferung wäre für 2028 anzunehmen.",
-    "Aktuell laufen jährliche Kosten von 191.100 Euro auf; ein neuer elektrisch angetriebener Medienbus wäre mit 1.190.000 Euro einmalig und 185.500 Euro jährlich zu Buche zu schlagen.",
-    "Die empfohlene Kombination aus Knirpsmobil, Stadtteilbibliothek Hohenwettersbach und fünf Medienausgabe-Automaten käme ohne Baukosten auf 898.500 Euro einmalig und 299.382 Euro jährlich, wobei die laufenden Kosten aufgrund des erhöhten Personalbedarfs steigen würden.",
-    "Der Medienbus versorgt derzeit Stadtteile wie Stupferich, Hohenwettersbach, Rüppurr und Daxlanden; Knielingen hat laut Vorlage einen hohen Bedarf, wird aber nicht angefahren, und für Hohenwettersbach wird der Anschaffungskostenanteil ohne Baukosten mit 193.000 Euro geschätzt."
+    "Der Medienbus ist zwar noch betriebsfähig, doch die Reparaturen häufen sich und ein Totalausfall gilt als möglich.",
+    "Für die Ersatzbeschaffung ist mit einer Anschaffungsdauer von 2 Jahren ab Planungsbeginn zu rechnen, Lieferung und Mittelabfluss gelten für 2028 als wahrscheinlich.",
+    "Ein neuer großer Medienbus als Ersatz des bisherigen Fahrzeugs würde einmalig 1.190.000 Euro inklusive Mehrwertsteuer kosten.",
+    "Die empfohlene Kombination aus Knirpsmobil, Stadtteilbibliothek Hohenwettersbach und fünf Medienautomaten kostet laut Vorlage einmalig 898.500 Euro und jährlich 299.382 Euro, wobei die laufenden Kosten gegenüber heute deutlich steigen."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:c3895a144a688b07389f3eb94c3884ab1e03f20985417fe8ae82f7e158c39270",
-  "summary": "Die Vorlage stellt konzeptionelle Planungen und Kosteneinschätzungen für einen Ersatz des Medienbusses der Stadtbibliothek sowie mehrere Alternativkonzepte zur Diskussion, darunter ein kleineres BibMobil, eine Stadtteilbibliothek in Hohenwettersbach, eine versetzbare Pop-up-Bibliothek und Medienausgabe-Automaten. Als Empfehlung wird eine Kombination aus Klein-LKW, Stadtteilbibliothek und Ausgabe-Automaten vorgeschlagen."
+  "summary": "Die Stadtbibliothek stellt konzeptionelle Planungen und Kosteneinschätzungen für einen neuen Medienbus sowie Alternativkonzepte vor, da der Medienbus im 23. Betriebsjahr zunehmend reparaturbedürftig ist. Als beste Abdeckung der Stadtteile ohne Stadtbibliothek empfiehlt sie die Kombination aus einem kleinen Fahrzeug für Kinder, einer Stadtteilbibliothek in Hohenwettersbach und fünf Medienautomaten."
 }

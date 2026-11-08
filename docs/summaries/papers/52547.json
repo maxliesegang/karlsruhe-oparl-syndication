@@ -1,15 +1,33 @@
 {
-  "generatedAt": "2026-10-24T11:41:30.860Z",
+  "generatedAt": "2026-11-07T23:45:54.107Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52547",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671606",
+      "quote": "entpricht ca. einer halben bis ganzen Person pro Fahrt (29 Abfahrten pro Tag)"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671606",
+      "quote": "wegfallende Fahrzeit (ca. eine Minute) würde der Fahrplanstabilisierung und Umsteigezeit zur Tramlinie 1 zugutekommen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671606",
+      "quote": "Betrieblich: Stichfahrten zwischen H Rosmarinweg und H Welschneureuter Straße zu Schulbeginn sowie Schulende"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671606",
+      "quote": "Entfall der Haltestelle Neureut Südschule am heutigen Standort (Am Pfad)"
+    }
+  ],
   "keyPoints": [
-    "Durch den Entfall der Bedienung von Am Zinken soll die Pünktlichkeit der Linie 71 und die Anschlusssicherheit zur Bahn verbessert werden; der Wegfall von etwa einer Minute Fahrzeit soll der Fahrplanstabilisierung und dem Umsteigen zur Tramlinie 1 am Heidehof dienen.",
-    "Die neue Haltestelle an der Südschule soll die bisherigen Stichfahrten zum Schulbeginn und Schulschluss ersetzen, sodass die Schule ganztägig in beide Fahrtrichtungen bedient würde; der Fußweg über den Fußgängerübergang bleibt ähnlich kurz.",
-    "Die Unterlagen führen aus, dass die Linie 71 unter der Woche rund 400 Fahrgäste befördert und an der Haltestelle Am Zinken etwa 15 bis 25 Personen pro Tag zusteigen.",
-    "Der Verkehrsbetrieb Karlsruhe GmbH sieht als Ergebnis einen verringerten Einzugsradius im Bereich Am Zinken vor; die Maßnahmen sollen zudem die Wiedereinordnung in den 30-Minuten-Takt erleichtern."
+    "Die Haltestelle Am Zinken wird bereits heute nur noch in einer Fahrtrichtung bedient und wird im Schnitt lediglich von einer halben bis ganzen Person pro Fahrt genutzt.",
+    "Die durch den Wegfall der Bedienung gewonnene Fahrzeit von etwa einer Minute soll der Fahrplanstabilisierung und der Umsteigezeit zur Tramlinie 1 zugutekommen.",
+    "Die Südschule wird derzeit nur mit Einzelfahrten in Form von Stichfahrten zu Schulbeginn und Schulende angefahren.",
+    "Die Präsentation sieht zusätzlich vor, die Haltestelle Südschule am bisherigen Standort Am Pfad entfallen zu lassen und durch die neue Haltestelle zu ersetzen."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:c5a6efc7c9c817d778ec1c5c923548be86ac2162b832cda1632306b1be09d7e3",
-  "summary": "Die Vorlage schlägt vor, die Bedienung der Haltestelle Am Zinken durch die Buslinie 71 in Richtung Innenstadt entfallen zu lassen und auf der Welschneureuter Straße, Ecke Alte Friedrichstraße auf Höhe der Südschule, eine zusätzliche Haltestelle einzurichten. Begründet wird dies mit Verkehrsbehinderungen durch Falschparker, die zu Verspätungen und verpassten Bahnanschlüssen führen."
+  "summary": "Die VBK schlägt vor, auf der Buslinie 71 die Bedienung der Haltestelle Am Zinken in Richtung Innenstadt entfallen zu lassen, weil Falschparker für Verspätungen und verpasste Bahnanschlüsse sorgen. Zusätzlich soll an der Welschneureuter Straße Ecke Alte Friedrichstraße eine neue Haltestelle die Südschule ganztägig anbinden."
 }

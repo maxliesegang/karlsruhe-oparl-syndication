@@ -1,15 +1,30 @@
 {
-  "generatedAt": "2026-10-24T11:38:44.609Z",
+  "generatedAt": "2026-11-07T23:45:54.107Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52539",
+  "keyPointSources": [
+    null,
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671296",
+      "quote": "Durch die Firma Bioplan wird ein integriertes Stadttaubenmanagement empfohlen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671296",
+      "quote": "An den bekannten Fütterungsschwerpunkten, zum Beispiel Kaiserallee, Kronenplatz und Friedrichsplatz soll eine Beschilderung mit Hinweisen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/671296",
+      "quote": "Auf dem Friedrichsplatz fanden 16 Kontrollen statt, es konnte in diesem Zeitraum aber kein Verstoß festgestellt werden"
+    }
+  ],
   "keyPoints": [
-    "Die monatlichen Zählungen erfolgten an vier betreuten Schlägen unter anderem am Schloss und an der Heinrich-Meidinger-Schule sowie an drei Hotspots wie Europaplatz, Kronenplatz und Ostringbrücke.",
-    "Der Bericht empfiehlt unter anderem den Ausbau betreuter Taubenschläge an weiteren Hotspots, konsequente Kontrollen von Fütterungsverboten und Öffentlichkeitsarbeit.",
-    "An Fütterungsschwerpunkten wie Kaiserallee, Kronenplatz und Friedrichsplatz sollen Schilder auf das Fütterungsverbot und den Bußgeldtatbestand hinweisen; am Marktplatz wurde ein Fütterer mit 200 Euro belegt.",
-    "Mit dem Verein Stadttaubenkonzept e. V. ist eine Reduzierung der jährlichen Futterkosten von 15.000 auf 13.000 Euro und der Sachaufwendungen von 4.000 auf 1.000 Euro vereinbart."
+    "Die monatlichen Zählungen erfolgten an sieben Standorten in der Innenstadt, darunter vier betreute Schläge und drei Taubenhotspots.",
+    "Der Endbericht empfiehlt ein integriertes Stadttaubenmanagement mit weiteren betreuten Schlägen, kontrollierten Fütterungsverboten und Öffentlichkeitsarbeit.",
+    "An Fütterungsschwerpunkten wie Kaiserallee, Kronenplatz und Friedrichsplatz sollen Schilder auf das Fütterungsverbot und den Bußgeldtatbestand hinweisen.",
+    "Der Ordnungsdienst kontrollierte im Oktober verstärkt, auf dem Friedrichsplatz blieben die Kontrollen ohne Ergebnis, am Marktplatz wurde ein Bußgeld von 200 Euro verhängt."
   ],
   "model": "mimo-v2.6-pro",
-  "promptVersion": "paper-de-v8",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
   "sourceHash": "sha256:fb0208a02516a52474308c2db9ce8b415fd1d31844971a4fb8a064937f450bf9",
-  "summary": "Die Vorlage stellt die Ergebnisse der Taubenzählungen des Büros Bioplan in der Karlsruher Innenstadt von 2019 bis 2024 vor und leitet daraus künftige Maßnahmen ab. Als entscheidend gilt die Einschränkung des Nahrungsangebots außerhalb der betreuten Schläge, während Kastration oder Medikamenteneinsatz als nicht praktikabel und zu teuer verworfen werden."
+  "summary": "Die Vorlage stellt die Ergebnisse der Taubenerfassung in der Karlsruher Innenstadt von 2019 bis 2024 vor und kommt zu dem Schluss, dass betreute Taubenschläge allein die Gesamtpopulation nicht nachhaltig senken. Als nächste Schritte sind Beschilderung, Kontrollen und eine günstigere Fütterung geplant, Kastration und Medikamenteneinsatz gelten als nicht praktikabel."
 }
