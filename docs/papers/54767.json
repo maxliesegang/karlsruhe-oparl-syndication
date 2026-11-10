@@ -1,18 +1,6 @@
 {
   "auxiliaryFile": [
     {
-      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00680685.pdf",
-      "created": "2026-09-04T09:58:15+02:00",
-      "date": "2026-09-04",
-      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00680685.pdf",
-      "fileName": "00680685.pdf",
-      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680685",
-      "mimeType": "application/pdf",
-      "modified": "2026-10-27T13:31:27+01:00",
-      "name": "alt - Beschlussvorlage Nachhaltiges Parkraumkonzept Stadt Karlsruhe",
-      "type": "https://schema.oparl.org/1.1/File"
-    },
-    {
       "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00680688.pdf",
       "created": "2026-09-04T15:04:33+02:00",
       "date": "2026-09-04",
@@ -22,6 +10,18 @@
       "mimeType": "application/pdf",
       "modified": "2026-10-27T13:31:27+01:00",
       "name": "Anlage 1 Nachhaltiges Parkraumkonzept Stadt Karlsruhe",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681714.pdf",
+      "created": "2026-10-15T12:39:26+02:00",
+      "date": "2026-10-15",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681714.pdf",
+      "fileName": "00681714.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681714",
+      "mimeType": "application/pdf",
+      "modified": "2026-11-10T09:54:47+01:00",
+      "name": "Neu 15-10-2026 Beschlussvorlage Nachhaltiges Parkraumkonzept Stadt Karlsruhe",
       "type": "https://schema.oparl.org/1.1/File"
     },
     {
@@ -169,6 +169,19 @@
       ],
       "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54767",
       "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104130",
+      "created": "2026-10-21T12:10:09+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38206",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10616",
+      "modified": "2026-11-02T15:40:19+01:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/38449"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54767",
+      "role": "Behandlung",
       "type": "https://schema.oparl.org/1.1/Consultation"
     }
   ],
