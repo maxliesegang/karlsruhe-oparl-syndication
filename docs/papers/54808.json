@@ -8,7 +8,7 @@
       "fileName": "00680170.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680170",
       "mimeType": "application/pdf",
-      "modified": "2026-10-29T07:41:02+01:00",
+      "modified": "2026-11-11T07:22:05+01:00",
       "name": "Antrag",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -20,7 +20,7 @@
       "fileName": "00680747.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680747",
       "mimeType": "application/pdf",
-      "modified": "2026-10-29T07:41:02+01:00",
+      "modified": "2026-11-11T07:22:05+01:00",
       "name": "Stellungnahme Antrag",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -32,13 +32,24 @@
       "fileName": "00681347.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681347",
       "mimeType": "application/pdf",
-      "modified": "2026-10-29T07:41:02+01:00",
+      "modified": "2026-11-11T07:22:05+01:00",
       "name": "Protokoll GR 29.09.2026 TOP 26",
       "type": "https://schema.oparl.org/1.1/File"
     }
   ],
   "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
   "consultation": [
+    {
+      "created": "2026-11-11T07:13:51+01:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38289",
+      "modified": "2026-11-11T07:13:51+01:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54808",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
     {
       "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103019",
       "authoritative": true,
@@ -70,7 +81,7 @@
   "created": "2026-08-14T08:41:40+02:00",
   "date": "2026-08-14",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54808",
-  "modified": "2026-10-29T07:41:02+01:00",
+  "modified": "2026-11-11T07:22:05+01:00",
   "name": "City Tax an neue Rahmenbedingungen anpassen",
   "paperType": "Antrag",
   "reference": "2026/0619",
