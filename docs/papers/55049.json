@@ -8,7 +8,7 @@
       "fileName": "00681596.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681596",
       "mimeType": "application/pdf",
-      "modified": "2026-11-12T08:02:18+01:00",
+      "modified": "2026-11-12T10:18:40+01:00",
       "name": "Beschlussvorlage",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -20,7 +20,7 @@
       "fileName": "00681600.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681600",
       "mimeType": "application/pdf",
-      "modified": "2026-11-12T08:02:18+01:00",
+      "modified": "2026-11-12T10:18:40+01:00",
       "name": "Anlage-A-Kalkulation_Entgelte_MoS",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -32,7 +32,7 @@
       "fileName": "00681601.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681601",
       "mimeType": "application/pdf",
-      "modified": "2026-11-12T08:02:18+01:00",
+      "modified": "2026-11-12T10:18:40+01:00",
       "name": "Anlage-B_Vertragsbedingungen_MoS",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -44,7 +44,7 @@
       "fileName": "00681602.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681602",
       "mimeType": "application/pdf",
-      "modified": "2026-11-12T08:02:18+01:00",
+      "modified": "2026-11-12T10:18:40+01:00",
       "name": "Anlage-C-Kalkulation_Entgelte_Febe",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -56,7 +56,7 @@
       "fileName": "00681603.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681603",
       "mimeType": "application/pdf",
-      "modified": "2026-11-12T08:02:18+01:00",
+      "modified": "2026-11-12T10:18:40+01:00",
       "name": "Anlage-D_Vertragsbedingungen_FeBe",
       "type": "https://schema.oparl.org/1.1/File"
     }
@@ -64,11 +64,24 @@
   "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
   "consultation": [
     {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104275",
+      "created": "2026-10-27T07:29:42+01:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38111",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10613",
+      "modified": "2026-11-11T09:37:05+01:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55049",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
       "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104470",
       "created": "2026-11-02T16:27:27+01:00",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38110",
       "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10600",
-      "modified": "2026-11-02T16:30:53+01:00",
+      "modified": "2026-11-12T17:38:14+01:00",
       "organization": [
         "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32806"
       ],
@@ -80,7 +93,7 @@
   "created": "2026-10-13T09:21:50+02:00",
   "date": "2026-10-13",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55049",
-  "modified": "2026-11-12T08:02:18+01:00",
+  "modified": "2026-11-12T10:18:40+01:00",
   "name": "Elternentgelte und Vertragsbedingungen für Grundschulkinder im Schulkind-Bildungs- und Betreuungssystem (SKiBB) an öffentlichen Grundschulen ab dem Schuljahr 2027/28",
   "paperType": "Beschlussvorlage",
   "reference": "2026/0842",

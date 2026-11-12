@@ -8,7 +8,7 @@
       "fileName": "00681668.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681668",
       "mimeType": "application/pdf",
-      "modified": "2026-11-12T08:03:22+01:00",
+      "modified": "2026-11-12T10:19:01+01:00",
       "name": "Beschlussvorlage",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -20,7 +20,7 @@
       "fileName": "00681670.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681670",
       "mimeType": "application/pdf",
-      "modified": "2026-11-12T08:03:22+01:00",
+      "modified": "2026-11-12T10:19:01+01:00",
       "name": "Anlage_Foerderrichtlinie_FreieTraeger_final_23-09-2026",
       "type": "https://schema.oparl.org/1.1/File"
     }
@@ -28,11 +28,24 @@
   "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
   "consultation": [
     {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104283",
+      "created": "2026-10-27T07:29:42+01:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38139",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10613",
+      "modified": "2026-11-11T09:37:05+01:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55065",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
       "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104473",
       "created": "2026-11-02T16:27:27+01:00",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38138",
       "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10600",
-      "modified": "2026-11-02T16:30:58+01:00",
+      "modified": "2026-11-12T17:38:22+01:00",
       "organization": [
         "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32806"
       ],
@@ -44,7 +57,7 @@
   "created": "2026-10-14T11:27:49+02:00",
   "date": "2026-10-14",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55065",
-  "modified": "2026-11-12T08:03:22+01:00",
+  "modified": "2026-11-12T10:19:01+01:00",
   "name": "Richtlinie der Stadt Karlsruhe für die Förderung der Schulkindbetreuung freier Träger an öffentlichen Halbtagsgrundschulen im Modularen System (MoS)",
   "paperType": "Beschlussvorlage",
   "reference": "2026/0856",

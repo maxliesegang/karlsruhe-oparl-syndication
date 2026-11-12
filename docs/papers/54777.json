@@ -1,0 +1,67 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00679978.pdf",
+      "created": "2026-07-29T09:37:21+02:00",
+      "date": "2026-07-29",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00679978.pdf",
+      "fileName": "00679978.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679978",
+      "mimeType": "application/pdf",
+      "modified": "2026-11-12T10:11:36+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681856.pdf",
+      "created": "2026-10-20T14:29:29+02:00",
+      "date": "2026-10-20",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681856.pdf",
+      "fileName": "00681856.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681856",
+      "mimeType": "application/pdf",
+      "modified": "2026-11-12T10:11:36+01:00",
+      "name": "Anlage 1 - Satzung zur Erhebung einer Verpackungsteuer in der Stadt Karlsruhe",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00682236.pdf",
+      "created": "2026-11-03T11:14:41+01:00",
+      "date": "2026-11-03",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00682236.pdf",
+      "fileName": "00682236.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/682236",
+      "mimeType": "application/pdf",
+      "modified": "2026-11-12T10:11:36+01:00",
+      "name": "Anlage - 2 Beratungsgrundlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104257",
+      "created": "2026-10-27T07:29:42+01:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37743",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10613",
+      "modified": "2026-10-27T13:45:57+01:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54777",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-07-29T09:33:52+02:00",
+  "date": "2026-07-29",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54777",
+  "modified": "2026-11-12T10:11:36+01:00",
+  "name": "Satzung über die Erhebung einer Verpackungsteuer in der Stadt Karlsruhe - Verpackungsteuersatzung",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0587",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

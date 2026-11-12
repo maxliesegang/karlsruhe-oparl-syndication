@@ -8,7 +8,7 @@
       "fileName": "00681111.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681111",
       "mimeType": "application/pdf",
-      "modified": "2026-11-12T07:51:49+01:00",
+      "modified": "2026-11-12T10:16:05+01:00",
       "name": "Anlage Zukunftspapier_Stadt_OV_Endfassung",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -20,7 +20,7 @@
       "fileName": "00681113.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681113",
       "mimeType": "application/pdf",
-      "modified": "2026-11-12T07:51:49+01:00",
+      "modified": "2026-11-12T10:16:05+01:00",
       "name": "Informationsvorlage",
       "type": "https://schema.oparl.org/1.1/File"
     }
@@ -105,12 +105,25 @@
       "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54976",
       "role": "Kenntnisnahme",
       "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104302",
+      "created": "2026-10-27T07:29:44+01:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38014",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10613",
+      "modified": "2026-11-11T09:37:05+01:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54976",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
     }
   ],
   "created": "2026-09-28T10:04:10+02:00",
   "date": "2026-09-28",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54976",
-  "modified": "2026-11-12T07:51:49+01:00",
+  "modified": "2026-11-12T10:16:05+01:00",
   "name": "Zukunftspapier der Ortsverwaltungen",
   "paperType": "Informationsvorlage",
   "reference": "2026/0778",

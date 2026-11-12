@@ -8,7 +8,7 @@
       "fileName": "00681074.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681074",
       "mimeType": "application/pdf",
-      "modified": "2026-11-12T07:58:10+01:00",
+      "modified": "2026-11-12T10:18:02+01:00",
       "name": "Beschlussvorlage",
       "type": "https://schema.oparl.org/1.1/File"
     }
@@ -16,11 +16,24 @@
   "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
   "consultation": [
     {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104266",
+      "created": "2026-10-27T07:29:42+01:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37989",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10613",
+      "modified": "2026-11-11T09:37:05+01:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54963",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
       "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104468",
       "created": "2026-11-02T16:27:27+01:00",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37988",
       "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10600",
-      "modified": "2026-11-02T16:30:58+01:00",
+      "modified": "2026-11-12T17:39:00+01:00",
       "organization": [
         "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32806"
       ],
@@ -32,7 +45,7 @@
   "created": "2026-09-25T11:18:12+02:00",
   "date": "2026-09-25",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54963",
-  "modified": "2026-11-12T07:58:10+01:00",
+  "modified": "2026-11-12T10:18:02+01:00",
   "name": "Einrichtung einer Außenstelle der Realschule am Rennbuckel am Standort Uhlandstraße 45 zum Schuljahr 2027/28",
   "paperType": "Beschlussvorlage",
   "reference": "2026/0766",

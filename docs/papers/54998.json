@@ -1,0 +1,54 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681203.pdf",
+      "created": "2026-09-29T10:42:15+02:00",
+      "date": "2026-09-29",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681203.pdf",
+      "fileName": "00681203.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681203",
+      "mimeType": "application/pdf",
+      "modified": "2026-11-12T08:17:52+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
+  "consultation": [
+    {
+      "created": "2026-10-01T10:47:04+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38061",
+      "modified": "2026-10-15T14:24:47+02:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/48728"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54998",
+      "role": "Behandlung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104315",
+      "created": "2026-10-27T13:43:48+01:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38037",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10613",
+      "modified": "2026-11-11T09:46:12+01:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54998",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-09-29T10:40:32+02:00",
+  "date": "2026-09-29",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54998",
+  "modified": "2026-11-12T08:17:52+01:00",
+  "name": "Mehr Hitzeschutz durch ausgeweitete und effizientere Grünpflegepatenschaften",
+  "paperType": "Antrag",
+  "reference": "2026/0798",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/882984"
+  ]
+}

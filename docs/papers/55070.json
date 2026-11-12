@@ -1,0 +1,58 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681683.pdf",
+      "created": "2026-10-14T16:18:30+02:00",
+      "date": "2026-07-14",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681683.pdf",
+      "fileName": "00681683.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681683",
+      "mimeType": "application/pdf",
+      "modified": "2026-11-12T08:16:53+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681688.pdf",
+      "created": "2026-10-14T16:18:31+02:00",
+      "date": "2026-10-05",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681688.pdf",
+      "fileName": "00681688.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681688",
+      "mimeType": "application/pdf",
+      "modified": "2026-11-12T08:16:53+01:00",
+      "name": "Protokoll GR 29.09.2026 TOP 23",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104578",
+      "created": "2026-11-11T09:46:12+01:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38152",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10613",
+      "modified": "2026-11-11T09:46:12+01:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55070",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-10-14T16:18:30+02:00",
+  "date": "2026-10-14",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55070",
+  "modified": "2026-11-12T08:16:53+01:00",
+  "name": "Direktvergabe Reinigungsleistungen an KVD",
+  "paperType": "Antrag",
+  "reference": "2026/0553/1",
+  "subordinatedPaper": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54735"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/882982"
+  ]
+}

@@ -8,7 +8,7 @@
       "fileName": "00680658.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680658",
       "mimeType": "application/pdf",
-      "modified": "2026-11-12T08:07:13+01:00",
+      "modified": "2026-11-12T10:20:01+01:00",
       "name": "Beschlussvorlage",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -20,13 +20,26 @@
       "fileName": "00681016.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681016",
       "mimeType": "application/pdf",
-      "modified": "2026-11-12T08:07:13+01:00",
+      "modified": "2026-11-12T10:20:01+01:00",
       "name": "Plan Kriegsgräber Friedhof Neureut-Nord_Hermann-Meinzer-Park",
       "type": "https://schema.oparl.org/1.1/File"
     }
   ],
   "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
   "consultation": [
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104262",
+      "created": "2026-10-27T07:29:42+01:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37889",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10613",
+      "modified": "2026-11-11T09:37:05+01:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54899",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
     {
       "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104449",
       "created": "2026-11-02T09:18:29+01:00",
@@ -44,7 +57,7 @@
   "created": "2026-09-01T15:15:03+02:00",
   "date": "2026-09-23",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54899",
-  "modified": "2026-11-12T08:07:13+01:00",
+  "modified": "2026-11-12T10:20:01+01:00",
   "name": "Teilentwidmung des ehemaligen Friedhofs Neureut Nord (Hermann-Meinzer-Park)",
   "paperType": "Beschlussvorlage",
   "reference": "2026/0705",

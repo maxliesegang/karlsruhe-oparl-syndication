@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681082.pdf",
+      "created": "2026-09-25T11:52:06+02:00",
+      "date": "2026-09-25",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681082.pdf",
+      "fileName": "00681082.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681082",
+      "mimeType": "application/pdf",
+      "modified": "2026-11-12T08:10:50+01:00",
+      "name": "Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681545.pdf",
+      "created": "2026-10-09T11:21:06+02:00",
+      "date": "2026-10-09",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681545.pdf",
+      "fileName": "00681545.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681545",
+      "mimeType": "application/pdf",
+      "modified": "2026-11-12T08:10:50+01:00",
+      "name": "Stellungnahme Antrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104293",
+      "created": "2026-10-27T07:29:43+01:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37997",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10613",
+      "modified": "2026-11-11T09:37:05+01:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54967",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-09-25T11:51:30+02:00",
+  "date": "2026-09-25",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54967",
+  "modified": "2026-11-12T08:10:50+01:00",
+  "name": "Sanierung des Badischen Staatstheaters – Öffentliche Informationsveranstaltung zum aktuellen Stand und zur weiteren Entwicklung des Großbauprojekts",
+  "paperType": "Antrag",
+  "reference": "2026/0770",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/882963"
+  ]
+}
