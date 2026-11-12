@@ -1,14 +1,33 @@
 {
-  "generatedAt": "2026-08-05T12:57:19.739Z",
+  "generatedAt": "2026-11-12T07:22:02.576Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/47923",
-  "keyPoints": [
-    "Der Antrag zielt auf den alternierenden Einsatz mindestens einer weiteren klimastabilen Baumart mit den Zürgelbäumen ab, um das Risiko eines Totalausfalls zu verringern.",
-    "Für die weiteren Bauabschnitte wird geprüft, wo zusätzliche Baumstandorte für einen durchgehenden Schattenwurf möglich sind.",
-    "Die Verwaltung geht von geringfügigen Kostenanpassungen durch die Veränderung des Baumkonzepts aus."
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/643487",
+      "quote": "Diese Baumarten sollen mit dem Zürgelbaum harmonieren und in das erarbeitete Konzept der 86 Neupflanzungen zu integrieren sein"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/643385",
+      "quote": "Wegen der kurzen Vorlaufzeit bis zum Beginn des ersten Bauabschnitts könnten ggf. zunächst die beiden Gruppen von je zehn Zürgelbäumen gepflanzt werden"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/643487",
+      "quote": "Der Abstand der geplanten Zürgelbäume im ersten Bauabschnitt der Kaiserstraße ist unter anderem durch zahlreiche Einbauten der unterirdischen Haltestelle"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/643487",
+      "quote": "ein deutlich engerer Baumabstand von etwa 15 bis 20 m bereits geplant ist"
+    }
   ],
-  "model": "mimo-v2.5-pro",
-  "promptVersion": "paper-de-v5",
+  "keyPoints": [
+    "Die zusätzliche Baumart soll sich in das erarbeitete Konzept der 86 Neupflanzungen einfügen und mit dem Zürgelbaum harmonieren.",
+    "Wegen der kurzen Vorlaufzeit bis zum Baubeginn schlägt der Antrag vor, zunächst die beiden Gruppen von je zehn Zürgelbäumen zu pflanzen.",
+    "Der weitere Baumabstand im ersten Bauabschnitt wird unter anderem durch Einbauten der unterirdischen Haltestelle bedingt.",
+    "In den weiteren Abschnitten ab Ritterstraße Richtung Westen und Adlerstraße Richtung Osten ist bereits ein Baumabstand von etwa 15 bis 20 Metern geplant."
+  ],
+  "model": "mimo-v2.6-pro",
+  "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
-  "sourceHash": "sha256:0ded3262241c84c166509ec4c5891858909243433ec526c78ade79cf8cdd3af6",
-  "summary": "Der Änderungs-/Ergänzungsantrag der Grünen-Fraktion zu mehr Baumarten und mehr Bäumen in der Kaiserstraße wurde vom Gemeinderat am 20. Dezember 2022 einstimmig angenommen. Die Verwaltung prüft nun ergänzende klimastabile Baumarten neben den Zürgelbäumen und wird die Ergebnisse im Planungsausschuss und Ausschuss für Umwelt und Gesundheit vorstellen."
+  "sourceHash": "sha256:25cc034d11cca72b0ecca07fbefa1b11af076a8c0981d20fcea1e08bf50479b5",
+  "summary": "Der Ergänzungsantrag fordert, in der Kaiserstraße neben den Zürgelbäumen mindestens eine weitere klimastabile Baumart zu pflanzen und für die weiteren Bauabschnitte zusätzliche Baumstandorte zu prüfen. Die Verwaltung empfiehlt die Annahme und will Baumart und Anordnung gemeinsam mit dem Wettbewerbssieger abstimmen."
 }
