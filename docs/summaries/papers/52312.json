@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-11-13T12:20:21.897Z",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52312",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/669768",
+      "quote": "Die Nutzung von RDS-CALs in älteren Versionen für den Zugriff auf neuere Windows Server-Versionen ist ausgeschlossen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/669768",
+      "quote": "Die vorzeitige Beschaffung der 2.200 RDS-CALs ist damit unumgänglich, denn andernfalls stellt die Nutzung der Komm.ONE-Cloud einen Lizenzverstoß sowie eine erhebliche Sicherheitslücke dar"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/669768",
+      "quote": "Der Gesamtaufwand beider Beschaffungen inkl. aller Folgekosten beläuft sich auf ca. 1.090.000 EUR brutto für die Lizenzen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/669768",
+      "quote": "Der Kaufpreis der Lizenzen wird auf ca. 500.000 EUR geschätzt und beruht auf aktuellen Preisinformationen des derzeitigen EA-Vertragspartners"
+    }
+  ],
+  "keyPoints": [
+    "Die Notwendigkeit ergibt sich daraus, dass ältere RDS-CALs nicht für den Zugriff auf neuere Windows-Server-Versionen genutzt werden dürfen und die Stadt nur Lizenzen der Versionen 2016 und 2019 vorhält.",
+    "Ohne die vorzeitige Beschaffung läge nach Einschätzung der Vorlage ein Lizenzverstoß und eine erhebliche Sicherheitslücke vor, da die Komm.ONE-Cloud Grundlage zahlreicher Fachanwendungen wie SAP-Finanzen ist.",
+    "Der Gesamtaufwand beider Beschaffungen einschließlich aller Folgekosten wird auf rund 1.090.000 Euro brutto beziffert, für 2025 fallen etwa 340.000 Euro brutto an.",
+    "Die weiteren 2.300 Lizenzen sollen 2026 im Rahmen eines True-Ups gekauft werden; der Kaufpreis wird auf etwa 500.000 Euro geschätzt, wobei mit bis zu 20 Prozent Preisaufschlag gerechnet wird."
+  ],
+  "model": "mimo-v2.6-pro",
+  "promptVersion": "paper-de-v9",
+  "provider": "opencode-go",
+  "sourceHash": "sha256:944a3bd93a48369b1136d9d8b9ea9441476401ee82a382e4c476f489e862a079",
+  "summary": "Die Vorlage schlägt vor, insgesamt 4.500 Remotedesktopdienst-Clientzugriffslizenzen über das aktuelle und kommende Microsoft Enterprise-Agreement zu beschaffen. Davon müssen 2.200 Stück bereits 2025 bereitgestellt werden, weil die Stadt nach der Umstellung der Komm.ONE auf die Cloud 2.0 vertraglich zur Beistellung verpflichtet ist."
+}

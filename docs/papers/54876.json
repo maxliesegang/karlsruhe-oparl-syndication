@@ -203,6 +203,19 @@
       "type": "https://schema.oparl.org/1.1/Consultation"
     },
     {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104352",
+      "created": "2026-10-29T16:53:59+01:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38146",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10790",
+      "modified": "2026-11-04T14:08:06+01:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/34764"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54876",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
       "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104448",
       "created": "2026-11-02T09:18:29+01:00",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38147",
@@ -223,6 +236,9 @@
   "name": "Satzung der Stadt Karlsruhe über Gebühren für das Friedhofs-und Bestattungswesen (Friedhofsgebührensatzung)",
   "paperType": "Beschlussvorlage",
   "reference": "2026/0684",
+  "superordinatedPaper": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55137"
+  ],
   "type": "https://schema.oparl.org/1.1/Paper",
   "underDirectionOf": [
     "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/882977"

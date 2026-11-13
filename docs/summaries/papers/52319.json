@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-11-13T12:20:21.897Z",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52319",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/669818",
+      "quote": "Eine systematische, durchsuchbare und den Fraktionen zeitnah zur Verfügung gestellte Dokumentation der Beratungen existiert jedoch nicht"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/669818",
+      "quote": "Es ist sicherzustellen, dass die Aufzeichnungen und Transkripte ausschließlich für die interne Rats- und Fraktionsarbeit genutzt werden"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/669818",
+      "quote": "Hauptamt hat bisher noch keine praktischen Erfahrungen mit der automatischen Transkription im Rahmen der Protokollerstellung gesammelt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/669818",
+      "quote": "Aktuell haben wir eine interkommunale Umfrage bei Großstädten in Baden-Württemberg laufen, die unter anderem den Einsatz von KI bei der Ratsarbeit erhebt"
+    }
+  ],
+  "keyPoints": [
+    "Die bestehenden Tonaufzeichnungen werden bislang nicht systematisch und durchsuchbar dokumentiert.",
+    "Die Transkripte und gegebenenfalls thematisch sortierte Zusammenfassungen sollen ausschließlich der internen Rats- und Fraktionsarbeit dienen.",
+    "Das Hauptamt sammelt bisher keine praktischen Erfahrungen mit automatischer Transkription, hat das Thema aber in ein Projekt zur Zentralisierung der Ratsarbeit aufgenommen.",
+    "Eine interkommunale Umfrage bei Großstädten in Baden-Württemberg erhebt unter anderem den Einsatz von KI bei der Ratsarbeit."
+  ],
+  "model": "mimo-v2.6-pro",
+  "promptVersion": "paper-de-v9",
+  "provider": "opencode-go",
+  "sourceHash": "sha256:f76ee243ce83f5734c760abb27daf1ce1fc5cdcd14c5beeb19b8285f750e190a",
+  "summary": "Die Vorlage schlägt vor, die bestehenden Audioaufzeichnungen der Neureuter Ortschaftsratssitzungen künftig per KI zu transkribieren und zu verschlagworten und die Ergebnisse passwortgeschützt den Fraktionen bereitzustellen. Das Städtische Hauptamt verweist auf laufende Vorarbeiten und empfiehlt vorerst, sich auf die gesetzlich vorgegebenen Mindestinhalte der Niederschriften zu konzentrieren."
+}

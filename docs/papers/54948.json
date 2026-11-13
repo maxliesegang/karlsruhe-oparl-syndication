@@ -1,0 +1,55 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00680939.pdf",
+      "created": "2026-09-22T09:29:26+02:00",
+      "date": "2026-09-22",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00680939.pdf",
+      "fileName": "00680939.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/680939",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-29T16:54:31+01:00",
+      "name": "22.09.2026, Anfrage Hausarztversorgung Grüne-OR-Fraktion",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681023.pdf",
+      "created": "2026-09-24T08:40:56+02:00",
+      "date": "2026-09-24",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681023.pdf",
+      "fileName": "00681023.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681023",
+      "mimeType": "application/pdf",
+      "modified": "2026-10-29T16:54:31+01:00",
+      "name": "Stellungnahme Anfrage Stupferich",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/103876",
+      "created": "2026-10-14T10:38:21+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37966",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10790",
+      "modified": "2026-11-04T14:08:02+01:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/34764"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54948",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-09-22T09:23:59+02:00",
+  "date": "2026-09-22",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54948",
+  "modified": "2026-10-29T16:54:31+01:00",
+  "name": "Anfrage der Grünen-OR-Fraktion vom 22.09.2026; hier: Hausärztliche Versorgung in Stupferich",
+  "paperType": "Anfrage",
+  "reference": "2026/0752",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/882957"
+  ]
+}
