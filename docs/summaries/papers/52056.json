@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-11-14T11:37:09.207Z",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/52056",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/667989",
+      "quote": "Dies führt zu einer Fahrzeitverlängerung von mindestens sieben Minuten je Fahrtrichtung"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/667989",
+      "quote": "Die vorgeschlagene Wegstrecke über die Bergstation Turmbergbahn beträgt ca. 5,00 km"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/667989",
+      "quote": "so dass bei einer möglichen Realisierung ein zusätzlicher Bus erforderlich wäre"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/667989",
+      "quote": "dass die ausgelassenen Haltestellen – hier besonders die Haltestelle Eisenhafengrund – eine im Vergleich zu anderen Haltestellen sehr hohe Nachfrage haben"
+    }
+  ],
+  "keyPoints": [
+    "Für die Fahrgäste von und nach Stupferich würde sich die Fahrzeit je Richtung um mindestens sieben Minuten verlängern.",
+    "Die VBK geht für die rund fünf Kilometer lange Strecke über die Bergstation der Turmbergbahn von einer Fahrzeit von 12 bis 13 Minuten aus.",
+    "Da die vorhandenen Ausgleichszeiten von zusammen sechs Minuten nicht ausreichen, wäre für die Umleitung ein zusätzlicher Bus nötig.",
+    "Die bei den Umleitungsfahrten nicht bedienten Haltestellen haben laut Stellungnahme eine sehr hohe Nachfrage, insbesondere die Haltestelle Eisenhafengrund."
+  ],
+  "model": "mimo-v2.6-pro",
+  "promptVersion": "paper-de-v9",
+  "provider": "opencode-go",
+  "sourceHash": "sha256:2cfc7e6a40383f6bcf292c73802b7a45fa85b1c01f438b8a123a95b81f88a3f5",
+  "summary": "Die Anfrage schlägt vor, die Buslinie 23 bei Ausfällen der Turmbergbahn als Schienenersatzverkehr stündlich über den Turmberg umzuleiten und dort eine provisorische Haltestelle einzurichten. Die Stellungnahme der VBK lehnt dies ab, weil ein zusätzlicher Bus erforderlich wäre und sich die Fahrzeiten verlängern."
+}
