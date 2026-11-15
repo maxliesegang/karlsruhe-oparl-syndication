@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-11-15T00:01:35.352Z",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/51701",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/665753",
+      "page": 8,
+      "quote": "Haupterhebung: Februar 2023 bis Januar 2024 außerhalb von Ferien und Feiertagen"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/667401",
+      "page": 2,
+      "quote": "In diesem Erhebungszeitraum wurden im Stadtgebiet Karlsruhe insgesamt 1.731 Personen in 978 Haushalten befragt"
+    },
+    null,
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/667401",
+      "page": 2,
+      "quote": "im Hinblick auf den Radverkehrsanteil deutlich über dem Durchschnittswert (+13 Prozentpunkte). Für den MIV zeigen sich dagegen unterdurchschnittliche Wegeanteile (-12 Prozentpunkte)"
+    }
+  ],
+  "keyPoints": [
+    "Die Haupterhebung fand über rund ein Jahr statt und vermied Ferien- und Feiertage.",
+    "Der Auswertung liegen die Angaben von 1.731 befragten Personen aus 978 Haushalten im Stadtgebiet Karlsruhe zugrunde.",
+    "Gegenüber der Erhebung 2018 zeigt sich ein deutlicher Rückgang des motorisierten Individualverkehrs bei gleichzeitigem Anstieg des Fußverkehrs.",
+    "Im Städtevergleich liegt der Radverkehrsanteil deutlich über dem Durchschnitt, während die Wegeanteile im motorisierten Individualverkehr unterdurchschnittlich sind."
+  ],
+  "model": "mimo-v2.6-pro",
+  "promptVersion": "paper-de-v9",
+  "provider": "opencode-go",
+  "sourceHash": "sha256:f1ff0df09bd6875140f25470c021dcd0f8b43f14c84915211d07593dadcdd503",
+  "summary": "Die Vorlage stellt die Ergebnisse der repräsentativen Haushaltsbefragung zur Mobilität in Karlsruhe vor und schlägt vor, sie öffentlich im Internet bereitzustellen. Die Daten sollen zudem in ein Verkehrsmodell zur CO2-Bewertung und einen Klimamobilitätsplan einfließen."
+}
