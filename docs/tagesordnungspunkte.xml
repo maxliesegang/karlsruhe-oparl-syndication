@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://maxliesegang.github.io/karlsruhe-oparl-syndication/</id>
     <title>Alle Tagesordnungspunkte</title>
-    <updated>2026-11-17T13:28:49.000Z</updated>
+    <updated>2026-11-17T14:58:37.000Z</updated>
     <generator>Custom TypeScript Atom Feed Generator</generator>
     <author>
         <name>Maximilian Liesegang</name>
@@ -13,6 +13,97 @@
     <link rel="self" href="https://maxliesegang.github.io/karlsruhe-oparl-syndication/tagesordnungspunkte.xml"/>
     <subtitle>Feed der Tagesordnungspunkte aus den Sitzungen aller Karlsruher Gremien</subtitle>
     <rights>Kein Copyright</rights>
+    <entry>
+        <title type="html"><![CDATA[Testvorlage 1]]></title>
+        <id>https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104725</id>
+        <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-10862#top1"/>
+        <updated>2026-11-17T14:58:37.000Z</updated>
+        <summary type="html"><![CDATA[Testvorlage 1]]></summary>
+        <content type="html"><![CDATA[
+      <b>Sitzung:</b> Gemeinderat (öffentlich/nicht öffentlich)<br>
+      <b>Datum:</b> 21. Dezember 2027<br>
+      <b>TOP 1:</b> Testvorlage 1<br>
+      
+      
+      
+      <b>Anhänge:</b><br> 
+    ]]></content>
+        <author>
+            <name>Gemeinderat (öffentlich/nicht öffentlich)</name>
+        </author>
+        <category label="Gemeinderat" scheme="https://oparl.org/schema/1.1/Organization" term="https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"/>
+        <category label="Beschlussvorlage" scheme="https://oparl.org/schema/1.1/Paper" term="Beschlussvorlage"/>
+        <published>2026-11-17T14:57:53.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bekanntgabe nichtöffentlich gefasster Beschlüsse]]></title>
+        <id>https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104722</id>
+        <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-11112#top1"/>
+        <updated>2026-11-17T14:56:16.000Z</updated>
+        <summary type="html"><![CDATA[Bekanntgabe nichtöffentlich gefasster Beschlüsse]]></summary>
+        <content type="html"><![CDATA[
+      <b>Sitzung:</b> Gemeinderat (öffentlich/nicht öffentlich)<br>
+      <b>Datum:</b> 2. Januar 2026<br>
+      <b>TOP 1:</b> Bekanntgabe nichtöffentlich gefasster Beschlüsse<br>
+      
+      
+      
+      <b>Anhänge:</b><br> 
+    ]]></content>
+        <author>
+            <name>Gemeinderat (öffentlich/nicht öffentlich)</name>
+        </author>
+        <category label="Gemeinderat" scheme="https://oparl.org/schema/1.1/Organization" term="https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"/>
+        <published>2026-11-17T14:52:22.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mitteilungen des Bürgermeisteramtes]]></title>
+        <id>https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104723</id>
+        <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-11112#top2"/>
+        <updated>2026-11-17T14:56:16.000Z</updated>
+        <summary type="html"><![CDATA[Mitteilungen des Bürgermeisteramtes]]></summary>
+        <content type="html"><![CDATA[
+      <b>Sitzung:</b> Gemeinderat (öffentlich/nicht öffentlich)<br>
+      <b>Datum:</b> 2. Januar 2026<br>
+      <b>TOP 2:</b> Mitteilungen des Bürgermeisteramtes<br>
+      
+      
+      
+      <b>Anhänge:</b><br> 
+    ]]></content>
+        <author>
+            <name>Gemeinderat (öffentlich/nicht öffentlich)</name>
+        </author>
+        <category label="Gemeinderat" scheme="https://oparl.org/schema/1.1/Organization" term="https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"/>
+        <published>2026-11-17T14:52:22.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Direktvergabe Reinigungsleistungen an KVD]]></title>
+        <id>https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104578</id>
+        <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-10613#top33"/>
+        <updated>2026-11-17T14:17:57.000Z</updated>
+        <summary type="html"><![CDATA[Der interfraktionelle Antrag der GRÜNEN, SPD, KAL, Die Linke und Volt schlägt vor, Reinigungsleistungen in einem Modellversuch direkt an die Kommunalen Versorgungsdienste des Städtischen Klinikums (KVD) zu vergeben. Damit soll die seit 2023 gesunkene Eigenreinigung wieder auf die vom Gemeinderat vorgegebene Mindestquote angehoben werden.]]></summary>
+        <content type="html"><![CDATA[
+      <b>Sitzung:</b> Gemeinderat (öffentlich/nicht öffentlich)<br>
+      <b>Datum:</b> 24. November 2026<br>
+      <b>TOP 33:</b> Direktvergabe Reinigungsleistungen an KVD<br>
+      
+      <b>Antragstellende Fraktionen:</b> GRÜNE, SPD, KAL, Die Linke, Volt<br><br>
+      <b>KI-generierte Zusammenfassung der Vorlage:</b> Der interfraktionelle Antrag der GRÜNEN, SPD, KAL, Die Linke und Volt schlägt vor, Reinigungsleistungen in einem Modellversuch direkt an die Kommunalen Versorgungsdienste des Städtischen Klinikums (KVD) zu vergeben. Damit soll die seit 2023 gesunkene Eigenreinigung wieder auf die vom Gemeinderat vorgegebene Mindestquote angehoben werden.<ul><li>Der Eigenanteil an Reinigungsleistungen ist laut Stellungnahme auf eine Gemeinderatsanfrage mittlerweile auf 17,5 Prozent gefallen. <small>(Quelle: <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681683.pdf#page=1">Antrag, S. 1</a>)</small></li><li>Der Gemeinderatsbeschluss von November 2023 sah vor, den Eigenanteil von 26 Prozent auf 50 Prozent zu erhöhen. <small>(Quelle: <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681683.pdf#page=1">Antrag, S. 1</a>)</small></li><li>Die schrittweise Erhöhung des Eigenanteils sollte ausgesetzt werden, das Absinken des Anteils aber ausdrücklich nicht zugelassen werden. <small>(Quelle: <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681683.pdf#page=1">Antrag, S. 1</a>)</small></li><li>Die KVD übernahmen in den Jahren 2019 bis 2021 die Reinigung von zwei größeren Bereichen des Klinikumsgeländes von einem Fremddienstleister. <small>(Quelle: <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681683.pdf#page=1">Antrag, S. 1</a>)</small></li></ul><small>Automatisch erstellt; maßgeblich sind die Originalunterlagen.</small><br><br>
+      <b>Anhänge:</b><br> <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681683.pdf">Antrag (Erstellt am: 14.10.2026, Aktualisiert am: 12.11.2026)</a><br><a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681688.pdf">Protokoll GR 29.09.2026 TOP 23 (Erstellt am: 14.10.2026, Aktualisiert am: 12.11.2026)</a><br>
+    ]]></content>
+        <author>
+            <name>Gemeinderat (öffentlich/nicht öffentlich)</name>
+        </author>
+        <category label="Gemeinderat" scheme="https://oparl.org/schema/1.1/Organization" term="https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"/>
+        <category label="GRÜNE" scheme="https://github.com/karlsruhe-oparl-syndication/schema/submitter" term="gruene"/>
+        <category label="SPD" scheme="https://github.com/karlsruhe-oparl-syndication/schema/submitter" term="spd"/>
+        <category label="KAL" scheme="https://github.com/karlsruhe-oparl-syndication/schema/submitter" term="kal"/>
+        <category label="Die Linke" scheme="https://github.com/karlsruhe-oparl-syndication/schema/submitter" term="die-linke"/>
+        <category label="Volt" scheme="https://github.com/karlsruhe-oparl-syndication/schema/submitter" term="volt"/>
+        <category label="Antrag" scheme="https://oparl.org/schema/1.1/Paper" term="Antrag"/>
+        <published>2026-11-11T08:46:12.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Kippen-Marathon für Karlsruhe]]></title>
         <id>https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104295</id>
@@ -467,33 +558,6 @@
         <category label="KAL" scheme="https://github.com/karlsruhe-oparl-syndication/schema/submitter" term="kal"/>
         <category label="Antrag" scheme="https://oparl.org/schema/1.1/Paper" term="Antrag"/>
         <published>2026-10-20T07:58:11.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Direktvergabe Reinigungsleistungen an KVD]]></title>
-        <id>https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104578</id>
-        <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-10613#top33"/>
-        <updated>2026-11-17T09:05:21.000Z</updated>
-        <summary type="html"><![CDATA[Der interfraktionelle Antrag der GRÜNEN, SPD, KAL, Die Linke und Volt schlägt vor, Reinigungsleistungen in einem Modellversuch direkt an die Kommunalen Versorgungsdienste des Städtischen Klinikums (KVD) zu vergeben. Damit soll die seit 2023 gesunkene Eigenreinigung wieder auf die vom Gemeinderat vorgegebene Mindestquote angehoben werden.]]></summary>
-        <content type="html"><![CDATA[
-      <b>Sitzung:</b> Gemeinderat (öffentlich/nicht öffentlich)<br>
-      <b>Datum:</b> 24. November 2026<br>
-      <b>TOP 33:</b> Direktvergabe Reinigungsleistungen an KVD<br>
-      
-      <b>Antragstellende Fraktionen:</b> GRÜNE, SPD, KAL, Die Linke, Volt<br><br>
-      <b>KI-generierte Zusammenfassung der Vorlage:</b> Der interfraktionelle Antrag der GRÜNEN, SPD, KAL, Die Linke und Volt schlägt vor, Reinigungsleistungen in einem Modellversuch direkt an die Kommunalen Versorgungsdienste des Städtischen Klinikums (KVD) zu vergeben. Damit soll die seit 2023 gesunkene Eigenreinigung wieder auf die vom Gemeinderat vorgegebene Mindestquote angehoben werden.<ul><li>Der Eigenanteil an Reinigungsleistungen ist laut Stellungnahme auf eine Gemeinderatsanfrage mittlerweile auf 17,5 Prozent gefallen. <small>(Quelle: <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681683.pdf#page=1">Antrag, S. 1</a>)</small></li><li>Der Gemeinderatsbeschluss von November 2023 sah vor, den Eigenanteil von 26 Prozent auf 50 Prozent zu erhöhen. <small>(Quelle: <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681683.pdf#page=1">Antrag, S. 1</a>)</small></li><li>Die schrittweise Erhöhung des Eigenanteils sollte ausgesetzt werden, das Absinken des Anteils aber ausdrücklich nicht zugelassen werden. <small>(Quelle: <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681683.pdf#page=1">Antrag, S. 1</a>)</small></li><li>Die KVD übernahmen in den Jahren 2019 bis 2021 die Reinigung von zwei größeren Bereichen des Klinikumsgeländes von einem Fremddienstleister. <small>(Quelle: <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681683.pdf#page=1">Antrag, S. 1</a>)</small></li></ul><small>Automatisch erstellt; maßgeblich sind die Originalunterlagen.</small><br><br>
-      <b>Anhänge:</b><br> <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681683.pdf">Antrag (Erstellt am: 14.10.2026, Aktualisiert am: 12.11.2026)</a><br><a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681688.pdf">Protokoll GR 29.09.2026 TOP 23 (Erstellt am: 14.10.2026, Aktualisiert am: 12.11.2026)</a><br>
-    ]]></content>
-        <author>
-            <name>Gemeinderat (öffentlich/nicht öffentlich)</name>
-        </author>
-        <category label="Gemeinderat" scheme="https://oparl.org/schema/1.1/Organization" term="https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"/>
-        <category label="GRÜNE" scheme="https://github.com/karlsruhe-oparl-syndication/schema/submitter" term="gruene"/>
-        <category label="SPD" scheme="https://github.com/karlsruhe-oparl-syndication/schema/submitter" term="spd"/>
-        <category label="KAL" scheme="https://github.com/karlsruhe-oparl-syndication/schema/submitter" term="kal"/>
-        <category label="Die Linke" scheme="https://github.com/karlsruhe-oparl-syndication/schema/submitter" term="die-linke"/>
-        <category label="Volt" scheme="https://github.com/karlsruhe-oparl-syndication/schema/submitter" term="volt"/>
-        <category label="Antrag" scheme="https://oparl.org/schema/1.1/Paper" term="Antrag"/>
-        <published>2026-11-11T08:46:12.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Barrierefreie Trinkbrunnen in der Innenstadt]]></title>
@@ -11826,77 +11890,5 @@
         <category label="Gemeinderat" scheme="https://oparl.org/schema/1.1/Organization" term="https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"/>
         <category label="Offenlage" scheme="https://oparl.org/schema/1.1/Paper" term="Offenlage"/>
         <published>2026-07-17T07:21:57.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bereitstellung kostenfreier Hygieneprodukte an Schulen]]></title>
-        <id>https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/100689</id>
-        <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-10497#top22"/>
-        <updated>2026-08-25T06:01:53.000Z</updated>
-        <summary type="html"><![CDATA[Beratungsstand: Beratung im Fachgremium/Arbeitskreis – Der Antrag fordert einen festen Posten von 500 Euro pro weiterführender Schule im Schulbudget für kostenlose Hygieneprodukte sowie die Prüfung von Sponsoringpartnern zur (Teil-)Finanzierung der Sachkosten. Die Verwaltung unterstützt die Zielrichtung, überlässt die Bereitstellung aber eigenverantwortlich den einzelnen Schulen und sieht von zentralen Maßnahmen ab.]]></summary>
-        <content type="html"><![CDATA[
-      <b>Sitzung:</b> Gemeinderat (öffentlich/nicht öffentlich)<br>
-      <b>Datum:</b> 24. März 2026<br>
-      <b>TOP 22:</b> Bereitstellung kostenfreier Hygieneprodukte an Schulen<br>
-      <b>Beratungsstand dieser Sitzung:</b> Beratung im Fachgremium/Arbeitskreis<br><br>
-      <b>Antragstellende Fraktionen:</b> Volt, Die Linke<br><br>
-      <b>KI-generierte Zusammenfassung der Vorlage:</b> Der Antrag fordert einen festen Posten von 500 Euro pro weiterführender Schule im Schulbudget für kostenlose Hygieneprodukte sowie die Prüfung von Sponsoringpartnern zur (Teil-)Finanzierung der Sachkosten. Die Verwaltung unterstützt die Zielrichtung, überlässt die Bereitstellung aber eigenverantwortlich den einzelnen Schulen und sieht von zentralen Maßnahmen ab.<ul><li>Ein Pilotprojekt an zwei Schulen wurde von den Schülerinnen nach Angaben des Antrags sehr gut angenommen und insgesamt als klarer Erfolg bewertet. <small>(Quelle: <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00676780.pdf#page=1">Antrag, S. 1</a>)</small></li><li>Der Antrag führt eine Studie von Plan International (2021) an, wonach sich 70 % der 16- bis 24-Jährigen bei kostenfreier oder günstigerer Verfügbarkeit besser versorgen könnten. <small>(Quelle: <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00676780.pdf#page=1">Antrag, S. 1</a>)</small></li><li>Ohne einheitliche Regelung hänge die Versorgung von der Priorisierung einzelner Schulleitungen oder Schülermitverantwortungen ab und sei weder beständig noch gerecht, so der Antrag. <small>(Quelle: <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00676780.pdf#page=2">Antrag, S. 2</a>)</small></li><li>Die Bestellungen sollen die Schulen nach Bedarf über das städtische Kaufhaus vornehmen, wo im Lauf des Jahres entsprechende Hygieneprodukte bereitstehen sollen. <small>(Quelle: <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00677815.pdf#page=2">Stellungnahme Antrag, S. 2</a>)</small></li></ul><small>Automatisch erstellt; maßgeblich sind die Originalunterlagen.</small><br><br>
-      <b>Anhänge:</b><br> <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00676780.pdf">Antrag (Erstellt am: 24.02.2026, Aktualisiert am: 25.08.2026)</a><br><a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00677580.pdf">Protokoll GR 24.03.2026 TOP 22 (Erstellt am: 09.04.2026, Aktualisiert am: 25.08.2026)</a><br><a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00677815.pdf">Stellungnahme Antrag (Erstellt am: 23.04.2026, Aktualisiert am: 25.08.2026)</a><br><a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00680536.pdf">Protokoll GR 28.07.2026 TOP 36 (Erstellt am: 25.08.2026, Aktualisiert am: 25.08.2026)</a><br>
-    ]]></content>
-        <author>
-            <name>Gemeinderat (öffentlich/nicht öffentlich)</name>
-        </author>
-        <category label="Gemeinderat" scheme="https://oparl.org/schema/1.1/Organization" term="https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"/>
-        <category label="Volt" scheme="https://github.com/karlsruhe-oparl-syndication/schema/submitter" term="volt"/>
-        <category label="Die Linke" scheme="https://github.com/karlsruhe-oparl-syndication/schema/submitter" term="die-linke"/>
-        <category label="Antrag" scheme="https://oparl.org/schema/1.1/Paper" term="Antrag"/>
-        <published>2026-03-02T07:32:12.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bereitstellung kostenfreier Hygieneprodukte an Schulen]]></title>
-        <id>https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/101784</id>
-        <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-10541#top8"/>
-        <updated>2026-08-25T06:01:53.000Z</updated>
-        <summary type="html"><![CDATA[Beratungsstand: verwiesen in den Gemeinderat – Der Antrag fordert einen festen Posten von 500 Euro pro weiterführender Schule im Schulbudget für kostenlose Hygieneprodukte sowie die Prüfung von Sponsoringpartnern zur (Teil-)Finanzierung der Sachkosten. Die Verwaltung unterstützt die Zielrichtung, überlässt die Bereitstellung aber eigenverantwortlich den einzelnen Schulen und sieht von zentralen Maßnahmen ab.]]></summary>
-        <content type="html"><![CDATA[
-      <b>Sitzung:</b> Schulausschuss (öffentlich/nicht öffentlich)<br>
-      <b>Datum:</b> 24. Juni 2026<br>
-      <b>TOP 8:</b> Bereitstellung kostenfreier Hygieneprodukte an Schulen<br>
-      <b>Beratungsstand dieser Sitzung:</b> verwiesen in den Gemeinderat<br><br>
-      <b>Antragstellende Fraktionen:</b> Volt, Die Linke<br><br>
-      <b>KI-generierte Zusammenfassung der Vorlage:</b> Der Antrag fordert einen festen Posten von 500 Euro pro weiterführender Schule im Schulbudget für kostenlose Hygieneprodukte sowie die Prüfung von Sponsoringpartnern zur (Teil-)Finanzierung der Sachkosten. Die Verwaltung unterstützt die Zielrichtung, überlässt die Bereitstellung aber eigenverantwortlich den einzelnen Schulen und sieht von zentralen Maßnahmen ab.<ul><li>Ein Pilotprojekt an zwei Schulen wurde von den Schülerinnen nach Angaben des Antrags sehr gut angenommen und insgesamt als klarer Erfolg bewertet. <small>(Quelle: <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00676780.pdf#page=1">Antrag, S. 1</a>)</small></li><li>Der Antrag führt eine Studie von Plan International (2021) an, wonach sich 70 % der 16- bis 24-Jährigen bei kostenfreier oder günstigerer Verfügbarkeit besser versorgen könnten. <small>(Quelle: <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00676780.pdf#page=1">Antrag, S. 1</a>)</small></li><li>Ohne einheitliche Regelung hänge die Versorgung von der Priorisierung einzelner Schulleitungen oder Schülermitverantwortungen ab und sei weder beständig noch gerecht, so der Antrag. <small>(Quelle: <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00676780.pdf#page=2">Antrag, S. 2</a>)</small></li><li>Die Bestellungen sollen die Schulen nach Bedarf über das städtische Kaufhaus vornehmen, wo im Lauf des Jahres entsprechende Hygieneprodukte bereitstehen sollen. <small>(Quelle: <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00677815.pdf#page=2">Stellungnahme Antrag, S. 2</a>)</small></li></ul><small>Automatisch erstellt; maßgeblich sind die Originalunterlagen.</small><br><br>
-      <b>Anhänge:</b><br> <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00676780.pdf">Antrag (Erstellt am: 24.02.2026, Aktualisiert am: 25.08.2026)</a><br><a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00677580.pdf">Protokoll GR 24.03.2026 TOP 22 (Erstellt am: 09.04.2026, Aktualisiert am: 25.08.2026)</a><br><a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00677815.pdf">Stellungnahme Antrag (Erstellt am: 23.04.2026, Aktualisiert am: 25.08.2026)</a><br><a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00680536.pdf">Protokoll GR 28.07.2026 TOP 36 (Erstellt am: 25.08.2026, Aktualisiert am: 25.08.2026)</a><br>
-    ]]></content>
-        <author>
-            <name>Schulausschuss (öffentlich/nicht öffentlich)</name>
-        </author>
-        <category label="Schulausschuss" scheme="https://oparl.org/schema/1.1/Organization" term="https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32806"/>
-        <category label="Volt" scheme="https://github.com/karlsruhe-oparl-syndication/schema/submitter" term="volt"/>
-        <category label="Die Linke" scheme="https://github.com/karlsruhe-oparl-syndication/schema/submitter" term="die-linke"/>
-        <category label="Antrag" scheme="https://oparl.org/schema/1.1/Paper" term="Antrag"/>
-        <published>2026-05-19T08:36:36.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bereitstellung kostenfreier Hygieneprodukte an Schulen]]></title>
-        <id>https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/102444</id>
-        <link href="https://sitzungskalender.karlsruhe.de/db/ratsinformation/termin-10566#top36"/>
-        <updated>2026-08-25T06:01:53.000Z</updated>
-        <summary type="html"><![CDATA[Der Antrag fordert einen festen Posten von 500 Euro pro weiterführender Schule im Schulbudget für kostenlose Hygieneprodukte sowie die Prüfung von Sponsoringpartnern zur (Teil-)Finanzierung der Sachkosten. Die Verwaltung unterstützt die Zielrichtung, überlässt die Bereitstellung aber eigenverantwortlich den einzelnen Schulen und sieht von zentralen Maßnahmen ab.]]></summary>
-        <content type="html"><![CDATA[
-      <b>Sitzung:</b> Gemeinderat (öffentlich/nicht öffentlich)<br>
-      <b>Datum:</b> 28. Juli 2026<br>
-      <b>TOP 36:</b> Bereitstellung kostenfreier Hygieneprodukte an Schulen<br>
-      
-      <b>Antragstellende Fraktionen:</b> Volt, Die Linke<br><br>
-      <b>KI-generierte Zusammenfassung der Vorlage:</b> Der Antrag fordert einen festen Posten von 500 Euro pro weiterführender Schule im Schulbudget für kostenlose Hygieneprodukte sowie die Prüfung von Sponsoringpartnern zur (Teil-)Finanzierung der Sachkosten. Die Verwaltung unterstützt die Zielrichtung, überlässt die Bereitstellung aber eigenverantwortlich den einzelnen Schulen und sieht von zentralen Maßnahmen ab.<ul><li>Ein Pilotprojekt an zwei Schulen wurde von den Schülerinnen nach Angaben des Antrags sehr gut angenommen und insgesamt als klarer Erfolg bewertet. <small>(Quelle: <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00676780.pdf#page=1">Antrag, S. 1</a>)</small></li><li>Der Antrag führt eine Studie von Plan International (2021) an, wonach sich 70 % der 16- bis 24-Jährigen bei kostenfreier oder günstigerer Verfügbarkeit besser versorgen könnten. <small>(Quelle: <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00676780.pdf#page=1">Antrag, S. 1</a>)</small></li><li>Ohne einheitliche Regelung hänge die Versorgung von der Priorisierung einzelner Schulleitungen oder Schülermitverantwortungen ab und sei weder beständig noch gerecht, so der Antrag. <small>(Quelle: <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00676780.pdf#page=2">Antrag, S. 2</a>)</small></li><li>Die Bestellungen sollen die Schulen nach Bedarf über das städtische Kaufhaus vornehmen, wo im Lauf des Jahres entsprechende Hygieneprodukte bereitstehen sollen. <small>(Quelle: <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00677815.pdf#page=2">Stellungnahme Antrag, S. 2</a>)</small></li></ul><small>Automatisch erstellt; maßgeblich sind die Originalunterlagen.</small><br><br>
-      <b>Anhänge:</b><br> <a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00676780.pdf">Antrag (Erstellt am: 24.02.2026, Aktualisiert am: 25.08.2026)</a><br><a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00677580.pdf">Protokoll GR 24.03.2026 TOP 22 (Erstellt am: 09.04.2026, Aktualisiert am: 25.08.2026)</a><br><a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00677815.pdf">Stellungnahme Antrag (Erstellt am: 23.04.2026, Aktualisiert am: 25.08.2026)</a><br><a href="https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00680536.pdf">Protokoll GR 28.07.2026 TOP 36 (Erstellt am: 25.08.2026, Aktualisiert am: 25.08.2026)</a><br>
-    ]]></content>
-        <author>
-            <name>Gemeinderat (öffentlich/nicht öffentlich)</name>
-        </author>
-        <category label="Gemeinderat" scheme="https://oparl.org/schema/1.1/Organization" term="https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"/>
-        <category label="Volt" scheme="https://github.com/karlsruhe-oparl-syndication/schema/submitter" term="volt"/>
-        <category label="Die Linke" scheme="https://github.com/karlsruhe-oparl-syndication/schema/submitter" term="die-linke"/>
-        <category label="Antrag" scheme="https://oparl.org/schema/1.1/Paper" term="Antrag"/>
-        <published>2026-06-30T06:44:40.000Z</published>
     </entry>
 </feed>
