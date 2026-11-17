@@ -47,6 +47,30 @@
       "order": 4,
       "public": true,
       "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38322",
+      "created": "2026-11-17T11:27:37+01:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104718",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10616",
+      "modified": "2026-11-17T11:27:37+01:00",
+      "name": "Nachhaltiges Parkraumkonzept Stadt Karlsruhe",
+      "number": "3.2",
+      "order": 5,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37695",
+      "created": "2026-10-27T07:57:30+01:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104306",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10616",
+      "modified": "2026-11-17T11:27:37+01:00",
+      "name": "Digitale Parkraumkontrolle",
+      "number": "4",
+      "order": 6,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
     }
   ],
   "created": "2025-10-10T14:47:56+02:00",
@@ -60,7 +84,7 @@
     "fileName": "00682295.pdf",
     "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/682295",
     "mimeType": "application/pdf",
-    "modified": "2026-11-10T11:59:05+01:00",
+    "modified": "2026-11-17T11:34:14+01:00",
     "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
     "type": "https://schema.oparl.org/1.1/File"
   },
@@ -75,7 +99,7 @@
     "subLocality": "",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-11-12T17:52:07+01:00",
+  "modified": "2026-11-17T12:39:08+01:00",
   "name": "Planungsausschuss (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/38449"
