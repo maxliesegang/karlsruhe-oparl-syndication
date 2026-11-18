@@ -1803,5 +1803,12 @@
     "lastAttemptAt": "2026-11-17T13:33:08.563Z",
     "nextRetryAt": "2026-11-24T13:33:08.563Z",
     "reason": "bootstrap"
+  },
+  "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55088": {
+    "attempts": 1,
+    "lastAttemptAt": "2026-11-18T17:20:11.751Z",
+    "nextRetryAt": "2026-11-25T17:20:11.751Z",
+    "status": 401,
+    "reason": "unauthorized"
   }
 }
