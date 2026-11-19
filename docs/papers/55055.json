@@ -8,7 +8,7 @@
       "fileName": "00681621.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681621",
       "mimeType": "application/pdf",
-      "modified": "2026-11-18T09:30:43+01:00",
+      "modified": "2026-11-19T07:35:11+01:00",
       "name": "Beschlussvorlage",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -20,7 +20,7 @@
       "fileName": "00681627.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681627",
       "mimeType": "application/pdf",
-      "modified": "2026-11-18T09:30:43+01:00",
+      "modified": "2026-11-19T07:35:11+01:00",
       "name": "Anlage 2",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -32,7 +32,7 @@
       "fileName": "00681629.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681629",
       "mimeType": "application/pdf",
-      "modified": "2026-11-18T09:30:43+01:00",
+      "modified": "2026-11-19T07:35:11+01:00",
       "name": "Anlage 4",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -44,7 +44,7 @@
       "fileName": "00681630.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681630",
       "mimeType": "application/pdf",
-      "modified": "2026-11-18T09:30:43+01:00",
+      "modified": "2026-11-19T07:35:11+01:00",
       "name": "Anlage 5",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -56,7 +56,7 @@
       "fileName": "00681631.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681631",
       "mimeType": "application/pdf",
-      "modified": "2026-11-18T09:30:43+01:00",
+      "modified": "2026-11-19T07:35:11+01:00",
       "name": "Anlage 6",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -68,7 +68,7 @@
       "fileName": "00681632.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681632",
       "mimeType": "application/pdf",
-      "modified": "2026-11-18T09:30:43+01:00",
+      "modified": "2026-11-19T07:35:11+01:00",
       "name": "Anlage 7",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -80,7 +80,7 @@
       "fileName": "00681926.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681926",
       "mimeType": "application/pdf",
-      "modified": "2026-11-18T09:30:43+01:00",
+      "modified": "2026-11-19T07:35:11+01:00",
       "name": "Anlage 1_Version 22.10.2026",
       "type": "https://schema.oparl.org/1.1/File"
     },
@@ -92,20 +92,8 @@
       "fileName": "00681927.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681927",
       "mimeType": "application/pdf",
-      "modified": "2026-11-18T09:30:43+01:00",
+      "modified": "2026-11-19T07:35:11+01:00",
       "name": "Anlage 3_Version 22.10.2026",
-      "type": "https://schema.oparl.org/1.1/File"
-    },
-    {
-      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00682231.pdf",
-      "created": "2026-11-03T09:19:12+01:00",
-      "date": "2026-11-03",
-      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00682231.pdf",
-      "fileName": "00682231.pdf",
-      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/682231",
-      "mimeType": "application/pdf",
-      "modified": "2026-11-18T09:30:43+01:00",
-      "name": "Protokoll Ausschuss",
       "type": "https://schema.oparl.org/1.1/File"
     }
   ],
@@ -149,12 +137,25 @@
       "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55055",
       "role": "Vorberatung",
       "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104483",
+      "created": "2026-11-03T08:11:20+01:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38121",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10620",
+      "modified": "2026-11-03T08:12:11+01:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/28964"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55055",
+      "role": "Vorberatung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
     }
   ],
   "created": "2026-10-13T12:05:31+02:00",
   "date": "2026-10-13",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55055",
-  "modified": "2026-11-18T09:30:43+01:00",
+  "modified": "2026-11-19T07:35:11+01:00",
   "name": "Neufassung der Benutzungsordnung für Schulräume, Schulhöfe und schulische Außensportanlagen der Stadt Karlsruhe nebst Neufassung der Entgeltordnung gemäß Anlage 1 – gültig ab 01.08.2027",
   "paperType": "Beschlussvorlage",
   "reference": "2026/0847",

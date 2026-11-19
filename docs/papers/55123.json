@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00682363.pdf",
+      "created": "2026-11-09T15:31:26+01:00",
+      "date": "2026-11-09",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00682363.pdf",
+      "fileName": "00682363.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/682363",
+      "mimeType": "application/pdf",
+      "modified": "2026-11-19T14:07:45+01:00",
+      "name": "Beschlussvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104311",
+      "created": "2026-10-27T13:10:34+01:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38236",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10613",
+      "modified": "2026-10-27T13:45:57+01:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55123",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-10-27T10:26:51+01:00",
+  "date": "2026-10-27",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55123",
+  "modified": "2026-11-19T14:07:45+01:00",
+  "name": "Änderung der Besetzung verschiedener Aufsichtsräte nach dem Ausscheiden von Herrn Stadtrat Aljoscha Löffler",
+  "paperType": "Beschlussvorlage",
+  "reference": "2026/0906",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/882972"
+  ]
+}
