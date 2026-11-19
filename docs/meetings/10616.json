@@ -73,6 +73,20 @@
       "type": "https://schema.oparl.org/1.1/AgendaItem"
     }
   ],
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00682553.pdf",
+      "created": "2026-11-17T11:33:31+01:00",
+      "date": "2026-11-17",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00682553.pdf",
+      "fileName": "00682553.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/682553",
+      "mimeType": "application/pdf",
+      "modified": "2026-11-19T15:26:56+01:00",
+      "name": "Nachtrag zur Tagesordnung 26.11.2026 ö",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
   "created": "2025-10-10T14:47:56+02:00",
   "end": "2026-11-26T18:30:00+01:00",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10616",
@@ -84,7 +98,7 @@
     "fileName": "00682295.pdf",
     "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/682295",
     "mimeType": "application/pdf",
-    "modified": "2026-11-17T11:34:14+01:00",
+    "modified": "2026-11-19T15:26:56+01:00",
     "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
     "type": "https://schema.oparl.org/1.1/File"
   },
@@ -99,7 +113,7 @@
     "subLocality": "",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-11-19T14:04:15+01:00",
+  "modified": "2026-11-19T15:38:36+01:00",
   "name": "Planungsausschuss (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/38449"
