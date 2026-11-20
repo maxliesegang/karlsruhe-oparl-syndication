@@ -24846,6 +24846,11 @@
         "same-title"
       ]
     },
+    "52885": {
+      "54740": [
+        "cited-by"
+      ]
+    },
     "52888": {
       "54003": [
         "cites"
@@ -26685,6 +26690,14 @@
         "same-title"
       ]
     },
+    "54740": {
+      "52885": [
+        "cites"
+      ],
+      "54767": [
+        "cites"
+      ]
+    },
     "54744": {
       "55002": [
         "cited-by",
@@ -26755,10 +26768,18 @@
       "52079": [
         "cites"
       ],
+      "54740": [
+        "cited-by"
+      ],
       "55097": [
         "cited-by",
         "reference-family",
         "same-title",
+        "superordinated"
+      ],
+      "55186": [
+        "cited-by",
+        "reference-family",
         "superordinated"
       ]
     },
@@ -27175,6 +27196,12 @@
     "55064": {
       "52491": [
         "cites"
+      ],
+      "55198": [
+        "cited-by",
+        "reference-family",
+        "same-title",
+        "superordinated"
       ]
     },
     "55070": {
@@ -27244,6 +27271,9 @@
         "reference-family",
         "same-title",
         "subordinated"
+      ],
+      "55186": [
+        "same-title"
       ]
     },
     "55098": {
@@ -27256,6 +27286,24 @@
         "cites"
       ],
       "54876": [
+        "cites",
+        "reference-family",
+        "same-title",
+        "subordinated"
+      ]
+    },
+    "55186": {
+      "54767": [
+        "cites",
+        "reference-family",
+        "subordinated"
+      ],
+      "55097": [
+        "same-title"
+      ]
+    },
+    "55198": {
+      "55064": [
         "cites",
         "reference-family",
         "same-title",
