@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-11-21T01:37:17.698Z",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/51018",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/661515",
+      "quote": "Der Bestand an öffentlich zugänglichen Ladepunkten der Stadt Karlsruhe beträgt, Stand August 2024, etwa 430. Davon befinden sich 54 Ladepunkte im öffentlichen Straßenraum"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/661515",
+      "quote": "Private Ladevorgänge die durch private Anschlüsse im öffentlichen Raum durchgeführt werden sollen, bedürfen einer Sondernutzungserlaubnis"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/661515",
+      "quote": "oberhalb der Verkehrsfläche eine Gefahrenstelle für andere Verkehrsteilnehmer entstünde und im Untergrund verlegte Privatleitungen die Unterhaltung der Straßen erschweren würden"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/661515",
+      "quote": "Mittlerweile gibt es Rechtsprechung (VG Frankfurt AZ 12 K 540/21.F), welche die Haltung der Stadt dahingehend bestätigt"
+    }
+  ],
+  "keyPoints": [
+    "Der Bestand an öffentlich zugänglichen Ladepunkten in Karlsruhe beträgt laut Stellungnahme Stand August 2024 etwa 430, davon 54 im öffentlichen Straßenraum.",
+    "Private Ladevorgänge über Anschlüsse im öffentlichen Raum würden eine dauerhafte Reservierung öffentlicher Flächen erfordern und widersprechen dem Grundsatz des Gemeingebrauchs an öffentlichen Straßen.",
+    "Kabelverlegungen über der Verkehrsfläche würden eine Gefahrenstelle für andere Verkehrsteilnehmer darstellen, unterirdische Privatleitungen erschweren die Straßenunterhaltung.",
+    "Ein Urteil des Verwaltungsgerichts Frankfurt bestätigt nach Angaben der Stellungnahme die Haltung der Stadt, Leitungsverlegungen auf öffentlichen Flächen nicht zu genehmigen."
+  ],
+  "model": "mimo-v2.6-pro",
+  "promptVersion": "paper-de-v9",
+  "provider": "opencode-go",
+  "sourceHash": "sha256:f8d044dafe329f8f33fcd45996a621130ab36873305d8c725da4658ee10cc1c2",
+  "summary": "Die Anfrage fragt, wie das Kurzparken zum Laden von Elektrofahrzeugen in Straßen- und Baugebieten ohne Anwohnendenparken verkehrsrechtlich abgesichert werden kann, ohne die Bebauungspläne zu ändern. Das Stadtplanungsamt verweist auf fehlende gesetzliche Grundlagen und stattdessen auf den Ausbau öffentlich zugänglicher Ladepunkte."
+}

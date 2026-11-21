@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-11-21T01:37:17.698Z",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/50861",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/660407",
+      "quote": "Für das Jahr 2024 ergeben sich bis zum Stichtag 18.09.2024 Importe in Höhe von 13,3 TWh und Exporte von 0,4 TWh"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/660407",
+      "quote": "Eine teilweise oder völlige Abkopplung Frankreichs vom europäischen Strommarkt hätte kurzfristig den Anstieg der deutschen Großhandelspreise für Strom zur Folge"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/660407",
+      "quote": "da die Stadtwerke Karlsruhe keine bilateralen Lieferverträge mit französische Atomstromproduzenten haben"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/660407",
+      "quote": "ein hoher Füllstand der deutschen Gasspeicher (ca. 94 %), eine stabile LNG-Versorgung und eine hohe Erneuerbaren-Einspeisung"
+    }
+  ],
+  "keyPoints": [
+    "Für 2024 weist die Stellungnahme bis zum Stichtag 18.09.2024 Stromimporte aus Frankreich in Höhe von 13,3 TWh und Exporte von 0,4 TWh aus.",
+    "Eine Abkopplung Frankreichs würde nach Einschätzung der Stellungnahme kurzfristig die deutschen Großhandelspreise für Strom steigen lassen.",
+    "Die Stadtwerke Karlsruhe hätten von einer Trennung Frankreichs vom europäischen Verteilnetz dieselben Folgen wie andere deutsche Versorger, da keine bilateralen Lieferverträge mit französischen Atomstromproduzenten bestehen.",
+    "Den preistreibenden Effekten der Konflikte stehen laut Stellungnahme unter anderem ein hoher Füllstand der deutschen Gasspeicher von circa 94 Prozent, eine stabile LNG-Versorgung und hohe Erneuerbaren-Einspeisung gegenüber."
+  ],
+  "model": "mimo-v2.6-pro",
+  "promptVersion": "paper-de-v9",
+  "provider": "opencode-go",
+  "sourceHash": "sha256:e4c8dcc3475c9d8dfb1bc3175c27682b4d686c78c32d0f55a6685d129982b8b4",
+  "summary": "Die Anfrage fragt die Verwaltung nach den Auswirkungen einer möglichen Abkopplung Frankreichs vom deutschen Strom-Großhandel sowie der Konflikte in Nahost und der Ukraine auf Gas- und Strompreise und nach Strategien der Stadtwerke dagegen. Die Stellungnahme der SWK hält eine Abkopplung für eher unwahrscheinlich und verweist auf eine diversifizierte Beschaffung, ein Risikokomitee und den Ausbau eigener Erzeugung."
+}
