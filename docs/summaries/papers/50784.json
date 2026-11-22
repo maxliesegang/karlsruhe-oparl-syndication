@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-11-22T07:00:25.939Z",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/50784",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/659818",
+      "quote": "Nachdem die Stadtwerke eine rechtzeitige Beantragung von Fördermitteln verpasst haben und es vermehrt Rückmeldungen gibt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/660027",
+      "quote": "die von den Stadtwerken beauftragte Baufirma Ende 2023 Insolvenz angemeldet, wodurch es zu erheblichen Verzögerungen im Bau kam"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/660027",
+      "quote": "Privatkunden und kleinere Geschäftskunden: - Oststadt - Am Rüppurrer Schloss 5 - Genossenschaft für Wohnungsbau, Südstadt"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/660027",
+      "quote": "können aufgrund fehlender Verbindungen in der Infrastruktur derzeit keine weiteren Kunden an das Glasfasernetz anschließen"
+    }
+  ],
+  "keyPoints": [
+    "Der Anfrage zufolge wurden rechtzeitig keine Fördermittel für den Glasfaserausbau beantragt, und es gebe Rückmeldungen, dass sowohl Privat- als auch Geschäftskunden keinen Anschluss erhalten könnten.",
+    "Die von den Stadtwerken beauftragte Baufirma meldete Ende 2023 Insolvenz an, wodurch es zu erheblichen Verzögerungen im Bau kam; zuvor war bereits eine Teilkündigung vereinbart worden.",
+    "Für Privat- und kleinere Geschäftskunden werden Glasfaseranschlüsse in der Oststadt, am Rüppurrer Schloss, bei der Genossenschaft für Wohnungsbau in der Südstadt und auf einer Volkswohnungsliegenschaft in der Woerrishofferstraße angeboten.",
+    "Seit August 2022 wurden nach Angaben der Stadtwerke 465 Haushalte an das Netz angeschlossen, zuletzt standen keine weiteren Anschlüsse wegen fehlender Verbindungen in der Infrastruktur zur Verfügung."
+  ],
+  "model": "mimo-v2.6-pro",
+  "promptVersion": "paper-de-v9",
+  "provider": "opencode-go",
+  "sourceHash": "sha256:d263b5e7c576ba8aaa757bf39f3c3f4c49314c6994b37bff1f9135884c686241",
+  "summary": "Die Anfrage fragt den Stand des Glasfaserausbaus der Stadtwerke Karlsruhe ab: in welchen Stadtteilen es Anschlüsse für Privat- und Geschäftskunden gibt, wie viele realisiert wurden und welcher Zeitplan gilt. Die Stellungnahme führt aus, dass die beauftragte Baufirma insolvent wurde und der Ausbau dadurch verzögert ist."
+}
