@@ -1,16 +1,11 @@
 {
-  "generatedAt": "2026-11-12T16:55:20.265Z",
+  "generatedAt": "2026-11-23T14:48:12.121Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55049",
   "keyPointSources": [
     {
       "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681596",
       "page": 3,
-      "quote": "An Halbtagsgrundschulen würde demnach eine Betreuung in den Modulen 1,2,3 insgesamt 277 EUR inkl. Mittagessen von 77 Euro kosten"
-    },
-    {
-      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681596",
-      "page": 4,
-      "quote": "Die Verwaltung empfiehlt, die Entgelte für die Ferienbetreuung moderat um 5 EUR pro Betreuungstag, anzuheben"
+      "quote": "eine Betreuung in den Modulen 1,2,3 insgesamt 277 EUR inkl. Mittagessen von 77 Euro kosten (im Schuljahr 2026/27 sind es aktuell 227 Euro)"
     },
     {
       "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681596",
@@ -21,17 +16,22 @@
       "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681596",
       "page": 2,
       "quote": "Dieser beträgt bei Grundschulkindern (ohne Förderbedarf) mit Rechtsanspruch 2,80 EUR pro Stunde für maximal acht Stunden am Tag abzüglich des Unterrichts"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681596",
+      "page": 3,
+      "quote": "Das Modul 3 ist kostenintensiver, da die letzte halbe Stunde nicht durch das Land gefördert wird"
     }
   ],
   "keyPoints": [
-    "An Halbtagsgrundschulen kämen für die Module 1 bis 3 samt Mittagessen monatlich 277 Euro zusammen, das Mittagessen kostet darin 77 Euro.",
-    "Für die Ferienbetreuung sind 125 Euro je Woche vorgesehen; die Verwaltung empfiehlt eine Anhebung um 5 Euro pro Betreuungstag.",
+    "An Halbtagsgrundschulen läge die Betreuung in den Modulen 1 bis 3 inklusive Mittagessen bei 277 Euro monatlich, im Schuljahr 2026/27 sind es 227 Euro.",
     "Als jährlicher Ertrag aus Elternentgelten und Landesförderung für die Klassenstufen 1 und 2 werden 4.082.140,20 Euro ausgewiesen.",
-    "Ein Entwurf zur Landesförderung sieht für Grundschulkinder mit Rechtsanspruch ohne Förderbedarf einen Beitrag von 2,80 Euro je Stunde vor."
+    "Eine finale Verwaltungsvorschrift zur Landesförderung liegt noch nicht vor; im beschlussreifen Entwurf sind für Grundschulkinder ohne Förderbedarf mit Rechtsanspruch 2,80 EUR pro Stunde vorgesehen.",
+    "Das Modul 3 fällt teurer aus, weil dessen letzte halbe Stunde keine Landesförderung erhält, und für Modul 4 an Ganztagsgrundschulen ist bewusst ein moderater Elternbeitrag vorgesehen."
   ],
   "model": "mimo-v2.6-pro",
   "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
-  "sourceHash": "sha256:ae4aad9a3a0bb65d5a05c630eb62c9b63c86cbb80706d5b594a71424a5a0fbc8",
-  "summary": "Die Vorlage schlägt vor, die Elternentgelte und Vertragsbedingungen für die Modulare Schulkindbetreuung und die Ferienbetreuung an öffentlichen Grundschulen ab dem Schuljahr 2027/28 in der von der Verwaltung empfohlenen Variante 3 neu festzulegen. Ziel ist eine ausgewogene Beteiligung von Land, Eltern und Stadt, wobei die Kalkulation erneut geprüft werden soll, sobald die Regeln zur Landesförderung vorliegen."
+  "sourceHash": "sha256:b576504ff363edf81b311392ca8c65eb52fc656e1933fbc2f3af821785c1ea64",
+  "summary": "Die Vorlage schlägt vor, ab dem Schuljahr 2027/28 neue Elternentgelte und Vertragsbedingungen für die Modulare Schulkindbetreuung und die Ferienbetreuung an öffentlichen Grundschulen festzulegen. Die Verwaltung empfiehlt die Entgeltvariante 3 mit moderaten Anhebungen und einer weiterhin bestehenden Kostenbeteiligung der Stadt."
 }

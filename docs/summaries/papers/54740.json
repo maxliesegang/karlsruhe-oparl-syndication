@@ -1,37 +1,33 @@
 {
-  "generatedAt": "2026-11-20T17:03:35.197Z",
+  "generatedAt": "2026-11-23T14:48:12.121Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54740",
   "keyPointSources": [
     {
       "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679786",
       "page": 6,
-      "quote": "Unter der Annahme, dass fünf Einsatztage erforderlich sind, um eine belastbare und evaluationsfähige Datengrundlage zu schaffen"
+      "quote": "belaufen sich die Gesamtkosten für die Stufe 1 somit auf 39.151,00 Euro"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679786",
+      "page": 7,
+      "quote": "Die laufenden Kosten für das Hosting der Hard- und Software betragen beim Kauf der Technik zusätzlich jedes weitere Jahr ebenfalls 22.200 Euro"
     },
     {
       "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679786",
       "page": 6,
-      "quote": "sich die Gesamtkosten für die Stufe 1 somit auf 39.151,00 Euro"
+      "quote": "Zuzüglich laufender Kosten für das Hosting der Parkscheinautomaten in derzeit nicht bekannter Höhe"
     },
-    {
-      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679786",
-      "page": 7,
-      "quote": "Für die Beschaffung der Hardware aus der Stufe 2 (Auf- und Einbauten am Fahrzeug) werden die"
-    },
-    {
-      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679786",
-      "page": 7,
-      "quote": "Die Deckung der Kosten der Stufe 3 wird zu gegebenem Zeitpunkt in einer gesonderten Vorlage dargestellt"
-    }
+    null
   ],
   "keyPoints": [
-    "Die erste Stufe ist als Erprobung mit angemietetem Fahrzeug angelegt, wobei die Verwaltung von voraussichtlich fünf Einsatztagen ausgeht, um eine evaluationsfähige Datengrundlage zu schaffen.",
-    "Für die erste Stufe werden Gesamtkosten von 39.151,00 Euro genannt, darunter einmalige IT-Integrationskosten von 2.796,50 Euro sowie 7.270,90 Euro je Einsatztag für Anmietung von Fahrzeug und Personal.",
-    "Für die Beschaffung der Hardware mit Auf- und Einbau auf ein vorhandenes Fahrzeug sind 146.620 Euro vorgesehen, hinzu kommen 22.200 Euro Hostingkosten pro Jahr.",
-    "Die Umrüstung der Parkscheinautomaten in der dritten Stufe ist mit 814.000 Euro angesetzt, die Kosten deckung soll zu gegebenem Zeitpunkt in einer gesonderten Vorlage dargestellt werden."
+    "Die erste Stufe sieht eine kurzfristige Anmietung eines Scan-Fahrzeugs für voraussichtlich fünf Einsatztage vor, etwa spieltagsbezogen im Umfeld des BBBank Wildparks; die Kosten belaufen sich laut Vorlage auf 39.151,00 Euro.",
+    "Für die zweite Stufe ist der Einbau eigener Technik in ein vorhandenes Fahrzeug vorgesehen, mit einmaligen Kosten von 152.050 Euro und jährlichen Hostingkosten von 22.200 Euro.",
+    "Die dritte Stufe mit der Umrüstung der Parkscheinautomaten auf 814.000 Euro veranschlagt, wobei zusätzliche laufende Kosten derzeit offen sind.",
+    "Bundesrechtliche Vorgaben zur Sichtkontrolle bei nicht eindeutig feststellbarer Parkberechtigung mindern den Effizienzgewinn und verändern die ursprünglichen Annahmen zur Wirtschaftlichkeit."
   ],
   "model": "mimo-v2.6-pro",
   "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
-  "sourceHash": "sha256:48890ceef6dfd97850deb2a3a6b2eca3844478454d39f860f7d2dac9ebbc960a",
-  "summary": "Die Vorlage schlägt vor, die Parkraumkontrolle mit einem Scan-Fahrzeug schrittweise einzuführen, von Testeinsätzen mit angemietetem Fahrzeug über ein eigenes Fahrzeug bis zu den Bewohnerparkzonen. Vor jeder Stufe sollen Wirkungsgrad und Wirtschaftlichkeit bewertet werden, wobei die Verwaltung auf bundesrechtlich vorgeschriebene Sichtkontrollen hinweist."
+  "sourceHash": "sha256:1dc7b5a6c1f7fa136f6d07273d8d2eee890b6169ce7bab5a0c34e09b3773c9f0",
+  "summary": "Die Vorlage schlägt vor, die Parkraumkontrolle stufenweise mit einem Scan-Fahrzeug zu digitalisieren, das Kennzeichen parkender Fahrzeuge erfasst und mit Parkberechtigungen abgleicht. Die Verwaltung empfiehlt, vor jeder weiteren Stufe Wirkungsgrad und Wirtschaftlichkeit zu evaluieren und dann neu zu beschließen."
 }
