@@ -1,7 +1,12 @@
 {
-  "generatedAt": "2026-11-23T14:48:12.121Z",
+  "generatedAt": "2026-11-24T15:00:53.719Z",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54740",
   "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679786",
+      "page": 1,
+      "quote": "Gesamtkosten: > 1,1 Mio. € Jährliche/r Budgetbedarf/Folgekosten: > 22.200 €"
+    },
     {
       "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679786",
       "page": 6,
@@ -9,25 +14,24 @@
     },
     {
       "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679786",
-      "page": 7,
-      "quote": "Die laufenden Kosten für das Hosting der Hard- und Software betragen beim Kauf der Technik zusätzlich jedes weitere Jahr ebenfalls 22.200 Euro"
+      "page": 2,
+      "quote": "bei nicht eindeutig feststellbarer Parkberechtigung eine zusätzliche Sichtkontrolle vorgeschrieben"
     },
     {
       "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/679786",
-      "page": 6,
-      "quote": "Zuzüglich laufender Kosten für das Hosting der Parkscheinautomaten in derzeit nicht bekannter Höhe"
-    },
-    null
+      "page": 7,
+      "quote": "Eine Refinanzierung der Kosten der Stufe 1 sowie der jährlichen Kosten von 22.200 Euro bei Stufe 2 erfolgt durch entsprechende Bußgeldeinnahmen"
+    }
   ],
   "keyPoints": [
-    "Die erste Stufe sieht eine kurzfristige Anmietung eines Scan-Fahrzeugs für voraussichtlich fünf Einsatztage vor, etwa spieltagsbezogen im Umfeld des BBBank Wildparks; die Kosten belaufen sich laut Vorlage auf 39.151,00 Euro.",
-    "Für die zweite Stufe ist der Einbau eigener Technik in ein vorhandenes Fahrzeug vorgesehen, mit einmaligen Kosten von 152.050 Euro und jährlichen Hostingkosten von 22.200 Euro.",
-    "Die dritte Stufe mit der Umrüstung der Parkscheinautomaten auf 814.000 Euro veranschlagt, wobei zusätzliche laufende Kosten derzeit offen sind.",
-    "Bundesrechtliche Vorgaben zur Sichtkontrolle bei nicht eindeutig feststellbarer Parkberechtigung mindern den Effizienzgewinn und verändern die ursprünglichen Annahmen zur Wirtschaftlichkeit."
+    "Insgesamt nennt die Vorlage Gesamtkosten von mehr als 1,1 Mio. Euro sowie jährliche Folgekosten von mehr als 22.200 Euro.",
+    "Die erste Stufe ist als Anmietung eines Scan-Fahrzeugs für voraussichtlich fünf Einsatztage geplant, für die Gesamtkosten von 39.151,00 Euro veranschlagt sind.",
+    "Bundesrechtliche Vorgaben nach § 63g Straßenverkehrsgesetz verlangen bei nicht eindeutig feststellbarer Parkberechtigung eine zusätzliche Sichtkontrolle, was die ursprünglichen Annahmen zur Wirtschaftlichkeit verändert.",
+    "Die Kosten der ersten Stufe sowie die jährlichen Kosten der zweiten Stufe sollen durch entsprechende Bußgeldeinnahmen refinanziert werden."
   ],
   "model": "mimo-v2.6-pro",
   "promptVersion": "paper-de-v9",
   "provider": "opencode-go",
-  "sourceHash": "sha256:1dc7b5a6c1f7fa136f6d07273d8d2eee890b6169ce7bab5a0c34e09b3773c9f0",
-  "summary": "Die Vorlage schlägt vor, die Parkraumkontrolle stufenweise mit einem Scan-Fahrzeug zu digitalisieren, das Kennzeichen parkender Fahrzeuge erfasst und mit Parkberechtigungen abgleicht. Die Verwaltung empfiehlt, vor jeder weiteren Stufe Wirkungsgrad und Wirtschaftlichkeit zu evaluieren und dann neu zu beschließen."
+  "sourceHash": "sha256:e9a85deab3256b036cf1000a459f21bf7ef839ec82bc003b943959c7f0add359",
+  "summary": "Die Vorlage schlägt vor, die digitale Parkraumüberwachung mittels Scan-Fahrzeug stufenweise einzuführen, beginnend mit einer kurzfristigen Anmietung zur Erprobung unter realen Bedingungen. Vor jeder weiteren Stufe sollen Wirkungsgrad und Wirtschaftlichkeit evaluiert und entsprechend neu beschlossen werden."
 }

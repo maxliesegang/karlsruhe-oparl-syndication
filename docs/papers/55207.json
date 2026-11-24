@@ -1,0 +1,58 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00682701.pdf",
+      "created": "2026-11-24T06:45:32+01:00",
+      "date": "2026-11-24",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00682701.pdf",
+      "fileName": "00682701.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/682701",
+      "mimeType": "application/pdf",
+      "modified": "2026-11-24T14:11:22+01:00",
+      "name": "Änderungssantrag",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00682709.pdf",
+      "created": "2026-11-24T10:49:47+01:00",
+      "date": "2026-11-24",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00682709.pdf",
+      "fileName": "00682709.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/682709",
+      "mimeType": "application/pdf",
+      "modified": "2026-11-24T14:11:22+01:00",
+      "name": "Stellungnahme Antrag KAL",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104780",
+      "created": "2026-11-24T08:23:26+01:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38348",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10613",
+      "modified": "2026-11-24T11:20:57+01:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/32130"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55207",
+      "role": "Entscheidung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-11-24T06:41:23+01:00",
+  "date": "2026-11-24",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55207",
+  "modified": "2026-11-24T15:19:25+01:00",
+  "name": "City Tax an neue Rahmenbedingungen anpassen",
+  "paperType": "Änderungs-/Ergänzungsantrag",
+  "reference": "2026/0619/1",
+  "subordinatedPaper": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54808"
+  ],
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/882972"
+  ]
+}

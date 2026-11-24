@@ -1,18 +1,6 @@
 {
   "auxiliaryFile": [
     {
-      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681068.pdf",
-      "created": "2026-09-25T10:17:11+02:00",
-      "date": "2026-09-25",
-      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681068.pdf",
-      "fileName": "00681068.pdf",
-      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681068",
-      "mimeType": "application/pdf",
-      "modified": "2026-11-06T12:18:44+01:00",
-      "name": "Visualisierung",
-      "type": "https://schema.oparl.org/1.1/File"
-    },
-    {
       "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681489.pdf",
       "created": "2026-10-07T15:28:34+02:00",
       "date": "2026-10-07",
@@ -20,8 +8,44 @@
       "fileName": "00681489.pdf",
       "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681489",
       "mimeType": "application/pdf",
-      "modified": "2026-11-06T12:18:44+01:00",
+      "modified": "2026-11-24T12:12:45+01:00",
       "name": "Beschlussvorlage Agri-PV-Anlage Rippertfeld",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00682050.pdf",
+      "created": "2026-10-26T13:53:48+01:00",
+      "date": "2026-10-26",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00682050.pdf",
+      "fileName": "00682050.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/682050",
+      "mimeType": "application/pdf",
+      "modified": "2026-11-24T12:12:45+01:00",
+      "name": "2026/0268/1 Beschlussvorlage Agri-PV-Anlage Rippertfeld Juli 2026",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00682051.pdf",
+      "created": "2026-10-26T14:15:32+01:00",
+      "date": "2026-10-26",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00682051.pdf",
+      "fileName": "00682051.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/682051",
+      "mimeType": "application/pdf",
+      "modified": "2026-11-24T12:12:45+01:00",
+      "name": "Agri-PV Rippertfeld Projektskizze Greenovative",
+      "type": "https://schema.oparl.org/1.1/File"
+    },
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00682718.pdf",
+      "created": "2026-11-24T12:12:37+01:00",
+      "date": "2026-11-24",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00682718.pdf",
+      "fileName": "00682718.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/682718",
+      "mimeType": "application/pdf",
+      "modified": "2026-11-24T12:12:54+01:00",
+      "name": "Visualisierung",
       "type": "https://schema.oparl.org/1.1/File"
     }
   ],
@@ -39,12 +63,25 @@
       "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54886",
       "role": "Anhörung",
       "type": "https://schema.oparl.org/1.1/Consultation"
+    },
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104586",
+      "created": "2026-11-11T14:42:19+01:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37957",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10773",
+      "modified": "2026-11-11T14:49:11+01:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/34322"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54886",
+      "role": "Anhörung",
+      "type": "https://schema.oparl.org/1.1/Consultation"
     }
   ],
   "created": "2026-08-27T15:07:52+02:00",
   "date": "2026-09-22",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/54886",
-  "modified": "2026-11-06T12:18:44+01:00",
+  "modified": "2026-11-24T12:12:45+01:00",
   "name": "Agri-Photovoltaikanlage Rippertfeld",
   "paperType": "Beschlussvorlage",
   "reference": "2026/0268/2",
