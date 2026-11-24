@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-11-24T02:59:27.843Z",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/50497",
+  "keyPointSources": [
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/658740",
+      "quote": "Die Parkhäuser „ScheckInCenter „und „Amalienbadgarage“ sind nicht in das städtische Parkleitsystem integriert"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/658740",
+      "quote": "Dieses wurde im Jahr 2004 für 85.000 Euro umgesetzt und wird – wie zuletzt nach dem Abriss des Parkhauses Volksbank – auch aktualisiert"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/658740",
+      "quote": "Zum einen über das Transparenzportal der Stadt, zum anderen aber auch über die erwähnte ParkAPI von MobiDataBW"
+    },
+    {
+      "file": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/658740",
+      "quote": "So hat beispielsweise die Stadt Chemnitz ihr Parkleitsystem erst kürzlich abgebaut"
+    }
+  ],
+  "keyPoints": [
+    "Die Parkhäuser ScheckInCenter und Amalienbadgarage sind nicht in das städtische Parkleitsystem integriert.",
+    "Bereits 2002 wurden für Durlach drei Varianten geprüft; umgesetzt wurde ein statisches Wegweisungssystem, das 2004 85.000 Euro kostete und seither aktualisiert wird.",
+    "Die erfassten Parkdaten werden laut Stellungnahme neben dem städtischen Transparenzportal auch über die ParkAPI von MobiDataBW bereitgestellt.",
+    "Die Stellungnahme verweist darauf, dass die Stadt Chemnitz ihr Parkleitsystem in jüngerer Zeit abgebaut hat."
+  ],
+  "model": "mimo-v2.6-pro",
+  "promptVersion": "paper-de-v9",
+  "provider": "opencode-go",
+  "sourceHash": "sha256:b1a9491fca0d2531d1518a41594c7a584c911b597f08c41b659e35b6b24ec93f",
+  "summary": "Der Antrag will die beiden Durlacher Parkhäuser in die online dargestellte Parkhausbelegung aufnehmen und deren Daten über eine offene, kostenfrei nutzbare Schnittstelle für Apps bereitstellen. Die Stellungnahme führt aus, dass die Parkdaten Karlsruhes bereits offen verfügbar sind, für die Anbindung der Durlacher Parkhäuser jedoch keine Kapazitäten bestehen und Parkleitsysteme mittelfristig entbehrlich werden."
+}
