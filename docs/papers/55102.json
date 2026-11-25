@@ -1,0 +1,43 @@
+{
+  "auxiliaryFile": [
+    {
+      "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00681835.pdf",
+      "created": "2026-10-20T11:25:35+02:00",
+      "date": "2026-10-20",
+      "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00681835.pdf",
+      "fileName": "00681835.pdf",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/681835",
+      "mimeType": "application/pdf",
+      "modified": "2026-11-25T06:32:42+01:00",
+      "name": "Informationsvorlage",
+      "type": "https://schema.oparl.org/1.1/File"
+    }
+  ],
+  "body": "https://web2.karlsruhe.de/ris/oparl/bodies/0001",
+  "consultation": [
+    {
+      "agendaItem": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104095",
+      "created": "2026-10-20T13:41:37+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38200",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10621",
+      "modified": "2026-11-16T08:37:21+01:00",
+      "organization": [
+        "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/33195"
+      ],
+      "paper": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55102",
+      "role": "Kenntnisnahme",
+      "type": "https://schema.oparl.org/1.1/Consultation"
+    }
+  ],
+  "created": "2026-10-20T11:17:10+02:00",
+  "date": "2026-10-20",
+  "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/papers/vo/55102",
+  "modified": "2026-11-25T06:32:42+01:00",
+  "name": "Projekt „Karlsruhe barrierefrei“ – Web-App",
+  "paperType": "Informationsvorlage",
+  "reference": "2026/0887",
+  "type": "https://schema.oparl.org/1.1/Paper",
+  "underDirectionOf": [
+    "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/at/882967"
+  ]
+}
