@@ -1,7 +1,69 @@
 {
+  "agendaItem": [
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38197",
+      "created": "2026-10-20T13:41:37+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104094",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10621",
+      "modified": "2026-11-16T08:37:21+01:00",
+      "name": "Jahresbericht 2025 des Beirates für Menschen mit Behinderungen und der Beauftragten für die Belange von Menschen mit Behinderungen in der Stadt Karlsruhe",
+      "number": "1",
+      "order": 1,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38219",
+      "created": "2026-10-22T14:21:32+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104164",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10621",
+      "modified": "2026-11-16T08:37:22+01:00",
+      "name": "Geflüchtete in Karlsruhe",
+      "number": "2",
+      "order": 2,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/38200",
+      "created": "2026-10-20T13:41:37+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104095",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10621",
+      "modified": "2026-11-16T08:37:21+01:00",
+      "name": "Projekt „Karlsruhe barrierefrei“ – Web-App",
+      "number": "3",
+      "order": 3,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    },
+    {
+      "consultation": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/consultations/37897",
+      "created": "2026-10-20T13:41:37+02:00",
+      "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/agendaitems/104093",
+      "meeting": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10621",
+      "modified": "2026-11-16T08:38:17+01:00",
+      "name": "Ambulante psychotherapeutische Versorgung in Karlsruhe - Berichtsauftrag und Datengrundlage",
+      "number": "4",
+      "order": 4,
+      "public": true,
+      "type": "https://schema.oparl.org/1.1/AgendaItem"
+    }
+  ],
   "created": "2025-10-10T14:53:41+02:00",
   "end": "2026-12-02T19:30:00+01:00",
   "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/meetings/10621",
+  "invitation": {
+    "accessUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/a/00682178.pdf",
+    "created": "2026-10-29T14:16:28+01:00",
+    "date": "2026-10-29",
+    "downloadUrl": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/downloadfiles/00682178.pdf",
+    "fileName": "00682178.pdf",
+    "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/files/682178",
+    "mimeType": "application/pdf",
+    "modified": "2026-11-25T06:33:57+01:00",
+    "name": "Tagesordnung (öffentlich) Ausschuss/Ortschaftsrat",
+    "type": "https://schema.oparl.org/1.1/File"
+  },
   "location": {
     "created": "2022-12-12T11:11:26+01:00",
     "id": "https://web2.karlsruhe.de/ris/oparl/bodies/0001/locations/rm/67907",
@@ -13,7 +75,7 @@
     "subLocality": "",
     "type": "https://schema.oparl.org/1.1/Location"
   },
-  "modified": "2026-11-16T08:39:29+01:00",
+  "modified": "2026-11-25T06:33:57+01:00",
   "name": "Sozialausschuss (öffentlich/nicht öffentlich)",
   "organization": [
     "https://web2.karlsruhe.de/ris/oparl/bodies/0001/organizations/gr/33195"
